@@ -1,0 +1,562 @@
+{
+  "paper_id": "P072",
+  "reviewed_at_utc": "2026-10-10T18:21:04.087642+00:00",
+  "decision": "central success",
+  "full_reproduction": false,
+  "hash_checks": [
+    {
+      "path": "papers\\P072_levers_persuasion\\audits\\P072-audit-001\\audit_checks.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\audits\\P072-audit-001\\AUDIT_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\audits\\P072-audit-001\\AUDIT_RESULT.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\audits\\P072-audit-001\\auditor_source.py",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\audits\\P072-audit-001\\independent_computed_tables.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\audits\\P072-audit-001\\independent_model_statistics.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\audits\\P072-audit-001\\independent_target_decisions.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\environment\\failed_run_runner_hash_verification.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\environment\\reader_import_failed.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\environment\\schema_location_failure.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\environment\\source_mapping_correction_before_run003.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\inputs\\original_targets.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\inputs\\original_targets_draft.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\PREREGISTRATION.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\REPORT.md",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\REVIEW_STATUS.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\runs\\P072-central-001\\analysis_designs.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\runs\\P072-central-001\\FAILED_SETUP.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\runs\\P072-central-001\\runner_before_serializer_correction.py",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\runs\\P072-central-002\\analysis_designs.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\runs\\P072-central-002\\attrition_details.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\runs\\P072-central-002\\computed_tables.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\runs\\P072-central-002\\metrics.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\runs\\P072-central-002\\model_statistics.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\runs\\P072-central-002\\RUN_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\runs\\P072-central-002\\runner_before_source_mapping_correction.py",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\runs\\P072-central-002\\target_decisions.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\runs\\P072-central-003\\analysis_designs.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\runs\\P072-central-003\\attrition_details.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\runs\\P072-central-003\\computed_tables.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\runs\\P072-central-003\\metrics.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\runs\\P072-central-003\\model_statistics.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\runs\\P072-central-003\\RUN_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\runs\\P072-central-003\\runner_source.py",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\runs\\P072-central-003\\target_decisions.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\SOURCE_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\cpu_routes_request_log.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\estimatr_lm_robust_reference.html",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\estimatr_v1.0.4_lm_robust.R",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\initial_screen_request_log.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_abs.html",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_analysis_README.R",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_author_page.html",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_citation_raw.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_final_citation_raw.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_initial_data_commit_README.md",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_initial_data_tree.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_original_analysis.R",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_original_supplement.pdf",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_original_supplement_text.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_osf_preprint_metadata.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_README.md",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_repo_commits.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_repo_metadata.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_study1_data.rds",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_study2_data.rds",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_study3_data.rds",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_tree.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_v1.html",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\narwhals-2.27.1-py3-none-any.whl",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\narwhals_pypi_metadata.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\0-1_descriptives.R",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\0_attrition_checks.R",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\1_main_analysis_scaling_curve.R",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\2_main_analysis_additional.R",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\3_main_analysis_scaling_curve_accuracy.R",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\4_results_tables.R",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\5-1_additional_plots.R",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\5_main_plots.R",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\6_fact_checker_validation.R",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\7_demographics.R",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\8_random_forest_analysis.R",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\function_interaction_tuning_type.R",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\function_interaction_tuning_type_accuracy.R",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\function_scaling_curve.R",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\function_scaling_curve_accuracy.R",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\attrition__study1.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\attrition__study2.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\attrition__study3.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\condition_ns__study1.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\condition_ns__study2.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\condition_ns__study3.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\results_tables__1_static_and_durability.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\results_tables__2_scaling_curve_persuasion.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\results_tables__3_4o_new_vs_others.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\results_tables__4_PPT.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\results_tables__5_personalization.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\results_tables__6_information_density__DiDs.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\results_tables__6_information_density__prompts.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\results_tables__8_deceptive_prompt.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\participant_schema_review.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\pyreadr-0.5.7-cp312-cp312-win_amd64.whl",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\pyreadr_pypi_metadata.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\reader_warning_review.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\supplement_page14.png",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\supplement_page26.png",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\supplement_page30.png",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\supplement_page61.png",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\target_transcription_source_check.json",
+      "passed": true
+    },
+    {
+      "path": "scripts\\p072_audit.py",
+      "passed": true
+    },
+    {
+      "path": "scripts\\p072_central.py",
+      "passed": true
+    },
+    {
+      "path": "scripts\\p072_preregister.py",
+      "passed": true
+    },
+    {
+      "path": "scripts\\p072_transcribe_targets.py",
+      "passed": true
+    },
+    {
+      "path": "scripts\\p072_verify_target_transcription.py",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\frozen_primary_files_unchanged.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\initial_version_comparison.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\cpu_routes_request_log.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\first_attrition__study1.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\first_attrition__study2.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\first_attrition__study3.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\first_results_tables__1_static_and_durability.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\first_results_tables__2_scaling_curve_persuasion.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\first_results_tables__3_4o_new_vs_others.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\first_results_tables__4_PPT.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\first_results_tables__5_personalization.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\first_results_tables__6_information_density__DiDs.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\first_results_tables__6_information_density__prompts.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\first_results_tables__8_deceptive_prompt.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\july18_attrition__study1.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\july18_attrition__study2.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\july18_attrition__study3.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\july18_original_supplement.pdf",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\july18_page1.png",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\july18_page12.png",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\july18_repo_tree.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\july18_results_tables__1_static_and_durability.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\july18_results_tables__2_scaling_curve_persuasion.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\july18_results_tables__3_4o_new_vs_others.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\july18_results_tables__4_PPT.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\july18_results_tables__5_personalization.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\july18_results_tables__6_information_density__DiDs.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\july18_results_tables__6_information_density__prompts.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\july18_results_tables__8_deceptive_prompt.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\sources\\july18_supplement_text.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\version_review\\VERSION_REVIEW.md",
+      "passed": true
+    }
+  ],
+  "hash_checks_passed": 135,
+  "preregistered_gates": 2470,
+  "independent_checks": 14552,
+  "original_version": "5September2025 supplement chosen before outcomes;86 non-count tables identical in4July and18July source,7 later sample-count tables explicitly selected before outcomes",
+  "source_mapping_correction_after_outcomes_disclosed": true,
+  "source_choices_reviewed": [
+    "Unclustered HC2 and Student-t inference",
+    "Source-defined duplicate control rows",
+    "Original complete-follow-up filtering",
+    "S6/S7 exact original unchanged model labels",
+    "All sources/earlier failed attempts unchanged"
+  ],
+  "omissions": "No full-paper or fresh-model claim; scaling Bayesian/claim-count/dialogue-text/secondary informativeness analyses omitted prospectively",
+  "report_sha256": "eea82dbfe1d2a7c18f008f196df2539f738a6b81b3d7fabf7f0a43bb966c94c4"
+}

@@ -1,0 +1,14 @@
+{
+  "run_id": "P065-central-001",
+  "paper_id": "P065",
+  "start_utc": "2026-10-10T13:53:59.688466+00:00",
+  "command": [
+    "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "{{REPRODUCTION_ROOT}}\\scripts\\run_empathy_meta_analysis.py"
+  ],
+  "algorithm": "RevMan 5 generic IV DerSimonian-Laird",
+  "input_sha256": "db8183c5d0ff2fa15f669b94ff2fd4c662971c5a05209887baeae4e28933bd42",
+  "preregistration_sha256": "07e0501391e12fe7d86f6e4aeb0f5b7d4fef2ed6cc33086c244265475222c36f",
+  "targets_sha256": "bf15292e4c366ad4df7ea30b619b1ab53c947ed03fc0fbbb1aadd62599145065",
+  "paid_service_cost": 0
+}

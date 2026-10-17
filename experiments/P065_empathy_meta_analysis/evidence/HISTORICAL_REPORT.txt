@@ -1,0 +1,45 @@
+# P065: empathy meta-analysis reproduction
+
+The complete central quantitative synthesis in Figure 2 reproduced successfully. All **97 preregistered numerical and claim comparisons** passed. A separate 80-digit Decimal implementation passed **189 audit checks**, including an independent transcription of all 13 study inputs, all source/run integrity checks, and re-evaluation of every original comparison. These results are submitted to the programme lead for independent review and success-registry credit.
+
+## Paper selection and relevance
+
+Howcroft et al., *AI chatbots versus human healthcare professionals: a systematic review and meta-analysis of empathy in patient care*, [British Medical Bulletin](https://doi.org/10.1093/bmb/ldaf017). The official [medRxiv v1](https://doi.org/10.1101/2025.06.09.25329258) released the empirical synthesis **9 June2025**. Fixed first79 citations pass the extended-window gate40, approximately4.86 per30days as of October10,2026. Root corrected the previous October20/primary-window interpretation on October11; prior bytes remain. API authors omit Griffiths while Crossref/journal include him; discrepancy recorded. Numerical results are unchanged.
+
+This paper addresses an empirical evaluation question adjacent to AI alignment and human judgments of model behavior: whether chatbot responses are perceived as more empathetic than healthcare professionals' text responses. No clinical recommendation is being evaluated here.
+
+## Feasibility and reproduced scope
+
+The paper's central contribution is its statistical synthesis of earlier studies. Original Figure 2 exposes the exact 13 standardized effects, their standard errors, and model subgroups. Its Methods specify RevMan 5.4, and its forest plot specifies the generic inverse-variance random-effects method. The archived [original RevMan 5 algorithms](https://training.cochrane.org/handbook/current/statistical-methods-revman5) establish DerSimonian-Laird pooling and subgroup comparisons. No model inference, model weights, API key, or paid service is needed.
+
+Full-paper reproduction would require independent database screening, study-selection and risk-of-bias judgments, original constituent experiments, and their individual ratings. Those activities were not rerun. This is a **central statistical-result reproduction**, not a full-paper reproduction and not fresh LLM behavior generation. It is more than a replot: the study-level original inputs were independently entered, and all pooling, standard errors, uncertainty intervals, hypothesis tests, between-study heterogeneity, subgroup comparison, and forest weights were recomputed from first principles. This scope is consistent with the programme rule that released-data analysis may count when analysis itself is the target paper's central empirical result.
+
+## Frozen plan and agreement
+
+[PREREGISTRATION.md](PREREGISTRATION.md), [original_data.csv](original_data.csv), and [targets.json](targets.json) were written before any reproduction outcomes. Frozen copies and SHA-256 hashes reside in the run directory. The 13 study inputs are the original displayed values, without filtering, synthetic replacement, or parameter fitting. No thresholds or algorithms were changed after viewing results.
+
+Tolerances reflect the published decimal precision and conservative accumulated input rounding: effects/intervals/tau-squared 0.005, Q 0.10, Z 0.010, whole-percent I-squared 0.5 percentage point, one-decimal I-squared/weights 0.10 percentage point, and printed P values 0.005. Printed P<0.00001 inequalities must hold directly. Every selected target passes; no failed comparison is omitted.
+
+| Analysis | Studies | Reproduced SMD | Reproduced 95% CI | P | Tau-squared | Q | I-squared |
+|---|---:|---:|---|---:|---:|---:|---:|
+| overall | 13 | 0.871882 | [0.539217, 1.204548] | 2.793618e-07 | 0.330586 | 385.453874 | 96.8868% |
+| GPT-3.5 | 4 | 0.509224 | [-0.139022, 1.157470] | 0.1236497 | 0.416508 | 277.504988 | 98.9189% |
+| GPT-4 | 9 | 1.027394 | [0.709252, 1.345535] | 2.460672e-10 | 0.186677 | 63.720244 | 87.4451% |
+
+The original rounded overall result was **0.87 [0.54, 1.20]**. GPT-3.5 was **0.51 [-0.14, 1.16]** and GPT-4 was **1.03 [0.71, 1.35]**. The between-subgroup comparison reproduced chi-square **1.978052**, P **0.159596**, and I-squared **49.4452%**, matching the printed 1.98, 0.16, and 49.4%. The four original qualitative claims all hold: positive significant overall effect, positive significant GPT-4 subgroup, nonsignificant GPT-3.5 subgroup, and nonsignificant subgroup difference. The descriptive probability-of-superiority conversion is **0.731222**, matching the paper's rounded 73%.
+
+![Reproduced forest plot](empathy_reproduced_forest.png)
+
+The original heterogeneity is large (overall I-squared approximately 96.9%); this also reproduced. Agreement establishes that the published pooling arithmetic is recoverable from the public study inputs. It does not independently validate constituent study designs, the proxy measures used for empathy, or their applicability to other interactions.
+
+## Execution, cost, and audit trail
+
+Run **P065-central-001** started 2026-10-10T13:53:59.688466+00:00 and ended 2026-10-10T13:53:59.800604+00:00; process exit status **0**. After numerical-library imports, instrumented execution took **0.112 seconds wall time** and **0.078 seconds CPU time**. The complete tool command including imports completed in approximately 3.37 seconds. Windows recorded a peak process working set of **93.82 MiB**. The run uses one CPU thread for numerical libraries and no GPU allocation. Paid-service cost **0**; electricity unmeasured. There were no failed or invalid reproduction runs, and there were no post-outcome amendments.
+
+The immutable [run records](runs/P065-central-001/results.json) include frozen scripts/data/plan, configuration, package versions, source and run manifests, all per-study intermediate weights/variances/Q terms, all 97 comparison records, execution/resource measurements, and the resulting uncertainties. The [separate audit](audits/P065-audit-001/audit.json) uses scalar 80-digit arithmetic, an independently written input transcription checked against the original page, an expanded Q formula, a closed-form two-group statistic, and standard-library probability tails. It imports no experiment implementation. Its source and run hash checks all pass. A programme-lead review remains distinct from these independent computational implementations.
+
+The source request log preserves URLs, retrieval times, content hashes, and failed access attempts. The arXiv source endpoint returned PDF bytes under a .tar.gz filename; those bytes are retained unchanged, explicitly recognized as the same publisher PDF rather than treated as TeX source. The original publisher XML and publisher PDF are preserved. This study needed no missing supplemental data to rerun Figure 2. Ancillary review command failures are recorded in the CPU-route activity log and were not experiments.
+
+## Re-run instructions
+
+The original run directory cannot be overwritten. The frozen runner and audit contain the complete methods; use a fresh run/audit ID for a repeat and retain the original records. Source integrity can be verified using the stored SHA-256 manifests. The finished programme report should classify this as central statistical reproduction, disclose the omitted full review/source experiments, and count this paper at most once.

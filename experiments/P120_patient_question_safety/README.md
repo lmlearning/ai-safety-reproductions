@@ -1,0 +1,74 @@
+# P120: Large language models provide unsafe answers to patient-posed medical questions
+
+**Outcome: Strict central reproduction.** This is a central-result reproduction; whole-paper reproduction is not claimed.
+
+[Paper / DOI](https://doi.org/10.1038/s41746-026-02428-5) · [arXiv](https://arxiv.org/abs/2507.18905) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
+
+# Large language models provide unsafe answers to patient-posed medical questions
+
+Strict central reproduction
+
+**Result.** The complete four-model comparative analysis of patient-question responses was reproduced from released ratings.
+
+## What was reproduced
+
+All 888 responses to 222 questions and four cohorts were included: problematic-response counts, rating means/SDs, all original omnibus/pairwise tests, 20 issue percentages, correlations and unanimous-question identities.
+
+## Agreement and differences
+
+All 141 original comparisons and 20,073 independent checks pass. Problematic-response rates are 21.621622% for Claude, 27.477477% for Gemini, 31.531532% for GPT-4o and 43.243243% for the pooled Llama cohort. Original quality-rating and between-model tests also reproduce.
+
+## Issues and omitted work
+
+The main parser normalizes labels, but correlation/agreement code uses exact spellings. Both were retained; normalization changes unanimous acceptable counts from 80 to 83 in a separate diagnostic. The Llama cohort contains 15 Llama 3.0 and 207 Llama 3.1 responses, without complete historical generation metadata.
+
+An optional-comment null/empty export issue was repaired without changing scientific output. Paired-test diagnostics can differ from the source’s independent-cohort inference and were not substituted.
+
+No new model responses, physician judgments or question collection occurred. These are reproduced judgments of cached responses, not current model testing or a direct clinical harm rate.
+
+## Paper and selection
+
+- [Original paper or public release](https://doi.org/10.1038/s41746-026-02428-5)
+- [Original paper or public release](https://arxiv.org/abs/2507.18905)
+
+- Identified public release: 2025-07-25.
+- Retained selection observation: 68 citations, Semantic Scholar. Exact capture time supported.
+- Use the July 2025 original preprint, not the later journal date.
+- Citation values are retained selection evidence, not current counts.
+
+
+The route was **released judged responses**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
+
+## Paper selection
+
+The retained selection observation was **68 citations** from **Semantic Scholar**. The recorded substantive public date was **2025-07-25** (extended window). An exact capture time is supported in the archived selection records. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
+
+
+
+## Code and rerunning
+
+Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry points, dependencies, historical commands and known execution constraints. The following code is included in this folder:
+
+- [audit_p120_raw_xml_independent_v004.py](code/audit_p120_raw_xml_independent_v004.py) — scientific entry
+- [run_p120_original_quantitative_v004.py](code/run_p120_original_quantitative_v004.py) — scientific entry
+
+The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
+
+## Results and audit trail
+
+- [audit002__AUDIT_MANIFEST.json](results/audit002__AUDIT_MANIFEST.json) — successful original run/audit product, target comparison, figure or hash manifest
+- [audit002__AUDIT_SUMMARY.json](results/audit002__AUDIT_SUMMARY.json) — successful original run/audit product, target comparison, figure or hash manifest
+- [audit002__independent_all_fixed_diagnostics.json](results/audit002__independent_all_fixed_diagnostics.json) — successful original run/audit product, target comparison, figure or hash manifest
+- [audit002__independent_all_original_metrics.json](results/audit002__independent_all_original_metrics.json) — successful original run/audit product, target comparison, figure or hash manifest
+- [audit002__independent_mandatory_target_checks.json](results/audit002__independent_mandatory_target_checks.json) — successful original run/audit product, target comparison, figure or hash manifest
+- [run004__RAW_SERIALIZATION_REPAIR_VALIDATION.json](results/run004__RAW_SERIALIZATION_REPAIR_VALIDATION.json) — successful original run/audit product, target comparison, figure or hash manifest
+- [run004__RUN_MANIFEST.json](results/run004__RUN_MANIFEST.json) — successful original run/audit product, target comparison, figure or hash manifest
+- [run004__RUN_SUMMARY.json](results/run004__RUN_SUMMARY.json) — successful original run/audit product, target comparison, figure or hash manifest
+- [run004__all_fixed_supporting_diagnostics.json](results/run004__all_fixed_supporting_diagnostics.json) — successful original run/audit product, target comparison, figure or hash manifest
+- [run004__all_original_method_details.json](results/run004__all_original_method_details.json) — successful original run/audit product, target comparison, figure or hash manifest
+- [run004__all_original_method_metrics.json](results/run004__all_original_method_metrics.json) — successful original run/audit product, target comparison, figure or hash manifest
+- [run004__mandatory_target_checks.json](results/run004__mandatory_target_checks.json) — successful original run/audit product, target comparison, figure or hash manifest
+
+- [root_review_P120-final-central-success001.json](evidence/root_review_P120-final-central-success001.json) — compact independent/ROOT success and closure decision
+
+The full included-file index is [PROVENANCE.json](PROVENANCE.json). The [historical report](evidence/HISTORICAL_REPORT.txt) preserves the counted report's original qualifications; old warehouse paths there are historical references rather than public download links. Published copies normalize workstation paths and UTF-8 encoding. Their hashes are recorded separately from the original archive hashes.

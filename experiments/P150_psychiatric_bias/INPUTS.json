@@ -1,0 +1,178 @@
+{
+  "paper_id": "P150",
+  "assets": [
+    {
+      "id": "input-001",
+      "original_relative_path": "literature/source_only_methodology_discovery_20261011_214000/two_cached_semantic_source_identity052/41746_2025_1746_MOESM2_ESM.xlsx",
+      "bytes": 205303,
+      "sha256": "e1a736a959f47a64c1b42538b015df8bc236373424df6332465943e4451c777e",
+      "download_urls": [],
+      "source_pages": [
+        "https://doi.org/10.1038/s41746-025-01746-4",
+        "https://osf.io/qgpvy/"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+            "literal": ".4620258332332562025\\u00a9 The Author(s) 2025Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium o"
+          },
+          {
+            "source": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+            "literal": "u give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article "
+          },
+          {
+            "source": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+            "literal": "e images or other third party material in this article are included in the article\\u2019s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article\\u2019s Creative Commons licence and your inten"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-002",
+      "original_relative_path": "literature/source_only_methodology_discovery_20261011_214000/two_cached_raw_source_inputs045/psychiatric_osf_current.xlsx.source",
+      "bytes": 204505,
+      "sha256": "348de06cc068545fed10cc074c07cfd9ebcdd95bf468d3e5e74eb7dec1b721bc",
+      "download_urls": [],
+      "source_pages": [
+        "https://doi.org/10.1038/s41746-025-01746-4",
+        "https://osf.io/qgpvy/"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+            "literal": ".4620258332332562025\\u00a9 The Author(s) 2025Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium o"
+          },
+          {
+            "source": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+            "literal": "u give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article "
+          },
+          {
+            "source": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+            "literal": "e images or other third party material in this article are included in the article\\u2019s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article\\u2019s Creative Commons licence and your inten"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-003",
+      "original_relative_path": "papers/P150_psychiatric_bias/runs/P150-central-001/primary/ALL_SOURCE_NOTES_AND_AUXILIARY_PROSE.json",
+      "bytes": 545676,
+      "sha256": "14027537646f1a2df7efa776726deba205226e6433f6b363bc836c3aa157a6dc",
+      "download_urls": [],
+      "source_pages": [
+        "https://doi.org/10.1038/s41746-025-01746-4",
+        "https://osf.io/qgpvy/"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+            "literal": ".4620258332332562025\\u00a9 The Author(s) 2025Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium o"
+          },
+          {
+            "source": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+            "literal": "u give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article "
+          },
+          {
+            "source": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+            "literal": "e images or other third party material in this article are included in the article\\u2019s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article\\u2019s Creative Commons licence and your inten"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-004",
+      "original_relative_path": "papers/P150_psychiatric_bias/runs/P150-central-001/primary/CANONICAL_ALL160_BOTH_COMPLETE_SOURCE_VERSIONS.json",
+      "bytes": 417667,
+      "sha256": "fb054ea2e50a796a1dce675705d144a187510bd69fb5c968ce2ea5cdf023ae53",
+      "download_urls": [],
+      "source_pages": [
+        "https://doi.org/10.1038/s41746-025-01746-4",
+        "https://osf.io/qgpvy/"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+            "literal": ".4620258332332562025\\u00a9 The Author(s) 2025Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium o"
+          },
+          {
+            "source": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+            "literal": "u give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article "
+          },
+          {
+            "source": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+            "literal": "e images or other third party material in this article are included in the article\\u2019s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article\\u2019s Creative Commons licence and your inten"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    }
+  ],
+  "source_urls": [
+    "http://creativecommons.org/licenses/by-nc-nd/4.0/.AbstractArtificial",
+    "https://doi.org/10.1038/s41746-025-01746-4",
+    "https://osf.io/qgpvy/"
+  ],
+  "inventory_source_notes": {
+    "dependency_version_evidence": [],
+    "source_urls_retained": [
+      {
+        "url": "https://doi.org/10.1038/s41746-025-01746-4",
+        "evidence_path": "papers/P150_psychiatric_bias/final_report001/SUMMARY_REPORT.html"
+      },
+      {
+        "url": "http://creativecommons.org/licenses/by-nc-nd/4.0/.AbstractArtificial",
+        "evidence_path": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json"
+      },
+      {
+        "url": "https://osf.io/qgpvy/",
+        "evidence_path": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json"
+      }
+    ],
+    "license_notices_in_reviewed_metadata": [
+      {
+        "source": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+        "literal": ".4620258332332562025\\u00a9 The Author(s) 2025Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium o"
+      },
+      {
+        "source": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+        "literal": "u give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article "
+      },
+      {
+        "source": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+        "literal": "e images or other third party material in this article are included in the article\\u2019s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article\\u2019s Creative Commons licence and your inten"
+      },
+      {
+        "source": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+        "literal": "rwise in a credit line to the material. If material is not included in the article\\u2019s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyr"
+      },
+      {
+        "source": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+        "literal": "rmission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.AbstractArtificial intelligence (AI), particularly large language models (LLMs), is increasingly integrated into mental health care. This study examined racial bias in psychiatri"
+      }
+    ],
+    "retained_license_files": [],
+    "redistribution_status": "No independent license grant inferred. Default bundle is programme-authored code/config/compact derived results; original assets require notice/URL-based acquisition when rights are unresolved. Article/source license excerpts are evidence, not a blanket repository license.",
+    "portable_rerun_notes": [
+      "Keep repository-relative layout for __file__-based roots. Preserve input bytes and pinned hashes. Install stated scientific dependencies separately; do not copy original runtime.",
+      "New output namespaces are required. Historical immutable run directories must not be overwritten.",
+      "Authorization/freeze/runtime source checks remain active in immutable runners. Later guarded studies need an explicitly documented portable launch/config adapter; none was implemented or tested by this inventory."
+    ],
+    "command_limit": "Commands document source CLI, are not tested portable instructions and do not grant execution. Fixed-output early runners need an explicit new output path adaptation; guarded later runners additionally require historical or prospectively reviewed exact auth/freeze/runtime context."
+  },
+  "policy": "Source/data/model files are acquired from their owners. Only explicitly identified programme transcriptions are bundled. URLs are historical and were not re-fetched during publication preparation."
+}

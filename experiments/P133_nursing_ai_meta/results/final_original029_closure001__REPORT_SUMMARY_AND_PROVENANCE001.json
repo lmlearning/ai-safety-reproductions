@@ -1,0 +1,327 @@
+{
+  "utc": "2026-10-11T08:51:51.091194+00:00",
+  "title": "AI literacy and competency in nursing education: preparing students and faculty members for an AI-enabled future-a systematic review and meta-analysis",
+  "eligibility": {
+    "title": "AI literacy and competency in nursing education: preparing students and faculty members for an AI-enabled future-a systematic review and meta-analysis",
+    "DOI": "10.3389/fmed.2025.1681784",
+    "first_substantive_public_release": "2025-11-26",
+    "citation_count": 56,
+    "citation_source": "OpenAlex W4416730328, unsummed archived query09 October10,2026",
+    "record": {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\literature\\root_openalex_feasible_route_search_20261010_2223\\query_09.json",
+      "bytes": 1301603,
+      "sha256": "f89459cd5e5e8bdf5020bebb5f24171dba8c75ae454affaa635219bf82d8b8eb"
+    },
+    "new_citation_or_release_queries": false
+  },
+  "classification": "CENTRAL proposed; not registered; FULL false",
+  "scope": "whole three-outcome quantitative prevalence contribution reconstructed from all43 published forest rows and all18 study identities",
+  "input129_pass": true,
+  "primary263_pass": true,
+  "primary_claims3_pass": true,
+  "independent312782_allpass": true,
+  "native45_allpass": true,
+  "supporting114": {
+    "agree": 19,
+    "disagree": 95,
+    "mandatory_report_complete": true,
+    "no_rescue": true
+  },
+  "structural_census": {
+    "pipelines": {
+      "PFT_REML": {
+        "full": 3,
+        "groups": 8,
+        "LOO": 43,
+        "simultaneous": 3,
+        "univariate": 9,
+        "country": 6,
+        "Egger": 3
+      },
+      "PAS_REML": {
+        "full": 3,
+        "groups": 8,
+        "LOO": 43,
+        "simultaneous": 3,
+        "univariate": 9,
+        "country": 6,
+        "Egger": 3
+      },
+      "PLOGIT_REML": {
+        "full": 3,
+        "groups": 8,
+        "LOO": 43,
+        "simultaneous": 3,
+        "univariate": 9,
+        "country": 6,
+        "Egger": 3
+      },
+      "PLOGIT_DL": {
+        "full": 3,
+        "groups": 8,
+        "LOO": 43,
+        "simultaneous": 3,
+        "univariate": 9,
+        "country": 6,
+        "Egger": 3
+      },
+      "PFT_DL": {
+        "full": 3,
+        "groups": 8,
+        "LOO": 43,
+        "simultaneous": 3,
+        "univariate": 9,
+        "country": 6,
+        "Egger": 3
+      },
+      "PRAW_DL": {
+        "full": 3,
+        "groups": 8,
+        "LOO": 43,
+        "simultaneous": 3,
+        "univariate": 9,
+        "country": 6,
+        "Egger": 3
+      }
+    },
+    "backsize_pool_views": 270,
+    "legacy_full": 3,
+    "legacy_nested_LOO": 43,
+    "scientific_pass_decided_by_audit_and_root_only": true
+  },
+  "method": {
+    "UTC": "2026-10-11T02:48:24.145496+00:00",
+    "status": "source-only primary method and implementation preparation approved; numerical execution forbidden",
+    "root_review": "All263 forest primary cells,114support,129inputs,43forestrows visually read; all315/331 frozen refs independently verified. Exact source transform equations/backtransform architecture reviewed. No original effects/weights/pools calculated.",
+    "primary": {
+      "transform": "PFT",
+      "method": "Inverse",
+      "tau": "REML",
+      "common_and_random_CI": "classic normal95",
+      "individual_CI": "CP95",
+      "prediction": "V t(k-1), prediction TRUE",
+      "backtransform": "pinned2025 meta asin2p Millerinverse active harmonic mean sample size for full/group/LOO"
+    },
+    "reason": "Published common weights visually track sample size. PFT and PAS both support that architecture; PFT is a conventional source-supported choice, not uniquely author-identified. Earlier PLOGIT preferred proposal unapproved/unexecuted retained.",
+    "mandatory_controls": [
+      "PAS/REML",
+      "PLOGIT/REML",
+      "PLOGIT/DL",
+      "PFT/DL",
+      "PRAW/DL"
+    ],
+    "PFT_backsize_controls": "Uniform min,max,arithmetic,geometric,median active sample sizes, whole three families/full groups/LOO, no rescue",
+    "default_GLMM": "architecture-only NA individual weights/no default prediction; no numerical partial GLMM fit authorized",
+    "gates": "All263AND source ROUND_HALF_EVEN printed precision exact; all114support/43LOO/all3countrymodels x2 conventions/8actualgroups/18appraisals/23sourceconflicts retained; no narrowing.",
+    "independent_numeric_tolerance": "1e-10abs+1e-10rel fixed before outcomes",
+    "execution_authorized": false,
+    "full_reproduction_limit": "Original screening, thematic coding, event threshold definitions and exact author settings unavailable.",
+    "source_freeze_sha256": "7c0373bae2a6a91a4fc7bed8307985657bfd7bf9bd3c6778b428d844817c632b"
+  },
+  "source_conflicts": [
+    {
+      "id": "C01",
+      "locus": "Methods2.5",
+      "literals": "Eighteen (17) distinct studies",
+      "disposition": "Internal cohort-count wording conflict; original18 AppendixB identities retained",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "C02",
+      "locus": "Results3.2 versus Figure4",
+      "literals": "Awareness16 stated; original forest15 rows/df14",
+      "disposition": "No fabricated16th row or exclusion selected by fit",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "C03",
+      "locus": "Results3.2 versus Figure6",
+      "literals": "Implementation13 stated; original forest12 rows/df11",
+      "disposition": "No fabricated13th row",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "C04",
+      "locus": "Table5 attitude year row",
+      "literals": "Estimate+0.2437; Z-1.9719; both CI bounds negative",
+      "disposition": "Literal sign/interval contradiction retained; no sign inversion",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "C05",
+      "locus": "Table6 awareness faculty",
+      "literals": "Point0.8249; lower=upper0.7893",
+      "disposition": "Literal interval contradiction retained",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "C06",
+      "locus": "AppendixB source-group labels versus Table6",
+      "literals": "Source cohort/group identity does not reconcile reported subgroup counts",
+      "disposition": "Keep original metadata primary and all Table6 counts; no reclassification by coefficients",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "C07",
+      "locus": "Figure2 country labels versus AppendixB",
+      "literals": "Abou Hashish UAE versus Egypt/Saudi Arabia; Saleh Saudi Arabia versus Jordan/U.S",
+      "disposition": "Primary B and full Figure2 supporting country mappings remain separate",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "C08",
+      "locus": "AppendixB setting fields versus Figure2",
+      "literals": "Some settings not specified versus country labels in plot",
+      "disposition": "Missing country values remain explicit before any model",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "C09",
+      "locus": "Figure3A caption/reference versus AppendixB",
+      "literals": "Han randomized controlled trial/ref65 versus B quasi-experimental program evaluation/J.-w.Han",
+      "disposition": "Study identity/design ambiguity, not repaired",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "C10",
+      "locus": "Methods2.4",
+      "literals": "Mixed-methods studies both versus one Asiksoy plot/one B mixed-method row",
+      "disposition": "Design census ambiguity retained",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "C11",
+      "locus": "Abstract versus Figure4/Results",
+      "literals": "Awareness CI64-80% versus64-81%",
+      "disposition": "Both literals kept",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "C12",
+      "locus": "Machine-generated Figure6 alt text versus original image",
+      "literals": "Alt repeats0.73/0.71; image common/random0.67",
+      "disposition": "Alt explicitly non-authoritative; source image retained",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "C13",
+      "locus": "Machine-generated Figure5 alt text versus footer",
+      "literals": "Alt heterogeneity98%; original96.1%",
+      "disposition": "Alt explicitly non-authoritative",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "C14",
+      "locus": "Main bibliography versus AppendixB field instructions",
+      "literals": "Several reference numbering/DOI details differ, including Asiksoy1332_24 versus1195_24",
+      "disposition": "No citation reassignment; hidden instructions retained separately",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "C15",
+      "locus": "AppendixB Buabbas",
+      "literals": "Aim medical students; sample says352 nursing students; original cited title medical education",
+      "disposition": "Conceptual population mismatch, no convenient removal",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "C16",
+      "locus": "AppendixB Honkavuo/Sanchez",
+      "literals": "Digital teaching and e-learning topics included as AI-related prevalence",
+      "disposition": "Construct/AI specificity limitation; preserve complete cohort",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "C17",
+      "locus": "AppendixA author/year strings",
+      "literals": "Literal20223/20205 and recurring author labels",
+      "disposition": "No automatic year correction or proof of unique-study identity",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "G01",
+      "locus": "Methods2.5",
+      "literals": "R4.5.0/meta/metafor named, no package versions/code/transform/tau/CI settings",
+      "disposition": "Exact historical computation not source-identifiable",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "G02",
+      "locus": "Released Appendices",
+      "literals": "A/B descriptive rows and C search strings; original extraction Excel/event worksheet absent",
+      "disposition": "All43 displayed event counts available; original extraction derivation not complete",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "G03",
+      "locus": "Sensitivity/funnel/country-regression claims",
+      "literals": "Methods names them but no numerical sensitivity/funnel/country coefficient output supplied",
+      "disposition": "Complete independent diagnostics possible; source agreement targets absent",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "G04",
+      "locus": "Full systematic/thematic contribution",
+      "literals": "Original54780 search exports, screening decisions and six-phase coding matrix unavailable",
+      "disposition": "Full-paper re-execution not source-complete",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "G05",
+      "locus": "PROSPERO public record",
+      "literals": "Page application shell; anonymous official record endpoint returns header-value error",
+      "disposition": "Protocol dates/content unverified; no auth/API keys used",
+      "source_only": true,
+      "no_original_statistics": true
+    },
+    {
+      "id": "R01",
+      "locus": "Source serialization observations",
+      "literals": "Readback189b27 stdout cp1252 failure;1d82ef source Unicode byte SyntaxError",
+      "disposition": "No original statistics; no file mutation; additive visible projection preserves001",
+      "source_only": true,
+      "no_original_statistics": true
+    }
+  ],
+  "closure": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\final_original029_closure001\\COMPLETE_ORIGINAL029_NATIVE_OUTPUT_HASH_ABSENCE_AND_AUDIT_CLOSURE001.json",
+    "bytes": 14104,
+    "sha256": "1bcae696e1af98f03b21cf334e0d0d228941fd3ad5ae6ce95ed72fd6d9c9eaaa"
+  },
+  "budget": {
+    "prior_seconds": 482,
+    "actual_timestamp_span_seconds": 87.797969,
+    "native_creation_to_end_seconds": 87.99740982055664,
+    "rule": "ceil(max(receipt UTC span, retained observer creation to receipt end))+1",
+    "phase_charge_seconds": 89,
+    "cumulative_seconds": 571,
+    "shared_seconds": 1800,
+    "remaining_seconds": 1229,
+    "prior_258_and_67_fixture_primary_and_83_fixture_audit_and_57_original_primary_and_17_failed_original_audit": 482,
+    "software_elapsed_seconds": 87.73400000017136,
+    "charge_not_reset": true
+  },
+  "full_paper_reproduced": false,
+  "root_review_and_registration_pending": true
+}

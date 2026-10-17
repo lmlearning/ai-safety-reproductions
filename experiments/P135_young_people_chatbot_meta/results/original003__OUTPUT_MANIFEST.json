@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ALL_INDEPENDENT_COMPARISONS.json",
+      "bytes": 8270331,
+      "sha256": "db1318386d30e80381135809159507a84ec0cebf59bd7c6c16b39a86c33eef6d"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\AUDIT_STATUS.json",
+      "bytes": 381,
+      "sha256": "2df4d32592572cef94f34f6e735d9cb5d10dd384f801b06f1c2be6b625782f83"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\CONTINUATION_COMPLETE410_CALL_IDENTITY_RECEIPT015.json",
+      "bytes": 112822,
+      "sha256": "8204342accbe15f4b3013aa8ff257857dd21a3eb9e1935b259eb71cce174e48a"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_PROGRESS.json",
+      "bytes": 129907,
+      "sha256": "d3b2c6b66f45b8d6a8511587d896002a59abf4e697004270af13681145337ef0"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\INDEPENDENT_80_DIGIT_COMPUTATIONS.json",
+      "bytes": 20669452,
+      "sha256": "31da319baef34c9cfa120b761eadf375c8af0e4ec8c7da0f6dffee65305da1e4"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\INDEPENDENT_ALL50_PRIMARY_CHECKS.json",
+      "bytes": 34850,
+      "sha256": "d607293cac88fc5a78e3cd3694d85fdf330d8bfe3fec0684706812ea07fecf6a"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\INDEPENDENT_ALL_SUPPORTING_SOURCE_COMPARISONS.json",
+      "bytes": 212633,
+      "sha256": "1f280c1678347d3b9aaf13928409e4f0a85a46ac4a10cd91301ebb499bb79d94"
+    }
+  ]
+}

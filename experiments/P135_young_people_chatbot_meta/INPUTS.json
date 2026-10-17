@@ -1,0 +1,1210 @@
+{
+  "paper_id": "P135",
+  "assets": [
+    {
+      "id": "input-001",
+      "original_relative_path": "papers/P135_young_people_chatbot_meta/published_summary_transcription001/psychological_distress_published_effects_source001.csv",
+      "bytes": 3419,
+      "sha256": "bff1600784fcbebaea2952896ff286418732d7e5d4024b11b09f358dfe5a4e85",
+      "download_urls": [],
+      "source_pages": [
+        "https://doi.org/10.1111/wvn.70059",
+        "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v5.2-1",
+        "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v5.2-1",
+        "https://api.github.com/repos/wviechtb/metafor/commits/1c2255525ce10193aadc367921c207d7d25f4b21",
+        "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v5.0-1",
+        "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v5.0-1",
+        "https://api.github.com/repos/wviechtb/metafor/commits/9b1c7081b6b451108670fea480e83d6cb49387e8",
+        "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.8-0",
+        "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v4.8-0",
+        "https://api.github.com/repos/wviechtb/metafor/commits/82030a0b3b12947066b94bb1d4b45eefd325731a",
+        "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.6-0",
+        "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v4.6-0",
+        "https://api.github.com/repos/wviechtb/metafor/commits/c6c997d83cfd9fb2d2129a3479495fc0a874e4d0",
+        "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.4-0",
+        "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v4.4-0",
+        "https://api.github.com/repos/wviechtb/metafor/commits/5e28720a297a6e3edfa7ebd818d00e09d1e3503c",
+        "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.2-0",
+        "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v4.2-0",
+        "https://api.github.com/repos/wviechtb/metafor/commits/151efa283bd4cd3199cb87d4ed6d651ceed1631c",
+        "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.0-0"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml",
+            "literal": "ay><month>07</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type=\"article-copyright\">© 2025 The Author(s). <italic toggle=\"yes\">Worldviews on Evidence‐Based Nursing</italic> published by Wiley Periodicals LLC on behalf of Sigma Theta Tau International.</copyright-statement><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmini"
+          },
+          {
+            "source": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml",
+            "literal": "e></event></pub-history><permissions><copyright-statement content-type=\"article-copyright\">© 2025 The Author(s). <italic toggle=\"yes\">Worldviews on Evidence‐Based Nursing</italic> published by Wiley Periodicals LLC on behalf of Sigma Theta Tau International.</copyright-statement><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbyncndlicense\">https:/"
+          },
+          {
+            "source": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml",
+            "literal": "published by Wiley Periodicals LLC on behalf of Sigma Theta Tau International.</copyright-statement><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbyncndlicense\">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" e"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-002",
+      "original_relative_path": "papers/P135_young_people_chatbot_meta/published_summary_transcription001/psychological_wellbeing_published_effects_source001.csv",
+      "bytes": 1602,
+      "sha256": "3b11d3e15a04a574411a67538d8f2cf54f5e8cd52bcaaecde1f3371deb918299",
+      "download_urls": [],
+      "source_pages": [
+        "https://doi.org/10.1111/wvn.70059",
+        "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v5.2-1",
+        "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v5.2-1",
+        "https://api.github.com/repos/wviechtb/metafor/commits/1c2255525ce10193aadc367921c207d7d25f4b21",
+        "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v5.0-1",
+        "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v5.0-1",
+        "https://api.github.com/repos/wviechtb/metafor/commits/9b1c7081b6b451108670fea480e83d6cb49387e8",
+        "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.8-0",
+        "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v4.8-0",
+        "https://api.github.com/repos/wviechtb/metafor/commits/82030a0b3b12947066b94bb1d4b45eefd325731a",
+        "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.6-0",
+        "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v4.6-0",
+        "https://api.github.com/repos/wviechtb/metafor/commits/c6c997d83cfd9fb2d2129a3479495fc0a874e4d0",
+        "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.4-0",
+        "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v4.4-0",
+        "https://api.github.com/repos/wviechtb/metafor/commits/5e28720a297a6e3edfa7ebd818d00e09d1e3503c",
+        "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.2-0",
+        "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v4.2-0",
+        "https://api.github.com/repos/wviechtb/metafor/commits/151efa283bd4cd3199cb87d4ed6d651ceed1631c",
+        "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.0-0"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml",
+            "literal": "ay><month>07</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type=\"article-copyright\">© 2025 The Author(s). <italic toggle=\"yes\">Worldviews on Evidence‐Based Nursing</italic> published by Wiley Periodicals LLC on behalf of Sigma Theta Tau International.</copyright-statement><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmini"
+          },
+          {
+            "source": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml",
+            "literal": "e></event></pub-history><permissions><copyright-statement content-type=\"article-copyright\">© 2025 The Author(s). <italic toggle=\"yes\">Worldviews on Evidence‐Based Nursing</italic> published by Wiley Periodicals LLC on behalf of Sigma Theta Tau International.</copyright-statement><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbyncndlicense\">https:/"
+          },
+          {
+            "source": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml",
+            "literal": "published by Wiley Periodicals LLC on behalf of Sigma Theta Tau International.</copyright-statement><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbyncndlicense\">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" e"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    }
+  ],
+  "source_urls": [
+    "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "http://doi.wiley.com/10.1002/tdm_license_1.1",
+    "http://github.com/unslothai/unsloth",
+    "http://hdl.handle.net/10397/115587",
+    "http://www.niso.org/schemas/ali/1.0/",
+    "http://www.training.cochrane.org/handbook",
+    "http://www.w3.org/1",
+    "http://www.w3.org/1999/xlink",
+    "https://%5Bhttps://huggingface.co/AI-MO/NuminaMath-1.5%5D(https://github.com/project-numina/aimo-progress-prize/blob/main/report/numina_dataset.pdf",
+    "https://api.crossref.org/works/10.1111/wvn.70059",
+    "https://api.crossref.org/works/10.1126/science.aec8352",
+    "https://api.crossref.org/works/10.3233/SHTI251258",
+    "https://api.github.com/repos/wviechtb/metafor/commits/0e54b316e8c58fe0f0ab5890017193728a305ad1",
+    "https://api.github.com/repos/wviechtb/metafor/commits/151efa283bd4cd3199cb87d4ed6d651ceed1631c",
+    "https://api.github.com/repos/wviechtb/metafor/commits/1c2255525ce10193aadc367921c207d7d25f4b21",
+    "https://api.github.com/repos/wviechtb/metafor/commits/38599b48dc4eba10b7ff7007660fabb0d7575397",
+    "https://api.github.com/repos/wviechtb/metafor/commits/44e8869c3fce3dca43f285d574e3946b97275098",
+    "https://api.github.com/repos/wviechtb/metafor/commits/5e28720a297a6e3edfa7ebd818d00e09d1e3503c",
+    "https://api.github.com/repos/wviechtb/metafor/commits/5e3ef0d12f4d1241a64d368108db4a74a5690a6b",
+    "https://api.github.com/repos/wviechtb/metafor/commits/60e76dd858bf2ae2069f7d6bcf0934e0b03f2702",
+    "https://api.github.com/repos/wviechtb/metafor/commits/82030a0b3b12947066b94bb1d4b45eefd325731a",
+    "https://api.github.com/repos/wviechtb/metafor/commits/9b1c7081b6b451108670fea480e83d6cb49387e8",
+    "https://api.github.com/repos/wviechtb/metafor/commits/c6c997d83cfd9fb2d2129a3479495fc0a874e4d0",
+    "https://api.github.com/repos/wviechtb/metafor/commits/c9f191ebc242062e234487a5d5f57ba4ce9dd038",
+    "https://api.github.com/repos/wviechtb/metafor/commits/e5f8a3e8a965f00f588615d7238dd9cabb92b958",
+    "https://api.github.com/repos/wviechtb/metafor/tags?per_page=100",
+    "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v1.9-9",
+    "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v2.0-0",
+    "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v2.1-0",
+    "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v2.4-0",
+    "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v3.4-0",
+    "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v3.8-1",
+    "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v4.0-0",
+    "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v4.2-0",
+    "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v4.4-0",
+    "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v4.6-0",
+    "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v4.8-0",
+    "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v5.0-1",
+    "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v5.2-1",
+    "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v1.9-9",
+    "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v2.0-0",
+    "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v2.1-0",
+    "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v2.4-0",
+    "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v3.4-0",
+    "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v3.8-1",
+    "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.0-0",
+    "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.2-0",
+    "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.4-0",
+    "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.6-0",
+    "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.8-0",
+    "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v5.0-1",
+    "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v5.2-1",
+    "https://api.osf.io/v2/preprints/ghw2v_v1/",
+    "https://arxiv.org/abs/2410.16713",
+    "https://arxiv.org/abs/2504.08729",
+    "https://arxiv.org/abs/2504.13139",
+    "https://arxiv.org/abs/2504.13151",
+    "https://arxiv.org/abs/2504.14492",
+    "https://arxiv.org/abs/2504.17550",
+    "https://arxiv.org/abs/2504.18041",
+    "https://arxiv.org/abs/2505.05410",
+    "https://arxiv.org/abs/2505.14489",
+    "https://arxiv.org/abs/2505.16831",
+    "https://arxiv.org/abs/2505.20063",
+    "https://arxiv.org/abs/2505.23840",
+    "https://arxiv.org/abs/2506.05446",
+    "https://arxiv.org/abs/2506.07022",
+    "https://arxiv.org/abs/2506.11613",
+    "https://arxiv.org/abs/2506.11618",
+    "https://arxiv.org/abs/2506.12618",
+    "https://arxiv.org/abs/2506.13206",
+    "https://arxiv.org/abs/2506.18183",
+    "https://arxiv.org/abs/2506.19823",
+    "https://arxiv.org/abs/2506.22316",
+    "https://arxiv.org/abs/2507.11878",
+    "https://arxiv.org/abs/2508.06709",
+    "https://arxiv.org/abs/2508.18847",
+    "https://arxiv.org/abs/2509.03493",
+    "https://arxiv.org/abs/2509.04664",
+    "https://arxiv.org/abs/2509.08825",
+    "https://arxiv.org/abs/2510.09781",
+    "https://arxiv.org/abs/2510.13900",
+    "https://arxiv.org/abs/2510.14276",
+    "https://arxiv.org/abs/2510.19811",
+    "https://arxiv.org/abs/2510.20270",
+    "https://arxiv.org/abs/2510.20487",
+    "https://arxiv.org/abs/2510.22954",
+    "https://arxiv.org/abs/2511.03506",
+    "https://arxiv.org/abs/2511.05408",
+    "https://arxiv.org/abs/2511.05541",
+    "https://arxiv.org/abs/2511.08594",
+    "https://arxiv.org/abs/2511.12869",
+    "https://arxiv.org/abs/2511.18397",
+    "https://arxiv.org/abs/2511.21140",
+    "https://arxiv.org/abs/2512.01431",
+    "https://arxiv.org/abs/2512.01797",
+    "https://arxiv.org/abs/2512.15163",
+    "https://arxiv.org/abs/2512.18311",
+    "https://arxiv.org/abs/2512.21852",
+    "https://arxiv.org/abs/2512.23738",
+    "https://arxiv.org/abs/2601.04688",
+    "https://arxiv.org/abs/2601.05755",
+    "https://arxiv.org/abs/2601.10156",
+    "https://arxiv.org/abs/2601.17087",
+    "https://arxiv.org/abs/2601.18491",
+    "https://arxiv.org/abs/2601.20913",
+    "https://arxiv.org/abs/2601.22594",
+    "https://arxiv.org/abs/2602.01146",
+    "https://arxiv.org/abs/2602.02132",
+    "https://arxiv.org/abs/2602.07852",
+    "https://arxiv.org/abs/2602.13379",
+    "https://arxiv.org/abs/2602.15785",
+    "https://arxiv.org/abs/2603.06594",
+    "https://arxiv.org/abs/2603.17839",
+    "https://arxiv.org/abs/2604.02022",
+    "https://arxiv.org/abs/2604.28119",
+    "https://arxiv.org/html/2504.08729v1",
+    "https://arxiv.org/html/2504.13139v1",
+    "https://arxiv.org/html/2504.13151v1",
+    "https://arxiv.org/html/2504.14492v1",
+    "https://arxiv.org/html/2504.17550v1",
+    "https://arxiv.org/html/2504.18041v1",
+    "https://arxiv.org/html/2505.05410v1",
+    "https://arxiv.org/html/2505.14489v1",
+    "https://arxiv.org/html/2505.16831v1",
+    "https://arxiv.org/html/2505.20063v1",
+    "https://arxiv.org/html/2505.23840v1",
+    "https://arxiv.org/html/2506.07022v1",
+    "https://arxiv.org/html/2506.11613v1",
+    "https://arxiv.org/html/2506.11618v1",
+    "https://arxiv.org/html/2506.12618v1",
+    "https://arxiv.org/html/2506.13206v1",
+    "https://arxiv.org/html/2506.18183v1",
+    "https://arxiv.org/html/2506.19823v1",
+    "https://arxiv.org/html/2506.22316v1",
+    "https://arxiv.org/html/2507.11878v1",
+    "https://arxiv.org/html/2508.06709v1",
+    "https://arxiv.org/html/2508.18847v1",
+    "https://arxiv.org/html/2509.03493v1",
+    "https://arxiv.org/html/2509.04664v1",
+    "https://arxiv.org/html/2509.08825v1",
+    "https://arxiv.org/html/2510.09781v1",
+    "https://arxiv.org/html/2510.13900v1",
+    "https://arxiv.org/html/2510.14276v1",
+    "https://arxiv.org/html/2510.19811v1",
+    "https://arxiv.org/html/2510.20270v1",
+    "https://arxiv.org/html/2510.20487v1",
+    "https://arxiv.org/html/2510.22954v1",
+    "https://arxiv.org/html/2511.03506v1",
+    "https://arxiv.org/html/2511.05408v1",
+    "https://arxiv.org/html/2511.05541v1",
+    "https://arxiv.org/html/2511.08594v1",
+    "https://arxiv.org/html/2511.12869v1",
+    "https://arxiv.org/html/2511.18397v1",
+    "https://arxiv.org/html/2511.21140v1",
+    "https://arxiv.org/html/2512.01431v1",
+    "https://arxiv.org/html/2512.01797v1",
+    "https://arxiv.org/html/2512.15163v1",
+    "https://arxiv.org/html/2512.18311v1",
+    "https://arxiv.org/html/2512.21852v1",
+    "https://arxiv.org/html/2512.23738v1",
+    "https://arxiv.org/html/2601.04688v1",
+    "https://arxiv.org/html/2601.05755v1",
+    "https://arxiv.org/html/2601.10156v1",
+    "https://arxiv.org/html/2601.17087v1",
+    "https://arxiv.org/html/2601.18491v1",
+    "https://arxiv.org/html/2601.20913v1",
+    "https://arxiv.org/html/2601.22594v1",
+    "https://arxiv.org/html/2602.01146v1",
+    "https://arxiv.org/html/2602.02132v1",
+    "https://arxiv.org/html/2602.07852v1",
+    "https://arxiv.org/html/2602.13379v1",
+    "https://arxiv.org/html/2602.15785v1",
+    "https://arxiv.org/html/2603.06594v1",
+    "https://arxiv.org/html/2603.17839v1",
+    "https://arxiv.org/html/2604.02022v1",
+    "https://arxiv.org/html/2604.28119v1",
+    "https://blogs.worldbank.org/en/opendata/new-world-bank-group-country-classifications-income-level-fy24",
+    "https://blogs.worldbank.org/en/opendata/new‐world‐bank‐group‐country‐classifications‐income‐level‐fy24",
+    "https://cccrg.cochrane.org/sites/cccrg.cochrane.org/files/uploads/Outcomes.pdf",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a292/12261465/613ebc2af2a0/WVN-22-0-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a292/12261465/72cc1e5159ca/WVN-22-0-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a292/12261465/c2e3899e610f/WVN-22-0-g002.jpg",
+    "https://content.openalex.org/works/W4412456128.grobid-xml",
+    "https://content.openalex.org/works/W4412456128.pdf",
+    "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "https://creativecommons.org/licenses/by-nc/4.0/",
+    "https://doi.org/10.1002/crossmark_policy",
+    "https://doi.org/10.1038/s44271-025-00387-3",
+    "https://doi.org/10.1111/wvn.70059",
+    "https://doi.org/10.1145/3290605.3300439",
+    "https://doi.org/10.1145/3411764.3445318",
+    "https://doi.org/10.1145/3576840.3578283",
+    "https://doi.org/10.3233/shti251258",
+    "https://ebooks.iospress.nl/doi/10.3233/SHTI251258",
+    "https://ebooks.iospress.nl/pdf/doi/10.3233/SHTI251258",
+    "https://europepmc.org/articles/PMC12261465/bin/WVN-22-0-s001.docx",
+    "https://github.com/AI45Lab/AgentDoG",
+    "https://github.com/AI4LIFE-GROUP/temporal-saes",
+    "https://github.com/AlphaLab-USTC/AlphaSteer",
+    "https://github.com/CHATS-lab/LLMs_Encode_Harmfulness_Refusal_Separately",
+    "https://github.com/CHATS-lab/ToolShield",
+    "https://github.com/HowieHwong/Agentic-Guardian",
+    "https://github.com/JiseungHong/SYCON-Bench",
+    "https://github.com/KaiDMML/FakeNewsNet",
+    "https://github.com/MattYoon/reasoning-models-confidence",
+    "https://github.com/MemTensor/HaluMem",
+    "https://github.com/MiaoXiong2320/llm-uncertainty",
+    "https://github.com/MurrayTom/ToolSafe",
+    "https://github.com/NVIDIA/NeMo-Guardrails",
+    "https://github.com/PrimeIntellect-ai/prime-rl",
+    "https://github.com/QwenLM/Qwen3Guard",
+    "https://github.com/SM2982/MetaanalysisLLMPersuasion",
+    "https://github.com/SWE-bench/SWE-bench/issues/465",
+    "https://github.com/SchwinnL/LLMJudgeReliability",
+    "https://github.com/Toby-X/Latency-Response-Theory-Model",
+    "https://github.com/UCSB-AI/SAFER",
+    "https://github.com/UKGovernmentBEIS/control-arena",
+    "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+    "https://github.com/XiaoyuXU1/Representational_Analysis_Tools.git",
+    "https://github.com/aaronmueller/mib",
+    "https://github.com/aflah02/TokenSmith",
+    "https://github.com/arXiv/html_feedback/issues",
+    "https://github.com/baoilleach/partialsmiles",
+    "https://github.com/brucemiller/LaTeXML/issues",
+    "https://github.com/brucemiller/LaTeXML/wiki/Porting-LaTeX-packages-for-LaTeXML",
+    "https://github.com/clarifying-EM/model-organisms-for-EM",
+    "https://github.com/cssmodels/llm/tree/main/Data/countries",
+    "https://github.com/dsdanielpark/Open-LLM-Leaderboard-Report",
+    "https://github.com/elder-plinius/CL4R1T4S",
+    "https://github.com/esteng/pragmatic_calibration",
+    "https://github.com/facebookresearch/HalluLens",
+    "https://github.com/freshllms/freshqa?tab=readme-ov-file",
+    "https://github.com/google-deepmind/long-form-factuality",
+    "https://github.com/google-research/google-research/tree/master/goemotions",
+    "https://github.com/haizelabs/redteaming-resistance-benchmark",
+    "https://github.com/huggingface/evaluate",
+    "https://github.com/huggingface/open-r1",
+    "https://github.com/huggingface/peft",
+    "https://github.com/huggingface/transformers",
+    "https://github.com/huggingface/trl",
+    "https://github.com/ivaxi0s/PersistBench",
+    "https://github.com/ivaxi0s/PersistBench/blob/main/prompts/evaluation.txt",
+    "https://github.com/ivaxi0s/PersistBench/blob/main/prompts/generation/beneficial_samples.txt",
+    "https://github.com/ivaxi0s/PersistBench/blob/main/prompts/generation/sycophancy.txt",
+    "https://github.com/ivaxi0s/PersistBench/blob/main/prompts/judges/beneficial_samples.txt",
+    "https://github.com/ivaxi0s/PersistBench/blob/main/prompts/judges/cross_domain.txt",
+    "https://github.com/ivaxi0s/PersistBench/blob/main/prompts/judges/sycophancy.txt",
+    "https://github.com/jiayingwu19/SheepDog",
+    "https://github.com/kbenoit/CSTA-APSR/",
+    "https://github.com/liushiliushi/ConfTuner",
+    "https://github.com/liweijiang/artificial-hivemind",
+    "https://github.com/locuslab/open-unlearning",
+    "https://github.com/locuslab/tofu",
+    "https://github.com/memodb-io/memobase",
+    "https://github.com/meta-llama/PurpleLlama",
+    "https://github.com/meta-llama/PurpleLlama/blob/main/Llama-Guard2/MODEL_CARD.md",
+    "https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall/examples",
+    "https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md",
+    "https://github.com/microsoft/aici/",
+    "https://github.com/ngrams-dev/general",
+    "https://github.com/nomic-ai/gpt4all",
+    "https://github.com/open-compass/ANAH",
+    "https://github.com/openai/emergent-misalignment-persona-features",
+    "https://github.com/openai/gpt-2-output-dataset",
+    "https://github.com/openai/simple-evals",
+    "https://github.com/orionw/RedditHumorDetection",
+    "https://github.com/probcomp/genlm-control",
+    "https://github.com/ramybaly/Article-Bias-Prediction",
+    "https://github.com/rapidsai/cuml",
+    "https://github.com/rdkit/rdkit",
+    "https://github.com/safety-research/impossiblebench",
+    "https://github.com/safety-research/weight-steering",
+    "https://github.com/science-of-finetuning/diffing-toolkit",
+    "https://github.com/shmsw25/AmbigQA",
+    "https://github.com/skgabriel/mrf-modeling",
+    "https://github.com/slowmist/MasterMCP",
+    "https://github.com/sriniiyer/codenn",
+    "https://github.com/swiss-ai/apertus-tech-report/blob/main/Apertus_Tech_Report.pdf",
+    "https://github.com/swj0419/muse_bench",
+    "https://github.com/tatsu-lab/alpaca_eval",
+    "https://github.com/tatsu-lab/stanford_alpaca",
+    "https://github.com/technion-cs-nlp/saes-are-good-for-steering",
+    "https://github.com/tim-hua-01/steering-eval-awareness-public",
+    "https://github.com/unitaryai/detoxify",
+    "https://github.com/vectara/hallucination-leaderboard?tab=readme-ov-file",
+    "https://github.com/xu1868/SaySelf",
+    "https://github.com/yiweiluo/GWStance",
+    "https://huggingface.co",
+    "https://huggingface.co/HuggingFaceH4/mistral-7b-sft-beta",
+    "https://huggingface.co/ModelOrganismsForEM",
+    "https://huggingface.co/Qwen",
+    "https://huggingface.co/Qwen/QwQ-32B",
+    "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+    "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507",
+    "https://huggingface.co/Safiron/Safiron",
+    "https://huggingface.co/andrewtim-mats/woodsoloadd_codeonly_rt_add2",
+    "https://huggingface.co/blog/mlabonne/abliteration",
+    "https://huggingface.co/collections/AI45Research/agentdog",
+    "https://huggingface.co/collections/liweijiang/artificial-hivemind-6826e108da3260c02a1a2ec0",
+    "https://huggingface.co/collections/mib-bench/mib-datasets-67f55273612ec3067a42a56b",
+    "https://huggingface.co/datasets",
+    "https://huggingface.co/datasets/HuggingFaceH4/no_robots",
+    "https://huggingface.co/datasets/IAAR-Shanghai/HaluMem",
+    "https://huggingface.co/datasets/Jackrong/GPT-OSS-120B-Distilled-Reasoning-math",
+    "https://huggingface.co/datasets/Qwen/Qwen3GuardTest",
+    "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro",
+    "https://huggingface.co/datasets/allegrolab/biographies_ecthr",
+    "https://huggingface.co/datasets/allegrolab/biographies_yago",
+    "https://huggingface.co/datasets/allegrolab/chats_personachat",
+    "https://huggingface.co/datasets/allegrolab/paraphrases_mrpc",
+    "https://huggingface.co/datasets/allegrolab/paraphrases_paws",
+    "https://huggingface.co/datasets/allegrolab/passages_gutenberg_popular",
+    "https://huggingface.co/datasets/allegrolab/passages_gutenberg_unpopular",
+    "https://huggingface.co/datasets/allegrolab/passages_wikipedia",
+    "https://huggingface.co/datasets/allegrolab/testset_MMLU",
+    "https://huggingface.co/datasets/allegrolab/testset_ellie",
+    "https://huggingface.co/datasets/allegrolab/testset_hellaswag",
+    "https://huggingface.co/datasets/allegrolab/testset_munch",
+    "https://huggingface.co/datasets/allegrolab/testset_piqa",
+    "https://huggingface.co/datasets/allegrolab/testset_popqa",
+    "https://huggingface.co/datasets/allegrolab/testset_winogrande-infill",
+    "https://huggingface.co/datasets/allegrolab/testset_winogrande-mcq",
+    "https://huggingface.co/datasets/m-a-p/FineFineWeb",
+    "https://huggingface.co/datasets/m-a-p/SuperGPQA",
+    "https://huggingface.co/datasets/mandarjoshi/trivia_qa",
+    "https://huggingface.co/datasets/nvidia/Llama-Nemotron-Post-Training-Dataset",
+    "https://huggingface.co/datasets/tatsu-lab/alpaca",
+    "https://huggingface.co/datasets/timhua/expert_iter_2",
+    "https://huggingface.co/datasets/timhua/second_half_training/tree/main",
+    "https://huggingface.co/datasets/truthfulai/emergent_plus",
+    "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+    "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+    "https://huggingface.co/meta-llama/Llama-Guard-3-8B",
+    "https://huggingface.co/meta-llama/Llama-Guard-4-12B",
+    "https://huggingface.co/open-unlearning",
+    "https://huggingface.co/spaces/mib-bench/leaderboard",
+    "https://huggingface.co/spaces/open-llm-leaderboard/blog",
+    "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+    "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard/",
+    "https://huggingface.co/timhua/wood_v2_sftr1",
+    "https://huggingface.co/timhua/wood_v2_sftr4_filt",
+    "https://huggingface.co/vectara/hallucination_evaluation_model",
+    "https://ira.lib.polyu.edu.hk/bitstream/10397/115587/1/Li_Chatbot_Delivered_Interventions.pdf",
+    "https://ira.lib.polyu.edu.hk/handle/10397/115587?mode=full",
+    "https://metadata.un.org/sdg/3",
+    "https://metadata.un.org/sdg/4",
+    "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+    "https://onlinelibrary.wiley.com/doi/10.1111/wvn.70059",
+    "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/wvn.70059",
+    "https://onlinelibrary.wiley.com/terms-and-conditions",
+    "https://openalex.org/A5010304991",
+    "https://openalex.org/A5031676960",
+    "https://openalex.org/A5048202969",
+    "https://openalex.org/A5048936273",
+    "https://openalex.org/A5067667427",
+    "https://openalex.org/A5077256263",
+    "https://openalex.org/A5100404213",
+    "https://openalex.org/C118552586",
+    "https://openalex.org/C126322002",
+    "https://openalex.org/C134362201",
+    "https://openalex.org/C136764020",
+    "https://openalex.org/C139265228",
+    "https://openalex.org/C141071460",
+    "https://openalex.org/C159110408",
+    "https://openalex.org/C168563851",
+    "https://openalex.org/C17744445",
+    "https://openalex.org/C189708586",
+    "https://openalex.org/C199539241",
+    "https://openalex.org/C27415008",
+    "https://openalex.org/C2779041454",
+    "https://openalex.org/C2779473830",
+    "https://openalex.org/C41008148",
+    "https://openalex.org/C70410870",
+    "https://openalex.org/C71924100",
+    "https://openalex.org/C95190672",
+    "https://openalex.org/I1299303238",
+    "https://openalex.org/I14243506",
+    "https://openalex.org/P4310320595",
+    "https://openalex.org/S205870262",
+    "https://openalex.org/S2764455111",
+    "https://openalex.org/S4306400205",
+    "https://openalex.org/S4306525036",
+    "https://openalex.org/T10272",
+    "https://openalex.org/T10709",
+    "https://openalex.org/T11519",
+    "https://openalex.org/W1953211836",
+    "https://openalex.org/W1966976587",
+    "https://openalex.org/W2039842580",
+    "https://openalex.org/W2136403658",
+    "https://openalex.org/W2482374272",
+    "https://openalex.org/W2532414435",
+    "https://openalex.org/W2537335702",
+    "https://openalex.org/W2612630960",
+    "https://openalex.org/W2794014169",
+    "https://openalex.org/W2795154182",
+    "https://openalex.org/W2889335577",
+    "https://openalex.org/W2892325292",
+    "https://openalex.org/W2899520395",
+    "https://openalex.org/W2940884072",
+    "https://openalex.org/W2970684805",
+    "https://openalex.org/W2977128309",
+    "https://openalex.org/W3015075171",
+    "https://openalex.org/W3018892856",
+    "https://openalex.org/W3022528244",
+    "https://openalex.org/W3035590377",
+    "https://openalex.org/W3036442924",
+    "https://openalex.org/W3084631705",
+    "https://openalex.org/W3088536033",
+    "https://openalex.org/W3118615836",
+    "https://openalex.org/W3135898284",
+    "https://openalex.org/W3139433464",
+    "https://openalex.org/W3158077145",
+    "https://openalex.org/W3162547504",
+    "https://openalex.org/W3164324796",
+    "https://openalex.org/W3176146353",
+    "https://openalex.org/W3192088754",
+    "https://openalex.org/W3199352106",
+    "https://openalex.org/W3216614508",
+    "https://openalex.org/W4214931137",
+    "https://openalex.org/W4221044417",
+    "https://openalex.org/W4225921235",
+    "https://openalex.org/W4226428261",
+    "https://openalex.org/W4229082340",
+    "https://openalex.org/W4229372097",
+    "https://openalex.org/W4239187549",
+    "https://openalex.org/W4293646425",
+    "https://openalex.org/W4294214983",
+    "https://openalex.org/W4294636802",
+    "https://openalex.org/W4308687068",
+    "https://openalex.org/W4309659478",
+    "https://openalex.org/W4313342643",
+    "https://openalex.org/W4313813117",
+    "https://openalex.org/W4321512037",
+    "https://openalex.org/W4323900694",
+    "https://openalex.org/W4362606292",
+    "https://openalex.org/W4364322177",
+    "https://openalex.org/W4382052417",
+    "https://openalex.org/W4383501580",
+    "https://openalex.org/W4387007686",
+    "https://openalex.org/W4388573562",
+    "https://openalex.org/W4389934892",
+    "https://openalex.org/W4390508808",
+    "https://openalex.org/W4390732657",
+    "https://openalex.org/W4390905829",
+    "https://openalex.org/W4392946041",
+    "https://openalex.org/W4394630908",
+    "https://openalex.org/W4400089482",
+    "https://openalex.org/W4400695662",
+    "https://openalex.org/W4405647361",
+    "https://openalex.org/W4407100269",
+    "https://openalex.org/W4409695426",
+    "https://openalex.org/W4410248805",
+    "https://openalex.org/W4412456128",
+    "https://openalex.org/W4415300695",
+    "https://openalex.org/W4416792402",
+    "https://openalex.org/domains/2",
+    "https://openalex.org/fields/32",
+    "https://openalex.org/keywords/acceptability",
+    "https://openalex.org/keywords/chatbots",
+    "https://openalex.org/keywords/digital-mental-health-interventions",
+    "https://openalex.org/keywords/feasibility",
+    "https://openalex.org/keywords/mental-health",
+    "https://openalex.org/keywords/psychological-distress",
+    "https://openalex.org/keywords/psychological-well-being",
+    "https://openalex.org/keywords/youth",
+    "https://openalex.org/licenses/cc-by-nc-nd",
+    "https://openalex.org/study-designs/meta-analysis",
+    "https://openalex.org/study-designs/systematic-review",
+    "https://openalex.org/subfields/3202",
+    "https://openalex.org/subfields/3207",
+    "https://orcid.org/0000-0002-0802-2859",
+    "https://orcid.org/0000-0002-1344-5944",
+    "https://orcid.org/0000-0002-4973-211X",
+    "https://orcid.org/0000-0002-5311-9190",
+    "https://orcid.org/0000-0003-0013-1855",
+    "https://orcid.org/0000-0003-2721-5784",
+    "https://orcid.org/0000-0003-4411-6200",
+    "https://orcid.org/0009-0003-9025-1670",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12261465/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/instance/12261465/bin/WVN-22-0-s001.docx",
+    "https://pmc.ncbi.nlm.nih.gov/utils/oa/oa.fcgi?id=PMC12261465",
+    "https://pubmed.ncbi.nlm.nih.gov/40662463",
+    "https://pubmed.ncbi.nlm.nih.gov/40776275/",
+    "https://raw.githubusercontent.com/wviechtb/metafor/5e28720a297a6e3edfa7ebd818d00e09d1e3503c/DESCRIPTION",
+    "https://raw.githubusercontent.com/wviechtb/metafor/5e28720a297a6e3edfa7ebd818d00e09d1e3503c/R/escalc.r",
+    "https://raw.githubusercontent.com/wviechtb/metafor/5e28720a297a6e3edfa7ebd818d00e09d1e3503c/R/rma.mv.r",
+    "https://raw.githubusercontent.com/wviechtb/metafor/c6c997d83cfd9fb2d2129a3479495fc0a874e4d0/DESCRIPTION",
+    "https://raw.githubusercontent.com/wviechtb/metafor/c6c997d83cfd9fb2d2129a3479495fc0a874e4d0/R/escalc.r",
+    "https://raw.githubusercontent.com/wviechtb/metafor/c6c997d83cfd9fb2d2129a3479495fc0a874e4d0/R/rma.mv.r",
+    "https://ror.org/0030zas98",
+    "https://sigmapubs.onlinelibrary.wiley.com/doi/10.1111/wvn.70059",
+    "https://sigmapubs.onlinelibrary.wiley.com/doi/full-xml/10.1111/wvn.70059",
+    "https://sigmapubs.onlinelibrary.wiley.com/doi/pdf/10.1111/wvn.70059",
+    "https://sigmapubs.onlinelibrary.wiley.com/doi/suppl/10.1111/wvn.70059",
+    "https://www.anthropic.com/research/agentic-misalignment",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12261465/fullTextXML",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12261465/supplementaryFiles",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1111%2Fwvn.70059&format=json",
+    "https://www.jmir.org/2025/1/e78238/metrics",
+    "https://www.nature.com/articles/s41599-026-07019-z",
+    "https://www.nature.com/articles/s41599-026-07019-z_reference.pdf",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/12261465",
+    "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC12261465",
+    "https://www.researchgate.net/publication/389852982_The_Transparency_Dilemma_How_AI_Disclosure_Erodes_Trust",
+    "https://www.semanticscholar.org/paper/022a766d94d6840f6c33354000a3262416ed29d8",
+    "https://www.semanticscholar.org/paper/0b82eec3b92215b910c19102c33bcd13aa6f8bd0",
+    "https://www.semanticscholar.org/paper/0d27c324311468b9a78226b0babf12fd23b1ee01",
+    "https://www.semanticscholar.org/paper/0f1951b7390f2717ed8bafe2b12f29b40a3e74ea",
+    "https://www.semanticscholar.org/paper/11fe7b9236477c5ed162b0746d2083067c13f706",
+    "https://www.semanticscholar.org/paper/18142a70b72cd70725f43316f31e904826d6db63",
+    "https://www.semanticscholar.org/paper/2462ae73ab456413a4e131c689984a2209e2f0a4",
+    "https://www.semanticscholar.org/paper/24d8ef3e6de95986463aaaddb01653224ca044de",
+    "https://www.semanticscholar.org/paper/267cf5cc1655ef1ecb281f0521f6126f59e5e957",
+    "https://www.semanticscholar.org/paper/26820cd27f5861eeca207f2e9db94ffd44da647c",
+    "https://www.semanticscholar.org/paper/26ee57cf62ebbf55e917755c23e5d949c5cc1d4a",
+    "https://www.semanticscholar.org/paper/284fdf2c118612031580d09fb49148b6a696e160",
+    "https://www.semanticscholar.org/paper/28732bea2a34a258e5514dfbfd8d14b37eb28909",
+    "https://www.semanticscholar.org/paper/295b0e3ca5e4d5670f8fba690dd7111907a64b69",
+    "https://www.semanticscholar.org/paper/29af360a14bc8754b0a9fb2545b2a2527874639c",
+    "https://www.semanticscholar.org/paper/2b6b1aad13af4a93807c49155db308616ee34f3d",
+    "https://www.semanticscholar.org/paper/333e29db6a9e9e69e1eb58d3ca32383e97c54845",
+    "https://www.semanticscholar.org/paper/36e040e82feba794c163cb0adc64e653e12ce335",
+    "https://www.semanticscholar.org/paper/3b5a3a14a745a16423a54cd8ca969208a3590869",
+    "https://www.semanticscholar.org/paper/3e1f503b55e988797f8b40344047197a2df48c31",
+    "https://www.semanticscholar.org/paper/472d24cd93b600f7fd2102527d27a53108c9f29b",
+    "https://www.semanticscholar.org/paper/473ea02396f57d35476a3a3c29e08d77d6ec471e",
+    "https://www.semanticscholar.org/paper/47a767024e85666d6b379e1f8c204d6a965c2f67",
+    "https://www.semanticscholar.org/paper/47ffcbf9a852ab0e36c4fe342e07e486d87c5276",
+    "https://www.semanticscholar.org/paper/48ef15d92002581d51142bcfe5dc7584e6eeed63",
+    "https://www.semanticscholar.org/paper/49b7bd62d0246c6ea9eecf4ade6f94dea88a706d",
+    "https://www.semanticscholar.org/paper/4fdba4d52709c833663c1d75eafbd0f8ea22132b",
+    "https://www.semanticscholar.org/paper/50bc6725b958e720005da3f383daae71fff20647",
+    "https://www.semanticscholar.org/paper/51fe85e30a4c9d66a3fa127946d1f87a6fabeac7",
+    "https://www.semanticscholar.org/paper/548f0ba717fe07bfc5e0d98844784ba9aaa46965",
+    "https://www.semanticscholar.org/paper/54c4d714704be8c6bafb28af551cf88641a391e1",
+    "https://www.semanticscholar.org/paper/59bba5a009865df783db81b71aefffc068892d1c",
+    "https://www.semanticscholar.org/paper/59bd46ad79b61e98873c68e45a913509fa7ad7cd",
+    "https://www.semanticscholar.org/paper/5af57cec1b06256241621f553f5dd63fb5e6c69f",
+    "https://www.semanticscholar.org/paper/5c917313defc6a125b7e2438b452bfd54fa1f5d1",
+    "https://www.semanticscholar.org/paper/5ed82342725cf4b246d69f89d0d16ded7cabe17c",
+    "https://www.semanticscholar.org/paper/5f62ff3089dc985179f961425bf1c8875cf55d75",
+    "https://www.semanticscholar.org/paper/610dbfc56292ccd989bd84938f1f3741f6e30948",
+    "https://www.semanticscholar.org/paper/63898f9e42eb36d9b53bc502d3c338db0f217536",
+    "https://www.semanticscholar.org/paper/63e7ee45f7f373deee498fea2c54e7fa8c5f469c",
+    "https://www.semanticscholar.org/paper/6479fead1928765413454ae4d4fac524831a9a8b",
+    "https://www.semanticscholar.org/paper/65b61e35ea9416b47046f2775147d75a6d05375f",
+    "https://www.semanticscholar.org/paper/66583ad76bc1ce493ed3b530b9a56f87a7e684ca",
+    "https://www.semanticscholar.org/paper/6756b0631015b74a9af578869d883ba4b7ddd61c",
+    "https://www.semanticscholar.org/paper/6ad46448da31c21586c1bae35e2e184b1cce5cb4",
+    "https://www.semanticscholar.org/paper/6f4df1083e258fb9f9bb8507cf828cf434da9dfa",
+    "https://www.semanticscholar.org/paper/704eb88814e402326641d9734893c61b55378fa5",
+    "https://www.semanticscholar.org/paper/73ede937462690fdf9f0952928cfab0314d232c2",
+    "https://www.semanticscholar.org/paper/744d3b9d4329086ebd169886f332f60d3a467994",
+    "https://www.semanticscholar.org/paper/7874c6e5d7313a98b832918d5cb7f1b10ffea4fb",
+    "https://www.semanticscholar.org/paper/78c758993828ae1ee5f0584d813152f2ce4af84f",
+    "https://www.semanticscholar.org/paper/7fa72ea1b553aa106bb8a408e9af18b20a807e49",
+    "https://www.semanticscholar.org/paper/8aed520b7fb2c9201dbbc929dac708d74d6e6bc3",
+    "https://www.semanticscholar.org/paper/8b97874ce9904c9f5e712054d24a8b45cc6fed5e",
+    "https://www.semanticscholar.org/paper/8f66f06304829890f83c428fb4677a54c91d9fbd",
+    "https://www.semanticscholar.org/paper/9008680aac5a92b3a089aa1487eea76b8565f0d3",
+    "https://www.semanticscholar.org/paper/91bc86ee4af14e70fc27cc9b24bc31c412f10dcd",
+    "https://www.semanticscholar.org/paper/95969b5e6727530aadbc2952ca58bea2475be8f5",
+    "https://www.semanticscholar.org/paper/968364ece59332287eb659b980671d638b35438a",
+    "https://www.semanticscholar.org/paper/97925dff599f2ac34aa06c388b98d1886bbd3296",
+    "https://www.semanticscholar.org/paper/9843db8517c17d41e878c91de91f27bc33070325",
+    "https://www.semanticscholar.org/paper/9b6d785768be1078a1ae582fd1ee4d8464eb8186",
+    "https://www.semanticscholar.org/paper/a0fd19141f229ca2b57934008ccd68a7f9cab8ea",
+    "https://www.semanticscholar.org/paper/a1192e0d8e5d6f2563a10515118b34b4167b27d2",
+    "https://www.semanticscholar.org/paper/a65553dcd5fa85d5039be981561a34e755139d95",
+    "https://www.semanticscholar.org/paper/a6a8298d6d78ce427319648191421d34cd68643c",
+    "https://www.semanticscholar.org/paper/a6cad00e214c0f3ccdb0145bc4c384475d8b9828",
+    "https://www.semanticscholar.org/paper/a90068513bf2eae66c81ff80b5060ce115097176",
+    "https://www.semanticscholar.org/paper/a98418ee62c24004d3bae628075c1d2bcee9504f",
+    "https://www.semanticscholar.org/paper/aca672118bb6e22918686cec87b139a207e74fd7",
+    "https://www.semanticscholar.org/paper/af53de2322059587202eb22f8e8554b5b32abe8c",
+    "https://www.semanticscholar.org/paper/b52f7aa85ef5ddade34324f5e86cf04c01f404d2",
+    "https://www.semanticscholar.org/paper/b71fa448ef2420419a423def156f0970fc4ea720",
+    "https://www.semanticscholar.org/paper/b80b43fb41bce05c6f260766dbee18f84e5b0c3c",
+    "https://www.semanticscholar.org/paper/b9c53085e20687a74702f8092b6f0dd609e36657",
+    "https://www.semanticscholar.org/paper/b9ca6db27f02a9ddf0d4fdb51b26432c99a27be0",
+    "https://www.semanticscholar.org/paper/bb11066e3475beb84cea4e1624f615edf552480b",
+    "https://www.semanticscholar.org/paper/bd80fff94d8774c5f7182d9694438ece57a1a933",
+    "https://www.semanticscholar.org/paper/c34685e9c30b5d2f71c536cd4902e00f0ed70561",
+    "https://www.semanticscholar.org/paper/cc8670a87ba937d8c5ba1ec7b6492698c54abd4c",
+    "https://www.semanticscholar.org/paper/ccea3ec4d8bd55cf4a9114d3b9b1d0a0633b1921",
+    "https://www.semanticscholar.org/paper/d0b26fc297c2779b4c59ae019dc8750f614c3f47",
+    "https://www.semanticscholar.org/paper/d237326ef938edeb7d37f07d7348952472c4b568",
+    "https://www.semanticscholar.org/paper/d68f4ce9fe1184e74e6cb59493f8cb3ec2265f98",
+    "https://www.semanticscholar.org/paper/d750b446d9ad7dc1f1cea5a2793d28cd2566bde9",
+    "https://www.semanticscholar.org/paper/d94f8b377291dbd39a203f0a61de6337a47cb55a",
+    "https://www.semanticscholar.org/paper/de507d94542da4b22f244d0e461c19628dfb3f81",
+    "https://www.semanticscholar.org/paper/deca5f270584ce0d2df37408ed3f5e5b26331659",
+    "https://www.semanticscholar.org/paper/e17002b2a3f0d4678e0ca1946bc347fbb402cc19",
+    "https://www.semanticscholar.org/paper/e19d9c19a81a82a6114809a8381ae4df67a824cf",
+    "https://www.semanticscholar.org/paper/e285c3cb1bab8819ac32a38036a68e990b529e4b",
+    "https://www.semanticscholar.org/paper/e65a1dd9237d5dad8b56859385686cc52e54edda",
+    "https://www.semanticscholar.org/paper/e87783e9dbf847225af64a89bff041f90dea5f27",
+    "https://www.semanticscholar.org/paper/e8bd6ec12610833e7de437d7b2a5b4fc7c89fd9d",
+    "https://www.semanticscholar.org/paper/ebdb2c9347e5ab1b7c27c483aafab9584d28e8a1",
+    "https://www.semanticscholar.org/paper/ef172476e18fbb0cfb3b25d3749969f9e56c4fc4",
+    "https://www.semanticscholar.org/paper/eff2ed5b643ebd511d812ab9609e53b94a907f6d",
+    "https://www.semanticscholar.org/paper/f1c8be9a387fcb67997ad778f0cd20d77082f3ab",
+    "https://www.semanticscholar.org/paper/f1f48068bfb3368f62e61fb6a97aa25fb10c8aa6",
+    "https://www.semanticscholar.org/paper/f29cd5cab35c06518b9fab95168c11ab55ae2170",
+    "https://www.semanticscholar.org/paper/f393201d8eda43de4d995b5a85c9e7ebd7fbb6bf",
+    "https://www.semanticscholar.org/paper/f45c816e1f3c40f1bac4e68b7c01e8b40a235b4f",
+    "https://www.semanticscholar.org/paper/f4acbac6d6971972e430e19cb90df01cb376428f",
+    "https://www.semanticscholar.org/paper/f4dd8cd481a075a4127871b1319d4c457cdbde83",
+    "https://www.semanticscholar.org/paper/f6c79e85a1ad285ccd05b069c424a79f01a68304",
+    "https://www.semanticscholar.org/paper/f716a18b462826004899010dfc30947f9c01ef90",
+    "https://www.semanticscholar.org/paper/fa965a002729ce91605d9b759724409b95ce983d",
+    "https://www.semanticscholar.org/paper/fb19049dbe00bc1e4427017aa1beb9be7f07636c",
+    "https://www.semanticscholar.org/paper/fcdd61186f81c101922cc06839adee838e771a63",
+    "https://www.semanticscholar.org/paper/ff2c005d93304ecb82ad0b60517d37cdecbf553e",
+    "https://www.tqmp.org/RegularArticles/vol12-3/p154/p154.pdf",
+    "https://www.un.org/esa/socdev/documents/youth/fact-sheets/youth-definition.pdf",
+    "https://www.un.org/esa/socdev/documents/youth/fact‐sheets/youth‐definition.pdf",
+    "https://www.unfpa.org/data/world-population-dashboard",
+    "https://www.unfpa.org/data/world‐population‐dashboard",
+    "https://www.wikidata.org/wiki/Q11180",
+    "https://www.wikidata.org/wiki/Q11190",
+    "https://www.wikidata.org/wiki/Q121176",
+    "https://www.wikidata.org/wiki/Q1436668",
+    "https://www.wikidata.org/wiki/Q1504425",
+    "https://www.wikidata.org/wiki/Q1540899",
+    "https://www.wikidata.org/wiki/Q199906",
+    "https://www.wikidata.org/wiki/Q21198",
+    "https://www.wikidata.org/wiki/Q317309",
+    "https://www.wikidata.org/wiki/Q36442",
+    "https://www.wikidata.org/wiki/Q40821",
+    "https://www.wikidata.org/wiki/Q466",
+    "https://www.wikidata.org/wiki/Q5283089",
+    "https://www.wikidata.org/wiki/Q7256382",
+    "https://www.wikidata.org/wiki/Q7748",
+    "https://www.wikidata.org/wiki/Q7867",
+    "https://www.wikidata.org/wiki/Q815382",
+    "https://www.wikidata.org/wiki/Q870780",
+    "https://~https://github.com/goodfire-ai/sae-manifold"
+  ],
+  "inventory_source_notes": {
+    "dependency_version_evidence": [
+      "papers/P135_young_people_chatbot_meta/method_preparation003/ROOT_COMPLETE_ORIGINAL_MAIN_RUNTIME_FREEZE005.json",
+      "papers/P135_young_people_chatbot_meta/independent_auditor_preparation015/ROOT_COMPLETE_ORIGINAL015_EXECUTION_RUNTIME_FREEZE008.json"
+    ],
+    "source_urls_retained": [
+      {
+        "url": "https://doi.org/10.1111/wvn.70059",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/final_report001/SUMMARY_REPORT.html"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v5.2-1",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v5.2-1",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/commits/1c2255525ce10193aadc367921c207d7d25f4b21",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v5.0-1",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v5.0-1",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/commits/9b1c7081b6b451108670fea480e83d6cb49387e8",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.8-0",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v4.8-0",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/commits/82030a0b3b12947066b94bb1d4b45eefd325731a",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.6-0",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v4.6-0",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/commits/c6c997d83cfd9fb2d2129a3479495fc0a874e4d0",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.4-0",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v4.4-0",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/commits/5e28720a297a6e3edfa7ebd818d00e09d1e3503c",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.2-0",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v4.2-0",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/commits/151efa283bd4cd3199cb87d4ed6d651ceed1631c",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v4.0-0",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v4.0-0",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/commits/60e76dd858bf2ae2069f7d6bcf0934e0b03f2702",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v3.8-1",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v3.8-1",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/commits/38599b48dc4eba10b7ff7007660fabb0d7575397",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v3.4-0",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v3.4-0",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/commits/44e8869c3fce3dca43f285d574e3946b97275098",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v2.4-0",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v2.4-0",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/commits/c9f191ebc242062e234487a5d5f57ba4ce9dd038",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v2.1-0",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v2.1-0",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/commits/0e54b316e8c58fe0f0ab5890017193728a305ad1",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v2.0-0",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v2.0-0",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/commits/5e3ef0d12f4d1241a64d368108db4a74a5690a6b",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/zipball/refs/tags/v1.9-9",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/tarball/refs/tags/v1.9-9",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/commits/e5f8a3e8a965f00f588615d7238dd9cabb92b958",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/metafor_historical_tags001.json"
+      },
+      {
+        "url": "https://orcid.org/0000-0002-4973-211X",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml"
+      },
+      {
+        "url": "https://orcid.org/0000-0002-5311-9190",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml"
+      },
+      {
+        "url": "https://orcid.org/0000-0002-0802-2859",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml"
+      },
+      {
+        "url": "https://orcid.org/0000-0003-0013-1855",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml"
+      },
+      {
+        "url": "https://orcid.org/0000-0003-2721-5784",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml"
+      },
+      {
+        "url": "https://orcid.org/0000-0003-4411-6200",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml"
+      },
+      {
+        "url": "https://orcid.org/0000-0002-1344-5944",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml"
+      },
+      {
+        "url": "http://www.niso.org/schemas/ali/1.0/",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml"
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml"
+      },
+      {
+        "url": "http://www.w3.org/1999/xlink",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml"
+      },
+      {
+        "url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml"
+      },
+      {
+        "url": "https://cccrg.cochrane.org/sites/cccrg.cochrane.org/files/uploads/Outcomes.pdf",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml"
+      },
+      {
+        "url": "http://www.training.cochrane.org/handbook",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml"
+      },
+      {
+        "url": "https://blogs.worldbank.org/en/opendata/new-world-bank-group-country-classifications-income-level-fy24",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml"
+      },
+      {
+        "url": "https://blogs.worldbank.org/en/opendata/new‐world‐bank‐group‐country‐classifications‐income‐level‐fy24",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml"
+      },
+      {
+        "url": "https://www.un.org/esa/socdev/documents/youth/fact-sheets/youth-definition.pdf",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml"
+      },
+      {
+        "url": "https://www.un.org/esa/socdev/documents/youth/fact‐sheets/youth‐definition.pdf",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml"
+      },
+      {
+        "url": "https://www.unfpa.org/data/world-population-dashboard",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml"
+      },
+      {
+        "url": "https://www.unfpa.org/data/world‐population‐dashboard",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml"
+      },
+      {
+        "url": "https://sigmapubs.onlinelibrary.wiley.com/doi/10.1111/wvn.70059",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/ORIGINAL_PDF_EXTRACTED_TEXT001.txt"
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/terms-and-conditions",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/ORIGINAL_PDF_EXTRACTED_TEXT001.txt"
+      },
+      {
+        "url": "https://doi.org/10.1145/3576840.3578283",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/ORIGINAL_SUPPLEMENT_ORDERED_LITERAL_STRUCTURE002.json"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1111/wvn.70059",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS001.json"
+      },
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC12261465",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS001.json"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12261465/fullTextXML",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS001.json"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1111%2Fwvn.70059&format=json",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS001.json"
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/wvn.70059",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS001.json"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12261465/",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS001.json"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12261465/bin/WVN-22-0-s001.docx",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS002.json"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12261465/supplementaryFiles",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS002.json"
+      },
+      {
+        "url": "https://ira.lib.polyu.edu.hk/bitstream/10397/115587/1/Li_Chatbot_Delivered_Interventions.pdf",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS002.json"
+      },
+      {
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a292/12261465/613ebc2af2a0/WVN-22-0-g001.jpg",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS002.json"
+      },
+      {
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a292/12261465/72cc1e5159ca/WVN-22-0-g003.jpg",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS002.json"
+      },
+      {
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a292/12261465/c2e3899e610f/WVN-22-0-g002.jpg",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS002.json"
+      },
+      {
+        "url": "https://europepmc.org/articles/PMC12261465/bin/WVN-22-0-s001.docx",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS003.json"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/utils/oa/oa.fcgi?id=PMC12261465",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS003.json"
+      },
+      {
+        "url": "https://ira.lib.polyu.edu.hk/handle/10397/115587?mode=full",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS003.json"
+      },
+      {
+        "url": "https://sigmapubs.onlinelibrary.wiley.com/doi/suppl/10.1111/wvn.70059",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS003.json"
+      },
+      {
+        "url": "https://www.tqmp.org/RegularArticles/vol12-3/p154/p154.pdf",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS004.json"
+      },
+      {
+        "url": "https://api.github.com/repos/wviechtb/metafor/tags?per_page=100",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS004.json"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.3233/SHTI251258",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS004.json"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40776275/",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS004.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wviechtb/metafor/5e28720a297a6e3edfa7ebd818d00e09d1e3503c/R/escalc.r",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS005.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wviechtb/metafor/5e28720a297a6e3edfa7ebd818d00e09d1e3503c/R/rma.mv.r",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS005.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wviechtb/metafor/5e28720a297a6e3edfa7ebd818d00e09d1e3503c/DESCRIPTION",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS005.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wviechtb/metafor/c6c997d83cfd9fb2d2129a3479495fc0a874e4d0/R/escalc.r",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS005.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wviechtb/metafor/c6c997d83cfd9fb2d2129a3479495fc0a874e4d0/R/rma.mv.r",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS005.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wviechtb/metafor/c6c997d83cfd9fb2d2129a3479495fc0a874e4d0/DESCRIPTION",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/REQUESTS005.json"
+      },
+      {
+        "url": "https://openalex.org/W4412456128",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/RETAINED_EXACT_OPENALEX_RECORD001.json"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40662463",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/RETAINED_EXACT_OPENALEX_RECORD001.json"
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/wvn.70059",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/RETAINED_EXACT_OPENALEX_RECORD001.json"
+      },
+      {
+        "url": "https://openalex.org/S205870262",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/RETAINED_EXACT_OPENALEX_RECORD001.json"
+      },
+      {
+        "url": "https://openalex.org/P4310320595",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/RETAINED_EXACT_OPENALEX_RECORD001.json"
+      },
+      {
+        "url": "https://openalex.org/licenses/cc-by-nc-nd",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/RETAINED_EXACT_OPENALEX_RECORD001.json"
+      },
+      {
+        "url": "https://openalex.org/A5100404213",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/RETAINED_EXACT_OPENALEX_RECORD001.json"
+      },
+      {
+        "url": "https://openalex.org/I14243506",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/RETAINED_EXACT_OPENALEX_RECORD001.json"
+      },
+      {
+        "url": "https://ror.org/0030zas98",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/RETAINED_EXACT_OPENALEX_RECORD001.json"
+      },
+      {
+        "url": "https://openalex.org/A5048936273",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/RETAINED_EXACT_OPENALEX_RECORD001.json"
+      },
+      {
+        "url": "https://orcid.org/0009-0003-9025-1670",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/RETAINED_EXACT_OPENALEX_RECORD001.json"
+      },
+      {
+        "url": "https://openalex.org/A5048202969",
+        "evidence_path": "papers/P135_young_people_chatbot_meta/sources/RETAINED_EXACT_OPENALEX_RECORD001.json"
+      }
+    ],
+    "license_notices_in_reviewed_metadata": [
+      {
+        "source": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml",
+        "literal": "ay><month>07</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type=\"article-copyright\">© 2025 The Author(s). <italic toggle=\"yes\">Worldviews on Evidence‐Based Nursing</italic> published by Wiley Periodicals LLC on behalf of Sigma Theta Tau International.</copyright-statement><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmini"
+      },
+      {
+        "source": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml",
+        "literal": "e></event></pub-history><permissions><copyright-statement content-type=\"article-copyright\">© 2025 The Author(s). <italic toggle=\"yes\">Worldviews on Evidence‐Based Nursing</italic> published by Wiley Periodicals LLC on behalf of Sigma Theta Tau International.</copyright-statement><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbyncndlicense\">https:/"
+      },
+      {
+        "source": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml",
+        "literal": "published by Wiley Periodicals LLC on behalf of Sigma Theta Tau International.</copyright-statement><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbyncndlicense\">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" e"
+      },
+      {
+        "source": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml",
+        "literal": "eriodicals LLC on behalf of Sigma Theta Tau International.</copyright-statement><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbyncndlicense\">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" x"
+      },
+      {
+        "source": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml",
+        "literal": "emas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbyncndlicense\">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distr"
+      },
+      {
+        "source": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml",
+        "literal": "ns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri xmlns:xlink=\"http://www.w3.org/1"
+      },
+      {
+        "source": "papers/P135_young_people_chatbot_meta/sources/original_fulltext001.xml",
+        "literal": "pe=\"uri\" xlink:href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri xmlns:xlink=\"http://www.w3.org/1999/xlink\" content-type=\"pmc-pdf\" xlink:href=\"WVN-2"
+      },
+      {
+        "source": "papers/P135_young_people_chatbot_meta/sources/ORIGINAL_PDF_EXTRACTED_TEXT001.txt",
+        "literal": "his period, resulting in  This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which permits use and distribution in any  medium, provided the original work is properly cited, the use is non-commercial and no modifications or adaptations are made. © 2025 The Author(s). Worldviews on Evidence-Based Nursing  published by Wiley Periodicals LLC on behalf of Sigma Th"
+      },
+      {
+        "source": "papers/P135_young_people_chatbot_meta/sources/ORIGINAL_PDF_EXTRACTED_TEXT001.txt",
+        "literal": "ley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License   PAGE 3 3 of 11 timeframe was selected based on the recognition that the rise  of chatbot technology may be traced back to 2014 (Grudin  and Jacques  2019), and most of the relevant research has been  carried out during this period (Balan et  al.  2024; Li, Zhang,  et  al.  2023). Nine bibliographic databases were sear"
+      },
+      {
+        "source": "papers/P135_young_people_chatbot_meta/sources/ORIGINAL_PDF_EXTRACTED_TEXT001.txt",
+        "literal": "ley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License   PAGE 4 4 of 11 Worldviews on Evidence- Based Nursing, 2025 dependencies between effect sizes from the same study (Assink  and Wibbelink  2016). Heterogeneity was assessed using I 2 and  Cochrane's Q statistics, with I 2 values categorized as “might not  be important” (0%–40%), “moderate” (30%–60%), “substantial”  (50%"
+      },
+      {
+        "source": "papers/P135_young_people_chatbot_meta/sources/ORIGINAL_PDF_EXTRACTED_TEXT001.txt",
+        "literal": "ley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License   PAGE 5 5 of 11 characteristics can be found in Table  1, with detailed informa - tion available in Table S3 . 3.2.3   |   Characteristics of Interventions The characteristics of chatbots have been summarized in Table 2  (further details in Table S4). As for the interventional features, the  predominant use of chatbots"
+      },
+      {
+        "source": "papers/P135_young_people_chatbot_meta/sources/ORIGINAL_PDF_EXTRACTED_TEXT001.txt",
+        "literal": "ley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License   PAGE 6 6 of 11 Worldviews on Evidence- Based Nursing, 2025 (Figures  S1 and S2 ). Notably, the most significant source of  bias stemmed from outcome measurements, specifically  the reliance on self-  reported instruments without assessor-   blinding. Regarding the selection of reported results, 21  outcomes across six"
+      }
+    ],
+    "retained_license_files": [],
+    "redistribution_status": "No independent license grant inferred. Default bundle is programme-authored code/config/compact derived results; original assets require notice/URL-based acquisition when rights are unresolved. Article/source license excerpts are evidence, not a blanket repository license.",
+    "portable_rerun_notes": [
+      "Keep repository-relative layout for __file__-based roots. Preserve input bytes and pinned hashes. Install stated scientific dependencies separately; do not copy original runtime.",
+      "New output namespaces are required. Historical immutable run directories must not be overwritten.",
+      "Authorization/freeze/runtime source checks remain active in immutable runners. Later guarded studies need an explicitly documented portable launch/config adapter; none was implemented or tested by this inventory."
+    ],
+    "command_limit": "Commands document source CLI, are not tested portable instructions and do not grant execution. Fixed-output early runners need an explicit new output path adaptation; guarded later runners additionally require historical or prospectively reviewed exact auth/freeze/runtime context."
+  },
+  "policy": "Source/data/model files are acquired from their owners. Only explicitly identified programme transcriptions are bundled. URLs are historical and were not re-fetched during publication preparation."
+}

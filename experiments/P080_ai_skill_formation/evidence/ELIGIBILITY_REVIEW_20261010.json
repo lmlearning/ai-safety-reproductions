@@ -1,0 +1,44 @@
+{
+  "paper_id": "P080",
+  "title": "How AI Impacts Skill Formation",
+  "arxiv_id": "2601.20245",
+  "review_type": "eligibility_and_complete_primary_RCT_source_review",
+  "status": "eligible_primary_and_extended_windows",
+  "paper_credit": false,
+  "citation_gate": {
+    "required_primary": 20,
+    "required_extended": 40,
+    "observed": 42,
+    "source": "Semantic Scholar Graph API batch using original paper identifier",
+    "paper_id": "97925dff599f2ac34aa06c388b98d1886bbd3296",
+    "corpus_id": 285101940,
+    "source_path": "sources/P078_P080_s2_batch.source",
+    "source_sha256": "12f2931044cbf51dbc2f1c370a207c0824b3a0f141824bb0c28dd1bb15d2c845",
+    "retrieved_utc": "2026-10-10T18:01:00.123005+00:00",
+    "passes_primary": true,
+    "passes_extended": true
+  },
+  "dates": {
+    "arxiv_v1_submission": "2026-01-28T04:40:43Z",
+    "s2_publication_date": "2026-01-28",
+    "registration_date": "2025-06-09T22:44:57.485475",
+    "retained_task_commit_date": "2025-04-04",
+    "retained_outcome_data_commit_date": "2025-08-15",
+    "earlier_public_release": "Unknown public repository visibility/push history. Author/committer dates do not prove earlier public empirical release; registration was a prospective plan. No earlier empirical release before extended window established.",
+    "rendered_html_date": "Original source main.tex line74 uses date(today), so HTML August24 date records rendering, not original submission."
+  },
+  "route": {
+    "full_replication_feasible": false,
+    "central_complete_RCT_feasible": true,
+    "scope": "Entire primary quantitative main RCT Sections5.2.1-5.2.2/Figures6-10; original52cohort, both endpoints, adjusted50, all experience/subareas/self-reports/difficulty and mandatory item/source diagnostics.",
+    "unreproduced": "Pilot cohorts A-C/raw-D discrepancy and separate qualitative personas/adoption coding lack complete original links/labels/protocol; explicit omissions before outputs.",
+    "preregistration": "PREREGISTRATION.md; root authorized final prospective freeze before participant outcome calculations."
+  },
+  "execution_at_eligibility_freeze": {
+    "participant_outcome_calculations_performed": false,
+    "model_inference": false,
+    "closed_API": false,
+    "GPU": false
+  },
+  "root_decision": "Root reviewed and accepted original source scope, eligibility and unchanged prospective comparison gates on2026-10-10; no success claimed until all comparisons and independent audit finish."
+}

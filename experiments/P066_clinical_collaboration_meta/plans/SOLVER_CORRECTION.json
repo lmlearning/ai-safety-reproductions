@@ -1,0 +1,19 @@
+{
+  "created_at_utc": "2026-10-10T16:27:34.259622+00:00",
+  "prior_run": "P066-central-001",
+  "prior_status": "failed_one_of_69_fixed_comparisons",
+  "new_run": "P066-central-002",
+  "post_outcome_method_correction": true,
+  "scope_unchanged": true,
+  "targets_and_tolerances_unchanged": true,
+  "original_target_sha256": "43d9808c559d786a076cad5c428268ce38de1043e305d5bb670f4435f16ed92e",
+  "original_preregistration_sha256": "8d7a34f02f3fa984ba207e29eb780e8cd7a1752876f2ae3baa18ebf700ea364c",
+  "correction": "Translate archived R4.5.2 R_zeroin2 algorithm for all PM tau2 estimates, including bounds0..max(100,10*MAD(yi)^2), maxiter100, and tol=double.eps^.25. The exact-root solver in initial run used xtol1e-13, unlike original package stopping. No parameter is selected using an outcome or target.",
+  "evidence": [
+    "Declared original meta8.2-1: archived CRAN tar and R/hetcalc.R calls rma.uni using method.tau and control",
+    "Declared original R4.5.2: archived exact tag src/library/stats/src/zeroin.c",
+    "Contemporary metafor4.8-0: archived rma.uni.r defines tol=double.eps^.25, PM uniroot bounds and maxiter100"
+  ],
+  "version_uncertainty": "Article does not identify the installed metafor version. Archived4.8-0 is the contemporary primary release and meta8.2-1 dependency is metafor>=3.0-0; exact author dependency version is unknown. The original declared meta and R versions are explicit. This limitation must remain in final report.",
+  "prospective_success": "All original63 numerical and6 qualitative checks under unchanged tolerances must pass, or no central success. Independent audit recomputes all panels and source/run hashes; initial exact-root failed run remains immutable."
+}

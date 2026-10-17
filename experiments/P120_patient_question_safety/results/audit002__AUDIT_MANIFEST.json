@@ -1,0 +1,32 @@
+[
+  {
+    "path": "all_independent_integrity_checks.json",
+    "bytes": 6013799,
+    "sha256": "673c9d487846a85cf93d54cfa4c671dfba0e967cae7b77fc98a8a81f5c1ecbcc"
+  },
+  {
+    "path": "AUDIT_SUMMARY.json",
+    "bytes": 3022,
+    "sha256": "a80d30544110c285958c149e557264d358033708c47ce57d47e6d507aa5dc1e7"
+  },
+  {
+    "path": "independent_all_fixed_diagnostics.json",
+    "bytes": 15139,
+    "sha256": "e5f7675cadcbc43be904ad8b9417c5f2f2604df44f367b72ce9499c65b67a162"
+  },
+  {
+    "path": "independent_all_original_metrics.json",
+    "bytes": 10385,
+    "sha256": "71f0d90d4e0893f3babf4f30a659d19dbed3d92807d27ea9d7ad69a3b714b70a"
+  },
+  {
+    "path": "independent_mandatory_target_checks.json",
+    "bytes": 53343,
+    "sha256": "43cf9135888a14bf2ef0e404f17d6e8b3eda46dbb7c82fc73179de9ef2b9f312"
+  },
+  {
+    "path": "independent_raw_xml_records.json",
+    "bytes": 2129218,
+    "sha256": "dee6fa4b1af2143d825d0d71b236b6eb13d1bcdecee9fae5324712060ccf9573"
+  }
+]

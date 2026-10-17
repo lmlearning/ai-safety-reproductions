@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-12T00:42:28.300023+00:00",
+  "root_review_sha256": "3a6e24504720a35899ce1ca78300cc3cfba89fff6ace35c99d4eaf4fac7743c6",
+  "report_sha256": "21a255810e7601d34094b089cab3479696d40b3e22f630e108ad41e84f358ed1",
+  "eligible_central_before": 13,
+  "eligible_central_after": 14,
+  "FULL": 0,
+  "scientific_success_including_ineligible": 15,
+  "files": [
+    {
+      "path": "SUCCESS_REGISTRY.json",
+      "before_sha256": "a415a4216679f94183ccf36cc27d322213684d4b3216f86bbbd0b0100806780b",
+      "bytes": 19143,
+      "sha256": "c5c782e1666209c8df2c4b646bb19d7f1e6db23f55430f952b9c00607eda9edf"
+    },
+    {
+      "path": "literature/feasibility_ledger.json",
+      "before_sha256": "0e1cf1ba86e54aa3de26d5b95626ab43294010cd67cab9ce45eda1b81dbe4d11",
+      "bytes": 264548,
+      "sha256": "fb4989a8444bb20f2b3b836196a8654c0db86f65febb9db3f49b58290a0e689a"
+    }
+  ]
+}

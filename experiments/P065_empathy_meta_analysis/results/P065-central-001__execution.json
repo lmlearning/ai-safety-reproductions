@@ -1,0 +1,24 @@
+{
+  "start_utc": "2026-10-10T13:53:59.688466+00:00",
+  "end_utc": "2026-10-10T13:53:59.800604+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.11179290013387799,
+  "cpu_seconds": 0.078125,
+  "memory_bytes": {
+    "rss": 97837056,
+    "vms": 71577600,
+    "num_page_faults": 28449,
+    "peak_wset": 98381824,
+    "wset": 97837056,
+    "peak_paged_pool": 410128,
+    "paged_pool": 402968,
+    "peak_nonpaged_pool": 43504,
+    "nonpaged_pool": 34672,
+    "pagefile": 71577600,
+    "peak_pagefile": 71741440,
+    "private": 71577600
+  },
+  "rss_measurement": "final RSS and Windows peak working set when available; no GPU allocation",
+  "paid_service_cost": 0,
+  "electricity_cost": "unmeasured"
+}

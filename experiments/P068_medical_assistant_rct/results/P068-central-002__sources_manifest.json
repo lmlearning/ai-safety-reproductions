@@ -1,0 +1,177 @@
+[
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\arxiv_abs.html",
+    "sha256": "5ba445d0a28cb8e23d94939e9fbccb0c3cfc463b4a9b5736d025c26a705a458a",
+    "bytes": 43014
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\author_project.html",
+    "sha256": "7859d96b005605d96dd0fd4fdd0ac8662d555d58252ccc18baa087bbd59cb6e8",
+    "bytes": 23069
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\citation_snapshot.json",
+    "sha256": "381b09540b7182b4938be57fda7687284127774b28fc5a907c127565fbc6d1cc",
+    "bytes": 4552
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\clean_examples.csv",
+    "sha256": "73308f672be218d7fac8be043660af47a8d819767b97f26be71f2ea7dabdd425",
+    "bytes": 4251713
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\cpu_routes_request_log.json",
+    "sha256": "f65a76233851de8dc99f354da789c69dce5ba1c42420c785bfc7225ab9175d2c",
+    "bytes": 10173
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\dataset_commits.json",
+    "sha256": "01e899ba057983e299bd29fed6f91c2590adb07b34b2178db9c519a41d3d1273",
+    "bytes": 2240
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\dataset_readme.md",
+    "sha256": "5005113d1c38d5077f2a5fb47ced0f33031f6856cad859c7d98435965f477f25",
+    "bytes": 3543
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\dataset_tree.json",
+    "sha256": "5c12db033dcefb9bef15ba583736e54ad6674c3409f13ff406453c9622b31e16",
+    "bytes": 707
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\examples.csv",
+    "sha256": "73742a26f45e44719736bdd490c8fe01630eb3370fed14def7e6218a3403fe5d",
+    "bytes": 4254114
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\github_commits.json",
+    "sha256": "e8924fcbfd54d0f0a5eb7bb4442b8d3439b2dd4e8afab423da8b56b245ad90ac",
+    "bytes": 24904
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\github_metadata.json",
+    "sha256": "7325706a9c9a6865e7a8c6fd576becca7090db12e77024353ddc367d5ac52168",
+    "bytes": 5006
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\github_readme.md",
+    "sha256": "00c1f6efcf41330fcca551bfaa2240c03bb90c97332a11cbcb279b48e6a5a829",
+    "bytes": 4255
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\github_tree.json",
+    "sha256": "7094f84eb716b91dca1cd29d37c069bcd5d8bfd9ddc9532d37a6a350cda816cd",
+    "bytes": 15820
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\initial_dataset_tree.json",
+    "sha256": "3dc0051101d208671491d25298f015fe30cee4a24157379cea9c8bef4e83bc0c",
+    "bytes": 706
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\initial_github_tree.json",
+    "sha256": "7ea73e9079b4186ac08b5a56278dddf8e2b7c74a8b8410f50bf876b99738e5e7",
+    "bytes": 14843
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\main_results.ipynb",
+    "sha256": "caa582ea4bc2e9659523ce88f28efa3352248a1eb1d3a20b7ac4cfdcd1f0ee4f",
+    "bytes": 811330
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\main_results_source.txt",
+    "sha256": "5c4da16a90be2bd721b8874a7db11fcd7485710b0985f5e96c82fe4fc3dafaa9",
+    "bytes": 53460
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\original_examples_initial.csv",
+    "sha256": "73308f672be218d7fac8be043660af47a8d819767b97f26be71f2ea7dabdd425",
+    "bytes": 4251713
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\original_figure2.pdf",
+    "sha256": "591a0e45e3616e4a4ee3481433b041825a3a7bf397821e868755241e9f9ccbf9",
+    "bytes": 20102
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\original_figure2.png",
+    "sha256": "937ded6badbba60d83752348edb422379e535d2322806eae1d752b51de083c72",
+    "bytes": 51654
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\original_main_results_initial.ipynb",
+    "sha256": "7408cb7d0a48dd8cc36565c39588a617bf6b3448bb5d63ba0eb470542b52c776",
+    "bytes": 809746
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\original_prescored.csv",
+    "sha256": "06892c2dd85bb4717f794610c596bd099469445fc0aadb14d605b3577e9aa6e8",
+    "bytes": 182791
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\original_prescored_initial.csv",
+    "sha256": "06892c2dd85bb4717f794610c596bd099469445fc0aadb14d605b3577e9aa6e8",
+    "bytes": 182791
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\original_protocol_registration.json",
+    "sha256": "fa0029fa199ab48fde5ddbf8ef84a498955d82f0e0c3941268f471c23cfe3432",
+    "bytes": 24884
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\original_scoring_scenarios_initial.csv",
+    "sha256": "6cab86bbe5f6ed1f1fcedd2d7a64fc9effd9e875f566ee4647e117558b9a63db",
+    "bytes": 7501
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\original_streamlined_initial.ipynb",
+    "sha256": "2fc7a217017ad3fbf76ceb64aaba3c67fd4b4bc174d73a20702bc0c0ade23068",
+    "bytes": 243549
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\paper_v1.html",
+    "sha256": "af135cf37e854a10c25d866e1e4abddea31e134afd2241f1078909f78a902eb8",
+    "bytes": 387702
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\paper_v1.pdf",
+    "sha256": "50a9ccb79fc471d21407fc4fa770d23ba03f389df5c8ee520a3b0822b6f01bb4",
+    "bytes": 1540168
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\paper_v1.txt",
+    "sha256": "1fa0832e2d01e1d264cf9de2dd8fa6d5d6cf53aa6e72e12375fbebf4327eadbe",
+    "bytes": 86602
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\paper_v1_figure2_page.png",
+    "sha256": "3ce9457cabf6aaa0dcd1401a1f56983dcb04b94e12abe742b64b3a9df659671b",
+    "bytes": 69788
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\publisher_fulltext.xml",
+    "sha256": "9f8532620b97c3d09a8a529ba51f61cd0a38d1c51f88d7366043cb0b4a0a9d3c",
+    "bytes": 103869
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\scenarios.csv",
+    "sha256": "1ad3bd023b80f346a93a5b7fa6f18a35ddf33ed39aed71cd22acd98dfa2df48b",
+    "bytes": 5905536
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\scoring_scenarios.csv",
+    "sha256": "6cab86bbe5f6ed1f1fcedd2d7a64fc9effd9e875f566ee4647e117558b9a63db",
+    "bytes": 7501
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\streamlined_results.ipynb",
+    "sha256": "33789e0464fa0b80d8cb7573ccb2eb5106a148a9794be37d5f424f90c3e70802",
+    "bytes": 731457
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\sources\\streamlined_source.txt",
+    "sha256": "ca0b269d993f8ee644b58db31c35bc89450d2df21ca969b9c08a3a6235aa2229",
+    "bytes": 49224
+  }
+]

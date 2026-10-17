@@ -1,0 +1,26 @@
+{
+  "start_utc": "2026-10-10T16:28:43.065122+00:00",
+  "end_utc": "2026-10-10T16:28:45.950697+00:00",
+  "wall_seconds": 2.88577469997108,
+  "cpu_seconds": 2.453125,
+  "exit_code": 0,
+  "memory_bytes": {
+    "rss": 95813632,
+    "vms": 70979584,
+    "num_page_faults": 25756,
+    "peak_wset": 96391168,
+    "wset": 95813632,
+    "peak_paged_pool": 407960,
+    "paged_pool": 400896,
+    "peak_nonpaged_pool": 36088,
+    "nonpaged_pool": 34400,
+    "pagefile": 70979584,
+    "peak_pagefile": 71008256,
+    "private": 70979584
+  },
+  "paid_cost": 0,
+  "GPU": false,
+  "no_failed_experiment_runs_before_this": false,
+  "retained_prior_failed_run": "P066-central-001",
+  "post_outcome_method_correction": true
+}

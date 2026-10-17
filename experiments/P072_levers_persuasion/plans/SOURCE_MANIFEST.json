@@ -1,0 +1,332 @@
+{
+  "paper_id": "P072",
+  "frozen_at_utc": "2026-10-10T17:51:45.649623+00:00",
+  "preregistration_sha256": "a6c2a79d9042e38597478e7c3dc435e8f1b4d35cec9080f5d5137c77429ad7fe",
+  "files": [
+    {
+      "path": "papers\\P072_levers_persuasion\\inputs\\original_targets.json",
+      "bytes": 1070648,
+      "sha256": "55ecf1eb7d653cf4a84dfd10875b3a7daab5c483443a3cf2a2e4dda1464ff6f5"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\inputs\\original_targets_draft.json",
+      "bytes": 1067290,
+      "sha256": "9af37597dcd56b3a621d1278ad9dbf59f494a755ee74d2dcb6e1b56975a0b40a"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\cpu_routes_request_log.json",
+      "bytes": 16696,
+      "sha256": "5fd06243e7d5475ba555d8e41e68177d6aaa1a7b069343e8cf14657a3e2eacf2"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\estimatr_lm_robust_reference.html",
+      "bytes": 31751,
+      "sha256": "333946e96ceae1952f551e0e2f193b3a3f5317efe7ff99e95198b608a19a14fc"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\estimatr_v1.0.4_lm_robust.R",
+      "bytes": 13109,
+      "sha256": "903f800d64b041a4c18160cb8b6e4265f0463e7d7c4c838001f104399ff4b686"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\initial_screen_request_log.json",
+      "bytes": 6995,
+      "sha256": "c33cc24784600225741343d1b9f00fd94716032e45dcbd7bdb1ea50d7260efcd"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_abs.html",
+      "bytes": 42031,
+      "sha256": "00c06f2c934e7f9ae1027bf8d7b625620fe1a4aef5ad8855e70757ef70b8bfba"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_analysis_README.R",
+      "bytes": 1084,
+      "sha256": "655cc84a55f9e887410c86a97a5261d866ab9f373212164b242fb95b7e4b0555"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_author_page.html",
+      "bytes": 18919,
+      "sha256": "a06d70b7df34a1f37c38e707b4f6571b24b73bfbea1590f7620dfbd6df31938d"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_citation_raw.json",
+      "bytes": 408,
+      "sha256": "427eb7cfe5eeea171b07679b4e1a107c81d8f44a176e338ff7bf2fd7c3fc4177"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_final_citation_raw.json",
+      "bytes": 387,
+      "sha256": "3bfe0a25283b67bcba9c3230d822fbc727fd44559b42acd4b76fc659b63dfecd"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_initial_data_commit_README.md",
+      "bytes": 529,
+      "sha256": "b1e917e862629e1e6cf1e17abb59f9b78d8b817200288119f7e6a10913dfcbcc"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_initial_data_tree.json",
+      "bytes": 154243,
+      "sha256": "db99c0c07b0a46649d63341cb46c04f9ae446108c3d633902d2d0fe69734684e"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_original_analysis.R",
+      "bytes": 48423,
+      "sha256": "3cd167a00f6fb8d0d7b1906427b850a2380b2af0918a69e113c22ee9d066c261"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_original_supplement.pdf",
+      "bytes": 2695787,
+      "sha256": "b8639ff01f515f2f5f81d17b669475ea32be387e662e351dcde01faf05facd6c"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_original_supplement_text.txt",
+      "bytes": 192630,
+      "sha256": "904fb2a2dcabfd73fc755d42a7a60fbfe6ad9415e9dd141925bb6db6c5fcd4d9"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_osf_preprint_metadata.json",
+      "bytes": 5312,
+      "sha256": "fb52e576e33277b93f14350b8138e75566c6c178dc299f96e488ed911ae5f61e"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_README.md",
+      "bytes": 897,
+      "sha256": "974b727125b4d6442ce5cf1bfb60bc6b135d97b2148de7ab61ee257243755e24"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_repo_commits.json",
+      "bytes": 49992,
+      "sha256": "2a0bc8caa3405e5a6f459a017fc0e80f90b6f00e9b2e3d7eea528229b499e7b1"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_repo_metadata.json",
+      "bytes": 6050,
+      "sha256": "896459443ebb82341f18c941cf71bbc9918110c75d76162993b345bd36d9a17d"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_study1_data.rds",
+      "bytes": 4894314,
+      "sha256": "5d35deac56ded4babfc01191426a20900c44573d84a943f02e55d758f9d4e150"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_study2_data.rds",
+      "bytes": 2819614,
+      "sha256": "9fa15a08bc02e69c5866fb3ea86ca59069844e931a1ace51bbdc0a298ec0b924"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_study3_data.rds",
+      "bytes": 2113737,
+      "sha256": "b06a3b8bbb057d1394f797a076cad0911dd7ed4121436f8698689aa347dcef17"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_tree.json",
+      "bytes": 173861,
+      "sha256": "be67dcea1d1586150b2b4bcce6680c88bb47da203f312dff5327c95316b4d4a7"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\levers_v1.html",
+      "bytes": 225205,
+      "sha256": "d5b281b13ed3337e92d2f7295a10191cd21141416b1a1b39191bbfa45e2dca07"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\narwhals-2.27.1-py3-none-any.whl",
+      "bytes": 483211,
+      "sha256": "d057df13f5852b8e157596e82eb5e955fad267425df5e420e0ee9863da483b31"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\narwhals_pypi_metadata.json",
+      "bytes": 395669,
+      "sha256": "7de9467012ac986d5a8c57e71626f59c40c34b32530b6d40c97819c2feb82291"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\0-1_descriptives.R",
+      "bytes": 9884,
+      "sha256": "9e627e98b10ca04f13de6bf50d4109a1e91d4665ec39d7e22750584a76e675c9"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\0_attrition_checks.R",
+      "bytes": 8380,
+      "sha256": "8943ae30ecffc107e15dfab6eee9c6738a6a25c18255454d26f0127675535809"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\1_main_analysis_scaling_curve.R",
+      "bytes": 8360,
+      "sha256": "2667eea16796e8349a6cf959548d0e39218edf9b5334099882c90a4afbca7f18"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\2_main_analysis_additional.R",
+      "bytes": 48423,
+      "sha256": "3cd167a00f6fb8d0d7b1906427b850a2380b2af0918a69e113c22ee9d066c261"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\3_main_analysis_scaling_curve_accuracy.R",
+      "bytes": 4900,
+      "sha256": "7f56f0897a164c249d420b602356a8e90d6f03cb789810406f01f861852697cd"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\4_results_tables.R",
+      "bytes": 36140,
+      "sha256": "626773166d66ee459ff55ce5597320f3b5a181cc6d910eb7e91392dfba91dc2f"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\5-1_additional_plots.R",
+      "bytes": 20992,
+      "sha256": "f918d953c50d28a1d11820284b1c27f8f528008fcdcd04b8a2ce9afd4bba504f"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\5_main_plots.R",
+      "bytes": 62310,
+      "sha256": "034e56042911fe2d3b7ad46198c5d014ac14811b3f61474f92f3fce01ccc3c84"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\6_fact_checker_validation.R",
+      "bytes": 4744,
+      "sha256": "0d44a5f3bcfe2a15dd071437b40da97ca06d8bb1b692b8cf39fc8e60dde7051b"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\7_demographics.R",
+      "bytes": 2218,
+      "sha256": "a56e988b2d88d8e885b8cc58aa9ac51c75ac8bdd6f3a8e67b18cc46442e4d4c0"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\8_random_forest_analysis.R",
+      "bytes": 7029,
+      "sha256": "d542dde0dd1a85e363ba70a84c7c7a8d76396109a08eebdd2d1ee33a6f4e71bf"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\function_interaction_tuning_type.R",
+      "bytes": 4490,
+      "sha256": "9a5bef58974cc41d6728bd2f94e4ce66865163f679dc290d2564940377627bdd"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\function_interaction_tuning_type_accuracy.R",
+      "bytes": 1846,
+      "sha256": "58d0e7ce309de0dd9147421a62d62d5ff454886419160df2e84663270ccae187"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\function_scaling_curve.R",
+      "bytes": 11390,
+      "sha256": "d5bf2cf9a385adf1600c28ee35592fb667b51d579dbc79e219eb4c8a66d19c6f"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_code\\function_scaling_curve_accuracy.R",
+      "bytes": 9042,
+      "sha256": "7e9cbbfbc2dcf15d2f79024c2b3e2923f5134832fd286ebac017e07ad5a6bcac"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\attrition__study1.txt",
+      "bytes": 7819,
+      "sha256": "0589e3402cd09567a33077388a03f454ab36fa80e66eb0a7f1c876dab9a7f3ed"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\attrition__study2.txt",
+      "bytes": 7217,
+      "sha256": "a49080d3aa5d006fd7a3957f55e8253628ab1233922e70b2b5fd2b5b1587282d"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\attrition__study3.txt",
+      "bytes": 4671,
+      "sha256": "380d14e09f1f31bcb4de78e61324b80ef39740ae68eac2d742dc0c5078b7f3c3"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\condition_ns__study1.txt",
+      "bytes": 8286,
+      "sha256": "953492ea5a3688641cb9f71481ba0104c3edca350e1cf034d98e40a64c0f466e"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\condition_ns__study2.txt",
+      "bytes": 6179,
+      "sha256": "6cd862deee1b43414da2d1974748c7869888a207077bdf8556e61d7706441137"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\condition_ns__study3.txt",
+      "bytes": 5234,
+      "sha256": "c6723a7c7d0ac055653ad52e5c432a2a1c7590a7b850fa1f29a74b605e15a1f4"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\results_tables__1_static_and_durability.txt",
+      "bytes": 5138,
+      "sha256": "2140f4f83329b805b5523046ac59b84d31b03421866b07bc046f4e833656f558"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\results_tables__2_scaling_curve_persuasion.txt",
+      "bytes": 23559,
+      "sha256": "e095bad15451187c7302ee076a78e8ab57c72a8f397102b162a56db2182e7ad1"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\results_tables__3_4o_new_vs_others.txt",
+      "bytes": 2481,
+      "sha256": "5789feca6d347def48416c9b2b5404d497ab23db6a9d1a0f95d434746b02a614"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\results_tables__4_PPT.txt",
+      "bytes": 19066,
+      "sha256": "be715b35d131b5d758e124da2d4ce1e9bc026df937842a058b94ad4b2b10a8b2"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\results_tables__5_personalization.txt",
+      "bytes": 8443,
+      "sha256": "c8d156966d26252ce978dc24a71bc4d1395bc7a9cf2b2374f9b13b1ae97bec79"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\results_tables__6_information_density__DiDs.txt",
+      "bytes": 40616,
+      "sha256": "d1686ccb9ebfb72f3afb1968709ca61710aae8304b4efa13d66d075a2bbe3224"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\results_tables__6_information_density__prompts.txt",
+      "bytes": 41159,
+      "sha256": "434f1e6ae78fcaf1644ca256060832c5b72a3a20b57f02f766259bb3233c6333"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\original_latex\\results_tables__8_deceptive_prompt.txt",
+      "bytes": 1513,
+      "sha256": "ea7e59d42e2d73d069b2d217c0926c6ac2281ea43bee7db633a92dc37f249874"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\participant_schema_review.json",
+      "bytes": 15920,
+      "sha256": "4f875c91a86dfd2039d60c07e37cf5cf3c9580128f4d023f0eb22b20e2dca333"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\pyreadr-0.5.7-cp312-cp312-win_amd64.whl",
+      "bytes": 2380169,
+      "sha256": "2aec7ca7fa3ce7e499521c2448e0c5d713c27ff00caa8309e7d48751a31d47fd"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\pyreadr_pypi_metadata.json",
+      "bytes": 681578,
+      "sha256": "9a26ac1ccbd914f99b4d9b17eedb631ef9999ee38bee2d0fe6fed317de66fefc"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\reader_warning_review.json",
+      "bytes": 218,
+      "sha256": "2d3ea7321ed6a9275ba19fbea22cd395e410d5baef4ec0932b0dcb6c045e47c3"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\supplement_page14.png",
+      "bytes": 120012,
+      "sha256": "f194a1831228a47e16a276116acd6fd52d922c00cf0ee1b2b098cb6e230daf30"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\supplement_page26.png",
+      "bytes": 122651,
+      "sha256": "fc28151519c0f83273487edaaaf819bb0250c40b390f473f9f2120c8ceb10408"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\supplement_page30.png",
+      "bytes": 98618,
+      "sha256": "396ac648aae0d10194bf4f63890f398c0417ab391aeefba9ffc43e19fdf7dbdc"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\supplement_page61.png",
+      "bytes": 86087,
+      "sha256": "a099d92016eb55abd78072bd51c39194bbbf02064c0f1dd1c2afa8a9285ae21e"
+    },
+    {
+      "path": "papers\\P072_levers_persuasion\\sources\\target_transcription_source_check.json",
+      "bytes": 18296,
+      "sha256": "7de2d018c23fa285e8e947e4c04efe50de58f5faa1ffeecf98b9efbedd45e1e3"
+    }
+  ]
+}

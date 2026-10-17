@@ -1,0 +1,636 @@
+[
+  {
+    "id": "n",
+    "low": 246,
+    "high": 246,
+    "source": "v1 Sections2/3 and Fig4",
+    "expected": 246,
+    "tolerance": 0,
+    "actual": 246,
+    "passed": true
+  },
+  {
+    "id": "developers",
+    "low": 16,
+    "high": 16,
+    "source": "v1 Sections2/3 and Fig4",
+    "expected": 16,
+    "tolerance": 0,
+    "actual": 16,
+    "passed": true
+  },
+  {
+    "id": "n_ai",
+    "low": 136,
+    "high": 136,
+    "source": "v1 Sections2/3 and Fig4",
+    "expected": 136,
+    "tolerance": 0,
+    "actual": 136,
+    "passed": true
+  },
+  {
+    "id": "n_no_ai",
+    "low": 110,
+    "high": 110,
+    "source": "v1 Sections2/3 and Fig4",
+    "expected": 110,
+    "tolerance": 0,
+    "actual": 110,
+    "passed": true
+  },
+  {
+    "id": "baseline.point",
+    "low": 0.18749,
+    "high": 0.18851,
+    "source": "first July19 original README and original regression",
+    "expected": 0.188,
+    "tolerance": 0.00051,
+    "actual": 0.18839994116341874,
+    "passed": true
+  },
+  {
+    "id": "baseline.Homoskedastic.low",
+    "low": 0.01249,
+    "high": 0.01351,
+    "source": "first original README",
+    "expected": 0.013,
+    "tolerance": 0.00051,
+    "actual": 0.01255985269680366,
+    "passed": true
+  },
+  {
+    "id": "baseline.Homoskedastic.high",
+    "low": 0.39449,
+    "high": 0.39551000000000003,
+    "source": "first original README",
+    "expected": 0.395,
+    "tolerance": 0.00051,
+    "actual": 0.39477623608696266,
+    "passed": true
+  },
+  {
+    "id": "baseline.Robust (HC3).low",
+    "low": 0.01249,
+    "high": 0.01351,
+    "source": "first original README",
+    "expected": 0.013,
+    "tolerance": 0.00051,
+    "actual": 0.013018846916312872,
+    "passed": true
+  },
+  {
+    "id": "baseline.Robust (HC3).high",
+    "low": 0.39349,
+    "high": 0.39451,
+    "source": "first original README",
+    "expected": 0.394,
+    "tolerance": 0.00051,
+    "actual": 0.3941442693354836,
+    "passed": true
+  },
+  {
+    "id": "baseline.Clustered By Dev.low",
+    "low": 0.01549,
+    "high": 0.01651,
+    "source": "first original README",
+    "expected": 0.016,
+    "tolerance": 0.00051,
+    "actual": 0.016316325828001313,
+    "passed": true
+  },
+  {
+    "id": "baseline.Clustered By Dev.high",
+    "low": 0.38949,
+    "high": 0.39051,
+    "source": "first original README",
+    "expected": 0.39,
+    "tolerance": 0.00051,
+    "actual": 0.3896209125703153,
+    "passed": true
+  },
+  {
+    "id": "ratio.point",
+    "low": 0.33490000000000003,
+    "high": 0.3451,
+    "source": "original Figure13 visual or 34% prose",
+    "expected": 0.34,
+    "tolerance": 0.0051,
+    "actual": 0.33671613342296314,
+    "passed": true
+  },
+  {
+    "id": "ratio.low",
+    "low": 0.039900000000000005,
+    "high": 0.0601,
+    "source": "original Figure13 graphical reading; ratio also Fig4 printed CI",
+    "expected": 0.05,
+    "tolerance": 0.0101,
+    "actual": 0.05032143371724748,
+    "passed": true
+  },
+  {
+    "id": "ratio.high",
+    "low": 0.6899,
+    "high": 0.7101,
+    "source": "original Figure13 graphical reading; ratio also Fig4 printed CI",
+    "expected": 0.7,
+    "tolerance": 0.0101,
+    "actual": 0.6948237549848348,
+    "passed": true
+  },
+  {
+    "id": "treatment_only.point",
+    "low": 0.22490000000000002,
+    "high": 0.2351,
+    "source": "original Figure13 visual or 34% prose",
+    "expected": 0.23,
+    "tolerance": 0.0051,
+    "actual": 0.2295840428199729,
+    "passed": true
+  },
+  {
+    "id": "treatment_only.low",
+    "low": -0.0201,
+    "high": 9.99999999999994e-05,
+    "source": "original Figure13 graphical reading; ratio also Fig4 printed CI",
+    "expected": -0.01,
+    "tolerance": 0.0101,
+    "actual": -0.011762030633078126,
+    "passed": true
+  },
+  {
+    "id": "treatment_only.high",
+    "low": 0.5199,
+    "high": 0.5401,
+    "source": "original Figure13 graphical reading; ratio also Fig4 printed CI",
+    "expected": 0.53,
+    "tolerance": 0.0101,
+    "actual": 0.5298713115890872,
+    "passed": true
+  },
+  {
+    "id": "ai_forecast.point",
+    "low": 0.2149,
+    "high": 0.2251,
+    "source": "original Figure13 visual or 34% prose",
+    "expected": 0.22,
+    "tolerance": 0.0051,
+    "actual": 0.22089578635851942,
+    "passed": true
+  },
+  {
+    "id": "ai_forecast.low",
+    "low": 0.029900000000000003,
+    "high": 0.0501,
+    "source": "original Figure13 graphical reading; ratio also Fig4 printed CI",
+    "expected": 0.04,
+    "tolerance": 0.0101,
+    "actual": 0.036839748873866186,
+    "passed": true
+  },
+  {
+    "id": "ai_forecast.high",
+    "low": 0.4299,
+    "high": 0.4501,
+    "source": "original Figure13 graphical reading; ratio also Fig4 printed CI",
+    "expected": 0.44,
+    "tolerance": 0.0101,
+    "actual": 0.4376247850904109,
+    "passed": true
+  },
+  {
+    "id": "developer_fe.point",
+    "low": 0.1449,
+    "high": 0.1651,
+    "source": "original Figure13 visual or 34% prose",
+    "expected": 0.155,
+    "tolerance": 0.0101,
+    "actual": 0.14925674781124368,
+    "passed": true
+  },
+  {
+    "id": "developer_fe.low",
+    "low": -0.025099999999999997,
+    "high": -0.0049,
+    "source": "original Figure13 graphical reading; ratio also Fig4 printed CI",
+    "expected": -0.015,
+    "tolerance": 0.0101,
+    "actual": -0.014423434945233956,
+    "passed": true
+  },
+  {
+    "id": "developer_fe.high",
+    "low": 0.3299,
+    "high": 0.3501,
+    "source": "original Figure13 graphical reading; ratio also Fig4 printed CI",
+    "expected": 0.34,
+    "tolerance": 0.0101,
+    "actual": 0.34012020904361034,
+    "passed": true
+  },
+  {
+    "id": "balance.no_forecast.1.mean",
+    "low": 115.49,
+    "high": 116.51,
+    "source": "original Table4 integer display",
+    "expected": 116,
+    "tolerance": 0.51,
+    "actual": 116.05882352941177,
+    "passed": true
+  },
+  {
+    "id": "balance.no_forecast.1.sd",
+    "low": 79.49,
+    "high": 80.51,
+    "source": "original Table4 integer display; sample SD",
+    "expected": 80,
+    "tolerance": 0.51,
+    "actual": 80.02978748273414,
+    "passed": true
+  },
+  {
+    "id": "balance.no_forecast.0.mean",
+    "low": 105.49,
+    "high": 106.51,
+    "source": "original Table4 integer display",
+    "expected": 106,
+    "tolerance": 0.51,
+    "actual": 106.18181818181819,
+    "passed": true
+  },
+  {
+    "id": "balance.no_forecast.0.sd",
+    "low": 62.49,
+    "high": 63.51,
+    "source": "original Table4 integer display; sample SD",
+    "expected": 63,
+    "tolerance": 0.51,
+    "actual": 63.704187614313604,
+    "passed": false
+  },
+  {
+    "id": "balance.no_forecast.difference",
+    "low": 8.49,
+    "high": 9.51,
+    "source": "original Table4 difference",
+    "expected": 9,
+    "tolerance": 0.51,
+    "actual": 9.877005347593581,
+    "passed": false
+  },
+  {
+    "id": "balance.no_forecast.p",
+    "low": 0.27490000000000003,
+    "high": 0.2851,
+    "source": "original Table4 two-sided Welch",
+    "expected": 0.28,
+    "tolerance": 0.0051,
+    "actual": 0.28220803816482753,
+    "passed": true
+  },
+  {
+    "id": "balance.ai_forecast.1.mean",
+    "low": 86.49,
+    "high": 87.51,
+    "source": "original Table4 integer display",
+    "expected": 87,
+    "tolerance": 0.51,
+    "actual": 87.13235294117646,
+    "passed": true
+  },
+  {
+    "id": "balance.ai_forecast.1.sd",
+    "low": 61.49,
+    "high": 62.51,
+    "source": "original Table4 integer display; sample SD",
+    "expected": 62,
+    "tolerance": 0.51,
+    "actual": 62.495369763127776,
+    "passed": true
+  },
+  {
+    "id": "balance.ai_forecast.0.mean",
+    "low": 81.49,
+    "high": 82.51,
+    "source": "original Table4 integer display",
+    "expected": 82,
+    "tolerance": 0.51,
+    "actual": 82.78181818181818,
+    "passed": false
+  },
+  {
+    "id": "balance.ai_forecast.0.sd",
+    "low": 52.49,
+    "high": 53.51,
+    "source": "original Table4 integer display; sample SD",
+    "expected": 53,
+    "tolerance": 0.51,
+    "actual": 53.13344492069896,
+    "passed": true
+  },
+  {
+    "id": "balance.ai_forecast.difference",
+    "low": 3.49,
+    "high": 4.51,
+    "source": "original Table4 difference",
+    "expected": 4,
+    "tolerance": 0.51,
+    "actual": 4.350534759358283,
+    "passed": true
+  },
+  {
+    "id": "balance.ai_forecast.p",
+    "low": 0.5549000000000001,
+    "high": 0.5651,
+    "source": "original Table4 two-sided Welch",
+    "expected": 0.56,
+    "tolerance": 0.0051,
+    "actual": 0.5557763123791025,
+    "passed": true
+  },
+  {
+    "id": "allocation.0.percent",
+    "low": 44.649,
+    "high": 44.751000000000005,
+    "source": "original Table5",
+    "expected": 44.7,
+    "tolerance": 0.051,
+    "actual": 44.71544715447154,
+    "passed": true
+  },
+  {
+    "id": "allocation.0.se_percent",
+    "low": 3.149,
+    "high": 3.2510000000000003,
+    "source": "original Table5",
+    "expected": 3.2,
+    "tolerance": 0.051,
+    "actual": 3.1700282764138694,
+    "passed": true
+  },
+  {
+    "id": "allocation.1.percent",
+    "low": 55.248999999999995,
+    "high": 55.351,
+    "source": "original Table5",
+    "expected": 55.3,
+    "tolerance": 0.051,
+    "actual": 55.28455284552846,
+    "passed": true
+  },
+  {
+    "id": "allocation.1.se_percent",
+    "low": 3.149,
+    "high": 3.2510000000000003,
+    "source": "original Table5",
+    "expected": 3.2,
+    "tolerance": 0.051,
+    "actual": 3.1700282764138694,
+    "passed": true
+  },
+  {
+    "id": "allocation.p",
+    "low": 0.09490000000000001,
+    "high": 0.1051,
+    "source": "original Table5 Pearson chi-square",
+    "expected": 0.1,
+    "tolerance": 0.0051,
+    "actual": 0.09737814410081742,
+    "passed": true
+  },
+  {
+    "id": "forecast_mean_hours.0",
+    "low": 1.8250000000000002,
+    "high": 1.895,
+    "source": "original Figure4 visual bar-height reading in hours",
+    "expected": 1.86,
+    "tolerance": 0.035,
+    "actual": 1.8607046070460704,
+    "passed": true
+  },
+  {
+    "id": "forecast_mean_hours.1",
+    "low": 1.385,
+    "high": 1.4549999999999998,
+    "source": "original Figure4 visual bar-height reading in hours",
+    "expected": 1.42,
+    "tolerance": 0.035,
+    "actual": 1.4197831978319784,
+    "passed": true
+  },
+  {
+    "id": "observed_mean_hours.0",
+    "low": 1.635,
+    "high": 1.7049999999999998,
+    "source": "original Figure4 visual bar-height reading in hours",
+    "expected": 1.67,
+    "tolerance": 0.035,
+    "actual": 1.6768122977346278,
+    "passed": true
+  },
+  {
+    "id": "observed_mean_hours.1",
+    "low": 2.205,
+    "high": 2.2750000000000004,
+    "source": "original Figure4 visual bar-height reading in hours",
+    "expected": 2.24,
+    "tolerance": 0.035,
+    "actual": 2.241422051103906,
+    "passed": true
+  },
+  {
+    "id": "forecast.point",
+    "low": -0.24509999999999998,
+    "high": -0.2349,
+    "source": "original Sections3.1/D.4 ratio of all246 issue forecasts",
+    "expected": -0.24,
+    "tolerance": 0.0051,
+    "actual": -0.23696475385959803,
+    "passed": true
+  },
+  {
+    "id": "forecast.low",
+    "low": -0.3301,
+    "high": -0.3099,
+    "source": "original Figure4 CI 0.68; prospective pooled unpaired two-column expansion",
+    "expected": -0.32,
+    "tolerance": 0.0101,
+    "actual": -0.32250877853772747,
+    "passed": true
+  },
+  {
+    "id": "forecast.high",
+    "low": -0.1501,
+    "high": -0.12990000000000002,
+    "source": "original Figure4 CI 0.86; prospective pooled unpaired two-column expansion",
+    "expected": -0.14,
+    "tolerance": 0.0101,
+    "actual": -0.14073215989901003,
+    "passed": true
+  },
+  {
+    "id": "forecast_correlation.0",
+    "low": 0.5849,
+    "high": 0.5951,
+    "source": "original Section3.1 Pearson",
+    "expected": 0.59,
+    "tolerance": 0.0051,
+    "actual": 0.5889042591949661,
+    "passed": true
+  },
+  {
+    "id": "forecast_correlation.1",
+    "low": 0.6349,
+    "high": 0.6451,
+    "source": "original Section3.1 Pearson",
+    "expected": 0.64,
+    "tolerance": 0.0051,
+    "actual": 0.6421246595996151,
+    "passed": true
+  },
+  {
+    "id": "ecdf.0.0.5",
+    "low": 0.15,
+    "high": 0.19999999999999998,
+    "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+    "expected": 0.175,
+    "tolerance": 0.025,
+    "actual": 0.16363636363636364,
+    "passed": true
+  },
+  {
+    "id": "ecdf.0.1",
+    "low": 0.33999999999999997,
+    "high": 0.39,
+    "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+    "expected": 0.365,
+    "tolerance": 0.025,
+    "actual": 0.34545454545454546,
+    "passed": true
+  },
+  {
+    "id": "ecdf.0.2",
+    "low": 0.775,
+    "high": 0.8250000000000001,
+    "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+    "expected": 0.8,
+    "tolerance": 0.025,
+    "actual": 0.7909090909090909,
+    "passed": true
+  },
+  {
+    "id": "ecdf.0.4",
+    "low": 0.9199999999999999,
+    "high": 0.97,
+    "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+    "expected": 0.945,
+    "tolerance": 0.025,
+    "actual": 0.9363636363636364,
+    "passed": true
+  },
+  {
+    "id": "ecdf.0.8",
+    "low": 0.97,
+    "high": 1.02,
+    "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+    "expected": 0.995,
+    "tolerance": 0.025,
+    "actual": 0.9818181818181818,
+    "passed": true
+  },
+  {
+    "id": "ecdf.1.0.5",
+    "low": 0.10750000000000001,
+    "high": 0.1575,
+    "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+    "expected": 0.1325,
+    "tolerance": 0.025,
+    "actual": 0.13970588235294118,
+    "passed": true
+  },
+  {
+    "id": "ecdf.1.1",
+    "low": 0.345,
+    "high": 0.395,
+    "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+    "expected": 0.37,
+    "tolerance": 0.025,
+    "actual": 0.34558823529411764,
+    "passed": true
+  },
+  {
+    "id": "ecdf.1.2",
+    "low": 0.625,
+    "high": 0.675,
+    "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+    "expected": 0.65,
+    "tolerance": 0.025,
+    "actual": 0.6323529411764706,
+    "passed": true
+  },
+  {
+    "id": "ecdf.1.4",
+    "low": 0.855,
+    "high": 0.905,
+    "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+    "expected": 0.88,
+    "tolerance": 0.025,
+    "actual": 0.8602941176470589,
+    "passed": true
+  },
+  {
+    "id": "ecdf.1.8",
+    "low": 0.9525,
+    "high": 1.0025,
+    "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+    "expected": 0.9775,
+    "tolerance": 0.025,
+    "actual": 0.9632352941176471,
+    "passed": true
+  },
+  {
+    "id": "imputation.ai60_no0",
+    "low": 0.22490000000000002,
+    "high": 0.2351,
+    "source": "original C.3.4 pair14%/23%, ordering corrected prospectively by monotonic treatment-time effect",
+    "expected": 0.23,
+    "tolerance": 0.0051,
+    "actual": 0.22942185734984782,
+    "passed": true
+  },
+  {
+    "id": "imputation.ai0_no60",
+    "low": 0.13490000000000002,
+    "high": 0.1451,
+    "source": "original C.3.4 pair14%/23%, ordering corrected prospectively by monotonic treatment-time effect",
+    "expected": 0.14,
+    "tolerance": 0.0051,
+    "actual": 0.14195402842207644,
+    "passed": true
+  },
+  {
+    "id": "positive_original_primary_effect",
+    "actual": true,
+    "passed": true,
+    "type": "qualitative"
+  },
+  {
+    "id": "all_four_regression_effects_positive",
+    "actual": true,
+    "passed": true,
+    "type": "qualitative"
+  },
+  {
+    "id": "raw_ratio_more_extreme_than_adjusted",
+    "actual": true,
+    "passed": true,
+    "type": "qualitative"
+  },
+  {
+    "id": "predicted_acceleration_opposes_observed_slowdown",
+    "actual": true,
+    "passed": true,
+    "type": "qualitative"
+  }
+]

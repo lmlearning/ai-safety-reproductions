@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-11T02:55:15.149283+00:00",
+  "source_only": true,
+  "all_supporting_models_inherit_each_active_whole_pipeline_transform": true,
+  "primary": "PFT/REML",
+  "old_logit_support": "Retained complete namedPLOGIT/REML control",
+  "scope": "allmoderators/Egger/country/groups/LOO; no subset/favorabletarget scale choice",
+  "REML": "Exacthistorical HE initialization/Fisher scoring/stop1e-5/max100/boundary likelihood semantics in independent implementations",
+  "independent_comparison": "unchanged1e-10abs+1e-10rel",
+  "numerical_execution_authorized": false
+}

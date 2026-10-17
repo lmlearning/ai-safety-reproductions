@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+**/workspace/
+**/downloads/
+**/outputs/
+*.part
+*.safetensors
+*.gguf
+*.ckpt
+.DS_Store
+Thumbs.db

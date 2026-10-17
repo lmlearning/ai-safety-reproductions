@@ -1,0 +1,975 @@
+{
+  "start_utc": "2026-10-10T13:54:04.054610+00:00",
+  "end_utc": "2026-10-10T13:54:04.079048+00:00",
+  "implementation": "80-digit Decimal scalar; independent literal transcription; standard-library normal and finite chi-square tails",
+  "audit_code_sha256": "66d97a18c9c619e9d1364c9d32349b6ca7cee8b9117e61cc1cce4ecb9799de47",
+  "run_manifest_sha256": "2d1180ed39120257817f7f70ac2e07499bf210919128ae185c43dd5e80fc1a0c",
+  "checks": [
+    {
+      "label": "run_integrity.configuration.json",
+      "pass": true
+    },
+    {
+      "label": "run_integrity.environment.json",
+      "pass": true
+    },
+    {
+      "label": "run_integrity.execution.json",
+      "pass": true
+    },
+    {
+      "label": "run_integrity.frozen\\audit_empathy_meta_analysis.py",
+      "pass": true
+    },
+    {
+      "label": "run_integrity.frozen\\original_data.csv",
+      "pass": true
+    },
+    {
+      "label": "run_integrity.frozen\\PREREGISTRATION.md",
+      "pass": true
+    },
+    {
+      "label": "run_integrity.frozen\\run_empathy_meta_analysis.py",
+      "pass": true
+    },
+    {
+      "label": "run_integrity.frozen\\targets.json",
+      "pass": true
+    },
+    {
+      "label": "run_integrity.raw_per_study.json",
+      "pass": true
+    },
+    {
+      "label": "run_integrity.results.json",
+      "pass": true
+    },
+    {
+      "label": "run_integrity.source_manifest.json",
+      "pass": true
+    },
+    {
+      "label": "source_integrity.papers\\P065_empathy_meta_analysis\\sources\\abs.html",
+      "pass": true
+    },
+    {
+      "label": "source_integrity.papers\\P065_empathy_meta_analysis\\sources\\abs.txt",
+      "pass": true
+    },
+    {
+      "label": "source_integrity.papers\\P065_empathy_meta_analysis\\sources\\cpu_routes_request_log.json",
+      "pass": true
+    },
+    {
+      "label": "source_integrity.papers\\P065_empathy_meta_analysis\\sources\\forest_page_10.png",
+      "pass": true
+    },
+    {
+      "label": "source_integrity.papers\\P065_empathy_meta_analysis\\sources\\forest_page_3.png",
+      "pass": true
+    },
+    {
+      "label": "source_integrity.papers\\P065_empathy_meta_analysis\\sources\\forest_page_5.png",
+      "pass": true
+    },
+    {
+      "label": "source_integrity.papers\\P065_empathy_meta_analysis\\sources\\forest_page_6.png",
+      "pass": true
+    },
+    {
+      "label": "source_integrity.papers\\P065_empathy_meta_analysis\\sources\\forest_page_7.png",
+      "pass": true
+    },
+    {
+      "label": "source_integrity.papers\\P065_empathy_meta_analysis\\sources\\forest_page_8.png",
+      "pass": true
+    },
+    {
+      "label": "source_integrity.papers\\P065_empathy_meta_analysis\\sources\\forest_page_9.png",
+      "pass": true
+    },
+    {
+      "label": "source_integrity.papers\\P065_empathy_meta_analysis\\sources\\paper_fulltext.txt",
+      "pass": true
+    },
+    {
+      "label": "source_integrity.papers\\P065_empathy_meta_analysis\\sources\\paper_fulltext.xml",
+      "pass": true
+    },
+    {
+      "label": "source_integrity.papers\\P065_empathy_meta_analysis\\sources\\paper_preprint_v1.pdf",
+      "pass": true
+    },
+    {
+      "label": "source_integrity.papers\\P065_empathy_meta_analysis\\sources\\paper_preprint_v1_extracted.txt",
+      "pass": true
+    },
+    {
+      "label": "source_integrity.papers\\P065_empathy_meta_analysis\\sources\\preprint_source_v1.tar.gz",
+      "pass": true
+    },
+    {
+      "label": "source_integrity.papers\\P065_empathy_meta_analysis\\sources\\RevMan5_algorithms.pdf",
+      "pass": true
+    },
+    {
+      "label": "source_integrity.papers\\P065_empathy_meta_analysis\\sources\\xml_links.json",
+      "pass": true
+    },
+    {
+      "label": "input_count_13",
+      "pass": true
+    },
+    {
+      "label": "independent_transcription.Ayers 2023",
+      "pass": true
+    },
+    {
+      "label": "independent_transcription.Maida 2024",
+      "pass": true
+    },
+    {
+      "label": "independent_transcription.Reynolds 2024",
+      "pass": true
+    },
+    {
+      "label": "independent_transcription.Wan 2024",
+      "pass": true
+    },
+    {
+      "label": "independent_transcription.Armbruster 2024",
+      "pass": true
+    },
+    {
+      "label": "independent_transcription.Guo 2024",
+      "pass": true
+    },
+    {
+      "label": "independent_transcription.He 2024",
+      "pass": true
+    },
+    {
+      "label": "independent_transcription.Meyer 2024",
+      "pass": true
+    },
+    {
+      "label": "independent_transcription.Small 2024",
+      "pass": true
+    },
+    {
+      "label": "independent_transcription.Soroudi 2024",
+      "pass": true
+    },
+    {
+      "label": "independent_transcription.Xu 2024",
+      "pass": true
+    },
+    {
+      "label": "independent_transcription.Yonatan-Leus 2024",
+      "pass": true
+    },
+    {
+      "label": "independent_transcription.Yong 2024",
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.overall.k",
+      "actual": 13,
+      "independent": 13.0,
+      "tolerance": 1.3000100000000001e-09,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.overall.df",
+      "actual": 12,
+      "independent": 12.0,
+      "tolerance": 1.20001e-09,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.overall.mu",
+      "actual": 0.8718823375123765,
+      "independent": 0.8718823375123768,
+      "tolerance": 8.719823375123768e-11,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.overall.se",
+      "actual": 0.1697304871410591,
+      "independent": 0.1697304871410591,
+      "tolerance": 1.698304871410591e-11,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.overall.ci_low",
+      "actual": 0.539216695637462,
+      "independent": 0.5392166956374621,
+      "tolerance": 5.3931669563746214e-11,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.overall.ci_high",
+      "actual": 1.204547979387291,
+      "independent": 1.2045479793872913,
+      "tolerance": 1.2046479793872914e-10,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.overall.Q",
+      "actual": 385.4538736129911,
+      "independent": 385.45387361299123,
+      "tolerance": 3.854539736129913e-08,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.overall.tau2",
+      "actual": 0.33058573441571654,
+      "independent": 0.3305857344157166,
+      "tolerance": 3.306857344157166e-11,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.overall.C",
+      "actual": 1129.6732881503206,
+      "independent": 1129.6732881503208,
+      "tolerance": 1.1296733881503209e-07,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.overall.fixed_mean",
+      "actual": 0.6020100048307193,
+      "independent": 0.6020100048307193,
+      "tolerance": 6.021100048307193e-11,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.overall.I2",
+      "actual": 96.88678702654616,
+      "independent": 96.88678702654616,
+      "tolerance": 9.688688702654616e-09,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.overall.Z",
+      "actual": 5.136863460409297,
+      "independent": 5.136863460409298,
+      "tolerance": 5.136963460409298e-10,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.overall.p",
+      "actual": 2.793617720015137e-07,
+      "independent": 2.793617720015128e-07,
+      "tolerance": 1.0027936177200151e-14,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.overall.heterogeneity_p",
+      "actual": 4.53566065045417e-75,
+      "independent": 4.535660650453884e-75,
+      "tolerance": 1e-14,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.overall.weight_percent",
+      "actual": 100.0,
+      "independent": 100.0,
+      "tolerance": 1.000001e-08,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-3.5.k",
+      "actual": 4,
+      "independent": 4.0,
+      "tolerance": 4.0001e-10,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-3.5.df",
+      "actual": 3,
+      "independent": 3.0,
+      "tolerance": 3.0001e-10,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-3.5.mu",
+      "actual": 0.5092243115573446,
+      "independent": 0.5092243115573445,
+      "tolerance": 5.093243115573445e-11,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-3.5.se",
+      "actual": 0.33074387241392045,
+      "independent": 0.3307438724139204,
+      "tolerance": 3.3084387241392043e-11,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-3.5.ci_low",
+      "actual": -0.1390217664812502,
+      "independent": -0.13902176648125025,
+      "tolerance": 1.3912176648125025e-11,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-3.5.ci_high",
+      "actual": 1.1574703895959395,
+      "independent": 1.1574703895959393,
+      "tolerance": 1.1575703895959393e-10,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-3.5.Q",
+      "actual": 277.50498783109293,
+      "independent": 277.50498783109293,
+      "tolerance": 2.7750508783109293e-08,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-3.5.tau2",
+      "actual": 0.4165077117667923,
+      "independent": 0.4165077117667922,
+      "tolerance": 4.166077117667922e-11,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-3.5.C",
+      "actual": 659.063398050098,
+      "independent": 659.0633980500983,
+      "tolerance": 6.590634980500982e-08,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-3.5.fixed_mean",
+      "actual": 0.5079063840117728,
+      "independent": 0.5079063840117727,
+      "tolerance": 5.0800638401177274e-11,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-3.5.I2",
+      "actual": 98.91893835010059,
+      "independent": 98.91893835010058,
+      "tolerance": 9.891903835010058e-09,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-3.5.Z",
+      "actual": 1.5396333962010909,
+      "independent": 1.5396333962010906,
+      "tolerance": 1.5397333962010909e-10,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-3.5.p",
+      "actual": 0.12364974018793917,
+      "independent": 0.12364974018793924,
+      "tolerance": 1.2374974018793925e-11,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-3.5.heterogeneity_p",
+      "actual": 7.339891240601992e-60,
+      "independent": 7.339891240602093e-60,
+      "tolerance": 1e-14,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-3.5.weight_percent",
+      "actual": 32.80837388045755,
+      "independent": 32.80837388045755,
+      "tolerance": 3.2808473880457553e-09,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-4.k",
+      "actual": 9,
+      "independent": 9.0,
+      "tolerance": 9.0001e-10,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-4.df",
+      "actual": 8,
+      "independent": 8.0,
+      "tolerance": 8.0001e-10,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-4.mu",
+      "actual": 1.0273936442584257,
+      "independent": 1.027393644258426,
+      "tolerance": 1.027493644258426e-10,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-4.se",
+      "actual": 0.16232006895019496,
+      "independent": 0.16232006895019502,
+      "tolerance": 1.6242006895019502e-11,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-4.ci_low",
+      "actual": 0.7092521551479853,
+      "independent": 0.7092521551479855,
+      "tolerance": 7.093521551479854e-11,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-4.ci_high",
+      "actual": 1.345535133368866,
+      "independent": 1.3455351333688665,
+      "tolerance": 1.3456351333688668e-10,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-4.Q",
+      "actual": 63.72024368780036,
+      "independent": 63.72024368780038,
+      "tolerance": 6.3720343687800374e-09,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-4.tau2",
+      "actual": 0.18667658652783992,
+      "independent": 0.18667658652784,
+      "tolerance": 1.8677658652784e-11,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-4.C",
+      "actual": 298.48544332307335,
+      "independent": 298.4854433230733,
+      "tolerance": 2.984855433230733e-08,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-4.fixed_mean",
+      "actual": 0.9068989948277241,
+      "independent": 0.9068989948277242,
+      "tolerance": 9.069989948277242e-11,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-4.I2",
+      "actual": 87.44512020513248,
+      "independent": 87.44512020513247,
+      "tolerance": 8.744522020513247e-09,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-4.Z",
+      "actual": 6.329430802383797,
+      "independent": 6.329430802383796,
+      "tolerance": 6.329530802383796e-10,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-4.p",
+      "actual": 2.460672125149095e-10,
+      "independent": 2.460672125149132e-10,
+      "tolerance": 1.0000024606721251e-14,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-4.heterogeneity_p",
+      "actual": 8.637946251694843e-11,
+      "independent": 8.637946251694804e-11,
+      "tolerance": 1.0000008637946251e-14,
+      "pass": true
+    },
+    {
+      "label": "independent_arithmetic.GPT-4.weight_percent",
+      "actual": 67.19162611954245,
+      "independent": 67.19162611954245,
+      "tolerance": 6.719172611954245e-09,
+      "pass": true
+    },
+    {
+      "label": "independent_subgroup.Q",
+      "actual": 1.9780522649723862,
+      "independent": 1.9780522649723888,
+      "tolerance": 1.978152264972389e-10,
+      "pass": true
+    },
+    {
+      "label": "independent_subgroup.df",
+      "actual": 1,
+      "independent": 1.0,
+      "tolerance": 1.0001e-10,
+      "pass": true
+    },
+    {
+      "label": "independent_subgroup.I2",
+      "actual": 49.44521852591392,
+      "independent": 49.44521852591399,
+      "tolerance": 4.944531852591399e-09,
+      "pass": true
+    },
+    {
+      "label": "independent_subgroup.p",
+      "actual": 0.15959574705839646,
+      "independent": 0.15959574705840013,
+      "tolerance": 1.5969574705840012e-11,
+      "pass": true
+    },
+    {
+      "label": "recorded_check_count",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-3.5.k",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-3.5.mu",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-3.5.ci_low",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-3.5.ci_high",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-3.5.tau2",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-3.5.Q",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-3.5.df",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-3.5.I2",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-3.5.Z",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-3.5.p",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-3.5.heterogeneity_p_less_than",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-3.5.weight_percent",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-4.k",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-4.mu",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-4.ci_low",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-4.ci_high",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-4.tau2",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-4.Q",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-4.df",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-4.I2",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-4.Z",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-4.p_less_than",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-4.heterogeneity_p_less_than",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.GPT-4.weight_percent",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.overall.k",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.overall.mu",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.overall.ci_low",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.overall.ci_high",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.overall.tau2",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.overall.Q",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.overall.df",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.overall.I2",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.overall.Z",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.overall.p_less_than",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.overall.heterogeneity_p_less_than",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.overall.weight_percent",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.subgroup_difference.Q",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.subgroup_difference.df",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.subgroup_difference.I2",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.subgroup_difference.p",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Ayers 2023.smd",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Ayers 2023.individual_ci_low",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Ayers 2023.individual_ci_high",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Ayers 2023.normalized_weight_percent",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Maida 2024.smd",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Maida 2024.individual_ci_low",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Maida 2024.individual_ci_high",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Maida 2024.normalized_weight_percent",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Reynolds 2024.smd",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Reynolds 2024.individual_ci_low",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Reynolds 2024.individual_ci_high",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Reynolds 2024.normalized_weight_percent",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Wan 2024.smd",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Wan 2024.individual_ci_low",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Wan 2024.individual_ci_high",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Wan 2024.normalized_weight_percent",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Armbruster 2024.smd",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Armbruster 2024.individual_ci_low",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Armbruster 2024.individual_ci_high",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Armbruster 2024.normalized_weight_percent",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Guo 2024.smd",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Guo 2024.individual_ci_low",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Guo 2024.individual_ci_high",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Guo 2024.normalized_weight_percent",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.He 2024.smd",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.He 2024.individual_ci_low",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.He 2024.individual_ci_high",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.He 2024.normalized_weight_percent",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Meyer 2024.smd",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Meyer 2024.individual_ci_low",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Meyer 2024.individual_ci_high",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Meyer 2024.normalized_weight_percent",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Small 2024.smd",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Small 2024.individual_ci_low",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Small 2024.individual_ci_high",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Small 2024.normalized_weight_percent",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Soroudi 2024.smd",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Soroudi 2024.individual_ci_low",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Soroudi 2024.individual_ci_high",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Soroudi 2024.normalized_weight_percent",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Xu 2024.smd",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Xu 2024.individual_ci_low",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Xu 2024.individual_ci_high",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Xu 2024.normalized_weight_percent",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Yonatan-Leus 2024.smd",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Yonatan-Leus 2024.individual_ci_low",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Yonatan-Leus 2024.individual_ci_high",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Yonatan-Leus 2024.normalized_weight_percent",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Yong 2024.smd",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Yong 2024.individual_ci_low",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Yong 2024.individual_ci_high",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.Yong 2024.normalized_weight_percent",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.overall_positive_significant",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.gpt4_positive_significant",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.gpt35_not_significant",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.subgroup_difference_not_significant",
+      "pass": true
+    },
+    {
+      "label": "criterion_rechecked.probability_superiority",
+      "pass": true
+    }
+  ],
+  "all_audit_checks_pass": true,
+  "all_original_comparisons_pass": true,
+  "failed_audit_checks": [],
+  "failed_original_comparisons": [],
+  "independent_80_digit_fits": {
+    "overall": {
+      "k": "13",
+      "df": "12",
+      "mu": "0.87188233751237671604532322144153544043718497952382073174005171828258605232693089",
+      "se": "0.16973048714105910720163172590587729684855670013184769179113086939594035427914787",
+      "ci_low": "0.53921669563746206983674833116095625584424184615304456589562267370764343838249698",
+      "ci_high": "1.2045479793872913622538981117221146250301281128945968975844807628575286662713648",
+      "Q": "385.45387361299120727589088350894182657364541206482692387180830653211255221300113",
+      "tau2": "0.33058573441571657987636361067628433857531064923859860514012165283110951271315998",
+      "C": "1129.6732881503207623241048168004951008705093786222856821680979665093675946900007",
+      "fixed_mean": "0.60201000483071926101043575091484588991838096641735984981446770484824067167241022",
+      "I2": "96.886787026546162578328623611183131199612771717411438004626660922500045335499917",
+      "Z": "5.1368634604092978446665457791957190566160474408232868680831771133858844642140613",
+      "p": "2.793617720015128e-07",
+      "heterogeneity_p": "4.535660650453884e-75",
+      "weight_percent": "100"
+    },
+    "GPT-3.5": {
+      "k": "4",
+      "df": "3",
+      "mu": "0.50922431155734452534746332418149129546221339508294145395814824084900589575171126",
+      "se": "0.33074387241392041837417022081943019528708400487972848395832004212228054924362389",
+      "ci_low": "-0.13902176648125026407906593280300383115633737871036730217493755903515800114379102",
+      "ci_high": "1.1574703895959393147739925811659864220807641688762502100912340407331697926472135",
+      "Q": "277.50498783109293005231188355650952911816336500173467864645871860950421713032642",
+      "tau2": "0.41650771176679217709930839733142799252582780581131722483540938894473537653473819",
+      "C": "659.06339805009821826566131907363819060118946851478427215398776501601208509481843",
+      "fixed_mean": "0.50790638401177272141989342587132585413205707211245217754904876680400689084662221",
+      "I2": "98.918938350100579252588697317413600322891404198258309055694404433780259709734367",
+      "Z": "1.5396333962010906912556894942667176382649819334114210420797516902277076841803321",
+      "p": "0.12364974018793924",
+      "heterogeneity_p": "7.339891240602093e-60",
+      "weight_percent": "32.808373880457548238654159583716994555192335872758403622168222388199616598583509"
+    },
+    "GPT-4": {
+      "k": "9",
+      "df": "8",
+      "mu": "1.0273936442584259512856655338420473878837462012327509102442538297462711523006831",
+      "se": "0.16232006895019500421000508906316840612571158204164254372073719723784385759008939",
+      "ci_low": "0.70925215514798541251013016658908472669828077290444891084999879687587347690960752",
+      "ci_high": "1.3455351333688664900612009010950100490692116295610529096385088626166688276917587",
+      "Q": "63.72024368780037979612549299906229580117108754597026841968007833794680479387243",
+      "tau2": "0.18667658652784001148427954079772031605200276077569202048010607659735758635252244",
+      "C": "298.48544332307330692550917280217050466041796733836630283355152997541327069292100",
+      "fixed_mean": "0.90689899482772418800751262839761101309214955329289156077786909744995922955400164",
+      "I2": "87.445120205132474011509756733175267245950662917364037732312890319602027984073543",
+      "Z": "6.3294308023837965824882358429992841806793230124704651181637395190078498842025761",
+      "p": "2.460672125149132e-10",
+      "heterogeneity_p": "8.637946251694804e-11",
+      "weight_percent": "67.191626119542451761345840416283005444807664127241596377831777611800383401416491"
+    }
+  },
+  "independent_subgroup": {
+    "Q": "1.9780522649723889161350978253256971842498147710959717637607758479342759792665142",
+    "df": "1",
+    "I2": "49.445218525913989279220187021564120261567843658837385207227465396946369375134991",
+    "p": "0.15959574705840013"
+  }
+}

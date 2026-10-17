@@ -1,0 +1,50 @@
+{
+  "schema": "ROOT_USER_DIRECTED_ARCHIVED_P069_BOUNDED_ERROR_REVIEW_RULE916",
+  "UTC": "2026-10-17T08:24:21.305902+00:00",
+  "authority_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_USER_DIRECTED_NEAR_SUCCESS_COUNTING_CHANGE913.json",
+    "bytes": 2551,
+    "sha256": "fa0000ec371755eff4b9ce9d28a7e79e10fd32db272a81df4e23e8991dcb5b35"
+  },
+  "ROOT_retrospective_near_review_adopted": true,
+  "scope": "Review the existing complete P069 original central experiment and independent audit for a new explicitly retrospective NEAR_SUCCESS classification. No execution is reopened and no old result is overwritten.",
+  "known_before_this_rule": [
+    "Metadata status152of155targets passed;1127of1127 independent computational checks passed.",
+    "Three failure keys concern AI-arm gap summaries, with published-source arithmetic inconsistencies already disclosed before the original experiment.",
+    "The original numerical outputs and complete error vector have not been newly inspected by this rule writer. This review is not blind or an original preregistration."
+  ],
+  "whole_central_scope": "All181 reviews/all43 executed projects/botharms/all7execution metrics; all155 original fixed targets across Tables1/3/4/5/Figure2 and original AppendixD correlations/Table9 and AppendixF robustness/Table10. Preserve all original omissions.",
+  "fixed_error_rule": {
+    "all_original_155_targets_required": true,
+    "count_ID_population_and_assignment_integrity": "Exact original definitions and full independent verification.",
+    "numeric_error_bound": "For each defined non-count scalar point statistic, absolute error to the original source target <=0.010 in its original units; keep original stricter source-rounding gate separately. Source values are small-scale scores/gaps/correlations/p-values, not raw large-dimensional quantities.",
+    "undefined_required_scientific_quantity": "A missing central numerical quantity cannot be assumed bounded; retainUNKNOWN. Independently verified optional absence is typed semantic absence.",
+    "core_qualitative_claims": "Original effect directions/conclusions must remain compatible within the .010 bound; a p-value edge alone is not a veto, and no materially reversed central effect is allowed.",
+    "no_averaging_away_failures": true,
+    "all_original_failure_roles_and_entire_error_vector_retained": true,
+    "independent_audit": "Validate all original computational checks and pins/scope; independently audit the complete new scalar error vector and core claim compatibility, without rerunning or choosing favorable targets.",
+    "new_run_reanalysis_or_clock_authorized": false
+  },
+  "date_and_interest": "Original eligibility must be independently confirmed unchanged. Recorded same-study execution empirical release25June2025 and firstS2count62/oldextensiongate40 are evidence to review, not automatic eligibility from this rule. Earlier ideation predecessor and OSF planning registration are distinct and must not reset or hide the empirical date.",
+  "prior_record_refs": [
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\PREREGISTRATION.json",
+      "bytes": 4785,
+      "sha256": "7b276836027f05423ebdc3cdde909bfc36c58465fcf4fa128d8ad1c391b9225b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\REVIEW_STATUS.json",
+      "bytes": 1506,
+      "sha256": "51d89762e2b464c576b8554022e5f5b40729611f2156742a85b3ea4c98403df2"
+    }
+  ],
+  "current_counts": {
+    "confirmed_CENTRAL": 12,
+    "NEAR_SUCCESS": 0,
+    "FULL": 0,
+    "combined_distinct": 12
+  },
+  "paper_credit_awarded_now": 0,
+  "new_statistical_computation_authorized": false,
+  "no_old_scientific_or_source_clock_reopened": true
+}

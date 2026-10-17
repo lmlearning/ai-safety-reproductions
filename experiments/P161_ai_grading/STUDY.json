@@ -1,0 +1,17 @@
+{
+  "ordinal": 16,
+  "paper_id": "P161",
+  "title": "Can AI Grade Like a Human? Validity, Reliability, and Fairness in University Coursework Assessment",
+  "classification": "Bounded NEAR",
+  "recorded_public_date": "2025-12 (exact day UNKNOWN in selected metadata)",
+  "window": "Main",
+  "citations": 31,
+  "provider": "OpenAlex",
+  "capture_time_supported": false,
+  "route": "Released assessment data",
+  "result_and_scope": "All91 records/both campuses/9 criteria+totals;86 ICC errors max0.005791 within0.010;20 order claims/42,785 comparisons pass. Old81/86 remains.",
+  "DOI": "10.22521/edupij.2025.19.591",
+  "arxiv_id": null,
+  "preserved_limits": "Publisher monthDec2025 is known; exact day not supplied here. EarlierSept repository raw ratings/instruments lack aggregate study results. Fixed original N90 criterion6/N91 elsewhere; noncentral/support failures not promoted.",
+  "whole_paper_reproduction": false
+}

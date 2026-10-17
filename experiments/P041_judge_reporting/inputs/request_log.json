@@ -1,0 +1,437 @@
+[
+  {
+    "object_id": "S1.F2.sf1.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/fig1_a.svg",
+    "file": "papers\\P041_judge_reporting\\references\\fig1_a.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:45.979093+00:00",
+    "bytes": 37840,
+    "sha256": "1c779f571d81a691bac9ba858829f1e90a80d1894bf9dec414e97e4ab4936927"
+  },
+  {
+    "object_id": "S1.F2.sf3.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/fig1_c.svg",
+    "file": "papers\\P041_judge_reporting\\references\\fig1_c.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:46.174428+00:00",
+    "bytes": 48509,
+    "sha256": "3d2fbc8eda945440b088657506df6501a998fc45aeaece25a412c7afa1c1149b"
+  },
+  {
+    "object_id": "S3.F3.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/fig2.svg",
+    "file": "papers\\P041_judge_reporting\\references\\fig2.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:46.304102+00:00",
+    "bytes": 42441,
+    "sha256": "766fb72cfe8c82c4bbe0c90281151886e6a2e2d1861deebfc2211a8a289a7813"
+  },
+  {
+    "object_id": "S5.F4.sf1.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m500_q0-70_q1-90_plot1.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m500_q0-70_q1-90_plot1.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:46.428783+00:00",
+    "bytes": 80907,
+    "sha256": "677e64ec47f7c20b4b0d385b9e4553947b8f7b94af885f1c7b4a02ebb4e31c94"
+  },
+  {
+    "object_id": "S5.F4.sf2.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m500_q0-70_q1-90_plot2.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m500_q0-70_q1-90_plot2.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:46.923351+00:00",
+    "bytes": 79871,
+    "sha256": "aaff7f69ddc5b95158f9c3fecbbcb4b9bec6ab6d5d99dec9ac2648ba7f718f27"
+  },
+  {
+    "object_id": "S5.F4.sf3.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m500_q0-70_q1-90_plot3.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m500_q0-70_q1-90_plot3.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:47.058623+00:00",
+    "bytes": 78345,
+    "sha256": "5c950b747eb5559816396bf51d83e2b3ea944eb7794a26e80b29a9f070b45e5b"
+  },
+  {
+    "object_id": "A3.F6.sf1.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m200_q0-70_q1-70_plot1.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m200_q0-70_q1-70_plot1.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:47.172627+00:00",
+    "bytes": 80715,
+    "sha256": "59dc32bc4f17bc93d563cda0bfcb375e64703819714163da23ffbdc54dfd48b9"
+  },
+  {
+    "object_id": "A3.F6.sf2.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m200_q0-70_q1-70_plot2.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m200_q0-70_q1-70_plot2.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:47.323817+00:00",
+    "bytes": 80069,
+    "sha256": "e21450b9a070238f63637fa5bfbfcb28f48b7b3db4fa00d58898281248368d6c"
+  },
+  {
+    "object_id": "A3.F6.sf3.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m200_q0-70_q1-70_plot3.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m200_q0-70_q1-70_plot3.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:47.466513+00:00",
+    "bytes": 75405,
+    "sha256": "71208e67aa3296213cf431f5afaa38d87d18314f6a65a12ed189a40a3741743b"
+  },
+  {
+    "object_id": "A3.F7.sf1.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m200_q0-70_q1-90_plot1.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m200_q0-70_q1-90_plot1.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:47.864777+00:00",
+    "bytes": 80888,
+    "sha256": "c29a4fb51b3b41b7c88043039b079189d8d65ff8722e9b674dac40aabf2e2d3c"
+  },
+  {
+    "object_id": "A3.F7.sf2.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m200_q0-70_q1-90_plot2.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m200_q0-70_q1-90_plot2.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:48.280565+00:00",
+    "bytes": 79964,
+    "sha256": "0f1168a7491406335577fe2b0b7de4f9cb09f3cc68ec4f2af886c5ecfa1a44e0"
+  },
+  {
+    "object_id": "A3.F7.sf3.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m200_q0-70_q1-90_plot3.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m200_q0-70_q1-90_plot3.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:48.419506+00:00",
+    "bytes": 78200,
+    "sha256": "310c12b4690d3647074b5e720579dfca27ae8b7d649b073b2f21f32637f5c1e5"
+  },
+  {
+    "object_id": "A3.F8.sf1.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m200_q0-90_q1-70_plot1.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m200_q0-90_q1-70_plot1.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:48.844291+00:00",
+    "bytes": 80871,
+    "sha256": "4feecb96a2845eaa31253132c4f4f0fc4c57ea7eba279bd28120dd9a92cf4042"
+  },
+  {
+    "object_id": "A3.F8.sf2.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m200_q0-90_q1-70_plot2.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m200_q0-90_q1-70_plot2.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:49.395721+00:00",
+    "bytes": 79986,
+    "sha256": "b0526f06cebcc515ac972c6429e1789cb3d64b25c6cc25f57844954d8138eaa0"
+  },
+  {
+    "object_id": "A3.F8.sf3.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m200_q0-90_q1-70_plot3.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m200_q0-90_q1-70_plot3.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:49.558551+00:00",
+    "bytes": 78203,
+    "sha256": "0cc44bd1453d1cbe997215f731b8ddc8bffea558e678d8a856ec44ec882d96c6"
+  },
+  {
+    "object_id": "A3.F9.sf1.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m200_q0-90_q1-90_plot1.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m200_q0-90_q1-90_plot1.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:50.037878+00:00",
+    "bytes": 80896,
+    "sha256": "531f4f47d05ea5acd2327acaac3e802c04013edb2a039e42a2de33a97ff82ea0"
+  },
+  {
+    "object_id": "A3.F9.sf2.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m200_q0-90_q1-90_plot2.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m200_q0-90_q1-90_plot2.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:50.183958+00:00",
+    "bytes": 80142,
+    "sha256": "a0cac1221f987e38d3a4d5f63102a5f9ffd91d46995f6fe0239c49847813b219"
+  },
+  {
+    "object_id": "A3.F9.sf3.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m200_q0-90_q1-90_plot3.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m200_q0-90_q1-90_plot3.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:50.353464+00:00",
+    "bytes": 78369,
+    "sha256": "4698df9a59f9654da218ffb6a24aa125c34e4328ce4ecb7504a05c26bdccf7a9"
+  },
+  {
+    "object_id": "A3.F10.sf1.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m500_q0-70_q1-70_plot1.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m500_q0-70_q1-70_plot1.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:50.487649+00:00",
+    "bytes": 80715,
+    "sha256": "59dc32bc4f17bc93d563cda0bfcb375e64703819714163da23ffbdc54dfd48b9"
+  },
+  {
+    "object_id": "A3.F10.sf2.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m500_q0-70_q1-70_plot2.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m500_q0-70_q1-70_plot2.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:50.636358+00:00",
+    "bytes": 80069,
+    "sha256": "e21450b9a070238f63637fa5bfbfcb28f48b7b3db4fa00d58898281248368d6c"
+  },
+  {
+    "object_id": "A3.F10.sf3.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m500_q0-70_q1-70_plot3.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m500_q0-70_q1-70_plot3.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:50.772714+00:00",
+    "bytes": 75405,
+    "sha256": "71208e67aa3296213cf431f5afaa38d87d18314f6a65a12ed189a40a3741743b"
+  },
+  {
+    "object_id": "A3.F11.sf1.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m500_q0-70_q1-90_plot1.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m500_q0-70_q1-90_plot1.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:51.190528+00:00",
+    "bytes": 80888,
+    "sha256": "c29a4fb51b3b41b7c88043039b079189d8d65ff8722e9b674dac40aabf2e2d3c"
+  },
+  {
+    "object_id": "A3.F11.sf2.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m500_q0-70_q1-90_plot2.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m500_q0-70_q1-90_plot2.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:51.341402+00:00",
+    "bytes": 79964,
+    "sha256": "0f1168a7491406335577fe2b0b7de4f9cb09f3cc68ec4f2af886c5ecfa1a44e0"
+  },
+  {
+    "object_id": "A3.F11.sf3.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m500_q0-70_q1-90_plot3.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m500_q0-70_q1-90_plot3.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:51.476232+00:00",
+    "bytes": 78200,
+    "sha256": "310c12b4690d3647074b5e720579dfca27ae8b7d649b073b2f21f32637f5c1e5"
+  },
+  {
+    "object_id": "A3.F12.sf1.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m500_q0-90_q1-70_plot1.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m500_q0-90_q1-70_plot1.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:51.645647+00:00",
+    "bytes": 80871,
+    "sha256": "4feecb96a2845eaa31253132c4f4f0fc4c57ea7eba279bd28120dd9a92cf4042"
+  },
+  {
+    "object_id": "A3.F12.sf2.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m500_q0-90_q1-70_plot2.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m500_q0-90_q1-70_plot2.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:51.812901+00:00",
+    "bytes": 79986,
+    "sha256": "b0526f06cebcc515ac972c6429e1789cb3d64b25c6cc25f57844954d8138eaa0"
+  },
+  {
+    "object_id": "A3.F12.sf3.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m500_q0-90_q1-70_plot3.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m500_q0-90_q1-70_plot3.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:51.964481+00:00",
+    "bytes": 78203,
+    "sha256": "0cc44bd1453d1cbe997215f731b8ddc8bffea558e678d8a856ec44ec882d96c6"
+  },
+  {
+    "object_id": "A3.F13.sf1.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m500_q0-90_q1-90_plot1.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m500_q0-90_q1-90_plot1.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:52.080824+00:00",
+    "bytes": 80896,
+    "sha256": "531f4f47d05ea5acd2327acaac3e802c04013edb2a039e42a2de33a97ff82ea0"
+  },
+  {
+    "object_id": "A3.F13.sf2.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m500_q0-90_q1-90_plot2.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m500_q0-90_q1-90_plot2.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:52.192802+00:00",
+    "bytes": 80142,
+    "sha256": "a0cac1221f987e38d3a4d5f63102a5f9ffd91d46995f6fe0239c49847813b219"
+  },
+  {
+    "object_id": "A3.F13.sf3.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n200_m500_q0-90_q1-90_plot3.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n200_m500_q0-90_q1-90_plot3.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:52.335953+00:00",
+    "bytes": 78369,
+    "sha256": "4698df9a59f9654da218ffb6a24aa125c34e4328ce4ecb7504a05c26bdccf7a9"
+  },
+  {
+    "object_id": "A3.F14.sf1.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m200_q0-70_q1-70_plot1.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m200_q0-70_q1-70_plot1.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:52.447857+00:00",
+    "bytes": 80865,
+    "sha256": "247bec991de9fdcb9bee8461f01d1a41ce90a8ce6ba8ed6b7a9c9c7d3926a78d"
+  },
+  {
+    "object_id": "A3.F14.sf2.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m200_q0-70_q1-70_plot2.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m200_q0-70_q1-70_plot2.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:52.581728+00:00",
+    "bytes": 79962,
+    "sha256": "197ffd4e1d29819222164ed66c5f6c634ab341e3b4a5f88a4ae0b7b749b64604"
+  },
+  {
+    "object_id": "A3.F14.sf3.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m200_q0-70_q1-70_plot3.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m200_q0-70_q1-70_plot3.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:52.765139+00:00",
+    "bytes": 78226,
+    "sha256": "e383a44b811ebbadbf8682e245a2e980a947635e79a652d70f685f0aa9f6a5a2"
+  },
+  {
+    "object_id": "A3.F15.sf1.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m200_q0-70_q1-90_plot1.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m200_q0-70_q1-90_plot1.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:52.910054+00:00",
+    "bytes": 80907,
+    "sha256": "677e64ec47f7c20b4b0d385b9e4553947b8f7b94af885f1c7b4a02ebb4e31c94"
+  },
+  {
+    "object_id": "A3.F15.sf2.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m200_q0-70_q1-90_plot2.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m200_q0-70_q1-90_plot2.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:53.096158+00:00",
+    "bytes": 79871,
+    "sha256": "aaff7f69ddc5b95158f9c3fecbbcb4b9bec6ab6d5d99dec9ac2648ba7f718f27"
+  },
+  {
+    "object_id": "A3.F15.sf3.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m200_q0-70_q1-90_plot3.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m200_q0-70_q1-90_plot3.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:53.548787+00:00",
+    "bytes": 78345,
+    "sha256": "5c950b747eb5559816396bf51d83e2b3ea944eb7794a26e80b29a9f070b45e5b"
+  },
+  {
+    "object_id": "A3.F16.sf1.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m200_q0-90_q1-70_plot1.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m200_q0-90_q1-70_plot1.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:54.356091+00:00",
+    "bytes": 80945,
+    "sha256": "95a66891acd6d47d7b8170753c092cc2c56a826d7c690b4161f97a198060ce77"
+  },
+  {
+    "object_id": "A3.F16.sf2.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m200_q0-90_q1-70_plot2.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m200_q0-90_q1-70_plot2.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:54.476846+00:00",
+    "bytes": 79999,
+    "sha256": "e5332198ff912ef25b8e9507284d05f2b0328b7edd4e256b53384fb24f2e4887"
+  },
+  {
+    "object_id": "A3.F16.sf3.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m200_q0-90_q1-70_plot3.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m200_q0-90_q1-70_plot3.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:54.906055+00:00",
+    "bytes": 78370,
+    "sha256": "41a5378dc3fcf473cfad8d20b161c297794afa633d15d153296c9fd43c1d2fc5"
+  },
+  {
+    "object_id": "A3.F17.sf1.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m200_q0-90_q1-90_plot1.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m200_q0-90_q1-90_plot1.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:55.078364+00:00",
+    "bytes": 80981,
+    "sha256": "e485f2f65679441975e90cddef89474dc34afd6d7986373f6d6a8600231af621"
+  },
+  {
+    "object_id": "A3.F17.sf2.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m200_q0-90_q1-90_plot2.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m200_q0-90_q1-90_plot2.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:55.250272+00:00",
+    "bytes": 80082,
+    "sha256": "acf502bde9301226150258cfea9c9595ddb6e227ede5679187539c72a74d4a7d"
+  },
+  {
+    "object_id": "A3.F17.sf3.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m200_q0-90_q1-90_plot3.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m200_q0-90_q1-90_plot3.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:55.383481+00:00",
+    "bytes": 78094,
+    "sha256": "0c0418648929381f6c2e32062a403fc217e37b988ceecdfa429328549cfb1e80"
+  },
+  {
+    "object_id": "A3.F18.sf1.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m500_q0-70_q1-70_plot1.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m500_q0-70_q1-70_plot1.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:55.969796+00:00",
+    "bytes": 80865,
+    "sha256": "247bec991de9fdcb9bee8461f01d1a41ce90a8ce6ba8ed6b7a9c9c7d3926a78d"
+  },
+  {
+    "object_id": "A3.F18.sf2.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m500_q0-70_q1-70_plot2.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m500_q0-70_q1-70_plot2.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:56.125677+00:00",
+    "bytes": 79962,
+    "sha256": "197ffd4e1d29819222164ed66c5f6c634ab341e3b4a5f88a4ae0b7b749b64604"
+  },
+  {
+    "object_id": "A3.F18.sf3.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m500_q0-70_q1-70_plot3.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m500_q0-70_q1-70_plot3.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:56.541628+00:00",
+    "bytes": 78226,
+    "sha256": "e383a44b811ebbadbf8682e245a2e980a947635e79a652d70f685f0aa9f6a5a2"
+  },
+  {
+    "object_id": "A3.F19.sf1.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m500_q0-70_q1-90_plot1.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m500_q0-70_q1-90_plot1.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:56.684018+00:00",
+    "cached": true,
+    "bytes": 80907,
+    "sha256": "677e64ec47f7c20b4b0d385b9e4553947b8f7b94af885f1c7b4a02ebb4e31c94"
+  },
+  {
+    "object_id": "A3.F19.sf2.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m500_q0-70_q1-90_plot2.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m500_q0-70_q1-90_plot2.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:56.685066+00:00",
+    "cached": true,
+    "bytes": 79871,
+    "sha256": "aaff7f69ddc5b95158f9c3fecbbcb4b9bec6ab6d5d99dec9ac2648ba7f718f27"
+  },
+  {
+    "object_id": "A3.F19.sf3.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m500_q0-70_q1-90_plot3.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m500_q0-70_q1-90_plot3.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:56.686110+00:00",
+    "cached": true,
+    "bytes": 78345,
+    "sha256": "5c950b747eb5559816396bf51d83e2b3ea944eb7794a26e80b29a9f070b45e5b"
+  },
+  {
+    "object_id": "A3.F20.sf1.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m500_q0-90_q1-70_plot1.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m500_q0-90_q1-70_plot1.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:56.686630+00:00",
+    "bytes": 80945,
+    "sha256": "95a66891acd6d47d7b8170753c092cc2c56a826d7c690b4161f97a198060ce77"
+  },
+  {
+    "object_id": "A3.F20.sf2.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m500_q0-90_q1-70_plot2.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m500_q0-90_q1-70_plot2.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:56.821103+00:00",
+    "bytes": 79999,
+    "sha256": "e5332198ff912ef25b8e9507284d05f2b0328b7edd4e256b53384fb24f2e4887"
+  },
+  {
+    "object_id": "A3.F20.sf3.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m500_q0-90_q1-70_plot3.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m500_q0-90_q1-70_plot3.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:57.273435+00:00",
+    "bytes": 78370,
+    "sha256": "41a5378dc3fcf473cfad8d20b161c297794afa633d15d153296c9fd43c1d2fc5"
+  },
+  {
+    "object_id": "A3.F21.sf1.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m500_q0-90_q1-90_plot1.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m500_q0-90_q1-90_plot1.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:57.752042+00:00",
+    "bytes": 80981,
+    "sha256": "e485f2f65679441975e90cddef89474dc34afd6d7986373f6d6a8600231af621"
+  },
+  {
+    "object_id": "A3.F21.sf2.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m500_q0-90_q1-90_plot2.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m500_q0-90_q1-90_plot2.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:57.872921+00:00",
+    "bytes": 80082,
+    "sha256": "acf502bde9301226150258cfea9c9595ddb6e227ede5679187539c72a74d4a7d"
+  },
+  {
+    "object_id": "A3.F21.sf3.g1",
+    "url": "https://arxiv.org/html/2511.21140v1/n1000_m500_q0-90_q1-90_plot3.svg",
+    "file": "papers\\P041_judge_reporting\\references\\n1000_m500_q0-90_q1-90_plot3.svg",
+    "retrieved_at_utc": "2026-10-10T11:47:58.014944+00:00",
+    "bytes": 78094,
+    "sha256": "0c0418648929381f6c2e32062a403fc217e37b988ceecdfa429328549cfb1e80"
+  }
+]

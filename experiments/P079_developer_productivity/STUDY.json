@@ -1,0 +1,17 @@
+{
+  "ordinal": 14,
+  "paper_id": "P079",
+  "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+  "classification": "Bounded NEAR",
+  "recorded_public_date": "2025-07-10",
+  "window": "Extended",
+  "citations": 213,
+  "provider": "Semantic Scholar",
+  "capture_time_supported": false,
+  "route": "Released trial data",
+  "result_and_scope": "All246 tasks/16 developers/65 targets. Ten integer-display errors <=1 minute (max0.877005); other55 old bounds and1,782 checks pass. Old62/65 remains.",
+  "DOI": null,
+  "arxiv_id": null,
+  "preserved_limits": "No fresh developer trial. Unit-wording pp-to-minutes correction did not rescale the original1.0 numeric display bound; all old failures retained.",
+  "whole_paper_reproduction": false
+}

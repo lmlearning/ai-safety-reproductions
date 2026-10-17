@@ -1,0 +1,269 @@
+{
+  "paper_id": "P068",
+  "at_utc": "2026-10-10T17:18:40.697690+00:00",
+  "decision": "central reproduction accepted",
+  "full_reproduction": false,
+  "source_and_run_files_checked": 60,
+  "checks": [
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\arxiv_abs.html",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\author_project.html",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\citation_snapshot.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\clean_examples.csv",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\cpu_routes_request_log.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\dataset_commits.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\dataset_readme.md",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\dataset_tree.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\examples.csv",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\github_commits.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\github_metadata.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\github_readme.md",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\github_tree.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\initial_dataset_tree.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\initial_github_tree.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\main_results.ipynb",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\main_results_source.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\original_examples_initial.csv",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\original_figure2.pdf",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\original_figure2.png",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\original_main_results_initial.ipynb",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\original_prescored.csv",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\original_prescored_initial.csv",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\original_protocol_registration.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\original_scoring_scenarios_initial.csv",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\original_streamlined_initial.ipynb",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\paper_v1.html",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\paper_v1.pdf",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\paper_v1.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\paper_v1_figure2_page.png",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\publisher_fulltext.xml",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\scenarios.csv",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\scoring_scenarios.csv",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\streamlined_results.ipynb",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\sources\\streamlined_source.txt",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-001\\bootstrap_indices.npz",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-001\\FAILURE_STATUS.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-001\\original_examples_initial.csv",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-001\\original_row_targets.csv",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-001\\original_scoring_scenarios_initial.csv",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-001\\PREREGISTRATION.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-001\\PREREGISTRATION.md",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-001\\runner.py",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-001\\scores.csv",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-001\\sources_manifest.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-001\\targets.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\bootstrap_indices.npz",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\original_examples_initial.csv",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\original_row_targets.csv",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\original_scoring_scenarios_initial.csv",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\PREREGISTRATION.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\PREREGISTRATION.md",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\results.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\runner.py",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\scores.csv",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\sources_manifest.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\targets.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\audits\\P068-audit-001\\audit.json",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\audits\\P068-audit-001\\auditor.py",
+      "passed": true
+    },
+    {
+      "path": "papers\\P068_medical_assistant_rct\\audits\\P068-audit-001\\independent_scores.csv",
+      "passed": true
+    }
+  ],
+  "summary_targets": 103,
+  "original_row_scoring_checks": 12000,
+  "independent_audit_checks": 29318,
+  "report_sha256": "b41329c80fd7826a74951bf7a42f4284575ac6cb8829fff12a94a08a3387b0a0",
+  "preregistration_sha256": "1ee6760a74d6d9bfadd3a0af4eac4e0edab6c429dc46cbd5796af5f6abc1c501",
+  "run_manifest_sha256": "ba39bfe2eab58e6da445145910f899479b9e8115d183be8cec56bc7b6b431973",
+  "audit_sha256": "69e825c99aa4674c20febd8200fd53eed1ddc720c4cd8efaff94b33daeaeec95",
+  "first_public_release": "2025-04-17",
+  "citation_count": 113,
+  "original_figure_visually_reviewed": true,
+  "original_methods_and_runner_and_independent_scorer_reviewed": true,
+  "scope_amendment": false,
+  "serializer_only_post_outcome_repair": true,
+  "original_method_conflicts_disclosed": true,
+  "limitations": [
+    "Original acuity formula and orientation conflicts",
+    "Original response-level independence despite repeated participants",
+    "No new human trial or fresh model inference",
+    "No original model-only or interaction-extraction analyses"
+  ]
+}

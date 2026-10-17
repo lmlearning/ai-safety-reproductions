@@ -1,0 +1,28 @@
+{
+  "UTC": "2026-10-17T09:30:52.524905+00:00",
+  "ROOT_original_paperdate_CSV_missingness_is_analysis_input_accepted": true,
+  "source_ICC_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\PAPER_ERA_ICC_SOURCE.py",
+    "bytes": 61260,
+    "sha256": "bbc9584ea3a5b3d25e76bda6a7cec921e74c3340730fa96c05c7444f3fc91400"
+  },
+  "source_MSE_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\PAPER_ERA_MSE_SOURCE.py",
+    "bytes": 7512,
+    "sha256": "c06852137ceaea4294a82a80a2c1340e216640bb9b5f88240436f915ba003156"
+  },
+  "positive_source": "Author corrected_icc_analysis_with_bootstrap loads pd.read_csv at467, model means consume paired human_response/model and judge_response/model columns100-115. Author MSE also loads CSV at96 and consumes paired CSV references73-82. PRIMARY929 already uses these CSV values/missingness.",
+  "all80k_raw_CSV_comparison_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\semantic_join952\\COMPLETE_ALL80K_RAW5_CSV4_SEMANTIC_QUALIFICATION001.json",
+    "bytes": 104486,
+    "sha256": "cadb7af43441830864dbc9313c5413462e770239097b1e370b34c942c4f2d253"
+  },
+  "actual_semantic_tool_session": 85104,
+  "actual_final_chunk": "cee3b2",
+  "actual_tool_exit": 0,
+  "raw_discrepancy": "Ten raw Human workbook JSON rating cells are defined while corresponding cells are empty in each of four original analysis CSVs:40 paired-cell/280 attribute definedness differences; zero defined numerical value mismatches. Original pipeline reason UNKNOWN. Every discrepancy and source hash retained.",
+  "adopted_analysis": "Use all original four paperdate analysis CSVs with their original missingness. Do not fill the ten empty cells from raw workbook, and do not drop source records. Independent route must parse all four CSV human references and require crossjudge agreement. Raw-workbook comparison is a separate complete provenance diagnostic.",
+  "no_published_statistical_result_read_before_decision": true,
+  "all_near_bounds921_and_whole_target_scope_unchanged": true,
+  "limitation": "This establishes CENTRAL released-data statistical reproducibility, not exact raw-to-analysis producer reconstruction, original expert aggregation, new model judgments or FULL reproduction."
+}

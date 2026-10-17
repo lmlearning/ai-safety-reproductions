@@ -1,0 +1,64 @@
+{
+  "A": {
+    "metric": "RR",
+    "study": [
+      "Kim 2025",
+      "Wu 2025"
+    ],
+    "event_e": [
+      70,
+      28
+    ],
+    "n_e": [
+      114,
+      48
+    ],
+    "event_c": [
+      53,
+      13
+    ],
+    "n_c": [
+      114,
+      48
+    ],
+    "random_ci": "HK",
+    "common": true
+  },
+  "B": {
+    "metric": "MD",
+    "study": [
+      "Goh 2024",
+      "Goh 2025"
+    ],
+    "effect": [
+      "2.0000",
+      "6.5000"
+    ],
+    "se": [
+      "3.0612",
+      "1.9133"
+    ],
+    "random_ci": "classic",
+    "common": true
+  },
+  "C": {
+    "metric": "MD",
+    "study": [
+      "Goh 2024",
+      "Goh 2025",
+      "Yu He Ke 2025"
+    ],
+    "effect": [
+      "-1.3667",
+      "1.9833",
+      "0.5600"
+    ],
+    "se": [
+      "0.9609",
+      "0.8673",
+      "1.9515"
+    ],
+    "random_ci": "HK",
+    "common": false
+  }
+}

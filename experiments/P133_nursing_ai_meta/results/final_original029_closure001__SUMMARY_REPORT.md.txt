@@ -1,0 +1,9 @@
+# P133 complete central quantitative reproduction review
+
+AI literacy and competency in nursing education: preparing students and faculty members for an AI-enabled future-a systematic review and meta-analysis
+
+CENTRAL qualification proposed; root review/registration pending. FULL false.
+
+All129 inputs,263 forest output gates and3 primary claims pass. All312,782 independent comparisons pass; native45/45. All43rows/18studies/3families retained. Supporting19/114agree and95disagree; the full95-row ledger and all23source conflicts appear in SUMMARY_REPORT.html.
+
+Conservative audit029 charge89seconds; shared571/1800. No scientific source, input, scope, criterion or registry edits. All earlier failures preserved, including audit028's metadata schema failure.

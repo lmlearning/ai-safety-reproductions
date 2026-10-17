@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-11T08:51:51.233676+00:00",
+  "HTML": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\final_original029_closure001\\SUMMARY_REPORT.html",
+    "bytes": 42030,
+    "sha256": "f9060f76a51994b2495d369c12a5dba403322a9f4e1ba932584f18104398fdc9"
+  },
+  "full95_disagreement_rows_present": true,
+  "full23_conflict_rows_present": true,
+  "parsed_table_rows": 161,
+  "all_local_evidence_links_exist": true,
+  "responsive_CSS": true,
+  "numerical_render_or_fit": false,
+  "visual_browser_QA": "pending separate read-only browser inspection; this is structural HTML QA only"
+}

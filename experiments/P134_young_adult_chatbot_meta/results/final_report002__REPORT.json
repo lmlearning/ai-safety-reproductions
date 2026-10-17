@@ -1,0 +1,1595 @@
+{
+  "paper_id": "P134",
+  "title": "The Effectiveness of AI Chatbots in Alleviating Mental Distress and Promoting Health Behaviors Among Adolescents and Young Adults: Systematic Review and Meta-Analysis",
+  "class": "central_statistical_analysis",
+  "full_reproduction": false,
+  "criteria_passed": true,
+  "audit_passed": true,
+  "mandatory337_passed": 337,
+  "independent_integrity_checks": 51910,
+  "source_display_numeric_passed": 324,
+  "source_display_numeric_failed": 8,
+  "source_unprinted_fields": 4,
+  "post_outcome_scientific_scope_or_method_change": false,
+  "phase_seconds": 107.53019699999999,
+  "phase_records": [
+    {
+      "name": "original_audit001_WITNESS",
+      "outer_seconds": 15.16357,
+      "actual_tool_exit": 0,
+      "witness": {
+        "utc_start": "2026-10-11T00:52:24.170579+00:00",
+        "utc_end": "2026-10-11T00:52:39.334149+00:00",
+        "dispatcher_identity": {
+          "pid": 46620,
+          "creation_time": 1791679944.0392487
+        },
+        "actual_guardian_identity": {
+          "pid": 35684,
+          "creation_time": 1791679944.173792,
+          "command": [
+            "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "{{REPRODUCTION_ROOT}}\\scripts\\guard_generic_cpu_native003.py",
+            "--authorization",
+            "papers/P134_young_adult_chatbot_meta/ORIGINAL_AUDIT_AUTHORIZATION001.json"
+          ]
+        },
+        "actual_guardian_exit": 0,
+        "guardian_final_native_memory": {
+          "native_peak_working_set_bytes": 27824128,
+          "native_working_set_bytes": 32768,
+          "native_peak_pagefile_bytes": 17137664,
+          "native_private_usage_bytes": 77824
+        },
+        "guardian_creation_matched_absence": true,
+        "native_total_guardian_plus_every_owned_peak": 164110336,
+        "within_frozen_tree_cap": true,
+        "all_native_complete": true,
+        "guard_status_sha256": "a06dcc0af669eaab8c6f071e8c3a45d2d8c0537ee89790f2191274017a77f81b",
+        "dispatcher_own_sampled_peak": 24956928,
+        "dispatcher_is_external_observer_not_numerical_tree": true,
+        "dispatcher_absence_requires_actual_tool_completion": true
+      },
+      "guard": {
+        "utc_start": "2026-10-11T00:52:26.209268+00:00",
+        "status": "completed",
+        "guardian": {
+          "pid": 35684,
+          "creation_time": 1791679944.1737928,
+          "command": [
+            "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "{{REPRODUCTION_ROOT}}\\scripts\\guard_generic_cpu_native003.py",
+            "--authorization",
+            "papers/P134_young_adult_chatbot_meta/ORIGINAL_AUDIT_AUTHORIZATION001.json"
+          ],
+          "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+        },
+        "mode": "original",
+        "authorization_sha256": "23cf8191de5f97bfbe8f9a9c7cda8c180adf9e0e50acb8bb0207b2e86d29dac7",
+        "owned": [
+          {
+            "pid": 57716,
+            "creation_time": 1791679944.1821747,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 8044544,
+              "native_working_set_bytes": 8015872,
+              "native_peak_pagefile_bytes": 1327104,
+              "native_private_usage_bytes": 1277952
+            },
+            "native_exit_code": 15,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 8044544,
+              "native_working_set_bytes": 28672,
+              "native_peak_pagefile_bytes": 1327104,
+              "native_private_usage_bytes": 73728
+            },
+            "creation_matched_absence": true
+          },
+          {
+            "pid": 70560,
+            "creation_time": 1791679956.3137226,
+            "command": [
+              "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\audit_independent_source_formula_local004.py",
+              "--audit",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\original002",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\audits\\original001",
+              "--freeze",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\INPUT_CODE_RUNTIME_ORIGINAL_FREEZE002.json"
+            ],
+            "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "borrowed_handle": true,
+            "native_memory": {
+              "native_peak_working_set_bytes": 119795712,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 110350336,
+              "native_private_usage_bytes": 77824
+            },
+            "native_exit_code": 0,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 119795712,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 110350336,
+              "native_private_usage_bytes": 77824
+            },
+            "creation_matched_absence": true
+          },
+          {
+            "pid": 68104,
+            "creation_time": 1791679956.3354237,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 8445952,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 1323008,
+              "native_private_usage_bytes": 77824
+            },
+            "native_exit_code": 0,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 8445952,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 1323008,
+              "native_private_usage_bytes": 77824
+            },
+            "creation_matched_absence": true
+          }
+        ],
+        "no_automatic_retry": true,
+        "limits": {
+          "tree_peak_bytes": 536870912,
+          "available_ram_bytes": 536870912,
+          "free_disk_bytes": 37580963840,
+          "wall_seconds": 600,
+          "fresh_start_seconds": 10,
+          "start_ram_bytes": 671088640
+        },
+        "minimum_ram": 974630912,
+        "minimum_disk": 92700651520,
+        "peak_owned_tree_bytes": 164110336,
+        "elapsed_seconds": 13.077999999979511,
+        "command": [
+          "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\audit_independent_source_formula_local004.py",
+          "--audit",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\original002",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\audits\\original001",
+          "--freeze",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\INPUT_CODE_RUNTIME_ORIGINAL_FREEZE002.json"
+        ],
+        "scientific_child": {
+          "pid": 70560,
+          "creation_time": 1791679956.3137226,
+          "command": [
+            "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\audit_independent_source_formula_local004.py",
+            "--audit",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\original002",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\audits\\original001",
+            "--freeze",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\INPUT_CODE_RUNTIME_ORIGINAL_FREEZE002.json"
+          ],
+          "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+          "borrowed_handle": true
+        },
+        "actual_child_exit": 0,
+        "forced_owned": [
+          {
+            "pid": 57716,
+            "creation_time": 1791679944.1821747,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 8044544,
+              "native_working_set_bytes": 8015872,
+              "native_peak_pagefile_bytes": 1327104,
+              "native_private_usage_bytes": 1277952
+            }
+          }
+        ],
+        "final_native_tree_peak_sum_bytes": 164110336,
+        "utc_end": "2026-10-11T00:52:39.284792+00:00"
+      },
+      "dispatcher_absent": true
+    },
+    {
+      "name": "original_main001_WITNESS",
+      "outer_seconds": 5.576378,
+      "actual_tool_exit": 97,
+      "witness": {
+        "utc_start": "2026-10-11T00:50:10.771957+00:00",
+        "utc_end": "2026-10-11T00:50:16.348335+00:00",
+        "dispatcher_identity": {
+          "pid": 45460,
+          "creation_time": 1791679810.6487331
+        },
+        "actual_guardian_identity": {
+          "pid": 80960,
+          "creation_time": 1791679810.7752361,
+          "command": [
+            "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "{{REPRODUCTION_ROOT}}\\scripts\\guard_generic_cpu_native003.py",
+            "--authorization",
+            "papers/P134_young_adult_chatbot_meta/ORIGINAL_MAIN_AUTHORIZATION002.json"
+          ]
+        },
+        "actual_guardian_exit": 97,
+        "guardian_final_native_memory": {
+          "native_peak_working_set_bytes": 27381760,
+          "native_working_set_bytes": 32768,
+          "native_peak_pagefile_bytes": 16695296,
+          "native_private_usage_bytes": 77824
+        },
+        "guardian_creation_matched_absence": true,
+        "native_total_guardian_plus_every_owned_peak": 35393536,
+        "within_frozen_tree_cap": true,
+        "all_native_complete": false,
+        "guard_status_sha256": "f095d28cd5046ed6f39bc44133554673a17b1ab39aa36c5f615879059ff8b5fb",
+        "dispatcher_own_sampled_peak": 24891392,
+        "dispatcher_is_external_observer_not_numerical_tree": true,
+        "dispatcher_absence_requires_actual_tool_completion": true
+      },
+      "guard": {
+        "utc_start": "2026-10-11T00:50:11.984601+00:00",
+        "status": "resource_or_engineering_stop",
+        "guardian": {
+          "pid": 80960,
+          "creation_time": 1791679810.7752357,
+          "command": [
+            "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "{{REPRODUCTION_ROOT}}\\scripts\\guard_generic_cpu_native003.py",
+            "--authorization",
+            "papers/P134_young_adult_chatbot_meta/ORIGINAL_MAIN_AUTHORIZATION002.json"
+          ],
+          "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+        },
+        "mode": "original",
+        "authorization_sha256": "3893545414e6adb629b7fcecf17168ff752d9555dd569e938be7e1b952df61a9",
+        "owned": [
+          {
+            "pid": 75744,
+            "creation_time": 1791679810.7843063,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 8011776,
+              "native_working_set_bytes": 8011776,
+              "native_peak_pagefile_bytes": 1339392,
+              "native_private_usage_bytes": 1294336
+            },
+            "native_exit_code": 15,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 8011776,
+              "native_working_set_bytes": 36864,
+              "native_peak_pagefile_bytes": 1339392,
+              "native_private_usage_bytes": 81920
+            },
+            "creation_matched_absence": true
+          }
+        ],
+        "no_automatic_retry": true,
+        "limits": {
+          "tree_peak_bytes": 536870912,
+          "available_ram_bytes": 536870912,
+          "free_disk_bytes": 37580963840,
+          "wall_seconds": 600,
+          "fresh_start_seconds": 10,
+          "start_ram_bytes": 805306368
+        },
+        "minimum_ram": 804986880,
+        "minimum_disk": 92752494592,
+        "peak_owned_tree_bytes": 35393536,
+        "elapsed_seconds": 4.312999999849126,
+        "stop_reason": "AssertionError('fresh start RAM floor')",
+        "forced_owned": [
+          {
+            "pid": 75744,
+            "creation_time": 1791679810.7843063,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 8011776,
+              "native_working_set_bytes": 8011776,
+              "native_peak_pagefile_bytes": 1339392,
+              "native_private_usage_bytes": 1294336
+            }
+          }
+        ],
+        "final_native_tree_peak_sum_bytes": 35393536,
+        "utc_end": "2026-10-11T00:50:16.295775+00:00"
+      },
+      "dispatcher_absent": true
+    },
+    {
+      "name": "original_main002_WITNESS",
+      "outer_seconds": 15.643436,
+      "actual_tool_exit": 0,
+      "witness": {
+        "utc_start": "2026-10-11T00:51:21.863188+00:00",
+        "utc_end": "2026-10-11T00:51:37.506624+00:00",
+        "dispatcher_identity": {
+          "pid": 66884,
+          "creation_time": 1791679881.7374923
+        },
+        "actual_guardian_identity": {
+          "pid": 58828,
+          "creation_time": 1791679881.8663025,
+          "command": [
+            "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "{{REPRODUCTION_ROOT}}\\scripts\\guard_generic_cpu_native003.py",
+            "--authorization",
+            "papers/P134_young_adult_chatbot_meta/ORIGINAL_MAIN_AUTHORIZATION003.json"
+          ]
+        },
+        "actual_guardian_exit": 0,
+        "guardian_final_native_memory": {
+          "native_peak_working_set_bytes": 27828224,
+          "native_working_set_bytes": 32768,
+          "native_peak_pagefile_bytes": 17055744,
+          "native_private_usage_bytes": 77824
+        },
+        "guardian_creation_matched_absence": true,
+        "native_total_guardian_plus_every_owned_peak": 235196416,
+        "within_frozen_tree_cap": true,
+        "all_native_complete": true,
+        "guard_status_sha256": "9a1bfccffcc63380b728454c490e5cc5d6f022c91d19b739b6dce7c303adb89e",
+        "dispatcher_own_sampled_peak": 24694784,
+        "dispatcher_is_external_observer_not_numerical_tree": true,
+        "dispatcher_absence_requires_actual_tool_completion": true
+      },
+      "guard": {
+        "utc_start": "2026-10-11T00:51:23.124360+00:00",
+        "status": "completed",
+        "guardian": {
+          "pid": 58828,
+          "creation_time": 1791679881.8663023,
+          "command": [
+            "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "{{REPRODUCTION_ROOT}}\\scripts\\guard_generic_cpu_native003.py",
+            "--authorization",
+            "papers/P134_young_adult_chatbot_meta/ORIGINAL_MAIN_AUTHORIZATION003.json"
+          ],
+          "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+        },
+        "mode": "original",
+        "authorization_sha256": "ae77893547c13da3d2cc8b3e737d762ed9e2998a53e3dab98f43fb44608fd1b8",
+        "owned": [
+          {
+            "pid": 64360,
+            "creation_time": 1791679881.8758128,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 8036352,
+              "native_working_set_bytes": 8007680,
+              "native_peak_pagefile_bytes": 1343488,
+              "native_private_usage_bytes": 1294336
+            },
+            "native_exit_code": 15,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 8036352,
+              "native_working_set_bytes": 36864,
+              "native_peak_pagefile_bytes": 1343488,
+              "native_private_usage_bytes": 81920
+            },
+            "creation_matched_absence": true
+          },
+          {
+            "pid": 56076,
+            "creation_time": 1791679893.1965618,
+            "command": [
+              "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\run_complete_central003.py",
+              "--authorization",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\ORIGINAL_MAIN_AUTHORIZATION003.json",
+              "--out",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\original002"
+            ],
+            "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "borrowed_handle": true,
+            "native_memory": {
+              "native_peak_working_set_bytes": 190885888,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 199086080,
+              "native_private_usage_bytes": 77824
+            },
+            "native_exit_code": 0,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 190885888,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 199086080,
+              "native_private_usage_bytes": 77824
+            },
+            "creation_matched_absence": true
+          },
+          {
+            "pid": 74040,
+            "creation_time": 1791679893.2299843,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 8445952,
+              "native_working_set_bytes": 36864,
+              "native_peak_pagefile_bytes": 1339392,
+              "native_private_usage_bytes": 81920
+            },
+            "native_exit_code": 0,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 8445952,
+              "native_working_set_bytes": 36864,
+              "native_peak_pagefile_bytes": 1339392,
+              "native_private_usage_bytes": 81920
+            },
+            "creation_matched_absence": true
+          }
+        ],
+        "no_automatic_retry": true,
+        "limits": {
+          "tree_peak_bytes": 536870912,
+          "available_ram_bytes": 536870912,
+          "free_disk_bytes": 37580963840,
+          "wall_seconds": 600,
+          "fresh_start_seconds": 10,
+          "start_ram_bytes": 671088640
+        },
+        "minimum_ram": 891236352,
+        "minimum_disk": 92742918144,
+        "peak_owned_tree_bytes": 235196416,
+        "elapsed_seconds": 14.266000000061467,
+        "command": [
+          "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\run_complete_central003.py",
+          "--authorization",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\ORIGINAL_MAIN_AUTHORIZATION003.json",
+          "--out",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\original002"
+        ],
+        "scientific_child": {
+          "pid": 56076,
+          "creation_time": 1791679893.1965618,
+          "command": [
+            "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\run_complete_central003.py",
+            "--authorization",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\ORIGINAL_MAIN_AUTHORIZATION003.json",
+            "--out",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\original002"
+          ],
+          "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+          "borrowed_handle": true
+        },
+        "actual_child_exit": 0,
+        "forced_owned": [
+          {
+            "pid": 64360,
+            "creation_time": 1791679881.8758128,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 8036352,
+              "native_working_set_bytes": 8007680,
+              "native_peak_pagefile_bytes": 1343488,
+              "native_private_usage_bytes": 1294336
+            }
+          }
+        ],
+        "final_native_tree_peak_sum_bytes": 235196416,
+        "utc_end": "2026-10-11T00:51:37.397471+00:00"
+      },
+      "dispatcher_absent": true
+    },
+    {
+      "name": "synthetic_audit001_WITNESS",
+      "outer_seconds": 15.36047,
+      "actual_tool_exit": 0,
+      "witness": {
+        "utc_start": "2026-10-11T00:38:46.479162+00:00",
+        "utc_end": "2026-10-11T00:39:01.839632+00:00",
+        "dispatcher_identity": {
+          "pid": 29596,
+          "creation_time": 1791679126.357086
+        },
+        "actual_guardian_identity": {
+          "pid": 77984,
+          "creation_time": 1791679126.4820995,
+          "command": [
+            "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "{{REPRODUCTION_ROOT}}\\scripts\\guard_generic_cpu_native002.py",
+            "--authorization",
+            "papers\\P134_young_adult_chatbot_meta\\SYNTHETIC_AUDIT_AUTHORIZATION001.json"
+          ]
+        },
+        "actual_guardian_exit": 0,
+        "guardian_final_native_memory": {
+          "native_peak_working_set_bytes": 27471872,
+          "native_working_set_bytes": 32768,
+          "native_peak_pagefile_bytes": 17399808,
+          "native_private_usage_bytes": 77824
+        },
+        "guardian_creation_matched_absence": true,
+        "native_total_guardian_plus_every_owned_peak": 278765568,
+        "within_frozen_tree_cap": true,
+        "all_native_complete": true,
+        "guard_status_sha256": "eb5705b8103e7e457871f60d22cb240096612fcedc581e97580af9f90031b472",
+        "dispatcher_own_sampled_peak": 24444928,
+        "dispatcher_is_external_observer_not_numerical_tree": true,
+        "dispatcher_absence_requires_actual_tool_completion": true
+      },
+      "guard": {
+        "utc_start": "2026-10-11T00:38:48.584553+00:00",
+        "status": "completed",
+        "guardian": {
+          "pid": 77984,
+          "creation_time": 1791679126.4820986,
+          "command": [
+            "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "{{REPRODUCTION_ROOT}}\\scripts\\guard_generic_cpu_native002.py",
+            "--authorization",
+            "papers\\P134_young_adult_chatbot_meta\\SYNTHETIC_AUDIT_AUTHORIZATION001.json"
+          ],
+          "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+        },
+        "mode": "synthetic",
+        "authorization_sha256": "3943f6ab61feccf2278737727a8029aa2e008347b1d81430225c7f5a956429df",
+        "owned": [
+          {
+            "pid": 71200,
+            "creation_time": 1791679126.4910386,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 8044544,
+              "native_working_set_bytes": 8015872,
+              "native_peak_pagefile_bytes": 1335296,
+              "native_private_usage_bytes": 1290240
+            },
+            "native_exit_code": 15,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 8044544,
+              "native_working_set_bytes": 36864,
+              "native_peak_pagefile_bytes": 1335296,
+              "native_private_usage_bytes": 81920
+            },
+            "creation_matched_absence": true
+          },
+          {
+            "pid": 79788,
+            "creation_time": 1791679138.582178,
+            "command": [
+              "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\audit_independent_source_formula_local003.py",
+              "--audit",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\synthetic001",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\audits\\synthetic001",
+              "--freeze",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\INPUT_CODE_RUNTIME_SYNTHETIC_FREEZE001.json"
+            ],
+            "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "borrowed_handle": true,
+            "native_memory": {
+              "native_peak_working_set_bytes": 117407744,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 107933696,
+              "native_private_usage_bytes": 77824
+            },
+            "native_exit_code": 2,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 117407744,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 107933696,
+              "native_private_usage_bytes": 77824
+            },
+            "creation_matched_absence": true
+          },
+          {
+            "pid": 79788,
+            "creation_time": 1791679138.5821772,
+            "command": [
+              "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\audit_independent_source_formula_local003.py",
+              "--audit",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\synthetic001",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\audits\\synthetic001",
+              "--freeze",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\INPUT_CODE_RUNTIME_SYNTHETIC_FREEZE001.json"
+            ],
+            "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 117407744,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 107933696,
+              "native_private_usage_bytes": 77824
+            },
+            "native_exit_code": 2,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 117407744,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 107933696,
+              "native_private_usage_bytes": 77824
+            },
+            "creation_matched_absence": true
+          },
+          {
+            "pid": 68412,
+            "creation_time": 1791679138.6227899,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 8433664,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 1335296,
+              "native_private_usage_bytes": 77824
+            },
+            "native_exit_code": 0,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 8433664,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 1335296,
+              "native_private_usage_bytes": 77824
+            },
+            "creation_matched_absence": true
+          }
+        ],
+        "no_automatic_retry": true,
+        "limits": {
+          "tree_peak_bytes": 536870912,
+          "available_ram_bytes": 536870912,
+          "free_disk_bytes": 37580963840,
+          "wall_seconds": 600,
+          "fresh_start_seconds": 10,
+          "start_ram_bytes": 805306368
+        },
+        "minimum_ram": 883826688,
+        "minimum_disk": 92926709760,
+        "peak_owned_tree_bytes": 278765568,
+        "elapsed_seconds": 13.156000000191852,
+        "command": [
+          "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\audit_independent_source_formula_local003.py",
+          "--audit",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\synthetic001",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\audits\\synthetic001",
+          "--freeze",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\INPUT_CODE_RUNTIME_SYNTHETIC_FREEZE001.json"
+        ],
+        "scientific_child": {
+          "pid": 79788,
+          "creation_time": 1791679138.582178,
+          "command": [
+            "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\audit_independent_source_formula_local003.py",
+            "--audit",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\synthetic001",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\audits\\synthetic001",
+            "--freeze",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\INPUT_CODE_RUNTIME_SYNTHETIC_FREEZE001.json"
+          ],
+          "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+          "borrowed_handle": true
+        },
+        "actual_child_exit": 2,
+        "forced_owned": [
+          {
+            "pid": 71200,
+            "creation_time": 1791679126.4910386,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 8044544,
+              "native_working_set_bytes": 8015872,
+              "native_peak_pagefile_bytes": 1335296,
+              "native_private_usage_bytes": 1290240
+            }
+          }
+        ],
+        "final_native_tree_peak_sum_bytes": 278765568,
+        "utc_end": "2026-10-11T00:39:01.741148+00:00"
+      },
+      "dispatcher_absent": true
+    },
+    {
+      "name": "synthetic_audit002_WITNESS",
+      "outer_seconds": 15.389714,
+      "actual_tool_exit": 0,
+      "witness": {
+        "utc_start": "2026-10-11T00:43:19.636074+00:00",
+        "utc_end": "2026-10-11T00:43:35.025788+00:00",
+        "dispatcher_identity": {
+          "pid": 65708,
+          "creation_time": 1791679399.5150833
+        },
+        "actual_guardian_identity": {
+          "pid": 67068,
+          "creation_time": 1791679399.6396618,
+          "command": [
+            "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "{{REPRODUCTION_ROOT}}\\scripts\\guard_generic_cpu_native003.py",
+            "--authorization",
+            "papers\\P134_young_adult_chatbot_meta\\SYNTHETIC_AUDIT_AUTHORIZATION002.json"
+          ]
+        },
+        "actual_guardian_exit": 0,
+        "guardian_final_native_memory": {
+          "native_peak_working_set_bytes": 27639808,
+          "native_working_set_bytes": 32768,
+          "native_peak_pagefile_bytes": 17436672,
+          "native_private_usage_bytes": 77824
+        },
+        "guardian_creation_matched_absence": true,
+        "native_total_guardian_plus_every_owned_peak": 162263040,
+        "within_frozen_tree_cap": true,
+        "all_native_complete": true,
+        "guard_status_sha256": "b64dbddcc5382511f59df4ba5f2d66850593f191ff999c14d61a5d82e21e25c7",
+        "dispatcher_own_sampled_peak": 24440832,
+        "dispatcher_is_external_observer_not_numerical_tree": true,
+        "dispatcher_absence_requires_actual_tool_completion": true
+      },
+      "guard": {
+        "utc_start": "2026-10-11T00:43:21.707653+00:00",
+        "status": "completed",
+        "guardian": {
+          "pid": 67068,
+          "creation_time": 1791679399.639662,
+          "command": [
+            "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "{{REPRODUCTION_ROOT}}\\scripts\\guard_generic_cpu_native003.py",
+            "--authorization",
+            "papers\\P134_young_adult_chatbot_meta\\SYNTHETIC_AUDIT_AUTHORIZATION002.json"
+          ],
+          "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+        },
+        "mode": "synthetic",
+        "authorization_sha256": "4b88b82b1af0f00143d7686812ffd6120a39f12d4e37728a25c5b1a7d7b6fd22",
+        "owned": [
+          {
+            "pid": 66056,
+            "creation_time": 1791679399.6485703,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 8003584,
+              "native_working_set_bytes": 8003584,
+              "native_peak_pagefile_bytes": 1335296,
+              "native_private_usage_bytes": 1282048
+            },
+            "native_exit_code": 15,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 8003584,
+              "native_working_set_bytes": 36864,
+              "native_peak_pagefile_bytes": 1335296,
+              "native_private_usage_bytes": 81920
+            },
+            "creation_matched_absence": true
+          },
+          {
+            "pid": 44140,
+            "creation_time": 1791679411.8255959,
+            "command": [
+              "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\audit_independent_source_formula_local004.py",
+              "--audit",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\synthetic002",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\audits\\synthetic002",
+              "--freeze",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\INPUT_CODE_RUNTIME_SYNTHETIC_FREEZE002.json"
+            ],
+            "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "borrowed_handle": true,
+            "native_memory": {
+              "native_peak_working_set_bytes": 118177792,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 108924928,
+              "native_private_usage_bytes": 77824
+            },
+            "native_exit_code": 2,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 118177792,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 108924928,
+              "native_private_usage_bytes": 77824
+            },
+            "creation_matched_absence": true
+          },
+          {
+            "pid": 74548,
+            "creation_time": 1791679411.8488045,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 8441856,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 1335296,
+              "native_private_usage_bytes": 77824
+            },
+            "native_exit_code": 0,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 8441856,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 1335296,
+              "native_private_usage_bytes": 77824
+            },
+            "creation_matched_absence": true
+          }
+        ],
+        "no_automatic_retry": true,
+        "limits": {
+          "tree_peak_bytes": 536870912,
+          "available_ram_bytes": 536870912,
+          "free_disk_bytes": 37580963840,
+          "wall_seconds": 600,
+          "fresh_start_seconds": 10,
+          "start_ram_bytes": 805306368
+        },
+        "minimum_ram": 996872192,
+        "minimum_disk": 92848492544,
+        "peak_owned_tree_bytes": 162263040,
+        "elapsed_seconds": 13.266000000061467,
+        "command": [
+          "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\audit_independent_source_formula_local004.py",
+          "--audit",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\synthetic002",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\audits\\synthetic002",
+          "--freeze",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\INPUT_CODE_RUNTIME_SYNTHETIC_FREEZE002.json"
+        ],
+        "scientific_child": {
+          "pid": 44140,
+          "creation_time": 1791679411.8255959,
+          "command": [
+            "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\audit_independent_source_formula_local004.py",
+            "--audit",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\synthetic002",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\audits\\synthetic002",
+            "--freeze",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\INPUT_CODE_RUNTIME_SYNTHETIC_FREEZE002.json"
+          ],
+          "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+          "borrowed_handle": true
+        },
+        "actual_child_exit": 2,
+        "forced_owned": [
+          {
+            "pid": 66056,
+            "creation_time": 1791679399.6485703,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 8003584,
+              "native_working_set_bytes": 8003584,
+              "native_peak_pagefile_bytes": 1335296,
+              "native_private_usage_bytes": 1282048
+            }
+          }
+        ],
+        "final_native_tree_peak_sum_bytes": 162263040,
+        "utc_end": "2026-10-11T00:43:34.977276+00:00"
+      },
+      "dispatcher_absent": true
+    },
+    {
+      "name": "synthetic_main001_WITNESS",
+      "outer_seconds": 23.806485,
+      "actual_tool_exit": 0,
+      "witness": {
+        "utc_start": "2026-10-11T00:37:35.395706+00:00",
+        "utc_end": "2026-10-11T00:37:59.202191+00:00",
+        "dispatcher_identity": {
+          "pid": 55264,
+          "creation_time": 1791679055.2474816
+        },
+        "actual_guardian_identity": {
+          "pid": 2756,
+          "creation_time": 1791679055.398613,
+          "command": [
+            "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "{{REPRODUCTION_ROOT}}\\scripts\\guard_generic_cpu_native002.py",
+            "--authorization",
+            "papers\\P134_young_adult_chatbot_meta\\SYNTHETIC_MAIN_AUTHORIZATION001.json"
+          ]
+        },
+        "actual_guardian_exit": 0,
+        "guardian_final_native_memory": {
+          "native_peak_working_set_bytes": 27586560,
+          "native_working_set_bytes": 32768,
+          "native_peak_pagefile_bytes": 17453056,
+          "native_private_usage_bytes": 77824
+        },
+        "guardian_creation_matched_absence": true,
+        "native_total_guardian_plus_every_owned_peak": 429322240,
+        "within_frozen_tree_cap": true,
+        "all_native_complete": true,
+        "guard_status_sha256": "d5e7afbbd208f4122fec9da3b3b8e32e6a8406ae2d4a0d0718461e1875845baa",
+        "dispatcher_own_sampled_peak": 24756224,
+        "dispatcher_is_external_observer_not_numerical_tree": true,
+        "dispatcher_absence_requires_actual_tool_completion": true
+      },
+      "guard": {
+        "utc_start": "2026-10-11T00:37:44.784729+00:00",
+        "status": "completed",
+        "guardian": {
+          "pid": 2756,
+          "creation_time": 1791679055.3986127,
+          "command": [
+            "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "{{REPRODUCTION_ROOT}}\\scripts\\guard_generic_cpu_native002.py",
+            "--authorization",
+            "papers\\P134_young_adult_chatbot_meta\\SYNTHETIC_MAIN_AUTHORIZATION001.json"
+          ],
+          "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+        },
+        "mode": "synthetic",
+        "authorization_sha256": "b6b881a08611bce54071ea02d9e021404353f4b38e4d55fdaeaf91f536a59b17",
+        "owned": [
+          {
+            "pid": 11228,
+            "creation_time": 1791679055.4075365,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 7999488,
+              "native_working_set_bytes": 7999488,
+              "native_peak_pagefile_bytes": 1331200,
+              "native_private_usage_bytes": 1282048
+            },
+            "native_exit_code": 15,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 7999488,
+              "native_working_set_bytes": 36864,
+              "native_peak_pagefile_bytes": 1331200,
+              "native_private_usage_bytes": 81920
+            },
+            "creation_matched_absence": true
+          },
+          {
+            "pid": 73616,
+            "creation_time": 1791679074.8672962,
+            "command": [
+              "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\run_complete_central002.py",
+              "--authorization",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\SYNTHETIC_MAIN_AUTHORIZATION001.json",
+              "--out",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\synthetic001"
+            ],
+            "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "borrowed_handle": true,
+            "native_memory": {
+              "native_peak_working_set_bytes": 192643072,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 200871936,
+              "native_private_usage_bytes": 77824
+            },
+            "native_exit_code": 2,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 192643072,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 200871936,
+              "native_private_usage_bytes": 77824
+            },
+            "creation_matched_absence": true
+          },
+          {
+            "pid": 73616,
+            "creation_time": 1791679074.8672965,
+            "command": [
+              "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\run_complete_central002.py",
+              "--authorization",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\SYNTHETIC_MAIN_AUTHORIZATION001.json",
+              "--out",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\synthetic001"
+            ],
+            "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 192643072,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 200871936,
+              "native_private_usage_bytes": 77824
+            },
+            "native_exit_code": 2,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 192643072,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 200871936,
+              "native_private_usage_bytes": 77824
+            },
+            "creation_matched_absence": true
+          },
+          {
+            "pid": 55308,
+            "creation_time": 1791679074.8909447,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 8450048,
+              "native_working_set_bytes": 36864,
+              "native_peak_pagefile_bytes": 1323008,
+              "native_private_usage_bytes": 81920
+            },
+            "native_exit_code": 0,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 8450048,
+              "native_working_set_bytes": 36864,
+              "native_peak_pagefile_bytes": 1323008,
+              "native_private_usage_bytes": 81920
+            },
+            "creation_matched_absence": true
+          }
+        ],
+        "no_automatic_retry": true,
+        "limits": {
+          "tree_peak_bytes": 536870912,
+          "available_ram_bytes": 536870912,
+          "free_disk_bytes": 37580963840,
+          "wall_seconds": 600,
+          "fresh_start_seconds": 10,
+          "start_ram_bytes": 805306368
+        },
+        "minimum_ram": 944771072,
+        "minimum_disk": 92952449024,
+        "peak_owned_tree_bytes": 429322240,
+        "elapsed_seconds": 14.375,
+        "command": [
+          "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\run_complete_central002.py",
+          "--authorization",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\SYNTHETIC_MAIN_AUTHORIZATION001.json",
+          "--out",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\synthetic001"
+        ],
+        "scientific_child": {
+          "pid": 73616,
+          "creation_time": 1791679074.8672962,
+          "command": [
+            "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\run_complete_central002.py",
+            "--authorization",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\SYNTHETIC_MAIN_AUTHORIZATION001.json",
+            "--out",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\synthetic001"
+          ],
+          "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+          "borrowed_handle": true
+        },
+        "actual_child_exit": 2,
+        "forced_owned": [
+          {
+            "pid": 11228,
+            "creation_time": 1791679055.4075365,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 7999488,
+              "native_working_set_bytes": 7999488,
+              "native_peak_pagefile_bytes": 1331200,
+              "native_private_usage_bytes": 1282048
+            }
+          }
+        ],
+        "final_native_tree_peak_sum_bytes": 429322240,
+        "utc_end": "2026-10-11T00:37:59.161445+00:00"
+      },
+      "dispatcher_absent": true
+    },
+    {
+      "name": "synthetic_main002_WITNESS",
+      "outer_seconds": 16.590144,
+      "actual_tool_exit": 0,
+      "witness": {
+        "utc_start": "2026-10-11T00:41:41.482374+00:00",
+        "utc_end": "2026-10-11T00:41:58.072518+00:00",
+        "dispatcher_identity": {
+          "pid": 24224,
+          "creation_time": 1791679301.3329754
+        },
+        "actual_guardian_identity": {
+          "pid": 72948,
+          "creation_time": 1791679301.4860725,
+          "command": [
+            "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "{{REPRODUCTION_ROOT}}\\scripts\\guard_generic_cpu_native003.py",
+            "--authorization",
+            "papers\\P134_young_adult_chatbot_meta\\SYNTHETIC_MAIN_AUTHORIZATION002.json"
+          ]
+        },
+        "actual_guardian_exit": 0,
+        "guardian_final_native_memory": {
+          "native_peak_working_set_bytes": 27492352,
+          "native_working_set_bytes": 32768,
+          "native_peak_pagefile_bytes": 17399808,
+          "native_private_usage_bytes": 77824
+        },
+        "guardian_creation_matched_absence": true,
+        "native_total_guardian_plus_every_owned_peak": 237060096,
+        "within_frozen_tree_cap": true,
+        "all_native_complete": true,
+        "guard_status_sha256": "d762dcb2bd9546cec51b8b01fbddd435dfbca0c0b67f4b3075fd1a8a44563c33",
+        "dispatcher_own_sampled_peak": 24735744,
+        "dispatcher_is_external_observer_not_numerical_tree": true,
+        "dispatcher_absence_requires_actual_tool_completion": true
+      },
+      "guard": {
+        "utc_start": "2026-10-11T00:41:43.523028+00:00",
+        "status": "completed",
+        "guardian": {
+          "pid": 72948,
+          "creation_time": 1791679301.4860733,
+          "command": [
+            "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "{{REPRODUCTION_ROOT}}\\scripts\\guard_generic_cpu_native003.py",
+            "--authorization",
+            "papers\\P134_young_adult_chatbot_meta\\SYNTHETIC_MAIN_AUTHORIZATION002.json"
+          ],
+          "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+        },
+        "mode": "synthetic",
+        "authorization_sha256": "dfb366b5769deeec927bcd90708d6e33e04fc36f96b2e742e487e3a2d5316a11",
+        "owned": [
+          {
+            "pid": 64844,
+            "creation_time": 1791679301.498416,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 8040448,
+              "native_working_set_bytes": 8011776,
+              "native_peak_pagefile_bytes": 1339392,
+              "native_private_usage_bytes": 1290240
+            },
+            "native_exit_code": 15,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 8040448,
+              "native_working_set_bytes": 36864,
+              "native_peak_pagefile_bytes": 1339392,
+              "native_private_usage_bytes": 81920
+            },
+            "creation_matched_absence": true
+          },
+          {
+            "pid": 62280,
+            "creation_time": 1791679313.628006,
+            "command": [
+              "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\run_complete_central003.py",
+              "--authorization",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\SYNTHETIC_MAIN_AUTHORIZATION002.json",
+              "--out",
+              "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\synthetic002"
+            ],
+            "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+            "borrowed_handle": true,
+            "native_memory": {
+              "native_peak_working_set_bytes": 193073152,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 201621504,
+              "native_private_usage_bytes": 77824
+            },
+            "native_exit_code": 2,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 193073152,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 201621504,
+              "native_private_usage_bytes": 77824
+            },
+            "creation_matched_absence": true
+          },
+          {
+            "pid": 31092,
+            "creation_time": 1791679313.6541238,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 8454144,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 1327104,
+              "native_private_usage_bytes": 77824
+            },
+            "native_exit_code": 0,
+            "native_final_memory": {
+              "native_peak_working_set_bytes": 8454144,
+              "native_working_set_bytes": 32768,
+              "native_peak_pagefile_bytes": 1327104,
+              "native_private_usage_bytes": 77824
+            },
+            "creation_matched_absence": true
+          }
+        ],
+        "no_automatic_retry": true,
+        "limits": {
+          "tree_peak_bytes": 536870912,
+          "available_ram_bytes": 536870912,
+          "free_disk_bytes": 37580963840,
+          "wall_seconds": 600,
+          "fresh_start_seconds": 10,
+          "start_ram_bytes": 805306368
+        },
+        "minimum_ram": 959778816,
+        "minimum_disk": 92869271552,
+        "peak_owned_tree_bytes": 237060096,
+        "elapsed_seconds": 14.483999999938533,
+        "command": [
+          "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\run_complete_central003.py",
+          "--authorization",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\SYNTHETIC_MAIN_AUTHORIZATION002.json",
+          "--out",
+          "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\synthetic002"
+        ],
+        "scientific_child": {
+          "pid": 62280,
+          "creation_time": 1791679313.628006,
+          "command": [
+            "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\run_complete_central003.py",
+            "--authorization",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\SYNTHETIC_MAIN_AUTHORIZATION002.json",
+            "--out",
+            "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\runs\\synthetic002"
+          ],
+          "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+          "borrowed_handle": true
+        },
+        "actual_child_exit": 2,
+        "forced_owned": [
+          {
+            "pid": 64844,
+            "creation_time": 1791679301.498416,
+            "command": [
+              "\\??\\C:\\windows\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "native_memory": {
+              "native_peak_working_set_bytes": 8040448,
+              "native_working_set_bytes": 8011776,
+              "native_peak_pagefile_bytes": 1339392,
+              "native_private_usage_bytes": 1290240
+            }
+          }
+        ],
+        "final_native_tree_peak_sum_bytes": 237060096,
+        "utc_end": "2026-10-11T00:41:58.002054+00:00"
+      },
+      "dispatcher_absent": true
+    }
+  ],
+  "frozen_input_code_runtime_references_verified": 3946,
+  "hash_mismatches": [],
+  "source_support_failures": [
+    {
+      "id": "generic/overall_mental/27/weight_percent",
+      "path": [
+        "families",
+        "overall_mental",
+        "pool",
+        "row_weights_percent",
+        26
+      ],
+      "source_literal": "2.0%",
+      "kind": "rounded",
+      "numeric_target": "2.0",
+      "relation": null,
+      "tolerance": 0.050000001,
+      "source": {
+        "field": "weight_percent",
+        "source_literal": "2.0%",
+        "numeric_literal": "2.0",
+        "image": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\sources\\jmir-v27-e79850-g002.jpg",
+          "bytes": 98919,
+          "sha256": "1e7ca5859370fcea6111948fe6068a2211a52b05877dc15bb04ae97eece4da7c"
+        },
+        "locus": {
+          "forest": "overall_mental",
+          "data_row_1based": 27,
+          "study_key": "Liu2022",
+          "within_study_row": 2,
+          "column": "Weight"
+        },
+        "reading": "manual original raster read; no inferred CI from g or SE"
+      },
+      "primary_rescue": false,
+      "actual": 2.0500273936000943,
+      "difference": 0.05002739360009434,
+      "passes_source_display": false
+    },
+    {
+      "id": "generic/overall_mental/29/weight_percent",
+      "path": [
+        "families",
+        "overall_mental",
+        "pool",
+        "row_weights_percent",
+        28
+      ],
+      "source_literal": "0.6%",
+      "kind": "rounded",
+      "numeric_target": "0.6",
+      "relation": null,
+      "tolerance": 0.050000001,
+      "source": {
+        "field": "weight_percent",
+        "source_literal": "0.6%",
+        "numeric_literal": "0.6",
+        "image": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\sources\\jmir-v27-e79850-g002.jpg",
+          "bytes": 98919,
+          "sha256": "1e7ca5859370fcea6111948fe6068a2211a52b05877dc15bb04ae97eece4da7c"
+        },
+        "locus": {
+          "forest": "overall_mental",
+          "data_row_1based": 29,
+          "study_key": "Nicol2022",
+          "within_study_row": 1,
+          "column": "Weight"
+        },
+        "reading": "manual original raster read; no inferred CI from g or SE"
+      },
+      "primary_rescue": false,
+      "actual": 0.785480107758823,
+      "difference": 0.18548010775882307,
+      "passes_source_display": false
+    },
+    {
+      "id": "generic/overall_mental/30/weight_percent",
+      "path": [
+        "families",
+        "overall_mental",
+        "pool",
+        "row_weights_percent",
+        29
+      ],
+      "source_literal": "0.6%",
+      "kind": "rounded",
+      "numeric_target": "0.6",
+      "relation": null,
+      "tolerance": 0.050000001,
+      "source": {
+        "field": "weight_percent",
+        "source_literal": "0.6%",
+        "numeric_literal": "0.6",
+        "image": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\sources\\jmir-v27-e79850-g002.jpg",
+          "bytes": 98919,
+          "sha256": "1e7ca5859370fcea6111948fe6068a2211a52b05877dc15bb04ae97eece4da7c"
+        },
+        "locus": {
+          "forest": "overall_mental",
+          "data_row_1based": 30,
+          "study_key": "Nicol2022",
+          "within_study_row": 2,
+          "column": "Weight"
+        },
+        "reading": "manual original raster read; no inferred CI from g or SE"
+      },
+      "primary_rescue": false,
+      "actual": 0.8087059900532169,
+      "difference": 0.20870599005321688,
+      "passes_source_display": false
+    },
+    {
+      "id": "generic/overall_mental/39/weight_percent",
+      "path": [
+        "families",
+        "overall_mental",
+        "pool",
+        "row_weights_percent",
+        38
+      ],
+      "source_literal": "2.5%",
+      "kind": "rounded",
+      "numeric_target": "2.5",
+      "relation": null,
+      "tolerance": 0.050000001,
+      "source": {
+        "field": "weight_percent",
+        "source_literal": "2.5%",
+        "numeric_literal": "2.5",
+        "image": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\sources\\jmir-v27-e79850-g002.jpg",
+          "bytes": 98919,
+          "sha256": "1e7ca5859370fcea6111948fe6068a2211a52b05877dc15bb04ae97eece4da7c"
+        },
+        "locus": {
+          "forest": "overall_mental",
+          "data_row_1based": 39,
+          "study_key": "Suharwardy2023",
+          "within_study_row": 1,
+          "column": "Weight"
+        },
+        "reading": "manual original raster read; no inferred CI from g or SE"
+      },
+      "primary_rescue": false,
+      "actual": 2.4163062798552635,
+      "difference": -0.08369372014473653,
+      "passes_source_display": false
+    },
+    {
+      "id": "generic/overall_mental/40/weight_percent",
+      "path": [
+        "families",
+        "overall_mental",
+        "pool",
+        "row_weights_percent",
+        39
+      ],
+      "source_literal": "2.5%",
+      "kind": "rounded",
+      "numeric_target": "2.5",
+      "relation": null,
+      "tolerance": 0.050000001,
+      "source": {
+        "field": "weight_percent",
+        "source_literal": "2.5%",
+        "numeric_literal": "2.5",
+        "image": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\sources\\jmir-v27-e79850-g002.jpg",
+          "bytes": 98919,
+          "sha256": "1e7ca5859370fcea6111948fe6068a2211a52b05877dc15bb04ae97eece4da7c"
+        },
+        "locus": {
+          "forest": "overall_mental",
+          "data_row_1based": 40,
+          "study_key": "Suharwardy2023",
+          "within_study_row": 2,
+          "column": "Weight"
+        },
+        "reading": "manual original raster read; no inferred CI from g or SE"
+      },
+      "primary_rescue": false,
+      "actual": 2.4163062798552635,
+      "difference": -0.08369372014473653,
+      "passes_source_display": false
+    },
+    {
+      "id": "means/depression/6/weight",
+      "path": [
+        "families",
+        "depression",
+        "pool",
+        "row_weights_percent",
+        5
+      ],
+      "source_literal": "5.8",
+      "kind": "rounded",
+      "numeric_target": "5.8",
+      "relation": null,
+      "tolerance": 0.050000001,
+      "source": {
+        "file": "source_transcription002/individual_means_targets_source001.csv",
+        "source_row": {
+          "family": "depression",
+          "row": "6",
+          "effect": "-1.06",
+          "CI_low": "-1.53",
+          "CI_high": "-.59",
+          "weight_percent": "5.8"
+        }
+      },
+      "primary_rescue": false,
+      "actual": 5.6743051324722735,
+      "difference": -0.1256948675277263,
+      "passes_source_display": false
+    },
+    {
+      "id": "footer/overall_mental/Q_Chi_squared",
+      "path": [
+        "families",
+        "overall_mental",
+        "pool",
+        "Q"
+      ],
+      "source_literal": "252.86",
+      "kind": "rounded",
+      "numeric_target": "252.86",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "source": {
+        "field": "Q_Chi_squared",
+        "source_literal": "252.86",
+        "image": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\sources\\jmir-v27-e79850-g002.jpg",
+          "bytes": 98919,
+          "sha256": "1e7ca5859370fcea6111948fe6068a2211a52b05877dc15bb04ae97eece4da7c"
+        },
+        "locus": "overall_mental forest footer; Heterogeneity",
+        "absence_note": null
+      },
+      "primary_rescue": false,
+      "actual": 252.72344300819194,
+      "difference": -0.136556991808078,
+      "passes_source_display": false
+    },
+    {
+      "id": "footer/overall_mental/Z",
+      "path": [
+        "families",
+        "overall_mental",
+        "pool",
+        "Z"
+      ],
+      "source_literal": "6.61",
+      "kind": "rounded",
+      "numeric_target": "6.61",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "source": {
+        "field": "Z",
+        "source_literal": "6.61",
+        "image": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\sources\\jmir-v27-e79850-g002.jpg",
+          "bytes": 98919,
+          "sha256": "1e7ca5859370fcea6111948fe6068a2211a52b05877dc15bb04ae97eece4da7c"
+        },
+        "locus": "overall_mental forest footer; Test for overall effect",
+        "absence_note": null
+      },
+      "primary_rescue": false,
+      "actual": 6.502737252743997,
+      "difference": -0.10726274725600327,
+      "passes_source_display": false
+    }
+  ],
+  "created_utc": "2026-10-11T00:57:16.537718+00:00"
+}

@@ -1,0 +1,390 @@
+{
+  "schema": "SOURCE_ONLY_COMPLETE_MENTALBENCH_ORIGINAL_CENTRAL_METHOD_DATA_AND_NEAR_PROPOSAL_P092018",
+  "UTC_sealed": "2026-10-17T08:27:24.942141+00:00",
+  "source_window": {
+    "UTC_first_observation": "2026-10-17T08:14:22+00:00",
+    "absolute_source_end_UTC": "2026-10-17T08:29:22+00:00",
+    "task": "ROOT source-only completeMentalBench centralmethod/datacode map and practicalNEARproposal",
+    "public_source_code_paper_metadata_limit_bytes": 8388608,
+    "bank_acquisition": false,
+    "scientific_origin": null,
+    "execution_authorized": false
+  },
+  "status": "CONCRETE_COMPLETE_CENTRAL_PLAN__SELECTION_SOURCE_STRUCTURE_RUNTIME_IMPLEMENTATION_HOLD",
+  "adopted_method914A_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ADOPTED_UNIFORM_RETAINED_S2_PREPRINT_SOURCE_COHORT914A.json",
+    "bytes": 7500,
+    "sha256": "a5d57d7301370b17f0e4be0ffa877388b6d2af493832550a169fa9f825343f4d"
+  },
+  "no_candidate_eligibility_granted": true,
+  "identity": {
+    "arxiv": "2510.19032",
+    "currenttitle": "When Can We Trust LLMs in Mental Health? Large-Scale Benchmarks for Reliable LLM Evaluation",
+    "earlier_same_study_title": "From Empathy to Action: Benchmarking LLMs in Mental Health with MentalBench-10 and a Novel Cognitive-Affective Evaluation Approach",
+    "forum": "Z1iiVvJjiE",
+    "repo": "abeerbadawi/MentalBench-Align",
+    "publicrepo_created_at": "2025-04-10T19:09:32Z",
+    "earliestretainedcommit": "b4a55cadf1e61b8073866867807e0ebac2eacd6d",
+    "commitdate": "2025-08-08T20:29:04Z",
+    "commitdate_not_publicationproof": true,
+    "positive_arxiv_v1_date": "2025-10-21",
+    "all_author_aliases": "InitialanonymousREADME;v1nineauthors;retainedS2lateraddsPrathibaDhanesh. No authorlineagefromnewcountquery."
+  },
+  "citation_history": {
+    "count": 31,
+    "provider": "S2",
+    "source_record_ledger_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\three_new_cpu_judge_routes_P092017\\EXACT_ALL_NAMED_RETAINED_S2_RECORDS_AND_PROVENANCE.json",
+      "bytes": 19936,
+      "sha256": "82f72b577f5be2f176fc7479d4e1e10133c2ac3e910e0fda47b2447a6a622bfa"
+    },
+    "bounded614history_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\three_new_cpu_judge_routes_P092017\\COMPLETE_BOUNDED_PRIOR_HISTORY_AND_IDENTITY_LOOKUP.json",
+      "bytes": 385154,
+      "sha256": "ac66d43804442223fb03b5aae7dc48693eb53021b1e1c2816724dae29b4f7f34"
+    },
+    "new_old_alias_rejoin_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\EARLIER_TITLE_AND_FORUM_ALIAS_FULL_BASELINE_REJOIN.json",
+      "bytes": 1647,
+      "sha256": "f10925a458afd579fc3d24a80af25e3805c03993641da93741d8a0134285c002"
+    },
+    "known_by782_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_FROZEN_BEFORE_JOURNAL_QUERY11_COMPOSITE_BASELINE782.json",
+      "bytes": 28452,
+      "sha256": "df6ce6f757d76411fd31e85ce634f7ce89738711a1f82df66417528195d556ca"
+    },
+    "HTTPcaptureUTC": "UNKNOWN",
+    "asofOct10countproof": false,
+    "no_new_count_call": true,
+    "778journal_qualification_claimed": false
+  },
+  "recommended_complete_scope": "ONE distinct central Affective-Cognitive Agreement validation: full RQ1human/LLMmodelcomparison + RQ2all28ICC+uncertainty + RQ3all28bias/error/reliabilityconclusions, alloriginal1000-ratedcohort/allgenerators/judges/attrs. Independent numericalreanalysis oforiginalreleasedbanks; no new hostedgeneration/humanrating.",
+  "full_original_omissions": "10kbenchmarkcollection/generation by9models inclclosedAPIs and originalhumanrecruitment/annotation are not replicated; exact historicalmodelversions/clinicalvalidity not independentlyproved. Entire100kZIPnotrequiredforstatistical1000cohort contribution; samplecollection/historylimits explicit. No FULL claim.",
+  "method_data_map": {
+    "method_source_refs": [
+      {
+        "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\PAPER_ERA_ICC_SOURCE.py",
+        "bytes": 61260,
+        "sha256": "bbc9584ea3a5b3d25e76bda6a7cec921e74c3340730fa96c05c7444f3fc91400"
+      },
+      {
+        "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\PAPER_ERA_MSE_SOURCE.py",
+        "bytes": 7512,
+        "sha256": "c06852137ceaea4294a82a80a2c1340e216640bb9b5f88240436f915ba003156"
+      }
+    ],
+    "canonical_paper_era_model_key_roster": [
+      [
+        "Claude-3.5-Haiku",
+        "claude"
+      ],
+      [
+        "deepseek-llama",
+        "ds_llama"
+      ],
+      [
+        "deepseek-qwen",
+        "ds_qwen"
+      ],
+      [
+        "Gemini 2.0-Flash",
+        "gemini"
+      ],
+      [
+        "gpt-4o",
+        "gpt4o"
+      ],
+      [
+        "gpt-4omini",
+        "gpt4omini"
+      ],
+      [
+        "Llama-3.1",
+        "llama_3"
+      ],
+      [
+        "Qwen-2.5",
+        "qwen_2"
+      ],
+      [
+        "Qwen-3",
+        "qwen_3"
+      ],
+      [
+        "Human",
+        "human"
+      ]
+    ],
+    "current_only_alias_change": "Paper-era Human:human -> current Original:original. Full rawdiff/AST comparison retained; BOTH ICC+MSE only change this mapping. Use paper-era code/data pair; rawworkbook adapter must positively qualify actual headers before numerical access. No scores used to choose alias.",
+    "judges": [
+      {
+        "canonical": "Claude-3.7-Sonnet",
+        "code_label": "Claude",
+        "merged_file": "claude_llm_judge_with_human.csv",
+        "excluded_generator": "Claude-3.5-Haiku"
+      },
+      {
+        "canonical": "GPT-4o",
+        "code_label": "GPT-4o",
+        "merged_file": "gpt-4o_llm_judge_with_human.csv",
+        "excluded_generator": "gpt-4o"
+      },
+      {
+        "canonical": "Gemini-2.5-Flash",
+        "code_label": "Gemini",
+        "merged_file": "gemini_llm_judge_with_human.csv",
+        "excluded_generator": "Gemini 2.0-Flash"
+      },
+      {
+        "canonical": "o4-mini",
+        "code_label": "o4-mini",
+        "merged_file": "o4-mini_llm_judge_with_human.csv",
+        "excluded_generator": "gpt-4omini"
+      }
+    ],
+    "attributes": [
+      "Guidance",
+      "Informativeness",
+      "Relevance",
+      "Safety",
+      "Empathy",
+      "Helpfulness",
+      "Understanding"
+    ],
+    "axes": {
+      "CSS": [
+        "Guidance",
+        "Informativeness",
+        "Relevance",
+        "Safety"
+      ],
+      "ARS": [
+        "Empathy",
+        "Helpfulness",
+        "Understanding"
+      ]
+    },
+    "ratings": "Original1..5 Likert values and published35 rubric anchors in source7/authorguidelines. Overall/Explanation exist in prompt but are not extra seven-attribute numerical endpoints; retain as optional opaque lineage, no new outcome family.",
+    "raters": "Source reports3experts. Core code uses ONE released human-reference rating per model/context/attribute, not a3human-rater ICC. If raw file is pre-aggregated, reproducing this exact declared reference can support CENTRAL; separate expert-level agreement or annotation-collection validity cannot be claimed. Aggregation provenance must be disclosed/qualified, never invented.",
+    "cohort": "Full original1000-rated-conversation roster,10response sources (9AI+originalhuman),all7attributes,4LLMjudges plushumanreference. 350000 possible human/LLM attribute ratings, not asserted all nonmissing. Full original records/identities required; original documented invalid/missing cells retained with reasons, not imputed/dropped secretly. Originalsource paired counts vary~8924..8934 after one self-exclusion, so do not force9000valid pairs or fabricate data.",
+    "family_relative_exclusions": "RQ1 full model/attribute mean/ranking family uses all9AI response sources, human reference also retained. ICC/bias/error family uses the exact code one-generator exclusion per judge, leaving8AI+originalhuman=9subjects. Paper says model-family exclusion (GPT4o vsmini) while code excludesone only: pre-bank priority to explicit paper-era code for this reproduction; no broader family rule invented.",
+    "parse_source": "_parse_rating lines83..97: blank/pandasmissing->NaN; trim; if begins```json remove matchingfences; json.loads; get exactattribute; None/blank invalid; float(value); errorinvalid. Future reducer must preserve all parse failures/missing masks and actualfullroster. Source silently skips missingfiles/columns/models; adaptedreader must insteadHOLD missingrequiredsource/file/axis, preserve original parseinvalidcell categories. No fuzzy text repair/clipping/success-selected parser.",
+    "ICC_aggregate": "For each judge xattribute, samepairedvalidcontext mask permodel computesH_i,L_i means, n=9,k=2 columns[humanreference,LLMjudge]. Equal model weighting for ICC; all source model paircounts recorded. Two-way ANOVA MSR=k*sum(rowmean-grand)^2/(n-1), MSC=n*sum(colmean-grand)^2/(k-1), MSE=(SStotal-SSrows-SScols)/((n-1)(k-1)); C1=(MSR-MSE)/(MSR+(k-1)MSE); A1 adds k*(MSC-MSE)/n denominator. Undefined values explicit, not coerced0.",
+    "bias_error": "Compute BOTH unweighted model-mean bias (Eq5/ICCcode) and pair-weighted means/bias/MSE/RMSE/sampleSD from calculate_real_mse_rmse.py. Table4/16 uses rawpair-weighted metrics. Normalized bias abs(unweightedmodelbias)/4 separate. Do not conflate unequal validpaircounts. All28judgeattribute cells.",
+    "bootstrap": "28cells x1000 paired-model resamples, TWO ICCs perdraw (28000draws/56000coefficients). Source legacyNumPy np.random.seed(42); randint(0,100000,1000); for each integerseed reset legacyRandomState then choice(n=9,size=9,replace=True), pairingH/L. Eachattribute uses same deterministically regeneratedseedlist. Percentile2.5/97.5, NumPy defaultlinear percentile; C/A filtered separately to finite[0,1], >=10validdraws elseundefined. Retain ALLrawdrawvalues/reasons, validcounts and C/A masks; thisauthorfilter is scientifically conditional/truncated, not an unconditional95%confidence guarantee. No silently corrected alternative chosenbyaccuracy.",
+    "serial_implementation": "Author mp.Pool(min4) has a mathematically identical explicit sequential fallback; prospectively use sequential branch ONLY, CPU1/thread1, no spawning/APIclient/plotimports. Independent newreducers needed; do NOT invoke author main which skipsinputs/catcheserrors/createsplots/spawns.",
+    "auxiliary_controls": "All28 CCC/Pearson/sampleSD/bias and BlandAltman bias\u00b11.96*SD withsourcebiasSE=SD/sqrt(N), LoASE=SD*sqrt(3/N) retained whencomputable; supporting no published numeric comparator staysdiagnostic. Do not invent targets or require plotpixels forNEAR."
+  },
+  "complete_original_published_source_target_roster": {
+    "source_table_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\COMPLETE_ORIGINAL_PUBLISHED_TARGET_TABLES_WITH_SOURCE_CELLS.json",
+      "bytes": 219428,
+      "sha256": "0e9058c8abcb4407f05c840c6aba73f9f99d3f32e2bc965a6a6ae487fb03bf9b"
+    },
+    "numeric_lexeme_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\COMPLETE_ALL_PUBLISHED_CENTRAL_FAMILY_NUMERIC_TARGET_LEXEMES.json",
+      "bytes": 303492,
+      "sha256": "93503ebd75f5f2fb4534060e860fba9aea7c63174514fac963df55d3b9c682ed"
+    },
+    "published_tables": [
+      2,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "target_count": 1150,
+    "counts_by_table": {
+      "2": 72,
+      "3": 140,
+      "4": 112,
+      "9": 54,
+      "10": 81,
+      "11": 81,
+      "12": 81,
+      "13": 81,
+      "14": 84,
+      "15": 140,
+      "16": 224
+    },
+    "main_core_numeric_targets": 324,
+    "precision": "Table2and9..13 means2decimals;Tables3/4/14..16 generally3decimals;sourceintegerN/ranksremainintegers. Exactlexemes/CIendpointsstored, not bankvalues.",
+    "all_groups_reproduced": "All11tablesfullnumericfamilies computed/reported; literalauxiliaryflags do not defineNEAR."
+  },
+  "bank_manifest_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\PROPOSED_EXACT_NINE_ORIGINAL_BANK_METADATA_MANIFEST.json",
+    "bytes": 5736,
+    "sha256": "82dc1a1646b5093773226e123028884800f8186bf47a86882ef1f4dc5f608867"
+  },
+  "original_paper_and_code_refs": {
+    "paper_v1": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\PAPER_V1_RAW.bin",
+      "bytes": 597627,
+      "sha256": "7046099794a6dee56332d92154531b037dcf274a289f16f05f7389b12f4bc0fd"
+    },
+    "paper_text": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\PAPER_V1_SOURCE_TEXT_WITH_LINES.txt",
+      "bytes": 95035,
+      "sha256": "5d6bc62399e2761ba061f3d7dc1d51e487bd06dc27d5533dce17e6e9d372ad84"
+    },
+    "ICCpaperera": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\PAPER_ERA_ICC_SOURCE.py",
+      "bytes": 61260,
+      "sha256": "bbc9584ea3a5b3d25e76bda6a7cec921e74c3340730fa96c05c7444f3fc91400"
+    },
+    "MSEpaperera": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\PAPER_ERA_MSE_SOURCE.py",
+      "bytes": 7512,
+      "sha256": "c06852137ceaea4294a82a80a2c1340e216640bb9b5f88240436f915ba003156"
+    },
+    "original_current_diff": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\PAPER_ERA_TO_CURRENT_CODE_RAW_AND_AST_SOURCE_COMPARISON.json",
+      "bytes": 827,
+      "sha256": "c408ad054e33fb7922853fbb867152715c1001c7de3829138fe11e3f68049b62"
+    },
+    "current_metadata_tree_reconstruction": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\COMPLETE_DECLARED_GIT_TREE_METADATA_RECONSTRUCTION.json",
+      "bytes": 2643,
+      "sha256": "4619fb728607527e23e4a05f10ae87b26f165f665c97d241356c77eac6baa867"
+    }
+  },
+  "source_conflicts_and_dispositions": [
+    {
+      "id": "PUBLIC_DATE",
+      "finding": "Positivearxivv1Oct21; GitcommitfirstAug8/repocreatedApr10 are NOT historicalpublicavailabilityproof. InitialREADMEoldtitle FromEmpathytoAction/ICLR2025anonymous, scholarlyprimaryreference saysARRMay2025/forumZ1iiVvJjiE. ForumchallengeSTOP, no bypass. Earlierpublicationoutsidewindowunknown.",
+      "disposition": "914A row/date/historyqualification pending. Existing31 exceeds ageformula requirements forallknown plausible withinwindow datesApr10..Oct21 (max31), but no proof therewasnoearlierout-of-window same-studypublication. Do not callold discrete40passed."
+    },
+    {
+      "id": "SOURCE_VERSION",
+      "finding": "Paper-date codeHuman:human and4mergedCSV differcurrentOriginal:original. All5rawXLSX bytes/GitIDs identical.",
+      "disposition": "Pin Oct21commit7074d5...original9banks+paper-era code; latercurrent files not substituted. Positive structure join forHuman/original beforevalues; unknownmappingHOLD."
+    },
+    {
+      "id": "JUDGE_GENERATOR_NAMES",
+      "finding": "Mainmethods/Table3 say o4-mini/Gemini2.5 judge; docs sayGPT4omini and appendixTable15 saysGemini2.0. Per-modelTables10..13 callsomegeneratorsClaude3.7/O4Mini although originalgeneratorrosterClaude3.5/GPT4omini.",
+      "disposition": "Canonical source-based mainjudge+generationcoderoles fixed; conflictingpublishedaliases markedUNKNOWN/diagnostic untilpositiveheader/provenance bridge, not matchedbyscores/ordinal. If ambiguityaffectsactualrequiredcohort oridentityHOLD; superficialauxlabel-onlydifference notNEARveto."
+    },
+    {
+      "id": "HUMAN_RATER_GRANULARITY",
+      "finding": "3expertsreported; onehumanreference usedincode. InitialearlyREADME2experts/250conversations.",
+      "disposition": "No silenthistorymerge. Currentv1full1000bank qualificationrequired; separateexpertdata optionalifnotinputtodefinedoriginalcentralanalysis, but aggregationprovenance/collectionlimits mustdisclose."
+    },
+    {
+      "id": "BOOTSTRAP_VALIDITY",
+      "finding": "Filtersnegative or>1ICC draws separately, may shrink/conditionCI; sourceplot draws syntheticNormal aroundbootstrapmean forillustration.",
+      "disposition": "Fidelitybranch exactfilter, fullrawdrawledger and invalidcounts; no unconditionalcoverageclaim, no syntheticplotdistributiontreatedasactualbootstrapdata."
+    },
+    {
+      "id": "APPENDIX_MSE_AND_CI",
+      "finding": "AppendixG callsANOVA residualMSE .021etc rawerrorMSE whileTable4/16 rawMSE1.181etc; someCIs differmainTable3 (.429vs.581ClaudeEmpathy). Table16/table4roundingpairs also differ.",
+      "disposition": "MainTables3/4 primary; reconstructbothANOVAresidual and rawerror roles, allconflictingsourceclaimsdiagnostic. No formulaalteration/auxconjunction forcingfalsepass."
+    },
+    {
+      "id": "MISSINGNESS",
+      "finding": "Author skipsfiles/columns/invalidratings; publishedNpairs8924..8934 ratherthan9000.",
+      "disposition": "All1000originalrecords/commoncohort+all10roles required, no skipmissingfile/model. Preserveoriginalmissingparsecells/masks and exactcounts; distinguish originalinvalidobservations from missingrequiredrelease. No imputation/cohortrepair."
+    }
+  ],
+  "prospective_near913_preregistration": {
+    "status": "PROPOSED_BEFORE_BANK_UNADOPTED",
+    "user913_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_USER_DIRECTED_NEAR_SUCCESS_COUNTING_CHANGE913.json",
+      "bytes": 2551,
+      "sha256": "fa0000ec371755eff4b9ce9d28a7e79e10fd32db272a81df4e23e8991dcb5b35"
+    },
+    "required_actual_scope": "Actual full original central experiment, allrequired sourcepopulations/inputs/methods, independent verification/custody, no missing requiredfamily, no hypotheticalrun. Missing data/identity/source ambiguity is HOLD not bounded numericalerror.",
+    "primary_reference_priority": "MainTables2,3,4 completefamilies; all1150published numericcells across11tables still generated/diagnosed. SupportingTable14..16/appendixprose conflicts retained; not a post-outcome choice.",
+    "bounded_core_error_proposal": {
+      "Table3_all56_ICC_C1_A1_abs_error_max": 0.03,
+      "Table3_all56_published_C1_CI_endpoint_abs_error_max": 0.05,
+      "Table3_all28_C1_CI_width_abs_error_max": 0.07,
+      "mainTable2_and_Table4_rating_mean_or_signed_bias_abs_error_max_rating_units": 0.05,
+      "Table4_raw_rating_MSE_abs_error_max_squared_rating_units": 0.1,
+      "interpretation": "3percentagepoints ICC; .05 is1.25% of fourpoint ratingrange; .10 is.625% of possible squared-errorrange16. CI allowances reflect finite1000bootstrap and sourceprecision, not claimed statistical equivalence. Allcorecells report errors and max/mean; no cell omission."
+    },
+    "complete_conclusion_gates": [
+      {
+        "id": "RQ1_broad_model_comparison",
+        "rule": "Human-reference Table2: bestclosed average minus bestopen >=.10; Llama remainsbestopen with >=.15 gap over otheropens; Qwen3 remainslowest average. Narrow ties withinnearmeanbound do not demand exactranking."
+      },
+      {
+        "id": "RQ2_cognitive_vs_safety",
+        "rule": "For EACHjudge, meanC1(Guidance,Info) - meanC1(Relevance,Safety) >=.10; all4judges allattrs remain evaluated."
+      },
+      {
+        "id": "RQ2_empathy_scale_mismatch",
+        "rule": "For EACHjudge, Empathy C1-A1 >=.20. All28pointbounds stillapply; do not overgeneralize everyattribute."
+      },
+      {
+        "id": "RQ2_precision_difference",
+        "rule": "For EACHjudge, meanC1CIwidth(Relevance,Safety) - meanC1CIwidth(Guidance,Info) >=.15."
+      },
+      {
+        "id": "RQ3_affective_inflation",
+        "rule": "For EACHjudge, Empathy signedbias >=.40 and Helpfulness signedbias >=.30. Understanding and allotherattrs stillreported/bounded; nearzeroClaudeUnderstanding neednot retain brittlepositivesign."
+      }
+    ],
+    "bounds_rationale": "Prospective source-based small errors plus robustcentralcontrasts, fixedbefore anybankvalues. Publishedcognitive-safetyC1gaps\u2248.19+; empathyscalegaps\u2248.38+; precisiongaps\u2248.33+; empathy/helpfulnessbias minima\u2248.58/.43. Proposed marginsretain substantial originalsignals without exactauxiliaryveto. Theseare practicaljudgments forROOT+independentreview, not authoruncertainty/tolerance or a currentpass.",
+    "categorical_boundary_policy": "Report all GR/MR/PR via sourcewidth<=.355 GR, else<=.560 MR, elsePR. Boundaryadjacentwidth differences within.07 can changecategory without automaticNEARveto; require sourcecategory agreement only when sourcewidth is>.07frombothboundaries. ICCcategories.5/.75/.9 are likewise diagnostics when within.03; centralcontrastgates decideinterpretation.",
+    "strict_diagnostics": "Every printed target gets literal source-rounding flag (2or3decimals;integercounts/ranks), alluncertainaliases/undefinedness reported. No requirement all1150auxcells/literalranks/plots/byteformat/auxmasks exactlymatch tocountNEAR. Exactinputidentity and genuinewholepopulation integrity remain required.",
+    "independent_audit": "Separately authored reducer from originals; independent modelmeans/ANOVA/error/percentiles and own bootstrap stream, no importprimary reducer. Compare deterministic quantities within a proposed1e-8 scaledroundoff and allsourceidentity/coverage semantics; bootstrap samefixedindexconstruction verified. Shared RNG/library independence limitation disclosed. Auditdisagreement unresolved=>HOLD, not countbyprimaryonly.",
+    "no_repair_by_result": "One source-fixed parser/sourceversion/seed/bootstrapfilter; allfailedoutputs retained; no prompt/model/denominator/method/tolerance orcohortchange after outcomes."
+  },
+  "resource_and_execution_preparation_proposal": {
+    "proposal_only": true,
+    "profile": {
+      "CPU_affinity_cores": 1,
+      "all_threads": 1,
+      "primary_audit_direct_child_WS_MiB": 512,
+      "primary_audit_private_MiB": 1024,
+      "no_GPU_API_or_new_models": true
+    },
+    "implementation": "stdlibcsv/json/zipfile+iterparse, onefileatatime; sharedStrings boundedperfile and discarded; parse originalratings once perobject; compactfloat/intarrays; NumPyonly for exactlegacyRNG ifseparatelyqualified. No pandasfullcorpus/matplotlib/SciPy requirement for coreclosedforms. No authorPool or nestedreaderprocess.",
+    "data_cost": {
+      "original9bank_bytes": 30100646,
+      "opaque_transport_proposal": "9direct immutable rawGitHubGETs,oneattempt/noautoretry/zero redirects unlessseparatelyreviewed; hashfullGitblobSHA1+newSHA256 beforeparse. No46MB100kZIP."
+    },
+    "own_conserved_disk_pool_MiB_proposal": {
+      "source_history_prep": 8,
+      "original9inputs_and_transport": 32,
+      "both_reducers_full_numeric_lineage_bootstrap_and_comparison": 12,
+      "native_resource_logs": 6,
+      "failed_partial_and_headroom": 6,
+      "total": 64
+    },
+    "memory_reasoning": "350000scalar ratings float64\u22482.8MB;350000presencebits\u224844KB;28000x2bootstrapcoefficients\u2248448KB plusmasks. Streamedoneworkbooksharedstrings/XML and oneCSV bounded; verboseper-scalar fullpaths avoided by sharedsource-role table+row/cellcoordinates. Forecastfits512WS/1GiBprivate but actualXMLdecompression/sharedStrings/custody/importpeaks UNKNOWNuntiladmitted. Overflow/capfailureHOLD,noquietincrease.",
+    "future_whole_execution_envelope_seconds_proposal": 1800,
+    "proposed_cumulative_work_cuts": {
+      "opaque_acquisition_and_blind_structure": 300,
+      "primary": 900,
+      "independent_audit": 1500,
+      "compare": 1620,
+      "closure": 1800
+    },
+    "forecast_not_benchmark": "28000paired9modeldraws perreducer (252000pairedmodelselections/56000ICCcalculations),1000conversations/source repeatedjsonfields dominate. Serialstreaming+closedforms plausiblyminutes; budgets includeallfixedphases/failedtime/sourcehashes/closure; no actualelapsedfitclaim ororigin.",
+    "current_host_snapshot_not_admission": "ROOTreports~4GiBRAM/12GiBcommit; no RAM+VRAMaddition orpeermemoryrelease. Freshandcontinuous operativepeerfloors/diskunspent/currentP157live-vs-bothrestored mustbequalified by ROOTexistingnativeframework beforeanychild. Suggestedstudyfresh3RAM/10commit,continuous2/8 onlya proposal; stricteractivepeers override.",
+    "no_native_owner_ready_claim": "ExistingP164009hardcodedstudy/pools cannot be reused byonlychanginggrant. Futureone-child adapter/sourceacceptance needed, avoidnewgeneralcontroller. No nativefixture/probe authorizednow.",
+    "preparation_debit": "Thissourcewindow08:14:22..08:29:22 allsourceGETs/analysis/errors counted. Futureprimary+independentaudit+adapter preparation/review remainsunissued and mustbeexplicitlybudgeted beforeprogrammegrant; do not pretend currentplan is executableor resetclock."
+  },
+  "minimal_next_steps_before_any_bank": [
+    "ROOT candidate-specific914Aidentity/date/previousattemptsourcequalification; earliestpublicaliasuncertainty recorded, no originalcount/date rescue.",
+    "Independent methods review and explicitROOT adoption of thiscomplete family/sourcepriority/practicalbounds/seed/filter/raterreference semantics BEFOREbank.",
+    "Two independent smallstreamingreducers + thinexistingownerstudyadapter/staticnospawn/sourcepin/Falsecontrols prepared andreviewed; no newgeneralcontroller.",
+    "Opaque9bankhash acquisition then blindingstructure qualification: actualcommon1000IDs,all10positiveheaders/responseidentities,judges/humanreferenceoriginalroles,ratingshape/invalidmask,rawto4mergedpositivejoins. No assigningrolesbyposition/scores. Numericreadnotadmitteduntilcomplete mapaccepted.",
+    "ActualfreshjointRAM/commit/diskcurrentpeers+P157restoreinterlock/currentsoftwareABI qualification and onefiniteoriginalclock; entireprimary/audit/comparison/closure withallfailedtime retained."
+  ],
+  "actual_original_bank_bodies_acquired_or_read": false,
+  "actual_statistical_or_model_or_native_execution": false,
+  "actual_source_author_code_imported_or_run": false,
+  "all_grants_and_actual_admission_flags": false,
+  "scientific_origin": null,
+  "counting_or_registry_change": 0,
+  "source_limits": "Publicpaper/sourcecode/tree/commitmetadata only; allraw+decoded source capturesbounded;OpenReviewchallengeSTOP. No bankviewer/sourceCSVbody/ratings ormodelweights. Source-source AST/hash and publishedtargetextraction are inertmetadataqualification.",
+  "authoring_failures": "One targetlexeme authorSyntaxError beforewrite corrected; alltasktimecharged. No originalscientificsource edited; no experimentalfixture."
+}

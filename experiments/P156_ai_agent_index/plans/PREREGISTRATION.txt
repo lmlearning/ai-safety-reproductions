@@ -1,0 +1,26 @@
+P156: The 2025 AI Agent Index — complete released coded-transparency analysis
+Registered15October2026 before own aggregate calculation.
+
+Identity and eligibility
+Original arXiv2602.17753v1,19February2026; DOI10.1145/3805689.3806728. Frozen first retained Semantic Scholar count38, from metadata_checks/s2_bulk_safety.json/data/180, exceeds the primary-window gate20. Source eligibility030 distinguishes this new30-agent measurement wave from the older2024 index (arXiv2502.01635,3February2025). Earlier-source search is bounded; contrary substantive evidence would require re-evaluation. No citation refresh or date reset is allowed.
+
+Full study versus central component
+Full reproduction would require historical documentary collection, expert annotation/correction, paid historical search-series access, confidential correspondence, and unreleased full visualization/feature-coding procedures. This run repeats the complete original coded missing-public-information analysis underlying Figures3 and6. The target itself is a descriptive analysis of released coded data, so it falls under PROTOCOL.md's central-analysis exception. It does not newly test agents or establish the current factual availability of documentation.
+
+Inputs and scope
+Use original Zenodo18701931 version1.0.0 JSON306577bytes SHA256c45813d44333b05b2d24f582b2818aec8d26310a3c3649897ee772454db9da64, and CSV247431bytes SHA256417edeb0a2c33300b481730c7c13dc2689b892a36e3b5e59e981b66dd3bef390. Preserve all30 ordered agents,45 ordered fields and1350 raw cells, including four inclusion-criteria fields, every missing/uncertain/confirmed-absence/qualified state and all source references. The safety subfamily is all30 agents x all8 safety fields. Original cohorts contain13 Enterprise,5 Browser and12 Chat agents. No row, cell, cohort or field exclusion or category reassignment is permitted.
+
+Meaning of the primary flag
+Recompute explicit author None-found status using original Methods565, ethics844 and correspondence-template1363. It is distinct from None, Not available, Not applicable, UNSURE, TODO and blank content. All17 qualified leading markers have frozen individual, independently reviewed rationales before aggregation. Mixed cloud/local information and the Codex-to-Atlas reference inconsistency are preserved. This is a coded-status result, not a literal assertion that no information of any kind exists for each marked field. Whole-cell-only and broader embedded-marker sensitivity vectors and counts are mandatory and cannot replace the designated primary.
+
+Fixed primary comparison
+Require exact198/1350 overall and133/240 safety; exact source-cohort67/104 Enterprise,25/40 Browser,41/96 Chat. Require their published64%,63%,43% to fall within ordinary half-unit display intervals [display−0.5,display+0.5) percent. These eight numerical checks must all pass. Additionally require complete independent equality of every raw cell/status/flag, all30x45 and30x8 matrices, every per-agent/per-field/per-section/cohort margin and full cohort-by-section/safety-field cross margins, all source metadata and all sensitivity vectors. The independent reducer must derive these from the original CSV without importing or executing the primary JSON reducer.
+
+Mandatory supporting source discrepancies
+The original Figure6 caption reverses Browser and Enterprise labels relative to the exact13/5 cohort sizes and eight fields. Its literal label/count comparison is retained separately, while primary numeric labels are prospectively bound by those unambiguous units. This is not literal-caption or full-publication agreement. The14-word annotation-length mean is held because its tokenizer/markup normalization/nonempty denominator generator is unreleased; it is auxiliary to the chosen missing-information result. All other paper findings remain source material and are not represented as reproduced by this component. The later official website's227/1350 is version drift, not a replacement target for original198/1350.
+
+Uncertainty and interpretation
+These are exact reductions of the complete defined index, not a random sample of1350 independent products. Preserve per-agent structure and all denominators. No sampling confidence interval, significance test or generalization to the entire agent industry is claimed. Report descriptive fractions and complete arrays, with all status-semantic and source-version limitations.
+
+Execution and acceptance
+Local standard-library CPU only, no network/model inference/API keys. Prospective joined600seconds includes580work and20closure,1GiB combined parent/direct-child working memory and256MiB joint output. Frozen primary031, independent002 and API031 must be source-reviewed; their complete versions, raw logs, actual commands/UTC/exits/native peaks, original input hashes and outputs remain auditable. One complete run; no automatic retry. Root review of actual results, independent equality and resources is required before counting at most one CENTRAL success. No FULL credit is possible for this scope. This preregistration alone grants no execution or success credit.

@@ -1,0 +1,133 @@
+{
+  "paper_id": "P103",
+  "freeze_utc": "2026-10-10T20:15:10.986403+00:00",
+  "source_only_preflight": true,
+  "trial_outcomes_computed": false,
+  "syntax_checks": "All three code files compiled without execution",
+  "python_executable": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "python_executable_sha256": "ec4290581859a74f7e29c36ba70a9677e3700f7b2db670814026f8bb3c8c2c63",
+  "python_version": "3.12.0rc3 (tags/v3.12.0rc3:b973ab3, Sep 19 2023, 09:39:54) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "psutil": "7.1.3",
+    "threadpoolctl": "3.6.0"
+  },
+  "resource_import_only_snapshot": {
+    "UTC": "2026-10-10T20:15:10.986403+00:00",
+    "RSS_GiB": 0.07624053955078125,
+    "available_RAM_GiB": 1.1507911682128906,
+    "free_disk_GiB": 90.3277473449707,
+    "threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+        "version": "0.3.30",
+        "threading_layer": "pthreads",
+        "architecture": "SkylakeX"
+      }
+    ]
+  },
+  "immutable_files": [
+    {
+      "path": "papers/P103_social_evaluation/sources/paper_full.xml",
+      "bytes": 88720,
+      "sha256": "35f6d8361ba351954224fb0d549ae61626d18a029692b5af8a0a64dbff6e21ee"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_publisher_fig01_jpg.source",
+      "bytes": 132722,
+      "sha256": "8ecbc5c9447f88d6f5657d7913552fa1bf7c9418ff4f3d86c9e3a2b37674b164"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_public_v1/Study 1/data_study1.csv",
+      "bytes": 124749,
+      "sha256": "b71d486059c8f7f8c7b00dd400d940df0e31abeca5d4fe49d6a6f2fd525cbf24"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_public_v1/Study 1/Study 1.Rmd",
+      "bytes": 9536,
+      "sha256": "52bea72ea9b2842448a7afca19e7509cbdec264598e76f1fe150a13c191eae4d"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_public_v1/Study 1/study1_qualtrics.qsf",
+      "bytes": 116521,
+      "sha256": "0ecd9271e0efc54d0dac96a5c4ffaa24c20c7accc171ee932be6cabd9fd5fc32"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_public_v1/Study 1/Study 1 - Preregistration.pdf",
+      "bytes": 183775,
+      "sha256": "d0191c5f163b43373ac0298e6bf552af401ffdf28e0445ea27d415392680a804"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_public_v1/SI Appendix and Preregistration Reconciliation Document/Supporting Information Appendix.pdf",
+      "bytes": 758867,
+      "sha256": "b2362306f676fa8853669bd9d777796e97074dc39d6548cdb19e9351fae0f63a"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_public_v1/SI Appendix and Preregistration Reconciliation Document/Pre-registration Reconciliation Document.pdf",
+      "bytes": 27131,
+      "sha256": "a6df6655f6737b7d0a93c01804c79f2313ff64a4478062b02dde3974c70e3d0f"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_public_v1/Manipulation Checks for Study 1-2/Study 1 Manipulation Check - Post-hoc Pilot/Study 1 Post-Hoc Manipulation Check.csv",
+      "bytes": 43841,
+      "sha256": "87845f3982e12cdd43e600a4f6275e09660c1f600cb89a6f099c394543faf8db"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_public_v1/Manipulation Checks for Study 1-2/Study 1 Manipulation Check - Post-hoc Pilot/Study 1 Manipulation Check R Code.Rmd",
+      "bytes": 1360,
+      "sha256": "1d7548834c2b240eb9cf1e2030a3b27300ba1c830b7212ee101547bc72178efa"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_public_v1/Manipulation Checks for Study 1-2/Study 1 Manipulation Check - Post-hoc Pilot/250125_AI_Study_-_Disclosure_Fear_Manipulations.qsf",
+      "bytes": 143670,
+      "sha256": "39f758c19ed3abb79b482a15513420b2c38219ad8cb64f0f0cb86cb5b92f6f3c"
+    },
+    {
+      "path": "papers/P103_social_evaluation/PRIMARY_STUDY1_PROSPECTIVE_SCOPE_20261010.json",
+      "bytes": 34308,
+      "sha256": "0438e521999a4ac09cbb6249c8155694fd512ccab5ace8f0e1b3ece5151f414a"
+    },
+    {
+      "path": "papers/P103_social_evaluation/PREREGISTRATION.json",
+      "bytes": 3459,
+      "sha256": "c1aa9dd2b6d42bb2bd00249f6456fee38781b7165ad4b44e36b8271cf2638bcb"
+    },
+    {
+      "path": "papers/P103_social_evaluation/PREREGISTRATION.md",
+      "bytes": 2714,
+      "sha256": "6cf67901906ff442415568eb88c65b3223f2155ed8b7a2064477313b42cdcad2"
+    },
+    {
+      "path": "environment/root_review_P103-primary-scope-001.json",
+      "bytes": 2387,
+      "sha256": "43913b1be974cf6bb96740b8684b2056f8a33a636089686da1db35176297edd8"
+    },
+    {
+      "path": "scripts/run_p103_primary_study1.py",
+      "bytes": 9496,
+      "sha256": "5f42de4b53fd1bd8c2db493bda47d89fe3d57ff9755072740d41b4d25ddf5151"
+    },
+    {
+      "path": "scripts/audit_p103_primary_study1.py",
+      "bytes": 10233,
+      "sha256": "8816b3fe42db5517c4354af433b7d708b6a3e118b48e1daf0f59d4edf6be4679"
+    },
+    {
+      "path": "scripts/supervise_p103_primary_study1.py",
+      "bytes": 3951,
+      "sha256": "a8795aa7b8e724cace8de76634053646aac0d16065250a27f5a8632f4fce6bfe"
+    },
+    {
+      "path": "scripts/freeze_p103_primary_study1.py",
+      "bytes": 8299,
+      "sha256": "209ab24232d2abe2b5cc4305e3d1bc300c70747b2d9fdb69b64c6b59e6328a67"
+    }
+  ]
+}

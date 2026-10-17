@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-12T00:32:12.586341+00:00",
+  "files": [
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\runs\\P150-central-001\\primary\\ALL_SOURCE_NOTES_AND_AUXILIARY_PROSE.json",
+      "bytes": 545676,
+      "sha256": "14027537646f1a2df7efa776726deba205226e6433f6b363bc836c3aa157a6dc"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\runs\\P150-central-001\\primary\\CANONICAL_ALL160_BOTH_COMPLETE_SOURCE_VERSIONS.json",
+      "bytes": 417667,
+      "sha256": "fb054ea2e50a796a1dce675705d144a187510bd69fb5c968ce2ea5cdf023ae53"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\runs\\P150-central-001\\primary\\mandatory_complete_Table3_7_counterpart.json",
+      "bytes": 146875,
+      "sha256": "6274daaf19794ea7d10ce2e6960259b83a57410c2f046fbb75133d91bc89a4fb"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\runs\\P150-central-001\\primary\\primary_Table9.json",
+      "bytes": 146869,
+      "sha256": "f5b2cbd87302a8204c5e0eb6149835be090a5a13cc8202e3f8588353efe8bc9e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\runs\\P150-central-001\\primary\\RUN_STATUS.json",
+      "bytes": 559,
+      "sha256": "1f3f2b35c5ffb7613302a590a0e008b96fceead2c0642de7ad2f32d67ea8bcaa"
+    }
+  ]
+}

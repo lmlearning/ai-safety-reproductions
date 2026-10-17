@@ -1,0 +1,1321 @@
+{
+  "mandatory": 108,
+  "passed": 107,
+  "all_passed": false,
+  "gates": [
+    {
+      "id": "laziness.mean_AI",
+      "target": 3.25,
+      "observed": 3.2540485829959516,
+      "passed": true,
+      "criterion": {
+        "id": "laziness.mean_AI",
+        "target": 3.25,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "laziness.sd_AI",
+      "target": 1.49,
+      "observed": 1.4916719372441802,
+      "passed": true,
+      "criterion": {
+        "id": "laziness.sd_AI",
+        "target": 1.49,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "laziness.mean_dashboard",
+      "target": 2.72,
+      "observed": 2.723,
+      "passed": true,
+      "criterion": {
+        "id": "laziness.mean_dashboard",
+        "target": 2.72,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "laziness.sd_dashboard",
+      "target": 1.41,
+      "observed": 1.411022657422281,
+      "passed": true,
+      "criterion": {
+        "id": "laziness.sd_dashboard",
+        "target": 1.41,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "laziness.abs_t",
+      "target": 4.08,
+      "observed": 4.076269212402839,
+      "passed": true,
+      "criterion": {
+        "id": "laziness.abs_t",
+        "target": 4.08,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "laziness.welch_df",
+      "target": 492.8,
+      "observed": 492.74805082411166,
+      "passed": false,
+      "criterion": {
+        "id": "laziness.welch_df",
+        "target": 492.8,
+        "absolute_tolerance": 0.050000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "laziness.mean_difference_ci_low",
+      "target": 0.28,
+      "observed": 0.27507948695192974,
+      "passed": true,
+      "criterion": {
+        "id": "laziness.mean_difference_ci_low",
+        "target": 0.28,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "laziness.mean_difference_ci_high",
+      "target": 0.79,
+      "observed": 0.7870176790399737,
+      "passed": true,
+      "criterion": {
+        "id": "laziness.mean_difference_ci_high",
+        "target": 0.79,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "laziness.p",
+      "target": "<.001",
+      "observed": 5.334323750542914e-05,
+      "passed": true,
+      "criterion": {
+        "id": "laziness.p",
+        "target": "<.001",
+        "rule": "p < .001",
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "replaceability.mean_AI",
+      "target": 3.39,
+      "observed": 3.3940620782726043,
+      "passed": true,
+      "criterion": {
+        "id": "replaceability.mean_AI",
+        "target": 3.39,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "replaceability.sd_AI",
+      "target": 1.67,
+      "observed": 1.6708351150479046,
+      "passed": true,
+      "criterion": {
+        "id": "replaceability.sd_AI",
+        "target": 1.67,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "replaceability.mean_dashboard",
+      "target": 2.83,
+      "observed": 2.825333333333333,
+      "passed": true,
+      "criterion": {
+        "id": "replaceability.mean_dashboard",
+        "target": 2.83,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "replaceability.sd_dashboard",
+      "target": 1.63,
+      "observed": 1.627019186240977,
+      "passed": true,
+      "criterion": {
+        "id": "replaceability.sd_dashboard",
+        "target": 1.63,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "replaceability.abs_t",
+      "target": 3.84,
+      "observed": 3.843889086813257,
+      "passed": true,
+      "criterion": {
+        "id": "replaceability.abs_t",
+        "target": 3.84,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "replaceability.welch_df",
+      "target": 494.3,
+      "observed": 494.2612791973463,
+      "passed": true,
+      "criterion": {
+        "id": "replaceability.welch_df",
+        "target": 494.3,
+        "absolute_tolerance": 0.050000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "replaceability.mean_difference_ci_low",
+      "target": 0.28,
+      "observed": 0.2780272958881292,
+      "passed": true,
+      "criterion": {
+        "id": "replaceability.mean_difference_ci_low",
+        "target": 0.28,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "replaceability.mean_difference_ci_high",
+      "target": 0.86,
+      "observed": 0.8594301939904134,
+      "passed": true,
+      "criterion": {
+        "id": "replaceability.mean_difference_ci_high",
+        "target": 0.86,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "replaceability.p",
+      "target": "<.001",
+      "observed": 0.0001369055209270157,
+      "passed": true,
+      "criterion": {
+        "id": "replaceability.p",
+        "target": "<.001",
+        "rule": "p < .001",
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "competence.mean_AI",
+      "target": 4.72,
+      "observed": 4.722672064777328,
+      "passed": true,
+      "criterion": {
+        "id": "competence.mean_AI",
+        "target": 4.72,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "competence.sd_AI",
+      "target": 1.46,
+      "observed": 1.4633087527389659,
+      "passed": true,
+      "criterion": {
+        "id": "competence.sd_AI",
+        "target": 1.46,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "competence.mean_dashboard",
+      "target": 5.45,
+      "observed": 5.448,
+      "passed": true,
+      "criterion": {
+        "id": "competence.mean_dashboard",
+        "target": 5.45,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "competence.sd_dashboard",
+      "target": 1.22,
+      "observed": 1.2201438456247953,
+      "passed": true,
+      "criterion": {
+        "id": "competence.sd_dashboard",
+        "target": 1.22,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "competence.abs_t",
+      "target": 6.0,
+      "observed": 5.9979036026639,
+      "passed": true,
+      "criterion": {
+        "id": "competence.abs_t",
+        "target": 6.0,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "competence.welch_df",
+      "target": 477.5,
+      "observed": 477.46189699238766,
+      "passed": true,
+      "criterion": {
+        "id": "competence.welch_df",
+        "target": 477.5,
+        "absolute_tolerance": 0.050000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "competence.mean_difference_ci_low",
+      "target": -0.96,
+      "observed": -0.9629491969762256,
+      "passed": true,
+      "criterion": {
+        "id": "competence.mean_difference_ci_low",
+        "target": -0.96,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "competence.mean_difference_ci_high",
+      "target": -0.49,
+      "observed": -0.4877066734691198,
+      "passed": true,
+      "criterion": {
+        "id": "competence.mean_difference_ci_high",
+        "target": -0.49,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "competence.p",
+      "target": "<.001",
+      "observed": 3.950579067567523e-09,
+      "passed": true,
+      "criterion": {
+        "id": "competence.p",
+        "target": "<.001",
+        "rule": "p < .001",
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "diligence.mean_AI",
+      "target": 4.66,
+      "observed": 4.657894736842105,
+      "passed": true,
+      "criterion": {
+        "id": "diligence.mean_AI",
+        "target": 4.66,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "diligence.sd_AI",
+      "target": 1.44,
+      "observed": 1.4378621569436205,
+      "passed": true,
+      "criterion": {
+        "id": "diligence.sd_AI",
+        "target": 1.44,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "diligence.mean_dashboard",
+      "target": 5.25,
+      "observed": 5.252,
+      "passed": true,
+      "criterion": {
+        "id": "diligence.mean_dashboard",
+        "target": 5.25,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "diligence.sd_dashboard",
+      "target": 1.28,
+      "observed": 1.284365359821745,
+      "passed": true,
+      "criterion": {
+        "id": "diligence.sd_dashboard",
+        "target": 1.28,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "diligence.abs_t",
+      "target": 4.86,
+      "observed": 4.855932642716298,
+      "passed": true,
+      "criterion": {
+        "id": "diligence.abs_t",
+        "target": 4.86,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "diligence.welch_df",
+      "target": 487.5,
+      "observed": 487.4523384309471,
+      "passed": true,
+      "criterion": {
+        "id": "diligence.welch_df",
+        "target": 487.5,
+        "absolute_tolerance": 0.050000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "diligence.mean_difference_ci_low",
+      "target": -0.83,
+      "observed": -0.8344964281918077,
+      "passed": true,
+      "criterion": {
+        "id": "diligence.mean_difference_ci_low",
+        "target": -0.83,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "diligence.mean_difference_ci_high",
+      "target": -0.35,
+      "observed": -0.35371409812398125,
+      "passed": true,
+      "criterion": {
+        "id": "diligence.mean_difference_ci_high",
+        "target": -0.35,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "diligence.p",
+      "target": "<.001",
+      "observed": 1.6166601214844882e-06,
+      "passed": true,
+      "criterion": {
+        "id": "diligence.p",
+        "target": "<.001",
+        "rule": "p < .001",
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "manager_disclosure.mean_AI",
+      "target": 4.91,
+      "observed": 4.906882591093117,
+      "passed": true,
+      "criterion": {
+        "id": "manager_disclosure.mean_AI",
+        "target": 4.91,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "manager_disclosure.sd_AI",
+      "target": 1.59,
+      "observed": 1.586375581967415,
+      "passed": true,
+      "criterion": {
+        "id": "manager_disclosure.sd_AI",
+        "target": 1.59,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "manager_disclosure.mean_dashboard",
+      "target": 5.25,
+      "observed": 5.246666666666666,
+      "passed": true,
+      "criterion": {
+        "id": "manager_disclosure.mean_dashboard",
+        "target": 5.25,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "manager_disclosure.sd_dashboard",
+      "target": 1.55,
+      "observed": 1.5477092225519988,
+      "passed": true,
+      "criterion": {
+        "id": "manager_disclosure.sd_dashboard",
+        "target": 1.55,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "manager_disclosure.abs_t",
+      "target": 2.42,
+      "observed": 2.416557732596034,
+      "passed": true,
+      "criterion": {
+        "id": "manager_disclosure.abs_t",
+        "target": 2.42,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "manager_disclosure.welch_df",
+      "target": 494.3,
+      "observed": 494.3318684835435,
+      "passed": true,
+      "criterion": {
+        "id": "manager_disclosure.welch_df",
+        "target": 494.3,
+        "absolute_tolerance": 0.050000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "manager_disclosure.mean_difference_ci_low",
+      "target": -0.62,
+      "observed": -0.6160444265743155,
+      "passed": true,
+      "criterion": {
+        "id": "manager_disclosure.mean_difference_ci_low",
+        "target": -0.62,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "manager_disclosure.mean_difference_ci_high",
+      "target": -0.06,
+      "observed": -0.06352372457278271,
+      "passed": true,
+      "criterion": {
+        "id": "manager_disclosure.mean_difference_ci_high",
+        "target": -0.06,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "manager_disclosure.p",
+      "target": 0.016,
+      "observed": 0.016029242399304228,
+      "passed": true,
+      "criterion": {
+        "id": "manager_disclosure.p",
+        "target": 0.016,
+        "rule": "absolute error <= .000500001",
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "colleague_disclosure.mean_AI",
+      "target": 4.85,
+      "observed": 4.851551956815116,
+      "passed": true,
+      "criterion": {
+        "id": "colleague_disclosure.mean_AI",
+        "target": 4.85,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "colleague_disclosure.sd_AI",
+      "target": 1.58,
+      "observed": 1.5794256651340943,
+      "passed": true,
+      "criterion": {
+        "id": "colleague_disclosure.sd_AI",
+        "target": 1.58,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "colleague_disclosure.mean_dashboard",
+      "target": 5.17,
+      "observed": 5.166666666666667,
+      "passed": true,
+      "criterion": {
+        "id": "colleague_disclosure.mean_dashboard",
+        "target": 5.17,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "colleague_disclosure.sd_dashboard",
+      "target": 1.57,
+      "observed": 1.5703778425895494,
+      "passed": true,
+      "criterion": {
+        "id": "colleague_disclosure.sd_dashboard",
+        "target": 1.57,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "colleague_disclosure.abs_t",
+      "target": 2.23,
+      "observed": 2.2302121376590747,
+      "passed": true,
+      "criterion": {
+        "id": "colleague_disclosure.abs_t",
+        "target": 2.23,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "colleague_disclosure.welch_df",
+      "target": 494.8,
+      "observed": 494.84247859730914,
+      "passed": true,
+      "criterion": {
+        "id": "colleague_disclosure.welch_df",
+        "target": 494.8,
+        "absolute_tolerance": 0.050000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "colleague_disclosure.mean_difference_ci_low",
+      "target": -0.59,
+      "observed": -0.5927240763850857,
+      "passed": true,
+      "criterion": {
+        "id": "colleague_disclosure.mean_difference_ci_low",
+        "target": -0.59,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "colleague_disclosure.mean_difference_ci_high",
+      "target": -0.04,
+      "observed": -0.03750534331801669,
+      "passed": true,
+      "criterion": {
+        "id": "colleague_disclosure.mean_difference_ci_high",
+        "target": -0.04,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "colleague_disclosure.p",
+      "target": 0.026,
+      "observed": 0.026181053951839173,
+      "passed": true,
+      "criterion": {
+        "id": "colleague_disclosure.p",
+        "target": 0.026,
+        "rule": "absolute error <= .000500001",
+        "source": "Original main Results/Study 1"
+      }
+    },
+    {
+      "id": "laziness.d",
+      "target": 0.36513956815384063,
+      "observed": 0.3658208265758407,
+      "passed": true,
+      "criterion": {
+        "id": "laziness.d",
+        "target": 0.36513956815384063,
+        "absolute_tolerance": 0.005,
+        "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+        "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+      }
+    },
+    {
+      "id": "laziness.d_ci_low",
+      "target": 0.18847523039558137,
+      "observed": 0.18807979059183408,
+      "passed": true,
+      "criterion": {
+        "id": "laziness.d_ci_low",
+        "target": 0.18847523039558137,
+        "absolute_tolerance": 0.005,
+        "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+        "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+      }
+    },
+    {
+      "id": "laziness.d_ci_high",
+      "target": 0.5433010613168309,
+      "observed": 0.5435618625598473,
+      "passed": true,
+      "criterion": {
+        "id": "laziness.d_ci_high",
+        "target": 0.5433010613168309,
+        "absolute_tolerance": 0.005,
+        "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+        "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+      }
+    },
+    {
+      "id": "replaceability.d",
+      "target": 0.34343081478524096,
+      "observed": 0.3449056820554623,
+      "passed": true,
+      "criterion": {
+        "id": "replaceability.d",
+        "target": 0.34343081478524096,
+        "absolute_tolerance": 0.005,
+        "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+        "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+      }
+    },
+    {
+      "id": "replaceability.d_ci_low",
+      "target": 0.16601789932461622,
+      "observed": 0.1673277755234409,
+      "passed": true,
+      "criterion": {
+        "id": "replaceability.d_ci_low",
+        "target": 0.16601789932461622,
+        "absolute_tolerance": 0.005,
+        "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+        "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+      }
+    },
+    {
+      "id": "replaceability.d_ci_high",
+      "target": 0.5223408856505968,
+      "observed": 0.5224835885874837,
+      "passed": true,
+      "criterion": {
+        "id": "replaceability.d_ci_high",
+        "target": 0.5223408856505968,
+        "absolute_tolerance": 0.005,
+        "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+        "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+      }
+    },
+    {
+      "id": "competence.d",
+      "target": -0.5413880294107863,
+      "observed": -0.5386806555281469,
+      "passed": true,
+      "criterion": {
+        "id": "competence.d",
+        "target": -0.5413880294107863,
+        "absolute_tolerance": 0.005,
+        "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+        "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+      }
+    },
+    {
+      "id": "competence.d_ci_low",
+      "target": -0.7188009448714111,
+      "observed": -0.7181285312583985,
+      "passed": true,
+      "criterion": {
+        "id": "competence.d_ci_low",
+        "target": -0.7188009448714111,
+        "absolute_tolerance": 0.005,
+        "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+        "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+      }
+    },
+    {
+      "id": "competence.d_ci_high",
+      "target": -0.3594836477359685,
+      "observed": -0.3592327797978954,
+      "passed": true,
+      "criterion": {
+        "id": "competence.d_ci_high",
+        "target": -0.3594836477359685,
+        "absolute_tolerance": 0.005,
+        "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+        "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+      }
+    },
+    {
+      "id": "diligence.d",
+      "target": -0.4350899956748846,
+      "observed": -0.43594094367492614,
+      "passed": true,
+      "criterion": {
+        "id": "diligence.d",
+        "target": -0.4350899956748846,
+        "absolute_tolerance": 0.005,
+        "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+        "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+      }
+    },
+    {
+      "id": "diligence.d_ci_low",
+      "target": -0.6154972219449714,
+      "observed": -0.6142975903929364,
+      "passed": true,
+      "criterion": {
+        "id": "diligence.d_ci_low",
+        "target": -0.6154972219449714,
+        "absolute_tolerance": 0.005,
+        "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+        "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+      }
+    },
+    {
+      "id": "diligence.d_ci_high",
+      "target": -0.25767708021425983,
+      "observed": -0.25758429695691587,
+      "passed": true,
+      "criterion": {
+        "id": "diligence.d_ci_high",
+        "target": -0.25767708021425983,
+        "absolute_tolerance": 0.005,
+        "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+        "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+      }
+    },
+    {
+      "id": "manager_disclosure.d",
+      "target": -0.21800246198888804,
+      "observed": -0.2168311604179034,
+      "passed": true,
+      "criterion": {
+        "id": "manager_disclosure.d",
+        "target": -0.21800246198888804,
+        "absolute_tolerance": 0.005,
+        "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+        "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+      }
+    },
+    {
+      "id": "manager_disclosure.d_ci_low",
+      "target": -0.3946667997471473,
+      "observed": -0.39361741696043406,
+      "passed": true,
+      "criterion": {
+        "id": "manager_disclosure.d_ci_low",
+        "target": -0.3946667997471473,
+        "absolute_tolerance": 0.005,
+        "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+        "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+      }
+    },
+    {
+      "id": "manager_disclosure.d_ci_high",
+      "target": -0.04058954652826326,
+      "observed": -0.04004490387537277,
+      "passed": true,
+      "criterion": {
+        "id": "manager_disclosure.d_ci_high",
+        "target": -0.04058954652826326,
+        "absolute_tolerance": 0.005,
+        "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+        "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+      }
+    },
+    {
+      "id": "colleague_disclosure.d",
+      "target": -0.20003659713211588,
+      "observed": -0.20008797055472868,
+      "passed": true,
+      "criterion": {
+        "id": "colleague_disclosure.d",
+        "target": -0.20003659713211588,
+        "absolute_tolerance": 0.005,
+        "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+        "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+      }
+    },
+    {
+      "id": "colleague_disclosure.d_ci_low",
+      "target": -0.3774495125927407,
+      "observed": -0.3767972266096994,
+      "passed": true,
+      "criterion": {
+        "id": "colleague_disclosure.d_ci_low",
+        "target": -0.3774495125927407,
+        "absolute_tolerance": 0.005,
+        "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+        "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+      }
+    },
+    {
+      "id": "colleague_disclosure.d_ci_high",
+      "target": -0.02262368167149113,
+      "observed": -0.023378714499758008,
+      "passed": true,
+      "criterion": {
+        "id": "colleague_disclosure.d_ci_high",
+        "target": -0.02262368167149113,
+        "absolute_tolerance": 0.005,
+        "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+        "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+      }
+    },
+    {
+      "id": "manager_disclosure.raw_alpha",
+      "target": 0.91,
+      "observed": 0.9135973675829663,
+      "passed": true,
+      "criterion": {
+        "id": "manager_disclosure.raw_alpha",
+        "target": 0.91,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Methods/Study 1"
+      }
+    },
+    {
+      "id": "colleague_disclosure.raw_alpha",
+      "target": 0.93,
+      "observed": 0.933790017725561,
+      "passed": true,
+      "criterion": {
+        "id": "colleague_disclosure.raw_alpha",
+        "target": 0.93,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Methods/Study 1"
+      }
+    },
+    {
+      "id": "competence.raw_alpha",
+      "target": 0.96,
+      "observed": 0.9567499259218237,
+      "passed": true,
+      "criterion": {
+        "id": "competence.raw_alpha",
+        "target": 0.96,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Methods/Study 1"
+      }
+    },
+    {
+      "id": "diligence.raw_alpha",
+      "target": 0.93,
+      "observed": 0.9330171697440044,
+      "passed": true,
+      "criterion": {
+        "id": "diligence.raw_alpha",
+        "target": 0.93,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Methods/Study 1"
+      }
+    },
+    {
+      "id": "laziness.raw_alpha",
+      "target": 0.92,
+      "observed": 0.9183400267737617,
+      "passed": true,
+      "criterion": {
+        "id": "laziness.raw_alpha",
+        "target": 0.92,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Methods/Study 1"
+      }
+    },
+    {
+      "id": "replaceability.raw_alpha",
+      "target": 0.95,
+      "observed": 0.9467214344262692,
+      "passed": true,
+      "criterion": {
+        "id": "replaceability.raw_alpha",
+        "target": 0.95,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original main Methods/Study 1"
+      }
+    },
+    {
+      "id": "pearson.laziness.AI_tool",
+      "target": 0.18,
+      "observed": 0.18027351562659405,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.laziness.AI_tool",
+        "target": 0.18,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.competence.AI_tool",
+      "target": -0.26,
+      "observed": -0.2605569536372087,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.competence.AI_tool",
+        "target": -0.26,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.competence.laziness",
+      "target": -0.71,
+      "observed": -0.7080765580609896,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.competence.laziness",
+        "target": -0.71,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.diligence.AI_tool",
+      "target": -0.21,
+      "observed": -0.21337650375962441,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.diligence.AI_tool",
+        "target": -0.21,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.diligence.laziness",
+      "target": -0.75,
+      "observed": -0.7477172847825205,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.diligence.laziness",
+        "target": -0.75,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.diligence.competence",
+      "target": 0.85,
+      "observed": 0.8474184611263046,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.diligence.competence",
+        "target": 0.85,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.replaceability.AI_tool",
+      "target": 0.17,
+      "observed": 0.17027431432098447,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.replaceability.AI_tool",
+        "target": 0.17,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.replaceability.laziness",
+      "target": 0.84,
+      "observed": 0.8372667592280102,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.replaceability.laziness",
+        "target": 0.84,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.replaceability.competence",
+      "target": -0.65,
+      "observed": -0.6501135762964289,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.replaceability.competence",
+        "target": -0.65,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.replaceability.diligence",
+      "target": -0.71,
+      "observed": -0.7101194052001888,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.replaceability.diligence",
+        "target": -0.71,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.manager_disclosure.AI_tool",
+      "target": -0.11,
+      "observed": -0.10799703424506836,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.manager_disclosure.AI_tool",
+        "target": -0.11,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.manager_disclosure.laziness",
+      "target": -0.53,
+      "observed": -0.5277001873161872,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.manager_disclosure.laziness",
+        "target": -0.53,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.manager_disclosure.competence",
+      "target": 0.57,
+      "observed": 0.5673342353600045,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.manager_disclosure.competence",
+        "target": 0.57,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.manager_disclosure.diligence",
+      "target": 0.59,
+      "observed": 0.5917762905656915,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.manager_disclosure.diligence",
+        "target": 0.59,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.manager_disclosure.replaceability",
+      "target": -0.52,
+      "observed": -0.5222228941578174,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.manager_disclosure.replaceability",
+        "target": -0.52,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.colleague_disclosure.AI_tool",
+      "target": -0.1,
+      "observed": -0.09974415887530272,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.colleague_disclosure.AI_tool",
+        "target": -0.1,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.colleague_disclosure.laziness",
+      "target": -0.54,
+      "observed": -0.5432793362555995,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.colleague_disclosure.laziness",
+        "target": -0.54,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.colleague_disclosure.competence",
+      "target": 0.57,
+      "observed": 0.5692989982431851,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.colleague_disclosure.competence",
+        "target": 0.57,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.colleague_disclosure.diligence",
+      "target": 0.6,
+      "observed": 0.6040221119485703,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.colleague_disclosure.diligence",
+        "target": 0.6,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.colleague_disclosure.replaceability",
+      "target": -0.54,
+      "observed": -0.5382352723609075,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.colleague_disclosure.replaceability",
+        "target": -0.54,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "pearson.colleague_disclosure.manager_disclosure",
+      "target": 0.88,
+      "observed": 0.879335473413142,
+      "passed": true,
+      "criterion": {
+        "id": "pearson.colleague_disclosure.manager_disclosure",
+        "target": 0.88,
+        "absolute_tolerance": 0.005000001,
+        "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+      }
+    },
+    {
+      "id": "final_n",
+      "target": 497,
+      "observed": 497,
+      "passed": true,
+      "criterion": {
+        "id": "final_n",
+        "target": 497,
+        "absolute_tolerance": 0,
+        "source": "Main Methods"
+      }
+    },
+    {
+      "id": "raw_n",
+      "target": 500,
+      "observed": 500,
+      "passed": true,
+      "criterion": {
+        "id": "raw_n",
+        "target": 500,
+        "absolute_tolerance": 0,
+        "source": "Main Methods"
+      }
+    },
+    {
+      "id": "straightliners_n",
+      "target": 3,
+      "observed": 3,
+      "passed": true,
+      "criterion": {
+        "id": "straightliners_n",
+        "target": 3,
+        "absolute_tolerance": 0,
+        "source": "Main Methods/source"
+      }
+    },
+    {
+      "id": "under_30_seconds_n",
+      "target": 0,
+      "observed": 0,
+      "passed": true,
+      "criterion": {
+        "id": "under_30_seconds_n",
+        "target": 0,
+        "absolute_tolerance": 0,
+        "source": "Original Rmd/schema census"
+      }
+    },
+    {
+      "id": "age_mean",
+      "target": 37.7,
+      "observed": 37.74239350912779,
+      "passed": true,
+      "criterion": {
+        "id": "age_mean",
+        "target": 37.7,
+        "absolute_tolerance": 0.050000001,
+        "source": "Main Methods"
+      }
+    },
+    {
+      "id": "male_percentage",
+      "target": 50,
+      "observed": 49.69818913480885,
+      "passed": true,
+      "criterion": {
+        "id": "male_percentage",
+        "target": 50,
+        "absolute_tolerance": 0.500000001,
+        "source": "Main Methods"
+      }
+    },
+    {
+      "id": "bachelors_or_higher_percentage",
+      "target": 97,
+      "observed": 97.38430583501007,
+      "passed": true,
+      "criterion": {
+        "id": "bachelors_or_higher_percentage",
+        "target": 97,
+        "absolute_tolerance": 0.500000001,
+        "source": "Main Methods"
+      }
+    },
+    {
+      "id": "MC1_n",
+      "target": 201,
+      "observed": 201,
+      "passed": true,
+      "criterion": {
+        "id": "MC1_n",
+        "target": 201,
+        "absolute_tolerance": 0,
+        "source": "SI page 11"
+      }
+    },
+    {
+      "id": "MC1_correct_percentage",
+      "target": 88.6,
+      "observed": 88.55721393034825,
+      "passed": true,
+      "criterion": {
+        "id": "MC1_correct_percentage",
+        "target": 88.6,
+        "absolute_tolerance": 0.050000001,
+        "source": "SI page 11"
+      }
+    }
+  ]
+}

@@ -1,0 +1,599 @@
+{
+  "schema": "P069_INDEPENDENT_RETROSPECTIVE_NEAR_REVIEW_RSTAT001",
+  "started_UTC": "2026-10-17T08:27:12.768880Z",
+  "sealed_UTC": "2026-10-17T08:31:38.633271+00:00",
+  "disposition": "NEAR_SUPPORT",
+  "award_authority": "ROOT only; no registry/count mutation in this review",
+  "blind": false,
+  "rule": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ADOPTED_ARCHIVED_P069_NEAR_SUCCESS_REVIEW_RULE916.json",
+    "bytes": 3862,
+    "sha256": "2f5c01b461683e4a0e68fa17e08e4d55be4f825fa1969e062bc13c7ab367789a"
+  },
+  "all155_vector_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\P069_independent_retrospective_near_review_RSTAT001\\ALL155_INDEPENDENT_CLOSED_TARGET_ERROR_VECTOR.json",
+    "bytes": 90552,
+    "sha256": "678d81c2e253473ec7f44b0353765ce414d0aee5e0772d97224e2fb35922a44e"
+  },
+  "findings": {
+    "whole_original_central_family": "All181 execution reviews across all43 executed projects (19 human,24 AI), seven topics, seven execution review metrics, both arms, matched before/after project families, complete AppendixD correlation and AppendixF exclude6 robustness targets covered. No favorable subset selected.",
+    "targets": {
+      "count": 155,
+      "exact_counts": 21,
+      "exact_boolean_claims": 27,
+      "bounded_scalars": 107,
+      "all_near_pass": true,
+      "all27_qualitative_claims_exactly_match": true,
+      "largest_absolute_error_original_units": "0.005",
+      "largest_key": "review.effectiveness.AI.mean",
+      "source": "4.12",
+      "primary_and_independent": "4.125",
+      "bound_each_scalar": "0.010"
+    },
+    "old_strict": {
+      "passed": 152,
+      "total": 155,
+      "all_pass": false,
+      "failed_keys": [
+        "gap.full.excitement.AI",
+        "gap.full.effectiveness.AI",
+        "gap.exclude6.novelty.AI"
+      ],
+      "not_overwritten": true
+    },
+    "independent_computation": {
+      "archived_audit_all1127_checks_individually_true": true,
+      "all155_independent_values_checked_here": true,
+      "new_raw_statistics_computed": false
+    },
+    "eligibility": {
+      "earliest_identified_substantive_empirical_public_release": "2025-06-25",
+      "arxiv": "2506.20803v1",
+      "title": "The Ideation-Execution Gap: Execution Outcomes of LLM-Generated versus Human Research Ideas",
+      "authors": [
+        "Chenglei Si",
+        "Tatsunori Hashimoto",
+        "Diyi Yang"
+      ],
+      "distinct_2024_predecessor": "2409.04109 supplied ideation inputs; not this execution-results study",
+      "OSF_registration": "2024-11-04 prospective execution study plan, future-tense hypotheses/methods, not reported execution outcomes",
+      "first_retained_S2": 62,
+      "old_gate": 40,
+      "capture_UTC": "2026-10-10T17:00:51.561526+00:00",
+      "no_count_refresh": true
+    },
+    "provenance": "All13 closed run/audit manifest file pins independently verified; every source_verification manifest entry rehashed opaquely. Preregistration17:13:49 precedes run17:15:16 and independent audit17:17:37 on Oct10. Archived outputs, source data pins, independent audit and older resource record supply sufficient historical computational provenance; not a modern full retained-native-handle certificate.",
+    "central_findings": "The27 exact qualitative claims include review-level versus project-level significance distinction and all original paired gap/robustness directions. Tiny source arithmetic/rounding discrepancies do not change those central conclusions.",
+    "FULL_claim": false
+  },
+  "limitations": [
+    "Retrospective rule adopted with strict outcomes already known; neither this review nor916 is blind.",
+    "No fresh ideas, project execution, recruitment, expert review or causal identification reproduced.",
+    "Participant backgrounds and qualitative/exemplar material not reproduced; complete historical/full-study claim is not supported.",
+    "Reviewer identifiers unavailable; planned reviewer-level dependence analysis cannot be reconstructed. Original published one-sided versus preregistered two-sided and multiple-review assumptions remain disclosed, with archived separate project analysis.",
+    "Original Table4/Table5 gap arithmetic inconsistency retained, not repaired by target selection.",
+    "Older archived source/run records do not supply modern full native process identities, command/source lifetimes or complete library/initialization time evidence; copied runner/auditor snapshots have original scripts-relative path assumptions and were not rerun.",
+    "No exhaustive proof of absence of an earlier public execution study; identified original v1 and source history establish June25 empirical release while2024 items are predecessor/plan."
+  ],
+  "source_manifest_checks": [
+    {
+      "expected": {
+        "path": "sources/arxiv_abs.html",
+        "bytes": 43089,
+        "sha256": "056ff7e875ec693104adc33b12089adc64b04be58a93f62ff6e971997840a632"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\arxiv_abs.html",
+        "bytes": 43089,
+        "sha256": "056ff7e875ec693104adc33b12089adc64b04be58a93f62ff6e971997840a632"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/arxiv_v1.html",
+        "bytes": 414976,
+        "sha256": "bc884cf3a29f781d2c6c2ebc20f392cafc1d7a30b63d212b7b113c8847f0849b"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\arxiv_v1.html",
+        "bytes": 414976,
+        "sha256": "bc884cf3a29f781d2c6c2ebc20f392cafc1d7a30b63d212b7b113c8847f0849b"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/arxiv_v1.pdf",
+        "bytes": 8663529,
+        "sha256": "a0e8327e44d2a0d5e212fbc8a94efcd3d9ff5aac44b504dafed1941c8b5daa96"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\arxiv_v1.pdf",
+        "bytes": 8663529,
+        "sha256": "a0e8327e44d2a0d5e212fbc8a94efcd3d9ff5aac44b504dafed1941c8b5daa96"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/arxiv_v1_pdf_text.txt",
+        "bytes": 358444,
+        "sha256": "87085292469133dd522add4f41f41288116553a4525e5fee44cddce5dbe6fe8c"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\arxiv_v1_pdf_text.txt",
+        "bytes": 358444,
+        "sha256": "87085292469133dd522add4f41f41288116553a4525e5fee44cddce5dbe6fe8c"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/citation_query_raw.json",
+        "bytes": 143496,
+        "sha256": "973727e2607dfe53bfba4861ff05bf584880a23ccc1f7740e64a539ea06a7bcf"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\citation_query_raw.json",
+        "bytes": 143496,
+        "sha256": "973727e2607dfe53bfba4861ff05bf584880a23ccc1f7740e64a539ea06a7bcf"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/citation_query_request_log.json",
+        "bytes": 1406,
+        "sha256": "9f44efa316c21f33e8ed6cf198e2a8a79ece9088efb964a6b0122883b804637c"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\citation_query_request_log.json",
+        "bytes": 1406,
+        "sha256": "9f44efa316c21f33e8ed6cf198e2a8a79ece9088efb964a6b0122883b804637c"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/citation_snapshot.json",
+        "bytes": 3340,
+        "sha256": "1cce61c2fd455ce3bf4be928c2690495406b64afc723691565f65304f61f141c"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\citation_snapshot.json",
+        "bytes": 3340,
+        "sha256": "1cce61c2fd455ce3bf4be928c2690495406b64afc723691565f65304f61f141c"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/cpu_routes_request_log.json",
+        "bytes": 5865,
+        "sha256": "fb0ced439e0a7a8b356a5f2a34b9b43ed0526534488efbc648d7397d8dae1327"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\cpu_routes_request_log.json",
+        "bytes": 5865,
+        "sha256": "fb0ced439e0a7a8b356a5f2a34b9b43ed0526534488efbc648d7397d8dae1327"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/execution_reviews.json",
+        "bytes": 424687,
+        "sha256": "63a371eddb4cd8792e142128f43726d928c6c62c0e9fea73404411d08b5013d0"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\execution_reviews.json",
+        "bytes": 424687,
+        "sha256": "63a371eddb4cd8792e142128f43726d928c6c62c0e9fea73404411d08b5013d0"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/execution_reviews_initial.json",
+        "bytes": 424687,
+        "sha256": "63a371eddb4cd8792e142128f43726d928c6c62c0e9fea73404411d08b5013d0"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\execution_reviews_initial.json",
+        "bytes": 424687,
+        "sha256": "63a371eddb4cd8792e142128f43726d928c6c62c0e9fea73404411d08b5013d0"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/first_release_tree_evidence.json",
+        "bytes": 498,
+        "sha256": "326b21f6df86c601231419670b23853b1f48610c812ca0d8a6016f4745353e05"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\first_release_tree_evidence.json",
+        "bytes": 498,
+        "sha256": "326b21f6df86c601231419670b23853b1f48610c812ca0d8a6016f4745353e05"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/git_clone_log.json",
+        "bytes": 272,
+        "sha256": "e930295da903b6dc899e6f364b7fd05f5a15ff2f2735f67e8bfacb877ebf6be7"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\git_clone_log.json",
+        "bytes": 272,
+        "sha256": "e930295da903b6dc899e6f364b7fd05f5a15ff2f2735f67e8bfacb877ebf6be7"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/github_repository.json",
+        "bytes": 5266,
+        "sha256": "a4b05d9406cb6975cca6b74f41c87a2c8c7885d1f77cadd23deb436f9df55ce6"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\github_repository.json",
+        "bytes": 5266,
+        "sha256": "a4b05d9406cb6975cca6b74f41c87a2c8c7885d1f77cadd23deb436f9df55ce6"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/github_tree.json",
+        "bytes": 23803,
+        "sha256": "4740db507dd0f5eb64b558c4a24e4d10da97851a08d120bdca2f5c3b7a62ef23"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\github_tree.json",
+        "bytes": 23803,
+        "sha256": "4740db507dd0f5eb64b558c4a24e4d10da97851a08d120bdca2f5c3b7a62ef23"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/id_title_mapping.csv",
+        "bytes": 7609,
+        "sha256": "abbb845b096681a07c8b3f23e57db399276ba9e87ea7903839e929b4fe3298fd"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\id_title_mapping.csv",
+        "bytes": 7609,
+        "sha256": "abbb845b096681a07c8b3f23e57db399276ba9e87ea7903839e929b4fe3298fd"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/ideation_reviews.json",
+        "bytes": 625805,
+        "sha256": "b280081014bc9ebf7efe2e1c31c9ac3b1b2b8a9de4b7e11f9ce4648aa13e4428"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\ideation_reviews.json",
+        "bytes": 625805,
+        "sha256": "b280081014bc9ebf7efe2e1c31c9ac3b1b2b8a9de4b7e11f9ce4648aa13e4428"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/ideation_reviews_initial.json",
+        "bytes": 625805,
+        "sha256": "b280081014bc9ebf7efe2e1c31c9ac3b1b2b8a9de4b7e11f9ce4648aa13e4428"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\ideation_reviews_initial.json",
+        "bytes": 625805,
+        "sha256": "b280081014bc9ebf7efe2e1c31c9ac3b1b2b8a9de4b7e11f9ce4648aa13e4428"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/initial_git_blob_manifest.json",
+        "bytes": 1322,
+        "sha256": "2b306c4c5af1e72191a988910f04ed4a728dbbe48984f992a163cb5fc7d5128c"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\initial_git_blob_manifest.json",
+        "bytes": 1322,
+        "sha256": "2b306c4c5af1e72191a988910f04ed4a728dbbe48984f992a163cb5fc7d5128c"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/original_compare_change.py",
+        "bytes": 4795,
+        "sha256": "12be596daeff9d3cd7a5219a7b5af2f207773ec3b4aa7216d3f94178d5775148"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_compare_change.py",
+        "bytes": 4795,
+        "sha256": "12be596daeff9d3cd7a5219a7b5af2f207773ec3b4aa7216d3f94178d5775148"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/original_correlation.py",
+        "bytes": 3342,
+        "sha256": "5c702652bd43549551ca98f9ff648cf2b1cd5f65ae8d5537675697542766046c"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_correlation.py",
+        "bytes": 3342,
+        "sha256": "5c702652bd43549551ca98f9ff648cf2b1cd5f65ae8d5537675697542766046c"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/original_empirical_git_history.json",
+        "bytes": 3811,
+        "sha256": "36518da56c9dc4fc07c868a8ba1ccf80caafddd425ceec5dcf998485054e75b4"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_empirical_git_history.json",
+        "bytes": 3811,
+        "sha256": "36518da56c9dc4fc07c868a8ba1ccf80caafddd425ceec5dcf998485054e75b4"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/original_execution_initial_commit.txt",
+        "bytes": 249,
+        "sha256": "da21e783c477a361691ce05a0033519c705daf6f0bf7247c9532d314c2c69e63"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_execution_initial_commit.txt",
+        "bytes": 249,
+        "sha256": "da21e783c477a361691ce05a0033519c705daf6f0bf7247c9532d314c2c69e63"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/original_execution_method_commit.txt",
+        "bytes": 248,
+        "sha256": "f4a0e7ad15ae1cdadd7ac6ef969bb89cbc2770d9555144981c79bbad529c5fe9"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_execution_method_commit.txt",
+        "bytes": 248,
+        "sha256": "f4a0e7ad15ae1cdadd7ac6ef969bb89cbc2770d9555144981c79bbad529c5fe9"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/original_method_blob_identity.json",
+        "bytes": 1261,
+        "sha256": "eb913d820a998890fd4fd334efa5a5896a322c3e8a2540eee607bb6b65f539ea"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_method_blob_identity.json",
+        "bytes": 1261,
+        "sha256": "eb913d820a998890fd4fd334efa5a5896a322c3e8a2540eee607bb6b65f539ea"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/original_page_2.png",
+        "bytes": 186879,
+        "sha256": "09ff450f67d5e039c5e6357d8ad0a25b18cbd9e7caf9b077cca5bf8684863159"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_page_2.png",
+        "bytes": 186879,
+        "sha256": "09ff450f67d5e039c5e6357d8ad0a25b18cbd9e7caf9b077cca5bf8684863159"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/original_page_6.png",
+        "bytes": 180702,
+        "sha256": "7e06489b4dad2007365edde21fff119eae2371571ccde367d64f6665c090b62c"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_page_6.png",
+        "bytes": 180702,
+        "sha256": "7e06489b4dad2007365edde21fff119eae2371571ccde367d64f6665c090b62c"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/original_page_7.png",
+        "bytes": 179592,
+        "sha256": "e0ba86205533b9561a9ef599b2ff5d7cab21007909fd2ffd9bfa50d4db153acc"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_page_7.png",
+        "bytes": 179592,
+        "sha256": "e0ba86205533b9561a9ef599b2ff5d7cab21007909fd2ffd9bfa50d4db153acc"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/original_readme.md",
+        "bytes": 9171,
+        "sha256": "e91ec1af6eb40744d6a64cbb7481f9c3b58f7da7cf43db6a4ce36e289629fef7"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_readme.md",
+        "bytes": 9171,
+        "sha256": "e91ec1af6eb40744d6a64cbb7481f9c3b58f7da7cf43db6a4ce36e289629fef7"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/original_readme_initial.md",
+        "bytes": 8959,
+        "sha256": "ac8c55cd4cfcb7f7aaa00e0d1a8a0a350bb6a87745f28e7bdb405f3d1aa9f780"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_readme_initial.md",
+        "bytes": 8959,
+        "sha256": "ac8c55cd4cfcb7f7aaa00e0d1a8a0a350bb6a87745f28e7bdb405f3d1aa9f780"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/original_registration.json",
+        "bytes": 23034,
+        "sha256": "280210dd0de4303e70a24e0adcd79c2b5288728b5f24aed1b6733625efcb281d"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_registration.json",
+        "bytes": 23034,
+        "sha256": "280210dd0de4303e70a24e0adcd79c2b5288728b5f24aed1b6733625efcb281d"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/original_stats_controls.py",
+        "bytes": 2474,
+        "sha256": "a29a80a62fcf94c91ecb1e6ca30b4b0002106d9ddcdae56dda6624964a091655"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_stats_controls.py",
+        "bytes": 2474,
+        "sha256": "a29a80a62fcf94c91ecb1e6ca30b4b0002106d9ddcdae56dda6624964a091655"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/original_stats_overall.py",
+        "bytes": 2528,
+        "sha256": "11da00e41cfb561dbca18030a8815f7d233246c07fcff091b35ec840102f6aed"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_stats_overall.py",
+        "bytes": 2528,
+        "sha256": "11da00e41cfb561dbca18030a8815f7d233246c07fcff091b35ec840102f6aed"
+      },
+      "pass": true
+    },
+    {
+      "expected": {
+        "path": "sources/original_stats_per_idea.py",
+        "bytes": 7344,
+        "sha256": "017bbb721c7f1d8723fd8c7c9807c31157f528eb8cb2e4f06b230fb3e90c214d"
+      },
+      "actual": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_stats_per_idea.py",
+        "bytes": 7344,
+        "sha256": "017bbb721c7f1d8723fd8c7c9807c31157f528eb8cb2e4f06b230fb3e90c214d"
+      },
+      "pass": true
+    }
+  ],
+  "evidence_refs": [
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\PREREGISTRATION.json",
+      "bytes": 4785,
+      "sha256": "7b276836027f05423ebdc3cdde909bfc36c58465fcf4fa128d8ad1c391b9225b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\REVIEW_STATUS.json",
+      "bytes": 1506,
+      "sha256": "51d89762e2b464c576b8554022e5f5b40729611f2156742a85b3ea4c98403df2"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\REPORT.md",
+      "bytes": 7550,
+      "sha256": "242b29360dec597b67556440aa51664037517c071a5276770f0874cbac756b6b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\results.json",
+      "bytes": 116868,
+      "sha256": "44c54b4a551df2ccc03d9433cdf3fedadaaa0978eb56ef243915b1015163bfa9"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\targets.json",
+      "bytes": 30591,
+      "sha256": "afd7f5244cfee8ff04d388dba7a620434b040c9a832f2c2066421593567e74a5"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\manifest.json",
+      "bytes": 1502,
+      "sha256": "2329e51e5125b5ee01405cd178665c8f1f480289be202fd2696d07c1fbecb23a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\resource_usage.json",
+      "bytes": 379,
+      "sha256": "d94653ee6496625a296841ba3ca0dc2bdecfd29830d861e97730eb5695d6d06d"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P069-audit-002\\audit.json",
+      "bytes": 281513,
+      "sha256": "1518e496cf1a26acb7b75a54ebd29605eb785632000a5f30c131623c77e70082"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P069-audit-002\\independent_values.json",
+      "bytes": 13274,
+      "sha256": "2539161c47ce11a89929fb26ea1d6b1400d2bcfaf1a3e81c5a79b0bec1c77d02"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P069-audit-002\\manifest.json",
+      "bytes": 439,
+      "sha256": "78f333fe7046ff3bb228151e899bff51dcd1eda0119a26524178c3860d9f1a00"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\arxiv_abs.html",
+      "bytes": 43089,
+      "sha256": "056ff7e875ec693104adc33b12089adc64b04be58a93f62ff6e971997840a632"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\arxiv_v1_pdf_text.txt",
+      "bytes": 358444,
+      "sha256": "87085292469133dd522add4f41f41288116553a4525e5fee44cddce5dbe6fe8c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\citation_snapshot.json",
+      "bytes": 3340,
+      "sha256": "1cce61c2fd455ce3bf4be928c2690495406b64afc723691565f65304f61f141c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\citation_query_raw.json",
+      "bytes": 143496,
+      "sha256": "973727e2607dfe53bfba4861ff05bf584880a23ccc1f7740e64a539ea06a7bcf"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_registration.json",
+      "bytes": 23034,
+      "sha256": "280210dd0de4303e70a24e0adcd79c2b5288728b5f24aed1b6733625efcb281d"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\first_release_tree_evidence.json",
+      "bytes": 498,
+      "sha256": "326b21f6df86c601231419670b23853b1f48610c812ca0d8a6016f4745353e05"
+    }
+  ],
+  "actions": {
+    "raw_bank_statistics": false,
+    "scientific_imports": false,
+    "rerun": false,
+    "network": false,
+    "new_clock": false,
+    "credit_awarded": false
+  }
+}

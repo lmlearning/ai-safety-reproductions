@@ -1,0 +1,22 @@
+{
+  "paper_id": "P132",
+  "mode": "original",
+  "utc_end": "2026-10-11T02:43:19.754333+00:00",
+  "elapsed_seconds": 9.952999999979511,
+  "complete_rows": 17,
+  "forest_rows": 16,
+  "complete_pools": 11,
+  "complete_between_tests": 4,
+  "primary_passed": 141,
+  "primary_total": 141,
+  "central_result_reproduced": true,
+  "full_reproduction": false,
+  "control_counts": {
+    "A": 2459,
+    "B": 2459
+  },
+  "supporting_passed": 79,
+  "supporting_total": 79,
+  "strict_passed": 141,
+  "strict_total": 141
+}

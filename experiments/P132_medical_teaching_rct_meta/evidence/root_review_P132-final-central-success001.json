@@ -1,0 +1,52 @@
+{
+  "utc": "2026-10-11T02:58:54.767454+00:00",
+  "paper_id": "P132",
+  "doi": "10.1186/s12909-025-07750-2",
+  "status": "CENTRAL_RESULT_SUCCESS",
+  "full_reproduction": false,
+  "root_review_complete": true,
+  "source_first_public": "2025-08-19",
+  "citations": 47,
+  "citation_source": "OpenAlex unsummed retainedquery09",
+  "source_window": "extended18months threshold40",
+  "all141primary_and_strict_79support_pass": true,
+  "independent_checks": 6859667,
+  "independent_failures": 0,
+  "all4918_controls_and_fullfixed_LOO_timing_complete": true,
+  "paired_fresh_source_refs": 3933,
+  "original_main16_and_audit11_outputrefs_hash0": true,
+  "all_native_actual_exits_and_ctime_absences_verified": true,
+  "root4plots_visualQA": true,
+  "report_3tables_159rows_4images_semanticQA": true,
+  "all_prior_failed_attempts_root_metadata_error_and_corrections_retained": true,
+  "post_original_outcome_scope_method_tolerance_change": false,
+  "shared_conservative_cost_seconds": 364,
+  "shared_budget_seconds": 1800,
+  "limitations": "Human trials/fullscreening/GRADE/privateRevMan/unrounded inputs and participant covariance unavailable; Cicek delayedNsourceinferred; CENTRAL only.",
+  "evidence": [
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\ROOT_COMPLETE_ORIGINAL_PREEXECUTION_REVIEW001.json",
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\ROOT_COMPLETE_ORIGINAL_PREEXECUTION_REVIEW001.json",
+      "bytes": 2446,
+      "sha256": "c395aa9399104989107a0423c374bb4f37f7fffe99f942da81a3db01c6adb1a5"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\ROOT_COMPLETE_ORIGINAL_MAIN_CLOSURE001.json",
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\ROOT_COMPLETE_ORIGINAL_MAIN_CLOSURE001.json",
+      "bytes": 2780,
+      "sha256": "2f3cf5248f13969c4a109cc2a6627cb87b51b171c589b4ed62f3a0db504d5f2c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\ROOT_COMPLETE_ORIGINAL_AUDIT_PASS_CLOSURE001.json",
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\ROOT_COMPLETE_ORIGINAL_AUDIT_PASS_CLOSURE001.json",
+      "bytes": 3918,
+      "sha256": "dbfcecae74745375e18b514f4a426afbebdf9d7e721036b1af4841bf7bd054ca"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\final_report001\\OUTPUT_MANIFEST.json",
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\final_report001\\OUTPUT_MANIFEST.json",
+      "bytes": 995,
+      "sha256": "51da29f4fa10829fcbeadb923752a4ec94e54df9c1130ec2b3ca22e4002c1bd9"
+    }
+  ]
+}

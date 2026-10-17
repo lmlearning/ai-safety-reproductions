@@ -1,0 +1,20 @@
+P109 — Does Generative Artificial Intelligence Improve Students’ Higher-Order Thinking? A Meta-Analysis Based on 29 Experiments and Quasi-Experiments
+NEAR_SUCCESS for the complete overall 59-effect central synthesis; not FULL.
+
+All 59 reported effects and all 16 fixed/random synthesis, uncertainty and heterogeneity targets remain in scope. The independent 80-digit audit passes all 607 checks and confirms the original 15/16 strict result. Both complete near reviews support counting this central reconstruction under the user's small-error instruction. No new estimator, threshold or input subset was selected.
+
+The reproduced random-effects Hedges g is 0.6087965551 versus published 0.609, with 95% CI [0.4852213566,0.7323717536] versus [0.485,0.732]. The complete source-rounding enclosure for its lower CI endpoint stays above 0.4802563. The fixed estimate and its confidence interval, heterogeneity and p-value claims remain close/source-compatible across all original comparisons.
+
+The sole old strict failure concerns the precision of the fixed-effect Z rounding enclosure: width 0.20838885652655748 exceeds the original 0.2 cap by 0.00838885652655748. Its point Z is 19.4603025124 versus published 19.483, an absolute error of 0.0226974876 (about 0.1165%). The published statistic lies inside the original [19.3543741681,19.5627630247] enclosure. This slight precision-cap miss does not materially change the complete central synthesis. The old cap and FAIL are retained; no wider replacement cap is invented.
+
+Rounding enclosures are marginal sensitivity bounds for printed source inputs, not sampling confidence intervals. They do not establish one common unrounded historical input vector. DerSimonian–Laird was fixed prospectively; original CMA 3.7 settings/project and the authors' exact tau estimator remain unknown. The analysis retains the original independent-effect assumption across multiple effects from 29 studies. Near success reproduces the stated synthesis under these disclosed assumptions and does not validate the underlying studies, causal claims or independence assumption.
+
+Original constituent trials, search/screening/extraction, unrounded inputs and all four moderator families were unavailable or source-incomplete. Supporting dimension/bias/alternative-tau analyses were not selected to rescue the central result. The SRL 56-versus-59 assignment count, education/source conflicts and Figure 3 wording inconsistency remain disclosed. No FULL replication is claimed.
+
+Retained selection evidence: 47 Semantic Scholar citations captured 2026-10-10T19:40:40.980659+00:00; DOI 10.3390/jintelligence13120160; public release 5 December 2025. This meets the main-window 20-citation gate. Earlier identity-only/HTTP429 requests supplied no numeric count. No citation refresh was used for adoption.
+
+The original primary and final audit completed locally with actual exit 0. The earlier source-decimal parser failure and value-preserving auditor repair remain. No rerun, new download, GPU job, paid service, API key or clock extension was used for near review. Historical process/resource observations remain at their recorded resolution.
+
+Evidence: runs/P109-central-001/comparisons.json and independent_audit002/INDEPENDENT80_RESULTS.json; original REPORT.md and FINAL_RESULT_MANIFEST001.json; operations/P109_archived_complete_synthesis_near_assessment_CPU052; operations/P109_archived_complete_near_independent_RSTAT001; operations/P109_retained_identity_scope_P092053.
+
+Count after adoption: 12 strict CENTRAL + 9 NEAR_SUCCESS = 21 distinct papers, FULL 0. Eight near studies have quantitative small-error/precision bounds; P165 is an additional qualified retrospective central-pattern reproduction with material local exceptions. Thus 20 remain even if P165 is set aside. Additional active ToolSafe receives no credit here; its run and sync-app restoration are still pending.

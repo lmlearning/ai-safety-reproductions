@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-11T01:06:42.876210+00:00",
+  "only_prospective_source_changes": true,
+  "old_proposal": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\COMPLETE_TWO_FAMILY_CENTRAL_SOURCE_SCOPE_PROPOSAL001.txt",
+    "bytes": 10469,
+    "sha256": "6ef9f0405812814efcc74e8e5d56c929a1367f741281ed401b23b09d401a30c5"
+  },
+  "new_proposal": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\COMPLETE_TWO_FAMILY_CENTRAL_SOURCE_SCOPE_PROPOSAL002.txt",
+    "bytes": 11885,
+    "sha256": "13f36ad9e355cfac22936fae150477f3527649afb666846489d86654347ca9ad"
+  },
+  "old_target_map": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\PROSPECTIVE_WHOLE_TWO_FAMILY_CENTRAL_TARGET_MAP001.json",
+    "bytes": 2091,
+    "sha256": "0c7176ccef93040a7e330125d37844845deb083fe58fc9cd83f016b9e301da82"
+  },
+  "new_target_map": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\PROSPECTIVE_WHOLE_TWO_FAMILY_CENTRAL_TARGET_MAP002.json",
+    "bytes": 11937,
+    "sha256": "4a2185cb395f3fdd377850f56ecd0ff5611c741b8c9b6987a1ced5ca077079e2"
+  },
+  "root_authorized_source_only_implementation": true,
+  "source_unchanged": true,
+  "no_original_or_fake_fits": true,
+  "root_writes_independent_block_auditor": "Do not read/import root auditor. Main will use full matrix implementation; fixture must precede original execution after separate runtime/code approval."
+}

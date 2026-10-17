@@ -1,0 +1,50 @@
+{
+  "paper_id": "P103",
+  "class": "complete central original-primary Study 1 anticipation contribution, including MC1; not full paper",
+  "frozen_utc": "2026-10-10T20:15:10.986403+00:00",
+  "proposal": {
+    "name": "PRIMARY_STUDY1_PROSPECTIVE_SCOPE_20261010.json",
+    "sha256": "0438e521999a4ac09cbb6249c8155694fd512ccab5ace8f0e1b3ece5151f414a"
+  },
+  "root_scope_review": {
+    "path": "environment/root_review_P103-primary-scope-001.json",
+    "sha256": "43913b1be974cf6bb96740b8684b2056f8a33a636089686da1db35176297edd8"
+  },
+  "numeric_execution_status": "Not executed; root code/runtime review pending",
+  "mandatory_targets": 108,
+  "all_target_definitions_and_tolerances": "Exactly the unchanged proposal targets; all mandatory, no outcome-dependent choices",
+  "source_differences_and_omissions": "Exactly the unchanged proposal; Pollfish/norms/Studies2-4 omitted and reported",
+  "education_mapping": "Actual Study1 education codes4=Bachelors,5=Masters or Higher; >=4. QSF QID78 and original code/data mapping retained. Other unused QSF education questions do not define this export.",
+  "MC1_assignment": "Exact self_dash_auth|scales and self_genai_auth|scales strings; Q89=1/dashboard or2/genAI is correct. No MC1 exclusions beyond two metadata rows.",
+  "implementation": "Independent Python formulas from original Rmd. Runner uses pandas/numpy and scipy Welch; auditor reads raw csv with csv module, uses statistics and independently derived Welch/formulas with scipy.special for distribution functions. No runner scientific helper imported by auditor.",
+  "uncertainty": "Original six mean-difference Welch CIs and pooled-d approximate t CIs are mandatory; supporting MC1 Wilson interval is newly computed and cannot count as a published target.",
+  "operational_bounds": {
+    "cpu_threads": 1,
+    "process_RSS_cap_GiB": 1,
+    "available_RAM_floor_GiB": 1,
+    "free_disk_floor_GiB": 35,
+    "run_or_audit_seconds_bound": 600,
+    "downloads": "None",
+    "GPU": false,
+    "randomness": "None in estimators; deterministic independent raw-data analysis."
+  },
+  "external_supervisor": "scripts/supervise_p103_primary_study1.py monitors only the authorized subprocess tree every0.05sec, enforces actual RSS/available RAM/disk/600sec bound and records all resource stops. Same resource policy for run and audit.",
+  "code": [
+    "scripts/run_p103_primary_study1.py",
+    "scripts/audit_p103_primary_study1.py",
+    "scripts/supervise_p103_primary_study1.py"
+  ],
+  "seeds": "None; no stochastic numerical estimator or bootstrap.",
+  "failure_policy": "All source comparisons reported. A process resource failure or invalid record is retained and cannot count. No tolerance/sign/cohort change after outcomes.",
+  "expected_outputs": [
+    "Full500 original records with21 item values,six derived composites,fixed dispositions and hashed source IDs",
+    "All201 original MC1 records and fixed correct-recall flags",
+    "All108 source-target comparisons including failures",
+    "Independent audit of every raw derived record and metric, all input/code/output hashes, all108 target definitions",
+    "Immutable run/audit/operation manifests and UTC/status/resources"
+  ],
+  "commands": {
+    "run": "python scripts/supervise_p103_primary_study1.py --run run001 operation_run001",
+    "audit": "python scripts/supervise_p103_primary_study1.py --audit run001 audit001 operation_audit001"
+  }
+}

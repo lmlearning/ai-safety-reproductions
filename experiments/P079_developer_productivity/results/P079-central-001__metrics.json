@@ -1,0 +1,26 @@
+{
+  "run_id": "P079-central-001",
+  "started_at_utc": "2026-10-10T18:19:48.062198+00:00",
+  "finished_at_utc": "2026-10-10T18:19:49.568621+00:00",
+  "wall_seconds": 1.5060762001667172,
+  "cpu_seconds": 1.5,
+  "peak_working_set_bytes": 186683392,
+  "gates_total": 65,
+  "gates_passed": 62,
+  "all_gates_passed": false,
+  "preregistration_sha256": "41b05f2379ad4df87708e5bf4eeecb50385d2f6c05e01a76af79de686ae87d1a",
+  "versions": {
+    "python": "3.12.0rc3 (tags/v3.12.0rc3:b973ab3, Sep 19 2023, 09:39:54) [MSC v.1935 64 bit (AMD64)]",
+    "numpy": "2.3.4",
+    "scipy": "1.15.2",
+    "statsmodels": "0.14.4",
+    "pandas": "2.3.3"
+  },
+  "modules": {
+    "scipy": "{{REPRODUCTION_ROOT}}\\environment\\p079_cpu_original_001\\packages\\scipy\\__init__.py",
+    "statsmodels": "{{REPRODUCTION_ROOT}}\\environment\\p079_cpu_original_001\\packages\\statsmodels\\__init__.py"
+  },
+  "threads": 1,
+  "paid_api_spend": 0,
+  "fresh_gpu_inference": false
+}

@@ -1,0 +1,6232 @@
+{
+  "fixed_complete": {
+    "effects": {
+      "knowledge/Ba2024": {
+        "outcome": "knowledge",
+        "study": "Ba2024",
+        "gai_mean": 92.21,
+        "gai_sd": 2.37,
+        "gai_n": 39,
+        "traditional_mean": 92.38,
+        "traditional_sd": 2.68,
+        "traditional_n": 38,
+        "source": "Original Figure3/VOR page6",
+        "g": -0.06658030027272017,
+        "variance": 0.05198715275763625,
+        "se": 0.2280069138373577,
+        "lower": -0.5134656396200685,
+        "upper": 0.3803050390746282
+      },
+      "knowledge/Bhatia2024": {
+        "outcome": "knowledge",
+        "study": "Bhatia2024",
+        "gai_mean": 1.7,
+        "gai_sd": 1.33,
+        "gai_n": 50,
+        "traditional_mean": 3.57,
+        "traditional_sd": 0.498,
+        "traditional_n": 50,
+        "source": "Original Figure3/VOR page6",
+        "g": -1.847859550619144,
+        "variance": 0.0577731882095273,
+        "se": 0.24036053796230217,
+        "lower": -2.3189575483299287,
+        "upper": -1.3767615529083592
+      },
+      "knowledge/Cicek2024_immediate": {
+        "outcome": "knowledge",
+        "study": "Cicek2024_immediate",
+        "gai_mean": 74.7,
+        "gai_sd": 15.1,
+        "gai_n": 56,
+        "traditional_mean": 78.5,
+        "traditional_sd": 20.6,
+        "traditional_n": 59,
+        "source": "Original Figure3/VOR page6",
+        "g": -0.2081732073544894,
+        "variance": 0.03500139752566492,
+        "se": 0.1870866043458615,
+        "lower": -0.5748562138622727,
+        "upper": 0.15850979915329388
+      },
+      "knowledge/Gan2024": {
+        "outcome": "knowledge",
+        "study": "Gan2024",
+        "gai_mean": 138.46,
+        "gai_sd": 26.97,
+        "gai_n": 54,
+        "traditional_mean": 130.8,
+        "traditional_sd": 25.56,
+        "traditional_n": 56,
+        "source": "Original Figure3/VOR page6",
+        "g": 0.28965250959858896,
+        "variance": 0.036771185495578215,
+        "se": 0.19175814323146284,
+        "lower": -0.08618654487735133,
+        "upper": 0.6654915640745293
+      },
+      "knowledge/Huang2024": {
+        "outcome": "knowledge",
+        "study": "Huang2024",
+        "gai_mean": 89.66,
+        "gai_sd": 9.65,
+        "gai_n": 32,
+        "traditional_mean": 77.04,
+        "traditional_sd": 8.65,
+        "traditional_n": 32,
+        "source": "Original Figure3/VOR page6",
+        "g": 1.3604534504617927,
+        "variance": 0.07790820505222608,
+        "se": 0.2791204131772273,
+        "lower": 0.813387493284488,
+        "upper": 1.9075194076390973
+      },
+      "knowledge/Jiang2024": {
+        "outcome": "knowledge",
+        "study": "Jiang2024",
+        "gai_mean": 15.78,
+        "gai_sd": 3.62,
+        "gai_n": 31,
+        "traditional_mean": 13.55,
+        "traditional_sd": 3.33,
+        "traditional_n": 30,
+        "source": "Original Figure3/VOR page6",
+        "g": 0.6325371417198734,
+        "variance": 0.06909738484258493,
+        "se": 0.2628638142510013,
+        "lower": 0.11733353294908422,
+        "upper": 1.1477407504906627
+      },
+      "knowledge/Kavadella2024": {
+        "outcome": "knowledge",
+        "study": "Kavadella2024",
+        "gai_mean": 7.54,
+        "gai_sd": 1.18,
+        "gai_n": 39,
+        "traditional_mean": 6.94,
+        "traditional_sd": 1.12,
+        "traditional_n": 31,
+        "source": "Original Figure3/VOR page6",
+        "g": 0.5142132820422003,
+        "variance": 0.0599004169769292,
+        "se": 0.2447456168696984,
+        "lower": 0.03452068760355276,
+        "upper": 0.9939058764808478
+      },
+      "knowledge/Svendsen2024": {
+        "outcome": "knowledge",
+        "study": "Svendsen2024",
+        "gai_mean": 7.7,
+        "gai_sd": 2.0,
+        "gai_n": 15,
+        "traditional_mean": 5.9,
+        "traditional_sd": 2.5,
+        "traditional_n": 16,
+        "source": "Original Figure3/VOR page6",
+        "g": 0.7714508658933416,
+        "variance": 0.1401632749166221,
+        "se": 0.37438386038479554,
+        "lower": 0.03767198314607034,
+        "upper": 1.5052297486406128
+      },
+      "knowledge/Tabuchi2024": {
+        "outcome": "knowledge",
+        "study": "Tabuchi2024",
+        "gai_mean": 34.9,
+        "gai_sd": 5.25,
+        "gai_n": 27,
+        "traditional_mean": 39.75,
+        "traditional_sd": 4.65,
+        "traditional_n": 28,
+        "source": "Original Figure3/VOR page6",
+        "g": -0.9651985164580581,
+        "variance": 0.08187400367741789,
+        "se": 0.28613633756903,
+        "lower": -1.526015432761552,
+        "upper": -0.40438160015456404
+      },
+      "knowledge/Wu2024": {
+        "outcome": "knowledge",
+        "study": "Wu2024",
+        "gai_mean": 86.44,
+        "gai_sd": 5.59,
+        "gai_n": 31,
+        "traditional_mean": 77.86,
+        "traditional_sd": 4.16,
+        "traditional_n": 30,
+        "source": "Original Figure3/VOR page6",
+        "g": 1.7149716252412288,
+        "variance": 0.09136363475256912,
+        "se": 0.30226418039947955,
+        "lower": 1.1225447178417312,
+        "upper": 2.3073985326407263
+      },
+      "knowledge/Zeng2025": {
+        "outcome": "knowledge",
+        "study": "Zeng2025",
+        "gai_mean": 93.9,
+        "gai_sd": 3.65,
+        "gai_n": 21,
+        "traditional_mean": 90.33,
+        "traditional_sd": 4.08,
+        "traditional_n": 21,
+        "source": "Original Figure3/VOR page6",
+        "g": 0.9048472830420022,
+        "variance": 0.1059941200098831,
+        "se": 0.3255673816737222,
+        "lower": 0.2667469404205012,
+        "upper": 1.5429476256635033
+      },
+      "skill/Wu2024": {
+        "outcome": "skill",
+        "study": "Wu2024",
+        "gai_mean": 83.84,
+        "gai_sd": 6.13,
+        "gai_n": 31,
+        "traditional_mean": 79.12,
+        "traditional_sd": 4.27,
+        "traditional_n": 30,
+        "source": "Original Figure3/VOR page6",
+        "g": 0.8795285654603789,
+        "variance": 0.07236996862987591,
+        "se": 0.2690166697992448,
+        "lower": 0.35226558141295505,
+        "upper": 1.406791549507803
+      },
+      "skill/Zeng2025": {
+        "outcome": "skill",
+        "study": "Zeng2025",
+        "gai_mean": 5.71,
+        "gai_sd": 1.47,
+        "gai_n": 21,
+        "traditional_mean": 5.23,
+        "traditional_sd": 1.34,
+        "traditional_n": 21,
+        "source": "Original Figure3/VOR page6",
+        "g": 0.3348328999222596,
+        "variance": 0.09671094167622385,
+        "se": 0.3109838286410145,
+        "lower": -0.27468420398850446,
+        "upper": 0.9443500038330237
+      },
+      "satisfaction/Huang2024": {
+        "outcome": "satisfaction",
+        "study": "Huang2024",
+        "gai_mean": 89.54,
+        "gai_sd": 5.58,
+        "gai_n": 32,
+        "traditional_mean": 76.68,
+        "traditional_sd": 8.7,
+        "traditional_n": 32,
+        "source": "Original Figure3/VOR page6",
+        "g": 1.7382392129099966,
+        "variance": 0.08765380920161475,
+        "se": 0.2960638600059365,
+        "lower": 1.1579647101744526,
+        "upper": 2.3185137156455404
+      },
+      "satisfaction/Jiang2024": {
+        "outcome": "satisfaction",
+        "study": "Jiang2024",
+        "gai_mean": 3.29,
+        "gai_sd": 0.59,
+        "gai_n": 31,
+        "traditional_mean": 2.93,
+        "traditional_sd": 0.69,
+        "traditional_n": 30,
+        "source": "Original Figure3/VOR page6",
+        "g": 0.5543622556359682,
+        "variance": 0.06828433081891382,
+        "se": 0.2613127069602889,
+        "lower": 0.04219876129113287,
+        "upper": 1.0665257499808036
+      },
+      "satisfaction/Wu2024": {
+        "outcome": "satisfaction",
+        "study": "Wu2024",
+        "gai_mean": 17.23,
+        "gai_sd": 1.33,
+        "gai_n": 31,
+        "traditional_mean": 15.38,
+        "traditional_sd": 1.5,
+        "traditional_n": 30,
+        "source": "Original Figure3/VOR page6",
+        "g": 1.2897165776798372,
+        "variance": 0.08016700993097474,
+        "se": 0.2831377931873008,
+        "lower": 0.7347767003705773,
+        "upper": 1.8446564549890971
+      },
+      "knowledge_delayed/Cicek2024_delayed": {
+        "outcome": "knowledge_delayed",
+        "study": "Cicek2024_delayed",
+        "gai_mean": 76.0,
+        "gai_sd": 14.5,
+        "gai_n": 56,
+        "traditional_mean": 78.0,
+        "traditional_sd": 21.2,
+        "traditional_n": 59,
+        "source": "Original cited trial PMID39656920 abstract for delayed mean/SD; review Table2 delayed counts108/110 minus Wu31/30 and Zeng21/21 gives56/59",
+        "g": -0.10886699910236305,
+        "variance": 0.03485965405021606,
+        "se": 0.1867074022373405,
+        "lower": -0.4748067831345836,
+        "upper": 0.2570727849298574
+      }
+    },
+    "pools": {
+      "knowledge": {
+        "k": 11,
+        "gai_n": 395,
+        "traditional_n": 391,
+        "smd": 0.14137588653591313,
+        "se": 0.0753691457488187,
+        "variance": 0.005680508130906677,
+        "lower": -0.006344924677321645,
+        "upper": 0.2890966977491479,
+        "p": 0.06068558592421681,
+        "Z": 1.8757793408867047,
+        "Q": 148.6915336654729,
+        "df": 10,
+        "tau2": 0.0,
+        "I2": 93.27466752579332,
+        "heterogeneity_p": 6.926835870764688e-27,
+        "row_keys": [
+          "knowledge/Ba2024",
+          "knowledge/Bhatia2024",
+          "knowledge/Cicek2024_immediate",
+          "knowledge/Gan2024",
+          "knowledge/Huang2024",
+          "knowledge/Jiang2024",
+          "knowledge/Kavadella2024",
+          "knowledge/Svendsen2024",
+          "knowledge/Tabuchi2024",
+          "knowledge/Wu2024",
+          "knowledge/Zeng2025"
+        ],
+        "weights_percent": [
+          10.92675368737574,
+          9.832429725541635,
+          16.22937520349415,
+          15.448259430171936,
+          7.2912835395177265,
+          8.221017544799702,
+          9.48325306832929,
+          4.052779256396371,
+          6.938109626698822,
+          6.217471695703244,
+          5.3592672219713835
+        ],
+        "model": "fixed"
+      },
+      "skill": {
+        "k": 2,
+        "gai_n": 52,
+        "traditional_n": 51,
+        "smd": 0.6463880639309111,
+        "se": 0.2034556287996859,
+        "variance": 0.04139419289027558,
+        "lower": 0.24762235903157653,
+        "upper": 1.0451537688302457,
+        "p": 0.0014878300072908557,
+        "Z": 3.1770468467467095,
+        "Q": 1.7547419606322716,
+        "df": 1,
+        "tau2": 0.0,
+        "I2": 43.011563954413084,
+        "heterogeneity_p": 0.1852817107028829,
+        "row_keys": [
+          "skill/Wu2024",
+          "skill/Zeng2025"
+        ],
+        "weights_percent": [
+          57.19802519464843,
+          42.80197480535157
+        ],
+        "model": "fixed"
+      },
+      "satisfaction": {
+        "k": 3,
+        "gai_n": 94,
+        "traditional_n": 92,
+        "smd": 1.143014036554812,
+        "se": 0.16110784985515458,
+        "variance": 0.025955739284951033,
+        "lower": 0.8272484532120226,
+        "upper": 1.4587796198976015,
+        "p": 1.2961973138055129e-12,
+        "Z": 7.09471349522974,
+        "Q": 9.38494844328394,
+        "df": 2,
+        "tau2": 0.0,
+        "I2": 78.68928090456116,
+        "heterogeneity_p": 0.009163984354764437,
+        "row_keys": [
+          "satisfaction/Huang2024",
+          "satisfaction/Jiang2024",
+          "satisfaction/Wu2024"
+        ],
+        "weights_percent": [
+          29.611650105530018,
+          38.01126696808992,
+          32.37708292638007
+        ],
+        "model": "fixed"
+      },
+      "geography/Asia": {
+        "k": 8,
+        "gai_n": 285,
+        "traditional_n": 285,
+        "smd": 0.1354485682473422,
+        "se": 0.0899327884848527,
+        "variance": 0.008087906444661255,
+        "lower": -0.040816458212227597,
+        "upper": 0.31171359470691196,
+        "p": 0.13203923423257127,
+        "Z": 1.5061088456092482,
+        "Q": 140.04332284861886,
+        "df": 7,
+        "tau2": 0.0,
+        "I2": 95.00154676594849,
+        "heterogeneity_p": 4.977850499300726e-27,
+        "row_keys": [
+          "knowledge/Ba2024",
+          "knowledge/Bhatia2024",
+          "knowledge/Gan2024",
+          "knowledge/Huang2024",
+          "knowledge/Jiang2024",
+          "knowledge/Tabuchi2024",
+          "knowledge/Wu2024",
+          "knowledge/Zeng2025"
+        ],
+        "weights_percent": [
+          15.557509914741859,
+          13.999411656716372,
+          21.99522896979711,
+          10.381328178770765,
+          11.705083286562608,
+          9.878479225869375,
+          8.852435070654657,
+          7.630523696887262
+        ],
+        "model": "fixed"
+      },
+      "geography/Europe": {
+        "k": 3,
+        "gai_n": 110,
+        "traditional_n": 106,
+        "smd": 0.15536201402479843,
+        "se": 0.13814579702936142,
+        "variance": 0.01908426123687752,
+        "lower": -0.11539877276833033,
+        "upper": 0.4261228008179272,
+        "p": 0.2607485981063181,
+        "Z": 1.1246235308322692,
+        "Q": 8.633617011627315,
+        "df": 2,
+        "tau2": 0.0,
+        "I2": 76.8347380094982,
+        "heterogeneity_p": 0.013342397849444063,
+        "row_keys": [
+          "knowledge/Cicek2024_immediate",
+          "knowledge/Kavadella2024",
+          "knowledge/Svendsen2024"
+        ],
+        "weights_percent": [
+          54.52428356006045,
+          31.85998061453875,
+          13.615735825400796
+        ],
+        "model": "fixed"
+      },
+      "duration/short": {
+        "k": 5,
+        "gai_n": 179,
+        "traditional_n": 183,
+        "smd": -0.43993531298667027,
+        "se": 0.11201354553841972,
+        "variance": 0.012547034384087628,
+        "lower": -0.6594778280226101,
+        "upper": -0.22039279795073036,
+        "p": 8.582669153198187e-05,
+        "Z": 3.9275188627591127,
+        "Q": 66.33100670874833,
+        "df": 4,
+        "tau2": 0.0,
+        "I2": 93.96963773282752,
+        "heterogeneity_p": 1.3489402925428407e-13,
+        "row_keys": [
+          "knowledge/Bhatia2024",
+          "knowledge/Cicek2024_immediate",
+          "knowledge/Jiang2024",
+          "knowledge/Svendsen2024",
+          "knowledge/Tabuchi2024"
+        ],
+        "weights_percent": [
+          21.71774619497027,
+          35.847238313520094,
+          18.158479387710273,
+          8.951727470374385,
+          15.324808633424988
+        ],
+        "model": "fixed"
+      },
+      "duration/long": {
+        "k": 5,
+        "gai_n": 184,
+        "traditional_n": 176,
+        "smd": 0.5088149801428292,
+        "se": 0.10943194470178859,
+        "variance": 0.011975350521215315,
+        "lower": 0.2943323097691448,
+        "upper": 0.7232976505165136,
+        "p": 3.3257630744372203e-06,
+        "Z": 4.6496019195253595,
+        "Q": 25.078278739756612,
+        "df": 4,
+        "tau2": 0.0,
+        "I2": 84.04994201751654,
+        "heterogeneity_p": 4.851902026623532e-05,
+        "row_keys": [
+          "knowledge/Ba2024",
+          "knowledge/Gan2024",
+          "knowledge/Kavadella2024",
+          "knowledge/Wu2024",
+          "knowledge/Zeng2025"
+        ],
+        "weights_percent": [
+          23.035211366631902,
+          32.567213593522474,
+          19.99209876256396,
+          13.107349060320274,
+          11.298127216961381
+        ],
+        "model": "fixed"
+      },
+      "course/theory": {
+        "k": 6,
+        "gai_n": 241,
+        "traditional_n": 240,
+        "smd": -0.25436417527233557,
+        "se": 0.09573110472020244,
+        "variance": 0.009164444410950367,
+        "lower": -0.4419936927241647,
+        "upper": -0.06673465782050642,
+        "p": 0.007882324809032504,
+        "Z": 2.657069256808193,
+        "Q": 75.6018561381471,
+        "df": 5,
+        "tau2": 0.0,
+        "I2": 93.38640576381681,
+        "heterogeneity_p": 6.9662614661042635e-15,
+        "row_keys": [
+          "knowledge/Bhatia2024",
+          "knowledge/Cicek2024_immediate",
+          "knowledge/Gan2024",
+          "knowledge/Kavadella2024",
+          "knowledge/Svendsen2024",
+          "knowledge/Tabuchi2024"
+        ],
+        "weights_percent": [
+          15.862798462348092,
+          26.183081416193453,
+          24.922896249979217,
+          15.29946680417947,
+          6.538406309642774,
+          11.193350757656988
+        ],
+        "model": "fixed"
+      },
+      "course/practice": {
+        "k": 5,
+        "gai_n": 154,
+        "traditional_n": 151,
+        "smd": 0.7866243808048947,
+        "se": 0.12223949916840121,
+        "variance": 0.014942495156941559,
+        "lower": 0.5470393649466144,
+        "upper": 1.026209396663175,
+        "p": 1.2338555482848382e-10,
+        "Z": 6.435108014646024,
+        "Q": 28.1375934673864,
+        "df": 4,
+        "tau2": 0.0,
+        "I2": 85.78414317970618,
+        "heterogeneity_p": 1.1697088779514154e-05,
+        "row_keys": [
+          "knowledge/Ba2024",
+          "knowledge/Huang2024",
+          "knowledge/Jiang2024",
+          "knowledge/Wu2024",
+          "knowledge/Zeng2025"
+        ],
+        "weights_percent": [
+          28.742668840902617,
+          19.1796167642738,
+          21.625268729030758,
+          16.354970111914664,
+          14.097475553878166
+        ],
+        "model": "fixed"
+      },
+      "assessment/immediate": {
+        "k": 9,
+        "gai_n": 343,
+        "traditional_n": 340,
+        "smd": -0.01554474753987366,
+        "se": 0.08015125539175948,
+        "variance": 0.006424223740875052,
+        "lower": -0.17263832142339405,
+        "upper": 0.1415488263436467,
+        "p": 0.8462207812675848,
+        "Z": 0.1939426583388468,
+        "Q": 112.25654834737409,
+        "df": 8,
+        "tau2": 0.0,
+        "I2": 92.87346696671604,
+        "heterogeneity_p": 1.3079947267307187e-20,
+        "row_keys": [
+          "knowledge/Ba2024",
+          "knowledge/Bhatia2024",
+          "knowledge/Cicek2024_immediate",
+          "knowledge/Gan2024",
+          "knowledge/Huang2024",
+          "knowledge/Jiang2024",
+          "knowledge/Kavadella2024",
+          "knowledge/Svendsen2024",
+          "knowledge/Tabuchi2024"
+        ],
+        "weights_percent": [
+          12.357329455653668,
+          11.119732076367635,
+          18.354192103799466,
+          17.47080942399198,
+          8.24588852556486,
+          9.2973471507069,
+          10.724839767558477,
+          4.5833858724381145,
+          7.846475623918892
+        ],
+        "model": "fixed"
+      },
+      "assessment/delayed": {
+        "k": 3,
+        "gai_n": 108,
+        "traditional_n": 110,
+        "smd": 0.49289705645750886,
+        "se": 0.1427607137823041,
+        "variance": 0.020380621399632953,
+        "lower": 0.21309119903696194,
+        "upper": 0.7727029138780558,
+        "p": 0.0005551912262874974,
+        "Z": 3.452609919064484,
+        "Q": 28.335397019398943,
+        "df": 2,
+        "tau2": 0.0,
+        "I2": 92.94169056946419,
+        "heterogeneity_p": 7.03147951678293e-07,
+        "row_keys": [
+          "knowledge_delayed/Cicek2024_delayed",
+          "knowledge/Wu2024",
+          "knowledge/Zeng2025"
+        ],
+        "weights_percent": [
+          58.4647838738567,
+          22.307148193947985,
+          19.228067932195316
+        ],
+        "model": "fixed"
+      }
+    },
+    "between": {
+      "geography": {
+        "Q": 0.014593805226702958,
+        "df": 1,
+        "p": 0.9038456299942743,
+        "I2": 0,
+        "fixed_subgroup_center": 0.14137588653591313
+      },
+      "duration": {
+        "Q": 36.706344924822524,
+        "df": 1,
+        "p": 1.3733173360133457e-09,
+        "I2": 97.27567535790317,
+        "fixed_subgroup_center": 0.04549881569935396
+      },
+      "course": {
+        "Q": 44.952084059939395,
+        "df": 1,
+        "p": 2.019152007914382e-11,
+        "I2": 97.77540903628274,
+        "fixed_subgroup_center": 0.14137588653591307
+      },
+      "assessment": {
+        "Q": 9.644266426350017,
+        "df": 1,
+        "p": 0.0018994353869096238,
+        "I2": 89.63114501619526,
+        "fixed_subgroup_center": 0.10631172620476148
+      }
+    }
+  },
+  "leave_one_row_out": {
+    "knowledge": {
+      "knowledge/Ba2024": {
+        "random": {
+          "k": 10,
+          "gai_n": 356,
+          "traditional_n": 353,
+          "smd": 0.30572434998133313,
+          "se": 0.32844776713477025,
+          "variance": 0.10787793573581625,
+          "lower": -0.33802144440541493,
+          "upper": 0.9494701443680812,
+          "p": 0.35194888853235706,
+          "Z": 0.9308157356292419,
+          "Q": 147.7576336608281,
+          "df": 9,
+          "tau2": 1.0040288717910524,
+          "I2": 93.90894414250084,
+          "heterogeneity_p": 2.5691708028819485e-27,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            10.159891358259124,
+            10.382559480847318,
+            10.364904861463442,
+            9.970814203961572,
+            10.05267880353854,
+            10.139577589854463,
+            9.428305905282322,
+            9.93440004376787,
+            9.848336107046416,
+            9.71853164597895
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 10,
+          "gai_n": 356,
+          "traditional_n": 353,
+          "smd": 0.1668861954680552,
+          "se": 0.07985828009614773,
+          "variance": 0.006377344899914785,
+          "lower": 0.010366842612293786,
+          "upper": 0.3234055483238166,
+          "p": 0.03663761301287911,
+          "Z": 2.089779485197122,
+          "Q": 147.7576336608281,
+          "df": 9,
+          "tau2": 0.0,
+          "I2": 93.90894414250084,
+          "heterogeneity_p": 2.5691708028819485e-27,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            11.038589175286514,
+            18.220257906098094,
+            17.34332144575994,
+            8.18571663361992,
+            9.229502555622638,
+            10.646578474355255,
+            4.549939992275744,
+            7.789218327518721,
+            6.98017862050465,
+            6.016696868958531
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Bhatia2024": {
+        "random": {
+          "k": 10,
+          "gai_n": 345,
+          "traditional_n": 341,
+          "smd": 0.4776682370543747,
+          "se": 0.22995568235172467,
+          "variance": 0.0528796158458473,
+          "lower": 0.02696338160466144,
+          "upper": 0.9283730925040881,
+          "p": 0.03778138130401366,
+          "Z": 2.0772186717428696,
+          "Q": 72.72965920515905,
+          "df": 9,
+          "tau2": 0.45550610739934816,
+          "I2": 87.62540606080333,
+          "heterogeneity_p": 4.429218321745106e-12,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            10.419767117594803,
+            10.780592613752432,
+            10.74183526420223,
+            9.913422758158172,
+            10.07992066920146,
+            10.259787826675248,
+            8.877343273923309,
+            9.840262926718797,
+            9.669508435000898,
+            9.417559114772665
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 10,
+          "gai_n": 345,
+          "traditional_n": 341,
+          "smd": 0.35829442591597055,
+          "se": 0.07937219842335329,
+          "variance": 0.0062999458825561665,
+          "lower": 0.20272777563243125,
+          "upper": 0.5138610761995098,
+          "p": 6.358475546894225e-06,
+          "Z": 4.514104850730093,
+          "Q": 72.72965920515905,
+          "df": 9,
+          "tau2": 0.0,
+          "I2": 87.62540606080333,
+          "heterogeneity_p": 4.429218321745106e-12,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            12.118274512794482,
+            17.999126686117904,
+            17.132833216143503,
+            8.086370207519186,
+            9.117488160960745,
+            10.517365655371993,
+            4.494719380881882,
+            7.694684026174952,
+            6.895463276628248,
+            5.943674877407111
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Cicek2024_immediate": {
+        "random": {
+          "k": 10,
+          "gai_n": 339,
+          "traditional_n": 332,
+          "smd": 0.32135712258643884,
+          "se": 0.333672422580821,
+          "variance": 0.11133728559095399,
+          "lower": -0.33262880830619984,
+          "upper": 0.9753430534790775,
+          "p": 0.3355015339104015,
+          "Z": 0.9630916456951152,
+          "Q": 144.5243828197197,
+          "df": 9,
+          "tau2": 1.0367967498624096,
+          "I2": 93.77267709129286,
+          "heterogeneity_p": 1.1987349165006352e-26,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            10.225838692419343,
+            10.171783612755927,
+            10.370772256143056,
+            9.988049761515612,
+            10.06762601382763,
+            10.152053726173653,
+            9.459733826716587,
+            9.952641135798686,
+            9.86892352446425,
+            9.742577450185262
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 10,
+          "gai_n": 339,
+          "traditional_n": 332,
+          "smd": 0.20909608571754046,
+          "se": 0.08234698742478969,
+          "variance": 0.006781026337938471,
+          "lower": 0.047698956129579945,
+          "upper": 0.37049321530550094,
+          "p": 0.01111039150214572,
+          "Z": 2.539207471414969,
+          "Q": 144.5243828197197,
+          "df": 9,
+          "tau2": 0.0,
+          "I2": 93.77267709129286,
+          "heterogeneity_p": 1.1987349165006352e-26,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            13.043657862071367,
+            11.737324091143408,
+            18.4411414713673,
+            8.703866728020218,
+            9.813723563325516,
+            11.320499389094739,
+            4.837947987425559,
+            8.282270358556781,
+            7.422019008222296,
+            6.397549540772822
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Gan2024": {
+        "random": {
+          "k": 10,
+          "gai_n": 341,
+          "traditional_n": 335,
+          "smd": 0.2698302923862813,
+          "se": 0.3363737946440793,
+          "variance": 0.11314732972325724,
+          "lower": -0.38945023045918625,
+          "upper": 0.9291108152317489,
+          "p": 0.42245234829887535,
+          "Z": 0.8021739406655968,
+          "Q": 147.9843777328764,
+          "df": 9,
+          "tau2": 1.0550763750323748,
+          "I2": 93.9182769574193,
+          "heterogeneity_p": 2.3059759961828976e-27,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            10.220491135601671,
+            10.167351766184966,
+            10.379748360315535,
+            9.986661046596806,
+            10.064932465230505,
+            10.147953799052084,
+            9.466497344535503,
+            9.951826556551783,
+            9.86945053884521,
+            9.745086987085928
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 10,
+          "gai_n": 341,
+          "traditional_n": 335,
+          "smd": 0.11428459633816376,
+          "se": 0.0819657310573274,
+          "variance": 0.0067183810677621265,
+          "lower": -0.04636528450069413,
+          "upper": 0.2749344771770217,
+          "p": 0.16322785022746067,
+          "Z": 1.3942972857550957,
+          "Q": 147.9843777328764,
+          "df": 9,
+          "tau2": 0.0,
+          "I2": 93.9182769574193,
+          "heterogeneity_p": 2.3059759961828976e-27,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            12.923156417284812,
+            11.628890971702003,
+            19.194608051966625,
+            8.62345764898374,
+            9.723061275137532,
+            11.2159170283401,
+            4.793253490801097,
+            8.205756120382762,
+            7.353452044631147,
+            6.338446950770185
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Huang2024": {
+        "random": {
+          "k": 10,
+          "gai_n": 363,
+          "traditional_n": 359,
+          "smd": 0.16074374824676865,
+          "se": 0.2997870707311924,
+          "variance": 0.08987228777758895,
+          "lower": -0.42682811341713023,
+          "upper": 0.7483156099106675,
+          "p": 0.591825126071593,
+          "Z": 0.5361930648133303,
+          "Q": 128.11563037332746,
+          "df": 9,
+          "tau2": 0.8267747402047709,
+          "I2": 92.97509603334572,
+          "heterogeneity_p": 2.8933693997427937e-23,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            10.22714895779324,
+            10.160250777897387,
+            10.428727814891188,
+            10.407354733878355,
+            10.031820978115409,
+            10.135875246944813,
+            9.29452419618708,
+            9.890762341629493,
+            9.7885340847195,
+            9.635000867943537
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 10,
+          "gai_n": 363,
+          "traditional_n": 359,
+          "smd": 0.045498815699354,
+          "se": 0.078276844262619,
+          "variance": 0.006127264347714309,
+          "lower": -0.10792097987883,
+          "upper": 0.19891861127753802,
+          "p": 0.5610685303763927,
+          "Z": 0.5812551097065867,
+          "Q": 128.11563037332746,
+          "df": 9,
+          "tau2": 0.0,
+          "I2": 92.97509603334572,
+          "heterogeneity_p": 2.8933693997427937e-23,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            11.786112573388225,
+            10.605723065676111,
+            17.505770571650654,
+            16.66322220819103,
+            8.867577784127738,
+            10.229084632372828,
+            4.371519109666345,
+            7.483772714787005,
+            6.7064586082943825,
+            5.7807587318456815
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Jiang2024": {
+        "random": {
+          "k": 10,
+          "gai_n": 364,
+          "traditional_n": 361,
+          "smd": 0.23437989439698553,
+          "se": 0.32037865547850647,
+          "variance": 0.10264248288621555,
+          "lower": -0.39355073175625327,
+          "upper": 0.8623105205502244,
+          "p": 0.4644301472248099,
+          "Z": 0.7315715026237433,
+          "Q": 144.88750875755025,
+          "df": 9,
+          "tau2": 0.9534710010530331,
+          "I2": 93.78828438891837,
+          "heterogeneity_p": 1.0083979468242274e-26,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            10.208528569508566,
+            10.150118435890993,
+            10.383950329195116,
+            10.365391848631043,
+            9.951963572527193,
+            10.128811713059461,
+            9.38544860394112,
+            9.913843445155582,
+            9.823801716438583,
+            9.688141765652343
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 10,
+          "gai_n": 364,
+          "traditional_n": 361,
+          "smd": 0.09738057096173842,
+          "se": 0.07867232294551403,
+          "variance": 0.006189334397643253,
+          "lower": -0.05681434859157318,
+          "upper": 0.25157549051505,
+          "p": 0.21579037167838844,
+          "Z": 1.2377996138385432,
+          "Q": 144.88750875755025,
+          "df": 9,
+          "tau2": 0.0,
+          "I2": 93.78828438891837,
+          "heterogeneity_p": 1.0083979468242274e-26,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            11.905507552025187,
+            10.7131605325229,
+            17.683106490547694,
+            16.832022993622353,
+            7.944393525039125,
+            10.332706698898425,
+            4.415803213306094,
+            7.5595843853308065,
+            6.774395977573792,
+            5.839318631133638
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Kavadella2024": {
+        "random": {
+          "k": 10,
+          "gai_n": 356,
+          "traditional_n": 360,
+          "smd": 0.24628233199606547,
+          "se": 0.3240595131364304,
+          "variance": 0.1050145680542203,
+          "lower": -0.3888626425989226,
+          "upper": 0.8814273065910536,
+          "p": 0.4472599303839131,
+          "Z": 0.7599910572363898,
+          "Q": 146.12775725111786,
+          "df": 9,
+          "tau2": 0.9762366754666211,
+          "I2": 93.84100586411267,
+          "heterogeneity_p": 5.585858914712852e-27,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            10.21320116998071,
+            10.156050898863652,
+            10.38475220216727,
+            10.366609391804014,
+            9.962062141072337,
+            10.046029498278989,
+            9.406536431515462,
+            9.92472433405285,
+            9.836505951619632,
+            9.70352798064507
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 10,
+          "gai_n": 356,
+          "traditional_n": 360,
+          "smd": 0.1023144808317075,
+          "se": 0.07921895772618914,
+          "variance": 0.006275643263223743,
+          "lower": -0.05295182320442429,
+          "upper": 0.2575807848678393,
+          "p": 0.19651637093098195,
+          "Z": 1.2915403555970184,
+          "Q": 146.12775725111786,
+          "df": 9,
+          "tau2": 0.0,
+          "I2": 93.84100586411267,
+          "heterogeneity_p": 5.585858914712852e-27,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            12.071527156874218,
+            10.862553128388429,
+            17.929693403305116,
+            17.06674173988325,
+            8.055176292428815,
+            9.082316613748375,
+            4.47738058842938,
+            7.665001076470702,
+            6.868863394302813,
+            5.920746606168898
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Svendsen2024": {
+        "random": {
+          "k": 10,
+          "gai_n": 380,
+          "traditional_n": 375,
+          "smd": 0.22364614625999849,
+          "se": 0.3129583879540796,
+          "variance": 0.0979429525908162,
+          "lower": -0.38974102278971146,
+          "upper": 0.8370333153097084,
+          "p": 0.474844232448015,
+          "Z": 0.7146194346221328,
+          "Q": 145.73952361168782,
+          "df": 9,
+          "tau2": 0.9131463989674309,
+          "I2": 93.82459899897859,
+          "heterogeneity_p": 6.720576805644698e-27,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            10.148124310439137,
+            10.087648234144162,
+            10.329924612289009,
+            10.310678967605766,
+            9.882699923249996,
+            9.971348681984653,
+            10.065595096342898,
+            9.843310984425596,
+            9.750320982668962,
+            9.610348206849816
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 10,
+          "gai_n": 380,
+          "traditional_n": 375,
+          "smd": 0.11476172526554208,
+          "se": 0.07694446658743083,
+          "variance": 0.00592045093842426,
+          "lower": -0.0360466580554679,
+          "upper": 0.26557010858655206,
+          "p": 0.1358334989337078,
+          "Z": 1.4914876969761053,
+          "Q": 145.73952361168782,
+          "df": 9,
+          "tau2": 0.0,
+          "I2": 93.82459899897859,
+          "heterogeneity_p": 6.720576805644698e-27,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            11.388296193148648,
+            10.24774834470348,
+            16.91489870963885,
+            16.100788861257143,
+            7.599264974023548,
+            8.568270639926546,
+            9.883822579573255,
+            7.231173110515923,
+            6.480095668761448,
+            5.58564091845116
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Tabuchi2024": {
+        "random": {
+          "k": 10,
+          "gai_n": 368,
+          "traditional_n": 363,
+          "smd": 0.39164472198414285,
+          "se": 0.3043152239344571,
+          "variance": 0.09260775551827877,
+          "lower": -0.2048021568746345,
+          "upper": 0.9880916008429201,
+          "p": 0.19810456357257733,
+          "Z": 1.2869705199779773,
+          "Q": 132.62051735917964,
+          "df": 9,
+          "tau2": 0.8544886369690599,
+          "I2": 93.21371973265263,
+          "heterogeneity_p": 3.42677952854437e-24,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            10.216241466989445,
+            10.151444789455,
+            10.411331428899555,
+            10.390657492243582,
+            9.932225351334319,
+            10.026976733214907,
+            10.12782853410545,
+            9.310569296821743,
+            9.79093229323383,
+            9.641792613702178
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 10,
+          "gai_n": 368,
+          "traditional_n": 363,
+          "smd": 0.22387511889917067,
+          "se": 0.07812817106264351,
+          "variance": 0.006104011113593687,
+          "lower": 0.07074671743840494,
+          "upper": 0.3770035203599364,
+          "p": 0.004163707181929438,
+          "Z": 2.865485213005519,
+          "Q": 132.62051735917964,
+          "df": 9,
+          "tau2": 0.0,
+          "I2": 93.21371973265263,
+          "heterogeneity_p": 3.42677952854437e-24,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            11.741383764659215,
+            10.565473886357344,
+            17.439335412587155,
+            16.59998455673316,
+            7.834875812505036,
+            8.83392494158732,
+            10.190264812254417,
+            4.354929004922821,
+            6.681007306818039,
+            5.7588205015754985
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Wu2024": {
+        "random": {
+          "k": 10,
+          "gai_n": 364,
+          "traditional_n": 361,
+          "smd": 0.1269979705621151,
+          "se": 0.28807653477528294,
+          "variance": 0.08298808988813479,
+          "lower": -0.4376216623885399,
+          "upper": 0.6916176035127701,
+          "p": 0.6593230252187006,
+          "Z": 0.4408480220757347,
+          "Q": 119.79198661923458,
+          "df": 9,
+          "tau2": 0.759318484472784,
+          "I2": 92.48697658833642,
+          "heterogeneity_p": 1.4737961960094387e-21,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            10.228955165581477,
+            10.156521313661814,
+            10.447691385911558,
+            10.424465109744842,
+            9.912260433935405,
+            10.017684711510773,
+            10.130148332915255,
+            9.226211540350688,
+            9.865529121714717,
+            9.590532884673484
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 10,
+          "gai_n": 364,
+          "traditional_n": 361,
+          "smd": 0.037051689451632966,
+          "se": 0.07782741835074014,
+          "variance": 0.0060571070471411225,
+          "lower": -0.11548724752554941,
+          "upper": 0.18959062642881536,
+          "p": 0.6340209353769977,
+          "Z": 0.4760750161935778,
+          "Q": 119.79198661923458,
+          "df": 9,
+          "tau2": 0.0,
+          "I2": 92.48697658833642,
+          "heterogeneity_p": 1.4737961960094387e-21,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            11.651161346302835,
+            10.484287322301961,
+            17.305329144928354,
+            16.472427977252725,
+            7.774671542080474,
+            8.766043839343842,
+            10.111961406669394,
+            4.321465127540913,
+            7.398083366004692,
+            5.714568927574799
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Zeng2025": {
+        "random": {
+          "k": 10,
+          "gai_n": 374,
+          "traditional_n": 370,
+          "smd": 0.20902147167966403,
+          "se": 0.3126603229931341,
+          "variance": 0.09775647757417097,
+          "lower": -0.4037815007815394,
+          "upper": 0.8218244441408674,
+          "p": 0.5037980612999362,
+          "Z": 0.6685257332260034,
+          "Q": 142.880870861444,
+          "df": 9,
+          "tau2": 0.9082227496485505,
+          "I2": 93.70104623121482,
+          "heterogeneity_p": 2.621014934696177e-26,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024"
+          ],
+          "weights_percent": [
+            10.180740411987353,
+            10.119760730146378,
+            10.364077071927968,
+            10.344667191886403,
+            9.913133454352762,
+            10.002503184391076,
+            10.097524875364154,
+            9.324473551115519,
+            9.873426737920704,
+            9.779692790907674
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 10,
+          "gai_n": 374,
+          "traditional_n": 370,
+          "smd": 0.09814241707615744,
+          "se": 0.07747374427937222,
+          "variance": 0.00600218105266556,
+          "lower": -0.053703331458878165,
+          "upper": 0.24998816561119303,
+          "p": 0.2052329159908437,
+          "Z": 1.2667829338705185,
+          "Q": 142.880870861444,
+          "df": 9,
+          "tau2": 0.0,
+          "I2": 93.70104623121482,
+          "heterogeneity_p": 2.621014934696177e-26,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024"
+          ],
+          "weights_percent": [
+            11.545508330967243,
+            10.389215549083628,
+            17.148403998053038,
+            16.323055598485748,
+            7.704170630862274,
+            8.686553139948064,
+            10.020265893937458,
+            4.282277976335837,
+            7.330997365554573,
+            6.569551516772138
+          ],
+          "model": "fixed"
+        }
+      }
+    },
+    "skill": {
+      "skill/Wu2024": {
+        "random": {
+          "k": 1,
+          "gai_n": 21,
+          "traditional_n": 21,
+          "smd": 0.3348328999222596,
+          "se": 0.3109838286410145,
+          "variance": 0.09671094167622385,
+          "lower": -0.27468420398850446,
+          "upper": 0.9443500038330237,
+          "p": 0.28161918162194044,
+          "Z": 1.0766891043353106,
+          "Q": 0.0,
+          "df": 0,
+          "tau2": 0.0,
+          "I2": 0.0,
+          "heterogeneity_p": null,
+          "row_keys": [
+            "skill/Zeng2025"
+          ],
+          "weights_percent": [
+            100.0
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 1,
+          "gai_n": 21,
+          "traditional_n": 21,
+          "smd": 0.3348328999222596,
+          "se": 0.3109838286410145,
+          "variance": 0.09671094167622385,
+          "lower": -0.27468420398850446,
+          "upper": 0.9443500038330237,
+          "p": 0.28161918162194044,
+          "Z": 1.0766891043353106,
+          "Q": 0.0,
+          "df": 0,
+          "tau2": 0.0,
+          "I2": 0.0,
+          "heterogeneity_p": null,
+          "row_keys": [
+            "skill/Zeng2025"
+          ],
+          "weights_percent": [
+            100.0
+          ],
+          "model": "fixed"
+        }
+      },
+      "skill/Zeng2025": {
+        "random": {
+          "k": 1,
+          "gai_n": 31,
+          "traditional_n": 30,
+          "smd": 0.879528565460379,
+          "se": 0.2690166697992448,
+          "variance": 0.07236996862987591,
+          "lower": 0.35226558141295516,
+          "upper": 1.406791549507803,
+          "p": 0.0010776808646750001,
+          "Z": 3.2694203155393016,
+          "Q": 1.7031859868721688e-31,
+          "df": 0,
+          "tau2": 0.0,
+          "I2": 0.0,
+          "heterogeneity_p": null,
+          "row_keys": [
+            "skill/Wu2024"
+          ],
+          "weights_percent": [
+            100.0
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 1,
+          "gai_n": 31,
+          "traditional_n": 30,
+          "smd": 0.879528565460379,
+          "se": 0.2690166697992448,
+          "variance": 0.07236996862987591,
+          "lower": 0.35226558141295516,
+          "upper": 1.406791549507803,
+          "p": 0.0010776808646750001,
+          "Z": 3.2694203155393016,
+          "Q": 1.7031859868721688e-31,
+          "df": 0,
+          "tau2": 0.0,
+          "I2": 0.0,
+          "heterogeneity_p": null,
+          "row_keys": [
+            "skill/Wu2024"
+          ],
+          "weights_percent": [
+            100.0
+          ],
+          "model": "fixed"
+        }
+      }
+    },
+    "satisfaction": {
+      "satisfaction/Huang2024": {
+        "random": {
+          "k": 2,
+          "gai_n": 62,
+          "traditional_n": 60,
+          "smd": 0.9139598563997717,
+          "se": 0.36758837773137604,
+          "variance": 0.13512121544318478,
+          "lower": 0.19349987491076948,
+          "upper": 1.634419837888774,
+          "p": 0.012905455777716422,
+          "Z": 2.4863676649419792,
+          "Q": 3.6425806342810287,
+          "df": 1,
+          "tau2": 0.19614731909935482,
+          "I2": 72.54693580181019,
+          "heterogeneity_p": 0.05631957424160871,
+          "row_keys": [
+            "satisfaction/Jiang2024",
+            "satisfaction/Wu2024"
+          ],
+          "weights_percent": [
+            51.09873023329411,
+            48.90126976670589
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 2,
+          "gai_n": 62,
+          "traditional_n": 60,
+          "smd": 0.8926089669281283,
+          "se": 0.19202877413412953,
+          "variance": 0.03687505009545653,
+          "lower": 0.5162394856298578,
+          "upper": 1.2689784482263988,
+          "p": 3.346682600602093e-06,
+          "Z": 4.64830841603276,
+          "Q": 3.6425806342810287,
+          "df": 1,
+          "tau2": 0.0,
+          "I2": 72.54693580181019,
+          "heterogeneity_p": 0.05631957424160871,
+          "row_keys": [
+            "satisfaction/Jiang2024",
+            "satisfaction/Wu2024"
+          ],
+          "weights_percent": [
+            54.00221347009621,
+            45.99778652990379
+          ],
+          "model": "fixed"
+        }
+      },
+      "satisfaction/Jiang2024": {
+        "random": {
+          "k": 2,
+          "gai_n": 63,
+          "traditional_n": 62,
+          "smd": 1.5056318290291664,
+          "se": 0.2241059610013517,
+          "variance": 0.050223481756339367,
+          "lower": 1.066392216745779,
+          "upper": 1.9448714413125536,
+          "p": 1.8374009842370386e-11,
+          "Z": 6.718392595635085,
+          "Q": 1.1987341937287717,
+          "df": 1,
+          "tau2": 0.01667586759060859,
+          "I2": 16.578670631776248,
+          "heterogeneity_p": 0.2735748190187641,
+          "row_keys": [
+            "satisfaction/Huang2024",
+            "satisfaction/Wu2024"
+          ],
+          "weights_percent": [
+            48.13920957155979,
+            51.86079042844022
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 2,
+          "gai_n": 63,
+          "traditional_n": 62,
+          "smd": 1.5039731802790353,
+          "se": 0.20462576760675785,
+          "variance": 0.04187170476865487,
+          "lower": 1.102914045460927,
+          "upper": 1.9050323150971435,
+          "p": 1.983968934124079e-13,
+          "Z": 7.349871904545838,
+          "Q": 1.1987341937287717,
+          "df": 1,
+          "tau2": 0.0,
+          "I2": 16.578670631776248,
+          "heterogeneity_p": 0.2735748190187641,
+          "row_keys": [
+            "satisfaction/Huang2024",
+            "satisfaction/Wu2024"
+          ],
+          "weights_percent": [
+            47.769406886065504,
+            52.230593113934496
+          ],
+          "model": "fixed"
+        }
+      },
+      "satisfaction/Wu2024": {
+        "random": {
+          "k": 2,
+          "gai_n": 63,
+          "traditional_n": 62,
+          "smd": 1.1381202057713968,
+          "se": 0.5918819489091871,
+          "variance": 0.3503242414445376,
+          "lower": -0.02194709718998622,
+          "upper": 2.29818750873278,
+          "p": 0.05449464583240639,
+          "Z": 1.9228837910480345,
+          "Q": 8.987952849635771,
+          "df": 1,
+          "tau2": 0.6228132549719414,
+          "I2": 88.8739959284441,
+          "heterogeneity_p": 0.0027176528036806065,
+          "row_keys": [
+            "satisfaction/Huang2024",
+            "satisfaction/Jiang2024"
+          ],
+          "weights_percent": [
+            49.30900517563736,
+            50.69099482436265
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 2,
+          "gai_n": 63,
+          "traditional_n": 62,
+          "smd": 1.0727745298156306,
+          "se": 0.1959159304241372,
+          "variance": 0.03838305179395537,
+          "lower": 0.6887863621866666,
+          "upper": 1.4567626974445946,
+          "p": 4.358147249509818e-08,
+          "Z": 5.475688105062143,
+          "Q": 8.987952849635771,
+          "df": 1,
+          "tau2": 0.0,
+          "I2": 88.8739959284441,
+          "heterogeneity_p": 0.0027176528036806065,
+          "row_keys": [
+            "satisfaction/Huang2024",
+            "satisfaction/Jiang2024"
+          ],
+          "weights_percent": [
+            43.78937109928622,
+            56.21062890071378
+          ],
+          "model": "fixed"
+        }
+      }
+    },
+    "geography/Asia": {
+      "knowledge/Ba2024": {
+        "random": {
+          "k": 7,
+          "gai_n": 246,
+          "traditional_n": 247,
+          "smd": 0.2920900954563817,
+          "se": 0.47756357975833175,
+          "variance": 0.22806697271159249,
+          "lower": -0.6439173211979701,
+          "upper": 1.2280975121107336,
+          "p": 0.5407855181537568,
+          "Z": 0.6116255674358422,
+          "Q": 139.11356511600297,
+          "df": 6,
+          "tau2": 1.5223477468783577,
+          "I2": 95.68697704282341,
+          "heterogeneity_p": 1.5417285923536283e-27,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            14.433513767660294,
+            14.627939407055663,
+            14.251905917703194,
+            14.33080966259688,
+            14.216673762999392,
+            14.133070839538385,
+            14.006086642446173
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 7,
+          "gai_n": 246,
+          "traditional_n": 247,
+          "smd": 0.1726699495909231,
+          "se": 0.09786728574132614,
+          "variance": 0.009578005618374378,
+          "lower": -0.019146405726766486,
+          "upper": 0.36448630490861267,
+          "p": 0.07767684626269519,
+          "Z": 1.7643275613805058,
+          "Q": 139.11356511600297,
+          "df": 6,
+          "tau2": 0.0,
+          "I2": 95.68697704282341,
+          "heterogeneity_p": 1.5417285923536283e-27,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            16.57863433750205,
+            26.047584512950078,
+            12.293962634556557,
+            13.861603648523936,
+            11.698469829460825,
+            10.48338941890121,
+            9.036355618105329
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Bhatia2024": {
+        "random": {
+          "k": 7,
+          "gai_n": 235,
+          "traditional_n": 235,
+          "smd": 0.5434911926851881,
+          "se": 0.3138183108312751,
+          "variance": 0.0984819322129948,
+          "lower": -0.071581394233307,
+          "upper": 1.1585637796036832,
+          "p": 0.0832974633474378,
+          "Z": 1.7318657768743042,
+          "Q": 60.87478531315855,
+          "df": 6,
+          "tau2": 0.6164916256291804,
+          "I2": 90.14370240628503,
+          "heterogeneity_p": 2.988894449115547e-11,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            14.732245120877726,
+            15.075392405000526,
+            14.182309364383864,
+            14.364572755509563,
+            14.101772492838275,
+            13.912721671360195,
+            13.630986190029832
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 7,
+          "gai_n": 235,
+          "traditional_n": 235,
+          "smd": 0.45829690374117804,
+          "se": 0.09697668812445996,
+          "variance": 0.009404478039588774,
+          "lower": 0.26822608767726336,
+          "upper": 0.6483677198050928,
+          "p": 2.291591579376597e-06,
+          "Z": 4.725846103890446,
+          "Q": 60.87478531315855,
+          "df": 6,
+          "tau2": 0.0,
+          "I2": 90.14370240628503,
+          "heterogeneity_p": 2.988894449115547e-11,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            18.090004050486062,
+            25.57567267098221,
+            12.071229254074645,
+            13.610468849166582,
+            11.48652516938374,
+            10.293458732304128,
+            8.87264127360261
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Gan2024": {
+        "random": {
+          "k": 7,
+          "gai_n": 231,
+          "traditional_n": 229,
+          "smd": 0.24085327327374026,
+          "se": 0.4931979374255485,
+          "variance": 0.2432442054808153,
+          "lower": -0.725796921329774,
+          "upper": 1.2075034678772545,
+          "p": 0.6253018643296095,
+          "Z": 0.48835012273363093,
+          "Q": 139.21430830373203,
+          "df": 6,
+          "tau2": 1.6263165392241472,
+          "I2": 95.69009818523148,
+          "heterogeneity_p": 1.4680862635898357e-27,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            14.493455900915427,
+            14.443660662397521,
+            14.273012189134631,
+            14.347186962895385,
+            14.239875433781295,
+            14.161204697243747,
+            14.041604153631988
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 7,
+          "gai_n": 231,
+          "traditional_n": 229,
+          "smd": 0.0919672407173559,
+          "se": 0.10182571687604683,
+          "variance": 0.010368476617320849,
+          "lower": -0.10760749705966827,
+          "upper": 0.29154197849438007,
+          "p": 0.3664288607504367,
+          "Z": 0.9031828455409578,
+          "Q": 139.21430830373203,
+          "df": 6,
+          "tau2": 0.0,
+          "I2": 95.69009818523148,
+          "heterogeneity_p": 1.4680862635898357e-27,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            19.944305597305195,
+            17.946865905543007,
+            13.308581054293702,
+            15.00559918576068,
+            12.663942340199291,
+            11.348581572308003,
+            9.782124344590123
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Huang2024": {
+        "random": {
+          "k": 7,
+          "gai_n": 253,
+          "traditional_n": 253,
+          "smd": 0.08684387605126453,
+          "se": 0.42777767526766286,
+          "variance": 0.18299373945740602,
+          "lower": -0.7515849608636253,
+          "upper": 0.9252727129661543,
+          "p": 0.8391258819210681,
+          "Z": 0.20301170695017182,
+          "Q": 118.55047633583338,
+          "df": 6,
+          "tau2": 1.2106480407954243,
+          "I2": 94.93886470518852,
+          "heterogeneity_p": 3.284418928691716e-23,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Gan2024",
+            "knowledge/Jiang2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            14.493001651764581,
+            14.426890316315546,
+            14.669786676409347,
+            14.299229814881004,
+            14.15788150306097,
+            14.054692664747973,
+            13.898517372820589
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 7,
+          "gai_n": 253,
+          "traditional_n": 253,
+          "smd": -0.006454647281591139,
+          "se": 0.09499895059350101,
+          "variance": 0.009024800613866447,
+          "lower": -0.19264916901395313,
+          "upper": 0.17973987445077083,
+          "p": 0.9458298894195283,
+          "Z": 0.06794440613571061,
+          "Q": 118.55047633583338,
+          "df": 6,
+          "tau2": 0.0,
+          "I2": 94.93886470518852,
+          "heterogeneity_p": 3.284418928691716e-23,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Gan2024",
+            "knowledge/Jiang2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            17.35967471798274,
+            15.62108807486269,
+            24.54313205363393,
+            13.06098723479392,
+            11.022791372734135,
+            9.877891393339814,
+            8.514435152652766
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Jiang2024": {
+        "random": {
+          "k": 7,
+          "gai_n": 254,
+          "traditional_n": 255,
+          "smd": 0.19102036912503945,
+          "se": 0.46178788635434287,
+          "variance": 0.2132480519836115,
+          "lower": -0.714067256626348,
+          "upper": 1.096107994876427,
+          "p": 0.6791275789801181,
+          "Z": 0.41365391940676444,
+          "Q": 135.99318086469123,
+          "df": 6,
+          "tau2": 1.421119310235675,
+          "I2": 95.5880140740514,
+          "heterogeneity_p": 7.017339202789786e-27,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            14.476078772358203,
+            14.41944240083743,
+            14.627165250614373,
+            14.225759688117222,
+            14.188223594183073,
+            14.099203742444114,
+            13.964126551445588
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 7,
+          "gai_n": 254,
+          "traditional_n": 255,
+          "smd": 0.0695505146574793,
+          "se": 0.09570843369181689,
+          "variance": 0.009160104279740912,
+          "lower": -0.1180345683952217,
+          "upper": 0.2571355977101803,
+          "p": 0.46741490134651487,
+          "Z": 0.7266915983750541,
+          "Q": 135.99318086469123,
+          "df": 6,
+          "tau2": 0.0,
+          "I2": 95.5880140740514,
+          "heterogeneity_p": 7.017339202789786e-27,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            17.61993837678562,
+            15.855286100050007,
+            24.91109317332841,
+            11.757560418187532,
+            11.188049769535588,
+            10.02598496058995,
+            8.642087201522882
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Tabuchi2024": {
+        "random": {
+          "k": 7,
+          "gai_n": 258,
+          "traditional_n": 257,
+          "smd": 0.4168804931734957,
+          "se": 0.43541996733329075,
+          "variance": 0.18959054795252397,
+          "lower": -0.436526960949361,
+          "upper": 1.2702879472963524,
+          "p": 0.3383544872237618,
+          "Z": 0.9574216261295062,
+          "Q": 123.62527052571194,
+          "df": 6,
+          "tau2": 1.257370353909127,
+          "I2": 95.14662336067276,
+          "heterogeneity_p": 2.820250519443787e-24,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            14.479662505251557,
+            14.415958553626751,
+            14.64990823490096,
+            14.198576520242865,
+            14.292887977127917,
+            14.056926684308475,
+            13.906079524541468
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 7,
+          "gai_n": 258,
+          "traditional_n": 257,
+          "smd": 0.2560936624255243,
+          "se": 0.09473354814336742,
+          "variance": 0.008974445143831711,
+          "lower": 0.07041931993683284,
+          "upper": 0.44176800491421575,
+          "p": 0.006865374378457028,
+          "Z": 2.70330487398148,
+          "Q": 123.62527052571194,
+          "df": 6,
+          "tau2": 0.0,
+          "I2": 95.14662336067276,
+          "heterogeneity_p": 2.820250519443787e-24,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            17.262813344809466,
+            15.533927453136032,
+            24.406189310678872,
+            11.519255433770622,
+            12.98811114816712,
+            9.822775952528916,
+            8.466927356908963
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Wu2024": {
+        "random": {
+          "k": 7,
+          "gai_n": 254,
+          "traditional_n": 255,
+          "smd": 0.03848409101724786,
+          "se": 0.40827486451839917,
+          "variance": 0.16668836499751719,
+          "lower": -0.7617199392317846,
+          "upper": 0.8386881212662802,
+          "p": 0.9249024247570876,
+          "Z": 0.09426025053647051,
+          "Q": 110.08389603519527,
+          "df": 6,
+          "tau2": 1.0984203229282636,
+          "I2": 94.54961150895157,
+          "heterogeneity_p": 1.957584017010712e-21,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            14.48950641581442,
+            14.416995372468568,
+            14.683721976475661,
+            14.170222096346357,
+            14.277159471591803,
+            14.12261003379416,
+            13.839784633509044
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 7,
+          "gai_n": 254,
+          "traditional_n": 255,
+          "smd": -0.01795789209506209,
+          "se": 0.09419883336345208,
+          "variance": 0.008873420207035413,
+          "lower": -0.20258421287311823,
+          "upper": 0.16666842868299403,
+          "p": 0.8488090925092411,
+          "Z": 0.190638158179457,
+          "Q": 110.08389603519527,
+          "df": 6,
+          "tau2": 0.0,
+          "I2": 94.54961150895157,
+          "heterogeneity_p": 1.957584017010712e-21,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            17.068486609380663,
+            15.359062710636607,
+            24.131449904171443,
+            11.389583678749986,
+            12.841904548559263,
+            10.837897022840767,
+            8.37161552566127
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Zeng2025": {
+        "random": {
+          "k": 7,
+          "gai_n": 264,
+          "traditional_n": 264,
+          "smd": 0.1543199826632272,
+          "se": 0.44665236507037087,
+          "variance": 0.19949833522295585,
+          "lower": -0.7211025664843357,
+          "upper": 1.02974253181079,
+          "p": 0.7297158336230177,
+          "Z": 0.34550356100524354,
+          "Q": 133.99698155146186,
+          "df": 6,
+          "tau2": 1.3300281650590795,
+          "I2": 95.52228719592786,
+          "heterogeneity_p": 1.849215937445374e-26,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024"
+          ],
+          "weights_percent": [
+            14.435320119180727,
+            14.375136236399337,
+            14.596022096586296,
+            14.169556199985395,
+            14.258787228707053,
+            14.129756270683094,
+            14.035421848458093
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 7,
+          "gai_n": 264,
+          "traditional_n": 264,
+          "smd": 0.07188952947646399,
+          "se": 0.09357370356617446,
+          "variance": 0.008756037999090291,
+          "lower": -0.11151155941326518,
+          "upper": 0.25529061836619316,
+          "p": 0.44232895055904986,
+          "Z": 0.7682663690405753,
+          "Q": 133.99698155146186,
+          "df": 6,
+          "tau2": 0.0,
+          "I2": 95.52228719592786,
+          "heterogeneity_p": 1.849215937445374e-26,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Tabuchi2024",
+            "knowledge/Wu2024"
+          ],
+          "weights_percent": [
+            16.842695809695293,
+            15.155885057502061,
+            23.8122265602321,
+            11.238916354472094,
+            12.672025170037864,
+            10.694527695981407,
+            9.583723352079176
+          ],
+          "model": "fixed"
+        }
+      }
+    },
+    "geography/Europe": {
+      "knowledge/Cicek2024_immediate": {
+        "random": {
+          "k": 2,
+          "gai_n": 54,
+          "traditional_n": 47,
+          "smd": 0.5912319473931311,
+          "se": 0.20485562878850427,
+          "variance": 0.041965828646333456,
+          "lower": 0.1897222929373561,
+          "upper": 0.9927416018489061,
+          "p": 0.003900595949530647,
+          "Z": 2.8860908088765624,
+          "Q": 0.3307505420862717,
+          "df": 1,
+          "tau2": 0,
+          "I2": 0,
+          "heterogeneity_p": 0.5652174755726285,
+          "row_keys": [
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024"
+          ],
+          "weights_percent": [
+            70.05932640251353,
+            29.940673597486477
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 2,
+          "gai_n": 54,
+          "traditional_n": 47,
+          "smd": 0.5912319473931311,
+          "se": 0.20485562878850427,
+          "variance": 0.041965828646333456,
+          "lower": 0.1897222929373561,
+          "upper": 0.9927416018489061,
+          "p": 0.003900595949530647,
+          "Z": 2.8860908088765624,
+          "Q": 0.3307505420862717,
+          "df": 1,
+          "tau2": 0.0,
+          "I2": 0,
+          "heterogeneity_p": 0.5652174755726285,
+          "row_keys": [
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024"
+          ],
+          "weights_percent": [
+            70.05932640251353,
+            29.940673597486477
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Kavadella2024": {
+        "random": {
+          "k": 2,
+          "gai_n": 71,
+          "traditional_n": 75,
+          "smd": 0.22796422068089628,
+          "se": 0.486862267601974,
+          "variance": 0.23703486761453615,
+          "lower": -0.7262682892504747,
+          "upper": 1.1821967306122674,
+          "p": 0.6396190909807792,
+          "Z": 0.46823144008207385,
+          "Q": 5.478635112356119,
+          "df": 1,
+          "tau2": 0.3922493262221925,
+          "I2": 81.74727866536189,
+          "heterogeneity_p": 0.01925028436160755,
+          "row_keys": [
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Svendsen2024"
+          ],
+          "weights_percent": [
+            55.47910265318183,
+            44.520897346818174
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 2,
+          "gai_n": 71,
+          "traditional_n": 75,
+          "smd": -0.012424765985664613,
+          "se": 0.16735417453747278,
+          "variance": 0.028007419735118905,
+          "lower": -0.3404329207415414,
+          "upper": 0.3155833887702122,
+          "p": 0.9408175541589727,
+          "Z": 0.07424234274408581,
+          "Q": 5.478635112356119,
+          "df": 1,
+          "tau2": 0.0,
+          "I2": 81.74727866536189,
+          "heterogeneity_p": 0.01925028436160755,
+          "row_keys": [
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Svendsen2024"
+          ],
+          "weights_percent": [
+            80.01800417992553,
+            19.981995820074467
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Svendsen2024": {
+        "random": {
+          "k": 2,
+          "gai_n": 95,
+          "traditional_n": 90,
+          "smd": 0.13578617443477822,
+          "se": 0.3607818648227064,
+          "variance": 0.13016355398494958,
+          "lower": -0.5713332868929246,
+          "upper": 0.8429056357624811,
+          "p": 0.706644515937114,
+          "Z": 0.37636640772258767,
+          "Q": 5.498759352473806,
+          "df": 1,
+          "tau2": 0.2134702127801398,
+          "I2": 81.81407957869413,
+          "heterogeneity_p": 0.019029970338720642,
+          "row_keys": [
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Kavadella2024"
+          ],
+          "weights_percent": [
+            52.38568455557223,
+            47.61431544442777
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 2,
+          "gai_n": 95,
+          "traditional_n": 90,
+          "smd": 0.058255172493315445,
+          "se": 0.14863475009639263,
+          "variance": 0.022092288936217088,
+          "lower": -0.23306358454672546,
+          "upper": 0.34957392953335636,
+          "p": 0.6951061832068535,
+          "Z": 0.3919350788125643,
+          "Q": 5.498759352473806,
+          "df": 1,
+          "tau2": 0.0,
+          "I2": 81.81407957869413,
+          "heterogeneity_p": 0.019029970338720642,
+          "row_keys": [
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Kavadella2024"
+          ],
+          "weights_percent": [
+            63.118305262005116,
+            36.88169473799488
+          ],
+          "model": "fixed"
+        }
+      }
+    },
+    "duration/short": {
+      "knowledge/Bhatia2024": {
+        "random": {
+          "k": 4,
+          "gai_n": 129,
+          "traditional_n": 133,
+          "smd": 0.037478428487640755,
+          "se": 0.3657740352897774,
+          "variance": 0.13379064489216735,
+          "lower": -0.6794255071602058,
+          "upper": 0.7543823641354872,
+          "p": 0.9183889119514665,
+          "Z": 0.1024633376667898,
+          "Q": 22.501264596166386,
+          "df": 3,
+          "tau2": 0.456232418795618,
+          "I2": 86.66741601487091,
+          "heterogeneity_p": 5.1299021744531866e-05,
+          "row_keys": [
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Jiang2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            27.235634121056503,
+            25.46793347066781,
+            22.43320102789359,
+            24.863231380382107
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 4,
+          "gai_n": 129,
+          "traditional_n": 133,
+          "smd": -0.049336680877735246,
+          "se": 0.12660150942608553,
+          "variance": 0.01602794218896322,
+          "lower": -0.29747107974127107,
+          "upper": 0.19879771798580056,
+          "p": 0.6967579721030461,
+          "Z": 0.38970057388249196,
+          "Q": 22.501264596166386,
+          "df": 3,
+          "tau2": 0.0,
+          "I2": 86.66741601487091,
+          "heterogeneity_p": 5.1299021744531866e-05,
+          "row_keys": [
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Jiang2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            45.79229208551077,
+            23.196163249126542,
+            11.435193846960017,
+            19.57635081840266
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Cicek2024_immediate": {
+        "random": {
+          "k": 4,
+          "gai_n": 123,
+          "traditional_n": 124,
+          "smd": -0.36500142151513243,
+          "se": 0.6561500557566121,
+          "variance": 0.43053289566940517,
+          "lower": -1.6510318992520405,
+          "upper": 0.9210290562217756,
+          "p": 0.5780212609761619,
+          "Z": 0.5562773611201576,
+          "Q": 63.938880364821706,
+          "df": 3,
+          "tau2": 1.6354794311644445,
+          "I2": 95.30801918506762,
+          "heterogeneity_p": 8.458840522560882e-14,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Jiang2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            25.42638297105257,
+            25.25746517413796,
+            24.24659500444282,
+            25.069556850366652
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 4,
+          "gai_n": 123,
+          "traditional_n": 124,
+          "smd": -0.5694391911399143,
+          "se": 0.13985012717156203,
+          "variance": 0.01955805806990207,
+          "lower": -0.8435404036295222,
+          "upper": -0.29533797865030625,
+          "p": 4.665489048717967e-05,
+          "Z": 4.071781718448858,
+          "Q": 63.938880364821706,
+          "df": 3,
+          "tau2": 0.0,
+          "I2": 95.30801918506762,
+          "heterogeneity_p": 8.458840522560882e-14,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Jiang2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            33.853174242298046,
+            28.30506265100843,
+            13.953767904992539,
+            23.88799520170098
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Jiang2024": {
+        "random": {
+          "k": 4,
+          "gai_n": 148,
+          "traditional_n": 153,
+          "smd": -0.5835679538435012,
+          "se": 0.5078119331256636,
+          "variance": 0.25787295942482347,
+          "lower": -1.5788610536894643,
+          "upper": 0.4117251460024619,
+          "p": 0.25048124924728987,
+          "Z": 1.1491812534840353,
+          "Q": 45.99166032488435,
+          "df": 3,
+          "tau2": 0.9542429905024196,
+          "I2": 93.47707828156659,
+          "heterogeneity_p": 5.694689332555998e-10,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            25.48111036653917,
+            26.067669682600464,
+            23.5628182671346,
+            24.88840168372577
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 4,
+          "gai_n": 148,
+          "traditional_n": 153,
+          "smd": -0.677888723639104,
+          "se": 0.12381797559716289,
+          "variance": 0.015330891080979625,
+          "lower": -0.9205674964482026,
+          "upper": -0.43520995083000547,
+          "p": 4.378048870066905e-08,
+          "Z": 5.474881335845689,
+          "Q": 45.99166032488435,
+          "df": 3,
+          "tau2": 0.0,
+          "I2": 93.47707828156659,
+          "heterogeneity_p": 5.694689332555998e-10,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            26.5363424732226,
+            43.80079701028562,
+            10.937880190156374,
+            18.724980326335405
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Svendsen2024": {
+        "random": {
+          "k": 4,
+          "gai_n": 164,
+          "traditional_n": 167,
+          "smd": -0.5962307205408998,
+          "se": 0.5130123995333127,
+          "variance": 0.2631817220749272,
+          "lower": -1.6017165472486656,
+          "upper": 0.409255106166866,
+          "p": 0.24514813159573778,
+          "Z": 1.1622150284930555,
+          "Q": 54.83202767396473,
+          "df": 3,
+          "tau2": 0.992074164233712,
+          "I2": 94.528745101607,
+          "heterogeneity_p": 7.456723380010684e-12,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Jiang2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            25.06857034619767,
+            25.62437778424966,
+            24.80105335504097,
+            24.505998514511706
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 4,
+          "gai_n": 164,
+          "traditional_n": 167,
+          "smd": -0.5590369569105964,
+          "se": 0.11739096938473169,
+          "variance": 0.013780639693087014,
+          "lower": -0.7891190290149146,
+          "upper": -0.3289548848062782,
+          "p": 1.9151249266725167e-06,
+          "Z": 4.762180258333456,
+          "Q": 54.83202767396473,
+          "df": 3,
+          "tau2": 0.0,
+          "I2": 94.528745101607,
+          "heterogeneity_p": 7.456723380010684e-12,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Jiang2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            23.85300192038643,
+            39.37168418198817,
+            19.94379342211221,
+            16.83152047551319
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Tabuchi2024": {
+        "random": {
+          "k": 4,
+          "gai_n": 152,
+          "traditional_n": 155,
+          "smd": -0.1788448123373538,
+          "se": 0.5776376063856152,
+          "variance": 0.33366520431090296,
+          "lower": -1.3109937169690837,
+          "upper": 0.9533040922943761,
+          "p": 0.7568543474028128,
+          "Z": 0.3096142120254578,
+          "Q": 62.351293824522074,
+          "df": 3,
+          "tau2": 1.2602813674310633,
+          "I2": 95.18855212781465,
+          "heterogeneity_p": 1.848231380236152e-13,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Jiang2024",
+            "knowledge/Svendsen2024"
+          ],
+          "weights_percent": [
+            25.314976749861284,
+            25.760028106453632,
+            25.099333334479162,
+            23.825661809205922
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 4,
+          "gai_n": 152,
+          "traditional_n": 155,
+          "smd": -0.3448713639661038,
+          "se": 0.12172855050926773,
+          "variance": 0.014817840009087346,
+          "lower": -0.5834549388545334,
+          "upper": -0.1062877890776742,
+          "p": 0.004609634693840892,
+          "Z": 2.8331181347620435,
+          "Q": 62.351293824522074,
+          "df": 3,
+          "tau2": 0.0,
+          "I2": 95.18855212781465,
+          "heterogeneity_p": 1.848231380236152e-13,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Jiang2024",
+            "knowledge/Svendsen2024"
+          ],
+          "weights_percent": [
+            25.648298922585262,
+            42.33499533332092,
+            21.444863713503473,
+            10.571842030590345
+          ],
+          "model": "fixed"
+        }
+      }
+    },
+    "duration/long": {
+      "knowledge/Ba2024": {
+        "random": {
+          "k": 4,
+          "gai_n": 145,
+          "traditional_n": 138,
+          "smd": 0.8270698030562631,
+          "se": 0.30704837886947356,
+          "variance": 0.09427870696637178,
+          "lower": 0.22526603896068553,
+          "upper": 1.4288735671518407,
+          "p": 0.007068197545531479,
+          "Z": 2.6936139708715117,
+          "Q": 16.80372697704891,
+          "df": 3,
+          "tau2": 0.3055516442489709,
+          "I2": 82.14681776193163,
+          "heterogeneity_p": 0.0007755597478759926,
+          "row_keys": [
+            "knowledge/Gan2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            27.54087626487699,
+            25.79783149946292,
+            23.752854060829943,
+            22.90843817483014
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 4,
+          "gai_n": 145,
+          "traditional_n": 138,
+          "smd": 0.6810281719034599,
+          "se": 0.12473779897817645,
+          "variance": 0.01555951849391996,
+          "lower": 0.43654657839543687,
+          "upper": 0.9255097654114829,
+          "p": 4.76999864327437e-08,
+          "Z": 5.459677639675279,
+          "Q": 16.80372697704891,
+          "df": 3,
+          "tau2": 0.0,
+          "I2": 82.14681776193163,
+          "heterogeneity_p": 0.0007755597478759926,
+          "row_keys": [
+            "knowledge/Gan2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            42.314432575993536,
+            25.97564304087023,
+            17.03031904986949,
+            14.67960533326675
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Gan2024": {
+        "random": {
+          "k": 4,
+          "gai_n": 130,
+          "traditional_n": 120,
+          "smd": 0.7477766878381146,
+          "se": 0.3764066882839948,
+          "variance": 0.14168199498492443,
+          "lower": 0.010033135261489967,
+          "upper": 1.4855202404147392,
+          "p": 0.046964631374672834,
+          "Z": 1.9866190243514616,
+          "Q": 23.141171618955205,
+          "df": 3,
+          "tau2": 0.4902785584732594,
+          "I2": 87.03609285908988,
+          "heterogeneity_p": 3.7737231964777635e-05,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            26.127780542000107,
+            25.75198277414944,
+            24.35896099613168,
+            23.76127568771877
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 4,
+          "gai_n": 130,
+          "traditional_n": 120,
+          "smd": 0.6146612808855305,
+          "se": 0.13326268653606171,
+          "variance": 0.017758943622808648,
+          "lower": 0.35347121479179877,
+          "upper": 0.8758513469792623,
+          "p": 3.980393667811324e-06,
+          "Z": 4.612403493150345,
+          "Q": 23.141171618955205,
+          "df": 3,
+          "tau2": 0.0,
+          "I2": 87.03609285908988,
+          "heterogeneity_p": 3.7737231964777635e-05,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            34.160254372076736,
+            29.647445742570625,
+            19.437650079162676,
+            16.75464980618997
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Kavadella2024": {
+        "random": {
+          "k": 4,
+          "gai_n": 145,
+          "traditional_n": 145,
+          "smd": 0.684473889213751,
+          "se": 0.367092731123634,
+          "variance": 0.13475707324380864,
+          "lower": -0.035014642775017424,
+          "upper": 1.4039624212025195,
+          "p": 0.06224025078236749,
+          "Z": 1.8645803394653038,
+          "Q": 25.077670672505967,
+          "df": 3,
+          "tau2": 0.46896774421009596,
+          "I2": 88.03716645306669,
+          "heterogeneity_p": 1.4873756483283963e-05,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Gan2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            25.867320573849113,
+            26.645580422735797,
+            24.04953181334996,
+            23.43756719006513
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 4,
+          "gai_n": 145,
+          "traditional_n": 145,
+          "smd": 0.5074660710594364,
+          "se": 0.12234259216908396,
+          "variance": 0.014967709858650804,
+          "lower": 0.26767899663275985,
+          "upper": 0.747253145486113,
+          "p": 3.3552412507596014e-05,
+          "Z": 4.147910078266867,
+          "Q": 25.077670672505967,
+          "df": 3,
+          "tau2": 0.0,
+          "I2": 88.03716645306669,
+          "heterogeneity_p": 1.4873756483283963e-05,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Gan2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            28.791170634849284,
+            40.70499674385176,
+            16.382568293376615,
+            14.121264327922326
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Wu2024": {
+        "random": {
+          "k": 4,
+          "gai_n": 153,
+          "traditional_n": 146,
+          "smd": 0.3646630755950363,
+          "se": 0.18112099089234113,
+          "variance": 0.032804813341823516,
+          "lower": 0.009672456601840573,
+          "upper": 0.719653694588232,
+          "p": 0.04407600584583577,
+          "Z": 2.013367273436535,
+          "Q": 6.7529821723764725,
+          "df": 3,
+          "tau2": 0.07189645402903705,
+          "I2": 55.57518258715828,
+          "heterogeneity_p": 0.08020202654610827,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Gan2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            26.480350542516234,
+            30.18820827003665,
+            24.890434113825425,
+            18.4410070736217
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 4,
+          "gai_n": 153,
+          "traditional_n": 146,
+          "smd": 0.3268719044308865,
+          "se": 0.11739580916493887,
+          "variance": 0.013781776009490746,
+          "lower": 0.09678034653166909,
+          "upper": 0.5569634623301039,
+          "p": 0.0053633878755239344,
+          "Z": 2.7843575231176922,
+          "Q": 6.7529821723764725,
+          "df": 3,
+          "tau2": 0.0,
+          "I2": 55.57518258715828,
+          "heterogeneity_p": 0.08020202654610827,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Gan2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            26.50996501720587,
+            37.479825096060665,
+            23.00781314226716,
+            13.0023967444663
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Zeng2025": {
+        "random": {
+          "k": 4,
+          "gai_n": 163,
+          "traditional_n": 155,
+          "smd": 0.5871229025202805,
+          "se": 0.33133391653849553,
+          "variance": 0.10978216424873873,
+          "lower": -0.06227964075177084,
+          "upper": 1.2365254457923318,
+          "p": 0.07639495681273084,
+          "Z": 1.7719975928032303,
+          "Q": 23.410084337802367,
+          "df": 3,
+          "tau2": 0.380003855009698,
+          "I2": 87.18500985852651,
+          "heterogeneity_p": 3.3166012193434434e-05,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Gan2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Wu2024"
+          ],
+          "weights_percent": [
+            25.413067002511823,
+            26.34086823329069,
+            24.955921376475295,
+            23.290143387722186
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 4,
+          "gai_n": 163,
+          "traditional_n": 155,
+          "smd": 0.4583715881399872,
+          "se": 0.11619240003169284,
+          "variance": 0.013500673825124937,
+          "lower": 0.23063866880059858,
+          "upper": 0.6861045074793758,
+          "p": 7.982127652592006e-05,
+          "Z": 3.944936054466221,
+          "Q": 23.410084337802367,
+          "df": 3,
+          "tau2": 0.0,
+          "I2": 87.18500985852651,
+          "heterogeneity_p": 3.3166012193434434e-05,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Gan2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Wu2024"
+          ],
+          "weights_percent": [
+            25.969250303175837,
+            36.71536188777055,
+            22.538530625462517,
+            14.776857183591092
+          ],
+          "model": "fixed"
+        }
+      }
+    },
+    "course/theory": {
+      "knowledge/Bhatia2024": {
+        "random": {
+          "k": 5,
+          "gai_n": 191,
+          "traditional_n": 190,
+          "smd": 0.06480248806277616,
+          "se": 0.26261130740873007,
+          "variance": 0.06896469877892253,
+          "lower": -0.4499062163913114,
+          "upper": 0.5795111925168637,
+          "p": 0.8050924307228141,
+          "Z": 0.24676198714443442,
+          "Q": 23.363774821468347,
+          "df": 4,
+          "tau2": 0.27802883178842486,
+          "I2": 82.87947889172213,
+          "heterogeneity_p": 0.00010710374397464946,
+          "row_keys": [
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            22.03132231990426,
+            21.907463466466286,
+            20.408028908681157,
+            16.491152671985674,
+            19.162032632962614
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 5,
+          "gai_n": 191,
+          "traditional_n": 190,
+          "smd": 0.046065308093573745,
+          "se": 0.10436600009692255,
+          "variance": 0.010892261976230838,
+          "lower": -0.15848829330689823,
+          "upper": 0.25061890949404575,
+          "p": 0.6589362336264295,
+          "Z": 0.4413823280646364,
+          "Q": 23.363774821468347,
+          "df": 4,
+          "tau2": 0.0,
+          "I2": 82.87947889172213,
+          "heterogeneity_p": 0.00010710374397464946,
+          "row_keys": [
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            31.119505923282183,
+            29.621731879002507,
+            18.18395017254391,
+            7.77112405707575,
+            13.303687968095655
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Cicek2024_immediate": {
+        "random": {
+          "k": 5,
+          "gai_n": 185,
+          "traditional_n": 181,
+          "smd": -0.2561788872132619,
+          "se": 0.49667386074403785,
+          "variance": 0.2466849239463879,
+          "lower": -1.2296417663340382,
+          "upper": 0.7172839919075145,
+          "p": 0.606001823727988,
+          "Z": 0.5157889461496834,
+          "Q": 75.51927652793863,
+          "df": 4,
+          "tau2": 1.1591196507595678,
+          "I2": 94.70333908916595,
+          "heterogeneity_p": 1.5473094520079476e-15,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Gan2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            20.27170479163719,
+            20.627712535942297,
+            20.2363300223956,
+            18.98623610542753,
+            19.8780165445974
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 5,
+          "gai_n": 185,
+          "traditional_n": 181,
+          "smd": -0.2707482495047576,
+          "se": 0.11142306855276707,
+          "variance": 0.01241510020571463,
+          "lower": -0.48913345091511856,
+          "upper": -0.05236304809439668,
+          "p": 0.015102489894997646,
+          "Z": 2.429911983410673,
+          "Q": 75.51927652793863,
+          "df": 4,
+          "tau2": 0.0,
+          "I2": 94.70333908916595,
+          "heterogeneity_p": 1.5473094520079476e-15,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Gan2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            21.489380438359245,
+            33.76312196191651,
+            20.72623335910389,
+            8.85759854933463,
+            15.163665691285726
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Gan2024": {
+        "random": {
+          "k": 5,
+          "gai_n": 187,
+          "traditional_n": 184,
+          "smd": -0.3607609691064913,
+          "se": 0.4579374155977824,
+          "variance": 0.20970667660437606,
+          "lower": -1.2583018108514956,
+          "upper": 0.5367798726385129,
+          "p": 0.43081641822618744,
+          "Z": 0.7877953554757283,
+          "Q": 64.88149792887097,
+          "df": 4,
+          "tau2": 0.9747785224576622,
+          "I2": 93.83491422410567,
+          "heterogeneity_p": 2.7254469410069197e-13,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            20.309556842327325,
+            20.767562560348658,
+            20.267801789700286,
+            18.808755497214335,
+            19.846323310409385
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 5,
+          "gai_n": 187,
+          "traditional_n": 184,
+          "smd": -0.4349581342566942,
+          "se": 0.11048398122023098,
+          "variance": 0.012206710106272353,
+          "lower": -0.6515027583169466,
+          "upper": -0.2184135101964418,
+          "p": 8.256043896743934e-05,
+          "Z": 3.936843417958295,
+          "Q": 64.88149792887097,
+          "df": 4,
+          "tau2": 0.0,
+          "I2": 93.83491422410567,
+          "heterogeneity_p": 2.7254469410069197e-13,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            21.12867661379879,
+            34.87492205795992,
+            20.378339120700613,
+            8.708921872390375,
+            14.909140335150305
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Kavadella2024": {
+        "random": {
+          "k": 5,
+          "gai_n": 202,
+          "traditional_n": 209,
+          "smd": -0.40434409912537983,
+          "se": 0.42966755474559026,
+          "variance": 0.18461420760105482,
+          "lower": -1.2464770317521288,
+          "upper": 0.4377888335013691,
+          "p": 0.34667274084350586,
+          "Z": 0.9410626766193583,
+          "Q": 63.95900634111413,
+          "df": 4,
+          "tau2": 0.8543289284431369,
+          "I2": 93.74599414714683,
+          "heterogeneity_p": 4.263068860934671e-13,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            20.240519589908747,
+            20.758789193424086,
+            20.71756076711169,
+            18.563665655433034,
+            19.71946479412244
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 5,
+          "gai_n": 202,
+          "traditional_n": 209,
+          "smd": -0.39319240752724927,
+          "se": 0.10401835911043657,
+          "variance": 0.010819819032027743,
+          "lower": -0.5970646451146587,
+          "upper": -0.18932016993983977,
+          "p": 0.00015681013244155795,
+          "Z": 3.7800289380627112,
+          "Q": 63.95900634111413,
+          "df": 4,
+          "tau2": 0.0,
+          "I2": 93.74599414714683,
+          "heterogeneity_p": 4.263068860934671e-13,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            18.728097526463774,
+            30.91253434693305,
+            29.42472179290722,
+            7.7194393741613485,
+            13.2152069595346
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Svendsen2024": {
+        "random": {
+          "k": 5,
+          "gai_n": 226,
+          "traditional_n": 224,
+          "smd": -0.43615336285550294,
+          "se": 0.41293800118038587,
+          "variance": 0.17051779281885238,
+          "lower": -1.2454969730170176,
+          "upper": 0.37319024730601175,
+          "p": 0.2908677295398996,
+          "Z": 1.056219969120681,
+          "Q": 67.56898672534588,
+          "df": 4,
+          "tau2": 0.7986704771963684,
+          "I2": 94.08012433831637,
+          "heterogeneity_p": 7.395484665906114e-14,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            19.909983540836702,
+            20.453825778362408,
+            20.410496679015587,
+            19.860653788297924,
+            19.365040213487376
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 5,
+          "gai_n": 226,
+          "traditional_n": 224,
+          "smd": -0.3261283649554838,
+          "se": 0.09902309118444357,
+          "variance": 0.009805572587722626,
+          "lower": -0.520210057314819,
+          "upper": -0.1320466725961487,
+          "p": 0.0009896322124636771,
+          "Z": 3.293457728440599,
+          "Q": 67.56898672534588,
+          "df": 4,
+          "tau2": 0.0,
+          "I2": 94.08012433831637,
+          "heterogeneity_p": 7.395484665906114e-14,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            16.97253153514834,
+            28.01480306759937,
+            26.6664575959939,
+            16.369790199455984,
+            11.976417601802407
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Tabuchi2024": {
+        "random": {
+          "k": 5,
+          "gai_n": 214,
+          "traditional_n": 212,
+          "smd": -0.10945244924085991,
+          "se": 0.4321863536865881,
+          "variance": 0.18678504431290863,
+          "lower": -0.9565221370762622,
+          "upper": 0.7376172385945423,
+          "p": 0.8000727869541892,
+          "Z": 0.25325290423267827,
+          "Q": 68.65248846618584,
+          "df": 4,
+          "tau2": 0.869513729387178,
+          "I2": 94.17355424491252,
+          "heterogeneity_p": 4.369170696914088e-14,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024"
+          ],
+          "weights_percent": [
+            20.14317691411074,
+            20.65029525270801,
+            20.60996947489439,
+            20.09707352138083,
+            18.49948483690604
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 5,
+          "gai_n": 214,
+          "traditional_n": 212,
+          "smd": -0.16476932872242092,
+          "se": 0.10158517395119056,
+          "variance": 0.010319547566693643,
+          "lower": -0.3638726110299909,
+          "upper": 0.03433395358514904,
+          "p": 0.1048071915297222,
+          "Z": 1.6219820502703373,
+          "Q": 68.65248846618584,
+          "df": 4,
+          "tau2": 0.0,
+          "I2": 94.17355424491252,
+          "heterogeneity_p": 4.369170696914088e-14,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024"
+          ],
+          "weights_percent": [
+            17.8621742827616,
+            29.4832443736762,
+            28.064223188927595,
+            17.22783928310256,
+            7.362518871532045
+          ],
+          "model": "fixed"
+        }
+      }
+    },
+    "course/practice": {
+      "knowledge/Ba2024": {
+        "random": {
+          "k": 4,
+          "gai_n": 115,
+          "traditional_n": 113,
+          "smd": 1.1468937190222441,
+          "se": 0.24495546065201004,
+          "variance": 0.060003177703238444,
+          "lower": 0.6667898383278861,
+          "upper": 1.6269975997166022,
+          "p": 2.8402015363765692e-06,
+          "Z": 4.682050018274753,
+          "Q": 8.486764577039107,
+          "df": 3,
+          "tau2": 0.1547218230673076,
+          "I2": 64.65083987228203,
+          "heterogeneity_p": 0.03695334355916313,
+          "row_keys": [
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            25.79339313513157,
+            26.808770464148523,
+            24.383065230598884,
+            23.014771170121033
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 4,
+          "gai_n": 115,
+          "traditional_n": 113,
+          "smd": 1.1307767536599498,
+          "se": 0.14480941052138224,
+          "variance": 0.020969765375550214,
+          "lower": 0.8469555244155651,
+          "upper": 1.4145979829043345,
+          "p": 5.7769741413030654e-15,
+          "Z": 7.808724236833916,
+          "Q": 8.486764577039107,
+          "df": 3,
+          "tau2": 0.0,
+          "I2": 64.65083987228203,
+          "heterogeneity_p": 0.03695334355916313,
+          "row_keys": [
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            26.9159908914511,
+            30.3481317322251,
+            22.95198240781522,
+            19.783894968508584
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Huang2024": {
+        "random": {
+          "k": 4,
+          "gai_n": 122,
+          "traditional_n": 119,
+          "smd": 0.7792837527059374,
+          "se": 0.38167482026071187,
+          "variance": 0.1456756684210467,
+          "lower": 0.03121485118914369,
+          "upper": 1.5273526542227311,
+          "p": 0.04117654729682784,
+          "Z": 2.0417478736837538,
+          "Q": 22.908083600334763,
+          "df": 3,
+          "tau2": 0.5038260093199222,
+          "I2": 86.90418608409409,
+          "heterogeneity_p": 4.2204231534168646e-05,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Jiang2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            26.20946720234723,
+            25.426727186449376,
+            24.475504550832557,
+            23.888301060370843
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 4,
+          "gai_n": 122,
+          "traditional_n": 119,
+          "smd": 0.6504480697854488,
+          "se": 0.13597250831315566,
+          "variance": 0.018488523016971185,
+          "lower": 0.38394685060409056,
+          "upper": 0.9169492889668069,
+          "p": 1.7212028151911951e-06,
+          "Z": 4.783673389972438,
+          "Q": 22.908083600334763,
+          "df": 3,
+          "tau2": 0.0,
+          "I2": 86.90418608409409,
+          "heterogeneity_p": 4.2204231534168646e-05,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Jiang2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            35.56363839190146,
+            26.757196468565404,
+            20.23619470377003,
+            17.44297043576311
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Jiang2024": {
+        "random": {
+          "k": 4,
+          "gai_n": 123,
+          "traditional_n": 121,
+          "smd": 0.9659783600728007,
+          "se": 0.4261986504273132,
+          "variance": 0.18164528962606313,
+          "lower": 0.13064435497569027,
+          "upper": 1.801312365169911,
+          "p": 0.023420913592830318,
+          "Z": 2.2664979326055965,
+          "Q": 27.69916810290562,
+          "df": 3,
+          "tau2": 0.6453171951378166,
+          "I2": 89.16934981998502,
+          "heterogeneity_p": 4.200316572149809e-06,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Huang2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            26.049642480258463,
+            25.115999739269668,
+            24.657257560657715,
+            24.177100219814157
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 4,
+          "gai_n": 123,
+          "traditional_n": 121,
+          "smd": 0.82914035373254,
+          "se": 0.1380776953063172,
+          "variance": 0.019065449941104172,
+          "lower": 0.558513043863863,
+          "upper": 1.099767663601217,
+          "p": 1.9147036512508178e-09,
+          "Z": 6.004882627082826,
+          "Q": 27.69916810290562,
+          "df": 3,
+          "tau2": 0.0,
+          "I2": 89.16934981998502,
+          "heterogeneity_p": 4.200316572149809e-06,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Huang2024",
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            36.67338742321044,
+            24.47168424471283,
+            20.867657019926146,
+            17.987271312150586
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Wu2024": {
+        "random": {
+          "k": 4,
+          "gai_n": 123,
+          "traditional_n": 121,
+          "smd": 0.6914956784384976,
+          "se": 0.3211798948661959,
+          "variance": 0.10315652486626067,
+          "lower": 0.06199465194239262,
+          "upper": 1.3209967049346025,
+          "p": 0.031319812768284,
+          "Z": 2.1529855681862524,
+          "Q": 16.86023473114159,
+          "df": 3,
+          "tau2": 0.33728752091907993,
+          "I2": 82.20665341948728,
+          "heterogeneity_p": 0.0007550915219369673,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            26.49967538138118,
+            24.84527619472407,
+            25.383945959538057,
+            23.271102464356687
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 4,
+          "gai_n": 123,
+          "traditional_n": 121,
+          "smd": 0.6051062265696804,
+          "se": 0.13365693309312807,
+          "variance": 0.01786417576386091,
+          "lower": 0.3431434514230697,
+          "upper": 0.8670690017162911,
+          "p": 5.973957500331636e-06,
+          "Z": 4.527308928658874,
+          "Q": 16.86023473114159,
+          "df": 3,
+          "tau2": 0.0,
+          "I2": 82.20665341948728,
+          "heterogeneity_p": 0.0007550915219369673,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            34.36267388434135,
+            22.929774536437584,
+            25.853620660982187,
+            16.85393091823888
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Zeng2025": {
+        "random": {
+          "k": 4,
+          "gai_n": 133,
+          "traditional_n": 130,
+          "smd": 0.895672718200551,
+          "se": 0.40641690182102147,
+          "variance": 0.16517469808579782,
+          "lower": 0.09911022792299784,
+          "upper": 1.6922352084781043,
+          "p": 0.0275364823892452,
+          "Z": 2.2038274348023763,
+          "Q": 27.984090939167505,
+          "df": 3,
+          "tau2": 0.5884201251379583,
+          "I2": 89.27962317403316,
+          "heterogeneity_p": 3.6600700737183467e-06,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Wu2024"
+          ],
+          "weights_percent": [
+            25.79213319195386,
+            24.788785138199575,
+            25.120958085311756,
+            24.29812358453482
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 4,
+          "gai_n": 133,
+          "traditional_n": 130,
+          "smd": 0.7672228034363335,
+          "se": 0.1318890070133243,
+          "variance": 0.0173947101709607,
+          "lower": 0.5087250997334674,
+          "upper": 1.0257205071391997,
+          "p": 5.984675960528979e-09,
+          "Z": 5.81718538042237,
+          "Q": 27.984090939167505,
+          "df": 3,
+          "tau2": 0.0,
+          "I2": 89.27962317403316,
+          "heterogeneity_p": 3.6600700737183467e-06,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Wu2024"
+          ],
+          "weights_percent": [
+            33.459632328884645,
+            22.327186410340335,
+            25.174194668276776,
+            19.038986592498247
+          ],
+          "model": "fixed"
+        }
+      }
+    },
+    "assessment/immediate": {
+      "knowledge/Ba2024": {
+        "random": {
+          "k": 8,
+          "gai_n": 304,
+          "traditional_n": 302,
+          "smd": 0.06002407260484569,
+          "se": 0.34844132585355175,
+          "variance": 0.12141135756258103,
+          "lower": -0.622908376793501,
+          "upper": 0.7429565220031923,
+          "p": 0.8632295878774892,
+          "Z": 0.172264505244345,
+          "Q": 112.1993828468465,
+          "df": 7,
+          "tau2": 0.90243756944447,
+          "I2": 93.76110650309451,
+          "heterogeneity_p": 3.2097625208656085e-21,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            12.644240506033828,
+            12.951387966620441,
+            12.926983157256767,
+            12.38454438434367,
+            12.496859431236501,
+            12.616290666657326,
+            11.64504692464374,
+            12.334646963207714
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 8,
+          "gai_n": 304,
+          "traditional_n": 302,
+          "smd": -0.008348901781704334,
+          "se": 0.08561552572114761,
+          "variance": 0.007330018244508488,
+          "lower": -0.17615224871261628,
+          "upper": 0.15945444514920762,
+          "p": 0.922316460042624,
+          "Z": 0.09751621229187989,
+          "Q": 112.1993828468465,
+          "df": 7,
+          "tau2": 0.0,
+          "I2": 93.76110650309451,
+          "heterogeneity_p": 3.2097625208656085e-21,
+          "row_keys": [
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            12.687577874228696,
+            20.942073067607435,
+            19.934136323643774,
+            9.408531796612156,
+            10.608242643636167,
+            12.237007043426198,
+            5.2296282666546166,
+            8.952802984190964
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Bhatia2024": {
+        "random": {
+          "k": 8,
+          "gai_n": 293,
+          "traditional_n": 290,
+          "smd": 0.27708003978475815,
+          "se": 0.22471942507484058,
+          "variance": 0.05049882000596689,
+          "lower": -0.16336193998847653,
+          "upper": 0.7175220195579928,
+          "p": 0.2175741227433854,
+          "Z": 1.2330043995639424,
+          "Q": 46.87299928606728,
+          "df": 7,
+          "tau2": 0.33714531090267713,
+          "I2": 85.06602925646214,
+          "heterogeneity_p": 5.909605361489781e-08,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            12.977282730656208,
+            13.56960006961625,
+            13.505373657593598,
+            12.166821401280151,
+            12.430702271046519,
+            12.718640816424884,
+            10.579910252250285,
+            12.051668801132102
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 8,
+          "gai_n": 293,
+          "traditional_n": 290,
+          "smd": 0.21369454444009953,
+          "se": 0.0850173671533561,
+          "variance": 0.007227952717688553,
+          "lower": 0.047063566759102976,
+          "upper": 0.38032552212109605,
+          "p": 0.011952625682887678,
+          "Z": 2.5135398989083355,
+          "Q": 46.87299928606728,
+          "df": 7,
+          "tau2": 0.0,
+          "I2": 85.06602925646214,
+          "heterogeneity_p": 5.909605361489781e-08,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            13.90334406537942,
+            20.65046892024419,
+            19.65656701103021,
+            9.27752437993311,
+            10.46053006804093,
+            12.066615029528789,
+            5.156809244067815,
+            8.82814128177554
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Cicek2024_immediate": {
+        "random": {
+          "k": 8,
+          "gai_n": 287,
+          "traditional_n": 281,
+          "smd": 0.07903308571807222,
+          "se": 0.35748107138911134,
+          "variance": 0.1277927164015069,
+          "lower": -0.621616939359378,
+          "upper": 0.7796831107955224,
+          "p": 0.8250275933207589,
+          "Z": 0.22108327417438617,
+          "Q": 110.95810911716933,
+          "df": 7,
+          "tau2": 0.9512059747908591,
+          "I2": 93.691312824547,
+          "heterogeneity_p": 5.809674135753148e-21,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            12.73859567935779,
+            12.665545641348192,
+            12.934784480691524,
+            12.417739343654965,
+            12.524972616714498,
+            12.6388990755046,
+            11.709393171537416,
+            12.370069991191015
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 8,
+          "gai_n": 287,
+          "traditional_n": 281,
+          "smd": 0.02775863627367546,
+          "se": 0.08870403663119504,
+          "variance": 0.007868406114668393,
+          "lower": -0.1460980808067885,
+          "upper": 0.20161535335413938,
+          "p": 0.7543297155484354,
+          "Z": 0.31293543482229114,
+          "Q": 110.95810911716933,
+          "df": 7,
+          "tau2": 0.0,
+          "I2": 93.691312824547,
+          "heterogeneity_p": 5.809674135753148e-21,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            15.13528958077556,
+            13.619477059378946,
+            21.398293279433645,
+            10.099585928585796,
+            11.387415214908494,
+            13.135811922142262,
+            5.613743057408593,
+            9.610383957366702
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Gan2024": {
+        "random": {
+          "k": 8,
+          "gai_n": 289,
+          "traditional_n": 284,
+          "smd": 0.014369474165747005,
+          "se": 0.3531407351822358,
+          "variance": 0.12470837884505001,
+          "lower": -0.677773648265432,
+          "upper": 0.7065125965969259,
+          "p": 0.9675426327863776,
+          "Z": 0.040690503060576505,
+          "Q": 109.18720102628997,
+          "df": 7,
+          "tau2": 0.9267877657612309,
+          "I2": 93.5889921765514,
+          "heterogeneity_p": 1.3537900028792341e-20,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            12.741272430005175,
+            12.666394938992664,
+            12.966290701265706,
+            12.412548917069833,
+            12.522365532756261,
+            12.639087102368205,
+            11.688294410005968,
+            12.363745967536179
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 8,
+          "gai_n": 289,
+          "traditional_n": 284,
+          "smd": -0.0801527132666238,
+          "se": 0.08822802064922879,
+          "variance": 0.00778418362768074,
+          "lower": -0.2530764561663684,
+          "upper": 0.09277102963312082,
+          "p": 0.36362873966730347,
+          "Z": 0.9084723047940715,
+          "Q": 109.18720102628997,
+          "df": 7,
+          "tau2": 0.0,
+          "I2": 93.5889921765514,
+          "heterogeneity_p": 1.3537900028792341e-20,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            14.973283233976193,
+            13.47369579025078,
+            22.239636637288427,
+            9.991481157167698,
+            11.265525671361331,
+            12.995207747349802,
+            5.553654216706381,
+            9.507515545899386
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Huang2024": {
+        "random": {
+          "k": 8,
+          "gai_n": 311,
+          "traditional_n": 308,
+          "smd": -0.11865452233612063,
+          "se": 0.29763134459859625,
+          "variance": 0.08858441728756836,
+          "lower": -0.7020012384195992,
+          "upper": 0.46469219374735793,
+          "p": 0.6901417382223352,
+          "Z": 0.3986627231622575,
+          "Q": 85.76990048346754,
+          "df": 7,
+          "tau2": 0.6434141225864514,
+          "I2": 91.83862874908048,
+          "heterogeneity_p": 9.11887688713166e-16,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            12.738604375399857,
+            12.633488359481078,
+            13.057545805103151,
+            13.023571111430885,
+            12.432699874168849,
+            12.595277404980393,
+            11.305126662643545,
+            12.213686406792242
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 8,
+          "gai_n": 311,
+          "traditional_n": 308,
+          "smd": -0.1392049036873311,
+          "se": 0.08367535470223995,
+          "variance": 0.007001564984545671,
+          "lower": -0.30320558529733566,
+          "upper": 0.024795777922673456,
+          "p": 0.09618621760044452,
+          "Z": 1.6636308765310157,
+          "Q": 85.76990048346754,
+          "df": 7,
+          "tau2": 0.0,
+          "I2": 91.83862874908048,
+          "heterogeneity_p": 9.11887688713166e-16,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            13.467875452204353,
+            12.119055917691334,
+            20.003672651675533,
+            19.040900885253258,
+            10.132894320814561,
+            11.688674867225618,
+            4.995292089679441,
+            8.551633815455894
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Jiang2024": {
+        "random": {
+          "k": 8,
+          "gai_n": 312,
+          "traditional_n": 310,
+          "smd": -0.028210270960380406,
+          "se": 0.3320353895478125,
+          "variance": 0.11024749991216759,
+          "lower": -0.67898767606682,
+          "upper": 0.6225671341460591,
+          "p": 0.9322918878996171,
+          "Z": 0.08496163917586917,
+          "Q": 105.55495347321633,
+          "df": 7,
+          "tau2": 0.8153915658028361,
+          "I2": 93.36838322630099,
+          "heterogeneity_p": 7.660218063188392e-20,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            12.710422512456569,
+            12.62619676361863,
+            12.96430058412651,
+            12.93737607566006,
+            12.341601723085544,
+            12.595511221528838,
+            11.537537691626348,
+            12.2870534278975
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 8,
+          "gai_n": 312,
+          "traditional_n": 310,
+          "smd": -0.08197546502445952,
+          "se": 0.08415895501808117,
+          "variance": 0.007082729709735409,
+          "lower": -0.24692398583642505,
+          "upper": 0.08297305578750602,
+          "p": 0.33002914814717177,
+          "Z": 0.974055167472641,
+          "Q": 105.55495347321633,
+          "df": 7,
+          "tau2": 0.0,
+          "I2": 93.36838322630099,
+          "heterogeneity_p": 7.660218063188392e-20,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            13.624000034691354,
+            12.259544486359859,
+            20.23556260729866,
+            19.261630035254417,
+            9.091121666822477,
+            11.824174299927396,
+            5.05319935906796,
+            8.650767510577884
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Kavadella2024": {
+        "random": {
+          "k": 8,
+          "gai_n": 304,
+          "traditional_n": 309,
+          "smd": -0.013881558846866602,
+          "se": 0.33716810404306863,
+          "variance": 0.11368233038399755,
+          "lower": -0.6747188995069349,
+          "upper": 0.6469557818132017,
+          "p": 0.9671595470910699,
+          "Z": 0.041171032136223126,
+          "Q": 107.00853885148746,
+          "df": 7,
+          "tau2": 0.8416835840812159,
+          "I2": 93.45846595502533,
+          "heterogeneity_p": 3.829718126601136e-20,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            12.720829461880086,
+            12.638998769720812,
+            12.967295296382124,
+            12.941170601050448,
+            12.362260268887756,
+            12.481851758313212,
+            11.578417687258485,
+            12.309176156507062
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 8,
+          "gai_n": 304,
+          "traditional_n": 309,
+          "smd": -0.07918585406998138,
+          "se": 0.08482912939310039,
+          "variance": 0.007195981193591368,
+          "lower": -0.24544789252034624,
+          "upper": 0.08707618438038348,
+          "p": 0.35057487889596217,
+          "Z": 0.9334747938179594,
+          "Q": 107.00853885148746,
+          "df": 7,
+          "tau2": 0.0,
+          "I2": 93.45846595502533,
+          "heterogeneity_p": 3.829718126601136e-20,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Svendsen2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            13.841845171130998,
+            12.455572241389108,
+            20.559125355822964,
+            19.569619789540628,
+            9.236486951236412,
+            10.414259830505861,
+            5.133999043524054,
+            8.789091616849966
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Svendsen2024": {
+        "random": {
+          "k": 8,
+          "gai_n": 328,
+          "traditional_n": 324,
+          "smd": -0.038079407833271975,
+          "se": 0.32475736604014377,
+          "variance": 0.10546734679733193,
+          "lower": -0.674592148986045,
+          "upper": 0.598433333319501,
+          "p": 0.9066580255440139,
+          "Z": 0.11725494727828566,
+          "Q": 107.62542460215464,
+          "df": 7,
+          "tau2": 0.7852620370435692,
+          "I2": 93.49596061908603,
+          "heterogeneity_p": 2.85322220196266e-20,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            12.596888486971705,
+            12.510431787197085,
+            12.857740861351292,
+            12.830058920436063,
+            12.218603197123086,
+            12.34461095594797,
+            12.47894369841161,
+            12.162722092561195
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 8,
+          "gai_n": 328,
+          "traditional_n": 324,
+          "smd": -0.053348484438966004,
+          "se": 0.08205373004772366,
+          "variance": 0.00673281461474471,
+          "lower": -0.21417084012967644,
+          "upper": 0.10747387125174443,
+          "p": 0.515585480815482,
+          "Z": 0.6501652564476683,
+          "Q": 107.62542460215464,
+          "df": 7,
+          "tau2": 0.0,
+          "I2": 93.49596061908603,
+          "heterogeneity_p": 2.85322220196266e-20,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Tabuchi2024"
+          ],
+          "weights_percent": [
+            12.950920097765398,
+            11.653874095240619,
+            19.235845111064055,
+            18.31002869231491,
+            8.64198399928652,
+            9.743949977387937,
+            11.240012932360505,
+            8.223385094580056
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Tabuchi2024": {
+        "random": {
+          "k": 8,
+          "gai_n": 316,
+          "traditional_n": 312,
+          "smd": 0.1681435470962776,
+          "se": 0.3208114735029802,
+          "variance": 0.10292000153115337,
+          "lower": -0.46063538679678945,
+          "upper": 0.7969224809893447,
+          "p": 0.6001954307974964,
+          "Z": 0.524119493795834,
+          "Q": 100.30366682036357,
+          "df": 7,
+          "tau2": 0.7584032187263813,
+          "I2": 93.02119232337091,
+          "heterogeneity_p": 9.337388007179675e-19,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024"
+          ],
+          "weights_percent": [
+            12.70005236398384,
+            12.610019189054471,
+            12.971943876169494,
+            12.943072737842426,
+            12.30642062332977,
+            12.43745334894801,
+            12.577238697307795,
+            11.453799163364202
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 8,
+          "gai_n": 316,
+          "traditional_n": 312,
+          "smd": 0.06531417998816882,
+          "se": 0.08349382443208742,
+          "variance": 0.006971218718296237,
+          "lower": -0.09833070883023295,
+          "upper": 0.2289590688065706,
+          "p": 0.43405967193071127,
+          "Z": 0.7822636037147198,
+          "Q": 100.30366682036357,
+          "df": 7,
+          "tau2": 0.0,
+          "I2": 93.02119232337091,
+          "heterogeneity_p": 9.337388007179675e-19,
+          "row_keys": [
+            "knowledge/Ba2024",
+            "knowledge/Bhatia2024",
+            "knowledge/Cicek2024_immediate",
+            "knowledge/Gan2024",
+            "knowledge/Huang2024",
+            "knowledge/Jiang2024",
+            "knowledge/Kavadella2024",
+            "knowledge/Svendsen2024"
+          ],
+          "weights_percent": [
+            13.409502826200182,
+            12.066529361359743,
+            19.916972495696957,
+            18.958373586118228,
+            8.947990412079259,
+            10.088976209704327,
+            11.638013673562941,
+            4.973641435278361
+          ],
+          "model": "fixed"
+        }
+      }
+    },
+    "assessment/delayed": {
+      "knowledge_delayed/Cicek2024_delayed": {
+        "random": {
+          "k": 2,
+          "gai_n": 52,
+          "traditional_n": 51,
+          "smd": 1.3189392317295827,
+          "se": 0.40496151122377577,
+          "variance": 0.16399382557264428,
+          "lower": 0.5252292546060693,
+          "upper": 2.112649208853096,
+          "p": 0.0011261642711265301,
+          "Z": 3.256949599342927,
+          "Q": 3.3254403943421456,
+          "df": 1,
+          "tau2": 0.22947184753063873,
+          "I2": 69.92879494393028,
+          "heterogeneity_p": 0.06821574272164754,
+          "row_keys": [
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            51.114616253037646,
+            48.885383746962354
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 2,
+          "gai_n": 52,
+          "traditional_n": 51,
+          "smd": 1.3399374412845662,
+          "se": 0.2215136398628714,
+          "variance": 0.04906829264529789,
+          "lower": 0.9057786850689622,
+          "upper": 1.7740961975001701,
+          "p": 1.4574180493771253e-09,
+          "Z": 6.049006472531705,
+          "Q": 3.3254403943421456,
+          "df": 1,
+          "tau2": 0.0,
+          "I2": 69.92879494393028,
+          "heterogeneity_p": 0.06821574272164754,
+          "row_keys": [
+            "knowledge/Wu2024",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            53.70658991204168,
+            46.29341008795833
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Wu2024": {
+        "random": {
+          "k": 2,
+          "gai_n": 77,
+          "traditional_n": 80,
+          "smd": 0.3629040890194792,
+          "se": 0.5056413060107258,
+          "variance": 0.2556731303442324,
+          "lower": -0.6281346598573396,
+          "upper": 1.353942837896298,
+          "p": 0.4729357901095771,
+          "Z": 0.7177105286010419,
+          "Q": 7.295627346023435,
+          "df": 1,
+          "tau2": 0.4433814358816834,
+          "I2": 86.29315955200121,
+          "heterogeneity_p": 0.0069122629793761485,
+          "row_keys": [
+            "knowledge_delayed/Cicek2024_delayed",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            53.461138268282156,
+            46.53886173171784
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 2,
+          "gai_n": 77,
+          "traditional_n": 80,
+          "smd": 0.1420153746012898,
+          "se": 0.1619638826194948,
+          "variance": 0.026232299273181485,
+          "lower": -0.17542800212919282,
+          "upper": 0.4594587513317724,
+          "p": 0.3805770249640015,
+          "Z": 0.8768336020625632,
+          "Q": 7.295627346023435,
+          "df": 1,
+          "tau2": 0.0,
+          "I2": 86.29315955200121,
+          "heterogeneity_p": 0.0069122629793761485,
+          "row_keys": [
+            "knowledge_delayed/Cicek2024_delayed",
+            "knowledge/Zeng2025"
+          ],
+          "weights_percent": [
+            75.25117499844752,
+            24.748825001552472
+          ],
+          "model": "fixed"
+        }
+      },
+      "knowledge/Zeng2025": {
+        "random": {
+          "k": 2,
+          "gai_n": 87,
+          "traditional_n": 89,
+          "smd": 0.7875619127817733,
+          "se": 0.9117877381336128,
+          "variance": 0.8313568794108096,
+          "lower": -0.9995092155053459,
+          "upper": 2.5746330410688927,
+          "p": 0.38772207404380077,
+          "Z": 0.8637557622719034,
+          "Q": 26.353198044496907,
+          "df": 1,
+          "tau2": 1.6000820194223706,
+          "I2": 96.20539412973136,
+          "heterogeneity_p": 2.843477005298056e-07,
+          "row_keys": [
+            "knowledge_delayed/Cicek2024_delayed",
+            "knowledge/Wu2024"
+          ],
+          "weights_percent": [
+            50.84932954488968,
+            49.15067045511032
+          ],
+          "model": "random"
+        },
+        "fixed": {
+          "k": 2,
+          "gai_n": 87,
+          "traditional_n": 89,
+          "smd": 0.39483072650020967,
+          "se": 0.15884680172630347,
+          "variance": 0.02523230641867557,
+          "lower": 0.08349671605727998,
+          "upper": 0.7061647369431394,
+          "p": 0.012933069157518627,
+          "Z": 2.4856070264512575,
+          "Q": 26.353198044496907,
+          "df": 1,
+          "tau2": 0.0,
+          "I2": 96.20539412973136,
+          "heterogeneity_p": 2.843477005298056e-07,
+          "row_keys": [
+            "knowledge_delayed/Cicek2024_delayed",
+            "knowledge/Wu2024"
+          ],
+          "weights_percent": [
+            72.38254970152,
+            27.617450298479994
+          ],
+          "model": "fixed"
+        }
+      }
+    }
+  },
+  "between_leave_one_row_out": {
+    "geography": {
+      "knowledge/Ba2024": {
+        "random": {
+          "Q": 0.0007289474784615229,
+          "df": 1,
+          "p": 0.9784605098029439,
+          "I2": 0,
+          "fixed_subgroup_center": 0.30289947066538014
+        },
+        "fixed": {
+          "Q": 0.010451533197774027,
+          "df": 1,
+          "p": 0.9185719408567232,
+          "I2": 0,
+          "fixed_subgroup_center": 0.16688619546805517
+        }
+      },
+      "knowledge/Bhatia2024": {
+        "random": {
+          "Q": 0.2857904313952693,
+          "df": 1,
+          "p": 0.59293083623816,
+          "I2": 0,
+          "fixed_subgroup_center": 0.4242425262025626
+        },
+        "fixed": {
+          "Q": 3.2212568803731934,
+          "df": 1,
+          "p": 0.07268779801629975,
+          "I2": 68.95621687010113,
+          "fixed_subgroup_center": 0.3582944259159705
+        }
+      },
+      "knowledge/Cicek2024_immediate": {
+        "random": {
+          "Q": 0.5767846327864057,
+          "df": 1,
+          "p": 0.44757540925323525,
+          "I2": 0,
+          "fixed_subgroup_center": 0.5212293208950998
+        },
+        "fixed": {
+          "Q": 4.150309429014594,
+          "df": 1,
+          "p": 0.041626916336138894,
+          "I2": 75.90541097950305,
+          "fixed_subgroup_center": 0.20909608571754051
+        }
+      },
+      "knowledge/Gan2024": {
+        "random": {
+          "Q": 0.013064634221519931,
+          "df": 1,
+          "p": 0.9089994824013484,
+          "I2": 0,
+          "fixed_subgroup_center": 0.2885573453220255
+        },
+        "fixed": {
+          "Q": 0.13645241751707476,
+          "df": 1,
+          "p": 0.7118335749810101,
+          "I2": 0,
+          "fixed_subgroup_center": 0.11428459633816372
+        }
+      },
+      "knowledge/Huang2024": {
+        "random": {
+          "Q": 0.174196931192883,
+          "df": 1,
+          "p": 0.6764084830249977,
+          "I2": 0,
+          "fixed_subgroup_center": 0.23132778728224287
+        },
+        "fixed": {
+          "Q": 0.9315370258667586,
+          "df": 1,
+          "p": 0.33446384811770874,
+          "I2": 0,
+          "fixed_subgroup_center": 0.04549881569935399
+        }
+      },
+      "knowledge/Jiang2024": {
+        "random": {
+          "Q": 0.043788223789449465,
+          "df": 1,
+          "p": 0.8342481180090663,
+          "I2": 0,
+          "fixed_subgroup_center": 0.2712073207462553
+        },
+        "fixed": {
+          "Q": 0.2607108812316852,
+          "df": 1,
+          "p": 0.6096321900580124,
+          "I2": 0,
+          "fixed_subgroup_center": 0.09738057096173838
+        }
+      },
+      "knowledge/Kavadella2024": {
+        "random": {
+          "Q": 0.0007603972198733051,
+          "df": 1,
+          "p": 0.978000881197048,
+          "I2": 0,
+          "fixed_subgroup_center": 0.23826870021348795
+        },
+        "fixed": {
+          "Q": 0.6057992901428801,
+          "df": 1,
+          "p": 0.4363738498886379,
+          "I2": 0,
+          "fixed_subgroup_center": 0.1023144808317075
+        }
+      },
+      "knowledge/Svendsen2024": {
+        "random": {
+          "Q": 0.04070368703244178,
+          "df": 1,
+          "p": 0.8401109618049252,
+          "I2": 0,
+          "fixed_subgroup_center": 0.18409618798179983
+        },
+        "fixed": {
+          "Q": 0.19744141059514816,
+          "df": 1,
+          "p": 0.6567940404214314,
+          "I2": 0,
+          "fixed_subgroup_center": 0.11476172526554208
+        }
+      },
+      "knowledge/Tabuchi2024": {
+        "random": {
+          "Q": 0.041851308517679604,
+          "df": 1,
+          "p": 0.8379034677320254,
+          "I2": 0,
+          "fixed_subgroup_center": 0.34435889497541533
+        },
+        "fixed": {
+          "Q": 0.36162982184038145,
+          "df": 1,
+          "p": 0.547602464599686,
+          "I2": 0,
+          "fixed_subgroup_center": 0.2238751188991706
+        }
+      },
+      "knowledge/Wu2024": {
+        "random": {
+          "Q": 0.27497743411218123,
+          "df": 1,
+          "p": 0.6000122421703409,
+          "I2": 0,
+          "fixed_subgroup_center": 0.2088852562738681
+        },
+        "fixed": {
+          "Q": 1.0744735724119805,
+          "df": 1,
+          "p": 0.2999371535695926,
+          "I2": 6.931168371577727,
+          "fixed_subgroup_center": 0.03705168945163295
+        }
+      },
+      "knowledge/Zeng2025": {
+        "random": {
+          "Q": 0.07925713071948419,
+          "df": 1,
+          "p": 0.778306659359895,
+          "I2": 0,
+          "fixed_subgroup_center": 0.2575628670369135
+        },
+        "fixed": {
+          "Q": 0.25027229835483183,
+          "df": 1,
+          "p": 0.616883409060626,
+          "I2": 0,
+          "fixed_subgroup_center": 0.09814241707615741
+        }
+      }
+    },
+    "duration": {
+      "knowledge/Ba2024": {
+        "random": {
+          "Q": 4.304142330957198,
+          "df": 1,
+          "p": 0.03801966160929198,
+          "I2": 76.76656757357719,
+          "fixed_subgroup_center": 0.47871526217522564
+        },
+        "fixed": {
+          "Q": 44.706981318945,
+          "df": 1,
+          "p": 2.2883991237072464e-11,
+          "I2": 97.76321287973822,
+          "fixed_subgroup_center": 0.0604735222507648
+        }
+      },
+      "knowledge/Bhatia2024": {
+        "random": {
+          "Q": 1.7190266894130584,
+          "df": 1,
+          "p": 0.18981837961706224,
+          "I2": 41.827546590248794,
+          "fixed_subgroup_center": 0.41775069444149093
+        },
+        "fixed": {
+          "Q": 11.124880203347663,
+          "df": 1,
+          "p": 0.0008517737748678483,
+          "I2": 91.01113916085961,
+          "fixed_subgroup_center": 0.2701265568242988
+        }
+      },
+      "knowledge/Cicek2024_immediate": {
+        "random": {
+          "Q": 1.991285858257038,
+          "df": 1,
+          "p": 0.1582064964929702,
+          "I2": 49.78119309925223,
+          "fixed_subgroup_center": 0.4861143604565877
+        },
+        "fixed": {
+          "Q": 36.869850416873,
+          "df": 1,
+          "p": 1.2628376034883766e-09,
+          "I2": 97.2877568292429,
+          "fixed_subgroup_center": 0.09932954139737464
+        }
+      },
+      "knowledge/Gan2024": {
+        "random": {
+          "Q": 3.2495154862716253,
+          "df": 1,
+          "p": 0.07144457387961756,
+          "I2": 69.22618143459401,
+          "fixed_subgroup_center": 0.32367374443880237
+        },
+        "fixed": {
+          "Q": 36.69817141534806,
+          "df": 1,
+          "p": 1.379087371236894e-09,
+          "I2": 97.27506858943447,
+          "fixed_subgroup_center": -0.0033198135084756054
+        }
+      },
+      "knowledge/Jiang2024": {
+        "random": {
+          "Q": 4.460799787316042,
+          "df": 1,
+          "p": 0.03468125572232472,
+          "I2": 77.58249534436791,
+          "fixed_subgroup_center": 0.35481807471822113
+        },
+        "fixed": {
+          "Q": 51.57303231567975,
+          "df": 1,
+          "p": 6.898264874529333e-13,
+          "I2": 98.06100212630706,
+          "fixed_subgroup_center": -0.01162254563042804
+        }
+      },
+      "knowledge/Kavadella2024": {
+        "random": {
+          "Q": 2.9376846073219536,
+          "df": 1,
+          "p": 0.08653469399092051,
+          "I2": 65.95958607988153,
+          "fixed_subgroup_center": 0.2972270348956341
+        },
+        "fixed": {
+          "Q": 32.6213965346729,
+          "df": 1,
+          "p": 1.1197523222637047e-08,
+          "I2": 96.93452731572324,
+          "fixed_subgroup_center": -0.007909573031050185
+        }
+      },
+      "knowledge/Svendsen2024": {
+        "random": {
+          "Q": 4.4827892236013325,
+          "df": 1,
+          "p": 0.03423780139428756,
+          "I2": 77.69245998149717,
+          "fixed_subgroup_center": 0.35635459227812877
+        },
+        "fixed": {
+          "Q": 44.27349715467508,
+          "df": 1,
+          "p": 2.855561551355339e-11,
+          "I2": 97.74131237813364,
+          "fixed_subgroup_center": 0.012312956940770845
+        }
+      },
+      "knowledge/Tabuchi2024": {
+        "random": {
+          "Q": 1.6339007241834944,
+          "df": 1,
+          "p": 0.20116437140888171,
+          "I2": 38.796771113512555,
+          "fixed_subgroup_center": 0.4850921046734904
+        },
+        "fixed": {
+          "Q": 27.200208698319702,
+          "df": 1,
+          "p": 1.8343887221023984e-07,
+          "I2": 96.32355762012305,
+          "fixed_subgroup_center": 0.12725559869040223
+        }
+      },
+      "knowledge/Wu2024": {
+        "random": {
+          "Q": 1.9443802533788899,
+          "df": 1,
+          "p": 0.1631937212730402,
+          "I2": 48.56973072719558,
+          "fixed_subgroup_center": 0.2738615833438931
+        },
+        "fixed": {
+          "Q": 22.33269562483037,
+          "df": 1,
+          "p": 2.292696562569628e-06,
+          "I2": 95.52226020181746,
+          "fixed_subgroup_center": -0.07451217464194455
+        }
+      },
+      "knowledge/Zeng2025": {
+        "random": {
+          "Q": 2.5863963334018427,
+          "df": 1,
+          "p": 0.10778531871891073,
+          "I2": 61.33616541728092,
+          "fixed_subgroup_center": 0.28013617838525856
+        },
+        "fixed": {
+          "Q": 30.979895894502306,
+          "df": 1,
+          "p": 2.6071504059089817e-08,
+          "I2": 96.77210019231389,
+          "fixed_subgroup_center": -0.0072259365850636985
+        }
+      }
+    },
+    "course": {
+      "knowledge/Ba2024": {
+        "random": {
+          "Q": 9.509526604434486,
+          "df": 1,
+          "p": 0.002044078895254144,
+          "I2": 89.48422943016239,
+          "fixed_subgroup_center": 0.7385531595316461
+        },
+        "fixed": {
+          "Q": 63.6690129456419,
+          "df": 1,
+          "p": 1.471815951939951e-15,
+          "I2": 98.42937725318004,
+          "fixed_subgroup_center": 0.1668861954680552
+        }
+      },
+      "knowledge/Bhatia2024": {
+        "random": {
+          "Q": 3.9039836257021294,
+          "df": 1,
+          "p": 0.0481717569889185,
+          "I2": 74.3851384668615,
+          "fixed_subgroup_center": 0.38930943818004393
+        },
+        "fixed": {
+          "Q": 21.228290916304314,
+          "df": 1,
+          "p": 4.0770196568471475e-06,
+          "I2": 95.28930518267981,
+          "fixed_subgroup_center": 0.35829442591597055
+        }
+      },
+      "knowledge/Cicek2024_immediate": {
+        "random": {
+          "Q": 3.739699778390122,
+          "df": 1,
+          "p": 0.0531339913135379,
+          "I2": 73.25988557213854,
+          "fixed_subgroup_center": 0.5455576253527449
+        },
+        "fixed": {
+          "Q": 40.8675128243947,
+          "df": 1,
+          "p": 1.629068348491061e-10,
+          "I2": 97.55306860905154,
+          "fixed_subgroup_center": 0.20909608571754046
+        }
+      },
+      "knowledge/Gan2024": {
+        "random": {
+          "Q": 4.9694155831778435,
+          "df": 1,
+          "p": 0.025799363306925567,
+          "I2": 79.87690940187942,
+          "fixed_subgroup_center": 0.4694519207815239
+        },
+        "fixed": {
+          "Q": 54.96528633661904,
+          "df": 1,
+          "p": 1.2267752822084806e-13,
+          "I2": 98.18066989795015,
+          "fixed_subgroup_center": 0.11428459633816372
+        }
+      },
+      "knowledge/Huang2024": {
+        "random": {
+          "Q": 3.643897917708204,
+          "df": 1,
+          "p": 0.056275036714140074,
+          "I2": 72.55686019247925,
+          "fixed_subgroup_center": 0.26379611346901993
+        },
+        "fixed": {
+          "Q": 29.605690634845615,
+          "df": 1,
+          "p": 5.294926063458893e-08,
+          "I2": 96.62227099399935,
+          "fixed_subgroup_center": 0.045498815699353955
+        }
+      },
+      "knowledge/Jiang2024": {
+        "random": {
+          "Q": 4.525567745166649,
+          "df": 1,
+          "p": 0.033391994366295384,
+          "I2": 77.90332492386155,
+          "fixed_subgroup_center": 0.2902032465398483
+        },
+        "fixed": {
+          "Q": 41.58648451649754,
+          "df": 1,
+          "p": 1.1277018618626801e-10,
+          "I2": 97.59537260331949,
+          "fixed_subgroup_center": 0.09738057096173838
+        }
+      },
+      "knowledge/Kavadella2024": {
+        "random": {
+          "Q": 5.777737453467082,
+          "df": 1,
+          "p": 0.016230420943369177,
+          "I2": 82.6921868974866,
+          "fixed_subgroup_center": 0.416898788297181
+        },
+        "fixed": {
+          "Q": 54.03115744261734,
+          "df": 1,
+          "p": 1.9733545308143056e-13,
+          "I2": 98.14921603139443,
+          "fixed_subgroup_center": 0.10231448083170748
+        }
+      },
+      "knowledge/Svendsen2024": {
+        "random": {
+          "Q": 6.371835118453078,
+          "df": 1,
+          "p": 0.011594563311558429,
+          "I2": 84.30593413969608,
+          "fixed_subgroup_center": 0.3803817821597164
+        },
+        "fixed": {
+          "Q": 50.03294341895553,
+          "df": 1,
+          "p": 1.5118628286912658e-12,
+          "I2": 98.0013168691148,
+          "fixed_subgroup_center": 0.11476172526554206
+        }
+      },
+      "knowledge/Tabuchi2024": {
+        "random": {
+          "Q": 3.4264912863083263,
+          "df": 1,
+          "p": 0.06415827335657708,
+          "I2": 70.81562693604886,
+          "fixed_subgroup_center": 0.52805606919009
+        },
+        "fixed": {
+          "Q": 35.8304354256074,
+          "df": 1,
+          "p": 2.1525879614727553e-09,
+          "I2": 97.20907661846242,
+          "fixed_subgroup_center": 0.2238751188991706
+        }
+      },
+      "knowledge/Wu2024": {
+        "random": {
+          "Q": 3.5708211977291255,
+          "df": 1,
+          "p": 0.05880322458119816,
+          "I2": 71.99523738024315,
+          "fixed_subgroup_center": 0.3004495425700455
+        },
+        "fixed": {
+          "Q": 27.32989574994588,
+          "df": 1,
+          "p": 1.7153866229066148e-07,
+          "I2": 96.34100324000694,
+          "fixed_subgroup_center": 0.03705168945163291
+        }
+      },
+      "knowledge/Zeng2025": {
+        "random": {
+          "Q": 4.230677581296225,
+          "df": 1,
+          "p": 0.039699588835074795,
+          "I2": 76.36312432738936,
+          "fixed_subgroup_center": 0.28597674070243356
+        },
+        "fixed": {
+          "Q": 39.29492378412941,
+          "df": 1,
+          "p": 3.643874095182121e-10,
+          "I2": 97.45514202930231,
+          "fixed_subgroup_center": 0.09814241707615737
+        }
+      }
+    },
+    "assessment": {
+      "knowledge/Ba2024": {
+        "random": {
+          "Q": 1.251166582508761,
+          "df": 1,
+          "p": 0.2633297832748404,
+          "I2": 20.074591666693774,
+          "fixed_subgroup_center": 0.26026276963831807
+        },
+        "fixed": {
+          "Q": 9.066824652106707,
+          "df": 1,
+          "p": 0.002602886706909543,
+          "I2": 88.9707804179532,
+          "fixed_subgroup_center": 0.12424067630320126
+        }
+      },
+      "knowledge/Bhatia2024": {
+        "random": {
+          "Q": 0.7538451909759137,
+          "df": 1,
+          "p": 0.3852615445780201,
+          "I2": 0,
+          "fixed_subgroup_center": 0.34737279553698147
+        },
+        "fixed": {
+          "Q": 2.823544685269478,
+          "df": 1,
+          "p": 0.09289105713509109,
+          "I2": 64.58352491401918,
+          "fixed_subgroup_center": 0.28679004538650954
+        }
+      },
+      "knowledge/Cicek2024_immediate": {
+        "random": {
+          "Q": 1.1729776902662672,
+          "df": 1,
+          "p": 0.2787902490575677,
+          "I2": 14.74688663746035,
+          "fixed_subgroup_center": 0.28170347035981946
+        },
+        "fixed": {
+          "Q": 7.658803469308143,
+          "df": 1,
+          "p": 0.005649596052086927,
+          "I2": 86.94313016377303,
+          "fixed_subgroup_center": 0.1573170073605673
+        }
+      },
+      "knowledge/Gan2024": {
+        "random": {
+          "Q": 1.3962821994822252,
+          "df": 1,
+          "p": 0.23734704473335871,
+          "I2": 28.381239811635222,
+          "fixed_subgroup_center": 0.23087174305797342
+        },
+        "fixed": {
+          "Q": 11.65944654196679,
+          "df": 1,
+          "p": 0.0006387734180875412,
+          "I2": 91.42326356229158,
+          "fixed_subgroup_center": 0.07822667657849977
+        }
+      },
+      "knowledge/Huang2024": {
+        "random": {
+          "Q": 2.0567295654525095,
+          "df": 1,
+          "p": 0.15153509775004168,
+          "I2": 51.37912067792997,
+          "fixed_subgroup_center": 0.07572692676329973
+        },
+        "fixed": {
+          "Q": 14.591708726729351,
+          "df": 1,
+          "p": 0.00013350063810211666,
+          "I2": 93.14679302658926,
+          "fixed_subgroup_center": 0.022422180750672625
+        }
+      },
+      "knowledge/Jiang2024": {
+        "random": {
+          "Q": 1.5979164235432137,
+          "df": 1,
+          "p": 0.20619873398163577,
+          "I2": 37.418504167908615,
+          "fixed_subgroup_center": 0.17981311565096272
+        },
+        "fixed": {
+          "Q": 12.033433743717556,
+          "df": 1,
+          "p": 0.0005225472450995299,
+          "I2": 91.68982003559805,
+          "fixed_subgroup_center": 0.0662827235336698
+        }
+      },
+      "knowledge/Kavadella2024": {
+        "random": {
+          "Q": 1.5325719200609769,
+          "df": 1,
+          "p": 0.21572685544635412,
+          "I2": 34.75020735338719,
+          "fixed_subgroup_center": 0.19539195036580154
+        },
+        "fixed": {
+          "Q": 11.867990460798028,
+          "df": 1,
+          "p": 0.0005710699824656141,
+          "I2": 91.57397367900515,
+          "fixed_subgroup_center": 0.07009641706599684
+        }
+      },
+      "knowledge/Svendsen2024": {
+        "random": {
+          "Q": 1.652982393180632,
+          "df": 1,
+          "p": 0.19855349705295164,
+          "I2": 39.50328786770546,
+          "fixed_subgroup_center": 0.16541087355751394
+        },
+        "fixed": {
+          "Q": 11.005030524019743,
+          "df": 1,
+          "p": 0.000908649362494792,
+          "I2": 90.91324646653742,
+          "fixed_subgroup_center": 0.08229533285651343
+        }
+      },
+      "knowledge/Tabuchi2024": {
+        "random": {
+          "Q": 0.9584777626176779,
+          "df": 1,
+          "p": 0.32757070260754517,
+          "I2": 0,
+          "fixed_subgroup_center": 0.31978979283895437
+        },
+        "fixed": {
+          "Q": 6.684271166456231,
+          "df": 1,
+          "p": 0.00972672832068875,
+          "I2": 85.03950580254264,
+          "fixed_subgroup_center": 0.17429309106743135
+        }
+      },
+      "knowledge/Wu2024": {
+        "random": {
+          "Q": 0.29091758077412117,
+          "df": 1,
+          "p": 0.5896331221494333,
+          "I2": 0,
+          "fixed_subgroup_center": 0.12925478738051616
+        },
+        "fixed": {
+          "Q": 0.7601909143374722,
+          "df": 1,
+          "p": 0.3832687831029572,
+          "I2": 0,
+          "fixed_subgroup_center": 0.015450636654541263
+        }
+      },
+      "knowledge/Zeng2025": {
+        "random": {
+          "Q": 0.5974319572982393,
+          "df": 1,
+          "p": 0.43955953158349115,
+          "I2": 0,
+          "fixed_subgroup_center": 0.11908151230666944
+        },
+        "fixed": {
+          "Q": 5.3198511916763325,
+          "df": 1,
+          "p": 0.021083811865574037,
+          "I2": 81.20248172421358,
+          "fixed_subgroup_center": 0.06773487438059081
+        }
+      },
+      "knowledge_delayed/Cicek2024_delayed": {
+        "random": {
+          "Q": 6.327385264296797,
+          "df": 1,
+          "p": 0.01188874725044059,
+          "I2": 84.19568339480375,
+          "fixed_subgroup_center": 0.5046950861894881
+        },
+        "fixed": {
+          "Q": 33.10954492375664,
+          "df": 1,
+          "p": 8.711004702790025e-09,
+          "I2": 96.97972290980513,
+          "fixed_subgroup_center": 0.14137588653591313
+        }
+      }
+    }
+  },
+  "reused_immediate_complete": {
+    "effects": {
+      "knowledge/Ba2024": {
+        "outcome": "knowledge",
+        "study": "Ba2024",
+        "gai_mean": 92.21,
+        "gai_sd": 2.37,
+        "gai_n": 39,
+        "traditional_mean": 92.38,
+        "traditional_sd": 2.68,
+        "traditional_n": 38,
+        "source": "Original Figure3/VOR page6",
+        "g": -0.06658030027272017,
+        "variance": 0.05198715275763625,
+        "se": 0.2280069138373577,
+        "lower": -0.5134656396200685,
+        "upper": 0.3803050390746282
+      },
+      "knowledge/Bhatia2024": {
+        "outcome": "knowledge",
+        "study": "Bhatia2024",
+        "gai_mean": 1.7,
+        "gai_sd": 1.33,
+        "gai_n": 50,
+        "traditional_mean": 3.57,
+        "traditional_sd": 0.498,
+        "traditional_n": 50,
+        "source": "Original Figure3/VOR page6",
+        "g": -1.847859550619144,
+        "variance": 0.0577731882095273,
+        "se": 0.24036053796230217,
+        "lower": -2.3189575483299287,
+        "upper": -1.3767615529083592
+      },
+      "knowledge/Cicek2024_immediate": {
+        "outcome": "knowledge",
+        "study": "Cicek2024_immediate",
+        "gai_mean": 74.7,
+        "gai_sd": 15.1,
+        "gai_n": 56,
+        "traditional_mean": 78.5,
+        "traditional_sd": 20.6,
+        "traditional_n": 59,
+        "source": "Original Figure3/VOR page6",
+        "g": -0.2081732073544894,
+        "variance": 0.03500139752566492,
+        "se": 0.1870866043458615,
+        "lower": -0.5748562138622727,
+        "upper": 0.15850979915329388
+      },
+      "knowledge/Gan2024": {
+        "outcome": "knowledge",
+        "study": "Gan2024",
+        "gai_mean": 138.46,
+        "gai_sd": 26.97,
+        "gai_n": 54,
+        "traditional_mean": 130.8,
+        "traditional_sd": 25.56,
+        "traditional_n": 56,
+        "source": "Original Figure3/VOR page6",
+        "g": 0.28965250959858896,
+        "variance": 0.036771185495578215,
+        "se": 0.19175814323146284,
+        "lower": -0.08618654487735133,
+        "upper": 0.6654915640745293
+      },
+      "knowledge/Huang2024": {
+        "outcome": "knowledge",
+        "study": "Huang2024",
+        "gai_mean": 89.66,
+        "gai_sd": 9.65,
+        "gai_n": 32,
+        "traditional_mean": 77.04,
+        "traditional_sd": 8.65,
+        "traditional_n": 32,
+        "source": "Original Figure3/VOR page6",
+        "g": 1.3604534504617927,
+        "variance": 0.07790820505222608,
+        "se": 0.2791204131772273,
+        "lower": 0.813387493284488,
+        "upper": 1.9075194076390973
+      },
+      "knowledge/Jiang2024": {
+        "outcome": "knowledge",
+        "study": "Jiang2024",
+        "gai_mean": 15.78,
+        "gai_sd": 3.62,
+        "gai_n": 31,
+        "traditional_mean": 13.55,
+        "traditional_sd": 3.33,
+        "traditional_n": 30,
+        "source": "Original Figure3/VOR page6",
+        "g": 0.6325371417198734,
+        "variance": 0.06909738484258493,
+        "se": 0.2628638142510013,
+        "lower": 0.11733353294908422,
+        "upper": 1.1477407504906627
+      },
+      "knowledge/Kavadella2024": {
+        "outcome": "knowledge",
+        "study": "Kavadella2024",
+        "gai_mean": 7.54,
+        "gai_sd": 1.18,
+        "gai_n": 39,
+        "traditional_mean": 6.94,
+        "traditional_sd": 1.12,
+        "traditional_n": 31,
+        "source": "Original Figure3/VOR page6",
+        "g": 0.5142132820422003,
+        "variance": 0.0599004169769292,
+        "se": 0.2447456168696984,
+        "lower": 0.03452068760355276,
+        "upper": 0.9939058764808478
+      },
+      "knowledge/Svendsen2024": {
+        "outcome": "knowledge",
+        "study": "Svendsen2024",
+        "gai_mean": 7.7,
+        "gai_sd": 2.0,
+        "gai_n": 15,
+        "traditional_mean": 5.9,
+        "traditional_sd": 2.5,
+        "traditional_n": 16,
+        "source": "Original Figure3/VOR page6",
+        "g": 0.7714508658933416,
+        "variance": 0.1401632749166221,
+        "se": 0.37438386038479554,
+        "lower": 0.03767198314607034,
+        "upper": 1.5052297486406128
+      },
+      "knowledge/Tabuchi2024": {
+        "outcome": "knowledge",
+        "study": "Tabuchi2024",
+        "gai_mean": 34.9,
+        "gai_sd": 5.25,
+        "gai_n": 27,
+        "traditional_mean": 39.75,
+        "traditional_sd": 4.65,
+        "traditional_n": 28,
+        "source": "Original Figure3/VOR page6",
+        "g": -0.9651985164580581,
+        "variance": 0.08187400367741789,
+        "se": 0.28613633756903,
+        "lower": -1.526015432761552,
+        "upper": -0.40438160015456404
+      },
+      "knowledge/Wu2024": {
+        "outcome": "knowledge",
+        "study": "Wu2024",
+        "gai_mean": 86.44,
+        "gai_sd": 5.59,
+        "gai_n": 31,
+        "traditional_mean": 77.86,
+        "traditional_sd": 4.16,
+        "traditional_n": 30,
+        "source": "Original Figure3/VOR page6",
+        "g": 1.7149716252412288,
+        "variance": 0.09136363475256912,
+        "se": 0.30226418039947955,
+        "lower": 1.1225447178417312,
+        "upper": 2.3073985326407263
+      },
+      "knowledge/Zeng2025": {
+        "outcome": "knowledge",
+        "study": "Zeng2025",
+        "gai_mean": 93.9,
+        "gai_sd": 3.65,
+        "gai_n": 21,
+        "traditional_mean": 90.33,
+        "traditional_sd": 4.08,
+        "traditional_n": 21,
+        "source": "Original Figure3/VOR page6",
+        "g": 0.9048472830420022,
+        "variance": 0.1059941200098831,
+        "se": 0.3255673816737222,
+        "lower": 0.2667469404205012,
+        "upper": 1.5429476256635033
+      },
+      "skill/Wu2024": {
+        "outcome": "skill",
+        "study": "Wu2024",
+        "gai_mean": 83.84,
+        "gai_sd": 6.13,
+        "gai_n": 31,
+        "traditional_mean": 79.12,
+        "traditional_sd": 4.27,
+        "traditional_n": 30,
+        "source": "Original Figure3/VOR page6",
+        "g": 0.8795285654603789,
+        "variance": 0.07236996862987591,
+        "se": 0.2690166697992448,
+        "lower": 0.35226558141295505,
+        "upper": 1.406791549507803
+      },
+      "skill/Zeng2025": {
+        "outcome": "skill",
+        "study": "Zeng2025",
+        "gai_mean": 5.71,
+        "gai_sd": 1.47,
+        "gai_n": 21,
+        "traditional_mean": 5.23,
+        "traditional_sd": 1.34,
+        "traditional_n": 21,
+        "source": "Original Figure3/VOR page6",
+        "g": 0.3348328999222596,
+        "variance": 0.09671094167622385,
+        "se": 0.3109838286410145,
+        "lower": -0.27468420398850446,
+        "upper": 0.9443500038330237
+      },
+      "satisfaction/Huang2024": {
+        "outcome": "satisfaction",
+        "study": "Huang2024",
+        "gai_mean": 89.54,
+        "gai_sd": 5.58,
+        "gai_n": 32,
+        "traditional_mean": 76.68,
+        "traditional_sd": 8.7,
+        "traditional_n": 32,
+        "source": "Original Figure3/VOR page6",
+        "g": 1.7382392129099966,
+        "variance": 0.08765380920161475,
+        "se": 0.2960638600059365,
+        "lower": 1.1579647101744526,
+        "upper": 2.3185137156455404
+      },
+      "satisfaction/Jiang2024": {
+        "outcome": "satisfaction",
+        "study": "Jiang2024",
+        "gai_mean": 3.29,
+        "gai_sd": 0.59,
+        "gai_n": 31,
+        "traditional_mean": 2.93,
+        "traditional_sd": 0.69,
+        "traditional_n": 30,
+        "source": "Original Figure3/VOR page6",
+        "g": 0.5543622556359682,
+        "variance": 0.06828433081891382,
+        "se": 0.2613127069602889,
+        "lower": 0.04219876129113287,
+        "upper": 1.0665257499808036
+      },
+      "satisfaction/Wu2024": {
+        "outcome": "satisfaction",
+        "study": "Wu2024",
+        "gai_mean": 17.23,
+        "gai_sd": 1.33,
+        "gai_n": 31,
+        "traditional_mean": 15.38,
+        "traditional_sd": 1.5,
+        "traditional_n": 30,
+        "source": "Original Figure3/VOR page6",
+        "g": 1.2897165776798372,
+        "variance": 0.08016700993097474,
+        "se": 0.2831377931873008,
+        "lower": 0.7347767003705773,
+        "upper": 1.8446564549890971
+      },
+      "knowledge_delayed/Cicek2024_delayed": {
+        "outcome": "knowledge_delayed",
+        "study": "Cicek2024_delayed",
+        "gai_mean": 74.7,
+        "gai_sd": 15.1,
+        "gai_n": 56,
+        "traditional_mean": 78.5,
+        "traditional_sd": 20.6,
+        "traditional_n": 59,
+        "source": "Original cited trial PMID39656920 abstract for delayed mean/SD; review Table2 delayed counts108/110 minus Wu31/30 and Zeng21/21 gives56/59",
+        "g": -0.2081732073544894,
+        "variance": 0.03500139752566492,
+        "se": 0.1870866043458615,
+        "lower": -0.5748562138622727,
+        "upper": 0.15850979915329388
+      }
+    },
+    "pools": {
+      "knowledge": {
+        "k": 11,
+        "gai_n": 395,
+        "traditional_n": 391,
+        "smd": 0.26986963487480575,
+        "se": 0.2944738461288009,
+        "variance": 0.0867148460538887,
+        "lower": -0.3072884979266336,
+        "upper": 0.8470277676762451,
+        "p": 0.3594325612670243,
+        "Z": 0.9164468709956897,
+        "Q": 148.6915336654729,
+        "df": 10,
+        "tau2": 0.8813232578385081,
+        "I2": 93.27466752579332,
+        "heterogeneity_p": 6.926835870764688e-27,
+        "row_keys": [
+          "knowledge/Ba2024",
+          "knowledge/Bhatia2024",
+          "knowledge/Cicek2024_immediate",
+          "knowledge/Gan2024",
+          "knowledge/Huang2024",
+          "knowledge/Jiang2024",
+          "knowledge/Kavadella2024",
+          "knowledge/Svendsen2024",
+          "knowledge/Tabuchi2024",
+          "knowledge/Wu2024",
+          "knowledge/Zeng2025"
+        ],
+        "weights_percent": [
+          9.291104553146504,
+          9.2338594634031,
+          9.463332187588666,
+          9.445089955994204,
+          9.040033548583295,
+          9.12383866255999,
+          9.212990320381863,
+          8.48908363187162,
+          9.002812769360736,
+          8.914980423237191,
+          8.782874483872835
+        ],
+        "model": "random"
+      },
+      "skill": {
+        "k": 2,
+        "gai_n": 52,
+        "traditional_n": 51,
+        "smd": 0.6295243775799755,
+        "se": 0.27142973961431216,
+        "variance": 0.0736741035470933,
+        "lower": 0.09753186360283883,
+        "upper": 1.1615168915571121,
+        "p": 0.020379297963913055,
+        "Z": 2.3192903565928242,
+        "Q": 1.7547419606322716,
+        "df": 1,
+        "tau2": 0.06380622887495747,
+        "I2": 43.011563954413084,
+        "heterogeneity_p": 0.1852817107028829,
+        "row_keys": [
+          "skill/Wu2024",
+          "skill/Zeng2025"
+        ],
+        "weights_percent": [
+          54.10204198459744,
+          45.89795801540255
+        ],
+        "model": "random"
+      },
+      "satisfaction": {
+        "k": 3,
+        "gai_n": 94,
+        "traditional_n": 92,
+        "smd": 1.1834592440014748,
+        "se": 0.35006654733693526,
+        "variance": 0.12254658756440275,
+        "lower": 0.4973414190287958,
+        "upper": 1.869577068974154,
+        "p": 0.0007230950251140442,
+        "Z": 3.380669341313576,
+        "Q": 9.38494844328394,
+        "df": 2,
+        "tau2": 0.28911201874881565,
+        "I2": 78.68928090456116,
+        "heterogeneity_p": 0.009163984354764437,
+        "row_keys": [
+          "satisfaction/Huang2024",
+          "satisfaction/Jiang2024",
+          "satisfaction/Wu2024"
+        ],
+        "weights_percent": [
+          32.52592949605974,
+          34.28870712099402,
+          33.18536338294625
+        ],
+        "model": "random"
+      },
+      "geography/Asia": {
+        "k": 8,
+        "gai_n": 285,
+        "traditional_n": 285,
+        "smd": 0.24545570618261944,
+        "se": 0.40659973365826274,
+        "variance": 0.16532334341097019,
+        "lower": -0.5514651279111539,
+        "upper": 1.0423765402763927,
+        "p": 0.5460571021326952,
+        "Z": 0.603678964504485,
+        "Q": 140.04332284861886,
+        "df": 7,
+        "tau2": 1.2513229557139443,
+        "I2": 95.00154676594849,
+        "heterogeneity_p": 4.977850499300726e-27,
+        "row_keys": [
+          "knowledge/Ba2024",
+          "knowledge/Bhatia2024",
+          "knowledge/Gan2024",
+          "knowledge/Huang2024",
+          "knowledge/Jiang2024",
+          "knowledge/Tabuchi2024",
+          "knowledge/Wu2024",
+          "knowledge/Zeng2025"
+        ],
+        "weights_percent": [
+          12.684881544028563,
+          12.62881601006647,
+          12.834725205389981,
+          12.437516384710513,
+          12.520508684476178,
+          12.400519086575505,
+          12.31287662994601,
+          12.180156454806767
+        ],
+        "model": "random"
+      },
+      "geography/Europe": {
+        "k": 3,
+        "gai_n": 110,
+        "traditional_n": 106,
+        "smd": 0.3074701559560923,
+        "se": 0.310542870187018,
+        "variance": 0.09643687422399111,
+        "lower": -0.3011826852661602,
+        "upper": 0.9161229971783448,
+        "p": 0.3221226305807018,
+        "Z": 0.9901053460700121,
+        "Q": 8.633617011627315,
+        "df": 2,
+        "tau2": 0.21727330856966437,
+        "I2": 76.8347380094982,
+        "heterogeneity_p": 0.013342397849444063,
+        "row_keys": [
+          "knowledge/Cicek2024_immediate",
+          "knowledge/Kavadella2024",
+          "knowledge/Svendsen2024"
+        ],
+        "weights_percent": [
+          38.226929570794795,
+          34.79293502074021,
+          26.980135408464996
+        ],
+        "model": "random"
+      },
+      "duration/short": {
+        "k": 5,
+        "gai_n": 179,
+        "traditional_n": 183,
+        "smd": -0.3378036977615325,
+        "se": 0.4700880460756989,
+        "variance": 0.22098277106326839,
+        "lower": -1.259159337632708,
+        "upper": 0.5835519421096428,
+        "p": 0.47238947460602343,
+        "Z": 0.7185966556297745,
+        "Q": 66.33100670874833,
+        "df": 4,
+        "tau2": 1.0292279306598848,
+        "I2": 93.96963773282752,
+        "heterogeneity_p": 1.3489402925428407e-13,
+        "row_keys": [
+          "knowledge/Bhatia2024",
+          "knowledge/Cicek2024_immediate",
+          "knowledge/Jiang2024",
+          "knowledge/Svendsen2024",
+          "knowledge/Tabuchi2024"
+        ],
+        "weights_percent": [
+          20.32958082813311,
+          20.764581957164385,
+          20.119974286686784,
+          18.897249270343572,
+          19.888613657672163
+        ],
+        "model": "random"
+      },
+      "duration/long": {
+        "k": 5,
+        "gai_n": 184,
+        "traditional_n": 176,
+        "smd": 0.6422811184406654,
+        "se": 0.2810626557068896,
+        "variance": 0.07899621643300957,
+        "lower": 0.09140843585598069,
+        "upper": 1.1931538010253502,
+        "p": 0.02230178351506975,
+        "Z": 2.285188392692332,
+        "Q": 25.078278739756612,
+        "df": 4,
+        "tau2": 0.3274087857146855,
+        "I2": 84.04994201751654,
+        "heterogeneity_p": 4.851902026623532e-05,
+        "row_keys": [
+          "knowledge/Ba2024",
+          "knowledge/Gan2024",
+          "knowledge/Kavadella2024",
+          "knowledge/Wu2024",
+          "knowledge/Zeng2025"
+        ],
+        "weights_percent": [
+          20.821576728284512,
+          21.69153239550347,
+          20.39616303563753,
+          18.863758111116244,
+          18.226969729458244
+        ],
+        "model": "random"
+      },
+      "course/theory": {
+        "k": 6,
+        "gai_n": 241,
+        "traditional_n": 240,
+        "smd": -0.2504737514817341,
+        "se": 0.3812237244678869,
+        "variance": 0.14533152809716732,
+        "lower": -0.9976585214910134,
+        "upper": 0.4967110185275452,
+        "p": 0.5111644471533396,
+        "Z": 0.657025613585162,
+        "Q": 75.6018561381471,
+        "df": 5,
+        "tau2": 0.8048045715886498,
+        "I2": 93.38640576381681,
+        "heterogeneity_p": 6.9662614661042635e-15,
+        "row_keys": [
+          "knowledge/Bhatia2024",
+          "knowledge/Cicek2024_immediate",
+          "knowledge/Gan2024",
+          "knowledge/Kavadella2024",
+          "knowledge/Svendsen2024",
+          "knowledge/Tabuchi2024"
+        ],
+        "weights_percent": [
+          16.848513243741813,
+          17.305369745161308,
+          17.268977495346505,
+          16.8070648393334,
+          15.379520968320747,
+          16.390553708096235
+        ],
+        "model": "random"
+      },
+      "course/practice": {
+        "k": 5,
+        "gai_n": 154,
+        "traditional_n": 151,
+        "smd": 0.894482883774173,
+        "se": 0.3276586800350779,
+        "variance": 0.10736021060232957,
+        "lower": 0.252283671683487,
+        "upper": 1.536682095864859,
+        "p": 0.006334916870656162,
+        "Z": 2.7299227466777714,
+        "Q": 28.1375934673864,
+        "df": 4,
+        "tau2": 0.4581683667241563,
+        "I2": 85.78414317970618,
+        "heterogeneity_p": 1.1697088779514154e-05,
+        "row_keys": [
+          "knowledge/Ba2024",
+          "knowledge/Huang2024",
+          "knowledge/Jiang2024",
+          "knowledge/Wu2024",
+          "knowledge/Zeng2025"
+        ],
+        "weights_percent": [
+          21.044604341708247,
+          20.027029020606697,
+          20.36168863297391,
+          19.536662162317523,
+          19.030015842393635
+        ],
+        "model": "random"
+      },
+      "assessment/immediate": {
+        "k": 9,
+        "gai_n": 343,
+        "traditional_n": 340,
+        "smd": 0.04456456038856135,
+        "se": 0.30442264089971965,
+        "variance": 0.09267314429235966,
+        "lower": -0.5520928518534591,
+        "upper": 0.6412219726305819,
+        "p": 0.883613184050821,
+        "Z": 0.14639042699600466,
+        "Q": 112.25654834737409,
+        "df": 8,
+        "tau2": 0.7672450932393727,
+        "I2": 92.87346696671604,
+        "heterogeneity_p": 1.3079947267307187e-20,
+        "row_keys": [
+          "knowledge/Ba2024",
+          "knowledge/Bhatia2024",
+          "knowledge/Cicek2024_immediate",
+          "knowledge/Gan2024",
+          "knowledge/Huang2024",
+          "knowledge/Jiang2024",
+          "knowledge/Kavadella2024",
+          "knowledge/Svendsen2024",
+          "knowledge/Tabuchi2024"
+        ],
+        "weights_percent": [
+          11.312194404600868,
+          11.23285948641123,
+          11.551704539584184,
+          11.526277109484989,
+          10.965246716742403,
+          11.0807649642397,
+          11.203971145067966,
+          10.212947945442354,
+          10.914033688426297
+        ],
+        "model": "random"
+      },
+      "assessment/delayed": {
+        "k": 3,
+        "gai_n": 108,
+        "traditional_n": 110,
+        "smd": 0.7864039540190567,
+        "se": 0.6169160084325371,
+        "variance": 0.3805853614603342,
+        "lower": -0.4227292039949243,
+        "upper": 1.9955371120330376,
+        "p": 0.20240332622892976,
+        "Z": 1.2747342316779156,
+        "Q": 31.833295907498606,
+        "df": 2,
+        "tau2": 1.0651360881471463,
+        "I2": 93.71727010042689,
+        "heterogeneity_p": 1.2231722600666816e-07,
+        "row_keys": [
+          "knowledge_delayed/Cicek2024_delayed",
+          "knowledge/Wu2024",
+          "knowledge/Zeng2025"
+        ],
+        "weights_percent": [
+          34.59434538107568,
+          32.90838328141444,
+          32.497271337509886
+        ],
+        "model": "random"
+      }
+    },
+    "between": {
+      "geography": {
+        "Q": 0.014692041500629211,
+        "df": 1,
+        "p": 0.9035241240558868,
+        "I2": 0,
+        "fixed_subgroup_center": 0.2846229878611508
+      },
+      "duration": {
+        "Q": 3.2021117711186835,
+        "df": 1,
+        "p": 0.07354325124869218,
+        "I2": 68.77060916425657,
+        "fixed_subgroup_center": 0.38418640017518735
+      },
+      "course": {
+        "Q": 5.1878454885915035,
+        "df": 1,
+        "p": 0.022745397495911843,
+        "I2": 80.72417534024324,
+        "fixed_subgroup_center": 0.40802936485723823
+      },
+      "assessment": {
+        "Q": 1.1628437297007386,
+        "df": 1,
+        "p": 0.2808765557392668,
+        "I2": 14.003922069790658,
+        "fixed_subgroup_center": 0.18983102328780566
+      }
+    }
+  }
+}

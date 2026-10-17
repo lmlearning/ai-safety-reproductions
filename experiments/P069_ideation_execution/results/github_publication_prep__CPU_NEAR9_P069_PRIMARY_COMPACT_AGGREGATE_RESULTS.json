@@ -1,0 +1,1416 @@
+{
+  "schema": "EXACT_CLOSED_PRIMARY_AGGREGATE_PROJECTION_NO_RECOMPUTATION",
+  "paper_id": "P069",
+  "source_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\results.json",
+    "bytes": 116868,
+    "sha256": "44c54b4a551df2ccc03d9433cdf3fedadaaa0978eb56ef243915b1015163bfa9",
+    "purpose": "Immutable completed original primary result; not bundled raw records"
+  },
+  "projection": {
+    "values": {
+      "reviews.Human": 85,
+      "projects.Human": 19,
+      "topic.Bias.Human": 3,
+      "topic.Coding.Human": 3,
+      "topic.Safety.Human": 2,
+      "topic.Multilingual.Human": 3,
+      "topic.Factuality.Human": 5,
+      "topic.Math.Human": 1,
+      "topic.Uncertainty.Human": 2,
+      "reviews.AI": 96,
+      "projects.AI": 24,
+      "topic.Bias.AI": 4,
+      "topic.Coding.AI": 3,
+      "topic.Safety.AI": 4,
+      "topic.Multilingual.AI": 4,
+      "topic.Factuality.AI": 5,
+      "topic.Math.AI": 1,
+      "topic.Uncertainty.AI": 3,
+      "reviews.total": 181,
+      "projects.total": 43,
+      "matched.projects": 43,
+      "review.novelty.Human.mean": 4.929411764705883,
+      "review.novelty.Human.sd": 1.6145531911090496,
+      "review.novelty.AI.mean": 4.729166666666667,
+      "review.novelty.AI.sd": 1.7468970506459605,
+      "review.excitement.Human.mean": 4.517647058823529,
+      "review.excitement.Human.sd": 1.8382329411749645,
+      "review.excitement.AI.mean": 3.8958333333333335,
+      "review.excitement.AI.sd": 1.7528498620500528,
+      "review.soundness.Human.mean": 5.376470588235295,
+      "review.soundness.Human.sd": 1.7216713534048673,
+      "review.soundness.AI.mean": 4.729166666666667,
+      "review.soundness.AI.sd": 1.8170441121655674,
+      "review.effectiveness.Human.mean": 4.8352941176470585,
+      "review.effectiveness.Human.sd": 2.1135254006936286,
+      "review.effectiveness.AI.mean": 4.125,
+      "review.effectiveness.AI.sd": 1.943203969393503,
+      "review.overall.Human.mean": 4.0,
+      "review.overall.Human.sd": 1.5867095067540022,
+      "review.overall.AI.mean": 3.40625,
+      "review.overall.AI.sd": 1.4618632873266,
+      "review.faithfulness.Human.mean": 6.482352941176471,
+      "review.faithfulness.Human.sd": 2.032742365006286,
+      "review.faithfulness.AI.mean": 6.416666666666667,
+      "review.faithfulness.AI.sd": 1.5590239111558089,
+      "review.codebase.Human.mean": 3.5764705882352943,
+      "review.codebase.Human.sd": 0.9377880180413946,
+      "review.codebase.AI.mean": 3.5833333333333335,
+      "review.codebase.AI.sd": 0.8858454843945541,
+      "review.novelty.p": 0.21330915574924808,
+      "claim.review.novelty.significant": false,
+      "review.excitement.p": 0.013851058888973866,
+      "claim.review.excitement.significant": true,
+      "review.soundness.p": 0.013851058888973866,
+      "claim.review.soundness.significant": true,
+      "review.effectiveness.p": 0.013851058888973866,
+      "claim.review.effectiveness.significant": true,
+      "review.overall.p": 0.013851058888973866,
+      "claim.review.overall.significant": true,
+      "review.faithfulness.p": 0.40524010775588903,
+      "claim.review.faithfulness.significant": false,
+      "review.codebase.p": 0.5199678725597412,
+      "claim.review.codebase.significant": false,
+      "idea.novelty.pre.Human": 4.912280701754386,
+      "idea.novelty.pre.AI": 5.777777777777779,
+      "idea.excitement.pre.Human": 4.4035087719298245,
+      "idea.excitement.pre.AI": 5.652777777777778,
+      "idea.effectiveness.pre.Human": 4.833333333333333,
+      "idea.effectiveness.pre.AI": 6.003472222222221,
+      "idea.overall.pre.Human": 4.5964912280701755,
+      "idea.overall.pre.AI": 5.381944444444444,
+      "idea.novelty.pre.p": 0.03532144467383209,
+      "claim.idea.novelty.pre.significant": true,
+      "idea.excitement.pre.p": 0.003576648019030756,
+      "claim.idea.excitement.pre.significant": true,
+      "idea.effectiveness.pre.p": 0.0010961069238077197,
+      "claim.idea.effectiveness.pre.significant": true,
+      "idea.overall.pre.p": 0.03532144467383209,
+      "claim.idea.overall.pre.significant": true,
+      "idea.novelty.post.Human": 4.902631578947369,
+      "idea.novelty.post.AI": 4.729166666666667,
+      "idea.excitement.post.Human": 4.481578947368421,
+      "idea.excitement.post.AI": 3.8958333333333335,
+      "idea.effectiveness.post.Human": 4.781578947368422,
+      "idea.effectiveness.post.AI": 4.125,
+      "idea.overall.post.Human": 3.9684210526315784,
+      "idea.overall.post.AI": 3.40625,
+      "idea.novelty.post.p": 0.5864170358143449,
+      "claim.idea.novelty.post.significant": false,
+      "idea.excitement.post.p": 0.17508231752534414,
+      "claim.idea.excitement.post.significant": false,
+      "idea.effectiveness.post.p": 0.26585295178968865,
+      "claim.idea.effectiveness.post.significant": false,
+      "idea.overall.post.p": 0.17508231752534414,
+      "claim.idea.overall.post.significant": false,
+      "claim.idea.novelty.ranking.flip": true,
+      "claim.idea.excitement.ranking.flip": true,
+      "claim.idea.effectiveness.ranking.flip": true,
+      "claim.idea.overall.ranking.flip": true,
+      "gap.full.novelty.Human": -0.009649122807017532,
+      "gap.full.novelty.AI": -1.0486111111111112,
+      "gap.full.novelty.difference": 1.0389619883040937,
+      "gap.full.excitement.Human": 0.07807017543859654,
+      "gap.full.excitement.AI": -1.7569444444444444,
+      "gap.full.excitement.difference": 1.835014619883041,
+      "gap.full.effectiveness.Human": -0.05175438596491219,
+      "gap.full.effectiveness.AI": -1.878472222222222,
+      "gap.full.effectiveness.difference": 1.82671783625731,
+      "gap.full.overall.Human": -0.6280701754385966,
+      "gap.full.overall.AI": -1.9756944444444444,
+      "gap.full.overall.difference": 1.347624269005848,
+      "gap.full.novelty.p": 0.024845028599621507,
+      "claim.gap.full.novelty.significant": true,
+      "gap.full.excitement.p": 0.001242003701761542,
+      "claim.gap.full.excitement.significant": true,
+      "gap.full.effectiveness.p": 0.002519364484873181,
+      "claim.gap.full.effectiveness.significant": true,
+      "gap.full.overall.p": 0.003644513123179736,
+      "claim.gap.full.overall.significant": true,
+      "gap.exclude6.novelty.Human": -0.009649122807017532,
+      "gap.exclude6.novelty.AI": -1.1064814814814816,
+      "gap.exclude6.novelty.difference": 1.0968323586744642,
+      "gap.exclude6.excitement.Human": 0.07807017543859654,
+      "gap.exclude6.excitement.AI": -1.8425925925925926,
+      "gap.exclude6.excitement.difference": 1.9206627680311892,
+      "gap.exclude6.effectiveness.Human": -0.05175438596491219,
+      "gap.exclude6.effectiveness.AI": -1.921296296296296,
+      "gap.exclude6.effectiveness.difference": 1.869541910331384,
+      "gap.exclude6.overall.Human": -0.6280701754385966,
+      "gap.exclude6.overall.AI": -2.009259259259259,
+      "gap.exclude6.overall.difference": 1.3811890838206624,
+      "gap.exclude6.novelty.p": 0.02078539480946995,
+      "claim.gap.exclude6.novelty.significant": true,
+      "gap.exclude6.excitement.p": 0.0013024193902610483,
+      "claim.gap.exclude6.excitement.significant": true,
+      "gap.exclude6.effectiveness.p": 0.003500743930210309,
+      "claim.gap.exclude6.effectiveness.significant": true,
+      "gap.exclude6.overall.p": 0.005588572689736372,
+      "claim.gap.exclude6.overall.significant": true,
+      "correlation.Human.pearson.novelty": -0.08416379822944456,
+      "correlation.Human.spearman.novelty": -0.14777240079049922,
+      "correlation.Human.pearson.excitement": 0.2053871431475008,
+      "correlation.Human.spearman.excitement": 0.18311697094794036,
+      "correlation.Human.pearson.effectiveness": 0.021645020876655735,
+      "correlation.Human.spearman.effectiveness": -0.0924395877384781,
+      "correlation.Human.pearson.overall": 0.15805794298094716,
+      "correlation.Human.spearman.overall": 0.12433234091615097,
+      "correlation.AI.pearson.novelty": -0.01919489675533896,
+      "correlation.AI.spearman.novelty": 0.0772230322587454,
+      "correlation.AI.pearson.excitement": -0.3209031185764222,
+      "correlation.AI.spearman.excitement": -0.38617234864863054,
+      "correlation.AI.pearson.effectiveness": 0.17216454737821837,
+      "correlation.AI.spearman.effectiveness": 0.10959794780928554,
+      "correlation.AI.pearson.overall": -0.09165525029491711,
+      "correlation.AI.spearman.overall": -0.09189724911111571
+    },
+    "checks": [
+      {
+        "key": "topic.Bias.Human",
+        "expected": 3,
+        "absolute_tolerance": 0,
+        "source": "Original Table 1",
+        "actual": 3,
+        "pass": true
+      },
+      {
+        "key": "topic.Bias.AI",
+        "expected": 4,
+        "absolute_tolerance": 0,
+        "source": "Original Table 1",
+        "actual": 4,
+        "pass": true
+      },
+      {
+        "key": "topic.Coding.Human",
+        "expected": 3,
+        "absolute_tolerance": 0,
+        "source": "Original Table 1",
+        "actual": 3,
+        "pass": true
+      },
+      {
+        "key": "topic.Coding.AI",
+        "expected": 3,
+        "absolute_tolerance": 0,
+        "source": "Original Table 1",
+        "actual": 3,
+        "pass": true
+      },
+      {
+        "key": "topic.Safety.Human",
+        "expected": 2,
+        "absolute_tolerance": 0,
+        "source": "Original Table 1",
+        "actual": 2,
+        "pass": true
+      },
+      {
+        "key": "topic.Safety.AI",
+        "expected": 4,
+        "absolute_tolerance": 0,
+        "source": "Original Table 1",
+        "actual": 4,
+        "pass": true
+      },
+      {
+        "key": "topic.Multilingual.Human",
+        "expected": 3,
+        "absolute_tolerance": 0,
+        "source": "Original Table 1",
+        "actual": 3,
+        "pass": true
+      },
+      {
+        "key": "topic.Multilingual.AI",
+        "expected": 4,
+        "absolute_tolerance": 0,
+        "source": "Original Table 1",
+        "actual": 4,
+        "pass": true
+      },
+      {
+        "key": "topic.Factuality.Human",
+        "expected": 5,
+        "absolute_tolerance": 0,
+        "source": "Original Table 1",
+        "actual": 5,
+        "pass": true
+      },
+      {
+        "key": "topic.Factuality.AI",
+        "expected": 5,
+        "absolute_tolerance": 0,
+        "source": "Original Table 1",
+        "actual": 5,
+        "pass": true
+      },
+      {
+        "key": "topic.Math.Human",
+        "expected": 1,
+        "absolute_tolerance": 0,
+        "source": "Original Table 1",
+        "actual": 1,
+        "pass": true
+      },
+      {
+        "key": "topic.Math.AI",
+        "expected": 1,
+        "absolute_tolerance": 0,
+        "source": "Original Table 1",
+        "actual": 1,
+        "pass": true
+      },
+      {
+        "key": "topic.Uncertainty.Human",
+        "expected": 2,
+        "absolute_tolerance": 0,
+        "source": "Original Table 1",
+        "actual": 2,
+        "pass": true
+      },
+      {
+        "key": "topic.Uncertainty.AI",
+        "expected": 3,
+        "absolute_tolerance": 0,
+        "source": "Original Table 1",
+        "actual": 3,
+        "pass": true
+      },
+      {
+        "key": "reviews.Human",
+        "expected": 85,
+        "absolute_tolerance": 0,
+        "source": "Original Tables 1,3,4",
+        "actual": 85,
+        "pass": true
+      },
+      {
+        "key": "reviews.AI",
+        "expected": 96,
+        "absolute_tolerance": 0,
+        "source": "Original Tables 1,3,4",
+        "actual": 96,
+        "pass": true
+      },
+      {
+        "key": "reviews.total",
+        "expected": 181,
+        "absolute_tolerance": 0,
+        "source": "Original Tables 1,3,4",
+        "actual": 181,
+        "pass": true
+      },
+      {
+        "key": "projects.Human",
+        "expected": 19,
+        "absolute_tolerance": 0,
+        "source": "Original Tables 1,3,4",
+        "actual": 19,
+        "pass": true
+      },
+      {
+        "key": "projects.AI",
+        "expected": 24,
+        "absolute_tolerance": 0,
+        "source": "Original Tables 1,3,4",
+        "actual": 24,
+        "pass": true
+      },
+      {
+        "key": "projects.total",
+        "expected": 43,
+        "absolute_tolerance": 0,
+        "source": "Original Tables 1,3,4",
+        "actual": 43,
+        "pass": true
+      },
+      {
+        "key": "matched.projects",
+        "expected": 43,
+        "absolute_tolerance": 0,
+        "source": "Original Tables 1,3,4",
+        "actual": 43,
+        "pass": true
+      },
+      {
+        "key": "review.novelty.Human.mean",
+        "expected": 4.93,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 4.929411764705883,
+        "pass": true
+      },
+      {
+        "key": "review.novelty.Human.sd",
+        "expected": 1.61,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 1.6145531911090496,
+        "pass": true
+      },
+      {
+        "key": "review.novelty.AI.mean",
+        "expected": 4.73,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 4.729166666666667,
+        "pass": true
+      },
+      {
+        "key": "review.novelty.AI.sd",
+        "expected": 1.75,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 1.7468970506459605,
+        "pass": true
+      },
+      {
+        "key": "review.novelty.p",
+        "expected": 0.21,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 0.21330915574924808,
+        "pass": true
+      },
+      {
+        "key": "claim.review.novelty.significant",
+        "expected": false,
+        "absolute_tolerance": 0,
+        "source": "Original Table 3 significance marks",
+        "actual": false,
+        "pass": true
+      },
+      {
+        "key": "review.excitement.Human.mean",
+        "expected": 4.52,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 4.517647058823529,
+        "pass": true
+      },
+      {
+        "key": "review.excitement.Human.sd",
+        "expected": 1.84,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 1.8382329411749645,
+        "pass": true
+      },
+      {
+        "key": "review.excitement.AI.mean",
+        "expected": 3.9,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 3.8958333333333335,
+        "pass": true
+      },
+      {
+        "key": "review.excitement.AI.sd",
+        "expected": 1.75,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 1.7528498620500528,
+        "pass": true
+      },
+      {
+        "key": "review.excitement.p",
+        "expected": 0.01,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 0.013851058888973866,
+        "pass": true
+      },
+      {
+        "key": "claim.review.excitement.significant",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Table 3 significance marks",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "review.effectiveness.Human.mean",
+        "expected": 4.84,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 4.8352941176470585,
+        "pass": true
+      },
+      {
+        "key": "review.effectiveness.Human.sd",
+        "expected": 2.11,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 2.1135254006936286,
+        "pass": true
+      },
+      {
+        "key": "review.effectiveness.AI.mean",
+        "expected": 4.12,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 4.125,
+        "pass": true
+      },
+      {
+        "key": "review.effectiveness.AI.sd",
+        "expected": 1.94,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 1.943203969393503,
+        "pass": true
+      },
+      {
+        "key": "review.effectiveness.p",
+        "expected": 0.01,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 0.013851058888973866,
+        "pass": true
+      },
+      {
+        "key": "claim.review.effectiveness.significant",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Table 3 significance marks",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "review.soundness.Human.mean",
+        "expected": 5.38,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 5.376470588235295,
+        "pass": true
+      },
+      {
+        "key": "review.soundness.Human.sd",
+        "expected": 1.72,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 1.7216713534048673,
+        "pass": true
+      },
+      {
+        "key": "review.soundness.AI.mean",
+        "expected": 4.73,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 4.729166666666667,
+        "pass": true
+      },
+      {
+        "key": "review.soundness.AI.sd",
+        "expected": 1.82,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 1.8170441121655674,
+        "pass": true
+      },
+      {
+        "key": "review.soundness.p",
+        "expected": 0.01,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 0.013851058888973866,
+        "pass": true
+      },
+      {
+        "key": "claim.review.soundness.significant",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Table 3 significance marks",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "review.overall.Human.mean",
+        "expected": 4.0,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 4.0,
+        "pass": true
+      },
+      {
+        "key": "review.overall.Human.sd",
+        "expected": 1.59,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 1.5867095067540022,
+        "pass": true
+      },
+      {
+        "key": "review.overall.AI.mean",
+        "expected": 3.41,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 3.40625,
+        "pass": true
+      },
+      {
+        "key": "review.overall.AI.sd",
+        "expected": 1.46,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 1.4618632873266,
+        "pass": true
+      },
+      {
+        "key": "review.overall.p",
+        "expected": 0.01,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 0.013851058888973866,
+        "pass": true
+      },
+      {
+        "key": "claim.review.overall.significant",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Table 3 significance marks",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "review.faithfulness.Human.mean",
+        "expected": 6.48,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 6.482352941176471,
+        "pass": true
+      },
+      {
+        "key": "review.faithfulness.Human.sd",
+        "expected": 2.03,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 2.032742365006286,
+        "pass": true
+      },
+      {
+        "key": "review.faithfulness.AI.mean",
+        "expected": 6.42,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 6.416666666666667,
+        "pass": true
+      },
+      {
+        "key": "review.faithfulness.AI.sd",
+        "expected": 1.56,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 1.5590239111558089,
+        "pass": true
+      },
+      {
+        "key": "review.faithfulness.p",
+        "expected": 0.41,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 0.40524010775588903,
+        "pass": true
+      },
+      {
+        "key": "claim.review.faithfulness.significant",
+        "expected": false,
+        "absolute_tolerance": 0,
+        "source": "Original Table 3 significance marks",
+        "actual": false,
+        "pass": true
+      },
+      {
+        "key": "review.codebase.Human.mean",
+        "expected": 3.58,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 3.5764705882352943,
+        "pass": true
+      },
+      {
+        "key": "review.codebase.Human.sd",
+        "expected": 0.94,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 0.9377880180413946,
+        "pass": true
+      },
+      {
+        "key": "review.codebase.AI.mean",
+        "expected": 3.58,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 3.5833333333333335,
+        "pass": true
+      },
+      {
+        "key": "review.codebase.AI.sd",
+        "expected": 0.89,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 0.8858454843945541,
+        "pass": true
+      },
+      {
+        "key": "review.codebase.p",
+        "expected": 0.52,
+        "absolute_tolerance": 0.0051,
+        "source": "Original Table 3; population SD per original code; BH-FDR for five main metrics, raw p for controls per caption",
+        "actual": 0.5199678725597412,
+        "pass": true
+      },
+      {
+        "key": "claim.review.codebase.significant",
+        "expected": false,
+        "absolute_tolerance": 0,
+        "source": "Original Table 3 significance marks",
+        "actual": false,
+        "pass": true
+      },
+      {
+        "key": "idea.novelty.pre.Human",
+        "expected": 4.912,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 4.912280701754386,
+        "pass": true
+      },
+      {
+        "key": "idea.excitement.pre.Human",
+        "expected": 4.404,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 4.4035087719298245,
+        "pass": true
+      },
+      {
+        "key": "idea.effectiveness.pre.Human",
+        "expected": 4.833,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 4.833333333333333,
+        "pass": true
+      },
+      {
+        "key": "idea.overall.pre.Human",
+        "expected": 4.596,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 4.5964912280701755,
+        "pass": true
+      },
+      {
+        "key": "idea.novelty.pre.AI",
+        "expected": 5.778,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 5.777777777777779,
+        "pass": true
+      },
+      {
+        "key": "idea.excitement.pre.AI",
+        "expected": 5.653,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 5.652777777777778,
+        "pass": true
+      },
+      {
+        "key": "idea.effectiveness.pre.AI",
+        "expected": 6.003,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 6.003472222222221,
+        "pass": true
+      },
+      {
+        "key": "idea.overall.pre.AI",
+        "expected": 5.382,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 5.381944444444444,
+        "pass": true
+      },
+      {
+        "key": "idea.novelty.pre.p",
+        "expected": 0.035,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 0.03532144467383209,
+        "pass": true
+      },
+      {
+        "key": "idea.excitement.pre.p",
+        "expected": 0.004,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 0.003576648019030756,
+        "pass": true
+      },
+      {
+        "key": "idea.effectiveness.pre.p",
+        "expected": 0.001,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 0.0010961069238077197,
+        "pass": true
+      },
+      {
+        "key": "idea.overall.pre.p",
+        "expected": 0.035,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 0.03532144467383209,
+        "pass": true
+      },
+      {
+        "key": "idea.novelty.post.Human",
+        "expected": 4.903,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 4.902631578947369,
+        "pass": true
+      },
+      {
+        "key": "idea.excitement.post.Human",
+        "expected": 4.482,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 4.481578947368421,
+        "pass": true
+      },
+      {
+        "key": "idea.effectiveness.post.Human",
+        "expected": 4.782,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 4.781578947368422,
+        "pass": true
+      },
+      {
+        "key": "idea.overall.post.Human",
+        "expected": 3.968,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 3.9684210526315784,
+        "pass": true
+      },
+      {
+        "key": "idea.novelty.post.AI",
+        "expected": 4.729,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 4.729166666666667,
+        "pass": true
+      },
+      {
+        "key": "idea.excitement.post.AI",
+        "expected": 3.896,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 3.8958333333333335,
+        "pass": true
+      },
+      {
+        "key": "idea.effectiveness.post.AI",
+        "expected": 4.125,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 4.125,
+        "pass": true
+      },
+      {
+        "key": "idea.overall.post.AI",
+        "expected": 3.406,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 3.40625,
+        "pass": true
+      },
+      {
+        "key": "idea.novelty.post.p",
+        "expected": 0.586,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 0.5864170358143449,
+        "pass": true
+      },
+      {
+        "key": "idea.excitement.post.p",
+        "expected": 0.175,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 0.17508231752534414,
+        "pass": true
+      },
+      {
+        "key": "idea.effectiveness.post.p",
+        "expected": 0.266,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 0.26585295178968865,
+        "pass": true
+      },
+      {
+        "key": "idea.overall.post.p",
+        "expected": 0.175,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 4; all original projects, unweighted per-project means and two-sided Welch/BH-FDR",
+        "actual": 0.17508231752534414,
+        "pass": true
+      },
+      {
+        "key": "claim.idea.novelty.pre.significant",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Table 4",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "claim.idea.novelty.post.significant",
+        "expected": false,
+        "absolute_tolerance": 0,
+        "source": "Original Table 4",
+        "actual": false,
+        "pass": true
+      },
+      {
+        "key": "claim.idea.novelty.ranking.flip",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Figure 2/Table 4",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "claim.idea.excitement.pre.significant",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Table 4",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "claim.idea.excitement.post.significant",
+        "expected": false,
+        "absolute_tolerance": 0,
+        "source": "Original Table 4",
+        "actual": false,
+        "pass": true
+      },
+      {
+        "key": "claim.idea.excitement.ranking.flip",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Figure 2/Table 4",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "claim.idea.effectiveness.pre.significant",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Table 4",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "claim.idea.effectiveness.post.significant",
+        "expected": false,
+        "absolute_tolerance": 0,
+        "source": "Original Table 4",
+        "actual": false,
+        "pass": true
+      },
+      {
+        "key": "claim.idea.effectiveness.ranking.flip",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Figure 2/Table 4",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "claim.idea.overall.pre.significant",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Table 4",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "claim.idea.overall.post.significant",
+        "expected": false,
+        "absolute_tolerance": 0,
+        "source": "Original Table 4",
+        "actual": false,
+        "pass": true
+      },
+      {
+        "key": "claim.idea.overall.ranking.flip",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Figure 2/Table 4",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "gap.full.novelty.Human",
+        "expected": -0.01,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 5; original one-sided directional Welch and separate four-metric BH family",
+        "actual": -0.009649122807017532,
+        "pass": true
+      },
+      {
+        "key": "gap.full.excitement.Human",
+        "expected": 0.078,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 5; original one-sided directional Welch and separate four-metric BH family",
+        "actual": 0.07807017543859654,
+        "pass": true
+      },
+      {
+        "key": "gap.full.effectiveness.Human",
+        "expected": -0.052,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 5; original one-sided directional Welch and separate four-metric BH family",
+        "actual": -0.05175438596491219,
+        "pass": true
+      },
+      {
+        "key": "gap.full.overall.Human",
+        "expected": -0.628,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 5; original one-sided directional Welch and separate four-metric BH family",
+        "actual": -0.6280701754385966,
+        "pass": true
+      },
+      {
+        "key": "gap.full.novelty.AI",
+        "expected": -1.049,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 5; original one-sided directional Welch and separate four-metric BH family",
+        "actual": -1.0486111111111112,
+        "pass": true
+      },
+      {
+        "key": "gap.full.excitement.AI",
+        "expected": -1.76,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 5; original one-sided directional Welch and separate four-metric BH family",
+        "actual": -1.7569444444444444,
+        "pass": false
+      },
+      {
+        "key": "gap.full.effectiveness.AI",
+        "expected": -1.879,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 5; original one-sided directional Welch and separate four-metric BH family",
+        "actual": -1.878472222222222,
+        "pass": false
+      },
+      {
+        "key": "gap.full.overall.AI",
+        "expected": -1.976,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 5; original one-sided directional Welch and separate four-metric BH family",
+        "actual": -1.9756944444444444,
+        "pass": true
+      },
+      {
+        "key": "gap.full.novelty.difference",
+        "expected": 1.039,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 5; original one-sided directional Welch and separate four-metric BH family",
+        "actual": 1.0389619883040937,
+        "pass": true
+      },
+      {
+        "key": "gap.full.excitement.difference",
+        "expected": 1.835,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 5; original one-sided directional Welch and separate four-metric BH family",
+        "actual": 1.835014619883041,
+        "pass": true
+      },
+      {
+        "key": "gap.full.effectiveness.difference",
+        "expected": 1.827,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 5; original one-sided directional Welch and separate four-metric BH family",
+        "actual": 1.82671783625731,
+        "pass": true
+      },
+      {
+        "key": "gap.full.overall.difference",
+        "expected": 1.348,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 5; original one-sided directional Welch and separate four-metric BH family",
+        "actual": 1.347624269005848,
+        "pass": true
+      },
+      {
+        "key": "gap.full.novelty.p",
+        "expected": 0.025,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 5; original one-sided directional Welch and separate four-metric BH family",
+        "actual": 0.024845028599621507,
+        "pass": true
+      },
+      {
+        "key": "gap.full.excitement.p",
+        "expected": 0.001,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 5; original one-sided directional Welch and separate four-metric BH family",
+        "actual": 0.001242003701761542,
+        "pass": true
+      },
+      {
+        "key": "gap.full.effectiveness.p",
+        "expected": 0.003,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 5; original one-sided directional Welch and separate four-metric BH family",
+        "actual": 0.002519364484873181,
+        "pass": true
+      },
+      {
+        "key": "gap.full.overall.p",
+        "expected": 0.004,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 5; original one-sided directional Welch and separate four-metric BH family",
+        "actual": 0.003644513123179736,
+        "pass": true
+      },
+      {
+        "key": "claim.gap.full.novelty.significant",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Tables 5/10",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "claim.gap.full.excitement.significant",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Tables 5/10",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "claim.gap.full.effectiveness.significant",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Tables 5/10",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "claim.gap.full.overall.significant",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Tables 5/10",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "gap.exclude6.novelty.Human",
+        "expected": -0.01,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 10; original one-sided directional Welch and separate four-metric BH family",
+        "actual": -0.009649122807017532,
+        "pass": true
+      },
+      {
+        "key": "gap.exclude6.excitement.Human",
+        "expected": 0.078,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 10; original one-sided directional Welch and separate four-metric BH family",
+        "actual": 0.07807017543859654,
+        "pass": true
+      },
+      {
+        "key": "gap.exclude6.effectiveness.Human",
+        "expected": -0.052,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 10; original one-sided directional Welch and separate four-metric BH family",
+        "actual": -0.05175438596491219,
+        "pass": true
+      },
+      {
+        "key": "gap.exclude6.overall.Human",
+        "expected": -0.628,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 10; original one-sided directional Welch and separate four-metric BH family",
+        "actual": -0.6280701754385966,
+        "pass": true
+      },
+      {
+        "key": "gap.exclude6.novelty.AI",
+        "expected": -1.107,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 10; original one-sided directional Welch and separate four-metric BH family",
+        "actual": -1.1064814814814816,
+        "pass": false
+      },
+      {
+        "key": "gap.exclude6.excitement.AI",
+        "expected": -1.843,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 10; original one-sided directional Welch and separate four-metric BH family",
+        "actual": -1.8425925925925926,
+        "pass": true
+      },
+      {
+        "key": "gap.exclude6.effectiveness.AI",
+        "expected": -1.921,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 10; original one-sided directional Welch and separate four-metric BH family",
+        "actual": -1.921296296296296,
+        "pass": true
+      },
+      {
+        "key": "gap.exclude6.overall.AI",
+        "expected": -2.009,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 10; original one-sided directional Welch and separate four-metric BH family",
+        "actual": -2.009259259259259,
+        "pass": true
+      },
+      {
+        "key": "gap.exclude6.novelty.difference",
+        "expected": 1.097,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 10; original one-sided directional Welch and separate four-metric BH family",
+        "actual": 1.0968323586744642,
+        "pass": true
+      },
+      {
+        "key": "gap.exclude6.excitement.difference",
+        "expected": 1.921,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 10; original one-sided directional Welch and separate four-metric BH family",
+        "actual": 1.9206627680311892,
+        "pass": true
+      },
+      {
+        "key": "gap.exclude6.effectiveness.difference",
+        "expected": 1.87,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 10; original one-sided directional Welch and separate four-metric BH family",
+        "actual": 1.869541910331384,
+        "pass": true
+      },
+      {
+        "key": "gap.exclude6.overall.difference",
+        "expected": 1.381,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 10; original one-sided directional Welch and separate four-metric BH family",
+        "actual": 1.3811890838206624,
+        "pass": true
+      },
+      {
+        "key": "gap.exclude6.novelty.p",
+        "expected": 0.021,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 10; original one-sided directional Welch and separate four-metric BH family",
+        "actual": 0.02078539480946995,
+        "pass": true
+      },
+      {
+        "key": "gap.exclude6.excitement.p",
+        "expected": 0.001,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 10; original one-sided directional Welch and separate four-metric BH family",
+        "actual": 0.0013024193902610483,
+        "pass": true
+      },
+      {
+        "key": "gap.exclude6.effectiveness.p",
+        "expected": 0.004,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 10; original one-sided directional Welch and separate four-metric BH family",
+        "actual": 0.003500743930210309,
+        "pass": true
+      },
+      {
+        "key": "gap.exclude6.overall.p",
+        "expected": 0.006,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 10; original one-sided directional Welch and separate four-metric BH family",
+        "actual": 0.005588572689736372,
+        "pass": true
+      },
+      {
+        "key": "claim.gap.exclude6.novelty.significant",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Tables 5/10",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "claim.gap.exclude6.excitement.significant",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Tables 5/10",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "claim.gap.exclude6.effectiveness.significant",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Tables 5/10",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "claim.gap.exclude6.overall.significant",
+        "expected": true,
+        "absolute_tolerance": 0,
+        "source": "Original Tables 5/10",
+        "actual": true,
+        "pass": true
+      },
+      {
+        "key": "correlation.AI.pearson.novelty",
+        "expected": -0.019,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 9; same per-project means",
+        "actual": -0.01919489675533896,
+        "pass": true
+      },
+      {
+        "key": "correlation.AI.pearson.excitement",
+        "expected": -0.321,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 9; same per-project means",
+        "actual": -0.3209031185764222,
+        "pass": true
+      },
+      {
+        "key": "correlation.AI.pearson.effectiveness",
+        "expected": 0.172,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 9; same per-project means",
+        "actual": 0.17216454737821837,
+        "pass": true
+      },
+      {
+        "key": "correlation.AI.pearson.overall",
+        "expected": -0.092,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 9; same per-project means",
+        "actual": -0.09165525029491711,
+        "pass": true
+      },
+      {
+        "key": "correlation.AI.spearman.novelty",
+        "expected": 0.077,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 9; same per-project means",
+        "actual": 0.0772230322587454,
+        "pass": true
+      },
+      {
+        "key": "correlation.AI.spearman.excitement",
+        "expected": -0.386,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 9; same per-project means",
+        "actual": -0.38617234864863054,
+        "pass": true
+      },
+      {
+        "key": "correlation.AI.spearman.effectiveness",
+        "expected": 0.11,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 9; same per-project means",
+        "actual": 0.10959794780928554,
+        "pass": true
+      },
+      {
+        "key": "correlation.AI.spearman.overall",
+        "expected": -0.092,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 9; same per-project means",
+        "actual": -0.09189724911111571,
+        "pass": true
+      },
+      {
+        "key": "correlation.Human.pearson.novelty",
+        "expected": -0.084,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 9; same per-project means",
+        "actual": -0.08416379822944456,
+        "pass": true
+      },
+      {
+        "key": "correlation.Human.pearson.excitement",
+        "expected": 0.205,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 9; same per-project means",
+        "actual": 0.2053871431475008,
+        "pass": true
+      },
+      {
+        "key": "correlation.Human.pearson.effectiveness",
+        "expected": 0.022,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 9; same per-project means",
+        "actual": 0.021645020876655735,
+        "pass": true
+      },
+      {
+        "key": "correlation.Human.pearson.overall",
+        "expected": 0.158,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 9; same per-project means",
+        "actual": 0.15805794298094716,
+        "pass": true
+      },
+      {
+        "key": "correlation.Human.spearman.novelty",
+        "expected": -0.148,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 9; same per-project means",
+        "actual": -0.14777240079049922,
+        "pass": true
+      },
+      {
+        "key": "correlation.Human.spearman.excitement",
+        "expected": 0.183,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 9; same per-project means",
+        "actual": 0.18311697094794036,
+        "pass": true
+      },
+      {
+        "key": "correlation.Human.spearman.effectiveness",
+        "expected": -0.092,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 9; same per-project means",
+        "actual": -0.0924395877384781,
+        "pass": true
+      },
+      {
+        "key": "correlation.Human.spearman.overall",
+        "expected": 0.124,
+        "absolute_tolerance": 0.00051,
+        "source": "Original Table 9; same per-project means",
+        "actual": 0.12433234091615097,
+        "pass": true
+      }
+    ],
+    "all_pass": false,
+    "passed": 152,
+    "total": 155
+  },
+  "no_numerical_recomputation": true,
+  "raw_participant_or_response_records_included": false
+}

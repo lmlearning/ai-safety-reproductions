@@ -1,0 +1,13 @@
+{
+  "frozen_at_utc": "2026-10-10T13:49:11Z",
+  "source": "Original Figure 2, publisher PDF page 9",
+  "tolerances": {"mu": 0.005, "ci_low": 0.005, "ci_high": 0.005, "tau2": 0.005, "Q": 0.10, "Z": 0.010, "I2": 0.5, "subgroup_I2": 0.10, "weight_percent": 0.10, "p": 0.005, "probability_superiority": 0.005},
+  "fits": {
+    "GPT-3.5": {"k": 4, "mu": 0.51, "ci_low": -0.14, "ci_high": 1.16, "tau2": 0.42, "Q": 277.50, "df": 3, "I2": 99.0, "Z": 1.54, "p": 0.12, "heterogeneity_p_less_than": 0.00001, "weight_percent": 32.8},
+    "GPT-4": {"k": 9, "mu": 1.03, "ci_low": 0.71, "ci_high": 1.35, "tau2": 0.19, "Q": 63.72, "df": 8, "I2": 87.0, "Z": 6.33, "p_less_than": 0.00001, "heterogeneity_p_less_than": 0.00001, "weight_percent": 67.2},
+    "overall": {"k": 13, "mu": 0.87, "ci_low": 0.54, "ci_high": 1.20, "tau2": 0.33, "Q": 385.45, "df": 12, "I2": 97.0, "Z": 5.14, "p_less_than": 0.00001, "heterogeneity_p_less_than": 0.00001, "weight_percent": 100.0}
+  },
+  "subgroup_difference": {"Q": 1.98, "df": 1, "I2": 49.4, "p": 0.16},
+  "probability_superiority": 0.73,
+  "qualitative_claims": {"overall_positive_significant": true, "gpt4_positive_significant": true, "gpt35_not_significant": true, "subgroup_difference_not_significant": true}
+}

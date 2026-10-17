@@ -1,0 +1,14 @@
+{
+  "finished_at_utc": "2026-10-10T21:07:16.034904+00:00",
+  "actual_pid": 57316,
+  "central_gate_count": 16,
+  "passed_gates": 15,
+  "all_central_gates_passed": false,
+  "all_rounding_random_lower_ci_positive": true,
+  "source_rows": 59,
+  "independent_audit_required": true,
+  "counted_success": false,
+  "class": "Central statistical reproduction of complete overall59-effect synthesis, Table3 and Figure3 overall fixed summary.",
+  "original_CMA_tau_setting_verified": false,
+  "elapsed_seconds": 2.375
+}

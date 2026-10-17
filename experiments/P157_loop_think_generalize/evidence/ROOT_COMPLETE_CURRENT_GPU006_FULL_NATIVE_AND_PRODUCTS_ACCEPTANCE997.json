@@ -1,0 +1,57 @@
+{
+  "UTC": "2026-10-17T12:00:48.564036+00:00",
+  "ROOT_complete_P157_current_full_native_and_products_accepted": true,
+  "complete_full_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\COMPLETE_ALL_NINE_FULL.json",
+    "bytes": 90849229,
+    "sha256": "491c6c8a6bd69a69342cc7ddddb7fd84275d666e37ab6603454cd3064399606d"
+  },
+  "current_source_packet_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\papers\\P157_loop_think_generalize\\review\\source_preparation006\\SOURCE_ONLY_COMPLETE_DORMANT_P157_GPU_CONTINUATION006_PACKET.json",
+    "bytes": 52570,
+    "sha256": "199cd831b8c542017ccd5c66a665a136c71fad9dcb6242e6d08a0d3f33549cc9"
+  },
+  "full_admission_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_GPU_remaining_full_ROOT989\\ROOT_ONE_GPU006_COMPLETE_REMAINING_FULL_ADMISSION989.json",
+    "bytes": 11153,
+    "sha256": "650f45d4089dc1250244ae122ed884c1cac8f49e692c20a6e7898a063281b2ab"
+  },
+  "actual_tool_exit": 0,
+  "actual_tool_completion": "aa494c",
+  "actual_full_session": 70743,
+  "terminal_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\parent\\TERMINAL.json",
+    "bytes": 1766,
+    "sha256": "9ef18a6551b6a27699176560f5ed1b847a888409ac45dba383d1dfeebe476ed7"
+  },
+  "actual_direct_child_native_exit": 0,
+  "retained_direct_handle_and_streams_closed": true,
+  "imported_module_custody_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\worker\\COMPLETE_IMPORTED_G9_MODULE_CUSTODY.json",
+    "bytes": 762245,
+    "sha256": "4a119867e00a6c8d62b263cb237a417a940610c06cebe56bac4fd9328a39924c"
+  },
+  "all726_fixed_and_adaptive_array_refs_rehashed": true,
+  "whole_geometry": "All9 fixedmodels/all40recurrences/all29250examples/all915batches/14040counters; both adaptive policies complete. No accuracy-target assessment yet.",
+  "child_lifetime_peaks": {
+    "pid": 37396,
+    "creation_filetime_100ns": 134367090688789525,
+    "image": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "image_query": {
+      "succeeded": false,
+      "error": 31,
+      "origin": "retained_initial_image_NOT_a_fresh_terminal_image_query"
+    },
+    "native_exit_or_STILL_ACTIVE": 0,
+    "working": 40960,
+    "peak_working": 2462449664,
+    "private": 86016,
+    "peak_pagefile": 2381967360,
+    "available_RAM": 8097914880,
+    "available_commit": 36853342208,
+    "UTC": "2026-10-17T12:00:02.708561+00:00"
+  },
+  "parent_after_exit_peak": "UNMEASURED; direct-scope source and actual trusted tool0 only; no Job claim",
+  "near_policy915_unchanged": true,
+  "paper_credit": 0
+}

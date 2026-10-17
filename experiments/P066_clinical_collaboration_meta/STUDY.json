@@ -1,0 +1,17 @@
+{
+  "ordinal": 3,
+  "paper_id": "P066",
+  "title": "Human-large language model collaboration in clinical medicine: a systematic review and meta-analysis",
+  "classification": "Strict CENTRAL",
+  "recorded_public_date": "2025-11-15",
+  "window": "Main",
+  "citations": 34,
+  "provider": "Semantic Scholar",
+  "capture_time_supported": true,
+  "route": "Released synthesis",
+  "result_and_scope": "All7 Figure2 contrasts;63 numerical +6 qualitative targets pass. No new constituent trials, search or GRADE.",
+  "DOI": "10.1038/s41746-026-02382-2",
+  "arxiv_id": null,
+  "preserved_limits": "Retained public-code date15Nov; creation14Nov alone does not prove public access, but either is main-window. GRADE, screening and unavailable sensitivities not repeated.",
+  "whole_paper_reproduction": false
+}

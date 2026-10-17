@@ -1,0 +1,1110 @@
+{
+  "paper_id": "P134",
+  "assets": [
+    {
+      "id": "input-001",
+      "original_relative_path": "papers/P134_young_adult_chatbot_meta/source_transcription002/anxiety_means_source001.csv",
+      "bytes": 1771,
+      "sha256": "18597add80732423830cf50ef53f050929cbe106b72872ff570d9aca5c38c629",
+      "download_urls": [],
+      "source_pages": [
+        "https://doi.org/10.2196/79850",
+        "https://www.jmir.org/2025/1/e79850",
+        "https://preprints.jmir.org/preprint/79850",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.2196%2F79850&format=json&resultType=core",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/fullTextXML",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/supplementaryFiles",
+        "https://europepmc.org/articles/PMC12661615",
+        "https://europepmc.org/articles/PMC12661615?pdf=render",
+        "https://www.jmir.org",
+        "https://www.jmir.org/",
+        "https://www.jmir.org/2025/1/e79850/PDF"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "ay><month>05</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmin"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "<year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"c"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "y published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Common"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-002",
+      "original_relative_path": "papers/P134_young_adult_chatbot_meta/source_transcription002/depression_means_source001.csv",
+      "bytes": 1671,
+      "sha256": "c1a86113f7739d97f07dc8eb29bbec2382be896e9996ee61f91d526a642314a1",
+      "download_urls": [],
+      "source_pages": [
+        "https://doi.org/10.2196/79850",
+        "https://www.jmir.org/2025/1/e79850",
+        "https://preprints.jmir.org/preprint/79850",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.2196%2F79850&format=json&resultType=core",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/fullTextXML",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/supplementaryFiles",
+        "https://europepmc.org/articles/PMC12661615",
+        "https://europepmc.org/articles/PMC12661615?pdf=render",
+        "https://www.jmir.org",
+        "https://www.jmir.org/",
+        "https://www.jmir.org/2025/1/e79850/PDF"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "ay><month>05</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmin"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "<year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"c"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "y published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Common"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-003",
+      "original_relative_path": "papers/P134_young_adult_chatbot_meta/source_transcription002/health_effects_source001.csv",
+      "bytes": 958,
+      "sha256": "41b1472295360e01b2cb422adb73c053ac81f190d31d926042db4a6ae15621b6",
+      "download_urls": [],
+      "source_pages": [
+        "https://doi.org/10.2196/79850",
+        "https://www.jmir.org/2025/1/e79850",
+        "https://preprints.jmir.org/preprint/79850",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.2196%2F79850&format=json&resultType=core",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/fullTextXML",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/supplementaryFiles",
+        "https://europepmc.org/articles/PMC12661615",
+        "https://europepmc.org/articles/PMC12661615?pdf=render",
+        "https://www.jmir.org",
+        "https://www.jmir.org/",
+        "https://www.jmir.org/2025/1/e79850/PDF"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "ay><month>05</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmin"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "<year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"c"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "y published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Common"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-004",
+      "original_relative_path": "papers/P134_young_adult_chatbot_meta/source_transcription002/life_satisfaction_means_source001.csv",
+      "bytes": 1073,
+      "sha256": "99da69a2382030a3371ad18443aa2bd8f7350cf8bd96ffd5e7f51cf8d904e8fa",
+      "download_urls": [],
+      "source_pages": [
+        "https://doi.org/10.2196/79850",
+        "https://www.jmir.org/2025/1/e79850",
+        "https://preprints.jmir.org/preprint/79850",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.2196%2F79850&format=json&resultType=core",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/fullTextXML",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/supplementaryFiles",
+        "https://europepmc.org/articles/PMC12661615",
+        "https://europepmc.org/articles/PMC12661615?pdf=render",
+        "https://www.jmir.org",
+        "https://www.jmir.org/",
+        "https://www.jmir.org/2025/1/e79850/PDF"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "ay><month>05</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmin"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "<year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"c"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "y published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Common"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-005",
+      "original_relative_path": "papers/P134_young_adult_chatbot_meta/source_transcription002/negative_affect_means_source001.csv",
+      "bytes": 1120,
+      "sha256": "b91d350bb73afbe6829b8bf08b549192697fca01bcc7c3d3777421afc0dedea1",
+      "download_urls": [],
+      "source_pages": [
+        "https://doi.org/10.2196/79850",
+        "https://www.jmir.org/2025/1/e79850",
+        "https://preprints.jmir.org/preprint/79850",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.2196%2F79850&format=json&resultType=core",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/fullTextXML",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/supplementaryFiles",
+        "https://europepmc.org/articles/PMC12661615",
+        "https://europepmc.org/articles/PMC12661615?pdf=render",
+        "https://www.jmir.org",
+        "https://www.jmir.org/",
+        "https://www.jmir.org/2025/1/e79850/PDF"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "ay><month>05</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmin"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "<year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"c"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "y published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Common"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-006",
+      "original_relative_path": "papers/P134_young_adult_chatbot_meta/source_transcription002/overall_mental_effects_source001.csv",
+      "bytes": 3466,
+      "sha256": "19076910698a03ea9259bfc51b1aca3a6ed040e7ffee9e796dd2fb00d4ca62ca",
+      "download_urls": [],
+      "source_pages": [
+        "https://doi.org/10.2196/79850",
+        "https://www.jmir.org/2025/1/e79850",
+        "https://preprints.jmir.org/preprint/79850",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.2196%2F79850&format=json&resultType=core",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/fullTextXML",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/supplementaryFiles",
+        "https://europepmc.org/articles/PMC12661615",
+        "https://europepmc.org/articles/PMC12661615?pdf=render",
+        "https://www.jmir.org",
+        "https://www.jmir.org/",
+        "https://www.jmir.org/2025/1/e79850/PDF"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "ay><month>05</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmin"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "<year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"c"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "y published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Common"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-007",
+      "original_relative_path": "papers/P134_young_adult_chatbot_meta/source_transcription002/positive_affect_means_source001.csv",
+      "bytes": 1117,
+      "sha256": "d8eb177b52dae06ae2c06d110f17550fa22f6772518265d1d573d5a1699ecd91",
+      "download_urls": [],
+      "source_pages": [
+        "https://doi.org/10.2196/79850",
+        "https://www.jmir.org/2025/1/e79850",
+        "https://preprints.jmir.org/preprint/79850",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.2196%2F79850&format=json&resultType=core",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/fullTextXML",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/supplementaryFiles",
+        "https://europepmc.org/articles/PMC12661615",
+        "https://europepmc.org/articles/PMC12661615?pdf=render",
+        "https://www.jmir.org",
+        "https://www.jmir.org/",
+        "https://www.jmir.org/2025/1/e79850/PDF"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "ay><month>05</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmin"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "<year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"c"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "y published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Common"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-008",
+      "original_relative_path": "papers/P134_young_adult_chatbot_meta/source_transcription002/psychosomatic_means_source001.csv",
+      "bytes": 571,
+      "sha256": "df236583fcf72030c71b66a3486b29cafeca180d6bcb7cc2bbf4fc77ff88c5d4",
+      "download_urls": [],
+      "source_pages": [
+        "https://doi.org/10.2196/79850",
+        "https://www.jmir.org/2025/1/e79850",
+        "https://preprints.jmir.org/preprint/79850",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.2196%2F79850&format=json&resultType=core",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/fullTextXML",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/supplementaryFiles",
+        "https://europepmc.org/articles/PMC12661615",
+        "https://europepmc.org/articles/PMC12661615?pdf=render",
+        "https://www.jmir.org",
+        "https://www.jmir.org/",
+        "https://www.jmir.org/2025/1/e79850/PDF"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "ay><month>05</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmin"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "<year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"c"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "y published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Common"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-009",
+      "original_relative_path": "papers/P134_young_adult_chatbot_meta/source_transcription002/ROOT_LITERAL_CORRECTION_RECEIPT002.json",
+      "bytes": 13517,
+      "sha256": "87b87ef6b0af5abd1fb9ada757a54a6460147be4e00c51efabf8356f9e867dfc",
+      "download_urls": [],
+      "source_pages": [
+        "https://doi.org/10.2196/79850",
+        "https://www.jmir.org/2025/1/e79850",
+        "https://preprints.jmir.org/preprint/79850",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.2196%2F79850&format=json&resultType=core",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/fullTextXML",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/supplementaryFiles",
+        "https://europepmc.org/articles/PMC12661615",
+        "https://europepmc.org/articles/PMC12661615?pdf=render",
+        "https://www.jmir.org",
+        "https://www.jmir.org/",
+        "https://www.jmir.org/2025/1/e79850/PDF"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "ay><month>05</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmin"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "<year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"c"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "y published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Common"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-010",
+      "original_relative_path": "papers/P134_young_adult_chatbot_meta/source_transcription002/self_ambivalence_means_source001.csv",
+      "bytes": 519,
+      "sha256": "a3171ecb40994a05a807605e2692ebe0af046a9ada779ba1ad5eb3e7bc91e11e",
+      "download_urls": [],
+      "source_pages": [
+        "https://doi.org/10.2196/79850",
+        "https://www.jmir.org/2025/1/e79850",
+        "https://preprints.jmir.org/preprint/79850",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.2196%2F79850&format=json&resultType=core",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/fullTextXML",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/supplementaryFiles",
+        "https://europepmc.org/articles/PMC12661615",
+        "https://europepmc.org/articles/PMC12661615?pdf=render",
+        "https://www.jmir.org",
+        "https://www.jmir.org/",
+        "https://www.jmir.org/2025/1/e79850/PDF"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "ay><month>05</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmin"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "<year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"c"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "y published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Common"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-011",
+      "original_relative_path": "papers/P134_young_adult_chatbot_meta/source_transcription002/self_efficacy_means_source001.csv",
+      "bytes": 662,
+      "sha256": "6f4b21e58bc291e223b2879132afd43f4b48c54bf117dc427dc77c7673e07892",
+      "download_urls": [],
+      "source_pages": [
+        "https://doi.org/10.2196/79850",
+        "https://www.jmir.org/2025/1/e79850",
+        "https://preprints.jmir.org/preprint/79850",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.2196%2F79850&format=json&resultType=core",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/fullTextXML",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/supplementaryFiles",
+        "https://europepmc.org/articles/PMC12661615",
+        "https://europepmc.org/articles/PMC12661615?pdf=render",
+        "https://www.jmir.org",
+        "https://www.jmir.org/",
+        "https://www.jmir.org/2025/1/e79850/PDF"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "ay><month>05</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmin"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "<year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"c"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "y published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Common"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-012",
+      "original_relative_path": "papers/P134_young_adult_chatbot_meta/source_transcription002/stress_means_source001.csv",
+      "bytes": 654,
+      "sha256": "df4c103ee6c33f5d3e2af5901c2b05812b2cd381003429d01d6b6ed49eaeaf1a",
+      "download_urls": [],
+      "source_pages": [
+        "https://doi.org/10.2196/79850",
+        "https://www.jmir.org/2025/1/e79850",
+        "https://preprints.jmir.org/preprint/79850",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.2196%2F79850&format=json&resultType=core",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/fullTextXML",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/supplementaryFiles",
+        "https://europepmc.org/articles/PMC12661615",
+        "https://europepmc.org/articles/PMC12661615?pdf=render",
+        "https://www.jmir.org",
+        "https://www.jmir.org/",
+        "https://www.jmir.org/2025/1/e79850/PDF"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "ay><month>05</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmin"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "<year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"c"
+          },
+          {
+            "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+            "literal": "y published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Common"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    }
+  ],
+  "source_urls": [
+    "http://www",
+    "http://www.niso.org/schemas/ali/1.0/",
+    "http://www.w3.org/1999/xlink",
+    "https://content.openalex.org/works/W4416792402.grobid-xml",
+    "https://content.openalex.org/works/W4416792402.pdf",
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://doaj.org/article/a27fa946e707441fabd65e096aae1a5e",
+    "https://doi.org/10.2196/79850",
+    "https://europepmc.org/articles/PMC12661615",
+    "https://europepmc.org/articles/PMC12661615?pdf=render",
+    "https://metadata.un.org/sdg/3",
+    "https://openalex.org/A5010304991",
+    "https://openalex.org/A5012219174",
+    "https://openalex.org/A5023479772",
+    "https://openalex.org/A5028602105",
+    "https://openalex.org/A5052323975",
+    "https://openalex.org/C118552586",
+    "https://openalex.org/C134362201",
+    "https://openalex.org/C138496976",
+    "https://openalex.org/C138816342",
+    "https://openalex.org/C139265228",
+    "https://openalex.org/C145642194",
+    "https://openalex.org/C15744967",
+    "https://openalex.org/C166735990",
+    "https://openalex.org/C173853756",
+    "https://openalex.org/C189708586",
+    "https://openalex.org/C205545832",
+    "https://openalex.org/C27415008",
+    "https://openalex.org/C2779041454",
+    "https://openalex.org/C2779473830",
+    "https://openalex.org/C3017944768",
+    "https://openalex.org/C39890363",
+    "https://openalex.org/C526869908",
+    "https://openalex.org/C70410870",
+    "https://openalex.org/C71924100",
+    "https://openalex.org/C75630572",
+    "https://openalex.org/I1299303238",
+    "https://openalex.org/I1303153112",
+    "https://openalex.org/I14243506",
+    "https://openalex.org/I170201317",
+    "https://openalex.org/P4310320608",
+    "https://openalex.org/S17147534",
+    "https://openalex.org/S4306400806",
+    "https://openalex.org/S4306401280",
+    "https://openalex.org/S4306525036",
+    "https://openalex.org/T10709",
+    "https://openalex.org/T11519",
+    "https://openalex.org/T11636",
+    "https://openalex.org/W1991442643",
+    "https://openalex.org/W2169277181",
+    "https://openalex.org/W2263728449",
+    "https://openalex.org/W2604096659",
+    "https://openalex.org/W2623779865",
+    "https://openalex.org/W2761423999",
+    "https://openalex.org/W2796997300",
+    "https://openalex.org/W2889335577",
+    "https://openalex.org/W2975920545",
+    "https://openalex.org/W2980981514",
+    "https://openalex.org/W3012138616",
+    "https://openalex.org/W3022528244",
+    "https://openalex.org/W3028999579",
+    "https://openalex.org/W3044671654",
+    "https://openalex.org/W3085190479",
+    "https://openalex.org/W3118888926",
+    "https://openalex.org/W3139127941",
+    "https://openalex.org/W3156818268",
+    "https://openalex.org/W3160562012",
+    "https://openalex.org/W3171455429",
+    "https://openalex.org/W3195958027",
+    "https://openalex.org/W3209511635",
+    "https://openalex.org/W3213790166",
+    "https://openalex.org/W4200101687",
+    "https://openalex.org/W4200588694",
+    "https://openalex.org/W4206687394",
+    "https://openalex.org/W4239187549",
+    "https://openalex.org/W4247665917",
+    "https://openalex.org/W4296520346",
+    "https://openalex.org/W4308687068",
+    "https://openalex.org/W4309659478",
+    "https://openalex.org/W4310211657",
+    "https://openalex.org/W4323900694",
+    "https://openalex.org/W4353021596",
+    "https://openalex.org/W4361282616",
+    "https://openalex.org/W4362667331",
+    "https://openalex.org/W4364322177",
+    "https://openalex.org/W4366352196",
+    "https://openalex.org/W4377565325",
+    "https://openalex.org/W4381805620",
+    "https://openalex.org/W4383346782",
+    "https://openalex.org/W4383552383",
+    "https://openalex.org/W4385605341",
+    "https://openalex.org/W4385742308",
+    "https://openalex.org/W4387564877",
+    "https://openalex.org/W4387665965",
+    "https://openalex.org/W4387876721",
+    "https://openalex.org/W4388194725",
+    "https://openalex.org/W4388688943",
+    "https://openalex.org/W4389613191",
+    "https://openalex.org/W4389934892",
+    "https://openalex.org/W4391676744",
+    "https://openalex.org/W4393208678",
+    "https://openalex.org/W4393221331",
+    "https://openalex.org/W4396611672",
+    "https://openalex.org/W4399011860",
+    "https://openalex.org/W4399759691",
+    "https://openalex.org/W4403843885",
+    "https://openalex.org/W4405728682",
+    "https://openalex.org/W4407329827",
+    "https://openalex.org/W4416792402",
+    "https://openalex.org/W630440319",
+    "https://openalex.org/domains/2",
+    "https://openalex.org/domains/4",
+    "https://openalex.org/fields/27",
+    "https://openalex.org/fields/32",
+    "https://openalex.org/keywords/adolescents",
+    "https://openalex.org/keywords/ai-chatbots",
+    "https://openalex.org/keywords/anxiety",
+    "https://openalex.org/keywords/chatbot-effectiveness",
+    "https://openalex.org/keywords/depression",
+    "https://openalex.org/keywords/digital-mental-health-interventions",
+    "https://openalex.org/keywords/grade-quality-of-evidence",
+    "https://openalex.org/keywords/health-behavior",
+    "https://openalex.org/keywords/health-education",
+    "https://openalex.org/keywords/psychological-distress",
+    "https://openalex.org/keywords/risk-of-bias",
+    "https://openalex.org/keywords/stress",
+    "https://openalex.org/keywords/young-adults",
+    "https://openalex.org/licenses/cc-by",
+    "https://openalex.org/licenses/cc-by-sa",
+    "https://openalex.org/study-designs/meta-analysis",
+    "https://openalex.org/study-designs/systematic-review",
+    "https://openalex.org/subfields/2718",
+    "https://openalex.org/subfields/3202",
+    "https://openalex.org/subfields/3207",
+    "https://orcid.org/0000-0002-1344-5944",
+    "https://orcid.org/0000-0002-2578-6906",
+    "https://orcid.org/0000-0003-1966-6139",
+    "https://orcid.org/0000-0003-4703-5430",
+    "https://orcid.org/0009-0007-9445-1687",
+    "https://preprints.jmir.org/preprint/79850",
+    "https://pubmed.ncbi.nlm.nih.gov/41313175",
+    "https://repository.kpi.kharkov.ua/server/api/core/bitstreams/684fa680-49bf-4517-8c34-92d3757d60bf/content",
+    "https://ror.org/0030zas98",
+    "https://ror.org/01an3r305",
+    "https://training.cochrane.org/handbook/current/statistical-methods-revman5",
+    "https://www.brusselstimes.com/430098/belgian-man-commits-suicide-following-exchanges-with-chatgpt",
+    "https://www.cancer.gov/types/aya",
+    "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/statistical-methods-revman5",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/fullTextXML",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/supplementaryFiles",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.2196%2F79850&format=json&resultType=core",
+    "https://www.jmir.org",
+    "https://www.jmir.org/",
+    "https://www.jmir.org/2025/1/e79850",
+    "https://www.jmir.org/2025/1/e79850/PDF",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/12661615",
+    "https://www.wikidata.org/wiki/Q11190",
+    "https://www.wikidata.org/wiki/Q1450463",
+    "https://www.wikidata.org/wiki/Q1504425",
+    "https://www.wikidata.org/wiki/Q1540899",
+    "https://www.wikidata.org/wiki/Q17156455",
+    "https://www.wikidata.org/wiki/Q175002",
+    "https://www.wikidata.org/wiki/Q1750812",
+    "https://www.wikidata.org/wiki/Q189603",
+    "https://www.wikidata.org/wiki/Q199906",
+    "https://www.wikidata.org/wiki/Q317309",
+    "https://www.wikidata.org/wiki/Q3298118",
+    "https://www.wikidata.org/wiki/Q36108",
+    "https://www.wikidata.org/wiki/Q5283089",
+    "https://www.wikidata.org/wiki/Q538904",
+    "https://www.wikidata.org/wiki/Q7256382",
+    "https://www.wikidata.org/wiki/Q7867",
+    "https://www.wikidata.org/wiki/Q86915",
+    "https://www.wikidata.org/wiki/Q870780",
+    "https://www.wikidata.org/wiki/Q870895",
+    "https://www.wikidata.org/wiki/Q9418"
+  ],
+  "inventory_source_notes": {
+    "dependency_version_evidence": [
+      "papers/P134_young_adult_chatbot_meta/INPUT_CODE_RUNTIME_ORIGINAL_FREEZE002.json",
+      "papers/P134_young_adult_chatbot_meta/final_report002/FINAL_EVIDENCE_FREEZE001.json"
+    ],
+    "source_urls_retained": [
+      {
+        "url": "https://doi.org/10.2196/79850",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/final_report002/SUMMARY_REPORT.html"
+      },
+      {
+        "url": "https://www.jmir.org/2025/1/e79850",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://preprints.jmir.org/preprint/79850",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.2196%2F79850&format=json&resultType=core",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/SOURCE_REQUESTS002.json"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/fullTextXML",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/SOURCE_REQUESTS003.json"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661615/supplementaryFiles",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/SOURCE_REQUESTS004.json"
+      },
+      {
+        "url": "https://training.cochrane.org/handbook/current/statistical-methods-revman5",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/METHOD_REQUEST001.json"
+      },
+      {
+        "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/statistical-methods-revman5",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/METHOD_REQUEST001.json"
+      },
+      {
+        "url": "https://europepmc.org/articles/PMC12661615",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/europepmc_search.json"
+      },
+      {
+        "url": "https://europepmc.org/articles/PMC12661615?pdf=render",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/europepmc_search.json"
+      },
+      {
+        "url": "https://orcid.org/0000-0002-2578-6906",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml"
+      },
+      {
+        "url": "https://orcid.org/0009-0007-9445-1687",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml"
+      },
+      {
+        "url": "https://orcid.org/0000-0003-4703-5430",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml"
+      },
+      {
+        "url": "https://orcid.org/0000-0002-1344-5944",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml"
+      },
+      {
+        "url": "https://orcid.org/0000-0003-1966-6139",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml"
+      },
+      {
+        "url": "http://www.w3.org/1999/xlink",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml"
+      },
+      {
+        "url": "https://www.jmir.org",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml"
+      },
+      {
+        "url": "http://www.niso.org/schemas/ali/1.0/",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml"
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml"
+      },
+      {
+        "url": "https://www.jmir.org/",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml"
+      },
+      {
+        "url": "https://www.cancer.gov/types/aya",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml"
+      },
+      {
+        "url": "https://repository.kpi.kharkov.ua/server/api/core/bitstreams/684fa680-49bf-4517-8c34-92d3757d60bf/content",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml"
+      },
+      {
+        "url": "https://www.brusselstimes.com/430098/belgian-man-commits-suicide-following-exchanges-with-chatgpt",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml"
+      },
+      {
+        "url": "https://openalex.org/W4416792402",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41313175",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.jmir.org/2025/1/e79850/PDF",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/S17147534",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/P4310320608",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/licenses/cc-by",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/A5012219174",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/I14243506",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://ror.org/0030zas98",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/A5052323975",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/A5028602105",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/A5010304991",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/A5023479772",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/I170201317",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://ror.org/01an3r305",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/T11519",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/subfields/3202",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/fields/32",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/domains/2",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/T11636",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/subfields/2718",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/fields/27",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/domains/4",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/T10709",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/subfields/3207",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/keywords/ai-chatbots",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/keywords/psychological-distress",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/keywords/adolescents",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/keywords/young-adults",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/keywords/health-behavior",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/keywords/depression",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/keywords/anxiety",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/keywords/stress",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/keywords/health-education",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/keywords/digital-mental-health-interventions",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/keywords/chatbot-effectiveness",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/keywords/risk-of-bias",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/keywords/grade-quality-of-evidence",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C134362201",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q317309",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C2779041454",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q870780",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C15744967",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q9418",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C139265228",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q5283089",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C75630572",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q538904",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C138816342",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q189603",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C2779473830",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q1540899",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C173853756",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q86915",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C70410870",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q199906",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C189708586",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q1504425",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C71924100",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q11190",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C118552586",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q7867",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C205545832",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q17156455",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C39890363",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q36108",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C526869908",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q3298118",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C166735990",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q1750812",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C3017944768",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q1450463",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C27415008",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q7256382",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C138496976",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q175002",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      },
+      {
+        "url": "https://openalex.org/C145642194",
+        "evidence_path": "papers/P134_young_adult_chatbot_meta/sources/retained_exact_openalex001.json"
+      }
+    ],
+    "license_notices_in_reviewed_metadata": [
+      {
+        "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+        "literal": "ay><month>05</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmin"
+      },
+      {
+        "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+        "literal": "<year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © Xinyu Feng, Lidan Tian, Grace W K Ho, Janelle Yorke, Vivian Hui. Originally published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"c"
+      },
+      {
+        "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+        "literal": "y published in the Journal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Common"
+      },
+      {
+        "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+        "literal": "urnal of Medical Internet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License"
+      },
+      {
+        "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+        "literal": "rnet Research (https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (<ext-link xmlns:xli"
+      },
+      {
+        "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+        "literal": "https://www.jmir.org)</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (<ext-link xmlns:xlink=\"http://www."
+      },
+      {
+        "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+        "literal": "/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (<ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://creativecommons.org/licenses/by/4.0/\">https://creativecommons.org/licenses/by/4.0/</ext-link>), w"
+      },
+      {
+        "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+        "literal": "ef><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (<ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://creativecommons.org/licenses/by/4.0/\">https://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first publish"
+      },
+      {
+        "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+        "literal": "ns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://creativecommons.org/licenses/by/4.0/\">https://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in the Journal of Medical Internet Research (ISSN 1438-8871), is properly cited. The complete bibliographic information, a link to the origin"
+      },
+      {
+        "source": "papers/P134_young_adult_chatbot_meta/sources/published_europepmc.xml",
+        "literal": "nk-type=\"uri\" xlink:href=\"https://creativecommons.org/licenses/by/4.0/\">https://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in the Journal of Medical Internet Research (ISSN 1438-8871), is properly cited. The complete bibliographic information, a link to the original publication on <ext-link xmlns:xlink=\"http:"
+      }
+    ],
+    "retained_license_files": [],
+    "redistribution_status": "No independent license grant inferred. Default bundle is programme-authored code/config/compact derived results; original assets require notice/URL-based acquisition when rights are unresolved. Article/source license excerpts are evidence, not a blanket repository license.",
+    "portable_rerun_notes": [
+      "Keep repository-relative layout for __file__-based roots. Preserve input bytes and pinned hashes. Install stated scientific dependencies separately; do not copy original runtime.",
+      "New output namespaces are required. Historical immutable run directories must not be overwritten.",
+      "Authorization/freeze/runtime source checks remain active in immutable runners. Later guarded studies need an explicitly documented portable launch/config adapter; none was implemented or tested by this inventory."
+    ],
+    "command_limit": "Commands document source CLI, are not tested portable instructions and do not grant execution. Fixed-output early runners need an explicit new output path adaptation; guarded later runners additionally require historical or prospectively reviewed exact auth/freeze/runtime context."
+  },
+  "policy": "Source/data/model files are acquired from their owners. Only explicitly identified programme transcriptions are bundled. URLs are historical and were not re-fetched during publication preparation."
+}

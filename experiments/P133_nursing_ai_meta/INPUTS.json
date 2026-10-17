@@ -1,0 +1,501 @@
+{
+  "paper_id": "P133",
+  "assets": [
+    {
+      "id": "input-001",
+      "original_relative_path": "papers/P133_nursing_ai_meta/review/source_feasibility001/ALL43_FOREST_LITERAL_TARGETS001.json",
+      "bytes": 34138,
+      "sha256": "144556dedcf037917a7ccea3f20ae139932dac5b04c6ca3db2571912e26cc0b4",
+      "download_urls": [],
+      "source_pages": [
+        "https://doi.org/10.3389/fmed.2025.1681784",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:41384110%20AND%20SRC:MED&format=json",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12689331/fullTextXML",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12689331/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/instance/12689331/bin/Table_1.docx",
+        "https://pmc.ncbi.nlm.nih.gov/articles/instance/12689331/bin/Table_2.docx",
+        "https://pmc.ncbi.nlm.nih.gov/articles/instance/12689331/bin/Table_3.docx",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12689331/supplementaryFiles",
+        "https://pmc.ncbi.nlm.nih.gov/tools/pmcaws/",
+        "https://pmc.ncbi.nlm.nih.gov/tools/oa-service/",
+        "https://pmc-oa-opendata.s3.amazonaws.com/README.txt",
+        "https://pmc-oa-opendata.s3.amazonaws.com/?list-type=2&prefix=PMC12689331.&delimiter=/",
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12689331.1/PMC12689331.1.json",
+        "https://pmc-oa-opendata.s3.amazonaws.com/?list-type=2&prefix=PMC12689331.1/",
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12689331.1/Table_1.docx?md5=d0f59400247efac17c41ed527de8ddbc",
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12689331.1/Table_2.docx?md5=ea48d140fc5f03801d718bc393feae61",
+        "https://pmc-oa-opendata.s3.amazonaws.com/PMC12689331.1/Table_3.docx?md5=b198d8cc0d1a6206f155ee5f6742e74b",
+        "https://registry.opendata.aws/ncbi-pmc",
+        "https://pmc.ncbi.nlm.nih.gov/about/copyright/",
+        "https://pmc.ncbi.nlm.nih.gov/tools/openftlist/"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "papers/P133_nursing_ai_meta/sources/pmc_cloud_README001.txt",
+            "literal": "cense_code: a code for the license. This code       - either corresponds to the Creative Commons license codes         (https://creativecommons.org/share-your-work/cclicenses/),       - or is set to 'TDM' for author manuscripts where the full text         is available for text mining, and where the full text may         also be used consistent with the principles of fair use under         the copyright law.     - xml_url: "
+          },
+          {
+            "source": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml",
+            "literal": "ay><month>12</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>Copyright © 2025 El-Banna, Sajid, Rizvi, Sami and McNelis.</copyright-statement><copyright-year>2025</copyright-year><copyright-holder>El-Banna, Sajid, Rizvi, Sami and McNelis</copyright-holder><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicens"
+          },
+          {
+            "source": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml",
+            "literal": "<year>2025</year></date></event></pub-history><permissions><copyright-statement>Copyright © 2025 El-Banna, Sajid, Rizvi, Sami and McNelis.</copyright-statement><copyright-year>2025</copyright-year><copyright-holder>El-Banna, Sajid, Rizvi, Sami and McNelis</copyright-holder><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\" start_date=\"2025-"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    }
+  ],
+  "source_urls": [
+    "http://loop.frontiersin.org/people/1499329/overview",
+    "http://loop.frontiersin.org/people/3060623/overview",
+    "http://loop.frontiersin.org/people/3114133/overview",
+    "http://loop.frontiersin.org/people/647597/overview",
+    "http://s3.amazonaws.com/doc/2006-03-01/",
+    "http://w",
+    "http://www.niso.org/schemas/ali/1.0/",
+    "http://www.w3.org/1998/Math/MathML",
+    "http://www.w3.org/1999/xl",
+    "http://www.w3.org/1999/xlink",
+    "http://www.w3.org/2001/XMLSchema-instance",
+    "https://api.crossref.org/works/10.3389%2Ffmed.2025.1681784",
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css",
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://creativecommons.org/share-your-work/cclicenses/",
+    "https://credit.niso.org/",
+    "https://credit.niso.org/contributor-roles/conceptualization/",
+    "https://credit.niso.org/contributor-roles/data-curation/",
+    "https://credit.niso.org/contributor-roles/investigation/",
+    "https://credit.niso.org/contributor-roles/project-administration/",
+    "https://credit.niso.org/contributor-roles/supervision/",
+    "https://credit.niso.org/contributor-roles/validation/",
+    "https://credit.niso.org/contributor-roles/writing-original-draft/",
+    "https://credit.niso.org/contributor-roles/writing-review-editing/",
+    "https://doi.org/10.3389/crossmark-policy",
+    "https://doi.org/10.3389/fmed.2025.1681784",
+    "https://eutils.ncbi.nlm.nih.gov/eutils/esearch.fcgi?db=pmc&term=alzheimers+AND+(open_access[Filter",
+    "https://loop.frontiersin.org/people/1135530/overview",
+    "https://loop.frontiersin.org/people/1625553/overview",
+    "https://loop.frontiersin.org/people/3222398/overview",
+    "https://loop.frontiersin.org/people/498247/overview",
+    "https://pmc-oa-opendata.s3.amazonaws.com/?list-type=2&prefix=PMC10009402.1/",
+    "https://pmc-oa-opendata.s3.amazonaws.com/?list-type=2&prefix=PMC11370360.&delimiter=/",
+    "https://pmc-oa-opendata.s3.amazonaws.com/?list-type=2&prefix=PMC12689331.&delimiter=/",
+    "https://pmc-oa-opendata.s3.amazonaws.com/?list-type=2&prefix=PMC12689331.1/",
+    "https://pmc-oa-opendata.s3.amazonaws.com/PMC10009402.1/PMC10009402.1.xml",
+    "https://pmc-oa-opendata.s3.amazonaws.com/PMC12689331.1/PMC12689331.1.json",
+    "https://pmc-oa-opendata.s3.amazonaws.com/PMC12689331.1/Table_1.docx?md5=d0f59400247efac17c41ed527de8ddbc",
+    "https://pmc-oa-opendata.s3.amazonaws.com/PMC12689331.1/Table_2.docx?md5=ea48d140fc5f03801d718bc393feae61",
+    "https://pmc-oa-opendata.s3.amazonaws.com/PMC12689331.1/Table_3.docx?md5=b198d8cc0d1a6206f155ee5f6742e74b",
+    "https://pmc-oa-opendata.s3.amazonaws.com/README.txt",
+    "https://pmc.ncbi.nlm.nih.gov/about/authorms/",
+    "https://pmc.ncbi.nlm.nih.gov/about/copyright/",
+    "https://pmc.ncbi.nlm.nih.gov/about/scanning/",
+    "https://pmc.ncbi.nlm.nih.gov/about/userguide/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12689331/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/instance/12689331/bin/Table_1.docx",
+    "https://pmc.ncbi.nlm.nih.gov/articles/instance/12689331/bin/Table_2.docx",
+    "https://pmc.ncbi.nlm.nih.gov/articles/instance/12689331/bin/Table_3.docx",
+    "https://pmc.ncbi.nlm.nih.gov/tools/oa-service/",
+    "https://pmc.ncbi.nlm.nih.gov/tools/openftlist/",
+    "https://pmc.ncbi.nlm.nih.gov/tools/pmcaws/",
+    "https://public-pages-files-2025.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1681784/xml",
+    "https://registry.opendata.aws/ncbi-pmc",
+    "https://registry.opendata.aws/ncbi-pmc/",
+    "https://urn.fi/URN:NBN:fi:amk-2024050810012",
+    "https://www.crd.york.ac.uk/PROSPERO/api/record/view/?code=CRD420251090108",
+    "https://www.crd.york.ac.uk/PROSPERO/env.js",
+    "https://www.crd.york.ac.uk/PROSPERO/static/js/main.2ca48f84.js",
+    "https://www.crd.york.ac.uk/PROSPERO/view/CRD420251090108",
+    "https://www.crd.york.ac.uk/prospero/",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12689331/fullTextXML",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12689331/supplementaryFiles",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:41384110%20AND%20SRC:MED&format=json",
+    "https://www.frontiersin.org/articles/10.3389/fmed.2025.1681784/full",
+    "https://www.frontiersin.org/articles/10.3389/fmed.2025.1681784/full#supplementary-material",
+    "https://www.frontiersin.org/files/Articles/1681784/xml-images/fmed-12-1681784-g001.webp",
+    "https://www.frontiersin.org/files/Articles/1681784/xml-images/fmed-12-1681784-g002.webp",
+    "https://www.frontiersin.org/files/Articles/1681784/xml-images/fmed-12-1681784-g003.webp",
+    "https://www.frontiersin.org/files/Articles/1681784/xml-images/fmed-12-1681784-g004.webp",
+    "https://www.frontiersin.org/files/Articles/1681784/xml-images/fmed-12-1681784-g005.webp",
+    "https://www.frontiersin.org/files/Articles/1681784/xml-images/fmed-12-1681784-g006.webp",
+    "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1681784/full",
+    "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1681784/pdf",
+    "https://www.ncbi.nlm.nih.gov/books/NBK25497/",
+    "https://www.ncbi.nlm.nih.gov/books/NBK25501/",
+    "https://www.nlm.nih.gov/web_policies.html#copyright",
+    "https://www.theseus.fi/bitstream/handle/10024/873306/Adomat_Nicolas.pdf"
+  ],
+  "inventory_source_notes": {
+    "dependency_version_evidence": [
+      "papers/P133_nursing_ai_meta/review/implementation_preparation004/PROSPECTIVE_NUMERICAL_SOURCE_REPAIR_FREEZE027.json",
+      "papers/P133_nursing_ai_meta/review/complete_original_audit_metadata_repair_preparation029/COMPLETE_CURRENT_AUDITOR003_ORIGINAL_SOURCE_RUNTIME_FREEZE029.json",
+      "papers/P133_nursing_ai_meta/runs/P133-original-candidate009-028/worker_output/runtime_metadata.json"
+    ],
+    "source_urls_retained": [
+      {
+        "url": "https://doi.org/10.3389/fmed.2025.1681784",
+        "evidence_path": "papers/P133_nursing_ai_meta/review/final_original029_closure001/SUMMARY_REPORT.html"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1681784/full",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS001.json"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1681784/pdf",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS001.json"
+      },
+      {
+        "url": "https://public-pages-files-2025.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1681784/xml",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS001.json"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.3389%2Ffmed.2025.1681784",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS001.json"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:41384110%20AND%20SRC:MED&format=json",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS001.json"
+      },
+      {
+        "url": "https://www.crd.york.ac.uk/PROSPERO/view/CRD420251090108",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS001.json"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS001.json"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12689331/fullTextXML",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS002.json"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12689331/",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS002.json"
+      },
+      {
+        "url": "https://www.frontiersin.org/files/Articles/1681784/xml-images/fmed-12-1681784-g001.webp",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS002.json"
+      },
+      {
+        "url": "https://www.frontiersin.org/files/Articles/1681784/xml-images/fmed-12-1681784-g002.webp",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS002.json"
+      },
+      {
+        "url": "https://www.frontiersin.org/files/Articles/1681784/xml-images/fmed-12-1681784-g003.webp",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS002.json"
+      },
+      {
+        "url": "https://www.frontiersin.org/files/Articles/1681784/xml-images/fmed-12-1681784-g004.webp",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS002.json"
+      },
+      {
+        "url": "https://www.frontiersin.org/files/Articles/1681784/xml-images/fmed-12-1681784-g005.webp",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS002.json"
+      },
+      {
+        "url": "https://www.frontiersin.org/files/Articles/1681784/xml-images/fmed-12-1681784-g006.webp",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS002.json"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12689331/bin/Table_1.docx",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS003.json"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12689331/bin/Table_2.docx",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS003.json"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12689331/bin/Table_3.docx",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS003.json"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12689331/supplementaryFiles",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS004.json"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/tools/pmcaws/",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS005.json"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/tools/oa-service/",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS005.json"
+      },
+      {
+        "url": "https://pmc-oa-opendata.s3.amazonaws.com/README.txt",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS005.json"
+      },
+      {
+        "url": "https://pmc-oa-opendata.s3.amazonaws.com/?list-type=2&prefix=PMC12689331.&delimiter=/",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS005.json"
+      },
+      {
+        "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12689331.1/PMC12689331.1.json",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS006.json"
+      },
+      {
+        "url": "https://pmc-oa-opendata.s3.amazonaws.com/?list-type=2&prefix=PMC12689331.1/",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS006.json"
+      },
+      {
+        "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12689331.1/Table_1.docx?md5=d0f59400247efac17c41ed527de8ddbc",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS007.json"
+      },
+      {
+        "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12689331.1/Table_2.docx?md5=ea48d140fc5f03801d718bc393feae61",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS007.json"
+      },
+      {
+        "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12689331.1/Table_3.docx?md5=b198d8cc0d1a6206f155ee5f6742e74b",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS007.json"
+      },
+      {
+        "url": "https://www.crd.york.ac.uk/PROSPERO/env.js",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS008.json"
+      },
+      {
+        "url": "https://www.crd.york.ac.uk/PROSPERO/static/js/main.2ca48f84.js",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS008.json"
+      },
+      {
+        "url": "https://www.crd.york.ac.uk/PROSPERO/api/record/view/?code=CRD420251090108",
+        "evidence_path": "papers/P133_nursing_ai_meta/SOURCE_ACQUISITION_PROGRESS009.json"
+      },
+      {
+        "url": "http://s3.amazonaws.com/doc/2006-03-01/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_cloud_P133_files001.xml"
+      },
+      {
+        "url": "https://registry.opendata.aws/ncbi-pmc",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_cloud_README001.txt"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/about/copyright/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_cloud_README001.txt"
+      },
+      {
+        "url": "https://www.nlm.nih.gov/web_policies.html#copyright",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_cloud_README001.txt"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/tools/openftlist/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_cloud_README001.txt"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/about/authorms/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_cloud_README001.txt"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/about/scanning/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_cloud_README001.txt"
+      },
+      {
+        "url": "https://creativecommons.org/share-your-work/cclicenses/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_cloud_README001.txt"
+      },
+      {
+        "url": "https://pmc-oa-opendata.s3.amazonaws.com/?list-type=2&prefix=PMC10009402.1/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_cloud_README001.txt"
+      },
+      {
+        "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10009402.1/PMC10009402.1.xml",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_cloud_README001.txt"
+      },
+      {
+        "url": "https://pmc-oa-opendata.s3.amazonaws.com/?list-type=2&prefix=PMC11370360.&delimiter=/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_cloud_README001.txt"
+      },
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK25497/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_cloud_README001.txt"
+      },
+      {
+        "url": "https://eutils.ncbi.nlm.nih.gov/eutils/esearch.fcgi?db=pmc&term=alzheimers+AND+(open_access[Filter",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_cloud_README001.txt"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/about/userguide/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_cloud_README001.txt"
+      },
+      {
+        "url": "https://registry.opendata.aws/ncbi-pmc/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_cloud_README001.txt"
+      },
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK25501/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_cloud_README001.txt"
+      },
+      {
+        "url": "http://www.w3.org/1999/xlink",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "http://loop.frontiersin.org/people/3114133/overview",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "https://credit.niso.org/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "https://credit.niso.org/contributor-roles/conceptualization/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "https://credit.niso.org/contributor-roles/data-curation/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "https://credit.niso.org/contributor-roles/investigation/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "https://credit.niso.org/contributor-roles/supervision/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "https://credit.niso.org/contributor-roles/validation/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "https://credit.niso.org/contributor-roles/project-administration/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "https://credit.niso.org/contributor-roles/writing-original-draft/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "https://credit.niso.org/contributor-roles/writing-review-editing/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "http://loop.frontiersin.org/people/647597/overview",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "http://loop.frontiersin.org/people/3060623/overview",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "http://loop.frontiersin.org/people/1499329/overview",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "http://www.niso.org/schemas/ali/1.0/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "https://www.crd.york.ac.uk/prospero/",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "https://loop.frontiersin.org/people/1135530/overview",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "https://loop.frontiersin.org/people/498247/overview",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "https://loop.frontiersin.org/people/1625553/overview",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "https://loop.frontiersin.org/people/3222398/overview",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "https://www.frontiersin.org/articles/10.3389/fmed.2025.1681784/full#supplementary-material",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "https://urn.fi/URN:NBN:fi:amk-2024050810012",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "https://www.theseus.fi/bitstream/handle/10024/873306/Adomat_Nicolas.pdf",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml"
+      },
+      {
+        "url": "http://www.w3.org/2001/XMLSchema-instance",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/publisher_original001.xml"
+      },
+      {
+        "url": "http://www.w3.org/1998/Math/MathML",
+        "evidence_path": "papers/P133_nursing_ai_meta/sources/publisher_original001.xml"
+      }
+    ],
+    "license_notices_in_reviewed_metadata": [
+      {
+        "source": "papers/P133_nursing_ai_meta/sources/pmc_cloud_README001.txt",
+        "literal": "cense_code: a code for the license. This code       - either corresponds to the Creative Commons license codes         (https://creativecommons.org/share-your-work/cclicenses/),       - or is set to 'TDM' for author manuscripts where the full text         is available for text mining, and where the full text may         also be used consistent with the principles of fair use under         the copyright law.     - xml_url: "
+      },
+      {
+        "source": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml",
+        "literal": "ay><month>12</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>Copyright © 2025 El-Banna, Sajid, Rizvi, Sami and McNelis.</copyright-statement><copyright-year>2025</copyright-year><copyright-holder>El-Banna, Sajid, Rizvi, Sami and McNelis</copyright-holder><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicens"
+      },
+      {
+        "source": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml",
+        "literal": "<year>2025</year></date></event></pub-history><permissions><copyright-statement>Copyright © 2025 El-Banna, Sajid, Rizvi, Sami and McNelis.</copyright-statement><copyright-year>2025</copyright-year><copyright-holder>El-Banna, Sajid, Rizvi, Sami and McNelis</copyright-holder><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\" start_date=\"2025-"
+      },
+      {
+        "source": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml",
+        "literal": "copyright-statement>Copyright © 2025 El-Banna, Sajid, Rizvi, Sami and McNelis.</copyright-statement><copyright-year>2025</copyright-year><copyright-holder>El-Banna, Sajid, Rizvi, Sami and McNelis</copyright-holder><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\" start_date=\"2025-11-26\">https://creativecommons.org/licenses/by/4.0/</ali:lic"
+      },
+      {
+        "source": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml",
+        "literal": "opyright © 2025 El-Banna, Sajid, Rizvi, Sami and McNelis.</copyright-statement><copyright-year>2025</copyright-year><copyright-holder>El-Banna, Sajid, Rizvi, Sami and McNelis</copyright-holder><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\" start_date=\"2025-11-26\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>T"
+      },
+      {
+        "source": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml",
+        "literal": "nna, Sajid, Rizvi, Sami and McNelis.</copyright-statement><copyright-year>2025</copyright-year><copyright-holder>El-Banna, Sajid, Rizvi, Sami and McNelis</copyright-holder><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\" start_date=\"2025-11-26\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access"
+      },
+      {
+        "source": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml",
+        "literal": "i, Sami and McNelis.</copyright-statement><copyright-year>2025</copyright-year><copyright-holder>El-Banna, Sajid, Rizvi, Sami and McNelis</copyright-holder><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\" start_date=\"2025-11-26\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distrib"
+      },
+      {
+        "source": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml",
+        "literal": "025</copyright-year><copyright-holder>El-Banna, Sajid, Rizvi, Sami and McNelis</copyright-holder><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\" start_date=\"2025-11-26\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the <ext-link xmlns:xlink=\"http://w"
+      },
+      {
+        "source": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml",
+        "literal": "ar><copyright-holder>El-Banna, Sajid, Rizvi, Sami and McNelis</copyright-holder><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbylicense\" start_date=\"2025-11-26\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the <ext-link xmlns:xlink=\"http://www.w3.org/1999/xl"
+      },
+      {
+        "source": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml",
+        "literal": "fic-use=\"textmining\" content-type=\"ccbylicense\" start_date=\"2025-11-26\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution License (CC BY)</ext-link>. The use, distribution or reproduction in"
+      },
+      {
+        "source": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml",
+        "literal": "ns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution License (CC BY)</ext-link>. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribut"
+      },
+      {
+        "source": "papers/P133_nursing_ai_meta/sources/pmc_fulltext_original001.xml",
+        "literal": "\" ext-link-type=\"uri\" xlink:href=\"https://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution License (CC BY)</ext-link>. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is pe"
+      },
+      {
+        "source": "papers/P133_nursing_ai_meta/sources/publisher_original001.xml",
+        "literal": ">29</day> <month>10</month> <year>2025</year> </date> </history> <permissions> <copyright-statement>Copyright &#x00A9; 2025 El-Banna, Sajid, Rizvi, Sami and McNelis.</copyright-statement> <copyright-year>2025</copyright-year> <copyright-holder>El-Banna, Sajid, Rizvi, Sami and McNelis</copyright-holder> <license> <ali:license_ref start_date=\"2025-11-26\">https://creativecommons.org/licenses/by/4.0/</ali:license_ref> <"
+      }
+    ],
+    "retained_license_files": [],
+    "redistribution_status": "No independent license grant inferred. Default bundle is programme-authored code/config/compact derived results; original assets require notice/URL-based acquisition when rights are unresolved. Article/source license excerpts are evidence, not a blanket repository license.",
+    "portable_rerun_notes": [
+      "Keep repository-relative layout for __file__-based roots. Preserve input bytes and pinned hashes. Install stated scientific dependencies separately; do not copy original runtime.",
+      "New output namespaces are required. Historical immutable run directories must not be overwritten.",
+      "Authorization/freeze/runtime source checks remain active in immutable runners. Later guarded studies need an explicitly documented portable launch/config adapter; none was implemented or tested by this inventory."
+    ],
+    "command_limit": "Commands document source CLI, are not tested portable instructions and do not grant execution. Fixed-output early runners need an explicit new output path adaptation; guarded later runners additionally require historical or prospectively reviewed exact auth/freeze/runtime context."
+  },
+  "policy": "Source/data/model files are acquired from their owners. Only explicitly identified programme transcriptions are bundled. URLs are historical and were not re-fetched during publication preparation."
+}

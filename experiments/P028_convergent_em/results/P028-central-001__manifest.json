@@ -1,0 +1,47 @@
+{
+  "run_id": "P028-central-001",
+  "start_utc": "2026-10-10T17:45:44.551721+00:00",
+  "status": "completed",
+  "paid_cost": 0,
+  "command": [
+    "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\run_probe.py"
+  ],
+  "plan_sha256": "2856eddf8cdb00730588552f3d7149d8b05e47134ba3d741e77359f4d122b89d",
+  "runner_sha256": "d723a6697fe7259e5f9648a50dc0823c0c13e4e566a206aa3fa80f7a37bbfb2a",
+  "versions": {
+    "python": "3.12.0rc3 (tags/v3.12.0rc3:b973ab3, Sep 19 2023, 09:39:54) [MSC v.1935 64 bit (AMD64)]",
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "torch": "2.8.0a0+gitfc14c65",
+    "sklearn": "1.8.0",
+    "scipy": "1.17.1"
+  },
+  "CPU_threads": 1,
+  "GPU_used": false,
+  "exit_status": 0,
+  "central_success": false,
+  "checks_passed": 59,
+  "checks_total": 64,
+  "end_utc": "2026-10-10T17:47:05.710464+00:00",
+  "wall_seconds": 81.15863499999978,
+  "cpu_seconds": 80.109375,
+  "peak_working_set_bytes": 647540736,
+  "artifacts": {
+    "comparison.json": {
+      "bytes": 30816,
+      "sha256": "64a802b5f3fd73377e254a1dc9004e461758cbf9b3f8a438931f5963a02aa015"
+    },
+    "features.npz": {
+      "bytes": 2082304,
+      "sha256": "82a84f721846cdf74bb068ca5d7cde70ec3d03eaf8e06d72d871ecfa5b272a74"
+    },
+    "heldout_predictions.npz": {
+      "bytes": 42973670,
+      "sha256": "629b488bb7bf8453a41660e6858b1995c2ff9277e1792e07fad2c310a348fbb7"
+    },
+    "regressions.json": {
+      "bytes": 904510,
+      "sha256": "adc6b89b768728f8169949a38f9357d71a9862f93d1f7be324ff981b94a6dde3"
+    }
+  }
+}

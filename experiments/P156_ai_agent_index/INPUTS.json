@@ -1,0 +1,51 @@
+{
+  "paper_id": "P156",
+  "assets": [
+    {
+      "id": "input-001",
+      "original_relative_path": "literature/cpu_additional_complete_route_screen_oct15_002/agent_index_original024/2025_annotations.json",
+      "bytes": 306577,
+      "sha256": "c45813d44333b05b2d24f582b2818aec8d26310a3c3649897ee772454db9da64",
+      "download_urls": [],
+      "source_pages": [
+        "https://zenodo.org/api/records/18701931/files/2025_annotations.json/content"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-002",
+      "original_relative_path": "literature/cpu_additional_complete_route_screen_oct15_002/agent_index_original024/2025_annotations.csv",
+      "bytes": 247431,
+      "sha256": "417edeb0a2c33300b481730c7c13dc2689b892a36e3b5e59e981b66dd3bef390",
+      "download_urls": [],
+      "source_pages": [
+        "https://zenodo.org/api/records/18701931/files/2025_annotations.csv/content"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    }
+  ],
+  "source_urls": [
+    "https://zenodo.org/api/records/18701931/files/2025_annotations.csv/content",
+    "https://zenodo.org/api/records/18701931/files/2025_annotations.json/content"
+  ],
+  "inventory_source_notes": {
+    "source_input_redistribution": "DO_NOT_COPY_PARTICIPANT_RECORDS_OR_UNLICENSED_AUTHOR_ASSETS;source URL/hash manifest only",
+    "dependency_provenance": [],
+    "third_party_required_code": [],
+    "portable_rerun_steps": [
+      "Read original report plus retrospective NEAR addendum; every old strict failure remains.",
+      "Acquire external source assets at pinned revisions; verify exact sizes/SHA256. Do not commit participant/model-response banks.",
+      "Use a separate environment from dependency metadata, not a copied runtime.",
+      "Preserve methods/seeds/full scope and hash validation. Rebase explicit local paths/config refs in a labelled publication copy; archived TRUE controls/deadlines are not new authority.",
+      "Run primary then independent audit into fresh exclusive outputs. This task has not tested or executed those commands."
+    ],
+    "portability_changes_required": [
+      "Historical outputs must remain exclusive; use fresh checkout/output configuration.",
+      "Hardcoded {{USER_HOME}} roots, local package-site paths and frozen source/control refs require explicit configuration; never silently remove guards."
+    ],
+    "license_notice": "Programme code licence does not relicense author papers/code/data. Public source access alone does not establish redistribution permission; external acquisition manifests preferred."
+  },
+  "policy": "Source/data/model files are acquired from their owners. Only explicitly identified programme transcriptions are bundled. URLs are historical and were not re-fetched during publication preparation."
+}

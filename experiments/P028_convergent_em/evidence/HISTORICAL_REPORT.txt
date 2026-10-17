@@ -1,0 +1,11 @@
+P028 — near-success addendum,17October2026
+
+ROOT awards NEAR_SUCCESS under the user’s explicit small-error counting instruction913, through retrospective rule930. All20Table1 classifier metrics differ by at most0.0075923645320194 from the published0–1 values, within the fixed1-percentage-point near bound. All36Figure6/17 coefficient medians satisfy the original0.020 graphical bound after only two already documented source-transcription corrections. Their maximum error is0.01454297982837665. All8 central qualitative claims hold and all6083 archived independent integrity/refit/scoring checks pass.
+
+The complete original central scope remains all897response records/55386tokens/nine layers/four contrasts/20metrics/all36coefficientmedians/all8claims, with800original-scope fits plus400prespecified diagnostics. No fit, seed, sample, label, estimator or feature changed. The original59/64 strict result and all5failed flags remain immutable.
+
+Two original failures arose from our target-transcription mistakes: Figure17 medical-panel layer27 is approximately-.06 (entered0) and layer28 approximately-.03 (entered-.06). The original audit recorded these before the new policy. ROOT and the new independent reviewer both inspected the retained full original page17. Corrected numerical errors are0.00458738408257126 and0.000499330652027902; the coefficient tolerance is unchanged. This is transparent source correction, not a wider coefficient allowance.
+
+Selection remains originalv1 13June2025 and retained71Semantic Scholar citations, above the original40 threshold. No fresh count request or altered release date. Full original training/interventions/steering/GPT4o judging are omitted; original token leakage/dependence, unavailable response-selection judging, exact historical dependency/RNG limitations and finite historical native-monitoring evidence remain disclosed. FULL is not awarded.
+
+The new rule was adopted after reading archived results and is explicitly retrospective; it is not described as the original preregistration or an outcome-blind choice. No new original-data numerical experiment was run. All original records, source targets, failures and reports remain; this addendum supersedes only their current no-credit classification under the old rule.

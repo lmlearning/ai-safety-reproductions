@@ -1,0 +1,156 @@
+{
+  "paper_id": "P069",
+  "source_archive": "ai-safety-reproductions",
+  "files": [
+    {
+      "published_path": "evidence/INDEPENDENT_COMPLETE_P069_ARCHIVED_NEAR_SUPPORT_REVIEW_RSTAT001.json",
+      "original_relative_path": "environment/P069_independent_retrospective_near_review_RSTAT001/INDEPENDENT_COMPLETE_P069_ARCHIVED_NEAR_SUPPORT_REVIEW_RSTAT001.json",
+      "role": "evidence",
+      "purpose": "Final pinned execution/configuration/audit record",
+      "text": true,
+      "original_bytes": 26409,
+      "original_sha256": "f0719f15f69b095706ea1eb809f3feff3f33c1c08d488da9801320a0e5c7f81f",
+      "published_bytes": 24267,
+      "published_sha256": "bf4484fc51aac6d1a8a911a82a8f3748e66de58688e984920342b171950bd1d2",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "evidence/ROOT_ADOPTED_ARCHIVED_P069_NEAR_SUCCESS_REVIEW_RULE916.json",
+      "original_relative_path": "environment/ROOT_ADOPTED_ARCHIVED_P069_NEAR_SUCCESS_REVIEW_RULE916.json",
+      "role": "evidence",
+      "purpose": "Final pinned execution/configuration/audit record",
+      "text": true,
+      "original_bytes": 3862,
+      "original_sha256": "2f5c01b461683e4a0e68fa17e08e4d55be4f825fa1969e062bc13c7ab367789a",
+      "published_bytes": 3736,
+      "published_sha256": "b0054010053a3f18db0dd18ed24b868b48250a0a521573379ae083cb0903fea4",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "results/environment__ROOT_INDEPENDENT_ARCHIVED_P069_ALL155_BOUND_CHECK917.json",
+      "original_relative_path": "environment/ROOT_INDEPENDENT_ARCHIVED_P069_ALL155_BOUND_CHECK917.json",
+      "role": "result",
+      "purpose": "Complete aggregate target/error/audit ledger; exclude underlying participant rows, predictions, logits and bootstrap arrays",
+      "text": true,
+      "original_bytes": 36230,
+      "original_sha256": "04fe01314232d66dd95e9603dbad420a98182865b6634dcb51302376de322ccb",
+      "published_bytes": 35978,
+      "published_sha256": "0d0b51352d2c3589d9626cb9e082bca04c0055eb541eebda83f61f87ca850268",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "evidence/INDEPENDENT_COMPLETE_P069_ARCHIVED_NEAR_SUPPORTED916_CPU001.json",
+      "original_relative_path": "operations/P069_user_near_independent_review_CPU001/INDEPENDENT_COMPLETE_P069_ARCHIVED_NEAR_SUPPORTED916_CPU001.json",
+      "role": "evidence",
+      "purpose": "Final pinned execution/configuration/audit record",
+      "text": true,
+      "original_bytes": 121914,
+      "original_sha256": "9cfde5cf53ba4c7340c0850c32e21aca81375e3bd0a8118d482973463736df73",
+      "published_bytes": 115152,
+      "published_sha256": "69c2b393a854554b2d876c1f409f526ac1fb9db7a8d610ed4ae4ab39fb7761f2",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "results/github_publication_prep__CPU_NEAR9_P069_PRIMARY_COMPACT_AGGREGATE_RESULTS.json",
+      "original_relative_path": "operations/github_publication_prep/CPU_NEAR9_P069_PRIMARY_COMPACT_AGGREGATE_RESULTS.json",
+      "role": "result",
+      "purpose": "Exact primary aggregate-only complete target projection; no underlying participant rows",
+      "text": true,
+      "original_bytes": 50567,
+      "original_sha256": "4bf9809d6f1b2bcccf9b4144c024ac98505a102b1d0b1c59fcb40f6be2cb6b8f",
+      "published_bytes": 50525,
+      "published_sha256": "9d4f298682e1197315ed5163baba4727b9a6dee8bd0e83a92123c25aefa17de9",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "plans/PREREGISTRATION.json",
+      "original_relative_path": "papers/P069_ideation_execution/PREREGISTRATION.json",
+      "role": "plan",
+      "purpose": "Frozen methods/seeds/complete published targets or dependency metadata; preserve provenance and source versions",
+      "text": true,
+      "original_bytes": 4785,
+      "original_sha256": "7b276836027f05423ebdc3cdde909bfc36c58465fcf4fa128d8ad1c391b9225b",
+      "published_bytes": 4785,
+      "published_sha256": "7b276836027f05423ebdc3cdde909bfc36c58465fcf4fa128d8ad1c391b9225b",
+      "changes": "none"
+    },
+    {
+      "published_path": "plans/PREREGISTRATION.md.txt",
+      "original_relative_path": "papers/P069_ideation_execution/PREREGISTRATION.md",
+      "role": "plan",
+      "purpose": "Original frozen plan, targets or declared amendment",
+      "text": true,
+      "original_bytes": 764,
+      "original_sha256": "77a8a886578fcf093fe9d3bfa475993ffa1220ff500e5bd1275c25e479c7ed5f",
+      "published_bytes": 764,
+      "published_sha256": "77a8a886578fcf093fe9d3bfa475993ffa1220ff500e5bd1275c25e479c7ed5f",
+      "changes": "none"
+    },
+    {
+      "published_path": "evidence/REPORT.md.txt",
+      "original_relative_path": "papers/P069_ideation_execution/REPORT.md",
+      "role": "evidence",
+      "purpose": "Final pinned execution/configuration/audit record",
+      "text": true,
+      "original_bytes": 7550,
+      "original_sha256": "242b29360dec597b67556440aa51664037517c071a5276770f0874cbac756b6b",
+      "published_bytes": 7550,
+      "published_sha256": "242b29360dec597b67556440aa51664037517c071a5276770f0874cbac756b6b",
+      "changes": "none"
+    },
+    {
+      "published_path": "plans/sources_manifest.json",
+      "original_relative_path": "papers/P069_ideation_execution/sources_manifest.json",
+      "role": "plan",
+      "purpose": "Frozen methods/seeds/complete published targets or dependency metadata; preserve provenance and source versions",
+      "text": true,
+      "original_bytes": 5377,
+      "original_sha256": "2e01a3a62d3998575f1a4f79658248086b2fccaf226eb2b4cfeaa85a3625cb30",
+      "published_bytes": 5377,
+      "published_sha256": "2e01a3a62d3998575f1a4f79658248086b2fccaf226eb2b4cfeaa85a3625cb30",
+      "changes": "none"
+    },
+    {
+      "published_path": "plans/targets.json",
+      "original_relative_path": "papers/P069_ideation_execution/targets.json",
+      "role": "plan",
+      "purpose": "Frozen methods/seeds/complete published targets or dependency metadata; preserve provenance and source versions",
+      "text": true,
+      "original_bytes": 30591,
+      "original_sha256": "afd7f5244cfee8ff04d388dba7a620434b040c9a832f2c2066421593567e74a5",
+      "published_bytes": 30591,
+      "published_sha256": "afd7f5244cfee8ff04d388dba7a620434b040c9a832f2c2066421593567e74a5",
+      "changes": "none"
+    },
+    {
+      "published_path": "code/p069_audit_setup_corrected.py",
+      "original_relative_path": "scripts/p069_audit_setup_corrected.py",
+      "role": "code",
+      "purpose": "primary_or_independent_scientific_entry",
+      "text": true,
+      "original_bytes": 9914,
+      "original_sha256": "da102397e5a8797bb0ccde0bb60225036512b6348ece76d17708f2242f67b8fe",
+      "published_bytes": 9914,
+      "published_sha256": "da102397e5a8797bb0ccde0bb60225036512b6348ece76d17708f2242f67b8fe",
+      "changes": "none"
+    },
+    {
+      "published_path": "code/p069_central.py",
+      "original_relative_path": "scripts/p069_central.py",
+      "role": "code",
+      "purpose": "primary_or_independent_scientific_entry",
+      "text": true,
+      "original_bytes": 7773,
+      "original_sha256": "37e137d8eda67a2503373ee05d280feb3aee080743e1ca4cf5994e1d04498e7e",
+      "published_bytes": 7773,
+      "published_sha256": "37e137d8eda67a2503373ee05d280feb3aee080743e1ca4cf5994e1d04498e7e",
+      "changes": "none"
+    }
+  ],
+  "historical_report_source": {
+    "original_relative_path": "papers/P069_ideation_execution/NEAR_SUCCESS_ADDENDUM_2026-10-17.txt",
+    "bytes": 2655,
+    "sha256": "aec2a91f5365cc7121f1a697de277ae230007e85215e18588f08967b6e83939d"
+  },
+  "note": "Recorded historical manifests retain original hashes. Publication hashes are separate; path normalization does not imply the old hash checks will accept publication copies."
+}

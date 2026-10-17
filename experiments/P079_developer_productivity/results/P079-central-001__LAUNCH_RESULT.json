@@ -1,0 +1,12 @@
+{
+  "command": [
+    "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "papers/P079_developer_productivity/run_central.py",
+    "P079-central-001"
+  ],
+  "launch_at_utc": "2026-10-10T18:19:42.931072+00:00",
+  "finished_at_utc": "2026-10-10T18:19:49.957881+00:00",
+  "wall_seconds_including_imports": 7.0270509999245405,
+  "exit_code": 0,
+  "runner_sha256": "b5c0de0190f144d89c38aa299e75d0dfea69588b5258a50479c49697520f0064"
+}

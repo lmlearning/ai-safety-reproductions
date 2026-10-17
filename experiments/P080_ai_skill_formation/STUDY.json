@@ -1,0 +1,17 @@
+{
+  "ordinal": 6,
+  "paper_id": "P080",
+  "title": "How AI Impacts Skill Formation",
+  "classification": "Strict CENTRAL",
+  "recorded_public_date": "2026-01-28",
+  "window": "Main",
+  "citations": 42,
+  "provider": "Semantic Scholar",
+  "capture_time_supported": true,
+  "route": "Released trial data",
+  "result_and_scope": "Complete main RCT:52 original/50 adjusted cases,36 bootstrap groups +2 exact effects pass. Pilots/persona analyses unavailable; historical seed uncertain.",
+  "DOI": null,
+  "arxiv_id": "2601.20245",
+  "preserved_limits": "28Jan v1 is identified public report. Earlier15Aug outcome-data commit public visibility UNKNOWN; count42 also clears extension40 if earlier artifact public. Pilots/qualitative personas unavailable; historical bootstrap seed uncertain.",
+  "whole_paper_reproduction": false
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "path": "age_missingness_census.json",
+    "bytes": 889,
+    "sha256": "d66cd5776d270a61bfdfadce1546eefbab0ec243f868a7b0df307d322839999a"
+  },
+  {
+    "path": "AUDIT.json",
+    "bytes": 225790,
+    "sha256": "b8da37cc3bebabdf0c0fea94e8aabca6e7c378ad4f1a8d447dd101a281c27e43"
+  },
+  {
+    "path": "audit_status.json",
+    "bytes": 669,
+    "sha256": "9e61556a2b48443ea44c36b3e0606ff531573501f44109dfd7b0d63ac36e5edd"
+  },
+  {
+    "path": "independent_main_records.json",
+    "bytes": 560729,
+    "sha256": "457c7ef115e6757c923b809ac0fa44980b2d0d4c05afbafcf52f435394088de8"
+  },
+  {
+    "path": "independent_MC1_records.json",
+    "bytes": 28075,
+    "sha256": "4935c359ee11dd03dc3c8d6faa41e1bb5614277145ff32bbbb200711258c81b5"
+  },
+  {
+    "path": "independent_metrics.json",
+    "bytes": 6592,
+    "sha256": "51b8b0b6b631f4937aa57d3fb79481c0124a5ef3db8b1f4f9c50860315bc7d46"
+  },
+  {
+    "path": "resource_measurements.json",
+    "bytes": 4933,
+    "sha256": "bf3b4cb2cce608da1ebfb0b177a32c3a1df8ad8e31ca76cb3b2fe149775e3d3b"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "utc_start": "2026-10-12T00:32:12.393419+00:00",
+  "utc_end": "2026-10-12T00:32:12.518495+00:00",
+  "status": "complete_pending_independent_audit",
+  "scope": "psychiatric_complete_four_model_inference_v1",
+  "mode": "original",
+  "rows": 160,
+  "models": 4,
+  "ratings_per_model": 40,
+  "Dunn_pairs_per_complete_variant": 6,
+  "primary_gate_count": 25,
+  "primary_pass": true,
+  "both_complete_variants_computed": true,
+  "all162_auxiliary_comparisons_per_variant": true,
+  "all80_heatmap_cells_per_variant": true,
+  "full_reproduction_claimed": false
+}

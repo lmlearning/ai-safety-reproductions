@@ -1,0 +1,18 @@
+{
+  "UTC": "2026-10-11T08:18:01.105257+00:00",
+  "state": "primary_numeric_pass_pending_audit",
+  "pid": 46616,
+  "native_final_self_before_exit": {
+    "UTC": "2026-10-11T08:18:01.105257+00:00",
+    "phase": "finally",
+    "elapsed_seconds": 34.79700000025332,
+    "available_bytes": 2955390976,
+    "native_peak_working_bytes": 117481472,
+    "native_peak_pagefile_bytes": 160399360,
+    "native_private_bytes": 160399360,
+    "free_disk_bytes": 70639624192,
+    "owned_output_bytes": 30261069
+  },
+  "actual_native_exit_pending_external_collector": true,
+  "no_own_success_credit": true
+}

@@ -1,0 +1,17 @@
+{
+  "ordinal": 7,
+  "paper_id": "P120",
+  "title": "Large language models provide unsafe answers to patient-posed medical questions",
+  "classification": "Strict CENTRAL",
+  "recorded_public_date": "2025-07-25",
+  "window": "Extended",
+  "citations": 68,
+  "provider": "Semantic Scholar",
+  "capture_time_supported": true,
+  "route": "Released judged responses",
+  "result_and_scope": "All888 responses/222 questions/4 models;141 targets and20,073 independent checks pass. Responses and ratings not regenerated.",
+  "DOI": "10.1038/s41746-026-02428-5",
+  "arxiv_id": "2507.18905",
+  "preserved_limits": "Original responses/human judgments reanalysed, not regenerated; original source inconsistencies retained.",
+  "whole_paper_reproduction": false
+}

@@ -1,0 +1,67 @@
+# Reproducing P069
+
+This directory contains the scientific code used for the reported study, compact results and audit evidence. It is an archival research release, not a claim that all legacy entry points run unchanged on every machine. Publication preparation did not repeat the original experiment or revise its numerical methods.
+
+## Inspect and verify the release
+
+Requires Python 3.11 or later for the publication tools; they use only the standard library. From this folder:
+
+```console
+python reproduce.py --verify
+python reproduce.py --list-inputs
+```
+
+Verification checks published bytes against the release manifest. It is not a statistical audit or a fresh reproduction.
+
+## Obtain the original inputs
+
+[INPUTS.json](INPUTS.json) records archived asset sizes, SHA-256 values and retained source URLs, plus inventory notes for assets outside the original paper directory. Third-party papers, raw participant data, author repositories, model weights and large arrays are obtained from their original owners rather than redistributed here. A public URL alone does not establish a redistribution license.
+
+Where an exact file URL was retained, download one explicitly selected asset with `python reproduce.py --fetch input-001` (replace the ID after inspecting INPUTS.json). Downloads are accepted only if their hashes match. No automatic download of a whole model or dataset occurs. Landing-page-only records need manual acquisition; a changed upstream file must be treated as a different version.
+
+Bundled aggregate transcriptions / reference inputs:
+
+No third-party source data is bundled; see the acquisition records.
+
+## Reconstruct the original relative layout
+
+```console
+python reproduce.py --stage workspace
+```
+
+Choose a new directory. The tool copies code, included plan/input files and any verified downloads into their original relative locations. Recorded results remain separate so a new run cannot silently overwrite the old outcome. The staging receipt records that no experiment ran. Explicit workstation-root placeholders are relocated; other historical runtime/path dependencies remain visible.
+
+## Scientific entry points and dependencies
+
+- [p069_audit_setup_corrected.py](code/p069_audit_setup_corrected.py) — primary_or_independent_scientific_entry
+- [p069_central.py](code/p069_central.py) — primary_or_independent_scientific_entry
+
+Third-party Python packages identified in these files: `mpmath`, `numpy`, `psutil`, `scipy`. [requirements.txt](requirements.txt) lists these direct dependencies for inspection, without claiming a newly validated lockfile. Read the recorded configuration/runtime files for the actual versions and seeds used in the reported experiment. Any R packages, author code, hardware-specific PyTorch builds and non-Python dependencies require their original setup.
+
+Historical command / invocation records:
+
+```console
+python scripts/p069_central.py
+```
+
+source_exact_entry_no_arguments
+
+```console
+python scripts/p069_audit_setup_corrected.py
+```
+
+source_exact_entry_no_arguments
+
+Known constraints:
+
+- Historical outputs must remain exclusive; use fresh checkout/output configuration.
+
+- Hardcoded {{USER_HOME}} roots, local package-site paths and frozen source/control refs require explicit configuration; never silently remove guards.
+
+- ROOT is already __file__ relative, but fixed output names and sources_manifest full input checks require original acquisition hierarchy.
+
+Original frozen guards, root authorizations and software/code hashes are retained as scientific provenance. They have not been disabled by the publication tools. Some legacy runs therefore need an explicitly documented new execution plan/environment and revised provenance bindings before a new run can start. Never report a hash-only verification, a staged workspace, a source inspection or a partial diagnostic as a fresh successful experiment. Use the original reported scope, retain every comparison and disclose any changes made for a new environment.
+
+## Read the recorded outcome
+
+[README.md](README.md) states the result and limitations. [PROVENANCE.json](PROVENANCE.json) inventories every selected source file with original and publication hashes. The scientific outcome is historical evidence; checking its bytes does not independently recompute it.

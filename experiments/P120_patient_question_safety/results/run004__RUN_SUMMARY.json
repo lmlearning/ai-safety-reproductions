@@ -1,0 +1,98 @@
+{
+  "paper_id": "P120",
+  "utc_start": "2026-10-10T23:45:35.630938+00:00",
+  "utc_end": "2026-10-10T23:45:36.366466+00:00",
+  "n_responses": 888,
+  "n_questions": 222,
+  "all_targets": 141,
+  "passed_targets": 141,
+  "failed_targets": 0,
+  "successful_central_result": true,
+  "serialization_repair_equivalence_passed": true,
+  "original_methods_retained": true,
+  "resource_observations": [
+    {
+      "stage": "after imports",
+      "utc": "2026-10-10T23:45:35.630938+00:00",
+      "RSS_bytes": 138641408,
+      "peak_working_set_bytes": 138641408,
+      "available_RAM_bytes": 2056159232,
+      "free_disk_bytes": 93797908480
+    },
+    {
+      "stage": "raw workbook parsed",
+      "utc": "2026-10-10T23:45:36.267071+00:00",
+      "RSS_bytes": 161742848,
+      "peak_working_set_bytes": 168116224,
+      "available_RAM_bytes": 1988767744,
+      "free_disk_bytes": 93795778560
+    },
+    {
+      "stage": "primary proportions",
+      "utc": "2026-10-10T23:45:36.270998+00:00",
+      "RSS_bytes": 161841152,
+      "peak_working_set_bytes": 168116224,
+      "available_RAM_bytes": 1988608000,
+      "free_disk_bytes": 93795778560
+    },
+    {
+      "stage": "ratings",
+      "utc": "2026-10-10T23:45:36.276077+00:00",
+      "RSS_bytes": 162004992,
+      "peak_working_set_bytes": 168116224,
+      "available_RAM_bytes": 1989038080,
+      "free_disk_bytes": 93795778560
+    },
+    {
+      "stage": "issue Unsafe",
+      "utc": "2026-10-10T23:45:36.277081+00:00",
+      "RSS_bytes": 162004992,
+      "peak_working_set_bytes": 168116224,
+      "available_RAM_bytes": 1989046272,
+      "free_disk_bytes": 93795778560
+    },
+    {
+      "stage": "issue Includes Problematic Content",
+      "utc": "2026-10-10T23:45:36.279077+00:00",
+      "RSS_bytes": 162004992,
+      "peak_working_set_bytes": 168116224,
+      "available_RAM_bytes": 1989251072,
+      "free_disk_bytes": 93795778560
+    },
+    {
+      "stage": "issue Missing Important Info",
+      "utc": "2026-10-10T23:45:36.280192+00:00",
+      "RSS_bytes": 162004992,
+      "peak_working_set_bytes": 168116224,
+      "available_RAM_bytes": 1989484544,
+      "free_disk_bytes": 93795778560
+    },
+    {
+      "stage": "issue Missing History Taking",
+      "utc": "2026-10-10T23:45:36.281191+00:00",
+      "RSS_bytes": 162004992,
+      "peak_working_set_bytes": 168116224,
+      "available_RAM_bytes": 1989492736,
+      "free_disk_bytes": 93795778560
+    },
+    {
+      "stage": "issue Poor Writing",
+      "utc": "2026-10-10T23:45:36.282193+00:00",
+      "RSS_bytes": 162004992,
+      "peak_working_set_bytes": 168116224,
+      "available_RAM_bytes": 1989488640,
+      "free_disk_bytes": 93795778560
+    },
+    {
+      "stage": "all diagnostics",
+      "utc": "2026-10-10T23:45:36.324198+00:00",
+      "RSS_bytes": 162209792,
+      "peak_working_set_bytes": 168116224,
+      "available_RAM_bytes": 1989136384,
+      "free_disk_bytes": 93795778560
+    }
+  ],
+  "source_hash": "c1c8e47d1e9fe73cd78f63e3a09c37879891955101d7ce357ad324113575c959",
+  "input_freeze_hash": "3cbbe3a244f885b3e8544dc200c53d6e77374a56cd27470673b7cfb5a01c391e",
+  "exit_status": 0
+}

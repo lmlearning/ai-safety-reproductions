@@ -1,0 +1,329 @@
+{
+  "paper_id": "P066",
+  "assets": [
+    {
+      "id": "input-001",
+      "original_relative_path": "papers/P066_clinical_collaboration_meta/sources/original_analysis.R",
+      "bytes": 3694,
+      "sha256": "c04f661d9a3a2ab708bd913b303672ee5d8c946917335ab209b1b40bd81784c4",
+      "download_urls": [],
+      "source_pages": [
+        "https://zenodo.org/api/records/17611904/files/R-code-Figure2-PanelABC.R/content",
+        "https://zenodo.org/records/17611904"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original author R arrays/formula source explicitly read by independent audit; reacquire exact pinned bytes."
+    }
+  ],
+  "source_urls": [
+    "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "http://www.w3.org/1999/xli",
+    "http://www.w3.org/1999/xlink",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2e40/12953916/c3a5ebc973ee/41746_2026_2382_Fig2_HTML.jpg",
+    "https://cran.r-project.org/src/contrib/Archive/meta/meta_8.2-1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/metafor/metafor_4.8-0.tar.gz",
+    "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://doi.org/10.1038/s41746-026-02382-2",
+    "https://doi.org/10.5281/zenodo.17611903",
+    "https://doi.org/10.5281/zenodo.17611904",
+    "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41746-026-02382-2/MediaObjects/41746_2026_2382_Fig2_HTML.png",
+    "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41746-026-02382-2/MediaObjects/41746_2026_2382_MOESM1_ESM.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953916",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953916/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953916/pdf/41746_2026_Article_2382.pdf",
+    "https://svn.r-project.org/R/tags/R-4-5-2/src/library/stats/src/zeroin.c",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12953916/fullTextXML",
+    "https://www.nature.com/articles/s41746-026-02382-2",
+    "https://www.nature.com/articles/s41746-026-02382-2.pdf",
+    "https://www.nature.com/articles/s41746-026-02382-2_reference.pdf",
+    "https://www.semanticscholar.org/paper/a6a8298d6d78ce427319648191421d34cd68643c",
+    "https://zenodo.org/api/iiif/record:17611904/manifest",
+    "https://zenodo.org/api/iiif/record:17611904/sequence/default",
+    "https://zenodo.org/api/records/17611903",
+    "https://zenodo.org/api/records/17611904",
+    "https://zenodo.org/api/records/17611904/access",
+    "https://zenodo.org/api/records/17611904/access/grants",
+    "https://zenodo.org/api/records/17611904/access/links",
+    "https://zenodo.org/api/records/17611904/access/request",
+    "https://zenodo.org/api/records/17611904/access/users",
+    "https://zenodo.org/api/records/17611904/communities",
+    "https://zenodo.org/api/records/17611904/communities-suggestions",
+    "https://zenodo.org/api/records/17611904/draft",
+    "https://zenodo.org/api/records/17611904/draft/pids/doi",
+    "https://zenodo.org/api/records/17611904/file-modification",
+    "https://zenodo.org/api/records/17611904/files",
+    "https://zenodo.org/api/records/17611904/files/R-code-Figure2-PanelABC.R/content",
+    "https://zenodo.org/api/records/17611904/media-files",
+    "https://zenodo.org/api/records/17611904/quota-increase",
+    "https://zenodo.org/api/records/17611904/request-deletion",
+    "https://zenodo.org/api/records/17611904/requests",
+    "https://zenodo.org/api/records/17611904/versions",
+    "https://zenodo.org/api/records/17611904/versions/latest",
+    "https://zenodo.org/doi/10.5281/zenodo.17611903",
+    "https://zenodo.org/doi/10.5281/zenodo.17611904",
+    "https://zenodo.org/records/17611903",
+    "https://zenodo.org/records/17611904",
+    "https://zenodo.org/records/17611904/latest",
+    "https://zenodo.org/records/17611904?preview=1"
+  ],
+  "inventory_source_notes": {
+    "dependency_version_evidence": [
+      "papers/P066_clinical_collaboration_meta/runs/P066-central-002/configuration.json"
+    ],
+    "source_urls_retained": [
+      {
+        "url": "https://doi.org/10.1038/s41746-026-02382-2",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/REPORT.md"
+      },
+      {
+        "url": "https://zenodo.org/records/17611904",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/REPORT.md"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41746-026-02382-2_reference.pdf",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/citation_snapshot.json"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953916",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/citation_snapshot.json"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12953916/fullTextXML",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41746-026-02382-2",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611904",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611904/files/R-code-Figure2-PanelABC.R/content",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41746-026-02382-2/MediaObjects/41746_2026_2382_MOESM1_ESM.pdf",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41746-026-02382-2/MediaObjects/41746_2026_2382_Fig2_HTML.png",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953916/",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953916/pdf/41746_2026_Article_2382.pdf",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2e40/12953916/c3a5ebc973ee/41746_2026_2382_Fig2_HTML.jpg",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41746-026-02382-2.pdf",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://cran.r-project.org/src/contrib/Archive/meta/meta_8.2-1.tar.gz",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://cran.r-project.org/src/contrib/Archive/metafor/metafor_4.8-0.tar.gz",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://svn.r-project.org/R/tags/R-4-5-2/src/library/stats/src/zeroin.c",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "http://www.w3.org/1999/xlink",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/paper_fulltext.xml"
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/paper_fulltext.xml"
+      },
+      {
+        "url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/paper_fulltext.xml"
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/supplementary_information.txt"
+      },
+      {
+        "url": "https://doi.org/10.5281/zenodo.17611904",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/records/17611904?preview=1",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/doi/10.5281/zenodo.17611904",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611904/draft/pids/doi",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611903",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/records/17611903",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://doi.org/10.5281/zenodo.17611903",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/doi/10.5281/zenodo.17611903",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/iiif/record:17611904/manifest",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/iiif/record:17611904/sequence/default",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611904/files",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611904/media-files",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611904/versions/latest",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/records/17611904/latest",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611904/versions",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611904/draft",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611904/access/links",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611904/access/grants",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611904/access/users",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611904/access/request",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611904/access",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611904/communities",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611904/communities-suggestions",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611904/request-deletion",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611904/file-modification",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611904/quota-increase",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      },
+      {
+        "url": "https://zenodo.org/api/records/17611904/requests",
+        "evidence_path": "papers/P066_clinical_collaboration_meta/sources/zenodo_record.json"
+      }
+    ],
+    "license_notices_in_reviewed_metadata": [
+      {
+        "source": "papers/P066_clinical_collaboration_meta/sources/paper_fulltext.xml",
+        "literal": "day><month>3</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>© The Author(s) 2026</copyright-statement><license><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as yo"
+      },
+      {
+        "source": "papers/P066_clinical_collaboration_meta/sources/paper_fulltext.xml",
+        "literal": "e></event></pub-history><permissions><copyright-statement>© The Author(s) 2026</copyright-statement><license><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original "
+      },
+      {
+        "source": "papers/P066_clinical_collaboration_meta/sources/paper_fulltext.xml",
+        "literal": "ory><permissions><copyright-statement>© The Author(s) 2026</copyright-statement><license><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the so"
+      },
+      {
+        "source": "papers/P066_clinical_collaboration_meta/sources/paper_fulltext.xml",
+        "literal": "t><license><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified th"
+      },
+      {
+        "source": "papers/P066_clinical_collaboration_meta/sources/paper_fulltext.xml",
+        "literal": "ropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit li"
+      },
+      {
+        "source": "papers/P066_clinical_collaboration_meta/sources/paper_fulltext.xml",
+        "literal": "ges or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this li"
+      },
+      {
+        "source": "papers/P066_clinical_collaboration_meta/sources/paper_fulltext.xml",
+        "literal": " in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" ex"
+      },
+      {
+        "source": "papers/P066_clinical_collaboration_meta/sources/paper_fulltext.xml",
+        "literal": "exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" ext-link-type=\"uri\">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link>.</license-p></license></permissions><self-uri xmlns:xlink=\"http://www.w3.org/1999/xli"
+      },
+      {
+        "source": "papers/P066_clinical_collaboration_meta/sources/paper_fulltext.xml",
+        "literal": " visit <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" ext-link-type=\"uri\">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link>.</license-p></license></permissions><self-uri xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"41746_2026_Article_2382.pdf\" content-type=\"pmc-pdf\"><?cloudpmc-path 2e40/12953916/143c45891c4a/41746_2026_Article_2382.pdf?><?cloudpm"
+      },
+      {
+        "source": "papers/P066_clinical_collaboration_meta/sources/paper_fulltext.xml",
+        "literal": "\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" ext-link-type=\"uri\">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link>.</license-p></license></permissions><self-uri xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"41746_2026_Article_2382.pdf\" content-type=\"pmc-pdf\"><?cloudpmc-path 2e40/12953916/143c45891c4a/41746_2026_Article_2382.pdf?><?cloudpmc-bucket app?><?size 1667542?></self-uri><abstract id=\"Abs1\"><title>Abs"
+      },
+      {
+        "source": "papers/P066_clinical_collaboration_meta/sources/supplementary_information.txt",
+        "literal": "ic reviews. BMJ 2021;372:n71. doi: 10.1136/bmj.n71. This work is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/   --- PAGE 5 --- 5 / 30 Supplementary Table 1. Risk of bias assessment of randomized controlled trials using the RoB 2 tool. Risk-of-bias judgments for the nine randomized trials included in the review, assessed across five RoB 2 domains: D1"
+      },
+      {
+        "source": "papers/P066_clinical_collaboration_meta/sources/supplementary_information.txt",
+        "literal": "work is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/   --- PAGE 5 --- 5 / 30 Supplementary Table 1. Risk of bias assessment of randomized controlled trials using the RoB 2 tool. Risk-of-bias judgments for the nine randomized trials included in the review, assessed across five RoB 2 domains: D1, randomization process; D2, deviations from intended interventions; D3, missing "
+      }
+    ],
+    "retained_license_files": [],
+    "redistribution_status": "No independent license grant inferred. Default bundle is programme-authored code/config/compact derived results; original assets require notice/URL-based acquisition when rights are unresolved. Article/source license excerpts are evidence, not a blanket repository license.",
+    "portable_rerun_notes": [
+      "Keep repository-relative layout for __file__-based roots. Preserve input bytes and pinned hashes. Install stated scientific dependencies separately; do not copy original runtime.",
+      "New output namespaces are required. Historical immutable run directories must not be overwritten.",
+      "Authorization/freeze/runtime source checks remain active in immutable runners. Later guarded studies need an explicitly documented portable launch/config adapter; none was implemented or tested by this inventory."
+    ],
+    "command_limit": "Commands document source CLI, are not tested portable instructions and do not grant execution. Fixed-output early runners need an explicit new output path adaptation; guarded later runners additionally require historical or prospectively reviewed exact auth/freeze/runtime context."
+  },
+  "policy": "Source/data/model files are acquired from their owners. Only explicitly identified programme transcriptions are bundled. URLs are historical and were not re-fetched during publication preparation."
+}

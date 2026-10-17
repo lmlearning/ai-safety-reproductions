@@ -1,0 +1,146 @@
+{
+  "paper_id": "P080",
+  "assets": [
+    {
+      "id": "input-001",
+      "original_relative_path": "papers/P080_ai_skill_formation/sources/retained_original_data/data_analysis__data__Full-Study.csv",
+      "bytes": 142450,
+      "sha256": "7c76a8d4279a3fa4f0df24b0b4587c1b8c194561f26057545edac7919237518f",
+      "download_urls": [],
+      "source_pages": [
+        "https://api.osf.io/v2/nodes/pk6a5/",
+        "https://api.osf.io/v2/nodes/pk6a5/files/",
+        "https://api.osf.io/v2/nodes/pk6a5/files/osfstorage/",
+        "https://api.osf.io/v2/nodes/w49e7/",
+        "https://api.osf.io/v2/registrations/w49e7/",
+        "https://api.osf.io/v2/registrations/w49e7/files/",
+        "https://api.osf.io/v2/registrations/w49e7/files/osfstorage/",
+        "https://arxiv.org/html/2601.20245v1",
+        "https://arxiv.org/html/2601.20245v2",
+        "https://arxiv.org/src/2601.20245v1",
+        "https://github.com/safety-research/how-ai-impacts-skill-formation",
+        "https://osf.io/pk6a5",
+        "https://osf.io/pk6a5/",
+        "https://osf.io/w49e7",
+        "https://osf.io/w49e7/"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "required original or source-transcribed scientific input; license/source reacquisition review"
+    }
+  ],
+  "source_urls": [
+    "https://api.osf.io/v2/nodes/pk6a5/",
+    "https://api.osf.io/v2/nodes/pk6a5/files/",
+    "https://api.osf.io/v2/nodes/pk6a5/files/osfstorage/",
+    "https://api.osf.io/v2/nodes/w49e7/",
+    "https://api.osf.io/v2/registrations/w49e7/",
+    "https://api.osf.io/v2/registrations/w49e7/files/",
+    "https://api.osf.io/v2/registrations/w49e7/files/osfstorage/",
+    "https://api.semanticscholar.org/graph/v1/paper/batch?fields=title,citationCount,publicationDate,externalIds",
+    "https://arxiv.org/html/2601.20245v1",
+    "https://arxiv.org/html/2601.20245v2",
+    "https://arxiv.org/src/2601.20245v1",
+    "https://github.com/safety-research/how-ai-impacts-skill-formation",
+    "https://osf.io/pk6a5",
+    "https://osf.io/pk6a5/",
+    "https://osf.io/w49e7",
+    "https://osf.io/w49e7/",
+    "https://raw.githubusercontent.com/mwaskom/seaborn/v0.13.0/seaborn/_statistics.py",
+    "https://raw.githubusercontent.com/mwaskom/seaborn/v0.13.0/seaborn/algorithms.py",
+    "https://raw.githubusercontent.com/mwaskom/seaborn/v0.13.0/seaborn/categorical.py",
+    "https://raw.githubusercontent.com/mwaskom/seaborn/v0.13.1/seaborn/_statistics.py",
+    "https://raw.githubusercontent.com/mwaskom/seaborn/v0.13.1/seaborn/algorithms.py",
+    "https://raw.githubusercontent.com/mwaskom/seaborn/v0.13.1/seaborn/categorical.py",
+    "https://raw.githubusercontent.com/mwaskom/seaborn/v0.13.2/seaborn/_statistics.py",
+    "https://raw.githubusercontent.com/mwaskom/seaborn/v0.13.2/seaborn/algorithms.py",
+    "https://raw.githubusercontent.com/mwaskom/seaborn/v0.13.2/seaborn/categorical.py",
+    "https://trio.readthedocs.io/en/stable/"
+  ],
+  "inventory_source_notes": {
+    "dependency_version_evidence": [
+      "papers/P080_ai_skill_formation/FINAL_FREEZE_MANIFEST_20261010.json",
+      "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010.json"
+    ],
+    "source_urls_retained": [
+      {
+        "url": "https://api.osf.io/v2/registrations/w49e7/",
+        "evidence_path": "papers/P080_ai_skill_formation/PREREGISTRATION_PROPOSAL_20261010.json"
+      },
+      {
+        "url": "https://github.com/safety-research/how-ai-impacts-skill-formation",
+        "evidence_path": "papers/P080_ai_skill_formation/sources/git_provenance.json"
+      },
+      {
+        "url": "https://osf.io/w49e7/",
+        "evidence_path": "papers/P080_ai_skill_formation/sources/osf_requests.json"
+      },
+      {
+        "url": "https://api.osf.io/v2/nodes/w49e7/",
+        "evidence_path": "papers/P080_ai_skill_formation/sources/osf_requests.json"
+      },
+      {
+        "url": "https://osf.io/pk6a5/",
+        "evidence_path": "papers/P080_ai_skill_formation/sources/osf_requests.json"
+      },
+      {
+        "url": "https://api.osf.io/v2/registrations/w49e7/files/",
+        "evidence_path": "papers/P080_ai_skill_formation/sources/osf_storage_requests.json"
+      },
+      {
+        "url": "https://api.osf.io/v2/registrations/w49e7/files/osfstorage/",
+        "evidence_path": "papers/P080_ai_skill_formation/sources/osf_storage_requests.json"
+      },
+      {
+        "url": "https://api.osf.io/v2/nodes/pk6a5/",
+        "evidence_path": "papers/P080_ai_skill_formation/sources/osf_storage_requests.json"
+      },
+      {
+        "url": "https://api.osf.io/v2/nodes/pk6a5/files/",
+        "evidence_path": "papers/P080_ai_skill_formation/sources/osf_storage_requests.json"
+      },
+      {
+        "url": "https://api.osf.io/v2/nodes/pk6a5/files/osfstorage/",
+        "evidence_path": "papers/P080_ai_skill_formation/sources/osf_storage_requests.json"
+      },
+      {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/batch?fields=title,citationCount,publicationDate,externalIds",
+        "evidence_path": "papers/P080_ai_skill_formation/sources/P078_P080_s2_batch.request.json"
+      },
+      {
+        "url": "https://arxiv.org/html/2601.20245v1",
+        "evidence_path": "papers/P080_ai_skill_formation/sources/paper_requests.json"
+      },
+      {
+        "url": "https://arxiv.org/html/2601.20245v2",
+        "evidence_path": "papers/P080_ai_skill_formation/sources/paper_requests.json"
+      },
+      {
+        "url": "https://trio.readthedocs.io/en/stable/",
+        "evidence_path": "papers/P080_ai_skill_formation/sources/paper_v1.txt"
+      },
+      {
+        "url": "https://osf.io/pk6a5",
+        "evidence_path": "papers/P080_ai_skill_formation/sources/paper_v1.txt"
+      },
+      {
+        "url": "https://arxiv.org/src/2601.20245v1",
+        "evidence_path": "papers/P080_ai_skill_formation/sources/paper_v1_source_request.json"
+      },
+      {
+        "url": "https://osf.io/w49e7",
+        "evidence_path": "papers/P080_ai_skill_formation/sources/paper_v2.txt"
+      }
+    ],
+    "license_notices_in_reviewed_metadata": [],
+    "retained_license_files": [],
+    "redistribution_status": "No independent license grant inferred. Default bundle is programme-authored code/config/compact derived results; original assets require notice/URL-based acquisition when rights are unresolved. Article/source license excerpts are evidence, not a blanket repository license.",
+    "portable_rerun_notes": [
+      "Keep repository-relative layout for __file__-based roots. Preserve input bytes and pinned hashes. Install stated scientific dependencies separately; do not copy original runtime.",
+      "New output namespaces are required. Historical immutable run directories must not be overwritten.",
+      "Authorization/freeze/runtime source checks remain active in immutable runners. Later guarded studies need an explicitly documented portable launch/config adapter; none was implemented or tested by this inventory."
+    ],
+    "command_limit": "Commands document source CLI, are not tested portable instructions and do not grant execution. Fixed-output early runners need an explicit new output path adaptation; guarded later runners additionally require historical or prospectively reviewed exact auth/freeze/runtime context."
+  },
+  "policy": "Source/data/model files are acquired from their owners. Only explicitly identified programme transcriptions are bundled. URLs are historical and were not re-fetched during publication preparation."
+}

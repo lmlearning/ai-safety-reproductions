@@ -1,0 +1,313 @@
+{
+  "schema": "SOURCE_ONLY_COMPLETE_AI_INDEX_CODED_TRANSPARENCY_CENTRAL_PROPOSAL028",
+  "UTC": "2026-10-15T12:24:54.087602+00:00",
+  "metadata_PID": 68232,
+  "prior_complete_source_feasibility025_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\cpu_additional_complete_route_screen_oct15_002\\AGENT_INDEX_COMPLETE_ORIGINAL_INPUT_AND_CENTRAL_FEASIBILITY_SOURCE_ONLY025.json",
+    "bytes": 38120,
+    "sha256": "9a5fb946f55a457652701e6fdc47105b45091c320eb443226883835fd44eb8af"
+  },
+  "prior_full_matrix_and_claim_contract026_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\cpu_additional_complete_route_screen_oct15_002\\agent_index_source_contract026\\COMPLETE_AGENT_INDEX_PRE_OUTCOME026_SCOPE_AND_SOURCE_PACKET.json",
+    "bytes": 1554,
+    "sha256": "d8e3c3ea3288e954bdf92263970c5c5ed0690cb502d1221c7857c84d6cc62635"
+  },
+  "all1350_source_status_map_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\cpu_additional_complete_route_screen_oct15_002\\agent_index_transparency_preparation028\\COMPLETE_ALL1350_LITERAL_AUTHOR_STATUS_AND_SOURCE_EVIDENCE_MAP028.json",
+    "bytes": 1630297,
+    "sha256": "2cfd75e41e7d13577e05844251c7b5da5af431d7579970249b404bb128b3569d"
+  },
+  "all1350_lossless_format_join_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\cpu_additional_complete_route_screen_oct15_002\\agent_index_transparency_preparation028\\COMPLETE1350_LOSSLESS_ORIGINAL_JSON_CSV_HEADER_AND_CELL_JOINS028.json",
+    "bytes": 294156,
+    "sha256": "fc3d216888328fd358b4d8f0ade90bc4d9b5084e84e17596a0388ff0a3466e44"
+  },
+  "primary_component": "Complete original released coded-transparency/missing-public-information empirical family. Not independent recollection of annotations, historical web availability, confidential developer correspondence, or full-paper regeneration.",
+  "source_based_centrality": [
+    {
+      "source_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\literature\\cpu_additional_complete_route_screen_oct15_002\\agent_index_original024\\exact_original_source\\arxiv.tex",
+        "bytes": 118136,
+        "sha256": "14e08b25caf95617721e8949a4aa71791bb6c2a5fe0ec3b5fc8400905ae40325"
+      },
+      "line": 395,
+      "exact_line": "    \\item \\textbf{Ecosystem-Wide Trends:} We identify trends across the AI agent ecosystem relating to systems' origin, role, level of agency, capabilities, safety, and transparency (\\Cref{sec:findings})."
+    },
+    {
+      "source_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\literature\\cpu_additional_complete_route_screen_oct15_002\\agent_index_original024\\exact_original_source\\arxiv.tex",
+        "bytes": 118136,
+        "sha256": "14e08b25caf95617721e8949a4aa71791bb6c2a5fe0ec3b5fc8400905ae40325"
+      },
+      "line": 290,
+      "exact_line": "Notably, we find different transparency levels among agent developers and observe that most developers share little information about safety, evaluations, and societal impacts. "
+    },
+    {
+      "source_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\literature\\cpu_additional_complete_route_screen_oct15_002\\agent_index_original024\\exact_original_source\\arxiv.tex",
+        "bytes": 118136,
+        "sha256": "14e08b25caf95617721e8949a4aa71791bb6c2a5fe0ec3b5fc8400905ae40325"
+      },
+      "line": 771,
+      "exact_line": "The 2025 AI Agent Index provides verified information across 1,350 fields for 30 prominent AI agents. Beyond the specific findings detailed above, we identify \\textit{persistent limitations in reporting around ecosystemic and safety-related features of agentic systems}. This Index aims to help developers design more thorough documentation frameworks, researchers identify open questions in the ecosystem, and policymakers understand gaps in transparency that may warrant attention."
+    },
+    {
+      "source_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\literature\\cpu_additional_complete_route_screen_oct15_002\\agent_index_original024\\exact_original_source\\arxiv.tex",
+        "bytes": 118136,
+        "sha256": "14e08b25caf95617721e8949a4aa71791bb6c2a5fe0ec3b5fc8400905ae40325"
+      },
+      "line": 595,
+      "exact_line": "    \\caption{For 198 out of 1350 fields, we were unable to find any information (gray). This is most common in the ``Ecosystem Interaction'' and ``Safety, Evaluation, and Impact'' categories. Non-empty information fields are 14 words long on average.}"
+    },
+    {
+      "source_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\literature\\cpu_additional_complete_route_screen_oct15_002\\agent_index_original024\\exact_original_source\\arxiv.tex",
+        "bytes": 118136,
+        "sha256": "14e08b25caf95617721e8949a4aa71791bb6c2a5fe0ec3b5fc8400905ae40325"
+      },
+      "line": 717,
+      "exact_line": "    \\caption{Most safety, evaluation, and social impact related fields (133/240) have no information available. Browser agents (67/104, 64\\%) and enterprise agents (25/40, 63\\%) have the most missing fields, followed by chat agents (41/96, 43\\%).}"
+    }
+  ],
+  "whole_scope": {
+    "agent_count": 30,
+    "field_count": 45,
+    "all_cells": 1350,
+    "safety_fields": [
+      "Technical guardrails and safety measures",
+      "Sandboxing and containment approaches",
+      "What types of risks were evaluated?",
+      "(Internal) safety evaluations and results",
+      "Third-party testing, audits, and red-teaming",
+      "Benchmark performance and demonstrated capabilities",
+      "Bug bounty programmes and vulnerability disclosure",
+      "Any known incidents?"
+    ],
+    "all_safety_cells": 240,
+    "cohort_contract": {
+      "Browser": [
+        {
+          "agent_name": "Alibaba MobileAgent",
+          "raw_record_index0": 0,
+          "source_pointer": "/0/Product overview/Category"
+        },
+        {
+          "agent_name": "ByteDance Agent TARS / UI-TARS",
+          "raw_record_index0": 4,
+          "source_pointer": "/4/Product overview/Category"
+        },
+        {
+          "agent_name": "OpenAI ChatGPT Atlas",
+          "raw_record_index0": 19,
+          "source_pointer": "/19/Product overview/Category"
+        },
+        {
+          "agent_name": "Opera Neon",
+          "raw_record_index0": 21,
+          "source_pointer": "/21/Product overview/Category"
+        },
+        {
+          "agent_name": "Perplexity Comet",
+          "raw_record_index0": 23,
+          "source_pointer": "/23/Product overview/Category"
+        }
+      ],
+      "Chat": [
+        {
+          "agent_name": "Anthropic Claude",
+          "raw_record_index0": 1,
+          "source_pointer": "/1/Product overview/Category"
+        },
+        {
+          "agent_name": "Anthropic Claude Code",
+          "raw_record_index0": 2,
+          "source_pointer": "/2/Product overview/Category"
+        },
+        {
+          "agent_name": "Google Gemini",
+          "raw_record_index0": 6,
+          "source_pointer": "/6/Product overview/Category"
+        },
+        {
+          "agent_name": "Google Gemini CLI",
+          "raw_record_index0": 7,
+          "source_pointer": "/7/Product overview/Category"
+        },
+        {
+          "agent_name": "Kimi OK Computer",
+          "raw_record_index0": 11,
+          "source_pointer": "/11/Product overview/Category"
+        },
+        {
+          "agent_name": "Manus AI",
+          "raw_record_index0": 12,
+          "source_pointer": "/12/Product overview/Category"
+        },
+        {
+          "agent_name": "MiniMax Agent",
+          "raw_record_index0": 14,
+          "source_pointer": "/14/Product overview/Category"
+        },
+        {
+          "agent_name": "OpenAI ChatGPT",
+          "raw_record_index0": 17,
+          "source_pointer": "/17/Product overview/Category"
+        },
+        {
+          "agent_name": "OpenAI ChatGPT Agent",
+          "raw_record_index0": 18,
+          "source_pointer": "/18/Product overview/Category"
+        },
+        {
+          "agent_name": "OpenAI Codex",
+          "raw_record_index0": 20,
+          "source_pointer": "/20/Product overview/Category"
+        },
+        {
+          "agent_name": "Perplexity",
+          "raw_record_index0": 22,
+          "source_pointer": "/22/Product overview/Category"
+        },
+        {
+          "agent_name": "Z.ai AutoGLM 2.0",
+          "raw_record_index0": 28,
+          "source_pointer": "/28/Product overview/Category"
+        }
+      ],
+      "Enterprise": [
+        {
+          "agent_name": "Browser Use",
+          "raw_record_index0": 3,
+          "source_pointer": "/3/Product overview/Category"
+        },
+        {
+          "agent_name": "Glean Agents",
+          "raw_record_index0": 5,
+          "source_pointer": "/5/Product overview/Category"
+        },
+        {
+          "agent_name": "Google Gemini Enterprise",
+          "raw_record_index0": 8,
+          "source_pointer": "/8/Product overview/Category"
+        },
+        {
+          "agent_name": "Hubspot Breeze Studio / Agents",
+          "raw_record_index0": 9,
+          "source_pointer": "/9/Product overview/Category"
+        },
+        {
+          "agent_name": "IBM watsonx Orchestrate",
+          "raw_record_index0": 10,
+          "source_pointer": "/10/Product overview/Category"
+        },
+        {
+          "agent_name": "Microsoft Copilot Studio",
+          "raw_record_index0": 13,
+          "source_pointer": "/13/Product overview/Category"
+        },
+        {
+          "agent_name": "n8n Agents",
+          "raw_record_index0": 15,
+          "source_pointer": "/15/Product overview/Category"
+        },
+        {
+          "agent_name": "OpenAI AgentKit",
+          "raw_record_index0": 16,
+          "source_pointer": "/16/Product overview/Category"
+        },
+        {
+          "agent_name": "Salesforce Agentforce",
+          "raw_record_index0": 24,
+          "source_pointer": "/24/Product overview/Category"
+        },
+        {
+          "agent_name": "SAP Joule Studio / Agents",
+          "raw_record_index0": 25,
+          "source_pointer": "/25/Product overview/Category"
+        },
+        {
+          "agent_name": "ServiceNow AI Agents",
+          "raw_record_index0": 26,
+          "source_pointer": "/26/Product overview/Category"
+        },
+        {
+          "agent_name": "WRITER Action Agent",
+          "raw_record_index0": 27,
+          "source_pointer": "/27/Product overview/Category"
+        },
+        {
+          "agent_name": "Zapier AI Agents",
+          "raw_record_index0": 29,
+          "source_pointer": "/29/Product overview/Category"
+        }
+      ]
+    },
+    "cohort_safety_denominators": {
+      "Browser": 40,
+      "Chat": 96,
+      "Enterprise": 104
+    }
+  },
+  "prospective_primary_predicate": "Retained explicit author None-found status, standalone or individually source-reviewed qualified marker, anchored to the field status. No generic substring lookup, no aliasing None/Not available/Not applicable/UNSURE/TODO, no new documentary fact coding. All other statuses and uncertainties are reported in full. Literal no-ANY-information semantics of qualified mixed cells are a mandatory separate source audit.",
+  "exact_primary_targets": {
+    "Fig3_all_fields_missing": 198,
+    "Fig3_denominator": 1350,
+    "Fig6_all_safety_missing": 133,
+    "Fig6_denominator": 240,
+    "Fig6_Enterprise": {
+      "missing": 67,
+      "denominator": 104,
+      "percentage_display": "64"
+    },
+    "Fig6_Browser": {
+      "missing": 25,
+      "denominator": 40,
+      "percentage_display": "63"
+    },
+    "Fig6_Chat": {
+      "missing": 41,
+      "denominator": 96,
+      "percentage_display": "43"
+    }
+  },
+  "full_required_primary_arrays": [
+    "All1350 cell status flags in exact original agent/section/field order, independently reduced from original JSON and CSV.",
+    "Complete30x45 matrix, per-agent45/per-field30/per-section sums and denominators including zero cells.",
+    "Complete30x8 safety matrix, all30 per-agent8-cell totals, every field and all3 original category cohorts.",
+    "Three cohort membership arrays and exactly13/5/12 source-defined members; no target-selected cohort or field exclusion.",
+    "All primary exact count/denominator targets and strict original displayed percentage intervals."
+  ],
+  "mandatory_supporting_audits": [
+    "Literal reversed Fig6 Browser67/104 and Enterprise25/40 caption labels retained and compared without correction; normalized labels are separate source-unit arithmetic.",
+    "Manus cloud/local partial-information cell and Codex-to-Atlas reference inconsistency retained verbatim; no recoding after seeing totals.",
+    "Full guide-versus-Methods marker distinction and every uncertainty/unfinished/blank cell retained, never imputed missing.",
+    "Raw exact-cell-only and broad embedded-marker alternatives may be predeclared as sensitivity outputs, never used to rescue primary."
+  ],
+  "held_Fig3_word_mean": {
+    "published": "14 words on average for non-empty information fields",
+    "original_tokenizer_markup_normalizer_nonempty_denominator_generator": "UNAVAILABLE",
+    "role": "HELD_FOR_ROOT_PROSPECTIVE_SCOPE_DECISION",
+    "no_own_token_or_average_computation": true
+  },
+  "full_paper_limits": [
+    "Historical collection/research-series reproduction, Ahrefs and confidential correspondence unavailable.",
+    "Other Section4 free-text feature/capability/autonomy/incident findings remain fully preserved source-held supporting families, not claimed reproduced by this transparency component.",
+    "No full-paper/publication-conjunction claim; literal-caption contradiction prevents FULL."
+  ],
+  "proposed_analysis": {
+    "inclusive_seconds": 600,
+    "RSS_cap_bytes": 1073741824,
+    "whole_output_cap_bytes": 268435456,
+    "API_network_disabled": true,
+    "primary_original_JSON_author_status_reduction": true,
+    "independently_authored_CSV_reduction_and_all_array_comparison": true,
+    "all_stage_raw_stdout_outputs_hashes_versions_UTC_exit_resources_retained": true,
+    "no_model_or_API_needed": true
+  },
+  "root_Methods_Discussion_classification_and_full_criteria_acceptance_required": true,
+  "scientific_execution": false,
+  "no_aggregate_missingness_counts_computed": true,
+  "execution_authorized": false,
+  "paper_credit": 0
+}

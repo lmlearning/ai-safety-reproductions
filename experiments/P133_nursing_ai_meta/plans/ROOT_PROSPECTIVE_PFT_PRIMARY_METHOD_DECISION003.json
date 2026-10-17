@@ -1,0 +1,29 @@
+{
+  "UTC": "2026-10-11T02:48:24.145496+00:00",
+  "status": "source-only primary method and implementation preparation approved; numerical execution forbidden",
+  "root_review": "All263 forest primary cells,114support,129inputs,43forestrows visually read; all315/331 frozen refs independently verified. Exact source transform equations/backtransform architecture reviewed. No original effects/weights/pools calculated.",
+  "primary": {
+    "transform": "PFT",
+    "method": "Inverse",
+    "tau": "REML",
+    "common_and_random_CI": "classic normal95",
+    "individual_CI": "CP95",
+    "prediction": "V t(k-1), prediction TRUE",
+    "backtransform": "pinned2025 meta asin2p Millerinverse active harmonic mean sample size for full/group/LOO"
+  },
+  "reason": "Published common weights visually track sample size. PFT and PAS both support that architecture; PFT is a conventional source-supported choice, not uniquely author-identified. Earlier PLOGIT preferred proposal unapproved/unexecuted retained.",
+  "mandatory_controls": [
+    "PAS/REML",
+    "PLOGIT/REML",
+    "PLOGIT/DL",
+    "PFT/DL",
+    "PRAW/DL"
+  ],
+  "PFT_backsize_controls": "Uniform min,max,arithmetic,geometric,median active sample sizes, whole three families/full groups/LOO, no rescue",
+  "default_GLMM": "architecture-only NA individual weights/no default prediction; no numerical partial GLMM fit authorized",
+  "gates": "All263AND source ROUND_HALF_EVEN printed precision exact; all114support/43LOO/all3countrymodels x2 conventions/8actualgroups/18appraisals/23sourceconflicts retained; no narrowing.",
+  "independent_numeric_tolerance": "1e-10abs+1e-10rel fixed before outcomes",
+  "execution_authorized": false,
+  "full_reproduction_limit": "Original screening, thematic coding, event threshold definitions and exact author settings unavailable.",
+  "source_freeze_sha256": "7c0373bae2a6a91a4fc7bed8307985657bfd7bf9bd3c6778b428d844817c632b"
+}

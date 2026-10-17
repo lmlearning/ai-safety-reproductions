@@ -1,0 +1,244 @@
+{
+  "schema": "ROOT_PROSPECTIVE_P165_MENTALBENCH_SOURCE_METHOD_AND_NEAR_ADOPTION921",
+  "UTC": "2026-10-17T08:42:03.145643+00:00",
+  "paper_id": "P165",
+  "arxiv": "2510.19032v1",
+  "title": "When Can We Trust LLMs in Mental Health? Large-Scale Benchmarks for Reliable LLM Evaluation",
+  "selection_method_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ADOPTED_UNIFORM_RETAINED_S2_PREPRINT_SOURCE_COHORT914A.json",
+    "bytes": 7500,
+    "sha256": "a5d57d7301370b17f0e4be0ffa877388b6d2af493832550a169fa9f825343f4d"
+  },
+  "selection_review_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_date_identity_review_CPU003\\COMPLETE_FINITE_MENTALBENCH_SOURCE_DATE_SELECTION_IDENTITY_REVIEW_CPU003.json",
+    "bytes": 27269,
+    "sha256": "21d0fa2320ceda4addcaa2a69ffe8dfb7c444c4556cec44edb1376e5050f3bc8"
+  },
+  "source_plan_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\COMPLETE_MENTALBENCH_CENTRAL_SOURCE_MAP_AND_PROSPECTIVE_NEAR_PLAN_P092018.json",
+    "bytes": 27482,
+    "sha256": "3730943a8a74f07ab12ab6f4787c64ed48cfac697a44be034fb7b67f093a244f"
+  },
+  "ROOT_candidate_source_eligible": true,
+  "date_qualification": "Official v1 21 October2025; earlier same-study ARRMay2025 indication remains within window. Undated ICLR2025 README is unverified and not invented as dated prior publication. No global absence proof claimed. Retained31 passes914A for all positively indicated within-window dates; old40FAIL preserved.",
+  "author_identity": "Nine official authors; literal S2 tenth author remains unexplained provider discrepancy, exact arXiv/DOI/title/paperId bind retained31.",
+  "count_capture_time": "UNKNOWN; not claimed as proven10October snapshot",
+  "source_version": "Exact paper-date7074d5cea423799171ce7d7125684af9ccd211f0 and its nine files; sourceHuman:human. Never silently replace changed four CSVs with current ones.",
+  "scope": "ONE distinct central Affective-Cognitive Agreement validation: full RQ1human/LLMmodelcomparison + RQ2all28ICC+uncertainty + RQ3all28bias/error/reliabilityconclusions, alloriginal1000-ratedcohort/allgenerators/judges/attrs. Independent numericalreanalysis oforiginalreleasedbanks; no new hostedgeneration/humanrating.",
+  "FULL": false,
+  "omissions": "10kbenchmarkcollection/generation by9models inclclosedAPIs and originalhumanrecruitment/annotation are not replicated; exact historicalmodelversions/clinicalvalidity not independentlyproved. Entire100kZIPnotrequiredforstatistical1000cohort contribution; samplecollection/historylimits explicit. No FULL claim.",
+  "adopted_original_methods": {
+    "method_source_refs": [
+      {
+        "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\PAPER_ERA_ICC_SOURCE.py",
+        "bytes": 61260,
+        "sha256": "bbc9584ea3a5b3d25e76bda6a7cec921e74c3340730fa96c05c7444f3fc91400"
+      },
+      {
+        "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\PAPER_ERA_MSE_SOURCE.py",
+        "bytes": 7512,
+        "sha256": "c06852137ceaea4294a82a80a2c1340e216640bb9b5f88240436f915ba003156"
+      }
+    ],
+    "canonical_paper_era_model_key_roster": [
+      [
+        "Claude-3.5-Haiku",
+        "claude"
+      ],
+      [
+        "deepseek-llama",
+        "ds_llama"
+      ],
+      [
+        "deepseek-qwen",
+        "ds_qwen"
+      ],
+      [
+        "Gemini 2.0-Flash",
+        "gemini"
+      ],
+      [
+        "gpt-4o",
+        "gpt4o"
+      ],
+      [
+        "gpt-4omini",
+        "gpt4omini"
+      ],
+      [
+        "Llama-3.1",
+        "llama_3"
+      ],
+      [
+        "Qwen-2.5",
+        "qwen_2"
+      ],
+      [
+        "Qwen-3",
+        "qwen_3"
+      ],
+      [
+        "Human",
+        "human"
+      ]
+    ],
+    "current_only_alias_change": "Paper-era Human:human -> current Original:original. Full rawdiff/AST comparison retained; BOTH ICC+MSE only change this mapping. Use paper-era code/data pair; rawworkbook adapter must positively qualify actual headers before numerical access. No scores used to choose alias.",
+    "judges": [
+      {
+        "canonical": "Claude-3.7-Sonnet",
+        "code_label": "Claude",
+        "merged_file": "claude_llm_judge_with_human.csv",
+        "excluded_generator": "Claude-3.5-Haiku"
+      },
+      {
+        "canonical": "GPT-4o",
+        "code_label": "GPT-4o",
+        "merged_file": "gpt-4o_llm_judge_with_human.csv",
+        "excluded_generator": "gpt-4o"
+      },
+      {
+        "canonical": "Gemini-2.5-Flash",
+        "code_label": "Gemini",
+        "merged_file": "gemini_llm_judge_with_human.csv",
+        "excluded_generator": "Gemini 2.0-Flash"
+      },
+      {
+        "canonical": "o4-mini",
+        "code_label": "o4-mini",
+        "merged_file": "o4-mini_llm_judge_with_human.csv",
+        "excluded_generator": "gpt-4omini"
+      }
+    ],
+    "attributes": [
+      "Guidance",
+      "Informativeness",
+      "Relevance",
+      "Safety",
+      "Empathy",
+      "Helpfulness",
+      "Understanding"
+    ],
+    "axes": {
+      "CSS": [
+        "Guidance",
+        "Informativeness",
+        "Relevance",
+        "Safety"
+      ],
+      "ARS": [
+        "Empathy",
+        "Helpfulness",
+        "Understanding"
+      ]
+    },
+    "ratings": "Original1..5 Likert values and published35 rubric anchors in source7/authorguidelines. Overall/Explanation exist in prompt but are not extra seven-attribute numerical endpoints; retain as optional opaque lineage, no new outcome family.",
+    "raters": "Source reports3experts. Core code uses ONE released human-reference rating per model/context/attribute, not a3human-rater ICC. If raw file is pre-aggregated, reproducing this exact declared reference can support CENTRAL; separate expert-level agreement or annotation-collection validity cannot be claimed. Aggregation provenance must be disclosed/qualified, never invented.",
+    "cohort": "Full original1000-rated-conversation roster,10response sources (9AI+originalhuman),all7attributes,4LLMjudges plushumanreference. 350000 possible human/LLM attribute ratings, not asserted all nonmissing. Full original records/identities required; original documented invalid/missing cells retained with reasons, not imputed/dropped secretly. Originalsource paired counts vary~8924..8934 after one self-exclusion, so do not force9000valid pairs or fabricate data.",
+    "family_relative_exclusions": "RQ1 full model/attribute mean/ranking family uses all9AI response sources, human reference also retained. ICC/bias/error family uses the exact code one-generator exclusion per judge, leaving8AI+originalhuman=9subjects. Paper says model-family exclusion (GPT4o vsmini) while code excludesone only: pre-bank priority to explicit paper-era code for this reproduction; no broader family rule invented.",
+    "parse_source": "_parse_rating lines83..97: blank/pandasmissing->NaN; trim; if begins```json remove matchingfences; json.loads; get exactattribute; None/blank invalid; float(value); errorinvalid. Future reducer must preserve all parse failures/missing masks and actualfullroster. Source silently skips missingfiles/columns/models; adaptedreader must insteadHOLD missingrequiredsource/file/axis, preserve original parseinvalidcell categories. No fuzzy text repair/clipping/success-selected parser.",
+    "ICC_aggregate": "For each judge xattribute, samepairedvalidcontext mask permodel computesH_i,L_i means, n=9,k=2 columns[humanreference,LLMjudge]. Equal model weighting for ICC; all source model paircounts recorded. Two-way ANOVA MSR=k*sum(rowmean-grand)^2/(n-1), MSC=n*sum(colmean-grand)^2/(k-1), MSE=(SStotal-SSrows-SScols)/((n-1)(k-1)); C1=(MSR-MSE)/(MSR+(k-1)MSE); A1 adds k*(MSC-MSE)/n denominator. Undefined values explicit, not coerced0.",
+    "bias_error": "Compute BOTH unweighted model-mean bias (Eq5/ICCcode) and pair-weighted means/bias/MSE/RMSE/sampleSD from calculate_real_mse_rmse.py. Table4/16 uses rawpair-weighted metrics. Normalized bias abs(unweightedmodelbias)/4 separate. Do not conflate unequal validpaircounts. All28judgeattribute cells.",
+    "bootstrap": "28cells x1000 paired-model resamples, TWO ICCs perdraw (28000draws/56000coefficients). Source legacyNumPy np.random.seed(42); randint(0,100000,1000); for each integerseed reset legacyRandomState then choice(n=9,size=9,replace=True), pairingH/L. Eachattribute uses same deterministically regeneratedseedlist. Percentile2.5/97.5, NumPy defaultlinear percentile; C/A filtered separately to finite[0,1], >=10validdraws elseundefined. Retain ALLrawdrawvalues/reasons, validcounts and C/A masks; thisauthorfilter is scientifically conditional/truncated, not an unconditional95%confidence guarantee. No silently corrected alternative chosenbyaccuracy.",
+    "serial_implementation": "Author mp.Pool(min4) has a mathematically identical explicit sequential fallback; prospectively use sequential branch ONLY, CPU1/thread1, no spawning/APIclient/plotimports. Independent newreducers needed; do NOT invoke author main which skipsinputs/catcheserrors/createsplots/spawns.",
+    "auxiliary_controls": "All28 CCC/Pearson/sampleSD/bias and BlandAltman bias±1.96*SD withsourcebiasSE=SD/sqrt(N), LoASE=SD*sqrt(3/N) retained whencomputable; supporting no published numeric comparator staysdiagnostic. Do not invent targets or require plotpixels forNEAR."
+  },
+  "main_reference_priority": "MainTables2,3,4 completefamilies; all1150published numericcells across11tables still generated/diagnosed. SupportingTable14..16/appendixprose conflicts retained; not a post-outcome choice.",
+  "all_published_targets_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\COMPLETE_ORIGINAL_PUBLISHED_TARGET_TABLES_WITH_SOURCE_CELLS.json",
+    "bytes": 219428,
+    "sha256": "0e9058c8abcb4407f05c840c6aba73f9f99d3f32e2bc965a6a6ae487fb03bf9b"
+  },
+  "all1150_lexemes_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\COMPLETE_ALL_PUBLISHED_CENTRAL_FAMILY_NUMERIC_TARGET_LEXEMES.json",
+    "bytes": 303492,
+    "sha256": "93503ebd75f5f2fb4534060e860fba9aea7c63174514fac963df55d3b9c682ed"
+  },
+  "near_bounds_adopted_before_bank_values": {
+    "Table3_all56_ICC_C1_A1_abs_error_max": 0.03,
+    "Table3_all56_published_C1_CI_endpoint_abs_error_max": 0.05,
+    "Table3_all28_C1_CI_width_abs_error_max": 0.07,
+    "mainTable2_and_Table4_rating_mean_or_signed_bias_abs_error_max_rating_units": 0.05,
+    "Table4_raw_rating_MSE_abs_error_max_squared_rating_units": 0.1,
+    "interpretation": "3percentagepoints ICC; .05 is1.25% of fourpoint ratingrange; .10 is.625% of possible squared-errorrange16. CI allowances reflect finite1000bootstrap and sourceprecision, not claimed statistical equivalence. Allcorecells report errors and max/mean; no cell omission."
+  },
+  "central_conclusion_contrasts": [
+    {
+      "id": "RQ1_broad_model_comparison",
+      "rule": "Human-reference Table2: bestclosed average minus bestopen >=.10; Llama remainsbestopen with >=.15 gap over otheropens; Qwen3 remainslowest average. Narrow ties withinnearmeanbound do not demand exactranking."
+    },
+    {
+      "id": "RQ2_cognitive_vs_safety",
+      "rule": "For EACHjudge, meanC1(Guidance,Info) - meanC1(Relevance,Safety) >=.10; all4judges allattrs remain evaluated."
+    },
+    {
+      "id": "RQ2_empathy_scale_mismatch",
+      "rule": "For EACHjudge, Empathy C1-A1 >=.20. All28pointbounds stillapply; do not overgeneralize everyattribute."
+    },
+    {
+      "id": "RQ2_precision_difference",
+      "rule": "For EACHjudge, meanC1CIwidth(Relevance,Safety) - meanC1CIwidth(Guidance,Info) >=.15."
+    },
+    {
+      "id": "RQ3_affective_inflation",
+      "rule": "For EACHjudge, Empathy signedbias >=.40 and Helpfulness signedbias >=.30. Understanding and allotherattrs stillreported/bounded; nearzeroClaudeUnderstanding neednot retain brittlepositivesign."
+    }
+  ],
+  "conclusion_gate_interpretation": "The fixed contrasts express substantial source signals; source-specific small-error propagation applies. A weak boundary-adjacent ranking/sign/category change within the adopted numeric budget alone is not a material reversal or automatic failure. Report all contrasts and full error vector. No auxiliary source inconsistency creates an extra mandatory veto.",
+  "method_conflicts_fixed_before_values": [
+    {
+      "id": "PUBLIC_DATE",
+      "finding": "Positivearxivv1Oct21; GitcommitfirstAug8/repocreatedApr10 are NOT historicalpublicavailabilityproof. InitialREADMEoldtitle FromEmpathytoAction/ICLR2025anonymous, scholarlyprimaryreference saysARRMay2025/forumZ1iiVvJjiE. ForumchallengeSTOP, no bypass. Earlierpublicationoutsidewindowunknown.",
+      "disposition": "914A row/date/historyqualification pending. Existing31 exceeds ageformula requirements forallknown plausible withinwindow datesApr10..Oct21 (max31), but no proof therewasnoearlierout-of-window same-studypublication. Do not callold discrete40passed."
+    },
+    {
+      "id": "SOURCE_VERSION",
+      "finding": "Paper-date codeHuman:human and4mergedCSV differcurrentOriginal:original. All5rawXLSX bytes/GitIDs identical.",
+      "disposition": "Pin Oct21commit7074d5...original9banks+paper-era code; latercurrent files not substituted. Positive structure join forHuman/original beforevalues; unknownmappingHOLD."
+    },
+    {
+      "id": "JUDGE_GENERATOR_NAMES",
+      "finding": "Mainmethods/Table3 say o4-mini/Gemini2.5 judge; docs sayGPT4omini and appendixTable15 saysGemini2.0. Per-modelTables10..13 callsomegeneratorsClaude3.7/O4Mini although originalgeneratorrosterClaude3.5/GPT4omini.",
+      "disposition": "Canonical source-based mainjudge+generationcoderoles fixed; conflictingpublishedaliases markedUNKNOWN/diagnostic untilpositiveheader/provenance bridge, not matchedbyscores/ordinal. If ambiguityaffectsactualrequiredcohort oridentityHOLD; superficialauxlabel-onlydifference notNEARveto."
+    },
+    {
+      "id": "HUMAN_RATER_GRANULARITY",
+      "finding": "3expertsreported; onehumanreference usedincode. InitialearlyREADME2experts/250conversations.",
+      "disposition": "No silenthistorymerge. Currentv1full1000bank qualificationrequired; separateexpertdata optionalifnotinputtodefinedoriginalcentralanalysis, but aggregationprovenance/collectionlimits mustdisclose."
+    },
+    {
+      "id": "BOOTSTRAP_VALIDITY",
+      "finding": "Filtersnegative or>1ICC draws separately, may shrink/conditionCI; sourceplot draws syntheticNormal aroundbootstrapmean forillustration.",
+      "disposition": "Fidelitybranch exactfilter, fullrawdrawledger and invalidcounts; no unconditionalcoverageclaim, no syntheticplotdistributiontreatedasactualbootstrapdata."
+    },
+    {
+      "id": "APPENDIX_MSE_AND_CI",
+      "finding": "AppendixG callsANOVA residualMSE .021etc rawerrorMSE whileTable4/16 rawMSE1.181etc; someCIs differmainTable3 (.429vs.581ClaudeEmpathy). Table16/table4roundingpairs also differ.",
+      "disposition": "MainTables3/4 primary; reconstructbothANOVAresidual and rawerror roles, allconflictingsourceclaimsdiagnostic. No formulaalteration/auxconjunction forcingfalsepass."
+    },
+    {
+      "id": "MISSINGNESS",
+      "finding": "Author skipsfiles/columns/invalidratings; publishedNpairs8924..8934 ratherthan9000.",
+      "disposition": "All1000originalrecords/commoncohort+all10roles required, no skipmissingfile/model. Preserveoriginalmissingparsecells/masks and exactcounts; distinguish originalinvalidobservations from missingrequiredrelease. No imputation/cohortrepair."
+    }
+  ],
+  "bootstrap": "Exact original1000 paired-model resamples/legacy seed42 and separate[0,1] filters, all rejected draws retained; no unconditional coverage claim.",
+  "independent_audit": "Separate reducer from original inputs; independent sums/ANOVA/error/percentiles and bootstrap construction verified. Deterministic1e-8 scaled comparison is a diagnostic; a separately demonstrated finite harmless propagated numeric bound may qualify under user913. Material unexplained disagreement cannot count.",
+  "resource_envelope_prospective": {
+    "CPU_cores": 1,
+    "threads": 1,
+    "GPU": false,
+    "WS_MiB": 512,
+    "private_MiB": 1024,
+    "programme_disk_MiB": 256,
+    "whole_seconds_from_first_bank_acquisition": 7200,
+    "includes": "Acquisition, mapping, primary, independent audit, comparison, failed time and closure. Source-only plans prior to origin retained with their own elapsed times. No automatic clock resets.",
+    "paper_plan_1800seconds_and64MiB_are_unadopted_forecasts": true,
+    "active_peer_reserves_override": true
+  },
+  "opaque_acquisition_and_structure_control_pending": true,
+  "bank_ratings_or_response_text_read": false,
+  "scientific_execution_authorized": false,
+  "paper_credit": 0,
+  "registry_changed": false,
+  "ROOT_method_source_review_complete": true
+}

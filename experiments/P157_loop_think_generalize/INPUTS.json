@@ -1,0 +1,220 @@
+{
+  "paper_id": "P157",
+  "assets": [
+    {
+      "id": "input-001",
+      "original_relative_path": "papers/P157_loop_think_generalize/inputs/acquisition001/payloads/checkpoints/multi_hop/final_models/r1/checkpoint_epoch_15002.pt",
+      "bytes": 342301813,
+      "sha256": "e69800059e87d4b9224a0224a2e8b01027c666ca433cafcfdf48894e7bd3c73a",
+      "download_urls": [],
+      "source_pages": [
+        "https://drive.google.com/uc?export=download&id=1invQ6wky02K2DA6zIdCi6ydzwD31hjhz"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-002",
+      "original_relative_path": "papers/P157_loop_think_generalize/inputs/acquisition001/payloads/checkpoints/multi_hop/final_models/r2/checkpoint_epoch_2765.pt",
+      "bytes": 342301539,
+      "sha256": "4e89fde1f592d7afece63a6182f8427beedc85a216adb474777830b6b56495d8",
+      "download_urls": [],
+      "source_pages": [
+        "https://drive.google.com/uc?export=download&id=1oLx2oeD-NpCuokw0AN5PMZNCB-5Ts_kr"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-003",
+      "original_relative_path": "papers/P157_loop_think_generalize/inputs/acquisition001/payloads/checkpoints/multi_hop/final_models/r3/checkpoint_epoch_3803.pt",
+      "bytes": 342301539,
+      "sha256": "27742c6014a90b8eea9e8a8b8ef4866a2638a7689ddaa22407af273fe3e3506f",
+      "download_urls": [],
+      "source_pages": [
+        "https://drive.google.com/uc?export=download&id=1ImqaTsHThzWygI3sCPhCsg8lD3ZaGCty"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-004",
+      "original_relative_path": "papers/P157_loop_think_generalize/inputs/acquisition001/payloads/checkpoints/multi_hop/final_models/r4/checkpoint_epoch_2543.pt",
+      "bytes": 342301539,
+      "sha256": "8d5530adc5bfaa1612ab83b26281796dc662be4e1b27e1c299314850cdabab13",
+      "download_urls": [],
+      "source_pages": [
+        "https://drive.google.com/uc?export=download&id=1nbvv0DyeHNseEypwcBsHLFggsnJPXuNh"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-005",
+      "original_relative_path": "papers/P157_loop_think_generalize/inputs/acquisition001/payloads/checkpoints/multi_hop/final_models/r5/checkpoint_epoch_2233.pt",
+      "bytes": 342301539,
+      "sha256": "58ec33a4e459c9d7f19a9dea398ac8ebfdfe1799abf7a8921a4ec5101a889072",
+      "download_urls": [],
+      "source_pages": [
+        "https://drive.google.com/uc?export=download&id=1pubTs2LiTPZVQJJ6xMGpshmxN0g35t4D"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-006",
+      "original_relative_path": "papers/P157_loop_think_generalize/inputs/acquisition001/payloads/checkpoints/multi_hop/final_models/r6/checkpoint_epoch_1015.pt",
+      "bytes": 342301539,
+      "sha256": "17b1187c51547536a83c2e4ad8d7ce1c2f1f99d9cb7808566235d07a8b27e7d7",
+      "download_urls": [],
+      "source_pages": [
+        "https://drive.google.com/uc?export=download&id=1lBWkzywUMYHU5ysrdG5KlJF5WmKBxkOU"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-007",
+      "original_relative_path": "papers/P157_loop_think_generalize/inputs/acquisition001/payloads/checkpoints/multi_hop/final_models/r7/checkpoint_epoch_1050.pt",
+      "bytes": 342301539,
+      "sha256": "1439b96902b212b56b7edecde36bc63ee1ebe93a55f7ae5708000fb8b57b3c12",
+      "download_urls": [],
+      "source_pages": [
+        "https://drive.google.com/uc?export=download&id=1HVl_unE0NIZrNqVUj4SiVw76OB5Od62f"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-008",
+      "original_relative_path": "papers/P157_loop_think_generalize/inputs/acquisition001/payloads/checkpoints/multi_hop/final_models/r8/checkpoint_epoch_1259.pt",
+      "bytes": 342301539,
+      "sha256": "a5f914725ad851a740321afe2d4f9ddec08edbd09c487328e8cac85635ae93ec",
+      "download_urls": [],
+      "source_pages": [
+        "https://drive.google.com/uc?export=download&id=1dywaxNsrVi7e6_f2N-R_2EBLfUtFWtFu"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-009",
+      "original_relative_path": "papers/P157_loop_think_generalize/inputs/acquisition001/payloads/checkpoints/multi_hop/final_models/r_dyn/checkpoint_epoch_5388.pt",
+      "bytes": 342301539,
+      "sha256": "a4ed766450834fd58b1d6a88a8b3fd01af401106132e7200cf9a9bf983af0ea9",
+      "download_urls": [],
+      "source_pages": [
+        "https://drive.google.com/uc?export=download&id=17AnqMH4Zzx99RUMKLxz8FQjiMLkUvpez"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-010",
+      "original_relative_path": "papers/P157_loop_think_generalize/inputs/acquisition001/payloads/data/multi_hop/test.json",
+      "bytes": 162183305,
+      "sha256": "75facaf41bb9d15236a2d2b7e6fab8d606d884f187bf3c9b5440d9d5c2967d87",
+      "download_urls": [],
+      "source_pages": [
+        "https://drive.google.com/uc?export=download&id=1CuoajnhvCXT5iEstqaKPaR5IeMi4JcC0"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-011",
+      "original_relative_path": "papers/P157_loop_think_generalize/inputs/acquisition001/payloads/data/multi_hop/train.json",
+      "bytes": 172811881,
+      "sha256": "7f56438ed63fdd66761848607c283a1f534815300896c466cb1d249858205aef",
+      "download_urls": [],
+      "source_pages": [
+        "https://drive.google.com/uc?export=download&id=18AZXc1dFWHy3iEoSpbXqMybOqmxF75nb"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-012",
+      "original_relative_path": "papers/P157_loop_think_generalize/inputs/acquisition001/payloads/data/multi_hop/vocab.json",
+      "bytes": 2229,
+      "sha256": "54beefa3f1d310ad96376c80f2bbfbc689703d42188e41d211a1bafa416cbd93",
+      "download_urls": [],
+      "source_pages": [
+        "https://drive.google.com/uc?export=download&id=1-ChSYN2b8EjJahxdD6a9LF1NJzV35PdV"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-013",
+      "original_relative_path": "literature/loop_think_generalize_source_oct15_001/source__gpt_utils_extrapolation.py",
+      "bytes": 23497,
+      "sha256": "9d5685234dcf6961030dbe9c3955f4b6d03135b8a892792ba186f66c4e655d9a",
+      "download_urls": [
+        "https://raw.githubusercontent.com/OSU-NLP-Group/Loop-Think-Generalize/bb22b192977b1b136fde985c8e7a2392d172d97a/gpt_utils_extrapolation.py"
+      ],
+      "source_pages": [],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    }
+  ],
+  "source_urls": [
+    "https://drive.google.com/uc?export=download&id=1-ChSYN2b8EjJahxdD6a9LF1NJzV35PdV",
+    "https://drive.google.com/uc?export=download&id=17AnqMH4Zzx99RUMKLxz8FQjiMLkUvpez",
+    "https://drive.google.com/uc?export=download&id=18AZXc1dFWHy3iEoSpbXqMybOqmxF75nb",
+    "https://drive.google.com/uc?export=download&id=1CuoajnhvCXT5iEstqaKPaR5IeMi4JcC0",
+    "https://drive.google.com/uc?export=download&id=1HVl_unE0NIZrNqVUj4SiVw76OB5Od62f",
+    "https://drive.google.com/uc?export=download&id=1ImqaTsHThzWygI3sCPhCsg8lD3ZaGCty",
+    "https://drive.google.com/uc?export=download&id=1dywaxNsrVi7e6_f2N-R_2EBLfUtFWtFu",
+    "https://drive.google.com/uc?export=download&id=1invQ6wky02K2DA6zIdCi6ydzwD31hjhz",
+    "https://drive.google.com/uc?export=download&id=1lBWkzywUMYHU5ysrdG5KlJF5WmKBxkOU",
+    "https://drive.google.com/uc?export=download&id=1nbvv0DyeHNseEypwcBsHLFggsnJPXuNh",
+    "https://drive.google.com/uc?export=download&id=1oLx2oeD-NpCuokw0AN5PMZNCB-5Ts_kr",
+    "https://drive.google.com/uc?export=download&id=1pubTs2LiTPZVQJJ6xMGpshmxN0g35t4D"
+  ],
+  "inventory_source_notes": {
+    "source_input_redistribution": "DO_NOT_COPY_PARTICIPANT_RECORDS_OR_UNLICENSED_AUTHOR_ASSETS;source URL/hash manifest only",
+    "dependency_provenance": [
+      {
+        "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_GPU_qualification_ROOT981\\ROOT_EXISTING_G9_RUNTIME_SOURCE_ACCEPTANCE981.json",
+        "repo_relative_path": "operations/P157_GPU_qualification_ROOT981/ROOT_EXISTING_G9_RUNTIME_SOURCE_ACCEPTANCE981.json",
+        "bytes": 10348,
+        "sha256": "7635e87b5f3b50b6dc73eaf0aa62d951fb3738c0bdd66725d73bd37f4f9924cb",
+        "purpose": "Recorded runtime versions/import origins only; do not bundle any package/runtime"
+      }
+    ],
+    "third_party_required_code": [
+      {
+        "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\source__gpt_utils_extrapolation.py",
+        "repo_relative_path": "literature/loop_think_generalize_source_oct15_001/source__gpt_utils_extrapolation.py",
+        "bytes": 23497,
+        "sha256": "9d5685234dcf6961030dbe9c3955f4b6d03135b8a892792ba186f66c4e655d9a",
+        "purpose": "Required author model functions extracted by GPUmodel006; Apache2 source dependency with provenance, not programme-owned"
+      }
+    ],
+    "portable_rerun_steps": [
+      "Read original report plus retrospective NEAR addendum; every old strict failure remains.",
+      "Acquire external source assets at pinned revisions; verify exact sizes/SHA256. Do not commit participant/model-response banks.",
+      "Use a separate environment from dependency metadata, not a copied runtime.",
+      "Preserve methods/seeds/full scope and hash validation. Rebase explicit local paths/config refs in a labelled publication copy; archived TRUE controls/deadlines are not new authority.",
+      "Run primary then independent audit into fresh exclusive outputs. This task has not tested or executed those commands."
+    ],
+    "portability_changes_required": [
+      "Historical outputs must remain exclusive; use fresh checkout/output configuration.",
+      "Hardcoded {{USER_HOME}} roots, local package-site paths and frozen source/control refs require explicit configuration; never silently remove guards.",
+      "Preserve001/002/006/007 module topology and the P092resource helper.",
+      "006 remaining-only command reuses r1-r7 closed arrays; it is not a fresh full9 recipe. Original002 reference modules are included for full original inference.",
+      "GPU model006 requires the original author gpt_utils source; keep Apache2 licence and attribution.",
+      "Never bundle nine checkpoints or ~2.285GB logits/raw prediction arrays. Document data downloads, output disk needs and hardware/time separately."
+    ],
+    "license_notice": "Programme code licence does not relicense author papers/code/data. Public source access alone does not establish redistribution permission; external acquisition manifests preferred.",
+    "license_evidence": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\source__LICENSE",
+      "repo_relative_path": "literature/loop_think_generalize_source_oct15_001/source__LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "purpose": "Original author code Apache2.0; preserve licence/attribution; no inferred checkpoint/data licence"
+    }
+  },
+  "policy": "Source/data/model files are acquired from their owners. Only explicitly identified programme transcriptions are bundled. URLs are historical and were not re-fetched during publication preparation."
+}

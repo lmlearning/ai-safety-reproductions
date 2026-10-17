@@ -1,0 +1,311 @@
+{
+  "utc": "2026-10-11T08:51:50.949036+00:00",
+  "scope": "complete already executed original primary028 and independent audit029 closure",
+  "status": "PASS_CENTRAL_QUALIFICATION_PROPOSED_ROOT_REVIEW_REQUIRED",
+  "registry_edits": false,
+  "scientific_credit": false,
+  "actual_observer_tool_exit": 0,
+  "actual_tool_session": 86395,
+  "actual_completion_chunk": "5a62f0",
+  "actual_native_verifier_tool_exit": 0,
+  "native_verifier_completion_chunk": "ff5865",
+  "native45_pass": true,
+  "actual_auditor_exit": 0,
+  "actual_guardian_exit": 0,
+  "actual_dispatcher_exit": 0,
+  "root_observer": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\complete_original_audit_metadata_repair_preparation029\\ROOT_AUDIT_RETAINED_NATIVE_OBSERVER029.json",
+    "bytes": 1645,
+    "sha256": "ef4af03d9ca0c65a22859a57306aa8b5f8eca385813e470976abe9a0edaf3944"
+  },
+  "native_verifier": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\complete_original_audit_metadata_repair_preparation029\\ROOT_AUDIT_COMPLETE_NATIVE_VERIFIER029.json",
+    "bytes": 5080,
+    "sha256": "d0b6aa53ba5eb2e06084da611d0393c4e834746fb33fbcf82fc7f5ff2af97143"
+  },
+  "actual_authorization": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\complete_original_audit_metadata_repair_preparation029\\ROOT_ORIGINAL_INDEPENDENT_AUDIT_AUTHORIZATION029.json",
+    "bytes": 3825023,
+    "sha256": "ae4e0ea1ea639869b4c6217a678d0d5b534565331259ab6e75e2da835ed10ae3"
+  },
+  "auditor_freeze": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\complete_original_audit_metadata_repair_preparation029\\COMPLETE_CURRENT_AUDITOR003_ORIGINAL_SOURCE_RUNTIME_FREEZE029.json",
+    "bytes": 5143700,
+    "sha256": "484ebf5e38e597c3838f2f7b1572262457f6294a91acd1298f7b7daa2013afac"
+  },
+  "primary_closure": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\complete_original_authority_preparation028\\ROOT_ORIGINAL_PRIMARY028_COMPLETE_NATIVE_OUTPUT_AND_ALL_GATES_CLOSURE001.json",
+    "bytes": 568840,
+    "sha256": "5c288c42358291470119428d7d29b74dfebc972fd23d2425e91f39f73a1cc2d6"
+  },
+  "failed_audit028_preserved": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\original_audit028_metadata_failure_closure001\\DELEGATED_ORIGINAL_AUDIT028_COMPLETE_EARLY_METADATA_FAILURE_CLOSURE001.json",
+    "bytes": 4380207,
+    "sha256": "e2e7373a5946c2975672ac3fb9a8d7518276e8449a1ba067efafe7de26e96a7b"
+  },
+  "passed_whole_unrelated_fixture027": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\complete_fixture_authority_preparation027\\DELEGATED_AUDIT027_COMPLETE_NATIVE_OUTPUT_AND_PAIRED_CLOSURE001.json",
+    "bytes": 386858,
+    "sha256": "29447e6c52b88fbeaa06d3c1a10ebd9276f2f53f9cf9c51c3072da7c1b826760"
+  },
+  "all_owned_native_final_records": [
+    {
+      "pid": 75292,
+      "creation_time": 1791707575.2830093,
+      "command": [
+        "\\??\\C:\\windows\\system32\\conhost.exe",
+        "0x4"
+      ],
+      "exe": "C:\\Windows\\System32\\conhost.exe",
+      "dispatcher_retained_handle": 92,
+      "native_handle_handoff": {
+        "protocol": "retained_parent_handles_v1",
+        "source_guardian_pid": 75592,
+        "target_dispatcher_pid": 68836,
+        "target_dispatcher_creation_time": 1791707575.0340812,
+        "authorization_sha256": "ae4e0ea1ea639869b4c6217a678d0d5b534565331259ab6e75e2da835ed10ae3"
+      },
+      "native_memory": {
+        "native_peak_working_set_bytes": 7983104,
+        "native_working_set_bytes": 7983104,
+        "native_peak_pagefile_bytes": 1269760,
+        "native_private_usage_bytes": 1269760
+      },
+      "owned_role": "allowlisted_console",
+      "guardian_reported_exit_origin": null,
+      "guardian_reported_exit_code": null,
+      "native_memory_observed": {
+        "native_peak_working_set_bytes": 8433664,
+        "native_working_set_bytes": 28672,
+        "native_peak_pagefile_bytes": 1269760,
+        "native_private_usage_bytes": 73728
+      },
+      "native_exit_code": 0,
+      "native_final_memory": {
+        "native_peak_working_set_bytes": 8433664,
+        "native_working_set_bytes": 28672,
+        "native_peak_pagefile_bytes": 1269760,
+        "native_private_usage_bytes": 73728
+      },
+      "creation_matched_absence": true,
+      "native_exit_origin": "observed_before_external_cleanup_origin_unknown"
+    },
+    {
+      "pid": 74832,
+      "creation_time": 1791707590.496664,
+      "command": [
+        "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-B",
+        "{{REPRODUCTION_ROOT}}\\scripts\\audit_p133_complete003.py",
+        "--mode",
+        "original",
+        "--run",
+        "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\runs\\P133-original-candidate009-028\\worker_output",
+        "--audit",
+        "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\audits\\P133-original-independent-auditor003-029\\audit_output",
+        "--freeze",
+        "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\complete_original_audit_metadata_repair_preparation029\\COMPLETE_CURRENT_AUDITOR003_ORIGINAL_SOURCE_RUNTIME_FREEZE029.json",
+        "--authorization",
+        "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\complete_original_audit_metadata_repair_preparation029\\ROOT_ORIGINAL_INDEPENDENT_AUDIT_AUTHORIZATION029.json"
+      ],
+      "exe": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "borrowed_handle": true,
+      "dispatcher_retained_handle": 356,
+      "native_handle_handoff": {
+        "protocol": "retained_parent_handles_v1",
+        "source_guardian_pid": 75592,
+        "target_dispatcher_pid": 68836,
+        "target_dispatcher_creation_time": 1791707575.0340812,
+        "authorization_sha256": "ae4e0ea1ea639869b4c6217a678d0d5b534565331259ab6e75e2da835ed10ae3"
+      },
+      "native_memory": {
+        "native_peak_working_set_bytes": 2043904,
+        "native_working_set_bytes": 2043904,
+        "native_peak_pagefile_bytes": 385024,
+        "native_private_usage_bytes": 385024
+      },
+      "owned_role": "authorized_direct_child",
+      "guardian_reported_exit_origin": "natural_observed",
+      "guardian_reported_exit_code": 0,
+      "native_memory_observed": {
+        "native_peak_working_set_bytes": 128212992,
+        "native_working_set_bytes": 32768,
+        "native_peak_pagefile_bytes": 120676352,
+        "native_private_usage_bytes": 77824
+      },
+      "native_exit_code": 0,
+      "native_final_memory": {
+        "native_peak_working_set_bytes": 128212992,
+        "native_working_set_bytes": 32768,
+        "native_peak_pagefile_bytes": 120676352,
+        "native_private_usage_bytes": 77824
+      },
+      "creation_matched_absence": true,
+      "native_exit_origin": "guardian_natural_observed"
+    },
+    {
+      "pid": 63352,
+      "creation_time": 1791707590.5489278,
+      "command": [
+        "\\??\\C:\\windows\\system32\\conhost.exe",
+        "0x4"
+      ],
+      "exe": "C:\\Windows\\System32\\conhost.exe",
+      "dispatcher_retained_handle": 348,
+      "native_handle_handoff": {
+        "protocol": "retained_parent_handles_v1",
+        "source_guardian_pid": 75592,
+        "target_dispatcher_pid": 68836,
+        "target_dispatcher_creation_time": 1791707575.0340812,
+        "authorization_sha256": "ae4e0ea1ea639869b4c6217a678d0d5b534565331259ab6e75e2da835ed10ae3"
+      },
+      "native_memory": {
+        "native_peak_working_set_bytes": 7991296,
+        "native_working_set_bytes": 7954432,
+        "native_peak_pagefile_bytes": 1323008,
+        "native_private_usage_bytes": 1273856
+      },
+      "owned_role": "allowlisted_console",
+      "guardian_reported_exit_origin": null,
+      "guardian_reported_exit_code": null,
+      "native_memory_observed": {
+        "native_peak_working_set_bytes": 8409088,
+        "native_working_set_bytes": 32768,
+        "native_peak_pagefile_bytes": 1323008,
+        "native_private_usage_bytes": 77824
+      },
+      "native_exit_code": 0,
+      "native_final_memory": {
+        "native_peak_working_set_bytes": 8409088,
+        "native_working_set_bytes": 32768,
+        "native_peak_pagefile_bytes": 1323008,
+        "native_private_usage_bytes": 77824
+      },
+      "creation_matched_absence": true,
+      "native_exit_origin": "observed_before_external_cleanup_origin_unknown"
+    }
+  ],
+  "guardian_final_native_memory": {
+    "native_peak_working_set_bytes": 34529280,
+    "native_working_set_bytes": 28672,
+    "native_peak_pagefile_bytes": 24735744,
+    "native_private_usage_bytes": 73728
+  },
+  "dispatcher_final_native_memory": {
+    "native_peak_working_set_bytes": 34856960,
+    "native_working_set_bytes": 32768,
+    "native_peak_pagefile_bytes": 25235456,
+    "native_private_usage_bytes": 77824
+  },
+  "observer_native_before_exit": {
+    "native_peak_working_set_bytes": 32739328,
+    "native_working_set_bytes": 29544448,
+    "native_peak_pagefile_bytes": 22659072,
+    "native_private_usage_bytes": 18997248
+  },
+  "observer_after_exit_native": "UNKNOWN_NOT_RETAINED; before-exit value not imputed as final",
+  "fresh_all_six_creation_matched_absences": [
+    {
+      "pid": 65292,
+      "retained_creation_time": 1791707574.8291543,
+      "observed_pid_present": false,
+      "creation_matched_absence": true
+    },
+    {
+      "pid": 68836,
+      "retained_creation_time": 1791707575.0340805,
+      "observed_pid_present": false,
+      "creation_matched_absence": true
+    },
+    {
+      "pid": 75592,
+      "retained_creation_time": 1791707575.265873,
+      "observed_pid_present": false,
+      "creation_matched_absence": true
+    },
+    {
+      "pid": 75292,
+      "retained_creation_time": 1791707575.2830093,
+      "observed_pid_present": false,
+      "creation_matched_absence": true
+    },
+    {
+      "pid": 74832,
+      "retained_creation_time": 1791707590.496664,
+      "observed_pid_present": false,
+      "creation_matched_absence": true
+    },
+    {
+      "pid": 63352,
+      "retained_creation_time": 1791707590.5489278,
+      "observed_pid_present": false,
+      "creation_matched_absence": true
+    }
+  ],
+  "native_verifier_working_sum_bytes": 179585024,
+  "native_verifier_private_sum_bytes": 148004864,
+  "peak_sum_scope": "Existing verifier working/private sums cover guardian plus every owned child. External dispatcher final and observer before-exit peaks are separately capped and disclosed; observer after-exit native unknown.",
+  "resource_caps": {
+    "tree_peak_bytes": 402653184,
+    "per_process_working_peak_bytes": 268435456,
+    "per_process_private_peak_bytes": 402653184,
+    "tree_private_peak_bytes": 536870912,
+    "dispatcher_working_peak_bytes": 67108864,
+    "dispatcher_private_peak_bytes": 67108864,
+    "available_ram_bytes": 536870912,
+    "start_ram_bytes": 1073741824,
+    "fresh_start_seconds": 10,
+    "free_disk_bytes": 37580963840,
+    "wall_seconds": 600,
+    "phase_output_cap_bytes": 268435456
+  },
+  "no_resource_breach": true,
+  "minimum_recorded_available_bytes": 1478598656,
+  "minimum_recorded_disk_bytes": 70324273152,
+  "budget": {
+    "prior_seconds": 482,
+    "actual_timestamp_span_seconds": 87.797969,
+    "native_creation_to_end_seconds": 87.99740982055664,
+    "rule": "ceil(max(receipt UTC span, retained observer creation to receipt end))+1",
+    "phase_charge_seconds": 89,
+    "cumulative_seconds": 571,
+    "shared_seconds": 1800,
+    "remaining_seconds": 1229,
+    "prior_258_and_67_fixture_primary_and_83_fixture_audit_and_57_original_primary_and_17_failed_original_audit": 482,
+    "software_elapsed_seconds": 87.73400000017136,
+    "charge_not_reset": true
+  },
+  "whole_comparison_records": 312782,
+  "independent_discrepancies": 0,
+  "primary_input129_pass": true,
+  "primary_output263_pass": true,
+  "whole_three_primary_claims": true,
+  "all392_primary_pass": true,
+  "support114_agree": 19,
+  "support114_disagree": 95,
+  "support_rescue": false,
+  "whole6_pipelines": true,
+  "whole258_LOO": true,
+  "whole270_backsize": true,
+  "legacy3_full43_LOO": true,
+  "all43_rows18_studies3_families": true,
+  "all23_source_conflicts": true,
+  "log_census": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\final_original029_closure001\\ALL312782_COMPLETE_LOG_CENSUS_AND_TALLIES001.json",
+    "bytes": 46617,
+    "sha256": "a39ce88e60087e2f52e10a16408a560745e3ea773c6a010cf77d1ad319e189f8"
+  },
+  "all95_support_disagreements": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\final_original029_closure001\\ALL95_COMPLETE_SUPPORTING_DISAGREEMENTS001.json",
+    "bytes": 67711,
+    "sha256": "50ac535bd37a70de2dcdf42ca3c4499119865f925adef4f2a34a6721f9f43c88"
+  },
+  "complete_hash_census": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\final_original029_closure001\\FULL_IMMUTABLE_REFERENCE_AND_COMPLETE_CURRENT_OUTPUT_HASH_CENSUS001.json",
+    "bytes": 4820305,
+    "sha256": "0829fa6bde7209dba0863a79acc43f9b4c38864dc43f22cd65a288e284d45748"
+  },
+  "no_new_statistics_import_or_fit": true,
+  "all_prior_failures_preserved": true,
+  "manifest_preparation_and_root_review_error": "Failed audit028 omitted absolute_path aliases required by frozen consumer. Stopped before numerical outputs; all old bytes remain, alias-only029 repair changes no mathematical source/data/gates."
+}

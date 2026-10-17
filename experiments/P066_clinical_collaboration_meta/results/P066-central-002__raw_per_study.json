@@ -1,0 +1,78 @@
+{
+  "A": [
+    {
+      "study": "Kim 2025",
+      "effect_log_or_raw": 0.2782033284972373,
+      "variance": 0.015609779164893367,
+      "se": 0.1249391018252227,
+      "weight_common_raw": 64.06240533171766,
+      "weight_random_raw": 10.881185866206087,
+      "Q_term": 0.49804271949439327,
+      "Q_tau_term": 0.3842734882590359
+    },
+    {
+      "study": "Wu 2025",
+      "effect_log_or_raw": 0.7672551527136674,
+      "variance": 0.07097069597069598,
+      "se": 0.26640325818333377,
+      "weight_common_raw": 14.090322580645159,
+      "weight_random_raw": 6.790587432348605,
+      "Q_term": 2.2643778654569284,
+      "Q_tau_term": 0.6157569269019427
+    }
+  ],
+  "B": [
+    {
+      "study": "Goh 2024",
+      "effect_log_or_raw": 2.0,
+      "variance": 9.37094544,
+      "se": 3.0612,
+      "weight_common_raw": 0.10671281850937764,
+      "weight_random_raw": 0.0770410532473994,
+      "Q_term": 1.1174003432189894,
+      "Q_tau_term": 0.6409949767313123
+    },
+    {
+      "study": "Goh 2025",
+      "effect_log_or_raw": 6.5,
+      "variance": 3.6607168900000002,
+      "se": 1.9133,
+      "weight_common_raw": 0.2731705373697991,
+      "weight_random_raw": 0.13755415539030647,
+      "Q_term": 0.4365073231408708,
+      "Q_tau_term": 0.35900717061981685
+    }
+  ],
+  "C": [
+    {
+      "study": "Goh 2024",
+      "effect_log_or_raw": -1.3667,
+      "variance": 0.92332881,
+      "se": 0.9609,
+      "weight_common_raw": 1.083037796686968,
+      "weight_random_raw": 0.3449380722206839,
+      "Q_term": 3.7226616900154634,
+      "Q_tau_term": 1.0747831945296897
+    },
+    {
+      "study": "Goh 2025",
+      "effect_log_or_raw": 1.9833,
+      "variance": 0.7522092899999999,
+      "se": 0.8673,
+      "weight_common_raw": 1.329417242374127,
+      "weight_random_raw": 0.3665754200237434,
+      "Q_term": 2.9753377406238437,
+      "Q_tau_term": 0.920706672207607
+    },
+    {
+      "study": "Yu He Ke 2025",
+      "effect_log_or_raw": 0.56,
+      "variance": 3.80835225,
+      "se": 1.9515,
+      "weight_common_raw": 0.26258075260764024,
+      "weight_random_raw": 0.17288790688197425,
+      "Q_term": 0.0013885899520879074,
+      "Q_tau_term": 0.004510225158252599
+    }
+  ]
+}

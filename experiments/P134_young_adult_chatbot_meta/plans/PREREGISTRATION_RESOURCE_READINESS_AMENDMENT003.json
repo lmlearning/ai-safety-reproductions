@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-11T00:51:15.979041+00:00",
+  "original_statistics_computed": false,
+  "prior_original_phase_stopped_before_scientific_launch": true,
+  "prior_actual_tool_exit": 97,
+  "prior_stop_reason": "AssertionError('fresh start RAM floor')",
+  "prior_minimum_RAM": 804986880,
+  "all_owned_absent": true,
+  "prior_outer_seconds": 5.576378,
+  "change": "One explicit original main002 with640MiB/10sec fresh start in place of768MiB/10sec. Continuous512MiB, full native512MiB,CPU2,35GiB disk,600sec phase and2400sec shared budget unchanged. Complete unrelated fake native peak237060096B supports this readiness-only engineering amendment. No original inputs computed; all337/336 science/method/code/population gates unchanged.",
+  "no_automatic_retry": true
+}

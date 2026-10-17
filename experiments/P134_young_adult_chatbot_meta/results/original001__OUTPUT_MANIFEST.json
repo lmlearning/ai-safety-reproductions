@@ -1,0 +1,27 @@
+[
+  {
+    "path": "INDEPENDENT_ALL337_PRIMARY_CHECKS.json",
+    "bytes": 113790,
+    "sha256": "91e44307db91bb4a6cc381c65c88e467c44fdc2e9ca9501082ac7950fc50ede8"
+  },
+  {
+    "path": "INDEPENDENT_ALL_ORIGINAL_COMPUTATIONS.json",
+    "bytes": 1122266,
+    "sha256": "32077322f7632443408a46e95eead898a440f86965fd1469845f712cfe82a2ad"
+  },
+  {
+    "path": "INDEPENDENT_ALL_SUPPORTING_SOURCE_COMPARISONS.json",
+    "bytes": 342365,
+    "sha256": "339245b7e1615180e6bf47a8332ebfeb810b6d287ee26c033f9240d85e8cce6a"
+  },
+  {
+    "path": "INDEPENDENT_INTEGRITY_CHECKS.json",
+    "bytes": 13191760,
+    "sha256": "11cee1075517109abeca5b035ff68275bc2a0f3754680ef6fcb70cffee4daf35"
+  },
+  {
+    "path": "SUMMARY.json",
+    "bytes": 1419,
+    "sha256": "66faacc8fc178916d7d0db4c2e5c0de80e74d73d153922bdc344bbb8af1f3ed1"
+  }
+]

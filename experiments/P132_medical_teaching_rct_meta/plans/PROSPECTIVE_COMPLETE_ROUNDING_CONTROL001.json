@@ -1,0 +1,30 @@
+{
+  "recorded_at_utc": "2026-10-11T01:04:51.551343+00:00",
+  "status": "PROSPECTIVE SOURCE-ONLY CONTROL; NOT EXECUTED",
+  "purpose": "Quantify propagation of displayed input precision through the entire fixed analysis without choosing a method, subset, tolerance or source interpretation from results.",
+  "inputs": {
+    "path": "papers/P132_medical_teaching_rct_meta/SOURCE_INPUT_PRECISION_INVENTORY001.json",
+    "bytes": 25941,
+    "sha256": "37569c9f1c9c3fa96429c6277ff6e18f3a0597a699d3f90aabd9c23937546114"
+  },
+  "populations": "All17 input rows, all3 outcome pools, all8 subgroup summaries and all4 between-group tests in every applicable perturbation. Never remove a row or subgroup.",
+  "methods": "Exactly the original official RevMan5 Hedges correction/variance, DL, normalCI/p and subgroup-summary Q. All formula choices fixed from source before outcomes.",
+  "primary_point": "Literal published mean/SD values and fixed analytic Ns. No input optimization or fitting to targets.",
+  "box_A": "Each of68 displayed mean/SD coordinates is independently bounded by its literal half-unit. Exact Ns remain fixed.",
+  "box_B": "Same complete box except the one printed integer SD2 is interpreted as2.0 with halfunit0.05. This is a separately reported full sensitivity, not a selectable primary alternative.",
+  "deterministic_control_design": {
+    "nominal": 1,
+    "single_coordinate_endpoints": "Both endpoints of each68 coordinates;136 complete analyses per box.",
+    "single_row_corners": "All16 patterns of the4 fields for each17 rows, other rows nominal;272 complete analyses per box.",
+    "global_endpoints": "Alllower andallupper coordinates;2 complete analyses per box.",
+    "joint_corners": "First1024 points of scipy.stats.qmc.Sobol(d=68,scramble=False).threshold>=0.5 mapped to box endpoints; retain repeated patterns, no dedup/outcome pruning.",
+    "joint_interior": "First1024 uns scrambled Sobol points mapped linearly into full68-dimensional box.",
+    "implementation_fix": "Use qmc.Sobol(d=68,scramble=False).random_base2(m=10), fresh identical sequence per box. No Monte Carlo random seed.",
+    "expected_analyses_per_box": 2459,
+    "outputs": "For every analysis retain all final g/CI/p/I2 and betweenQ/p/I2, every qualitative/significance classification and all original source-target comparison decisions. Stream records; no outcome-driven filtering."
+  },
+  "summary": "Report nominal comparisons, all sampled min/max and worst absolute departure per fixed final statistic, whole-analysis target compatibility, and exact source cases causing changed qualitative classifications. Sampled ranges are not certified global enclosures or probabilistic CIs.",
+  "strict_original_printed_diagnostics": "All final and intermediate publication values are compared at their own literal half-printed-unit; strict inequalities remain strict. Complete strict diagnostics are mandatory supporting output, not separately required intermediate gates.",
+  "no_rescue": "No sensitivity result can substitute for nominal data or rescue a failed mandatory primary comparison. All controls must complete and be independently audited even if nominal gates fail.",
+  "reason_uniform_tolerances_not_derived": "A raw input tick has scale units, while SMD is dimensionless; pooling also changes DL heterogeneity and subgroup weights. Uniform .015 limits cannot be certified from raw precision alone without propagation, especially integer SD2. The initial pragmatic cap proposal is not a raw-error guarantee."
+}

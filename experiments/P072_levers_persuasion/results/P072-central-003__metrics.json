@@ -1,0 +1,39 @@
+{
+  "paper_id": "P072",
+  "run_id": "P072-central-003",
+  "started_at_utc": "2026-10-10T18:05:41.507247+00:00",
+  "finished_at_utc": "2026-10-10T18:05:48.598967+00:00",
+  "preregistration_sha256": "a6c2a79d9042e38597478e7c3dc435e8f1b4d35cec9080f5d5137c77429ad7fe",
+  "targets_sha256": "55ecf1eb7d653cf4a84dfd10875b3a7daab5c483443a3cf2a2e4dda1464ff6f5",
+  "source_manifest_sha256": "3f610c778676d57694f2548dffe0fa5a80b30ddeb39e0ff03b8bbc1783aee606",
+  "checks_passed": 2470,
+  "checks_total": 2470,
+  "all_checks_passed": true,
+  "extra_rows": [],
+  "missing_rows": [],
+  "actual_rows": 643,
+  "original_sample_n": 76977,
+  "input_rows": {
+    "1": 32534,
+    "2": 30652,
+    "3": 21900
+  },
+  "model_count": 97,
+  "fixed_effect_count": 18,
+  "wall_seconds": 7.094325300073251,
+  "cpu_seconds": 7.03125,
+  "peak_memory_mb": 430.17578125,
+  "threads": 1,
+  "paid_api_spend": 0,
+  "fresh_gpu_inference": false,
+  "versions": {
+    "python": "3.12.0rc3 (tags/v3.12.0rc3:b973ab3, Sep 19 2023, 09:39:54) [MSC v.1935 64 bit (AMD64)]",
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "pyreadr": "0.5.7"
+  },
+  "reader_warnings": [
+    "invalid value encountered in cast"
+  ]
+}

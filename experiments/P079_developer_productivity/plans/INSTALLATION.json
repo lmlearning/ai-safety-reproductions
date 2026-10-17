@@ -1,0 +1,19 @@
+{
+  "command": [
+    "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-m",
+    "pip",
+    "install",
+    "--no-index",
+    "--no-deps",
+    "--disable-pip-version-check",
+    "--target",
+    "environment\\p079_cpu_original_001\\packages",
+    "environment\\p079_cpu_original_001\\wheelhouse\\statsmodels-0.14.4-cp312-cp312-win_amd64.whl",
+    "environment\\p079_cpu_original_001\\wheelhouse\\scipy-1.15.2-cp312-cp312-win_amd64.whl",
+    "environment\\p079_cpu_original_001\\wheelhouse\\patsy-1.0.1-py2.py3-none-any.whl"
+  ],
+  "exit_code": 0,
+  "utc": "2026-10-10T18:12:58.560925+00:00",
+  "base_environment_modified": false
+}

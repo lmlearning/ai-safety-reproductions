@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-11T00:40:42.474767+00:00",
+  "source_only_before_originals": true,
+  "prior_fullshape_fake001_failure_retained": "Parent reports24/51189 discrepancies exclusively single-row subgroup I2; no original data/outcomes",
+  "sole_additive_convention": "I2 serializes0 for k<=1; standard singleton heterogeneity convention avoids tiny floating/Decimal Q with df0 spuriously yielding100",
+  "internal_Q_weights_g_SE_CI_variance_tests_unchanged": true,
+  "all11_primary_families_k_at_least4_and337_unchanged": true,
+  "all336_supporting_source_criteria_unchanged": true,
+  "exact_source_bytes_AST_after_only_reversing_k_condition": true,
+  "prior_source": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\audit_independent_source_formula_local003.py",
+    "bytes": 23468,
+    "sha256": "a3ac4ff13e5ff7f4c6cf5e6d6f32405fe5b893c15d935c49bb01f27dd85bb242"
+  },
+  "new_source": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\audit_independent_source_formula_local004.py",
+    "bytes": 23476,
+    "sha256": "1dbf42990e0df0f9f6893874c647ff1a3f2c13cb4e716067f57f463ae65edd76"
+  },
+  "diff": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\independent_source_auditor_local001\\AUDITOR_SINGLE_ROW_I2_DIFF004.txt",
+    "bytes": 1467,
+    "sha256": "20e92c7e50e8afcde45fab6fb936bca46194099562b07ecee57ac65d97331d29"
+  },
+  "no_original_numerical_or_new_fake_execution": true
+}

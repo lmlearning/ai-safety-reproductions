@@ -1,0 +1,57 @@
+{
+  "schema": "ROOT_RETROSPECTIVE_P028_COMPLETE_CENTRAL_NEAR_RULE930",
+  "UTC": "2026-10-17T08:54:28.983682+00:00",
+  "paper_id": "P028",
+  "user_rule_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_USER_DIRECTED_NEAR_SUCCESS_COUNTING_CHANGE913.json",
+    "bytes": 2551,
+    "sha256": "fa0000ec371755eff4b9ce9d28a7e79e10fd32db272a81df4e23e8991dcb5b35"
+  },
+  "explicitly_retrospective_after_archived_outcome_and_old_report_review": true,
+  "scope": "All4originalclassifiercontrasts/20Table1metrics/36Figure6and17coefficientmedians/8qualitativeclaims; full897responses/55386tokens/9layers;800original-scope+400diagnosticfits.",
+  "near_numeric_rule": "ALL20 accuracy/precision/recall/F1/AUROC target errors\u2264.010(1percentage point). ALL36 coefficient medians retain original\u00b1.020 graphical bound against exact source, incorporating only two already documented transcription corrections. ALL8 qualitative claims and ALL6083 archived independent checks must pass.",
+  "source_transcription_corrections": {
+    "figure17_4:27": {
+      "wrong_original_target": 0,
+      "source_corrected_target": -0.06
+    },
+    "figure17_4:28": {
+      "wrong_original_target": -0.06,
+      "source_corrected_target": -0.03
+    }
+  },
+  "correction_basis": "Old independent audit already explicitly recorded both errors; ROOT visually inspected original paperpage17 retainedPNG. No coefficient tolerance enlarged. Original five failure records remain.",
+  "bounds_rationale": "1percentage point is a small error on bounded0\u20131 classifier metrics across all100-fit means; preserves all8 coreconclusions and fulltargetfamily. It is practicalnear agreement, not an equivalencetest or a provedexplanation for mismatch.",
+  "strict59_of64_and_all5_failures_unchanged": true,
+  "scope_or_method_or_data_changed": false,
+  "new_scientific_execution": false,
+  "no_FULL_claim": true,
+  "candidate_only_no_credit": true,
+  "source_refs": {
+    "report": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\REPORT.md",
+      "bytes": 6987,
+      "sha256": "c5da13b395086d675107e76042d0375e267b4d5614b6905d76f351512680451f"
+    },
+    "primary": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P028-central-001\\comparison.json",
+      "bytes": 30816,
+      "sha256": "64a802b5f3fd73377e254a1dc9004e461758cbf9b3f8a438931f5963a02aa015"
+    },
+    "audit": {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P028-audit-001\\audit.json",
+      "bytes": 752068,
+      "sha256": "d2ebc68044fca383d8fde485c52b748e26705ecff090e0d272512c46894a1d2a"
+    },
+    "plan": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\PREREGISTRATION.json",
+      "bytes": 11853,
+      "sha256": "2856eddf8cdb00730588552f3d7149d8b05e47134ba3d741e77359f4d122b89d"
+    },
+    "original_Fig17": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\review_figures\\source_page_17-17.png",
+      "bytes": 275590,
+      "sha256": "fa9aa128be093e789721c994dc8c42a28a2d46db32030993d19a476cbea26138"
+    }
+  }
+}

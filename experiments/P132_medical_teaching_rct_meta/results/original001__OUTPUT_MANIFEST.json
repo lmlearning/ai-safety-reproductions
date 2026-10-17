@@ -1,0 +1,59 @@
+{
+  "files": [
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\audits\\original001\\ALL_INDEPENDENT_COMPARISONS.jsonl",
+      "bytes": 1297994110,
+      "sha256": "b0dd3748f6e863cf0465f9a519ccede97bfc7c081d9997ba3844dfb49e429cd4"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\audits\\original001\\ALL_INDEPENDENT_FAILED_COMPARISONS.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\audits\\original001\\AUDIT_STATUS.json",
+      "bytes": 361,
+      "sha256": "2278c6413f493ba0c78936d19da316b5237d9a8a0ab186cea8d23eda460d91bb"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\audits\\original001\\INDEPENDENT_ALL4918_PRECISION_CONTROLS.jsonl",
+      "bytes": 252295271,
+      "sha256": "223610ee1c395b2344e2e82ea4b2c8de48a810fd29ac4e9c94bbbc5055d7af9b"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\audits\\original001\\INDEPENDENT_COMPLETE_FIXED_LOO_TIMING_CONTROLS.json",
+      "bytes": 378855,
+      "sha256": "cf0e6bebf0ce5496477564bdb4fc4bf8a2664145a4eca2bdd3eb24c0371e1256"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\audits\\original001\\INDEPENDENT_COMPLETE_KNOWLEDGE_FUNNEL_POINTS.json",
+      "bytes": 2680,
+      "sha256": "f3b407fcb78b4f08af609655bec3cad434697fa8e23d4aafe9904e88768bf0c4"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\audits\\original001\\INDEPENDENT_NOMINAL_COMPLETE_ANALYSIS.json",
+      "bytes": 38038,
+      "sha256": "925da785c29071eef75a04887dec23fa20bd96256496ab1b1fa439965e0104e9"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\audits\\original001\\INDEPENDENT_PRIMARY_GATES.json",
+      "bytes": 24300,
+      "sha256": "9b0b7368f8e299ed8984b4437a1f308c7f6e2aedb18ebcfdf37e1e7524a0f1c1"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\audits\\original001\\INDEPENDENT_SAMPLED_PRECISION_RANGE_SUMMARY.json",
+      "bytes": 142889,
+      "sha256": "e344e22a086e3772433ae207281c41d3a88b163a203f94ea1f1bf167e228bbd5"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\audits\\original001\\INDEPENDENT_STRICT_FINAL_GATES.json",
+      "bytes": 24300,
+      "sha256": "bbadb743ed20c7535b89c7be5e996c87fadda095969f41e91dd9d1378bf7e5a2"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\audits\\original001\\INDEPENDENT_SUPPORTING_INTERMEDIATES.json",
+      "bytes": 17268,
+      "sha256": "e08e1178826ad2e1cf98a10a2d6698c768b6349f9616f4c739516565c91c68b4"
+    }
+  ]
+}

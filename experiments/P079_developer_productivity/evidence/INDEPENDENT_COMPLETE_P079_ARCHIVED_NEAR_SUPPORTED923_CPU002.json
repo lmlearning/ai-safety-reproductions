@@ -1,0 +1,904 @@
+{
+  "schema": "INDEPENDENT_ARCHIVED_P079_NEAR_REVIEW_CPU002",
+  "source_prep_start_UTC": "2026-10-17T08:46:41.925828+00:00",
+  "closed_UTC": "2026-10-17T08:50:06.342196+00:00",
+  "deadline_UTC": "2026-10-17T08:52:41.925828+00:00",
+  "recommendation": "NEAR_SUPPORTED",
+  "award_or_registry_mutation": false,
+  "retrospective_user_directed_rule": true,
+  "blind_preregistration_claimed": false,
+  "all65_primary_and_independent_pass_rule923": true,
+  "old_strict": {
+    "primary": 62,
+    "independent": 62,
+    "total": 65,
+    "three_original_failures": [
+      "balance.no_forecast.0.sd",
+      "balance.no_forecast.difference",
+      "balance.ai_forecast.0.mean"
+    ],
+    "unchanged": true
+  },
+  "integer_display_family": {
+    "count": 10,
+    "bound_original_displayed_units": "1.0",
+    "correct_physical_unit": "forecast completion-time MINUTES, not percentage points",
+    "max_primary_absolute_error": "0.877005347593581",
+    "max_independent_absolute_error": "0.877005347593581",
+    "wording_discrepancy": "Rule923 says forecast percentage-point unit. Paper Table4 labels forecasted issue completion times; auditor raw predicted_time_* operands are minutes, as confirmed by its separate /60 conversion for forecast_mean_hours. Numerical <=1.0 bound applied unchanged to ALL10 original displayed values. No rescaling or selective exceptions."
+  },
+  "all_other55_old_bounds_and_integrity_unchanged": true,
+  "independent_audit": {
+    "all1782_archived_flags_pass": true,
+    "manual_design_QR_OLS_HC3_cluster_Welch_Pearson_and_all150000_bootstrap_draw_checks": "Confirmed by whole independently authored auditor source and full archived check list; no new computations/draws executed.",
+    "original_exit0_both": true
+  },
+  "scope": {
+    "all_tasks": 246,
+    "developers": 16,
+    "AI_allowed": 136,
+    "AI_disallowed": 110,
+    "complete_original_central_family": "Baseline point/all3uncertainty,all4alternative_estimators,bothreviewimputations,originalforecast+pairednonrescuebootstrap,distributions/calibration,allbalanceandallocation,all65targets.",
+    "core_conclusion": "18.839994116341868% slowdown; all3 lower confidence limits positive; all4 alternative effects positive; forecast acceleration opposes observed slowdown. Full65 archived vectors and both strict/near flags preserved.",
+    "FULL_claim": false,
+    "omitted_families": "Private screen recordings/activity, quality/dropout/all20factor analyses, expert belief/recruitment, historical Cursor/Claude generation unavailable; no fresh human trial or full-paper claim."
+  },
+  "source_discrepancies_preserved": [
+    "Source forecast integer display/truncation mechanism UNKNOWN; truncation diagnostic cannot establish author pipeline.",
+    "Original README treatment coding reversed versus paper/code; prospectively resolved AI=1, archived later correction evidence only.",
+    "Original first CSV16 postreview missing vs paper27; complete first-release246 rows used.",
+    "Imputation prose order14/23 reversed; corrected prospectively by added-time direction, both retained.",
+    "Author bootstrap seeds/drawcount/forecastpairing unknown; fixed original prereg50k each and paired nonrescue sensitivity retained."
+  ],
+  "eligibility_unchanged": {
+    "original_first_S2_raw": {
+      "paperId": "9008680aac5a92b3a089aa1487eea76b8565f0d3",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2507-09089",
+        "ArXiv": "2507.09089",
+        "DOI": "10.48550/arXiv.2507.09089",
+        "CorpusId": 280045608
+      },
+      "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+      "citationCount": 213,
+      "publicationDate": "2025-07-12"
+    },
+    "required40": true,
+    "recorded_eligibility_time": "2026-10-10T18:11:45.328606+00:00",
+    "earliest_empirical_release": "2025-07-10 METR announcement; arXiv v1 July12. No earlier-study reset or new citation request.",
+    "source_limited": true
+  },
+  "no_new_statistics_or_raw_bank_parsing": true,
+  "opaque_hash_only_of_manifest_rawCSV_NPZ_images": true,
+  "vector_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\operations\\P079_user_near_independent_review_CPU002\\ENTIRE65_ARCHIVED_PRIMARY_AND_INDEPENDENT_ERROR_VECTOR_CPU002.json",
+    "bytes": 56456,
+    "sha256": "93f263a2d94f25b7afb4f938ce879dcc45faa551cc44f44391c4d6c479c89c16"
+  },
+  "manifest_proof": [
+    {
+      "manifest_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\RUN_MANIFEST.json",
+        "bytes": 2983,
+        "sha256": "17e5a979b393110a017e8b364a95e3e2c0dcd1446350a529723f9c0c08fb618f"
+      },
+      "all_match": true,
+      "files": [
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\all_statistics.json",
+            "bytes": 2773,
+            "sha256": "f85b75be441428ab149b3b6db3f5498b33a75a5e842fe5bffea1fed429610ce6"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\analysis_rows.csv",
+            "bytes": 20087,
+            "sha256": "eec1a7f16e0a6aef1dabe9b73c23c6638368f459a67be0b84b9a84c72dff92db"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\bootstrap_draws.npz",
+            "bytes": 1109106,
+            "sha256": "f5edb9a00b429673f676e403847ee230e6a8454b29ba902ff212272339a8269d"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\complete_ecdf.png",
+            "bytes": 43611,
+            "sha256": "8df4c8e19de9b1cfdd503233db1accbd2985c0c1aee34ed21c03a301f02171f4"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\estimator_comparison.png",
+            "bytes": 38948,
+            "sha256": "e9671f9f6019bc3d35468758f775261bfb4c82b14e5df580aa2355e6c444fc72"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\imputation_sensitivity.json",
+            "bytes": 738,
+            "sha256": "b2c8cdd83c82f6344bcf1242b60e7feae9195bcccab63f1c2621007729362cf7"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\metrics.json",
+            "bytes": 1056,
+            "sha256": "7b5fa3ea609b5f9491ea643cac6ea657f6d2034adef874e87c373803ec43a356"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\model_statistics.json",
+            "bytes": 67416,
+            "sha256": "59bcef30f49acb9ef02b3f72d0bacc8318f8bec3c77b319dde71283e4e469ceb"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\primary_outcome_design.csv",
+            "bytes": 10015,
+            "sha256": "e964823160e362a25510c48c51c72814abcf8910cf83f73aa228c2fd24b5fd63"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\raw_data_as_loaded.csv",
+            "bytes": 9383,
+            "sha256": "8fe50a547edb581a1fb62976bdf3520e4050ee005424f7b6a8e6cb9cb2400ff7"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\regression_diagnostics.png",
+            "bytes": 75838,
+            "sha256": "c381b9c1db46c40c9af976f097d2069588c29239e4d1f6dfb845c2309cc98073"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\runner_source.py",
+            "bytes": 10914,
+            "sha256": "b5c0de0190f144d89c38aa299e75d0dfea69588b5258a50479c49697520f0064"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\source_discrepancies.json",
+            "bytes": 470,
+            "sha256": "aca7e61c750ebcdfb69beadbd555645b530d5b5b6c1dba31d051a6fcefb50b19"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\target_decisions.json",
+            "bytes": 16278,
+            "sha256": "6da1b6fb0e1c8ab961ef7ab79a2efa8650f300d3e69d5359c9aeb99768facf1e"
+          },
+          "matches": true
+        }
+      ]
+    },
+    {
+      "manifest_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\AUDIT_MANIFEST.json",
+        "bytes": 1314,
+        "sha256": "98c839a1ccf1c542b96409a7dbca44976b3638647413f8e6da92e5636569bbf3"
+      },
+      "all_match": true,
+      "files": [
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\audit.json",
+            "bytes": 828,
+            "sha256": "f37ee6150883d6d59d3d1b068bf2bcf44d82c3f7e55878b318e257012a649835"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\audit_checks.json",
+            "bytes": 8859024,
+            "sha256": "0160effd0c7be793bb4c031ee087e76b97b0d93174b7482f3cdf2691f9186589"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\auditor_source.py",
+            "bytes": 10717,
+            "sha256": "545768e2a06a00e771a787685807871d6c4a259d75889324f75ddee017a21fc5"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\display_diagnostics.json",
+            "bytes": 2077,
+            "sha256": "bb56441a195bb677888a1d2591920802cd757ea2fa1b1a3365bb31dfbf31e2a3"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\independent_models.json",
+            "bytes": 40142,
+            "sha256": "9e16a3184e1e9a44a5830d94098635b78f7aceb0a41eb1d521dfe656d84988c7"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\independent_statistics.json",
+            "bytes": 2771,
+            "sha256": "e91089d7c4d4a1480716188d2099da0258a9969e412fa9d7f313fd85841f4a97"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\independent_target_decisions.json",
+            "bytes": 16269,
+            "sha256": "e505097c7cc5b8d8c197f6a388a82ec18d67c3d1f3007383657c873e3faaff81"
+          },
+          "matches": true
+        }
+      ]
+    },
+    {
+      "manifest_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\REVIEW_MANIFEST.json",
+        "bytes": 13387,
+        "sha256": "08f3dfee34de6c97b5d7dce5f1f91e7e89c20e3bf95ca271976b16bd750f666c"
+      },
+      "all_match": true,
+      "files": [
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\audit_central.py",
+            "bytes": 10717,
+            "sha256": "545768e2a06a00e771a787685807871d6c4a259d75889324f75ddee017a21fc5"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\ELIGIBILITY_REVIEW_20261010.json",
+            "bytes": 1197,
+            "sha256": "8c71e29c98c0681fadf1f9e7d5d45f2a11b0a190ee9c0df49cf282199afb81af"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\preregister.py",
+            "bytes": 9007,
+            "sha256": "52f08b8f8b393ca03ba7a5a876b9a02d4a2f00dfa890e605bc63d4e10bc7fba1"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\PREREGISTRATION.json",
+            "bytes": 24743,
+            "sha256": "41b05f2379ad4df87708e5bf4eeecb50385d2f6c05e01a76af79de686ae87d1a"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\REPORT.md",
+            "bytes": 9321,
+            "sha256": "d6901d9d1d83720ebea4fdd19c8b1d02cca65577951521df0d9d4107aa362a79"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\run_central.py",
+            "bytes": 10914,
+            "sha256": "b5c0de0190f144d89c38aa299e75d0dfea69588b5258a50479c49697520f0064"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\SETUP_FAILURES.json",
+            "bytes": 373,
+            "sha256": "7ddeca55a86dd6bba9812de3179c63026cf00bbaf66a13932baf029c85cfdf6d"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\commit_july19.json",
+            "bytes": 4810,
+            "sha256": "6b03457deb88998ac0791a4bf55b7b670414aa8498c1bf9aa5a8fc3e294888f1"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\commit_july19.request.json",
+            "bytes": 322,
+            "sha256": "8bd39c44cdb0d1b5902e6cf2c48beb35e746fb026f7aa898ce6f4315bb587624"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\commit_july21.json",
+            "bytes": 4975,
+            "sha256": "cbc59afa84a466d230d3759b1376b9806e6c20e6c1b40f934e79913c9810d025"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\commit_july21.request.json",
+            "bytes": 322,
+            "sha256": "2ae37b1b9a49c29c92c18c8ae610b4de3adcaf7cca1227cefdc63fd73cf411dc"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\data_complete.csv",
+            "bytes": 8818,
+            "sha256": "27ca55ffb7d6119026cde1ebdc37eb9c5c31d9389593d3c0855560e3c8746d1a"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\Figure_1.png",
+            "bytes": 160903,
+            "sha256": "6b34e2b547b4de468310306e9f3778c4f650be7240499e0c9e78d6e5fccf3a84"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\Figure_1.request.json",
+            "bytes": 276,
+            "sha256": "1b85259b3fea8a37751eddb8ac2db06da4b3a0a97c659eea4427d63bed315a2d"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\Figure_13.png",
+            "bytes": 157148,
+            "sha256": "72055c510d987137f8efdc30430d3449b26c085ab9a33ff7e3504b971ef21cd5"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\Figure_13.request.json",
+            "bytes": 281,
+            "sha256": "03d22f6e0076c409f8c5cf2cf695bfa73cab90e25d20c973d17ac13111f228c7"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\Figure_14.png",
+            "bytes": 1023834,
+            "sha256": "0274b5b1bbf1d05d318bb24148c1b1a795cb3d4c2a85771fd94eb8d437a502bc"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\Figure_14.request.json",
+            "bytes": 269,
+            "sha256": "3f96696e89b524c59d1ff4d8b2f350cc4a10fdd0ab639d6233f0616103aeadda"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\Figure_4.png",
+            "bytes": 163319,
+            "sha256": "eeb35b60b2b543cb8dd38710597b7843fec05b370bb4f277fa2a6190f8c06ef8"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\Figure_4.request.json",
+            "bytes": 272,
+            "sha256": "421fd8e68d3efcf64354f65e45a181200fbe5f2db397eecc0b029fe51e5a5a3b"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\Figure_5.png",
+            "bytes": 362001,
+            "sha256": "0f5cc3e7fdb99a0159fb8310be876a5c7e62f16f9bc9cad0d290863d2119bd2c"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\Figure_5.request.json",
+            "bytes": 273,
+            "sha256": "fbffeb2b0a816c951936ce5e62b0e3426270d0d87ede89c74b0f29be24f2e9fd"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\paper_v1.pdf",
+            "bytes": 5516494,
+            "sha256": "5187178b1af8b30d46615dcf12cbc9534a9bf03f373c7453ceed363b5cf53be6"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\paper_v1_extracted.txt",
+            "bytes": 144788,
+            "sha256": "e1d8a74248c677387423984980687889ee959d872fb71363461ecf6a59bde193"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\pypi_patsy.json",
+            "bytes": 5483,
+            "sha256": "8f96afd758d3de1960fd008b3bba47c19181e4aea5449c56d81ad5c62fa3026c"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\pypi_patsy.request.json",
+            "bytes": 238,
+            "sha256": "1c443772ed6053c117f70778ecf833131adaeb1b64c280417772fbb53b963db7"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\pypi_scipy.json",
+            "bytes": 92221,
+            "sha256": "93e659b7bc26709da5458a58ebae90464f8547d8e693ecc11fedd2e566a8dc36"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\pypi_scipy.request.json",
+            "bytes": 240,
+            "sha256": "3a4dc493553b29f3408b65c5570185a3acac40da0b189bb8ec79db87d1dcc7e6"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\pypi_statsmodels.json",
+            "bytes": 35743,
+            "sha256": "1ba1a6ddd052c3c580f1158a821e6855cf2b673d99cfe83a1ec8c737fd02d017"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\pypi_statsmodels.request.json",
+            "bytes": 246,
+            "sha256": "0ae674d8cd7fbaa398baea03169ff356870b9cd37efbcd6ad860b9c2c2956db4"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\README.md",
+            "bytes": 2780,
+            "sha256": "180f7356bd62f213c838e9acd5e58a0b5880643c4f49d259dcee090e96197825"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\sources\\regression.py",
+            "bytes": 5310,
+            "sha256": "41307fa0b2f617eb815fdaaf41ee18c04fb7332eab118e86c1556154f496afd6"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\STRUCTURAL_REVIEW.json",
+            "bytes": 998,
+            "sha256": "6e625e0eecf7b3f5d93ad68f65062b82f38ee23257b0be477e607324a8a8f73f"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\all_statistics.json",
+            "bytes": 2773,
+            "sha256": "f85b75be441428ab149b3b6db3f5498b33a75a5e842fe5bffea1fed429610ce6"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\analysis_rows.csv",
+            "bytes": 20087,
+            "sha256": "eec1a7f16e0a6aef1dabe9b73c23c6638368f459a67be0b84b9a84c72dff92db"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\bootstrap_draws.npz",
+            "bytes": 1109106,
+            "sha256": "f5edb9a00b429673f676e403847ee230e6a8454b29ba902ff212272339a8269d"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\complete_ecdf.png",
+            "bytes": 43611,
+            "sha256": "8df4c8e19de9b1cfdd503233db1accbd2985c0c1aee34ed21c03a301f02171f4"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\estimator_comparison.png",
+            "bytes": 38948,
+            "sha256": "e9671f9f6019bc3d35468758f775261bfb4c82b14e5df580aa2355e6c444fc72"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\imputation_sensitivity.json",
+            "bytes": 738,
+            "sha256": "b2c8cdd83c82f6344bcf1242b60e7feae9195bcccab63f1c2621007729362cf7"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\LAUNCH_RESULT.json",
+            "bytes": 466,
+            "sha256": "da32ccddbeed1bc969a5eb50e1f2926162017656ae910b04b3569646b46f254b"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\launcher_stderr.txt",
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\launcher_stdout.txt",
+            "bytes": 1797,
+            "sha256": "fd73afb249d9e34f16c3b7f2df25f5762613cdbcfaf6ea67d1329ad0c7b516d9"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\metrics.json",
+            "bytes": 1056,
+            "sha256": "7b5fa3ea609b5f9491ea643cac6ea657f6d2034adef874e87c373803ec43a356"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\model_statistics.json",
+            "bytes": 67416,
+            "sha256": "59bcef30f49acb9ef02b3f72d0bacc8318f8bec3c77b319dde71283e4e469ceb"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\primary_outcome_design.csv",
+            "bytes": 10015,
+            "sha256": "e964823160e362a25510c48c51c72814abcf8910cf83f73aa228c2fd24b5fd63"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\raw_data_as_loaded.csv",
+            "bytes": 9383,
+            "sha256": "8fe50a547edb581a1fb62976bdf3520e4050ee005424f7b6a8e6cb9cb2400ff7"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\regression_diagnostics.png",
+            "bytes": 75838,
+            "sha256": "c381b9c1db46c40c9af976f097d2069588c29239e4d1f6dfb845c2309cc98073"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\RUN_MANIFEST.json",
+            "bytes": 2983,
+            "sha256": "17e5a979b393110a017e8b364a95e3e2c0dcd1446350a529723f9c0c08fb618f"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\runner_source.py",
+            "bytes": 10914,
+            "sha256": "b5c0de0190f144d89c38aa299e75d0dfea69588b5258a50479c49697520f0064"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\source_discrepancies.json",
+            "bytes": 470,
+            "sha256": "aca7e61c750ebcdfb69beadbd555645b530d5b5b6c1dba31d051a6fcefb50b19"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\target_decisions.json",
+            "bytes": 16278,
+            "sha256": "6da1b6fb0e1c8ab961ef7ab79a2efa8650f300d3e69d5359c9aeb99768facf1e"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\audit.json",
+            "bytes": 828,
+            "sha256": "f37ee6150883d6d59d3d1b068bf2bcf44d82c3f7e55878b318e257012a649835"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\audit_checks.json",
+            "bytes": 8859024,
+            "sha256": "0160effd0c7be793bb4c031ee087e76b97b0d93174b7482f3cdf2691f9186589"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\AUDIT_MANIFEST.json",
+            "bytes": 1314,
+            "sha256": "98c839a1ccf1c542b96409a7dbca44976b3638647413f8e6da92e5636569bbf3"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\auditor_source.py",
+            "bytes": 10717,
+            "sha256": "545768e2a06a00e771a787685807871d6c4a259d75889324f75ddee017a21fc5"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\display_diagnostics.json",
+            "bytes": 2077,
+            "sha256": "bb56441a195bb677888a1d2591920802cd757ea2fa1b1a3365bb31dfbf31e2a3"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\independent_models.json",
+            "bytes": 40142,
+            "sha256": "9e16a3184e1e9a44a5830d94098635b78f7aceb0a41eb1d521dfe656d84988c7"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\independent_statistics.json",
+            "bytes": 2771,
+            "sha256": "e91089d7c4d4a1480716188d2099da0258a9969e412fa9d7f313fd85841f4a97"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\independent_target_decisions.json",
+            "bytes": 16269,
+            "sha256": "e505097c7cc5b8d8c197f6a388a82ec18d67c3d1f3007383657c873e3faaff81"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\LAUNCH_RESULT.json",
+            "bytes": 68,
+            "sha256": "b6e669d38ed8a4aa02135dddddfac87a4bedc438fad2e395b610fb5a0c71e0bd"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\launcher_stderr.txt",
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\launcher_stdout.txt",
+            "bytes": 847,
+            "sha256": "5def347739b86fe3b2df483f15989d56e45052368f310e281699a8d9571da733"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\environment\\p079_cpu_original_001\\INSTALLATION.json",
+            "bytes": 676,
+            "sha256": "f7e56913efbd2408203dff9da9bdeb289081943b46a44fb1e7190e720956adc8"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\environment\\p079_cpu_original_001\\installation.log",
+            "bytes": 593,
+            "sha256": "caecc4ee0ef9d1e84de8b6e97c5b3b651a7b7fef2a7303ae411f23bc365f173c"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\environment\\p079_cpu_original_001\\WHEEL_MANIFEST.json",
+            "bytes": 1557,
+            "sha256": "3e84b4ee6f3e4157789307e9d59a4f0d9dad29af97cefb55d15f6edc48bb3410"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\environment\\p079_cpu_original_001\\wheelhouse\\patsy-1.0.1-py2.py3-none-any.whl",
+            "bytes": 232923,
+            "sha256": "751fb38f9e97e62312e921a1954b81e1bb2bcda4f5eeabaf94db251ee791509c"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\environment\\p079_cpu_original_001\\wheelhouse\\scipy-1.15.2-cp312-cp312-win_amd64.whl",
+            "bytes": 40942317,
+            "sha256": "e7c68b6a43259ba0aab737237876e5c2c549a031ddb7abc28c7b47f22e202ded"
+          },
+          "matches": true
+        },
+        {
+          "ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\environment\\p079_cpu_original_001\\wheelhouse\\statsmodels-0.14.4-cp312-cp312-win_amd64.whl",
+            "bytes": 9823866,
+            "sha256": "7f7917a51766b4e074da283c507a25048ad29a18e527207883d73535e0dc6184"
+          },
+          "matches": true
+        }
+      ]
+    }
+  ],
+  "source_refs": [
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ADOPTED_P079_ARCHIVED_INTEGER_DISPLAY_NEAR_RULE923.json",
+      "bytes": 3506,
+      "sha256": "21f2e4aeabaf1b660f7652b0a986cea622fa196451d1ada4e2def409f922d361"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_P079_ARCHIVED_COMPLETE65_NEAR_CHECK924.json",
+      "bytes": 22789,
+      "sha256": "cfd458a2ceb420717d49ca144966905fbea10757dbbecc850746300e89adf77e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\PREREGISTRATION.json",
+      "bytes": 24743,
+      "sha256": "41b05f2379ad4df87708e5bf4eeecb50385d2f6c05e01a76af79de686ae87d1a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\REPORT.md",
+      "bytes": 9321,
+      "sha256": "d6901d9d1d83720ebea4fdd19c8b1d02cca65577951521df0d9d4107aa362a79"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\ELIGIBILITY_REVIEW_20261010.json",
+      "bytes": 1197,
+      "sha256": "8c71e29c98c0681fadf1f9e7d5d45f2a11b0a190ee9c0df49cf282199afb81af"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\target_decisions.json",
+      "bytes": 16278,
+      "sha256": "6da1b6fb0e1c8ab961ef7ab79a2efa8650f300d3e69d5359c9aeb99768facf1e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\independent_target_decisions.json",
+      "bytes": 16269,
+      "sha256": "e505097c7cc5b8d8c197f6a388a82ec18d67c3d1f3007383657c873e3faaff81"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\audit.json",
+      "bytes": 828,
+      "sha256": "f37ee6150883d6d59d3d1b068bf2bcf44d82c3f7e55878b318e257012a649835"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\audit_checks.json",
+      "bytes": 8859024,
+      "sha256": "0160effd0c7be793bb4c031ee087e76b97b0d93174b7482f3cdf2691f9186589"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\auditor_source.py",
+      "bytes": 10717,
+      "sha256": "545768e2a06a00e771a787685807871d6c4a259d75889324f75ddee017a21fc5"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\LAUNCH_RESULT.json",
+      "bytes": 466,
+      "sha256": "da32ccddbeed1bc969a5eb50e1f2926162017656ae910b04b3569646b46f254b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\LAUNCH_RESULT.json",
+      "bytes": 68,
+      "sha256": "b6e669d38ed8a4aa02135dddddfac87a4bedc438fad2e395b610fb5a0c71e0bd"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\root_new_eligibility_20261010\\P078_P080_s2_batch.source",
+      "bytes": 976,
+      "sha256": "12f2931044cbf51dbc2f1c370a207c0824b3a0f141824bb0c28dd1bb15d2c845"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\root_new_eligibility_20261010\\P078_P080_s2_batch.request.json",
+      "bytes": 521,
+      "sha256": "b6c109f02d4735ee033e4cbbd1625a059e16392ad303294540e8c9e458e48002"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\root_new_eligibility_20261010\\P079_paper_v1.txt",
+      "bytes": 157137,
+      "sha256": "923a062fff9686b08237211c5f23e3199f774df589284ae3a12cb89eef3c87c0"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\root_new_eligibility_20261010\\P079_original_blog.source",
+      "bytes": 81918,
+      "sha256": "86abbe125eb2beed2fd0ccff23f290330a303d5ec8a2e499bef67a6f1278a4bb"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "run_id": "P079-central-001",
+  "command": [
+    "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\run_central.py",
+    "P079-central-001"
+  ],
+  "exit_code": 0,
+  "files": [
+    {
+      "path": "runs/P079-central-001/all_statistics.json",
+      "bytes": 2773,
+      "sha256": "f85b75be441428ab149b3b6db3f5498b33a75a5e842fe5bffea1fed429610ce6"
+    },
+    {
+      "path": "runs/P079-central-001/analysis_rows.csv",
+      "bytes": 20087,
+      "sha256": "eec1a7f16e0a6aef1dabe9b73c23c6638368f459a67be0b84b9a84c72dff92db"
+    },
+    {
+      "path": "runs/P079-central-001/bootstrap_draws.npz",
+      "bytes": 1109106,
+      "sha256": "f5edb9a00b429673f676e403847ee230e6a8454b29ba902ff212272339a8269d"
+    },
+    {
+      "path": "runs/P079-central-001/complete_ecdf.png",
+      "bytes": 43611,
+      "sha256": "8df4c8e19de9b1cfdd503233db1accbd2985c0c1aee34ed21c03a301f02171f4"
+    },
+    {
+      "path": "runs/P079-central-001/estimator_comparison.png",
+      "bytes": 38948,
+      "sha256": "e9671f9f6019bc3d35468758f775261bfb4c82b14e5df580aa2355e6c444fc72"
+    },
+    {
+      "path": "runs/P079-central-001/imputation_sensitivity.json",
+      "bytes": 738,
+      "sha256": "b2c8cdd83c82f6344bcf1242b60e7feae9195bcccab63f1c2621007729362cf7"
+    },
+    {
+      "path": "runs/P079-central-001/metrics.json",
+      "bytes": 1056,
+      "sha256": "7b5fa3ea609b5f9491ea643cac6ea657f6d2034adef874e87c373803ec43a356"
+    },
+    {
+      "path": "runs/P079-central-001/model_statistics.json",
+      "bytes": 67416,
+      "sha256": "59bcef30f49acb9ef02b3f72d0bacc8318f8bec3c77b319dde71283e4e469ceb"
+    },
+    {
+      "path": "runs/P079-central-001/primary_outcome_design.csv",
+      "bytes": 10015,
+      "sha256": "e964823160e362a25510c48c51c72814abcf8910cf83f73aa228c2fd24b5fd63"
+    },
+    {
+      "path": "runs/P079-central-001/raw_data_as_loaded.csv",
+      "bytes": 9383,
+      "sha256": "8fe50a547edb581a1fb62976bdf3520e4050ee005424f7b6a8e6cb9cb2400ff7"
+    },
+    {
+      "path": "runs/P079-central-001/regression_diagnostics.png",
+      "bytes": 75838,
+      "sha256": "c381b9c1db46c40c9af976f097d2069588c29239e4d1f6dfb845c2309cc98073"
+    },
+    {
+      "path": "runs/P079-central-001/runner_source.py",
+      "bytes": 10914,
+      "sha256": "b5c0de0190f144d89c38aa299e75d0dfea69588b5258a50479c49697520f0064"
+    },
+    {
+      "path": "runs/P079-central-001/source_discrepancies.json",
+      "bytes": 470,
+      "sha256": "aca7e61c750ebcdfb69beadbd555645b530d5b5b6c1dba31d051a6fcefb50b19"
+    },
+    {
+      "path": "runs/P079-central-001/target_decisions.json",
+      "bytes": 16278,
+      "sha256": "6da1b6fb0e1c8ab961ef7ab79a2efa8650f300d3e69d5359c9aeb99768facf1e"
+    }
+  ],
+  "plan_sha256": "41b05f2379ad4df87708e5bf4eeecb50385d2f6c05e01a76af79de686ae87d1a"
+}

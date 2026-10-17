@@ -1,0 +1,17 @@
+{
+  "ordinal": 1,
+  "paper_id": "P041",
+  "title": "How to Correctly Report LLM-as-a-Judge Evaluations",
+  "classification": "Strict CENTRAL",
+  "recorded_public_date": "2025-11-26",
+  "window": "Main",
+  "citations": 31,
+  "provider": "Semantic Scholar",
+  "capture_time_supported": false,
+  "route": "Fresh simulation",
+  "result_and_scope": "Main Figure4:84 coverage/length points +42 single-trial comparisons; bounds0.020/0.005. Appendix/full failures and post-outcome scope amendment retained.",
+  "DOI": null,
+  "arxiv_id": "2511.21140",
+  "preserved_limits": "Central scope amended after full attempt failed, then confirmed with fresh fixed seeds. Duplicated m=200 published references and full failures preserved; no machine proof or real LLM experiment.",
+  "whole_paper_reproduction": false
+}

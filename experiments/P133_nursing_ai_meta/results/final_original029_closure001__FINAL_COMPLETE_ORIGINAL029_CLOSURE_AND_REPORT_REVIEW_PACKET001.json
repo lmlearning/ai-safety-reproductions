@@ -1,0 +1,60 @@
+{
+  "utc": "2026-10-11T08:51:51.330604+00:00",
+  "scope": "P133 complete central quantitative contribution proposed, root review and registration pending",
+  "closure": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\final_original029_closure001\\COMPLETE_ORIGINAL029_NATIVE_OUTPUT_HASH_ABSENCE_AND_AUDIT_CLOSURE001.json",
+    "bytes": 14104,
+    "sha256": "1bcae696e1af98f03b21cf334e0d0d228941fd3ad5ae6ce95ed72fd6d9c9eaaa"
+  },
+  "report": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\final_original029_closure001\\SUMMARY_REPORT.html",
+    "bytes": 42030,
+    "sha256": "f9060f76a51994b2495d369c12a5dba403322a9f4e1ba932584f18104398fdc9"
+  },
+  "summary": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\final_original029_closure001\\REPORT_SUMMARY_AND_PROVENANCE001.json",
+    "bytes": 12944,
+    "sha256": "242890cbf7e8dc65f94a8f56d7395ab32750da1fc7a25cf44ee880bad89a3e2e"
+  },
+  "final_freeze": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\final_original029_closure001\\FINAL_COMPLETE_ORIGINAL029_OUTPUT_SOURCE_REPORT_FREEZE001.json",
+    "bytes": 4823248,
+    "sha256": "064b6709aa0796eaa387041aa198439db30ca686f2d3483fde2175b2edf21b7a"
+  },
+  "all312782": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\final_original029_closure001\\ALL312782_COMPLETE_LOG_CENSUS_AND_TALLIES001.json",
+    "bytes": 46617,
+    "sha256": "a39ce88e60087e2f52e10a16408a560745e3ea773c6a010cf77d1ad319e189f8"
+  },
+  "all95_disagreements": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\final_original029_closure001\\ALL95_COMPLETE_SUPPORTING_DISAGREEMENTS001.json",
+    "bytes": 67711,
+    "sha256": "50ac535bd37a70de2dcdf42ca3c4499119865f925adef4f2a34a6721f9f43c88"
+  },
+  "hash_census": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\final_original029_closure001\\FULL_IMMUTABLE_REFERENCE_AND_COMPLETE_CURRENT_OUTPUT_HASH_CENSUS001.json",
+    "bytes": 4820305,
+    "sha256": "0829fa6bde7209dba0863a79acc43f9b4c38864dc43f22cd65a288e284d45748"
+  },
+  "static_HTML_QA": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\final_original029_closure001\\STATIC_HTML_COMPLETENESS_AND_LINK_QA001.json",
+    "bytes": 664,
+    "sha256": "c132f0e8eb63c0ca5fca4dcda120269d9baccbf299a4a5d02e261cb5fac332e1"
+  },
+  "budget": {
+    "prior_seconds": 482,
+    "actual_timestamp_span_seconds": 87.797969,
+    "native_creation_to_end_seconds": 87.99740982055664,
+    "rule": "ceil(max(receipt UTC span, retained observer creation to receipt end))+1",
+    "phase_charge_seconds": 89,
+    "cumulative_seconds": 571,
+    "shared_seconds": 1800,
+    "remaining_seconds": 1229,
+    "prior_258_and_67_fixture_primary_and_83_fixture_audit_and_57_original_primary_and_17_failed_original_audit": 482,
+    "software_elapsed_seconds": 87.73400000017136,
+    "charge_not_reset": true
+  },
+  "no_new_statistical_execution": true,
+  "scientific_credit": false,
+  "registry_edits": false
+}

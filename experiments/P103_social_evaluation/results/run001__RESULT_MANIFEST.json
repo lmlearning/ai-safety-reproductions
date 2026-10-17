@@ -1,0 +1,32 @@
+[
+  {
+    "path": "analysis.json",
+    "bytes": 14802,
+    "sha256": "d8058788b4d8df41b65fe023793d8aa25b710d930f3b253420cb412a1e9fbd9e"
+  },
+  {
+    "path": "main_raw_derived_records.json",
+    "bytes": 560729,
+    "sha256": "457c7ef115e6757c923b809ac0fa44980b2d0d4c05afbafcf52f435394088de8"
+  },
+  {
+    "path": "MC1_raw_derived_records.json",
+    "bytes": 28075,
+    "sha256": "4935c359ee11dd03dc3c8d6faa41e1bb5614277145ff32bbbb200711258c81b5"
+  },
+  {
+    "path": "published_target_gates.json",
+    "bytes": 40329,
+    "sha256": "9659afedce99af43616889ccfeae28f90619f05a4b9a11f8d9a6b1d06ca0f9f3"
+  },
+  {
+    "path": "resource_measurements.json",
+    "bytes": 5235,
+    "sha256": "f75d9743276c6186ba3386628653f6a44d145c918e8acb20fb5ec646b9b61dd7"
+  },
+  {
+    "path": "run_status.json",
+    "bytes": 568,
+    "sha256": "3d75ef2397f57101c459fd2e4dff053c29093ee4bde2f2316ec965cbb4da3090"
+  }
+]

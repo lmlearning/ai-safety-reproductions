@@ -1,0 +1,389 @@
+{
+  "mode": "original",
+  "studies": {
+    "Liu2022a": {
+      "sample_type": "Nonclinical",
+      "platform": "Mobile application",
+      "interaction_mode": "Text-based",
+      "response_generation": "AI-based",
+      "source_S3": [
+        "Liu (2022a) 1 [China, Educational]",
+        "Thesis",
+        "Mixed method,Randomized controlled trial",
+        "Sample type: Nonclinical [college students]Sample size: 43 (Intervention: 22; Control: 21)Age (MeanSD): (23.351.82) yearsGender (Male): 39.5%",
+        "XiaoNan",
+        "Psychoeducation (unguided bibliotherapy)",
+        "Depression (PHQ-9)",
+        "At post intervention, the depression score of the intervention group was significantly lower than that of the control group (F=6.99, p=0.01)."
+      ],
+      "source_S4": [
+        "Liu (2022a) 1",
+        "XiaoNan, Therapy and education",
+        "Mobile application",
+        "AI-based (Retrieval-based)",
+        "Stand-alone",
+        "Written",
+        "Written",
+        "No",
+        "4 weeks",
+        "CBT",
+        "The needs of the target users were studied through a mixed methods approach. 18 students (mean: 22.9 years) and 3 psychological counselors participated in qualitative interviews, and 166 students (22.25\u00b12.49 years) participated in the questionnaire survey.",
+        "Emergency assistance"
+      ],
+      "year_alias": null,
+      "leave_out_source_literal": "-Liu 2022 (a)"
+    },
+    "Ehrlich2023": {
+      "sample_type": "Nonclinical",
+      "platform": "Mobile application",
+      "interaction_mode": "Text-based",
+      "response_generation": "AI-based",
+      "source_S3": [
+        "Ehrlich (2023) 2 [UK, Educational] ",
+        "Journal article",
+        "Quantitative,Randomized controlled trial",
+        "Sample type: Nonclinical [college students]Sample size: 250 (Intervention: 125; Control: 125)Age (MeanSD): (20.234.96) yearsGender (Male): 41.2%",
+        "Mind Tutor App",
+        "Waitlist control",
+        "Well-being (SWEMWBS); Positive/negative affect (PANAS)",
+        "At post intervention, no significant between-group differences on mental well-being and positive/negative affect."
+      ],
+      "source_S4": [
+        "Ehrlich (2023) 2",
+        "Mind Tutor App, Therapy and education",
+        "Mobile application",
+        "AI-based",
+        "Component (integrated into the app)",
+        "Written",
+        "Written",
+        "No",
+        "8 weeks (five key topics)",
+        "Mindfulness-based therapy",
+        "The intervention content was developed in consultation with students and wellbeing services.",
+        "NR"
+      ],
+      "year_alias": "figure/source2023, bibliography2024",
+      "leave_out_source_literal": "-Ehrlich 2023"
+    },
+    "Fitzpatrick2017": {
+      "sample_type": "Clinical/subclinical",
+      "platform": "Instant messenger",
+      "interaction_mode": "Text-based",
+      "response_generation": "AI-based",
+      "source_S3": [
+        "Fitzpatrick (2017) 3 [USA, Educational]",
+        "Journal article",
+        "Mixed method,Randomized controlled trial",
+        "Sample type: Subclinical [college students self-identifying with depression and anxiety symptoms]Sample size: 70 (Intervention: 34; Control: 36)Age (MeanSD):(22.22.33) yearsGender (Male): 32.9%",
+        "Woebot",
+        "Psychoeducation (National Institute of Mental Health\u2019s eBook on depression)",
+        "Depression (PHQ-9); Anxiety (GAD-7); Positive/negative affect (PANAS)",
+        "At post intervention, decreased depression in the intervention group but not the control group (Cohen\u2019s d=0.44, p=0.04); no significant between-group differences on anxiety or affect."
+      ],
+      "source_S4": [
+        "Fitzpatrick (2017) 3",
+        "Woebot, Therapy and education",
+        "Instant messenger",
+        "AI-based (Retrieval-based)",
+        "Stand-alone",
+        "Written",
+        "Written",
+        "No",
+        "2 weeks (up to 20 sessions)",
+        "CBT",
+        "NR",
+        "Emergency assistance"
+      ],
+      "year_alias": null,
+      "leave_out_source_literal": "-Fitzpatrick 2017"
+    },
+    "Greer2019": {
+      "sample_type": "Clinical/subclinical",
+      "platform": "Instant messenger",
+      "interaction_mode": "Text-based",
+      "response_generation": "Rule-based",
+      "source_S3": [
+        "Greer (2019) 5 [USA, Community]",
+        "Journal article",
+        "Mixed method,Randomized controlled trial",
+        "Sample type: Clinical [young adults who completing active cancer treatment within 5 years]Sample size: 45 (Intervention: 25; Control: 20)Age (MeanSD): (252.9) yearsGender (Male): 20%",
+        "Vivibot",
+        "Psychoeducation (daily emotion ratings only)",
+        "Depression (PROMIS); Anxiety (PROMIS); Positive/negative emotion (DES)",
+        "At post intervention, no significant between-group differences on depression, anxiety, positive or negative emotion."
+      ],
+      "source_S4": [
+        "Greer (2019) 5",
+        "Vivibot, Therapy and education",
+        "Instant messenger (Facebook)",
+        "Rule-based",
+        "Stand-alone",
+        "Written",
+        "Written",
+        "No",
+        "4 weeks (7 conversational teaching lessons and 7 practice lessons that were repeated three times)",
+        "Integrative (CBT, Stress and coping theory, Broaden-and-Build theory of positive emotion)",
+        "Adolescents and young adults treated for cancer were involved to refine content for the chatbot format and inform adaptation for delivery to a young userbase with a shared experience of cancer treatment.",
+        "NR"
+      ],
+      "year_alias": null,
+      "leave_out_source_literal": "-Greer 2019"
+    },
+    "He2022": {
+      "sample_type": "Clinical/subclinical",
+      "platform": "Instant messenger",
+      "interaction_mode": "Multimodal",
+      "response_generation": "AI-based",
+      "source_S3": [
+        "He (2022) 6 [China, Educational]",
+        "Journal article",
+        "Mixed method,Randomized controlled trial",
+        "Sample type: Subclinical [college students screened with depression]Sample size: 148 (Intervention: 49; Control 1: 50; Control 2: 49)Age (MeanSD):(18.780.89) yearsGender (Male): 62.8%",
+        "XiaoE",
+        "1) Psychoeducation: (using Xiaoai chatbot with daily conversation topics limited to those in the intervention group)2) Psychoeducation: (e-book about depression) ",
+        "Depression (PHQ-9)",
+        "Lower depression scores among participants in the intervention group compared with other two groups at post intervention (Cohen\u2019s d=0.51, p<0.001) and 1-month follow up (Cohen\u2019s d=0.31, p=0.005)."
+      ],
+      "source_S4": [
+        "He (2022) 6",
+        "XiaoE, Therapy and education",
+        "Instant messenger (WeChat)",
+        "AI-based (Generative)",
+        "Stand-alone",
+        "Spoken, written",
+        "Spoken, written",
+        "No",
+        "1 week (7 modules, 1 module/per day)",
+        "CBT",
+        "No (content about mental health produced, discussed, and supervised by a psychologist panel)",
+        "Emergency assistance"
+      ],
+      "year_alias": null,
+      "leave_out_source_literal": "-He 2022"
+    },
+    "Karhiy2023": {
+      "sample_type": "Nonclinical",
+      "platform": "Web-based",
+      "interaction_mode": null,
+      "response_generation": null,
+      "source_S3": [
+        "Karhiy (2023) 7 [New Zealand, Educational]",
+        "Conference proceeding",
+        "Quantitative,Randomized controlled trial",
+        "Sample type: Nonclinical [college students]Sample size: 108 (Chatbot: 36; Virtual human: 36; Teletherapy: 36)Age (MeanSD):(24.876.59) yearsGender (Male): 33.3%",
+        "David",
+        "Therapist-delivered control (same content of MBSR, different delivery forms)",
+        "Stress (PSS, VAS, heart rate, heart rate variability, electrodermal activity, and skin temperature)",
+        "At post intervention, no significant differences in heart rate or heart rate variability between groups or over time; only the teletherapy group increased in electrodermal activity; skin temperature increased in all groups over time (p<0.001). At 4-week follow up, all groups had significantly reduced PSS score compared to baseline (Cohen\u2019s d: chatbot=0.36; virtual human=0.52; teletherapy=0.54); VAS score reduced in all groups over time (p<0.001)."
+      ],
+      "source_S4": [
+        "Karhiy (2023) 7",
+        "David, Education",
+        "Web-based",
+        "1. Rule-based2. AI-based",
+        "Stand-alone",
+        "1. Written2. Spoken, visual",
+        "1. Written2. Spoken, visual",
+        "1. No2. Yes",
+        "15-minute (one single session)",
+        "Mindfulness-based stress reduction",
+        "NR",
+        "NR"
+      ],
+      "year_alias": null,
+      "leave_out_source_literal": "-Karhiy 2023"
+    },
+    "Klos2021": {
+      "sample_type": "Nonclinical",
+      "platform": "Instant messenger",
+      "interaction_mode": "Text-based",
+      "response_generation": "AI-based",
+      "source_S3": [
+        "Klos (2021) 8 [Argentina, Educational]",
+        "Journal article",
+        "Mixed method,Randomized controlled trial",
+        "Sample type: Nonclinical [college students]Sample size: 181(Intervention: 99; Control: 82)Age (Range): 18-33 yearsGender (Male): 12.7%",
+        "Tess",
+        "Psychoeducation (National Institute of Mental Health\u2019s eBook on depression)",
+        "Depression (PHQ-9); Anxiety (GAD-7)",
+        "At post intervention, no between-group differences in depression and anxiety; significant intra intervention group decrease in anxiety (p=0.04). "
+      ],
+      "source_S4": [
+        "Klos (2021) 8",
+        "Tess, Therapy and education",
+        "Instant messenger (Facebook)",
+        "AI-based (Retrieval-based)",
+        "Stand-alone",
+        "Written",
+        "Written",
+        "No",
+        "8 weeks",
+        "Integrative (CBT, MI, emotion-focused therapy, solution-focused brief therapy)",
+        "NR",
+        "Crisis identification, Emergency assistance"
+      ],
+      "year_alias": null,
+      "leave_out_source_literal": "-Klos 2021"
+    },
+    "Liu2022b": {
+      "sample_type": "Clinical/subclinical",
+      "platform": "Instant messenger",
+      "interaction_mode": "Multimodal",
+      "response_generation": "AI-based",
+      "source_S3": [
+        "Liu (2022b) 9 [China, Educational]",
+        "Journal article",
+        "Mixed method,Randomized controlled trial",
+        "Sample type: Subclinical [college students screened with depression]Sample size: 83 (Intervention: 41; Control: 42)Age (MeanSD):(23.081.76) yearsGender (Male): 44.6%",
+        "XiaoNan",
+        "Psychoeducation (unguided bibliotherapy)",
+        "Depression (PHQ-9); Anxiety (GAD-7); Positive/negative affect (PANAS)",
+        "At post intervention, compared to the control group, greater reduction of depression (Cohen's d=0.83, p<0.01) and anxiety (Cohen's d=0.30, p=0.02) in the intervention group. No significant between-group difference in positive and negative affect."
+      ],
+      "source_S4": [
+        "Liu (2022b) 9",
+        "XiaoNan, Therapy and education",
+        "Instant messenger (WeChat)",
+        "AI-based (Retrieval-based)",
+        "Stand-alone",
+        "Spoken, written",
+        "Written",
+        "No",
+        "16 weeks",
+        "CBT",
+        "NR",
+        "Emergency assistance"
+      ],
+      "year_alias": null,
+      "leave_out_source_literal": "-Liu 2022 (b)"
+    },
+    "Maciejewski2023": {
+      "sample_type": "Nonclinical",
+      "platform": "Instant messenger",
+      "interaction_mode": "Multimodal",
+      "response_generation": "Rule-based",
+      "source_S3": [
+        "Maciejewski 10 (2023) [Poland, Educational]",
+        "Journal article",
+        "Quantitative,Randomized controlled trial",
+        "Sample type: Nonclinical [college students]Sample size: 372 (Intervention: 186; Control: 186)Age (MeanSD):(20.983.05) yearsGender (Male): 12.8%",
+        "Stressbot",
+        "Waitlist control",
+        "Stress (PSS-4); Coping self-efficacy (CSES)",
+        "At post intervention, greater improvements in the intervention group compared to the control group for stress (Cohen\u2019s d=-0.33) and coping self-efficacy (Cohen\u2019s d=0.50). At 1-month follow up, no between-group differences."
+      ],
+      "source_S4": [
+        "Maciejewski (2023) 10",
+        "Stressbot, Education",
+        "Instant messenger (Facebook)",
+        "Rule-based",
+        "Stand-alone",
+        "Spoken, written",
+        "Written",
+        "No",
+        "7-day (6 daily exercises and 1 day break, up to 30 minutes per day)",
+        "The Social Cognitive theory",
+        "No (did not use a co-design approach when developing this program)",
+        "NR"
+      ],
+      "year_alias": null,
+      "leave_out_source_literal": "-Maciejewski 2023"
+    },
+    "Matheson2023": {
+      "sample_type": "Nonclinical",
+      "platform": "Instant messenger",
+      "interaction_mode": "Text-based",
+      "response_generation": "Rule-based",
+      "source_S3": [
+        "Matheson (2023) 11 [Brazil, Community]",
+        "Journal article",
+        "Quantitative,Randomized controlled trial",
+        "Sample type: Nonclinical [community adolescents]Sample size: 1715 (Intervention: 858; Control: 857)Age (Range): 13-18 yearsGender (Male): 46.7%",
+        "Topity",
+        "Usual care",
+        "Positive/negative affect (PANAS-C8)",
+        "At post intervention, no significant group differences. At 1-week and 1-month follow up, significant improvements on all outcomes in the intervention group (Cohen\u2019s d: 0.15-0.23)."
+      ],
+      "source_S4": [
+        "Matheson (2023) 11",
+        "Topity, Therapy and education",
+        "Instant messenger (Facebook)",
+        "Rule-based",
+        "Stand-alone",
+        "Written",
+        "Written",
+        "Yes",
+        "72 hours (8 techniques in 3 theme clusters, each technique takes between 5-10 minutes)",
+        "Integrative (CBT for body image, positive body image and embodiment theory)",
+        "The construction of the digital interface of the chatbot was reviewed by adolescents and body image experts.",
+        "NR"
+      ],
+      "year_alias": null,
+      "leave_out_source_literal": "-Matheson 2023"
+    },
+    "Nicol2022": {
+      "sample_type": "Clinical/subclinical",
+      "platform": "Mobile application",
+      "interaction_mode": "Text-based",
+      "response_generation": "AI-based",
+      "source_S3": [
+        "Nicol (2022) 12 [USA, Hospital]",
+        "Journal article",
+        "Mixed method,Randomized controlled trial",
+        "Sample type: Clinical [adolescents newly diagnosed with depression and anxiety]Sample size: 18 (Intervention: 10; Control: 8)Age (MeanSD): (14.71.7) yearsGender (Male): 11.8%",
+        "W-GenZ",
+        "Waitlist control",
+        "Depression (PHQ-A); Anxiety (GAD-7);Mental health self-efficacy (MHSES)",
+        "At post intervention, greater improvement in depression (3.3 vs 2 units) and mental health self-efficacy (6.3 vs 2.8 units) in the intervention group compared to the control group; no between-group difference in anxiety."
+      ],
+      "source_S4": [
+        "Nicol (2022) 12",
+        "W-GenZ, Therapy and education",
+        "Mobile application",
+        "AI-based (Retrieval-based)",
+        "Stand-alone",
+        "Written",
+        "Written",
+        "No",
+        "4 weeks",
+        "Integrative (CBT, interpersonal psychotherapy for adolescents, and, dialectical behavior therapy)",
+        "NR",
+        "Crisis identification, Emergency assistance"
+      ],
+      "year_alias": null,
+      "leave_out_source_literal": "-Nicol 2022"
+    }
+  },
+  "category_order": {
+    "sample_type": [
+      "Clinical/subclinical",
+      "Nonclinical"
+    ],
+    "platform": [
+      "Instant messenger",
+      "Mobile application",
+      "Web-based"
+    ],
+    "interaction_mode": [
+      "Text-based",
+      "Multimodal"
+    ],
+    "response_generation": [
+      "Rule-based",
+      "AI-based"
+    ]
+  },
+  "unavailable_families": [
+    {
+      "family": "psychological_distress",
+      "factor": "interaction_mode",
+      "reason": "Original TableS9 separates Karhiy two interventions with shared-control N halved. Unmerged arm effects/means/SDs are not public. Do not duplicate merged primary effect."
+    },
+    {
+      "family": "psychological_distress",
+      "factor": "response_generation",
+      "reason": "Original TableS9 separates Karhiy two interventions with shared-control N halved. Unmerged arm effects/means/SDs are not public. Do not duplicate merged primary effect."
+    }
+  ],
+  "allocation_source": "Original TableS3 sample types/TableS4 platforms/modalities/responses, before outcomes; no study outcome used in allocation."
+}

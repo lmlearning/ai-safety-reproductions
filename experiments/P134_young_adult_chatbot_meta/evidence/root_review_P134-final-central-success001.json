@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-11T00:59:00.232796+00:00",
+  "paper_id": "P134",
+  "central_success": true,
+  "full_paper_success": false,
+  "all337_fixed_primary_passed": true,
+  "all51910_independent_integrity_passed": true,
+  "final_references_verified": 4119,
+  "hash_mismatches": [],
+  "complete_report_read": true,
+  "all11_pool_estimates_and8_supporting_failures_read": true,
+  "numeric_support_passed": 324,
+  "numeric_support_failed": 8,
+  "unprinted_tau_entries": 4,
+  "native_analysis_and_audit_complete": true,
+  "actual_tool_exits": [
+    0,
+    0
+  ],
+  "all_owned_absent": true,
+  "no_post_outcome_scientific_scope_or_method_change": true,
+  "engineering_readiness_amendment_before_any_original_statistics": true,
+  "representative_overall_mental_plot_visually_checked": true,
+  "full_paper_omissions": "Original trials/search/screening/riskratings/GRADE, exact unavailable author subgroup allocations/covariance/trim-fill",
+  "report_json_sha256": "a96d70d49ac3bd5c665d968ed7bd408040dee353a3a666d43e8eaccab9562299",
+  "report": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\final_report002\\SUMMARY_REPORT.html"
+}

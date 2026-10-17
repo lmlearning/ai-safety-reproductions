@@ -1,0 +1,109 @@
+{
+  "schema": "FALSE_ROOT_P157_C1_C4_SOURCE_BOUND_COMPATIBILITY_TEMPLATE001",
+  "ROOT_complete_C1_C4_source_bound_review_accepted": true,
+  "near_policy_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ADOPTED_PROSPECTIVE_NEAR_SUCCESS_P019_P157_POLICY915.json",
+    "bytes": 18446,
+    "sha256": "2b6c5ed9074dd924dc4461299808dd552d7ad1cb72fef5481585b9822303842c"
+  },
+  "source_target_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\COMPLETE_ALL3279_PUBLISHED_FIGURE5_PIXEL_INTERVALS011.json",
+    "bytes": 3153387,
+    "sha256": "85d3edc3a680d2832365118c5a0bcf91b86c367c5e500a0ad4c2b848570054f4"
+  },
+  "same_original_common_grant_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\papers\\P157_loop_think_generalize\\review\\source_preparation001\\ROOT_ONE_P157_PUBLIC_ACQUISITION_ONLY_GRANT270.json",
+    "bytes": 1948,
+    "sha256": "7e4ef94db42f40b9631558d3aa9b4f1620c2392f41d1c0770dd935a5c3f0e87a"
+  },
+  "original_audit_source_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\papers\\P157_loop_think_generalize\\review\\source_preparation002\\p157_audit002.py",
+    "bytes": 6886,
+    "sha256": "f8f8ad46c1c9b389d8a9bbb94211e4a5d71e1fbff1cefcd1b0323bc2fa098402"
+  },
+  "complete_full_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\COMPLETE_ALL_NINE_FULL.json",
+    "bytes": 90849229,
+    "sha256": "491c6c8a6bd69a69342cc7ddddb7fd84275d666e37ab6603454cd3064399606d"
+  },
+  "whole_audit_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\COMPLETE_WHOLE_AUDIT.json",
+    "bytes": 203083,
+    "sha256": "96981518e3c9c4fb4b1b1eef76c0e4a1b7042df329d7c27edfe140d80c2a2624"
+  },
+  "published_comparison_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\COMPLETE_ALL3279_PUBLISHED_COMPARISON.json",
+    "bytes": 1932875,
+    "sha256": "aca8ffd282c64ab339204e583b24be9cc3fa85ebdc8764e57bbfba4c746162d2"
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "source_role_verbatim": {
+        "id": "C1",
+        "source": "Figure5 and Section6.3 inference-time iteration scaling",
+        "claim": "Scaling inference recurrence can unlock reasoning depths beyond training, with the source stating benefit for models trained with R>4. Assess the complete fixed r1..r8 panels and their published ID boundaries; do not invent monotonicity at every neighboring cell."
+      },
+      "status": "COMPATIBLE",
+      "source_bound_reason": "Complete r1..r8 published panels and all own printed ID boundaries retain the source pattern: increased inference recurrence unlocks OOD reasoning for the R>4 trained models, visibly across r5..r8, with r1..r4 retained as context. This is a complete-profile judgment, not an adjacent monotonicity or best-depth test. All2304 fixed published cells lie in their frozen compatible source unions. No source-resolved broad disappearance or reversal appears.",
+      "scope": "All8 fixed panels, all12 displayed recurrences and all24 hops2..25; entire40x39 fixed counters retained by whole audit. Printed ID maxima2,6,9,10,12,13,16,16 remain as source context.",
+      "excluded_inference": "No new optimal-depth/frontier, accuracy cutoff, per-cell benefit requirement or neighboring-cell monotonicity."
+    },
+    {
+      "id": "C2",
+      "source_role_verbatim": {
+        "id": "C2",
+        "source": "Figure5 fixed versus dynamic recurrence",
+        "claim": "The dynamic training setup supports deeper generalization in the original curriculum setting. Keep the complete r_dyn panel and all fixed panels, without extending the claim to the separate matched-training Figure7 experiment."
+      },
+      "status": "COMPATIBLE",
+      "source_bound_reason": "Complete dynamic h2..40/r1..24 profile retains substantially deeper generalization in the source curriculum setting, alongside all fixed panels and the common published h2..25 overlap. The dynamic printed ID boundary22 and fixed boundaries are retained. All936 nonadaptive dynamic published cells are members of frozen source unions. This preserves the descriptive source advantage/profile; it does not causally isolate training strategy from different curriculum complexity.",
+      "scope": "Whole975-cell dynamic panel including primaryadaptive39, plus all2304 fixed cells and all14040 underlying fixed counters.",
+      "excluded_inference": "No matched-training Figure7 result or causal claim is imported; no retrospectively chosen fixed-depth envelope."
+    },
+    {
+      "id": "C3",
+      "source_role_verbatim": {
+        "id": "C3",
+        "source": "Figure5 and the overthinking paragraph of Section6.3",
+        "claim": "Excessive inference recurrence is limited by overthinking; source gives the dynamic setup beyond15iterations as its example. Preserve all displayed dynamic rows1..24 and all39hops, without requiring a strict negative slope at every adjacent point."
+      },
+      "status": "COMPATIBLE",
+      "source_bound_reason": "All39-hop dynamic row vectors, especially the source-specified beyond15-iteration rows16..24 over OOD23..40, retain a plateau/declining tail rather than sustained substantial further OOD improvement. Small local count changes and irregular adjacent steps remain compatible with the source claim that further compute no longer improves extrapolation. Every936 dynamic fixed displayed cell remains in its source union; no source-resolved late-compute pattern is inverted.",
+      "scope": "All24 displayed dynamic recurrence rows across39 hops, with entire fixed-panel context. No tail is omitted and no new region-specific2pp guarantee is assumed.",
+      "excluded_inference": "No strictly negative per-step slope, optimum estimate, Figure8 logit-margin mechanism or extra monotonicity gate."
+    },
+    {
+      "id": "C4",
+      "source_role_verbatim": {
+        "id": "C4",
+        "source": "Figure5 adaptive r-star row",
+        "claim": "Retain all39primary adaptive accuracies using the published epsKL=.01 convention; preserve the complete separate .001 sensitivity. No Figure9efficiency or fullFigure10ablation claim is added."
+      },
+      "status": "COMPATIBLE",
+      "source_bound_reason": "The primaryadaptive epsKL=.01 complete39-hop accuracy profile is retained.38 points satisfy old exact source-union membership; hop32 is630/750=.84 versus frozen[214/256,215/256), with distance-to-union infimum exactly1/6400=.00015625 (0.015625 percentage points). This minute one-cell exception is far inside unchanged915 bounds and cannot reverse the complete adaptive profile. The .001 complete sensitivity is retained separately, never substituted. Whole audit verifies actual FP32 halting predicates and selected-logit identity with zero retained argmax/correctness-impact differences; no independent neural-forward rerun is claimed.",
+      "scope": "All39 primaryadaptive points h2..40 with epsKL=.01,entropy3,max16/min1; complete.001 sensitivity remains diagnostic.",
+      "excluded_inference": "No adaptive-beats-every-depth/best-depth requirement; no Figure9 efficiency or Figure10 ablation claim."
+    }
+  ],
+  "paper_credit": 0,
+  "UTC": "2026-10-17T12:28:22.100654+00:00",
+  "independent_C1_C4_interpretation_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_closed_C1_C4_independent_interpretation_RSTAT001\\INDEPENDENT_COMPLETE_CLOSED_P157_C1_C4_COMPATIBILITY_RSTAT001.json",
+    "bytes": 11169,
+    "sha256": "7b9609bac06ab7b362607299513d660ff6b35958481b7e85ef7ebb4f733f8dcb"
+  },
+  "independent_complete_scope_custody_review_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_closed_audit007_scope_review_P092042\\INDEPENDENT_COMPLETE_CLOSED_P157_AUDIT007_SCOPE_NATIVE_PRODUCTS_P092042.json",
+    "bytes": 49249,
+    "sha256": "eed2ce5ef39eef190bd65a470e19a38f9bf82edd6394512b06c29c769e6703b9"
+  },
+  "actual_quantitative_classifier_tool": "bc325e",
+  "actual_quantitative_classifier_tool_exit": 0,
+  "actual_full_quantitative_vector_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_full005\\near915001\\COMPLETE_ALL3279_ALL14040_NEAR_BOUND_CANDIDATE001.json",
+    "bytes": 2599011,
+    "sha256": "4c3dd39089b3babab4d8e92f1ae1662655a715ea26f245bb4a2aad4950db9f75"
+  },
+  "ROOT_review": "All original C1-C4 role wording and complete published comparison reviewed. All fixed and nonadaptive dynamic displayed cells remain in source interval unions. The sole adaptive hop32 exception is1/6400 beyond its original source union. Whole profiles remain compatible with the source claims; no invented monotonicity, causal training isolation, best-depth or efficiency result. Original strict AND remains false. Near bounds are unchanged915."
+}

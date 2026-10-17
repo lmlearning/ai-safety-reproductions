@@ -1,0 +1,19 @@
+{
+  "audit_id": "P079-audit-001",
+  "audited_run": "P079-central-001",
+  "started_at_utc": "2026-10-10T18:23:36.711869+00:00",
+  "finished_at_utc": "2026-10-10T18:23:37.673296+00:00",
+  "checks_passed": 1782,
+  "checks_total": 1782,
+  "all_integrity_and_numerical_audit_checks_pass": true,
+  "published_gates_passed": 62,
+  "published_gates_total": 65,
+  "all_published_gates_pass": false,
+  "independent_engine": "Raw CSV, manual design, QR OLS, manual HC3/cluster covariance, manual Welch/Pearson/correlation, all150000 independently replayed bootstrap draws; no runner/original helper imports",
+  "wall_seconds": 0.9620187000837177,
+  "cpu_seconds": 0.9375,
+  "peak_working_set_bytes": 149172224,
+  "paid_api_spend": 0,
+  "fresh_gpu_inference": false,
+  "source_display_truncation_diagnostic_only": true
+}

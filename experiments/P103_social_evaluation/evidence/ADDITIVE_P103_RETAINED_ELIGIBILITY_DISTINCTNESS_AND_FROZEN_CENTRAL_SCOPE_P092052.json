@@ -1,0 +1,318 @@
+{
+  "schema": "ADDITIVE_P103_RETAINED_IDENTITY_RECENCY_CITATION_AND_PREOUTCOME_SCOPE_P092052",
+  "UTC": "2026-10-17T14:14:59.972598+00:00",
+  "status": "RETAINED_EXTENDED_SELECTION_AND_DISTINCT_CENTRAL_SCOPE_SUPPORTED__NO_NUMERICAL_REVIEW_OR_AWARD",
+  "identity": {
+    "paper_id": "P103",
+    "title": "Evidence of a social evaluation penalty for using AI",
+    "DOI": "10.1073/pnas.2426766122",
+    "arxiv_id": null,
+    "S2_paperId": "f1c8be9a387fcb67997ad778f0cd20d77082f3ab",
+    "PMC": "PMC12088386",
+    "PubMed": "40339114",
+    "source_URLs": [
+      "https://doi.org/10.1073/pnas.2426766122",
+      "https://osf.io/beun6/"
+    ]
+  },
+  "citation": {
+    "principal": "Semantic Scholar Graph API exact DOI batch",
+    "retained_first_selection_count": 78,
+    "capture_UTC": "2026-10-10T19:31:56.699445+00:00",
+    "raw_source_key": "citation_raw",
+    "raw_pointer": "/0",
+    "request_source_key": "citation_request",
+    "exact_request_URL": "https://api.semanticscholar.org/graph/v1/paper/batch?fields=title,year,publicationDate,citationCount,externalIds,url,openAccessPdf",
+    "exact_requested_identity": "DOI:10.1073/pnas.2426766122",
+    "HTTPstatus": 200,
+    "body_SHA_matches_request_eligibility_catalogue": true,
+    "retained_indexed_publicationDate_not_firstrelease": "2025-05-08",
+    "existing_extended_gate": 40,
+    "passes_existing_gate": true,
+    "not_new_or_refreshed": true,
+    "catalogue_join": {
+      "source_key": "catalogue_prior",
+      "pointer": "/27",
+      "count": 78,
+      "provider": "Semantic Scholar Graph API exact DOI batch",
+      "capture_UTC": "2026-10-10T19:31:56.699445+00:00",
+      "same_raw_SHA": true
+    },
+    "earlier_catalogue_read_extent": "Named base candidates.json,semantic_scholar_candidates.json and additional_shortlist/phases2,3 yielded no exact DOI row; existing root eligibility catalogue /27 carries the same78/principal/requestSHA. No alternate count/provider was selected. Not an exhaustive proof of the first-ever historical request; no broad recursive rehash.",
+    "transport_order_limit": "Saved raw body/request identities and capture match; historical raw-before-parse instruction ordering not independently replayed in this task."
+  },
+  "chronology": {
+    "adopted_earliest_substantive_public_release": "2025-04-23",
+    "evidence": "OSFbeun6 whole110 unique retained log events in two complete pages: one made_public on23Apr2025 and no made_private; earlier2024 project creation and15Mar2025 original data-file creation occurred before the recorded public transition.",
+    "visibility_events": [
+      {
+        "source_key": "OSF_log1",
+        "pointer": "/data/12",
+        "action": "made_public",
+        "date_literal": "2025-04-23T23:34:36.205942"
+      },
+      {
+        "source_key": "OSF_log2",
+        "pointer": "/data/9",
+        "action": "project_created",
+        "date_literal": "2024-09-22T19:39:31.032709"
+      }
+    ],
+    "date_literal_limit": "OSF event strings retained exactly without appending a timezone token; existing eligibility calls theseUTC. Date-band unaffected.",
+    "published_VOR": "2025-05-08",
+    "private_project_creation": "2024-09-22",
+    "version_changes": "Study1 raw file v1created15Mar2025; v2May14anonymization/source-version changes separately reconciled before outcomes. This metadata task opens no original CSV.",
+    "window": "EXTENDED_OR_SO",
+    "window_bounds": "2025-04-10..2025-10-09",
+    "journal_date_reset_used": false,
+    "limitations": "Whole retained node history is positive visibility evidence, not a global absence proof for every possible external preprint/title alias. Existing eligibility reports exact/historical-title searches and publisher checks; no new search. Private uploads/view-only reviewer links are not automatically public empirical release."
+  },
+  "preoutcome_scope": {
+    "proposal_created_UTC": "2026-10-10T20:06:32.837729+00:00",
+    "ROOT_scope_approval_UTC": "2026-10-10T20:08:19.139218+00:00",
+    "freeze_UTC": "2026-10-10T20:15:10.986403+00:00",
+    "ROOT_no_outcomes_observed": true,
+    "ROOT_scope_only_no_execution_authority": true,
+    "all11_inputs_source_verified_by_ROOT": 11,
+    "all108_targets": 108,
+    "central_claim": "People assigned to imagine using a generative AI tool anticipate a social evaluation penalty and lower willingness to disclose use relative to a dashboard tool.",
+    "complete_selected_contribution": [
+      "All six original primary outcomes with group means/SDs, independent-group Welch tests/df/two-sided p and mean-difference 95% CIs.",
+      "All six original Figure 1 pooled Cohen d and approximate 95% CIs.",
+      "All six original raw Cronbach alphas, all 21 original SI correlations, fixed sample/exclusion/demographic accounting.",
+      "Complete separate original Study 1 manipulation-check pilot: N201, overall correct percentage; source group percentages/Q88 counts retained as supporting outputs and Wilson CI as new supporting uncertainty, no source-target credit."
+    ],
+    "scope_source_evidence": [
+      "completeStudy1Rmd",
+      "completeMC1Rmd",
+      "originalVORStudy1Methods/Results/Discussion",
+      "originalSITableS1page5",
+      "MC1SIpage11"
+    ],
+    "scope_limits": "Anticipation only, originaldata statistical reproduction. Doesnotestablishactualperception/hiring/mediation, norms or independent humanrecruitment/fullpaper.",
+    "fixed_cohort": "Original500participants,497analytic after original exclusions; all201 separate MC1 records; no new recruitment/model generation. All six outcome scales, mean differences/Welch uncertainty,Figure1effect sizes,raw reliabilities,21SIcorrelations and fixed demographic/accounting targets included.",
+    "source_discrepancies": "Original3-item prose versus4-item source/materials, actualeducationcode mapping, signedAI-dashboard effects versus positive prose magnitudes and exactMC1branch strings were fixed prospectively; no post-outcome selection here. Later independent age-missingness repair is outside this identity/scope task and remains with numerical reviewers.",
+    "not_full": true,
+    "omissions": [
+      {
+        "family": "Study S1/Pollfish secondary replication and subset robustness",
+        "reason": "Full released source preserved; published excluded-asked-not-AI robustness cohort N419 conflicts with raw Q6 No361/Yes139 and platform never417; no exact original subset producer. No alternate cohort will be invented and no Pollfish success claimed."
+      },
+      {
+        "family": "Study S2/norms secondary experiment",
+        "reason": "Distinct later secondary norms/perspective question, omitted from original-primary Study 1 scope; complete numeric ANOVA targets/figure producer uncertainty remain in full-source review. No norms/mechanism inference claimed."
+      },
+      {
+        "family": "Studies 2-4 actual perception, hiring and mediation",
+        "reason": "Separate main experiments; composite/first-item, demographic-producer and original PROCESS/secondary-probe gaps frozen in whole-study review. This reproduction would establish anticipation only, not observed penalty, hiring behavior or mediation."
+      }
+    ],
+    "historical_whole_source_assessment": "Initial broad anticipation assessment also considered Pollfish/norms. Subsequent original-primary-only scope was separately explicit and ROOTapproved before outcomes; the broader source review is not silently represented as the executed scope.",
+    "serialization_note": "Original whole-study review contains literal control characters and is not strictJSON. Existing separately pinned serialization supplement preserves it and provides valid_serialization; no scientific source edited here."
+  },
+  "distinctness": {
+    "registry_snapshot_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\SUCCESS_REGISTRY.json",
+      "bytes": 42797,
+      "sha256": "b62d5710004dc2723fac2eab8bf3facdd4143b2934d39b38b0bceaaecb89f18a"
+    },
+    "counted19_comparisons": [
+      {
+        "paper_id": "P041",
+        "exact_normalized_title_match": false,
+        "DOI_match": false,
+        "paper_id_match": false
+      },
+      {
+        "paper_id": "P065",
+        "exact_normalized_title_match": false,
+        "DOI_match": false,
+        "paper_id_match": false
+      },
+      {
+        "paper_id": "P066",
+        "exact_normalized_title_match": false,
+        "DOI_match": false,
+        "paper_id_match": false
+      },
+      {
+        "paper_id": "P068",
+        "exact_normalized_title_match": false,
+        "DOI_match": false,
+        "paper_id_match": false
+      },
+      {
+        "paper_id": "P072",
+        "exact_normalized_title_match": false,
+        "DOI_match": false,
+        "paper_id_match": false
+      },
+      {
+        "paper_id": "P080",
+        "exact_normalized_title_match": false,
+        "DOI_match": false,
+        "paper_id_match": false
+      },
+      {
+        "paper_id": "P120",
+        "exact_normalized_title_match": false,
+        "DOI_match": false,
+        "paper_id_match": false
+      },
+      {
+        "paper_id": "P134",
+        "exact_normalized_title_match": false,
+        "DOI_match": false,
+        "paper_id_match": false
+      },
+      {
+        "paper_id": "P132",
+        "exact_normalized_title_match": false,
+        "DOI_match": false,
+        "paper_id_match": false
+      },
+      {
+        "paper_id": "P135",
+        "exact_normalized_title_match": false,
+        "DOI_match": false,
+        "paper_id_match": false
+      },
+      {
+        "paper_id": "P133",
+        "exact_normalized_title_match": false,
+        "DOI_match": false,
+        "paper_id_match": false
+      },
+      {
+        "paper_id": "P150",
+        "exact_normalized_title_match": false,
+        "DOI_match": false,
+        "paper_id_match": false
+      },
+      {
+        "paper_id": "P069",
+        "exact_normalized_title_match": false,
+        "DOI_match": false,
+        "paper_id_match": false
+      },
+      {
+        "paper_id": "P079",
+        "exact_normalized_title_match": false,
+        "DOI_match": false,
+        "paper_id_match": false
+      },
+      {
+        "paper_id": "P028",
+        "exact_normalized_title_match": false,
+        "DOI_match": false,
+        "paper_id_match": false
+      },
+      {
+        "paper_id": "P161",
+        "exact_normalized_title_match": false,
+        "DOI_match": false,
+        "paper_id_match": false
+      },
+      {
+        "paper_id": "P156",
+        "exact_normalized_title_match": false,
+        "DOI_match": false,
+        "paper_id_match": false
+      },
+      {
+        "paper_id": "P165",
+        "exact_normalized_title_match": false,
+        "DOI_match": false,
+        "paper_id_match": false
+      },
+      {
+        "paper_id": "P157",
+        "exact_normalized_title_match": false,
+        "DOI_match": false,
+        "paper_id_match": false
+      }
+    ],
+    "no_exact_title_DOI_or_id_match19": true,
+    "exactS2id_absent_counted_records": true,
+    "no_global_alias_or_independent_cohort_claim": true
+  },
+  "pending": [
+    "CPU/RSTAT whole108 numerical/near reviews and actual closed native/source/result evidence remain separate; this dossier does not assess them.",
+    "ROOT alone decides any classification/count/adoption. No oldstrictfailure is promoted by eligibility metadata."
+  ],
+  "source_refs": {
+    "eligibility": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P103_social_evaluation\\ELIGIBILITY_REVIEW_20261010.json",
+      "bytes": 2607,
+      "sha256": "367e0e35aa3d23b6264795968a8afff91acfc10c760bac2e1082f3bb6e8d61cf"
+    },
+    "citation_raw": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P103_social_evaluation\\sources\\P103_P105_s2_exact_batch.source",
+      "bytes": 1607,
+      "sha256": "e5c129515e698acc393da252a38f0af33994b4f6407bdd614820b2fde2eada39"
+    },
+    "citation_request": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P103_social_evaluation\\sources\\P103_P105_s2_exact_batch.request.json",
+      "bytes": 438,
+      "sha256": "a8cff8db51bc62ba045e62bb00563c1daea57b7f0efd3dc79a96cb0cf1cd6cb9"
+    },
+    "OSF_log1": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P103_social_evaluation\\sources\\osf_logs.source",
+      "bytes": 100888,
+      "sha256": "30a8d0e364d25888fb2bdb102e34fae7d51639435017a117ae3ff09215efa20d"
+    },
+    "OSF_log2": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P103_social_evaluation\\sources\\osf_logs_page2.source",
+      "bytes": 9591,
+      "sha256": "79d602a547f6e89a70c2ffd1f19a0e007368012edd3343cdc4fdd05e29a99758"
+    },
+    "OSF_versions": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P103_social_evaluation\\sources\\osf_versions_study1.source",
+      "bytes": 1167,
+      "sha256": "553500120a9d51da2ea915cd94974ce8f327b41da14b2763a3d79db0734b9d1c"
+    },
+    "scope_proposal": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P103_social_evaluation\\PRIMARY_STUDY1_PROSPECTIVE_SCOPE_20261010.json",
+      "bytes": 34308,
+      "sha256": "0438e521999a4ac09cbb6249c8155694fd512ccab5ace8f0e1b3ece5151f414a"
+    },
+    "ROOT_scope": {
+      "path": "{{REPRODUCTION_ROOT}}\\environment\\root_review_P103-primary-scope-001.json",
+      "bytes": 2387,
+      "sha256": "43913b1be974cf6bb96740b8684b2056f8a33a636089686da1db35176297edd8"
+    },
+    "preregistration": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P103_social_evaluation\\PREREGISTRATION.json",
+      "bytes": 3459,
+      "sha256": "c1aa9dd2b6d42bb2bd00249f6456fee38781b7165ad4b44e36b8271cf2638bcb"
+    },
+    "whole_source_original": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P103_social_evaluation\\WHOLE_STUDY_SCOPE_SOURCE_REVIEW_20261010.json",
+      "bytes": 13228,
+      "sha256": "64ae7a2a933809a0008d06e4d28eb8cb0c22b390bf59e1a478f2a41e4d17e90c"
+    },
+    "whole_source_serialization_addendum": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P103_social_evaluation\\WHOLE_STUDY_SCOPE_SOURCE_REVIEW_SERIALIZATION_SUPPLEMENT_20261010.json",
+      "bytes": 15199,
+      "sha256": "b508b5ce7530738ca18f09e74d2dc5f6a934cefbfaa12240d1c5ec560af83ef4"
+    },
+    "catalogue_prior": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\root_eligibility_shortlist_20261010.json",
+      "bytes": 65893,
+      "sha256": "b90daf3e56cc774d0c236d3ba221fa05ba9ebc654f2437f72a04a32046af452b"
+    },
+    "current19": {
+      "path": "{{REPRODUCTION_ROOT}}\\operations\\final_summary_preparation19\\COMPLETE_CURRENT19_COUNTED_PAPER_SOURCE_CATALOGUE001.json",
+      "bytes": 87642,
+      "sha256": "5dff58e251f1ef55ec2cec982c0fa267cd120d4a0fab90520f921803e322ad4c"
+    }
+  },
+  "operations": {
+    "network_refresh": false,
+    "scientific_outcome_or_rawCSV_read": false,
+    "native_process_runtime_import_or_run": false,
+    "registry_source_protocol_or_threshold_changed": false,
+    "count_or_execution_authority": false
+  },
+  "all_writers_closed_after_seal": true
+}

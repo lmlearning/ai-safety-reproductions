@@ -1,0 +1,39 @@
+{
+  "CL01": {
+    "role": "PRIMARY",
+    "passed": true
+  },
+  "CL02": {
+    "role": "PRIMARY",
+    "passed": true
+  },
+  "CL03": {
+    "role": "PRIMARY",
+    "passed": true
+  },
+  "CL04": {
+    "role": "SUPPORTING",
+    "passed": false
+  },
+  "CL05": {
+    "role": "SUPPORTING",
+    "passed": true
+  },
+  "CL06": {
+    "role": "SUPPORTING",
+    "passed": true,
+    "absence_of_bias_not_established": true
+  },
+  "CL07": {
+    "role": "MANDATORY_DIAGNOSTIC_CENSUS",
+    "passed": true
+  },
+  "CL08": {
+    "role": "MANDATORY_SOURCE_REPORT",
+    "passed": true
+  },
+  "CL09": {
+    "role": "MANDATORY_INPUT_CENSUS",
+    "passed": true
+  }
+}

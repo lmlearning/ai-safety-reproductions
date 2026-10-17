@@ -1,0 +1,2479 @@
+{
+  "schema": "P161_SHARED_LITERAL_FACTS_QUERY_CONTRACT002",
+  "UTC": "2026-10-15T17:12:00.697233+00:00",
+  "metadata_PID": 69608,
+  "native_birth": "UNMEASURED",
+  "root_design340_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\papers\\P161_ai_grading\\PROSPECTIVE_COMPLETE_ICC_AND_WHOLE_AUXILIARY_DESIGN340.json",
+    "bytes": 7228,
+    "sha256": "4f146826e022520f97ca79a2e131da34861e571f1b6daf89bfe6fcfee8374e4e"
+  },
+  "raters": [
+    "AI",
+    "Human-Z",
+    "Human-S"
+  ],
+  "pairs": [
+    "AI_HumanZ",
+    "AI_HumanS",
+    "HumanZ_HumanS"
+  ],
+  "endpoints": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "Total"
+  ],
+  "ordered_fact_queries": [
+    {
+      "id": "DESC.All.AI",
+      "fields": [
+        "n",
+        "mean",
+        "sd",
+        "minimum",
+        "maximum",
+        "skewness",
+        "kurtosis",
+        "raw_skewness",
+        "raw_excess_kurtosis"
+      ]
+    },
+    {
+      "id": "DESC.All.Human-Z",
+      "fields": [
+        "n",
+        "mean",
+        "sd",
+        "minimum",
+        "maximum",
+        "skewness",
+        "kurtosis",
+        "raw_skewness",
+        "raw_excess_kurtosis"
+      ]
+    },
+    {
+      "id": "DESC.All.Human-S",
+      "fields": [
+        "n",
+        "mean",
+        "sd",
+        "minimum",
+        "maximum",
+        "skewness",
+        "kurtosis",
+        "raw_skewness",
+        "raw_excess_kurtosis"
+      ]
+    },
+    {
+      "id": "DESC.UoC.AI",
+      "fields": [
+        "n",
+        "mean",
+        "sd",
+        "minimum",
+        "maximum",
+        "skewness",
+        "kurtosis",
+        "raw_skewness",
+        "raw_excess_kurtosis"
+      ]
+    },
+    {
+      "id": "DESC.UoC.Human-Z",
+      "fields": [
+        "n",
+        "mean",
+        "sd",
+        "minimum",
+        "maximum",
+        "skewness",
+        "kurtosis",
+        "raw_skewness",
+        "raw_excess_kurtosis"
+      ]
+    },
+    {
+      "id": "DESC.UoC.Human-S",
+      "fields": [
+        "n",
+        "mean",
+        "sd",
+        "minimum",
+        "maximum",
+        "skewness",
+        "kurtosis",
+        "raw_skewness",
+        "raw_excess_kurtosis"
+      ]
+    },
+    {
+      "id": "DESC.AuT.AI",
+      "fields": [
+        "n",
+        "mean",
+        "sd",
+        "minimum",
+        "maximum",
+        "skewness",
+        "kurtosis",
+        "raw_skewness",
+        "raw_excess_kurtosis"
+      ]
+    },
+    {
+      "id": "DESC.AuT.Human-Z",
+      "fields": [
+        "n",
+        "mean",
+        "sd",
+        "minimum",
+        "maximum",
+        "skewness",
+        "kurtosis",
+        "raw_skewness",
+        "raw_excess_kurtosis"
+      ]
+    },
+    {
+      "id": "DESC.AuT.Human-S",
+      "fields": [
+        "n",
+        "mean",
+        "sd",
+        "minimum",
+        "maximum",
+        "skewness",
+        "kurtosis",
+        "raw_skewness",
+        "raw_excess_kurtosis"
+      ]
+    },
+    {
+      "id": "CORR.1.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.1.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.1.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.1.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.1.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.1.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.1.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.1.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.1.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.1.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.1.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.1.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.2.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.2.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.2.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.2.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.2.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.2.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.2.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.2.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.2.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.2.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.2.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.2.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.3.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.3.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.3.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.3.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.3.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.3.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.3.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.3.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.3.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.3.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.3.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.3.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.4.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.4.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.4.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.4.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.4.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.4.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.4.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.4.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.4.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.4.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.4.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.4.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.5.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.5.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.5.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.5.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.5.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.5.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.5.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.5.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.5.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.5.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.5.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.5.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.6.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.6.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.6.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.6.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.6.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.6.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.6.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.6.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.6.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.6.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.6.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.6.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.7.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.7.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.7.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.7.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.7.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.7.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.7.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.7.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.7.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.7.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.7.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.7.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.8.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.8.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.8.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.8.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.8.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.8.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.8.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.8.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.8.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.8.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.8.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.8.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.9.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.9.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.9.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.9.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.9.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.9.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.9.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.9.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.9.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.9.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.9.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.9.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.Total.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.Total.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.Total.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.Total.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.Total.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.Total.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.Total.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.Total.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "CORR.Total.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "pearson_r",
+        "pearson_p",
+        "spearman_rho",
+        "spearman_p",
+        "x_ranks",
+        "y_ranks"
+      ]
+    },
+    {
+      "id": "PAIRED.Total.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "mean_difference",
+        "sd_difference",
+        "t",
+        "df",
+        "p",
+        "bonferroni_p",
+        "d"
+      ]
+    },
+    {
+      "id": "ICC.common3.Total.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ICC.pairwise.Total.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "MSR",
+        "MSC",
+        "MSE",
+        "single",
+        "average"
+      ]
+    },
+    {
+      "id": "ALPHA.AI.raw_listwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "alpha"
+      ]
+    },
+    {
+      "id": "ALPHA.AI.standardized_listwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "alpha"
+      ]
+    },
+    {
+      "id": "ALPHA.AI.raw_pairwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "alpha"
+      ]
+    },
+    {
+      "id": "ALPHA.AI.standardized_pairwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "alpha"
+      ]
+    },
+    {
+      "id": "PCA.AI.correlation_listwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "eigenvalues",
+        "percentages"
+      ]
+    },
+    {
+      "id": "PCA.AI.covariance_listwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "eigenvalues",
+        "percentages"
+      ]
+    },
+    {
+      "id": "PCA.AI.correlation_pairwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "eigenvalues",
+        "percentages"
+      ]
+    },
+    {
+      "id": "PCA.AI.covariance_pairwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "eigenvalues",
+        "percentages"
+      ]
+    },
+    {
+      "id": "PCA.AI.correlation_mean_substitution",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "eigenvalues",
+        "percentages"
+      ]
+    },
+    {
+      "id": "PCA.AI.covariance_mean_substitution",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "eigenvalues",
+        "percentages"
+      ]
+    },
+    {
+      "id": "ALPHA.Human-Z.raw_listwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "alpha"
+      ]
+    },
+    {
+      "id": "ALPHA.Human-Z.standardized_listwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "alpha"
+      ]
+    },
+    {
+      "id": "ALPHA.Human-Z.raw_pairwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "alpha"
+      ]
+    },
+    {
+      "id": "ALPHA.Human-Z.standardized_pairwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "alpha"
+      ]
+    },
+    {
+      "id": "PCA.Human-Z.correlation_listwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "eigenvalues",
+        "percentages"
+      ]
+    },
+    {
+      "id": "PCA.Human-Z.covariance_listwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "eigenvalues",
+        "percentages"
+      ]
+    },
+    {
+      "id": "PCA.Human-Z.correlation_pairwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "eigenvalues",
+        "percentages"
+      ]
+    },
+    {
+      "id": "PCA.Human-Z.covariance_pairwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "eigenvalues",
+        "percentages"
+      ]
+    },
+    {
+      "id": "PCA.Human-Z.correlation_mean_substitution",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "eigenvalues",
+        "percentages"
+      ]
+    },
+    {
+      "id": "PCA.Human-Z.covariance_mean_substitution",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "eigenvalues",
+        "percentages"
+      ]
+    },
+    {
+      "id": "ALPHA.Human-S.raw_listwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "alpha"
+      ]
+    },
+    {
+      "id": "ALPHA.Human-S.standardized_listwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "alpha"
+      ]
+    },
+    {
+      "id": "ALPHA.Human-S.raw_pairwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "alpha"
+      ]
+    },
+    {
+      "id": "ALPHA.Human-S.standardized_pairwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "alpha"
+      ]
+    },
+    {
+      "id": "PCA.Human-S.correlation_listwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "eigenvalues",
+        "percentages"
+      ]
+    },
+    {
+      "id": "PCA.Human-S.covariance_listwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "eigenvalues",
+        "percentages"
+      ]
+    },
+    {
+      "id": "PCA.Human-S.correlation_pairwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "eigenvalues",
+        "percentages"
+      ]
+    },
+    {
+      "id": "PCA.Human-S.covariance_pairwise",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "eigenvalues",
+        "percentages"
+      ]
+    },
+    {
+      "id": "PCA.Human-S.correlation_mean_substitution",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "eigenvalues",
+        "percentages"
+      ]
+    },
+    {
+      "id": "PCA.Human-S.covariance_mean_substitution",
+      "fields": [
+        "case_rows",
+        "pair_counts",
+        "matrix",
+        "eigenvalues",
+        "percentages"
+      ]
+    },
+    {
+      "id": "BA.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "x",
+        "y",
+        "mean_bias",
+        "sd_difference",
+        "loa_low",
+        "loa_high",
+        "intercept",
+        "slope",
+        "slope_p",
+        "r_squared",
+        "fitted",
+        "residuals"
+      ]
+    },
+    {
+      "id": "BANDS.AI_HumanZ",
+      "fields": [
+        "n",
+        "case_rows",
+        "x_categories",
+        "y_categories",
+        "table",
+        "exact_percent",
+        "one_category_percent",
+        "two_plus_percent"
+      ]
+    },
+    {
+      "id": "KAPPA.AI_HumanZ.linear",
+      "fields": [
+        "coefficient",
+        "observed_agreement",
+        "expected_agreement",
+        "delta_SE_diagnostic",
+        "null_SE_diagnostic",
+        "normal_p_diagnostic"
+      ]
+    },
+    {
+      "id": "KAPPA.AI_HumanZ.quadratic",
+      "fields": [
+        "coefficient",
+        "observed_agreement",
+        "expected_agreement",
+        "delta_SE_diagnostic",
+        "null_SE_diagnostic",
+        "normal_p_diagnostic"
+      ]
+    },
+    {
+      "id": "KAPPA.AI_HumanZ.unweighted",
+      "fields": [
+        "coefficient",
+        "observed_agreement",
+        "expected_agreement",
+        "delta_SE_diagnostic",
+        "null_SE_diagnostic",
+        "normal_p_diagnostic"
+      ]
+    },
+    {
+      "id": "BA.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "x",
+        "y",
+        "mean_bias",
+        "sd_difference",
+        "loa_low",
+        "loa_high",
+        "intercept",
+        "slope",
+        "slope_p",
+        "r_squared",
+        "fitted",
+        "residuals"
+      ]
+    },
+    {
+      "id": "BANDS.AI_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "x_categories",
+        "y_categories",
+        "table",
+        "exact_percent",
+        "one_category_percent",
+        "two_plus_percent"
+      ]
+    },
+    {
+      "id": "KAPPA.AI_HumanS.linear",
+      "fields": [
+        "coefficient",
+        "observed_agreement",
+        "expected_agreement",
+        "delta_SE_diagnostic",
+        "null_SE_diagnostic",
+        "normal_p_diagnostic"
+      ]
+    },
+    {
+      "id": "KAPPA.AI_HumanS.quadratic",
+      "fields": [
+        "coefficient",
+        "observed_agreement",
+        "expected_agreement",
+        "delta_SE_diagnostic",
+        "null_SE_diagnostic",
+        "normal_p_diagnostic"
+      ]
+    },
+    {
+      "id": "KAPPA.AI_HumanS.unweighted",
+      "fields": [
+        "coefficient",
+        "observed_agreement",
+        "expected_agreement",
+        "delta_SE_diagnostic",
+        "null_SE_diagnostic",
+        "normal_p_diagnostic"
+      ]
+    },
+    {
+      "id": "BA.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "x",
+        "y",
+        "mean_bias",
+        "sd_difference",
+        "loa_low",
+        "loa_high",
+        "intercept",
+        "slope",
+        "slope_p",
+        "r_squared",
+        "fitted",
+        "residuals"
+      ]
+    },
+    {
+      "id": "BANDS.HumanZ_HumanS",
+      "fields": [
+        "n",
+        "case_rows",
+        "x_categories",
+        "y_categories",
+        "table",
+        "exact_percent",
+        "one_category_percent",
+        "two_plus_percent"
+      ]
+    },
+    {
+      "id": "KAPPA.HumanZ_HumanS.linear",
+      "fields": [
+        "coefficient",
+        "observed_agreement",
+        "expected_agreement",
+        "delta_SE_diagnostic",
+        "null_SE_diagnostic",
+        "normal_p_diagnostic"
+      ]
+    },
+    {
+      "id": "KAPPA.HumanZ_HumanS.quadratic",
+      "fields": [
+        "coefficient",
+        "observed_agreement",
+        "expected_agreement",
+        "delta_SE_diagnostic",
+        "null_SE_diagnostic",
+        "normal_p_diagnostic"
+      ]
+    },
+    {
+      "id": "KAPPA.HumanZ_HumanS.unweighted",
+      "fields": [
+        "coefficient",
+        "observed_agreement",
+        "expected_agreement",
+        "delta_SE_diagnostic",
+        "null_SE_diagnostic",
+        "normal_p_diagnostic"
+      ]
+    },
+    {
+      "id": "LEVENE.AI_HumanZ.mean",
+      "fields": [
+        "group_sizes",
+        "centers",
+        "absolute_deviations",
+        "F",
+        "df1",
+        "df2",
+        "p"
+      ]
+    },
+    {
+      "id": "LEVENE.AI_HumanZ.median",
+      "fields": [
+        "group_sizes",
+        "centers",
+        "absolute_deviations",
+        "F",
+        "df1",
+        "df2",
+        "p"
+      ]
+    },
+    {
+      "id": "LEVENE.AI_HumanS.mean",
+      "fields": [
+        "group_sizes",
+        "centers",
+        "absolute_deviations",
+        "F",
+        "df1",
+        "df2",
+        "p"
+      ]
+    },
+    {
+      "id": "LEVENE.AI_HumanS.median",
+      "fields": [
+        "group_sizes",
+        "centers",
+        "absolute_deviations",
+        "F",
+        "df1",
+        "df2",
+        "p"
+      ]
+    },
+    {
+      "id": "LEVENE.All3.mean",
+      "fields": [
+        "group_sizes",
+        "centers",
+        "absolute_deviations",
+        "F",
+        "df1",
+        "df2",
+        "p"
+      ]
+    },
+    {
+      "id": "LEVENE.All3.median",
+      "fields": [
+        "group_sizes",
+        "centers",
+        "absolute_deviations",
+        "F",
+        "df1",
+        "df2",
+        "p"
+      ]
+    },
+    {
+      "id": "FIGURE1.AI",
+      "fields": [
+        "values",
+        "q1",
+        "median",
+        "q3",
+        "whisker_low",
+        "whisker_high",
+        "outliers"
+      ]
+    },
+    {
+      "id": "FIGURE2.AI",
+      "fields": [
+        "values",
+        "bin_edges",
+        "counts",
+        "density",
+        "kde_x",
+        "kde_y"
+      ]
+    },
+    {
+      "id": "FIGURE3.AI",
+      "fields": [
+        "values",
+        "bin_edges",
+        "counts",
+        "density",
+        "kde_x",
+        "kde_y"
+      ]
+    },
+    {
+      "id": "FIGURE1.Human-Z",
+      "fields": [
+        "values",
+        "q1",
+        "median",
+        "q3",
+        "whisker_low",
+        "whisker_high",
+        "outliers"
+      ]
+    },
+    {
+      "id": "FIGURE2.Human-Z",
+      "fields": [
+        "values",
+        "bin_edges",
+        "counts",
+        "density",
+        "kde_x",
+        "kde_y"
+      ]
+    },
+    {
+      "id": "FIGURE3.Human-Z",
+      "fields": [
+        "values",
+        "bin_edges",
+        "counts",
+        "density",
+        "kde_x",
+        "kde_y"
+      ]
+    },
+    {
+      "id": "FIGURE1.Human-S",
+      "fields": [
+        "values",
+        "q1",
+        "median",
+        "q3",
+        "whisker_low",
+        "whisker_high",
+        "outliers"
+      ]
+    },
+    {
+      "id": "FIGURE2.Human-S",
+      "fields": [
+        "values",
+        "bin_edges",
+        "counts",
+        "density",
+        "kde_x",
+        "kde_y"
+      ]
+    },
+    {
+      "id": "FIGURE3.Human-S",
+      "fields": [
+        "values",
+        "bin_edges",
+        "counts",
+        "density",
+        "kde_x",
+        "kde_y"
+      ]
+    }
+  ],
+  "result_schema": {
+    "schema": "P161_COMPLETE_FACTS001",
+    "route": "PRIMARY or SECONDARY (provenance, excluded from comparison)",
+    "input": "see input_contract",
+    "facts": "ordered list, exactly ordered_fact_queries; each {id,values:{every declared field},undefined:[{path:list,reason:str}]}",
+    "not_run": "ordered declared unresolved variants list",
+    "source_claim_audits": "auditor applies frozen literal target/query mappings after both independent calculations; never used to select estimators"
+  },
+  "input_contract": {
+    "rows": "source order91, each {row:int,AA:str,AAUni:str,University:str,criteria:{AI:list9,Human-Z:list9,Human-S:list9},totals:{rater:float},formula_audits:{rater:{coordinate,formula_text,formula_attributes,expanded_formula,cache,derived,cache_equal}}}",
+    "case_rows": "worksheet row numbers3..93, exact order; no opaque group order",
+    "numeric_cells": "finite Python float or null; original literal/XML type retained separately in own input provenance",
+    "formula_blank_semantics": "Excel SUM(range) ignores blank; plus-chain referenced blank contributes zero; only exact same-row nine-criterion patterns accepted; shared formula translated by coordinate delta, never evaluate arbitrary expressions",
+    "masks": "derived independently from raw criteria; all common3 and pairwise per endpoint retained in ICC fact case_rows"
+  },
+  "undefined_contract": "Undefined numeric leaf is JSON null plus a matching nonempty reason entry; no NaN/Inf, silent pruning, zero substitution or exception swallowing. Compare undefined paths and numeric values; reason prose retained but not required text-identical.",
+  "independent_numeric_comparison_proposal": {
+    "exact": "all IDs/order/integers/bools/source arrays/case masks/input cached totals/formula identities",
+    "float": "abs1e-10 + rel1e-8, proposal pending ROOT final acceptance; central printed intervals remain separate tighter literal criteria"
+  },
+  "conventions": {
+    "descriptives": "sample SD; bias-adjusted sample skew and excess kurtosis; raw moment counterparts retained",
+    "spearman": "average tie ranks, Pearson of ranks, two-sided t approximation; exact/permutation NOTRUN (no original option and91! infeasible); no MC approximation masquerading as exact",
+    "kappa": "fixed ordered four categories, linear/quadratic/unweighted all mandatory; coefficient and delta-method unrestricted/null multinomial covariance diagnostic SEs distinct from unrecovered exact SPSS test. Publication p/SE identity remains UNESTABLISHED",
+    "PCA": "all six matrix/missingness variants, no zero-variance column pruning. Correlation matrix/eigenproblem undefined\u2192null+reason. Eigenvalues descending; eigenvectors/signs not compared",
+    "Levene": "mean and median-centered standard one-way ANOVA of deviations. median-adjusted df and trimmed-mean NOTRUN/UNESTABLISHED (algorithm/fraction/source29 missing)",
+    "histogram_reconstruction": "exact edges0,5,...,100, full counts/density with every input observation retained; not original-producer claim",
+    "KDE_reconstruction": "Gaussian kernel, Scott bandwidth sampleSD*n^(-1/5), grid0..100 inclusive401points; reconstruction only",
+    "boxplot_reconstruction": "linear interpolation quartiles, Tukey1.5IQR whiskers at actual observations; explicitly reconstruction",
+    "grade_bands": "x<50;50<=x<70;70<=x<85;x>=85, no rounding of fractional scores",
+    "NULL_metadata": "not_run reasons are metadata, not numerical agreement"
+  },
+  "declared_not_run_variants": [
+    {
+      "id": "SPEARMAN_EXACT_PERMUTATION",
+      "reason": "Original exact option/algorithm unspecified; exhaustive91! not feasible; no new MC approximation."
+    },
+    {
+      "id": "KAPPA_SOURCE_EXACT_SE_P",
+      "reason": "Original weighted kappa test convention/SE not recovered; separate named diagnostic tests retained."
+    },
+    {
+      "id": "LEVENE_MEDIAN_ADJUSTED_DF",
+      "reason": "Exact SPSS29 adjusted-df algorithm unavailable; do not guess from later output label."
+    },
+    {
+      "id": "LEVENE_TRIMMED_MEAN",
+      "reason": "Trim fraction and exact original method unavailable; no guessed fraction."
+    },
+    {
+      "id": "ORIGINAL_FIGURE_PRODUCER",
+      "reason": "All5 original figures retained; numeric reconstruction arrays mandatory; exact box/hist/KDE/plot producer unavailable."
+    }
+  ],
+  "no_primary_arithmetic_shared_with_secondary": true,
+  "no_own_statistics_computed": true,
+  "execution_authorized": false,
+  "additive_prior_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\papers\\P161_ai_grading\\review\\primary_source001\\COMPLETE_FACTS_AND_ORDERED_QUERY_SCHEMA001.json",
+    "bytes": 45622,
+    "sha256": "e2f22b573fb24f818f21077ed6a0c402b7157332197f4cfe3906b16a5771457b"
+  },
+  "figure_fact_bindings": {
+    "1": [
+      "FIGURE1.AI",
+      "FIGURE1.Human-Z",
+      "FIGURE1.Human-S"
+    ],
+    "2": [
+      "FIGURE2.AI",
+      "FIGURE2.Human-Z",
+      "FIGURE2.Human-S"
+    ],
+    "3": [
+      "FIGURE3.AI",
+      "FIGURE3.Human-Z",
+      "FIGURE3.Human-S"
+    ],
+    "4": [
+      "BA.AI_HumanZ",
+      "BA.AI_HumanS"
+    ],
+    "5": [
+      "PCA.AI.correlation_listwise",
+      "PCA.AI.covariance_listwise",
+      "PCA.AI.correlation_pairwise",
+      "PCA.AI.covariance_pairwise",
+      "PCA.AI.correlation_mean_substitution",
+      "PCA.AI.covariance_mean_substitution",
+      "PCA.Human-Z.correlation_listwise",
+      "PCA.Human-Z.covariance_listwise",
+      "PCA.Human-Z.correlation_pairwise",
+      "PCA.Human-Z.covariance_pairwise",
+      "PCA.Human-Z.correlation_mean_substitution",
+      "PCA.Human-Z.covariance_mean_substitution",
+      "PCA.Human-S.correlation_listwise",
+      "PCA.Human-S.covariance_listwise",
+      "PCA.Human-S.correlation_pairwise",
+      "PCA.Human-S.covariance_pairwise",
+      "PCA.Human-S.correlation_mean_substitution",
+      "PCA.Human-S.covariance_mean_substitution"
+    ]
+  },
+  "output_contract": {
+    "cfg_keys": [
+      "execution_authorized",
+      "primary_analysis_authorized",
+      "secondary_analysis_authorized",
+      "output_root",
+      "metadata_root",
+      "workbook_ref",
+      "facts_schema_ref",
+      "query_roles_ref",
+      "root_design340_ref"
+    ],
+    "ownership": "scientific child creates exclusive output_root; each function creates only its own primary001/secondary001 subroot; parent only creates metadata_root",
+    "common_input": "exactly {rows:[...]} (API001 row contract), alloriginal literal/XML types separately retained in own provenance file",
+    "entry_signatures": [
+      "run_complete_primary(cfg,numpy_module,special_module,caller_guard)",
+      "run_complete_secondary(cfg,numpy_module,special_module,caller_guard)"
+    ],
+    "return": "{result_ref:whole pin,fact_count:189,no_whole_family_or_paper_credit_claimed:true}; each writes COMPLETE_FACTS.json; parent loads only after both close",
+    "common_result_fields": [
+      "schema",
+      "input",
+      "facts",
+      "not_run"
+    ],
+    "route_is_provenance_not_comparison": true
+  },
+  "figures_scope": "All5 numeric array families and original source graphic/source contradictions mandatory; generated plots not needed to pretend unknown producer was recovered. No matplotlib scientific import needed."
+}

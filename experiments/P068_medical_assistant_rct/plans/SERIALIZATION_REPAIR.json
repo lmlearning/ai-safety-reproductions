@@ -1,0 +1,8 @@
+{
+  "at_utc": "2026-10-10T16:54:07.865171+00:00",
+  "failed_run": "P068-central-001",
+  "next_run": "P068-central-002",
+  "change": "Convert numpy scalar values to native Python scalar values during JSON output serialization; preserve exact scientific algorithm, source inputs, all12000 row gates and103 fixed summary gates.",
+  "post_outcome_code_correction": true,
+  "scope_amendment": false
+}

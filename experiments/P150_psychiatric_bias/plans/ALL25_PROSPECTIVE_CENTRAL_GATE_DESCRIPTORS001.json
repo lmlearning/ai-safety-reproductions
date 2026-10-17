@@ -1,0 +1,365 @@
+{
+  "scope": "psychiatric_complete_four_model_inference_v1",
+  "status": "FIXED_SOURCE_ONLY_PRE_OUTCOME25",
+  "records": [
+    {
+      "id": "G001",
+      "name": "All160ratings",
+      "kind": "exact",
+      "path": [
+        "inferential",
+        "N"
+      ],
+      "target": 160,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G002",
+      "name": "All4models",
+      "kind": "exact",
+      "path": [
+        "inferential",
+        "k"
+      ],
+      "target": 4,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G003",
+      "name": "Gemini_all40",
+      "kind": "exact",
+      "path": [
+        "inferential",
+        "group_N",
+        "Gemini"
+      ],
+      "target": 40,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G004",
+      "name": "ChatGPT_all40",
+      "kind": "exact",
+      "path": [
+        "inferential",
+        "group_N",
+        "ChatGPT"
+      ],
+      "target": 40,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G005",
+      "name": "Claude_all40",
+      "kind": "exact",
+      "path": [
+        "inferential",
+        "group_N",
+        "Claude"
+      ],
+      "target": 40,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G006",
+      "name": "NewMes_all40",
+      "kind": "exact",
+      "path": [
+        "inferential",
+        "group_N",
+        "NewMes"
+      ],
+      "target": 40,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G007",
+      "name": "df3",
+      "kind": "exact",
+      "path": [
+        "inferential",
+        "df"
+      ],
+      "target": 3,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G008",
+      "name": "Whole_KW_H",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "H"
+      ],
+      "target": "16.65",
+      "tolerance": "0.005",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G009",
+      "name": "Whole_KW_raw_p",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "p"
+      ],
+      "target": "0.00083",
+      "tolerance": "0.000005",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G010",
+      "name": "Whole_eta_squared_H",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "eta_H"
+      ],
+      "target": "0.088",
+      "tolerance": "0.0005",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G011",
+      "name": "Gemini_meanrank",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "mean_ranks",
+        "Gemini"
+      ],
+      "target": "60.08",
+      "tolerance": "0.005",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G012",
+      "name": "ChatGPT_meanrank",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "mean_ranks",
+        "ChatGPT"
+      ],
+      "target": "87.97",
+      "tolerance": "0.005",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G013",
+      "name": "Claude_meanrank",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "mean_ranks",
+        "Claude"
+      ],
+      "target": "75.47",
+      "tolerance": "0.005",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G014",
+      "name": "NewMes_meanrank",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "mean_ranks",
+        "NewMes"
+      ],
+      "target": "98.47",
+      "tolerance": "0.005",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G015",
+      "name": "Gemini_vs_ChatGPT_rank_difference",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "Gemini/ChatGPT",
+        "difference"
+      ],
+      "target": "-27.9",
+      "tolerance": "0.05",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G016",
+      "name": "Gemini_vs_ChatGPT_raw_two_sided_p",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "Gemini/ChatGPT",
+        "p_raw"
+      ],
+      "target": "0.005",
+      "tolerance": "0.0005",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G017",
+      "name": "Gemini_vs_NewMes_rank_difference",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "Gemini/NewMes",
+        "difference"
+      ],
+      "target": "-38.4",
+      "tolerance": "0.05",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G018",
+      "name": "Gemini_vs_NewMes_raw_two_sided_p",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "Gemini/NewMes",
+        "p_raw"
+      ],
+      "target": "0.00011",
+      "tolerance": "0.000005",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G019",
+      "name": "Gemini_vs_ChatGPT_Bonferroni_alpha_decision",
+      "kind": "significance",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "Gemini/ChatGPT",
+        "significant_raw"
+      ],
+      "target": true,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G020",
+      "name": "Gemini_vs_Claude_Bonferroni_alpha_decision",
+      "kind": "significance",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "Gemini/Claude",
+        "significant_raw"
+      ],
+      "target": false,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G021",
+      "name": "Gemini_vs_NewMes_Bonferroni_alpha_decision",
+      "kind": "significance",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "Gemini/NewMes",
+        "significant_raw"
+      ],
+      "target": true,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G022",
+      "name": "ChatGPT_vs_Claude_Bonferroni_alpha_decision",
+      "kind": "significance",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "ChatGPT/Claude",
+        "significant_raw"
+      ],
+      "target": false,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G023",
+      "name": "ChatGPT_vs_NewMes_Bonferroni_alpha_decision",
+      "kind": "significance",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "ChatGPT/NewMes",
+        "significant_raw"
+      ],
+      "target": false,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G024",
+      "name": "Claude_vs_NewMes_Bonferroni_alpha_decision",
+      "kind": "significance",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "Claude/NewMes",
+        "significant_raw"
+      ],
+      "target": false,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    },
+    {
+      "id": "G025",
+      "name": "Full_model_meanrank_and_abstract_mean_order",
+      "kind": "ordered_models",
+      "path": [
+        "inferential",
+        "rank_order"
+      ],
+      "target": [
+        "Gemini",
+        "Claude",
+        "ChatGPT",
+        "NewMes"
+      ],
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation"
+    }
+  ],
+  "central_numeric_targets_only_not_mathematical_inputs": true
+}

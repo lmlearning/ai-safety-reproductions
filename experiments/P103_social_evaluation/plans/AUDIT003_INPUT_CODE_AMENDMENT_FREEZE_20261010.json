@@ -1,0 +1,42 @@
+{
+  "paper_id": "P103",
+  "phase": "Auditor003 source-equivalent missing-age handling amendment only; not executed",
+  "created_utc": "2026-10-10T21:17:41.956485+00:00",
+  "original_input_runtime_freeze_path": "papers/P103_social_evaluation/INPUT_RUNTIME_FREEZE_20261010.json",
+  "original_input_runtime_freeze_sha256": "e32c71c7f143480d8163b267a4949e58a5429f58b04bd9255deaf4350a89761d",
+  "original_all108_targets_unchanged": true,
+  "immutable_files": [
+    {
+      "path": "scripts/audit_p103_primary_study1_age_fix_v003.py",
+      "bytes": 11796,
+      "sha256": "4b2d8ddc45375319a02d5e3532c79f480f63222dd0a66eabb81ca9c15458b40b"
+    },
+    {
+      "path": "scripts/supervise_p103_primary_study1_age_fix_v003.py",
+      "bytes": 4025,
+      "sha256": "207542a5b760da321b667ab5d7f2eaaef6106a8200890b5cb72412a3391f5641"
+    },
+    {
+      "path": "scripts/test_p103_age_fix_v003_fixture_final.py",
+      "bytes": 2170,
+      "sha256": "c4d43fd0695d0a682faa77ee75549c35ce80031aa2fe1613a271202ea891e365"
+    },
+    {
+      "path": "papers/P103_social_evaluation/AUDIT003_EXACT_CODE_DIFF_20261010.patch",
+      "bytes": 4512,
+      "sha256": "df59611308a7680c2d6c29a46a430f11fc9b050f69aeb30276731b4dcf2bf0bf"
+    },
+    {
+      "path": "papers/P103_social_evaluation/AUDIT003_ORIGINAL_DEMOGRAPHIC_MISSINGNESS_CENSUS_20261010.json",
+      "bytes": 1713,
+      "sha256": "62ee5185ccef5c910cbc77b8b39915f4e3f1c646e81f056af6a1f309e6bdf123"
+    },
+    {
+      "path": "papers/P103_social_evaluation/AUDIT003_UNRELATED_MISSING_AGE_FIXTURE_RESULT002_20261010.json",
+      "bytes": 918,
+      "sha256": "6fd1910083b59e00cf2a9ca2407c7ace98d06933bd21bcd90f5c2f0d79af801c"
+    }
+  ],
+  "runtime": "Exactly original frozen Python/scipy/runtime; no package changes",
+  "statistical_change": "Equivalent original na.rm=TRUE demographic age handling; no rating/cohort/source/criterion change"
+}

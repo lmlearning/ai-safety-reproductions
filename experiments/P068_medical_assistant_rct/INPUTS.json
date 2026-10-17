@@ -1,0 +1,881 @@
+{
+  "paper_id": "P068",
+  "assets": [
+    {
+      "id": "input-001",
+      "original_relative_path": "papers/P068_medical_assistant_rct/sources/original_examples_initial.csv",
+      "bytes": 4251713,
+      "sha256": "73308f672be218d7fac8be043660af47a8d819767b97f26be71f2ea7dabdd425",
+      "download_urls": [
+        "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/data/main/clean_examples.csv",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/clean_examples.csv"
+      ],
+      "source_pages": [
+        "https://api.github.com/repos/am-bean/HELPMed",
+        "https://api.github.com/repos/am-bean/HELPMed/commits?per_page=100",
+        "https://api.github.com/repos/am-bean/HELPMed/git/trees/3271617a4a4475da08e207fd26d406c279c501c8?recursive=1",
+        "https://api.github.com/repos/am-bean/HELPMed/git/trees/main?recursive=1",
+        "https://arxiv.org/abs/2504.18919",
+        "https://arxiv.org/html/2504.18919v1",
+        "https://doi.org/10.1038/s41591-025-04074-y",
+        "https://github.com/am-bean/HELPMed/tree/3271617a4a4475da08e207fd26d406c279c501c8",
+        "https://osf.io/dt2p3/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12920132",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/data/main/clean_examples.csv",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/data/main/scenarios.csv",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/notebooks/main_results.ipynb",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/notebooks/streamlined_results.ipynb",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/README.md",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/clean_examples.csv",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/clean_prescored.csv",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/scenarios.csv",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/notebooks/main_results.ipynb",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/notebooks/streamlined_results.ipynb",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12920132/fullTextXML"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "required original or source-transcribed scientific input; license/source reacquisition review"
+    },
+    {
+      "id": "input-002",
+      "original_relative_path": "papers/P068_medical_assistant_rct/sources/original_scoring_scenarios_initial.csv",
+      "bytes": 7501,
+      "sha256": "6cab86bbe5f6ed1f1fcedd2d7a64fc9effd9e875f566ee4647e117558b9a63db",
+      "download_urls": [
+        "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/data/main/scenarios.csv",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/scenarios.csv"
+      ],
+      "source_pages": [
+        "https://api.github.com/repos/am-bean/HELPMed",
+        "https://api.github.com/repos/am-bean/HELPMed/commits?per_page=100",
+        "https://api.github.com/repos/am-bean/HELPMed/git/trees/3271617a4a4475da08e207fd26d406c279c501c8?recursive=1",
+        "https://api.github.com/repos/am-bean/HELPMed/git/trees/main?recursive=1",
+        "https://arxiv.org/abs/2504.18919",
+        "https://arxiv.org/html/2504.18919v1",
+        "https://doi.org/10.1038/s41591-025-04074-y",
+        "https://github.com/am-bean/HELPMed/tree/3271617a4a4475da08e207fd26d406c279c501c8",
+        "https://osf.io/dt2p3/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12920132",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/data/main/scenarios.csv",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/notebooks/main_results.ipynb",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/notebooks/streamlined_results.ipynb",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/README.md",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/clean_examples.csv",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/clean_prescored.csv",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/scenarios.csv",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/notebooks/main_results.ipynb",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/notebooks/streamlined_results.ipynb",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12920132/fullTextXML"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "required original or source-transcribed scientific input; license/source reacquisition review"
+    },
+    {
+      "id": "input-003",
+      "original_relative_path": "papers/P068_medical_assistant_rct/runs/P068-central-002/original_examples_initial.csv",
+      "bytes": 4251713,
+      "sha256": "73308f672be218d7fac8be043660af47a8d819767b97f26be71f2ea7dabdd425",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/abs/2504.18919",
+        "https://github.com/am-bean/HELPMed/tree/3271617a4a4475da08e207fd26d406c279c501c8",
+        "https://osf.io/dt2p3/",
+        "https://doi.org/10.1038/s41591-025-04074-y",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12920132",
+        "https://arxiv.org/html/2504.18919v1",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12920132/fullTextXML",
+        "https://api.github.com/repos/am-bean/HELPMed",
+        "https://api.github.com/repos/am-bean/HELPMed/git/trees/main?recursive=1",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/README.md",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/notebooks/streamlined_results.ipynb",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/notebooks/main_results.ipynb",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/scenarios.csv",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/clean_examples.csv",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/clean_prescored.csv",
+        "https://api.github.com/repos/am-bean/HELPMed/commits?per_page=100",
+        "https://api.github.com/repos/am-bean/HELPMed/git/trees/3271617a4a4475da08e207fd26d406c279c501c8?recursive=1",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/notebooks/main_results.ipynb",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/notebooks/streamlined_results.ipynb",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/data/main/scenarios.csv"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "papers/P068_medical_assistant_rct/sources/publisher_fulltext.xml",
+            "literal": "day><month>2</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>© The Author(s) 2026, modified publication 2026</copyright-statement><license><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give a"
+          },
+          {
+            "source": "papers/P068_medical_assistant_rct/sources/publisher_fulltext.xml",
+            "literal": "rmissions><copyright-statement>© The Author(s) 2026, modified publication 2026</copyright-statement><license><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a"
+          },
+          {
+            "source": "papers/P068_medical_assistant_rct/sources/publisher_fulltext.xml",
+            "literal": "-statement>© The Author(s) 2026, modified publication 2026</copyright-statement><license><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creativ"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-004",
+      "original_relative_path": "papers/P068_medical_assistant_rct/runs/P068-central-002/original_scoring_scenarios_initial.csv",
+      "bytes": 7501,
+      "sha256": "6cab86bbe5f6ed1f1fcedd2d7a64fc9effd9e875f566ee4647e117558b9a63db",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/abs/2504.18919",
+        "https://github.com/am-bean/HELPMed/tree/3271617a4a4475da08e207fd26d406c279c501c8",
+        "https://osf.io/dt2p3/",
+        "https://doi.org/10.1038/s41591-025-04074-y",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12920132",
+        "https://arxiv.org/html/2504.18919v1",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12920132/fullTextXML",
+        "https://api.github.com/repos/am-bean/HELPMed",
+        "https://api.github.com/repos/am-bean/HELPMed/git/trees/main?recursive=1",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/README.md",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/notebooks/streamlined_results.ipynb",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/notebooks/main_results.ipynb",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/scenarios.csv",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/clean_examples.csv",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/clean_prescored.csv",
+        "https://api.github.com/repos/am-bean/HELPMed/commits?per_page=100",
+        "https://api.github.com/repos/am-bean/HELPMed/git/trees/3271617a4a4475da08e207fd26d406c279c501c8?recursive=1",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/notebooks/main_results.ipynb",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/notebooks/streamlined_results.ipynb",
+        "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/data/main/scenarios.csv"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [
+          {
+            "source": "papers/P068_medical_assistant_rct/sources/publisher_fulltext.xml",
+            "literal": "day><month>2</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>© The Author(s) 2026, modified publication 2026</copyright-statement><license><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give a"
+          },
+          {
+            "source": "papers/P068_medical_assistant_rct/sources/publisher_fulltext.xml",
+            "literal": "rmissions><copyright-statement>© The Author(s) 2026, modified publication 2026</copyright-statement><license><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a"
+          },
+          {
+            "source": "papers/P068_medical_assistant_rct/sources/publisher_fulltext.xml",
+            "literal": "-statement>© The Author(s) 2026, modified publication 2026</copyright-statement><license><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creativ"
+          }
+        ],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    }
+  ],
+  "source_urls": [
+    "http://creativecommons.org/licenses/by/4.0/",
+    "http://www.w3.org/1999/xlink",
+    "https://api.github.com/licenses/mit",
+    "https://api.github.com/repos/am-bean/HELPMed",
+    "https://api.github.com/repos/am-bean/HELPMed/assignees{/user}",
+    "https://api.github.com/repos/am-bean/HELPMed/branches{/branch}",
+    "https://api.github.com/repos/am-bean/HELPMed/collaborators{/collaborator}",
+    "https://api.github.com/repos/am-bean/HELPMed/comments{/number}",
+    "https://api.github.com/repos/am-bean/HELPMed/commits/3271617a4a4475da08e207fd26d406c279c501c8",
+    "https://api.github.com/repos/am-bean/HELPMed/commits/3271617a4a4475da08e207fd26d406c279c501c8/comments",
+    "https://api.github.com/repos/am-bean/HELPMed/commits/35b50de8fa5debd1f1ebc2c768496dd3b6ad4cf4",
+    "https://api.github.com/repos/am-bean/HELPMed/commits/35b50de8fa5debd1f1ebc2c768496dd3b6ad4cf4/comments",
+    "https://api.github.com/repos/am-bean/HELPMed/commits/58a1549cd39d90c707191a2b06365f56134e9f4c",
+    "https://api.github.com/repos/am-bean/HELPMed/commits/58a1549cd39d90c707191a2b06365f56134e9f4c/comments",
+    "https://api.github.com/repos/am-bean/HELPMed/commits/c59cbcec4820e6cf08a7aa0c2d99d17f969c8c0a",
+    "https://api.github.com/repos/am-bean/HELPMed/commits/c59cbcec4820e6cf08a7aa0c2d99d17f969c8c0a/comments",
+    "https://api.github.com/repos/am-bean/HELPMed/commits/d27194bf27b92ceeebac7fd1483f810c9091c7da",
+    "https://api.github.com/repos/am-bean/HELPMed/commits/d27194bf27b92ceeebac7fd1483f810c9091c7da/comments",
+    "https://api.github.com/repos/am-bean/HELPMed/commits/ea23fa4cf69008fec0d65df59a1fce432abae5ab",
+    "https://api.github.com/repos/am-bean/HELPMed/commits/ea23fa4cf69008fec0d65df59a1fce432abae5ab/comments",
+    "https://api.github.com/repos/am-bean/HELPMed/commits/f02f71798f5d5c13e3d07845b35ddbb5cc1ba19e",
+    "https://api.github.com/repos/am-bean/HELPMed/commits/f02f71798f5d5c13e3d07845b35ddbb5cc1ba19e/comments",
+    "https://api.github.com/repos/am-bean/HELPMed/commits?per_page=100",
+    "https://api.github.com/repos/am-bean/HELPMed/commits{/sha}",
+    "https://api.github.com/repos/am-bean/HELPMed/compare/{base}...{head}",
+    "https://api.github.com/repos/am-bean/HELPMed/contents/{+path}",
+    "https://api.github.com/repos/am-bean/HELPMed/contributors",
+    "https://api.github.com/repos/am-bean/HELPMed/deployments",
+    "https://api.github.com/repos/am-bean/HELPMed/downloads",
+    "https://api.github.com/repos/am-bean/HELPMed/events",
+    "https://api.github.com/repos/am-bean/HELPMed/forks",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/007289aac4127a3b76390f56ea07192db37e031e",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/021190bb2b034ad57b452c08e499b36ab757265e",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/095e896c88b1b68b4627555ffd4bc607fea3f82b",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/09f35882899b3c672661cdd5b092013d4bced353",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/0afb75f0c08228ccd87c43633a50a8b99bd42742",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/1199c75b70442b9530d293da11f79c57d1797992",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/148935eb33a96ede82a3848e6fd2ed71a48d6b13",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/17a77cbad49cc9311607663ff492e3f0e5a99f56",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/18764965bd25e170675be42c781cf3faa6e5042d",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/1bfb8eb1b11d5f5d722de352e7147fa243f2fb97",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/1c71c9d8b846587b52f9971578b9dcf706b22806",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/1e66eca807a84b09abbf41b992b31d32e057969c",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/263de85dab85b19dbea1da923b5cd4df5f25dcfc",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/2849a128d51f62c848245714611922c55e3c0a13",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/2938fb807020056fb8e272fca8035ea4ddfeb759",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/2d24cbb9555c0c6fe6a454df9520b83c202924e0",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/2d76a061ad5177a684114386355256d49d8adf68",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/3703aef20055561ba42a8a67e94064bf652d2d4b",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/41122b74dc232141ca75c8a3f5edb1e51429adb8",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/4313ba79e5ec805b3b8397d5ce84197eb6df8a61",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/4c9c95c7634736b9da871cc6bd5f57cd5403eaad",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/4f3d9922e23b19015e1e63f6c5839a0d826c84b3",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/52ed908597300a4c5e68a8c60661e4d5e4133170",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/532549a6e0b5e2a9fb4674fb45d40f59a5909621",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/5d30c0529acb3311f9bd24735481d0f9525439db",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/608059b22659328687bbf0b0ee0cfcaddf28ab7a",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/61a7515ba9c2a42205f1e945d29c40d64589d661",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/6351b9857be2bbb56fb942f8b16aae1c558e311d",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/688ef1cdab6a94f8dc3215dc2b1ca2b30c9141a1",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/6d167561ffaea5dc9deda7f9a5beede3700b81d6",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/6e1a1bedf8158a33f589f8ec0212a5a82f120ce2",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/6fa7ec4cbbdc6cc503d71ef5296837a343d407e4",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/72581581ffcd8ce0b0f25bb468596f9f7284ff6e",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/74354e86772548331bebdaaf47bd60429592e0f0",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/761b292ad9380694bc52083dfd60090ec8549be3",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/8298794c2f5c4fe5e5a9752dd91c60022002a186",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/842b20c04ca13d59d7bd0d2b3168032b12812491",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/87e86ad6ba6ddeb3dc2752baef5e74e9a6309cc3",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/89684752f84c4a7d43315cd2ca3c5434d5bfe44d",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/896bb2e69d81b5cafccf879fa3716650120d8b51",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/8b85e5f6a82ea0efb97528048088a9a807f3c641",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/8cf054aeda81460071e371da8224c827259c4b27",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/8e37e7fdbfa93adf7418f01b395a185fc55e0339",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/8f56d8e452a55c2050b86ec4d2d89d25a8f54358",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/92e852337f88234a2580aec709c883b31de0e929",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/9b64b4ed2a780d1fb1b11488aec3477adde3e1da",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/9c156f3007d96e26d39df47f2aff170d991fcedd",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/9d01247689bccf9f712c7589210e8e0f7c290ba5",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/9ee1f82c253da48cde960d2febaa17b9a43eaf57",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/a3e527620f6b9352e8884a193496095e19ca7bc7",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/ab8460426422d56b96ba8f05d893ff91006ff3ae",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/ad6148f8c548a8919ed532847e0ce4ba318904b7",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/af906f9dc5bf5f985d5a42eac4516af3753258e6",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/b75a03dfb66f1d6c29b17753edbfbed5c0547349",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/b95916b547609415415f16a295e8f80c30d9f1b1",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/c1e69cfe2c20f33abb175dec47d78d20c306b0b3",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/d1f3993e7a3d9f002dc69bc73ee3073a3dddd3ec",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/d21a11efb9adcd7821451ad2f8994158a69af827",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/d36c555e83422ac0f36d689b54237ec5cc08e7a5",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/d44e922e309dc472dfddbf30df38b240952b142a",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/d6345f5e9207a0057550575b2f1490f186fbff79",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/deae0a7766542fbde6851cdc5bff9606209306e9",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/f020df2188a8cd174d65b040b9c0bf30d2266b88",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs/f1689dc6b946daa6cc1048e5fb9cfb89b3317116",
+    "https://api.github.com/repos/am-bean/HELPMed/git/blobs{/sha}",
+    "https://api.github.com/repos/am-bean/HELPMed/git/commits/3271617a4a4475da08e207fd26d406c279c501c8",
+    "https://api.github.com/repos/am-bean/HELPMed/git/commits/35b50de8fa5debd1f1ebc2c768496dd3b6ad4cf4",
+    "https://api.github.com/repos/am-bean/HELPMed/git/commits/58a1549cd39d90c707191a2b06365f56134e9f4c",
+    "https://api.github.com/repos/am-bean/HELPMed/git/commits/c59cbcec4820e6cf08a7aa0c2d99d17f969c8c0a",
+    "https://api.github.com/repos/am-bean/HELPMed/git/commits/d27194bf27b92ceeebac7fd1483f810c9091c7da",
+    "https://api.github.com/repos/am-bean/HELPMed/git/commits/ea23fa4cf69008fec0d65df59a1fce432abae5ab",
+    "https://api.github.com/repos/am-bean/HELPMed/git/commits/f02f71798f5d5c13e3d07845b35ddbb5cc1ba19e",
+    "https://api.github.com/repos/am-bean/HELPMed/git/commits{/sha}",
+    "https://api.github.com/repos/am-bean/HELPMed/git/refs{/sha}",
+    "https://api.github.com/repos/am-bean/HELPMed/git/tags{/sha}",
+    "https://api.github.com/repos/am-bean/HELPMed/git/trees/14688decb55c20d556dea0be59e3a9acef8dd666",
+    "https://api.github.com/repos/am-bean/HELPMed/git/trees/151d586f2c364c938a1806657019277f106c2af5",
+    "https://api.github.com/repos/am-bean/HELPMed/git/trees/2885b68ef10772e1b2a1e777757801210743b357",
+    "https://api.github.com/repos/am-bean/HELPMed/git/trees/3271617a4a4475da08e207fd26d406c279c501c8",
+    "https://api.github.com/repos/am-bean/HELPMed/git/trees/3271617a4a4475da08e207fd26d406c279c501c8?recursive=1",
+    "https://api.github.com/repos/am-bean/HELPMed/git/trees/35b50de8fa5debd1f1ebc2c768496dd3b6ad4cf4",
+    "https://api.github.com/repos/am-bean/HELPMed/git/trees/48583535f9675e91118d810c20b6ac7153dfb09c",
+    "https://api.github.com/repos/am-bean/HELPMed/git/trees/49001c79b70c5a036db6fad79ee7144ef7d72b1f",
+    "https://api.github.com/repos/am-bean/HELPMed/git/trees/601e62d71d0a4aeaae6aeeb9bb2b623059584d1a",
+    "https://api.github.com/repos/am-bean/HELPMed/git/trees/78ccf2cd8613a2765b60444f64f43ef9b2349bfa",
+    "https://api.github.com/repos/am-bean/HELPMed/git/trees/8ac3871dff0df087a4284ac20135bb2cb4debe45",
+    "https://api.github.com/repos/am-bean/HELPMed/git/trees/a51eb6cfcb3029fe2f4077b0c65f2d1474915127",
+    "https://api.github.com/repos/am-bean/HELPMed/git/trees/b59b1a4d3cf89b49fcba881a07f09ac7afe1f044",
+    "https://api.github.com/repos/am-bean/HELPMed/git/trees/cfa720d0b711ccbc99c2c26d40c4ba4073796188",
+    "https://api.github.com/repos/am-bean/HELPMed/git/trees/d4d108a3ec8a9a7c1dc93fe13fed13ad71b9a748",
+    "https://api.github.com/repos/am-bean/HELPMed/git/trees/e0db88cd12a888ef30f6a8331bd4f8a61d3aaaef",
+    "https://api.github.com/repos/am-bean/HELPMed/git/trees/eafdc9f6876ff05657f0080cd2b9dcc0983b06a2",
+    "https://api.github.com/repos/am-bean/HELPMed/git/trees/main?recursive=1",
+    "https://api.github.com/repos/am-bean/HELPMed/git/trees{/sha}",
+    "https://api.github.com/repos/am-bean/HELPMed/hooks",
+    "https://api.github.com/repos/am-bean/HELPMed/issues/comments{/number}",
+    "https://api.github.com/repos/am-bean/HELPMed/issues/events{/number}",
+    "https://api.github.com/repos/am-bean/HELPMed/issues{/number}",
+    "https://api.github.com/repos/am-bean/HELPMed/keys{/key_id}",
+    "https://api.github.com/repos/am-bean/HELPMed/labels{/name}",
+    "https://api.github.com/repos/am-bean/HELPMed/languages",
+    "https://api.github.com/repos/am-bean/HELPMed/merges",
+    "https://api.github.com/repos/am-bean/HELPMed/milestones{/number}",
+    "https://api.github.com/repos/am-bean/HELPMed/notifications{?since,all,participating}",
+    "https://api.github.com/repos/am-bean/HELPMed/pulls{/number}",
+    "https://api.github.com/repos/am-bean/HELPMed/releases{/id}",
+    "https://api.github.com/repos/am-bean/HELPMed/stargazers",
+    "https://api.github.com/repos/am-bean/HELPMed/statuses/{sha}",
+    "https://api.github.com/repos/am-bean/HELPMed/subscribers",
+    "https://api.github.com/repos/am-bean/HELPMed/subscription",
+    "https://api.github.com/repos/am-bean/HELPMed/tags",
+    "https://api.github.com/repos/am-bean/HELPMed/teams",
+    "https://api.github.com/repos/am-bean/HELPMed/{archive_format}{/ref}",
+    "https://api.github.com/users/am-bean",
+    "https://api.github.com/users/am-bean/events{/privacy}",
+    "https://api.github.com/users/am-bean/followers",
+    "https://api.github.com/users/am-bean/following{/other_user}",
+    "https://api.github.com/users/am-bean/gists{/gist_id}",
+    "https://api.github.com/users/am-bean/orgs",
+    "https://api.github.com/users/am-bean/received_events",
+    "https://api.github.com/users/am-bean/repos",
+    "https://api.github.com/users/am-bean/starred{/owner}{/repo}",
+    "https://api.github.com/users/am-bean/subscriptions",
+    "https://api.github.com/users/web-flow",
+    "https://api.github.com/users/web-flow/events{/privacy}",
+    "https://api.github.com/users/web-flow/followers",
+    "https://api.github.com/users/web-flow/following{/other_user}",
+    "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "https://api.github.com/users/web-flow/orgs",
+    "https://api.github.com/users/web-flow/received_events",
+    "https://api.github.com/users/web-flow/repos",
+    "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "https://api.github.com/users/web-flow/subscriptions",
+    "https://api.osf.io/v2/licenses/5ad7979bc69830002d8190e2/",
+    "https://api.osf.io/v2/nodes/24tyu/",
+    "https://api.osf.io/v2/nodes/dt2p3/",
+    "https://api.osf.io/v2/nodes/dt2p3/collections/",
+    "https://api.osf.io/v2/nodes/dt2p3/storage/",
+    "https://api.osf.io/v2/providers/registrations/osf/",
+    "https://api.osf.io/v2/regions/us/",
+    "https://api.osf.io/v2/registrations/dt2p3/",
+    "https://api.osf.io/v2/registrations/dt2p3/actions/",
+    "https://api.osf.io/v2/registrations/dt2p3/bibliographic_contributors/",
+    "https://api.osf.io/v2/registrations/dt2p3/cedar_metadata_records/",
+    "https://api.osf.io/v2/registrations/dt2p3/children/",
+    "https://api.osf.io/v2/registrations/dt2p3/citation/",
+    "https://api.osf.io/v2/registrations/dt2p3/comments/?filter%5Btarget%5D=dt2p3",
+    "https://api.osf.io/v2/registrations/dt2p3/contributors/",
+    "https://api.osf.io/v2/registrations/dt2p3/files/",
+    "https://api.osf.io/v2/registrations/dt2p3/forks/",
+    "https://api.osf.io/v2/registrations/dt2p3/identifiers/",
+    "https://api.osf.io/v2/registrations/dt2p3/implicit_contributors/",
+    "https://api.osf.io/v2/registrations/dt2p3/institutions/",
+    "https://api.osf.io/v2/registrations/dt2p3/linked_by_nodes/",
+    "https://api.osf.io/v2/registrations/dt2p3/linked_by_registrations/",
+    "https://api.osf.io/v2/registrations/dt2p3/linked_nodes/",
+    "https://api.osf.io/v2/registrations/dt2p3/linked_registrations/",
+    "https://api.osf.io/v2/registrations/dt2p3/logs/",
+    "https://api.osf.io/v2/registrations/dt2p3/node_links/",
+    "https://api.osf.io/v2/registrations/dt2p3/relationships/institutions/",
+    "https://api.osf.io/v2/registrations/dt2p3/relationships/linked_nodes/",
+    "https://api.osf.io/v2/registrations/dt2p3/relationships/linked_registrations/",
+    "https://api.osf.io/v2/registrations/dt2p3/requests/",
+    "https://api.osf.io/v2/registrations/dt2p3/resources/",
+    "https://api.osf.io/v2/registrations/dt2p3/schema_responses/",
+    "https://api.osf.io/v2/registrations/dt2p3/view_only_links/",
+    "https://api.osf.io/v2/registrations/dt2p3/wikis/",
+    "https://api.osf.io/v2/schema_responses/66c5faefcce6e1146e3f9545/",
+    "https://api.osf.io/v2/schemas/registrations/5e795fc0d2833800195735d0/",
+    "https://api.osf.io/v2/users/mt8nz/",
+    "https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=%28%22large+language+model%22+%7C+ChatGPT%29+%2B+%28trust+%7C+persuasion+%7C+reliability%29&publicationDateOrYear=2025-04-10%3A2026-10-10&minCitationCount=20&sort=citationCount%3Adesc&fields=title%2CpublicationDate%2CcitationCount%2CexternalIds%2Curl%2CopenAccessPdf%2Cabstract",
+    "https://archive.org/details/osf-registrations-dt2p3-v1",
+    "https://arxiv.org/abs/2504.18919",
+    "https://arxiv.org/abs/2504.18919}",
+    "https://arxiv.org/html/2504.18919v1",
+    "https://arxiv.org/pdf/2504.18919v1",
+    "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "https://avatars.githubusercontent.com/u/88600346?v=4",
+    "https://cdn-avatars.huggingface.co/v1/production/uploads/1608042047613-5f1158120c833276f61f1a84.jpeg",
+    "https://cdn-uploads.huggingface.co/production/uploads/659bec4728676374f33ef921/coVTL2rDXkm8U-geWL14x.png",
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://doi.org/10.1038/s41591-025-04074-y",
+    "https://github.com/am-bean",
+    "https://github.com/am-bean/HELPMed",
+    "https://github.com/am-bean/HELPMed.git",
+    "https://github.com/am-bean/HELPMed/commit/3271617a4a4475da08e207fd26d406c279c501c8",
+    "https://github.com/am-bean/HELPMed/commit/35b50de8fa5debd1f1ebc2c768496dd3b6ad4cf4",
+    "https://github.com/am-bean/HELPMed/commit/58a1549cd39d90c707191a2b06365f56134e9f4c",
+    "https://github.com/am-bean/HELPMed/commit/c59cbcec4820e6cf08a7aa0c2d99d17f969c8c0a",
+    "https://github.com/am-bean/HELPMed/commit/d27194bf27b92ceeebac7fd1483f810c9091c7da",
+    "https://github.com/am-bean/HELPMed/commit/ea23fa4cf69008fec0d65df59a1fce432abae5ab",
+    "https://github.com/am-bean/HELPMed/commit/f02f71798f5d5c13e3d07845b35ddbb5cc1ba19e",
+    "https://github.com/am-bean/HELPMed/tree/3271617a4a4475da08e207fd26d406c279c501c8",
+    "https://github.com/web-flow",
+    "https://huggingface.co/api/datasets/ambean/HELPMed/commits/main",
+    "https://huggingface.co/api/datasets/ambean/HELPMed/tree/0a03e862cb6f57ed3ecf0605aab012357708a9b9?recursive=true",
+    "https://huggingface.co/api/datasets/ambean/HELPMed/tree/main?recursive=true",
+    "https://huggingface.co/datasets/ambean/HELPMed",
+    "https://huggingface.co/datasets/ambean/HELPMed/raw/main/README.md",
+    "https://huggingface.co/datasets/ambean/HELPMed/resolve/main/examples.csv",
+    "https://huggingface.co/datasets/ambean/HELPMed/resolve/main/scenarios.csv",
+    "https://osf.io/dt2p3",
+    "https://osf.io/dt2p3/",
+    "https://oxrml.com/llm-medical-assistants/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12920132",
+    "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/data/main/clean_examples.csv",
+    "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/data/main/clean_prescored.csv",
+    "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/data/main/scenarios.csv",
+    "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/notebooks/main_results.ipynb",
+    "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/notebooks/streamlined_results.ipynb",
+    "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/src/plt_condition_identification_detailed.pdf",
+    "https://raw.githubusercontent.com/am-bean/HELPMed/main/README.md",
+    "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/clean_examples.csv",
+    "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/clean_prescored.csv",
+    "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/scenarios.csv",
+    "https://raw.githubusercontent.com/am-bean/HELPMed/main/notebooks/main_results.ipynb",
+    "https://raw.githubusercontent.com/am-bean/HELPMed/main/notebooks/streamlined_results.ipynb",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12920132/fullTextXML",
+    "https://www.nature.com/articles/s41591-025-04074-y.pdf",
+    "https://www.semanticscholar.org/paper/72cdb1c0d427c023b43c291cfa453b039a1ca842"
+  ],
+  "inventory_source_notes": {
+    "dependency_version_evidence": [],
+    "source_urls_retained": [
+      {
+        "url": "https://arxiv.org/abs/2504.18919",
+        "evidence_path": "papers/P068_medical_assistant_rct/REPORT.md"
+      },
+      {
+        "url": "https://github.com/am-bean/HELPMed/tree/3271617a4a4475da08e207fd26d406c279c501c8",
+        "evidence_path": "papers/P068_medical_assistant_rct/REPORT.md"
+      },
+      {
+        "url": "https://huggingface.co/datasets/ambean/HELPMed",
+        "evidence_path": "papers/P068_medical_assistant_rct/REPORT.md"
+      },
+      {
+        "url": "https://osf.io/dt2p3/",
+        "evidence_path": "papers/P068_medical_assistant_rct/REPORT.md"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41591-025-04074-y",
+        "evidence_path": "papers/P068_medical_assistant_rct/REPORT.md"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41591-025-04074-y.pdf",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/citation_snapshot.json"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12920132",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/citation_snapshot.json"
+      },
+      {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/search/bulk?query=%28%22large+language+model%22+%7C+ChatGPT%29+%2B+%28trust+%7C+persuasion+%7C+reliability%29&publicationDateOrYear=2025-04-10%3A2026-10-10&minCitationCount=20&sort=citationCount%3Adesc&fields=title%2CpublicationDate%2CcitationCount%2CexternalIds%2Curl%2CopenAccessPdf%2Cabstract",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/citation_snapshot.json"
+      },
+      {
+        "url": "https://arxiv.org/html/2504.18919v1",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://oxrml.com/llm-medical-assistants/",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://huggingface.co/api/datasets/ambean/HELPMed/tree/main?recursive=true",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://huggingface.co/datasets/ambean/HELPMed/raw/main/README.md",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12920132/fullTextXML",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/git/trees/main?recursive=1",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/am-bean/HELPMed/main/README.md",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://huggingface.co/datasets/ambean/HELPMed/resolve/main/examples.csv",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://huggingface.co/datasets/ambean/HELPMed/resolve/main/scenarios.csv",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://huggingface.co/api/datasets/ambean/HELPMed/commits/main",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/am-bean/HELPMed/main/notebooks/streamlined_results.ipynb",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/am-bean/HELPMed/main/notebooks/main_results.ipynb",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/scenarios.csv",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/clean_examples.csv",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/am-bean/HELPMed/main/data/main/clean_prescored.csv",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/commits?per_page=100",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://huggingface.co/api/datasets/ambean/HELPMed/tree/0a03e862cb6f57ed3ecf0605aab012357708a9b9?recursive=true",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/git/trees/3271617a4a4475da08e207fd26d406c279c501c8?recursive=1",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/notebooks/main_results.ipynb",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/notebooks/streamlined_results.ipynb",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/data/main/scenarios.csv",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/data/main/clean_examples.csv",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/src/plt_condition_identification_detailed.pdf",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://api.osf.io/v2/registrations/dt2p3/",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://api.osf.io/v2/nodes/dt2p3/",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/am-bean/HELPMed/3271617a4a4475da08e207fd26d406c279c501c8/data/main/clean_prescored.csv",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2504.18919v1",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/cpu_routes_request_log.json"
+      },
+      {
+        "url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608042047613-5f1158120c833276f61f1a84.jpeg",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/dataset_commits.json"
+      },
+      {
+        "url": "https://cdn-uploads.huggingface.co/production/uploads/659bec4728676374f33ef921/coVTL2rDXkm8U-geWL14x.png",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/dataset_readme.md"
+      },
+      {
+        "url": "https://arxiv.org/abs/2504.18919}",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/dataset_readme.md"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/git/trees/e0db88cd12a888ef30f6a8331bd4f8a61d3aaaef",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/git/commits/35b50de8fa5debd1f1ebc2c768496dd3b6ad4cf4",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/commits/35b50de8fa5debd1f1ebc2c768496dd3b6ad4cf4",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://github.com/am-bean/HELPMed/commit/35b50de8fa5debd1f1ebc2c768496dd3b6ad4cf4",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/commits/35b50de8fa5debd1f1ebc2c768496dd3b6ad4cf4/comments",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://avatars.githubusercontent.com/u/88600346?v=4",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/am-bean",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://github.com/am-bean",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/am-bean/followers",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/am-bean/following{/other_user}",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/am-bean/gists{/gist_id}",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/am-bean/starred{/owner}{/repo}",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/am-bean/subscriptions",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/am-bean/orgs",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/am-bean/repos",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/am-bean/events{/privacy}",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/am-bean/received_events",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/commits/c59cbcec4820e6cf08a7aa0c2d99d17f969c8c0a",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://github.com/am-bean/HELPMed/commit/c59cbcec4820e6cf08a7aa0c2d99d17f969c8c0a",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/git/trees/d4d108a3ec8a9a7c1dc93fe13fed13ad71b9a748",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/git/commits/c59cbcec4820e6cf08a7aa0c2d99d17f969c8c0a",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/commits/c59cbcec4820e6cf08a7aa0c2d99d17f969c8c0a/comments",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/commits/d27194bf27b92ceeebac7fd1483f810c9091c7da",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://github.com/am-bean/HELPMed/commit/d27194bf27b92ceeebac7fd1483f810c9091c7da",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://github.com/am-bean/HELPMed",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/git/trees/151d586f2c364c938a1806657019277f106c2af5",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/git/commits/d27194bf27b92ceeebac7fd1483f810c9091c7da",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/commits/d27194bf27b92ceeebac7fd1483f810c9091c7da/comments",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/commits/58a1549cd39d90c707191a2b06365f56134e9f4c",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://github.com/am-bean/HELPMed/commit/58a1549cd39d90c707191a2b06365f56134e9f4c",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/commits/f02f71798f5d5c13e3d07845b35ddbb5cc1ba19e",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://github.com/am-bean/HELPMed/commit/f02f71798f5d5c13e3d07845b35ddbb5cc1ba19e",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/git/trees/48583535f9675e91118d810c20b6ac7153dfb09c",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/git/commits/58a1549cd39d90c707191a2b06365f56134e9f4c",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/commits/58a1549cd39d90c707191a2b06365f56134e9f4c/comments",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/commits/3271617a4a4475da08e207fd26d406c279c501c8",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://github.com/am-bean/HELPMed/commit/3271617a4a4475da08e207fd26d406c279c501c8",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/git/trees/14688decb55c20d556dea0be59e3a9acef8dd666",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/git/commits/f02f71798f5d5c13e3d07845b35ddbb5cc1ba19e",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/commits/f02f71798f5d5c13e3d07845b35ddbb5cc1ba19e/comments",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/web-flow",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://github.com/web-flow",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/web-flow/followers",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/web-flow/subscriptions",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/web-flow/orgs",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/web-flow/repos",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/users/web-flow/received_events",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/commits/ea23fa4cf69008fec0d65df59a1fce432abae5ab",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://github.com/am-bean/HELPMed/commit/ea23fa4cf69008fec0d65df59a1fce432abae5ab",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/git/trees/2885b68ef10772e1b2a1e777757801210743b357",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/git/commits/ea23fa4cf69008fec0d65df59a1fce432abae5ab",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/commits/ea23fa4cf69008fec0d65df59a1fce432abae5ab/comments",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/git/trees/78ccf2cd8613a2765b60444f64f43ef9b2349bfa",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/git/commits/3271617a4a4475da08e207fd26d406c279c501c8",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/commits/3271617a4a4475da08e207fd26d406c279c501c8/comments",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_commits.json"
+      },
+      {
+        "url": "https://api.github.com/repos/am-bean/HELPMed/forks",
+        "evidence_path": "papers/P068_medical_assistant_rct/sources/github_metadata.json"
+      }
+    ],
+    "license_notices_in_reviewed_metadata": [
+      {
+        "source": "papers/P068_medical_assistant_rct/sources/publisher_fulltext.xml",
+        "literal": "day><month>2</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>© The Author(s) 2026, modified publication 2026</copyright-statement><license><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give a"
+      },
+      {
+        "source": "papers/P068_medical_assistant_rct/sources/publisher_fulltext.xml",
+        "literal": "rmissions><copyright-statement>© The Author(s) 2026, modified publication 2026</copyright-statement><license><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a"
+      },
+      {
+        "source": "papers/P068_medical_assistant_rct/sources/publisher_fulltext.xml",
+        "literal": "-statement>© The Author(s) 2026, modified publication 2026</copyright-statement><license><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creativ"
+      },
+      {
+        "source": "papers/P068_medical_assistant_rct/sources/publisher_fulltext.xml",
+        "literal": "t><license><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party"
+      },
+      {
+        "source": "papers/P068_medical_assistant_rct/sources/publisher_fulltext.xml",
+        "literal": "ropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by"
+      },
+      {
+        "source": "papers/P068_medical_assistant_rct/sources/publisher_fulltext.xml",
+        "literal": "ges or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this li"
+      },
+      {
+        "source": "papers/P068_medical_assistant_rct/sources/publisher_fulltext.xml",
+        "literal": " in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://creativecommons.org/licenses/by/4.0/\" ext-link"
+      },
+      {
+        "source": "papers/P068_medical_assistant_rct/sources/publisher_fulltext.xml",
+        "literal": "exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://creativecommons.org/licenses/by/4.0/\" ext-link-type=\"uri\">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p></license></permissions><self-uri xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:hr"
+      },
+      {
+        "source": "papers/P068_medical_assistant_rct/sources/publisher_fulltext.xml",
+        "literal": " visit <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://creativecommons.org/licenses/by/4.0/\" ext-link-type=\"uri\">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p></license></permissions><self-uri xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"41591_2025_Article_4074.pdf\" content-type=\"pmc-pdf\"><?cloudpmc-path cf67/12920132/84de5c5794a0/41591_2025_Article_4074.pdf?><?cloudpmc-bucket app"
+      },
+      {
+        "source": "papers/P068_medical_assistant_rct/sources/publisher_fulltext.xml",
+        "literal": ":href=\"https://creativecommons.org/licenses/by/4.0/\" ext-link-type=\"uri\">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p></license></permissions><self-uri xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"41591_2025_Article_4074.pdf\" content-type=\"pmc-pdf\"><?cloudpmc-path cf67/12920132/84de5c5794a0/41591_2025_Article_4074.pdf?><?cloudpmc-bucket app?><?size 6997968?></self-uri><related-article related-article-typ"
+      }
+    ],
+    "retained_license_files": [],
+    "redistribution_status": "No independent license grant inferred. Default bundle is programme-authored code/config/compact derived results; original assets require notice/URL-based acquisition when rights are unresolved. Article/source license excerpts are evidence, not a blanket repository license.",
+    "portable_rerun_notes": [
+      "Keep repository-relative layout for __file__-based roots. Preserve input bytes and pinned hashes. Install stated scientific dependencies separately; do not copy original runtime.",
+      "New output namespaces are required. Historical immutable run directories must not be overwritten.",
+      "Authorization/freeze/runtime source checks remain active in immutable runners. Later guarded studies need an explicitly documented portable launch/config adapter; none was implemented or tested by this inventory."
+    ],
+    "command_limit": "Commands document source CLI, are not tested portable instructions and do not grant execution. Fixed-output early runners need an explicit new output path adaptation; guarded later runners additionally require historical or prospectively reviewed exact auth/freeze/runtime context."
+  },
+  "policy": "Source/data/model files are acquired from their owners. Only explicitly identified programme transcriptions are bundled. URLs are historical and were not re-fetched during publication preparation."
+}

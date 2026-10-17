@@ -1,0 +1,57 @@
+[
+  {
+    "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\bootstrap_indices.npz",
+    "sha256": "8945fed2b60f22b650b6704daeeb7239c6a6cebc0789dd8e0160f0c154c2bd2e",
+    "bytes": 4439738
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\original_examples_initial.csv",
+    "sha256": "73308f672be218d7fac8be043660af47a8d819767b97f26be71f2ea7dabdd425",
+    "bytes": 4251713
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\original_row_targets.csv",
+    "sha256": "06892c2dd85bb4717f794610c596bd099469445fc0aadb14d605b3577e9aa6e8",
+    "bytes": 182791
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\original_scoring_scenarios_initial.csv",
+    "sha256": "6cab86bbe5f6ed1f1fcedd2d7a64fc9effd9e875f566ee4647e117558b9a63db",
+    "bytes": 7501
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\PREREGISTRATION.json",
+    "sha256": "1ee6760a74d6d9bfadd3a0af4eac4e0edab6c429dc46cbd5796af5f6abc1c501",
+    "bytes": 4964
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\PREREGISTRATION.md",
+    "sha256": "2df798cd2668d91dc0beed6ebb0b5452be881635e3069561caeecc29e3194856",
+    "bytes": 2161
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\results.json",
+    "sha256": "deb9491501941f184c7ae369b48ee1877f3efbc00daafdf8c7c95d43eede7edc",
+    "bytes": 139586
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\runner.py",
+    "sha256": "0fa32e93030cbd921d69b8dd9aa137c1b12abf6b02a15d7a5401ad54dd342230",
+    "bytes": 10040
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\scores.csv",
+    "sha256": "7267ff2c6a67de20614a808b35fbf2156b00df40189eb36251c7400f78ea8b26",
+    "bytes": 134373
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\sources_manifest.json",
+    "sha256": "4a5467b975c63c713fce945828ed4453056f0f77781bdb8551e7aacd36201641",
+    "bytes": 6925
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\runs\\P068-central-002\\targets.json",
+    "sha256": "3316d7c07df7edc24976f6b3f8fe01cf0d9b3a0faad37da843540e94dc4377b9",
+    "bytes": 21225
+  }
+]

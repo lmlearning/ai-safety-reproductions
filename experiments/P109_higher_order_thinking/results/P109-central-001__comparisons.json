@@ -1,0 +1,217 @@
+[
+  {
+    "id": "fixed.k",
+    "target": 59,
+    "cap_key": "exact",
+    "rounding_half_unit": 0,
+    "actual": 59,
+    "passed": true
+  },
+  {
+    "id": "random.k",
+    "target": 59,
+    "cap_key": "exact",
+    "rounding_half_unit": 0,
+    "actual": 59,
+    "passed": true
+  },
+  {
+    "id": "fixed.mean",
+    "target": 0.578,
+    "cap_key": "mean",
+    "rounding_half_unit": 0.0005,
+    "actual": 0.5774975296141522,
+    "rounding_envelope": [
+      0.5755546118354583,
+      0.579430681026822
+    ],
+    "envelope_width": 0.00387606919136374,
+    "width_cap": 0.01,
+    "target_interval_overlap": true,
+    "passed": true
+  },
+  {
+    "id": "fixed.ci_low",
+    "target": 0.519,
+    "cap_key": "ci_low",
+    "rounding_half_unit": 0.0005,
+    "actual": 0.5193342837713144,
+    "rounding_envelope": [
+      0.5172697867909462,
+      0.5213783873392086
+    ],
+    "envelope_width": 0.004108600548262453,
+    "width_cap": 0.015,
+    "target_interval_overlap": true,
+    "passed": true
+  },
+  {
+    "id": "fixed.ci_high",
+    "target": 0.636,
+    "cap_key": "ci_high",
+    "rounding_half_unit": 0.0005,
+    "actual": 0.6356607754569901,
+    "rounding_envelope": [
+      0.6336069055230718,
+      0.6377155060713342
+    ],
+    "envelope_width": 0.004108600548262453,
+    "width_cap": 0.015,
+    "target_interval_overlap": true,
+    "passed": true
+  },
+  {
+    "id": "random.mean",
+    "target": 0.609,
+    "cap_key": "mean",
+    "rounding_half_unit": 0.0005,
+    "actual": 0.6087965551102273,
+    "rounding_envelope": [
+      0.6044226430923455,
+      0.6131797930705903
+    ],
+    "envelope_width": 0.008757149978244838,
+    "width_cap": 0.01,
+    "target_interval_overlap": true,
+    "passed": true
+  },
+  {
+    "id": "random.ci_low",
+    "target": 0.485,
+    "cap_key": "ci_low",
+    "rounding_half_unit": 0.0005,
+    "actual": 0.4852213566372432,
+    "rounding_envelope": [
+      0.48025633731252165,
+      0.4901843892918632
+    ],
+    "envelope_width": 0.009928051979341546,
+    "width_cap": 0.015,
+    "target_interval_overlap": true,
+    "passed": true
+  },
+  {
+    "id": "random.ci_high",
+    "target": 0.732,
+    "cap_key": "ci_high",
+    "rounding_half_unit": 0.0005,
+    "actual": 0.7323717535832115,
+    "rounding_envelope": [
+      0.7274180468710727,
+      0.7373460988504141
+    ],
+    "envelope_width": 0.009928051979341435,
+    "width_cap": 0.015,
+    "target_interval_overlap": true,
+    "passed": true
+  },
+  {
+    "id": "Q",
+    "target": 255.208,
+    "cap_key": "Q",
+    "rounding_half_unit": 0.0005,
+    "actual": 255.25700462143413,
+    "rounding_envelope": [
+      253.79419463390607,
+      256.68529137263744
+    ],
+    "envelope_width": 2.8910967387313633,
+    "width_cap": 5,
+    "target_interval_overlap": true,
+    "passed": true
+  },
+  {
+    "id": "df",
+    "target": 58,
+    "cap_key": "exact",
+    "rounding_half_unit": 0,
+    "actual": 58,
+    "passed": true
+  },
+  {
+    "id": "Q_p",
+    "target": "<.001",
+    "cap_key": "threshold",
+    "rounding_half_unit": 0,
+    "actual": 1.4468067552763563e-26,
+    "rounding_envelope": [
+      0.0,
+      1e-09
+    ],
+    "passed": true,
+    "required_upper_threshold": 0.001
+  },
+  {
+    "id": "I2",
+    "target": 77.273,
+    "cap_key": "I2_percentage_points",
+    "rounding_half_unit": 0.0005,
+    "actual": 77.27780278311324,
+    "rounding_envelope": [
+      77.14683738689395,
+      77.40423703769655
+    ],
+    "envelope_width": 0.2573996508025971,
+    "width_cap": 0.5,
+    "target_interval_overlap": true,
+    "passed": true
+  },
+  {
+    "id": "fixed.se",
+    "target": 0.03,
+    "cap_key": "se",
+    "rounding_half_unit": 0.0005,
+    "actual": 0.029675670727432827,
+    "rounding_envelope": [
+      0.029619060444762545,
+      0.02973770307220919
+    ],
+    "envelope_width": 0.00011864262744664539,
+    "width_cap": 0.002,
+    "target_interval_overlap": true,
+    "passed": true
+  },
+  {
+    "id": "fixed.variance",
+    "target": 0.001,
+    "cap_key": "variance",
+    "rounding_half_unit": 0.0005,
+    "actual": 0.0008806454331230135,
+    "rounding_envelope": [
+      0.0008772878008686191,
+      0.0008843319245354748
+    ],
+    "envelope_width": 7.044123666855723e-06,
+    "width_cap": 0.0001,
+    "target_interval_overlap": true,
+    "passed": true
+  },
+  {
+    "id": "fixed.z",
+    "target": 19.483,
+    "cap_key": "z",
+    "rounding_half_unit": 0.0005,
+    "actual": 19.460302512397845,
+    "rounding_envelope": [
+      19.354374168123577,
+      19.562763024650135
+    ],
+    "envelope_width": 0.20838885652655748,
+    "width_cap": 0.2,
+    "target_interval_overlap": true,
+    "passed": false
+  },
+  {
+    "id": "fixed.p",
+    "target": "<.0005",
+    "cap_key": "threshold",
+    "rounding_half_unit": 0,
+    "actual": 2.3837372272084914e-84,
+    "rounding_envelope": [
+      0.0,
+      1e-09
+    ],
+    "passed": true,
+    "required_upper_threshold": 0.0005
+  }
+]

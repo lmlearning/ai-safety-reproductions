@@ -1,0 +1,75 @@
+# P079: Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity
+
+**Outcome: Near success.** This is a central-result reproduction; whole-paper reproduction is not claimed.
+
+[Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
+
+# Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity
+
+Bounded near success
+
+**Result.** The complete developer-productivity reanalysis is a bounded near success; its original 62/65 strict result is retained.
+
+## What was reproduced
+
+All 246 completed tasks, 16 developers, both trial arms, 65 original targets and fixed bootstrap comparisons were included, preserving the source estimator and missingness choices.
+
+## Agreement and differences
+
+Estimated slowdown with AI access is 18.8400%, consistent with the reported 18.8–19%. All 55 non-display targets retain their passing original limits. All ten integer-displayed completion-time summaries are within one minute; maximum error is 0.877005 minutes.
+
+All 1,782 independent checks, including 150,000 bootstrap draws, pass. The original three strict failures remain.
+
+## Issues and omitted work
+
+The display bound was initially described with the wrong unit. It is one original minute, not one percentage point; correcting wording did not rescale it. Historical formatting code/seed are unavailable; truncation is possible but unproven. Source data/code conflicts remain disclosed.
+
+No new developer trial, current assistant test, expert quality review or unreleased-covariate reconstruction occurred. The central slowdown and uncertainty reproduce for this trial, not all AI coding use.
+
+Near classification is retrospective; no cohort, estimator or original failed comparison was changed.
+
+## Paper and selection
+
+- [Original paper or public release](https://arxiv.org/abs/2507.09089)
+- [Original paper or public release](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
+
+- Identified public release: 2025-07-10.
+- Retained selection observation: 213 citations, Semantic Scholar. Exact capture time unknown.
+- July 10 empirical announcement precedes July 12 arXiv v1.
+- Citation values are retained selection evidence, not current counts.
+
+
+The route was **released trial data**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
+
+## Paper selection
+
+The retained selection observation was **213 citations** from **Semantic Scholar**. The recorded substantive public date was **2025-07-10** (extended window). The exact citation-capture time is unknown in the retained evidence; the count is not presented as a current observation. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
+
+
+
+## Code and rerunning
+
+Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry points, dependencies, historical commands and known execution constraints. The following code is included in this folder:
+
+- [audit_central.py](code/audit_central.py) — primary_or_independent_scientific_entry
+- [run_central.py](code/run_central.py) — primary_or_independent_scientific_entry
+
+The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
+
+## Results and audit trail
+
+- [P079-audit-001__AUDIT_MANIFEST.json](results/P079-audit-001__AUDIT_MANIFEST.json) — Archived numerical result, complete target comparison, audit or run metadata
+- [P079-audit-001__LAUNCH_RESULT.json](results/P079-audit-001__LAUNCH_RESULT.json) — Archived numerical result, complete target comparison, audit or run metadata
+- [P079-audit-001__audit.json](results/P079-audit-001__audit.json) — Complete aggregate target/error/audit ledger; exclude underlying participant rows, predictions, logits and bootstrap arrays
+- [P079-audit-001__independent_target_decisions.json](results/P079-audit-001__independent_target_decisions.json) — Archived numerical result, complete target comparison, audit or run metadata
+- [environment__ROOT_P079_ARCHIVED_COMPLETE65_NEAR_CHECK924.json](results/environment__ROOT_P079_ARCHIVED_COMPLETE65_NEAR_CHECK924.json) — Complete aggregate target/error/audit ledger; exclude underlying participant rows, predictions, logits and bootstrap arrays
+- [P079-central-001__LAUNCH_RESULT.json](results/P079-central-001__LAUNCH_RESULT.json) — Archived numerical result, complete target comparison, audit or run metadata
+- [P079-central-001__RUN_MANIFEST.json](results/P079-central-001__RUN_MANIFEST.json) — Archived numerical result, complete target comparison, audit or run metadata
+- [P079-central-001__metrics.json](results/P079-central-001__metrics.json) — Archived numerical result, complete target comparison, audit or run metadata
+- [P079-central-001__model_statistics.json](results/P079-central-001__model_statistics.json) — Complete aggregate target/error/audit ledger; exclude underlying participant rows, predictions, logits and bootstrap arrays
+- [P079-central-001__target_decisions.json](results/P079-central-001__target_decisions.json) — Complete aggregate target/error/audit ledger; exclude underlying participant rows, predictions, logits and bootstrap arrays
+
+- [ROOT_ADOPTED_P079_ARCHIVED_INTEGER_DISPLAY_NEAR_RULE923.json](evidence/ROOT_ADOPTED_P079_ARCHIVED_INTEGER_DISPLAY_NEAR_RULE923.json) — Final pinned execution/configuration/audit record
+- [INDEPENDENT_COMPLETE_P079_ARCHIVED_NEAR_SUPPORTED923_CPU002.json](evidence/INDEPENDENT_COMPLETE_P079_ARCHIVED_NEAR_SUPPORTED923_CPU002.json) — Final pinned execution/configuration/audit record
+
+The full included-file index is [PROVENANCE.json](PROVENANCE.json). The [historical report](evidence/HISTORICAL_REPORT.txt) preserves the counted report's original qualifications; old warehouse paths there are historical references rather than public download links. Published copies normalize workstation paths and UTF-8 encoding. Their hashes are recorded separately from the original archive hashes.

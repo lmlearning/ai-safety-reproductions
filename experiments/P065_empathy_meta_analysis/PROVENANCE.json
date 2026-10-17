@@ -1,0 +1,180 @@
+{
+  "paper_id": "P065",
+  "source_archive": "ai-safety-reproductions",
+  "files": [
+    {
+      "published_path": "evidence/ALL_SIX_EARLIEST_RELEASE_PROPOSED_DISPOSITIONS001.json",
+      "original_relative_path": "literature/counted_meta_earliest_release_audit001/ALL_SIX_EARLIEST_RELEASE_PROPOSED_DISPOSITIONS001.json",
+      "role": "evidence",
+      "purpose": "Final pinned execution/configuration/audit record",
+      "text": true,
+      "original_bytes": 4969,
+      "original_sha256": "cd9ef90861c8253100f5760f3b0bd27966e9983eb7cae8163dea0fe5a5b3c107",
+      "published_bytes": 4969,
+      "published_sha256": "cd9ef90861c8253100f5760f3b0bd27966e9983eb7cae8163dea0fe5a5b3c107",
+      "changes": "none"
+    },
+    {
+      "published_path": "plans/PREREGISTRATION.md.txt",
+      "original_relative_path": "papers/P065_empathy_meta_analysis/PREREGISTRATION.md",
+      "role": "plan",
+      "purpose": "fixed method/target/configuration or provenance contract",
+      "text": true,
+      "original_bytes": 5626,
+      "original_sha256": "07e0501391e12fe7d86f6e4aeb0f5b7d4fef2ed6cc33086c244265475222c36f",
+      "published_bytes": 5626,
+      "published_sha256": "07e0501391e12fe7d86f6e4aeb0f5b7d4fef2ed6cc33086c244265475222c36f",
+      "changes": "none"
+    },
+    {
+      "published_path": "results/P065-audit-001__audit.json",
+      "original_relative_path": "papers/P065_empathy_meta_analysis/audits/P065-audit-001/audit.json",
+      "role": "result",
+      "purpose": "successful original run/audit product, target comparison, figure or hash manifest",
+      "text": true,
+      "original_bytes": 28637,
+      "original_sha256": "67e337382f2139bc384eeef7256a98575a97cdcfa526086ddfb77c2b11fe8c1a",
+      "published_bytes": 28637,
+      "published_sha256": "67e337382f2139bc384eeef7256a98575a97cdcfa526086ddfb77c2b11fe8c1a",
+      "changes": "none"
+    },
+    {
+      "published_path": "inputs/original_data.csv",
+      "original_relative_path": "papers/P065_empathy_meta_analysis/original_data.csv",
+      "role": "input",
+      "purpose": "Literal published aggregate inputs or scoring reference",
+      "text": true,
+      "original_bytes": 746,
+      "original_sha256": "db8183c5d0ff2fa15f669b94ff2fd4c662971c5a05209887baeae4e28933bd42",
+      "published_bytes": 746,
+      "published_sha256": "db8183c5d0ff2fa15f669b94ff2fd4c662971c5a05209887baeae4e28933bd42",
+      "changes": "none"
+    },
+    {
+      "published_path": "results/P065-central-001__configuration.json",
+      "original_relative_path": "papers/P065_empathy_meta_analysis/runs/P065-central-001/configuration.json",
+      "role": "result",
+      "purpose": "successful original run/audit product, target comparison, figure or hash manifest",
+      "text": true,
+      "original_bytes": 681,
+      "original_sha256": "a9ec44dcb2042787bf6cf731fef25f6ae3b1ef3228bd62d51f5f51c0a0a520cd",
+      "published_bytes": 637,
+      "published_sha256": "372e6bc340426fdd6f5101d43554f5f80ce67fb516c453c7fbb831c160d33779",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "results/P065-central-001__environment.json",
+      "original_relative_path": "papers/P065_empathy_meta_analysis/runs/P065-central-001/environment.json",
+      "role": "result",
+      "purpose": "successful original run/audit product, target comparison, figure or hash manifest",
+      "text": true,
+      "original_bytes": 588,
+      "original_sha256": "299fe0485e32e97b771f7fc5a6f57793f455158ce7f43de51c85069e9088d99e",
+      "published_bytes": 586,
+      "published_sha256": "58e23402e9afabcbdcf5d9c8a243af22cef19fe3f45377c768c192a036476327",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "results/P065-central-001__execution.json",
+      "original_relative_path": "papers/P065_empathy_meta_analysis/runs/P065-central-001/execution.json",
+      "role": "result",
+      "purpose": "successful original run/audit product, target comparison, figure or hash manifest",
+      "text": true,
+      "original_bytes": 713,
+      "original_sha256": "83287499ba5231d0dbc76aa1edfab6557cec74a9c867f4984008642927acfe8b",
+      "published_bytes": 713,
+      "published_sha256": "83287499ba5231d0dbc76aa1edfab6557cec74a9c867f4984008642927acfe8b",
+      "changes": "none"
+    },
+    {
+      "published_path": "results/P065-central-001__raw_per_study.json",
+      "original_relative_path": "papers/P065_empathy_meta_analysis/runs/P065-central-001/raw_per_study.json",
+      "role": "result",
+      "purpose": "successful original run/audit product, target comparison, figure or hash manifest",
+      "text": true,
+      "original_bytes": 14993,
+      "original_sha256": "19dacaea17173e6cfd594f32cdf5f052a42acfbaccffeb4021aaab23f2d0f136",
+      "published_bytes": 14993,
+      "published_sha256": "19dacaea17173e6cfd594f32cdf5f052a42acfbaccffeb4021aaab23f2d0f136",
+      "changes": "none"
+    },
+    {
+      "published_path": "results/P065-central-001__results.json",
+      "original_relative_path": "papers/P065_empathy_meta_analysis/runs/P065-central-001/results.json",
+      "role": "result",
+      "purpose": "successful original run/audit product, target comparison, figure or hash manifest",
+      "text": true,
+      "original_bytes": 23187,
+      "original_sha256": "824600ffcbd6d225f071070211d4bc9c654fee0cc4f8bddeb485b4a7a97ae8ff",
+      "published_bytes": 23187,
+      "published_sha256": "824600ffcbd6d225f071070211d4bc9c654fee0cc4f8bddeb485b4a7a97ae8ff",
+      "changes": "none"
+    },
+    {
+      "published_path": "results/P065-central-001__run_manifest.json",
+      "original_relative_path": "papers/P065_empathy_meta_analysis/runs/P065-central-001/run_manifest.json",
+      "role": "result",
+      "purpose": "successful original run/audit product, target comparison, figure or hash manifest",
+      "text": true,
+      "original_bytes": 1531,
+      "original_sha256": "2d1180ed39120257817f7f70ac2e07499bf210919128ae185c43dd5e80fc1a0c",
+      "published_bytes": 1531,
+      "published_sha256": "2d1180ed39120257817f7f70ac2e07499bf210919128ae185c43dd5e80fc1a0c",
+      "changes": "none"
+    },
+    {
+      "published_path": "results/P065-central-001__source_manifest.json",
+      "original_relative_path": "papers/P065_empathy_meta_analysis/runs/P065-central-001/source_manifest.json",
+      "role": "result",
+      "purpose": "successful original run/audit product, target comparison, figure or hash manifest",
+      "text": true,
+      "original_bytes": 3092,
+      "original_sha256": "17a349a84458ecb031be9fa6fea9e6b91d0307d4d5a7412d3091aa2f3368e94b",
+      "published_bytes": 3092,
+      "published_sha256": "17a349a84458ecb031be9fa6fea9e6b91d0307d4d5a7412d3091aa2f3368e94b",
+      "changes": "none"
+    },
+    {
+      "published_path": "plans/targets.json",
+      "original_relative_path": "papers/P065_empathy_meta_analysis/targets.json",
+      "role": "plan",
+      "purpose": "fixed method/target/configuration or provenance contract",
+      "text": true,
+      "original_bytes": 1236,
+      "original_sha256": "bf15292e4c366ad4df7ea30b619b1ab53c947ed03fc0fbbb1aadd62599145065",
+      "published_bytes": 1236,
+      "published_sha256": "bf15292e4c366ad4df7ea30b619b1ab53c947ed03fc0fbbb1aadd62599145065",
+      "changes": "none"
+    },
+    {
+      "published_path": "code/audit_empathy_meta_analysis.py",
+      "original_relative_path": "scripts/audit_empathy_meta_analysis.py",
+      "role": "code",
+      "purpose": "scientific entry",
+      "text": true,
+      "original_bytes": 8099,
+      "original_sha256": "66d97a18c9c619e9d1364c9d32349b6ca7cee8b9117e61cc1cce4ecb9799de47",
+      "published_bytes": 8099,
+      "published_sha256": "66d97a18c9c619e9d1364c9d32349b6ca7cee8b9117e61cc1cce4ecb9799de47",
+      "changes": "none"
+    },
+    {
+      "published_path": "code/run_empathy_meta_analysis.py",
+      "original_relative_path": "scripts/run_empathy_meta_analysis.py",
+      "role": "code",
+      "purpose": "scientific entry",
+      "text": true,
+      "original_bytes": 8750,
+      "original_sha256": "ee558e77fb809e123726750ef4904a01119c4fe997e13a4d50d9205946822b4b",
+      "published_bytes": 8750,
+      "published_sha256": "ee558e77fb809e123726750ef4904a01119c4fe997e13a4d50d9205946822b4b",
+      "changes": "none"
+    }
+  ],
+  "historical_report_source": {
+    "original_relative_path": "papers/P065_empathy_meta_analysis/REPORT.md",
+    "bytes": 7504,
+    "sha256": "157177f81563bd4ed91c6101ad3d56a6696aa075f3be3bc1d317f9fa67cfbd78"
+  },
+  "note": "Recorded historical manifests retain original hashes. Publication hashes are separate; path normalization does not imply the old hash checks will accept publication copies."
+}

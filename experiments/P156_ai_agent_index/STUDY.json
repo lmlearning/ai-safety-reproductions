@@ -1,0 +1,17 @@
+{
+  "ordinal": 17,
+  "paper_id": "P156",
+  "title": "The 2025 AI Agent Index",
+  "classification": "Bounded NEAR",
+  "recorded_public_date": "2026-02-19",
+  "window": "Main",
+  "citations": 38,
+  "provider": "Semantic Scholar",
+  "capture_time_supported": true,
+  "route": "Released author coding",
+  "result_and_scope": "All30 agents/45 fields/1,350 cells/240 safety cells/8 proportions. Max error2.083333pp within3pp;21 domains agree. Old4/8,caption reversal and unavailable auxiliary retained.",
+  "DOI": null,
+  "arxiv_id": null,
+  "preserved_limits": "Distinct2025 measurement wave released19Feb2026, not earlier index wave. Reanalyses author codes, not independent reannotation or updated website; caption label reversal/unavailable14-word mean remain.",
+  "whole_paper_reproduction": false
+}

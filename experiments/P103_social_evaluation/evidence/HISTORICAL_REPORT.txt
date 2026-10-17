@@ -1,0 +1,16 @@
+Evidence of a social evaluation penalty for using AI — P103
+NEAR_SUCCESS: complete primary Study 1 plus its manipulation check; counted once as paper20.
+
+The complete before-outcome scope comprises all500 original primary records, the fixed497-person rating cohort,21items/six outcome scales and201 manipulation-check records. Every one of108 original published targets was evaluated by both the original analysis and independent raw-data/formula audit003. Both pass107/108; all1484 independent integrity checks pass.
+
+The sole strict failure is laziness Welch degrees of freedom:492.74805082411166 versus printed492.8. Absolute error0.05194917588834df is about0.0105416% of the published df. It exceeds the original0.050000001 tolerance by0.00194917488834. All other107 comparisons pass their original limits, including all six effects, mean and effect-size confidence intervals, p-value claims, reliability/correlation/cohort/demographic and manipulation-check targets. This incidental df miss does not materially change the central anticipation result. No new fitted tolerance, favorable subset or estimator change is used. The old strict FAIL remains FAIL. The suggested R printing explanation is unproven and is not needed for this near decision.
+
+This is a retrospective application of the user's bounded-error counting instruction. It is CENTRAL, not FULL: no new participants were recruited, and Pollfish/norms experiments and Studies2–4 on actual perceptions, hiring and mediation were not reproduced. These omissions were fixed before outcomes. The full-source review retains unresolved Pollfish subset, composite/first-item producer and historical PROCESS/code gaps; no missing producer or cohort was invented. This result establishes anticipation only.
+
+Retained selection evidence:78 Semantic Scholar citations captured2026-10-10T19:31:56.699445+00:00; DOI10.1073/pnas.2426766122. Earliest confirmed substantive public release2025-04-23 on OSF; published version2025-05-08. This is in the programme's disclosed extended window and clears its original40-citation gate. The count was not refreshed for adoption.
+
+Original run and final audit exited0. Earlier audit001 resource stop and audit002 demographic age-conversion failure remain. Audit003's source-equivalent repair omits four missing ages only from the demographic mean; all497 rating participants remain. Historical process/resource evidence is retained at its actual resolution; original primary birth and OS lifetime peak were unmeasured. No rerun, API/key/paid service, new download, GPU job or clock extension was used for this review.
+
+Evidence: papers/P103_social_evaluation/runs/run001; audits/audit003; REPORT.md; REPORT_FINAL_AUDIT003_SUPPLEMENT_20261010.md; operations/P103_archived_complete_central_near_assessment_CPU051; operations/P103_archived_complete_near_independent_RSTAT001; operations/P103_retained_identity_scope_P092052.
+
+Count after this adoption:12 strict CENTRAL +8 NEAR_SUCCESS=20 distinct papers; FULL0. P165 remains a qualified retrospective central-pattern near success with material local exceptions, not a uniform small-error match. ToolSafe remains an additional active experiment and receives no credit here. Its approved temporary sync-app closure still requires restoration when that programme stops.

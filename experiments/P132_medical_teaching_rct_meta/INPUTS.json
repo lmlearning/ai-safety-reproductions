@@ -1,0 +1,397 @@
+{
+  "paper_id": "P132",
+  "assets": [],
+  "source_urls": [
+    "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "http://www.niso.org/schemas/ali/1.0/",
+    "http://www.w3.org/1999/xli",
+    "http://www.w3.org/1999/xlink",
+    "https://academic.oup.com/pmj/advance-article-abstract/doi/10.1093/postmj/qgae170/7917102",
+    "https://api.crossref.org/works/10.1186/s12909-025-07750-2",
+    "https://api.openalex.org/works?search=%22large+language+model%22+OR+ChatGPT+OR+%22generative+artificial+intelligence%22&filter=from_publication_date%3A2025-04-10%2Cto_publication_date%3A2026-10-10%2Ccited_by_count%3A%3E19%2Ctitle.search%3Abias&sort=cited_by_count%3Adesc&per-page=100",
+    "https://api.openalex.org/works?search=%22large+language+model%22+OR+ChatGPT+OR+%22generative+artificial+intelligence%22&filter=from_publication_date%3A2025-04-10%2Cto_publication_date%3A2026-10-10%2Ccited_by_count%3A%3E19%2Ctitle.search%3Ameta-analysis&sort=cited_by_count%3Adesc&per-page=100",
+    "https://api.openalex.org/works?search=%22large+language+model%22+OR+ChatGPT+OR+%22generative+artificial+intelligence%22&filter=from_publication_date%3A2025-04-10%2Cto_publication_date%3A2026-10-10%2Ccited_by_count%3A%3E19%2Ctitle.search%3Areliability&sort=cited_by_count%3Adesc&per-page=100",
+    "https://api.openalex.org/works?search=%22large+language+model%22+OR+ChatGPT+OR+%22generative+artificial+intelligence%22&filter=from_publication_date%3A2025-04-10%2Cto_publication_date%3A2026-10-10%2Ccited_by_count%3A%3E19%2Ctitle.search%3Atrust&sort=cited_by_count%3Adesc&per-page=100",
+    "https://api.w.org/",
+    "https://bmcmededuc.biomedcentral.com/articles/10.1186/s12909-025-07750-2",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4079/12362899/11bd8d971543/12909_2025_7750_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4079/12362899/1fec224a2b61/12909_2025_7750_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4079/12362899/e4cea6bf248a/12909_2025_7750_Fig4_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4079/12362899/fa56f7e590a3/12909_2025_7750_Fig1_HTML.jpg",
+    "https://cmacsa2025.tiemeeting.com/Contents/40747.html",
+    "https://cochrane.streamlxp.com",
+    "https://creativecommons.org/licens",
+    "https://creativecommons.org/licenses/by-nc-nd/4.0",
+    "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "https://crossmark.crossref.org/dialog/?doi=10.1186%2Fs12909-025-07750-2",
+    "https://d-nb.info/1379235715/34",
+    "https://doi.org/10.1002/14651858.Ed000142",
+    "https://doi.org/10.1002/ase.2502",
+    "https://doi.org/10.1007/s00296-024-05731-0",
+    "https://doi.org/10.1007/s10459-012-9395-7",
+    "https://doi.org/10.1007/s44254-023-00016-4",
+    "https://doi.org/10.1007/springer_crossmark_policy",
+    "https://doi.org/10.1016/j.artmed.2022.102458",
+    "https://doi.org/10.1016/j.imr.2024.101024",
+    "https://doi.org/10.1016/j.nepr.2024.103920",
+    "https://doi.org/10.1016/j.radi.2025.102926",
+    "https://doi.org/10.1016/j.rcsop.2024.100478",
+    "https://doi.org/10.1016/j.rec.2021.07.010",
+    "https://doi.org/10.1038/s41598-024-80732-4",
+    "https://doi.org/10.1073/pnas.1319030111",
+    "https://doi.org/10.1080/0142159X.2024.2339412",
+    "https://doi.org/10.1080/0142159x.2020.1805100",
+    "https://doi.org/10.1080/0142159x.2024.2314198",
+    "https://doi.org/10.1080/0142159x.2024.2376879",
+    "https://doi.org/10.1093/ehjdh/ztad029",
+    "https://doi.org/10.1093/jacamr/dlae099",
+    "https://doi.org/10.1093/postmj/qgae170",
+    "https://doi.org/10.1097/acm.0000000000005439",
+    "https://doi.org/10.1111/j.1398-9995.2010.02530.x",
+    "https://doi.org/10.1136/bmj.d5928",
+    "https://doi.org/10.1136/bmjopen-2021-059442",
+    "https://doi.org/10.1177/23821205241248023",
+    "https://doi.org/10.1186/s12909-024-05042-9",
+    "https://doi.org/10.1186/s12909-024-05235-2",
+    "https://doi.org/10.1186/s12909-024-05565-1",
+    "https://doi.org/10.1186/s12909-024-06035-4",
+    "https://doi.org/10.1186/s12909-024-06321-1",
+    "https://doi.org/10.1186/s12909-024-06530-8",
+    "https://doi.org/10.1186/s12909-024-06575-9",
+    "https://doi.org/10.1186/s12909-025-07750-2",
+    "https://doi.org/10.13039/501100004829",
+    "https://doi.org/10.2196/45312",
+    "https://doi.org/10.2196/48785",
+    "https://doi.org/10.2196/51344",
+    "https://doi.org/10.2196/52483",
+    "https://doi.org/10.2196/53961",
+    "https://doi.org/10.2196/56532",
+    "https://doi.org/10.2196/57037",
+    "https://doi.org/10.2196/57896",
+    "https://doi.org/10.3389/fpsyg.2024.1468900",
+    "https://doi.org/10.3390/bdcc8120194",
+    "https://doi.org/10.4103/singaporemedj.SMJ-2023-203",
+    "https://doi.org/10.7759/cureus.40940",
+    "https://doi.org/10.7759/cureus.53032",
+    "https://doi.org/10.7759/cureus.60006",
+    "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd",
+    "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd",
+    "https://europepmc.org/RestfulWebService",
+    "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12362899&retmode=xml",
+    "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=39656920&retmode=xml",
+    "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=40830476&retmode=xml",
+    "https://hcaptcha.com",
+    "https://inplasy.com/inplasy-2025-1-0006/",
+    "https://inplasy.com/wp-content/uploads/2025/01/INPLASY-Protocol-7262.pdf",
+    "https://inplasy.com/wp-json/",
+    "https://inplasy.com/wp-json/wp/v2/pages/113339",
+    "https://link.springer.com/article/10.1186/s12909-025-07750-2",
+    "https://link.springer.com/article/10.1186/s12909-025-07750-2/fulltext.html",
+    "https://link.springer.com/content/pdf/10.1186/s12909-025-07750-2.pdf",
+    "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_Fig1_HTML.png",
+    "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_Fig2_HTML.png",
+    "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_Fig3_HTML.png",
+    "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_Fig4_HTML.png",
+    "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_MOESM1_ESM.docx",
+    "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_MOESM2_ESM.docx",
+    "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_MOESM3_ESM.docx",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12362899/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/instance/12362899/bin/12909_2025_7750_MOESM1_ESM.docx",
+    "https://pmc.ncbi.nlm.nih.gov/articles/instance/12362899/bin/12909_2025_7750_MOESM2_ESM.docx",
+    "https://pmc.ncbi.nlm.nih.gov/articles/instance/12362899/bin/12909_2025_7750_MOESM3_ESM.docx",
+    "https://pmc.ncbi.nlm.nih.gov/utils/oa/oa.fcgi?id=PMC12362899",
+    "https://ror.org/011ashp19",
+    "https://ror.org/01mv9t934",
+    "https://static-content.springer-cdn.com/esm/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_MOESM1_ESM.docx",
+    "https://static-content.springer-cdn.com/esm/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_MOESM2_ESM.docx",
+    "https://static-content.springer-cdn.com/esm/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_MOESM3_ESM.docx",
+    "https://training.cochrane.org/handbook/current/statistical-methods-revman5",
+    "https://wp.me/PbALW3-tu3",
+    "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/statistical-methods-revman5",
+    "https://www.drupal.org",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12362899/supplementaryFiles",
+    "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC12362899"
+  ],
+  "inventory_source_notes": {
+    "dependency_version_evidence": [
+      "papers/P132_medical_teaching_rct_meta/ROOT_COMPLETE_PAIRED_INPUT_CODE_RUNTIME_FREEZE005.json"
+    ],
+    "source_urls_retained": [
+      {
+        "url": "https://doi.org/10.1186/s12909-025-07750-2",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/final_report001/SUMMARY_REPORT.html"
+      },
+      {
+        "url": "https://link.springer.com/article/10.1186/s12909-025-07750-2",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://link.springer.com/content/pdf/10.1186/s12909-025-07750-2.pdf",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://inplasy.com/inplasy-2025-1-0006/",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://hcaptcha.com",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://inplasy.com/wp-json/",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://api.w.org/",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://inplasy.com/wp-json/wp/v2/pages/113339",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://wp.me/PbALW3-tu3",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://inplasy.com/wp-content/uploads/2025/01/INPLASY-Protocol-7262.pdf",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1186/s12909-025-07750-2",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://crossmark.crossref.org/dialog/?doi=10.1186%2Fs12909-025-07750-2",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=40830476&retmode=xml",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_MOESM1_ESM.docx",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_MOESM2_ESM.docx",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_MOESM3_ESM.docx",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_Fig1_HTML.png",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_Fig2_HTML.png",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_Fig3_HTML.png",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_Fig4_HTML.png",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS001.json"
+      },
+      {
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12362899&retmode=xml",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS002.json"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12362899/",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS002.json"
+      },
+      {
+        "url": "https://d-nb.info/1379235715/34",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS002.json"
+      },
+      {
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4079/12362899/fa56f7e590a3/12909_2025_7750_Fig1_HTML.jpg",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS003.json"
+      },
+      {
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4079/12362899/11bd8d971543/12909_2025_7750_Fig2_HTML.jpg",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS003.json"
+      },
+      {
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4079/12362899/1fec224a2b61/12909_2025_7750_Fig3_HTML.jpg",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS003.json"
+      },
+      {
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4079/12362899/e4cea6bf248a/12909_2025_7750_Fig4_HTML.jpg",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS003.json"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12362899/bin/12909_2025_7750_MOESM1_ESM.docx",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS003.json"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12362899/bin/12909_2025_7750_MOESM2_ESM.docx",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS003.json"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12362899/bin/12909_2025_7750_MOESM3_ESM.docx",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS003.json"
+      },
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC12362899",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS005.json"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/utils/oa/oa.fcgi?id=PMC12362899",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS005.json"
+      },
+      {
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=39656920&retmode=xml",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS005.json"
+      },
+      {
+        "url": "https://academic.oup.com/pmj/advance-article-abstract/doi/10.1093/postmj/qgae170/7917102",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS005.json"
+      },
+      {
+        "url": "https://static-content.springer-cdn.com/esm/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_MOESM1_ESM.docx",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS005.json"
+      },
+      {
+        "url": "https://static-content.springer-cdn.com/esm/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_MOESM2_ESM.docx",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS005.json"
+      },
+      {
+        "url": "https://static-content.springer-cdn.com/esm/art%3A10.1186%2Fs12909-025-07750-2/MediaObjects/12909_2025_7750_MOESM3_ESM.docx",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS005.json"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12362899/supplementaryFiles",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS006.json"
+      },
+      {
+        "url": "https://europepmc.org/RestfulWebService",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS006.json"
+      },
+      {
+        "url": "https://training.cochrane.org/handbook/current/statistical-methods-revman5",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS007.json"
+      },
+      {
+        "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/statistical-methods-revman5",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS007.json"
+      },
+      {
+        "url": "https://www.drupal.org",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS007.json"
+      },
+      {
+        "url": "https://cochrane.streamlxp.com",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS007.json"
+      },
+      {
+        "url": "https://cmacsa2025.tiemeeting.com/Contents/40747.html",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/SOURCE_REQUESTS007.json"
+      },
+      {
+        "url": "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/sources/cicek_primary_pubmed.xml"
+      },
+      {
+        "url": "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml"
+      },
+      {
+        "url": "https://ror.org/011ashp19",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml"
+      },
+      {
+        "url": "https://ror.org/01mv9t934",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml"
+      },
+      {
+        "url": "http://www.niso.org/schemas/ali/1.0/",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml"
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml"
+      },
+      {
+        "url": "http://www.w3.org/1999/xlink",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml"
+      },
+      {
+        "url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml"
+      },
+      {
+        "url": "https://doi.org/10.13039/501100004829",
+        "evidence_path": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml"
+      }
+    ],
+    "license_notices_in_reviewed_metadata": [
+      {
+        "source": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml",
+        "literal": "ay><month>08</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>© The Author(s) 2025</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbyncndlicense\">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p><bold>Open Access</bold> This"
+      },
+      {
+        "source": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml",
+        "literal": "e></event></pub-history><permissions><copyright-statement>© The Author(s) 2025</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbyncndlicense\">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p><bold>Open Access</bold> This article is licensed under a Creative Comm"
+      },
+      {
+        "source": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml",
+        "literal": "ry><permissions><copyright-statement>© The Author(s) 2025</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbyncndlicense\">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution-NonCo"
+      },
+      {
+        "source": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml",
+        "literal": "right-statement>© The Author(s) 2025</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbyncndlicense\">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivative"
+      },
+      {
+        "source": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml",
+        "literal": ">© The Author(s) 2025</copyright-statement><copyright-year>2025</copyright-year><license><ali:license_ref xmlns:ali=\"http://www.niso.org/schemas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbyncndlicense\">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 Internati"
+      },
+      {
+        "source": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml",
+        "literal": "emas/ali/1.0/\" specific-use=\"textmining\" content-type=\"ccbyncndlicense\">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to th"
+      },
+      {
+        "source": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml",
+        "literal": "icense_ref><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified th"
+      },
+      {
+        "source": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml",
+        "literal": "ropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit li"
+      },
+      {
+        "source": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml",
+        "literal": "ges or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this li"
+      },
+      {
+        "source": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml",
+        "literal": " in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://creativecommons.org/licens"
+      },
+      {
+        "source": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml",
+        "literal": "exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link>.</license-p></license></permissions><self-uri xmlns:xlink=\"http://www.w3.org/1999/xli"
+      },
+      {
+        "source": "papers/P132_medical_teaching_rct_meta/sources/pmc_fulltext.xml",
+        "literal": "ns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link>.</license-p></license></permissions><self-uri xmlns:xlink=\"http://www.w3.org/1999/xlink\" content-type=\"pmc-pdf\" xlink:href=\"12909_2025_Article_7750.pdf\"/><abstract id=\"Abs1\"><sec><title>Background</title><p id=\"Par1\">Artificial intelligence (AI) has demo"
+      },
+      {
+        "source": "papers/P132_medical_teaching_rct_meta/sources/publisher_pdf_literal_text.txt",
+        "literal": "Open Access © The Author(s) 2025. Open Access  This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0  International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you  give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified "
+      }
+    ],
+    "retained_license_files": [],
+    "redistribution_status": "No independent license grant inferred. Default bundle is programme-authored code/config/compact derived results; original assets require notice/URL-based acquisition when rights are unresolved. Article/source license excerpts are evidence, not a blanket repository license.",
+    "portable_rerun_notes": [
+      "Keep repository-relative layout for __file__-based roots. Preserve input bytes and pinned hashes. Install stated scientific dependencies separately; do not copy original runtime.",
+      "New output namespaces are required. Historical immutable run directories must not be overwritten.",
+      "Authorization/freeze/runtime source checks remain active in immutable runners. Later guarded studies need an explicitly documented portable launch/config adapter; none was implemented or tested by this inventory."
+    ],
+    "command_limit": "Commands document source CLI, are not tested portable instructions and do not grant execution. Fixed-output early runners need an explicit new output path adaptation; guarded later runners additionally require historical or prospectively reviewed exact auth/freeze/runtime context."
+  },
+  "policy": "Source/data/model files are acquired from their owners. Only explicitly identified programme transcriptions are bundled. URLs are historical and were not re-fetched during publication preparation."
+}

@@ -1,0 +1,2288 @@
+{
+  "checks": 312782,
+  "failures": 0,
+  "family_counts": {
+    "__keys__": {
+      "checks": 9,
+      "failures": 0
+    },
+    "appraisals": {
+      "checks": 311,
+      "failures": 0
+    },
+    "conflicts": {
+      "checks": 162,
+      "failures": 0
+    },
+    "gates": {
+      "checks": 6985,
+      "failures": 0
+    },
+    "metadata": {
+      "checks": 375,
+      "failures": 0
+    },
+    "rows": {
+      "checks": 517,
+      "failures": 0
+    },
+    "schema": {
+      "checks": 1,
+      "failures": 0
+    },
+    "mode": {
+      "checks": 1,
+      "failures": 0
+    },
+    "backsize_pool_views": {
+      "checks": 1,
+      "failures": 0
+    },
+    "legacy_full": {
+      "checks": 1,
+      "failures": 0
+    },
+    "legacy_nested_LOO": {
+      "checks": 1,
+      "failures": 0
+    },
+    "pipelines": {
+      "checks": 49,
+      "failures": 0
+    },
+    "scientific_pass_decided_by_audit_and_root_only": {
+      "checks": 1,
+      "failures": 0
+    },
+    "default_prediction": {
+      "checks": 1,
+      "failures": 0
+    },
+    "individual_common_weights": {
+      "checks": 1,
+      "failures": 0
+    },
+    "individual_random_weights": {
+      "checks": 1,
+      "failures": 0
+    },
+    "model": {
+      "checks": 1,
+      "failures": 0
+    },
+    "not_a_primary_rescue": {
+      "checks": 1,
+      "failures": 0
+    },
+    "numeric_fit": {
+      "checks": 1,
+      "failures": 0
+    },
+    "status": {
+      "checks": 1,
+      "failures": 0
+    },
+    "PAS_REML": {
+      "checks": 20006,
+      "failures": 0
+    },
+    "PFT_DL": {
+      "checks": 18768,
+      "failures": 0
+    },
+    "PFT_REML": {
+      "checks": 20006,
+      "failures": 0
+    },
+    "PLOGIT_DL": {
+      "checks": 18768,
+      "failures": 0
+    },
+    "PLOGIT_REML": {
+      "checks": 20642,
+      "failures": 0
+    },
+    "PRAW_DL": {
+      "checks": 18768,
+      "failures": 0
+    },
+    "arithmetic": {
+      "checks": 14064,
+      "failures": 0
+    },
+    "geometric": {
+      "checks": 14064,
+      "failures": 0
+    },
+    "max": {
+      "checks": 14064,
+      "failures": 0
+    },
+    "median": {
+      "checks": 14064,
+      "failures": 0
+    },
+    "min": {
+      "checks": 14064,
+      "failures": 0
+    },
+    "attitude": {
+      "checks": 43045,
+      "failures": 0
+    },
+    "awareness": {
+      "checks": 39254,
+      "failures": 0
+    },
+    "implementation": {
+      "checks": 26476,
+      "failures": 0
+    },
+    "attitude.footer.I2_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.footer.Q": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.footer.Q_df": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.footer.common.high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.footer.common.low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.footer.common.point": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.footer.common.weights_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.footer.heterogeneity_p": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.footer.prediction.high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.footer.prediction.low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.footer.random.high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.footer.random.low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.footer.random.point": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.footer.random.weights_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.footer.tau2": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.footer.total_N": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row01.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row01.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row01.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row01.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row01.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row02.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row02.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row02.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row02.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row02.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row03.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row03.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row03.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row03.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row03.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row04.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row04.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row04.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row04.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row04.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row05.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row05.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row05.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row05.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row05.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row06.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row06.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row06.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row06.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row06.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row07.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row07.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row07.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row07.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row07.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row08.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row08.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row08.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row08.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row08.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row09.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row09.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row09.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row09.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row09.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row10.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row10.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row10.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row10.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row10.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row11.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row11.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row11.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row11.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row11.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row12.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row12.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row12.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row12.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row12.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row13.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row13.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row13.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row13.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row13.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row14.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row14.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row14.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row14.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row14.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row15.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row15.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row15.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row15.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row15.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row16.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row16.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row16.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row16.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.row16.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.footer.I2_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.footer.Q": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.footer.Q_df": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.footer.common.high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.footer.common.low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.footer.common.point": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.footer.common.weights_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.footer.heterogeneity_p": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.footer.prediction.high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.footer.prediction.low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.footer.random.high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.footer.random.low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.footer.random.point": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.footer.random.weights_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.footer.tau2": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.footer.total_N": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row01.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row01.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row01.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row01.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row01.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row02.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row02.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row02.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row02.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row02.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row03.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row03.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row03.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row03.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row03.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row04.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row04.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row04.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row04.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row04.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row05.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row05.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row05.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row05.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row05.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row06.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row06.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row06.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row06.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row06.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row07.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row07.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row07.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row07.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row07.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row08.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row08.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row08.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row08.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row08.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row09.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row09.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row09.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row09.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row09.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row10.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row10.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row10.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row10.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row10.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row11.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row11.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row11.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row11.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row11.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row12.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row12.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row12.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row12.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row12.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row13.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row13.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row13.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row13.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row13.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row14.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row14.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row14.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row14.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row14.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row15.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row15.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row15.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row15.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "awareness.row15.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.footer.I2_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.footer.Q": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.footer.Q_df": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.footer.common.high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.footer.common.low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.footer.common.point": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.footer.common.weights_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.footer.heterogeneity_p": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.footer.prediction.high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.footer.prediction.low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.footer.random.high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.footer.random.low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.footer.random.point": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.footer.random.weights_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.footer.tau2": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.footer.total_N": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row01.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row01.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row01.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row01.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row01.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row02.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row02.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row02.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row02.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row02.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row03.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row03.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row03.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row03.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row03.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row04.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row04.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row04.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row04.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row04.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row05.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row05.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row05.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row05.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row05.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row06.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row06.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row06.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row06.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row06.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row07.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row07.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row07.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row07.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row07.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row08.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row08.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row08.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row08.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row08.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row09.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row09.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row09.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row09.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row09.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row10.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row10.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row10.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row10.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row10.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row11.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row11.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row11.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row11.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row11.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row12.CI_high": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row12.CI_low": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row12.common_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row12.proportion": {
+      "checks": 15,
+      "failures": 0
+    },
+    "implementation.row12.random_weight_pct": {
+      "checks": 15,
+      "failures": 0
+    },
+    "attitude.Egger.intercept": {
+      "checks": 17,
+      "failures": 0
+    },
+    "attitude.Egger.p": {
+      "checks": 17,
+      "failures": 0
+    },
+    "attitude.T5.row10.CI_high": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T5.row10.CI_low": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T5.row10.SE": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T5.row10.Z": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T5.row10.estimate": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T5.row10.p": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T5.row8.CI_high": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T5.row8.CI_low": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T5.row8.SE": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T5.row8.Z": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T5.row8.estimate": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T5.row8.p": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T5.row9.CI_high": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T5.row9.CI_low": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T5.row9.SE": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T5.row9.Z": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T5.row9.estimate": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T5.row9.p": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T6.between.Q": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T6.between.p": {
+      "checks": 18,
+      "failures": 0
+    },
+    "attitude.T6.row7.CI_high": {
+      "checks": 17,
+      "failures": 0
+    },
+    "attitude.T6.row7.CI_low": {
+      "checks": 17,
+      "failures": 0
+    },
+    "attitude.T6.row7.I2_percent": {
+      "checks": 17,
+      "failures": 0
+    },
+    "attitude.T6.row7.N_studies": {
+      "checks": 17,
+      "failures": 0
+    },
+    "attitude.T6.row7.point": {
+      "checks": 17,
+      "failures": 0
+    },
+    "attitude.T6.row7.tau2": {
+      "checks": 17,
+      "failures": 0
+    },
+    "attitude.T6.row8.CI_high": {
+      "checks": 17,
+      "failures": 0
+    },
+    "attitude.T6.row8.CI_low": {
+      "checks": 17,
+      "failures": 0
+    },
+    "attitude.T6.row8.I2_percent": {
+      "checks": 17,
+      "failures": 0
+    },
+    "attitude.T6.row8.N_studies": {
+      "checks": 17,
+      "failures": 0
+    },
+    "attitude.T6.row8.point": {
+      "checks": 17,
+      "failures": 0
+    },
+    "attitude.T6.row8.tau2": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.Egger.intercept": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.Egger.p": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.T5.row3.CI_high": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row3.CI_low": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row3.SE": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row3.Z": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row3.estimate": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row3.p": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row4.CI_high": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row4.CI_low": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row4.SE": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row4.Z": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row4.estimate": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row4.p": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row5.CI_high": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row5.CI_low": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row5.SE": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row5.Z": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row5.estimate": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row5.p": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row6.CI_high": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row6.CI_low": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row6.SE": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row6.Z": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row6.estimate": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T5.row6.p": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T6.between.Q": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T6.between.p": {
+      "checks": 18,
+      "failures": 0
+    },
+    "awareness.T6.row3.CI_high": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.T6.row3.CI_low": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.T6.row3.I2_percent": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.T6.row3.N_studies": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.T6.row3.point": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.T6.row3.tau2": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.T6.row4.CI_high": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.T6.row4.CI_low": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.T6.row4.I2_percent": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.T6.row4.N_studies": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.T6.row4.point": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.T6.row4.tau2": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.T6.row5.CI_high": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.T6.row5.CI_low": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.T6.row5.I2_percent": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.T6.row5.N_studies": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.T6.row5.point": {
+      "checks": 17,
+      "failures": 0
+    },
+    "awareness.T6.row5.tau2": {
+      "checks": 17,
+      "failures": 0
+    },
+    "implementation.Egger.intercept": {
+      "checks": 17,
+      "failures": 0
+    },
+    "implementation.Egger.p": {
+      "checks": 17,
+      "failures": 0
+    },
+    "implementation.T5.row12.CI_high": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T5.row12.CI_low": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T5.row12.SE": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T5.row12.Z": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T5.row12.estimate": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T5.row12.p": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T5.row13.CI_high": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T5.row13.CI_low": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T5.row13.SE": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T5.row13.Z": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T5.row13.estimate": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T5.row13.p": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T5.row14.CI_high": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T5.row14.CI_low": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T5.row14.SE": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T5.row14.Z": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T5.row14.estimate": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T5.row14.p": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T6.between.Q": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T6.between.p": {
+      "checks": 18,
+      "failures": 0
+    },
+    "implementation.T6.row10.CI_high": {
+      "checks": 17,
+      "failures": 0
+    },
+    "implementation.T6.row10.CI_low": {
+      "checks": 17,
+      "failures": 0
+    },
+    "implementation.T6.row10.I2_percent": {
+      "checks": 17,
+      "failures": 0
+    },
+    "implementation.T6.row10.N_studies": {
+      "checks": 17,
+      "failures": 0
+    },
+    "implementation.T6.row10.point": {
+      "checks": 17,
+      "failures": 0
+    },
+    "implementation.T6.row10.tau2": {
+      "checks": 17,
+      "failures": 0
+    },
+    "implementation.T6.row11.CI_high": {
+      "checks": 17,
+      "failures": 0
+    },
+    "implementation.T6.row11.CI_low": {
+      "checks": 17,
+      "failures": 0
+    },
+    "implementation.T6.row11.I2_percent": {
+      "checks": 17,
+      "failures": 0
+    },
+    "implementation.T6.row11.N_studies": {
+      "checks": 17,
+      "failures": 0
+    },
+    "implementation.T6.row11.point": {
+      "checks": 17,
+      "failures": 0
+    },
+    "implementation.T6.row11.tau2": {
+      "checks": 17,
+      "failures": 0
+    },
+    "__complete_top_keys__": {
+      "checks": 1,
+      "failures": 0
+    },
+    "input_values": {
+      "checks": 130,
+      "failures": 0
+    },
+    "primary_output_values": {
+      "checks": 264,
+      "failures": 0
+    },
+    "supporting_output_values": {
+      "checks": 115,
+      "failures": 0
+    },
+    "input_pass": {
+      "checks": 1,
+      "failures": 0
+    },
+    "primary263_pass": {
+      "checks": 1,
+      "failures": 0
+    },
+    "supporting114_pass": {
+      "checks": 1,
+      "failures": 0
+    },
+    "supporting_never_rescues": {
+      "checks": 1,
+      "failures": 0
+    },
+    "census": {
+      "checks": 1,
+      "failures": 0
+    },
+    "awareness.row01.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row01.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row01.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row02.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row02.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row02.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row03.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row03.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row03.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row04.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row04.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row04.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row05.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row05.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row05.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row06.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row06.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row06.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row07.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row07.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row07.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row08.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row08.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row08.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row09.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row09.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row09.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row10.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row10.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row10.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row11.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row11.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row11.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row12.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row12.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row12.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row13.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row13.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row13.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row14.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row14.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row14.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row15.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row15.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "awareness.row15.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row01.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row01.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row01.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row02.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row02.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row02.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row03.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row03.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row03.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row04.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row04.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row04.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row05.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row05.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row05.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row06.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row06.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row06.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row07.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row07.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row07.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row08.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row08.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row08.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row09.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row09.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row09.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row10.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row10.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row10.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row11.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row11.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row11.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row12.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row12.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row12.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row13.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row13.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row13.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row14.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row14.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row14.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row15.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row15.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row15.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row16.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row16.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "attitude.row16.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row01.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row01.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row01.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row02.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row02.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row02.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row03.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row03.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row03.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row04.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row04.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row04.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row05.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row05.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row05.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row06.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row06.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row06.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row07.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row07.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row07.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row08.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row08.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row08.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row09.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row09.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row09.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row10.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row10.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row10.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row11.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row11.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row11.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row12.events": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row12.N": {
+      "checks": 14,
+      "failures": 0
+    },
+    "implementation.row12.year": {
+      "checks": 14,
+      "failures": 0
+    },
+    "__length__": {
+      "checks": 1,
+      "failures": 0
+    },
+    "0": {
+      "checks": 5,
+      "failures": 0
+    },
+    "1": {
+      "checks": 4,
+      "failures": 0
+    },
+    "2": {
+      "checks": 4,
+      "failures": 0
+    },
+    "3": {
+      "checks": 4,
+      "failures": 0
+    },
+    "4": {
+      "checks": 4,
+      "failures": 0
+    },
+    "5": {
+      "checks": 4,
+      "failures": 0
+    },
+    "6": {
+      "checks": 4,
+      "failures": 0
+    },
+    "7": {
+      "checks": 4,
+      "failures": 0
+    },
+    "8": {
+      "checks": 4,
+      "failures": 0
+    }
+  },
+  "failure_paths": [],
+  "status": "PASS",
+  "start_utc": "2026-10-11T08:33:21.737766+00:00",
+  "end_utc": "2026-10-11T08:34:22.069212+00:00",
+  "elapsed": 60.32800000021234,
+  "source_freeze_files_verified": 10831,
+  "mode": "original",
+  "decimal_digits": 80,
+  "numeric_absolute": 1e-10,
+  "numeric_relative": 1e-10,
+  "source_primary_count": 392,
+  "source_primary_passes": 392,
+  "source_support_count": 114,
+  "source_support_passes": 19,
+  "source_failed_all_primary_has_no_rescue": false,
+  "input_census": {
+    "rows": 43,
+    "studies": 18,
+    "groups": {
+      "awareness": {
+        "students": 7,
+        "nurses": 7,
+        "faculty": 1
+      },
+      "attitude": {
+        "students": 9,
+        "nurses": 7
+      },
+      "implementation": {
+        "students": 6,
+        "nurses": 5,
+        "faculty": 1
+      }
+    },
+    "metadata": 18,
+    "Figure2": 16,
+    "Figure3": 2,
+    "source_conflicts": 23
+  },
+  "complete_pipeline_count": 6,
+  "complete_canonical_LOO": 258,
+  "complete_backsize_views": 270,
+  "legacy_full_families": 3,
+  "legacy_nested_LOO": 43,
+  "independence": "Original auditor001/002 mathematics independently derived without primary-source access. Source-only adapter/status repair003 reviewer read both frozen sources after failed fixture026; mathematical solver and fixed tolerance preserved. No primary mathematics imported. Subject numerical outputs opened only after all independent calculations.",
+  "native_closure": "External root guardian/collector must separately retain actual native exits, final peaks and all creation-matched owned absences."
+}

@@ -1,0 +1,29 @@
+# P065: original empathy meta-analysis, preregistration
+
+Frozen 2026-10-10 at 13:49 UTC, before computing any new pooled outcomes. Run ID: P065-central-001. This deterministic analysis has no random seeds or model inference.
+
+## Target and scope
+
+Howcroft et al., *AI chatbots versus human healthcare professionals: a systematic review and meta-analysis of empathy in patient care*, DOI 10.1093/bmb/ldaf017. The original publisher electronic publication date is 20 October 2025, verified in the archived publisher XML, despite Semantic Scholar's inconsistent 9 June metadata date. The 79 citations are a single Semantic Scholar count, never summed with another index. This paper is adjacent to AI alignment and evaluation: its central empirical contribution pools human judgments of chatbot empathy relative to healthcare professionals.
+
+Reproduce the complete central quantitative synthesis in Figure 2, including all 13 original study inputs, overall effect, both GPT version subgroups, heterogeneity, subgroup difference, and forest-plot weights. The central claim is a positive pooled standardized difference in perceived empathy, a significant positive GPT-4 subgroup, no significant GPT-3.5 subgroup, and no significant model-subgroup difference. The original review's search, inclusion judgments, risk-of-bias assessments, source study experiments, and underlying individual ratings will not be regenerated. Consequently this is a central statistical-result reproduction, not a full-paper reproduction or a reproduction of fresh LLM behavior.
+
+## Original inputs and method
+
+The 13 effect sizes and standard errors are transcribed from the visually inspected original Figure 2 on publisher PDF page 9, archived locally as paper_preprint_v1.pdf and forest_page_9.png. The arXiv upload reproduces the publisher PDF and has the original DOI and publisher footer. original_data.csv preserves the displayed decimal strings and model subgroup assignments. Figure 2 explicitly says inverse variance, random effects; the Methods identify Review Manager 5.4. The publicly archived Cochrane *Statistical algorithms in Review Manager 5* defines the DerSimonian-Laird estimator, normal intervals, heterogeneity, and random-effects subgroup comparisons. Use those original algorithms, not current RevMan Web's newer estimators.
+
+For each set of studies use fixed inverse-variance weights 1/SE_i^2 to estimate Q and the DerSimonian-Laird between-study variance; truncate that variance at zero. Use random weights 1/(SE_i^2+tau^2) to pool the effect and calculate its standard error. Confidence intervals are normal 95% intervals. Z tests are two-sided. I-squared is max((Q-df)/Q,0) times 100. Fit the overall sample and each subgroup separately. Test subgroup differences using the inverse variances of the two random-effects subgroup estimates and the chi-square test with one degree of freedom, following the original RevMan 5 algorithm. Displayed individual and subgroup weights use the overall fit's random-effects weights. Also compute the original paper's descriptive probability-of-superiority transformation Phi(SMD/sqrt(2)).
+
+## Success criteria fixed before outcomes
+
+targets.json contains every printed target to be checked. All 13 individual effects and confidence limits, all individual and subgroup weights, three pooled effect/interval/tau-squared/Q/I-squared/Z/P results, subgroup-difference Q/I-squared/P, and the four directional/significance statements must pass. No failed check is discarded. The probability-of-superiority transformation is a supporting check.
+
+Absolute tolerances: effect sizes and confidence limits 0.005; tau-squared 0.005; Q statistics 0.10; Z 0.010; printed whole-percent I-squared 0.5 percentage point; subgroup I-squared printed to one decimal 0.10 percentage point; weights printed to one decimal 0.10 percentage point; P printed to two decimals 0.005. A printed P<0.00001 must actually satisfy that inequality. The probability of superiority printed as 73% must be within 0.005 of 0.73. Effect-size tolerances correspond to two-decimal display rounding; other tolerances conservatively permit accumulated rounding of the original standard errors printed at two to four decimal places. Exact unrounded original RevMan project files were not released. Input values, methods, and tolerances will not be fitted to the target figure.
+
+An independent scalar implementation using 80-digit Decimal arithmetic, a separate literal transcription checked against the original figure, and standard-library normal tails will audit the numerical outputs. Input/data/code/source SHA-256 manifests, frozen copies, UTC timings, environment, CPU resource observations, all per-study intermediate terms, and every comparison are retained in the immutable run directory. A second run may validate determinism but cannot overwrite the first.
+
+## Resources and anticipated limits
+
+CPU only, 13 observations, no downloads of weights, no API keys, no paid services. Estimated execution under one minute and memory under 256 MiB; total original sources under 3 MiB. Zero service cost; electricity unmeasured. The published between-study heterogeneity is high; reproducing the statistic does not establish clinical suitability or endorse the original study design. Publication-date/source search gaps and omissions remain explicit in the report.
+
+Sources: [original paper](https://doi.org/10.1093/bmb/ldaf017), [publisher XML](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12536877/fullTextXML), [original statistical algorithms](https://training.cochrane.org/handbook/current/statistical-methods-revman5).

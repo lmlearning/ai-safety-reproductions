@@ -1,0 +1,67 @@
+[
+  {
+    "path": "configuration.json",
+    "bytes": 607,
+    "sha256": "8bd98583789e5da45151db0f0547b05e000181f1fff33000ea5ba5b7a95d25e7"
+  },
+  {
+    "path": "execution.json",
+    "bytes": 730,
+    "sha256": "e53d2372b39871f848f6e5f3d4b3a595cd38f6891bf6b2b731a8d0da7deedafc"
+  },
+  {
+    "path": "frozen\\original_data.json",
+    "bytes": 899,
+    "sha256": "8b806a00ac083566b8700a033305314e4fdfc3073e5f65c454e6d526bb2a9c8f"
+  },
+  {
+    "path": "frozen\\PREREGISTRATION.json",
+    "bytes": 2882,
+    "sha256": "8d7a34f02f3fa984ba207e29eb780e8cd7a1752876f2ae3baa18ebf700ea364c"
+  },
+  {
+    "path": "frozen\\PREREGISTRATION.md",
+    "bytes": 3375,
+    "sha256": "7e1dbc8b4a3d23df784d93268bab4ec10479f095d63b49542fd570cf80c87b83"
+  },
+  {
+    "path": "frozen\\runner.py",
+    "bytes": 8265,
+    "sha256": "fa89c7f49aa0a7dc9a71cdb361032b0522703d3b17ef93c7278d3241702b03f6"
+  },
+  {
+    "path": "frozen\\SOLVER_CORRECTION.json",
+    "bytes": 1728,
+    "sha256": "b385863b84556468b04c8ee485e806abc8b9514baf6ae6ea08b395eedebc4d2d"
+  },
+  {
+    "path": "frozen\\sources_manifest.json",
+    "bytes": 3874,
+    "sha256": "f683822f1a0efa0be1f6ade97cd47ad892db317bd78e02caae1a595646e9626a"
+  },
+  {
+    "path": "frozen\\sources_manifest_solver_corrected.json",
+    "bytes": 4523,
+    "sha256": "91828b60e871e7c349831d67fba27ca761fcf9064f381d3b9288b280517e9ea4"
+  },
+  {
+    "path": "frozen\\targets.json",
+    "bytes": 1922,
+    "sha256": "43d9808c559d786a076cad5c428268ce38de1043e305d5bb670f4435f16ed92e"
+  },
+  {
+    "path": "raw_per_study.json",
+    "bytes": 2263,
+    "sha256": "a2b4c17ff094360b01a2aa105711552f3854d1d55dfd7d5a656da19bc0b3af83"
+  },
+  {
+    "path": "results.json",
+    "bytes": 18697,
+    "sha256": "ce46c6bd688ef735139be0d493a5f2576869b23b2c8a48f19b39f0ccd166eee7"
+  },
+  {
+    "path": "solver_traces.json",
+    "bytes": 11748,
+    "sha256": "a01ec35f93f9c36b9c9b616201f4613c9cabe83281717d7d7079b59deedc7967"
+  }
+]

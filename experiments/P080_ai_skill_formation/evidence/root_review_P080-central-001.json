@@ -1,0 +1,22 @@
+{
+  "paper_id": "P080",
+  "reviewed_at_utc": "2026-10-10T18:55:40.174242+00:00",
+  "decision": "accepted central reproduction",
+  "scope": "Complete original main RCT quantitative Sections5.2.1-5.2.2/Figures6-10",
+  "full_reproduction": false,
+  "original_comparisons": 141,
+  "original_comparisons_passed": 141,
+  "independent_checks": 796,
+  "independent_checks_passed": 796,
+  "root_verified_input_manifest_files": 161,
+  "root_verified_result_manifest_files": 89,
+  "root_read_complete_runner_and_auditor": true,
+  "original_five_figure_source_groups_visually_reviewed": true,
+  "historical_bootstrap_seed_uncertainty": "All72 endpoints passed prospective familywise order-rank/DKW rule; no exact seed claim",
+  "earlier_repository_visibility": "Unknown;42 citations clear both primary20/extended40",
+  "report_sha256": "5cf31719777c3111280b8248693439c9bca3afb3871b94b74891329afaa780f6",
+  "run_sha256": "72125b6a1de180f3e486c1b998287da3e0377f3177580cd5dc95686a8332f55f",
+  "audit_sha256": "5dc89694639699c9b5298c15b0b4ec11c19eac765a75676923ce3b45d56f6e85",
+  "post_outcome_analytic_amendment": false,
+  "presentation_plots_pending": true
+}

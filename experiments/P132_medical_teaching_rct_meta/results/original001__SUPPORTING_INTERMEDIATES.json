@@ -1,0 +1,555 @@
+[
+  {
+    "key": "knowledge/tau2",
+    "actual": 0.8813232578385081,
+    "target": "0.88",
+    "passed": true,
+    "tolerance": 0.005
+  },
+  {
+    "key": "knowledge/Q",
+    "actual": 148.6915336654729,
+    "target": "148.69",
+    "passed": true,
+    "tolerance": 0.005
+  },
+  {
+    "key": "knowledge/df",
+    "actual": 10,
+    "target": 10,
+    "passed": true,
+    "tolerance": 0.5
+  },
+  {
+    "key": "knowledge/heterogeneity_p",
+    "actual": 6.926835870764688e-27,
+    "target": "<0.00001",
+    "passed": true,
+    "tolerance": 5e-06
+  },
+  {
+    "key": "knowledge/Z",
+    "actual": 0.9164468709956897,
+    "target": "0.92",
+    "passed": true,
+    "tolerance": 0.005
+  },
+  {
+    "key": "skill/tau2",
+    "actual": 0.06380622887495747,
+    "target": "0.06",
+    "passed": true,
+    "tolerance": 0.005
+  },
+  {
+    "key": "skill/Q",
+    "actual": 1.7547419606322716,
+    "target": "1.75",
+    "passed": true,
+    "tolerance": 0.005
+  },
+  {
+    "key": "skill/df",
+    "actual": 1,
+    "target": 1,
+    "passed": true,
+    "tolerance": 0.5
+  },
+  {
+    "key": "skill/heterogeneity_p",
+    "actual": 0.1852817107028829,
+    "target": "0.19",
+    "passed": true,
+    "tolerance": 0.005
+  },
+  {
+    "key": "skill/Z",
+    "actual": 2.3192903565928242,
+    "target": "2.32",
+    "passed": true,
+    "tolerance": 0.005
+  },
+  {
+    "key": "satisfaction/tau2",
+    "actual": 0.28911201874881565,
+    "target": "0.29",
+    "passed": true,
+    "tolerance": 0.005
+  },
+  {
+    "key": "satisfaction/Q",
+    "actual": 9.38494844328394,
+    "target": "9.38",
+    "passed": true,
+    "tolerance": 0.005
+  },
+  {
+    "key": "satisfaction/df",
+    "actual": 2,
+    "target": 2,
+    "passed": true,
+    "tolerance": 0.5
+  },
+  {
+    "key": "satisfaction/heterogeneity_p",
+    "actual": 0.009163984354764437,
+    "target": "0.009",
+    "passed": true,
+    "tolerance": 0.0005
+  },
+  {
+    "key": "satisfaction/Z",
+    "actual": 3.380669341313576,
+    "target": "3.38",
+    "passed": true,
+    "tolerance": 0.005
+  },
+  {
+    "key": "knowledge/Ba2024/g",
+    "actual": -0.06658030027272017,
+    "target": "-0.07",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Ba2024/lower",
+    "actual": -0.5134656396200685,
+    "target": "-0.51",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Ba2024/upper",
+    "actual": 0.3803050390746282,
+    "target": "0.38",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Ba2024/weight_percent",
+    "actual": 9.291104553146504,
+    "target": "9.3",
+    "tolerance": 0.05,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Bhatia2024/g",
+    "actual": -1.847859550619144,
+    "target": "-1.85",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Bhatia2024/lower",
+    "actual": -2.3189575483299287,
+    "target": "-2.32",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Bhatia2024/upper",
+    "actual": -1.3767615529083592,
+    "target": "-1.38",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Bhatia2024/weight_percent",
+    "actual": 9.2338594634031,
+    "target": "9.2",
+    "tolerance": 0.05,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Cicek2024_immediate/g",
+    "actual": -0.2081732073544894,
+    "target": "-0.21",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Cicek2024_immediate/lower",
+    "actual": -0.5748562138622727,
+    "target": "-0.57",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Cicek2024_immediate/upper",
+    "actual": 0.15850979915329388,
+    "target": "0.16",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Cicek2024_immediate/weight_percent",
+    "actual": 9.463332187588666,
+    "target": "9.5",
+    "tolerance": 0.05,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Gan2024/g",
+    "actual": 0.28965250959858896,
+    "target": "0.29",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Gan2024/lower",
+    "actual": -0.08618654487735133,
+    "target": "-0.09",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Gan2024/upper",
+    "actual": 0.6654915640745293,
+    "target": "0.67",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Gan2024/weight_percent",
+    "actual": 9.445089955994204,
+    "target": "9.4",
+    "tolerance": 0.05,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Huang2024/g",
+    "actual": 1.3604534504617927,
+    "target": "1.36",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Huang2024/lower",
+    "actual": 0.813387493284488,
+    "target": "0.81",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Huang2024/upper",
+    "actual": 1.9075194076390973,
+    "target": "1.91",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Huang2024/weight_percent",
+    "actual": 9.040033548583295,
+    "target": "9.0",
+    "tolerance": 0.05,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Jiang2024/g",
+    "actual": 0.6325371417198734,
+    "target": "0.63",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Jiang2024/lower",
+    "actual": 0.11733353294908422,
+    "target": "0.12",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Jiang2024/upper",
+    "actual": 1.1477407504906627,
+    "target": "1.15",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Jiang2024/weight_percent",
+    "actual": 9.12383866255999,
+    "target": "9.1",
+    "tolerance": 0.05,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Kavadella2024/g",
+    "actual": 0.5142132820422003,
+    "target": "0.51",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Kavadella2024/lower",
+    "actual": 0.03452068760355276,
+    "target": "0.03",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Kavadella2024/upper",
+    "actual": 0.9939058764808478,
+    "target": "0.99",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Kavadella2024/weight_percent",
+    "actual": 9.212990320381863,
+    "target": "9.2",
+    "tolerance": 0.05,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Svendsen2024/g",
+    "actual": 0.7714508658933416,
+    "target": "0.77",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Svendsen2024/lower",
+    "actual": 0.03767198314607034,
+    "target": "0.04",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Svendsen2024/upper",
+    "actual": 1.5052297486406128,
+    "target": "1.51",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Svendsen2024/weight_percent",
+    "actual": 8.48908363187162,
+    "target": "8.5",
+    "tolerance": 0.05,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Tabuchi2024/g",
+    "actual": -0.9651985164580581,
+    "target": "-0.97",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Tabuchi2024/lower",
+    "actual": -1.526015432761552,
+    "target": "-1.53",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Tabuchi2024/upper",
+    "actual": -0.40438160015456404,
+    "target": "-0.40",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Tabuchi2024/weight_percent",
+    "actual": 9.002812769360736,
+    "target": "9.0",
+    "tolerance": 0.05,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Wu2024/g",
+    "actual": 1.7149716252412288,
+    "target": "1.71",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Wu2024/lower",
+    "actual": 1.1225447178417312,
+    "target": "1.12",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Wu2024/upper",
+    "actual": 2.3073985326407263,
+    "target": "2.31",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Wu2024/weight_percent",
+    "actual": 8.914980423237191,
+    "target": "8.9",
+    "tolerance": 0.05,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Zeng2025/g",
+    "actual": 0.9048472830420022,
+    "target": "0.90",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Zeng2025/lower",
+    "actual": 0.2667469404205012,
+    "target": "0.27",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Zeng2025/upper",
+    "actual": 1.5429476256635033,
+    "target": "1.54",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/Zeng2025/weight_percent",
+    "actual": 8.782874483872835,
+    "target": "8.8",
+    "tolerance": 0.05,
+    "passed": true
+  },
+  {
+    "key": "skill/Wu2024/g",
+    "actual": 0.8795285654603789,
+    "target": "0.88",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "skill/Wu2024/lower",
+    "actual": 0.35226558141295505,
+    "target": "0.35",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "skill/Wu2024/upper",
+    "actual": 1.406791549507803,
+    "target": "1.41",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "skill/Wu2024/weight_percent",
+    "actual": 54.10204198459744,
+    "target": "54.1",
+    "tolerance": 0.05,
+    "passed": true
+  },
+  {
+    "key": "skill/Zeng2025/g",
+    "actual": 0.3348328999222596,
+    "target": "0.33",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "skill/Zeng2025/lower",
+    "actual": -0.27468420398850446,
+    "target": "-0.27",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "skill/Zeng2025/upper",
+    "actual": 0.9443500038330237,
+    "target": "0.94",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "skill/Zeng2025/weight_percent",
+    "actual": 45.89795801540255,
+    "target": "45.9",
+    "tolerance": 0.05,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/Huang2024/g",
+    "actual": 1.7382392129099966,
+    "target": "1.74",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/Huang2024/lower",
+    "actual": 1.1579647101744526,
+    "target": "1.16",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/Huang2024/upper",
+    "actual": 2.3185137156455404,
+    "target": "2.32",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/Huang2024/weight_percent",
+    "actual": 32.52592949605974,
+    "target": "32.5",
+    "tolerance": 0.05,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/Jiang2024/g",
+    "actual": 0.5543622556359682,
+    "target": "0.55",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/Jiang2024/lower",
+    "actual": 0.04219876129113287,
+    "target": "0.04",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/Jiang2024/upper",
+    "actual": 1.0665257499808036,
+    "target": "1.07",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/Jiang2024/weight_percent",
+    "actual": 34.28870712099402,
+    "target": "34.3",
+    "tolerance": 0.05,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/Wu2024/g",
+    "actual": 1.2897165776798372,
+    "target": "1.29",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/Wu2024/lower",
+    "actual": 0.7347767003705773,
+    "target": "0.73",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/Wu2024/upper",
+    "actual": 1.8446564549890971,
+    "target": "1.84",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/Wu2024/weight_percent",
+    "actual": 33.18536338294625,
+    "target": "33.2",
+    "tolerance": 0.05,
+    "passed": true
+  }
+]

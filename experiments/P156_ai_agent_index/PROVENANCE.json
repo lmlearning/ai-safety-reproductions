@@ -1,0 +1,132 @@
+{
+  "paper_id": "P156",
+  "source_archive": "ai-safety-reproductions",
+  "files": [
+    {
+      "published_path": "evidence/ROOT_ADOPTED_P156_ARCHIVED_ALL8_PROPORTIONS_NEAR_RULE936.json",
+      "original_relative_path": "environment/ROOT_ADOPTED_P156_ARCHIVED_ALL8_PROPORTIONS_NEAR_RULE936.json",
+      "role": "evidence",
+      "purpose": "Final pinned execution/configuration/audit record",
+      "text": true,
+      "original_bytes": 2960,
+      "original_sha256": "a61ef5fc990884e777ed9b3d16060b1ecb974281377160f892198bd57e03f455",
+      "published_bytes": 2750,
+      "published_sha256": "ec8b58ec9ffe922a024aee7980fd2eb6d30f217be4ad1eb4101fe39f80106b76",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "results/environment__ROOT_P156_ARCHIVED_WHOLE8_PROPORTIONS_NEAR_CHECK938.json",
+      "original_relative_path": "environment/ROOT_P156_ARCHIVED_WHOLE8_PROPORTIONS_NEAR_CHECK938.json",
+      "role": "result",
+      "purpose": "Complete aggregate target/error/audit ledger; exclude underlying participant rows, predictions, logits and bootstrap arrays",
+      "text": true,
+      "original_bytes": 3600,
+      "original_sha256": "3bcbdec08cfcdb6c522d3857aa86139cb9d8d1cbd3256d24a4843cde1e44f28e",
+      "published_bytes": 3516,
+      "published_sha256": "5a0131ffbcb2859d8b55382c72ec7e461c1d45a3c0b2a6dc41e77e968948070a",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "plans/COMPLETE_ORIGINAL_JSON_AND_INDEPENDENT_CSV_RESULT_API031.json",
+      "original_relative_path": "literature/cpu_additional_complete_route_screen_oct15_002/agent_index_transparency_preparation028/COMPLETE_ORIGINAL_JSON_AND_INDEPENDENT_CSV_RESULT_API031.json",
+      "role": "plan",
+      "purpose": "Frozen methods/seeds/complete published targets or dependency metadata; preserve provenance and source versions",
+      "text": true,
+      "original_bytes": 5658,
+      "original_sha256": "8e8f00d042e6f9d0890d08ec8a6f64d593605ff5d574fb0b8e51e2957ca8c7f3",
+      "published_bytes": 5364,
+      "published_sha256": "366e6e49240046ea23b12df67c814e3f74eea3c1b2d05bd90a6ecc990c1a37c4",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "plans/COMPLETE_SOURCE_BASED_TRANSPARENCY_CENTRAL_SCOPE_AND_CRITERIA_PROPOSAL028.json",
+      "original_relative_path": "literature/cpu_additional_complete_route_screen_oct15_002/agent_index_transparency_preparation028/COMPLETE_SOURCE_BASED_TRANSPARENCY_CENTRAL_SCOPE_AND_CRITERIA_PROPOSAL028.json",
+      "role": "plan",
+      "purpose": "Frozen methods/seeds/complete published targets or dependency metadata; preserve provenance and source versions",
+      "text": true,
+      "original_bytes": 14524,
+      "original_sha256": "426bfb15b687ecd5b1f60731515f1a2e3fe88447b5472d47d4981688e1d46842",
+      "published_bytes": 14146,
+      "published_sha256": "16625ae25988eb10b70fbf72c84f92f06e9caf75e448146187e2ee94478f91b5",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "code/agent_index_complete_lean_supervisor032.py",
+      "original_relative_path": "literature/cpu_additional_complete_route_screen_oct15_002/agent_index_transparency_preparation028/agent_index_complete_lean_supervisor032.py",
+      "role": "code",
+      "purpose": "local_helper_or_native_execution_support",
+      "text": true,
+      "original_bytes": 17116,
+      "original_sha256": "d8475e9687ca50a3a240f73c06a7006dfaa8d0c93ac407fd5a0f208ae2bfe637",
+      "published_bytes": 17116,
+      "published_sha256": "d8475e9687ca50a3a240f73c06a7006dfaa8d0c93ac407fd5a0f208ae2bfe637",
+      "changes": "none"
+    },
+    {
+      "published_path": "code/agent_index_complete_primary031.py",
+      "original_relative_path": "literature/cpu_additional_complete_route_screen_oct15_002/agent_index_transparency_preparation028/agent_index_complete_primary031.py",
+      "role": "code",
+      "purpose": "primary_or_independent_scientific_entry",
+      "text": true,
+      "original_bytes": 11045,
+      "original_sha256": "8f75e693a12735778e3171a299c0cf6fc6636514518ba2dfc519d536834be0f3",
+      "published_bytes": 11045,
+      "published_sha256": "8f75e693a12735778e3171a299c0cf6fc6636514518ba2dfc519d536834be0f3",
+      "changes": "none"
+    },
+    {
+      "published_path": "code/agent_index_complete_csv_independent_RSTAT002.py",
+      "original_relative_path": "literature/cpu_additional_complete_route_screen_oct15_002/agent_index_transparency_preparation028/independent_RSTAT001/agent_index_complete_csv_independent_RSTAT002.py",
+      "role": "code",
+      "purpose": "primary_or_independent_scientific_entry",
+      "text": true,
+      "original_bytes": 14420,
+      "original_sha256": "822fee79dd83e76c1935724519b1553f2176b3d2a612ab8971bfab3780f22dc6",
+      "published_bytes": 14420,
+      "published_sha256": "822fee79dd83e76c1935724519b1553f2176b3d2a612ab8971bfab3780f22dc6",
+      "changes": "none"
+    },
+    {
+      "published_path": "evidence/INDEPENDENT_COMPLETE_P156_ARCHIVED_NEAR_SUPPORTED936_CPU003.json",
+      "original_relative_path": "operations/P156_user_near_independent_review_CPU003/INDEPENDENT_COMPLETE_P156_ARCHIVED_NEAR_SUPPORTED936_CPU003.json",
+      "role": "evidence",
+      "purpose": "Final pinned execution/configuration/audit record",
+      "text": true,
+      "original_bytes": 10384,
+      "original_sha256": "34f4b22340d00600921c934fc0e02437848e313d6ee3190749f6eb05225b61f2",
+      "published_bytes": 9838,
+      "published_sha256": "37af9f6a3a941b37f26fa1c5170f4ba137643138ef2f746cb0c65cc37eb46232",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "results/github_publication_prep__CPU_NEAR9_P156_PRIMARY_COMPACT_AGGREGATE_RESULTS.json",
+      "original_relative_path": "operations/github_publication_prep/CPU_NEAR9_P156_PRIMARY_COMPACT_AGGREGATE_RESULTS.json",
+      "role": "result",
+      "purpose": "Exact primary aggregate-only complete target projection; no underlying participant rows",
+      "text": true,
+      "original_bytes": 4091,
+      "original_sha256": "24e2b0a19cad8683a2307a5626c2a019b084332897bfd6ed5c38daa2613fc109",
+      "published_bytes": 4049,
+      "published_sha256": "a1c3ec68d2a43b1f05f765cb33104cf7625470b200c176d4ec46906463361ae1",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "plans/PREREGISTRATION.txt",
+      "original_relative_path": "papers/P156_ai_agent_index/PREREGISTRATION.txt",
+      "role": "plan",
+      "purpose": "Frozen methods/seeds/complete published targets or dependency metadata; preserve provenance and source versions",
+      "text": true,
+      "original_bytes": 5103,
+      "original_sha256": "1d6d1244b0aece144093b57d25f12c0ed7c39ddbe21a687fd396b2e7e1803e72",
+      "published_bytes": 5103,
+      "published_sha256": "1d6d1244b0aece144093b57d25f12c0ed7c39ddbe21a687fd396b2e7e1803e72",
+      "changes": "none"
+    }
+  ],
+  "historical_report_source": {
+    "original_relative_path": "papers/P156_ai_agent_index/NEAR_SUCCESS_ADDENDUM_2026-10-17.txt",
+    "bytes": 2132,
+    "sha256": "2c45de00bffd5ef584d78b65760a78d8d332fe813a98796c54588d5c4537fde4"
+  },
+  "note": "Recorded historical manifests retain original hashes. Publication hashes are separate; path normalization does not imply the old hash checks will accept publication copies."
+}

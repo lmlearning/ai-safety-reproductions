@@ -1,0 +1,473 @@
+{
+  "paper_id": "P080",
+  "completed_UTC": "2026-10-10T18:51:02.941815+00:00",
+  "participant_outcome_calculations_performed": true,
+  "all_frozen_comparisons_passed": true,
+  "complete_central_scope": true,
+  "full_paper_replication": false,
+  "files": [
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010.json",
+      "bytes": 101425,
+      "sha256": "72125b6a1de180f3e486c1b998287da3e0377f3177580cd5dc95686a8332f55f"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/AUDIT_MAIN_RCT_20261010.json",
+      "bytes": 127539,
+      "sha256": "5dc89694639699c9b5298c15b0b4ec11c19eac765a75676923ce3b45d56f6e85"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/PREREGISTRATION.md",
+      "bytes": 5013,
+      "sha256": "fd77cfc6f61c62e6d4175f71ddb7f815647a4b9f63989f2f7d4fa56973b763b6"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/FINAL_FREEZE_MANIFEST_20261010.json",
+      "bytes": 957,
+      "sha256": "8d803d447bd4b1ec1a3a250feaac76d440e9f00b257696e052de0d3642c87ad8"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/FROZEN_INPUT_MANIFEST_20261010.json",
+      "bytes": 35021,
+      "sha256": "1ff628a5fe13fd6ff66cac8e72d09e22769ec5cf4e0795a45bc318982ea719a8"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RESOURCE_AMENDMENTS_PROSPECTIVE_20261010.json",
+      "bytes": 958,
+      "sha256": "fe911104718875676c7e89741aadc58f99b5e1d141a767f0f6440cc2a5443dbc"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/ELIGIBILITY_REVIEW_20261010.json",
+      "bytes": 2467,
+      "sha256": "5d6ebc7d8af403db2204149c0849c752bd51ce032b50eb8e45e638ab249b24dd"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_00_replay.npy",
+      "bytes": 8128,
+      "sha256": "e26148ea8599ae964a4cae3dedd333a91283918676ad546025470eaae480816c"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_00_reference.npy",
+      "bytes": 8000128,
+      "sha256": "b5367e2445f501c40eb9a14aaf3031f5947b24060617d56ce90b068e870c98a1"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_01_replay.npy",
+      "bytes": 8128,
+      "sha256": "9a35e8388cf72757fcf29e6c2116d73726e90ec712aa2334ac2a62eb10cfb39e"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_01_reference.npy",
+      "bytes": 8000128,
+      "sha256": "27e336c05cd253fd21ae6883fce2b2be65ad9bdefb88cb3f08ee6777d3937589"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_02_replay.npy",
+      "bytes": 8128,
+      "sha256": "3aad003ab7db6800abdd4da156da3e2b5b4bff205a83b853baa6193c9056a268"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_02_reference.npy",
+      "bytes": 8000128,
+      "sha256": "38b52d9e71f9c5045e1e8be128e3ad03fd2ff1459fab904ac225febbefb5b533"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_03_replay.npy",
+      "bytes": 8128,
+      "sha256": "b04584d684ff98f4e9618e1df4923ca8e80016691e89d52bbad1a9b675aaa22a"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_03_reference.npy",
+      "bytes": 8000128,
+      "sha256": "b4a1f94e78f7ef9f2d2c060d67580faf260c74466894c0f69d79b57b853c1e2e"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_04_replay.npy",
+      "bytes": 8128,
+      "sha256": "6cfd859a3c80ea935780ab5238b99c68f5c0cc11c046b3a7714c4023ee0c8ad6"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_04_reference.npy",
+      "bytes": 8000128,
+      "sha256": "ac343708bb3b4f2cbb9e7254919d9757171dfae0a571bfddbe068fac4e7ef6e5"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_05_replay.npy",
+      "bytes": 8128,
+      "sha256": "25d144361e4697f6e19ac0ce381321680aeb264abc1cf17577936e290d723494"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_05_reference.npy",
+      "bytes": 8000128,
+      "sha256": "53115b838714d13f47bb1b03dcc59d6f68834e300fe986bfe58d4f407b916c14"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_06_replay.npy",
+      "bytes": 8128,
+      "sha256": "85e0ebb64310518fc5792806fdb51c6956998ea2ae5eb1834f0753569f813c1b"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_06_reference.npy",
+      "bytes": 8000128,
+      "sha256": "01f953da8d592ca8d35e7ba70c4c95cb4612b5e364953531c8ae062da6f755a0"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_07_replay.npy",
+      "bytes": 8128,
+      "sha256": "17b8ed6ee10548c65010df22f260dc153a9184c73c5fd7700a2f97284a43c82a"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_07_reference.npy",
+      "bytes": 8000128,
+      "sha256": "18501a01b84599eb40092584159bff2781f4428ae5944709882da2ccd9a5baa9"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_08_replay.npy",
+      "bytes": 8128,
+      "sha256": "6a74bbaa8834efa755e7295f0214782a2a01b6c5e29ffb798c0330cccd3a679f"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_08_reference.npy",
+      "bytes": 8000128,
+      "sha256": "22402999f4da6a069aa6c404fecc7b405c3c71538695f5be80d011cb3b9072cf"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_09_replay.npy",
+      "bytes": 8128,
+      "sha256": "488276cc360e4dc661398b7464262598de5b90b68339c549e59d61cebb727aa7"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_09_reference.npy",
+      "bytes": 8000128,
+      "sha256": "1654966dfae0742a011c8c9a2e15d726a602e328c6bfee5baa9479696ae0a178"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_10_replay.npy",
+      "bytes": 8128,
+      "sha256": "1c6bd3016d6b8ef05db6b06c8a67d8be1f3764b1d159f1bf6696855914467b6c"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_10_reference.npy",
+      "bytes": 8000128,
+      "sha256": "052205dcbd24e0ef8756db926864aef87e0e605201178b5a74fcd9df84b67a66"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_11_replay.npy",
+      "bytes": 8128,
+      "sha256": "0a3b3d69b0b66a7e25132fc391709b58a99fa5ecd4a8cc9ff44d5b21664267b4"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_11_reference.npy",
+      "bytes": 8000128,
+      "sha256": "1a20aff6b1a7e8d39ce0f5e074ddda95ec4aa449bd51b14d50e0c4cfbc93686d"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_12_replay.npy",
+      "bytes": 8128,
+      "sha256": "1b2a1e55b9198d4296badbd48d148f18a50c50b570be36d91e46626f5660d341"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_12_reference.npy",
+      "bytes": 8000128,
+      "sha256": "70b627e91ec68db8523cd4d7e83ce8ac72d54053ae07acfa1bd774825adb1787"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_13_replay.npy",
+      "bytes": 8128,
+      "sha256": "5d979158e21d18feb45002ced52bc5d3617e302fbf33b34026aceb804dc08d79"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_13_reference.npy",
+      "bytes": 8000128,
+      "sha256": "00c6be8db1299aefdf8503fda81ee07ee2e8133343acd6cfa8899703c168d78d"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_14_replay.npy",
+      "bytes": 8128,
+      "sha256": "f636ea47ceb5042a239bdad299b6d07e4f30837aed2201f422b8fb3648eafbe9"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_14_reference.npy",
+      "bytes": 8000128,
+      "sha256": "fd9c93292156fcca5d592bafb78fa7ef08eb6dce28b0b9d8b3a4d8630daa0c1f"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_15_replay.npy",
+      "bytes": 8128,
+      "sha256": "264db5ebb906bd3aa097e079326a04ed600566d612bd85917e95dd3f6e8243bc"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_15_reference.npy",
+      "bytes": 8000128,
+      "sha256": "aa3528934335f78c500dda4852b1efeadc52fd939cd83c4806a6287de4bcd297"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_16_replay.npy",
+      "bytes": 8128,
+      "sha256": "91d9328d2a889ad7f180cd6f8f0713bac2690b953abbdb769a186ee2f6afb7d4"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_16_reference.npy",
+      "bytes": 8000128,
+      "sha256": "d6b70c7476d4fb1361a458e59161224048d0a97f05bc023308e88aa1d4161d4e"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_17_replay.npy",
+      "bytes": 8128,
+      "sha256": "e27a8193a0e46a9ccd05ee596940b9d72e5c43474d05aaef2fdaa4725b9b93ef"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_17_reference.npy",
+      "bytes": 8000128,
+      "sha256": "4b05a1fec88e46b4f2ce29e15503254cc148ec0d4157381ba2b3858ff63d9b3a"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_18_replay.npy",
+      "bytes": 8128,
+      "sha256": "cbafaaa64c56584000f3a7e292bed58574e339cb946c54b832e041d6b8304ef7"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_18_reference.npy",
+      "bytes": 8000128,
+      "sha256": "4cd0f4fcad6aeadfa25dcc660534bf969e6cc3f66a7e2e3337f6bc509ec84749"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_19_replay.npy",
+      "bytes": 8128,
+      "sha256": "ea31b0ecb3e7bee15858177478c222732dc84358793756f243724c6b7d93b83b"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_19_reference.npy",
+      "bytes": 8000128,
+      "sha256": "cbf955bdc574e2d5bbf7e8e625ff41c2647000a1ed2ec52196d96dd93b36b3ee"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_20_replay.npy",
+      "bytes": 8128,
+      "sha256": "a87f0a59f93514e9b8d55599c496ab45e849b9b39226fc7b14c7da3c8f6645cd"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_20_reference.npy",
+      "bytes": 8000128,
+      "sha256": "e30e8b6f60a899a09c0d9975ad51c32b38e0198e78ee14b25317f21f9a27e25f"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_21_replay.npy",
+      "bytes": 8128,
+      "sha256": "33c1d0da64b00767510f538a5ad68f97172f458bb61954be4e29724308b3d38b"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_21_reference.npy",
+      "bytes": 8000128,
+      "sha256": "f1fe88c1b3de14d3c45fd0acca603042dea2feffea22814dc35a2ac369b6de2c"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_22_replay.npy",
+      "bytes": 8128,
+      "sha256": "4462b5a5d3100f55f9c65ad74e8a671a6dd634d83ff79493fbbdc8ec1e2c7502"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_22_reference.npy",
+      "bytes": 8000128,
+      "sha256": "59c75ec4dfb8c493507cbacfeb56c04c5c52d44ee4f51c8b3b4604c76e83761a"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_23_replay.npy",
+      "bytes": 8128,
+      "sha256": "f5617abf37d0e9e56beb99fa9b1c3420b769486389c5751f3ca4e34f7a5ef5f3"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_23_reference.npy",
+      "bytes": 8000128,
+      "sha256": "96c8bcc04b8f9e271c548c1411f6b50822d174f34706782f8bc09866ef7cea4c"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_24_replay.npy",
+      "bytes": 8128,
+      "sha256": "0b2f5cdee4af27b4cb651cfca46298540cf4298e3bbc014b8548dbc12381d982"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_24_reference.npy",
+      "bytes": 8000128,
+      "sha256": "e7cc41bbc4008b2794f1b2ed016f15c1a5be9760130e5d021287e9b99f09c63d"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_25_replay.npy",
+      "bytes": 8128,
+      "sha256": "04487686c5c0321477a383c131ae56ecc5e32d07c1f250c64cf68d2c1a4c141b"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_25_reference.npy",
+      "bytes": 8000128,
+      "sha256": "394973b81bde818817dbfbc662631fbce4a6e3a5825e460e571a6394f1f1aecc"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_26_replay.npy",
+      "bytes": 8128,
+      "sha256": "c39f35f004e646b829a0b88d9d2a26af329ce4b7365a910e1a037d94b149aa4f"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_26_reference.npy",
+      "bytes": 8000128,
+      "sha256": "30056b39c5c97a359ddf3537aac2f826f3c989c9124484fbaec6a0b45ab27615"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_27_replay.npy",
+      "bytes": 8128,
+      "sha256": "e94e6a11773929d0c2324f9a57b89a1f1d3ea6c66da5ca1c8a45941e5aacd0f8"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_27_reference.npy",
+      "bytes": 8000128,
+      "sha256": "d055ac8833400380be2b086e1f509e18e85611b15cdfaa99b63c19d3a386a7d8"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_28_replay.npy",
+      "bytes": 8128,
+      "sha256": "831e2d252e08891530d2d3ecb4df530c2c90055d5aefaae3d73f7c9a11b0301f"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_28_reference.npy",
+      "bytes": 8000128,
+      "sha256": "ef29c3ce47a5bf2eafc20c9050e63d863a9c09461c0a2b652512d2f70a7223c6"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_29_replay.npy",
+      "bytes": 8128,
+      "sha256": "7dd2fc0ab42405982b7227a56120f9ff0fa7942af55146bdce452cdc526923c2"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_29_reference.npy",
+      "bytes": 8000128,
+      "sha256": "6849a0c6f5918c2f0ccc050f91f5b253a8f60f4ce706fb4b12c61d56ee4894ec"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_30_replay.npy",
+      "bytes": 8128,
+      "sha256": "32c5a4e888298dcf5b225c2bbdde6c0513f03d972327c8d9bb14ace2f1215904"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_30_reference.npy",
+      "bytes": 8000128,
+      "sha256": "76de49027fb36d896baa7f51be4f407e937159c148fe1870190dbcf0460bf924"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_31_replay.npy",
+      "bytes": 8128,
+      "sha256": "0cfbfa5b6e1abf6ea7df698a25cd8b0b42502a6bf054a6c9ebb331e98913b3a4"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_31_reference.npy",
+      "bytes": 8000128,
+      "sha256": "78a027caf1b132abb9ae6a1c7e7a15d1517b13f5489922886c95777c28746ac4"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_32_replay.npy",
+      "bytes": 8128,
+      "sha256": "eaf686677e194aa0a80d68bb6feaea57478b4dcfb4ca1eb98e9a2a5de13c39b5"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_32_reference.npy",
+      "bytes": 8000128,
+      "sha256": "df6066f5cc0f1ec6ab041b7231ca89a9ed2c3d1336479e2feb379dffd5f10ce3"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_33_replay.npy",
+      "bytes": 8128,
+      "sha256": "d7de582ff43e2c1bd8e170614846ca07f6251bed9a72df4956805515b44cc880"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_33_reference.npy",
+      "bytes": 8000128,
+      "sha256": "f4ecbdbcdda4e696a8f1c4d0c3d32698704dc50e7e2a43305181e2ace7299ad4"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_34_replay.npy",
+      "bytes": 8128,
+      "sha256": "7ebcf443e4d44f24b5fa1f68e9fc5c43690840dbcec56dc138e4777c372cd436"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_34_reference.npy",
+      "bytes": 8000128,
+      "sha256": "d72991aa799fba7b528ba264f2ded4d16a67082883d806460afec0cb50520300"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_35_replay.npy",
+      "bytes": 8128,
+      "sha256": "8874617204a4c2737048c8da5b21b069c66bd9e3fb28372ec245b0a8033791c0"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_35_reference.npy",
+      "bytes": 8000128,
+      "sha256": "447ed980d2a7effcf83e171be9729655276abc1c88c6cd4c94abf40d19495ea1"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RESULTS_REVIEW_20261010.json",
+      "bytes": 16659,
+      "sha256": "b96e98b6f3e0de1eee58aae4847236b78065310b8a71d537c2a984fb072a79fa"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/REPORT.md",
+      "bytes": 5535,
+      "sha256": "35ddcd17ddfaf5114374f72d3ea9ec07a5daee936bb51d37598feed74e479d05"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/figures/P080_Figure6_primary_RCT.png",
+      "bytes": 176240,
+      "sha256": "03f39fb50b16325f8eb8439c5631ea33818e84c3e543085877c93322b1f67f6d"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/figures/P080_Figure7_experience.png",
+      "bytes": 152713,
+      "sha256": "c66b49bf55757ef7b62e3a3d9b7d3db21c0c501db2234d9a5807308d556272f8"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/figures/P080_Figure8_subareas.png",
+      "bytes": 146853,
+      "sha256": "04acd8869248a3db003c70e063c94630f4b8af5bc9a49e5a8bfcffedd0dfe1be"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/figures/P080_Figure9_self_reports.png",
+      "bytes": 104212,
+      "sha256": "355fd48087aeb574795ad3a849661808b7fb66d1e80f45c18c83b44546cae806"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/figures/P080_Figure10_difficulty.png",
+      "bytes": 138259,
+      "sha256": "a3987b4df817fd598455712ad95c9c5f507cfb5937b951d9716f7444c7b0632c"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/figures/P080_all_five_original_figure_groups.pdf",
+      "bytes": 51308,
+      "sha256": "9cc58b61da5c9cd952a0a0cc05993c310711b12e9f22c39eb76ed84ac1089ec8"
+    },
+    {
+      "path": "scripts/plot_p080_main_rct.py",
+      "bytes": 9368,
+      "sha256": "eeeee817764cd3f21372cc18bb1f24624814bc900460915737af4a119baa0d57"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/PLOT_PRESENTATION_PROVENANCE_20261010.json",
+      "bytes": 2438,
+      "sha256": "2781a250f0bfc63b06ffd7979f1bcc024c8f7643b3cf22cff46b3cc2baf2cd70"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/PLOT_VISUAL_QA_20261010.json",
+      "bytes": 433,
+      "sha256": "fb7d9d76288c6dd6c7346192c7c92e479979cfe05a29eb7601071337415c7c15"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/PRESENTATION_RESOURCE_STOP_20261010.json",
+      "bytes": 542,
+      "sha256": "7c64d6bc9c4bc7d43a4066e5698261b4d659ba5ce42fddb998433790a4702e45"
+    },
+    {
+      "path": "scripts/p080_finalize_main_rct_report.py",
+      "bytes": 12013,
+      "sha256": "5eb50c7d2d19747219af2dc3a045c9337787a21ecaf05f497e5414b00a704561"
+    }
+  ],
+  "presentation_generated_after_completed_statistics": true,
+  "all_five_figures_visually_QA_passed": true,
+  "presentation_only_resource_stop_retained": true
+}

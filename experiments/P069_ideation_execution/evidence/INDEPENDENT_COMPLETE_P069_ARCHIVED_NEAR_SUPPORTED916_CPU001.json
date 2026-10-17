@@ -1,0 +1,3986 @@
+{
+  "schema": "INDEPENDENT_COMPLETE_ARCHIVED_P069_NEAR_REVIEW916_CPU001",
+  "origin_UTC": "2026-10-17T08:24:41.761185+00:00",
+  "closed_UTC": "2026-10-17T08:29:10.778686+00:00",
+  "elapsed_seconds": 269.017501,
+  "recommendation": "NEAR_SUPPORTED",
+  "ROOT_credit_or_registry_decision_issued": false,
+  "FULL_supported": false,
+  "source_identity": {
+    "title": "The Ideation-Execution Gap: Execution Outcomes of LLM-Generated versus Human Research Ideas",
+    "authors": [
+      "Chenglei Si",
+      "Tatsunori Hashimoto",
+      "Diyi Yang"
+    ],
+    "arxiv": "2506.20803v1",
+    "DOI": "10.48550/arXiv.2506.20803",
+    "S2paperId": "87e044b0cb5e43d630972afaf925af032efa61bd"
+  },
+  "complete_original_central_scope": "Complete original central quantitative blinded human review analysis: all 181 reviews/all 43 executed projects/both original arms/all seven execution metrics; original Tables 1,3,4,5 and Figure 2, plus original Appendix D correlations (Table 9) and Appendix F exclusion robustness (Table 10). Independent aggregation and statistical calculations from original raw human scores.",
+  "all155_present": true,
+  "types": {
+    "EXACT_COUNT": 21,
+    "EXACT_CLAIM": 27,
+    "BOUNDED_SCALAR": 107
+  },
+  "maximum_scalar_error": "0.005",
+  "maximum_error_key": "review.effectiveness.AI.mean",
+  "new916_bound": ".010 per original-unit scalar; exact counts and claims",
+  "allmissing_or_undefined": [],
+  "old_strict": "FAILED152_OF155_RETAINED",
+  "three_old_failures": [
+    {
+      "key": "gap.full.excitement.AI",
+      "role": "BOUNDED_SCALAR",
+      "source": "Original Table 5; original one-sided directional Welch and separate four-metric BH family",
+      "expected": "-1.76",
+      "primary_actual": "-1.7569444444444444",
+      "independent_actual": "-1.756944444444444444444444444444444444444444444444444444444444444444444",
+      "primary_signed_error": "0.0030555555555556",
+      "independent_signed_error": "0.003055555555555555555555555555555555555555555555555555555555555555556",
+      "max_absolute_error_both_routes": "0.0030555555555556",
+      "old_tolerance": "0.00051",
+      "old_primary_strict_pass": false,
+      "old_audit_strict_pass": false,
+      "new916_bound": "0.010",
+      "new916_pass": true,
+      "missing": false,
+      "undefined": false,
+      "independent_rounded_three_decimals": "-1.757",
+      "printed_target_three_decimals": "-1.760"
+    },
+    {
+      "key": "gap.full.effectiveness.AI",
+      "role": "BOUNDED_SCALAR",
+      "source": "Original Table 5; original one-sided directional Welch and separate four-metric BH family",
+      "expected": "-1.879",
+      "primary_actual": "-1.878472222222222",
+      "independent_actual": "-1.878472222222222222222222222222222222222222222222222222222222222222222",
+      "primary_signed_error": "0.000527777777778",
+      "independent_signed_error": "0.000527777777777777777777777777777777777777777777777777777777777777778",
+      "max_absolute_error_both_routes": "0.000527777777778",
+      "old_tolerance": "0.00051",
+      "old_primary_strict_pass": false,
+      "old_audit_strict_pass": false,
+      "new916_bound": "0.010",
+      "new916_pass": true,
+      "missing": false,
+      "undefined": false,
+      "independent_rounded_three_decimals": "-1.878",
+      "printed_target_three_decimals": "-1.879"
+    },
+    {
+      "key": "gap.exclude6.novelty.AI",
+      "role": "BOUNDED_SCALAR",
+      "source": "Original Table 10; original one-sided directional Welch and separate four-metric BH family",
+      "expected": "-1.107",
+      "primary_actual": "-1.1064814814814816",
+      "independent_actual": "-1.106481481481481481481481481481481481481481481481481481481481481481481",
+      "primary_signed_error": "0.0005185185185184",
+      "independent_signed_error": "0.000518518518518518518518518518518518518518518518518518518518518518519",
+      "max_absolute_error_both_routes": "0.000518518518518518518518518518518518518518518518518518518518518518519",
+      "old_tolerance": "0.00051",
+      "old_primary_strict_pass": false,
+      "old_audit_strict_pass": false,
+      "new916_bound": "0.010",
+      "new916_pass": true,
+      "missing": false,
+      "undefined": false,
+      "independent_rounded_three_decimals": "-1.106",
+      "printed_target_three_decimals": "-1.107"
+    }
+  ],
+  "independent_computational_checks": {
+    "passed": 1127,
+    "total": 1127,
+    "allTrue": true,
+    "method": "70-digit scalar mpmath with exact rational raw-score sums, independent Welch/incomplete-beta tails and BH adjustment; exact tie-ranking and Pearson sums. No NumPy/SciPy/pandas or experimental runner import. All original gates re-evaluated without changing tolerances.",
+    "new_recomputation": false
+  },
+  "entire_vector_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\operations\\P069_user_near_independent_review_CPU001\\COMPLETE_ALL155_ORIGINAL_AND_NEAR_ERROR_VECTOR916_CPU001.json",
+    "bytes": 119839,
+    "sha256": "6e9ef28cf123c3233fca69bb7e2a048787140c9af2088ee3679b08122e2a7dd8"
+  },
+  "core_claims": {
+    "all27original_claims_exact": true,
+    "all8full_and_robust_gap_records": [
+      {
+        "variant": "full",
+        "metric": "novelty",
+        "Human_gap": "-0.009649122807017543859649122807017543859649122807017543859649122807017544",
+        "AI_gap": "-1.048611111111111111111111111111111111111111111111111111111111111111111",
+        "difference": "1.038961988304093567251461988304093567251461988304093567251461988304094",
+        "BH_p": "0.02484502859962152475313480473125136045402623178955339837748182906437719",
+        "source_claim_compatible": true
+      },
+      {
+        "variant": "full",
+        "metric": "excitement",
+        "Human_gap": "0.07807017543859649122807017543859649122807017543859649122807017543859649",
+        "AI_gap": "-1.756944444444444444444444444444444444444444444444444444444444444444444",
+        "difference": "1.835014619883040935672514619883040935672514619883040935672514619883041",
+        "BH_p": "0.001242003701761543481643249912796696321271398638401003687900963711085122",
+        "source_claim_compatible": true
+      },
+      {
+        "variant": "full",
+        "metric": "effectiveness",
+        "Human_gap": "-0.05175438596491228070175438596491228070175438596491228070175438596491228",
+        "AI_gap": "-1.878472222222222222222222222222222222222222222222222222222222222222222",
+        "difference": "1.82671783625730994152046783625730994152046783625730994152046783625731",
+        "BH_p": "0.002519364484873179813076023424066665719548688705527615668094451048420425",
+        "source_claim_compatible": true
+      },
+      {
+        "variant": "full",
+        "metric": "overall",
+        "Human_gap": "-0.6280701754385964912280701754385964912280701754385964912280701754385965",
+        "AI_gap": "-1.975694444444444444444444444444444444444444444444444444444444444444444",
+        "difference": "1.347624269005847953216374269005847953216374269005847953216374269005848",
+        "BH_p": "0.003644513123179735761153278874863421737152296550142749134889230531172318",
+        "source_claim_compatible": true
+      },
+      {
+        "variant": "exclude6",
+        "metric": "novelty",
+        "Human_gap": "-0.009649122807017543859649122807017543859649122807017543859649122807017544",
+        "AI_gap": "-1.106481481481481481481481481481481481481481481481481481481481481481481",
+        "difference": "1.096832358674463937621832358674463937621832358674463937621832358674464",
+        "BH_p": "0.0207853948094699816752899845769417145991438183150367677221150571762077",
+        "source_claim_compatible": true
+      },
+      {
+        "variant": "exclude6",
+        "metric": "excitement",
+        "Human_gap": "0.07807017543859649122807017543859649122807017543859649122807017543859649",
+        "AI_gap": "-1.842592592592592592592592592592592592592592592592592592592592592592593",
+        "difference": "1.920662768031189083820662768031189083820662768031189083820662768031189",
+        "BH_p": "0.001302419390261051706800962433462161566872011362976708759205959857231485",
+        "source_claim_compatible": true
+      },
+      {
+        "variant": "exclude6",
+        "metric": "effectiveness",
+        "Human_gap": "-0.05175438596491228070175438596491228070175438596491228070175438596491228",
+        "AI_gap": "-1.921296296296296296296296296296296296296296296296296296296296296296296",
+        "difference": "1.869541910331384015594541910331384015594541910331384015594541910331384",
+        "BH_p": "0.003500743930210310866531255573284019848605654430369104014915177587491316",
+        "source_claim_compatible": true
+      },
+      {
+        "variant": "exclude6",
+        "metric": "overall",
+        "Human_gap": "-0.6280701754385964912280701754385964912280701754385964912280701754385965",
+        "AI_gap": "-2.009259259259259259259259259259259259259259259259259259259259259259259",
+        "difference": "1.381189083820662768031189083820662768031189083820662768031189083820663",
+        "BH_p": "0.005588572689736359564785000036513511825900316333075775881629037447716845",
+        "source_claim_compatible": true
+      }
+    ],
+    "all4ranking_flips_unchanged": true,
+    "review_level": "Human higher on excitement/effectiveness/soundness/overall, novelty/controls nonsignificant, all original Table3 claim flags exact.",
+    "project_level": "All4 post-execution between-arm tests remain nonsignificant; no stronger direct superiority claim is introduced.",
+    "compatibility": true
+  },
+  "eligibility": {
+    "original_retained_count": 62,
+    "unchanged_old_extended_gate": 40,
+    "capture_UTC": "2026-10-10T17:00:51.561526+00:00",
+    "exact_raw_row_pointer": "/data/9",
+    "empirical_first_release": "2025-06-25",
+    "original_data_commit": "d6b5ec1c31dd43ad678a897231f95aca9ebd131e",
+    "Git_push_time_independent_proof": false,
+    "earlier_ideation2024": "Distinct predecessor used as baseline, not an earlier empirical execution-study result.",
+    "OSF_registration2024": "Prospective plan, not result release.",
+    "no_date_reset_or_new_count": true
+  },
+  "retrospective_fairness": "User913 newly authorizes bounded near counting. Rule916 knew152/155,1127/1127 and the3gap roles/source conflicts before this complete-vector review. This is explicitly retrospective, not original blind preregistration or rewritten strictPASS. All155 and both arms/full robustness retained, no favorable subset/seed/estimator selected.",
+  "source_arithmetic": "Printed Table5 excitementAI-1.760 conflicts with rounded Table4 3.896-5.653=-1.757 and reportedHuman-AI difference1.835. Original code averages unrounded per-project gaps. Preserve printed targets/oldfailures; independent nearest-three-decimal values for the3misses are separately retained. Largest ALL-vector error is instead.005 for Table3 AI effectiveness mean4.125 versus4.12, inside its old two-decimal tolerance and new.010.",
+  "preserved_omissions_and_method_limitations": [
+    "No fresh project execution, model idea generation or human recruitment/reviewing.",
+    "Participant research profiles/Table 2, manual idea-change taxonomy/Table 6, manual review-rationale taxonomy/Figure 3, institutional tables and qualitative examples are not recreated.",
+    "No Appendix G cross-metric correlation matrices (Tables 11/12): original estimator/aggregation implementation not released and not needed for identified central before/after comparison.",
+    "No inference implementing the planned reviewer-level test: released execution reviews omit stable reviewer identifiers.",
+    "Distribution plots use all raw original scores but no quantitative visual coordinates are used as acceptance gates.",
+    "OSF preregistration planned two-sided Welch and reviewer-level tests; Table 3 and original code use one-sided tests, and Table 5 gap analysis is absent from the original hypothesis list. Preserve published central analysis and disclose this deviation.",
+    "Original control script computes BH-adjusted control p, while Table 3 explicitly reports raw control p; use caption-defined raw p and separately record adjusted values.",
+    "Printed Table 5 AI excitement gap -1.760 is arithmetically inconsistent with printed Table 4 3.896-5.653=-1.757 at their stated three-decimal precision. Printed Table 5 Human .078 minus AI -1.760 gives 1.838, inconsistent with reported 1.835. Preserve every printed target with .00051 tolerance; no correction, target pruning or relaxation is authorized.",
+    "Original 66 onboarded/43 completers and excluded vague idea are not re-created; central analysis uses exactly all 43 original completed projects.",
+    "Original review-level tests assume individual reviews independent despite multiple reviews per project; preserve, disclose and reproduce the per-project comparison too."
+  ],
+  "archived_execution_evidence": "All run/audit/source manifest entries currently match their exact bytes/SHA. Archived independent algorithm is exact-rational sums+70digit mpmath and does not import primary/NumPy/SciPy/pandas; primary uses NumPy/SciPy. Existing audit verifies every project mean/gap and raw/source hash. No modern Job/native lifetime proof was newly fabricated or retroactively required. Initial audit directory setup failure remains historical; fresh audit002 scientific formulas unchanged.",
+  "source_refs": {
+    "916": {
+      "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ADOPTED_ARCHIVED_P069_NEAR_SUCCESS_REVIEW_RULE916.json",
+      "bytes": 3862,
+      "sha256": "2f5c01b461683e4a0e68fa17e08e4d55be4f825fa1969e062bc13c7ab367789a"
+    },
+    "prereg": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\PREREGISTRATION.json",
+      "bytes": 4785,
+      "sha256": "7b276836027f05423ebdc3cdde909bfc36c58465fcf4fa128d8ad1c391b9225b"
+    },
+    "old_FAILED_status": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\REVIEW_STATUS.json",
+      "bytes": 1506,
+      "sha256": "51d89762e2b464c576b8554022e5f5b40729611f2156742a85b3ea4c98403df2"
+    },
+    "old_report": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\REPORT.md",
+      "bytes": 7550,
+      "sha256": "242b29360dec597b67556440aa51664037517c071a5276770f0874cbac756b6b"
+    },
+    "run_manifest": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\manifest.json",
+      "bytes": 1502,
+      "sha256": "2329e51e5125b5ee01405cd178665c8f1f480289be202fd2696d07c1fbecb23a"
+    },
+    "primary_results": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\results.json",
+      "bytes": 116868,
+      "sha256": "44c54b4a551df2ccc03d9433cdf3fedadaaa0978eb56ef243915b1015163bfa9"
+    },
+    "runner": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\runner.py",
+      "bytes": 7773,
+      "sha256": "37e137d8eda67a2503373ee05d280feb3aee080743e1ca4cf5994e1d04498e7e"
+    },
+    "targets": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\targets.json",
+      "bytes": 30591,
+      "sha256": "afd7f5244cfee8ff04d388dba7a620434b040c9a832f2c2066421593567e74a5"
+    },
+    "resources": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\resource_usage.json",
+      "bytes": 379,
+      "sha256": "d94653ee6496625a296841ba3ca0dc2bdecfd29830d861e97730eb5695d6d06d"
+    },
+    "audit_manifest": {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P069-audit-002\\manifest.json",
+      "bytes": 439,
+      "sha256": "78f333fe7046ff3bb228151e899bff51dcd1eda0119a26524178c3860d9f1a00"
+    },
+    "audit": {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P069-audit-002\\audit.json",
+      "bytes": 281513,
+      "sha256": "1518e496cf1a26acb7b75a54ebd29605eb785632000a5f30c131623c77e70082"
+    },
+    "independent_values": {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P069-audit-002\\independent_values.json",
+      "bytes": 13274,
+      "sha256": "2539161c47ce11a89929fb26ea1d6b1400d2bcfaf1a3e81c5a79b0bec1c77d02"
+    },
+    "auditor": {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P069-audit-002\\auditor.py",
+      "bytes": 9914,
+      "sha256": "da102397e5a8797bb0ccde0bb60225036512b6348ece76d17708f2242f67b8fe"
+    },
+    "citation_snapshot": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\citation_snapshot.json",
+      "bytes": 3340,
+      "sha256": "1cce61c2fd455ce3bf4be928c2690495406b64afc723691565f65304f61f141c"
+    },
+    "citation_raw": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\citation_query_raw.json",
+      "bytes": 143496,
+      "sha256": "973727e2607dfe53bfba4861ff05bf584880a23ccc1f7740e64a539ea06a7bcf"
+    },
+    "request_log": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\citation_query_request_log.json",
+      "bytes": 1406,
+      "sha256": "9f44efa316c21f33e8ed6cf198e2a8a79ece9088efb964a6b0122883b804637c"
+    },
+    "first_empirical_release": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\first_release_tree_evidence.json",
+      "bytes": 498,
+      "sha256": "326b21f6df86c601231419670b23853b1f48610c812ca0d8a6016f4745353e05"
+    },
+    "initial_blob_identity": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\initial_git_blob_manifest.json",
+      "bytes": 1322,
+      "sha256": "2b306c4c5af1e72191a988910f04ed4a728dbbe48984f992a163cb5fc7d5128c"
+    },
+    "initial_commit": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_execution_initial_commit.txt",
+      "bytes": 249,
+      "sha256": "da21e783c477a361691ce05a0033519c705daf6f0bf7247c9532d314c2c69e63"
+    },
+    "method_identity": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_method_blob_identity.json",
+      "bytes": 1261,
+      "sha256": "eb913d820a998890fd4fd334efa5a5896a322c3e8a2540eee607bb6b65f539ea"
+    },
+    "paper_text": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\arxiv_v1_pdf_text.txt",
+      "bytes": 358444,
+      "sha256": "87085292469133dd522add4f41f41288116553a4525e5fee44cddce5dbe6fe8c"
+    },
+    "source_manifest": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources_manifest.json",
+      "bytes": 5377,
+      "sha256": "2e01a3a62d3998575f1a4f79658248086b2fccaf226eb2b4cfeaa85a3625cb30"
+    }
+  },
+  "whole_manifest_verified_refs": [
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\execution_reviews_initial.json",
+      "bytes": 424687,
+      "sha256": "63a371eddb4cd8792e142128f43726d928c6c62c0e9fea73404411d08b5013d0"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\ideation_reviews_initial.json",
+      "bytes": 625805,
+      "sha256": "b280081014bc9ebf7efe2e1c31c9ac3b1b2b8a9de4b7e11f9ce4648aa13e4428"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\PREREGISTRATION.json",
+      "bytes": 4785,
+      "sha256": "7b276836027f05423ebdc3cdde909bfc36c58465fcf4fa128d8ad1c391b9225b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\PREREGISTRATION.md",
+      "bytes": 764,
+      "sha256": "77a8a886578fcf093fe9d3bfa475993ffa1220ff500e5bd1275c25e479c7ed5f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\resource_usage.json",
+      "bytes": 379,
+      "sha256": "d94653ee6496625a296841ba3ca0dc2bdecfd29830d861e97730eb5695d6d06d"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\results.json",
+      "bytes": 116868,
+      "sha256": "44c54b4a551df2ccc03d9433cdf3fedadaaa0978eb56ef243915b1015163bfa9"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\runner.py",
+      "bytes": 7773,
+      "sha256": "37e137d8eda67a2503373ee05d280feb3aee080743e1ca4cf5994e1d04498e7e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\source_verification.json",
+      "bytes": 5377,
+      "sha256": "2e01a3a62d3998575f1a4f79658248086b2fccaf226eb2b4cfeaa85a3625cb30"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\sources_manifest.json",
+      "bytes": 5377,
+      "sha256": "2e01a3a62d3998575f1a4f79658248086b2fccaf226eb2b4cfeaa85a3625cb30"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\targets.json",
+      "bytes": 30591,
+      "sha256": "afd7f5244cfee8ff04d388dba7a620434b040c9a832f2c2066421593567e74a5"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P069-audit-002\\audit.json",
+      "bytes": 281513,
+      "sha256": "1518e496cf1a26acb7b75a54ebd29605eb785632000a5f30c131623c77e70082"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P069-audit-002\\auditor.py",
+      "bytes": 9914,
+      "sha256": "da102397e5a8797bb0ccde0bb60225036512b6348ece76d17708f2242f67b8fe"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P069-audit-002\\independent_values.json",
+      "bytes": 13274,
+      "sha256": "2539161c47ce11a89929fb26ea1d6b1400d2bcfaf1a3e81c5a79b0bec1c77d02"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\arxiv_abs.html",
+      "bytes": 43089,
+      "sha256": "056ff7e875ec693104adc33b12089adc64b04be58a93f62ff6e971997840a632"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\arxiv_v1.html",
+      "bytes": 414976,
+      "sha256": "bc884cf3a29f781d2c6c2ebc20f392cafc1d7a30b63d212b7b113c8847f0849b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\arxiv_v1.pdf",
+      "bytes": 8663529,
+      "sha256": "a0e8327e44d2a0d5e212fbc8a94efcd3d9ff5aac44b504dafed1941c8b5daa96"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\arxiv_v1_pdf_text.txt",
+      "bytes": 358444,
+      "sha256": "87085292469133dd522add4f41f41288116553a4525e5fee44cddce5dbe6fe8c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\citation_query_raw.json",
+      "bytes": 143496,
+      "sha256": "973727e2607dfe53bfba4861ff05bf584880a23ccc1f7740e64a539ea06a7bcf"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\citation_query_request_log.json",
+      "bytes": 1406,
+      "sha256": "9f44efa316c21f33e8ed6cf198e2a8a79ece9088efb964a6b0122883b804637c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\citation_snapshot.json",
+      "bytes": 3340,
+      "sha256": "1cce61c2fd455ce3bf4be928c2690495406b64afc723691565f65304f61f141c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\cpu_routes_request_log.json",
+      "bytes": 5865,
+      "sha256": "fb0ced439e0a7a8b356a5f2a34b9b43ed0526534488efbc648d7397d8dae1327"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\execution_reviews.json",
+      "bytes": 424687,
+      "sha256": "63a371eddb4cd8792e142128f43726d928c6c62c0e9fea73404411d08b5013d0"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\execution_reviews_initial.json",
+      "bytes": 424687,
+      "sha256": "63a371eddb4cd8792e142128f43726d928c6c62c0e9fea73404411d08b5013d0"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\first_release_tree_evidence.json",
+      "bytes": 498,
+      "sha256": "326b21f6df86c601231419670b23853b1f48610c812ca0d8a6016f4745353e05"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\git_clone_log.json",
+      "bytes": 272,
+      "sha256": "e930295da903b6dc899e6f364b7fd05f5a15ff2f2735f67e8bfacb877ebf6be7"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\github_repository.json",
+      "bytes": 5266,
+      "sha256": "a4b05d9406cb6975cca6b74f41c87a2c8c7885d1f77cadd23deb436f9df55ce6"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\github_tree.json",
+      "bytes": 23803,
+      "sha256": "4740db507dd0f5eb64b558c4a24e4d10da97851a08d120bdca2f5c3b7a62ef23"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\id_title_mapping.csv",
+      "bytes": 7609,
+      "sha256": "abbb845b096681a07c8b3f23e57db399276ba9e87ea7903839e929b4fe3298fd"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\ideation_reviews.json",
+      "bytes": 625805,
+      "sha256": "b280081014bc9ebf7efe2e1c31c9ac3b1b2b8a9de4b7e11f9ce4648aa13e4428"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\ideation_reviews_initial.json",
+      "bytes": 625805,
+      "sha256": "b280081014bc9ebf7efe2e1c31c9ac3b1b2b8a9de4b7e11f9ce4648aa13e4428"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\initial_git_blob_manifest.json",
+      "bytes": 1322,
+      "sha256": "2b306c4c5af1e72191a988910f04ed4a728dbbe48984f992a163cb5fc7d5128c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_compare_change.py",
+      "bytes": 4795,
+      "sha256": "12be596daeff9d3cd7a5219a7b5af2f207773ec3b4aa7216d3f94178d5775148"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_correlation.py",
+      "bytes": 3342,
+      "sha256": "5c702652bd43549551ca98f9ff648cf2b1cd5f65ae8d5537675697542766046c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_empirical_git_history.json",
+      "bytes": 3811,
+      "sha256": "36518da56c9dc4fc07c868a8ba1ccf80caafddd425ceec5dcf998485054e75b4"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_execution_initial_commit.txt",
+      "bytes": 249,
+      "sha256": "da21e783c477a361691ce05a0033519c705daf6f0bf7247c9532d314c2c69e63"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_execution_method_commit.txt",
+      "bytes": 248,
+      "sha256": "f4a0e7ad15ae1cdadd7ac6ef969bb89cbc2770d9555144981c79bbad529c5fe9"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_method_blob_identity.json",
+      "bytes": 1261,
+      "sha256": "eb913d820a998890fd4fd334efa5a5896a322c3e8a2540eee607bb6b65f539ea"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_page_2.png",
+      "bytes": 186879,
+      "sha256": "09ff450f67d5e039c5e6357d8ad0a25b18cbd9e7caf9b077cca5bf8684863159"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_page_6.png",
+      "bytes": 180702,
+      "sha256": "7e06489b4dad2007365edde21fff119eae2371571ccde367d64f6665c090b62c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_page_7.png",
+      "bytes": 179592,
+      "sha256": "e0ba86205533b9561a9ef599b2ff5d7cab21007909fd2ffd9bfa50d4db153acc"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_readme.md",
+      "bytes": 9171,
+      "sha256": "e91ec1af6eb40744d6a64cbb7481f9c3b58f7da7cf43db6a4ce36e289629fef7"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_readme_initial.md",
+      "bytes": 8959,
+      "sha256": "ac8c55cd4cfcb7f7aaa00e0d1a8a0a350bb6a87745f28e7bdb405f3d1aa9f780"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_registration.json",
+      "bytes": 23034,
+      "sha256": "280210dd0de4303e70a24e0adcd79c2b5288728b5f24aed1b6733625efcb281d"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_stats_controls.py",
+      "bytes": 2474,
+      "sha256": "a29a80a62fcf94c91ecb1e6ca30b4b0002106d9ddcdae56dda6624964a091655"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_stats_overall.py",
+      "bytes": 2528,
+      "sha256": "11da00e41cfb561dbca18030a8815f7d233246c07fcff091b35ec840102f6aed"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_stats_per_idea.py",
+      "bytes": 7344,
+      "sha256": "017bbb721c7f1d8723fd8c7c9807c31157f528eb8cb2e4f06b230fb3e90c214d"
+    }
+  ],
+  "archived_auditor_imports": [
+    "pathlib,json,hashlib,datetime,time,math,collections,statistics",
+    "fractions",
+    "mpmath"
+  ],
+  "checks": [
+    {
+      "name": "916exact",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\execution_reviews_initial.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\execution_reviews_initial.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\ideation_reviews_initial.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\ideation_reviews_initial.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\PREREGISTRATION.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\PREREGISTRATION.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\PREREGISTRATION.md",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\PREREGISTRATION.md",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\resource_usage.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\resource_usage.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\results.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\results.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\runner.py",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\runner.py",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\source_verification.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\source_verification.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\sources_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\sources_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\targets.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\targets.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\audits\\P069-audit-002\\audit.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\audits\\P069-audit-002\\audit.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\audits\\P069-audit-002\\auditor.py",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\audits\\P069-audit-002\\auditor.py",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\audits\\P069-audit-002\\independent_values.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\audits\\P069-audit-002\\independent_values.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\arxiv_abs.html",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\arxiv_abs.html",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\arxiv_v1.html",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\arxiv_v1.html",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\arxiv_v1.pdf",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\arxiv_v1.pdf",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\arxiv_v1_pdf_text.txt",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\arxiv_v1_pdf_text.txt",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\citation_query_raw.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\citation_query_raw.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\citation_query_request_log.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\citation_query_request_log.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\citation_snapshot.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\citation_snapshot.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\cpu_routes_request_log.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\cpu_routes_request_log.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\execution_reviews.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\execution_reviews.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\execution_reviews_initial.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\execution_reviews_initial.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\first_release_tree_evidence.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\first_release_tree_evidence.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\git_clone_log.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\git_clone_log.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\github_repository.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\github_repository.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\github_tree.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\github_tree.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\id_title_mapping.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\id_title_mapping.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\ideation_reviews.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\ideation_reviews.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\ideation_reviews_initial.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\ideation_reviews_initial.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\initial_git_blob_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\initial_git_blob_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_compare_change.py",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_compare_change.py",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_correlation.py",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_correlation.py",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_empirical_git_history.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_empirical_git_history.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_execution_initial_commit.txt",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_execution_initial_commit.txt",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_execution_method_commit.txt",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_execution_method_commit.txt",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_method_blob_identity.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_method_blob_identity.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_page_2.png",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_page_2.png",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_page_6.png",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_page_6.png",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_page_7.png",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_page_7.png",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_readme.md",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_readme.md",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_readme_initial.md",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_readme_initial.md",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_registration.json",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_registration.json",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_stats_controls.py",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_stats_controls.py",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_stats_overall.py",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_stats_overall.py",
+      "passed": true
+    },
+    {
+      "name": "manifest containment {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_stats_per_idea.py",
+      "passed": true
+    },
+    {
+      "name": "manifest exact {{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\sources\\original_stats_per_idea.py",
+      "passed": true
+    },
+    {
+      "name": "oldstatus pin old_report",
+      "passed": true
+    },
+    {
+      "name": "oldstatus pin run_manifest",
+      "passed": true
+    },
+    {
+      "name": "oldstatus pin audit",
+      "passed": true
+    },
+    {
+      "name": "frozen targets",
+      "passed": true
+    },
+    {
+      "name": "frozen plan",
+      "passed": true
+    },
+    {
+      "name": "frozen source inventory",
+      "passed": true
+    },
+    {
+      "name": "strict primary152/155",
+      "passed": true
+    },
+    {
+      "name": "audit all1127computational",
+      "passed": true
+    },
+    {
+      "name": "strict audit152/155",
+      "passed": true
+    },
+    {
+      "name": "all155sameuniquerosters",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata topic.Bias.Human",
+      "passed": true
+    },
+    {
+      "name": "finite topic.Bias.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement topic.Bias.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag topic.Bias.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag topic.Bias.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata topic.Bias.AI",
+      "passed": true
+    },
+    {
+      "name": "finite topic.Bias.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement topic.Bias.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag topic.Bias.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag topic.Bias.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata topic.Coding.Human",
+      "passed": true
+    },
+    {
+      "name": "finite topic.Coding.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement topic.Coding.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag topic.Coding.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag topic.Coding.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata topic.Coding.AI",
+      "passed": true
+    },
+    {
+      "name": "finite topic.Coding.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement topic.Coding.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag topic.Coding.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag topic.Coding.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata topic.Safety.Human",
+      "passed": true
+    },
+    {
+      "name": "finite topic.Safety.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement topic.Safety.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag topic.Safety.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag topic.Safety.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata topic.Safety.AI",
+      "passed": true
+    },
+    {
+      "name": "finite topic.Safety.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement topic.Safety.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag topic.Safety.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag topic.Safety.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata topic.Multilingual.Human",
+      "passed": true
+    },
+    {
+      "name": "finite topic.Multilingual.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement topic.Multilingual.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag topic.Multilingual.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag topic.Multilingual.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata topic.Multilingual.AI",
+      "passed": true
+    },
+    {
+      "name": "finite topic.Multilingual.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement topic.Multilingual.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag topic.Multilingual.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag topic.Multilingual.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata topic.Factuality.Human",
+      "passed": true
+    },
+    {
+      "name": "finite topic.Factuality.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement topic.Factuality.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag topic.Factuality.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag topic.Factuality.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata topic.Factuality.AI",
+      "passed": true
+    },
+    {
+      "name": "finite topic.Factuality.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement topic.Factuality.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag topic.Factuality.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag topic.Factuality.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata topic.Math.Human",
+      "passed": true
+    },
+    {
+      "name": "finite topic.Math.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement topic.Math.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag topic.Math.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag topic.Math.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata topic.Math.AI",
+      "passed": true
+    },
+    {
+      "name": "finite topic.Math.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement topic.Math.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag topic.Math.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag topic.Math.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata topic.Uncertainty.Human",
+      "passed": true
+    },
+    {
+      "name": "finite topic.Uncertainty.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement topic.Uncertainty.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag topic.Uncertainty.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag topic.Uncertainty.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata topic.Uncertainty.AI",
+      "passed": true
+    },
+    {
+      "name": "finite topic.Uncertainty.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement topic.Uncertainty.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag topic.Uncertainty.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag topic.Uncertainty.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata reviews.Human",
+      "passed": true
+    },
+    {
+      "name": "finite reviews.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement reviews.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag reviews.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag reviews.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata reviews.AI",
+      "passed": true
+    },
+    {
+      "name": "finite reviews.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement reviews.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag reviews.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag reviews.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata reviews.total",
+      "passed": true
+    },
+    {
+      "name": "finite reviews.total",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement reviews.total",
+      "passed": true
+    },
+    {
+      "name": "old primary flag reviews.total",
+      "passed": true
+    },
+    {
+      "name": "old independent flag reviews.total",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata projects.Human",
+      "passed": true
+    },
+    {
+      "name": "finite projects.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement projects.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag projects.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag projects.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata projects.AI",
+      "passed": true
+    },
+    {
+      "name": "finite projects.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement projects.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag projects.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag projects.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata projects.total",
+      "passed": true
+    },
+    {
+      "name": "finite projects.total",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement projects.total",
+      "passed": true
+    },
+    {
+      "name": "old primary flag projects.total",
+      "passed": true
+    },
+    {
+      "name": "old independent flag projects.total",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata matched.projects",
+      "passed": true
+    },
+    {
+      "name": "finite matched.projects",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement matched.projects",
+      "passed": true
+    },
+    {
+      "name": "old primary flag matched.projects",
+      "passed": true
+    },
+    {
+      "name": "old independent flag matched.projects",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.novelty.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "finite review.novelty.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.novelty.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.novelty.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.novelty.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.novelty.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "finite review.novelty.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.novelty.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.novelty.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.novelty.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.novelty.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "finite review.novelty.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.novelty.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.novelty.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.novelty.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.novelty.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "finite review.novelty.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.novelty.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.novelty.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.novelty.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.novelty.p",
+      "passed": true
+    },
+    {
+      "name": "finite review.novelty.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.novelty.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.novelty.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.novelty.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.review.novelty.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.review.novelty.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.review.novelty.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.excitement.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "finite review.excitement.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.excitement.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.excitement.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.excitement.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.excitement.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "finite review.excitement.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.excitement.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.excitement.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.excitement.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.excitement.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "finite review.excitement.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.excitement.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.excitement.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.excitement.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.excitement.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "finite review.excitement.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.excitement.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.excitement.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.excitement.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.excitement.p",
+      "passed": true
+    },
+    {
+      "name": "finite review.excitement.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.excitement.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.excitement.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.excitement.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.review.excitement.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.review.excitement.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.review.excitement.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.effectiveness.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "finite review.effectiveness.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.effectiveness.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.effectiveness.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.effectiveness.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.effectiveness.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "finite review.effectiveness.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.effectiveness.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.effectiveness.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.effectiveness.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.effectiveness.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "finite review.effectiveness.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.effectiveness.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.effectiveness.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.effectiveness.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.effectiveness.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "finite review.effectiveness.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.effectiveness.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.effectiveness.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.effectiveness.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.effectiveness.p",
+      "passed": true
+    },
+    {
+      "name": "finite review.effectiveness.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.effectiveness.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.effectiveness.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.effectiveness.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.review.effectiveness.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.review.effectiveness.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.review.effectiveness.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.soundness.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "finite review.soundness.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.soundness.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.soundness.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.soundness.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.soundness.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "finite review.soundness.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.soundness.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.soundness.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.soundness.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.soundness.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "finite review.soundness.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.soundness.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.soundness.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.soundness.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.soundness.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "finite review.soundness.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.soundness.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.soundness.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.soundness.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.soundness.p",
+      "passed": true
+    },
+    {
+      "name": "finite review.soundness.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.soundness.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.soundness.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.soundness.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.review.soundness.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.review.soundness.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.review.soundness.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.overall.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "finite review.overall.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.overall.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.overall.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.overall.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.overall.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "finite review.overall.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.overall.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.overall.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.overall.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.overall.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "finite review.overall.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.overall.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.overall.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.overall.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.overall.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "finite review.overall.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.overall.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.overall.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.overall.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.overall.p",
+      "passed": true
+    },
+    {
+      "name": "finite review.overall.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.overall.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.overall.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.overall.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.review.overall.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.review.overall.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.review.overall.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.faithfulness.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "finite review.faithfulness.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.faithfulness.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.faithfulness.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.faithfulness.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.faithfulness.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "finite review.faithfulness.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.faithfulness.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.faithfulness.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.faithfulness.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.faithfulness.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "finite review.faithfulness.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.faithfulness.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.faithfulness.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.faithfulness.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.faithfulness.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "finite review.faithfulness.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.faithfulness.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.faithfulness.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.faithfulness.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.faithfulness.p",
+      "passed": true
+    },
+    {
+      "name": "finite review.faithfulness.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.faithfulness.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.faithfulness.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.faithfulness.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.review.faithfulness.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.review.faithfulness.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.review.faithfulness.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.codebase.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "finite review.codebase.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.codebase.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.codebase.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.codebase.Human.mean",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.codebase.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "finite review.codebase.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.codebase.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.codebase.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.codebase.Human.sd",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.codebase.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "finite review.codebase.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.codebase.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.codebase.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.codebase.AI.mean",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.codebase.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "finite review.codebase.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.codebase.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.codebase.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.codebase.AI.sd",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata review.codebase.p",
+      "passed": true
+    },
+    {
+      "name": "finite review.codebase.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement review.codebase.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag review.codebase.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag review.codebase.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.review.codebase.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.review.codebase.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.review.codebase.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.novelty.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "finite idea.novelty.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.novelty.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.novelty.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.novelty.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.excitement.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "finite idea.excitement.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.excitement.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.excitement.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.excitement.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.effectiveness.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "finite idea.effectiveness.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.effectiveness.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.effectiveness.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.effectiveness.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.overall.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "finite idea.overall.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.overall.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.overall.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.overall.pre.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.novelty.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "finite idea.novelty.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.novelty.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.novelty.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.novelty.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.excitement.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "finite idea.excitement.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.excitement.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.excitement.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.excitement.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.effectiveness.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "finite idea.effectiveness.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.effectiveness.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.effectiveness.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.effectiveness.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.overall.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "finite idea.overall.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.overall.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.overall.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.overall.pre.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.novelty.pre.p",
+      "passed": true
+    },
+    {
+      "name": "finite idea.novelty.pre.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.novelty.pre.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.novelty.pre.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.novelty.pre.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.excitement.pre.p",
+      "passed": true
+    },
+    {
+      "name": "finite idea.excitement.pre.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.excitement.pre.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.excitement.pre.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.excitement.pre.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.effectiveness.pre.p",
+      "passed": true
+    },
+    {
+      "name": "finite idea.effectiveness.pre.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.effectiveness.pre.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.effectiveness.pre.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.effectiveness.pre.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.overall.pre.p",
+      "passed": true
+    },
+    {
+      "name": "finite idea.overall.pre.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.overall.pre.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.overall.pre.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.overall.pre.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.novelty.post.Human",
+      "passed": true
+    },
+    {
+      "name": "finite idea.novelty.post.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.novelty.post.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.novelty.post.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.novelty.post.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.excitement.post.Human",
+      "passed": true
+    },
+    {
+      "name": "finite idea.excitement.post.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.excitement.post.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.excitement.post.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.excitement.post.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.effectiveness.post.Human",
+      "passed": true
+    },
+    {
+      "name": "finite idea.effectiveness.post.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.effectiveness.post.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.effectiveness.post.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.effectiveness.post.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.overall.post.Human",
+      "passed": true
+    },
+    {
+      "name": "finite idea.overall.post.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.overall.post.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.overall.post.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.overall.post.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.novelty.post.AI",
+      "passed": true
+    },
+    {
+      "name": "finite idea.novelty.post.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.novelty.post.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.novelty.post.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.novelty.post.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.excitement.post.AI",
+      "passed": true
+    },
+    {
+      "name": "finite idea.excitement.post.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.excitement.post.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.excitement.post.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.excitement.post.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.effectiveness.post.AI",
+      "passed": true
+    },
+    {
+      "name": "finite idea.effectiveness.post.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.effectiveness.post.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.effectiveness.post.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.effectiveness.post.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.overall.post.AI",
+      "passed": true
+    },
+    {
+      "name": "finite idea.overall.post.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.overall.post.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.overall.post.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.overall.post.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.novelty.post.p",
+      "passed": true
+    },
+    {
+      "name": "finite idea.novelty.post.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.novelty.post.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.novelty.post.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.novelty.post.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.excitement.post.p",
+      "passed": true
+    },
+    {
+      "name": "finite idea.excitement.post.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.excitement.post.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.excitement.post.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.excitement.post.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.effectiveness.post.p",
+      "passed": true
+    },
+    {
+      "name": "finite idea.effectiveness.post.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.effectiveness.post.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.effectiveness.post.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.effectiveness.post.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata idea.overall.post.p",
+      "passed": true
+    },
+    {
+      "name": "finite idea.overall.post.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement idea.overall.post.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag idea.overall.post.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag idea.overall.post.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.idea.novelty.pre.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.idea.novelty.pre.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.idea.novelty.pre.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.idea.novelty.post.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.idea.novelty.post.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.idea.novelty.post.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.idea.novelty.ranking.flip",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.idea.novelty.ranking.flip",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.idea.novelty.ranking.flip",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.idea.excitement.pre.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.idea.excitement.pre.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.idea.excitement.pre.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.idea.excitement.post.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.idea.excitement.post.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.idea.excitement.post.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.idea.excitement.ranking.flip",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.idea.excitement.ranking.flip",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.idea.excitement.ranking.flip",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.idea.effectiveness.pre.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.idea.effectiveness.pre.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.idea.effectiveness.pre.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.idea.effectiveness.post.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.idea.effectiveness.post.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.idea.effectiveness.post.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.idea.effectiveness.ranking.flip",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.idea.effectiveness.ranking.flip",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.idea.effectiveness.ranking.flip",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.idea.overall.pre.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.idea.overall.pre.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.idea.overall.pre.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.idea.overall.post.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.idea.overall.post.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.idea.overall.post.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.idea.overall.ranking.flip",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.idea.overall.ranking.flip",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.idea.overall.ranking.flip",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.full.novelty.Human",
+      "passed": true
+    },
+    {
+      "name": "finite gap.full.novelty.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.full.novelty.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.full.novelty.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.full.novelty.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.full.excitement.Human",
+      "passed": true
+    },
+    {
+      "name": "finite gap.full.excitement.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.full.excitement.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.full.excitement.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.full.excitement.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.full.effectiveness.Human",
+      "passed": true
+    },
+    {
+      "name": "finite gap.full.effectiveness.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.full.effectiveness.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.full.effectiveness.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.full.effectiveness.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.full.overall.Human",
+      "passed": true
+    },
+    {
+      "name": "finite gap.full.overall.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.full.overall.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.full.overall.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.full.overall.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.full.novelty.AI",
+      "passed": true
+    },
+    {
+      "name": "finite gap.full.novelty.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.full.novelty.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.full.novelty.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.full.novelty.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.full.excitement.AI",
+      "passed": true
+    },
+    {
+      "name": "finite gap.full.excitement.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.full.excitement.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.full.excitement.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.full.excitement.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.full.effectiveness.AI",
+      "passed": true
+    },
+    {
+      "name": "finite gap.full.effectiveness.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.full.effectiveness.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.full.effectiveness.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.full.effectiveness.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.full.overall.AI",
+      "passed": true
+    },
+    {
+      "name": "finite gap.full.overall.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.full.overall.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.full.overall.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.full.overall.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.full.novelty.difference",
+      "passed": true
+    },
+    {
+      "name": "finite gap.full.novelty.difference",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.full.novelty.difference",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.full.novelty.difference",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.full.novelty.difference",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.full.excitement.difference",
+      "passed": true
+    },
+    {
+      "name": "finite gap.full.excitement.difference",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.full.excitement.difference",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.full.excitement.difference",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.full.excitement.difference",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.full.effectiveness.difference",
+      "passed": true
+    },
+    {
+      "name": "finite gap.full.effectiveness.difference",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.full.effectiveness.difference",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.full.effectiveness.difference",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.full.effectiveness.difference",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.full.overall.difference",
+      "passed": true
+    },
+    {
+      "name": "finite gap.full.overall.difference",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.full.overall.difference",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.full.overall.difference",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.full.overall.difference",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.full.novelty.p",
+      "passed": true
+    },
+    {
+      "name": "finite gap.full.novelty.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.full.novelty.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.full.novelty.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.full.novelty.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.full.excitement.p",
+      "passed": true
+    },
+    {
+      "name": "finite gap.full.excitement.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.full.excitement.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.full.excitement.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.full.excitement.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.full.effectiveness.p",
+      "passed": true
+    },
+    {
+      "name": "finite gap.full.effectiveness.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.full.effectiveness.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.full.effectiveness.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.full.effectiveness.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.full.overall.p",
+      "passed": true
+    },
+    {
+      "name": "finite gap.full.overall.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.full.overall.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.full.overall.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.full.overall.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.gap.full.novelty.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.gap.full.novelty.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.gap.full.novelty.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.gap.full.excitement.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.gap.full.excitement.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.gap.full.excitement.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.gap.full.effectiveness.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.gap.full.effectiveness.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.gap.full.effectiveness.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.gap.full.overall.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.gap.full.overall.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.gap.full.overall.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.exclude6.novelty.Human",
+      "passed": true
+    },
+    {
+      "name": "finite gap.exclude6.novelty.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.exclude6.novelty.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.exclude6.novelty.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.exclude6.novelty.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.exclude6.excitement.Human",
+      "passed": true
+    },
+    {
+      "name": "finite gap.exclude6.excitement.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.exclude6.excitement.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.exclude6.excitement.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.exclude6.excitement.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.exclude6.effectiveness.Human",
+      "passed": true
+    },
+    {
+      "name": "finite gap.exclude6.effectiveness.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.exclude6.effectiveness.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.exclude6.effectiveness.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.exclude6.effectiveness.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.exclude6.overall.Human",
+      "passed": true
+    },
+    {
+      "name": "finite gap.exclude6.overall.Human",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.exclude6.overall.Human",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.exclude6.overall.Human",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.exclude6.overall.Human",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.exclude6.novelty.AI",
+      "passed": true
+    },
+    {
+      "name": "finite gap.exclude6.novelty.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.exclude6.novelty.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.exclude6.novelty.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.exclude6.novelty.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.exclude6.excitement.AI",
+      "passed": true
+    },
+    {
+      "name": "finite gap.exclude6.excitement.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.exclude6.excitement.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.exclude6.excitement.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.exclude6.excitement.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.exclude6.effectiveness.AI",
+      "passed": true
+    },
+    {
+      "name": "finite gap.exclude6.effectiveness.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.exclude6.effectiveness.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.exclude6.effectiveness.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.exclude6.effectiveness.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.exclude6.overall.AI",
+      "passed": true
+    },
+    {
+      "name": "finite gap.exclude6.overall.AI",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.exclude6.overall.AI",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.exclude6.overall.AI",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.exclude6.overall.AI",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.exclude6.novelty.difference",
+      "passed": true
+    },
+    {
+      "name": "finite gap.exclude6.novelty.difference",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.exclude6.novelty.difference",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.exclude6.novelty.difference",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.exclude6.novelty.difference",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.exclude6.excitement.difference",
+      "passed": true
+    },
+    {
+      "name": "finite gap.exclude6.excitement.difference",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.exclude6.excitement.difference",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.exclude6.excitement.difference",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.exclude6.excitement.difference",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.exclude6.effectiveness.difference",
+      "passed": true
+    },
+    {
+      "name": "finite gap.exclude6.effectiveness.difference",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.exclude6.effectiveness.difference",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.exclude6.effectiveness.difference",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.exclude6.effectiveness.difference",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.exclude6.overall.difference",
+      "passed": true
+    },
+    {
+      "name": "finite gap.exclude6.overall.difference",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.exclude6.overall.difference",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.exclude6.overall.difference",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.exclude6.overall.difference",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.exclude6.novelty.p",
+      "passed": true
+    },
+    {
+      "name": "finite gap.exclude6.novelty.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.exclude6.novelty.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.exclude6.novelty.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.exclude6.novelty.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.exclude6.excitement.p",
+      "passed": true
+    },
+    {
+      "name": "finite gap.exclude6.excitement.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.exclude6.excitement.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.exclude6.excitement.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.exclude6.excitement.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.exclude6.effectiveness.p",
+      "passed": true
+    },
+    {
+      "name": "finite gap.exclude6.effectiveness.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.exclude6.effectiveness.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.exclude6.effectiveness.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.exclude6.effectiveness.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata gap.exclude6.overall.p",
+      "passed": true
+    },
+    {
+      "name": "finite gap.exclude6.overall.p",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement gap.exclude6.overall.p",
+      "passed": true
+    },
+    {
+      "name": "old primary flag gap.exclude6.overall.p",
+      "passed": true
+    },
+    {
+      "name": "old independent flag gap.exclude6.overall.p",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.gap.exclude6.novelty.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.gap.exclude6.novelty.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.gap.exclude6.novelty.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.gap.exclude6.excitement.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.gap.exclude6.excitement.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.gap.exclude6.excitement.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.gap.exclude6.effectiveness.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.gap.exclude6.effectiveness.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.gap.exclude6.effectiveness.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata claim.gap.exclude6.overall.significant",
+      "passed": true
+    },
+    {
+      "name": "old primary flag claim.gap.exclude6.overall.significant",
+      "passed": true
+    },
+    {
+      "name": "old independent flag claim.gap.exclude6.overall.significant",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata correlation.AI.pearson.novelty",
+      "passed": true
+    },
+    {
+      "name": "finite correlation.AI.pearson.novelty",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement correlation.AI.pearson.novelty",
+      "passed": true
+    },
+    {
+      "name": "old primary flag correlation.AI.pearson.novelty",
+      "passed": true
+    },
+    {
+      "name": "old independent flag correlation.AI.pearson.novelty",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata correlation.AI.pearson.excitement",
+      "passed": true
+    },
+    {
+      "name": "finite correlation.AI.pearson.excitement",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement correlation.AI.pearson.excitement",
+      "passed": true
+    },
+    {
+      "name": "old primary flag correlation.AI.pearson.excitement",
+      "passed": true
+    },
+    {
+      "name": "old independent flag correlation.AI.pearson.excitement",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata correlation.AI.pearson.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "finite correlation.AI.pearson.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement correlation.AI.pearson.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "old primary flag correlation.AI.pearson.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "old independent flag correlation.AI.pearson.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata correlation.AI.pearson.overall",
+      "passed": true
+    },
+    {
+      "name": "finite correlation.AI.pearson.overall",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement correlation.AI.pearson.overall",
+      "passed": true
+    },
+    {
+      "name": "old primary flag correlation.AI.pearson.overall",
+      "passed": true
+    },
+    {
+      "name": "old independent flag correlation.AI.pearson.overall",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata correlation.AI.spearman.novelty",
+      "passed": true
+    },
+    {
+      "name": "finite correlation.AI.spearman.novelty",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement correlation.AI.spearman.novelty",
+      "passed": true
+    },
+    {
+      "name": "old primary flag correlation.AI.spearman.novelty",
+      "passed": true
+    },
+    {
+      "name": "old independent flag correlation.AI.spearman.novelty",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata correlation.AI.spearman.excitement",
+      "passed": true
+    },
+    {
+      "name": "finite correlation.AI.spearman.excitement",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement correlation.AI.spearman.excitement",
+      "passed": true
+    },
+    {
+      "name": "old primary flag correlation.AI.spearman.excitement",
+      "passed": true
+    },
+    {
+      "name": "old independent flag correlation.AI.spearman.excitement",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata correlation.AI.spearman.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "finite correlation.AI.spearman.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement correlation.AI.spearman.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "old primary flag correlation.AI.spearman.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "old independent flag correlation.AI.spearman.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata correlation.AI.spearman.overall",
+      "passed": true
+    },
+    {
+      "name": "finite correlation.AI.spearman.overall",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement correlation.AI.spearman.overall",
+      "passed": true
+    },
+    {
+      "name": "old primary flag correlation.AI.spearman.overall",
+      "passed": true
+    },
+    {
+      "name": "old independent flag correlation.AI.spearman.overall",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata correlation.Human.pearson.novelty",
+      "passed": true
+    },
+    {
+      "name": "finite correlation.Human.pearson.novelty",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement correlation.Human.pearson.novelty",
+      "passed": true
+    },
+    {
+      "name": "old primary flag correlation.Human.pearson.novelty",
+      "passed": true
+    },
+    {
+      "name": "old independent flag correlation.Human.pearson.novelty",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata correlation.Human.pearson.excitement",
+      "passed": true
+    },
+    {
+      "name": "finite correlation.Human.pearson.excitement",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement correlation.Human.pearson.excitement",
+      "passed": true
+    },
+    {
+      "name": "old primary flag correlation.Human.pearson.excitement",
+      "passed": true
+    },
+    {
+      "name": "old independent flag correlation.Human.pearson.excitement",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata correlation.Human.pearson.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "finite correlation.Human.pearson.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement correlation.Human.pearson.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "old primary flag correlation.Human.pearson.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "old independent flag correlation.Human.pearson.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata correlation.Human.pearson.overall",
+      "passed": true
+    },
+    {
+      "name": "finite correlation.Human.pearson.overall",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement correlation.Human.pearson.overall",
+      "passed": true
+    },
+    {
+      "name": "old primary flag correlation.Human.pearson.overall",
+      "passed": true
+    },
+    {
+      "name": "old independent flag correlation.Human.pearson.overall",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata correlation.Human.spearman.novelty",
+      "passed": true
+    },
+    {
+      "name": "finite correlation.Human.spearman.novelty",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement correlation.Human.spearman.novelty",
+      "passed": true
+    },
+    {
+      "name": "old primary flag correlation.Human.spearman.novelty",
+      "passed": true
+    },
+    {
+      "name": "old independent flag correlation.Human.spearman.novelty",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata correlation.Human.spearman.excitement",
+      "passed": true
+    },
+    {
+      "name": "finite correlation.Human.spearman.excitement",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement correlation.Human.spearman.excitement",
+      "passed": true
+    },
+    {
+      "name": "old primary flag correlation.Human.spearman.excitement",
+      "passed": true
+    },
+    {
+      "name": "old independent flag correlation.Human.spearman.excitement",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata correlation.Human.spearman.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "finite correlation.Human.spearman.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement correlation.Human.spearman.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "old primary flag correlation.Human.spearman.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "old independent flag correlation.Human.spearman.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "fixed metadata correlation.Human.spearman.overall",
+      "passed": true
+    },
+    {
+      "name": "finite correlation.Human.spearman.overall",
+      "passed": true
+    },
+    {
+      "name": "independent primary agreement correlation.Human.spearman.overall",
+      "passed": true
+    },
+    {
+      "name": "old primary flag correlation.Human.spearman.overall",
+      "passed": true
+    },
+    {
+      "name": "old independent flag correlation.Human.spearman.overall",
+      "passed": true
+    },
+    {
+      "name": "all3oldfailures",
+      "passed": true
+    },
+    {
+      "name": "maxerror.005",
+      "passed": true
+    },
+    {
+      "name": "all155near",
+      "passed": true
+    },
+    {
+      "name": "21count27claim107scalar",
+      "passed": true
+    },
+    {
+      "name": "gapdirection full.novelty",
+      "passed": true
+    },
+    {
+      "name": "gapdirection full.excitement",
+      "passed": true
+    },
+    {
+      "name": "gapdirection full.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "gapdirection full.overall",
+      "passed": true
+    },
+    {
+      "name": "gapdirection exclude6.novelty",
+      "passed": true
+    },
+    {
+      "name": "gapdirection exclude6.excitement",
+      "passed": true
+    },
+    {
+      "name": "gapdirection exclude6.effectiveness",
+      "passed": true
+    },
+    {
+      "name": "gapdirection exclude6.overall",
+      "passed": true
+    },
+    {
+      "name": "rankingflip novelty",
+      "passed": true
+    },
+    {
+      "name": "projectpostnotstrongerclaim novelty",
+      "passed": true
+    },
+    {
+      "name": "rankingflip excitement",
+      "passed": true
+    },
+    {
+      "name": "projectpostnotstrongerclaim excitement",
+      "passed": true
+    },
+    {
+      "name": "rankingflip effectiveness",
+      "passed": true
+    },
+    {
+      "name": "projectpostnotstrongerclaim effectiveness",
+      "passed": true
+    },
+    {
+      "name": "rankingflip overall",
+      "passed": true
+    },
+    {
+      "name": "projectpostnotstrongerclaim overall",
+      "passed": true
+    },
+    {
+      "name": "full18143",
+      "passed": true
+    },
+    {
+      "name": "exactunsummedcitationrow",
+      "passed": true
+    },
+    {
+      "name": "rawcitationhash",
+      "passed": true
+    },
+    {
+      "name": "same62old40",
+      "passed": true
+    },
+    {
+      "name": "sameempiricaldate",
+      "passed": true
+    },
+    {
+      "name": "oldprospectivetime",
+      "passed": true
+    },
+    {
+      "name": "oldlocalCPU",
+      "passed": true
+    },
+    {
+      "name": "independent auditor libraryroute",
+      "passed": true
+    }
+  ],
+  "all_checks_passed": true,
+  "inspection_limits": {
+    "no_raw_review_bank_parsing_or_recalculation": true,
+    "opaque_bank_hash_verification_only": true,
+    "no_stats_import_scientific_actor_native_network_or_clock": true,
+    "no_old_results_source_criteria_registry_or_journal_edit": true
+  },
+  "tooling_incidents": [
+    "Initial filename inventory accidentally ranged across the broader papers directory and produced a huge truncated filename-only listing; no unrelated file bodies were opened and subsequent reads were exact P069.",
+    "A whole audit display truncated; deterministic parsing subsequently examined ALL1127checkflags and ALL155 target rows.",
+    "A metadata author snippet had a SyntaxError before any result write, retained in actual tool transcript; only the empty new review directory existed. No scientific source ran."
+  ],
+  "all_own_writers_closed": true
+}

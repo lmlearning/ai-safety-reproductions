@@ -1,0 +1,46 @@
+{
+  "mode": "original",
+  "publisher_workbook": "{{REPRODUCTION_ROOT}}\\literature\\source_only_methodology_discovery_20261011_214000\\two_cached_semantic_source_identity052\\41746_2025_1746_MOESM2_ESM.xlsx",
+  "osf_workbook": "{{REPRODUCTION_ROOT}}\\literature\\source_only_methodology_discovery_20261011_214000\\two_cached_raw_source_inputs045\\psychiatric_osf_current.xlsx.source",
+  "primary_descriptors": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\review\\source_primary_preparation001\\ALL25_PROSPECTIVE_CENTRAL_GATE_DESCRIPTORS001.json",
+  "source_sections": "{{REPRODUCTION_ROOT}}/literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+  "expected_raw_conflict_IDs": [
+    "eating/A/ChatGPT/implicit/diagnosis",
+    "eating/A/Claude/implicit/diagnosis",
+    "eating/B/ChatGPT/implicit/diagnosis",
+    "eating/A/ChatGPT/implicit/treatment",
+    "eating/A/Claude/implicit/treatment",
+    "eating/B/ChatGPT/implicit/treatment",
+    "eating/B/Claude/implicit/treatment"
+  ],
+  "runtime_startup_flags_required": {
+    "isolated": 1,
+    "no_site": 1,
+    "ignore_environment": 1,
+    "no_user_site": 1,
+    "dont_write_bytecode": 1
+  },
+  "runtime_nonexistent_import_zip": {
+    "path": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python312.zip",
+    "must_remain_absent": true
+  },
+  "scope": "P150_independent_complete_four_model_statistical_audit_v1",
+  "workspace": "{{REPRODUCTION_ROOT}}",
+  "output": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\runs\\P150-central-001\\independent_audit",
+  "primary_output_directory": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\runs\\P150-central-001\\primary",
+  "input_class": "original_published_workbooks",
+  "execution_ready": true,
+  "source_only": true,
+  "runtime_freeze_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\review\\source_primary_preparation001\\ISOLATED_PYTHON_STDLIB_RUNTIME_FILE_FREEZE001.json",
+    "bytes": 659539,
+    "sha256": "b2362902b6e715b88a23b38593e70f3a14b641062786f4e664442396b8a66619"
+  },
+  "fixture_recipe": "min(3,(illness_index+case_index+race_index+outcome_index)%2+model_index); seven counterpart conflicts (score+1)%4",
+  "blocked_prerequisites": [
+    "Root full source admission and true exact phase authority absent",
+    "Root external native lifecycle/readiness and actual peak measurements absent",
+    "Paired primary outputs not produced/pinned",
+    "Complete unrelated fixture and independent analytical anchors not yet executed/admitted"
+  ]
+}

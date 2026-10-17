@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-11T02:58:54.767454+00:00",
+  "files": [
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\final_report001\\SUMMARY_REPORT.md",
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\final_report001\\SUMMARY_REPORT.md",
+      "bytes": 15817,
+      "sha256": "31c5fa7977ac0554c25126ae5da5518971c537d1b72658d88c6fd5dfcf75ca38"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\final_report001\\SUMMARY_REPORT.html",
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\final_report001\\SUMMARY_REPORT.html",
+      "bytes": 24256,
+      "sha256": "b8f0f38065d634dec86ef576d0e932f02f168323b2d2b6e16bffae76996c2a6e"
+    }
+  ],
+  "data_unchanged": true
+}

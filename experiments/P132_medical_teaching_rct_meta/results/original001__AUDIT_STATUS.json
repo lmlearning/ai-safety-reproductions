@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "mode": "original",
+  "checks": 6859667,
+  "failures": 0,
+  "all141_primary_checked": true,
+  "primary_passed": 141,
+  "all_primary_passed": true,
+  "precision_controls": 4918,
+  "complete_fixed_LOO_timing": true,
+  "elapsed_seconds": 68.51097345352173,
+  "no_primary_rescue": true,
+  "original_science_rerun": false
+}

@@ -1,0 +1,111 @@
+P157: Loop, Think, & Generalize — complete central checkpoint evaluation
+ROOT prospective selection266, 2026-10-15, before any checkpoint/test payload,
+forward pass, local accuracy, performance result or fitted comparison.
+
+Identity and eligibility
+arXiv2604.07822v1 submitted2026-04-09; substantive repository README commit
+32c3318e85864fe2a2891c70a437da58187beaa2 dated2026-04-08. Both are within
+the frozen main window2025-10-10..2026-10-10. First retained S2 count37 in
+literature/root_fresh_candidate_metadata_oct15_256/01_grokking.json,
+SHA6cda6bcfd9c317ff0fd6bf28bfd8ae6368b535ca36daecee9aca68ac94803e18.
+No refreshed count or summed index. Repository author/committer timestamps
+do not independently prove historical public visibility. Bounded alias and
+primary-author searches found no earlier substantive release; no universal
+chronology proof is claimed. Robust compositional reasoning/generalization
+is an adjacent AI reliability topic. This is a new empirical study.
+
+Selected complete central result
+Repeat the whole v1 Figure5 nine-final-checkpoint inference-scaling and
+overthinking evaluation. Models are all original final r1..r8 and r_dyn;
+no model selection, retraining or test regeneration. Retain complete original
+test, vocab and train payloads. Verify all29250 held-out examples, exactly750
+for every hop2..40, all source order/IDs/labels/graph chains and held-out
+training overlap before inference. Other raw test types remain retained and
+are excluded only by the exact original source's all_splits definition.
+
+All9 models x39 hops x40 fixed inference recurrence depths1..40 are run.
+All10530000 example predictions and all14040 accuracy cells, including the
+unplotted cells, are retained. Primary published family is every3279 plotted
+cell: eight fixed-model panels x24 hops2..25 x12 recurrences1..12; dynamic
+39 hops2..40 x24 recurrences1..24 plus39 adaptive cells. The latter uses
+paper AppendixC eps_KL=.01, entropy3.0, max16, min_iters1. The released
+wrapper default eps_KL=.001 is a complete separately named secondary
+sensitivity over all39 hops; it can never replace the primary after results.
+No full-paper, fresh-training, grokking, systematicity, other-seed,12-hop
+matched-training, margin-mechanism or broader language-model claim follows.
+
+Published numerical comparison, fixed before own outcomes
+Use every inverse graphical-precision bin in source target011,3153387B
+SHA85d3edc3a680d2832365118c5a0bcf91b86c367c5e500a0ad4c2b848570054f4.
+Exact original data-image RGB, signed PDF image placements and all axes are
+retained. All3279 colors exactly match pinned official Matplotlib3.9.2
+Blues/Reds256-entry LUT. For each compatible index j, interval[j/256,(j+1)/256),
+with final bin including1; preserve all color-collision unions. Compare exact
+integer correct/750 via integer cross-products; no midpoint, rounding or
+extra tolerance. All3279 intervals AND plus all integrity/source/resource
+checks are required. No favorable-cell or qualitative-only rescue.
+
+This accepts a transparent source-digitization interpretation: linear
+Normalize(vmin0,vmax1), consistent with the original equally spaced printed
+0,.25,.5,.75,1 ticks and named default LUT. Original plotting kwargs and raw
+unrounded accuracy arrays are unreleased; graphical agreement is conditional
+on that reconstruction, not proof of those unreleased details. Separately
+rendered interpolated colorbar pixels are not numerical data. Nine data
+cells with color collisions retain every compatible bin. Fixed evaluator
+returns fractions; adaptive evaluator returns percentages. Preserve both
+raw units, plus canonical integer numerator/denominator; never compare
+0..100 directly with0..1 or silently change test denominators.
+
+Faithful computational reduction and verification
+Original released source commitbb22b192977b1b136fde985c8e7a2392d172d97a,
+source packet012102857B SHA61b3e8f5fa953a3d23a594ba055ee017fc2d125b197d9c95aa797cf8a2d41bc9,
+additive proposal01342378B SHA2632fc0fef92c7c5035e577d29c90cafd8696472dad18f6acaa9cac2681cafb0.
+Serial one model; exact FP32 source weights, eager attention, no quantization
+or architecture change; dropout disabled/model.eval. NoPE/input injection
+and exact source mask/prediction position are explicit source parameters.
+Reuse recurrent hidden-state prefixes to observe all40 heads in one ordered
+40-step pass, without modifying hidden state, embedding application, blocks
+or output LayerNorm. This avoids recomputing identical prefixes820 times.
+It requires a predeclared matched-batch original-forward comparison and
+measured timing/memory qualification before the full family. Preserve full
+qualification logits and results, require bitwise equality on the same CPU
+runtime and matched input/batch shape; failure holds the optimized path.
+Source/runtime/interface review must precede any forward execution.
+
+Independent source review plus whole original dataset/graph/label and all
+per-example prediction/logit/counter audit are required. These audits do not
+constitute an independent rerun of every neural forward pass; disclose that
+limit explicitly. Retain all per-vocabulary FP32 final-position logits for
+all fixed evaluations, all prediction IDs, source sample indices/target IDs,
+adaptive decisions/iterations and both adaptive variants, configurations,
+exact versions, seeds, executable/source/data hashes, commands, resource
+records, actual process exits and every partial/failure. Never change a
+comparison or source version based on publication agreement.
+
+Prospective finite local-only plan; no execution authority in this file
+Forecast shared-prefix cost30.14PF, naive617.78PF. Sustained throughput and
+memory are unknown; hypothetical8-84h is not a measured promise. Plan one
+144h inclusive programme from the first future input-acquisition grant:
+2h acquisition,6h fidelity/timing,132h complete primary+secondary evaluation,
+3h audit and1h closure, with fixed cumulative cutoffs. All elapsed staging,
+hashing, initialization and waits count. No clock refresh/automatic retry.
+Paper reproduction is held if source fidelity, complete coverage, time or
+resource requirements fail. No paid services, API key or private OpenAI
+compute. A later physical ROOT grant and reviewed implementation are needed.
+
+Tentative CPU envelope for implementation review: twelve intra-op threads,
+one inter-op, B32 padded length50; retain actual source B1024 as disclosed
+batch/backend deviation and validate matched-batch prefix equivalence. No
+GPU alongside active ToolSafe. Do not start inference before P092 CPU audit
+finishes and fresh resource admission passes. Bound direct pair working
+4.5GiB/private6.5GiB, require fresh5GiB available RAM/12GiB commit and
+continuous1GiB RAM/8GiB commit. Preserve35GiB disk reserve plus unspent owned
+output budget. Original model/data acquisition has a4GiB cap; science/logits/
+audit/metadata have14GiB cap. Exact resource and process-accounting source
+must be reviewed before grants; this is a plan, not a claim of native
+transient-complete/global reservations. All future changes before own
+outcomes must be explicit, source-supported and retained prospectively.
+
+Credit ceiling: CENTRAL only if complete fixed conjunction passes after
+ROOT actual review. FULL unavailable from checkpoint evaluation. Current
+programme registry remains14 and this file assigns no credit.

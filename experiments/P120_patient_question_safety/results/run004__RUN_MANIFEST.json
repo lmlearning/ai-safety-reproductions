@@ -1,0 +1,37 @@
+[
+  {
+    "path": "all_fixed_supporting_diagnostics.json",
+    "bytes": 15144,
+    "sha256": "9213e961a8604907d1b86df6c6be2f162742f19f7221b229301ac240bd3c3729"
+  },
+  {
+    "path": "all_original_method_details.json",
+    "bytes": 46782,
+    "sha256": "b3fb8513419571f18478bc41c6088bdfaea7e03451a8e5f2fbe320441b42cfbd"
+  },
+  {
+    "path": "all_original_method_metrics.json",
+    "bytes": 10380,
+    "sha256": "d18a962c39cbd68dc02b3afdad86856ee6621a0a014e9c7c169d5fd7ed646454"
+  },
+  {
+    "path": "mandatory_target_checks.json",
+    "bytes": 53341,
+    "sha256": "f19f7efccc71fbc97a2942ecd9ac60ac1f7f6a6a6cfc62d58df7359ccbfb230e"
+  },
+  {
+    "path": "original_per_response_records.json",
+    "bytes": 2129218,
+    "sha256": "dee6fa4b1af2143d825d0d71b236b6eb13d1bcdecee9fae5324712060ccf9573"
+  },
+  {
+    "path": "RAW_SERIALIZATION_REPAIR_VALIDATION.json",
+    "bytes": 1700,
+    "sha256": "b6c13b2eb16d46e55faf4fd3acb7ee1a56ec54bb0526273d4d71ababe70306f7"
+  },
+  {
+    "path": "RUN_SUMMARY.json",
+    "bytes": 3204,
+    "sha256": "f63fe6745b83ee34a7ca5736c51ccdac89e48ce76457ea5fc4ab7b091b99544e"
+  }
+]

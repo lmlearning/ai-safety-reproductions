@@ -1,0 +1,35 @@
+{
+  "paper_id": "P109",
+  "assets": [],
+  "source_urls": [
+    "https://meta-analysis.com/download/Meta-Analysis%20Manual%20V3.pdf"
+  ],
+  "inventory_source_notes": {
+    "source_input_redistribution": "DO_NOT_COPY_PARTICIPANT_RECORDS_OR_UNLICENSED_AUTHOR_ASSETS;source URL/hash manifest only",
+    "dependency_provenance": [
+      {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P109_higher_order_thinking\\runs\\P109-central-001\\runtime_versions.json",
+        "repo_relative_path": "papers/P109_higher_order_thinking/runs/P109-central-001/runtime_versions.json",
+        "bytes": 95,
+        "sha256": "e34f3ba6609f1dcc28ab960948325be89e2ddb325cef517b12e109a1b487dfb2",
+        "purpose": "Recorded runtime versions/import origins only; do not bundle any package/runtime"
+      }
+    ],
+    "third_party_required_code": [],
+    "portable_rerun_steps": [
+      "Read original report plus retrospective NEAR addendum; every old strict failure remains.",
+      "Acquire external source assets at pinned revisions; verify exact sizes/SHA256. Do not commit participant/model-response banks.",
+      "Use a separate environment from dependency metadata, not a copied runtime.",
+      "Preserve methods/seeds/full scope and hash validation. Rebase explicit local paths/config refs in a labelled publication copy; archived TRUE controls/deadlines are not new authority.",
+      "Run primary then independent audit into fresh exclusive outputs. This task has not tested or executed those commands."
+    ],
+    "portability_changes_required": [
+      "Historical outputs must remain exclusive; use fresh checkout/output configuration.",
+      "Hardcoded {{USER_HOME}} roots, local package-site paths and frozen source/control refs require explicit configuration; never silently remove guards.",
+      "Independent auditor has explicit absolute ROOT constant; label any publication-copy root substitution.",
+      "The59-row CSV is our published-numeric transcription, not original trial participant data; include attribution and preserve DL/rounding/dependence assumptions."
+    ],
+    "license_notice": "Programme code licence does not relicense author papers/code/data. Public source access alone does not establish redistribution permission; external acquisition manifests preferred."
+  },
+  "policy": "Source/data/model files are acquired from their owners. Only explicitly identified programme transcriptions are bundled. URLs are historical and were not re-fetched during publication preparation."
+}

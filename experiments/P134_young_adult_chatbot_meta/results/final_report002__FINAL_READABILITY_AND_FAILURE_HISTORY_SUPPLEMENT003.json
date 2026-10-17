@@ -1,0 +1,53 @@
+{
+  "utc": "2026-10-11T00:58:21.675638+00:00",
+  "prose_spacing_only": true,
+  "scientific_outputs_unchanged": true,
+  "source_failure_history_preserved": true,
+  "files": [
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\final_report002\\SUMMARY_REPORT.md",
+      "bytes": 6223,
+      "sha256": "1b1e8870dc72b8c906f4a8594dced610c0e8907a2f4cc71d57141649a027d3e1"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\final_report002\\SUMMARY_REPORT.html",
+      "bytes": 7321,
+      "sha256": "20c7e501019fe4d8e6ee4807feb4c1539556b87a33d959cb29e40e0401875d0d"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\scripts\\build_final_report001.py",
+      "bytes": 11130,
+      "sha256": "8028dea50cb65acf3d9c2d85d8566181666082718db0bb4ff74891a886a662dd"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\FINAL_REPORT_FORMATTING_FAILURE_AND_REPAIR001.json",
+      "bytes": 1957,
+      "sha256": "32688bd7bfb83373ad70f9251b5b4dcb13959d1f8420aa6fa16eb1fa804ae924"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\final_report001\\ALL336_SUPPORTING_COMPARISONS.csv",
+      "bytes": 40338,
+      "sha256": "21c435f048b7bd5336ee00e5d633c5133cf4602a7c9ca2ccc9445d2912ac947a"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\final_report001\\ALL337_CENTRAL_GATES.csv",
+      "bytes": 34441,
+      "sha256": "68c56946b6ab19fea630d5a7ae360e9d14d33a746e23d1eca63a2540ea7c865f"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\final_report001\\REPORT.html",
+      "bytes": 6360,
+      "sha256": "30ee3c97443c6a34fedc2d326f4ae5c47d184f588b06f932c911dcfc23efdc8d"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\final_report001\\REPORT.json",
+      "bytes": 69948,
+      "sha256": "d8246afdca1690366c416ab174b20712574342f1b78511742a5ba7de872f3fe0"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P134_young_adult_chatbot_meta\\final_report001\\REPORT.md",
+      "bytes": 6165,
+      "sha256": "039454a62007b5bfa97d3a8ac99ef13dff946add03e23c4bc66b7ebe638842d7"
+    }
+  ]
+}

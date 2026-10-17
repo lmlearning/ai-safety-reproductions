@@ -1,0 +1,66 @@
+[
+  {
+    "n": 200,
+    "q0": 0.7,
+    "q1": 0.7,
+    "m200_file": "n200_m200_q0-70_q1-70_plot3.svg",
+    "m500_file": "n200_m500_q0-70_q1-70_plot3.svg",
+    "identical_sha256": "71208e67aa3296213cf431f5afaa38d87d18314f6a65a12ed189a40a3741743b"
+  },
+  {
+    "n": 200,
+    "q0": 0.7,
+    "q1": 0.9,
+    "m200_file": "n200_m200_q0-70_q1-90_plot3.svg",
+    "m500_file": "n200_m500_q0-70_q1-90_plot3.svg",
+    "identical_sha256": "310c12b4690d3647074b5e720579dfca27ae8b7d649b073b2f21f32637f5c1e5"
+  },
+  {
+    "n": 200,
+    "q0": 0.9,
+    "q1": 0.7,
+    "m200_file": "n200_m200_q0-90_q1-70_plot3.svg",
+    "m500_file": "n200_m500_q0-90_q1-70_plot3.svg",
+    "identical_sha256": "0cc44bd1453d1cbe997215f731b8ddc8bffea558e678d8a856ec44ec882d96c6"
+  },
+  {
+    "n": 200,
+    "q0": 0.9,
+    "q1": 0.9,
+    "m200_file": "n200_m200_q0-90_q1-90_plot3.svg",
+    "m500_file": "n200_m500_q0-90_q1-90_plot3.svg",
+    "identical_sha256": "4698df9a59f9654da218ffb6a24aa125c34e4328ce4ecb7504a05c26bdccf7a9"
+  },
+  {
+    "n": 1000,
+    "q0": 0.7,
+    "q1": 0.7,
+    "m200_file": "n1000_m200_q0-70_q1-70_plot3.svg",
+    "m500_file": "n1000_m500_q0-70_q1-70_plot3.svg",
+    "identical_sha256": "e383a44b811ebbadbf8682e245a2e980a947635e79a652d70f685f0aa9f6a5a2"
+  },
+  {
+    "n": 1000,
+    "q0": 0.7,
+    "q1": 0.9,
+    "m200_file": "n1000_m200_q0-70_q1-90_plot3.svg",
+    "m500_file": "n1000_m500_q0-70_q1-90_plot3.svg",
+    "identical_sha256": "5c950b747eb5559816396bf51d83e2b3ea944eb7794a26e80b29a9f070b45e5b"
+  },
+  {
+    "n": 1000,
+    "q0": 0.9,
+    "q1": 0.7,
+    "m200_file": "n1000_m200_q0-90_q1-70_plot3.svg",
+    "m500_file": "n1000_m500_q0-90_q1-70_plot3.svg",
+    "identical_sha256": "41a5378dc3fcf473cfad8d20b161c297794afa633d15d153296c9fd43c1d2fc5"
+  },
+  {
+    "n": 1000,
+    "q0": 0.9,
+    "q1": 0.9,
+    "m200_file": "n1000_m200_q0-90_q1-90_plot3.svg",
+    "m500_file": "n1000_m500_q0-90_q1-90_plot3.svg",
+    "identical_sha256": "0c0418648929381f6c2e32062a403fc217e37b988ceecdfa429328549cfb1e80"
+  }
+]

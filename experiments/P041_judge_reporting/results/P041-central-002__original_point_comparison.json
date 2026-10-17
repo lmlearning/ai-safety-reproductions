@@ -1,0 +1,338 @@
+[
+  {
+    "metric": "naive_point",
+    "theta": 0.0,
+    "published": 0.29199999999999976,
+    "original_rerun": 0.292,
+    "abs_difference": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 0.05,
+    "published": 0.3329999999999998,
+    "original_rerun": 0.333,
+    "abs_difference": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 0.1,
+    "published": 0.3599999999999998,
+    "original_rerun": 0.36,
+    "abs_difference": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 0.15000000000000002,
+    "published": 0.3720000367701131,
+    "original_rerun": 0.372,
+    "abs_difference": 3.677011312097633e-08,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 0.2,
+    "published": 0.41199999999999987,
+    "original_rerun": 0.412,
+    "abs_difference": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 0.25,
+    "published": 0.4219999999999999,
+    "original_rerun": 0.422,
+    "abs_difference": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 0.30000000000000004,
+    "published": 0.4639999999999998,
+    "original_rerun": 0.464,
+    "abs_difference": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 0.35000000000000003,
+    "published": 0.5119999999999998,
+    "original_rerun": 0.512,
+    "abs_difference": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 0.4,
+    "published": 0.5420000367701132,
+    "original_rerun": 0.542,
+    "abs_difference": 3.6770113176487484e-08,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 0.45,
+    "published": 0.563,
+    "original_rerun": 0.563,
+    "abs_difference": 0.0,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 0.5,
+    "published": 0.5759999999999998,
+    "original_rerun": 0.576,
+    "abs_difference": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 0.55,
+    "published": 0.595,
+    "original_rerun": 0.595,
+    "abs_difference": 0.0,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 0.6000000000000001,
+    "published": 0.6449999999999998,
+    "original_rerun": 0.645,
+    "abs_difference": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 0.65,
+    "published": 0.69,
+    "original_rerun": 0.69,
+    "abs_difference": 0.0,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 0.7000000000000001,
+    "published": 0.7120000735402265,
+    "original_rerun": 0.712,
+    "abs_difference": 7.354022657501957e-08,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 0.75,
+    "published": 0.7460000735402263,
+    "original_rerun": 0.746,
+    "abs_difference": 7.354022635297497e-08,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 0.8,
+    "published": 0.7870000735402265,
+    "original_rerun": 0.787,
+    "abs_difference": 7.354022646399727e-08,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 0.8500000000000001,
+    "published": 0.7910000367701131,
+    "original_rerun": 0.791,
+    "abs_difference": 3.677011306546518e-08,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 0.9,
+    "published": 0.8570000735402263,
+    "original_rerun": 0.857,
+    "abs_difference": 7.354022635297497e-08,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 0.9500000000000001,
+    "published": 0.8579999999999999,
+    "original_rerun": 0.858,
+    "abs_difference": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "metric": "naive_point",
+    "theta": 1.0,
+    "published": 0.907000036770113,
+    "original_rerun": 0.907,
+    "abs_difference": 3.677011295444288e-08,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.0,
+    "published": -2.220446049250313e-16,
+    "original_rerun": 0.0,
+    "abs_difference": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.05,
+    "published": 0.08059210913369591,
+    "original_rerun": 0.08059210526315777,
+    "abs_difference": 3.87053813999394e-09,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.1,
+    "published": 0.029197084130018924,
+    "original_rerun": 0.029197080291970826,
+    "abs_difference": 3.838048098087077e-09,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.15000000000000002,
+    "published": 0.05714285188998364,
+    "original_rerun": 0.05714285714285719,
+    "abs_difference": 5.2528735527967996e-09,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.2,
+    "published": 0.23841061185468437,
+    "original_rerun": 0.23841059602648987,
+    "abs_difference": 1.5828194505074222e-08,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.25,
+    "published": 0.18627452566553887,
+    "original_rerun": 0.18627450980392135,
+    "abs_difference": 1.5861617519430382e-08,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.30000000000000004,
+    "published": 0.23129250625091907,
+    "original_rerun": 0.2312925170068029,
+    "abs_difference": 1.0755883822488599e-08,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.35000000000000003,
+    "published": 0.32846716428886585,
+    "original_rerun": 0.3284671532846718,
+    "abs_difference": 1.1004194055974637e-08,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.4,
+    "published": 0.395270297102515,
+    "original_rerun": 0.3952702702702702,
+    "abs_difference": 2.6832244814922745e-08,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.45,
+    "published": 0.4482142962200322,
+    "original_rerun": 0.44821428571428545,
+    "abs_difference": 1.0505746772526692e-08,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.5,
+    "published": 0.4589041035446388,
+    "original_rerun": 0.4589041095890407,
+    "abs_difference": 6.044401923421816e-09,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.55,
+    "published": 0.4948979629357257,
+    "original_rerun": 0.4948979591836733,
+    "abs_difference": 3.752052391003957e-09,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.6000000000000001,
+    "published": 0.5691489557287837,
+    "original_rerun": 0.569148936170213,
+    "abs_difference": 1.9558570651945217e-08,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.65,
+    "published": 0.634751764965436,
+    "original_rerun": 0.6347517730496455,
+    "abs_difference": 8.084209524028552e-09,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.7000000000000001,
+    "published": 0.6933333210766288,
+    "original_rerun": 0.6933333333333331,
+    "abs_difference": 1.2256704318147627e-08,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.75,
+    "published": 0.7203947639358728,
+    "original_rerun": 0.7203947368421051,
+    "abs_difference": 2.709376767384697e-08,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.8,
+    "published": 0.8226351669363139,
+    "original_rerun": 0.8226351351351352,
+    "abs_difference": 3.180117869039378e-08,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.8500000000000001,
+    "published": 0.7882165759670539,
+    "original_rerun": 0.7882165605095541,
+    "abs_difference": 1.545749972464705e-08,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.9,
+    "published": 0.899681570819238,
+    "original_rerun": 0.8996815286624201,
+    "abs_difference": 4.2156817925409484e-08,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 0.9500000000000001,
+    "published": 0.9456521914987497,
+    "original_rerun": 0.9456521739130435,
+    "abs_difference": 1.7585706224565456e-08,
+    "passed": true
+  },
+  {
+    "metric": "adjusted_point",
+    "theta": 1.0,
+    "published": 1.0,
+    "original_rerun": 1.0,
+    "abs_difference": 0.0,
+    "passed": true
+  }
+]

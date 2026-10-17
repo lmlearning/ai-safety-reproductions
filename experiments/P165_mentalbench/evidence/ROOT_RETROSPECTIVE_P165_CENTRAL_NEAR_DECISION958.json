@@ -1,0 +1,35 @@
+{
+  "UTC": "2026-10-17T09:39:11.043871+00:00",
+  "paper_id": "P165",
+  "classification": "NEAR_SUCCESS",
+  "user_instruction_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_USER_DIRECTED_NEAR_SUCCESS_COUNTING_CHANGE913.json",
+    "bytes": 2551,
+    "sha256": "fa0000ec371755eff4b9ce9d28a7e79e10fd32db272a81df4e23e8991dcb5b35"
+  },
+  "prospective_rule921_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ADOPTED_P165_MENTALBENCH_SOURCE_METHOD_NEAR921.json",
+    "bytes": 17392,
+    "sha256": "91ae5fe0a367fb50d9d805b62effc338b5def17959f48010c1d55b8afd901850"
+  },
+  "prospective_rule921_all324_passed": false,
+  "prospective_rule921_passed": 315,
+  "prospective_rule921_total": 324,
+  "independent_whole_outcome_review_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\operations\\P165_whole_outcome_near_review_CPU006\\INDEPENDENT_COMPLETE_P165_WHOLE_CENTRAL_NEAR_RECOMMENDATION_CPU006.json",
+    "bytes": 53921,
+    "sha256": "1c10716152289aa8ec684ae3d15adaeee38996fe52a7f4a8b7bc538200597e7e"
+  },
+  "closed_complete_audit_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\operations\\P165_reviewed_source_ROOT929\\ROOT_COMPLETE_CLOSED_P165_ANALYSIS_AND_INDEPENDENT_AUDIT957.json",
+    "bytes": 4209,
+    "sha256": "5b9a9601f541cf95eaaa26791900ac2420d83bc8704b614eee60b88baaf140f9"
+  },
+  "ROOT_reason": "The complete central validation supports the same scientific conclusions: all56 ICC point estimates agree within0.0005, all112 Table4 values within0.001, and all23 nominal central contrasts pass. Both independent implementations agree on all69502 fields. Under the user-directed near-success instruction this warrants a paper-level CENTRAL near success, with the substantial local exceptions prominently retained. It does not establish that every published uncertainty value is close.",
+  "material_exceptions": "One Table2 mean differs by0.3080468 rating units (7.70% of the1–5 range); eight interval endpoint/width discrepancies reach0.152486. The complete324 fixed numeric conjunction remains failed. These are not relabelled roundoff and no targets or bounds are changed.",
+  "retrospective_scientific_synthesis": true,
+  "new_numeric_threshold_fitted_or_targets_replaced": false,
+  "scope": "All1000 original conversations,10 response roles,7attributes,4judges; complete RQ1–3 central released-data statistical validation, with all1150 published numeric diagnostics retained.",
+  "FULL": false,
+  "limitations": "Original expert aggregation/raw-to-CSV producer unverified, ten raw Human cells absent in all4 analysis CSVs retained as provenance differences; source conditional bootstrap and its uncertainty limitations preserved. No fresh model judgments or human recruitment.254 auxiliary source bindings remain UNKNOWN; larger appendix deviations remain."
+}

@@ -1,0 +1,24 @@
+--- {{REPRODUCTION_ROOT}}\scripts\audit_p109_central_001.py
++++ {{REPRODUCTION_ROOT}}\scripts\audit_p109_central_002.py
+@@ -6,6 +6,12 @@
+ P=ROOT/"papers/P109_higher_order_thinking"
+ mp.mp.dps=80
+ D=mp.mpf
++def source_decimal(token):
++    """Preserve the exact decimal value while avoiding mpmath1.3.0 leading-dot zero parsing."""
++    assert isinstance(token,str)
++    if token.startswith("."):token="0"+token
++    elif token.startswith(("-.","+.")):token=token[0]+"0"+token[1:]
++    return D(token)
+ HALF=D("0.0005");PAD=D("0.000000001")
+ NORMAL=D("1.959963984540054")
+ START=None;OUT=None;REMAIN=None;STATE=None
+@@ -295,7 +301,7 @@
+         safe()
+         with inp.open(encoding="utf8",newline="") as q:rows=list(csv.DictReader(q))
+         assert len(rows)==59 and [int(z["figure3_row"]) for z in rows]==list(range(1,60))
+-        y=[D(z["g"]) for z in rows];se=[D(z["se"]) for z in rows];pv=[D(z["variance"]) for z in rows]
++        y=[source_decimal(z["g"]) for z in rows];se=[source_decimal(z["se"]) for z in rows];pv=[source_decimal(z["variance"]) for z in rows]
+         assert all(x>HALF for x in se)
+         glo,ghi=[x-HALF for x in y],[x+HALF for x in y]
+         vlo=[max((s-HALF)**2,a-HALF,D(0)) for s,a in zip(se,pv)]

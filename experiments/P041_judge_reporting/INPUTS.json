@@ -1,0 +1,2789 @@
+{
+  "paper_id": "P041",
+  "assets": [
+    {
+      "id": "input-001",
+      "original_relative_path": "papers/P041_judge_reporting/sources/pyproject.toml",
+      "bytes": 624,
+      "sha256": "255fdae43dc7f82049cfda98c2088740d1d547b85b6ef8516ee20a3881d85c31",
+      "download_urls": [
+        "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/pyproject.toml"
+      ],
+      "source_pages": [
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/149ed794a64a41244b3556a2e5da1f1d5487971c",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/users/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/orgs",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://arxiv.org/abs/2511.21140",
+        "https://arxiv.org/html/2511.21140v1",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/leechungpa",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/pyproject.toml"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "pinned original author simulation method/helper/reference; license unresolved"
+    },
+    {
+      "id": "input-002",
+      "original_relative_path": "papers/P041_judge_reporting/sources/README.md",
+      "bytes": 4633,
+      "sha256": "b149422d0bd2d1160a91ab993613494d63dda7de1a3e299b8d2915e6f1e84e95",
+      "download_urls": [
+        "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/README.md",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/raw/082884d075188bed2f2645234fa2cc3050a517c5/README.md"
+      ],
+      "source_pages": [
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/366150a0443b02f27580bcd3d83c8afe6d1e6a1d",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/users/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/orgs",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://arxiv.org/abs/2511.21140",
+        "https://arxiv.org/html/2511.21140v1",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/blob/082884d075188bed2f2645234fa2cc3050a517c5/README.md",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/raw/082884d075188bed2f2645234fa2cc3050a517c5/README.md",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/leechungpa",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/README.md"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "pinned original author simulation method/helper/reference; license unresolved"
+    },
+    {
+      "id": "input-003",
+      "original_relative_path": "papers/P041_judge_reporting/sources/repo_commit.json",
+      "bytes": 6188,
+      "sha256": "ee29547290a4f8ebb73beb59052a0ded3121ede4bc387919c0b819f0497dfdd7",
+      "download_urls": [
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/raw/082884d075188bed2f2645234fa2cc3050a517c5/README.md",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/raw/082884d075188bed2f2645234fa2cc3050a517c5/figure.png",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/raw/5801333558c58709c61a4a0e8a117884cef4d48f/paper%2FHow%20to%20Correctly%20Report%20LLM%20as%20a%20Judge%20Evaluations.pdf"
+      ],
+      "source_pages": [
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/5801333558c58709c61a4a0e8a117884cef4d48f",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/main",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/contents/README.md?ref=082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/contents/figure.png?ref=082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/contents/paper%2FHow%20to%20Correctly%20Report%20LLM%20as%20a%20Judge%20Evaluations.pdf?ref=5801333558c58709c61a4a0e8a117884cef4d48f",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/users/leechungpa",
+        "https://api.github.com/users/leechungpa/events{/privacy}",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/orgs",
+        "https://api.github.com/users/leechungpa/received_events",
+        "https://api.github.com/users/leechungpa/repos",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://arxiv.org/abs/2511.21140",
+        "https://arxiv.org/html/2511.21140v1",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/blob/082884d075188bed2f2645234fa2cc3050a517c5/README.md",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/blob/082884d075188bed2f2645234fa2cc3050a517c5/figure.png",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/blob/5801333558c58709c61a4a0e8a117884cef4d48f/paper%2FHow%20to%20Correctly%20Report%20LLM%20as%20a%20Judge%20Evaluations.pdf",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/5801333558c58709c61a4a0e8a117884cef4d48f",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/raw/082884d075188bed2f2645234fa2cc3050a517c5/README.md",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/raw/082884d075188bed2f2645234fa2cc3050a517c5/figure.png",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/raw/5801333558c58709c61a4a0e8a117884cef4d48f/paper%2FHow%20to%20Correctly%20Report%20LLM%20as%20a%20Judge%20Evaluations.pdf",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/leechungpa",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://img.shields.io/badge/preprint-fa0f00.svg"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "pinned original author simulation method/helper/reference; license unresolved"
+    },
+    {
+      "id": "input-004",
+      "original_relative_path": "papers/P041_judge_reporting/sources/repo_metadata.json",
+      "bytes": 6236,
+      "sha256": "440faf35a5c78477d981094891c67ef66c89c4e73dd3c1080163a1981cb6318e",
+      "download_urls": [],
+      "source_pages": [
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/assignees{/user}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/branches{/branch}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/collaborators{/collaborator}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/comments{/number}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits{/sha}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/compare/{base}...{head}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/contents/{+path}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/contributors",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/deployments",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/downloads",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/events",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/forks",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs{/sha}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits{/sha}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/refs{/sha}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/tags{/sha}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees{/sha}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/hooks",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/issues/comments{/number}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/issues/events{/number}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/issues{/number}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/keys{/key_id}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/labels{/name}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/languages",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/merges",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/milestones{/number}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/notifications{?since,all,participating}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/pulls{/number}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/releases{/id}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/stargazers",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/statuses/{sha}",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/subscribers",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/subscription",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/tags",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/teams",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/{archive_format}{/ref}",
+        "https://api.github.com/users/UW-Madison-Lee-Lab",
+        "https://api.github.com/users/UW-Madison-Lee-Lab/events{/privacy}",
+        "https://api.github.com/users/UW-Madison-Lee-Lab/followers",
+        "https://api.github.com/users/UW-Madison-Lee-Lab/following{/other_user}",
+        "https://api.github.com/users/UW-Madison-Lee-Lab/gists{/gist_id}",
+        "https://api.github.com/users/UW-Madison-Lee-Lab/orgs",
+        "https://api.github.com/users/UW-Madison-Lee-Lab/received_events",
+        "https://api.github.com/users/UW-Madison-Lee-Lab/repos",
+        "https://api.github.com/users/UW-Madison-Lee-Lab/starred{/owner}{/repo}",
+        "https://api.github.com/users/UW-Madison-Lee-Lab/subscriptions",
+        "https://api.github.com/users/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/orgs",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://arxiv.org/abs/2511.21140",
+        "https://arxiv.org/html/2511.21140v1",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://avatars.githubusercontent.com/u/94162930?v=4",
+        "https://github.com/UW-Madison-Lee-Lab",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/leechungpa",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "pinned original author simulation method/helper/reference; license unresolved"
+    },
+    {
+      "id": "input-005",
+      "original_relative_path": "papers/P041_judge_reporting/sources/repo_tree.json",
+      "bytes": 4017,
+      "sha256": "40dd6fb28772a3382f8a0ea235305a4cbf2bed913f436b24d6f76aa5028deee1",
+      "download_urls": [],
+      "source_pages": [
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/149ed794a64a41244b3556a2e5da1f1d5487971c",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/1b03b06c9d4a57d4b2c6c411fafd47e23cb4bfa8",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/366150a0443b02f27580bcd3d83c8afe6d1e6a1d",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/571599f5daace6d64be9d6335722347b2ae946b8",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/5fcfb5d0bca88b758634376dca8d0a065a508ee1",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/78fcd0a4407d6f565085bbe340b523a5dab54bc0",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/83ca4e7ca4aa76f5638e5d6f6128e2bd148b4e1d",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/9f7da357ded8f4d63ebdd3b3e5e6008f97c9212e",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/9faa641086ee25e0e922327a092c56e78db8878f",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/a61eb4020a8edd193b7bb9483daf03da001e2f03",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/d246de4418225aca474397fba6ffd25cf64602ba",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/e15106e38fcfbb5539a05bafed10272160ba69ed",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/082884d075188bed2f2645234fa2cc3050a517c5?recursive=1",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/339432b218f9e09f5f697391e35581e91ee22d81",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/a4bcafd7d874d4d19ff7816b53f5a8a99c322203",
+        "https://api.github.com/users/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/orgs",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://arxiv.org/abs/2511.21140",
+        "https://arxiv.org/html/2511.21140v1",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/leechungpa",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "pinned original author simulation method/helper/reference; license unresolved"
+    },
+    {
+      "id": "input-006",
+      "original_relative_path": "papers/P041_judge_reporting/sources/source_request_log.json",
+      "bytes": 7062,
+      "sha256": "3e3df15977ef27cebb9c0784ccafb74688327b0b686d3aafe396fa5d4629ebc7",
+      "download_urls": [],
+      "source_pages": [
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/users/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/orgs",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://arxiv.org/abs/2511.21140",
+        "https://arxiv.org/html/2511.21140v1",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/leechungpa",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "pinned original author simulation method/helper/reference; license unresolved"
+    },
+    {
+      "id": "input-007",
+      "original_relative_path": "papers/P041_judge_reporting/sources/llm_judge_reporting/allocation.py",
+      "bytes": 1549,
+      "sha256": "7fba892b5dd37908fdd26bfd158eb351d3c815e1a05e3c6ef25b7b96ea326990",
+      "download_urls": [
+        "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/llm_judge_reporting/allocation.py"
+      ],
+      "source_pages": [
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/9faa641086ee25e0e922327a092c56e78db8878f",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/users/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/orgs",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://arxiv.org/abs/2511.21140",
+        "https://arxiv.org/html/2511.21140v1",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/leechungpa",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/llm_judge_reporting/allocation.py"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "pinned original author simulation method/helper/reference; license unresolved"
+    },
+    {
+      "id": "input-008",
+      "original_relative_path": "papers/P041_judge_reporting/sources/llm_judge_reporting/calibration.py",
+      "bytes": 1801,
+      "sha256": "d5cfa388f71f04929f4bd3de81135f7cb30e7cd3aed7f2bc4ab467d1de879df6",
+      "download_urls": [
+        "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/llm_judge_reporting/calibration.py"
+      ],
+      "source_pages": [
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/d246de4418225aca474397fba6ffd25cf64602ba",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/users/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/orgs",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://arxiv.org/abs/2511.21140",
+        "https://arxiv.org/html/2511.21140v1",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/leechungpa",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/llm_judge_reporting/calibration.py"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "pinned original author simulation method/helper/reference; license unresolved"
+    },
+    {
+      "id": "input-009",
+      "original_relative_path": "papers/P041_judge_reporting/sources/run/figure2_bias_adjustment.py",
+      "bytes": 5494,
+      "sha256": "01cc135c55f95798c6a2b40c520dfe3bd2d3f7306185a2ba94dc4f49e6cff604",
+      "download_urls": [
+        "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/run/figure2_bias_adjustment.py"
+      ],
+      "source_pages": [
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/83ca4e7ca4aa76f5638e5d6f6128e2bd148b4e1d",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/users/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/orgs",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://arxiv.org/abs/2511.21140",
+        "https://arxiv.org/html/2511.21140v1",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/leechungpa",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/run/figure2_bias_adjustment.py"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "pinned original author simulation method/helper/reference; license unresolved"
+    },
+    {
+      "id": "input-010",
+      "original_relative_path": "papers/P041_judge_reporting/sources/run/figure3_ci_length.py",
+      "bytes": 4610,
+      "sha256": "5be7c192572712748dc35b803fb7e13d91b42f2d7d3ff36c115efbcbb90ce765",
+      "download_urls": [
+        "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/run/figure3_ci_length.py"
+      ],
+      "source_pages": [
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/9f7da357ded8f4d63ebdd3b3e5e6008f97c9212e",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/users/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/orgs",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://arxiv.org/abs/2511.21140",
+        "https://arxiv.org/html/2511.21140v1",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/leechungpa",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/run/figure3_ci_length.py"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "pinned original author simulation method/helper/reference; license unresolved"
+    },
+    {
+      "id": "input-011",
+      "original_relative_path": "papers/P041_judge_reporting/sources/run/figure4_monte_carlo.py",
+      "bytes": 8712,
+      "sha256": "3519b7fccb976917eaa2ff5aaca884fe8483c6fdc9bdc7633e7cbffe2db0a270",
+      "download_urls": [
+        "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/run/figure4_monte_carlo.py"
+      ],
+      "source_pages": [
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/12c2a576cd4ec49c1f3fb2ee456fa119b7f0d015",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/users/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/orgs",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://arxiv.org/abs/2511.21140",
+        "https://arxiv.org/html/2511.21140v1",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/leechungpa",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/run/figure4_monte_carlo.py"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "pinned original author simulation method/helper/reference; license unresolved"
+    },
+    {
+      "id": "input-012",
+      "original_relative_path": "papers/P041_judge_reporting/references/fig1_a.svg",
+      "bytes": 37840,
+      "sha256": "1c779f571d81a691bac9ba858829f1e90a80d1894bf9dec414e97e4ab4936927",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-013",
+      "original_relative_path": "papers/P041_judge_reporting/references/fig1_c.svg",
+      "bytes": 48509,
+      "sha256": "3d2fbc8eda945440b088657506df6501a998fc45aeaece25a412c7afa1c1149b",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-014",
+      "original_relative_path": "papers/P041_judge_reporting/references/fig2.svg",
+      "bytes": 42441,
+      "sha256": "766fb72cfe8c82c4bbe0c90281151886e6a2e2d1861deebfc2211a8a289a7813",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-015",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m200_q0-70_q1-70_plot1.svg",
+      "bytes": 80865,
+      "sha256": "247bec991de9fdcb9bee8461f01d1a41ce90a8ce6ba8ed6b7a9c9c7d3926a78d",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-016",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m200_q0-70_q1-70_plot2.svg",
+      "bytes": 79962,
+      "sha256": "197ffd4e1d29819222164ed66c5f6c634ab341e3b4a5f88a4ae0b7b749b64604",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-017",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m200_q0-70_q1-70_plot3.svg",
+      "bytes": 78226,
+      "sha256": "e383a44b811ebbadbf8682e245a2e980a947635e79a652d70f685f0aa9f6a5a2",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-018",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m200_q0-70_q1-90_plot1.svg",
+      "bytes": 80907,
+      "sha256": "677e64ec47f7c20b4b0d385b9e4553947b8f7b94af885f1c7b4a02ebb4e31c94",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-019",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m200_q0-70_q1-90_plot2.svg",
+      "bytes": 79871,
+      "sha256": "aaff7f69ddc5b95158f9c3fecbbcb4b9bec6ab6d5d99dec9ac2648ba7f718f27",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-020",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m200_q0-70_q1-90_plot3.svg",
+      "bytes": 78345,
+      "sha256": "5c950b747eb5559816396bf51d83e2b3ea944eb7794a26e80b29a9f070b45e5b",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-021",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m200_q0-90_q1-70_plot1.svg",
+      "bytes": 80945,
+      "sha256": "95a66891acd6d47d7b8170753c092cc2c56a826d7c690b4161f97a198060ce77",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-022",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m200_q0-90_q1-70_plot2.svg",
+      "bytes": 79999,
+      "sha256": "e5332198ff912ef25b8e9507284d05f2b0328b7edd4e256b53384fb24f2e4887",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-023",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m200_q0-90_q1-70_plot3.svg",
+      "bytes": 78370,
+      "sha256": "41a5378dc3fcf473cfad8d20b161c297794afa633d15d153296c9fd43c1d2fc5",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-024",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m200_q0-90_q1-90_plot1.svg",
+      "bytes": 80981,
+      "sha256": "e485f2f65679441975e90cddef89474dc34afd6d7986373f6d6a8600231af621",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-025",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m200_q0-90_q1-90_plot2.svg",
+      "bytes": 80082,
+      "sha256": "acf502bde9301226150258cfea9c9595ddb6e227ede5679187539c72a74d4a7d",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-026",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m200_q0-90_q1-90_plot3.svg",
+      "bytes": 78094,
+      "sha256": "0c0418648929381f6c2e32062a403fc217e37b988ceecdfa429328549cfb1e80",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-027",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m500_q0-70_q1-70_plot1.svg",
+      "bytes": 80865,
+      "sha256": "247bec991de9fdcb9bee8461f01d1a41ce90a8ce6ba8ed6b7a9c9c7d3926a78d",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-028",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m500_q0-70_q1-70_plot2.svg",
+      "bytes": 79962,
+      "sha256": "197ffd4e1d29819222164ed66c5f6c634ab341e3b4a5f88a4ae0b7b749b64604",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-029",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m500_q0-70_q1-70_plot3.svg",
+      "bytes": 78226,
+      "sha256": "e383a44b811ebbadbf8682e245a2e980a947635e79a652d70f685f0aa9f6a5a2",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-030",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m500_q0-70_q1-90_plot1.svg",
+      "bytes": 80907,
+      "sha256": "677e64ec47f7c20b4b0d385b9e4553947b8f7b94af885f1c7b4a02ebb4e31c94",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-031",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m500_q0-70_q1-90_plot2.svg",
+      "bytes": 79871,
+      "sha256": "aaff7f69ddc5b95158f9c3fecbbcb4b9bec6ab6d5d99dec9ac2648ba7f718f27",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-032",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m500_q0-70_q1-90_plot3.svg",
+      "bytes": 78345,
+      "sha256": "5c950b747eb5559816396bf51d83e2b3ea944eb7794a26e80b29a9f070b45e5b",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-033",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m500_q0-90_q1-70_plot1.svg",
+      "bytes": 80945,
+      "sha256": "95a66891acd6d47d7b8170753c092cc2c56a826d7c690b4161f97a198060ce77",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-034",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m500_q0-90_q1-70_plot2.svg",
+      "bytes": 79999,
+      "sha256": "e5332198ff912ef25b8e9507284d05f2b0328b7edd4e256b53384fb24f2e4887",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-035",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m500_q0-90_q1-70_plot3.svg",
+      "bytes": 78370,
+      "sha256": "41a5378dc3fcf473cfad8d20b161c297794afa633d15d153296c9fd43c1d2fc5",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-036",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m500_q0-90_q1-90_plot1.svg",
+      "bytes": 80981,
+      "sha256": "e485f2f65679441975e90cddef89474dc34afd6d7986373f6d6a8600231af621",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-037",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m500_q0-90_q1-90_plot2.svg",
+      "bytes": 80082,
+      "sha256": "acf502bde9301226150258cfea9c9595ddb6e227ede5679187539c72a74d4a7d",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-038",
+      "original_relative_path": "papers/P041_judge_reporting/references/n1000_m500_q0-90_q1-90_plot3.svg",
+      "bytes": 78094,
+      "sha256": "0c0418648929381f6c2e32062a403fc217e37b988ceecdfa429328549cfb1e80",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-039",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m200_q0-70_q1-70_plot1.svg",
+      "bytes": 80715,
+      "sha256": "59dc32bc4f17bc93d563cda0bfcb375e64703819714163da23ffbdc54dfd48b9",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-040",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m200_q0-70_q1-70_plot2.svg",
+      "bytes": 80069,
+      "sha256": "e21450b9a070238f63637fa5bfbfcb28f48b7b3db4fa00d58898281248368d6c",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-041",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m200_q0-70_q1-70_plot3.svg",
+      "bytes": 75405,
+      "sha256": "71208e67aa3296213cf431f5afaa38d87d18314f6a65a12ed189a40a3741743b",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-042",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m200_q0-70_q1-90_plot1.svg",
+      "bytes": 80888,
+      "sha256": "c29a4fb51b3b41b7c88043039b079189d8d65ff8722e9b674dac40aabf2e2d3c",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-043",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m200_q0-70_q1-90_plot2.svg",
+      "bytes": 79964,
+      "sha256": "0f1168a7491406335577fe2b0b7de4f9cb09f3cc68ec4f2af886c5ecfa1a44e0",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-044",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m200_q0-70_q1-90_plot3.svg",
+      "bytes": 78200,
+      "sha256": "310c12b4690d3647074b5e720579dfca27ae8b7d649b073b2f21f32637f5c1e5",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-045",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m200_q0-90_q1-70_plot1.svg",
+      "bytes": 80871,
+      "sha256": "4feecb96a2845eaa31253132c4f4f0fc4c57ea7eba279bd28120dd9a92cf4042",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-046",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m200_q0-90_q1-70_plot2.svg",
+      "bytes": 79986,
+      "sha256": "b0526f06cebcc515ac972c6429e1789cb3d64b25c6cc25f57844954d8138eaa0",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-047",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m200_q0-90_q1-70_plot3.svg",
+      "bytes": 78203,
+      "sha256": "0cc44bd1453d1cbe997215f731b8ddc8bffea558e678d8a856ec44ec882d96c6",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-048",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m200_q0-90_q1-90_plot1.svg",
+      "bytes": 80896,
+      "sha256": "531f4f47d05ea5acd2327acaac3e802c04013edb2a039e42a2de33a97ff82ea0",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-049",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m200_q0-90_q1-90_plot2.svg",
+      "bytes": 80142,
+      "sha256": "a0cac1221f987e38d3a4d5f63102a5f9ffd91d46995f6fe0239c49847813b219",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-050",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m200_q0-90_q1-90_plot3.svg",
+      "bytes": 78369,
+      "sha256": "4698df9a59f9654da218ffb6a24aa125c34e4328ce4ecb7504a05c26bdccf7a9",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-051",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m500_q0-70_q1-70_plot1.svg",
+      "bytes": 80715,
+      "sha256": "59dc32bc4f17bc93d563cda0bfcb375e64703819714163da23ffbdc54dfd48b9",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-052",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m500_q0-70_q1-70_plot2.svg",
+      "bytes": 80069,
+      "sha256": "e21450b9a070238f63637fa5bfbfcb28f48b7b3db4fa00d58898281248368d6c",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-053",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m500_q0-70_q1-70_plot3.svg",
+      "bytes": 75405,
+      "sha256": "71208e67aa3296213cf431f5afaa38d87d18314f6a65a12ed189a40a3741743b",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-054",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m500_q0-70_q1-90_plot1.svg",
+      "bytes": 80888,
+      "sha256": "c29a4fb51b3b41b7c88043039b079189d8d65ff8722e9b674dac40aabf2e2d3c",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-055",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m500_q0-70_q1-90_plot2.svg",
+      "bytes": 79964,
+      "sha256": "0f1168a7491406335577fe2b0b7de4f9cb09f3cc68ec4f2af886c5ecfa1a44e0",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-056",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m500_q0-70_q1-90_plot3.svg",
+      "bytes": 78200,
+      "sha256": "310c12b4690d3647074b5e720579dfca27ae8b7d649b073b2f21f32637f5c1e5",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-057",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m500_q0-90_q1-70_plot1.svg",
+      "bytes": 80871,
+      "sha256": "4feecb96a2845eaa31253132c4f4f0fc4c57ea7eba279bd28120dd9a92cf4042",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-058",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m500_q0-90_q1-70_plot2.svg",
+      "bytes": 79986,
+      "sha256": "b0526f06cebcc515ac972c6429e1789cb3d64b25c6cc25f57844954d8138eaa0",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-059",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m500_q0-90_q1-70_plot3.svg",
+      "bytes": 78203,
+      "sha256": "0cc44bd1453d1cbe997215f731b8ddc8bffea558e678d8a856ec44ec882d96c6",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-060",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m500_q0-90_q1-90_plot1.svg",
+      "bytes": 80896,
+      "sha256": "531f4f47d05ea5acd2327acaac3e802c04013edb2a039e42a2de33a97ff82ea0",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-061",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m500_q0-90_q1-90_plot2.svg",
+      "bytes": 80142,
+      "sha256": "a0cac1221f987e38d3a4d5f63102a5f9ffd91d46995f6fe0239c49847813b219",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    },
+    {
+      "id": "input-062",
+      "original_relative_path": "papers/P041_judge_reporting/references/n200_m500_q0-90_q1-90_plot3.svg",
+      "bytes": 78369,
+      "sha256": "4698df9a59f9654da218ffb6a24aa125c34e4328ce4ecb7504a05c26bdccf7a9",
+      "download_urls": [],
+      "source_pages": [
+        "https://arxiv.org/html/2511.21140v1",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "https://arxiv.org/abs/2511.21140",
+        "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "https://api.github.com/users/leechungpa",
+        "https://github.com/leechungpa",
+        "https://api.github.com/users/leechungpa/followers",
+        "https://api.github.com/users/leechungpa/following{/other_user}",
+        "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "https://api.github.com/users/leechungpa/subscriptions",
+        "https://api.github.com/users/leechungpa/orgs"
+      ],
+      "redistributed": false,
+      "license": {
+        "status": "not independently cleared for redistribution",
+        "retained_notices": [],
+        "required_action": "Prefer exact URL+hash acquisition manifest; retain original attribution and license notices if source rights permit raw distribution."
+      }
+    }
+  ],
+  "source_urls": [
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/assignees{/user}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/branches{/branch}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/collaborators{/collaborator}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/comments{/number}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/5801333558c58709c61a4a0e8a117884cef4d48f",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/main",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits{/sha}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/compare/{base}...{head}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/contents/README.md?ref=082884d075188bed2f2645234fa2cc3050a517c5",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/contents/figure.png?ref=082884d075188bed2f2645234fa2cc3050a517c5",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/contents/paper%2FHow%20to%20Correctly%20Report%20LLM%20as%20a%20Judge%20Evaluations.pdf?ref=5801333558c58709c61a4a0e8a117884cef4d48f",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/contents/{+path}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/contributors",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/deployments",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/downloads",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/events",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/forks",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/12c2a576cd4ec49c1f3fb2ee456fa119b7f0d015",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/149ed794a64a41244b3556a2e5da1f1d5487971c",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/1b03b06c9d4a57d4b2c6c411fafd47e23cb4bfa8",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/366150a0443b02f27580bcd3d83c8afe6d1e6a1d",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/571599f5daace6d64be9d6335722347b2ae946b8",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/5fcfb5d0bca88b758634376dca8d0a065a508ee1",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/78fcd0a4407d6f565085bbe340b523a5dab54bc0",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/83ca4e7ca4aa76f5638e5d6f6128e2bd148b4e1d",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/9f7da357ded8f4d63ebdd3b3e5e6008f97c9212e",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/9faa641086ee25e0e922327a092c56e78db8878f",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/a61eb4020a8edd193b7bb9483daf03da001e2f03",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/d246de4418225aca474397fba6ffd25cf64602ba",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/e15106e38fcfbb5539a05bafed10272160ba69ed",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs{/sha}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits{/sha}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/refs{/sha}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/tags{/sha}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/082884d075188bed2f2645234fa2cc3050a517c5",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/082884d075188bed2f2645234fa2cc3050a517c5?recursive=1",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/339432b218f9e09f5f697391e35581e91ee22d81",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/a4bcafd7d874d4d19ff7816b53f5a8a99c322203",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees{/sha}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/hooks",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/issues/comments{/number}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/issues/events{/number}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/issues{/number}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/keys{/key_id}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/labels{/name}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/languages",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/merges",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/milestones{/number}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/notifications{?since,all,participating}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/pulls{/number}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/releases{/id}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/stargazers",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/statuses/{sha}",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/subscribers",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/subscription",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/tags",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/teams",
+    "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/{archive_format}{/ref}",
+    "https://api.github.com/users/UW-Madison-Lee-Lab",
+    "https://api.github.com/users/UW-Madison-Lee-Lab/events{/privacy}",
+    "https://api.github.com/users/UW-Madison-Lee-Lab/followers",
+    "https://api.github.com/users/UW-Madison-Lee-Lab/following{/other_user}",
+    "https://api.github.com/users/UW-Madison-Lee-Lab/gists{/gist_id}",
+    "https://api.github.com/users/UW-Madison-Lee-Lab/orgs",
+    "https://api.github.com/users/UW-Madison-Lee-Lab/received_events",
+    "https://api.github.com/users/UW-Madison-Lee-Lab/repos",
+    "https://api.github.com/users/UW-Madison-Lee-Lab/starred{/owner}{/repo}",
+    "https://api.github.com/users/UW-Madison-Lee-Lab/subscriptions",
+    "https://api.github.com/users/leechungpa",
+    "https://api.github.com/users/leechungpa/events{/privacy}",
+    "https://api.github.com/users/leechungpa/followers",
+    "https://api.github.com/users/leechungpa/following{/other_user}",
+    "https://api.github.com/users/leechungpa/gists{/gist_id}",
+    "https://api.github.com/users/leechungpa/orgs",
+    "https://api.github.com/users/leechungpa/received_events",
+    "https://api.github.com/users/leechungpa/repos",
+    "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+    "https://api.github.com/users/leechungpa/subscriptions",
+    "https://arxiv.org/abs/2511.21140",
+    "https://arxiv.org/html/2511.21140v1",
+    "https://avatars.githubusercontent.com/u/57704527?v=4",
+    "https://avatars.githubusercontent.com/u/94162930?v=4",
+    "https://github.com/UW-Madison-Lee-Lab",
+    "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+    "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+    "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/blob/082884d075188bed2f2645234fa2cc3050a517c5/README.md",
+    "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/blob/082884d075188bed2f2645234fa2cc3050a517c5/figure.png",
+    "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/blob/5801333558c58709c61a4a0e8a117884cef4d48f/paper%2FHow%20to%20Correctly%20Report%20LLM%20as%20a%20Judge%20Evaluations.pdf",
+    "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+    "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/5801333558c58709c61a4a0e8a117884cef4d48f",
+    "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/raw/082884d075188bed2f2645234fa2cc3050a517c5/README.md",
+    "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/raw/082884d075188bed2f2645234fa2cc3050a517c5/figure.png",
+    "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/raw/5801333558c58709c61a4a0e8a117884cef4d48f/paper%2FHow%20to%20Correctly%20Report%20LLM%20as%20a%20Judge%20Evaluations.pdf",
+    "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+    "https://github.com/leechungpa",
+    "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+    "https://img.shields.io/badge/preprint-fa0f00.svg",
+    "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/README.md",
+    "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/figure2_bias%20and%20its%20adjustment.ipynb",
+    "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/figure4_Monte%20Carlo%20simulation.ipynb",
+    "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/llm_judge_reporting/allocation.py",
+    "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/llm_judge_reporting/calibration.py",
+    "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/pyproject.toml",
+    "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/run/figure2_bias_adjustment.py",
+    "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/run/figure3_ci_length.py",
+    "https://raw.githubusercontent.com/UW-Madison-Lee-Lab/LLM-judge-reporting/082884d075188bed2f2645234fa2cc3050a517c5/run/figure4_monte_carlo.py",
+    "https://www.semanticscholar.org/paper/26ee57cf62ebbf55e917755c23e5d949c5cc1d4a"
+  ],
+  "inventory_source_notes": {
+    "dependency_version_evidence": [
+      "runs/P041-central-002/configuration.json"
+    ],
+    "source_urls_retained": [
+      {
+        "url": "https://arxiv.org/html/2511.21140v1",
+        "evidence_path": "papers/P041_judge_reporting/REPORT.md"
+      },
+      {
+        "url": "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5",
+        "evidence_path": "papers/P041_judge_reporting/REPORT.md"
+      },
+      {
+        "url": "https://www.semanticscholar.org/paper/26ee57cf62ebbf55e917755c23e5d949c5cc1d4a",
+        "evidence_path": "papers/P041_judge_reporting/REPORT.md"
+      },
+      {
+        "url": "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "evidence_path": "papers/P041_judge_reporting/PREREGISTRATION.md"
+      },
+      {
+        "url": "https://arxiv.org/abs/2511.21140",
+        "evidence_path": "papers/P041_judge_reporting/sources/README.md"
+      },
+      {
+        "url": "https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg",
+        "evidence_path": "papers/P041_judge_reporting/sources/README.md"
+      },
+      {
+        "url": "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting.git",
+        "evidence_path": "papers/P041_judge_reporting/sources/README.md"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/715f1d201f507e51fc6e29fce31ef594b6809872",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/082884d075188bed2f2645234fa2cc3050a517c5",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/082884d075188bed2f2645234fa2cc3050a517c5/comments",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://avatars.githubusercontent.com/u/57704527?v=4",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://api.github.com/users/leechungpa",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://github.com/leechungpa",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://api.github.com/users/leechungpa/followers",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://api.github.com/users/leechungpa/following{/other_user}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://api.github.com/users/leechungpa/gists{/gist_id}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://api.github.com/users/leechungpa/starred{/owner}{/repo}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://api.github.com/users/leechungpa/subscriptions",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://api.github.com/users/leechungpa/orgs",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://api.github.com/users/leechungpa/repos",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://api.github.com/users/leechungpa/events{/privacy}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://api.github.com/users/leechungpa/received_events",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits/5801333558c58709c61a4a0e8a117884cef4d48f",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/commit/5801333558c58709c61a4a0e8a117884cef4d48f",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/blob/082884d075188bed2f2645234fa2cc3050a517c5/README.md",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/raw/082884d075188bed2f2645234fa2cc3050a517c5/README.md",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/contents/README.md?ref=082884d075188bed2f2645234fa2cc3050a517c5",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://img.shields.io/badge/preprint-fa0f00.svg",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/blob/082884d075188bed2f2645234fa2cc3050a517c5/figure.png",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/raw/082884d075188bed2f2645234fa2cc3050a517c5/figure.png",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/contents/figure.png?ref=082884d075188bed2f2645234fa2cc3050a517c5",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/blob/5801333558c58709c61a4a0e8a117884cef4d48f/paper%2FHow%20to%20Correctly%20Report%20LLM%20as%20a%20Judge%20Evaluations.pdf",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/raw/5801333558c58709c61a4a0e8a117884cef4d48f/paper%2FHow%20to%20Correctly%20Report%20LLM%20as%20a%20Judge%20Evaluations.pdf",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/contents/paper%2FHow%20to%20Correctly%20Report%20LLM%20as%20a%20Judge%20Evaluations.pdf?ref=5801333558c58709c61a4a0e8a117884cef4d48f",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_commit.json"
+      },
+      {
+        "url": "https://avatars.githubusercontent.com/u/94162930?v=4",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/users/UW-Madison-Lee-Lab",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://github.com/UW-Madison-Lee-Lab",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/users/UW-Madison-Lee-Lab/followers",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/users/UW-Madison-Lee-Lab/following{/other_user}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/users/UW-Madison-Lee-Lab/gists{/gist_id}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/users/UW-Madison-Lee-Lab/starred{/owner}{/repo}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/users/UW-Madison-Lee-Lab/subscriptions",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/users/UW-Madison-Lee-Lab/orgs",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/users/UW-Madison-Lee-Lab/repos",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/users/UW-Madison-Lee-Lab/events{/privacy}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/users/UW-Madison-Lee-Lab/received_events",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/forks",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/keys{/key_id}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/collaborators{/collaborator}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/teams",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/hooks",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/issues/events{/number}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/events",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/assignees{/user}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/branches{/branch}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/tags",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs{/sha}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/tags{/sha}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/refs{/sha}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees{/sha}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/statuses/{sha}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/languages",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/stargazers",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/contributors",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/subscribers",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/subscription",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/commits{/sha}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/commits{/sha}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/comments{/number}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/issues/comments{/number}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/contents/{+path}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/compare/{base}...{head}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/merges",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/{archive_format}{/ref}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/downloads",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/issues{/number}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/pulls{/number}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/milestones{/number}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/notifications{?since,all,participating}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/labels{/name}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/releases{/id}",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/deployments",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_metadata.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/082884d075188bed2f2645234fa2cc3050a517c5",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_tree.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/e15106e38fcfbb5539a05bafed10272160ba69ed",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_tree.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/366150a0443b02f27580bcd3d83c8afe6d1e6a1d",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_tree.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/5fcfb5d0bca88b758634376dca8d0a065a508ee1",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_tree.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/571599f5daace6d64be9d6335722347b2ae946b8",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_tree.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/1b03b06c9d4a57d4b2c6c411fafd47e23cb4bfa8",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_tree.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/a61eb4020a8edd193b7bb9483daf03da001e2f03",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_tree.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/a4bcafd7d874d4d19ff7816b53f5a8a99c322203",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_tree.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/78fcd0a4407d6f565085bbe340b523a5dab54bc0",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_tree.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/9faa641086ee25e0e922327a092c56e78db8878f",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_tree.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/d246de4418225aca474397fba6ffd25cf64602ba",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_tree.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/149ed794a64a41244b3556a2e5da1f1d5487971c",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_tree.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/trees/339432b218f9e09f5f697391e35581e91ee22d81",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_tree.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/83ca4e7ca4aa76f5638e5d6f6128e2bd148b4e1d",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_tree.json"
+      },
+      {
+        "url": "https://api.github.com/repos/UW-Madison-Lee-Lab/LLM-judge-reporting/git/blobs/9f7da357ded8f4d63ebdd3b3e5e6008f97c9212e",
+        "evidence_path": "papers/P041_judge_reporting/sources/repo_tree.json"
+      }
+    ],
+    "license_notices_in_reviewed_metadata": [],
+    "retained_license_files": [],
+    "redistribution_status": "No independent license grant inferred. Default bundle is programme-authored code/config/compact derived results; original assets require notice/URL-based acquisition when rights are unresolved. Article/source license excerpts are evidence, not a blanket repository license.",
+    "portable_rerun_notes": [
+      "Keep repository-relative layout for __file__-based roots. Preserve input bytes and pinned hashes. Install stated scientific dependencies separately; do not copy original runtime.",
+      "New output namespaces are required. Historical immutable run directories must not be overwritten.",
+      "Authorization/freeze/runtime source checks remain active in immutable runners. Later guarded studies need an explicitly documented portable launch/config adapter; none was implemented or tested by this inventory."
+    ],
+    "command_limit": "Commands document source CLI, are not tested portable instructions and do not grant execution. Fixed-output early runners need an explicit new output path adaptation; guarded later runners additionally require historical or prospectively reviewed exact auth/freeze/runtime context."
+  },
+  "policy": "Source/data/model files are acquired from their owners. Only explicitly identified programme transcriptions are bundled. URLs are historical and were not re-fetched during publication preparation."
+}

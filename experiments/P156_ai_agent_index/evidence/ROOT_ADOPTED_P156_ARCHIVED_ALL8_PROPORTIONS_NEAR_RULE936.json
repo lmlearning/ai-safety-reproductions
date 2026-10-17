@@ -1,0 +1,41 @@
+{
+  "schema": "ROOT_RETROSPECTIVE_P156_CENTRAL_NEAR_RULE",
+  "UTC": "2026-10-17T09:02:57.364734+00:00",
+  "paper_id": "P156",
+  "user_instruction_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_USER_DIRECTED_NEAR_SUCCESS_COUNTING_CHANGE913.json",
+    "bytes": 2551,
+    "sha256": "fa0000ec371755eff4b9ce9d28a7e79e10fd32db272a81df4e23e8991dcb5b35"
+  },
+  "retrospective_after_reading_archived_reports": true,
+  "original_preregistration_or_blind_choice_claimed": false,
+  "complete_central_scope_unchanged": "Complete author-coded transparency central family:30 agents/45 fields/all1350 cells/all240 safety cells/Enterprise104/Browser40/Chat96. Original17 qualified-marker policy and source-unit normalization remain fixed.",
+  "adopted_rule": "ALL8 published central target proportions absolute errors <=0.030: each count divided by its unchanged source denominator and each printed percentage divided by100. Exact original denominators/cell identities and all21 independent agreement domains required. Safety missingness remains above one half; Enterprise>Browser>Chat missingness remains. No marker, caption, case or sensitivity changed. Literal-caption reversal, auxiliary word mean14 and other unreproduced claims stay visible; no FULL.",
+  "rationale": "Small absolute agreement on the original bounded 0\u20131 scale; the full target family and substantive conclusions remain required. This practical near rule is not a statistical equivalence guarantee.",
+  "source_refs": {
+    "report": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P156_ai_agent_index\\RESULTS_REPORT.md",
+      "bytes": 38832,
+      "sha256": "d4ba9805b8e6907ee435b1f843910e3b29eb0e8032cf4a091fe60aef38656b6e"
+    },
+    "complete_disposition": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P156_ai_agent_index\\COMPLETE_FAILED_CENTRAL_RESULT_AND_AUDIT034.json",
+      "bytes": 119302,
+      "sha256": "d6793f1fe72cfda72cdeb97ebc156296acca9bf4385440f1d8298d331e4fc0f3"
+    },
+    "old_closed_acceptance": {
+      "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ACTUAL_COMPLETE_P156_UNSUCCESSFUL_CENTRAL264.json",
+      "bytes": 7609,
+      "sha256": "259547ef93ac6c855cba55b081f041e55a46675b8c1402a7df0c81b40f8091e7"
+    },
+    "plan": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P156_ai_agent_index\\PREREGISTRATION.txt",
+      "bytes": 5103,
+      "sha256": "1d6d1244b0aece144093b57d25f12c0ed7c39ddbe21a687fd396b2e7e1803e72"
+    }
+  },
+  "no_new_original_data_statistics_or_rerun": true,
+  "no_FULL_claim": true,
+  "candidate_only_no_award": true,
+  "retained_reader_failure": "Actual11bbee SyntaxError before writes; this saved source corrects framing only, without changing the proposed numeric rules."
+}

@@ -1,0 +1,17 @@
+{
+  "ordinal": 2,
+  "paper_id": "P065",
+  "title": "AI chatbots versus human healthcare professionals: a systematic review and meta-analysis of empathy in patient care",
+  "classification": "Strict CENTRAL",
+  "recorded_public_date": "2025-06-09",
+  "window": "Extended",
+  "citations": 79,
+  "provider": "Semantic Scholar",
+  "capture_time_supported": false,
+  "route": "Released synthesis",
+  "result_and_scope": "All13 original effect/SE inputs;97 targets and189 checks pass. Figure2 synthesis only; rounded published inputs.",
+  "DOI": "10.1093/bmb/ldaf017",
+  "arxiv_id": "2602.05628",
+  "preserved_limits": "Date corrected from journal20Oct to public medRxiv9Jun; extension40 met by retained79. Rounded effect/SE inputs, not original review screening/constituent experiments.",
+  "whole_paper_reproduction": false
+}

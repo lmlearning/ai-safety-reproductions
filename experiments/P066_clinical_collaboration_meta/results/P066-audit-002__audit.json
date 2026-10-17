@@ -1,0 +1,2606 @@
+{
+  "retained_previous_audit": "P066-audit-001:289/290 checks; original request-log reconstruction used LF while Windows write_text used CRLF; source content/analysis unchanged",
+  "audited_at_utc": "2026-10-10T16:32:14.391319+00:00",
+  "method": "80-digit independent scalar pairwise-Q, archived R source emulation, analytic normal/t1/t2/chi-square quantiles and tails; no experiment import",
+  "checks": [
+    {
+      "name": "Independent original figure target transcription",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Independent source input A.event_e.0",
+      "value": 70.0,
+      "target": 70.0,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Frozen input A.event_e.0",
+      "value": 70.0,
+      "target": 70.0,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent source input A.event_e.1",
+      "value": 28.0,
+      "target": 28.0,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Frozen input A.event_e.1",
+      "value": 28.0,
+      "target": 28.0,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent source input A.n_e.0",
+      "value": 114.0,
+      "target": 114.0,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Frozen input A.n_e.0",
+      "value": 114.0,
+      "target": 114.0,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent source input A.n_e.1",
+      "value": 48.0,
+      "target": 48.0,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Frozen input A.n_e.1",
+      "value": 48.0,
+      "target": 48.0,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent source input A.event_c.0",
+      "value": 53.0,
+      "target": 53.0,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Frozen input A.event_c.0",
+      "value": 53.0,
+      "target": 53.0,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent source input A.event_c.1",
+      "value": 13.0,
+      "target": 13.0,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Frozen input A.event_c.1",
+      "value": 13.0,
+      "target": 13.0,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent source input A.n_c.0",
+      "value": 114.0,
+      "target": 114.0,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Frozen input A.n_c.0",
+      "value": 114.0,
+      "target": 114.0,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent source input A.n_c.1",
+      "value": 48.0,
+      "target": 48.0,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Frozen input A.n_c.1",
+      "value": 48.0,
+      "target": 48.0,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent source input B.effect.0",
+      "value": 2.0,
+      "target": 2.0,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Frozen input B.effect.0",
+      "value": 2.0,
+      "target": 2.0,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent source input B.effect.1",
+      "value": 6.5,
+      "target": 6.5,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Frozen input B.effect.1",
+      "value": 6.5,
+      "target": 6.5,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent source input B.se.0",
+      "value": 3.0612,
+      "target": 3.0612,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Frozen input B.se.0",
+      "value": 3.0612,
+      "target": 3.0612,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent source input B.se.1",
+      "value": 1.9133,
+      "target": 1.9133,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Frozen input B.se.1",
+      "value": 1.9133,
+      "target": 1.9133,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent source input C.effect.0",
+      "value": -1.3667,
+      "target": -1.3667,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Frozen input C.effect.0",
+      "value": -1.3667,
+      "target": -1.3667,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent source input C.effect.1",
+      "value": 1.9833,
+      "target": 1.9833,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Frozen input C.effect.1",
+      "value": 1.9833,
+      "target": 1.9833,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent source input C.effect.2",
+      "value": 0.56,
+      "target": 0.56,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Frozen input C.effect.2",
+      "value": 0.56,
+      "target": 0.56,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent source input C.se.0",
+      "value": 0.9609,
+      "target": 0.9609,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Frozen input C.se.0",
+      "value": 0.9609,
+      "target": 0.9609,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent source input C.se.1",
+      "value": 0.8673,
+      "target": 0.8673,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Frozen input C.se.1",
+      "value": 0.8673,
+      "target": 0.8673,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent source input C.se.2",
+      "value": 1.9515,
+      "target": 1.9515,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Frozen input C.se.2",
+      "value": 1.9515,
+      "target": 1.9515,
+      "tolerance": 0,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.k",
+      "value": 2.0,
+      "target": 2.0,
+      "tolerance": 1e-08,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.df",
+      "value": 1.0,
+      "target": 1.0,
+      "tolerance": 1e-08,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.Q",
+      "value": 2.762420584951321,
+      "target": 2.7624205849513217,
+      "tolerance": 1e-08,
+      "absolute_error": 8.92851700739141e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.p_Q",
+      "value": 0.09650212341910387,
+      "target": 0.09650212341910358,
+      "tolerance": 1e-08,
+      "absolute_error": 2.8472037865193226e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.I2",
+      "value": 63.7998643129275,
+      "target": 63.79986431292751,
+      "tolerance": 1e-08,
+      "absolute_error": 1.1279878294508733e-14,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.tau2",
+      "value": 0.07629196870486035,
+      "target": 0.0762919687048604,
+      "tolerance": 1e-08,
+      "absolute_error": 4.02961819814098e-17,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.common.effect",
+      "value": 1.4424968397336275,
+      "target": 1.4424968397336275,
+      "tolerance": 1e-08,
+      "absolute_error": 6.787920811891239e-17,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.common.ci_low",
+      "value": 1.1556584368083525,
+      "target": 1.1556584368083527,
+      "tolerance": 1e-08,
+      "absolute_error": 1.649892136856087e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.common.ci_high",
+      "value": 1.8005295218439785,
+      "target": 1.8005295218439785,
+      "tolerance": 1e-08,
+      "absolute_error": 1.0159789931845227e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.random.effect",
+      "value": 1.5938098197668975,
+      "target": 1.593809819766898,
+      "tolerance": 1e-08,
+      "absolute_error": 3.781312115216207e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.random.ci_low",
+      "value": 0.0775769730453305,
+      "target": 0.07757697304533065,
+      "tolerance": 1e-08,
+      "absolute_error": 1.5444143390788959e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.random.ci_high",
+      "value": 32.74463596434808,
+      "target": 32.74463596434803,
+      "tolerance": 1e-08,
+      "absolute_error": 5.222644902877955e-14,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.study.0.effect",
+      "value": 1.320754716981132,
+      "target": 1.3207547169811322,
+      "tolerance": 1e-08,
+      "absolute_error": 1.508227505151156e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.study.0.ci_low",
+      "value": 1.0338887605843439,
+      "target": 1.0338887605843439,
+      "tolerance": 1e-08,
+      "absolute_error": 2.958348099053264e-17,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.study.0.ci_high",
+      "value": 1.6872153842179272,
+      "target": 1.6872153842179274,
+      "tolerance": 1e-08,
+      "absolute_error": 1.3419388060100781e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.study.0.weight_common",
+      "value": 81.97078597634435,
+      "target": 81.97078597634435,
+      "tolerance": 1e-08,
+      "absolute_error": 5.141002753666259e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.study.0.weight_random",
+      "value": 61.573819912549574,
+      "target": 61.573819912549574,
+      "tolerance": 1e-08,
+      "absolute_error": 1.0972572794981278e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.study.1.effect",
+      "value": 2.1538461538461537,
+      "target": 2.153846153846154,
+      "tolerance": 1e-08,
+      "absolute_error": 3.416070845000482e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.study.1.ci_low",
+      "value": 1.2777674320072234,
+      "target": 1.2777674320072236,
+      "tolerance": 1e-08,
+      "absolute_error": 1.8490239796794573e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.study.1.ci_high",
+      "value": 3.6305928123011078,
+      "target": 3.6305928123011086,
+      "tolerance": 1e-08,
+      "absolute_error": 9.58840184323981e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.study.1.weight_common",
+      "value": 18.02921402365565,
+      "target": 18.029214023655648,
+      "tolerance": 1e-08,
+      "absolute_error": 1.9644246039347428e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.study.1.weight_random",
+      "value": 38.426180087450426,
+      "target": 38.42618008745043,
+      "tolerance": 1e-08,
+      "absolute_error": 6.008170078102874e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.pi_low",
+      "value": 0.01552012244440288,
+      "target": 0.01552012244440292,
+      "tolerance": 1e-08,
+      "absolute_error": 4.0206788657321733e-17,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.pi_high",
+      "value": 163.67330545781164,
+      "target": 163.67330545781113,
+      "tolerance": 1e-08,
+      "absolute_error": 4.999403304588679e-13,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.se_random_classic",
+      "value": 0.23788109788255038,
+      "target": 0.23788109788255046,
+      "tolerance": 1e-08,
+      "absolute_error": 7.549644723845056e-17,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.se_random_hk",
+      "value": 0.2378847154509863,
+      "target": 0.23788471545098636,
+      "tolerance": 1e-08,
+      "absolute_error": 4.935234118541089e-17,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.hk_scale",
+      "value": 1.0000304151609787,
+      "target": 1.0000304151609787,
+      "tolerance": 1e-08,
+      "absolute_error": 3.39443548464081e-19,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.log_or_raw_mu_common",
+      "value": 0.36637552857180955,
+      "target": 0.3663755285718096,
+      "tolerance": 1e-08,
+      "absolute_error": 7.03638927277984e-17,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.log_or_raw_mu_random",
+      "value": 0.4661272631916041,
+      "target": 0.46612726319160425,
+      "tolerance": 1e-08,
+      "absolute_error": 1.8829719358616565e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.se_common",
+      "value": 0.11311701317942732,
+      "target": 0.11311701317942731,
+      "tolerance": 1e-08,
+      "absolute_error": 7.155431739985638e-18,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.crit_random",
+      "value": 12.706204736174705,
+      "target": 12.706204736174694,
+      "tolerance": 1e-08,
+      "absolute_error": 1.049840041308573e-14,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.crit_prediction",
+      "value": 12.706204736174705,
+      "target": 12.706204736174694,
+      "tolerance": 1e-08,
+      "absolute_error": 1.049840041308573e-14,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation A.p_random",
+      "value": 0.3004129833839513,
+      "target": 0.3004129833839513,
+      "tolerance": 1e-08,
+      "absolute_error": 3.634106240280345e-18,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.k",
+      "value": 2.0,
+      "target": 2.0,
+      "tolerance": 1e-08,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.df",
+      "value": 1.0,
+      "target": 1.0,
+      "tolerance": 1e-08,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.Q",
+      "value": 1.5539076663598603,
+      "target": 1.5539076663598603,
+      "tolerance": 1e-08,
+      "absolute_error": 5.5922871606255226e-18,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.p_Q",
+      "value": 0.21255948939978972,
+      "target": 0.2125594893997861,
+      "tolerance": 1e-08,
+      "absolute_error": 3.6035998814895765e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.I2",
+      "value": 35.64611195061728,
+      "target": 35.64611195061728,
+      "tolerance": 1e-08,
+      "absolute_error": 1.845858796401938e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.tau2",
+      "value": 3.6091470931165053,
+      "target": 3.6091470931165053,
+      "tolerance": 1e-08,
+      "absolute_error": 1.4146207002145937e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.common.effect",
+      "value": 5.23590754672355,
+      "target": 5.23590754672355,
+      "tolerance": 1e-08,
+      "absolute_error": 1.8865426055599796e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.common.ci_low",
+      "value": 2.0559380210113702,
+      "target": 2.0559380210113707,
+      "tolerance": 1e-08,
+      "absolute_error": 3.9380611560575405e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.common.ci_high",
+      "value": 8.41587707243573,
+      "target": 8.41587707243573,
+      "tolerance": 1e-08,
+      "absolute_error": 8.71680825206367e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.random.effect",
+      "value": 4.884471201318414,
+      "target": 4.884471201318414,
+      "tolerance": 1e-08,
+      "absolute_error": 1.458957328652709e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.random.ci_low",
+      "value": 0.6535193748265924,
+      "target": 0.6535193748265931,
+      "tolerance": 1e-08,
+      "absolute_error": 6.354093788706452e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.random.ci_high",
+      "value": 9.115423027810236,
+      "target": 9.115423027810234,
+      "tolerance": 1e-08,
+      "absolute_error": 1.2317963328402285e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.study.0.effect",
+      "value": 2.0,
+      "target": 2.0,
+      "tolerance": 1e-08,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.study.0.ci_low",
+      "value": -3.999841749474014,
+      "target": -3.9998417494740135,
+      "tolerance": 1e-08,
+      "absolute_error": 5.288090470397362e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.study.0.ci_high",
+      "value": 7.999841749474014,
+      "target": 7.9998417494740135,
+      "tolerance": 1e-08,
+      "absolute_error": 5.288090470397362e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.study.0.weight_common",
+      "value": 28.090943406143335,
+      "target": 28.09094340614334,
+      "tolerance": 1e-08,
+      "absolute_error": 2.913110456356603e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.study.0.weight_random",
+      "value": 35.90063997070192,
+      "target": 35.90063997070192,
+      "tolerance": 1e-08,
+      "absolute_error": 1.4948241747279812e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.study.1.effect",
+      "value": 6.5,
+      "target": 6.5,
+      "tolerance": 1e-08,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.study.1.ci_low",
+      "value": 2.7500009083795143,
+      "target": 2.7500009083795147,
+      "tolerance": 1e-08,
+      "absolute_error": 4.879445838986069e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.study.1.ci_high",
+      "value": 10.249999091620486,
+      "target": 10.249999091620484,
+      "tolerance": 1e-08,
+      "absolute_error": 1.3761230035987322e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.study.1.weight_common",
+      "value": 71.90905659385666,
+      "target": 71.90905659385666,
+      "tolerance": 1e-08,
+      "absolute_error": 2.913110456356603e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.study.1.weight_random",
+      "value": 64.09936002929808,
+      "target": 64.09936002929808,
+      "tolerance": 1e-08,
+      "absolute_error": 1.4948241747279812e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.pi_low",
+      "value": -31.653508859577073,
+      "target": -31.653508859577045,
+      "tolerance": 1e-08,
+      "absolute_error": 2.966817928497684e-14,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.pi_high",
+      "value": 41.422451262213904,
+      "target": 41.42245126221387,
+      "tolerance": 1e-08,
+      "absolute_error": 3.29291014980468e-14,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.se_random_classic",
+      "value": 2.158688557476071,
+      "target": 2.158688557476071,
+      "tolerance": 1e-08,
+      "absolute_error": 1.193302441500057e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.se_random_hk",
+      "value": 2.158690875205982,
+      "target": 2.158690875205982,
+      "tolerance": 1e-08,
+      "absolute_error": 1.560713069142419e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.hk_scale",
+      "value": 1.0000021473511291,
+      "target": 1.0000021473511291,
+      "tolerance": 1e-08,
+      "absolute_error": 4.3457727494972975e-17,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.log_or_raw_mu_common",
+      "value": 5.23590754672355,
+      "target": 5.23590754672355,
+      "tolerance": 1e-08,
+      "absolute_error": 1.8865426055599796e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.log_or_raw_mu_random",
+      "value": 4.884471201318414,
+      "target": 4.884471201318414,
+      "tolerance": 1e-08,
+      "absolute_error": 1.458957328652709e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.se_common",
+      "value": 1.6224632446286633,
+      "target": 1.6224632446286633,
+      "tolerance": 1e-08,
+      "absolute_error": 5.2513271401758674e-17,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.crit_random",
+      "value": 1.9599639845400543,
+      "target": 1.959963984540054,
+      "tolerance": 1e-08,
+      "absolute_error": 1.8609213849011563e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.crit_prediction",
+      "value": 12.706204736174705,
+      "target": 12.706204736174694,
+      "tolerance": 1e-08,
+      "absolute_error": 1.049840041308573e-14,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation B.p_random",
+      "value": 0.023654000165658863,
+      "target": 0.02365400016565887,
+      "tolerance": 1e-08,
+      "absolute_error": 5.2464043020446644e-18,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.k",
+      "value": 3.0,
+      "target": 3.0,
+      "tolerance": 1e-08,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.df",
+      "value": 2.0,
+      "target": 2.0,
+      "tolerance": 1e-08,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.Q",
+      "value": 6.699388020591394,
+      "target": 6.699388020591394,
+      "tolerance": 1e-08,
+      "absolute_error": 2.1599826106416057e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.p_Q",
+      "value": 0.035095091194618296,
+      "target": 0.03509509119461829,
+      "tolerance": 1e-08,
+      "absolute_error": 6.581740776890098e-18,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.I2",
+      "value": 70.14652690883476,
+      "target": 70.14652690883474,
+      "tolerance": 1e-08,
+      "absolute_error": 9.362164141365566e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.tau2",
+      "value": 1.975742300249093,
+      "target": 1.975742300249093,
+      "tolerance": 1e-08,
+      "absolute_error": 9.228465788336776e-17,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.common.effect",
+      "value": 0.48727971625219446,
+      "target": 0.48727971625219435,
+      "tolerance": 1e-08,
+      "absolute_error": 1.1268530103275204e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.common.ci_low",
+      "value": -0.711069213698597,
+      "target": -0.7110692136985971,
+      "tolerance": 1e-08,
+      "absolute_error": 8.90152386529479e-17,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.common.ci_high",
+      "value": 1.685628646202986,
+      "target": 1.6856286462029857,
+      "tolerance": 1e-08,
+      "absolute_error": 2.4737766587507183e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.random.effect",
+      "value": 0.39848353409560605,
+      "target": 0.3984835340956062,
+      "tolerance": 1e-08,
+      "absolute_error": 1.8668004085381722e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.random.ci_low",
+      "value": -4.176732386408295,
+      "target": -4.176732386408293,
+      "tolerance": 1e-08,
+      "absolute_error": 1.9015634238238008e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.random.ci_high",
+      "value": 4.973699454599507,
+      "target": 4.973699454599506,
+      "tolerance": 1e-08,
+      "absolute_error": 8.620695273410724e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.study.0.effect",
+      "value": -1.3667,
+      "target": -1.3667,
+      "tolerance": 1e-08,
+      "absolute_error": 2.5934809855243657e-17,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.study.0.ci_low",
+      "value": -3.2500293927445383,
+      "target": -3.250029392744538,
+      "tolerance": 1e-08,
+      "absolute_error": 2.776701939877761e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.study.0.ci_high",
+      "value": 0.5166293927445381,
+      "target": 0.5166293927445378,
+      "tolerance": 1e-08,
+      "absolute_error": 3.2953981369826336e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.study.0.weight_common",
+      "value": 40.4868525520307,
+      "target": 40.4868525520307,
+      "tolerance": 1e-08,
+      "absolute_error": 1.0198793939111955e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.study.0.weight_random",
+      "value": 39.00243402615697,
+      "target": 39.00243402615697,
+      "tolerance": 1e-08,
+      "absolute_error": 2.563718041655965e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.study.1.effect",
+      "value": 1.9833,
+      "target": 1.9833,
+      "tolerance": 1e-08,
+      "absolute_error": 6.288303211476887e-17,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.study.1.ci_low",
+      "value": 0.283423236208411,
+      "target": 0.28342323620841126,
+      "tolerance": 1e-08,
+      "absolute_error": 2.9400274977370597e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.study.1.ci_high",
+      "value": 3.683176763791589,
+      "target": 3.6831767637915886,
+      "tolerance": 1e-08,
+      "absolute_error": 3.902812904691996e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.study.1.weight_common",
+      "value": 49.69717588506779,
+      "target": 49.69717588506779,
+      "tolerance": 1e-08,
+      "absolute_error": 2.3491093883784658e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.study.1.weight_random",
+      "value": 41.44898689507288,
+      "target": 41.448986895072885,
+      "tolerance": 1e-08,
+      "absolute_error": 4.529756217872613e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.study.2.effect",
+      "value": 0.56,
+      "target": 0.56,
+      "tolerance": 1e-08,
+      "absolute_error": 5.329070518200751e-17,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.study.2.ci_low",
+      "value": -3.264869715829916,
+      "target": -3.2648697158299154,
+      "tolerance": 1e-08,
+      "absolute_error": 4.764015567752267e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.study.2.ci_high",
+      "value": 4.3848697158299155,
+      "target": 4.3848697158299155,
+      "tolerance": 1e-08,
+      "absolute_error": 3.698201464112116e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.study.2.weight_common",
+      "value": 9.815971562901506,
+      "target": 9.815971562901508,
+      "tolerance": 1e-08,
+      "absolute_error": 1.592631942889411e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.study.2.weight_random",
+      "value": 19.548579078770153,
+      "target": 19.548579078770153,
+      "tolerance": 1e-08,
+      "absolute_error": 1.195309807242395e-17,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.pi_low",
+      "value": -7.184996032800092,
+      "target": -7.18499603280009,
+      "tolerance": 1e-08,
+      "absolute_error": 2.9569291002797122e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.pi_high",
+      "value": 7.981963100991305,
+      "target": 7.981963100991303,
+      "tolerance": 1e-08,
+      "absolute_error": 1.917435203796984e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.se_random_classic",
+      "value": 1.0633476840367306,
+      "target": 1.0633476840367309,
+      "tolerance": 1e-08,
+      "absolute_error": 2.0137655040455912e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.se_random_hk",
+      "value": 1.0633477084659604,
+      "target": 1.0633477084659604,
+      "tolerance": 1e-08,
+      "absolute_error": 7.793860626853445e-17,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.hk_scale",
+      "value": 1.0000000459477747,
+      "target": 1.0000000459477747,
+      "tolerance": 1e-08,
+      "absolute_error": 5.1414132448883904e-17,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.log_or_raw_mu_common",
+      "value": 0.48727971625219446,
+      "target": 0.48727971625219435,
+      "tolerance": 1e-08,
+      "absolute_error": 1.1268530103275204e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.log_or_raw_mu_random",
+      "value": 0.39848353409560605,
+      "target": 0.3984835340956062,
+      "tolerance": 1e-08,
+      "absolute_error": 1.8668004085381722e-16,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.se_common",
+      "value": 0.6114137501521533,
+      "target": 0.6114137501521533,
+      "tolerance": 1e-08,
+      "absolute_error": 1.757804401189295e-17,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.crit_random",
+      "value": 4.302652729749464,
+      "target": 4.302652729749462,
+      "tolerance": 1e-08,
+      "absolute_error": 1.9616583564993133e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.crit_prediction",
+      "value": 4.302652729749464,
+      "target": 4.302652729749462,
+      "tolerance": 1e-08,
+      "absolute_error": 1.9616583564993133e-15,
+      "passed": true
+    },
+    {
+      "name": "Independent recomputation C.p_random",
+      "value": 0.7438559751031588,
+      "target": 0.7438559751031587,
+      "tolerance": 1e-08,
+      "absolute_error": 1.4200984562001353e-16,
+      "passed": true
+    },
+    {
+      "name": "Original target A.study.0.effect",
+      "value": 1.320754716981132,
+      "target": 1.32,
+      "tolerance": 0.01,
+      "absolute_error": 0.0007547169811320133,
+      "passed": true
+    },
+    {
+      "name": "Original target A.study.0.ci_low",
+      "value": 1.0338887605843439,
+      "target": 1.03,
+      "tolerance": 0.01,
+      "absolute_error": 0.0038887605843438127,
+      "passed": true
+    },
+    {
+      "name": "Original target A.study.0.ci_high",
+      "value": 1.6872153842179272,
+      "target": 1.69,
+      "tolerance": 0.01,
+      "absolute_error": 0.0027846157820726977,
+      "passed": true
+    },
+    {
+      "name": "Original target A.study.0.weight_common",
+      "value": 81.97078597634435,
+      "target": 82.0,
+      "tolerance": 0.1,
+      "absolute_error": 0.0292140236556497,
+      "passed": true
+    },
+    {
+      "name": "Original target A.study.0.weight_random",
+      "value": 61.573819912549574,
+      "target": 61.6,
+      "tolerance": 0.1,
+      "absolute_error": 0.026180087450428532,
+      "passed": true
+    },
+    {
+      "name": "Original target A.study.1.effect",
+      "value": 2.1538461538461537,
+      "target": 2.15,
+      "tolerance": 0.01,
+      "absolute_error": 0.003846153846153935,
+      "passed": true
+    },
+    {
+      "name": "Original target A.study.1.ci_low",
+      "value": 1.2777674320072234,
+      "target": 1.28,
+      "tolerance": 0.01,
+      "absolute_error": 0.0022325679927765645,
+      "passed": true
+    },
+    {
+      "name": "Original target A.study.1.ci_high",
+      "value": 3.6305928123011078,
+      "target": 3.63,
+      "tolerance": 0.01,
+      "absolute_error": 0.0005928123011077883,
+      "passed": true
+    },
+    {
+      "name": "Original target A.study.1.weight_common",
+      "value": 18.02921402365565,
+      "target": 18.0,
+      "tolerance": 0.1,
+      "absolute_error": 0.0292140236556497,
+      "passed": true
+    },
+    {
+      "name": "Original target A.study.1.weight_random",
+      "value": 38.426180087450426,
+      "target": 38.4,
+      "tolerance": 0.1,
+      "absolute_error": 0.026180087450428532,
+      "passed": true
+    },
+    {
+      "name": "Original target A.common.effect",
+      "value": 1.4424968397336275,
+      "target": 1.44,
+      "tolerance": 0.01,
+      "absolute_error": 0.002496839733627508,
+      "passed": true
+    },
+    {
+      "name": "Original target A.common.ci_low",
+      "value": 1.1556584368083525,
+      "target": 1.16,
+      "tolerance": 0.01,
+      "absolute_error": 0.004341563191647411,
+      "passed": true
+    },
+    {
+      "name": "Original target A.common.ci_high",
+      "value": 1.8005295218439785,
+      "target": 1.8,
+      "tolerance": 0.01,
+      "absolute_error": 0.0005295218439783739,
+      "passed": true
+    },
+    {
+      "name": "Original target A.random.effect",
+      "value": 1.5938098197668975,
+      "target": 1.59,
+      "tolerance": 0.01,
+      "absolute_error": 0.0038098197668974924,
+      "passed": true
+    },
+    {
+      "name": "Original target A.random.ci_low",
+      "value": 0.0775769730453305,
+      "target": 0.08,
+      "tolerance": 0.01,
+      "absolute_error": 0.0024230269546695066,
+      "passed": true
+    },
+    {
+      "name": "Original target A.random.ci_high",
+      "value": 32.74463596434808,
+      "target": 32.74,
+      "tolerance": 0.01,
+      "absolute_error": 0.004635964348078049,
+      "passed": true
+    },
+    {
+      "name": "Original target A.pi_low",
+      "value": 0.01552012244440288,
+      "target": 0.02,
+      "tolerance": 0.01,
+      "absolute_error": 0.0044798775555971206,
+      "passed": true
+    },
+    {
+      "name": "Original target A.pi_high",
+      "value": 163.67330545781164,
+      "target": 163.67,
+      "tolerance": 0.01,
+      "absolute_error": 0.003305457811637498,
+      "passed": true
+    },
+    {
+      "name": "Original target A.I2",
+      "value": 63.7998643129275,
+      "target": 63.8,
+      "tolerance": 0.1,
+      "absolute_error": 0.00013568707249751456,
+      "passed": true
+    },
+    {
+      "name": "Original target A.tau2",
+      "value": 0.07629196870486035,
+      "target": 0.0763,
+      "tolerance": 0.00015,
+      "absolute_error": 8.031295139653056e-06,
+      "passed": true
+    },
+    {
+      "name": "Original target A.p_Q",
+      "value": 0.09650212341910387,
+      "target": 0.0965,
+      "tolerance": 0.00015,
+      "absolute_error": 2.1234191038626597e-06,
+      "passed": true
+    },
+    {
+      "name": "Original target B.study.0.effect",
+      "value": 2.0,
+      "target": 2.0,
+      "tolerance": 0.01,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Original target B.study.0.ci_low",
+      "value": -3.999841749474014,
+      "target": -4.0,
+      "tolerance": 0.01,
+      "absolute_error": 0.0001582505259859742,
+      "passed": true
+    },
+    {
+      "name": "Original target B.study.0.ci_high",
+      "value": 7.999841749474014,
+      "target": 8.0,
+      "tolerance": 0.01,
+      "absolute_error": 0.0001582505259859742,
+      "passed": true
+    },
+    {
+      "name": "Original target B.study.0.weight_common",
+      "value": 28.090943406143335,
+      "target": 28.1,
+      "tolerance": 0.1,
+      "absolute_error": 0.0090565938566656,
+      "passed": true
+    },
+    {
+      "name": "Original target B.study.0.weight_random",
+      "value": 35.90063997070192,
+      "target": 35.9,
+      "tolerance": 0.1,
+      "absolute_error": 0.0006399707019169627,
+      "passed": true
+    },
+    {
+      "name": "Original target B.study.1.effect",
+      "value": 6.5,
+      "target": 6.5,
+      "tolerance": 0.01,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Original target B.study.1.ci_low",
+      "value": 2.7500009083795143,
+      "target": 2.75,
+      "tolerance": 0.01,
+      "absolute_error": 9.083795142311708e-07,
+      "passed": true
+    },
+    {
+      "name": "Original target B.study.1.ci_high",
+      "value": 10.249999091620486,
+      "target": 10.25,
+      "tolerance": 0.01,
+      "absolute_error": 9.083795142311708e-07,
+      "passed": true
+    },
+    {
+      "name": "Original target B.study.1.weight_common",
+      "value": 71.90905659385666,
+      "target": 71.9,
+      "tolerance": 0.1,
+      "absolute_error": 0.009056593856658494,
+      "passed": true
+    },
+    {
+      "name": "Original target B.study.1.weight_random",
+      "value": 64.09936002929808,
+      "target": 64.1,
+      "tolerance": 0.1,
+      "absolute_error": 0.0006399707019098573,
+      "passed": true
+    },
+    {
+      "name": "Original target B.common.effect",
+      "value": 5.23590754672355,
+      "target": 5.24,
+      "tolerance": 0.01,
+      "absolute_error": 0.0040924532764503255,
+      "passed": true
+    },
+    {
+      "name": "Original target B.common.ci_low",
+      "value": 2.0559380210113702,
+      "target": 2.06,
+      "tolerance": 0.01,
+      "absolute_error": 0.0040619789886297605,
+      "passed": true
+    },
+    {
+      "name": "Original target B.common.ci_high",
+      "value": 8.41587707243573,
+      "target": 8.42,
+      "tolerance": 0.01,
+      "absolute_error": 0.004122927564270446,
+      "passed": true
+    },
+    {
+      "name": "Original target B.random.effect",
+      "value": 4.884471201318414,
+      "target": 4.88,
+      "tolerance": 0.01,
+      "absolute_error": 0.004471201318413907,
+      "passed": true
+    },
+    {
+      "name": "Original target B.random.ci_low",
+      "value": 0.6535193748265924,
+      "target": 0.65,
+      "tolerance": 0.01,
+      "absolute_error": 0.0035193748265924005,
+      "passed": true
+    },
+    {
+      "name": "Original target B.random.ci_high",
+      "value": 9.115423027810236,
+      "target": 9.12,
+      "tolerance": 0.01,
+      "absolute_error": 0.00457697218976404,
+      "passed": true
+    },
+    {
+      "name": "Original target B.pi_low",
+      "value": -31.653508859577073,
+      "target": -31.65,
+      "tolerance": 0.01,
+      "absolute_error": 0.003508859577075721,
+      "passed": true
+    },
+    {
+      "name": "Original target B.pi_high",
+      "value": 41.422451262213904,
+      "target": 41.42,
+      "tolerance": 0.01,
+      "absolute_error": 0.002451262213900196,
+      "passed": true
+    },
+    {
+      "name": "Original target B.I2",
+      "value": 35.64611195061728,
+      "target": 35.6,
+      "tolerance": 0.1,
+      "absolute_error": 0.04611195061728253,
+      "passed": true
+    },
+    {
+      "name": "Original target B.tau2",
+      "value": 3.6091470931165053,
+      "target": 3.6091,
+      "tolerance": 0.00015,
+      "absolute_error": 4.709311650522287e-05,
+      "passed": true
+    },
+    {
+      "name": "Original target B.p_Q",
+      "value": 0.21255948939978972,
+      "target": 0.2126,
+      "tolerance": 0.00015,
+      "absolute_error": 4.0510600210296364e-05,
+      "passed": true
+    },
+    {
+      "name": "Original target C.study.0.effect",
+      "value": -1.3667,
+      "target": -1.37,
+      "tolerance": 0.01,
+      "absolute_error": 0.0033000000000001067,
+      "passed": true
+    },
+    {
+      "name": "Original target C.study.0.ci_low",
+      "value": -3.2500293927445383,
+      "target": -3.25,
+      "tolerance": 0.01,
+      "absolute_error": 2.9392744538114916e-05,
+      "passed": true
+    },
+    {
+      "name": "Original target C.study.0.ci_high",
+      "value": 0.5166293927445381,
+      "target": 0.52,
+      "tolerance": 0.01,
+      "absolute_error": 0.003370607255461903,
+      "passed": true
+    },
+    {
+      "name": "Original target C.study.0.weight_random",
+      "value": 39.00243402615697,
+      "target": 39.0,
+      "tolerance": 0.1,
+      "absolute_error": 0.0024340261569665185,
+      "passed": true
+    },
+    {
+      "name": "Original target C.study.1.effect",
+      "value": 1.9833,
+      "target": 1.98,
+      "tolerance": 0.01,
+      "absolute_error": 0.0033000000000000178,
+      "passed": true
+    },
+    {
+      "name": "Original target C.study.1.ci_low",
+      "value": 0.283423236208411,
+      "target": 0.28,
+      "tolerance": 0.01,
+      "absolute_error": 0.003423236208410935,
+      "passed": true
+    },
+    {
+      "name": "Original target C.study.1.ci_high",
+      "value": 3.683176763791589,
+      "target": 3.68,
+      "tolerance": 0.01,
+      "absolute_error": 0.0031767637915888786,
+      "passed": true
+    },
+    {
+      "name": "Original target C.study.1.weight_random",
+      "value": 41.44898689507288,
+      "target": 41.4,
+      "tolerance": 0.1,
+      "absolute_error": 0.048986895072881696,
+      "passed": true
+    },
+    {
+      "name": "Original target C.study.2.effect",
+      "value": 0.56,
+      "target": 0.56,
+      "tolerance": 0.01,
+      "absolute_error": 5.329070518200751e-17,
+      "passed": true
+    },
+    {
+      "name": "Original target C.study.2.ci_low",
+      "value": -3.264869715829916,
+      "target": -3.26,
+      "tolerance": 0.01,
+      "absolute_error": 0.004869715829916054,
+      "passed": true
+    },
+    {
+      "name": "Original target C.study.2.ci_high",
+      "value": 4.3848697158299155,
+      "target": 4.38,
+      "tolerance": 0.01,
+      "absolute_error": 0.004869715829915947,
+      "passed": true
+    },
+    {
+      "name": "Original target C.study.2.weight_random",
+      "value": 19.548579078770153,
+      "target": 19.5,
+      "tolerance": 0.1,
+      "absolute_error": 0.0485790787701532,
+      "passed": true
+    },
+    {
+      "name": "Original target C.random.effect",
+      "value": 0.39848353409560605,
+      "target": 0.4,
+      "tolerance": 0.01,
+      "absolute_error": 0.0015164659043939912,
+      "passed": true
+    },
+    {
+      "name": "Original target C.random.ci_low",
+      "value": -4.176732386408295,
+      "target": -4.18,
+      "tolerance": 0.01,
+      "absolute_error": 0.0032676135917045625,
+      "passed": true
+    },
+    {
+      "name": "Original target C.random.ci_high",
+      "value": 4.973699454599507,
+      "target": 4.97,
+      "tolerance": 0.01,
+      "absolute_error": 0.003699454599507464,
+      "passed": true
+    },
+    {
+      "name": "Original target C.pi_low",
+      "value": -7.184996032800092,
+      "target": -7.18,
+      "tolerance": 0.01,
+      "absolute_error": 0.004996032800092935,
+      "passed": true
+    },
+    {
+      "name": "Original target C.pi_high",
+      "value": 7.981963100991305,
+      "target": 7.98,
+      "tolerance": 0.01,
+      "absolute_error": 0.0019631009913042862,
+      "passed": true
+    },
+    {
+      "name": "Original target C.I2",
+      "value": 70.14652690883476,
+      "target": 70.1,
+      "tolerance": 0.1,
+      "absolute_error": 0.04652690883475911,
+      "passed": true
+    },
+    {
+      "name": "Original target C.tau2",
+      "value": 1.975742300249093,
+      "target": 1.9757,
+      "tolerance": 0.00015,
+      "absolute_error": 4.230024909292682e-05,
+      "passed": true
+    },
+    {
+      "name": "Original target C.p_Q",
+      "value": 0.035095091194618296,
+      "target": 0.0351,
+      "tolerance": 0.00015,
+      "absolute_error": 4.908805381704042e-06,
+      "passed": true
+    },
+    {
+      "name": "Original target C.Q",
+      "value": 6.699388020591394,
+      "target": 6.7,
+      "tolerance": 0.01,
+      "absolute_error": 0.0006119794086056956,
+      "passed": true
+    },
+    {
+      "name": "Independent claim A_positive_nonsignificant",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Independent claim B_positive_significant_classic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Independent claim C_nonsignificant",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Independent claim A_prediction_crosses_null",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Independent claim B_prediction_crosses_null",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Independent claim C_prediction_crosses_null",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\citation_snapshot.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Original request log cryptographic prefix retained",
+      "passed": true,
+      "detail": {
+        "current_records": 13,
+        "prefix_records": 11
+      }
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\invalid_response_validation.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\meta_8.2-1.tar.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\meta_source\\R\\hetcalc.R",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\meta_source\\R\\metagen.R",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\meta_source\\R\\settings.meta.R",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\original_analysis.R",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\original_figure2.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\original_figure2_valid.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\paper_fulltext.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\pmc_page.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\publisher_page.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\publisher_paper.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\publisher_paper_valid.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\supp_page_25.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\supp_page_26.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\supp_page_27.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\supp_page_28.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\supp_page_29.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\supp_page_30.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\supplementary_information.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\supplementary_information.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest.json sources\\zenodo_record.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\citation_snapshot.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\cpu_routes_request_log.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\invalid_response_validation.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\meta_8.2-1.tar.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\meta_source\\DESCRIPTION",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\meta_source\\R\\hetcalc.R",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\meta_source\\R\\metagen.R",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\meta_source\\R\\settings.meta.R",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\metafor_4.8-0.tar.gz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\metafor_source\\R\\rma.uni.r",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\original_analysis.R",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\original_figure2.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\original_figure2_valid.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\paper_fulltext.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\pmc_page.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\publisher_page.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\publisher_paper.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\publisher_paper_valid.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\R_4_5_2_zeroin.c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\supp_page_25.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\supp_page_26.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\supp_page_27.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\supp_page_28.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\supp_page_29.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\supp_page_30.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\supplementary_information.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\supplementary_information.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source hash sources_manifest_solver_corrected.json sources\\zenodo_record.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-001 configuration.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-001 execution.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-001 frozen\\original_data.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-001 frozen\\PREREGISTRATION.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-001 frozen\\PREREGISTRATION.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-001 frozen\\runner.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-001 frozen\\sources_manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-001 frozen\\targets.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-001 raw_per_study.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-001 results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-002 configuration.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-002 execution.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-002 frozen\\original_data.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-002 frozen\\PREREGISTRATION.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-002 frozen\\PREREGISTRATION.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-002 frozen\\runner.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-002 frozen\\SOLVER_CORRECTION.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-002 frozen\\sources_manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-002 frozen\\sources_manifest_solver_corrected.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-002 frozen\\targets.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-002 raw_per_study.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-002 results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Immutable run hash P066-central-002 solver_traces.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Exact-root initial failure retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Unchanged targets both runs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preregistration precedes initial outcomes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Correction disclosed before fresh run",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All original69 engine comparisons retained",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "all_audit_checks_pass": true,
+  "independent_fits": {
+    "A": {
+      "k": 2,
+      "df": 1,
+      "Q": 2.762420584951321,
+      "p_Q": 0.09650212341910387,
+      "I2": 63.7998643129275,
+      "tau2": 0.07629196870486035,
+      "common": {
+        "effect": 1.4424968397336275,
+        "ci_low": 1.1556584368083525,
+        "ci_high": 1.8005295218439785
+      },
+      "random": {
+        "effect": 1.5938098197668975,
+        "ci_low": 0.0775769730453305,
+        "ci_high": 32.74463596434808
+      },
+      "study": [
+        {
+          "effect": 1.320754716981132,
+          "ci_low": 1.0338887605843439,
+          "ci_high": 1.6872153842179272,
+          "weight_common": 81.97078597634435,
+          "weight_random": 61.573819912549574
+        },
+        {
+          "effect": 2.1538461538461537,
+          "ci_low": 1.2777674320072234,
+          "ci_high": 3.6305928123011078,
+          "weight_common": 18.02921402365565,
+          "weight_random": 38.426180087450426
+        }
+      ],
+      "pi_low": 0.01552012244440288,
+      "pi_high": 163.67330545781164,
+      "se_random_classic": 0.23788109788255038,
+      "se_random_hk": 0.2378847154509863,
+      "hk_scale": 1.0000304151609787,
+      "log_or_raw_mu_common": 0.36637552857180955,
+      "log_or_raw_mu_random": 0.4661272631916041,
+      "se_common": 0.11311701317942732,
+      "crit_random": 12.706204736174705,
+      "crit_prediction": 12.706204736174705,
+      "p_random": 0.3004129833839513
+    },
+    "B": {
+      "k": 2,
+      "df": 1,
+      "Q": 1.5539076663598603,
+      "p_Q": 0.21255948939978972,
+      "I2": 35.64611195061728,
+      "tau2": 3.6091470931165053,
+      "common": {
+        "effect": 5.23590754672355,
+        "ci_low": 2.0559380210113702,
+        "ci_high": 8.41587707243573
+      },
+      "random": {
+        "effect": 4.884471201318414,
+        "ci_low": 0.6535193748265924,
+        "ci_high": 9.115423027810236
+      },
+      "study": [
+        {
+          "effect": 2.0,
+          "ci_low": -3.999841749474014,
+          "ci_high": 7.999841749474014,
+          "weight_common": 28.090943406143335,
+          "weight_random": 35.90063997070192
+        },
+        {
+          "effect": 6.5,
+          "ci_low": 2.7500009083795143,
+          "ci_high": 10.249999091620486,
+          "weight_common": 71.90905659385666,
+          "weight_random": 64.09936002929808
+        }
+      ],
+      "pi_low": -31.653508859577073,
+      "pi_high": 41.422451262213904,
+      "se_random_classic": 2.158688557476071,
+      "se_random_hk": 2.158690875205982,
+      "hk_scale": 1.0000021473511291,
+      "log_or_raw_mu_common": 5.23590754672355,
+      "log_or_raw_mu_random": 4.884471201318414,
+      "se_common": 1.6224632446286633,
+      "crit_random": 1.9599639845400543,
+      "crit_prediction": 12.706204736174705,
+      "p_random": 0.023654000165658863
+    },
+    "C": {
+      "k": 3,
+      "df": 2,
+      "Q": 6.699388020591394,
+      "p_Q": 0.035095091194618296,
+      "I2": 70.14652690883476,
+      "tau2": 1.975742300249093,
+      "common": {
+        "effect": 0.48727971625219446,
+        "ci_low": -0.711069213698597,
+        "ci_high": 1.685628646202986
+      },
+      "random": {
+        "effect": 0.39848353409560605,
+        "ci_low": -4.176732386408295,
+        "ci_high": 4.973699454599507
+      },
+      "study": [
+        {
+          "effect": -1.3667,
+          "ci_low": -3.2500293927445383,
+          "ci_high": 0.5166293927445381,
+          "weight_common": 40.4868525520307,
+          "weight_random": 39.00243402615697
+        },
+        {
+          "effect": 1.9833,
+          "ci_low": 0.283423236208411,
+          "ci_high": 3.683176763791589,
+          "weight_common": 49.69717588506779,
+          "weight_random": 41.44898689507288
+        },
+        {
+          "effect": 0.56,
+          "ci_low": -3.264869715829916,
+          "ci_high": 4.3848697158299155,
+          "weight_common": 9.815971562901506,
+          "weight_random": 19.548579078770153
+        }
+      ],
+      "pi_low": -7.184996032800092,
+      "pi_high": 7.981963100991305,
+      "se_random_classic": 1.0633476840367306,
+      "se_random_hk": 1.0633477084659604,
+      "hk_scale": 1.0000000459477747,
+      "log_or_raw_mu_common": 0.48727971625219446,
+      "log_or_raw_mu_random": 0.39848353409560605,
+      "se_common": 0.6114137501521533,
+      "crit_random": 4.302652729749464,
+      "crit_prediction": 4.302652729749464,
+      "p_random": 0.7438559751031588
+    }
+  },
+  "independent_source_inputs": {
+    "A": {
+      "study": [
+        "Kim 2025",
+        "Wu 2025"
+      ],
+      "event_e": [
+        70,
+        28
+      ],
+      "n_e": [
+        114,
+        48
+      ],
+      "event_c": [
+        53,
+        13
+      ],
+      "n_c": [
+        114,
+        48
+      ]
+    },
+    "B": {
+      "study": [
+        "Goh 2024",
+        "Goh 2025"
+      ],
+      "effect": [
+        "2.0000",
+        "6.5000"
+      ],
+      "se": [
+        "3.0612",
+        "1.9133"
+      ]
+    },
+    "C": {
+      "study": [
+        "Goh 2024",
+        "Goh 2025",
+        "Yu He Ke 2025"
+      ],
+      "effect": [
+        "-1.3667",
+        "1.9833",
+        "0.5600"
+      ],
+      "se": [
+        "0.9609",
+        "0.8673",
+        "1.9515"
+      ]
+    }
+  },
+  "independent_original_targets": {
+    "A": {
+      "study": [
+        {
+          "effect": 1.32,
+          "ci_low": 1.03,
+          "ci_high": 1.69,
+          "weight_common": 82.0,
+          "weight_random": 61.6
+        },
+        {
+          "effect": 2.15,
+          "ci_low": 1.28,
+          "ci_high": 3.63,
+          "weight_common": 18.0,
+          "weight_random": 38.4
+        }
+      ],
+      "common": {
+        "effect": 1.44,
+        "ci_low": 1.16,
+        "ci_high": 1.8
+      },
+      "random": {
+        "effect": 1.59,
+        "ci_low": 0.08,
+        "ci_high": 32.74
+      },
+      "pi_low": 0.02,
+      "pi_high": 163.67,
+      "I2": 63.8,
+      "tau2": 0.0763,
+      "p_Q": 0.0965
+    },
+    "B": {
+      "study": [
+        {
+          "effect": 2.0,
+          "ci_low": -4.0,
+          "ci_high": 8.0,
+          "weight_common": 28.1,
+          "weight_random": 35.9
+        },
+        {
+          "effect": 6.5,
+          "ci_low": 2.75,
+          "ci_high": 10.25,
+          "weight_common": 71.9,
+          "weight_random": 64.1
+        }
+      ],
+      "common": {
+        "effect": 5.24,
+        "ci_low": 2.06,
+        "ci_high": 8.42
+      },
+      "random": {
+        "effect": 4.88,
+        "ci_low": 0.65,
+        "ci_high": 9.12
+      },
+      "pi_low": -31.65,
+      "pi_high": 41.42,
+      "I2": 35.6,
+      "tau2": 3.6091,
+      "p_Q": 0.2126
+    },
+    "C": {
+      "study": [
+        {
+          "effect": -1.37,
+          "ci_low": -3.25,
+          "ci_high": 0.52,
+          "weight_random": 39.0
+        },
+        {
+          "effect": 1.98,
+          "ci_low": 0.28,
+          "ci_high": 3.68,
+          "weight_random": 41.4
+        },
+        {
+          "effect": 0.56,
+          "ci_low": -3.26,
+          "ci_high": 4.38,
+          "weight_random": 19.5
+        }
+      ],
+      "random": {
+        "effect": 0.4,
+        "ci_low": -4.18,
+        "ci_high": 4.97
+      },
+      "pi_low": -7.18,
+      "pi_high": 7.98,
+      "I2": 70.1,
+      "tau2": 1.9757,
+      "p_Q": 0.0351,
+      "Q": 6.7
+    }
+  },
+  "solver_traces": {
+    "A": [
+      {
+        "step": 0,
+        "root": "100.0",
+        "function": "-0.99880465903209766019525937711858032846129165271543821732274738483860332599500589",
+        "bracket_width": "100.0"
+      },
+      {
+        "step": 1,
+        "root": "63.827483425756496607320301280805288383922443343028904595162263944064171476465823",
+        "function": "-0.99812769070224403339532388191777315378702426784858581213783504378222442659769644",
+        "bracket_width": "63.827483425756496607320301280805288383922443343028904595162263944064171476465823"
+      },
+      {
+        "step": 2,
+        "root": "31.913741712878248303660150640402644191961221671514452297581131972032085738232911",
+        "function": "-0.99625791770743465865330861889179547142526546532599570025437078748952349888738867",
+        "bracket_width": "31.913741712878248303660150640402644191961221671514452297581131972032085738232911"
+      },
+      {
+        "step": 3,
+        "root": "15.956870856439124151830075320201322095980610835757226148790565986016042869116456",
+        "function": "-0.9925259600398960033840386213936361424619952908132213568671224357587758817758703",
+        "bracket_width": "15.956870856439124151830075320201322095980610835757226148790565986016042869116456"
+      },
+      {
+        "step": 4,
+        "root": "7.9784354282195620759150376601006610479903054178786130743952829930080214345582278",
+        "function": "-0.98509225466351431546287347838711372689395496191470516020110186445924735599775592",
+        "bracket_width": "7.9784354282195620759150376601006610479903054178786130743952829930080214345582278"
+      },
+      {
+        "step": 5,
+        "root": "3.9892177141097810379575188300503305239951527089393065371976414965040107172791139",
+        "function": "-0.97034454864869895032784787854564408266981338284786804703182460218649827251290465",
+        "bracket_width": "3.9892177141097810379575188300503305239951527089393065371976414965040107172791139"
+      },
+      {
+        "step": 6,
+        "root": "1.994608857054890518978759415025165261997576354469653268598820748252005358639557",
+        "function": "-0.94131905563908689015380001852811074877598703505255624531916281782684819623198922",
+        "bracket_width": "1.994608857054890518978759415025165261997576354469653268598820748252005358639557"
+      },
+      {
+        "step": 7,
+        "root": "0.99730442852744525948937970751258263099878817723482663429941037412600267931977848",
+        "function": "-0.88507932312064729203452214639879695518982677229785381454553414418120702661434641",
+        "bracket_width": "0.99730442852744525948937970751258263099878817723482663429941037412600267931977848"
+      },
+      {
+        "step": 8,
+        "root": "0.49865221426372262974468985375629131549939408861741331714970518706300133965988924",
+        "function": "-0.77933848330101543884596376713880368562150701772635934490602807209588624439198426",
+        "bracket_width": "0.49865221426372262974468985375629131549939408861741331714970518706300133965988924"
+      },
+      {
+        "step": 9,
+        "root": "0.24932610713186131487234492687814565774969704430870665857485259353150066982994462",
+        "function": "-0.59132206539093719136135687675313830847184065180790851542157344711534961187061174",
+        "bracket_width": "0.24932610713186131487234492687814565774969704430870665857485259353150066982994462"
+      },
+      {
+        "step": 10,
+        "root": "0.12466305356593065743617246343907282887484852215435332928742629676575033491497231",
+        "function": "-0.28798154190682640273955888080997764245709082938203054908200197857038421858245563",
+        "bracket_width": "0.12466305356593065743617246343907282887484852215435332928742629676575033491497231"
+      },
+      {
+        "step": 11,
+        "root": "0.062331526782965328718086231719536414437424261077176664643713148382875167457486155",
+        "function": "0.13220834853293676921326546338960732129001891973419362149666838948749824750470827",
+        "bracket_width": "0.062331526782965328718086231719536414437424261077176664643713148382875167457486155"
+      },
+      {
+        "step": 12,
+        "root": "0.081943488910106808684889834581757855021868421676822611714146043124677637289066214",
+        "function": "-0.04509873859091066745777018287559696671888319580876473988761889720464790034271341",
+        "bracket_width": "0.019611962127141479966803602862221440584444160599645947070432894741802469831580059"
+      },
+      {
+        "step": 13,
+        "root": "0.076955111019667516149541645553653936248814098401105684021183270206463522986910141",
+        "function": "-0.0054846629038086513553067711709920803044429907385330707612060611807545422003500855",
+        "bracket_width": "0.014623584236702187431455413834117521811389837323929019377470121823588355529423986"
+      },
+      {
+        "step": 14,
+        "root": "0.07629196870486035364991691400263260702714553006240762014366594446256376741141728",
+        "function": "0.000030415160978681028129475189237598537748907989611672503021950340898432749381448109",
+        "bracket_width": "0.00066314231480716249962473155102132922166856833869806387751732574389975557549286141"
+      },
+      {
+        "step": 15,
+        "root": "0.07629196870486035364991691400263260702714553006240762014366594446256376741141728",
+        "function": "0.000030415160978681028129475189237598537748907989611672503021950340898432749381448109",
+        "bracket_width": "0.000061035156250033880440100047139417823466979232719177137735960773143936671101023079"
+      }
+    ],
+    "B": [
+      {
+        "step": 0,
+        "root": "0.0",
+        "function": "0.55390766635986032336060383479871826912200233475509336651143875978560595500021677",
+        "bracket_width": "111.278952225"
+      },
+      {
+        "step": 1,
+        "root": "0.0",
+        "function": "0.55390766635986032336060383479871826912200233475509336651143875978560595500021677",
+        "bracket_width": "41.989260359186533397530864197530864197530864197530864197530864197530864197530864"
+      },
+      {
+        "step": 2,
+        "root": "0.0",
+        "function": "0.55390766635986032336060383479871826912200233475509336651143875978560595500021677",
+        "bracket_width": "17.290179226460907166919018371589696692577351013565005334552659655540313976527968"
+      },
+      {
+        "step": 3,
+        "root": "8.4859171151157388906342976864724921195015062819767387160569094217420183990320657",
+        "function": "-0.32507866343682675408544044232508553686746854656616951125861542378095873648076098",
+        "bracket_width": "8.4859171151157388906342976864724921195015062819767387160569094217420183990320657"
+      },
+      {
+        "step": 4,
+        "root": "5.3475399864798592589703487004571970017272031810831770438449887971722631324230248",
+        "function": "-0.14653264483451751130373884676966456968907651734941482107019053270448085840639403",
+        "bracket_width": "5.3475399864798592589703487004571970017272031810831770438449887971722631324230248"
+      },
+      {
+        "step": 5,
+        "root": "2.6737699932399296294851743502285985008636015905415885219224943985861315662115124",
+        "function": "0.10178883997825493133911233906140926075713042437574327254800360016666862109279484",
+        "bracket_width": "2.6737699932399296294851743502285985008636015905415885219224943985861315662115124"
+      },
+      {
+        "step": 6,
+        "root": "3.7697683768907042163833643219645940708192514716326500945191677575091846087237262",
+        "function": "-0.015614018535003427297009595686716221378671772266199946906462663050269768206239279",
+        "bracket_width": "1.0959983836507745868981899717359955699556498810910615725966733589230530425122138"
+      },
+      {
+        "step": 7,
+        "root": "3.6240058350465938396037719521244807043517963365902593797409672149898114650549857",
+        "function": "-0.0014632385162133929473467319078689732762577383397405101670796506653964613099052095",
+        "bracket_width": "0.95023584180666421011859760189588220348819474604867085781847281640367989884347331"
+      },
+      {
+        "step": 8,
+        "root": "3.6091470931165054196939680676744331982177300445966880027366597971744782391260634",
+        "function": "0.000002147351129090210041160895739622740772587460473566049459614432211487618761123619",
+        "bracket_width": "0.014858741930088419909803884450047506134066291993571377004307417815333225928922333"
+      },
+      {
+        "step": 9,
+        "root": "3.6091470931165054196939680676744331982177300445966880027366597971744782391260634",
+        "function": "0.000002147351129090210041160895739622740772587460473566049459614432211487618761123619",
+        "bracket_width": "0.000061035156251602783280814759256791099092464862074000167011343570778841476264088638"
+      }
+    ],
+    "C": [
+      {
+        "step": 0,
+        "root": "100.0",
+        "function": "-1.9439475369959491777768452015064240374645338194745854569406853337304718456605285",
+        "bracket_width": "100.0"
+      },
+      {
+        "step": 1,
+        "root": "70.738381041496999395563900329369675115347072618895446697747620688030692148973399",
+        "function": "-1.9210393839719702101972620633423704324487929615130499383954073023474130111287253",
+        "bracket_width": "70.738381041496999395563900329369675115347072618895446697747620688030692148973399"
+      },
+      {
+        "step": 2,
+        "root": "35.369190520748499697781950164684837557673536309447723348873810344015346074486699",
+        "function": "-1.8439513972282344187257420868101248803910899172972801659546692628469619293459955",
+        "bracket_width": "35.369190520748499697781950164684837557673536309447723348873810344015346074486699"
+      },
+      {
+        "step": 3,
+        "root": "17.68459526037424984889097508234241877883676815472386167443690517200767303724335",
+        "function": "-1.6951201222078843465078591552916214570080056190541518318849258949709703974684425",
+        "bracket_width": "17.68459526037424984889097508234241877883676815472386167443690517200767303724335"
+      },
+      {
+        "step": 4,
+        "root": "8.8422976301871249244454875411712093894183840773619308372184525860038365186216749",
+        "function": "-1.4171208127317725287743593588073684252209013436614809994082217280945160866839319",
+        "bracket_width": "8.8422976301871249244454875411712093894183840773619308372184525860038365186216749"
+      },
+      {
+        "step": 5,
+        "root": "4.4211488150935624622227437705856046947091920386809654186092262930019182593108374",
+        "function": "-0.92836339518777372276637979967198833256694416706535756007089021116275177100204566",
+        "bracket_width": "4.4211488150935624622227437705856046947091920386809654186092262930019182593108374"
+      },
+      {
+        "step": 6,
+        "root": "2.2105744075467812311113718852928023473545960193404827093046131465009591296554187",
+        "function": "-0.15369094776084580690685710866016988650075026978805924731504118122683851216093993",
+        "bracket_width": "2.2105744075467812311113718852928023473545960193404827093046131465009591296554187"
+      },
+      {
+        "step": 7,
+        "root": "1.8328063663470169630121603054417639933485168307566158446170466091720572535944593",
+        "function": "0.10676159303808820389356557786680601722777664059775071739273914963385453036886608",
+        "bracket_width": "0.37776804119976426809921157985103835400607918858386686468756653732890187606095943"
+      },
+      {
+        "step": 8,
+        "root": "1.9876565273538933423253566680401080849838907230764894247831142944300997382044772",
+        "function": "-0.0084117817747908842946084623906547657111095446250890325044531637659630247318000108",
+        "bracket_width": "0.15485016100687637931319636259834409163537389231987358016606768525804248461001792"
+      },
+      {
+        "step": 9,
+        "root": "1.9763469189978185029420429808123717088324158541124600066324365308650268299057418",
+        "function": "-0.00042850402181367272280680476290026348127442940299376165239008978572092406489801903",
+        "bracket_width": "0.14354055265080153992988267537060771548389902335584416201538992169296957631128253"
+      },
+      {
+        "step": 10,
+        "root": "1.9757423002490929385437044328746688189896883791050420499659805108816237231742277",
+        "function": "0.000000091895549495090674935569410506243933841505845772620629856410921536335419695426083",
+        "bracket_width": "0.00060461874872556439833854793770288984272747500741795666645601998340310673151414058"
+      },
+      {
+        "step": 11,
+        "root": "1.9757423002490929385437044328746688189896883791050420499659805108816237231742277",
+        "function": "0.000000091895549495090674935569410506243933841505845772620629856410921536335419695426083",
+        "bracket_width": "0.000061035156250877405836984964854671755511039540928570485247164364239742964329097945"
+      }
+    ]
+  }
+}

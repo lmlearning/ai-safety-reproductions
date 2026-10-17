@@ -1,0 +1,40 @@
+{
+  "utc": "2026-10-11T04:58:36.833033+00:00",
+  "files": [
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\runs\\original001\\ALL50_PRIMARY_CHECKS.json",
+      "bytes": 33661,
+      "sha256": "08f529f4d45cc4e96a516ee15bedc819738420a46f3bbd1e8285ab42c2f90e1d"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\runs\\original001\\ALL_ORIGINAL_COMPUTATIONS.json",
+      "bytes": 1055013,
+      "sha256": "dfd84c6dcd6451d8c06b385e246bf3eae69edb8c05e126d1baaf015387d70608"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\runs\\original001\\ALL_SUPPORTING_SOURCE_COMPARISONS.json",
+      "bytes": 169043,
+      "sha256": "846d9771ea70a83dfa0124c36a733dde9a4f7a84fdf1bd5b14cca929d993b982"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\runs\\original001\\NUMERICAL_OPTIMIZER_TRACE.json",
+      "bytes": 2912649,
+      "sha256": "a7c1bf469a6836db00ad76a68603230c5431da6730a4078d72a2a6f9cfb31625"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\runs\\original001\\RESOURCE_SAMPLES.json",
+      "bytes": 568100,
+      "sha256": "57be8d543f9ed56990f350eae783f12199da3ba65adce7f9bfb03f5f4b2da84d"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\runs\\original001\\SUMMARY.json",
+      "bytes": 1584,
+      "sha256": "2d5213a3df7db0aebe208174bac74a68dd3accec874f786e2c798a37b8f26581"
+    }
+  ],
+  "input_freeze": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\method_preparation003\\ROOT_COMPLETE_ORIGINAL_MAIN_RUNTIME_FREEZE005.json",
+    "bytes": 1009198,
+    "sha256": "e36553565c79e259c8dada77886169e9c3fbd2286db759cb03cf6da8d16bc6a4"
+  }
+}

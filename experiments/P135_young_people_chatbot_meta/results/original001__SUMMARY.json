@@ -1,0 +1,47 @@
+{
+  "utc": "2026-10-11T04:58:36.688728+00:00",
+  "mode": "original",
+  "complete_families": 2,
+  "raw_effect_rows": 26,
+  "raw_trial_counts": {
+    "psychological_distress": 11,
+    "psychological_wellbeing": 7
+  },
+  "primary_gates": 50,
+  "primary_passed": 50,
+  "all_primary_passed": true,
+  "all_fits_converged": true,
+  "rounding_qualitative_stability": {
+    "psychological_distress": {
+      "midpoint_point_direction": "negative",
+      "midpoint_CI_classification": "negative_significant",
+      "all_fixed_probe_point_direction_matches": true,
+      "all_fixed_probe_CI_classification_matches": true
+    },
+    "psychological_wellbeing": {
+      "midpoint_point_direction": "positive",
+      "midpoint_CI_classification": "crosses_zero",
+      "all_fixed_probe_point_direction_matches": true,
+      "all_fixed_probe_CI_classification_matches": true
+    }
+  },
+  "whole_trial_leave_out_qualitative_robustness": {
+    "psychological_distress": {
+      "complete_source_leave_outs": true,
+      "all_point_directions_match": true,
+      "all_CI_classifications_match": true
+    },
+    "psychological_wellbeing": {
+      "complete_source_leave_outs": true,
+      "all_point_directions_match": true,
+      "all_CI_classifications_match": true
+    }
+  },
+  "no_primary_rescue": true,
+  "original_human_trials_repeated": false,
+  "supporting_source_displays": 331,
+  "supporting_numeric_passed": 190,
+  "supporting_unavailable": 32,
+  "fit_count": 410,
+  "method": "canonical LS; full-matrix two-component REML; residual Student t"
+}

@@ -1,0 +1,89 @@
+{
+  "paper_id": "P120",
+  "utc_start": "2026-10-10T23:47:56.942525+00:00",
+  "utc_end": "2026-10-10T23:47:57.160327+00:00",
+  "integrity_checks": 20073,
+  "integrity_passed": 20073,
+  "integrity_failed": 0,
+  "mandatory_targets": 141,
+  "mandatory_targets_passed": 141,
+  "mandatory_targets_failed": 0,
+  "successful_central_result": true,
+  "complete_audit": true,
+  "resource_observations": [
+    {
+      "stage": "after independent audit imports",
+      "utc": "2026-10-10T23:47:56.943524+00:00",
+      "RSS_bytes": 55431168,
+      "available_RAM_bytes": 1930190848,
+      "free_disk_bytes": 93768994816,
+      "peak_working_set_bytes": 55431168
+    },
+    {
+      "stage": "independent raw source validated",
+      "utc": "2026-10-10T23:47:57.081969+00:00",
+      "RSS_bytes": 70524928,
+      "available_RAM_bytes": 1900122112,
+      "free_disk_bytes": 93766864896,
+      "peak_working_set_bytes": 73883648
+    },
+    {
+      "stage": "independent rank and primary formulas",
+      "utc": "2026-10-10T23:47:57.084968+00:00",
+      "RSS_bytes": 70623232,
+      "available_RAM_bytes": 1900097536,
+      "free_disk_bytes": 93766864896,
+      "peak_working_set_bytes": 73883648
+    },
+    {
+      "stage": "independent issue Unsafe",
+      "utc": "2026-10-10T23:47:57.084968+00:00",
+      "RSS_bytes": 70627328,
+      "available_RAM_bytes": 1900097536,
+      "free_disk_bytes": 93766864896,
+      "peak_working_set_bytes": 73883648
+    },
+    {
+      "stage": "independent issue Includes Problematic Content",
+      "utc": "2026-10-10T23:47:57.084968+00:00",
+      "RSS_bytes": 70627328,
+      "available_RAM_bytes": 1900097536,
+      "free_disk_bytes": 93766864896,
+      "peak_working_set_bytes": 73883648
+    },
+    {
+      "stage": "independent issue Missing Important Info",
+      "utc": "2026-10-10T23:47:57.084968+00:00",
+      "RSS_bytes": 70631424,
+      "available_RAM_bytes": 1900093440,
+      "free_disk_bytes": 93766864896,
+      "peak_working_set_bytes": 73883648
+    },
+    {
+      "stage": "independent issue Missing History Taking",
+      "utc": "2026-10-10T23:47:57.084968+00:00",
+      "RSS_bytes": 70631424,
+      "available_RAM_bytes": 1900093440,
+      "free_disk_bytes": 93766864896,
+      "peak_working_set_bytes": 73883648
+    },
+    {
+      "stage": "independent issue Poor Writing",
+      "utc": "2026-10-10T23:47:57.085968+00:00",
+      "RSS_bytes": 70639616,
+      "available_RAM_bytes": 1900093440,
+      "free_disk_bytes": 93766864896,
+      "peak_working_set_bytes": 73883648
+    },
+    {
+      "stage": "complete independent audit",
+      "utc": "2026-10-10T23:47:57.095786+00:00",
+      "RSS_bytes": 71741440,
+      "available_RAM_bytes": 1899683840,
+      "free_disk_bytes": 93766832128,
+      "peak_working_set_bytes": 73883648
+    }
+  ],
+  "audit_exit_policy": "exit0 if all independent integrity checks pass, retaining any scientific failure; exit2 for integrity failures",
+  "exit_status": 0
+}

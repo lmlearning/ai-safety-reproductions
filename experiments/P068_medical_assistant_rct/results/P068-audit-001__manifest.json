@@ -1,0 +1,17 @@
+[
+  {
+    "path": "papers\\P068_medical_assistant_rct\\audits\\P068-audit-001\\audit.json",
+    "sha256": "69e825c99aa4674c20febd8200fd53eed1ddc720c4cd8efaff94b33daeaeec95",
+    "bytes": 227638
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\audits\\P068-audit-001\\auditor.py",
+    "sha256": "319fb42a6c182ad3102069c92bc3708e969a8066a1ab366f7629ae5dd970c98a",
+    "bytes": 14905
+  },
+  {
+    "path": "papers\\P068_medical_assistant_rct\\audits\\P068-audit-001\\independent_scores.csv",
+    "sha256": "c8b865131e280e880398a93ce5efa87472c467354578338399d74e4a35d612d1",
+    "bytes": 134373
+  }
+]

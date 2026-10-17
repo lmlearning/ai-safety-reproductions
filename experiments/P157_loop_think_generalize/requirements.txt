@@ -1,0 +1,6 @@
+# Direct Python dependencies identified in the included scientific code.
+# Historical versions are recorded in the archived configuration/evidence.
+# This is not a newly tested or locked environment; R and accelerator setup are separate.
+numpy
+torch
+transformers

@@ -1,0 +1,17 @@
+{
+  "ordinal": 12,
+  "paper_id": "P150",
+  "title": "Racial bias in AI-mediated psychiatric diagnosis and treatment: a qualitative comparison of four large language models",
+  "classification": "Strict CENTRAL",
+  "recorded_public_date": "2025-06-04",
+  "window": "Extended",
+  "citations": 53,
+  "provider": "Semantic Scholar",
+  "capture_time_supported": true,
+  "route": "Released judged responses",
+  "result_and_scope": "Complete160-rating Table9 family/four models;25 central gates and13,087 checks pass. Seven raw conflicts and auxiliary failures remain.",
+  "DOI": "10.1038/s41746-025-01746-4",
+  "arxiv_id": null,
+  "preserved_limits": "4Jun positive public release; earlier removed OSF substantive findings UNKNOWN. Designated complete160-rating Table9 result; historical generation/rater-agreement/pilot/power unavailable.",
+  "whole_paper_reproduction": false
+}

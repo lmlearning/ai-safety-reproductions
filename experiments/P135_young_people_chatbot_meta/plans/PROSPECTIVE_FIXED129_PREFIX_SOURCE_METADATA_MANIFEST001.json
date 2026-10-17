@@ -1,0 +1,1083 @@
+{
+  "utc": "2026-10-11T06:15:52.027830+00:00",
+  "source_only_no_capsule_JSON_decode_or_results_read": true,
+  "completed_prefix_count": 129,
+  "expected_fit_requests": 410,
+  "new_fit_ordinals": [
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339,
+    340,
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    387,
+    388,
+    389,
+    390,
+    391,
+    392,
+    393,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399,
+    400,
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410
+  ],
+  "prefix_root": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES",
+  "original_freeze_sha256": "2f3bc30324dcc339b9a4a1a000341eb7727a2376d966c93ebd8c481785a58c8f",
+  "original_auditor_sha256": "a233a75c9b928f89385254db81dc14695a8c15fe9936f2204b17a173075f73cb",
+  "completed_prefix": [
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0001.json",
+      "bytes": 147134,
+      "sha256": "66628b139eb762f5f954a1fd470af22d90edb155f476378efa9dba8108c24c6e",
+      "ordinal": 1
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0002.json",
+      "bytes": 147180,
+      "sha256": "7e4c457d880212569df8de21077e5813c18b5c32563c6797423d81be2d46cd48",
+      "ordinal": 2
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0003.json",
+      "bytes": 147175,
+      "sha256": "013accf2f7e8f3ed4ddc22ef51afdf57cf1b5a020bcb9baa91b07c2b498c7c0f",
+      "ordinal": 3
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0004.json",
+      "bytes": 147152,
+      "sha256": "106536642646582f582d25f57f4c96fb9e9801733d4ac75fd6c52369e4f84f28",
+      "ordinal": 4
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0005.json",
+      "bytes": 147175,
+      "sha256": "6113feb618e8a234d3c107cbc2d0202d20811e533d5f565b16a9dfd5b6b66698",
+      "ordinal": 5
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0006.json",
+      "bytes": 146097,
+      "sha256": "29a93a62f013713945095e503b07d16886de4d8ad33ead69366f3389fc8efa28",
+      "ordinal": 6
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0007.json",
+      "bytes": 147182,
+      "sha256": "4c559095e8e33a7ad547d8604c6210a69dff88a3cf5c6e3ba9d3da30f7fdfff9",
+      "ordinal": 7
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0008.json",
+      "bytes": 147176,
+      "sha256": "821dd4003af31035bdf363bcc9c7ef205c40a455a8a44ab9bb5c365960bb1527",
+      "ordinal": 8
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0009.json",
+      "bytes": 147184,
+      "sha256": "d20d34222f9447cc9cda20be27753f95fed21ed4e3587e9f12a055a68277c872",
+      "ordinal": 9
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0010.json",
+      "bytes": 146083,
+      "sha256": "d590d65363dc96b74e333eb8ea558b7506fb9f9339aeedacb47e360d24bd2aa1",
+      "ordinal": 10
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0011.json",
+      "bytes": 147184,
+      "sha256": "180dd6c4e5e271cc26a0036473ddb4dc05762baa3bb630e79ec568723951bac4",
+      "ordinal": 11
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0012.json",
+      "bytes": 147256,
+      "sha256": "d04495f21f4fcf79ae04e3cb8da87cd5044e336e0f0e23d87a36bee9d40418da",
+      "ordinal": 12
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0013.json",
+      "bytes": 147249,
+      "sha256": "4496a8596b24cb212f2dcaee14ff94d618ac3ae480b5473e3eebf1c674fc6592",
+      "ordinal": 13
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0014.json",
+      "bytes": 147108,
+      "sha256": "10a02a68561c90d58f17b608b6e73fb36d7028c6877ca1baf0ae41923cc1ea7b",
+      "ordinal": 14
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0015.json",
+      "bytes": 147177,
+      "sha256": "1f88763cbea0b22d65462b19ffe79b16eff616e2603d5eda0e9e24f8b6b14bc5",
+      "ordinal": 15
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0016.json",
+      "bytes": 147180,
+      "sha256": "71c841d2329ac6bb97fcb60ee689e17e8a8ce778e2205e7a5e39905e681a31aa",
+      "ordinal": 16
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0017.json",
+      "bytes": 147108,
+      "sha256": "a749aa368324f7e48143ba235e501db88c40776d726ccd059d108ad3d69ce01f",
+      "ordinal": 17
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0018.json",
+      "bytes": 147173,
+      "sha256": "df707d6482ac85a30ff4c4144022eaebfcd688431c5e0dc6a5da17d7bb3c7ebd",
+      "ordinal": 18
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0019.json",
+      "bytes": 147177,
+      "sha256": "4da3591b5df6dbe91fb425acb0d0ab5f846d2e69e3fd553a9d938410b203cb1c",
+      "ordinal": 19
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0020.json",
+      "bytes": 147175,
+      "sha256": "788ee7ee6036af791b6d45b0a878b694c9cdded097cf79fa625b0e39772edfa1",
+      "ordinal": 20
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0021.json",
+      "bytes": 147181,
+      "sha256": "4439d3cdc1729bd63553e44a2538bf0cd201c8576ac648c34408edf1c6194b56",
+      "ordinal": 21
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0022.json",
+      "bytes": 147179,
+      "sha256": "8320bebd964d48079309a29668523f6d05784f37f3508cbaf2f613c85aeec44b",
+      "ordinal": 22
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0023.json",
+      "bytes": 147175,
+      "sha256": "21a2738b5cbe00009bd4d1c197aa0eef3cb6f2a9d8cec717330416957f50da18",
+      "ordinal": 23
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0024.json",
+      "bytes": 146098,
+      "sha256": "67720374683155215bb2d268bf460aa1e91f62e6a7f67aaec093561d3edec24a",
+      "ordinal": 24
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0025.json",
+      "bytes": 147182,
+      "sha256": "cbdec3bc703311a14859020734bb4ae11985c3fb3ce7e42601ef0e17b2fd9b74",
+      "ordinal": 25
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0026.json",
+      "bytes": 147179,
+      "sha256": "f114309c7df0ea5b2f8ed3de9c8ac51d4dff55b4c005283faeb1d8aff21b31c8",
+      "ordinal": 26
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0027.json",
+      "bytes": 147173,
+      "sha256": "af629dff609bf13e4c7c034412ebaab402f8a3fc163d0ff77df53a93cfacbb3e",
+      "ordinal": 27
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0028.json",
+      "bytes": 146091,
+      "sha256": "a2b1561d1d38ffe55098364a3ec7d5fad14d7dbd5557c2fba54813e5d8097ef2",
+      "ordinal": 28
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0029.json",
+      "bytes": 147182,
+      "sha256": "96ff494fbeaf23647633071ec315afbba2d16761156280787066ae7435bc8af2",
+      "ordinal": 29
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0030.json",
+      "bytes": 147180,
+      "sha256": "198ed31416e81dd2db19646b6d4d3c576024331b759ff69c7338f5f0c5db5af9",
+      "ordinal": 30
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0031.json",
+      "bytes": 147180,
+      "sha256": "433865bb43943cb81d9308c409230f5273be9b1428f021feefbcad8368676b6c",
+      "ordinal": 31
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0032.json",
+      "bytes": 147176,
+      "sha256": "c7345f87e1a12ae8c859cefb26ff0d623a8620e977d5209e1856faa6f1ed5819",
+      "ordinal": 32
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0033.json",
+      "bytes": 147183,
+      "sha256": "02384954798cc4bf290b0ab34290dce1c87ec1ac15eaa173b837d5bd14b00cf6",
+      "ordinal": 33
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0034.json",
+      "bytes": 146089,
+      "sha256": "8b37f087a4b074b756247bd4e4d90439c77a261409ef4618fe2676cbc91031ad",
+      "ordinal": 34
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0035.json",
+      "bytes": 147177,
+      "sha256": "246c2d22e5762532c1451fef5c8276f2403b3067b5a65ba2f55ca210b07a28e1",
+      "ordinal": 35
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0036.json",
+      "bytes": 147180,
+      "sha256": "214b30e8249c8f1d514b237e00799d7362d20fac527506d6054cae99545e2cb9",
+      "ordinal": 36
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0037.json",
+      "bytes": 147174,
+      "sha256": "4d9cf60a0781b90a720bc83f6cb46bfd249cb54b0e3acb12438e1cbd95d3fe2c",
+      "ordinal": 37
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0038.json",
+      "bytes": 173545,
+      "sha256": "505993956067b3ca979cb2aa502f2322ed99f7f3a7b67393b62573784c14c46d",
+      "ordinal": 38
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0039.json",
+      "bytes": 173538,
+      "sha256": "d031a096b5fef056e46527804c1e49ca303119dce228a629a4c37c84f624316a",
+      "ordinal": 39
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0040.json",
+      "bytes": 173582,
+      "sha256": "f51b8bae2770f52198b96b98d62fff9f7cdc1879cba9f57fa452981e2226ab6e",
+      "ordinal": 40
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0041.json",
+      "bytes": 173606,
+      "sha256": "6868e2d21872b64fd0614683e60850111c83e8789946b5bc3ff5a61e755b3abc",
+      "ordinal": 41
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0042.json",
+      "bytes": 173563,
+      "sha256": "206de97495d8af84e546f52ec9e5b8f83e715f626c2687c229281ebe05eff48a",
+      "ordinal": 42
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0043.json",
+      "bytes": 173577,
+      "sha256": "6ef19024cdb5e71d7ae8aa25022906ef9584068028e1631e3a762b072320115a",
+      "ordinal": 43
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0044.json",
+      "bytes": 173581,
+      "sha256": "87b6f5f446605c2bef3a9adfd21cfc0c2ff9bfda431c109613ed0a3a416d3541",
+      "ordinal": 44
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0045.json",
+      "bytes": 173607,
+      "sha256": "0612482339794fe038e1be7ec81495fd1241714921929f68a486b39905992174",
+      "ordinal": 45
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0046.json",
+      "bytes": 173615,
+      "sha256": "8da3e8c6283ca5d16662443f4ac2e35b4268c9055f9ebb42168210478e1da8eb",
+      "ordinal": 46
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0047.json",
+      "bytes": 173636,
+      "sha256": "ee8d3997ef6582b85241d3327b23b4bcc4e5bbea09bcd44ee64350fbab724466",
+      "ordinal": 47
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0048.json",
+      "bytes": 173574,
+      "sha256": "8f828077e62a987670890c873f6880599647c166bd2a9c5dfe6f21d0a3ab5f0b",
+      "ordinal": 48
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0049.json",
+      "bytes": 173604,
+      "sha256": "63e83ef784f9990c5cea24358e3e4c3c3dc233aba2997d9ab686ab7607dc8d5f",
+      "ordinal": 49
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0050.json",
+      "bytes": 173599,
+      "sha256": "eea81e948305bd77daa295a57c9eb32b22425c4e20d88e7b3fc26d209b58b711",
+      "ordinal": 50
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0051.json",
+      "bytes": 173600,
+      "sha256": "b1b9de74785aab0069e825ec7e187f58955d27a10d34a2441611588096a3aa5b",
+      "ordinal": 51
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0052.json",
+      "bytes": 173589,
+      "sha256": "4ee17f2430ecf9f53431ac222699183b6ce45bd0a30682f2f848d359c1cc6dee",
+      "ordinal": 52
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0053.json",
+      "bytes": 173631,
+      "sha256": "090eb28e3800b993ebdfaa44743ea47731afb9556db4ac58921b1b0e0dcc83bb",
+      "ordinal": 53
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0054.json",
+      "bytes": 173627,
+      "sha256": "bb4ff4412ec355856e4cc5e41befdf89fb419492afa7333a2422012d9e925746",
+      "ordinal": 54
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0055.json",
+      "bytes": 173665,
+      "sha256": "d10e9e85161e18850c313e09f03ceae0ebb949775f0815084db8ceeda6453ed6",
+      "ordinal": 55
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0056.json",
+      "bytes": 173641,
+      "sha256": "a7f15b9d7d2682532fa8e9614a4607dc7889385152a233d8a0a6f6b8a7fb9fc2",
+      "ordinal": 56
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0057.json",
+      "bytes": 173635,
+      "sha256": "b69d1fbb54f43386b76a1b5a1487d0006303786898df1d067c8d6fa46820b266",
+      "ordinal": 57
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0058.json",
+      "bytes": 173666,
+      "sha256": "f3d15487eec4d13fdf9c83b5716a9461bcd551fae58e3233194695047c22e2a1",
+      "ordinal": 58
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0059.json",
+      "bytes": 173634,
+      "sha256": "ada83509bbb38dd704b2d2594020d9410c54a074c6d64b391f980e654a368d83",
+      "ordinal": 59
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0060.json",
+      "bytes": 173657,
+      "sha256": "7ec4b112ce2243f00f43d126dc532051ef012feb795250f8644f11d5381978d4",
+      "ordinal": 60
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0061.json",
+      "bytes": 173594,
+      "sha256": "1b86563d8f786b989b2471992fe97b03e3f0aa9ea5bb0c3b520cb38ea2a00b11",
+      "ordinal": 61
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0062.json",
+      "bytes": 173668,
+      "sha256": "9ac3a01885def937cbd688ad79999a0b133f037fa4f6da90a9dec7ed98416ccd",
+      "ordinal": 62
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0063.json",
+      "bytes": 173619,
+      "sha256": "4cc15480733afb3fbe0d8389a6141f0659198cf1e73375c4a7205f9cb28d4023",
+      "ordinal": 63
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0064.json",
+      "bytes": 173629,
+      "sha256": "997c9630c540ba3d3a460c0198189796b5a8a49c9861c3175f4ce2d93dc824ce",
+      "ordinal": 64
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0065.json",
+      "bytes": 173638,
+      "sha256": "8ceabb05deab9bb344a96a780dd1843591aa879101ccb9a8975d30d30d1ec8c4",
+      "ordinal": 65
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0066.json",
+      "bytes": 173655,
+      "sha256": "e508c15663910abca080585a11d7abe4bccb72b84e87bebece1cbb93dbecae6f",
+      "ordinal": 66
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0067.json",
+      "bytes": 173637,
+      "sha256": "38c8bd775fb4f1e2116b0a5fd4a68cf67eaca768a465329c108a6a6ff596fcd2",
+      "ordinal": 67
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0068.json",
+      "bytes": 173672,
+      "sha256": "9a42fcf29fe2c0a3a0c3e00e3015d50951ee6ee03d96d7e7c2b74a989b5acf88",
+      "ordinal": 68
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0069.json",
+      "bytes": 173677,
+      "sha256": "982445b79912c1cf919ec5cf4a0bdcb2a00e3b1ee9453438fff1eb562004e9c1",
+      "ordinal": 69
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0070.json",
+      "bytes": 173634,
+      "sha256": "342bcbfe16cf32c57f3d38e224d1232cf7a79561988901227e3cac8a845c440b",
+      "ordinal": 70
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0071.json",
+      "bytes": 173648,
+      "sha256": "ef30f231befdf18cd0f516ef2f1bd5ed72a34e6965404b850e6073b595086b50",
+      "ordinal": 71
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0072.json",
+      "bytes": 173670,
+      "sha256": "fe509a3b13c8916fc72efa4f315bd4c815d282d4ebf60582d2a6fd6c45ea5fc7",
+      "ordinal": 72
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0073.json",
+      "bytes": 173645,
+      "sha256": "b8a06f2e07d03d5775f08badd3a48beb42e1a0362350e797faef7850a91c0f95",
+      "ordinal": 73
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0074.json",
+      "bytes": 173676,
+      "sha256": "55521f905e507931b7a59c642a6ccbbc8583aa5b7682e7a270019aa6fcef57f5",
+      "ordinal": 74
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0075.json",
+      "bytes": 173669,
+      "sha256": "53ac627be5ec467eb3f32cf1773d74f1dbea054cdb130f91fb0a818ef69871b1",
+      "ordinal": 75
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0076.json",
+      "bytes": 173662,
+      "sha256": "2b8953315618a321efdbd59fa8b9224b1a2b2a2ce4794e3c00eebceee8551db7",
+      "ordinal": 76
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0077.json",
+      "bytes": 173622,
+      "sha256": "9f3159060b51e99901da2cd20f6aa838baaabd3afa11bc5afec80841801b4a3a",
+      "ordinal": 77
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0078.json",
+      "bytes": 173670,
+      "sha256": "e6df55a1c64d8d5a5b9deff773f998820d0ca73d38d1de9c5b94733e53fa0db8",
+      "ordinal": 78
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0079.json",
+      "bytes": 173651,
+      "sha256": "cf16e24bca10067a252d945104e8f5947beb97aaa92f80ba0d070aa72b532f49",
+      "ordinal": 79
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0080.json",
+      "bytes": 173682,
+      "sha256": "5153af700c7b3d645ce18e32a5a0b4c29a0c72c8e574ffe406253af83124e680",
+      "ordinal": 80
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0081.json",
+      "bytes": 173689,
+      "sha256": "887eb2d7e527b31f85cf3e46da0eb66275bae203d448cfc3717b002da083a963",
+      "ordinal": 81
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0082.json",
+      "bytes": 173645,
+      "sha256": "22debc7c60e0658d716520d838f2c6389e78cd5bb79a78b978adb31213f9cf34",
+      "ordinal": 82
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0083.json",
+      "bytes": 173680,
+      "sha256": "ff51ba4e78b5064bb8d8e9f7ca8d120fc41975fd0af44a8ade33bda3cdd45096",
+      "ordinal": 83
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0084.json",
+      "bytes": 173623,
+      "sha256": "bbfabdec0f9e252c2588167a696937300639fbc836d37ec5413df6de8b150711",
+      "ordinal": 84
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0085.json",
+      "bytes": 173617,
+      "sha256": "742f31afc79c032f2e4abffd7790bb95785a0d9249c01d56c6af42464d250d10",
+      "ordinal": 85
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0086.json",
+      "bytes": 173696,
+      "sha256": "ad59cf3917c2cd99392c09006d1e1e5c657d2fda1d3dbed433432654e03d6e3a",
+      "ordinal": 86
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0087.json",
+      "bytes": 173664,
+      "sha256": "96c8601d9a315e63fb6a5393e09cd85a89233169ee9344cafc506461b414bbcd",
+      "ordinal": 87
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0088.json",
+      "bytes": 173680,
+      "sha256": "6c77f0dcc1abc3ca4d702cf0ea54cdd31cd2251b2890c8b47075af2bb0e39f99",
+      "ordinal": 88
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0089.json",
+      "bytes": 173650,
+      "sha256": "dc96c80b27b448b5d325fe104cae4181a7a7894f3bc059d6be32f8e5f6fb809f",
+      "ordinal": 89
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0090.json",
+      "bytes": 173689,
+      "sha256": "3afe8a646baa76883bee69b3eaeed95fa9a4dedb61c428107ced8ee4e3bdeae4",
+      "ordinal": 90
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0091.json",
+      "bytes": 173710,
+      "sha256": "ad694d9716657c2eafc339a5dc2c0fd90c8b391cff9cd93e7bc695b6ed134c69",
+      "ordinal": 91
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0092.json",
+      "bytes": 173642,
+      "sha256": "35e798a34481aff1fbffe7e3bf9fb88ff92b8e8f89c8f4d01bd1290058649cd0",
+      "ordinal": 92
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0093.json",
+      "bytes": 173689,
+      "sha256": "b1f4dc16d49688b0ea0faef46a954e376258852a519c8ea086c5a41160b18e90",
+      "ordinal": 93
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0094.json",
+      "bytes": 173668,
+      "sha256": "eb2a98cd775f72d37382c8770eb278a332cd28c8f05a095eec3deed18579b43f",
+      "ordinal": 94
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0095.json",
+      "bytes": 173693,
+      "sha256": "7b9d1b30d3334f1a09a6fa91e310071a4ea3ba9faa1430d389508562429768e5",
+      "ordinal": 95
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0096.json",
+      "bytes": 173671,
+      "sha256": "e09f915487657f251cb913035b4afe6a61d604380a6ca7fce8ca34e116552bd0",
+      "ordinal": 96
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0097.json",
+      "bytes": 173676,
+      "sha256": "9417f08011c362939f99a319745a813808ba74033d199207a87b4b67a05412af",
+      "ordinal": 97
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0098.json",
+      "bytes": 173699,
+      "sha256": "a987430c409e4bea9cdc1457b57b32bbbf9ab70094cc8bd41d76db81143093c2",
+      "ordinal": 98
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0099.json",
+      "bytes": 173659,
+      "sha256": "162756105a5d6b32d600a997b497060c06b399d37c96718b9c2a079cc02d9c02",
+      "ordinal": 99
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0100.json",
+      "bytes": 173687,
+      "sha256": "b87f1d82f0e2ef2242513f8aaa5c5b0f39d6220e30c125716077879bd9846627",
+      "ordinal": 100
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0101.json",
+      "bytes": 173663,
+      "sha256": "1527ba9e0cc097eb3128bbde8b686846fe5365d5c6f47da75cb1f0cb76191175",
+      "ordinal": 101
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0102.json",
+      "bytes": 173689,
+      "sha256": "7bfb6762b1e9be310c41c9f3a34b655ff185930595941c65049c9ba89ed49dfe",
+      "ordinal": 102
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0103.json",
+      "bytes": 173708,
+      "sha256": "4551e8cab168895fa3e805e1247eb409f0e3c415d4c2cbf8ac0bb9af19212ac0",
+      "ordinal": 103
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0104.json",
+      "bytes": 173695,
+      "sha256": "d452b82081e7421b8d81743363b6d78f3570c9dbb8b9fa0bcc7a6d953515cf7e",
+      "ordinal": 104
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0105.json",
+      "bytes": 173678,
+      "sha256": "906a19a14b8999b9a4f1c0f49201390736cae937cf0a6eef4b7c43f0daa5edea",
+      "ordinal": 105
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0106.json",
+      "bytes": 173722,
+      "sha256": "fdc78eee1cca6b9720b72e0fff3c4d32a35fd97f986993dd152fcfe54a01d1ff",
+      "ordinal": 106
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0107.json",
+      "bytes": 173694,
+      "sha256": "e67687f62c4b5b31a344368878f759bb664ffabd937231019136aa4ddec63017",
+      "ordinal": 107
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0108.json",
+      "bytes": 173724,
+      "sha256": "43238c15b1056c5175be0d1f7ec679decc3ce8646347e30a7d92dfc4e61d7db6",
+      "ordinal": 108
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0109.json",
+      "bytes": 173699,
+      "sha256": "868c0e364dab287873c790bef43098998e8492eb2111b01065ffb6368cda63f4",
+      "ordinal": 109
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0110.json",
+      "bytes": 173696,
+      "sha256": "491220fec78d62fdbf38b09bf5a69fdfd3723db7fcb8fc215d776e7824f75eb0",
+      "ordinal": 110
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0111.json",
+      "bytes": 173698,
+      "sha256": "c3b18cc04883efab0ed303fccc2db230656184059d8ac555df1d49cadd5080b3",
+      "ordinal": 111
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0112.json",
+      "bytes": 173680,
+      "sha256": "fb0f4dee896c6448b3a333d6198e342afbb640f360d6c009031b97ca05b41bd7",
+      "ordinal": 112
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0113.json",
+      "bytes": 173719,
+      "sha256": "4edb41c9070e6e2ba9f951ce0e595f5561463df0912595984f0a7b43fa5be83b",
+      "ordinal": 113
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0114.json",
+      "bytes": 173733,
+      "sha256": "7ef8dc17f3fc108981fbd2239538a305662f5b8012483fbc8c267b6c735b62ce",
+      "ordinal": 114
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0115.json",
+      "bytes": 173735,
+      "sha256": "99b679407b8e6c3d0b8b4643554cee5df38a6e4aee7ee46a8a237a1a2f8e37f3",
+      "ordinal": 115
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0116.json",
+      "bytes": 173754,
+      "sha256": "2894303a2dc267735cf34c48822a3a66885a61ee1d1235d0e886ea9f68b0b8f8",
+      "ordinal": 116
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0117.json",
+      "bytes": 173736,
+      "sha256": "0a977e0ae1df8fc7af82e9ad883786553db20d652660f564434ad44acb649d0d",
+      "ordinal": 117
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0118.json",
+      "bytes": 173688,
+      "sha256": "1a4bbf8cfebdc5e7861b8ea6a6750fa8e7a88e61b270d0fb6474c03d63c7c7ee",
+      "ordinal": 118
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0119.json",
+      "bytes": 173745,
+      "sha256": "fac623faefe629c27efc163d6ed2438406691ae36e7a8d79d22a24f48ec48613",
+      "ordinal": 119
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0120.json",
+      "bytes": 173696,
+      "sha256": "99bd496c8509ca06a871e91708ae2328ce5dfa1b6f0ef53009b64f08b718d502",
+      "ordinal": 120
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0121.json",
+      "bytes": 173708,
+      "sha256": "1d05ef8b57cd0a66eba8c5171f30554d569ce53da80a88122c1a773d6f2fa953",
+      "ordinal": 121
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0122.json",
+      "bytes": 173655,
+      "sha256": "d7acae753a0494533ccedeb535075136afcf3c659c7de3e79d026911580d1ddb",
+      "ordinal": 122
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0123.json",
+      "bytes": 173715,
+      "sha256": "6795e9f49658ee212826c42d0ad90ff8e753156f01cb68dd4fa3cf5421436f87",
+      "ordinal": 123
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0124.json",
+      "bytes": 173674,
+      "sha256": "bb226ddc145dbeeb6d3a6bda0b3b1ecccaa8b1e3a19e360fb59f0ab9d31840b7",
+      "ordinal": 124
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0125.json",
+      "bytes": 173696,
+      "sha256": "80f68105f67de198a5a327c87cdc4cd3768a8b9071e1b69e9d5b694a7d896566",
+      "ordinal": 125
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0126.json",
+      "bytes": 173721,
+      "sha256": "bbb8e916e48bc443be26c264a8cb8ac981cdd74fcdf7a324f7e0bd2a34209747",
+      "ordinal": 126
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0127.json",
+      "bytes": 173712,
+      "sha256": "3ddfbec93e947676e5eb36bb462717017a3a468fcd3fef9ec9135118af0df8c1",
+      "ordinal": 127
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0128.json",
+      "bytes": 173715,
+      "sha256": "138a14f870d529c7cbb586be2f43450b96cd07bfe3e313cd6b71e7b159ab010f",
+      "ordinal": 128
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0129.json",
+      "bytes": 173713,
+      "sha256": "3f2ecaaa1c51cbc77363d1dd3d1438ef15d42117b0fa907b43df84a8bc0d698a",
+      "ordinal": 129
+    }
+  ],
+  "root_stop_closure": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\method_preparation003\\ROOT_COMPLETE_ORIGINAL014_RAM_STOP_CLOSURE013.json",
+    "bytes": 95590,
+    "sha256": "3702abebd3ff13f81a0f75517df2c11095ece65324de1885650136188e52b186"
+  },
+  "prior_conservative_charge_seconds": 4285,
+  "shared_budget_seconds": 10800,
+  "remaining_shared_seconds": 6515,
+  "proposed_phase_wall_seconds": 6200,
+  "reserved_comparison_or_closure_seconds": 315,
+  "approved_execution": false,
+  "historical_POST_flags_recovered": false,
+  "PRE_only_boundary_disclosure": "Replay validates each exact recorded PRE/context/input signature and numeric payload; mathematical core does not read sticky flags; unrecorded POST flags and cache state are not reconstructed.",
+  "historical_dispatcher_final_native_peak": "UNKNOWN_NOT_RECORDED; not zero and not inferred from sampled/before-exit evidence",
+  "chronology": "All129 from014 fixed by ordinal, including all76 prior-replayed plus53 new; no source result, output or gate selection."
+}

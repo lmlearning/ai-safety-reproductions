@@ -1,0 +1,1619 @@
+
+
+P133 complete central quantitative reproduction review
+
+P133 · Final completed-output review · 2026-10-11T08:51:24.221998+00:00
+
+AI literacy and competency in nursing education: preparing students and faculty members for an AI-enabled future-a systematic review and meta-analysis
+
+Original published paper
+. First substantive release:26 November2025. Eligibility:56 unsummed citations in the archived OpenAlex W4416730328 record of10 October2026; no new favorable-index query.
+
+Central qualification proposed; root review and registration pending.
+ The complete three-outcome published quantitative forest contribution passes its fixed prospective criteria and independent audit. This report does not claim a full-paper reproduction.
+
+129 /129
+Original input gates
+
+263 /263
+Forest output gates
+
+312,782 /312,782
+Independent comparisons
+
+19 /114
+Supporting displays agree;95 disagree
+
+Complete quantitative contribution
+
+All43 effect rows across18 distinct studies were retained: awareness15, attitude16 and implementation12. The family sample totals overlap and must not be added as unique participants. Every originally specified row value, confidence limit, common/random weight and forest footer is included among the129 input and263 output gates. The three primary claims cover all pooled outcomes, high heterogeneity and the original relative pattern across the three outcomes.
+
+Family
+
+Rows
+
+Family N
+
+Published random prevalence [95% CI]
+
+Recreated printed prevalence [95% CI]
+
+Prediction interval
+
+I²
+
+Whole family
+
+Awareness
+
+15
+
+4158
+
+0.73 [0.64, 0.81]
+
+0.73 [0.64, 0.81]
+
+0.35 to 0.98
+
+97.0%
+
+Pass
+
+Attitude
+
+16
+
+3995
+
+0.71 [0.63, 0.78]
+
+0.71 [0.63, 0.78]
+
+0.36 to 0.95
+
+96.1%
+
+Pass
+
+Implementation
+
+12
+
+3214
+
+0.67 [0.55, 0.78]
+
+0.67 [0.55, 0.78]
+
+0.20 to 0.99
+
+98.0%
+
+Pass
+
+Family
+
+Common prevalence [95% CI]
+
+Q
+
+df
+
+Heterogeneity p
+
+Tau²
+
+Awareness
+
+0.73 [0.71, 0.74]
+
+471.47
+
+14
+
+1.0229888792894042e-91
+
+0.0310
+
+Attitude
+
+0.73 [0.72, 0.74]
+
+381.92
+
+15
+
+4.3267836352784246e-72
+
+0.0258
+
+Implementation
+
+0.67 [0.65, 0.69]
+
+549.96
+
+11
+
+6.963584056933334e-111
+
+0.0447
+
+The263 output targets use exact prospective source-print comparisons: decimal half-even rounding at each published precision, exact integers/nulls and strict source inequalities. No tolerance, source correction or method variant was selected after seeing the original results. The fixed independent numerical comparison tolerance is1e-10 absolute plus1e-10 relative.
+
+Source-supported method and full controls
+
+The source did not uniquely identify the authors' transformation or software options. Root therefore froze PFT/REML prospectively: inverse-variance Freeman–Tukey double-arcsine synthesis, the pinned2025 meta/metafor Fisher-scoring convention, classic normal95% pooled intervals, exact binomial95% row intervals and V prediction intervals with t(k−1). Miller inverse back-transformation uses the active harmonic mean sample size. PFT was a source-supported conventional choice; it is not presented as recovery of unknown author settings. The earlier unapproved PLOGIT-preferred proposal remains in the record and was not executed.
+
+Pipeline
+
+Full pools
+
+Subgroups
+
+Leave-one-row-out
+
+Joint moderators
+
+Univariate
+
+Country variants
+
+Egger
+
+PFT_REML
+
+3
+
+8
+
+43
+
+3
+
+9
+
+6
+
+3
+
+PAS_REML
+
+3
+
+8
+
+43
+
+3
+
+9
+
+6
+
+3
+
+PLOGIT_REML
+
+3
+
+8
+
+43
+
+3
+
+9
+
+6
+
+3
+
+PLOGIT_DL
+
+3
+
+8
+
+43
+
+3
+
+9
+
+6
+
+3
+
+PFT_DL
+
+3
+
+8
+
+43
+
+3
+
+9
+
+6
+
+3
+
+PRAW_DL
+
+3
+
+8
+
+43
+
+3
+
+9
+
+6
+
+3
+
+All258 leave-one-row-out views,270 fixed back-size views and the complete legacy raw/DL three-family plus43 leave-out results were independently audited. Both published-country and AppendixB-country mappings remain visible. All five alternative pipelines and five alternative back sizes are supporting controls and cannot rescue any primary failure. Singleton source NA/empty-trace status is retained; convergence is never imputed. Canonical PRAW bound clipping follows the pinned historical source, while the separate legacy unbounded display remains unchanged. Default GLMM architecture is documented without an invented partial GLMM fit.
+
+All95 supporting disagreements
+
+All114 published moderator, subgroup and related supporting cells were computed and compared. Nineteen agree and95 disagree. These discrepancies limit any claim about reconstructing the whole published statistical analysis. Each row below retains the printed literal and independently recreated printed value; no favorable family or contrast was omitted. Both implementations made the same pass/fail classification for all506 source comparisons. 
+Machine-readable complete95-row ledger
+.
+
+Fixed target
+
+Published literal
+
+Primary printed
+
+Independent printed
+
+Original source locus
+
+Known source contradiction
+
+awareness.T5.row3.estimate
+
+−0.0248
+
+-0.0077
+
+-0.0077
+
+table=T5; row=3; column=2
+
+awareness.T5.row3.SE
+
+0.1760
+
+0.0383
+
+0.0383
+
+table=T5; row=3; column=3
+
+awareness.T5.row3.Z
+
+−0.1407
+
+-0.2015
+
+-0.2015
+
+table=T5; row=3; column=4
+
+awareness.T5.row3.p
+
+0.8881
+
+0.8403
+
+0.8403
+
+table=T5; row=3; column=5
+
+awareness.T5.row3.CI_low
+
+−0.3697
+
+-0.0828
+
+-0.0828
+
+table=T5; row=3; column=6
+
+awareness.T5.row3.CI_high
+
+0.3202
+
+0.0674
+
+0.0674
+
+table=T5; row=3; column=7
+
+awareness.T5.row4.estimate
+
+−0.0020
+
+-0.0003
+
+-0.0003
+
+table=T5; row=4; column=2
+
+awareness.T5.row4.SE
+
+0.0018
+
+0.0004
+
+0.0004
+
+table=T5; row=4; column=3
+
+awareness.T5.row4.Z
+
+−1.0827
+
+-0.7698
+
+-0.7698
+
+table=T5; row=4; column=4
+
+awareness.T5.row4.p
+
+0.2790
+
+0.4414
+
+0.4414
+
+table=T5; row=4; column=5
+
+awareness.T5.row4.CI_low
+
+−0.0055
+
+-0.0012
+
+-0.0012
+
+table=T5; row=4; column=6
+
+awareness.T5.row4.CI_high
+
+0.0016
+
+0.0005
+
+0.0005
+
+table=T5; row=4; column=7
+
+awareness.T5.row5.estimate
+
+−0.7785
+
+-0.1511
+
+-0.1511
+
+table=T5; row=5; column=2
+
+awareness.T5.row5.SE
+
+0.4661
+
+0.1050
+
+0.1050
+
+table=T5; row=5; column=3
+
+awareness.T5.row5.Z
+
+−1.6701
+
+-1.4390
+
+-1.4390
+
+table=T5; row=5; column=4
+
+awareness.T5.row5.p
+
+0.0949
+
+0.1501
+
+0.1501
+
+table=T5; row=5; column=5
+
+awareness.T5.row5.CI_low
+
+−1.6921
+
+-0.3569
+
+-0.3569
+
+table=T5; row=5; column=6
+
+awareness.T5.row5.CI_high
+
+0.1351
+
+0.0547
+
+0.0547
+
+table=T5; row=5; column=7
+
+awareness.T5.row6.estimate
+
+0.5654
+
+0.1279
+
+0.1279
+
+table=T5; row=6; column=2
+
+awareness.T5.row6.SE
+
+1.0046
+
+0.2165
+
+0.2165
+
+table=T5; row=6; column=3
+
+awareness.T5.row6.Z
+
+0.5628
+
+0.5908
+
+0.5908
+
+table=T5; row=6; column=4
+
+awareness.T5.row6.p
+
+0.5736
+
+0.5546
+
+0.5546
+
+table=T5; row=6; column=5
+
+awareness.T5.row6.CI_low
+
+−1.4037
+
+-0.2964
+
+-0.2964
+
+table=T5; row=6; column=6
+
+awareness.T5.row6.CI_high
+
+2.5344
+
+0.5522
+
+0.5522
+
+table=T5; row=6; column=7
+
+attitude.T5.row8.estimate
+
+0.2437
+
+-0.0539
+
+-0.0539
+
+table=T5; row=8; column=2
+
+C04
+
+attitude.T5.row8.SE
+
+0.1236
+
+0.0245
+
+0.0245
+
+table=T5; row=8; column=3
+
+attitude.T5.row8.Z
+
+−1.9719
+
+-2.1994
+
+-2.1994
+
+table=T5; row=8; column=4
+
+C04
+
+attitude.T5.row8.p
+
+0.0486*
+
+0.0278
+
+0.0278
+
+table=T5; row=8; column=5
+
+attitude.T5.row8.CI_low
+
+−0.4859
+
+-0.1019
+
+-0.1019
+
+table=T5; row=8; column=6
+
+C04
+
+attitude.T5.row8.CI_high
+
+−0.0015
+
+-0.0059
+
+-0.0059
+
+table=T5; row=8; column=7
+
+C04
+
+attitude.T5.row9.estimate
+
+0.0025
+
+0.0005
+
+0.0005
+
+table=T5; row=9; column=2
+
+attitude.T5.row9.SE
+
+0.0015
+
+0.0003
+
+0.0003
+
+table=T5; row=9; column=3
+
+attitude.T5.row9.Z
+
+1.7366
+
+1.8124
+
+1.8124
+
+table=T5; row=9; column=4
+
+attitude.T5.row9.p
+
+0.0825
+
+0.0699
+
+0.0699
+
+table=T5; row=9; column=5
+
+attitude.T5.row9.CI_low
+
+−0.0003
+
+-0.0000
+
+-0.0000
+
+table=T5; row=9; column=6
+
+attitude.T5.row9.CI_high
+
+0.0054
+
+0.0011
+
+0.0011
+
+table=T5; row=9; column=7
+
+attitude.T5.row10.estimate
+
+−0.5122
+
+-0.1223
+
+-0.1223
+
+table=T5; row=10; column=2
+
+attitude.T5.row10.SE
+
+0.3598
+
+0.0693
+
+0.0693
+
+table=T5; row=10; column=3
+
+attitude.T5.row10.Z
+
+−1.4235
+
+-1.7641
+
+-1.7641
+
+table=T5; row=10; column=4
+
+attitude.T5.row10.p
+
+0.1546
+
+0.0777
+
+0.0777
+
+table=T5; row=10; column=5
+
+attitude.T5.row10.CI_low
+
+−1.2174
+
+-0.2581
+
+-0.2581
+
+table=T5; row=10; column=6
+
+attitude.T5.row10.CI_high
+
+0.1930
+
+0.0136
+
+0.0136
+
+table=T5; row=10; column=7
+
+implementation.T5.row12.estimate
+
+0.0245
+
+0.0133
+
+0.0133
+
+table=T5; row=12; column=2
+
+implementation.T5.row12.SE
+
+0.2174
+
+0.0407
+
+0.0407
+
+table=T5; row=12; column=3
+
+implementation.T5.row12.Z
+
+0.1127
+
+0.3265
+
+0.3265
+
+table=T5; row=12; column=4
+
+implementation.T5.row12.p
+
+0.9102
+
+0.7441
+
+0.7441
+
+table=T5; row=12; column=5
+
+implementation.T5.row12.CI_low
+
+−0.4015
+
+-0.0664
+
+-0.0664
+
+table=T5; row=12; column=6
+
+implementation.T5.row12.CI_high
+
+0.4505
+
+0.0930
+
+0.0930
+
+table=T5; row=12; column=7
+
+implementation.T5.row13.estimate
+
+−0.0017
+
+0.0004
+
+0.0004
+
+table=T5; row=13; column=2
+
+implementation.T5.row13.SE
+
+0.0023
+
+0.0005
+
+0.0005
+
+table=T5; row=13; column=3
+
+implementation.T5.row13.Z
+
+−0.7327
+
+0.7247
+
+0.7247
+
+table=T5; row=13; column=4
+
+implementation.T5.row13.p
+
+0.4638
+
+0.4686
+
+0.4686
+
+table=T5; row=13; column=5
+
+implementation.T5.row13.CI_low
+
+−0.0063
+
+-0.0006
+
+-0.0006
+
+table=T5; row=13; column=6
+
+implementation.T5.row13.CI_high
+
+0.0029
+
+0.0013
+
+0.0013
+
+table=T5; row=13; column=7
+
+implementation.T5.row14.estimate
+
+−1.0694
+
+-0.2446
+
+-0.2446
+
+table=T5; row=14; column=2
+
+implementation.T5.row14.SE
+
+0.6265
+
+0.1163
+
+0.1163
+
+table=T5; row=14; column=3
+
+implementation.T5.row14.Z
+
+−1.7070
+
+-2.1032
+
+-2.1032
+
+table=T5; row=14; column=4
+
+implementation.T5.row14.p
+
+0.0878
+
+0.0354
+
+0.0354
+
+table=T5; row=14; column=5
+
+implementation.T5.row14.CI_low
+
+−2.2972
+
+-0.4726
+
+-0.4726
+
+table=T5; row=14; column=6
+
+implementation.T5.row14.CI_high
+
+0.1585
+
+-0.0167
+
+-0.0167
+
+table=T5; row=14; column=7
+
+awareness.T6.row3.N_studies
+
+8
+
+7
+
+7
+
+table=T6; row=3; column=2
+
+C06
+
+awareness.T6.row3.point
+
+0.7912
+
+0.7788
+
+0.7788
+
+table=T6; row=3; column=3
+
+awareness.T6.row3.CI_low
+
+0.6847
+
+0.6617
+
+0.6617
+
+table=T6; row=3; column=4
+
+awareness.T6.row3.CI_high
+
+0.8810
+
+0.8770
+
+0.8770
+
+table=T6; row=3; column=5
+
+awareness.T6.row3.I2_percent
+
+96.8%
+
+97.2
+
+97.2
+
+table=T6; row=3; column=6
+
+awareness.T6.row3.tau2
+
+0.0279
+
+0.0299
+
+0.0299
+
+table=T6; row=3; column=7
+
+awareness.T6.row5.CI_high
+
+0.7893
+
+0.8579
+
+0.8579
+
+table=T6; row=5; column=5
+
+C05
+
+attitude.T6.row7.N_studies
+
+10
+
+9
+
+9
+
+table=T6; row=7; column=2
+
+C06
+
+attitude.T6.row7.point
+
+0.7465
+
+0.7569
+
+0.7569
+
+table=T6; row=7; column=3
+
+attitude.T6.row7.CI_low
+
+0.6524
+
+0.6550
+
+0.6550
+
+table=T6; row=7; column=4
+
+attitude.T6.row7.CI_high
+
+0.8304
+
+0.8461
+
+0.8461
+
+table=T6; row=7; column=5
+
+attitude.T6.row7.I2_percent
+
+96.1%
+
+96.3
+
+96.3
+
+table=T6; row=7; column=6
+
+attitude.T6.row7.tau2
+
+0.0259
+
+0.0277
+
+0.0277
+
+table=T6; row=7; column=7
+
+attitude.T6.row8.N_studies
+
+6
+
+7
+
+7
+
+table=T6; row=8; column=2
+
+C06
+
+attitude.T6.row8.point
+
+0.6330
+
+0.6356
+
+0.6356
+
+table=T6; row=8; column=3
+
+attitude.T6.row8.CI_low
+
+0.5162
+
+0.5371
+
+0.5371
+
+table=T6; row=8; column=4
+
+attitude.T6.row8.CI_high
+
+0.7425
+
+0.7288
+
+0.7288
+
+table=T6; row=8; column=5
+
+attitude.T6.row8.I2_percent
+
+95.9%
+
+95.1
+
+95.1
+
+table=T6; row=8; column=6
+
+attitude.T6.row8.tau2
+
+0.0198
+
+0.0164
+
+0.0164
+
+table=T6; row=8; column=7
+
+implementation.T6.row10.N_studies
+
+8
+
+6
+
+6
+
+table=T6; row=10; column=2
+
+C06
+
+implementation.T6.row10.point
+
+0.7800
+
+0.7875
+
+0.7875
+
+table=T6; row=10; column=3
+
+implementation.T6.row10.CI_low
+
+0.6282
+
+0.6727
+
+0.6727
+
+table=T6; row=10; column=4
+
+implementation.T6.row10.CI_high
+
+0.9013
+
+0.8832
+
+0.8832
+
+table=T6; row=10; column=5
+
+implementation.T6.row10.I2_percent
+
+98.0%
+
+95.8
+
+95.8
+
+table=T6; row=10; column=6
+
+implementation.T6.row10.tau2
+
+0.0547
+
+0.0249
+
+0.0249
+
+table=T6; row=10; column=7
+
+awareness.T6.between.Q
+
+7.57*
+
+7.72
+
+7.72
+
+table=T6; row=3; rowspan=3
+
+awareness.T6.between.p
+
+0.027
+
+0.021
+
+0.021
+
+table=T6; row=3; rowspan=3
+
+attitude.T6.between.Q
+
+2.38
+
+2.99
+
+2.99
+
+table=T6; row=7; rowspan=2
+
+attitude.T6.between.p
+
+0.123
+
+0.084
+
+0.084
+
+table=T6; row=7; rowspan=2
+
+implementation.T6.between.Q
+
+3.87*
+
+33.27
+
+33.27
+
+table=T6; row=10; rowspan=2
+
+implementation.T6.between.p
+
+0.049
+
+0.000
+
+0.000
+
+table=T6; row=10; rowspan=2
+
+awareness.Egger.intercept
+
+-0.0516
+
+-0.3155
+
+-0.3155
+
+section=S3.SS2.SSS1; paragraph_index=1; paragraph_sha256=291afd633838d2099d9806ab498c1423ea9253fda3c30e969bda234eed5b95db
+
+attitude.Egger.intercept
+
+0.3115
+
+-4.6222
+
+-4.6222
+
+section=S3.SS2.SSS2; paragraph_index=1; paragraph_sha256=93ae7aabf2b233afefb4dcde7ba47a7bfcc6557f7b599e18ec9e168f3dc441a9
+
+implementation.Egger.intercept
+
+-0.342
+
+0.018
+
+0.018
+
+section=S3.SS2.SSS3; paragraph_index=1; paragraph_sha256=ff7204633bb0cd7937d6e99d44225d9efb12a96ef5ffa65a34e1286bbc6147dc
+
+implementation.Egger.p
+
+0.148
+
+0.998
+
+0.998
+
+section=S3.SS2.SSS3; paragraph_index=1; paragraph_sha256=ff7204633bb0cd7937d6e99d44225d9efb12a96ef5ffa65a34e1286bbc6147dc
+
+What remains unreproduced
+
+The central scope is the complete three-outcome prevalence and heterogeneity contribution. The original human data collection,54,780-record literature search and screening,111-article qualitative/thematic synthesis, complete author extraction worksheet and original event-threshold definitions were not repeated or recovered. The author's R4.5.0/package versions and exact settings are unavailable. Country, moderator and source subgroup inconsistencies remain unresolved; no category or event bridge was invented. Egger nonsignificance is not evidence that publication bias is absent. Original protocol visibility could not be verified from the failed anonymous PROSPERO request. Consequently FULL is false.
+
+All23 prospective source conflicts and gaps
+
+ID
+
+Original locus
+
+Preserved literal/problem
+
+Fixed disposition
+
+C01
+
+Methods2.5
+
+Eighteen (17) distinct studies
+
+Internal cohort-count wording conflict; original18 AppendixB identities retained
+
+C02
+
+Results3.2 versus Figure4
+
+Awareness16 stated; original forest15 rows/df14
+
+No fabricated16th row or exclusion selected by fit
+
+C03
+
+Results3.2 versus Figure6
+
+Implementation13 stated; original forest12 rows/df11
+
+No fabricated13th row
+
+C04
+
+Table5 attitude year row
+
+Estimate+0.2437; Z-1.9719; both CI bounds negative
+
+Literal sign/interval contradiction retained; no sign inversion
+
+C05
+
+Table6 awareness faculty
+
+Point0.8249; lower=upper0.7893
+
+Literal interval contradiction retained
+
+C06
+
+AppendixB source-group labels versus Table6
+
+Source cohort/group identity does not reconcile reported subgroup counts
+
+Keep original metadata primary and all Table6 counts; no reclassification by coefficients
+
+C07
+
+Figure2 country labels versus AppendixB
+
+Abou Hashish UAE versus Egypt/Saudi Arabia; Saleh Saudi Arabia versus Jordan/U.S
+
+Primary B and full Figure2 supporting country mappings remain separate
+
+C08
+
+AppendixB setting fields versus Figure2
+
+Some settings not specified versus country labels in plot
+
+Missing country values remain explicit before any model
+
+C09
+
+Figure3A caption/reference versus AppendixB
+
+Han randomized controlled trial/ref65 versus B quasi-experimental program evaluation/J.-w.Han
+
+Study identity/design ambiguity, not repaired
+
+C10
+
+Methods2.4
+
+Mixed-methods studies both versus one Asiksoy plot/one B mixed-method row
+
+Design census ambiguity retained
+
+C11
+
+Abstract versus Figure4/Results
+
+Awareness CI64-80% versus64-81%
+
+Both literals kept
+
+C12
+
+Machine-generated Figure6 alt text versus original image
+
+Alt repeats0.73/0.71; image common/random0.67
+
+Alt explicitly non-authoritative; source image retained
+
+C13
+
+Machine-generated Figure5 alt text versus footer
+
+Alt heterogeneity98%; original96.1%
+
+Alt explicitly non-authoritative
+
+C14
+
+Main bibliography versus AppendixB field instructions
+
+Several reference numbering/DOI details differ, including Asiksoy1332_24 versus1195_24
+
+No citation reassignment; hidden instructions retained separately
+
+C15
+
+AppendixB Buabbas
+
+Aim medical students; sample says352 nursing students; original cited title medical education
+
+Conceptual population mismatch, no convenient removal
+
+C16
+
+AppendixB Honkavuo/Sanchez
+
+Digital teaching and e-learning topics included as AI-related prevalence
+
+Construct/AI specificity limitation; preserve complete cohort
+
+C17
+
+AppendixA author/year strings
+
+Literal20223/20205 and recurring author labels
+
+No automatic year correction or proof of unique-study identity
+
+G01
+
+Methods2.5
+
+R4.5.0/meta/metafor named, no package versions/code/transform/tau/CI settings
+
+Exact historical computation not source-identifiable
+
+G02
+
+Released Appendices
+
+A/B descriptive rows and C search strings; original extraction Excel/event worksheet absent
+
+All43 displayed event counts available; original extraction derivation not complete
+
+G03
+
+Sensitivity/funnel/country-regression claims
+
+Methods names them but no numerical sensitivity/funnel/country coefficient output supplied
+
+Complete independent diagnostics possible; source agreement targets absent
+
+G04
+
+Full systematic/thematic contribution
+
+Original54780 search exports, screening decisions and six-phase coding matrix unavailable
+
+Full-paper re-execution not source-complete
+
+G05
+
+PROSPERO public record
+
+Page application shell; anonymous official record endpoint returns header-value error
+
+Protocol dates/content unverified; no auth/API keys used
+
+R01
+
+Source serialization observations
+
+Readback189b27 stdout cp1252 failure;1d82ef source Unicode byte SyntaxError
+
+No original statistics; no file mutation; additive visible projection preserves001
+
+Independence, native closure and failure history
+
+The original independent mathematics was derived without reading the primary mathematics. After an unrelated fixture failed, a source-only adapter/status repair reviewer read both frozen sources; that later exposure is disclosed. The mathematical solver and1e-10 comparison thresholds were preserved. The auditor calculated its complete independent results before opening subject numerical outputs. It then streamed all312,782 expected comparisons, with zero failures and exact agreement with all559 family tallies.
+
+The completed audit029 observer/tool, dispatcher, guardian and auditor all exited0; the retained native verifier passed45/45. All six creation-matched identities are freshly absent. Retained child final native records are preserved. The external observer's own peak was recorded before exit; its after-exit native memory is unknown and is not imputed. The verifier records guardian plus owned-child peaks of 179,585,024 working bytes and 148,004,864 private bytes. The separately capped dispatcher has final peaks of 34,856,960 working and 25,235,456 private bytes; the observer has before-exit peaks of 32,739,328 working and 22,659,072 private bytes. Minimum recorded available RAM was1,478,598,656 bytes, minimum disk70,324,273,152 bytes, and no frozen resource guard was breached.
+
+Phase
+
+Conservative shared charge
+
+Outcome and preservation
+
+All earlier fixture phases
+
+258 s
+
+Historical resource/engineering/scientific fixture failures retained. Source repair027 prospectively validated using whole unrelated input before any original calculations.
+
+Fixture primary027
+
+67 s
+
+Whole six pipelines, 43 strict engineering predicates; actual scientist/guardian/dispatcher/observer0; native45/45.
+
+Fixture independent audit027
+
+83 s
+
+305,267 comparisons, zero failures; whole43 engineering and paired checks; native45/45. Cumulative408 s.
+
+Original primary028
+
+57 s
+
+All129 input cells,263 forest targets and3 claims; complete six pipelines and supporting controls. Cumulative465 s.
+
+Original independent audit028
+
+17 s
+
+Metadata KeyError absolute_path before numerical outputs. Preserved failure; missing aliases were a preparation/root-review error. Cumulative482 s.
+
+Original independent audit029
+
+89 s
+
+Alias-only manifest repair; same auditor/math/data/criteria.312,782 comparisons, zero failures. Actual cumulative571/1800 s.
+
+Audit029 is charged89 seconds by ceil(max(UTC span, retained observer creation-to-end span))+1. Total571/1800 seconds;1229 seconds remain. The software elapsed value87.734 seconds is retained separately. Audit028 failed before any numerical output because its manifest omitted absolute_path aliases required by the existing consumer: preparation and root review both missed this schema mismatch. The029 metadata-only repair added exact existing-path aliases, preserved the old028 bytes and every scientific source/input/criterion, and did not rerun the original primary. All earlier engineering and resource failures remain immutable.
+
+Reproducible evidence
+
+The completed commands, fixed environment/resource limits and expected hashes are preserved in their actual one-shot authority files. This report grants no rerun authority. To inspect the result without recomputation, verify the immutable manifests, read all506 source comparisons, stream the full independent log and inspect the retained native receipts. A future rerun requires a distinct reviewed output namespace and unchanged scientific criteria.
+
+Primary: use the exact historical one-shot command/authority bound by ROOT_ORIGINAL_PRIMARY028_COMPLETE_NATIVE_OUTPUT_AND_ALL_GATES_CLOSURE001.json; all1723 outputs and predecessor references are retained.
+Independent: {{USER_HOME}}\AppData\Local\Programs\Python\Python312\python.exe -B {{REPRODUCTION_ROOT}}\scripts\audit_p133_complete003.py --mode original --run {{REPRODUCTION_ROOT}}\papers\P133_nursing_ai_meta\runs\P133-original-candidate009-028\worker_output --audit {{REPRODUCTION_ROOT}}\papers\P133_nursing_ai_meta\audits\P133-original-independent-auditor003-029\audit_output --freeze {{REPRODUCTION_ROOT}}\papers\P133_nursing_ai_meta\review\complete_original_audit_metadata_repair_preparation029\COMPLETE_CURRENT_AUDITOR003_ORIGINAL_SOURCE_RUNTIME_FREEZE029.json --authorization {{REPRODUCTION_ROOT}}\papers\P133_nursing_ai_meta\review\complete_original_audit_metadata_repair_preparation029\ROOT_ORIGINAL_INDEPENDENT_AUDIT_AUTHORIZATION029.json
+No command above was executed by this report generator.
+
+Evidence file
+
+Bytes
+
+SHA-256
+
+Root complete original primary028 closure
+
+568840
+
+5c288c42358291470119428d7d29b74dfebc972fd23d2425e91f39f73a1cc2d6
+
+Preserved original audit028 metadata failure
+
+4380207
+
+e2e7373a5946c2975672ac3fb9a8d7518276e8449a1ba067efafe7de26e96a7b
+
+Whole unrelated fixture027 audited closure
+
+386858
+
+29447e6c52b88fbeaa06d3c1a10ebd9276f2f53f9cf9c51c3072da7c1b826760
+
+Prospective PFT primary method decision003
+
+1945
+
+148553ba9c84b906ae2e3ae26127e93af9c72af8c5e5a155037c69958dc6ab97
+
+Fixed numerical repair/source freeze027
+
+10183
+
+30b7f2c8e5a0d7962f700d3c3b88af200772bf774e21193449e374e2296919cb
+
+Alias-only independent input/runtime freeze029
+
+5143700
+
+484ebf5e38e597c3838f2f7b1572262457f6294a91acd1298f7b7daa2013afac
+
+Actual root one-shot independent audit029 authority
+
+3825023
+
+ae4e0ea1ea639869b4c6217a678d0d5b534565331259ab6e75e2da835ed10ae3
+
+45/45 retained native verifier029
+
+5080
+
+d0b6aa53ba5eb2e06084da611d0393c4e834746fb33fbcf82fc7f5ff2af97143
+
+External retained observer receipt029
+
+1645
+
+ef4af03d9ca0c65a22859a57306aa8b5f8eca385813e470976abe9a0edaf3944
+
+Complete independent audit status
+
+47065
+
+8c44857a325186863fdaa0a736d596f3dd5a89ac914d03e13412455ec98e3242
+
+All312,782 independent comparison records
+
+59094822
+
+b401aa4f5129ca188fe9f6d41d1932bf092737ce17e7bbe86b2488d2156b9221
+
+Whole independent results
+
+11900036
+
+77f6932e09bc8510a604f5228dc9f501629f116aec84197b832d062148bb6b84
+
+Whole primary results
+
+11972138
+
+0bfe0b3350038998b0a7f6cff982899660e82b10b4df8cb01e197568ec4d3891
+
+All506 primary source comparisons
+
+303124
+
+ac70ce803bb86dd8f8f264af68ed4f92c1fcc159d7faf37307811ca40ae33b70
+
+All506 independent source comparisons
+
+303003
+
+54a8de30abae879ad3134ec2f3c822434912d9ad37810d71f5fc99784fd493ba
+
+All95 supporting disagreements
+
+67711
+
+50ac535bd37a70de2dcdf42ca3c4499119865f925adef4f2a34a6721f9f43c88
+
+Complete final native/output/hash closure
+
+14104
+
+1bcae696e1af98f03b21cf334e0d0d228941fd3ad5ae6ce95ed72fd6d9c9eaaa
+
+All immutable references and output hashes
+
+4820305
+
+0829fa6bde7209dba0863a79acc43f9b4c38864dc43f22cd65a288e284d45748
+
+Presentation was generated only from completed immutable outputs. No new mathematical imports, fits, source changes, gate changes or registry edits. Root final review determines qualification and registration.

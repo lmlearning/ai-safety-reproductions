@@ -1,0 +1,937 @@
+{
+  "paper_id": "P103",
+  "status": "PROSPECTIVE PROPOSAL ONLY; root review required before any trial outcome calculation",
+  "created_utc": "2026-10-10T20:06:32.837729+00:00",
+  "outcomes_computed": false,
+  "permitted_source_operations": "Raw schema/missingness/exclusion census and published figure digitization only",
+  "proposed_class": "central-result reproduction of complete original primary Study 1; no full-paper claim",
+  "central_claim": "People assigned to imagine using a generative AI tool anticipate a social evaluation penalty and lower willingness to disclose use relative to a dashboard tool.",
+  "centrality_evidence": [
+    "Original Introduction explicitly identifies Study 1 as demonstrating anticipated laziness, competence and diligence penalties.",
+    "The first separately headed Results/Study 1 tests all six preregistered predictions and Figure 1 presents all six effects.",
+    "Original Discussion identifies anticipated social evaluation/disclosure costs as an overlooked barrier to AI adoption."
+  ],
+  "complete_selected_contribution": [
+    "All six original primary outcomes with group means/SDs, independent-group Welch tests/df/two-sided p and mean-difference 95% CIs.",
+    "All six original Figure 1 pooled Cohen d and approximate 95% CIs.",
+    "All six original raw Cronbach alphas, all 21 original SI correlations, fixed sample/exclusion/demographic accounting.",
+    "Complete separate original Study 1 manipulation-check pilot: N201, overall correct percentage; source group percentages/Q88 counts retained as supporting outputs and Wilson CI as new supporting uncertainty, no source-target credit."
+  ],
+  "omissions": [
+    {
+      "family": "Study S1/Pollfish secondary replication and subset robustness",
+      "reason": "Full released source preserved; published excluded-asked-not-AI robustness cohort N419 conflicts with raw Q6 No361/Yes139 and platform never417; no exact original subset producer. No alternate cohort will be invented and no Pollfish success claimed."
+    },
+    {
+      "family": "Study S2/norms secondary experiment",
+      "reason": "Distinct later secondary norms/perspective question, omitted from original-primary Study 1 scope; complete numeric ANOVA targets/figure producer uncertainty remain in full-source review. No norms/mechanism inference claimed."
+    },
+    {
+      "family": "Studies 2-4 actual perception, hiring and mediation",
+      "reason": "Separate main experiments; composite/first-item, demographic-producer and original PROCESS/secondary-probe gaps frozen in whole-study review. This reproduction would establish anticipation only, not observed penalty, hiring behavior or mediation."
+    }
+  ],
+  "exact_inputs": [
+    {
+      "path": "papers/P103_social_evaluation/sources/paper_full.xml",
+      "bytes": 88720,
+      "sha256": "35f6d8361ba351954224fb0d549ae61626d18a029692b5af8a0a64dbff6e21ee"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_publisher_fig01_jpg.source",
+      "bytes": 132722,
+      "sha256": "8ecbc5c9447f88d6f5657d7913552fa1bf7c9418ff4f3d86c9e3a2b37674b164"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_public_v1/Study 1/data_study1.csv",
+      "bytes": 124749,
+      "sha256": "b71d486059c8f7f8c7b00dd400d940df0e31abeca5d4fe49d6a6f2fd525cbf24"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_public_v1/Study 1/Study 1.Rmd",
+      "bytes": 9536,
+      "sha256": "52bea72ea9b2842448a7afca19e7509cbdec264598e76f1fe150a13c191eae4d"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_public_v1/Study 1/study1_qualtrics.qsf",
+      "bytes": 116521,
+      "sha256": "0ecd9271e0efc54d0dac96a5c4ffaa24c20c7accc171ee932be6cabd9fd5fc32"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_public_v1/Study 1/Study 1 - Preregistration.pdf",
+      "bytes": 183775,
+      "sha256": "d0191c5f163b43373ac0298e6bf552af401ffdf28e0445ea27d415392680a804"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_public_v1/SI Appendix and Preregistration Reconciliation Document/Supporting Information Appendix.pdf",
+      "bytes": 758867,
+      "sha256": "b2362306f676fa8853669bd9d777796e97074dc39d6548cdb19e9351fae0f63a"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_public_v1/SI Appendix and Preregistration Reconciliation Document/Pre-registration Reconciliation Document.pdf",
+      "bytes": 27131,
+      "sha256": "a6df6655f6737b7d0a93c01804c79f2313ff64a4478062b02dde3974c70e3d0f"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_public_v1/Manipulation Checks for Study 1-2/Study 1 Manipulation Check - Post-hoc Pilot/Study 1 Post-Hoc Manipulation Check.csv",
+      "bytes": 43841,
+      "sha256": "87845f3982e12cdd43e600a4f6275e09660c1f600cb89a6f099c394543faf8db"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_public_v1/Manipulation Checks for Study 1-2/Study 1 Manipulation Check - Post-hoc Pilot/Study 1 Manipulation Check R Code.Rmd",
+      "bytes": 1360,
+      "sha256": "1d7548834c2b240eb9cf1e2030a3b27300ba1c830b7212ee101547bc72178efa"
+    },
+    {
+      "path": "papers/P103_social_evaluation/sources/original_public_v1/Manipulation Checks for Study 1-2/Study 1 Manipulation Check - Post-hoc Pilot/250125_AI_Study_-_Disclosure_Fear_Manipulations.qsf",
+      "bytes": 143670,
+      "sha256": "39f758c19ed3abb79b482a15513420b2c38219ad8cb64f0f0cb86cb5b92f6f3c"
+    }
+  ],
+  "fixed_exclusions": {
+    "main": "Remove two Qualtrics metadata records. Exclude duration <30 seconds and rows with identical values across all 21 rating items. Original source omits explicit duration filter but the schema census proves zero <30 cases, so including preregistered filter is cohort-equivalent. Retain all other original rows; expect exactly 497.",
+    "MC1": "Remove two Qualtrics metadata records; original source applies no exclusions, expect exactly 201.",
+    "zero_missingness_gate": "All 21 main rating items must remain complete; stop if input version produces missingness different from frozen census."
+  },
+  "composites": {
+    "manager_disclosure": [
+      "manager_disclosure_1",
+      "manager_disclosure_2",
+      "manager_disclosure_3"
+    ],
+    "colleague_disclosure": [
+      "colleague_disclosure_1",
+      "colleague_disclosure_2",
+      "colleague_disclosure_3"
+    ],
+    "competence": [
+      "scales_1",
+      "scales_2",
+      "scales_3",
+      "scales_4"
+    ],
+    "diligence": [
+      "scales_5",
+      "scales_6",
+      "scales_7",
+      "scales_8"
+    ],
+    "laziness": [
+      "scales_9",
+      "scales_10",
+      "scales_11",
+      "scales_12"
+    ],
+    "replaceability": [
+      "scales_13",
+      "scales_14",
+      "scales_15"
+    ]
+  },
+  "methods": {
+    "assignment": "Assessment_DO contains dash case-insensitively -> dashboard, otherwise AI. Exact original QSF/data used.",
+    "tests": "Six independent-group, two-sided Welch t tests; no multiplicity adjustment in original. Signed effects and tests always AI minus dashboard.",
+    "figure": "Pooled sample SD; d=(mean_AI-mean_dashboard)/sqrt(((nAI-1)*sAI^2+(nD-1)*sD^2)/(nAI+nD-2)). se_d=sqrt((nAI+nD)/(nAI*nD)+d^2/(2*(nAI+nD-2))); d CI=d +/- t_.975(nAI+nD-2)*se_d.",
+    "alpha": "k/(k-1)*(1-sum(item sample variances)/sample variance(sum of items)); raw alpha, no reversal or standardization.",
+    "correlation": "Pearson among all six composites and binary AI_tool; complete main cohort, all 21 pairs.",
+    "MC1": "Original Q89==1/dashboard branch or Q89==2/genAI branch means correct; overall percent correct plus condition breakdown/Q88 frequency supporting outputs.",
+    "rounding": "Exact displayed-value rounding intervals frozen above. All equality numeric gates mandatory. All four published negative-effect t values use abs(signed source t) because paper prints positive magnitudes; signed t is still saved, no silent sign repair."
+  },
+  "source_discrepancies": [
+    "Preregistration calls competence/diligence/laziness three-item scales; original materials/code use four and original reconciliation explicitly corrects the preregistration.",
+    "Main prose prints positive t for four negative effects; preserve signed source result and compare magnitude prospectively.",
+    "Original source carries a duration flag but no removal; zero fast cases makes cohorts identical.",
+    "Supplementary Pollfish colleague composite includes manager item; omitted secondary result, not silently repaired.",
+    "Historical R/package versions not archived; a documented independent Python formula implementation and independently implemented auditor would be used, no original new human experiment."
+  ],
+  "figure_digitization": {
+    "image_sha256": "8ecbc5c9447f88d6f5657d7913552fa1bf7c9418ff4f3d86c9e3a2b37674b164",
+    "image_shape": [
+      1239,
+      2031,
+      3
+    ],
+    "grid_pixel_centers": [
+      623,
+      790,
+      957,
+      1125,
+      1291,
+      1458,
+      1625,
+      1792,
+      1959
+    ],
+    "pixel_affine_slope_intercept": [
+      667.9333333333335,
+      1291.1111111111113
+    ],
+    "algorithm": "Nine source tick/grid centers detected within fixed visual windows; fit linear pixel/value calibration. Within six fixed source rows blue-only JPEG mask, circle-center high-count median and cap vertical-pixel medians provide source d/CI targets. No human outcomes used.",
+    "rows": [
+      {
+        "measure": "laziness",
+        "row_center": 116,
+        "pixels": [
+          1535.0,
+          1417.0,
+          1654.0
+        ],
+        "source_values": [
+          0.36513956815384063,
+          0.18847523039558137,
+          0.5433010613168309
+        ]
+      },
+      {
+        "measure": "replaceability",
+        "row_center": 290,
+        "pixels": [
+          1520.5,
+          1402.0,
+          1640.0
+        ],
+        "source_values": [
+          0.34343081478524096,
+          0.16601789932461622,
+          0.5223408856505968
+        ]
+      },
+      {
+        "measure": "competence",
+        "row_center": 464,
+        "pixels": [
+          929.5,
+          811.0,
+          1051.0
+        ],
+        "source_values": [
+          -0.5413880294107863,
+          -0.7188009448714111,
+          -0.3594836477359685
+        ]
+      },
+      {
+        "measure": "diligence",
+        "row_center": 638,
+        "pixels": [
+          1000.5,
+          880.0,
+          1119.0
+        ],
+        "source_values": [
+          -0.4350899956748846,
+          -0.6154972219449714,
+          -0.25767708021425983
+        ]
+      },
+      {
+        "measure": "manager_disclosure",
+        "row_center": 812,
+        "pixels": [
+          1145.5,
+          1027.5,
+          1264.0
+        ],
+        "source_values": [
+          -0.21800246198888804,
+          -0.3946667997471473,
+          -0.04058954652826326
+        ]
+      },
+      {
+        "measure": "colleague_disclosure",
+        "row_center": 986,
+        "pixels": [
+          1157.5,
+          1039.0,
+          1276.0
+        ],
+        "source_values": [
+          -0.20003659713211588,
+          -0.3774495125927407,
+          -0.02262368167149113
+        ]
+      }
+    ]
+  },
+  "targets": [
+    {
+      "id": "laziness.mean_AI",
+      "target": 3.25,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "laziness.sd_AI",
+      "target": 1.49,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "laziness.mean_dashboard",
+      "target": 2.72,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "laziness.sd_dashboard",
+      "target": 1.41,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "laziness.abs_t",
+      "target": 4.08,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "laziness.welch_df",
+      "target": 492.8,
+      "absolute_tolerance": 0.050000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "laziness.mean_difference_ci_low",
+      "target": 0.28,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "laziness.mean_difference_ci_high",
+      "target": 0.79,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "laziness.p",
+      "target": "<.001",
+      "rule": "p < .001",
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "replaceability.mean_AI",
+      "target": 3.39,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "replaceability.sd_AI",
+      "target": 1.67,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "replaceability.mean_dashboard",
+      "target": 2.83,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "replaceability.sd_dashboard",
+      "target": 1.63,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "replaceability.abs_t",
+      "target": 3.84,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "replaceability.welch_df",
+      "target": 494.3,
+      "absolute_tolerance": 0.050000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "replaceability.mean_difference_ci_low",
+      "target": 0.28,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "replaceability.mean_difference_ci_high",
+      "target": 0.86,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "replaceability.p",
+      "target": "<.001",
+      "rule": "p < .001",
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "competence.mean_AI",
+      "target": 4.72,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "competence.sd_AI",
+      "target": 1.46,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "competence.mean_dashboard",
+      "target": 5.45,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "competence.sd_dashboard",
+      "target": 1.22,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "competence.abs_t",
+      "target": 6.0,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "competence.welch_df",
+      "target": 477.5,
+      "absolute_tolerance": 0.050000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "competence.mean_difference_ci_low",
+      "target": -0.96,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "competence.mean_difference_ci_high",
+      "target": -0.49,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "competence.p",
+      "target": "<.001",
+      "rule": "p < .001",
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "diligence.mean_AI",
+      "target": 4.66,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "diligence.sd_AI",
+      "target": 1.44,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "diligence.mean_dashboard",
+      "target": 5.25,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "diligence.sd_dashboard",
+      "target": 1.28,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "diligence.abs_t",
+      "target": 4.86,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "diligence.welch_df",
+      "target": 487.5,
+      "absolute_tolerance": 0.050000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "diligence.mean_difference_ci_low",
+      "target": -0.83,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "diligence.mean_difference_ci_high",
+      "target": -0.35,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "diligence.p",
+      "target": "<.001",
+      "rule": "p < .001",
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "manager_disclosure.mean_AI",
+      "target": 4.91,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "manager_disclosure.sd_AI",
+      "target": 1.59,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "manager_disclosure.mean_dashboard",
+      "target": 5.25,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "manager_disclosure.sd_dashboard",
+      "target": 1.55,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "manager_disclosure.abs_t",
+      "target": 2.42,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "manager_disclosure.welch_df",
+      "target": 494.3,
+      "absolute_tolerance": 0.050000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "manager_disclosure.mean_difference_ci_low",
+      "target": -0.62,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "manager_disclosure.mean_difference_ci_high",
+      "target": -0.06,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "manager_disclosure.p",
+      "target": 0.016,
+      "rule": "absolute error <= .000500001",
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "colleague_disclosure.mean_AI",
+      "target": 4.85,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "colleague_disclosure.sd_AI",
+      "target": 1.58,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "colleague_disclosure.mean_dashboard",
+      "target": 5.17,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "colleague_disclosure.sd_dashboard",
+      "target": 1.57,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "colleague_disclosure.abs_t",
+      "target": 2.23,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "colleague_disclosure.welch_df",
+      "target": 494.8,
+      "absolute_tolerance": 0.050000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "colleague_disclosure.mean_difference_ci_low",
+      "target": -0.59,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "colleague_disclosure.mean_difference_ci_high",
+      "target": -0.04,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "colleague_disclosure.p",
+      "target": 0.026,
+      "rule": "absolute error <= .000500001",
+      "source": "Original main Results/Study 1"
+    },
+    {
+      "id": "laziness.d",
+      "target": 0.36513956815384063,
+      "absolute_tolerance": 0.005,
+      "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+      "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+    },
+    {
+      "id": "laziness.d_ci_low",
+      "target": 0.18847523039558137,
+      "absolute_tolerance": 0.005,
+      "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+      "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+    },
+    {
+      "id": "laziness.d_ci_high",
+      "target": 0.5433010613168309,
+      "absolute_tolerance": 0.005,
+      "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+      "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+    },
+    {
+      "id": "replaceability.d",
+      "target": 0.34343081478524096,
+      "absolute_tolerance": 0.005,
+      "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+      "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+    },
+    {
+      "id": "replaceability.d_ci_low",
+      "target": 0.16601789932461622,
+      "absolute_tolerance": 0.005,
+      "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+      "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+    },
+    {
+      "id": "replaceability.d_ci_high",
+      "target": 0.5223408856505968,
+      "absolute_tolerance": 0.005,
+      "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+      "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+    },
+    {
+      "id": "competence.d",
+      "target": -0.5413880294107863,
+      "absolute_tolerance": 0.005,
+      "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+      "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+    },
+    {
+      "id": "competence.d_ci_low",
+      "target": -0.7188009448714111,
+      "absolute_tolerance": 0.005,
+      "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+      "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+    },
+    {
+      "id": "competence.d_ci_high",
+      "target": -0.3594836477359685,
+      "absolute_tolerance": 0.005,
+      "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+      "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+    },
+    {
+      "id": "diligence.d",
+      "target": -0.4350899956748846,
+      "absolute_tolerance": 0.005,
+      "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+      "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+    },
+    {
+      "id": "diligence.d_ci_low",
+      "target": -0.6154972219449714,
+      "absolute_tolerance": 0.005,
+      "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+      "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+    },
+    {
+      "id": "diligence.d_ci_high",
+      "target": -0.25767708021425983,
+      "absolute_tolerance": 0.005,
+      "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+      "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+    },
+    {
+      "id": "manager_disclosure.d",
+      "target": -0.21800246198888804,
+      "absolute_tolerance": 0.005,
+      "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+      "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+    },
+    {
+      "id": "manager_disclosure.d_ci_low",
+      "target": -0.3946667997471473,
+      "absolute_tolerance": 0.005,
+      "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+      "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+    },
+    {
+      "id": "manager_disclosure.d_ci_high",
+      "target": -0.04058954652826326,
+      "absolute_tolerance": 0.005,
+      "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+      "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+    },
+    {
+      "id": "colleague_disclosure.d",
+      "target": -0.20003659713211588,
+      "absolute_tolerance": 0.005,
+      "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+      "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+    },
+    {
+      "id": "colleague_disclosure.d_ci_low",
+      "target": -0.3774495125927407,
+      "absolute_tolerance": 0.005,
+      "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+      "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+    },
+    {
+      "id": "colleague_disclosure.d_ci_high",
+      "target": -0.02262368167149113,
+      "absolute_tolerance": 0.005,
+      "source": "Original publisher Figure 1 JPEG; fixed source-only digitization",
+      "tolerance_basis": "0.005 = 3.34 source pixels; covers JPEG/raster/circle-center uncertainty without outcome-guided tuning"
+    },
+    {
+      "id": "manager_disclosure.raw_alpha",
+      "target": 0.91,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Methods/Study 1"
+    },
+    {
+      "id": "colleague_disclosure.raw_alpha",
+      "target": 0.93,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Methods/Study 1"
+    },
+    {
+      "id": "competence.raw_alpha",
+      "target": 0.96,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Methods/Study 1"
+    },
+    {
+      "id": "diligence.raw_alpha",
+      "target": 0.93,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Methods/Study 1"
+    },
+    {
+      "id": "laziness.raw_alpha",
+      "target": 0.92,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Methods/Study 1"
+    },
+    {
+      "id": "replaceability.raw_alpha",
+      "target": 0.95,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original main Methods/Study 1"
+    },
+    {
+      "id": "pearson.laziness.AI_tool",
+      "target": 0.18,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.competence.AI_tool",
+      "target": -0.26,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.competence.laziness",
+      "target": -0.71,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.diligence.AI_tool",
+      "target": -0.21,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.diligence.laziness",
+      "target": -0.75,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.diligence.competence",
+      "target": 0.85,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.replaceability.AI_tool",
+      "target": 0.17,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.replaceability.laziness",
+      "target": 0.84,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.replaceability.competence",
+      "target": -0.65,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.replaceability.diligence",
+      "target": -0.71,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.manager_disclosure.AI_tool",
+      "target": -0.11,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.manager_disclosure.laziness",
+      "target": -0.53,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.manager_disclosure.competence",
+      "target": 0.57,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.manager_disclosure.diligence",
+      "target": 0.59,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.manager_disclosure.replaceability",
+      "target": -0.52,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.colleague_disclosure.AI_tool",
+      "target": -0.1,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.colleague_disclosure.laziness",
+      "target": -0.54,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.colleague_disclosure.competence",
+      "target": 0.57,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.colleague_disclosure.diligence",
+      "target": 0.6,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.colleague_disclosure.replaceability",
+      "target": -0.54,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "pearson.colleague_disclosure.manager_disclosure",
+      "target": 0.88,
+      "absolute_tolerance": 0.005000001,
+      "source": "Original SI page 5 Table S1; all 21 nonredundant correlations"
+    },
+    {
+      "id": "final_n",
+      "target": 497,
+      "absolute_tolerance": 0,
+      "source": "Main Methods"
+    },
+    {
+      "id": "raw_n",
+      "target": 500,
+      "absolute_tolerance": 0,
+      "source": "Main Methods"
+    },
+    {
+      "id": "straightliners_n",
+      "target": 3,
+      "absolute_tolerance": 0,
+      "source": "Main Methods/source"
+    },
+    {
+      "id": "under_30_seconds_n",
+      "target": 0,
+      "absolute_tolerance": 0,
+      "source": "Original Rmd/schema census"
+    },
+    {
+      "id": "age_mean",
+      "target": 37.7,
+      "absolute_tolerance": 0.050000001,
+      "source": "Main Methods"
+    },
+    {
+      "id": "male_percentage",
+      "target": 50,
+      "absolute_tolerance": 0.500000001,
+      "source": "Main Methods"
+    },
+    {
+      "id": "bachelors_or_higher_percentage",
+      "target": 97,
+      "absolute_tolerance": 0.500000001,
+      "source": "Main Methods"
+    },
+    {
+      "id": "MC1_n",
+      "target": 201,
+      "absolute_tolerance": 0,
+      "source": "SI page 11"
+    },
+    {
+      "id": "MC1_correct_percentage",
+      "target": 88.6,
+      "absolute_tolerance": 0.050000001,
+      "source": "SI page 11"
+    }
+  ],
+  "gate_rule": "Every target, source cohort, input hash, independent audit and zero-invalid gate must pass; no selected-outcome success. Report all failures. New supporting diagnostics cannot replace any source target.",
+  "proposed_resource_plan": {
+    "cpu_threads": 1,
+    "process_RSS_cap_GiB": 1,
+    "available_RAM_floor_GiB": 1,
+    "free_disk_floor_GiB": 35,
+    "run_or_audit_seconds_bound": 600,
+    "downloads": "None",
+    "GPU": false,
+    "randomness": "None in estimators; deterministic independent raw-data analysis."
+  },
+  "next_step": "Root reviews scope/targets/tolerances first. Then finalize preregistration, runner/auditor and immutable input manifest before any trial outcome computation."
+}

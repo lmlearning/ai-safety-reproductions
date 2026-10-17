@@ -1,0 +1,812 @@
+{
+  "paper_id": "P080",
+  "frozen_UTC": "2026-10-10T18:45:08.657674+00:00",
+  "participant_outcome_calculations_performed": false,
+  "files": [
+    {
+      "path": "papers/P080_ai_skill_formation/ELIGIBILITY_REVIEW_20261010.json",
+      "bytes": 2467,
+      "sha256": "5d6ebc7d8af403db2204149c0849c752bd51ce032b50eb8e45e638ab249b24dd"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/ORIGINAL_PUBLISHED_FIGURE_TARGETS_20261010.json",
+      "bytes": 31856,
+      "sha256": "ef783454547a2ba7f368f039f16dfa224a8a1e52c16caeb3b42e5e30ef598347"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/PREPARATION_PROVENANCE_20261010.json",
+      "bytes": 33479,
+      "sha256": "5bc8d42335ccd264eb48262d93c59bc9ab952d41fe9c38925c9683b808d886c6"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/PREPARATION_REVIEW_20261010.json",
+      "bytes": 6229,
+      "sha256": "de37fe067842c9762563c13ee8e7013021a3349abb0d58c8e7060b8942b3eaf2"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/PREREGISTRATION_PROPOSAL_20261010.json",
+      "bytes": 14069,
+      "sha256": "b622eeba4aed6aa70959062c4c4ebcb250bc5243f7c3c81c24d799132b695d98"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/RESOURCE_AMENDMENTS_PROSPECTIVE_20261010.json",
+      "bytes": 958,
+      "sha256": "fe911104718875676c7e89741aadc58f99b5e1d141a767f0f6440cc2a5443dbc"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/SOURCE_ONLY_SYNTHETIC_VALIDATION_20261010.json",
+      "bytes": 913,
+      "sha256": "347c93853240bf85d5ede4be58e0d0481689b110f92dc9aeb266a23cfd79e0ee"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/P078_P080_s2_batch.request.json",
+      "bytes": 521,
+      "sha256": "b6c109f02d4735ee033e4cbbd1625a059e16392ad303294540e8c9e458e48002"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/P078_P080_s2_batch.source",
+      "bytes": 976,
+      "sha256": "12f2931044cbf51dbc2f1c370a207c0824b3a0f141824bb0c28dd1bb15d2c845"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/P080_arxiv.source",
+      "bytes": 41106,
+      "sha256": "b586ee09904fb7931a3654c61e758221e3d2a501fecdf274545f56bf7fca0418"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/README.md",
+      "bytes": 363,
+      "sha256": "2c6b1ab5df8383a827078a34d358692163ce6fda94537c06102b975abc887700"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/all_retained_history_paths.txt",
+      "bytes": 3036,
+      "sha256": "09e4f3b0bf7bac731d55cc5c82f8a85bdec94f71948e149a2635fee11f921f20"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/annotated_transcripts__p1.json",
+      "bytes": 3298,
+      "sha256": "4f7d520b77b428be114191ee946e831d3d0b2ad6635a5c990b6d59e4468d7f3e"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/annotated_transcripts__p27.json",
+      "bytes": 1987,
+      "sha256": "c7375a7c6acb4c0405c2543f104e75f038a0a5593ec38e5807eb2ae80f646c86"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/annotation_linkage_schema_only.json",
+      "bytes": 828,
+      "sha256": "e64697ecfc5820e91efafac72ea97ea3392f8e8843b4ff9fa957ffcd059fcc2d"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/bootstrap_fixed_rank_design_no_outcomes.json",
+      "bytes": 1158,
+      "sha256": "cc00a588681d560e203acf030cc93d76eb96d0eac1787aa3b40628ba617bf489"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/current_tree.txt",
+      "bytes": 5117,
+      "sha256": "ddb0bff4ba04e7dee8649083f42933c1d15e5f30cbd06c6147bb40c37f256412"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/final_task__post-survey.ipynb",
+      "bytes": 37392,
+      "sha256": "76843e38bf30c43bb02bba154f7e210a98de0eab4fa9ce59850f197399872917"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/git_commit_history.txt",
+      "bytes": 4489,
+      "sha256": "09b4c5ca39b486b0209f493cf0721839e1724815e4f5abbd86db1b57b18de56d"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/git_provenance.json",
+      "bytes": 259,
+      "sha256": "aa043f8e92e13b2565f56f70436ed9ce7d0fd536229d696f5cc501bfe17f9254"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/item_grade_schema_only.json",
+      "bytes": 1821,
+      "sha256": "0ed39493a52b1e53053f6d4ae5bfbd0dcacb34aae48080b5e2272ff9d9ad0a2a"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_project.source",
+      "bytes": 5186,
+      "sha256": "719576933b676287662f1eb7231fee77cd422216aa455554bd134a6deb87020e"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_project_files.source",
+      "bytes": 947,
+      "sha256": "c0ee8d2b551127a686ed9043783bf8fa542a269fea1f57fdd42c76d26458c392"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_project_storage.source",
+      "bytes": 128,
+      "sha256": "337a5845bf62ccbe2bee6d47834c9d6317bc033ab935af60bc66d75c688ef71a"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/README.md",
+      "bytes": 355,
+      "sha256": "39157369de54353f4ef8c6294bfc012c42505a830aff463ac21ed49179e9f79a"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p1.json",
+      "bytes": 3164,
+      "sha256": "b0c4bc9dff3cd5c114648117f36a6ec7e76dca7fbdc4712ac0d9fd5e60f5bc86"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p10.json",
+      "bytes": 5719,
+      "sha256": "c0437f2a3e53f11f0526d179f96e03f1f9a6c9ccd54e6d4cb4a3b0d3aa21dbdb"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p11.json",
+      "bytes": 4354,
+      "sha256": "a3b0e325e323fd74016bb1740749a110a9a44502d98aa724b10892b23a88c4d9"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p12.json",
+      "bytes": 3630,
+      "sha256": "042df8b8793925552e572ad856b50e3325021514edabef6fbb680a2c439a13e7"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p13.json",
+      "bytes": 5268,
+      "sha256": "594e4173104ece19b05fdfc67b461480f62838de584797c316a45f7efb359202"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p14.json",
+      "bytes": 7503,
+      "sha256": "1c5f2c431cc6ef49c92990cb26cf85725a205d18db64bcfea684dd52a8443355"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p15.json",
+      "bytes": 5956,
+      "sha256": "251dba41977d03ec4a272e9b2da8779eb6b87fd2bab9c577b0ac10081bf70058"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p16.json",
+      "bytes": 4127,
+      "sha256": "617a68fcfeb5d8ec122db7e7f5822f54d00249693128dc3bcb2a12e834b43e4c"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p17.json",
+      "bytes": 3532,
+      "sha256": "1cfa3c18f2a583dd755dd93bdb6cf422d40dbc56227ff4fd3adeb29cca1bc2d2"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p18.json",
+      "bytes": 2782,
+      "sha256": "7a3e3eca52f47655342e41cd4d9d547a55d2443630fa7ce33fee78e539b8b2b9"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p19.json",
+      "bytes": 5699,
+      "sha256": "200b7c30b54e5e3ad1bdb738bad6a411177a768154375fffad8cd5bc122ca38e"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p2.json",
+      "bytes": 7974,
+      "sha256": "6f32f2adedd581881f69839a683b7742d76fa54709d98ebd3f2545777c56222a"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p20.json",
+      "bytes": 6010,
+      "sha256": "f0e83e28350eb2cf73a0073dcf5fffbba8e47179eb2c379707bfc61d4309d5af"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p21.json",
+      "bytes": 3383,
+      "sha256": "49b94001251a7e57fafdb255a0a6cbc9ca6e367d40275d572a86ea29e06872ae"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p22.json",
+      "bytes": 6550,
+      "sha256": "75cd3a88db93a0a65f934d3e33b7e33e6fae7456d3cd414e5dd07c01f5095d88"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p23.json",
+      "bytes": 7467,
+      "sha256": "0db566bb31b42de7d5a191f9c5859ab812131c31962dcb4d0a503aecbfc1e2f5"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p24.json",
+      "bytes": 5000,
+      "sha256": "ca7500185160daf8ed15627645d7a9d2b2466046bbf6511885ac2981d8bd7de5"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p25.json",
+      "bytes": 4258,
+      "sha256": "19fde28c5ce07f59bcb08b4a1030510bccec6e215665eb6946fb4596edfd454c"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p27.json",
+      "bytes": 1900,
+      "sha256": "36fc1c58fb45089bc52d1be8c04c5ce874906655edc914994979999cf9c252a1"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p28.json",
+      "bytes": 1498,
+      "sha256": "8755bcce6df2ff605b93fa6761e67816c4a6ada4157e58840387616b90a471f5"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p29.json",
+      "bytes": 2718,
+      "sha256": "c073b0c77a7ee40c4d711dc464a82420cd74504dde25dd0eee556e3fefdf6c7d"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p3.json",
+      "bytes": 3142,
+      "sha256": "d821ac750fa9db54399265010156737cf17e0ef8cb6f34f4c5a4660a77c9d29e"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p30.json",
+      "bytes": 3268,
+      "sha256": "eef49542ae1a0faaeab990213c2b06247e3dddc02cef4ee834d857fa69f9d37c"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p31.json",
+      "bytes": 1922,
+      "sha256": "93ff341fc4a7e270b5ad0a82529bb8196569aaf934a28de2237e92458b5e5ec7"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p32.json",
+      "bytes": 2374,
+      "sha256": "d8e22b3439642a2d4b1e8fd158482c78faf8fd61afdceab4b0963fbd1070e066"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p33.json",
+      "bytes": 2462,
+      "sha256": "ab7fe7bcd206a53af3f2f33518ceda1d1d12bec87b3c1764f4ddcb07c9f82a88"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p34.json",
+      "bytes": 1656,
+      "sha256": "8c4f3e56a0609951e67517a29ef9c078e6cf3263184e1142deb72820381c3d6f"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p35.json",
+      "bytes": 2750,
+      "sha256": "0e4ddcdb890e8639ffb29b5ec9821159d3330bc850452b1221011baae52b353c"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p36.json",
+      "bytes": 3565,
+      "sha256": "d24b3469205e4ffe7c16104e0420e0be43f27438b826945329bbcfbf50d8122f"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p37.json",
+      "bytes": 1502,
+      "sha256": "e1dc6c4fdcf968f803527c7fcfb23ccbf1f83c9941029a5551815cad11e0de1c"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p38.json",
+      "bytes": 2088,
+      "sha256": "7598ba83f1427675efaa5cb563fe7e5928cb9cc8f60c8220a1bec041723f2b12"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p39.json",
+      "bytes": 1915,
+      "sha256": "cb35639b476161d6b7979aee1491dc6c6800153fc18d62427bb6222426e46980"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p4.json",
+      "bytes": 5568,
+      "sha256": "dccbd14beb70e5450123f8a9548f46dc1c563387514a60379953494d74129dfc"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p40.json",
+      "bytes": 1908,
+      "sha256": "71f31c9c24cc371787cbe92c38902d7cf2adfa550aac78ee728a86a7b33deea0"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p41.json",
+      "bytes": 1670,
+      "sha256": "22d4a2422aab7ddf50857ec56507ce35ae900c3c4473a8f30de025482832a101"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p42.json",
+      "bytes": 2045,
+      "sha256": "db188e10bf7f8e139ebb266b450ae77a91868635d5dc86a86e08641be8759d34"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p43.json",
+      "bytes": 2581,
+      "sha256": "180308c8930a4589c6cb0df91a72f71a37786aa3150014485a1237630029ede3"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p44.json",
+      "bytes": 1877,
+      "sha256": "92526c12c8dad9078d7d1a223ac1c617b1ccc9c5bf734f7bedf6867b153b0998"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p45.json",
+      "bytes": 1892,
+      "sha256": "16b84ad9ab92ccefe268a42dbfa40b4a4dead51ff1a063983224570c6a6ee9e2"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p46.json",
+      "bytes": 3772,
+      "sha256": "30df19db1124f4894e9ff711d32aacf69117c70c745a7f2b8f2848be3c46d150"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p47.json",
+      "bytes": 2128,
+      "sha256": "02fa42e325100cd81f514d8ad6e5e13cc4904cb407fc4bdd0c686be5999e6f00"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p48.json",
+      "bytes": 3448,
+      "sha256": "4e5dc33204a0adb016b8000693bf2e99e9d0d27785ffb38dd860b75a6c701ce0"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p49.json",
+      "bytes": 2198,
+      "sha256": "fab0b73acb0972cf3c60db6dbc107d55c4ae395668152c72ade7742f3f714359"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p5.json",
+      "bytes": 4594,
+      "sha256": "8238f001dbe79d126b83de361936f7d5f3b4fafbb86a8e873217d940b135d1ee"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p50.json",
+      "bytes": 2759,
+      "sha256": "494943581b8ad6bc53507828fda4d357bbe82a3c15eba2821bbadd3b12d39c5b"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p51.json",
+      "bytes": 2339,
+      "sha256": "af6658ceb81e59b265db8943457b36449def6b37b230af4a5010102ae91923e2"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p52.json",
+      "bytes": 1878,
+      "sha256": "b069478041677561f40ba43f20193b89058f359526d28a50bbcef5faf8adc23a"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p53.json",
+      "bytes": 1470,
+      "sha256": "343f510586dbfb40ad4a12c050ae01ed7eff55f485e787deb88fcaef25ff5794"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p6.json",
+      "bytes": 4534,
+      "sha256": "9bd29b8f829ac864f2d5d824f250c779fd7c39b502b7ac853c5878e5745d8a7a"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p7.json",
+      "bytes": 5383,
+      "sha256": "6c5d263b9f9d132d9c9fce38d2111c650d29ad2369a944656c7f0ab5b5ea62fa"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p8.json",
+      "bytes": 3828,
+      "sha256": "363152bb6db009fe66961788f7ed695784edc4e9c3339fcfa04fc7fed35f85bf"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/annotated_transcripts/p9.json",
+      "bytes": 10646,
+      "sha256": "1002143eafe86be7a75c340d01527af57e532b9fcec979e1c42d40dd8e8a5d26"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/final_task/conftest.py",
+      "bytes": 1708,
+      "sha256": "bf0c728c5d75a6b4b5454e5262668c93b15ef82c9f186c6ee0aa0d96b41200d8"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/final_task/post-survey.ipynb",
+      "bytes": 36277,
+      "sha256": "6bf0c612b37742bd977a5adde826a089bf7b5247d6f3abce34cf0053247686b2"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/final_task/pytest.ini",
+      "bytes": 310,
+      "sha256": "76a51fdc5692da70bc8e567f1d0eee4147b48d83d9f4c1ec3915291f03026e57"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/final_task/test_skill4_new.py",
+      "bytes": 28843,
+      "sha256": "80c722cd45ded06f8db27d9343dc452a5602adfdc7b9709cb7992dc63dfc5ce5"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/final_task/trio_task.py",
+      "bytes": 21019,
+      "sha256": "8921d5f130220cc6f3db6afbe4fb170629f9a8b4631e10dd7cf4aa38d34f0659"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/final_task/trio_task_empty.py",
+      "bytes": 13080,
+      "sha256": "10e715144b0bec3793448b9dd3272ccf95e5f3bbc4d6069f3b3f6ce907d38606"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/final_task/trio_task_instructions.md",
+      "bytes": 16239,
+      "sha256": "ec9d0fe0cedf5ac18be7e5c0c7bcfd6c20cc44a9a85eee148317af74207df439"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release/requirements.txt",
+      "bytes": 15732,
+      "sha256": "c8412799bd57a020d0faaa5792d12e08856aa385b7a75189789a1ae92d02b25e"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/original_release_manifest.json",
+      "bytes": 13667,
+      "sha256": "30337c39c58a9c729b71d652db0834dd5f1fbdbffe75496fc045c82b47e327a9"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/osf_pk6a5_3.source",
+      "bytes": 4207,
+      "sha256": "185604818b2f43bab5ffb6a9b93f481d2b739fc22853611c62d4f65322665dd3"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/osf_requests.json",
+      "bytes": 832,
+      "sha256": "6884f321d4e3b4ea8d032c21dcca85210c156910bde605c83d393e81e5a15c47"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/osf_storage_requests.json",
+      "bytes": 1103,
+      "sha256": "0fd802e1f2d83d95f85fed3693f983b6a320581ebfef97becc147b8a19ceb28a"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/osf_w49e7_0.source",
+      "bytes": 4207,
+      "sha256": "185604818b2f43bab5ffb6a9b93f481d2b739fc22853611c62d4f65322665dd3"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/osf_w49e7_1.source",
+      "bytes": 35010,
+      "sha256": "a6b49f8d56527f2a45d48ddd5497a8f53efdd36e79aa69f8d1d044e1a5319700"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_requests.json",
+      "bytes": 489,
+      "sha256": "28f89b55fbd4ebc7c07c9431c6677f7f2da9a89a4f3fad5482fc578b3ff846c3"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1.html",
+      "bytes": 228015,
+      "sha256": "72200cfe20676ed28b457c39432e18985a74cfe7618a47fef5373c44deeb011e"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1.txt",
+      "bytes": 81272,
+      "sha256": "bacc9aaff122d19778f63fd37e1df99f68b5fc61822e050c916444cdec9372ca"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_source.tar",
+      "bytes": 2744288,
+      "sha256": "7b64accf5fdc16a929fec18cfbece6b28629663fe6c15674f010849eb8c913cf"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_source_request.json",
+      "bytes": 156,
+      "sha256": "66fa55ec6074b6167b9385b15127aada0aed65fa15421e00ed1e684320a6fb91"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/Hero-Results-Personas.pdf",
+      "bytes": 256030,
+      "sha256": "b6453c477e5d3c8d5d20a0088a3534f74e7db853b81304a367ae792496c8059f"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/Personas-Simple.pdf",
+      "bytes": 151682,
+      "sha256": "cc999061adcf773aa73345868618467466dacd328d63aa5bc2840388b96950f4"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/Personas-Simple.pdf.txt",
+      "bytes": 623,
+      "sha256": "28f3255be412a277e21bdd8a1be1863ff0930db746802b19129fae6a47c83d2a"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/active_time_vs_quiz_score.pdf",
+      "bytes": 21439,
+      "sha256": "9c9d5cbe344881abb2e1321daf11d120eaeaba1e6fdca377a1bb2a6b912067e9"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/ai-skills.pdf",
+      "bytes": 69324,
+      "sha256": "cb31d06b31bca3ae4f280db35e5420ac41079994ae3f6cd0cd9d43b99a64927a"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/ai_interaction_time.pdf",
+      "bytes": 15126,
+      "sha256": "f7fc6f83a3247fc14fc8ca399b56613c72e5445d7ce90f717abec20ce0ce5c62"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/ai_query_Completion_Time.pdf",
+      "bytes": 23415,
+      "sha256": "8245b65589a6c9728d4435d344ca143d4f04c347aee22bdf77db98166c7ebd31"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/ai_query_Quiz_Score.pdf",
+      "bytes": 24493,
+      "sha256": "f72b9a34a4d18fdf5412f75370ead375480b8a9f514d2fe6e22d013b1f4b3dbc"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/error_types.pdf",
+      "bytes": 16979,
+      "sha256": "19bf469eb93a9159f27125ae622947391a8f822edff4303c610d643f5210e5c0"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/error_types_by_condition.pdf",
+      "bytes": 16899,
+      "sha256": "54fdeb98f7274a934f8b4e4cc650d6bfe7d6bc303f564e45e8110bbeb677fb9d"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/main_study.pdf",
+      "bytes": 23710,
+      "sha256": "c514f67a6e4af132b3e25c979125f9315f17ad4064fbcadd7d15420487867ac0"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/main_study.pdf.preview.png",
+      "bytes": 42735,
+      "sha256": "7a3280dc35ecf95c3d8069bf1d262272700b7994115ea5a46011f5a1055cdaa5"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/main_study.pdf.txt",
+      "bytes": 355,
+      "sha256": "7de8398b8f75bf13cf507cad33160d3b724919ed5c8017289ea04caa921c75a2"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/main_study_yoe.pdf",
+      "bytes": 22252,
+      "sha256": "7bc9106deb392f17c826cd37af14c2b7d4b52fc932eadc87e81df4f25b76a9a3"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/main_study_yoe.pdf.preview.png",
+      "bytes": 48831,
+      "sha256": "469a7a97b2eb4c19343c0887c54a3f271ff43be04e9f43f0db05e0716b160e7d"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/main_study_yoe.pdf.txt",
+      "bytes": 389,
+      "sha256": "23bf6b2f93d8d7944f869d8c40096049a20557f12470555fe16f554bb43a4cd1"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/participant_distribution.pdf",
+      "bytes": 22093,
+      "sha256": "790f045cfa9805fd090e6101006de668ee7bd3d05380e4335cd95300f6ae4f64"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/paste_behavior.pdf",
+      "bytes": 17626,
+      "sha256": "4aa866e8772295e9d3d61e9e5064f4d8a6faf07b6dacc658b1de45c61ab29b34"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/pilot_study_D.pdf",
+      "bytes": 22957,
+      "sha256": "dc2316567dd3dc8cb996a4459fd3443a1363269e24153b104e0139c832a2c5e5"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/question-types.pdf",
+      "bytes": 241985,
+      "sha256": "73a56f415533b7ffceb673eb16c2f47486985a463215393ec4759dcb97ab9b95"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/quiz_score_subarea.pdf",
+      "bytes": 17657,
+      "sha256": "c66491ef9ad941aaed45170b5b9c4ecddc7127ec2081d4f1342a93dc6b96451e"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/quiz_score_subarea.pdf.preview.png",
+      "bytes": 30174,
+      "sha256": "e68908ecdab20eaf2041c25b2af3650ceeb017b50c2eaf1ad6524af7ff35256b"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/quiz_score_subarea.pdf.txt",
+      "bytes": 154,
+      "sha256": "effe41daae3d97037564d807e696f9302afacffb026622e686e62d7e895dfdaf"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/quiz_score_subarea_preview.png",
+      "bytes": 30174,
+      "sha256": "e68908ecdab20eaf2041c25b2af3650ceeb017b50c2eaf1ad6524af7ff35256b"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/task_difficulty.pdf",
+      "bytes": 19580,
+      "sha256": "b8ed9b27e9146c342deb8dd8f511e64ae5d7e9286e99656ac12eccf62f14f5fc"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/task_difficulty.pdf.preview.png",
+      "bytes": 28983,
+      "sha256": "eaad3c1013cc5baad7e18ceba12c0430fe441791db17ef0e82d2c0dd32c7ff8f"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/task_difficulty.pdf.txt",
+      "bytes": 191,
+      "sha256": "584ec4d734c45160f5154bb24e7fc17545e3aac5683dbf18c7f836ba29464e35"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/task_learning_enjoyment.pdf",
+      "bytes": 17430,
+      "sha256": "3fc360edda8afcc09eecc2957d9c99c9902315f71f6fa36d5a01c483ef07c012"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/task_learning_enjoyment.pdf.preview.png",
+      "bytes": 25531,
+      "sha256": "7294da0f8eaf8aaef9b5ff324fe117d3632f5ea5b4fa6b72066b93a7975ec0b4"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/task_learning_enjoyment.pdf.txt",
+      "bytes": 162,
+      "sha256": "04a01cf835969e342c57d2dd387dbf43a743cf21a908c6ad84f17edce07fa440"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/main.tex",
+      "bytes": 72017,
+      "sha256": "56f5c186721f5d520c5bd38f13482602cd7ffd39d8be3acab87831cbc233298e"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/references.bib",
+      "bytes": 14851,
+      "sha256": "7d05de0aabd3bab35c7fda964933e6aae69825af33666e18cc7d8302527fb236"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/supp.tex",
+      "bytes": 11945,
+      "sha256": "582309673ddda0d2d3fbd3dfc86676a282c6be0d6324276ec528e3d686f9fbb5"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex_manifest.json",
+      "bytes": 3243,
+      "sha256": "d057798970aa895cd704750ee2d1f5b279a148b233df5a2b67b5a29ca3569386"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v2.html",
+      "bytes": 228030,
+      "sha256": "74d0d16a59f20b01be27ab1050e47acd75f143cc359ef63dd4fbeff9f0d35694"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v2.txt",
+      "bytes": 81287,
+      "sha256": "65f78ecd15ec334805b06b1c805f04952ea3e28484d1a6eac31a731bc7ff1c3e"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/registration_files.source",
+      "bytes": 979,
+      "sha256": "dfea28101eeacfdbfb376d085502eb255921dfa7fd4e4323dc8f624a5667474b"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/registration_osfstorage.source",
+      "bytes": 128,
+      "sha256": "337a5845bf62ccbe2bee6d47834c9d6317bc033ab935af60bc66d75c688ef71a"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/retained_original_data/README.md",
+      "bytes": 96,
+      "sha256": "1615f99683e127b056c1c517c746d795a7518a6eeba197e2ae88f96dc2ceabe8"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/retained_original_data/data_analysis__data__Full-Study.csv",
+      "bytes": 142450,
+      "sha256": "7c76a8d4279a3fa4f0df24b0b4587c1b8c194561f26057545edac7919237518f"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/retained_original_data/data_analysis__data__Surge-P3.csv",
+      "bytes": 53891,
+      "sha256": "4085e0216a9f50b5b3f9063c2955e2e0933874038bb9869403a302d2c6ad27c9"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/retained_original_data/data_analysis__pilot.ipynb",
+      "bytes": 735797,
+      "sha256": "fa8c36c6bc33ccb1726a8ad1dd6bd09c9fcd5d871e38c55970d938130356e490"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/retained_original_data/file_manifest.json",
+      "bytes": 13534,
+      "sha256": "c1b4c8a953444187121209d57e058b51eb86dfd50f2876f3bd7a3b88b1873617"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/retained_original_data/pilot_notebook_source_only.txt",
+      "bytes": 22217,
+      "sha256": "a6922bc4757e08819375a0cbcc0730875b745c08fb86b90263ba60d2c66d99ed"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/seaborn_original_algorithm/requests.json",
+      "bytes": 2481,
+      "sha256": "e1a187a6af06a66b8687c38052d5e472d3e37dde0ff6b2f29b2c0c7a45978d86"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/seaborn_original_algorithm/v0.12.2__statistics.py",
+      "bytes": 19390,
+      "sha256": "501f4ce34d29d41cf2e46c9effdc72c161e0b462cf4cbb2262ffc65ee86f5048"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/seaborn_original_algorithm/v0.12.2_algorithms.py",
+      "bytes": 4970,
+      "sha256": "587f795a9d0d3e5626e4d3ad585d2223262b64e40daaa0c7d934bcd3db744c32"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/seaborn_original_algorithm/v0.13.0__statistics.py",
+      "bytes": 22531,
+      "sha256": "3662c37396ce1f789314c171a82806fe399c02fba6ba1f43a360d97c8328fab3"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/seaborn_original_algorithm/v0.13.0_algorithms.py",
+      "bytes": 4188,
+      "sha256": "bda972b1d2c64f6897a0d8d003c1adff165d4a63519bfea68a5242b51df31fac"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/seaborn_original_algorithm/v0.13.0_categorical.py",
+      "bytes": 120317,
+      "sha256": "813dafe53a79ec93a73e7d76366b7e07bc9cc2019180738efa2d767c16112624"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/seaborn_original_algorithm/v0.13.1__statistics.py",
+      "bytes": 24946,
+      "sha256": "f291bb6ade95b566ffba345e237f6a4c1ef4bd616001f0a64db5a60e64c99ad5"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/seaborn_original_algorithm/v0.13.1_algorithms.py",
+      "bytes": 4188,
+      "sha256": "bda972b1d2c64f6897a0d8d003c1adff165d4a63519bfea68a5242b51df31fac"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/seaborn_original_algorithm/v0.13.1_categorical.py",
+      "bytes": 121745,
+      "sha256": "87a52b903a00227f8a15ca4fb2c77d713dacdd471cb962ed39fc9fb027ea0e91"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/seaborn_original_algorithm/v0.13.2__statistics.py",
+      "bytes": 24946,
+      "sha256": "f291bb6ade95b566ffba345e237f6a4c1ef4bd616001f0a64db5a60e64c99ad5"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/seaborn_original_algorithm/v0.13.2_algorithms.py",
+      "bytes": 4188,
+      "sha256": "bda972b1d2c64f6897a0d8d003c1adff165d4a63519bfea68a5242b51df31fac"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/seaborn_original_algorithm/v0.13.2_categorical.py",
+      "bytes": 121881,
+      "sha256": "5f77a3c7cac64ca669a8dec8c76aa9c32193bddfbde967ebab2469b98afa87fa"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/structural_census_no_outcomes.json",
+      "bytes": 1595,
+      "sha256": "9fd19c9e4ea9f4756bbadea8c9f5e7424a983e4623cf8c924d0ebd96d792109e"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/tree_00bd5407.txt",
+      "bytes": 2748,
+      "sha256": "1d116b20f78bc3a2db49eaf626a6adc2ade923368ec10e0abb97b946deb4f645"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/tree_972719d2.txt",
+      "bytes": 7160,
+      "sha256": "4a4f9200b916d2785febf1a27ee23b7ef3314586e6e866c38a12bb2d27c625aa"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/tree_a6fb640e.txt",
+      "bytes": 2494,
+      "sha256": "0c4213c8b54e0f7b414f12279cd0b7890f669f7b0443d79efae68ffaac2b1af4"
+    },
+    {
+      "path": "scripts/audit_p080_main_rct.py",
+      "bytes": 18822,
+      "sha256": "3362cfa76f75f2e924bc29e767febc3dc8c98e4b33867665418b4036c3b5a982"
+    },
+    {
+      "path": "scripts/p080_freeze_main_rct.py",
+      "bytes": 10451,
+      "sha256": "bb40de64d8b374aea04bc0773538366dcf9e8c30dbae5154c9fcd293d4d4abbd"
+    },
+    {
+      "path": "scripts/p080_original_pdf_targets.py",
+      "bytes": 4524,
+      "sha256": "27d484275fd9c1839964a67208104c02a2600a5828299aab46edfd7baab9159a"
+    },
+    {
+      "path": "scripts/p080_resource_guard.py",
+      "bytes": 1986,
+      "sha256": "1c3eea4a128c1ec6cdfc22ac8d01b4ce48503a20a7026d46ed031d8fb6b571d7"
+    },
+    {
+      "path": "scripts/run_p080_main_rct.py",
+      "bytes": 19056,
+      "sha256": "ebf5a1bb502ad6ec17a02a4f4c03941dc548eb9fedbb71069b46a6b050984403"
+    }
+  ]
+}

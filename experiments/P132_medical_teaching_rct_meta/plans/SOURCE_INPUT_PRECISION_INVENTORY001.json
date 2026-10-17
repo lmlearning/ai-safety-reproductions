@@ -1,0 +1,716 @@
+{
+  "recorded_at_utc": "2026-10-11T01:04:51.551343+00:00",
+  "source": {
+    "path": "papers/P132_medical_teaching_rct_meta/sources/ORIGINAL_MEAN_SD_N_TRANSCRIPTION001.csv",
+    "bytes": 1494,
+    "sha256": "098bd763aa0dad173af102cacb6457ed58046e2788b79a8fdb1c2749d9fcf5a8"
+  },
+  "forest_rows": 16,
+  "additional_delayed_row": 1,
+  "numeric_mean_sd_fields": 68,
+  "own_effects_or_pooled_statistics_computed": false,
+  "rows": [
+    {
+      "outcome": "knowledge",
+      "study": "Ba2024",
+      "source": "Original Figure3/VOR page6",
+      "gai_n": 39,
+      "traditional_n": 38,
+      "fields": [
+        {
+          "field": "gai_mean",
+          "literal": "92.21",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "gai_sd",
+          "literal": "2.37",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_mean",
+          "literal": "92.38",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_sd",
+          "literal": "2.68",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        }
+      ]
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Bhatia2024",
+      "source": "Original Figure3/VOR page6",
+      "gai_n": 50,
+      "traditional_n": 50,
+      "fields": [
+        {
+          "field": "gai_mean",
+          "literal": "1.7",
+          "decimal_places": 1,
+          "literal_resolution": "0.1",
+          "literal_half_unit": "0.05",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "gai_sd",
+          "literal": "1.33",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_mean",
+          "literal": "3.57",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_sd",
+          "literal": "0.498",
+          "decimal_places": 3,
+          "literal_resolution": "0.001",
+          "literal_half_unit": "0.0005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        }
+      ]
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Cicek2024_immediate",
+      "source": "Original Figure3/VOR page6",
+      "gai_n": 56,
+      "traditional_n": 59,
+      "fields": [
+        {
+          "field": "gai_mean",
+          "literal": "74.7",
+          "decimal_places": 1,
+          "literal_resolution": "0.1",
+          "literal_half_unit": "0.05",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "gai_sd",
+          "literal": "15.1",
+          "decimal_places": 1,
+          "literal_resolution": "0.1",
+          "literal_half_unit": "0.05",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_mean",
+          "literal": "78.5",
+          "decimal_places": 1,
+          "literal_resolution": "0.1",
+          "literal_half_unit": "0.05",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_sd",
+          "literal": "20.6",
+          "decimal_places": 1,
+          "literal_resolution": "0.1",
+          "literal_half_unit": "0.05",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        }
+      ]
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Gan2024",
+      "source": "Original Figure3/VOR page6",
+      "gai_n": 54,
+      "traditional_n": 56,
+      "fields": [
+        {
+          "field": "gai_mean",
+          "literal": "138.46",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "gai_sd",
+          "literal": "26.97",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_mean",
+          "literal": "130.8",
+          "decimal_places": 1,
+          "literal_resolution": "0.1",
+          "literal_half_unit": "0.05",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_sd",
+          "literal": "25.56",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        }
+      ]
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Huang2024",
+      "source": "Original Figure3/VOR page6",
+      "gai_n": 32,
+      "traditional_n": 32,
+      "fields": [
+        {
+          "field": "gai_mean",
+          "literal": "89.66",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "gai_sd",
+          "literal": "9.65",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_mean",
+          "literal": "77.04",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_sd",
+          "literal": "8.65",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        }
+      ]
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Jiang2024",
+      "source": "Original Figure3/VOR page6",
+      "gai_n": 31,
+      "traditional_n": 30,
+      "fields": [
+        {
+          "field": "gai_mean",
+          "literal": "15.78",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "gai_sd",
+          "literal": "3.62",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_mean",
+          "literal": "13.55",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_sd",
+          "literal": "3.33",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        }
+      ]
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Kavadella2024",
+      "source": "Original Figure3/VOR page6",
+      "gai_n": 39,
+      "traditional_n": 31,
+      "fields": [
+        {
+          "field": "gai_mean",
+          "literal": "7.54",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "gai_sd",
+          "literal": "1.18",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_mean",
+          "literal": "6.94",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_sd",
+          "literal": "1.12",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        }
+      ]
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Svendsen2024",
+      "source": "Original Figure3/VOR page6",
+      "gai_n": 15,
+      "traditional_n": 16,
+      "fields": [
+        {
+          "field": "gai_mean",
+          "literal": "7.7",
+          "decimal_places": 1,
+          "literal_resolution": "0.1",
+          "literal_half_unit": "0.05",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "gai_sd",
+          "literal": "2",
+          "decimal_places": 0,
+          "literal_resolution": "1",
+          "literal_half_unit": "0.5",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_mean",
+          "literal": "5.9",
+          "decimal_places": 1,
+          "literal_resolution": "0.1",
+          "literal_half_unit": "0.05",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_sd",
+          "literal": "2.5",
+          "decimal_places": 1,
+          "literal_resolution": "0.1",
+          "literal_half_unit": "0.05",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        }
+      ]
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Tabuchi2024",
+      "source": "Original Figure3/VOR page6",
+      "gai_n": 27,
+      "traditional_n": 28,
+      "fields": [
+        {
+          "field": "gai_mean",
+          "literal": "34.9",
+          "decimal_places": 1,
+          "literal_resolution": "0.1",
+          "literal_half_unit": "0.05",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "gai_sd",
+          "literal": "5.25",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_mean",
+          "literal": "39.75",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_sd",
+          "literal": "4.65",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        }
+      ]
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Wu2024",
+      "source": "Original Figure3/VOR page6",
+      "gai_n": 31,
+      "traditional_n": 30,
+      "fields": [
+        {
+          "field": "gai_mean",
+          "literal": "86.44",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "gai_sd",
+          "literal": "5.59",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_mean",
+          "literal": "77.86",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_sd",
+          "literal": "4.16",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        }
+      ]
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Zeng2025",
+      "source": "Original Figure3/VOR page6",
+      "gai_n": 21,
+      "traditional_n": 21,
+      "fields": [
+        {
+          "field": "gai_mean",
+          "literal": "93.9",
+          "decimal_places": 1,
+          "literal_resolution": "0.1",
+          "literal_half_unit": "0.05",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "gai_sd",
+          "literal": "3.65",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_mean",
+          "literal": "90.33",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_sd",
+          "literal": "4.08",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        }
+      ]
+    },
+    {
+      "outcome": "skill",
+      "study": "Wu2024",
+      "source": "Original Figure3/VOR page6",
+      "gai_n": 31,
+      "traditional_n": 30,
+      "fields": [
+        {
+          "field": "gai_mean",
+          "literal": "83.84",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "gai_sd",
+          "literal": "6.13",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_mean",
+          "literal": "79.12",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_sd",
+          "literal": "4.27",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        }
+      ]
+    },
+    {
+      "outcome": "skill",
+      "study": "Zeng2025",
+      "source": "Original Figure3/VOR page6",
+      "gai_n": 21,
+      "traditional_n": 21,
+      "fields": [
+        {
+          "field": "gai_mean",
+          "literal": "5.71",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "gai_sd",
+          "literal": "1.47",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_mean",
+          "literal": "5.23",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_sd",
+          "literal": "1.34",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        }
+      ]
+    },
+    {
+      "outcome": "satisfaction",
+      "study": "Huang2024",
+      "source": "Original Figure3/VOR page6",
+      "gai_n": 32,
+      "traditional_n": 32,
+      "fields": [
+        {
+          "field": "gai_mean",
+          "literal": "89.54",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "gai_sd",
+          "literal": "5.58",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_mean",
+          "literal": "76.68",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_sd",
+          "literal": "8.7",
+          "decimal_places": 1,
+          "literal_resolution": "0.1",
+          "literal_half_unit": "0.05",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        }
+      ]
+    },
+    {
+      "outcome": "satisfaction",
+      "study": "Jiang2024",
+      "source": "Original Figure3/VOR page6",
+      "gai_n": 31,
+      "traditional_n": 30,
+      "fields": [
+        {
+          "field": "gai_mean",
+          "literal": "3.29",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "gai_sd",
+          "literal": "0.59",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_mean",
+          "literal": "2.93",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_sd",
+          "literal": "0.69",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        }
+      ]
+    },
+    {
+      "outcome": "satisfaction",
+      "study": "Wu2024",
+      "source": "Original Figure3/VOR page6",
+      "gai_n": 31,
+      "traditional_n": 30,
+      "fields": [
+        {
+          "field": "gai_mean",
+          "literal": "17.23",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "gai_sd",
+          "literal": "1.33",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_mean",
+          "literal": "15.38",
+          "decimal_places": 2,
+          "literal_resolution": "0.01",
+          "literal_half_unit": "0.005",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_sd",
+          "literal": "1.5",
+          "decimal_places": 1,
+          "literal_resolution": "0.1",
+          "literal_half_unit": "0.05",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        }
+      ]
+    },
+    {
+      "outcome": "knowledge_delayed",
+      "study": "Cicek2024_delayed",
+      "source": "Original cited trial PMID39656920 abstract for delayed mean/SD; review Table2 delayed counts108/110 minus Wu31/30 and Zeng21/21 gives56/59",
+      "gai_n": 56,
+      "traditional_n": 59,
+      "fields": [
+        {
+          "field": "gai_mean",
+          "literal": "76.0",
+          "decimal_places": 1,
+          "literal_resolution": "0.1",
+          "literal_half_unit": "0.05",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "gai_sd",
+          "literal": "14.5",
+          "decimal_places": 1,
+          "literal_resolution": "0.1",
+          "literal_half_unit": "0.05",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_mean",
+          "literal": "78.0",
+          "decimal_places": 1,
+          "literal_resolution": "0.1",
+          "literal_half_unit": "0.05",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        },
+        {
+          "field": "traditional_sd",
+          "literal": "21.2",
+          "decimal_places": 1,
+          "literal_resolution": "0.1",
+          "literal_half_unit": "0.05",
+          "interval_rule": "[literal-half_unit,literal+half_unit]; SD lower clipped to positive only if needed"
+        }
+      ]
+    }
+  ],
+  "worst_forest_mean_halfunit": "0.05",
+  "worst_forest_sd_halfunit": "0.5",
+  "most_common_resolution": "0.01; inventory retains every exception",
+  "worst_precision_identity": "Svendsen2024 gai_sd is printed 2, literal resolution1 and halfunit0.5. RevMan may suppress trailing zeros; no unavailable entered precision is invented.",
+  "secondary_display_interpretation": "A separately mandatory control uses the same box except Svendsen gai_sd2 treated as2.0, halfunit0.05. Primary literal box remains conservative and unchanged. Neither control can replace nominal input or rescue a failed mandatory gate."
+}

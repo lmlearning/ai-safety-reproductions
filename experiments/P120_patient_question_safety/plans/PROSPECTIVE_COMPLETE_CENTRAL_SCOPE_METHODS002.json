@@ -1,0 +1,116 @@
+{
+  "paper_id": "P120",
+  "title": "Large language models provide unsafe answers to patient-posed medical questions",
+  "doi": "10.1038/s41746-026-02428-5",
+  "arxiv": "2507.18905",
+  "status": "Prospective scope and methods proposal awaiting root review; no outcome execution authorized",
+  "created_utc": "2026-10-10T21:44:34.677499+00:00",
+  "class_requested": "Central-result statistical reproduction of the complete original raw-response comparative contribution; not a full model-behaviour/human-collection replication",
+  "selected_versions": {
+    "primary": "Original arXiv2507.18905v1 July25 2025, all quantitative Results and Discussion claims",
+    "bridge": "v2 August4 2025 and final VOR/XML/supplement inspected; no target switching",
+    "additional_mandatory_validation": "All12 final published Pearson cells, generated from unchanged July19 original correlation code and unchanged workbook, retained prospectively as strict additional gates"
+  },
+  "centrality": {
+    "source": "V1 Introduction pp3-4, Statistical Analysis p7, Limitations pp16-17; VOR Introduction/Limitations",
+    "claim": "The study explicitly identifies comparing chatbot performance as the primary objective; problematic-response proportions, quality ratings and all5 issue types quantify that comparative patient-safety claim. Correlation and unanimous-question results are included in their entirety, not selected panels."
+  },
+  "full_attempt_assessment": {
+    "infeasible": [
+      "Recollect historical public UI responses from proprietary Claude3.5Sonnet, Gemini1.5Flash, GPT4o and the original mixed Llama3.0/3.1 deployment; historical public UI identities/settings not re-executable locally.",
+      "Recruit original licensed physicians, rerandomize blinded tasks and reproduce subjective labels or free-text/worst-case qualitative adjudication; no new human interaction authorized and no evaluator IDs/assignment/randomization seeds released."
+    ],
+    "omissions": [
+      "Entire response generation/collection and independent human judgment collection",
+      "New independent clinical validity of qualitative Table4 worst-case scenarios or final Table5/S2 examples",
+      "Introduction anecdotes, possible actual patient harms and population extrapolations; these are not observed outcome data",
+      "No new specialty/individual-question comparisons: paper explicitly says these were not performed"
+    ]
+  },
+  "complete_included_family": [
+    "All888 original ratings,222 questions,all4 cohorts with zero exclusions",
+    "Figure1/problematic4 counts and rates,primary omnibus,all6 original corrected pairwise tests and decisions",
+    "Figure2/all4 original means/sampleSDs,Kruskal-Wallis omnibus,all6 Dunn/Bonferroni comparisons and decisions",
+    "Figure3/all20 issue percentages,all5 issue omnibus tests,all18 published issue pairwise corrected p-values and decisions",
+    "All6 binary Pearson comparisons and whole published range,all12 final Pearson cells across binary/numeric metrics",
+    "Exact original unanimous acceptable/problematic counts and all9 original problematic question identities"
+  ],
+  "data": {
+    "original_repo_head": "ce4af11161b05dc51645612807432e722730371b",
+    "workbook": "sources/original_preprint_repo/SupplementaryDocuments/HealthAdviceDatasetWithEvaluations.xlsx",
+    "sha256": "c1c8e47d1e9fe73cd78f63e3a09c37879891955101d7ce357ad324113575c959",
+    "current_head": "b805c636fd74a0e988ea33009a32cfdd359b3f4f",
+    "current_workbooks": "Exact same Git blob identities as original head; current analysis changes only colors/caps/linewidth",
+    "zero_exclusions": true,
+    "missingness_policy": "Primary label/rating/question/model/UUID/response fields must exist and all888 ratings participate. Descriptive Topic has180 missing cells per schema inspection; it is unused by original analyses and never causes exclusions/imputation. Optional issue blanks encode absent tags per original code. Exact raw strings and fractional3.5/4.5 values retained."
+  },
+  "methods": {
+    "primary_parser": "Original process_df_for_isproblematic: str(value).lower().strip(), then substring 'problematic'; no change to original behaviour",
+    "correlation_parser": "Original correlation code: raw string equals exactly 'Acceptable' gives1, every other raw spelling gives0, even trailing-space/lowercase acceptable. Pearson on222 inner-joined exact PatientQuestion keys; unique keys/complete4-way matching required.",
+    "agreement_parser": "Original pivot aggfunc first, after proving each question/model unique; literal 'Acceptable' and literal 'Problematic' all4. No normalization in credited branch.",
+    "issues": "Original plot counts nonblank after whitespace-only replacement; statistical branch counts pandas notna before replacement. Source schema shows no whitespace-only cells, so these branches coincide without repair. Original newline-tag value remains nonblank and counted. No nesting-based filtering.",
+    "ratings": "Preserve all exact numeric ratings including original fractional scores; no truncation or recoding. Means and sample SD ddof1 as original Seaborn/pandas source.",
+    "omnibus_proportions": "Original scipy chi2_contingency4x2,df3,default correction (Yates only applied atdf1,thus none); compute all6 proportion omnibus tests and retain expected-cell tables. Require every expected cell>=5 as original asserted method validity; do not switch tests.",
+    "pairwise_proportions": "Original statsmodels defaulttwo-sided pooled two-proportion z-test, no continuity correction; Bonferroni factor6 and clipping1 separately within each family, never across all issues. Preserve original p<.05 omnibus trigger for published posthoc dispatch. Compute additional12 unreported issue pairwise results only as supporting diagnostic, clearly tagged not originally dispatched.",
+    "kruskal": "Original pooled average ranks, tie-corrected Kruskal-Wallis H,chi-square df3 survival p; all888 values and all4 groups",
+    "dunn": "Original scikit_posthocs Dunn average-rank difference divided by sqrt((N(N+1)/12-sum(t^3-t)/(12(N-1)))*(1/n_i+1/n_j)); two-sided normal tail; all6 Bonferroni factor6, clipped1",
+    "implementation_plan": "Independent paper-method Python implementation using installed pandas/numpy/scipy and explicit equivalent formulas for absent scikit_posthocs/statsmodels. Archived named-package source versions are formula references, not claims of historical authors package versions. Original authors code is not imported/executed during preparation.",
+    "independent_audit": "Second parser from raw XLSX ZIP/XML shared-string/cell sources, independent Python collections/math formulas and hand-built pooled average ranks; validate every original row/value/string, all source/input/output hashes, all numerical families and all141 mandatory gates; do not import analysis code or borrow aggregates.",
+    "paired_design_diagnostic": "Because the same physician rates all4 responses to a question but original inferential tests treat cohorts independently, additionally report prespecified exact two-sided paired McNemar for primary+all5 issues (all36 pairs, Bonferroni6 within family) and4-model Friedman for numeric ratings as supporting analyses only. Missing rater identities prevent evaluator-cluster sensitivity. Diagnostic conclusions can never replace failed original gates.",
+    "normalized_label_diagnostic": "Separately compute normalized main-parser binary Pearson and normalized unanimous counts/question sets, list affected raw spellings/UUIDs. Original exact-literal results remain the only credited correlation/agreement branch.",
+    "uncertainty": "Reproduce all published SDs and inferential p-values. Supporting Wilson95percent intervals for4 primary+20 issue proportions with fixed z=1.959963984540054; no new CIs presented as publication uncertainty.",
+    "randomness": "All statistical methods deterministic. No outcome-dependent seeds/variants/tolerances. No bootstrap needed."
+  },
+  "mandatory_target_count": 141,
+  "family_target_counts": {
+    "Figure1": 17,
+    "Table1": 12,
+    "Figure2": 11,
+    "Table2": 12,
+    "Figure3": 23,
+    "IssueOmnibus": 8,
+    "Table3": 36,
+    "Agreement": 4,
+    "CorrelationMatrices": 12,
+    "V1CorrelationRange": 6
+  },
+  "gate_policy": "Every mandatory target must pass, plus zero missing/invalid primary values and complete source-integrity audit. No passing-subset credit or rescue by normalized/paired diagnostics. Numerical tolerance is half displayed rounding unit; threshold inequalities exact. Only Figure3 uses fixed0.15 percentage-point raster-digitation tolerance. Floating comparison allowance is relative1e-12 times stated tolerance, never an extra fixed wide absolute epsilon. All reported failures remain immutable.",
+  "source_conflicts": [
+    "V1 Introduction and VOR say16 evaluators; v2 Methods says15, and17 named authors minus2 collectors implies15; raw release has no evaluator ID. Do not invent assignments or resolve participant count.",
+    "V1 declares MD/DO, v2/VOR MD/MBBS; preserve discrepancy.",
+    "Primary raw spellings include Acceptable, Acceptable-space, acceptable, Problematic, problematic, PROblematic. Original main normalization differs from exact correlation/agreement; no silent correction.",
+    "Likert described1-to5, but release contains3.5/4.5. Original code treats numeric values continuously; retain them.",
+    "15Llama3.0 and207Llama3.1 responses, exact per-row version flags/dates unavailable. All original Llama responses pooled, no substitution or subset.",
+    "One Claude RuKo26DD recollected February12 2025 after saving error, outside main September10-December24 2024 window; retain it.",
+    "V1 repeats Table1 numbering: intro comparison example and problematic-pairwise table; use captions/page locators, not ambiguous table number.",
+    "VOR Table4 bolds PoorWriting Llama-GPT4o p=.0568 although caption says bold=significant. V1 shading and numerical p imply nonsignificant; selected original v1 gate remains nonsignificant, VOR formatting discrepancy disclosed.",
+    "V1 prose correlation range rounds upper endpoint.38 whereas final matrix has.382; enforce rounded range[.255,.385] and all12 strict three-decimal matrix cells prospectively.",
+    "Current repo plot changes only presentation, no source data/statistical formula changes. Historical package versions/author environment absent.",
+    "Topic metadata missing in180 rows; original statistical code never uses it. Do not impute topics or exclude rows.",
+    "Code contains warning/skip branches; protocol requires full finite results and all original method validity checks, never discarded failed issue families.",
+    "No repository license file present at either inspected tree. Source materials archived for local research/provenance with attribution; no claim of unrestricted redistribution."
+  ],
+  "resource_proposal": {
+    "cpu_threads": 1,
+    "process_rss_cap_GiB": 1,
+    "available_RAM_floor_GiB": 1.5,
+    "stable_start_seconds": 10,
+    "free_disk_floor_GiB": 35,
+    "per_run_or_audit_seconds": 600,
+    "gpu": false,
+    "new_weights": false,
+    "paid_services": false,
+    "new_keys": false,
+    "estimated_added_storage_MiB": 50,
+    "estimated_runtime_seconds": 30,
+    "supervision": "Check owned process creation time, actual exits, peak RSS and available RAM; stop and preserve on breach, no automatic retries"
+  },
+  "source_only_preparation": true,
+  "outcomes_computed": false,
+  "proposal_version": "002",
+  "version_supplement": {
+    "preserved_proposal001_sha256": "822a64ec2f08204abdda779f7e6d8138d4cdcc8de2627f06ea490c65a64b9324",
+    "change": "Correct descriptive unused Topic missing-cell census from unverified hand count187 to exact retained schema-list length180. No primary values/exclusions/methods/141 targets/gates changed; no outcomes computed.",
+    "utc": "2026-10-10T21:45:23.371865+00:00"
+  }
+}

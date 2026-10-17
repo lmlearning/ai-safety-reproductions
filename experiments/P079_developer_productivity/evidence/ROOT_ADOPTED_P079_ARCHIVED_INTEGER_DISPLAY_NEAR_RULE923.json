@@ -1,0 +1,56 @@
+{
+  "schema": "ROOT_P079_RETROSPECTIVE_INTEGER_DISPLAY_NEAR_RULE923",
+  "UTC": "2026-10-17T08:44:54.348003+00:00",
+  "paper_id": "P079",
+  "user_instruction_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_USER_DIRECTED_NEAR_SUCCESS_COUNTING_CHANGE913.json",
+    "bytes": 2551,
+    "sha256": "fa0000ec371755eff4b9ce9d28a7e79e10fd32db272a81df4e23e8991dcb5b35"
+  },
+  "source_refs": {
+    "primary": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P079-central-001\\target_decisions.json",
+      "bytes": 16278,
+      "sha256": "6da1b6fb0e1c8ab961ef7ab79a2efa8650f300d3e69d5359c9aeb99768facf1e"
+    },
+    "independent": {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\independent_target_decisions.json",
+      "bytes": 16269,
+      "sha256": "e505097c7cc5b8d8c197f6a388a82ec18d67c3d1f3007383657c873e3faaff81"
+    },
+    "audit": {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P079-audit-001\\audit.json",
+      "bytes": 828,
+      "sha256": "f37ee6150883d6d59d3d1b068bf2bcf44d82c3f7e55878b318e257012a649835"
+    },
+    "eligibility": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\ELIGIBILITY_REVIEW_20261010.json",
+      "bytes": 1197,
+      "sha256": "8c71e29c98c0681fadf1f9e7d5d45f2a11b0a190ee9c0df49cf282199afb81af"
+    },
+    "report": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\REPORT.md",
+      "bytes": 9321,
+      "sha256": "d6901d9d1d83720ebea4fdd19c8b1d02cca65577951521df0d9d4107aa362a79"
+    },
+    "preregistration": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P079_developer_productivity\\PREREGISTRATION.json",
+      "bytes": 24743,
+      "sha256": "41b05f2379ad4df87708e5bf4eeecb50385d2f6c05e01a76af79de686ae87d1a"
+    },
+    "user_rule": {
+      "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_USER_DIRECTED_NEAR_SUCCESS_COUNTING_CHANGE913.json",
+      "bytes": 2551,
+      "sha256": "fa0000ec371755eff4b9ce9d28a7e79e10fd32db272a81df4e23e8991dcb5b35"
+    }
+  },
+  "retrospective_after_reading_archived_outcomes": true,
+  "claim_blind_or_original_preregistration": false,
+  "scope": "Complete original central246tasks/16developers/botharms/all65targets, all original regressions/3uncertainty calculations/4alternativeestimators/imputation sensitivities/forecast/bootstrap/distributions/balance/allocation; source omissions remain explicit.",
+  "bound": "All ten original Table4 integer-displayed balance means/SDs/differences absolute error\u22641.0 original forecast percentage-point unit. No averaging, selective3-target waiver or altered p-value bound. All55 other targets must satisfy their unchanged old comparison and all integrity/independent checks.",
+  "rationale": "Less than one unit of a table printed in whole units is a small display-scale discrepancy. No confirmed original truncation method asserted. The central causal slowdown and its intervals must still satisfy the original strict tests.",
+  "strict_62_of65_and_original3failures_unchanged": true,
+  "no_rerun_or_new_trial_or_formula_change": true,
+  "all1782_independent_checks_required": true,
+  "candidate_only_no_award": true
+}

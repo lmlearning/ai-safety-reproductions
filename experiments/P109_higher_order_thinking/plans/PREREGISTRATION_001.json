@@ -1,0 +1,146 @@
+{
+  "paper_id": "P109",
+  "run_id": "P109-central-001",
+  "title": "Does Generative Artificial Intelligence Improve Students' Higher-Order Thinking? A Meta-Analysis Based on 29 Experiments and Quasi-Experiments",
+  "proposed_class": "Central statistical reproduction of complete overall59-effect synthesis, Table3 and Figure3 overall fixed summary.",
+  "central_claim": "The authors'59 reported effect estimates yield a positive overall random-effects pooled Hedgesg with the Table3 uncertainty/heterogeneity, plus the complete fixed-effects comparison.",
+  "scope": "All59effects exactly once, all16overall synthesis/heterogeneity/summary targets mandatory. This is a reanalysis of reported source effect estimates because the originalpaper's central result is itself their synthesis.",
+  "omissions": [
+    "Original constituent human experiments and search/screening/manual extraction/unrounded means-SDs cannot be repeated with released sources.",
+    "All four Table5 moderator families cannot be reproduced: effect assignments absent, SRL counts56vs59 and education prose/table conflict preserved.",
+    "OriginalCMA3.7 project and tau estimator/advanced settings are unreleased. DL is a prospective inference, not a verified author setting; fullsoftware/project reproduction is not claimed.",
+    "Dimension and bias diagnostics will all be computed as separate source-complete supporting checks; they cannot replace any of16central gates or expand successful scope."
+  ],
+  "source_inputs": "sources/figure3_literal_transcription_001.csv, all59rows/413numericfields/labels; source-only independent visual audit (nonblind) retained. Printedg/SE/variance3decimals have unknown unrounded values.",
+  "methods": {
+    "primary_tau_estimator": "DerSimonian-Laird method of moments, frozen before outcomes; no estimator selected for best agreement. Q=sum(w*(g-mu)^2); C=sumw-sumw_squared/sumw; tau2=max(0,(Q-(k-1))/C); fixedw=1/v; randomw=1/(v+tau2).",
+    "input_point": "g=printedg; v=printedSE^2 clamped to the intersection of printedSE and variance rounding intervals. This deterministic rule uses sourceprecision alone, never pooled targets.",
+    "intervals": "Normal95%confidence interval mu +/-1.959963984540054*sqrt(1/sumw). Z=mu/SE, two-sided normalp. Qchi-squaretail dfk-1; I2=100max(0,(Q-df)/Q). Original59effect-independence/normalCI assumption retained; this does not endorse it.",
+    "rounding_boxes": "glo/gHi=printedg +/-0.0005; vlo/vhi=intersection[(printedSE-.0005)^2,(printedSE+.0005)^2] with[printedvariance-.0005,printedvariance+.0005], lower clippedpositive. Any empty intersection is an input-source inconsistency and stops the central comparison; no source value is adjusted using output targets.",
+    "rounding_propagation": "For fixed weightedmean lower/upper, solve the extreme residual sumw(g-mu)=0 by bisection, choosing endpointweights for signed residuals with endpointg. SEbounds from inverse totalweightbounds. For Q use weighted-norm triangle inequality at all-low/all-high weights around printedg, with errornorm .0005sqrt(sumw). C is monotone in eachpositiveweight, so endpointC bounds; DLtau2 bounds follow (Q-df)/C. Randomweight bounds follow vlo/vhi and tau2lo/hi; propagate weightedmean/SE/CI/Z/p as above. Expand computed endpoints by1e-9 for arithmetic guard, independently verify all bound arithmetic with80-digit implementation. Rounding envelopes are separate from sampling95%CIs."
+  },
+  "gate_rule": "Each exactinteger must equal. Each numeric published target's half-last-digit interval must intersect the analytically propagated source-rounding envelope AND that envelope must meet its prospectively fixed finite-width cap. Displayp.000 meansp<.0005, never zero. Sourceheterogeneityp<.001 must hold throughout its envelope. Also randommean lower95%CI remains>0 over the envelope. No arbitrary tolerance is selected after outcomes.",
+  "width_caps": {
+    "mean": 0.01,
+    "ci_low": 0.015,
+    "ci_high": 0.015,
+    "se": 0.002,
+    "variance": 0.0001,
+    "z": 0.2,
+    "Q": 5,
+    "I2_percentage_points": 0.5,
+    "p": 0.001
+  },
+  "supporting": "Compute all3dimensions with three separately labelled tau schemes: independentDL, sharedpooled-withinDL, sharedoverallDL. Show complete Table4 differences and between-groupQ/p for allschemes without picking a winner. Compute EggerOLS g/SE on1/SE withintercept/two-sidedt_df57, using all59rows; compare originalt1.871/p.066 descriptively (fixed .02/.005 respectively) and report original29vs59unit conflict. Count funnel points outside fixedmean +/-1.95996398454SE and compare original8; also show randomcenter count. Compute REML and Paule-Mandel overall sensitivities independently of primaryDL, reporting differences. None can turn a failing primary gate into success.",
+  "audits": "Separate implementation from originalliteralCSV, sourcevisual audit, exactrow census, primarypoint estimates/sensitivity/eachgate,80-digit independent bound calculations, no omitted failing row/family. All original source hashes and runner/auditor/runtime hashes frozen before outcome generation.",
+  "randomness": "None for central deterministic analysis. Any plots deterministic. No MonteCarlo used to choose a precision envelope.",
+  "resources": {
+    "cpu_threads": 1,
+    "rss_cap_bytes": 1073741824,
+    "available_ram_floor_bytes": 1073741824,
+    "free_disk_floor_bytes": 37580963840,
+    "aggregate_seconds": 600,
+    "GPU": false,
+    "downloads": "None further required"
+  },
+  "execution_authorized": false,
+  "outcomes_computed": false,
+  "targets": [
+    {
+      "id": "fixed.k",
+      "target": 59,
+      "cap_key": "exact",
+      "rounding_half_unit": 0
+    },
+    {
+      "id": "random.k",
+      "target": 59,
+      "cap_key": "exact",
+      "rounding_half_unit": 0
+    },
+    {
+      "id": "fixed.mean",
+      "target": 0.578,
+      "cap_key": "mean",
+      "rounding_half_unit": 0.0005
+    },
+    {
+      "id": "fixed.ci_low",
+      "target": 0.519,
+      "cap_key": "ci_low",
+      "rounding_half_unit": 0.0005
+    },
+    {
+      "id": "fixed.ci_high",
+      "target": 0.636,
+      "cap_key": "ci_high",
+      "rounding_half_unit": 0.0005
+    },
+    {
+      "id": "random.mean",
+      "target": 0.609,
+      "cap_key": "mean",
+      "rounding_half_unit": 0.0005
+    },
+    {
+      "id": "random.ci_low",
+      "target": 0.485,
+      "cap_key": "ci_low",
+      "rounding_half_unit": 0.0005
+    },
+    {
+      "id": "random.ci_high",
+      "target": 0.732,
+      "cap_key": "ci_high",
+      "rounding_half_unit": 0.0005
+    },
+    {
+      "id": "Q",
+      "target": 255.208,
+      "cap_key": "Q",
+      "rounding_half_unit": 0.0005
+    },
+    {
+      "id": "df",
+      "target": 58,
+      "cap_key": "exact",
+      "rounding_half_unit": 0
+    },
+    {
+      "id": "Q_p",
+      "target": "<.001",
+      "cap_key": "threshold",
+      "rounding_half_unit": 0
+    },
+    {
+      "id": "I2",
+      "target": 77.273,
+      "cap_key": "I2_percentage_points",
+      "rounding_half_unit": 0.0005
+    },
+    {
+      "id": "fixed.se",
+      "target": 0.03,
+      "cap_key": "se",
+      "rounding_half_unit": 0.0005
+    },
+    {
+      "id": "fixed.variance",
+      "target": 0.001,
+      "cap_key": "variance",
+      "rounding_half_unit": 0.0005
+    },
+    {
+      "id": "fixed.z",
+      "target": 19.483,
+      "cap_key": "z",
+      "rounding_half_unit": 0.0005
+    },
+    {
+      "id": "fixed.p",
+      "target": "<.0005",
+      "cap_key": "threshold",
+      "rounding_half_unit": 0
+    }
+  ]
+}

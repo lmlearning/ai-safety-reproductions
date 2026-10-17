@@ -1,0 +1,142 @@
+{
+  "recorded_at_utc": "2026-10-11T01:04:51.551343+00:00",
+  "source": {
+    "path": "papers/P132_medical_teaching_rct_meta/source_visual_qa/publisher_page6.png",
+    "bytes": 271811,
+    "sha256": "4fb29f45b528e123bc08674d1b7ae5e3970d8a02f5b6d6ccde555ed59d94102c"
+  },
+  "all16_rows_visually_read": true,
+  "own_effects_computed": false,
+  "rows": [
+    {
+      "outcome": "knowledge",
+      "study": "Ba2024",
+      "g": "-0.07",
+      "lower": "-0.51",
+      "upper": "0.38",
+      "weight_percent": "9.3"
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Bhatia2024",
+      "g": "-1.85",
+      "lower": "-2.32",
+      "upper": "-1.38",
+      "weight_percent": "9.2"
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Cicek2024_immediate",
+      "g": "-0.21",
+      "lower": "-0.57",
+      "upper": "0.16",
+      "weight_percent": "9.5"
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Gan2024",
+      "g": "0.29",
+      "lower": "-0.09",
+      "upper": "0.67",
+      "weight_percent": "9.4"
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Huang2024",
+      "g": "1.36",
+      "lower": "0.81",
+      "upper": "1.91",
+      "weight_percent": "9.0"
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Jiang2024",
+      "g": "0.63",
+      "lower": "0.12",
+      "upper": "1.15",
+      "weight_percent": "9.1"
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Kavadella2024",
+      "g": "0.51",
+      "lower": "0.03",
+      "upper": "0.99",
+      "weight_percent": "9.2"
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Svendsen2024",
+      "g": "0.77",
+      "lower": "0.04",
+      "upper": "1.51",
+      "weight_percent": "8.5"
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Tabuchi2024",
+      "g": "-0.97",
+      "lower": "-1.53",
+      "upper": "-0.40",
+      "weight_percent": "9.0"
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Wu2024",
+      "g": "1.71",
+      "lower": "1.12",
+      "upper": "2.31",
+      "weight_percent": "8.9"
+    },
+    {
+      "outcome": "knowledge",
+      "study": "Zeng2025",
+      "g": "0.90",
+      "lower": "0.27",
+      "upper": "1.54",
+      "weight_percent": "8.8"
+    },
+    {
+      "outcome": "skill",
+      "study": "Wu2024",
+      "g": "0.88",
+      "lower": "0.35",
+      "upper": "1.41",
+      "weight_percent": "54.1"
+    },
+    {
+      "outcome": "skill",
+      "study": "Zeng2025",
+      "g": "0.33",
+      "lower": "-0.27",
+      "upper": "0.94",
+      "weight_percent": "45.9"
+    },
+    {
+      "outcome": "satisfaction",
+      "study": "Huang2024",
+      "g": "1.74",
+      "lower": "1.16",
+      "upper": "2.32",
+      "weight_percent": "32.5"
+    },
+    {
+      "outcome": "satisfaction",
+      "study": "Jiang2024",
+      "g": "0.55",
+      "lower": "0.04",
+      "upper": "1.07",
+      "weight_percent": "34.3"
+    },
+    {
+      "outcome": "satisfaction",
+      "study": "Wu2024",
+      "g": "1.29",
+      "lower": "0.73",
+      "upper": "1.84",
+      "weight_percent": "33.2"
+    }
+  ],
+  "classification": "Complete mandatory supporting diagnostic comparisons at literal printed resolution; not separately mandatory agreement for every rounded intermediate.",
+  "pooled_intermediates": "All original tau2,Q,Z,heterogeneity p anddf are retained in ORIGINAL_TARGETS_AND_COMPLETE_COHORTS001."
+}

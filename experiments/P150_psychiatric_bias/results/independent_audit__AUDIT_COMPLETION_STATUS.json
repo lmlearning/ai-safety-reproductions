@@ -1,0 +1,10 @@
+{
+  "phase": "original",
+  "independent_sha256": "e79e3b7330b2b5253e1175dfb55e6a74c3ee1d079e926290b4c79199d6666549",
+  "wall_seconds": 0.26599999982863665,
+  "primary_mathematics_source_not_read": true,
+  "native_memory_peak": "UNKNOWN; outer root controller must supply actual measurement",
+  "credit_claim": false,
+  "paired_leaf_audit_sha256": "0f42eb7e8cde97ff55c18f36ce94f68c1de1244870648f9353b5d5268611dab8",
+  "all_declared_leaves_agree": true
+}

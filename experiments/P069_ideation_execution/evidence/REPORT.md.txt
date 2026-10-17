@@ -1,0 +1,52 @@
+# P069: Ideation-execution human review analysis
+
+**Failed at the frozen original numerical precision:152/155 targets pass. No success credit.** The independently recomputed review statistics confirm the paper's qualitative central result, but three printed mean-gap cells do not match the released raw human scores. Alloriginal targets, tolerances, arms, projects and outcomes remain unchanged. The independent computation audit passes1,127/1,127 checks and confirms the same three original target failures.
+
+Original paper: [The Ideation-Execution Gap: Execution Outcomes of LLM-Generated versus Human Research Ideas](https://arxiv.org/abs/2506.20803), Chenglei Si, Tatsunori Hashimoto and Diyi Yang, original arXiv2506.20803v1, submitted25June2025. This is a distinct later execution study; the authors' predecessor arXiv2409.04109 is used only as its original baseline input.
+
+## Eligibility and frozen scope
+
+Full public Git history identifies the first execution-review data introduction as commit d6b5ec1c31dd43ad678a897231f95aca9ebd131e, dated25June2025 04:15:02UTC; its parent contains no execution-review directory. The arXiv first release is the same day at19:47:23UTC. Git author/committer times do not independently establish a server push time; both archived original records fall on the same eligible UTC date. Repository2024 data belong to the separate predecessor; November2024 OSF ckxtp registration is a prospective plan, not empirical results. Original raw input blobs are identical to those introduced in the initial execution release.
+
+The complete archived Semantic Scholar public response records62 citations on10October2026, exceeding the extended-window40 gate. Raw response, request URL, timestamp, hash and exact selected identifier row are saved under sources/citation_*.
+
+The frozen plan at2026-10-10T17:13:49.290854+00:00 precedes run start2026-10-10T17:15:16.607546+00:00. It defines the complete central quantitative human-review contribution:all181 execution reviews/all43 projects/Human19 andAI24/allseven execution metrics/allfour before-after metrics; Tables1/3/4/5 andFigure2; complete AppendixD/F correlations and exclusion robustness, Tables9/10. Printed Table5 conflicts were documented before outcomes. All155 targets must pass:three-decimal tolerance0.00051 andtwo-decimal tolerance0.0051. No tolerance or target changed after outcomes.
+
+## Exact failures
+
+| Original target | Published | Reproduced | Absolute difference | Frozen tolerance |
+|---|---:|---:|---:|---:|
+| gap.full.excitement.AI | -1.76 | -1.756944444444444 | 0.003055555556 | 0.00051 |
+| gap.full.effectiveness.AI | -1.879 | -1.878472222222222 | 0.0005277777778 | 0.00051 |
+| gap.exclude6.novelty.AI | -1.107 | -1.106481481481482 | 0.0005185185185 | 0.00051 |
+
+The Table5 excitement cell is also internally inconsistent:reported AI gap-1.760 differs from Table4's3.896 minus5.653=-1.757; Human0.078 minusAI-1.760 gives1.838 rather than printed1.835. Released compare_change.py computes unrounded per-project mean differences and prints each arm's mean gap to FOUR decimals; it does not derive gaps from displayed Table4 rounded means. The other two discrepancies marginally exceed the frozen precision and remain failures.
+
+## Reproduced findings and independent audit
+
+AllTable1 inclusion counts, allTable3 review means/population-SDs/p-values/significance marks, allTable4 phase means/p-values/ranking and significance claims, allTable9 Pearson/Spearman coefficients, and allother Table5/10 gap targets pass. Under original tests,human-origin projects score higher at review level on excitement/effectiveness/soundness/overall; novelty andboth controls are nonsignificant. At project level,allfour post-execution between-arm comparisons are nonsignificant. Allfour gap comparisons andallfour original exclusion-robustness comparisons remain significant after BH correction. These matched claims do not override numerical failures.
+
+Each implementation independently aggregates original raw human score columns without importing author runners. Alloriginal projects remain in the main analysis; six originalAI identifiers are excluded only in the prespecified AppendixF analysis. Each phase uses unweighted means over reviews per project. Welch uses sample variances; Table3 reports populationSD per original code. Review-level main metrics use one-sided AI<Human Welch/five-metricBH; controls use caption-defined rawp. Table4 uses two-sided/four-metricBH separately per phase. Tables5/10 use one-sided Human-gap>AI-gap Welch/four-metricBH separately. Table9 uses Pearson andaverage-tie-rankSpearman.
+
+The engine uses NumPy/SciPy. The independent auditor imports neither NumPy,SciPy,pandas nor the experiment:exact rational score sums and70-digit scalar mpmath; independent Welch degrees-of-freedom/incomplete-beta Student-t tails, BH, Pearson andtie rankings. It verifies every project mean/gap, alloriginal target values/decisions, input identities andprovenance hashes. It passes1,127/1,127 computational checks andindependently fails the same3/155 original targets.
+
+## Source limitations and omissions
+
+- Original registration planned two-sidedWelch andreviewer-level tests; published Table3/code use one-sided tests. Central gap analysis is absent from the original five hypotheses. The reproduction follows published methods anddiscloses these changes.
+- Original review-level tests assume independent reviews despite multiple reviews per project; the full separate project-level analysis is reproduced too.
+- Original control script computes BH-adjusted controls while Table3 caption specifies rawp. Caption-defined values remain targets; code-adjusted values are separately recorded.
+- No fresh idea generation, project execution, recruitment orhuman reviewing. This is an original central human-data analysis reproduction.
+- Omitted:participant background Table2; manual change taxonomy Table6; manual rationale taxonomy Figure3; institutions/qualitative examples. Original reviewer-level test cannot be recovered because stable reviewer identifiers are not released.
+- AppendixG matrices Tables11/12 are omitted because their original estimator/aggregation implementation is unreleased; they are outside the identified central before-after contribution. Distribution points andFigure2 means are plotted from original scores butpixel coordinates are not gates.
+
+## Execution and retained artifacts
+
+One numerical thread;0.075224s wall time;0.031250s CPU time;100.56MiB peak working set. No GPU, paidAPI orkey;spendUSD0.
+
+Initial audit setup failed before computation because the new parent directory did not exist. Its script andfailure record remain in audit_setup_failed. Fresh P069-audit-002 changes only directory setup andits identifier; no scientific formula/input/target changed. Allthree scientific failures are retained.
+
+Frozen plan/targets/source inventory:PREREGISTRATION.json, targets.json, sources_manifest.json. Source primary bodies andexported full history are under sources/; bare public Git history is retained under sources/original_git_history andis excluded from the exported source hash inventory.
+
+Experimental artifacts:../../runs/P069-central-001/results.json, runner.py, manifest.json, resource_usage.json. Independent artifacts:../../audits/P069-audit-002/audit.json, independent_values.json, auditor.py, manifest.json. Figure:ideation_execution_reproduced.png.
+
+No shared programme registry was modified. P069 remains a failed reproduction attempt.

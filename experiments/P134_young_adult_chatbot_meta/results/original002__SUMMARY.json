@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-11T00:51:34.927815+00:00",
+  "complete_families": 11,
+  "raw_rows": 145,
+  "gates": 337,
+  "passed": 337,
+  "all_passed": true,
+  "original_human_trials_repeated": false,
+  "complete_337_and_rule": true,
+  "mode": "original"
+}

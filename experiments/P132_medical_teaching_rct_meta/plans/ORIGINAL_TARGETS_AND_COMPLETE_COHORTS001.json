@@ -1,0 +1,252 @@
+{
+  "recorded_at_utc": "2026-10-11T00:56:04.694506+00:00",
+  "own_effects_or_pooled_outcomes_calculated": false,
+  "source_inputs": {
+    "path": "papers/P132_medical_teaching_rct_meta/sources/ORIGINAL_MEAN_SD_N_TRANSCRIPTION001.csv",
+    "bytes": 1494,
+    "sha256": "098bd763aa0dad173af102cacb6457ed58046e2788b79a8fdb1c2749d9fcf5a8"
+  },
+  "groups": {
+    "geography": {
+      "Asia": [
+        "Ba2024",
+        "Bhatia2024",
+        "Gan2024",
+        "Huang2024",
+        "Jiang2024",
+        "Tabuchi2024",
+        "Wu2024",
+        "Zeng2025"
+      ],
+      "Europe": [
+        "Cicek2024_immediate",
+        "Kavadella2024",
+        "Svendsen2024"
+      ]
+    },
+    "duration": {
+      "short": [
+        "Bhatia2024",
+        "Cicek2024_immediate",
+        "Jiang2024",
+        "Svendsen2024",
+        "Tabuchi2024"
+      ],
+      "long": [
+        "Ba2024",
+        "Gan2024",
+        "Kavadella2024",
+        "Wu2024",
+        "Zeng2025"
+      ]
+    },
+    "course": {
+      "theory": [
+        "Bhatia2024",
+        "Cicek2024_immediate",
+        "Gan2024",
+        "Kavadella2024",
+        "Svendsen2024",
+        "Tabuchi2024"
+      ],
+      "practice": [
+        "Ba2024",
+        "Huang2024",
+        "Jiang2024",
+        "Wu2024",
+        "Zeng2025"
+      ]
+    },
+    "assessment": {
+      "immediate": [
+        "Ba2024",
+        "Bhatia2024",
+        "Cicek2024_immediate",
+        "Gan2024",
+        "Huang2024",
+        "Jiang2024",
+        "Kavadella2024",
+        "Svendsen2024",
+        "Tabuchi2024"
+      ],
+      "delayed": [
+        "Cicek2024_delayed",
+        "Wu2024",
+        "Zeng2025"
+      ]
+    }
+  },
+  "pooled_original_targets": {
+    "knowledge": {
+      "k": 11,
+      "gai_n": 395,
+      "traditional_n": 391,
+      "smd": "0.27",
+      "lower": "-0.31",
+      "upper": "0.85",
+      "p": "0.36",
+      "I2": "93",
+      "tau2": "0.88",
+      "Q": "148.69",
+      "df": 10,
+      "heterogeneity_p": "<0.00001",
+      "Z": "0.92"
+    },
+    "skill": {
+      "k": 2,
+      "gai_n": 52,
+      "traditional_n": 51,
+      "smd": "0.63",
+      "lower": "0.10",
+      "upper": "1.16",
+      "p": "0.02",
+      "I2": "43",
+      "tau2": "0.06",
+      "Q": "1.75",
+      "df": 1,
+      "heterogeneity_p": "0.19",
+      "Z": "2.32"
+    },
+    "satisfaction": {
+      "k": 3,
+      "gai_n": 94,
+      "traditional_n": 92,
+      "smd": "1.18",
+      "lower": "0.50",
+      "upper": "1.87",
+      "p": "0.0007",
+      "I2": "79",
+      "tau2": "0.29",
+      "Q": "9.38",
+      "df": 2,
+      "heterogeneity_p": "0.009",
+      "Z": "3.38"
+    }
+  },
+  "subgroup_original_targets": [
+    {
+      "family": "geography",
+      "name": "Asia",
+      "k": 8,
+      "gai_n": 285,
+      "traditional_n": 285,
+      "smd": "0.25",
+      "lower": "-0.55",
+      "upper": "1.04",
+      "I2": "95",
+      "p": "0.55"
+    },
+    {
+      "family": "geography",
+      "name": "Europe",
+      "k": 3,
+      "gai_n": 110,
+      "traditional_n": 106,
+      "smd": "0.31",
+      "lower": "-0.30",
+      "upper": "0.92",
+      "I2": "77",
+      "p": "0.32"
+    },
+    {
+      "family": "duration",
+      "name": "short",
+      "k": 5,
+      "gai_n": 179,
+      "traditional_n": 183,
+      "smd": "-0.34",
+      "lower": "-1.26",
+      "upper": "0.58",
+      "I2": "94",
+      "p": "0.47"
+    },
+    {
+      "family": "duration",
+      "name": "long",
+      "k": 5,
+      "gai_n": 184,
+      "traditional_n": 176,
+      "smd": "0.64",
+      "lower": "0.09",
+      "upper": "1.19",
+      "I2": "84",
+      "p": "0.02"
+    },
+    {
+      "family": "course",
+      "name": "theory",
+      "k": 6,
+      "gai_n": 241,
+      "traditional_n": 240,
+      "smd": "-0.25",
+      "lower": "-1.00",
+      "upper": "0.50",
+      "I2": "93",
+      "p": "0.51"
+    },
+    {
+      "family": "course",
+      "name": "practice",
+      "k": 5,
+      "gai_n": 154,
+      "traditional_n": 151,
+      "smd": "0.89",
+      "lower": "0.25",
+      "upper": "1.54",
+      "I2": "86",
+      "p": "<0.01"
+    },
+    {
+      "family": "assessment",
+      "name": "immediate",
+      "k": 9,
+      "gai_n": 343,
+      "traditional_n": 340,
+      "smd": "0.04",
+      "lower": "-0.55",
+      "upper": "0.64",
+      "I2": "93",
+      "p": "0.88"
+    },
+    {
+      "family": "assessment",
+      "name": "delayed",
+      "k": 3,
+      "gai_n": 108,
+      "traditional_n": 110,
+      "smd": "0.82",
+      "lower": "-0.32",
+      "upper": "1.96",
+      "I2": "93",
+      "p": "0.16"
+    }
+  ],
+  "between_group_original_targets": {
+    "geography": {
+      "Q": "0.01",
+      "I2": "0",
+      "p": "0.90",
+      "df": 1
+    },
+    "duration": {
+      "Q": "3.20",
+      "I2": "68.8",
+      "p": "0.07",
+      "df": 1
+    },
+    "course": {
+      "Q": "5.19",
+      "I2": "80.7",
+      "p": "0.02",
+      "df": 1
+    },
+    "assessment": {
+      "Q": "1.39",
+      "I2": "28.0",
+      "p": "0.24",
+      "df": 1
+    }
+  },
+  "point_inputs_are_literal_source_display_values": true,
+  "literal_input_transcription_visual_review": "Complete original Figure3 all16rows and 3panels viewed on VOR page6 image, independent peer visual review still requested"
+}

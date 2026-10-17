@@ -1,0 +1,50 @@
+{
+  "paper_id": "P161",
+  "assets": [
+    {
+      "id": "input-001",
+      "original_relative_path": "literature/rstat_grading_workbook_source_provenance_oct15_031/SOURCE_ORIGINAL_FULL_DATA_UoC_AuT.xlsx",
+      "bytes": 24166,
+      "sha256": "1c7237d8130493521941b1213ec9c3066f4602bccc35e710187919ac8f9b4027",
+      "download_urls": [
+        "https://osf.io/download/24rwx/?view_only=dbbceae688584cd3ad2d93ec3b6a7405"
+      ],
+      "source_pages": [
+        "https://osf.io/download/24rwx/?view_only=dbbceae688584cd3ad2d93ec3b6a7405"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    }
+  ],
+  "source_urls": [
+    "https://osf.io/download/24rwx/?view_only=dbbceae688584cd3ad2d93ec3b6a7405"
+  ],
+  "inventory_source_notes": {
+    "source_input_redistribution": "DO_NOT_COPY_PARTICIPANT_RECORDS_OR_UNLICENSED_AUTHOR_ASSETS;source URL/hash manifest only",
+    "dependency_provenance": [
+      {
+        "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002_meta\\ACTUAL_NUMERICAL_RUNTIME001.json",
+        "repo_relative_path": "runs/P161_complete_original002_meta/ACTUAL_NUMERICAL_RUNTIME001.json",
+        "bytes": 1623,
+        "sha256": "f081c4d16f6666c7f2053b84939339a24dc8cd54fbd0acbfc85900de7dc66c93",
+        "purpose": "Recorded runtime versions/import origins only; do not bundle any package/runtime"
+      }
+    ],
+    "third_party_required_code": [],
+    "portable_rerun_steps": [
+      "Read original report plus retrospective NEAR addendum; every old strict failure remains.",
+      "Acquire external source assets at pinned revisions; verify exact sizes/SHA256. Do not commit participant/model-response banks.",
+      "Use a separate environment from dependency metadata, not a copied runtime.",
+      "Preserve methods/seeds/full scope and hash validation. Rebase explicit local paths/config refs in a labelled publication copy; archived TRUE controls/deadlines are not new authority.",
+      "Run primary then independent audit into fresh exclusive outputs. This task has not tested or executed those commands."
+    ],
+    "portability_changes_required": [
+      "Historical outputs must remain exclusive; use fresh checkout/output configuration.",
+      "Hardcoded {{USER_HOME}} roots, local package-site paths and frozen source/control refs require explicit configuration; never silently remove guards.",
+      "Pure estimator modules are definitions; Windows supervisor also requires P157common/P160allocation/P092resource helpers listed.",
+      "Original exact91-case source-schema/mask can contain individual grades: regenerate locally, do not copy that whole schema blindly."
+    ],
+    "license_notice": "Programme code licence does not relicense author papers/code/data. Public source access alone does not establish redistribution permission; external acquisition manifests preferred."
+  },
+  "policy": "Source/data/model files are acquired from their owners. Only explicitly identified programme transcriptions are bundled. URLs are historical and were not re-fetched during publication preparation."
+}

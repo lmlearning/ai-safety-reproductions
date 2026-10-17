@@ -1,0 +1,93 @@
+{
+  "id": "PFT_REML",
+  "transform": "PFT",
+  "tau": "REML",
+  "method": "Inverse",
+  "pooled_CI": "classic normal95",
+  "individual_CI": "CP95",
+  "prediction": "V t(k-1)95, enabled",
+  "backsize": "harmonic active full/group/LOO",
+  "version": "candidate004",
+  "execution_authorized": false,
+  "confidence_level": 0.95,
+  "solver": {
+    "method": "original2025 metafor HE initial and Fisher-scoring REML",
+    "mean_center_y": true,
+    "threshold": 0.00001,
+    "maxiter": 100,
+    "stepadj": 1,
+    "tau_min": 0,
+    "ll0check": true,
+    "ll0_tolerance": "float64 eps^.25",
+    "boundary_tau_threshold": 0.00001,
+    "DL": "general projection Q-df over trace(P), max0",
+    "implementation": "independent Python float64 port; no library/port execution yet; QR full-rank covariance/projection; synthetic validation separately required"
+  },
+  "primary_decision_path": "papers/P133_nursing_ai_meta/ROOT_PROSPECTIVE_PFT_PRIMARY_METHOD_DECISION003.json",
+  "primary_decision_sha256": "148553ba9c84b906ae2e3ae26127e93af9c72af8c5e5a155037c69958dc6ab97",
+  "pipelines": [
+    [
+      "PFT_REML",
+      "PFT",
+      "REML"
+    ],
+    [
+      "PAS_REML",
+      "PAS",
+      "REML"
+    ],
+    [
+      "PLOGIT_REML",
+      "PLOGIT",
+      "REML"
+    ],
+    [
+      "PLOGIT_DL",
+      "PLOGIT",
+      "DL"
+    ],
+    [
+      "PFT_DL",
+      "PFT",
+      "DL"
+    ],
+    [
+      "PRAW_DL",
+      "PRAW",
+      "DL"
+    ]
+  ],
+  "backsize_controls": [
+    "min",
+    "max",
+    "arithmetic",
+    "geometric",
+    "median"
+  ],
+  "rounding": "Decimal(str(float)).quantize(10^-printed_decimals, ROUND_HALF_EVEN), compare exact normalized source typed value; source minus/star/unit/literal preserved; inequality0<=p<.0001; NA exact",
+  "independent_numeric_abs": 1e-10,
+  "independent_numeric_rel": 1e-10,
+  "no_rescue": true,
+  "resources_proposed": {
+    "cpu_affinity": [
+      1
+    ],
+    "threads": 1,
+    "per_process_native_working_peak_bytes": 268435456,
+    "per_process_native_private_peak_bytes": 402653184,
+    "whole_native_working_tree_bytes": 402653184,
+    "whole_private_tree_bytes": 536870912,
+    "fresh_available_bytes": 1073741824,
+    "fresh_duration_seconds": 10,
+    "continuous_available_bytes": 536870912,
+    "disk_reserve_bytes": 37580963840,
+    "worker_deadline_seconds": 600,
+    "auditor_deadline_seconds": 600,
+    "combined_review_bound_seconds": 1800,
+    "output_cap_bytes": 268435456,
+    "stream_chunk_bytes": 1048576,
+    "network": false,
+    "paid_services": false,
+    "actual_import_peak_unmeasured": true
+  }
+}

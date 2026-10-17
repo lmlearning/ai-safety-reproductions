@@ -1,0 +1,951 @@
+{
+  "paper_id": "P120",
+  "version": "004",
+  "created_utc": "2026-10-10T22:22:49.764051+00:00",
+  "purpose": "Narrow original XML metadata numeric scalar repair, all prior source/failure history retained, full metadata function validated before outcomes",
+  "files": [
+    {
+      "absolute_path": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\et_xmlfile-2.0.0.dist-info\\METADATA",
+      "bytes": 2711,
+      "sha256": "0e97d7ea909ed0fbe03d88bc8b6f58677cee1b07bd3353ce361cd2405915204e",
+      "category": "runtime file"
+    },
+    {
+      "absolute_path": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy-2.3.4.dist-info\\METADATA",
+      "bytes": 60935,
+      "sha256": "b1e940b65cb0abe04d901fac9205f8e4c8c4cb0ef18a7745f9e5f97b153a2d75",
+      "category": "runtime file"
+    },
+    {
+      "absolute_path": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_core\\_multiarray_umath.cp312-win_amd64.pyd",
+      "bytes": 4529152,
+      "sha256": "3f6e41b6062981b9196dbf6b1e78e66bdb4debdfec170bfd6f5a99cc1c9ad221",
+      "category": "runtime file"
+    },
+    {
+      "absolute_path": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl-3.1.5.dist-info\\METADATA",
+      "bytes": 2510,
+      "sha256": "23f80ca9830dd89435da1710f26deda8f81e5409287e74540210c72627a4ad96",
+      "category": "runtime file"
+    },
+    {
+      "absolute_path": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\openpyxl\\reader\\excel.py",
+      "bytes": 12357,
+      "sha256": "9204ad42d3b58f4bd5e7a196697c68dc6036117ba8b86b6716b45532872af046",
+      "category": "runtime file"
+    },
+    {
+      "absolute_path": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pandas-2.3.3.dist-info\\METADATA",
+      "bytes": 19488,
+      "sha256": "243674e606b51e70e5858596c7bfc9b58875d531d56577927c0a9944693f6c2f",
+      "category": "runtime file"
+    },
+    {
+      "absolute_path": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pandas\\core\\frame.py",
+      "bytes": 448198,
+      "sha256": "f2edd11fa07e96db34e0d006025b9b66200f67ebe016c1e011dd23ec173dec5b",
+      "category": "runtime file"
+    },
+    {
+      "absolute_path": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pandas\\core\\series.py",
+      "bytes": 213784,
+      "sha256": "adc3e9aa7d5b5181c63dfddab0050ecd78bee0b32b81c91aeb27d1fc27dce429",
+      "category": "runtime file"
+    },
+    {
+      "absolute_path": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\psutil-7.1.3.dist-info\\METADATA",
+      "bytes": 23635,
+      "sha256": "89db7acafbe66cd8b6a060ae993afda9c8f50aa4342c34c92a284be2c8c8534f",
+      "category": "runtime file"
+    },
+    {
+      "absolute_path": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\python_dateutil-2.9.0.post0.dist-info\\METADATA",
+      "bytes": 8354,
+      "sha256": "a9d436da322be808332f98d88325998e87cb693a678a9969feb4cfad729a6e93",
+      "category": "runtime file"
+    },
+    {
+      "absolute_path": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pytz-2025.2.dist-info\\METADATA",
+      "bytes": 22374,
+      "sha256": "e620e4e1f9f1c8019619388d4da496eb02119a13f35aaad55f022694a3c81f6c",
+      "category": "runtime file"
+    },
+    {
+      "absolute_path": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy-1.17.1.dist-info\\METADATA",
+      "bytes": 60950,
+      "sha256": "3a61ac02d145c9ca53f53d3f6f58d09017727a317731d0af02909730d4403e32",
+      "category": "runtime file"
+    },
+    {
+      "absolute_path": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\special\\_ufuncs.cp312-win_amd64.pyd",
+      "bytes": 1398784,
+      "sha256": "6eca0912fdbc826e8779e604c08f19cdffbb6d6b60f1b198ad31cdc99e58d339",
+      "category": "runtime file"
+    },
+    {
+      "absolute_path": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\stats\\_continuous_distns.py",
+      "bytes": 421896,
+      "sha256": "04d6998964f5715de0f9f5a784008d6a8b30dd76130f1b3e9159097477c390a5",
+      "category": "runtime file"
+    },
+    {
+      "absolute_path": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\stats\\_stats_py.py",
+      "bytes": 429183,
+      "sha256": "e07985377102ce291876889a85e40f3f0f61e8daa0ef05bf96be5bf86a4f7846",
+      "category": "runtime file"
+    },
+    {
+      "absolute_path": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\seaborn-0.13.2.dist-info\\METADATA",
+      "bytes": 5381,
+      "sha256": "98cfe2b7a5004466cdd5c7c8ccf016ebdcfa0337fc177ea7aad27f527c53fc96",
+      "category": "runtime file"
+    },
+    {
+      "absolute_path": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\tzdata-2025.2.dist-info\\METADATA",
+      "bytes": 1415,
+      "sha256": "c2cc876ee200b84d1b8bee22290bc673ae4cf8e8be1a85cd2909a2715215794b",
+      "category": "runtime file"
+    },
+    {
+      "absolute_path": "{{USER_HOME}}\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "bytes": 103200,
+      "sha256": "ec4290581859a74f7e29c36ba70a9677e3700f7b2db670814026f8bb3c8c2c63",
+      "category": "runtime file"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\environment\\root_review_P120-source-scope001.json",
+      "bytes": 1014,
+      "sha256": "b02f74ce960ed56adaa55a77c15f013cfd4dd7d4ac33a7e14404c03de252e27e",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\ANALYSIS_RUN001_COMPLETION_REVIEW.json",
+      "bytes": 9395,
+      "sha256": "f4daf20b1b55a566d4ea0f34dc616edd385f02a090f7494a43ca9f20975134e2",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\ANALYSIS_RUN001_PARENT_AUTHORIZATION.json",
+      "bytes": 977,
+      "sha256": "415d32fa246dd772cd345987e3ad7556eebef36d9261f49f4baffc7937a9a19d",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\ANALYSIS_RUN002_PARENT_AUTHORIZATION.json",
+      "bytes": 979,
+      "sha256": "ec21cc176b154929040d3dc9c9c1acac611ce20d4792ef34199ca9b18f966aed",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\AUDIT001_COMPLETION_FAILURE_REVIEW.json",
+      "bytes": 8708,
+      "sha256": "70f55bc8de2d3085f188a7f1af9d97f75be35d7fdcb9de75641a8a01bdff2331",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\AUDIT001_NATIVE_EXIT_WITNESS.json",
+      "bytes": 1653,
+      "sha256": "ca29e6e633c494037932231d3a6a24ff902a7a2953df891df631117c35827157",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\AUDIT001_PARENT_AUTHORIZATION.json",
+      "bytes": 1241,
+      "sha256": "3b32a655970c023c23f772a9bc867a8136605faf5c79752d304f070168d506e8",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\CODE_INPUT_RUNTIME_FREEZE001.json",
+      "bytes": 27474,
+      "sha256": "e0de59efeb57f2978d4f1cd0cfee3d9e4870dcf8d59329a0e8c4577b4149fdc5",
+      "category": "preserved/version002 source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\CODE_INPUT_RUNTIME_FREEZE002.json",
+      "bytes": 31424,
+      "sha256": "f99d54a19eaa5d06fc741f4ff29b229412a6ad41e74f66305f0b5248982ec423",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\CODE_INPUT_RUNTIME_FREEZE003.json",
+      "bytes": 47432,
+      "sha256": "4e67441bc29a155fec9264d063409b3ef1810116c7e9b4d0b7fa77512060eac2",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\COMPLETE_SOURCE_REVIEW_PROSPECTIVE001.md",
+      "bytes": 8565,
+      "sha256": "5c6c8b19ee09e3c09459597c50106a1622e276e255b2abeec5977d52cb59fcd7",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\ELIGIBILITY_REVIEW_20261010.json",
+      "bytes": 2494,
+      "sha256": "8172ef858173b9b4ff16606a76df82a8d63f9950eada01b536db27796fe7dd25",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\PREREGISTRATION001.json",
+      "bytes": 15547,
+      "sha256": "83915b7b37788e642f9fb3c0409a6f74f0bd5c72db9b83c8ed59c30320522f21",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\PREREGISTRATION002.json",
+      "bytes": 16399,
+      "sha256": "0fa23e8105fbc09b1f4f580fe515028c3106e99eef239de695b5017580660a18",
+      "category": "preserved/version002 source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\PREREGISTRATION003.json",
+      "bytes": 17825,
+      "sha256": "53fc3d9dec79df2964dcfff431af2048d722cdf4d91b610faf9f3c70daac4ac2",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\PREREGISTRATION004.json",
+      "bytes": 18502,
+      "sha256": "0b22ed97393094b14555220afaa7f0c11ee45f9853ca346ebee20bdb3c3b71cc",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\PROSPECTIVE_COMPLETE_CENTRAL_SCOPE_METHODS001.json",
+      "bytes": 11595,
+      "sha256": "822a64ec2f08204abdda779f7e6d8138d4cdcc8de2627f06ea490c65a64b9324",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\PROSPECTIVE_COMPLETE_CENTRAL_SCOPE_METHODS002.json",
+      "bytes": 12038,
+      "sha256": "39b05fb86385dc392287cdf5c7b2af199bfe5368e1f87219a9ad6d87130bfd5e",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\PROSPECTIVE_COMPLETE_QUANTITATIVE_TARGETS001.json",
+      "bytes": 48080,
+      "sha256": "97df1de3b3dddc7df83d0b221670748583b0e1daf63d6fb9de18a2a2762a6345",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\REQUEST_LOG_001_METADATA_20261010.json",
+      "bytes": 1823,
+      "sha256": "46a71ce997878e13e5d201c858dda25588522b96309bf1cda6c8ae8c142eb5a8",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\REQUEST_LOG_002_PINNED_ORIGINAL_SOURCES_20261010.json",
+      "bytes": 2638,
+      "sha256": "4f822b5bfceb6c38b44d3cc7e0fb0bdbc63b2c210072154515d34b367a6bce2a",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\REQUEST_LOG_003_ORIGINAL_REPO_BLOBS_20261010.json",
+      "bytes": 9066,
+      "sha256": "4877ff933da038f7c0753910a4fbdcc136a6adf83132990b7259f2cefbde51b1",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\REQUEST_LOG_004_V2_VERSION_BRIDGE_20261010.json",
+      "bytes": 440,
+      "sha256": "19adf873362bd2de58954248ce2415c7d61f8baa9ab35ecaf1c66fac069eaf39",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\REQUEST_LOG_005_JOURNAL_SUPPLEMENT_20261010.json",
+      "bytes": 576,
+      "sha256": "533174f1a14de445b9f2c669a950320a20a3624fe21c8a7b1c7bf4798cb903aa",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\REQUEST_LOG_006_PACKAGE_FORMULA_SOURCES_20261010.json",
+      "bytes": 1645,
+      "sha256": "7d55c129b31cd74a66cad321bc252d863b638d07ca6b97e124f10ab95350b5bf",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\RUN001_NATIVE_EXIT_WITNESS.json",
+      "bytes": 1620,
+      "sha256": "c29d0767500db7884584ee7c433f41afb4d3c60e01acf51510c623d4635f1039",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\RUN002_COMPLETION_FAILURE_FREEZE.json",
+      "bytes": 3308,
+      "sha256": "a366d2c860cfbfaf50481459cf89e3d23d814a0acd3c0a448ab8d5d58d6e408b",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\RUN002_NATIVE_EXIT_WITNESS.json",
+      "bytes": 1630,
+      "sha256": "68c8f3462463e3d113306a9580b3d6bcaf929d68b302fb3de43e7ed2bf6ed74b",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\RUN002_READ_ONLY_HEADROOM_OBSERVATION001.json",
+      "bytes": 10670,
+      "sha256": "8d8055336fd74793907b4d334f101039c21e277b4f5a86e0fc4e7128ecc8f0e3",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\SOURCE_DIGITIZATION_OPERATION_SUPPLEMENT_20261010.json",
+      "bytes": 749,
+      "sha256": "c8d5483efd7e4b3398a0e5824da049aeb744c7ab43fed0625a4ada929232b882",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\SOURCE_FIGURE3_DIGITIZED_TARGETS_20261010.json",
+      "bytes": 8830,
+      "sha256": "d25386de26397d5ff042b06c9adf9746ab4961a7c8663be9766525718e9d2756",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\SOURCE_ONLY_CODE_RUNTIME_PREPARATION001.json",
+      "bytes": 5250,
+      "sha256": "d5c8475a682bf4487eb27cb6d706fc2ee1cd1eee97422e6bce8807c8d5442716",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\SOURCE_ONLY_CODE_RUNTIME_PREPARATION002.json",
+      "bytes": 6643,
+      "sha256": "73def9e9d89f3403d02b1c06f2dd03c933db4c68324cdbf9011f602c3065e821",
+      "category": "preserved/version002 source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\SOURCE_ONLY_CODE_RUNTIME_PREPARATION003.json",
+      "bytes": 6235,
+      "sha256": "3df6e76bd3a068a172769abe8b40e62b88587e5edaa142c20151126f48f78cc9",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\SOURCE_ONLY_CODE_RUNTIME_PREPARATION004.json",
+      "bytes": 6282,
+      "sha256": "cbb730756d3f31c273b2ae0df409d34c268e0567b26483bb4cee469782c44550",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\SOURCE_ONLY_EMPTY_COMMENT_PARSER_REVIEW003.json",
+      "bytes": 4717,
+      "sha256": "249033e3bb86b067070a7f61568e59470e03acfdf35e71cde6e17a7b5afb15b5",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\SOURCE_ONLY_EXACT_RAW_CELL_AMENDMENT002.json",
+      "bytes": 4400,
+      "sha256": "c0889a3a60366d8ca6ad167299151afb0400e26e95877e92ff33580870e8d762",
+      "category": "preserved/version002 source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\SOURCE_ONLY_EXACT_RAW_CELL_DIFF002.txt",
+      "bytes": 7020,
+      "sha256": "80f2f5a444cb2c8e433349eefbc3e6dbfcd96f89f20d01e52f60a6680e8de921",
+      "category": "preserved/version002 source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\SOURCE_ONLY_FULL_COMMENT_SCALAR_VALIDATION004.json",
+      "bytes": 76201,
+      "sha256": "77a64e03bb84b4dc1206ce1a743167d538f156a3c738aca6d016edb600869851",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\SOURCE_ONLY_METADATA_SCALAR_AMENDMENT004.json",
+      "bytes": 2992,
+      "sha256": "801c7fd6f2dff105d9227661053d934dc0d97a0dce121d33b2146f524c307878",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\SOURCE_ONLY_METADATA_SCALAR_DIFF004.txt",
+      "bytes": 7306,
+      "sha256": "1bbfcbd672fffe7251d55c0cc9a75795f0f6c2a3b17dd3acc7904aa72b847f39",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\SOURCE_ONLY_NUMERICAL_AST_INVARIANCE003.json",
+      "bytes": 39374,
+      "sha256": "cebc9bdf5a2f30d48c051bcf45b1055dac7873a188f57af52d5a1b77b8bad2bb",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\SOURCE_ONLY_NUMERICAL_INVARIANCE004.json",
+      "bytes": 712,
+      "sha256": "ce0dcbf00246134cada86831f7d92635f0ce7cdbbe5e0982d63ba4b7f2f4e78f",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\SOURCE_ONLY_RAW_SERIALIZATION_AMENDMENT003.json",
+      "bytes": 4335,
+      "sha256": "f7704463fb1a94b31c7ecab41e178a33f52e0f445c85f900d3678ffc6e48febd",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\SOURCE_ONLY_RAW_SERIALIZATION_DIFF003.txt",
+      "bytes": 11363,
+      "sha256": "9442e58cb11bc9604ea866e0671bfe36c86a4eb584c9e57ac90bdd683c1111ed",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\SOURCE_SCHEMA_CENSUS_20261010.json",
+      "bytes": 5669,
+      "sha256": "c070b2ae0c54e3ba97173b7b32f2eecc0b00a042c3ec81800dc2fd26ab2d33ee",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\audits\\audit001\\AUDIT_MANIFEST.json",
+      "bytes": 996,
+      "sha256": "43014e53e3b106052bf4cceab01e441ba80e178a13e801c9c86b1daf2378b346",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\audits\\audit001\\AUDIT_SUMMARY.json",
+      "bytes": 3023,
+      "sha256": "d81d0d3ee9f27b2dcfa180eb4ce2d0b2688841f56a2ad86d48267fab359ce663",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\audits\\audit001\\all_independent_integrity_checks.json",
+      "bytes": 5931430,
+      "sha256": "7b05cf559dc25d25043f2fd23daf272d86278e4956c7f914f2dd7df61b68ee73",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\audits\\audit001\\independent_all_fixed_diagnostics.json",
+      "bytes": 15139,
+      "sha256": "e5f7675cadcbc43be904ad8b9417c5f2f2604df44f367b72ce9499c65b67a162",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\audits\\audit001\\independent_all_original_metrics.json",
+      "bytes": 10385,
+      "sha256": "0d93eb26870a2f09b060f993efc6e00e80635768f4cf9780af3b1b19ff48767d",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\audits\\audit001\\independent_mandatory_target_checks.json",
+      "bytes": 53343,
+      "sha256": "43cf9135888a14bf2ef0e404f17d6e8b3eda46dbb7c82fc73179de9ef2b9f312",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\audits\\audit001\\independent_raw_xml_records.json",
+      "bytes": 2129218,
+      "sha256": "dee6fa4b1af2143d825d0d71b236b6eb13d1bcdecee9fae5324712060ccf9573",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\digitize_source_figure3_p120.py",
+      "bytes": 2434,
+      "sha256": "b58c0bba4ff889c66ea9b86c6e577678e7ee98d70c8faa952f6bd42eeca75aae",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\digitize_source_figure3_p120_v002.py",
+      "bytes": 2590,
+      "sha256": "8e30804181503113141bb85a6ce73318fc8bf39454b090afc1cfc69c8d0bbf12",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\freeze_source_code_runtime_p120_v002.py",
+      "bytes": 7619,
+      "sha256": "3115298a36013574adb4b580c2531e554df9966bfa67b52f01dc9238134f99c7",
+      "category": "preserved/version002 source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\freeze_source_code_runtime_p120_v003.py",
+      "bytes": 15986,
+      "sha256": "f687174a1246b6445ad433ea028503f1be941f1d0891430f348ba8043fd70db2",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\freeze_source_code_runtime_p120_v004.py",
+      "bytes": 12231,
+      "sha256": "b9dd3c446b6d340d295ed52356be1ccd282534f9446eeaa62e6063e65105106a",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\operations\\operation_audit001\\OPERATION_MANIFEST.json",
+      "bytes": 427,
+      "sha256": "4c5a1c76d0a48a1efa56a454ed6c66296ea5fda629d572a258e81425a7bc4d02",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\operations\\operation_audit001\\SUPERVISOR.json",
+      "bytes": 13687,
+      "sha256": "122e02dfaf33858c0a155045e00b7b49aef2f35a8b6eef98227f1fd34c938be3",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\operations\\operation_audit001\\stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\operations\\operation_audit001\\stdout.txt",
+      "bytes": 498,
+      "sha256": "47a0a4251766cf0f6707ddd30e1d2f3cf90e353aa37f378b9ecaa260bd5d0f8c",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\operations\\operation_run001\\OPERATION_MANIFEST.json",
+      "bytes": 427,
+      "sha256": "7d149eed87899491613e513f996fe788b0c2aae316a586eea40c94f5f24314b4",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\operations\\operation_run001\\SUPERVISOR.json",
+      "bytes": 58120,
+      "sha256": "5d74a59d3b4d235984d8844a8d8d219994ba5f8b9dd3a4a0c9983f06f79d64e9",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\operations\\operation_run001\\stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\operations\\operation_run001\\stdout.txt",
+      "bytes": 205,
+      "sha256": "1db64e9d75f9c062e28fac4699fbd7e9dc09f877ea250568274bc4def1bee97d",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\operations\\operation_run002\\OPERATION_MANIFEST.json",
+      "bytes": 428,
+      "sha256": "09d8aa4a8247e7874890a4a10fa71363b0cf30dff79e534f4311fab5fe470894",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\operations\\operation_run002\\SUPERVISOR.json",
+      "bytes": 27245,
+      "sha256": "7ccf0ba39ea8a53360a8a779b2a11489e28dd8987b826d7897c73aafa25beae9",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\operations\\operation_run002\\stderr.txt",
+      "bytes": 1113,
+      "sha256": "0c9e90cda7858d04e7a87d6b3a85509086158f30f1f7bdaea3cd497b8313aacc",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\operations\\operation_run002\\stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\prepare_prospective_scope_p120.py",
+      "bytes": 18311,
+      "sha256": "4bfdbd3469154f453a1e64b0f289dca8152a293728aa225b581969cb3fe540b0",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\runs\\run001\\RUN_MANIFEST.json",
+      "bytes": 971,
+      "sha256": "8441b8735a86a98f965f80674281544f6a26a845cd95959ead9a345e922b1d0f",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\runs\\run001\\RUN_SUMMARY.json",
+      "bytes": 3152,
+      "sha256": "15c21e36ea5b3b57cf079d521a91c56d21700d3ebcb79bd14282507bc6ed5161",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\runs\\run001\\all_fixed_supporting_diagnostics.json",
+      "bytes": 15144,
+      "sha256": "9213e961a8604907d1b86df6c6be2f162742f19f7221b229301ac240bd3c3729",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\runs\\run001\\all_original_method_details.json",
+      "bytes": 46782,
+      "sha256": "b3fb8513419571f18478bc41c6088bdfaea7e03451a8e5f2fbe320441b42cfbd",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\runs\\run001\\all_original_method_metrics.json",
+      "bytes": 10380,
+      "sha256": "d18a962c39cbd68dc02b3afdad86856ee6621a0a014e9c7c169d5fd7ed646454",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\runs\\run001\\mandatory_target_checks.json",
+      "bytes": 53341,
+      "sha256": "f19f7efccc71fbc97a2942ecd9ac60ac1f7f6a6a6cfc62d58df7359ccbfb230e",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\runs\\run001\\original_per_response_records.json",
+      "bytes": 2129218,
+      "sha256": "8c9f8237b18d3ce6e755bf05e759e6d8ce1a896edd6dc813e9d9fe30142f4b2c",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\scripts\\audit_p120_raw_xml_independent.py",
+      "bytes": 16220,
+      "sha256": "fa8aabefdf46e41d797f8a1be1bb5f580435fe5e3f6e16028862f137e8b474e3",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\scripts\\audit_p120_raw_xml_independent_v002.py",
+      "bytes": 17184,
+      "sha256": "84774e66d061050d89e7aa6e3c4f705516a838cc400ba569976d061da730a075",
+      "category": "preserved/version002 source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\scripts\\audit_p120_raw_xml_independent_v003.py",
+      "bytes": 18564,
+      "sha256": "ee4fa9ff2a08c36be2632b7409b333dc8be4a9c44e88ce2372acff830ce8e3e7",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\scripts\\audit_p120_raw_xml_independent_v004.py",
+      "bytes": 18564,
+      "sha256": "6401d44ec3ea5a3ed87e9582ff5bccbac9e54bbe8c62836e50069e3c63639f3d",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\scripts\\dispatch_p120_native_exit_witness.py",
+      "bytes": 3026,
+      "sha256": "d3b667d3ea3c1cab22a9c5a972a7c01c1e095f57b6a185b9905e5a2766c8c033",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\scripts\\dispatch_p120_native_exit_witness_v002.py",
+      "bytes": 3072,
+      "sha256": "309f096fa3d30a0e6031ffd7589b841a1db3a0aaf45532cbd236657916cd8ab4",
+      "category": "preserved/version002 source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\scripts\\dispatch_p120_native_exit_witness_v003.py",
+      "bytes": 3072,
+      "sha256": "6bb0bb1065ef5ec00e8ee9807357ef44a4e9d0c178506da188e81ccc7aca1128",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\scripts\\dispatch_p120_native_exit_witness_v004.py",
+      "bytes": 3072,
+      "sha256": "399eec6d4a88a95ddcb5e81521c9a0a8d6d62ee41a6c04f61e07ae5057f3546a",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\scripts\\run_p120_original_quantitative.py",
+      "bytes": 13240,
+      "sha256": "1bde2a767d82e26c5b1685577cb91b457816bbad184a1ff71972ed9d4990d936",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\scripts\\run_p120_original_quantitative_v002.py",
+      "bytes": 13422,
+      "sha256": "c52f26b9940192aa49210bfe7f7caaf3029e75204a651af2115571e333afbddd",
+      "category": "preserved/version002 source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\scripts\\run_p120_original_quantitative_v003.py",
+      "bytes": 16647,
+      "sha256": "e7beb4dcb38e06919bd4090628dfa5dcd0600921d62757f3b33608fdf6ef694c",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\scripts\\run_p120_original_quantitative_v004.py",
+      "bytes": 16959,
+      "sha256": "9bd43d62c1e72ef709c23ec760ec419e13a9f6403953ac87115833e45c3a8724",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\scripts\\supervise_p120_quantitative.py",
+      "bytes": 7563,
+      "sha256": "b5d0feba4543f982062166aeb49d1cc6a287334fb6f2ca50dfc388f355c63d3d",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\scripts\\supervise_p120_quantitative_v002.py",
+      "bytes": 7672,
+      "sha256": "5b847e4de4071714316ac51d8919b87621298b6ec089a0d3b70c13dd52beb675",
+      "category": "preserved/version002 source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\scripts\\supervise_p120_quantitative_v003.py",
+      "bytes": 7672,
+      "sha256": "5e7aa1f90f3d2512f5f0765e5ce132d7c40a50deb0b6fe7bf68def0f58b0b367",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\scripts\\supervise_p120_quantitative_v004.py",
+      "bytes": 7672,
+      "sha256": "fc9627d4a7846e7d248c74427400d7e5d45435630db88da1b98296d95cf7f5eb",
+      "category": "preserved/version004 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\source_empty_comment_review_p120_v003.py",
+      "bytes": 3114,
+      "sha256": "0372ccf29244b21afd05728bdd6317add61b9c2cff481fd79bd6f79fb61523ad",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\source_schema_p120.py",
+      "bytes": 4219,
+      "sha256": "c44f50cc359c907f04de1e6d34478ced50256066e10bf3b0730047ee28c67ba9",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\ARXIV_V1_ABS.source",
+      "bytes": 43504,
+      "sha256": "d5660273244a1ce61b67e376cd6b7ce5b9e8edbaca366cd185f2f60fda46cbb2",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\ARXIV_V1_FULL_TEXT.txt",
+      "bytes": 57124,
+      "sha256": "66316e92f39a92d279fa08bcc1fadd853640e246ab7bb4522b29141e1b5f93f7",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\ARXIV_V1_Figure1_embedded_source_0.png",
+      "bytes": 24639,
+      "sha256": "2a38e64edf8e48e4c854e08db97e518e54c567eb5ef3a0e98745846f90ba7939",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\ARXIV_V1_Figure2_embedded_source_0.png",
+      "bytes": 39859,
+      "sha256": "c16e42cf3e74dcc666ffb76ac0c18c56e32c950fa76385b323e566aa9ffd999a",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\ARXIV_V1_Figure3_embedded_source_0.png",
+      "bytes": 45001,
+      "sha256": "90800fc248ce33d066e906acab56362136088e5983690373c54eaf4d22adc3b8",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\ARXIV_V1_ORIGINAL.pdf",
+      "bytes": 513931,
+      "sha256": "cee57fac7858b40eb104f6772d36f3294e5ddfde74604a3a95963cada80c4c92",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\ARXIV_V1_page_10_source.png",
+      "bytes": 152442,
+      "sha256": "d83118729e974caf4e52ff79b8284e80dd81dbf8ca58760e2a01ffec886f8a82",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\ARXIV_V1_page_8_source.png",
+      "bytes": 137746,
+      "sha256": "ef3ff22ac75bb30acb7d16499d10340e10fffa42756bb8655c73815dce70fdfe",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\ARXIV_V1_page_9_source.png",
+      "bytes": 121066,
+      "sha256": "2421b1073b288242e00359ec8ec50bf901254ad0237e433427c3f876e45e145a",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\ARXIV_V2_FULL_TEXT.txt",
+      "bytes": 57269,
+      "sha256": "2725d2d70692f7928b0a0550ad17c059a987c270ab03e279f5af7a55f074098a",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\ARXIV_V2_ORIGINAL.pdf",
+      "bytes": 480653,
+      "sha256": "ad8d78c94a0a4c3202b85289c0b147c0fdbc8ef7b2aaa43098145b09424ba633",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\CURRENT_HEAD_TREE.json",
+      "bytes": 3484,
+      "sha256": "9313f8c366779192697a5b88507deb283fcab9b391465e6ef5e16cfde6aeac36",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\EXACT_RETAINED_S2_RECORD.json",
+      "bytes": 3456,
+      "sha256": "d588b6d1e322d1f31f957a96e474f2f740066877739ee1e2411f38916e1889eb",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\GITHUB_COMMITS_PAGE1.json",
+      "bytes": 86313,
+      "sha256": "6eddb0d83cb94d3ebc6ab060cf9a498dda687a1bc80efe9efbad677af5034f75",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\GITHUB_REPOSITORY_METADATA.json",
+      "bytes": 5378,
+      "sha256": "ff95f285e999531a9ce583832e2bfb737ebd78bab5aef7ce05fb3633764aa60b",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\JOURNAL_BODY_TEXT.txt",
+      "bytes": 49461,
+      "sha256": "11dfd95acc18147858629e6b505e00ca9c26a0e910c5693d3250d8be49e36ce0",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\JOURNAL_CROSSREF_METADATA.json",
+      "bytes": 12707,
+      "sha256": "9103fa0c32c93eedeb855910cbcff97023c07ce0a333b80fba83bfa1f8265209",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\JOURNAL_ORIGINAL_FULL_XML.source",
+      "bytes": 86248,
+      "sha256": "80088135ec0973b701d4da58bde7c5b2c73d9e90bf06892e14cd34aadcf0cd37",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\JOURNAL_ORIGINAL_SUPPLEMENT.pdf",
+      "bytes": 182526,
+      "sha256": "f46bfa8e2dca59ad3d2f2d98cbee0879bfe027635af817747ebd4840a1fdf6a5",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\JOURNAL_ORIGINAL_SUPPLEMENT_TEXT.txt",
+      "bytes": 7249,
+      "sha256": "6ee07a7d1ffb47acc71d2038a268cc00ac999f01690709c9afe3f5383ddab0c3",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\JOURNAL_SUPPLEMENT_page_1_source.png",
+      "bytes": 160428,
+      "sha256": "0b70555c2fedaed9d80e2b0b5f13094dd6c59b9d0ad12ba4ddb3bea2413e9b6a",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\JOURNAL_SUPPLEMENT_page_2_source.png",
+      "bytes": 151925,
+      "sha256": "4127a02b56c5a2195e3d4f5563af02fdee47d43d52152c44083ba1638df905b0",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\ORIGINAL_INITIAL_TREE.json",
+      "bytes": 417,
+      "sha256": "6143060482c35750864fd893989b47faf40c32393f4f784f81368c4f2817e1f1",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\ORIGINAL_PREPRINT_HEAD_TREE.json",
+      "bytes": 2735,
+      "sha256": "061430e176c60a4301d8f21e7d910baf9ef5e8de57cf0d46db05370697ceec32",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\PANDAS_2_3_3_EXCEL_BASE_RUNTIME_SOURCE.py",
+      "bytes": 59073,
+      "sha256": "b44041e66dcb70bf191efeb62afec6e1497d30496bd97f09ae45ef69dca9cc2e",
+      "category": "preserved/version003 source/plan/code/failure-history"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\SCIKIT_POSTHOCS_0_11_4_SOURCE.py",
+      "bytes": 90793,
+      "sha256": "9e7d4cbc3be31365f609aca81729ae5a3bf5c3e14eba495ec90279a01eb5b2bb",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\STATSMODELS_0_14_4_MULTITEST_SOURCE.py",
+      "bytes": 27505,
+      "sha256": "11c4f7487cd85c5e0ab27ff3868d6ae4f6b6164416bb7cbc59a3797ec32dc3dd",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\STATSMODELS_0_14_4_PROPORTION_SOURCE.py",
+      "bytes": 85620,
+      "sha256": "b039f25cf95166fcc882a9fd47f72b7ab90013bfda9823aa7acf3c2950978ed9",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\V1_V2_TEXT_DIFF_SOURCE.txt",
+      "bytes": 27399,
+      "sha256": "b17d2040cdf5e7abccc0410d63bbb88ca9683bc8a122683f233d1c3364dc4f02",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\original_preprint_repo\\.gitignore",
+      "bytes": 25,
+      "sha256": "55e99a9561d2a2deff99bac08ba87e74d00c595fa62b2ddbc71a79850562710a",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\original_preprint_repo\\CURRENT_chatbot_analysis.py",
+      "bytes": 14364,
+      "sha256": "1da0b09cc0da936a77c59595831bc3caa77879259ed17ed1e4d8dced4fafd7f5",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\original_preprint_repo\\README.md",
+      "bytes": 19,
+      "sha256": "aacbacaa48e132ad557820a6432f728871b55854de894520d59b44ab25d146e9",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\original_preprint_repo\\SupplementaryDocuments\\Chatbot_Medical_Questions_Final_Instructions-2025-01.docx",
+      "bytes": 1279073,
+      "sha256": "b1e1cdc17f063a3e07737fd49a498412c5ee35b4d02cf8bd73458ffdf580f5fe",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\original_preprint_repo\\SupplementaryDocuments\\HealthAdviceDataset.xlsx",
+      "bytes": 20241,
+      "sha256": "f52b262348217d7837fe077a22933d3724a38ecae72a006de2da11a7c52716d6",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\original_preprint_repo\\SupplementaryDocuments\\HealthAdviceDatasetWithEvaluations.xlsx",
+      "bytes": 627520,
+      "sha256": "c1c8e47d1e9fe73cd78f63e3a09c37879891955101d7ce357ad324113575c959",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\original_preprint_repo\\SupplementaryDocuments\\Labeling-Excel-Sheet-for-Data-BLANK.xlsx",
+      "bytes": 12431,
+      "sha256": "7eb6f2b57ec5f5050aa708869614874a4d609bd7a1174ea12a5c751a13a1d1ff",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\original_preprint_repo\\chatbot_analysis.py",
+      "bytes": 14352,
+      "sha256": "cf4a9fd00af212b2995ea4c5e717f0af805988e4a6881ae32bb8ba5df59f9668",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\original_preprint_repo\\chatbot_correlation_coefficient.py",
+      "bytes": 3190,
+      "sha256": "cd5b4691eeb176a778568319d868dfc65b4865e33ba7c336d363915dfb943725",
+      "category": "source/plan/code"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\sources\\original_preprint_repo\\find_problem_questions.py",
+      "bytes": 2368,
+      "sha256": "0913c7861fa78090dfca9019db56ad0377a42fb7951e3fd93b6c0e84d5e520a1",
+      "category": "source/plan/code"
+    }
+  ],
+  "prior_original_outcomes_computed": true,
+  "repair004_outcomes_computed": false,
+  "code_static_checks": "Four modules AST parse/compile, full numerical source invariance; only isolated standard-library comments function executed for all888 source metadata rows",
+  "resource_policy": {
+    "cpu_threads": 1,
+    "process_rss_cap_GiB": 1,
+    "available_RAM_floor_GiB": 1.5,
+    "stable_start_seconds": 10,
+    "free_disk_floor_GiB": 35,
+    "per_run_or_audit_seconds": 600,
+    "gpu": false,
+    "new_weights": false,
+    "paid_services": false,
+    "new_keys": false,
+    "estimated_added_storage_MiB": 50,
+    "estimated_runtime_seconds": 30,
+    "supervision": "Check owned process creation time, actual exits, peak RSS and available RAM; stop and preserve on breach, no automatic retries"
+  },
+  "all141_target_hash_unchanged": "97df1de3b3dddc7df83d0b221670748583b0e1daf63d6fb9de18a2a2762a6345",
+  "mandatory_original_scientific_output_byte_identity": {
+    "all_original_method_metrics.json": "d18a962c39cbd68dc02b3afdad86856ee6621a0a014e9c7c169d5fd7ed646454",
+    "all_original_method_details.json": "b3fb8513419571f18478bc41c6088bdfaea7e03451a8e5f2fbe320441b42cfbd",
+    "all_fixed_supporting_diagnostics.json": "9213e961a8604907d1b86df6c6be2f162742f19f7221b229301ac240bd3c3729",
+    "mandatory_target_checks.json": "f19f7efccc71fbc97a2942ecd9ac60ac1f7f6a6a6cfc62d58df7359ccbfb230e"
+  }
+}

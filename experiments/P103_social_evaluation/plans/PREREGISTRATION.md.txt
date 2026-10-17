@@ -1,0 +1,16 @@
+# P103 prospective statistical preregistration
+Complete original primary Study 1 plus its separate post-hoc manipulation-check pilot will be recomputed from original raw human records. The central claim concerns anticipated social evaluation and disclosure willingness; this scope does not establish observers' actual evaluations, hiring or mediation and is not a full-paper reproduction.
+
+The immutable proposal contains all 108 mandatory original numerical comparisons, exact formulas, fixed rounding/figure tolerances and 11 original inputs. All six preregistered measures are included, with their original confidence intervals, reliability checks and all SI correlations. Root approved this complete primary scope before outcomes. No trial statistic has been calculated during preparation.
+
+The original primary exclusions retain exactly 497 of500 participants: remove metadata records, exclude duration below30sec and complete21-item straightliners; the raw schema census confirms zero fast participants and three straightliners. Original materials and reconciliation specify four items for competence,diligence,laziness despite the three-item preregistration text. Education is >=4 on the actual export/QSF mapping. The four negative source effects retain signed AI-minus-dashboard tests; their positive prose t magnitudes are compared by absolute value prospectively.
+
+All201 MC1 pilot records are retained after metadata removal. Correct recall uses the two exact original branch strings and Q89 codes. The published88.6% and N201 are mandatory; condition breakdown,Q88 counts and a Wilson interval are supporting-only outputs.
+
+The Pollfish replication and its unexplained419-person subset, the distinct norms experiment, and main Studies2-4 are explicitly omitted. The whole-study source review and original files preserve their unresolved cohort/producer conflicts. No alternative Pollfish subset or corrected composite is substituted.
+
+The independent auditor parses raw CSV separately and computes the formulas without importing runner analyses. It checks all original and result hashes, all500+201 derived records, every numerical metric and all108 frozen target definitions. All failures will be retained.
+
+Resource policy is one computational thread,1GiB RSS cap,1GiB available-RAM floor,35GiB free disk and600sec per run/audit. A separate bounded supervisor monitors only these subprocesses. No GPU, download, paid service, new human or model-API interaction is involved. No stochastic estimator or seed is needed.
+
+This freeze precedes outcomes. Numerical execution awaits root review of the runner,auditor,runtime and resource supervisor. No gate will be revised after outcomes.

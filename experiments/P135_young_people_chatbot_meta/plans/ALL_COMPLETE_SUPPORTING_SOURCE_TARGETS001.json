@@ -1,0 +1,6057 @@
+{
+  "source_only": true,
+  "checks": [
+    {
+      "id": "support_001",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "1",
+        "CI_low"
+      ],
+      "source_literal": "-1.42",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -1.42,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_002",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "1",
+        "CI_high"
+      ],
+      "source_literal": "-0.18",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.18,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_003",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "1",
+        "row_weight_percent"
+      ],
+      "source_literal": "4.29",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 4.29,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_004",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "2",
+        "CI_low"
+      ],
+      "source_literal": "-0.28",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.28,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_005",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "2",
+        "CI_high"
+      ],
+      "source_literal": "0.49",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.49,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_006",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "2",
+        "row_weight_percent"
+      ],
+      "source_literal": "6.66",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 6.66,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_007",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "3",
+        "CI_low"
+      ],
+      "source_literal": "-1.03",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -1.03,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_008",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "3",
+        "CI_high"
+      ],
+      "source_literal": "-0.08",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.08,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_009",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "3",
+        "row_weight_percent"
+      ],
+      "source_literal": "5.62",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 5.62,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_010",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "4",
+        "CI_low"
+      ],
+      "source_literal": "-0.34",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.34,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_011",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "4",
+        "CI_high"
+      ],
+      "source_literal": "0.60",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.6,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_012",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "4",
+        "row_weight_percent"
+      ],
+      "source_literal": "5.71",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 5.71,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_013",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "5",
+        "CI_low"
+      ],
+      "source_literal": "-0.66",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.66,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_014",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "5",
+        "CI_high"
+      ],
+      "source_literal": "0.28",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.28,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_015",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "5",
+        "row_weight_percent"
+      ],
+      "source_literal": "5.7",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.050000001,
+      "target": 5.7,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_016",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "6",
+        "CI_low"
+      ],
+      "source_literal": "-0.52",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.52,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_017",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "6",
+        "CI_high"
+      ],
+      "source_literal": "0.65",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.65,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_018",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "6",
+        "row_weight_percent"
+      ],
+      "source_literal": "4.56",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 4.56,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_019",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "7",
+        "CI_low"
+      ],
+      "source_literal": "-0.79",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.79,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_020",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "7",
+        "CI_high"
+      ],
+      "source_literal": "0.39",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.39,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_021",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "7",
+        "row_weight_percent"
+      ],
+      "source_literal": "4.55",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 4.55,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_022",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "8",
+        "CI_low"
+      ],
+      "source_literal": "-0.71",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.71,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_023",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "8",
+        "CI_high"
+      ],
+      "source_literal": "0.46",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.46,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_024",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "8",
+        "row_weight_percent"
+      ],
+      "source_literal": "4.56",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 4.56,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_025",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "9",
+        "CI_low"
+      ],
+      "source_literal": "-1.27",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -1.27,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_026",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "9",
+        "CI_high"
+      ],
+      "source_literal": "-0.50",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.5,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_027",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "9",
+        "row_weight_percent"
+      ],
+      "source_literal": "6.71",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 6.71,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_028",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "10",
+        "CI_low"
+      ],
+      "source_literal": "-0.23",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.23,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_029",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "10",
+        "CI_high"
+      ],
+      "source_literal": "0.59",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.59,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_030",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "10",
+        "row_weight_percent"
+      ],
+      "source_literal": "6.42",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 6.42,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_031",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "11",
+        "CI_low"
+      ],
+      "source_literal": "-1.05",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -1.05,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_032",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "11",
+        "CI_high"
+      ],
+      "source_literal": "0.08",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.08,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_033",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "11",
+        "row_weight_percent"
+      ],
+      "source_literal": "4.77",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 4.77,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_034",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "12",
+        "CI_low"
+      ],
+      "source_literal": "-1.27",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -1.27,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_035",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "12",
+        "CI_high"
+      ],
+      "source_literal": "-0.37",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.37,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_036",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "12",
+        "row_weight_percent"
+      ],
+      "source_literal": "5.94",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 5.94,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_037",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "13",
+        "CI_low"
+      ],
+      "source_literal": "-0.73",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.73,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_038",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "13",
+        "CI_high"
+      ],
+      "source_literal": "0.14",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.14,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_039",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "13",
+        "row_weight_percent"
+      ],
+      "source_literal": "6.11",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 6.11,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_040",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "14",
+        "CI_low"
+      ],
+      "source_literal": "-0.35",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.35,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_041",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "14",
+        "CI_high"
+      ],
+      "source_literal": "0.51",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.51,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_042",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "14",
+        "row_weight_percent"
+      ],
+      "source_literal": "6.14",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 6.14,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_043",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "15",
+        "CI_low"
+      ],
+      "source_literal": "-0.59",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.59,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_044",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "15",
+        "CI_high"
+      ],
+      "source_literal": "-0.08",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.08,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_045",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "15",
+        "row_weight_percent"
+      ],
+      "source_literal": "8.29",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 8.29,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_046",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "16",
+        "CI_low"
+      ],
+      "source_literal": "-0.25",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.25,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_047",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "16",
+        "CI_high"
+      ],
+      "source_literal": "0.03",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.03,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_048",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "16",
+        "row_weight_percent"
+      ],
+      "source_literal": "9.54",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 9.54,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_049",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "17",
+        "CI_low"
+      ],
+      "source_literal": "-1.93",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -1.93,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_050",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "17",
+        "CI_high"
+      ],
+      "source_literal": "0.10",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.1,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_051",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "17",
+        "row_weight_percent"
+      ],
+      "source_literal": "2.18",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 2.18,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_052",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "18",
+        "CI_low"
+      ],
+      "source_literal": "-1.69",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -1.69,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_053",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "18",
+        "CI_high"
+      ],
+      "source_literal": "0.30",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.3,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_054",
+      "path": [
+        "families",
+        "psychological_distress",
+        "rows",
+        "18",
+        "row_weight_percent"
+      ],
+      "source_literal": "2.25",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 2.25,
+      "source": "Original Figure2",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_055",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "1",
+        "CI_low"
+      ],
+      "source_literal": "-0.57",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.57,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_056",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "1",
+        "CI_high"
+      ],
+      "source_literal": "0.21",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.21,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_057",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "1",
+        "row_weight_percent"
+      ],
+      "source_literal": "18.3",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.050000001,
+      "target": 18.3,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_058",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "2",
+        "CI_low"
+      ],
+      "source_literal": "-0.73",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.73,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_059",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "2",
+        "CI_high"
+      ],
+      "source_literal": "0.04",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.04,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_060",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "2",
+        "row_weight_percent"
+      ],
+      "source_literal": "18.22",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 18.22,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_061",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "3",
+        "CI_low"
+      ],
+      "source_literal": "-0.36",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.36,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_062",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "3",
+        "CI_high"
+      ],
+      "source_literal": "0.57",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.57,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_063",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "3",
+        "row_weight_percent"
+      ],
+      "source_literal": "9.72",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 9.72,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_064",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "4",
+        "CI_low"
+      ],
+      "source_literal": "-0.38",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.38,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_065",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "4",
+        "CI_high"
+      ],
+      "source_literal": "0.80",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.8,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_066",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "4",
+        "row_weight_percent"
+      ],
+      "source_literal": "7.58",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 7.58,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_067",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "5",
+        "CI_low"
+      ],
+      "source_literal": "-0.60",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.6,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_068",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "5",
+        "CI_high"
+      ],
+      "source_literal": "0.26",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.26,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_069",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "5",
+        "row_weight_percent"
+      ],
+      "source_literal": "10.51",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 10.51,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_070",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "6",
+        "CI_low"
+      ],
+      "source_literal": "0.23",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.23,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_071",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "6",
+        "CI_high"
+      ],
+      "source_literal": "0.75",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.75,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_072",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "6",
+        "row_weight_percent"
+      ],
+      "source_literal": "14.62",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 14.62,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_073",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "7",
+        "CI_low"
+      ],
+      "source_literal": "0.04",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.04,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_074",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "7",
+        "CI_high"
+      ],
+      "source_literal": "0.32",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.32,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_075",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "7",
+        "row_weight_percent"
+      ],
+      "source_literal": "17.45",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 17.45,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_076",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "8",
+        "CI_low"
+      ],
+      "source_literal": "-0.30",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.3,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_077",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "8",
+        "CI_high"
+      ],
+      "source_literal": "1.69",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 1.69,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_078",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "rows",
+        "8",
+        "row_weight_percent"
+      ],
+      "source_literal": "3.6",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.050000001,
+      "target": 3.6,
+      "source": "Original Figure3",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_079",
+      "path": [
+        "families",
+        "psychological_distress",
+        "primary",
+        "Q"
+      ],
+      "source_literal": "42.01",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 42.01,
+      "source": "Original Figure footer",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_080",
+      "path": [
+        "families",
+        "psychological_distress",
+        "primary",
+        "Q_df"
+      ],
+      "source_literal": "17",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 17.0,
+      "source": "Original Figure footer",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_081",
+      "path": [
+        "families",
+        "psychological_distress",
+        "primary",
+        "Q_p"
+      ],
+      "source_literal": "<0.001",
+      "kind": "relation",
+      "relation": "<",
+      "tolerance": null,
+      "target": 0.001,
+      "source": "Original Figure footer",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_082",
+      "path": [
+        "families",
+        "psychological_distress",
+        "primary",
+        "I2_Q"
+      ],
+      "source_literal": "63.94%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 63.94,
+      "source": "Original Figure footer",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_083",
+      "path": [
+        "families",
+        "psychological_distress",
+        "primary",
+        "I2_components"
+      ],
+      "source_literal": "63.94%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 63.94,
+      "source": "Original Figure footer",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_084",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "primary",
+        "Q"
+      ],
+      "source_literal": "19.07",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 19.07,
+      "source": "Original Figure footer",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_085",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "primary",
+        "Q_df"
+      ],
+      "source_literal": "7",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 7.0,
+      "source": "Original Figure footer",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_086",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "primary",
+        "Q_p"
+      ],
+      "source_literal": "0.008",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.008,
+      "source": "Original Figure footer",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_087",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "primary",
+        "I2_Q"
+      ],
+      "source_literal": "66.90%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 66.9,
+      "source": "Original Figure footer",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_088",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "primary",
+        "I2_components"
+      ],
+      "source_literal": "66.90%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 66.9,
+      "source": "Original Figure footer",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_089",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "egger",
+        "intercept"
+      ],
+      "source_literal": "-1.18",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -1.18,
+      "source": "Original S7",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_090",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "egger",
+        "SE"
+      ],
+      "source_literal": "0.96",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.96,
+      "source": "Original S7",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_091",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "egger",
+        "t"
+      ],
+      "source_literal": "-1.23",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -1.23,
+      "source": "Original S7",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_092",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "egger",
+        "df"
+      ],
+      "source_literal": "16",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 16.0,
+      "source": "Original S7",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_093",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "egger",
+        "p_value"
+      ],
+      "source_literal": "0.24",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.24,
+      "source": "Original S7",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_094",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "egger",
+        "intercept"
+      ],
+      "source_literal": "0.33",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.33,
+      "source": "Original S7",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_095",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "egger",
+        "SE"
+      ],
+      "source_literal": "1.29",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 1.29,
+      "source": "Original S7",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_096",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "egger",
+        "t"
+      ],
+      "source_literal": "0.25",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.25,
+      "source": "Original S7",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_097",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "egger",
+        "df"
+      ],
+      "source_literal": "6",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 6.0,
+      "source": "Original S7",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_098",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "egger",
+        "p_value"
+      ],
+      "source_literal": "0.81",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.81,
+      "source": "Original S7",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_099",
+      "path": [
+        "families",
+        "psychological_distress",
+        "primary",
+        "g"
+      ],
+      "source_literal": "-0.28",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.28,
+      "source": "Original S8 Overall",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_100",
+      "path": [
+        "families",
+        "psychological_distress",
+        "primary",
+        "CI_low"
+      ],
+      "source_literal": "-0.46",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.46,
+      "source": "Original S8 Overall",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_101",
+      "path": [
+        "families",
+        "psychological_distress",
+        "primary",
+        "CI_high"
+      ],
+      "source_literal": "-0.10",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.1,
+      "source": "Original S8 Overall",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_102",
+      "path": [
+        "families",
+        "psychological_distress",
+        "primary",
+        "p_value"
+      ],
+      "source_literal": "0.005",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.005,
+      "source": "Original S8 Overall",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_103",
+      "path": [
+        "families",
+        "psychological_distress",
+        "primary",
+        "I2_Q"
+      ],
+      "source_literal": "63.94%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 63.94,
+      "source": "Original S8 Overall",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_104",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Liu2022a",
+        "pool",
+        "g"
+      ],
+      "source_literal": "-0.26",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.26,
+      "source": "Original S8 -Liu 2022 (a)",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_105",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Liu2022a",
+        "pool",
+        "CI_low"
+      ],
+      "source_literal": "-0.44",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.44,
+      "source": "Original S8 -Liu 2022 (a)",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_106",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Liu2022a",
+        "pool",
+        "CI_high"
+      ],
+      "source_literal": "-0.07",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.07,
+      "source": "Original S8 -Liu 2022 (a)",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_107",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Liu2022a",
+        "pool",
+        "p_value"
+      ],
+      "source_literal": "0.009",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.009,
+      "source": "Original S8 -Liu 2022 (a)",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_108",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Liu2022a",
+        "pool",
+        "I2_Q"
+      ],
+      "source_literal": "63.18%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 63.18,
+      "source": "Original S8 -Liu 2022 (a)",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_109",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Ehrlich2023",
+        "pool",
+        "g"
+      ],
+      "source_literal": "-0.31",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.31,
+      "source": "Original S8 -Ehrlich 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_110",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Ehrlich2023",
+        "pool",
+        "CI_low"
+      ],
+      "source_literal": "-0.49",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.49,
+      "source": "Original S8 -Ehrlich 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_111",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Ehrlich2023",
+        "pool",
+        "CI_high"
+      ],
+      "source_literal": "-0.12",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.12,
+      "source": "Original S8 -Ehrlich 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_112",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Ehrlich2023",
+        "pool",
+        "p_value"
+      ],
+      "source_literal": "0.003",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.003,
+      "source": "Original S8 -Ehrlich 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_113",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Ehrlich2023",
+        "pool",
+        "I2_Q"
+      ],
+      "source_literal": "62.85%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 62.85,
+      "source": "Original S8 -Ehrlich 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_114",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Fitzpatrick2017",
+        "pool",
+        "g"
+      ],
+      "source_literal": "-0.30",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.3,
+      "source": "Original S8 -Fitzpatrick 2017",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_115",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Fitzpatrick2017",
+        "pool",
+        "CI_low"
+      ],
+      "source_literal": "-0.51",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.51,
+      "source": "Original S8 -Fitzpatrick 2017",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_116",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Fitzpatrick2017",
+        "pool",
+        "CI_high"
+      ],
+      "source_literal": "-0.09",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.09,
+      "source": "Original S8 -Fitzpatrick 2017",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_117",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Fitzpatrick2017",
+        "pool",
+        "p_value"
+      ],
+      "source_literal": "0.009",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.009,
+      "source": "Original S8 -Fitzpatrick 2017",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_118",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Fitzpatrick2017",
+        "pool",
+        "I2_Q"
+      ],
+      "source_literal": "67.83%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 67.83,
+      "source": "Original S8 -Fitzpatrick 2017",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_119",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Greer2019",
+        "pool",
+        "g"
+      ],
+      "source_literal": "-0.31",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.31,
+      "source": "Original S8 -Greer 2019",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_120",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Greer2019",
+        "pool",
+        "CI_low"
+      ],
+      "source_literal": "-0.53",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.53,
+      "source": "Original S8 -Greer 2019",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_121",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Greer2019",
+        "pool",
+        "CI_high"
+      ],
+      "source_literal": "-0.10",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.1,
+      "source": "Original S8 -Greer 2019",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_122",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Greer2019",
+        "pool",
+        "p_value"
+      ],
+      "source_literal": "0.007",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.007,
+      "source": "Original S8 -Greer 2019",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_123",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Greer2019",
+        "pool",
+        "I2_Q"
+      ],
+      "source_literal": "70.58%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 70.58,
+      "source": "Original S8 -Greer 2019",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_124",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "He2022",
+        "pool",
+        "g"
+      ],
+      "source_literal": "-0.23",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.23,
+      "source": "Original S8 -He 2022",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_125",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "He2022",
+        "pool",
+        "CI_low"
+      ],
+      "source_literal": "-0.39",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.39,
+      "source": "Original S8 -He 2022",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_126",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "He2022",
+        "pool",
+        "CI_high"
+      ],
+      "source_literal": "-0.06",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.06,
+      "source": "Original S8 -He 2022",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_127",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "He2022",
+        "pool",
+        "p_value"
+      ],
+      "source_literal": "0.010",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.01,
+      "source": "Original S8 -He 2022",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_128",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "He2022",
+        "pool",
+        "I2_Q"
+      ],
+      "source_literal": "50.27%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 50.27,
+      "source": "Original S8 -He 2022",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_129",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Karhiy2023",
+        "pool",
+        "g"
+      ],
+      "source_literal": "-0.31",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.31,
+      "source": "Original S8 -Karhiy 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_130",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Karhiy2023",
+        "pool",
+        "CI_low"
+      ],
+      "source_literal": "-0.49",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.49,
+      "source": "Original S8 -Karhiy 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_131",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Karhiy2023",
+        "pool",
+        "CI_high"
+      ],
+      "source_literal": "-0.13",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.13,
+      "source": "Original S8 -Karhiy 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_132",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Karhiy2023",
+        "pool",
+        "p_value"
+      ],
+      "source_literal": "0.003",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.003,
+      "source": "Original S8 -Karhiy 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_133",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Karhiy2023",
+        "pool",
+        "I2_Q"
+      ],
+      "source_literal": "61.47%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 61.47,
+      "source": "Original S8 -Karhiy 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_134",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Klos2021",
+        "pool",
+        "g"
+      ],
+      "source_literal": "-0.27",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.27,
+      "source": "Original S8 -Klos 2021",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_135",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Klos2021",
+        "pool",
+        "CI_low"
+      ],
+      "source_literal": "-0.46",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.46,
+      "source": "Original S8 -Klos 2021",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_136",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Klos2021",
+        "pool",
+        "CI_high"
+      ],
+      "source_literal": "-0.08",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.08,
+      "source": "Original S8 -Klos 2021",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_137",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Klos2021",
+        "pool",
+        "p_value"
+      ],
+      "source_literal": "0.008",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.008,
+      "source": "Original S8 -Klos 2021",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_138",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Klos2021",
+        "pool",
+        "I2_Q"
+      ],
+      "source_literal": "65.86%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 65.86,
+      "source": "Original S8 -Klos 2021",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_139",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Liu2022b",
+        "pool",
+        "g"
+      ],
+      "source_literal": "-0.28",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.28,
+      "source": "Original S8 -Liu 2022 (b)",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_140",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Liu2022b",
+        "pool",
+        "CI_low"
+      ],
+      "source_literal": "-0.51",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.51,
+      "source": "Original S8 -Liu 2022 (b)",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_141",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Liu2022b",
+        "pool",
+        "CI_high"
+      ],
+      "source_literal": "-0.05",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.05,
+      "source": "Original S8 -Liu 2022 (b)",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_142",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Liu2022b",
+        "pool",
+        "p_value"
+      ],
+      "source_literal": "0.019",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.019,
+      "source": "Original S8 -Liu 2022 (b)",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_143",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Liu2022b",
+        "pool",
+        "I2_Q"
+      ],
+      "source_literal": "66.20%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 66.2,
+      "source": "Original S8 -Liu 2022 (b)",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_144",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Maciejewski2023",
+        "pool",
+        "g"
+      ],
+      "source_literal": "-0.28",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.28,
+      "source": "Original S8 -Maciejewski 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_145",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Maciejewski2023",
+        "pool",
+        "CI_low"
+      ],
+      "source_literal": "-0.48",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.48,
+      "source": "Original S8 -Maciejewski 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_146",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Maciejewski2023",
+        "pool",
+        "CI_high"
+      ],
+      "source_literal": "-0.08",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.08,
+      "source": "Original S8 -Maciejewski 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_147",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Maciejewski2023",
+        "pool",
+        "p_value"
+      ],
+      "source_literal": "0.009",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.009,
+      "source": "Original S8 -Maciejewski 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_148",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Maciejewski2023",
+        "pool",
+        "I2_Q"
+      ],
+      "source_literal": "64.67%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 64.67,
+      "source": "Original S8 -Maciejewski 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_149",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Matheson2023",
+        "pool",
+        "g"
+      ],
+      "source_literal": "-0.30",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.3,
+      "source": "Original S8 -Matheson 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_150",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Matheson2023",
+        "pool",
+        "CI_low"
+      ],
+      "source_literal": "-0.50",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.5,
+      "source": "Original S8 -Matheson 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_151",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Matheson2023",
+        "pool",
+        "CI_high"
+      ],
+      "source_literal": "-0.10",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.1,
+      "source": "Original S8 -Matheson 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_152",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Matheson2023",
+        "pool",
+        "p_value"
+      ],
+      "source_literal": "0.006",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.006,
+      "source": "Original S8 -Matheson 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_153",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Matheson2023",
+        "pool",
+        "I2_Q"
+      ],
+      "source_literal": "58.97%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 58.97,
+      "source": "Original S8 -Matheson 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_154",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Nicol2022",
+        "pool",
+        "g"
+      ],
+      "source_literal": "-0.26",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.26,
+      "source": "Original S8 -Nicol 2022",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_155",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Nicol2022",
+        "pool",
+        "CI_low"
+      ],
+      "source_literal": "-0.44",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.44,
+      "source": "Original S8 -Nicol 2022",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_156",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Nicol2022",
+        "pool",
+        "CI_high"
+      ],
+      "source_literal": "-0.07",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.07,
+      "source": "Original S8 -Nicol 2022",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_157",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Nicol2022",
+        "pool",
+        "p_value"
+      ],
+      "source_literal": "0.011",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.011,
+      "source": "Original S8 -Nicol 2022",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_158",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Nicol2022",
+        "pool",
+        "I2_Q"
+      ],
+      "source_literal": "66.29%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 66.29,
+      "source": "Original S8 -Nicol 2022",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_159",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "primary",
+        "g"
+      ],
+      "source_literal": "0.13",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.13,
+      "source": "Original S8 Overall",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_160",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "primary",
+        "CI_low"
+      ],
+      "source_literal": "-0.16",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.16,
+      "source": "Original S8 Overall",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_161",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "primary",
+        "CI_high"
+      ],
+      "source_literal": "0.41",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.41,
+      "source": "Original S8 Overall",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_162",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "primary",
+        "p_value"
+      ],
+      "source_literal": "0.329",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.329,
+      "source": "Original S8 Overall",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_163",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "primary",
+        "I2_Q"
+      ],
+      "source_literal": "66.90%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 66.9,
+      "source": "Original S8 Overall",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_164",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Ehrlich2023",
+        "pool",
+        "g"
+      ],
+      "source_literal": "0.22",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.22,
+      "source": "Original S8 -Ehrlich 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_165",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Ehrlich2023",
+        "pool",
+        "CI_low"
+      ],
+      "source_literal": "-0.05",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.05,
+      "source": "Original S8 -Ehrlich 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_166",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Ehrlich2023",
+        "pool",
+        "CI_high"
+      ],
+      "source_literal": "0.49",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.49,
+      "source": "Original S8 -Ehrlich 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_167",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Ehrlich2023",
+        "pool",
+        "p_value"
+      ],
+      "source_literal": "0.089",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.089,
+      "source": "Original S8 -Ehrlich 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_168",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Ehrlich2023",
+        "pool",
+        "I2_Q"
+      ],
+      "source_literal": "46.36%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 46.36,
+      "source": "Original S8 -Ehrlich 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_169",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Fitzpatrick2017",
+        "pool",
+        "g"
+      ],
+      "source_literal": "0.13",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.13,
+      "source": "Original S8 -Fitzpatrick 2017",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_170",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Fitzpatrick2017",
+        "pool",
+        "CI_low"
+      ],
+      "source_literal": "-0.21",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.21,
+      "source": "Original S8 -Fitzpatrick 2017",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_171",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Fitzpatrick2017",
+        "pool",
+        "CI_high"
+      ],
+      "source_literal": "0.48",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.48,
+      "source": "Original S8 -Fitzpatrick 2017",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_172",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Fitzpatrick2017",
+        "pool",
+        "p_value"
+      ],
+      "source_literal": "0.382",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.382,
+      "source": "Original S8 -Fitzpatrick 2017",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_173",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Fitzpatrick2017",
+        "pool",
+        "I2_Q"
+      ],
+      "source_literal": "72.77%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 72.77,
+      "source": "Original S8 -Fitzpatrick 2017",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_174",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Greer2019",
+        "pool",
+        "g"
+      ],
+      "source_literal": "0.12",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.12,
+      "source": "Original S8 -Greer 2019",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_175",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Greer2019",
+        "pool",
+        "CI_low"
+      ],
+      "source_literal": "-0.21",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.21,
+      "source": "Original S8 -Greer 2019",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_176",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Greer2019",
+        "pool",
+        "CI_high"
+      ],
+      "source_literal": "0.45",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.45,
+      "source": "Original S8 -Greer 2019",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_177",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Greer2019",
+        "pool",
+        "p_value"
+      ],
+      "source_literal": "0.415",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.415,
+      "source": "Original S8 -Greer 2019",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_178",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Greer2019",
+        "pool",
+        "I2_Q"
+      ],
+      "source_literal": "72.38%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 72.38,
+      "source": "Original S8 -Greer 2019",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_179",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Liu2022b",
+        "pool",
+        "g"
+      ],
+      "source_literal": "0.17",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.17,
+      "source": "Original S8 -Liu 2022 (b)",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_180",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Liu2022b",
+        "pool",
+        "CI_low"
+      ],
+      "source_literal": "-0.15",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.15,
+      "source": "Original S8 -Liu 2022 (b)",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_181",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Liu2022b",
+        "pool",
+        "CI_high"
+      ],
+      "source_literal": "0.50",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.5,
+      "source": "Original S8 -Liu 2022 (b)",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_182",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Liu2022b",
+        "pool",
+        "p_value"
+      ],
+      "source_literal": "0.236",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.236,
+      "source": "Original S8 -Liu 2022 (b)",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_183",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Liu2022b",
+        "pool",
+        "I2_Q"
+      ],
+      "source_literal": "68.63%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 68.63,
+      "source": "Original S8 -Liu 2022 (b)",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_184",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Maciejewski2023",
+        "pool",
+        "g"
+      ],
+      "source_literal": "0.04",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.04,
+      "source": "Original S8 -Maciejewski 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_185",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Maciejewski2023",
+        "pool",
+        "CI_low"
+      ],
+      "source_literal": "-0.23",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.23,
+      "source": "Original S8 -Maciejewski 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_186",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Maciejewski2023",
+        "pool",
+        "CI_high"
+      ],
+      "source_literal": "0.31",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.31,
+      "source": "Original S8 -Maciejewski 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_187",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Maciejewski2023",
+        "pool",
+        "p_value"
+      ],
+      "source_literal": "0.751",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.751,
+      "source": "Original S8 -Maciejewski 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_188",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Maciejewski2023",
+        "pool",
+        "I2_Q"
+      ],
+      "source_literal": "46.77%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 46.77,
+      "source": "Original S8 -Maciejewski 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_189",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Matheson2023",
+        "pool",
+        "g"
+      ],
+      "source_literal": "0.12",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.12,
+      "source": "Original S8 -Matheson 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_190",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Matheson2023",
+        "pool",
+        "CI_low"
+      ],
+      "source_literal": "-0.26",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.26,
+      "source": "Original S8 -Matheson 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_191",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Matheson2023",
+        "pool",
+        "CI_high"
+      ],
+      "source_literal": "0.49",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.49,
+      "source": "Original S8 -Matheson 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_192",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Matheson2023",
+        "pool",
+        "p_value"
+      ],
+      "source_literal": "0.475",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.475,
+      "source": "Original S8 -Matheson 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_193",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Matheson2023",
+        "pool",
+        "I2_Q"
+      ],
+      "source_literal": "63.89%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 63.89,
+      "source": "Original S8 -Matheson 2023",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_194",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Nicol2022",
+        "pool",
+        "g"
+      ],
+      "source_literal": "0.10",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.1,
+      "source": "Original S8 -Nicol 2022",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_195",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Nicol2022",
+        "pool",
+        "CI_low"
+      ],
+      "source_literal": "-0.20",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.2,
+      "source": "Original S8 -Nicol 2022",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_196",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Nicol2022",
+        "pool",
+        "CI_high"
+      ],
+      "source_literal": "0.40",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.4,
+      "source": "Original S8 -Nicol 2022",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_197",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Nicol2022",
+        "pool",
+        "p_value"
+      ],
+      "source_literal": "0.454",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.000500001,
+      "target": 0.454,
+      "source": "Original S8 -Nicol 2022",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_198",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Nicol2022",
+        "pool",
+        "I2_Q"
+      ],
+      "source_literal": "69.85%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 69.85,
+      "source": "Original S8 -Nicol 2022",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_199",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "omnibus",
+        "df1"
+      ],
+      "source_literal": "1",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 1.0,
+      "source": "Original S9 Sample type",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_200",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "omnibus",
+        "df2"
+      ],
+      "source_literal": "16",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 16.0,
+      "source": "Original S9 Sample type",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_201",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "omnibus",
+        "F"
+      ],
+      "source_literal": "0.70",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.7,
+      "source": "Original S9 Sample type",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_202",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "omnibus",
+        "p_value"
+      ],
+      "source_literal": "0.42",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.42,
+      "source": "Original S9 Sample type",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_203",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Clinical/subclinical",
+        "g"
+      ],
+      "source_literal": "-0.34",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.34,
+      "source": "Original S9 Clinical/subclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_204",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Clinical/subclinical",
+        "CI_low"
+      ],
+      "source_literal": "-0.57",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.57,
+      "source": "Original S9 Clinical/subclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_205",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Clinical/subclinical",
+        "CI_high"
+      ],
+      "source_literal": "-0.10",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.1,
+      "source": "Original S9 Clinical/subclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_206",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Clinical/subclinical",
+        "p_value"
+      ],
+      "source_literal": "<0.01",
+      "kind": "relation",
+      "relation": "<",
+      "tolerance": null,
+      "target": 0.01,
+      "source": "Original S9 Clinical/subclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_207",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Clinical/subclinical",
+        "trials"
+      ],
+      "source_literal": "5",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 5.0,
+      "source": "Original S9 Clinical/subclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_208",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "full_moderator_pool",
+        "I2_Q"
+      ],
+      "source_literal": "63.92%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 63.92,
+      "source": "Original S9 sample_type",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_209",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "full_moderator_pool",
+        "I2_components"
+      ],
+      "source_literal": "63.92%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 63.92,
+      "source": "Original S9 sample_type",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_210",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Nonclinical",
+        "g"
+      ],
+      "source_literal": "-0.19",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.19,
+      "source": "Original S9 Nonclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_211",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Nonclinical",
+        "CI_low"
+      ],
+      "source_literal": "-0.48",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.48,
+      "source": "Original S9 Nonclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_212",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Nonclinical",
+        "CI_high"
+      ],
+      "source_literal": "0.10",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.1,
+      "source": "Original S9 Nonclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_213",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Nonclinical",
+        "p_value"
+      ],
+      "source_literal": "0.18",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.18,
+      "source": "Original S9 Nonclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_214",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Nonclinical",
+        "trials"
+      ],
+      "source_literal": "6",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 6.0,
+      "source": "Original S9 Nonclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_215",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "omnibus",
+        "df1"
+      ],
+      "source_literal": "2",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 2.0,
+      "source": "Original S9 Platform",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_216",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "omnibus",
+        "df2"
+      ],
+      "source_literal": "15",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 15.0,
+      "source": "Original S9 Platform",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_217",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "omnibus",
+        "F"
+      ],
+      "source_literal": "1.08",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 1.08,
+      "source": "Original S9 Platform",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_218",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "omnibus",
+        "p_value"
+      ],
+      "source_literal": "0.37",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.37,
+      "source": "Original S9 Platform",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_219",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Instant messenger",
+        "g"
+      ],
+      "source_literal": "-0.29",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.29,
+      "source": "Original S9 Instant messenger",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_220",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Instant messenger",
+        "CI_low"
+      ],
+      "source_literal": "-0.50",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.5,
+      "source": "Original S9 Instant messenger",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_221",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Instant messenger",
+        "CI_high"
+      ],
+      "source_literal": "-0.08",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.08,
+      "source": "Original S9 Instant messenger",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_222",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Instant messenger",
+        "p_value"
+      ],
+      "source_literal": "<0.01",
+      "kind": "relation",
+      "relation": "<",
+      "tolerance": null,
+      "target": 0.01,
+      "source": "Original S9 Instant messenger",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_223",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Instant messenger",
+        "trials"
+      ],
+      "source_literal": "7",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 7.0,
+      "source": "Original S9 Instant messenger",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_224",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "full_moderator_pool",
+        "I2_Q"
+      ],
+      "source_literal": "64.84%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 64.84,
+      "source": "Original S9 platform",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_225",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "full_moderator_pool",
+        "I2_components"
+      ],
+      "source_literal": "64.84%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 64.84,
+      "source": "Original S9 platform",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_226",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Mobile application",
+        "g"
+      ],
+      "source_literal": "-0.41",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.41,
+      "source": "Original S9 Mobile application",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_227",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Mobile application",
+        "CI_low"
+      ],
+      "source_literal": "-0.88",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.88,
+      "source": "Original S9 Mobile application",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_228",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Mobile application",
+        "CI_high"
+      ],
+      "source_literal": "0.06",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.06,
+      "source": "Original S9 Mobile application",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_229",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Mobile application",
+        "p_value"
+      ],
+      "source_literal": "0.08",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.08,
+      "source": "Original S9 Mobile application",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_230",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Mobile application",
+        "trials"
+      ],
+      "source_literal": "3",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 3.0,
+      "source": "Original S9 Mobile application",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_231",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Web-based",
+        "g"
+      ],
+      "source_literal": "0.18",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.18,
+      "source": "Original S9 Web-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_232",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Web-based",
+        "CI_low"
+      ],
+      "source_literal": "-0.55",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.55,
+      "source": "Original S9 Web-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_233",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Web-based",
+        "CI_high"
+      ],
+      "source_literal": "0.91",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.91,
+      "source": "Original S9 Web-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_234",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Web-based",
+        "p_value"
+      ],
+      "source_literal": "0.61",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.61,
+      "source": "Original S9 Web-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_235",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Web-based",
+        "trials"
+      ],
+      "source_literal": "1",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 1.0,
+      "source": "Original S9 Web-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_236",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "omnibus",
+        "df1"
+      ],
+      "source_literal": "1",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 1.0,
+      "source": "Original S9 Interaction mode*",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_237",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "omnibus",
+        "df2"
+      ],
+      "source_literal": "17",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 17.0,
+      "source": "Original S9 Interaction mode*",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_238",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "omnibus",
+        "F"
+      ],
+      "source_literal": "1.41",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 1.41,
+      "source": "Original S9 Interaction mode*",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_239",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "omnibus",
+        "p_value"
+      ],
+      "source_literal": "0.25",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.25,
+      "source": "Original S9 Interaction mode*",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_240",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Text-based",
+        "g"
+      ],
+      "source_literal": "-0.19",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.19,
+      "source": "Original S9 Text-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_241",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Text-based",
+        "CI_low"
+      ],
+      "source_literal": "-0.41",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.41,
+      "source": "Original S9 Text-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_242",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Text-based",
+        "CI_high"
+      ],
+      "source_literal": "0.02",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.02,
+      "source": "Original S9 Text-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_243",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Text-based",
+        "p_value"
+      ],
+      "source_literal": "0.08",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.08,
+      "source": "Original S9 Text-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_244",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Text-based",
+        "trials"
+      ],
+      "source_literal": "8",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 8.0,
+      "source": "Original S9 Text-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_245",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "full_moderator_pool",
+        "I2_Q"
+      ],
+      "source_literal": "58.83%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 58.83,
+      "source": "Original S9 interaction_mode",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_246",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "full_moderator_pool",
+        "I2_components"
+      ],
+      "source_literal": "58.83%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 58.83,
+      "source": "Original S9 interaction_mode",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_247",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Multimodal",
+        "g"
+      ],
+      "source_literal": "-0.39",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.39,
+      "source": "Original S9 Multimodal",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_248",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Multimodal",
+        "CI_low"
+      ],
+      "source_literal": "-0.67",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.67,
+      "source": "Original S9 Multimodal",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_249",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Multimodal",
+        "CI_high"
+      ],
+      "source_literal": "-0.11",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.11,
+      "source": "Original S9 Multimodal",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_250",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Multimodal",
+        "p_value"
+      ],
+      "source_literal": "<0.01",
+      "kind": "relation",
+      "relation": "<",
+      "tolerance": null,
+      "target": 0.01,
+      "source": "Original S9 Multimodal",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_251",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Multimodal",
+        "trials"
+      ],
+      "source_literal": "4",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 4.0,
+      "source": "Original S9 Multimodal",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_252",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "omnibus",
+        "df1"
+      ],
+      "source_literal": "1",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 1.0,
+      "source": "Original S9 Response generation*",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_253",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "omnibus",
+        "df2"
+      ],
+      "source_literal": "17",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 17.0,
+      "source": "Original S9 Response generation*",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_254",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "omnibus",
+        "F"
+      ],
+      "source_literal": "2.30",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 2.3,
+      "source": "Original S9 Response generation*",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_255",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "omnibus",
+        "p_value"
+      ],
+      "source_literal": "0.15",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.15,
+      "source": "Original S9 Response generation*",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_256",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "Rule-based",
+        "g"
+      ],
+      "source_literal": "-0.09",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.09,
+      "source": "Original S9 Rule-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_257",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "Rule-based",
+        "CI_low"
+      ],
+      "source_literal": "-0.39",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.39,
+      "source": "Original S9 Rule-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_258",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "Rule-based",
+        "CI_high"
+      ],
+      "source_literal": "0.20",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.2,
+      "source": "Original S9 Rule-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_259",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "Rule-based",
+        "p_value"
+      ],
+      "source_literal": "0.51",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.51,
+      "source": "Original S9 Rule-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_260",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "Rule-based",
+        "trials"
+      ],
+      "source_literal": "4",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 4.0,
+      "source": "Original S9 Rule-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_261",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "full_moderator_pool",
+        "I2_Q"
+      ],
+      "source_literal": "61.10%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 61.1,
+      "source": "Original S9 response_generation",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_262",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "full_moderator_pool",
+        "I2_components"
+      ],
+      "source_literal": "61.10%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 61.1,
+      "source": "Original S9 response_generation",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_263",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "AI-based",
+        "g"
+      ],
+      "source_literal": "-0.36",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.36,
+      "source": "Original S9 AI-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_264",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "AI-based",
+        "CI_low"
+      ],
+      "source_literal": "-0.58",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.58,
+      "source": "Original S9 AI-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_265",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "AI-based",
+        "CI_high"
+      ],
+      "source_literal": "-0.14",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.14,
+      "source": "Original S9 AI-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_266",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "AI-based",
+        "p_value"
+      ],
+      "source_literal": "<0.01",
+      "kind": "relation",
+      "relation": "<",
+      "tolerance": null,
+      "target": 0.01,
+      "source": "Original S9 AI-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_267",
+      "path": [
+        "families",
+        "psychological_distress",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "AI-based",
+        "trials"
+      ],
+      "source_literal": "8",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 8.0,
+      "source": "Original S9 AI-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_268",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "omnibus",
+        "df1"
+      ],
+      "source_literal": "1",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 1.0,
+      "source": "Original S10 Sample type",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_269",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "omnibus",
+        "df2"
+      ],
+      "source_literal": "6",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 6.0,
+      "source": "Original S10 Sample type",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_270",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "omnibus",
+        "F"
+      ],
+      "source_literal": "0.01",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.01,
+      "source": "Original S10 Sample type",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_271",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "omnibus",
+        "p_value"
+      ],
+      "source_literal": "0.93",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.93,
+      "source": "Original S10 Sample type",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_272",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Clinical/subclinical",
+        "g"
+      ],
+      "source_literal": "0.11",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.11,
+      "source": "Original S10 Clinical/subclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_273",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Clinical/subclinical",
+        "CI_low"
+      ],
+      "source_literal": "-0.38",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.38,
+      "source": "Original S10 Clinical/subclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_274",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Clinical/subclinical",
+        "CI_high"
+      ],
+      "source_literal": "0.61",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.61,
+      "source": "Original S10 Clinical/subclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_275",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Clinical/subclinical",
+        "p_value"
+      ],
+      "source_literal": "0.59",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.59,
+      "source": "Original S10 Clinical/subclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_276",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Clinical/subclinical",
+        "trials"
+      ],
+      "source_literal": "4",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 4.0,
+      "source": "Original S10 Clinical/subclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_277",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "full_moderator_pool",
+        "I2_Q"
+      ],
+      "source_literal": "72.03%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 72.03,
+      "source": "Original S10 sample_type",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_278",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "full_moderator_pool",
+        "I2_components"
+      ],
+      "source_literal": "72.03%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 72.03,
+      "source": "Original S10 sample_type",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_279",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Nonclinical",
+        "g"
+      ],
+      "source_literal": "0.14",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.14,
+      "source": "Original S10 Nonclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_280",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Nonclinical",
+        "CI_low"
+      ],
+      "source_literal": "-0.29",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.29,
+      "source": "Original S10 Nonclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_281",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Nonclinical",
+        "CI_high"
+      ],
+      "source_literal": "0.57",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.57,
+      "source": "Original S10 Nonclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_282",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Nonclinical",
+        "p_value"
+      ],
+      "source_literal": "0.45",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.45,
+      "source": "Original S10 Nonclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_283",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "sample_type",
+        "groups",
+        "Nonclinical",
+        "trials"
+      ],
+      "source_literal": "3",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 3.0,
+      "source": "Original S10 Nonclinical",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_284",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "platform",
+        "omnibus",
+        "df1"
+      ],
+      "source_literal": "1",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 1.0,
+      "source": "Original S10 Platform",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_285",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "platform",
+        "omnibus",
+        "df2"
+      ],
+      "source_literal": "6",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 6.0,
+      "source": "Original S10 Platform",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_286",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "platform",
+        "omnibus",
+        "F"
+      ],
+      "source_literal": "1.38",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 1.38,
+      "source": "Original S10 Platform",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_287",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "platform",
+        "omnibus",
+        "p_value"
+      ],
+      "source_literal": "0.29",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.29,
+      "source": "Original S10 Platform",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_288",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Instant messenger",
+        "g"
+      ],
+      "source_literal": "0.19",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.19,
+      "source": "Original S10 Instant messenger",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_289",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Instant messenger",
+        "CI_low"
+      ],
+      "source_literal": "-0.10",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.1,
+      "source": "Original S10 Instant messenger",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_290",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Instant messenger",
+        "CI_high"
+      ],
+      "source_literal": "0.49",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.49,
+      "source": "Original S10 Instant messenger",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_291",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Instant messenger",
+        "p_value"
+      ],
+      "source_literal": "0.16",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.16,
+      "source": "Original S10 Instant messenger",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_292",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Instant messenger",
+        "trials"
+      ],
+      "source_literal": "5",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 5.0,
+      "source": "Original S10 Instant messenger",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_293",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "platform",
+        "full_moderator_pool",
+        "I2_Q"
+      ],
+      "source_literal": "56.99%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 56.99,
+      "source": "Original S10 platform",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_294",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "platform",
+        "full_moderator_pool",
+        "I2_components"
+      ],
+      "source_literal": "56.99%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 56.99,
+      "source": "Original S10 platform",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_295",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Mobile application",
+        "g"
+      ],
+      "source_literal": "-0.10",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.1,
+      "source": "Original S10 Mobile application",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_296",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Mobile application",
+        "CI_low"
+      ],
+      "source_literal": "-0.65",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.65,
+      "source": "Original S10 Mobile application",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_297",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Mobile application",
+        "CI_high"
+      ],
+      "source_literal": "0.44",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.44,
+      "source": "Original S10 Mobile application",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_298",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Mobile application",
+        "p_value"
+      ],
+      "source_literal": "0.66",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.66,
+      "source": "Original S10 Mobile application",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_299",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "platform",
+        "groups",
+        "Mobile application",
+        "trials"
+      ],
+      "source_literal": "2",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 2.0,
+      "source": "Original S10 Mobile application",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_300",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "omnibus",
+        "df1"
+      ],
+      "source_literal": "1",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 1.0,
+      "source": "Original S10 Interaction mode",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_301",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "omnibus",
+        "df2"
+      ],
+      "source_literal": "6",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 6.0,
+      "source": "Original S10 Interaction mode",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_302",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "omnibus",
+        "F"
+      ],
+      "source_literal": "0.18",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.18,
+      "source": "Original S10 Interaction mode",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_303",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "omnibus",
+        "p_value"
+      ],
+      "source_literal": "0.68",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.68,
+      "source": "Original S10 Interaction mode",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_304",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Text-based",
+        "g"
+      ],
+      "source_literal": "0.09",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.09,
+      "source": "Original S10 Text-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_305",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Text-based",
+        "CI_low"
+      ],
+      "source_literal": "-0.29",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.29,
+      "source": "Original S10 Text-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_306",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Text-based",
+        "CI_high"
+      ],
+      "source_literal": "0.47",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.47,
+      "source": "Original S10 Text-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_307",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Text-based",
+        "p_value"
+      ],
+      "source_literal": "0.58",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.58,
+      "source": "Original S10 Text-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_308",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Text-based",
+        "trials"
+      ],
+      "source_literal": "5",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 5.0,
+      "source": "Original S10 Text-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_309",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "full_moderator_pool",
+        "I2_Q"
+      ],
+      "source_literal": "70.08%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 70.08,
+      "source": "Original S10 interaction_mode",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_310",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "full_moderator_pool",
+        "I2_components"
+      ],
+      "source_literal": "70.08%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 70.08,
+      "source": "Original S10 interaction_mode",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_311",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Multimodal",
+        "g"
+      ],
+      "source_literal": "0.21",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.21,
+      "source": "Original S10 Multimodal",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_312",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Multimodal",
+        "CI_low"
+      ],
+      "source_literal": "-0.34",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.34,
+      "source": "Original S10 Multimodal",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_313",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Multimodal",
+        "CI_high"
+      ],
+      "source_literal": "0.76",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.76,
+      "source": "Original S10 Multimodal",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_314",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Multimodal",
+        "p_value"
+      ],
+      "source_literal": "0.39",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.39,
+      "source": "Original S10 Multimodal",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_315",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "interaction_mode",
+        "groups",
+        "Multimodal",
+        "trials"
+      ],
+      "source_literal": "2",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 2.0,
+      "source": "Original S10 Multimodal",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_316",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "omnibus",
+        "df1"
+      ],
+      "source_literal": "1",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 1.0,
+      "source": "Original S10 Response generation",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_317",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "omnibus",
+        "df2"
+      ],
+      "source_literal": "6",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 6.0,
+      "source": "Original S10 Response generation",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_318",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "omnibus",
+        "F"
+      ],
+      "source_literal": "4.88",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 4.88,
+      "source": "Original S10 Response generation",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_319",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "omnibus",
+        "p_value"
+      ],
+      "source_literal": "0.07",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.07,
+      "source": "Original S10 Response generation",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_320",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "Rule-based",
+        "g"
+      ],
+      "source_literal": "0.29",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.29,
+      "source": "Original S10 Rule-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_321",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "Rule-based",
+        "CI_low"
+      ],
+      "source_literal": "0.01",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.01,
+      "source": "Original S10 Rule-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_322",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "Rule-based",
+        "CI_high"
+      ],
+      "source_literal": "0.57",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.57,
+      "source": "Original S10 Rule-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_323",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "Rule-based",
+        "p_value"
+      ],
+      "source_literal": "0.04",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.04,
+      "source": "Original S10 Rule-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_324",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "Rule-based",
+        "trials"
+      ],
+      "source_literal": "3",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 3.0,
+      "source": "Original S10 Rule-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_325",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "full_moderator_pool",
+        "I2_Q"
+      ],
+      "source_literal": "39.57%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 39.57,
+      "source": "Original S10 response_generation",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_326",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "full_moderator_pool",
+        "I2_components"
+      ],
+      "source_literal": "39.57%",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 39.57,
+      "source": "Original S10 response_generation",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_327",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "AI-based",
+        "g"
+      ],
+      "source_literal": "-0.09",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.09,
+      "source": "Original S10 AI-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_328",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "AI-based",
+        "CI_low"
+      ],
+      "source_literal": "-0.42",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": -0.42,
+      "source": "Original S10 AI-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_329",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "AI-based",
+        "CI_high"
+      ],
+      "source_literal": "0.23",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.23,
+      "source": "Original S10 AI-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_330",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "AI-based",
+        "p_value"
+      ],
+      "source_literal": "0.50",
+      "kind": "numeric",
+      "relation": null,
+      "tolerance": 0.0050000010000000004,
+      "target": 0.5,
+      "source": "Original S10 AI-based",
+      "primary_rescue": false
+    },
+    {
+      "id": "support_331",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "supporting",
+        "subgroups",
+        "response_generation",
+        "groups",
+        "AI-based",
+        "trials"
+      ],
+      "source_literal": "4",
+      "kind": "exact",
+      "relation": null,
+      "tolerance": null,
+      "target": 4.0,
+      "source": "Original S10 AI-based",
+      "primary_rescue": false
+    }
+  ],
+  "complete_original_S7_S8_S9_S10_preserved": true,
+  "row_CI_weights_and_both_footer_definitions_preserved": true,
+  "missing_two_distress_moderator_families_not_imputed": true,
+  "primary_rescue": false
+}

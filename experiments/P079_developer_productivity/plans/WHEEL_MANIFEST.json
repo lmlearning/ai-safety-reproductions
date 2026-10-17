@@ -1,0 +1,32 @@
+[
+  {
+    "utc": "2026-10-10T18:12:21.108105+00:00",
+    "method": "GET",
+    "url": "https://files.pythonhosted.org/packages/59/9a/e466a1b887a1441141e52dbcc98152f013d85076576da6eed2357f2016ae/statsmodels-0.14.4-cp312-cp312-win_amd64.whl",
+    "status": 200,
+    "bytes": 9823866,
+    "sha256": "7f7917a51766b4e074da283c507a25048ad29a18e527207883d73535e0dc6184",
+    "expected_sha256": "7f7917a51766b4e074da283c507a25048ad29a18e527207883d73535e0dc6184",
+    "filename": "statsmodels-0.14.4-cp312-cp312-win_amd64.whl"
+  },
+  {
+    "utc": "2026-10-10T18:12:22.137434+00:00",
+    "method": "GET",
+    "url": "https://files.pythonhosted.org/packages/f5/6f/e6e5aff77ea2a48dd96808bb51d7450875af154ee7cbe72188afb0b37929/scipy-1.15.2-cp312-cp312-win_amd64.whl",
+    "status": 200,
+    "bytes": 40942317,
+    "sha256": "e7c68b6a43259ba0aab737237876e5c2c549a031ddb7abc28c7b47f22e202ded",
+    "expected_sha256": "e7c68b6a43259ba0aab737237876e5c2c549a031ddb7abc28c7b47f22e202ded",
+    "filename": "scipy-1.15.2-cp312-cp312-win_amd64.whl"
+  },
+  {
+    "utc": "2026-10-10T18:12:23.544996+00:00",
+    "method": "GET",
+    "url": "https://files.pythonhosted.org/packages/87/2b/b50d3d08ea0fc419c183a84210571eba005328efa62b6b98bc28e9ead32a/patsy-1.0.1-py2.py3-none-any.whl",
+    "status": 200,
+    "bytes": 232923,
+    "sha256": "751fb38f9e97e62312e921a1954b81e1bb2bcda4f5eeabaf94db251ee791509c",
+    "expected_sha256": "751fb38f9e97e62312e921a1954b81e1bb2bcda4f5eeabaf94db251ee791509c",
+    "filename": "patsy-1.0.1-py2.py3-none-any.whl"
+  }
+]

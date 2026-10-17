@@ -1,0 +1,993 @@
+{
+  "schema": "ROOT_INDEPENDENT_ARCHIVED_P069_ALL155_BOUND_CHECK917",
+  "UTC": "2026-10-17T08:33:12.057403+00:00",
+  "authority_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ADOPTED_ARCHIVED_P069_NEAR_SUCCESS_REVIEW_RULE916.json",
+    "bytes": 3862,
+    "sha256": "2f5c01b461683e4a0e68fa17e08e4d55be4f825fa1969e062bc13c7ab367789a"
+  },
+  "source_refs": [
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P069_ideation_execution\\targets.json",
+      "bytes": 30591,
+      "sha256": "afd7f5244cfee8ff04d388dba7a620434b040c9a832f2c2066421593567e74a5"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P069-central-001\\results.json",
+      "bytes": 116868,
+      "sha256": "44c54b4a551df2ccc03d9433cdf3fedadaaa0978eb56ef243915b1015163bfa9"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P069-audit-002\\independent_values.json",
+      "bytes": 13274,
+      "sha256": "2539161c47ce11a89929fb26ea1d6b1400d2bcfaf1a3e81c5a79b0bec1c77d02"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\audits\\P069-audit-002\\audit.json",
+      "bytes": 281513,
+      "sha256": "1518e496cf1a26acb7b75a54ebd29605eb785632000a5f30c131623c77e70082"
+    }
+  ],
+  "complete_155_vector": [
+    {
+      "key": "topic.Bias.Human",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "topic.Bias.AI",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "topic.Coding.Human",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "topic.Coding.AI",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "topic.Safety.Human",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "topic.Safety.AI",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "topic.Multilingual.Human",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "topic.Multilingual.AI",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "topic.Factuality.Human",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "topic.Factuality.AI",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "topic.Math.Human",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "topic.Math.AI",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "topic.Uncertainty.Human",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "topic.Uncertainty.AI",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "reviews.Human",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "reviews.AI",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "reviews.total",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "projects.Human",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "projects.AI",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "projects.total",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "matched.projects",
+      "role": "count",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "review.novelty.Human.mean",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000588235294117647058823529411764705882352941176470588235294117647059"
+    },
+    {
+      "key": "review.novelty.Human.sd",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0045531911090496"
+    },
+    {
+      "key": "review.novelty.AI.mean",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000833333333333333333333333333333333333333333333333333333333333333333"
+    },
+    {
+      "key": "review.novelty.AI.sd",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0031029493540395"
+    },
+    {
+      "key": "review.novelty.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00330915574924808"
+    },
+    {
+      "key": "claim.review.novelty.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "review.excitement.Human.mean",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.002352941176471"
+    },
+    {
+      "key": "review.excitement.Human.sd",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0017670588250355"
+    },
+    {
+      "key": "review.excitement.AI.mean",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.004166666666666666666666666666666666666666666666666666666666666666667"
+    },
+    {
+      "key": "review.excitement.AI.sd",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0028498620500528"
+    },
+    {
+      "key": "review.excitement.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.003851058888973866"
+    },
+    {
+      "key": "claim.review.excitement.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "review.effectiveness.Human.mean",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0047058823529415"
+    },
+    {
+      "key": "review.effectiveness.Human.sd",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0035254006936286"
+    },
+    {
+      "key": "review.effectiveness.AI.mean",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.005"
+    },
+    {
+      "key": "review.effectiveness.AI.sd",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.003203969393503134490515737983449371515883477956594723136707770509747"
+    },
+    {
+      "key": "review.effectiveness.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.003851058888973866"
+    },
+    {
+      "key": "claim.review.effectiveness.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "review.soundness.Human.mean",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.003529411764705882352941176470588235294117647058823529411764705882353"
+    },
+    {
+      "key": "review.soundness.Human.sd",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00167135340486748103599754545851861645481410892538928084837881284139"
+    },
+    {
+      "key": "review.soundness.AI.mean",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000833333333333333333333333333333333333333333333333333333333333333333"
+    },
+    {
+      "key": "review.soundness.AI.sd",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0029558878344326"
+    },
+    {
+      "key": "review.soundness.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.003851058888973866"
+    },
+    {
+      "key": "claim.review.soundness.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "review.overall.Human.mean",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0"
+    },
+    {
+      "key": "review.overall.Human.sd",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0032904932459978"
+    },
+    {
+      "key": "review.overall.AI.mean",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00375"
+    },
+    {
+      "key": "review.overall.AI.sd",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0018632873266"
+    },
+    {
+      "key": "review.overall.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.003851058888973866"
+    },
+    {
+      "key": "claim.review.overall.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "review.faithfulness.Human.mean",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.002352941176471"
+    },
+    {
+      "key": "review.faithfulness.Human.sd",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.002742365006286152246553540929871460426507603401226194732203221483167"
+    },
+    {
+      "key": "review.faithfulness.AI.mean",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.003333333333333333333333333333333333333333333333333333333333333333333"
+    },
+    {
+      "key": "review.faithfulness.AI.sd",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0009760888441911"
+    },
+    {
+      "key": "review.faithfulness.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0047598922441112889840680194937116416249409163022832543681984449151905"
+    },
+    {
+      "key": "claim.review.faithfulness.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "review.codebase.Human.mean",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.003529411764705882352941176470588235294117647058823529411764705882353"
+    },
+    {
+      "key": "review.codebase.Human.sd",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0022119819586054657751495146363037822433827005767691521522736875447113"
+    },
+    {
+      "key": "review.codebase.AI.mean",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0033333333333335"
+    },
+    {
+      "key": "review.codebase.AI.sd",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0041545156054459"
+    },
+    {
+      "key": "review.codebase.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0000321274402588309981359290743662340205791522812978807745431694853951"
+    },
+    {
+      "key": "claim.review.codebase.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "idea.novelty.pre.Human",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000280701754386"
+    },
+    {
+      "key": "idea.excitement.pre.Human",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0004912280701755"
+    },
+    {
+      "key": "idea.effectiveness.pre.Human",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000333333333333333333333333333333333333333333333333333333333333333333"
+    },
+    {
+      "key": "idea.overall.pre.Human",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0004912280701755"
+    },
+    {
+      "key": "idea.novelty.pre.AI",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000222222222222222222222222222222222222222222222222222222222222222222"
+    },
+    {
+      "key": "idea.excitement.pre.AI",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000222222222222222222222222222222222222222222222222222222222222222222"
+    },
+    {
+      "key": "idea.effectiveness.pre.AI",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000472222222222222222222222222222222222222222222222222222222222222222"
+    },
+    {
+      "key": "idea.overall.pre.AI",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000055555555556"
+    },
+    {
+      "key": "idea.novelty.pre.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00032144467383209"
+    },
+    {
+      "key": "idea.excitement.pre.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000423351980969244"
+    },
+    {
+      "key": "idea.effectiveness.pre.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0000961069238077197"
+    },
+    {
+      "key": "idea.overall.pre.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00032144467383209"
+    },
+    {
+      "key": "idea.novelty.post.Human",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000368421052631578947368421052631578947368421052631578947368421052632"
+    },
+    {
+      "key": "idea.excitement.post.Human",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000421052631579"
+    },
+    {
+      "key": "idea.effectiveness.post.Human",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000421052631578947368421052631578947368421052631578947368421052631579"
+    },
+    {
+      "key": "idea.overall.post.Human",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000421052631578947368421052631578947368421052631578947368421052631579"
+    },
+    {
+      "key": "idea.novelty.post.AI",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000166666666667"
+    },
+    {
+      "key": "idea.excitement.post.AI",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000166666666666666666666666666666666666666666666666666666666666666667"
+    },
+    {
+      "key": "idea.effectiveness.post.AI",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000"
+    },
+    {
+      "key": "idea.overall.post.AI",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00025"
+    },
+    {
+      "key": "idea.novelty.post.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0004170358143449"
+    },
+    {
+      "key": "idea.excitement.post.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00008231752534414"
+    },
+    {
+      "key": "idea.effectiveness.post.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00014704821031135"
+    },
+    {
+      "key": "idea.overall.post.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00008231752534414"
+    },
+    {
+      "key": "claim.idea.novelty.pre.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "claim.idea.novelty.post.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "claim.idea.novelty.ranking.flip",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "claim.idea.excitement.pre.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "claim.idea.excitement.post.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "claim.idea.excitement.ranking.flip",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "claim.idea.effectiveness.pre.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "claim.idea.effectiveness.post.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "claim.idea.effectiveness.ranking.flip",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "claim.idea.overall.pre.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "claim.idea.overall.post.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "claim.idea.overall.ranking.flip",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "gap.full.novelty.Human",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000350877192982468"
+    },
+    {
+      "key": "gap.full.excitement.Human",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00007017543859654"
+    },
+    {
+      "key": "gap.full.effectiveness.Human",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00024561403508781"
+    },
+    {
+      "key": "gap.full.overall.Human",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0000701754385966"
+    },
+    {
+      "key": "gap.full.novelty.AI",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000388888888888888888888888888888888888888888888888888888888888888889"
+    },
+    {
+      "key": "gap.full.excitement.AI",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0030555555555556"
+    },
+    {
+      "key": "gap.full.effectiveness.AI",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000527777777778"
+    },
+    {
+      "key": "gap.full.overall.AI",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0003055555555556"
+    },
+    {
+      "key": "gap.full.novelty.difference",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000038011695906432748538011695906432748538011695906432748538011695906"
+    },
+    {
+      "key": "gap.full.excitement.difference",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000014619883041"
+    },
+    {
+      "key": "gap.full.effectiveness.difference",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00028216374269005847953216374269005847953216374269005847953216374269"
+    },
+    {
+      "key": "gap.full.overall.difference",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000375730994152046783625730994152046783625730994152046783625730994152"
+    },
+    {
+      "key": "gap.full.novelty.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000154971400378493"
+    },
+    {
+      "key": "gap.full.excitement.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000242003701761543481643249912796696321271398638401003687900963711085122"
+    },
+    {
+      "key": "gap.full.effectiveness.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000480635515126820186923976575933334280451311294472384331905548951579575"
+    },
+    {
+      "key": "gap.full.overall.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000355486876820264238846721125136578262847703449857250865110769468827682"
+    },
+    {
+      "key": "claim.gap.full.novelty.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "claim.gap.full.excitement.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "claim.gap.full.effectiveness.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "claim.gap.full.overall.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "gap.exclude6.novelty.Human",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000350877192982468"
+    },
+    {
+      "key": "gap.exclude6.excitement.Human",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00007017543859654"
+    },
+    {
+      "key": "gap.exclude6.effectiveness.Human",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00024561403508781"
+    },
+    {
+      "key": "gap.exclude6.overall.Human",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0000701754385966"
+    },
+    {
+      "key": "gap.exclude6.novelty.AI",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000518518518518518518518518518518518518518518518518518518518518518519"
+    },
+    {
+      "key": "gap.exclude6.excitement.AI",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000407407407407407407407407407407407407407407407407407407407407407407"
+    },
+    {
+      "key": "gap.exclude6.effectiveness.AI",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000296296296296296296296296296296296296296296296296296296296296296296"
+    },
+    {
+      "key": "gap.exclude6.overall.AI",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000259259259259259259259259259259259259259259259259259259259259259259"
+    },
+    {
+      "key": "gap.exclude6.novelty.difference",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000167641325536062378167641325536062378167641325536062378167641325536"
+    },
+    {
+      "key": "gap.exclude6.excitement.difference",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000337231968810916179337231968810916179337231968810916179337231968811"
+    },
+    {
+      "key": "gap.exclude6.effectiveness.difference",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000458089668616"
+    },
+    {
+      "key": "gap.exclude6.overall.difference",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000189083820662768031189083820662768031189083820662768031189083820663"
+    },
+    {
+      "key": "gap.exclude6.novelty.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00021460519053005"
+    },
+    {
+      "key": "gap.exclude6.excitement.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000302419390261051706800962433462161566872011362976708759205959857231485"
+    },
+    {
+      "key": "gap.exclude6.effectiveness.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000499256069789691"
+    },
+    {
+      "key": "gap.exclude6.overall.p",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000411427310263640435214999963486488174099683666924224118370962552283155"
+    },
+    {
+      "key": "claim.gap.exclude6.novelty.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "claim.gap.exclude6.excitement.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "claim.gap.exclude6.effectiveness.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "claim.gap.exclude6.overall.significant",
+      "role": "claim",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0"
+    },
+    {
+      "key": "correlation.AI.pearson.novelty",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00019489675533896"
+    },
+    {
+      "key": "correlation.AI.pearson.excitement",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.000096881423577888151771901595056737878817941387513528931826789321457"
+    },
+    {
+      "key": "correlation.AI.pearson.effectiveness",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00016454737821837"
+    },
+    {
+      "key": "correlation.AI.pearson.overall",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00034474970508289"
+    },
+    {
+      "key": "correlation.AI.spearman.novelty",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0002230322587454"
+    },
+    {
+      "key": "correlation.AI.spearman.excitement",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00017234864863054"
+    },
+    {
+      "key": "correlation.AI.spearman.effectiveness",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0004020521907144699217548725448891498952316702223216366735573115955361"
+    },
+    {
+      "key": "correlation.AI.spearman.overall",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00010275088888430349727763210438282689104231389817444836949860194722124"
+    },
+    {
+      "key": "correlation.Human.pearson.novelty",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00016379822944460239736647048103300945151881656320365217536188805977072"
+    },
+    {
+      "key": "correlation.Human.pearson.excitement",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00038714314750087330148214146933092676114362816843160377961104403773"
+    },
+    {
+      "key": "correlation.Human.pearson.effectiveness",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00035497912334428880930466121419446443519042532765135184370707629001519"
+    },
+    {
+      "key": "correlation.Human.pearson.overall",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.0000579429809472144895800266202743276870373471636066164445886119522597"
+    },
+    {
+      "key": "correlation.Human.spearman.novelty",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00022759920950078"
+    },
+    {
+      "key": "correlation.Human.spearman.excitement",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00011697094794036"
+    },
+    {
+      "key": "correlation.Human.spearman.effectiveness",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00043958773847810173035653099362790110429947132325897789544797283159793"
+    },
+    {
+      "key": "correlation.Human.spearman.overall",
+      "role": "scalar",
+      "primary_and_independent_within_fixed916_bound": true,
+      "maximum_absolute_error_both_routes": "0.00033234091615097"
+    }
+  ],
+  "role_counts": {
+    "count": 21,
+    "claim": 27,
+    "scalar": 107
+  },
+  "all155_new916_pass": true,
+  "maximum_absolute_scalar_error": "0.005",
+  "max_error_key": "review.effectiveness.AI.mean",
+  "old_original_target_passed": 152,
+  "old_original_target_total": 155,
+  "old_three_failed_keys_preserved": [
+    "gap.full.excitement.AI",
+    "gap.full.effectiveness.AI",
+    "gap.exclude6.novelty.AI"
+  ],
+  "archived_independent_computational_checks_passed": 1127,
+  "new_original_data_or_statistical_estimation": false,
+  "arithmetic": "100digit Decimal comparison of archived source targets and primary/independent scalar outputs only.",
+  "paper_credit_awarded": 0,
+  "eligibility_and_scope_reviews_required_before_credit": true,
+  "earlier_inline_metadata_check_failure": {
+    "tool_chunk": "258334",
+    "stage": "before output writes; count-role typing assertion",
+    "correction": "Use original zero absolute tolerance as well as integer expected type; integer-formatted non-count statistics remain scalars. No numerical bound/result or source changes."
+  },
+  "reader_source_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_VERIFY_ARCHIVED_P069_ALL155_NEAR_BOUND917B.py",
+    "bytes": 3945,
+    "sha256": "99d698e488f0872b915d667b4660f78e993fe77d46b46c01effec383d2c18105"
+  }
+}

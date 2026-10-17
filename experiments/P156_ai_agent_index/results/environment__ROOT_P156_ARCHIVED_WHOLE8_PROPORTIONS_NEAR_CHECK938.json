@@ -1,0 +1,112 @@
+{
+  "schema": "ROOT_P156_ARCHIVED_WHOLE8_PROPORTIONS_NEAR_CHECK938",
+  "UTC": "2026-10-17T09:04:06.144226+00:00",
+  "rule_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ADOPTED_P156_ARCHIVED_ALL8_PROPORTIONS_NEAR_RULE936.json",
+    "bytes": 2960,
+    "sha256": "a61ef5fc990884e777ed9b3d16060b1ecb974281377160f892198bd57e03f455"
+  },
+  "old_disposition_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\papers\\P156_ai_agent_index\\COMPLETE_FAILED_CENTRAL_RESULT_AND_AUDIT034.json",
+    "bytes": 119302,
+    "sha256": "d6793f1fe72cfda72cdeb97ebc156296acca9bf4385440f1d8298d331e4fc0f3"
+  },
+  "all8": [
+    {
+      "id": "Fig3_all1350",
+      "numerator": 199,
+      "denominator": 1350,
+      "original_target": "11/75",
+      "original_actual": "199/1350",
+      "exact_absolute_error": "1/1350",
+      "absolute_error_display": 0.0007407407407407407,
+      "old_strict_pass": false,
+      "near_pass": true
+    },
+    {
+      "id": "Fig6_all240",
+      "numerator": 135,
+      "denominator": 240,
+      "original_target": "133/240",
+      "original_actual": "9/16",
+      "exact_absolute_error": "1/120",
+      "absolute_error_display": 0.008333333333333333,
+      "old_strict_pass": false,
+      "near_pass": true
+    },
+    {
+      "id": "Fig6_Enterprise",
+      "numerator": 67,
+      "denominator": 104,
+      "original_target": "67/104",
+      "original_actual": "67/104",
+      "exact_absolute_error": "0",
+      "absolute_error_display": 0.0,
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "id": "Fig6_Enterprise_percentage_display",
+      "numerator": 67,
+      "denominator": 104,
+      "original_target": "16/25",
+      "original_actual": "67/104",
+      "exact_absolute_error": "11/2600",
+      "absolute_error_display": 0.004230769230769231,
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "id": "Fig6_Browser",
+      "numerator": 25,
+      "denominator": 40,
+      "original_target": "5/8",
+      "original_actual": "5/8",
+      "exact_absolute_error": "0",
+      "absolute_error_display": 0.0,
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "id": "Fig6_Browser_percentage_display",
+      "numerator": 25,
+      "denominator": 40,
+      "original_target": "63/100",
+      "original_actual": "5/8",
+      "exact_absolute_error": "1/200",
+      "absolute_error_display": 0.005,
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "id": "Fig6_Chat",
+      "numerator": 43,
+      "denominator": 96,
+      "original_target": "41/96",
+      "original_actual": "43/96",
+      "exact_absolute_error": "1/48",
+      "absolute_error_display": 0.020833333333333332,
+      "old_strict_pass": false,
+      "near_pass": true
+    },
+    {
+      "id": "Fig6_Chat_percentage_display",
+      "numerator": 43,
+      "denominator": 96,
+      "original_target": "43/100",
+      "original_actual": "43/96",
+      "exact_absolute_error": "43/2400",
+      "absolute_error_display": 0.017916666666666668,
+      "old_strict_pass": false,
+      "near_pass": true
+    }
+  ],
+  "max_abs_error": 0.020833333333333332,
+  "all21_independent_domains": true,
+  "safety_more_than_half_and_cohort_order_preserved": true,
+  "no_caption_or_auxiliary_failures_changed": true,
+  "no_actual_cell_counts_or_markers_changed": true,
+  "near_supported": true,
+  "new_independent_review_pending": true,
+  "credit_awarded": 0
+}

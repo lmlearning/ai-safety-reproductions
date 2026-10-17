@@ -1,0 +1,16 @@
+{
+  "utc_start": "2026-10-10T21:25:56.202538+00:00",
+  "command": [
+    "{{REPRODUCTION_ROOT}}\\scripts\\audit_p103_primary_study1_age_fix_v003.py",
+    "--audit",
+    "{{REPRODUCTION_ROOT}}\\papers\\P103_social_evaluation\\runs\\run001",
+    "{{REPRODUCTION_ROOT}}\\papers\\P103_social_evaluation\\audits\\audit003"
+  ],
+  "mode": "independent raw CSV/formula audit",
+  "GPU": false,
+  "checks_total": 1592,
+  "checks_passed": 1591,
+  "all_passed": false,
+  "utc_end": "2026-10-10T21:25:56.309621+00:00",
+  "exit_status": 0
+}

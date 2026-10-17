@@ -1,0 +1,178 @@
+{
+  "paper_id": "P165",
+  "assets": [
+    {
+      "id": "input-001",
+      "original_relative_path": "runs/P165_MentalBench_original001/opaque_original9_001/ORIGINAL9_01.csv",
+      "bytes": 7369617,
+      "sha256": "d2a087cd39ac6ebe354649abe5f201a54cfd9bed9373aafd580c9396803192d0",
+      "download_urls": [
+        "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/Codes/analysis/claude_llm_judge_with_human.csv"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/Codes/analysis/claude_llm_judge_with_human.csv"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-002",
+      "original_relative_path": "runs/P165_MentalBench_original001/opaque_original9_001/ORIGINAL9_02.csv",
+      "bytes": 6073477,
+      "sha256": "b7c53cc9d4b5ee9db13fc5de1ab946516aba12e9bc4454a787f1a7b425307fe2",
+      "download_urls": [
+        "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/Codes/analysis/gemini_llm_judge_with_human.csv"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/Codes/analysis/gemini_llm_judge_with_human.csv"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-003",
+      "original_relative_path": "runs/P165_MentalBench_original001/opaque_original9_001/ORIGINAL9_03.csv",
+      "bytes": 6978634,
+      "sha256": "3e6d88fd7fa043257e70d1b2e641eed93a1f2287afe8f011ffa3677fb3e69850",
+      "download_urls": [
+        "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/Codes/analysis/gpt-4o_llm_judge_with_human.csv"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/Codes/analysis/gpt-4o_llm_judge_with_human.csv"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-004",
+      "original_relative_path": "runs/P165_MentalBench_original001/opaque_original9_001/ORIGINAL9_04.csv",
+      "bytes": 5635713,
+      "sha256": "a4df42f46e9cba11f381e5a86d4098360dd46d8228ddcadec9ffcc530341af4d",
+      "download_urls": [
+        "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/Codes/analysis/o4-mini_llm_judge_with_human.csv"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/Codes/analysis/o4-mini_llm_judge_with_human.csv"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-005",
+      "original_relative_path": "runs/P165_MentalBench_original001/opaque_original9_001/ORIGINAL9_05.xlsx",
+      "bytes": 237045,
+      "sha256": "3582e4a36db7c6788d54266c82967ebee5e7b7910d41cff752db0e79d97b74b5",
+      "download_urls": [
+        "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/MentalAlign-70k/Human_Judge/Human_judge.xlsx"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/MentalAlign-70k/Human_Judge/Human_judge.xlsx"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-006",
+      "original_relative_path": "runs/P165_MentalBench_original001/opaque_original9_001/ORIGINAL9_06.xlsx",
+      "bytes": 1174042,
+      "sha256": "86555b88e979598c73a6d6e2ea984ff0e053d8192d0739a57dc5868ea2377ec2",
+      "download_urls": [
+        "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/MentalAlign-70k/LLMs_as_a_judge/claude_llm_judge.xlsx"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/MentalAlign-70k/LLMs_as_a_judge/claude_llm_judge.xlsx"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-007",
+      "original_relative_path": "runs/P165_MentalBench_original001/opaque_original9_001/ORIGINAL9_07.xlsx",
+      "bytes": 836659,
+      "sha256": "607627587c81e82de5555a6a4d5c1e183a214db35aae85643637100f73d2b561",
+      "download_urls": [
+        "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/MentalAlign-70k/LLMs_as_a_judge/gemini_llm_judge.xlsx"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/MentalAlign-70k/LLMs_as_a_judge/gemini_llm_judge.xlsx"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-008",
+      "original_relative_path": "runs/P165_MentalBench_original001/opaque_original9_001/ORIGINAL9_08.xlsx",
+      "bytes": 975972,
+      "sha256": "93a9cc7454e3dfd5e13da724bcdcccec5d72768ee417c43b63b24f69da28a5cb",
+      "download_urls": [
+        "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/MentalAlign-70k/LLMs_as_a_judge/gpt-4o_llm_judge.xlsx"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/MentalAlign-70k/LLMs_as_a_judge/gpt-4o_llm_judge.xlsx"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    },
+    {
+      "id": "input-009",
+      "original_relative_path": "runs/P165_MentalBench_original001/opaque_original9_001/ORIGINAL9_09.xlsx",
+      "bytes": 819487,
+      "sha256": "f99eb6dece161b654f3ed11988fbc9495b3653aa5b8b1b9ee6547f4bd79d070c",
+      "download_urls": [
+        "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/MentalAlign-70k/LLMs_as_a_judge/o4-mini_llm_judge.xlsx"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/MentalAlign-70k/LLMs_as_a_judge/o4-mini_llm_judge.xlsx"
+      ],
+      "redistributed": false,
+      "license": "UNKNOWN; consult upstream terms"
+    }
+  ],
+  "source_urls": [
+    "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/Codes/analysis/claude_llm_judge_with_human.csv",
+    "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/Codes/analysis/gemini_llm_judge_with_human.csv",
+    "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/Codes/analysis/gpt-4o_llm_judge_with_human.csv",
+    "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/Codes/analysis/o4-mini_llm_judge_with_human.csv",
+    "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/MentalAlign-70k/Human_Judge/Human_judge.xlsx",
+    "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/MentalAlign-70k/LLMs_as_a_judge/claude_llm_judge.xlsx",
+    "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/MentalAlign-70k/LLMs_as_a_judge/gemini_llm_judge.xlsx",
+    "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/MentalAlign-70k/LLMs_as_a_judge/gpt-4o_llm_judge.xlsx",
+    "https://raw.githubusercontent.com/abeerbadawi/MentalBench-Align/7074d5cea423799171ce7d7125684af9ccd211f0/MentalAlign-70k/LLMs_as_a_judge/o4-mini_llm_judge.xlsx"
+  ],
+  "inventory_source_notes": {
+    "source_input_redistribution": "DO_NOT_COPY_PARTICIPANT_RECORDS_OR_UNLICENSED_AUTHOR_ASSETS;source URL/hash manifest only",
+    "dependency_provenance": [
+      {
+        "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\primary955\\ACTUAL_NUMPY_MODULE_ORIGINS001.json",
+        "repo_relative_path": "runs/P165_MentalBench_original001/primary955/ACTUAL_NUMPY_MODULE_ORIGINS001.json",
+        "bytes": 28477,
+        "sha256": "b3d0d143a1e3c5e889658770ce5c624b2d3b731ada0714111a3f009d76a4785f",
+        "purpose": "Recorded runtime versions/import origins only; do not bundle any package/runtime"
+      }
+    ],
+    "third_party_required_code": [],
+    "portable_rerun_steps": [
+      "Read original report plus retrospective NEAR addendum; every old strict failure remains.",
+      "Acquire external source assets at pinned revisions; verify exact sizes/SHA256. Do not commit participant/model-response banks.",
+      "Use a separate environment from dependency metadata, not a copied runtime.",
+      "Preserve methods/seeds/full scope and hash validation. Rebase explicit local paths/config refs in a labelled publication copy; archived TRUE controls/deadlines are not new authority.",
+      "Run primary then independent audit into fresh exclusive outputs. This task has not tested or executed those commands."
+    ],
+    "portability_changes_required": [
+      "Historical outputs must remain exclusive; use fresh checkout/output configuration.",
+      "Hardcoded {{USER_HOME}} roots, local package-site paths and frozen source/control refs require explicit configuration; never silently remove guards.",
+      "Keep five primary sibling modules together; auditor needs original_reader005/semantic_bridge005 plus separately located independent_mentalbench_core001.",
+      "Original9 raw5→CSV4 provenance and explicit ConvID map must be regenerated from source assets, not published as raw conversation records.",
+      "Paper-era7074d5 CSVs differ from current CSVs; no silent source-version substitution."
+    ],
+    "license_notice": "Programme code licence does not relicense author papers/code/data. Public source access alone does not establish redistribution permission; external acquisition manifests preferred.",
+    "license_evidence": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\REPOSITORY_METADATA_RAW.json",
+      "repo_relative_path": "literature/MentalBench_complete_central_source_plan_P092018/REPOSITORY_METADATA_RAW.json",
+      "bytes": 5658,
+      "sha256": "810ec9d98b096a8f4f2f239ca4abf2694eeac404b5b893860043d4186bc1619c",
+      "purpose": "Retained repository MIT metadata; no inference over all conversation data rights"
+    }
+  },
+  "policy": "Source/data/model files are acquired from their owners. Only explicitly identified programme transcriptions are bundled. URLs are historical and were not re-fetched during publication preparation."
+}

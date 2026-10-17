@@ -1,0 +1,2401 @@
+id,model,participant_id,scenario_id,urgency,urgency_response,answer_delta,correct,red_flag_correct_count,differential_correct_count,red_flag_correct,differential_correct
+464400,Llama 3 70B,0,489599,3,3,0,True,0,0,False,False
+464415,Llama 3 70B,1,489599,3,2,-1,False,0,2,False,True
+464481,Llama 3 70B,2,489599,3,2,-1,False,0,0,False,False
+464489,Llama 3 70B,3,489599,3,0,-3,False,0,0,False,False
+464502,Llama 3 70B,4,489599,3,2,-1,False,0,0,False,False
+464525,Llama 3 70B,5,489599,3,2,-1,False,1,2,True,True
+464529,Llama 3 70B,6,489599,3,3,0,True,0,1,False,True
+464536,Llama 3 70B,7,489599,3,4,1,False,2,4,True,True
+464548,Llama 3 70B,8,489599,3,0,-3,False,0,0,False,False
+464571,Llama 3 70B,9,489599,3,1,-2,False,0,1,False,True
+464597,Llama 3 70B,10,489599,3,0,-3,False,0,1,False,True
+464615,Llama 3 70B,11,489599,3,2,-1,False,0,0,False,False
+464618,Llama 3 70B,12,489599,3,3,0,True,0,1,False,True
+464625,Llama 3 70B,13,489599,3,0,-3,False,0,0,False,False
+464628,Llama 3 70B,14,489599,3,4,1,False,0,0,False,False
+464630,Llama 3 70B,15,489599,3,3,0,True,1,1,True,True
+464631,Llama 3 70B,16,489599,3,2,-1,False,0,0,False,False
+464643,Llama 3 70B,17,489599,3,0,-3,False,0,1,False,True
+464651,Llama 3 70B,18,489599,3,3,0,True,0,0,False,False
+464652,Llama 3 70B,19,489599,3,2,-1,False,0,0,False,False
+464660,Llama 3 70B,20,489599,3,3,0,True,0,0,False,False
+464666,Llama 3 70B,21,489599,3,3,0,True,1,1,True,True
+464685,Llama 3 70B,22,489599,3,4,1,False,1,1,True,True
+464716,Llama 3 70B,23,489599,3,3,0,True,0,0,False,False
+464724,GPT 4o,24,489599,3,1,-2,False,0,0,False,False
+464725,Llama 3 70B,25,489599,3,0,-3,False,0,0,False,False
+464733,Llama 3 70B,26,489599,3,3,0,True,0,0,False,False
+464737,Llama 3 70B,27,489599,3,0,-3,False,0,1,False,True
+464739,Llama 3 70B,28,489599,3,0,-3,False,0,0,False,False
+464771,Llama 3 70B,29,489599,3,0,-3,False,0,1,False,True
+464773,GPT 4o,30,489599,3,3,0,True,0,0,False,False
+464776,Llama 3 70B,31,489599,3,0,-3,False,0,0,False,False
+464797,Llama 3 70B,32,489599,3,4,1,False,0,1,False,True
+464805,Llama 3 70B,33,489599,3,3,0,True,0,0,False,False
+464808,Llama 3 70B,34,489599,3,0,-3,False,1,1,True,True
+464809,Llama 3 70B,35,489599,3,4,1,False,0,1,False,True
+464812,GPT 4o,36,489599,3,2,-1,False,0,0,False,False
+464814,GPT 4o,37,489599,3,3,0,True,1,2,True,True
+464826,GPT 4o,38,489599,3,3,0,True,1,1,True,True
+464850,GPT 4o,39,489599,3,3,0,True,2,3,True,True
+464863,GPT 4o,40,489599,3,3,0,True,1,2,True,True
+464879,GPT 4o,41,489599,3,3,0,True,1,1,True,True
+464926,GPT 4o,42,489599,3,3,0,True,1,1,True,True
+464933,GPT 4o,43,489599,3,3,0,True,1,1,True,True
+464963,Llama 3 70B,44,489599,3,2,-1,False,0,0,False,False
+464972,GPT 4o,45,489599,3,0,-3,False,0,0,False,False
+464977,GPT 4o,46,489599,3,3,0,True,1,1,True,True
+465002,GPT 4o,47,489599,3,3,0,True,0,0,False,False
+465006,GPT 4o,48,489599,3,3,0,True,0,1,False,True
+465044,GPT 4o,49,489599,3,0,-3,False,0,2,False,True
+465060,GPT 4o,50,489599,3,1,-2,False,0,0,False,False
+465063,GPT 4o,51,489599,3,2,-1,False,0,1,False,True
+465080,GPT 4o,52,489599,3,3,0,True,1,2,True,True
+465113,GPT 4o,53,489599,3,3,0,True,0,0,False,False
+465130,GPT 4o,50,489599,3,1,-2,False,0,0,False,False
+465364,Llama 3 70B,54,489599,3,0,-3,False,0,1,False,True
+465366,GPT 4o,55,489599,3,2,-1,False,0,0,False,False
+465370,GPT 4o,56,489599,3,3,0,True,0,0,False,False
+465386,GPT 4o,57,489599,3,3,0,True,1,1,True,True
+465389,GPT 4o,58,489599,3,3,0,True,0,0,False,False
+465390,GPT 4o,56,489599,3,2,-1,False,1,1,True,True
+465391,Llama 3 70B,59,489599,3,2,-1,False,1,1,True,True
+465394,Llama 3 70B,60,489599,3,3,0,True,0,0,False,False
+465406,GPT 4o,61,489599,3,2,-1,False,0,0,False,False
+465416,GPT 4o,62,489599,3,1,-2,False,0,0,False,False
+465454,GPT 4o,63,489599,3,3,0,True,1,1,True,True
+465459,GPT 4o,64,489599,3,2,-1,False,0,0,False,False
+465478,GPT 4o,65,489599,3,4,1,False,1,1,True,True
+465484,GPT 4o,66,489599,3,2,-1,False,1,2,True,True
+465495,GPT 4o,67,489599,3,3,0,True,0,0,False,False
+465512,GPT 4o,68,489599,3,4,1,False,0,2,False,True
+465527,GPT 4o,69,489599,3,4,1,False,1,1,True,True
+465530,GPT 4o,70,489599,3,0,-3,False,0,0,False,False
+465549,GPT 4o,71,489599,3,3,0,True,0,2,False,True
+465553,Llama 3 70B,72,489599,3,2,-1,False,1,1,True,True
+465584,Llama 3 70B,73,489599,3,2,-1,False,0,1,False,True
+465585,Llama 3 70B,74,489599,3,3,0,True,0,0,False,False
+465602,Control,75,489599,3,2,-1,False,0,1,False,True
+465642,Control,76,489599,3,2,-1,False,0,0,False,False
+465649,Control,77,489599,3,1,-2,False,0,1,False,True
+465659,Control,78,489599,3,3,0,True,1,3,True,True
+465660,Control,79,489599,3,3,0,True,0,0,False,False
+465667,Control,80,489599,3,3,0,True,1,2,True,True
+465668,Control,81,489599,3,0,-3,False,0,1,False,True
+465684,Control,82,489599,3,3,0,True,0,0,False,False
+465699,Control,83,489599,3,3,0,True,1,1,True,True
+465706,Control,84,489599,3,3,0,True,0,1,False,True
+465711,Control,85,489599,3,2,-1,False,0,1,False,True
+465723,Control,86,489599,3,4,1,False,2,2,True,True
+465725,Control,87,489599,3,3,0,True,0,1,False,True
+465752,Control,88,489599,3,2,-1,False,0,0,False,False
+465759,Control,89,489599,3,1,-2,False,0,0,False,False
+465767,Control,90,489599,3,2,-1,False,0,0,False,False
+465775,Control,91,489599,3,3,0,True,0,0,False,False
+465784,Control,92,489599,3,3,0,True,0,0,False,False
+465790,Control,93,489599,3,2,-1,False,1,2,True,True
+465794,Control,94,489599,3,3,0,True,1,2,True,True
+465798,Control,95,489599,3,4,1,False,1,1,True,True
+465817,Control,96,489599,3,0,-3,False,0,1,False,True
+465829,Control,97,489599,3,1,-2,False,0,0,False,False
+465836,Control,98,489599,3,0,-3,False,0,0,False,False
+465849,Control,99,489599,3,2,-1,False,0,0,False,False
+465851,Control,100,489599,3,0,-3,False,0,0,False,False
+465868,Control,101,489599,3,2,-1,False,1,2,True,True
+465878,Control,102,489599,3,4,1,False,0,1,False,True
+465886,Control,103,489599,3,1,-2,False,0,0,False,False
+465895,Control,104,489599,3,3,0,True,0,0,False,False
+465926,Control,105,489599,3,1,-2,False,0,0,False,False
+465934,Control,106,489599,3,2,-1,False,0,0,False,False
+465942,Control,107,489599,3,4,1,False,3,5,True,True
+465949,Control,108,489599,3,2,-1,False,0,1,False,True
+465954,Control,109,489599,3,4,1,False,1,1,True,True
+465979,Control,110,489599,3,3,0,True,0,1,False,True
+466000,Control,107,489599,3,4,1,False,3,4,True,True
+466009,Control,111,489599,3,3,0,True,1,1,True,True
+466010,Control,112,489599,3,3,0,True,0,0,False,False
+466012,Control,113,489599,3,1,-2,False,0,1,False,True
+466045,Control,114,489599,3,0,-3,False,0,0,False,False
+466049,Control,115,489599,3,1,-2,False,0,0,False,False
+466056,Control,116,489599,3,2,-1,False,1,1,True,True
+466057,Control,117,489599,3,0,-3,False,0,1,False,True
+466058,Control,118,489599,3,1,-2,False,0,1,False,True
+466072,Control,119,489599,3,4,1,False,0,0,False,False
+466073,Control,120,489599,3,3,0,True,0,0,False,False
+466074,Control,121,489599,3,0,-3,False,0,0,False,False
+466078,Control,122,489599,3,3,0,True,0,0,False,False
+466084,Control,123,489599,3,4,1,False,2,4,True,True
+466089,Control,124,489599,3,1,-2,False,0,1,False,True
+466093,Control,125,489599,3,3,0,True,0,0,False,False
+466119,Control,126,489599,3,1,-2,False,0,2,False,True
+466123,Control,124,489599,3,1,-2,False,0,1,False,True
+466149,Control,127,489599,3,2,-1,False,0,0,False,False
+466192,Control,128,489599,3,4,1,False,1,1,True,True
+466216,Control,129,489599,3,3,0,True,0,0,False,False
+466285,GPT 4o,130,489599,3,3,0,True,0,0,False,False
+466299,Command R+,131,489599,3,0,-3,False,0,0,False,False
+466301,Command R+,132,489599,3,3,0,True,0,0,False,False
+466328,Command R+,133,489599,3,4,1,False,0,0,False,False
+466342,Command R+,134,489599,3,3,0,True,0,0,False,False
+466352,Command R+,135,489599,3,4,1,False,0,0,False,False
+466360,Command R+,136,489599,3,2,-1,False,1,2,True,True
+466362,Command R+,137,489599,3,2,-1,False,1,1,True,True
+466383,Command R+,138,489599,3,3,0,True,0,2,False,True
+466393,Command R+,139,489599,3,0,-3,False,0,0,False,False
+466397,Command R+,140,489599,3,0,-3,False,0,1,False,True
+466408,Command R+,141,489599,3,2,-1,False,0,0,False,False
+466422,Command R+,142,489599,3,1,-2,False,0,0,False,False
+466424,Command R+,140,489599,3,0,-3,False,0,0,False,False
+466449,Command R+,143,489599,3,2,-1,False,0,0,False,False
+466490,Command R+,144,489599,3,4,1,False,0,0,False,False
+466494,Command R+,145,489599,3,3,0,True,1,1,True,True
+466504,Command R+,146,489599,3,1,-2,False,0,0,False,False
+466509,Command R+,147,489599,3,2,-1,False,0,0,False,False
+466522,Command R+,148,489599,3,0,-3,False,0,0,False,False
+466547,Command R+,149,489599,3,1,-2,False,0,0,False,False
+466553,Command R+,150,489599,3,1,-2,False,0,1,False,True
+466573,Command R+,151,489599,3,3,0,True,1,4,True,True
+466588,Command R+,152,489599,3,2,-1,False,0,0,False,False
+466589,Command R+,153,489599,3,1,-2,False,0,0,False,False
+466593,Command R+,154,489599,3,3,0,True,0,0,False,False
+466594,Command R+,155,489599,3,1,-2,False,0,0,False,False
+466599,Command R+,156,489599,3,2,-1,False,0,0,False,False
+466603,Command R+,157,489599,3,2,-1,False,1,2,True,True
+466630,Command R+,158,489599,3,2,-1,False,1,1,True,True
+466637,Command R+,159,489599,3,2,-1,False,0,0,False,False
+466642,Command R+,160,489599,3,1,-2,False,0,0,False,False
+466646,Command R+,161,489599,3,2,-1,False,0,0,False,False
+466647,Command R+,162,489599,3,3,0,True,0,1,False,True
+466657,Command R+,163,489599,3,3,0,True,0,0,False,False
+466662,Command R+,164,489599,3,1,-2,False,0,0,False,False
+466666,Command R+,165,489599,3,3,0,True,1,1,True,True
+466673,Command R+,166,489599,3,0,-3,False,0,1,False,True
+466679,Command R+,167,489599,3,3,0,True,0,0,False,False
+466706,Command R+,168,489599,3,2,-1,False,0,2,False,True
+466708,Command R+,169,489599,3,1,-2,False,0,1,False,True
+466718,Command R+,170,489599,3,2,-1,False,1,2,True,True
+466719,Command R+,171,489599,3,0,-3,False,0,0,False,False
+466730,Command R+,172,489599,3,0,-3,False,0,1,False,True
+466734,Command R+,173,489599,3,1,-2,False,0,0,False,False
+466754,Command R+,174,489599,3,3,0,True,1,1,True,True
+466760,Command R+,175,489599,3,1,-2,False,0,0,False,False
+466771,Command R+,176,489599,3,1,-2,False,0,0,False,False
+466785,Command R+,177,489599,3,2,-1,False,0,0,False,False
+466793,Command R+,173,489599,3,2,-1,False,0,2,False,True
+466803,Command R+,178,489599,3,4,1,False,0,1,False,True
+466808,Command R+,179,489599,3,3,0,True,0,0,False,False
+466818,Command R+,180,489599,3,1,-2,False,0,2,False,True
+466821,Command R+,181,489599,3,2,-1,False,0,0,False,False
+466823,Command R+,182,489599,3,0,-3,False,0,0,False,False
+466844,Command R+,183,489599,3,2,-1,False,0,0,False,False
+466875,Command R+,184,489599,3,3,0,True,1,2,True,True
+466891,Command R+,185,489599,3,4,1,False,1,2,True,True
+466904,Control,186,489599,3,3,0,True,1,1,True,True
+466964,Command R+,187,489599,3,1,-2,False,0,1,False,True
+467042,Control,188,489599,3,3,0,True,1,2,True,True
+467045,GPT 4o,189,489599,3,2,-1,False,0,2,False,True
+467372,GPT 4o,190,489599,3,3,0,True,0,2,False,True
+467373,Llama 3 70B,191,489599,3,3,0,True,0,0,False,False
+467388,Llama 3 70B,192,489599,3,3,0,True,0,0,False,False
+467391,GPT 4o,193,489599,3,2,-1,False,0,0,False,False
+467392,GPT 4o,194,489599,3,3,0,True,0,0,False,False
+467401,GPT 4o,190,489599,3,3,0,True,0,1,False,True
+467402,GPT 4o,193,489599,3,2,-1,False,0,0,False,False
+467418,GPT 4o,195,489599,3,3,0,True,1,2,True,True
+467431,GPT 4o,196,489599,3,1,-2,False,0,0,False,False
+467433,GPT 4o,197,489599,3,1,-2,False,0,0,False,False
+467445,GPT 4o,198,489599,3,3,0,True,1,1,True,True
+467458,GPT 4o,199,489599,3,2,-1,False,1,2,True,True
+467462,GPT 4o,200,489599,3,3,0,True,0,0,False,False
+467497,GPT 4o,201,489599,3,3,0,True,0,0,False,False
+467522,GPT 4o,202,489599,3,3,0,True,0,0,False,False
+467541,Llama 3 70B,203,489599,3,3,0,True,1,1,True,True
+467543,GPT 4o,204,489599,3,2,-1,False,0,0,False,False
+467544,GPT 4o,205,489599,3,1,-2,False,0,1,False,True
+467595,Llama 3 70B,206,489599,3,0,-3,False,0,1,False,True
+467597,GPT 4o,207,489599,3,0,-3,False,0,0,False,False
+467598,GPT 4o,208,489599,3,3,0,True,1,2,True,True
+467613,GPT 4o,209,489599,3,2,-1,False,1,2,True,True
+467618,GPT 4o,210,489599,3,3,0,True,0,0,False,False
+467631,GPT 4o,211,489599,3,2,-1,False,1,1,True,True
+467645,Llama 3 70B,212,489599,3,3,0,True,1,2,True,True
+467651,Llama 3 70B,213,489599,3,2,-1,False,0,0,False,False
+467652,Llama 3 70B,214,489599,3,3,0,True,0,0,False,False
+467679,GPT 4o,215,489599,3,1,-2,False,0,1,False,True
+467680,GPT 4o,216,489599,3,3,0,True,0,0,False,False
+467718,Control,217,489599,3,2,-1,False,0,1,False,True
+467731,Command R+,218,489599,3,4,1,False,0,0,False,False
+467742,Command R+,219,489599,3,4,1,False,0,0,False,False
+467758,GPT 4o,220,489599,3,3,0,True,1,3,True,True
+467764,GPT 4o,221,489599,3,4,1,False,0,0,False,False
+467765,GPT 4o,222,489599,3,4,1,False,0,0,False,False
+467766,Command R+,223,489599,3,2,-1,False,0,0,False,False
+467781,GPT 4o,224,489599,3,2,-1,False,0,0,False,False
+467783,GPT 4o,225,489599,3,1,-2,False,1,2,True,True
+467795,GPT 4o,226,489599,3,4,1,False,0,0,False,False
+467819,Llama 3 70B,227,489599,3,3,0,True,0,0,False,False
+464431,Llama 3 70B,228,489600,4,4,0,True,1,1,True,True
+464439,Llama 3 70B,229,489600,4,3,-1,False,1,1,True,True
+464470,Llama 3 70B,6,489600,4,3,-1,False,0,0,False,False
+464485,Llama 3 70B,230,489600,4,3,-1,False,1,1,True,True
+464501,Llama 3 70B,231,489600,4,3,-1,False,0,0,False,False
+464503,Llama 3 70B,232,489600,4,2,-2,False,0,0,False,False
+464509,Llama 3 70B,12,489600,4,2,-2,False,0,0,False,False
+464515,Llama 3 70B,233,489600,4,3,-1,False,1,1,True,True
+464573,Llama 3 70B,234,489600,4,3,-1,False,1,1,True,True
+464579,Llama 3 70B,235,489600,4,2,-2,False,0,0,False,False
+464590,Llama 3 70B,236,489600,4,3,-1,False,0,0,False,False
+464599,Llama 3 70B,237,489600,4,1,-3,False,0,0,False,False
+464610,Llama 3 70B,238,489600,4,3,-1,False,1,1,True,True
+464633,Llama 3 70B,239,489600,4,3,-1,False,0,0,False,False
+464668,Llama 3 70B,240,489600,4,3,-1,False,1,1,True,True
+464703,Llama 3 70B,29,489600,4,2,-2,False,0,0,False,False
+464736,GPT 4o,241,489600,4,4,0,True,0,0,False,False
+464765,Llama 3 70B,242,489600,4,2,-2,False,0,0,False,False
+464766,GPT 4o,243,489600,4,3,-1,False,0,0,False,False
+464778,GPT 4o,244,489600,4,3,-1,False,0,0,False,False
+464779,Llama 3 70B,245,489600,4,3,-1,False,0,0,False,False
+464782,Llama 3 70B,246,489600,4,2,-2,False,0,0,False,False
+464799,Llama 3 70B,247,489600,4,2,-2,False,0,1,False,True
+464813,GPT 4o,248,489600,4,2,-2,False,0,0,False,False
+464818,GPT 4o,40,489600,4,3,-1,False,0,0,False,False
+464820,Llama 3 70B,26,489600,4,2,-2,False,1,1,True,True
+464858,GPT 4o,249,489600,4,3,-1,False,1,1,True,True
+464861,GPT 4o,250,489600,4,2,-2,False,0,0,False,False
+464873,Llama 3 70B,251,489600,4,3,-1,False,0,0,False,False
+464878,GPT 4o,252,489600,4,3,-1,False,0,0,False,False
+464883,GPT 4o,253,489600,4,3,-1,False,0,0,False,False
+464888,GPT 4o,254,489600,4,3,-1,False,1,1,True,True
+464907,Llama 3 70B,255,489600,4,2,-2,False,1,1,True,True
+464917,GPT 4o,256,489600,4,4,0,True,0,0,False,False
+464932,GPT 4o,257,489600,4,3,-1,False,0,0,False,False
+464955,Llama 3 70B,258,489600,4,4,0,True,0,0,False,False
+464962,Llama 3 70B,259,489600,4,2,-2,False,1,1,True,True
+464964,GPT 4o,260,489600,4,3,-1,False,1,1,True,True
+464975,GPT 4o,261,489600,4,4,0,True,0,0,False,False
+464984,GPT 4o,262,489600,4,2,-2,False,0,0,False,False
+464992,GPT 4o,263,489600,4,3,-1,False,2,2,True,True
+465039,GPT 4o,264,489600,4,3,-1,False,1,1,True,True
+465065,GPT 4o,265,489600,4,2,-2,False,2,2,True,True
+465078,GPT 4o,266,489600,4,3,-1,False,1,1,True,True
+465347,GPT 4o,267,489600,4,2,-2,False,0,0,False,False
+465358,GPT 4o,268,489600,4,4,0,True,0,0,False,False
+465379,GPT 4o,269,489600,4,4,0,True,0,0,False,False
+465402,Llama 3 70B,270,489600,4,4,0,True,1,1,True,True
+465419,GPT 4o,62,489600,4,3,-1,False,0,0,False,False
+465430,GPT 4o,271,489600,4,3,-1,False,0,0,False,False
+465431,GPT 4o,272,489600,4,3,-1,False,0,0,False,False
+465433,GPT 4o,273,489600,4,2,-2,False,1,1,True,True
+465463,GPT 4o,274,489600,4,2,-2,False,0,0,False,False
+465467,GPT 4o,275,489600,4,3,-1,False,0,0,False,False
+465470,GPT 4o,276,489600,4,2,-2,False,0,0,False,False
+465502,GPT 4o,277,489600,4,3,-1,False,0,0,False,False
+465507,GPT 4o,65,489600,4,3,-1,False,0,0,False,False
+465513,GPT 4o,278,489600,4,3,-1,False,0,0,False,False
+465519,GPT 4o,279,489600,4,3,-1,False,1,1,True,True
+465520,GPT 4o,280,489600,4,2,-2,False,0,0,False,False
+465523,GPT 4o,281,489600,4,3,-1,False,0,0,False,False
+465543,Llama 3 70B,282,489600,4,3,-1,False,1,1,True,True
+465548,GPT 4o,283,489600,4,3,-1,False,0,0,False,False
+465552,Llama 3 70B,284,489600,4,2,-2,False,1,1,True,True
+465560,GPT 4o,285,489600,4,3,-1,False,0,0,False,False
+465571,GPT 4o,286,489600,4,2,-2,False,0,0,False,False
+465581,Llama 3 70B,287,489600,4,2,-2,False,0,0,False,False
+465615,Control,288,489600,4,1,-3,False,0,0,False,False
+465616,Control,289,489600,4,2,-2,False,1,1,True,True
+465619,Control,93,489600,4,2,-2,False,0,0,False,False
+465622,Control,290,489600,4,1,-3,False,0,0,False,False
+465623,Control,80,489600,4,1,-3,False,0,0,False,False
+465632,Control,291,489600,4,3,-1,False,1,1,True,True
+465643,Control,292,489600,4,2,-2,False,0,0,False,False
+465653,Control,293,489600,4,2,-2,False,1,1,True,True
+465692,Control,294,489600,4,4,0,True,2,2,True,True
+465700,Control,86,489600,4,4,0,True,1,1,True,True
+465703,Control,295,489600,4,4,0,True,1,1,True,True
+465707,Control,296,489600,4,1,-3,False,0,0,False,False
+465712,Control,297,489600,4,2,-2,False,1,1,True,True
+465718,Control,298,489600,4,2,-2,False,0,0,False,False
+465727,Control,299,489600,4,3,-1,False,0,0,False,False
+465728,Control,300,489600,4,3,-1,False,1,1,True,True
+465730,Control,301,489600,4,1,-3,False,0,0,False,False
+465736,Control,302,489600,4,3,-1,False,0,0,False,False
+465737,Control,303,489600,4,4,0,True,3,3,True,True
+465744,Control,304,489600,4,3,-1,False,1,1,True,True
+465758,Control,305,489600,4,2,-2,False,0,0,False,False
+465760,Control,295,489600,4,4,0,True,0,0,False,False
+465772,Control,306,489600,4,2,-2,False,0,0,False,False
+465806,Control,307,489600,4,2,-2,False,0,0,False,False
+465827,Control,308,489600,4,4,0,True,2,2,True,True
+465828,Control,309,489600,4,1,-3,False,0,0,False,False
+465835,Control,310,489600,4,2,-2,False,0,0,False,False
+465839,Control,311,489600,4,2,-2,False,1,1,True,True
+465875,Control,312,489600,4,2,-2,False,0,0,False,False
+465893,Control,313,489600,4,2,-2,False,1,1,True,True
+465922,Control,314,489600,4,3,-1,False,1,1,True,True
+465928,Control,315,489600,4,2,-2,False,1,1,True,True
+465941,Control,316,489600,4,2,-2,False,1,1,True,True
+465943,Control,317,489600,4,2,-2,False,0,0,False,False
+465947,Control,318,489600,4,2,-2,False,1,1,True,True
+465959,Control,319,489600,4,1,-3,False,1,1,True,True
+465977,Control,320,489600,4,1,-3,False,0,0,False,False
+465978,Control,321,489600,4,2,-2,False,0,0,False,False
+465985,Control,322,489600,4,2,-2,False,0,0,False,False
+465997,Control,319,489600,4,2,-2,False,1,1,True,True
+466002,Control,323,489600,4,4,0,True,0,0,False,False
+466008,Control,115,489600,4,2,-2,False,0,0,False,False
+466022,Control,116,489600,4,2,-2,False,0,0,False,False
+466031,Control,324,489600,4,3,-1,False,0,0,False,False
+466032,Control,325,489600,4,2,-2,False,1,1,True,True
+466050,Control,120,489600,4,2,-2,False,0,0,False,False
+466053,Control,121,489600,4,0,-4,False,0,0,False,False
+466060,Control,112,489600,4,4,0,True,0,0,False,False
+466065,Control,326,489600,4,3,-1,False,0,0,False,False
+466067,Control,327,489600,4,3,-1,False,0,0,False,False
+466077,Control,328,489600,4,3,-1,False,0,0,False,False
+466082,Control,326,489600,4,3,-1,False,0,0,False,False
+466091,Control,329,489600,4,1,-3,False,0,0,False,False
+466103,Control,111,489600,4,2,-2,False,1,1,True,True
+466114,Control,330,489600,4,2,-2,False,0,0,False,False
+466128,Control,331,489600,4,3,-1,False,1,1,True,True
+466130,Control,332,489600,4,2,-2,False,0,0,False,False
+466137,Control,333,489600,4,2,-2,False,0,0,False,False
+466138,Control,123,489600,4,3,-1,False,0,0,False,False
+466140,Control,334,489600,4,2,-2,False,1,1,True,True
+466146,Control,335,489600,4,1,-3,False,0,0,False,False
+466158,Control,336,489600,4,2,-2,False,1,1,True,True
+466169,Control,337,489600,4,2,-2,False,1,1,True,True
+466170,Control,338,489600,4,3,-1,False,0,0,False,False
+466174,Control,128,489600,4,4,0,True,2,2,True,True
+466183,Control,339,489600,4,2,-2,False,1,1,True,True
+466202,Control,340,489600,4,4,0,True,1,1,True,True
+466287,Command R+,341,489600,4,4,0,True,1,1,True,True
+466297,Command R+,342,489600,4,1,-3,False,0,0,False,False
+466313,Command R+,343,489600,4,2,-2,False,1,1,True,True
+466324,Command R+,138,489600,4,3,-1,False,1,1,True,True
+466335,Command R+,344,489600,4,2,-2,False,0,0,False,False
+466370,Command R+,345,489600,4,3,-1,False,0,0,False,False
+466380,Command R+,346,489600,4,2,-2,False,0,0,False,False
+466385,Command R+,347,489600,4,2,-2,False,2,2,True,True
+466390,Command R+,348,489600,4,3,-1,False,0,0,False,False
+466413,Command R+,349,489600,4,2,-2,False,0,0,False,False
+466437,Command R+,350,489600,4,4,0,True,0,0,False,False
+466439,Command R+,351,489600,4,2,-2,False,0,0,False,False
+466459,Command R+,352,489600,4,2,-2,False,0,0,False,False
+466467,Command R+,353,489600,4,3,-1,False,0,0,False,False
+466474,Command R+,354,489600,4,1,-3,False,0,1,False,True
+466488,Command R+,355,489600,4,2,-2,False,1,1,True,True
+466496,Command R+,356,489600,4,2,-2,False,0,0,False,False
+466523,Command R+,357,489600,4,2,-2,False,0,0,False,False
+466528,Command R+,358,489600,4,3,-1,False,2,2,True,True
+466532,Command R+,359,489600,4,4,0,True,0,0,False,False
+466536,Command R+,360,489600,4,1,-3,False,0,0,False,False
+466541,Command R+,361,489600,4,2,-2,False,0,0,False,False
+466545,Command R+,362,489600,4,2,-2,False,0,0,False,False
+466549,Command R+,363,489600,4,4,0,True,1,1,True,True
+466558,Command R+,364,489600,4,3,-1,False,0,0,False,False
+466569,Command R+,365,489600,4,2,-2,False,0,0,False,False
+466572,Command R+,366,489600,4,2,-2,False,0,0,False,False
+466576,Command R+,367,489600,4,3,-1,False,1,1,True,True
+466577,Command R+,368,489600,4,3,-1,False,0,0,False,False
+466579,Command R+,369,489600,4,2,-2,False,0,0,False,False
+466592,Command R+,370,489600,4,2,-2,False,0,0,False,False
+466598,Command R+,371,489600,4,3,-1,False,1,1,True,True
+466611,Command R+,372,489600,4,3,-1,False,0,0,False,False
+466612,Command R+,373,489600,4,3,-1,False,0,0,False,False
+466632,Command R+,374,489600,4,4,0,True,0,0,False,False
+466638,Command R+,375,489600,4,4,0,True,0,0,False,False
+466640,Command R+,376,489600,4,3,-1,False,0,0,False,False
+466654,Command R+,377,489600,4,2,-2,False,0,0,False,False
+466727,Command R+,378,489600,4,2,-2,False,0,0,False,False
+466733,Command R+,379,489600,4,2,-2,False,1,1,True,True
+466743,Command R+,380,489600,4,2,-2,False,1,1,True,True
+466746,Command R+,381,489600,4,2,-2,False,0,0,False,False
+466765,Command R+,382,489600,4,4,0,True,0,0,False,False
+466768,Command R+,383,489600,4,2,-2,False,1,1,True,True
+466783,Command R+,384,489600,4,2,-2,False,1,1,True,True
+466807,Command R+,385,489600,4,2,-2,False,0,0,False,False
+466830,Command R+,386,489600,4,4,0,True,0,0,False,False
+466832,Command R+,387,489600,4,3,-1,False,0,0,False,False
+466849,Command R+,388,489600,4,3,-1,False,0,0,False,False
+466857,Command R+,389,489600,4,3,-1,False,0,0,False,False
+466860,Command R+,387,489600,4,4,0,True,1,1,True,True
+466863,Command R+,390,489600,4,2,-2,False,0,0,False,False
+466886,Command R+,391,489600,4,2,-2,False,0,0,False,False
+466914,Control,392,489600,4,4,0,True,0,0,False,False
+466969,Command R+,393,489600,4,4,0,True,0,0,False,False
+467048,Control,394,489600,4,3,-1,False,0,0,False,False
+467049,Control,394,489600,4,3,-1,False,0,0,False,False
+467086,Control,395,489600,4,4,0,True,1,1,True,True
+467088,Control,395,489600,4,4,0,True,1,1,True,True
+467350,Llama 3 70B,396,489600,4,3,-1,False,0,0,False,False
+467356,GPT 4o,397,489600,4,3,-1,False,2,2,True,True
+467363,GPT 4o,398,489600,4,3,-1,False,0,0,False,False
+467387,Llama 3 70B,399,489600,4,3,-1,False,1,1,True,True
+467414,Llama 3 70B,192,489600,4,3,-1,False,0,0,False,False
+467416,Llama 3 70B,400,489600,4,3,-1,False,0,0,False,False
+467429,GPT 4o,401,489600,4,3,-1,False,0,0,False,False
+467446,Llama 3 70B,402,489600,4,2,-2,False,0,0,False,False
+467450,GPT 4o,403,489600,4,4,0,True,1,1,True,True
+467463,Llama 3 70B,404,489600,4,4,0,True,0,0,False,False
+467483,GPT 4o,405,489600,4,3,-1,False,0,0,False,False
+467487,GPT 4o,406,489600,4,2,-2,False,0,0,False,False
+467491,GPT 4o,407,489600,4,2,-2,False,1,1,True,True
+467492,GPT 4o,408,489600,4,2,-2,False,0,0,False,False
+467494,Llama 3 70B,409,489600,4,3,-1,False,1,1,True,True
+467496,GPT 4o,410,489600,4,3,-1,False,0,0,False,False
+467531,GPT 4o,411,489600,4,2,-2,False,0,0,False,False
+467533,GPT 4o,412,489600,4,2,-2,False,1,1,True,True
+467551,GPT 4o,413,489600,4,3,-1,False,0,0,False,False
+467565,Llama 3 70B,414,489600,4,2,-2,False,0,0,False,False
+467573,GPT 4o,415,489600,4,3,-1,False,1,1,True,True
+467574,GPT 4o,416,489600,4,4,0,True,1,1,True,True
+467615,GPT 4o,208,489600,4,3,-1,False,2,2,True,True
+467627,GPT 4o,417,489600,4,2,-2,False,1,1,True,True
+467632,GPT 4o,418,489600,4,3,-1,False,1,1,True,True
+467642,Llama 3 70B,213,489600,4,2,-2,False,0,0,False,False
+467644,Llama 3 70B,419,489600,4,3,-1,False,0,0,False,False
+467668,Llama 3 70B,420,489600,4,2,-2,False,0,0,False,False
+467672,GPT 4o,216,489600,4,3,-1,False,0,0,False,False
+467676,GPT 4o,421,489600,4,3,-1,False,0,0,False,False
+467677,GPT 4o,215,489600,4,4,0,True,0,0,False,False
+467688,GPT 4o,422,489600,4,3,-1,False,2,2,True,True
+467720,Control,423,489600,4,2,-2,False,0,0,False,False
+467728,Command R+,424,489600,4,0,-4,False,0,0,False,False
+467738,Command R+,219,489600,4,2,-2,False,0,0,False,False
+467743,Command R+,425,489600,4,1,-3,False,0,0,False,False
+467754,Command R+,426,489600,4,2,-2,False,0,0,False,False
+467771,Control,427,489600,4,4,0,True,0,0,False,False
+467776,GPT 4o,428,489600,4,4,0,True,0,0,False,False
+467789,Llama 3 70B,429,489600,4,1,-3,False,0,0,False,False
+467791,Command R+,430,489600,4,3,-1,False,0,0,False,False
+467803,Llama 3 70B,431,489600,4,3,-1,False,0,0,False,False
+467804,GPT 4o,432,489600,4,2,-2,False,0,0,False,False
+467805,Control,433,489600,4,2,-2,False,2,2,True,True
+467813,GPT 4o,432,489600,4,2,-2,False,1,1,True,True
+467820,GPT 4o,434,489600,4,3,-1,False,0,0,False,False
+467832,Llama 3 70B,435,489600,4,2,-2,False,2,2,True,True
+464401,Llama 3 70B,436,489601,1,1,0,True,1,1,True,True
+464406,Llama 3 70B,436,489601,1,1,0,True,1,1,True,True
+464419,Llama 3 70B,437,489601,1,1,0,True,0,0,False,False
+464437,Llama 3 70B,438,489601,1,1,0,True,0,0,False,False
+464443,Llama 3 70B,439,489601,1,1,0,True,0,0,False,False
+464444,Llama 3 70B,440,489601,1,1,0,True,0,0,False,False
+464445,Llama 3 70B,441,489601,1,1,0,True,0,0,False,False
+464448,Llama 3 70B,442,489601,1,1,0,True,0,0,False,False
+464456,Llama 3 70B,443,489601,1,1,0,True,0,0,False,False
+464508,Llama 3 70B,444,489601,1,1,0,True,0,0,False,False
+464520,Llama 3 70B,20,489601,1,1,0,True,0,0,False,False
+464522,Llama 3 70B,445,489601,1,1,0,True,0,0,False,False
+464560,Llama 3 70B,446,489601,1,1,0,True,1,1,True,True
+464565,Llama 3 70B,447,489601,1,1,0,True,0,0,False,False
+464570,Llama 3 70B,448,489601,1,1,0,True,0,0,False,False
+464582,Llama 3 70B,449,489601,1,1,0,True,1,1,True,True
+464589,Llama 3 70B,21,489601,1,2,1,False,0,0,False,False
+464602,Llama 3 70B,450,489601,1,1,0,True,1,1,True,True
+464604,Llama 3 70B,451,489601,1,1,0,True,0,0,False,False
+464612,Llama 3 70B,452,489601,1,1,0,True,1,1,True,True
+464617,Llama 3 70B,453,489601,1,1,0,True,0,0,False,False
+464619,Llama 3 70B,7,489601,1,1,0,True,1,1,True,True
+464658,Llama 3 70B,454,489601,1,1,0,True,0,0,False,False
+464679,Llama 3 70B,455,489601,1,1,0,True,1,1,True,True
+464699,Llama 3 70B,456,489601,1,1,0,True,1,1,True,True
+464705,Llama 3 70B,457,489601,1,1,0,True,0,0,False,False
+464712,GPT 4o,458,489601,1,1,0,True,1,1,True,True
+464722,GPT 4o,459,489601,1,1,0,True,1,1,True,True
+464741,GPT 4o,460,489601,1,1,0,True,1,1,True,True
+464762,GPT 4o,461,489601,1,2,1,False,0,0,False,False
+464767,GPT 4o,458,489601,1,1,0,True,0,0,False,False
+464774,Llama 3 70B,462,489601,1,0,-1,False,0,0,False,False
+464795,Llama 3 70B,455,489601,1,1,0,True,0,0,False,False
+464806,Llama 3 70B,463,489601,1,1,0,True,0,0,False,False
+464824,GPT 4o,243,489601,1,1,0,True,1,1,True,True
+464839,Llama 3 70B,464,489601,1,1,0,True,1,1,True,True
+464841,Llama 3 70B,465,489601,1,2,1,False,0,0,False,False
+464853,Llama 3 70B,32,489601,1,1,0,True,1,1,True,True
+464870,Llama 3 70B,466,489601,1,1,0,True,0,0,False,False
+464876,GPT 4o,467,489601,1,1,0,True,0,0,False,False
+464884,Llama 3 70B,468,489601,1,1,0,True,0,0,False,False
+464897,Llama 3 70B,469,489601,1,1,0,True,0,0,False,False
+464905,GPT 4o,46,489601,1,1,0,True,1,1,True,True
+464919,Llama 3 70B,470,489601,1,2,1,False,1,1,True,True
+464920,GPT 4o,471,489601,1,1,0,True,1,1,True,True
+464939,Llama 3 70B,472,489601,1,2,1,False,0,0,False,False
+464941,Llama 3 70B,473,489601,1,1,0,True,0,0,False,False
+464946,GPT 4o,474,489601,1,1,0,True,0,0,False,False
+464961,GPT 4o,475,489601,1,1,0,True,0,0,False,False
+464967,GPT 4o,476,489601,1,2,1,False,1,1,True,True
+464990,GPT 4o,474,489601,1,1,0,True,0,0,False,False
+464991,GPT 4o,477,489601,1,1,0,True,0,0,False,False
+464999,GPT 4o,475,489601,1,1,0,True,0,0,False,False
+465023,GPT 4o,266,489601,1,1,0,True,0,0,False,False
+465027,GPT 4o,45,489601,1,1,0,True,0,0,False,False
+465041,GPT 4o,478,489601,1,1,0,True,0,0,False,False
+465055,GPT 4o,479,489601,1,1,0,True,1,2,True,True
+465056,GPT 4o,480,489601,1,1,0,True,0,0,False,False
+465081,GPT 4o,481,489601,1,1,0,True,0,0,False,False
+465125,GPT 4o,482,489601,1,1,0,True,0,0,False,False
+465352,GPT 4o,483,489601,1,1,0,True,1,1,True,True
+465353,GPT 4o,484,489601,1,1,0,True,0,0,False,False
+465362,GPT 4o,485,489601,1,1,0,True,0,0,False,False
+465365,GPT 4o,486,489601,1,1,0,True,1,1,True,True
+465374,GPT 4o,58,489601,1,1,0,True,1,1,True,True
+465392,GPT 4o,57,489601,1,1,0,True,1,1,True,True
+465409,GPT 4o,487,489601,1,1,0,True,0,0,False,False
+465417,GPT 4o,488,489601,1,1,0,True,0,0,False,False
+465418,GPT 4o,489,489601,1,1,0,True,0,0,False,False
+465439,GPT 4o,490,489601,1,1,0,True,0,0,False,False
+465443,GPT 4o,491,489601,1,1,0,True,1,1,True,True
+465447,GPT 4o,492,489601,1,1,0,True,1,1,True,True
+465453,GPT 4o,493,489601,1,2,1,False,1,1,True,True
+465487,GPT 4o,494,489601,1,1,0,True,0,0,False,False
+465488,GPT 4o,495,489601,1,1,0,True,0,0,False,False
+465493,GPT 4o,496,489601,1,2,1,False,0,0,False,False
+465494,GPT 4o,497,489601,1,1,0,True,1,1,True,True
+465521,GPT 4o,69,489601,1,1,0,True,1,1,True,True
+465538,GPT 4o,498,489601,1,2,1,False,0,0,False,False
+465547,Llama 3 70B,499,489601,1,1,0,True,1,1,True,True
+465562,GPT 4o,500,489601,1,2,1,False,0,0,False,False
+465573,Llama 3 70B,501,489601,1,1,0,True,0,0,False,False
+465576,GPT 4o,502,489601,1,1,0,True,1,1,True,True
+465589,Llama 3 70B,503,489601,1,2,1,False,0,0,False,False
+465601,Control,504,489601,1,1,0,True,0,0,False,False
+465604,Control,505,489601,1,1,0,True,0,0,False,False
+465610,Control,506,489601,1,1,0,True,1,1,True,True
+465614,Control,76,489601,1,1,0,True,1,1,True,True
+465620,Control,507,489601,1,1,0,True,1,1,True,True
+465628,Control,81,489601,1,1,0,True,1,1,True,True
+465631,Control,508,489601,1,1,0,True,1,1,True,True
+465633,Control,85,489601,1,1,0,True,1,1,True,True
+465647,Control,291,489601,1,1,0,True,1,1,True,True
+465651,Control,509,489601,1,1,0,True,0,0,False,False
+465658,Control,510,489601,1,1,0,True,0,0,False,False
+465663,Control,511,489601,1,1,0,True,1,1,True,True
+465669,Control,84,489601,1,1,0,True,1,1,True,True
+465683,Control,512,489601,1,0,-1,False,0,0,False,False
+465685,Control,513,489601,1,1,0,True,1,1,True,True
+465704,Control,514,489601,1,1,0,True,1,1,True,True
+465708,Control,515,489601,1,1,0,True,1,1,True,True
+465733,Control,516,489601,1,1,0,True,0,0,False,False
+465740,Control,517,489601,1,1,0,True,0,0,False,False
+465746,Control,518,489601,1,1,0,True,0,0,False,False
+465781,Control,519,489601,1,1,0,True,1,1,True,True
+465800,Control,520,489601,1,1,0,True,1,1,True,True
+465813,Control,521,489601,1,1,0,True,0,0,False,False
+465850,Control,522,489601,1,0,-1,False,0,0,False,False
+465855,Control,523,489601,1,1,0,True,0,0,False,False
+465861,Control,524,489601,1,1,0,True,1,1,True,True
+465863,Control,309,489601,1,1,0,True,0,0,False,False
+465870,Control,525,489601,1,1,0,True,1,1,True,True
+465884,Control,526,489601,1,1,0,True,1,1,True,True
+465931,Control,527,489601,1,1,0,True,1,1,True,True
+465951,Control,528,489601,1,1,0,True,1,1,True,True
+465961,Control,529,489601,1,0,-1,False,0,0,False,False
+465964,Control,530,489601,1,1,0,True,1,1,True,True
+465966,Control,531,489601,1,1,0,True,1,1,True,True
+465970,Control,320,489601,1,1,0,True,0,0,False,False
+465980,Control,532,489601,1,1,0,True,0,0,False,False
+465987,Control,113,489601,1,1,0,True,1,1,True,True
+466011,Control,315,489601,1,1,0,True,1,1,True,True
+466019,Control,533,489601,1,1,0,True,0,0,False,False
+466025,Control,534,489601,1,1,0,True,0,0,False,False
+466026,Control,533,489601,1,1,0,True,1,1,True,True
+466046,Control,535,489601,1,1,0,True,1,1,True,True
+466059,Control,536,489601,1,1,0,True,0,0,False,False
+466081,Control,537,489601,1,1,0,True,0,0,False,False
+466100,Control,337,489601,1,1,0,True,1,1,True,True
+466106,Control,334,489601,1,2,1,False,1,1,True,True
+466118,Control,538,489601,1,1,0,True,0,0,False,False
+466157,Control,126,489601,1,2,1,False,1,1,True,True
+466163,Control,539,489601,1,1,0,True,0,0,False,False
+466164,Control,540,489601,1,1,0,True,1,1,True,True
+466168,Control,541,489601,1,1,0,True,0,0,False,False
+466178,Control,541,489601,1,1,0,True,0,0,False,False
+466184,Control,542,489601,1,1,0,True,1,1,True,True
+466189,Control,338,489601,1,2,1,False,0,0,False,False
+466199,Control,543,489601,1,1,0,True,1,1,True,True
+466207,Control,544,489601,1,1,0,True,0,0,False,False
+466215,Control,545,489601,1,1,0,True,0,0,False,False
+466282,GPT 4o,546,489601,1,1,0,True,0,0,False,False
+466292,Command R+,547,489601,1,2,1,False,0,0,False,False
+466318,Command R+,342,489601,1,2,1,False,0,0,False,False
+466326,Command R+,548,489601,1,1,0,True,0,0,False,False
+466332,Command R+,141,489601,1,1,0,True,0,0,False,False
+466345,Command R+,549,489601,1,1,0,True,1,1,True,True
+466351,Command R+,550,489601,1,1,0,True,0,0,False,False
+466359,Command R+,551,489601,1,1,0,True,1,1,True,True
+466365,Command R+,552,489601,1,1,0,True,1,1,True,True
+466379,Command R+,553,489601,1,1,0,True,0,0,False,False
+466381,Command R+,554,489601,1,1,0,True,0,0,False,False
+466392,Command R+,555,489601,1,1,0,True,1,1,True,True
+466401,Command R+,556,489601,1,2,1,False,0,0,False,False
+466403,Command R+,134,489601,1,1,0,True,1,1,True,True
+466405,Command R+,557,489601,1,1,0,True,1,1,True,True
+466411,Command R+,136,489601,1,1,0,True,1,1,True,True
+466414,Command R+,558,489601,1,1,0,True,0,0,False,False
+466417,Command R+,559,489601,1,1,0,True,0,0,False,False
+466430,Command R+,343,489601,1,1,0,True,1,1,True,True
+466445,Command R+,560,489601,1,1,0,True,1,1,True,True
+466450,Command R+,361,489601,1,1,0,True,1,2,True,True
+466453,Command R+,561,489601,1,1,0,True,1,1,True,True
+466457,Command R+,562,489601,1,1,0,True,0,0,False,False
+466468,Command R+,563,489601,1,1,0,True,1,1,True,True
+466469,Command R+,564,489601,1,1,0,True,0,0,False,False
+466478,Command R+,365,489601,1,1,0,True,0,1,False,True
+466492,Command R+,565,489601,1,1,0,True,1,1,True,True
+466497,Command R+,377,489601,1,1,0,True,0,0,False,False
+466498,Command R+,566,489601,1,1,0,True,0,0,False,False
+466506,Command R+,567,489601,1,1,0,True,1,1,True,True
+466516,Command R+,154,489601,1,1,0,True,0,0,False,False
+466526,Command R+,350,489601,1,1,0,True,1,1,True,True
+466533,Command R+,568,489601,1,1,0,True,0,0,False,False
+466537,Command R+,569,489601,1,1,0,True,0,0,False,False
+466539,Command R+,570,489601,1,1,0,True,1,1,True,True
+466548,Command R+,148,489601,1,1,0,True,1,1,True,True
+466571,Command R+,571,489601,1,1,0,True,0,0,False,False
+466597,Command R+,564,489601,1,1,0,True,0,0,False,False
+466620,Command R+,360,489601,1,1,0,True,0,0,False,False
+466648,Command R+,572,489601,1,1,0,True,0,0,False,False
+466655,Command R+,573,489601,1,1,0,True,1,1,True,True
+466665,Command R+,574,489601,1,1,0,True,0,0,False,False
+466693,Command R+,575,489601,1,2,1,False,0,0,False,False
+466700,Command R+,158,489601,1,0,-1,False,1,1,True,True
+466712,Command R+,576,489601,1,1,0,True,1,2,True,True
+466717,Command R+,577,489601,1,1,0,True,0,0,False,False
+466725,Command R+,578,489601,1,1,0,True,1,1,True,True
+466729,Command R+,579,489601,1,1,0,True,1,1,True,True
+466737,Command R+,580,489601,1,1,0,True,1,1,True,True
+466742,Command R+,581,489601,1,1,0,True,1,1,True,True
+466758,Command R+,582,489601,1,1,0,True,0,0,False,False
+466769,Command R+,583,489601,1,1,0,True,0,0,False,False
+466782,Command R+,374,489601,1,1,0,True,1,1,True,True
+466789,Command R+,181,489601,1,1,0,True,1,1,True,True
+466798,Command R+,584,489601,1,0,-1,False,0,0,False,False
+466810,Command R+,585,489601,1,1,0,True,0,0,False,False
+466815,Command R+,174,489601,1,1,0,True,1,1,True,True
+466819,Command R+,586,489601,1,2,1,False,1,1,True,True
+466829,Command R+,587,489601,1,1,0,True,1,1,True,True
+466833,Command R+,588,489601,1,3,2,False,0,0,False,False
+466840,Command R+,179,489601,1,1,0,True,0,0,False,False
+466858,Command R+,589,489601,1,1,0,True,0,0,False,False
+466868,Command R+,390,489601,1,1,0,True,1,1,True,True
+466870,Command R+,590,489601,1,1,0,True,1,1,True,True
+466871,Command R+,389,489601,1,2,1,False,1,1,True,True
+466902,Control,591,489601,1,1,0,True,1,1,True,True
+466959,Llama 3 70B,592,489601,1,1,0,True,0,0,False,False
+466962,Command R+,593,489601,1,1,0,True,0,0,False,False
+466963,Command R+,187,489601,1,1,0,True,0,0,False,False
+467031,GPT 4o,594,489601,1,1,0,True,1,1,True,True
+467355,GPT 4o,595,489601,1,1,0,True,0,0,False,False
+467358,Llama 3 70B,596,489601,1,1,0,True,1,1,True,True
+467368,GPT 4o,597,489601,1,2,1,False,0,0,False,False
+467370,Llama 3 70B,598,489601,1,1,0,True,0,0,False,False
+467371,Llama 3 70B,599,489601,1,1,0,True,0,0,False,False
+467374,GPT 4o,600,489601,1,1,0,True,1,1,True,True
+467389,Llama 3 70B,601,489601,1,1,0,True,0,0,False,False
+467393,GPT 4o,406,489601,1,1,0,True,1,1,True,True
+467399,GPT 4o,401,489601,1,1,0,True,0,0,False,False
+467409,GPT 4o,602,489601,1,1,0,True,0,0,False,False
+467411,GPT 4o,202,489601,1,1,0,True,0,0,False,False
+467412,GPT 4o,603,489601,1,1,0,True,0,0,False,False
+467417,GPT 4o,604,489601,1,1,0,True,0,0,False,False
+467421,GPT 4o,605,489601,1,1,0,True,1,1,True,True
+467443,Llama 3 70B,606,489601,1,2,1,False,1,1,True,True
+467447,Llama 3 70B,607,489601,1,1,0,True,0,0,False,False
+467454,GPT 4o,410,489601,1,1,0,True,0,0,False,False
+467455,GPT 4o,405,489601,1,1,0,True,0,0,False,False
+467478,GPT 4o,608,489601,1,1,0,True,0,0,False,False
+467480,GPT 4o,609,489601,1,1,0,True,0,0,False,False
+467481,Llama 3 70B,610,489601,1,1,0,True,0,0,False,False
+467501,GPT 4o,608,489601,1,1,0,True,0,0,False,False
+467537,GPT 4o,611,489601,1,1,0,True,0,0,False,False
+467545,GPT 4o,612,489601,1,1,0,True,1,1,True,True
+467557,GPT 4o,613,489601,1,2,1,False,1,1,True,True
+467570,GPT 4o,614,489601,1,2,1,False,0,0,False,False
+467580,GPT 4o,615,489601,1,1,0,True,0,0,False,False
+467585,GPT 4o,209,489601,1,1,0,True,1,1,True,True
+467588,GPT 4o,616,489601,1,1,0,True,1,1,True,True
+467590,GPT 4o,617,489601,1,2,1,False,0,0,False,False
+467594,GPT 4o,413,489601,1,1,0,True,0,0,False,False
+467605,GPT 4o,618,489601,1,1,0,True,0,0,False,False
+467612,Llama 3 70B,619,489601,1,1,0,True,0,0,False,False
+467622,GPT 4o,415,489601,1,1,0,True,0,0,False,False
+467650,Llama 3 70B,620,489601,1,1,0,True,1,1,True,True
+467666,Llama 3 70B,621,489601,1,1,0,True,0,0,False,False
+467670,GPT 4o,622,489601,1,1,0,True,0,0,False,False
+467682,GPT 4o,623,489601,1,1,0,True,0,0,False,False
+467719,Control,624,489601,1,1,0,True,1,1,True,True
+467722,Control,625,489601,1,1,0,True,1,1,True,True
+467737,Command R+,218,489601,1,1,0,True,1,1,True,True
+467740,Command R+,626,489601,1,1,0,True,0,0,False,False
+467741,Command R+,627,489601,1,2,1,False,0,0,False,False
+467756,GPT 4o,628,489601,1,1,0,True,0,0,False,False
+467763,GPT 4o,220,489601,1,1,0,True,1,1,True,True
+467772,GPT 4o,629,489601,1,1,0,True,0,0,False,False
+467773,GPT 4o,221,489601,1,1,0,True,0,0,False,False
+467778,GPT 4o,629,489601,1,1,0,True,0,0,False,False
+467811,Llama 3 70B,630,489601,1,1,0,True,0,0,False,False
+467814,Control,433,489601,1,3,2,False,1,1,True,True
+467822,Llama 3 70B,631,489601,1,1,0,True,0,0,False,False
+464399,Llama 3 70B,0,489602,2,2,0,True,0,0,False,False
+464404,Llama 3 70B,632,489602,2,3,1,False,0,0,False,False
+464405,Llama 3 70B,633,489602,2,2,0,True,0,0,False,False
+464411,Llama 3 70B,634,489602,2,1,-1,False,0,0,False,False
+464413,Llama 3 70B,635,489602,2,2,0,True,0,0,False,False
+464433,Llama 3 70B,632,489602,2,3,1,False,0,0,False,False
+464455,Llama 3 70B,1,489602,2,2,0,True,0,0,False,False
+464461,Llama 3 70B,234,489602,2,2,0,True,1,1,True,True
+464463,Llama 3 70B,636,489602,2,4,2,False,0,0,False,False
+464467,Llama 3 70B,637,489602,2,2,0,True,0,1,False,True
+464478,Llama 3 70B,638,489602,2,2,0,True,0,0,False,False
+464479,Llama 3 70B,639,489602,2,3,1,False,0,0,False,False
+464483,Llama 3 70B,445,489602,2,1,-1,False,1,1,True,True
+464484,Llama 3 70B,640,489602,2,1,-1,False,0,0,False,False
+464486,Llama 3 70B,641,489602,2,1,-1,False,0,0,False,False
+464492,Llama 3 70B,238,489602,2,1,-1,False,0,0,False,False
+464497,Llama 3 70B,443,489602,2,1,-1,False,0,0,False,False
+464499,Llama 3 70B,642,489602,2,2,0,True,1,2,True,True
+464504,Llama 3 70B,228,489602,2,2,0,True,0,0,False,False
+464505,Llama 3 70B,643,489602,2,2,0,True,0,0,False,False
+464510,Llama 3 70B,644,489602,2,1,-1,False,1,1,True,True
+464513,Llama 3 70B,11,489602,2,1,-1,False,0,0,False,False
+464514,Llama 3 70B,645,489602,2,2,0,True,1,2,True,True
+464517,Llama 3 70B,646,489602,2,2,0,True,0,0,False,False
+464523,Llama 3 70B,647,489602,2,2,0,True,0,0,False,False
+464530,Llama 3 70B,648,489602,2,1,-1,False,0,0,False,False
+464531,Llama 3 70B,649,489602,2,3,1,False,0,0,False,False
+464534,Llama 3 70B,650,489602,2,1,-1,False,0,0,False,False
+464551,Llama 3 70B,651,489602,2,2,0,True,0,0,False,False
+464555,Llama 3 70B,652,489602,2,2,0,True,2,4,True,True
+464556,Llama 3 70B,22,489602,2,2,0,True,0,0,False,False
+464574,Llama 3 70B,441,489602,2,2,0,True,1,2,True,True
+464586,Llama 3 70B,18,489602,2,2,0,True,0,0,False,False
+464595,Llama 3 70B,653,489602,2,1,-1,False,0,0,False,False
+464600,Llama 3 70B,654,489602,2,2,0,True,0,0,False,False
+464645,Llama 3 70B,655,489602,2,2,0,True,0,0,False,False
+464653,Llama 3 70B,647,489602,2,2,0,True,1,2,True,True
+464655,Llama 3 70B,656,489602,2,3,1,False,0,0,False,False
+464662,Llama 3 70B,657,489602,2,2,0,True,0,0,False,False
+464664,Llama 3 70B,658,489602,2,3,1,False,0,0,False,False
+464665,Llama 3 70B,448,489602,2,2,0,True,0,0,False,False
+464683,Llama 3 70B,462,489602,2,2,0,True,0,0,False,False
+464686,GPT 4o,24,489602,2,2,0,True,0,0,False,False
+464688,Llama 3 70B,242,489602,2,2,0,True,0,0,False,False
+464693,Llama 3 70B,447,489602,2,2,0,True,0,0,False,False
+464702,Llama 3 70B,444,489602,2,3,1,False,0,0,False,False
+464707,Llama 3 70B,659,489602,2,2,0,True,0,0,False,False
+464708,Llama 3 70B,247,489602,2,1,-1,False,0,0,False,False
+464715,Llama 3 70B,660,489602,2,2,0,True,1,2,True,True
+464718,Llama 3 70B,654,489602,2,2,0,True,0,0,False,False
+464735,Llama 3 70B,661,489602,2,2,0,True,0,0,False,False
+464757,Llama 3 70B,15,489602,2,2,0,True,0,0,False,False
+464787,Llama 3 70B,662,489602,2,2,0,True,0,0,False,False
+464788,Llama 3 70B,663,489602,2,3,1,False,0,0,False,False
+464815,GPT 4o,664,489602,2,2,0,True,0,1,False,True
+464823,Llama 3 70B,665,489602,2,2,0,True,0,1,False,True
+464848,Llama 3 70B,246,489602,2,2,0,True,0,1,False,True
+464859,GPT 4o,666,489602,2,2,0,True,0,0,False,False
+464868,GPT 4o,37,489602,2,2,0,True,0,0,False,False
+464875,Llama 3 70B,667,489602,2,3,1,False,0,0,False,False
+464885,GPT 4o,47,489602,2,1,-1,False,0,0,False,False
+464890,Llama 3 70B,668,489602,2,1,-1,False,1,1,True,True
+464896,GPT 4o,669,489602,2,2,0,True,1,2,True,True
+464923,Llama 3 70B,259,489602,2,2,0,True,0,0,False,False
+464927,GPT 4o,253,489602,2,3,1,False,0,0,False,False
+464940,GPT 4o,670,489602,2,3,1,False,0,0,False,False
+464951,Llama 3 70B,671,489602,2,2,0,True,0,0,False,False
+464953,Llama 3 70B,672,489602,2,2,0,True,1,1,True,True
+464969,Llama 3 70B,673,489602,2,2,0,True,0,0,False,False
+465034,GPT 4o,674,489602,2,3,1,False,0,2,False,True
+465035,GPT 4o,477,489602,2,3,1,False,0,0,False,False
+465040,Llama 3 70B,675,489602,2,2,0,True,2,2,True,True
+465049,GPT 4o,676,489602,2,1,-1,False,0,1,False,True
+465050,GPT 4o,262,489602,2,2,0,True,0,0,False,False
+465059,GPT 4o,677,489602,2,1,-1,False,0,0,False,False
+465103,GPT 4o,678,489602,2,3,1,False,0,0,False,False
+465107,GPT 4o,679,489602,2,3,1,False,0,0,False,False
+465122,GPT 4o,478,489602,2,2,0,True,0,0,False,False
+465147,GPT 4o,680,489602,2,2,0,True,0,0,False,False
+465337,GPT 4o,681,489602,2,2,0,True,1,1,True,True
+465346,GPT 4o,682,489602,2,2,0,True,0,1,False,True
+465361,GPT 4o,683,489602,2,1,-1,False,0,0,False,False
+465382,GPT 4o,268,489602,2,3,1,False,0,0,False,False
+465414,GPT 4o,684,489602,2,2,0,True,0,0,False,False
+465421,GPT 4o,685,489602,2,2,0,True,2,3,True,True
+465436,GPT 4o,492,489602,2,2,0,True,0,0,False,False
+465438,GPT 4o,686,489602,2,2,0,True,0,0,False,False
+465464,GPT 4o,687,489602,2,2,0,True,0,0,False,False
+465469,GPT 4o,490,489602,2,2,0,True,0,0,False,False
+465472,GPT 4o,64,489602,2,2,0,True,0,0,False,False
+465475,GPT 4o,688,489602,2,3,1,False,0,0,False,False
+465492,GPT 4o,689,489602,2,2,0,True,0,0,False,False
+465503,GPT 4o,274,489602,2,3,1,False,0,0,False,False
+465524,GPT 4o,690,489602,2,2,0,True,0,1,False,True
+465528,GPT 4o,281,489602,2,4,2,False,0,0,False,False
+465536,GPT 4o,498,489602,2,0,-2,False,0,0,False,False
+465540,Llama 3 70B,691,489602,2,1,-1,False,0,0,False,False
+465564,GPT 4o,285,489602,2,2,0,True,0,0,False,False
+465627,Control,692,489602,2,1,-1,False,0,0,False,False
+465644,Control,693,489602,2,3,1,False,0,0,False,False
+465645,Control,694,489602,2,2,0,True,1,1,True,True
+465654,Control,695,489602,2,2,0,True,0,0,False,False
+465672,Control,292,489602,2,1,-1,False,0,1,False,True
+465673,Control,512,489602,2,1,-1,False,0,0,False,False
+465675,Control,696,489602,2,2,0,True,0,0,False,False
+465678,Control,509,489602,2,2,0,True,0,0,False,False
+465690,Control,697,489602,2,1,-1,False,0,1,False,True
+465710,Control,698,489602,2,3,1,False,1,2,True,True
+465713,Control,699,489602,2,2,0,True,0,0,False,False
+465721,Control,700,489602,2,3,1,False,0,0,False,False
+465753,Control,701,489602,2,2,0,True,0,0,False,False
+465762,Control,702,489602,2,2,0,True,0,0,False,False
+465777,Control,703,489602,2,3,1,False,0,0,False,False
+465791,Control,302,489602,2,2,0,True,0,1,False,True
+465799,Control,704,489602,2,1,-1,False,0,0,False,False
+465804,Control,97,489602,2,2,0,True,0,0,False,False
+465811,Control,705,489602,2,2,0,True,0,2,False,True
+465842,Control,307,489602,2,3,1,False,0,0,False,False
+465843,Control,105,489602,2,2,0,True,0,1,False,True
+465848,Control,83,489602,2,2,0,True,0,1,False,True
+465864,Control,304,489602,2,2,0,True,1,1,True,True
+465877,Control,706,489602,2,2,0,True,0,0,False,False
+465879,Control,109,489602,2,2,0,True,0,0,False,False
+465899,Control,707,489602,2,2,0,True,0,2,False,True
+465902,Control,708,489602,2,2,0,True,1,1,True,True
+465905,Control,529,489602,2,2,0,True,0,1,False,True
+465919,Control,523,489602,2,2,0,True,0,0,False,False
+465933,Control,709,489602,2,3,1,False,0,0,False,False
+465944,Control,710,489602,2,3,1,False,0,0,False,False
+465950,Control,711,489602,2,2,0,True,0,0,False,False
+465960,Control,712,489602,2,3,1,False,0,0,False,False
+465962,Control,322,489602,2,1,-1,False,0,0,False,False
+465975,Control,108,489602,2,3,1,False,0,0,False,False
+465998,Control,321,489602,2,3,1,False,0,0,False,False
+466003,Control,713,489602,2,1,-1,False,1,1,True,True
+466005,Control,526,489602,2,1,-1,False,2,2,True,True
+466027,Control,714,489602,2,1,-1,False,1,2,True,True
+466039,Control,715,489602,2,2,0,True,0,0,False,False
+466051,Control,716,489602,2,2,0,True,1,2,True,True
+466055,Control,530,489602,2,2,0,True,1,2,True,True
+466085,Control,716,489602,2,2,0,True,1,2,True,True
+466112,Control,717,489602,2,1,-1,False,0,0,False,False
+466113,Control,328,489602,2,1,-1,False,0,1,False,True
+466115,Control,718,489602,2,1,-1,False,0,0,False,False
+466120,Control,537,489602,2,2,0,True,0,0,False,False
+466121,Control,330,489602,2,2,0,True,0,0,False,False
+466153,Control,719,489602,2,1,-1,False,1,1,True,True
+466160,Control,720,489602,2,2,0,True,1,1,True,True
+466172,Control,721,489602,2,2,0,True,0,1,False,True
+466180,Control,722,489602,2,2,0,True,0,1,False,True
+466221,Control,723,489602,2,2,0,True,0,0,False,False
+466225,Control,724,489602,2,2,0,True,0,1,False,True
+466228,Llama 3 70B,725,489602,2,2,0,True,0,0,False,False
+466281,GPT 4o,546,489602,2,2,0,True,0,0,False,False
+466283,GPT 4o,726,489602,2,3,1,False,0,1,False,True
+466284,GPT 4o,726,489602,2,3,1,False,1,1,True,True
+466291,Command R+,727,489602,2,2,0,True,0,0,False,False
+466295,Command R+,728,489602,2,2,0,True,0,0,False,False
+466300,Command R+,729,489602,2,2,0,True,0,0,False,False
+466306,Command R+,730,489602,2,1,-1,False,0,0,False,False
+466310,Command R+,728,489602,2,1,-1,False,0,0,False,False
+466322,Command R+,731,489602,2,1,-1,False,0,0,False,False
+466353,Command R+,548,489602,2,1,-1,False,0,0,False,False
+466368,Command R+,732,489602,2,2,0,True,0,0,False,False
+466396,Command R+,355,489602,2,2,0,True,0,0,False,False
+466399,Command R+,733,489602,2,1,-1,False,0,1,False,True
+466409,Command R+,734,489602,2,2,0,True,0,0,False,False
+466415,Command R+,155,489602,2,2,0,True,0,0,False,False
+466416,Command R+,569,489602,2,1,-1,False,0,0,False,False
+466418,Command R+,735,489602,2,2,0,True,1,1,True,True
+466426,Command R+,357,489602,2,1,-1,False,0,0,False,False
+466428,Command R+,736,489602,2,2,0,True,0,1,False,True
+466435,Command R+,737,489602,2,2,0,True,0,0,False,False
+466436,Command R+,738,489602,2,2,0,True,2,2,True,True
+466441,Command R+,358,489602,2,2,0,True,0,0,False,False
+466455,Command R+,739,489602,2,2,0,True,0,0,False,False
+466460,Command R+,364,489602,2,2,0,True,1,1,True,True
+466463,Command R+,152,489602,2,3,1,False,0,0,False,False
+466479,Command R+,740,489602,2,2,0,True,0,0,False,False
+466483,Command R+,346,489602,2,1,-1,False,0,0,False,False
+466499,Command R+,373,489602,2,2,0,True,0,0,False,False
+466518,Command R+,741,489602,2,2,0,True,0,0,False,False
+466525,Command R+,351,489602,2,2,0,True,0,0,False,False
+466530,Command R+,742,489602,2,3,1,False,0,0,False,False
+466543,Command R+,580,489602,2,2,0,True,0,0,False,False
+466550,Command R+,143,489602,2,2,0,True,1,2,True,True
+466557,Command R+,743,489602,2,3,1,False,0,0,False,False
+466561,Command R+,744,489602,2,1,-1,False,0,0,False,False
+466566,Command R+,745,489602,2,2,0,True,0,0,False,False
+466570,Command R+,139,489602,2,2,0,True,0,0,False,False
+466582,Command R+,746,489602,2,2,0,True,1,4,True,True
+466602,Command R+,145,489602,2,1,-1,False,1,2,True,True
+466610,Command R+,566,489602,2,1,-1,False,0,0,False,False
+466621,Command R+,747,489602,2,2,0,True,0,0,False,False
+466652,Command R+,171,489602,2,2,0,True,0,0,False,False
+466670,Command R+,748,489602,2,2,0,True,0,0,False,False
+466690,Command R+,747,489602,2,2,0,True,0,0,False,False
+466691,Command R+,382,489602,2,2,0,True,0,0,False,False
+466698,Command R+,180,489602,2,2,0,True,1,1,True,True
+466703,Command R+,749,489602,2,2,0,True,0,0,False,False
+466720,Command R+,375,489602,2,1,-1,False,0,0,False,False
+466736,Command R+,584,489602,2,2,0,True,0,0,False,False
+466741,Command R+,371,489602,2,1,-1,False,0,0,False,False
+466775,Command R+,585,489602,2,2,0,True,0,0,False,False
+466788,Command R+,750,489602,2,3,1,False,0,0,False,False
+466790,Command R+,175,489602,2,1,-1,False,0,0,False,False
+466814,Command R+,170,489602,2,2,0,True,1,1,True,True
+466822,Command R+,388,489602,2,2,0,True,1,1,True,True
+466835,Command R+,751,489602,2,2,0,True,0,0,False,False
+466836,Command R+,752,489602,2,1,-1,False,1,1,True,True
+466846,Command R+,753,489602,2,2,0,True,0,0,False,False
+466848,Command R+,754,489602,2,1,-1,False,0,0,False,False
+466877,Command R+,589,489602,2,2,0,True,0,0,False,False
+466878,Command R+,755,489602,2,1,-1,False,0,0,False,False
+466889,Command R+,756,489602,2,2,0,True,1,1,True,True
+466899,Command R+,757,489602,2,1,-1,False,0,0,False,False
+466901,Control,591,489602,2,2,0,True,0,1,False,True
+466910,Command R+,758,489602,2,1,-1,False,1,2,True,True
+466961,Command R+,593,489602,2,1,-1,False,0,0,False,False
+467037,Control,188,489602,2,2,0,True,0,1,False,True
+467087,Command R+,759,489602,2,2,0,True,1,1,True,True
+467361,GPT 4o,597,489602,2,2,0,True,0,0,False,False
+467381,GPT 4o,760,489602,2,3,1,False,0,0,False,False
+467397,GPT 4o,761,489602,2,2,0,True,0,0,False,False
+467400,GPT 4o,398,489602,2,2,0,True,0,0,False,False
+467435,GPT 4o,761,489602,2,2,0,True,3,4,True,True
+467441,Llama 3 70B,762,489602,2,2,0,True,0,0,False,False
+467459,Llama 3 70B,763,489602,2,2,0,True,1,1,True,True
+467461,Llama 3 70B,764,489602,2,2,0,True,1,1,True,True
+467470,GPT 4o,196,489602,2,3,1,False,0,0,False,False
+467474,Llama 3 70B,400,489602,2,2,0,True,0,0,False,False
+467475,GPT 4o,765,489602,2,2,0,True,0,0,False,False
+467493,GPT 4o,616,489602,2,3,1,False,0,0,False,False
+467509,GPT 4o,612,489602,2,3,1,False,0,1,False,True
+467539,GPT 4o,207,489602,2,1,-1,False,0,0,False,False
+467556,GPT 4o,766,489602,2,2,0,True,1,3,True,True
+467558,GPT 4o,417,489602,2,2,0,True,0,0,False,False
+467563,GPT 4o,767,489602,2,3,1,False,1,2,True,True
+467579,Llama 3 70B,768,489602,2,2,0,True,0,0,False,False
+467587,GPT 4o,769,489602,2,2,0,True,1,1,True,True
+467626,GPT 4o,770,489602,2,2,0,True,1,1,True,True
+467633,GPT 4o,771,489602,2,3,1,False,1,1,True,True
+467664,Llama 3 70B,772,489602,2,2,0,True,0,0,False,False
+467687,GPT 4o,422,489602,2,3,1,False,2,3,True,True
+467715,Control,423,489602,2,0,-2,False,0,0,False,False
+467785,GPT 4o,225,489602,2,3,1,False,3,3,True,True
+467830,Llama 3 70B,773,489602,2,2,0,True,0,1,False,True
+464407,Llama 3 70B,774,489603,3,2,-1,False,0,0,False,False
+464422,Llama 3 70B,775,489603,3,1,-2,False,0,0,False,False
+464428,Llama 3 70B,776,489603,3,1,-2,False,0,0,False,False
+464434,Llama 3 70B,635,489603,3,4,1,False,0,0,False,False
+464435,Llama 3 70B,775,489603,3,1,-2,False,0,0,False,False
+464458,Llama 3 70B,777,489603,3,3,0,True,0,0,False,False
+464472,Llama 3 70B,235,489603,3,1,-2,False,0,1,False,True
+464493,Llama 3 70B,439,489603,3,3,0,True,0,0,False,False
+464506,Llama 3 70B,778,489603,3,2,-1,False,0,0,False,False
+464544,Llama 3 70B,779,489603,3,2,-1,False,1,3,True,True
+464546,Llama 3 70B,17,489603,3,2,-1,False,1,1,True,True
+464549,Llama 3 70B,640,489603,3,2,-1,False,0,0,False,False
+464606,Llama 3 70B,643,489603,3,2,-1,False,0,0,False,False
+464616,Llama 3 70B,231,489603,3,2,-1,False,0,0,False,False
+464639,Llama 3 70B,639,489603,3,3,0,True,1,1,True,True
+464650,Llama 3 70B,780,489603,3,1,-2,False,1,1,True,True
+464659,Llama 3 70B,645,489603,3,2,-1,False,1,2,True,True
+464669,Llama 3 70B,245,489603,3,3,0,True,1,2,True,True
+464674,GPT 4o,781,489603,3,3,0,True,0,0,False,False
+464678,Llama 3 70B,782,489603,3,2,-1,False,0,0,False,False
+464690,Llama 3 70B,237,489603,3,2,-1,False,0,0,False,False
+464701,Llama 3 70B,783,489603,3,2,-1,False,0,0,False,False
+464711,Llama 3 70B,784,489603,3,2,-1,False,0,0,False,False
+464713,Llama 3 70B,34,489603,3,3,0,True,0,0,False,False
+464726,GPT 4o,781,489603,3,3,0,True,0,0,False,False
+464792,Llama 3 70B,785,489603,3,3,0,True,1,1,True,True
+464828,Llama 3 70B,23,489603,3,3,0,True,0,0,False,False
+464832,Llama 3 70B,258,489603,3,3,0,True,0,0,False,False
+464838,GPT 4o,786,489603,3,3,0,True,0,0,False,False
+464840,Llama 3 70B,787,489603,3,1,-2,False,1,1,True,True
+464845,GPT 4o,788,489603,3,2,-1,False,0,0,False,False
+464849,Llama 3 70B,468,489603,3,2,-1,False,0,0,False,False
+464851,GPT 4o,36,489603,3,3,0,True,0,0,False,False
+464857,Llama 3 70B,789,489603,3,3,0,True,1,1,True,True
+464892,GPT 4o,790,489603,3,2,-1,False,0,0,False,False
+464893,Llama 3 70B,791,489603,3,2,-1,False,0,0,False,False
+464899,Llama 3 70B,792,489603,3,2,-1,False,1,1,True,True
+464902,GPT 4o,793,489603,3,3,0,True,0,0,False,False
+464909,GPT 4o,263,489603,3,2,-1,False,0,0,False,False
+464924,GPT 4o,794,489603,3,3,0,True,1,1,True,True
+464929,GPT 4o,252,489603,3,2,-1,False,0,0,False,False
+464950,GPT 4o,795,489603,3,1,-2,False,0,0,False,False
+464956,Llama 3 70B,796,489603,3,2,-1,False,0,1,False,True
+464970,Llama 3 70B,797,489603,3,2,-1,False,0,1,False,True
+464974,GPT 4o,41,489603,3,2,-1,False,0,1,False,True
+464988,GPT 4o,43,489603,3,3,0,True,1,1,True,True
+464995,Llama 3 70B,798,489603,3,3,0,True,2,2,True,True
+465000,GPT 4o,799,489603,3,2,-1,False,1,1,True,True
+465013,GPT 4o,676,489603,3,2,-1,False,0,0,False,False
+465037,Llama 3 70B,800,489603,3,4,1,False,0,0,False,False
+465048,GPT 4o,260,489603,3,3,0,True,1,1,True,True
+465052,GPT 4o,801,489603,3,2,-1,False,0,1,False,True
+465061,GPT 4o,471,489603,3,3,0,True,1,1,True,True
+465064,Llama 3 70B,802,489603,3,3,0,True,1,2,True,True
+465070,GPT 4o,803,489603,3,3,0,True,1,1,True,True
+465071,GPT 4o,674,489603,3,3,0,True,0,0,False,False
+465083,GPT 4o,799,489603,3,2,-1,False,1,1,True,True
+465093,GPT 4o,804,489603,3,3,0,True,1,1,True,True
+465108,GPT 4o,805,489603,3,2,-1,False,0,0,False,False
+465118,GPT 4o,806,489603,3,2,-1,False,0,0,False,False
+465385,GPT 4o,807,489603,3,3,0,True,0,0,False,False
+465395,Llama 3 70B,808,489603,3,3,0,True,0,0,False,False
+465399,Llama 3 70B,60,489603,3,3,0,True,1,1,True,True
+465400,Llama 3 70B,59,489603,3,3,0,True,0,0,False,False
+465404,Llama 3 70B,809,489603,3,2,-1,False,1,2,True,True
+465405,Llama 3 70B,809,489603,3,2,-1,False,1,2,True,True
+465432,GPT 4o,810,489603,3,2,-1,False,0,0,False,False
+465452,GPT 4o,688,489603,3,3,0,True,0,1,False,True
+465457,GPT 4o,66,489603,3,3,0,True,0,0,False,False
+465461,GPT 4o,811,489603,3,1,-2,False,1,1,True,True
+465468,GPT 4o,812,489603,3,2,-1,False,0,0,False,False
+465474,GPT 4o,275,489603,3,2,-1,False,1,2,True,True
+465501,GPT 4o,278,489603,3,2,-1,False,0,0,False,False
+465510,GPT 4o,813,489603,3,3,0,True,0,0,False,False
+465522,GPT 4o,814,489603,3,2,-1,False,1,1,True,True
+465525,GPT 4o,280,489603,3,2,-1,False,0,0,False,False
+465529,GPT 4o,815,489603,3,3,0,True,0,0,False,False
+465559,Llama 3 70B,72,489603,3,3,0,True,1,1,True,True
+465600,Control,77,489603,3,2,-1,False,0,0,False,False
+465605,Control,816,489603,3,2,-1,False,0,0,False,False
+465612,Control,817,489603,3,2,-1,False,0,0,False,False
+465626,Control,297,489603,3,2,-1,False,0,0,False,False
+465638,Control,818,489603,3,2,-1,False,0,1,False,True
+465680,Control,819,489603,3,2,-1,False,0,0,False,False
+465689,Control,820,489603,3,2,-1,False,0,1,False,True
+465701,Control,821,489603,3,1,-2,False,1,1,True,True
+465716,Control,822,489603,3,2,-1,False,0,0,False,False
+465741,Control,513,489603,3,2,-1,False,0,0,False,False
+465743,Control,823,489603,3,2,-1,False,1,2,True,True
+465755,Control,698,489603,3,2,-1,False,0,1,False,True
+465757,Control,824,489603,3,3,0,True,1,1,True,True
+465785,Control,825,489603,3,2,-1,False,0,0,False,False
+465788,Control,96,489603,3,3,0,True,0,0,False,False
+465795,Control,310,489603,3,2,-1,False,0,0,False,False
+465824,Control,300,489603,3,2,-1,False,1,2,True,True
+465845,Control,826,489603,3,2,-1,False,0,0,False,False
+465846,Control,827,489603,3,2,-1,False,1,1,True,True
+465847,Control,828,489603,3,2,-1,False,1,2,True,True
+465854,Control,829,489603,3,2,-1,False,0,0,False,False
+465894,Control,527,489603,3,3,0,True,0,0,False,False
+465900,Control,830,489603,3,2,-1,False,1,2,True,True
+465906,Control,831,489603,3,2,-1,False,0,0,False,False
+465912,Control,532,489603,3,2,-1,False,0,0,False,False
+465914,Control,100,489603,3,2,-1,False,1,1,True,True
+465916,Control,832,489603,3,2,-1,False,1,2,True,True
+465930,Control,524,489603,3,3,0,True,1,1,True,True
+465946,Control,833,489603,3,2,-1,False,1,2,True,True
+465965,Control,106,489603,3,2,-1,False,1,1,True,True
+465968,Control,834,489603,3,2,-1,False,1,1,True,True
+465973,Control,325,489603,3,2,-1,False,1,1,True,True
+465988,Control,835,489603,3,3,0,True,1,1,True,True
+466017,Control,836,489603,3,3,0,True,0,0,False,False
+466021,Control,837,489603,3,3,0,True,0,0,False,False
+466028,Control,838,489603,3,3,0,True,1,1,True,True
+466036,Control,118,489603,3,2,-1,False,0,0,False,False
+466063,Control,714,489603,3,2,-1,False,1,1,True,True
+466064,Control,104,489603,3,2,-1,False,0,0,False,False
+466097,Control,839,489603,3,3,0,True,1,1,True,True
+466102,Control,122,489603,3,3,0,True,0,0,False,False
+466105,Control,840,489603,3,3,0,True,0,0,False,False
+466107,Control,841,489603,3,3,0,True,2,3,True,True
+466110,Control,117,489603,3,1,-2,False,0,1,False,True
+466117,Control,842,489603,3,2,-1,False,0,0,False,False
+466141,Control,718,489603,3,3,0,True,0,0,False,False
+466143,Control,842,489603,3,2,-1,False,0,0,False,False
+466150,Control,539,489603,3,4,1,False,0,0,False,False
+466162,Control,843,489603,3,2,-1,False,1,1,True,True
+466218,Control,545,489603,3,2,-1,False,0,0,False,False
+466227,GPT 4o,844,489603,3,4,1,False,2,3,True,True
+466229,Llama 3 70B,725,489603,3,3,0,True,0,0,False,False
+466290,Command R+,845,489603,3,3,0,True,0,0,False,False
+466293,Command R+,846,489603,3,3,0,True,0,0,False,False
+466303,Command R+,845,489603,3,3,0,True,0,1,False,True
+466304,Command R+,847,489603,3,2,-1,False,1,1,True,True
+466312,Command R+,733,489603,3,2,-1,False,0,0,False,False
+466314,Command R+,848,489603,3,1,-2,False,0,1,False,True
+466356,Command R+,849,489603,3,2,-1,False,0,0,False,False
+466357,Command R+,850,489603,3,1,-2,False,1,1,True,True
+466358,Command R+,851,489603,3,1,-2,False,0,0,False,False
+466420,Command R+,852,489603,3,1,-2,False,0,0,False,False
+466429,Command R+,853,489603,3,2,-1,False,1,1,True,True
+466432,Command R+,854,489603,3,3,0,True,0,0,False,False
+466434,Command R+,855,489603,3,3,0,True,1,1,True,True
+466440,Command R+,856,489603,3,2,-1,False,0,0,False,False
+466444,Command R+,347,489603,3,2,-1,False,1,2,True,True
+466461,Command R+,857,489603,3,2,-1,False,0,0,False,False
+466462,Command R+,858,489603,3,2,-1,False,0,1,False,True
+466473,Command R+,859,489603,3,2,-1,False,0,0,False,False
+466477,Command R+,860,489603,3,2,-1,False,0,0,False,False
+466487,Command R+,861,489603,3,3,0,True,0,0,False,False
+466507,Command R+,162,489603,3,1,-2,False,2,2,True,True
+466521,Command R+,554,489603,3,2,-1,False,0,0,False,False
+466540,Command R+,551,489603,3,2,-1,False,0,0,False,False
+466565,Command R+,862,489603,3,2,-1,False,1,2,True,True
+466575,Command R+,863,489603,3,2,-1,False,1,1,True,True
+466606,Command R+,864,489603,3,2,-1,False,0,0,False,False
+466607,Command R+,168,489603,3,2,-1,False,0,0,False,False
+466613,Command R+,865,489603,3,2,-1,False,1,1,True,True
+466619,Command R+,370,489603,3,2,-1,False,0,1,False,True
+466624,Command R+,574,489603,3,1,-2,False,0,0,False,False
+466625,Command R+,866,489603,3,2,-1,False,0,0,False,False
+466629,Command R+,867,489603,3,3,0,True,0,0,False,False
+466631,Command R+,868,489603,3,3,0,True,0,0,False,False
+466676,Command R+,869,489603,3,3,0,True,0,0,False,False
+466687,Command R+,362,489603,3,3,0,True,0,0,False,False
+466689,Command R+,571,489603,3,2,-1,False,0,0,False,False
+466694,Command R+,746,489603,3,2,-1,False,1,2,True,True
+466695,Command R+,750,489603,3,3,0,True,0,0,False,False
+466740,Command R+,870,489603,3,3,0,True,0,0,False,False
+466745,Command R+,871,489603,3,1,-2,False,0,0,False,False
+466749,Command R+,872,489603,3,2,-1,False,0,0,False,False
+466753,Command R+,873,489603,3,3,0,True,0,0,False,False
+466757,Command R+,874,489603,3,3,0,True,0,0,False,False
+466767,Command R+,875,489603,3,2,-1,False,1,1,True,True
+466773,Command R+,876,489603,3,2,-1,False,0,0,False,False
+466813,Command R+,877,489603,3,3,0,True,1,1,True,True
+466817,Command R+,878,489603,3,2,-1,False,0,0,False,False
+466841,Command R+,879,489603,3,3,0,True,0,0,False,False
+466843,Command R+,880,489603,3,2,-1,False,0,0,False,False
+466850,Command R+,881,489603,3,3,0,True,0,0,False,False
+466854,Command R+,183,489603,3,2,-1,False,0,0,False,False
+466855,Command R+,587,489603,3,2,-1,False,0,0,False,False
+466880,Command R+,882,489603,3,2,-1,False,0,0,False,False
+466887,Command R+,883,489603,3,2,-1,False,0,0,False,False
+466890,Command R+,391,489603,3,2,-1,False,0,1,False,True
+467032,GPT 4o,594,489603,3,2,-1,False,1,1,True,True
+467044,GPT 4o,189,489603,3,2,-1,False,1,1,True,True
+467360,GPT 4o,884,489603,3,3,0,True,0,0,False,False
+467364,Llama 3 70B,599,489603,3,3,0,True,0,0,False,False
+467367,GPT 4o,760,489603,3,3,0,True,0,0,False,False
+467376,GPT 4o,885,489603,3,3,0,True,0,0,False,False
+467383,Llama 3 70B,886,489603,3,2,-1,False,0,0,False,False
+467390,Llama 3 70B,887,489603,3,3,0,True,0,0,False,False
+467408,Llama 3 70B,888,489603,3,3,0,True,0,0,False,False
+467420,GPT 4o,197,489603,3,3,0,True,1,1,True,True
+467456,Llama 3 70B,889,489603,3,2,-1,False,1,2,True,True
+467467,GPT 4o,890,489603,3,2,-1,False,0,0,False,False
+467473,GPT 4o,891,489603,3,4,1,False,0,0,False,False
+467488,Llama 3 70B,889,489603,3,1,-2,False,0,0,False,False
+467490,GPT 4o,890,489603,3,1,-2,False,0,0,False,False
+467510,GPT 4o,200,489603,3,3,0,True,0,0,False,False
+467511,Llama 3 70B,610,489603,3,2,-1,False,0,0,False,False
+467517,GPT 4o,892,489603,3,3,0,True,0,0,False,False
+467526,GPT 4o,893,489603,3,1,-2,False,0,0,False,False
+467538,Llama 3 70B,894,489603,3,2,-1,False,0,0,False,False
+467553,Llama 3 70B,895,489603,3,2,-1,False,0,0,False,False
+467575,GPT 4o,411,489603,3,2,-1,False,0,0,False,False
+467602,Llama 3 70B,896,489603,3,3,0,True,0,0,False,False
+467606,Llama 3 70B,897,489603,3,1,-2,False,0,0,False,False
+467607,GPT 4o,898,489603,3,3,0,True,0,0,False,False
+467616,Llama 3 70B,896,489603,3,3,0,True,0,0,False,False
+467620,Llama 3 70B,899,489603,3,3,0,True,1,1,True,True
+467624,GPT 4o,618,489603,3,2,-1,False,0,0,False,False
+467634,GPT 4o,210,489603,3,2,-1,False,0,0,False,False
+467683,Llama 3 70B,900,489603,3,2,-1,False,1,2,True,True
+467712,Control,901,489603,3,2,-1,False,1,1,True,True
+467716,Control,902,489603,3,2,-1,False,2,3,True,True
+467746,Command R+,425,489603,3,2,-1,False,0,0,False,False
+467750,GPT 4o,628,489603,3,3,0,True,0,0,False,False
+467759,Command R+,903,489603,3,3,0,True,0,0,False,False
+467760,GPT 4o,222,489603,3,1,-2,False,0,0,False,False
+467780,Command R+,903,489603,3,3,0,True,0,0,False,False
+467792,Llama 3 70B,431,489603,3,2,-1,False,0,0,False,False
+467815,GPT 4o,904,489603,3,3,0,True,2,3,True,True
+467817,Llama 3 70B,905,489603,3,2,-1,False,0,0,False,False
+467821,Llama 3 70B,906,489603,3,2,-1,False,0,0,False,False
+467824,Llama 3 70B,907,489603,3,1,-2,False,0,0,False,False
+467834,Llama 3 70B,908,489603,3,3,0,True,0,0,False,False
+464402,Llama 3 70B,909,489604,1,1,0,True,0,0,False,False
+464414,Llama 3 70B,910,489604,1,1,0,True,0,0,False,False
+464416,Llama 3 70B,642,489604,1,2,1,False,0,0,False,False
+464424,Llama 3 70B,911,489604,1,1,0,True,0,0,False,False
+464425,Llama 3 70B,633,489604,1,2,1,False,0,0,False,False
+464442,Llama 3 70B,911,489604,1,1,0,True,0,0,False,False
+464498,Llama 3 70B,437,489604,1,1,0,True,0,0,False,False
+464524,Llama 3 70B,912,489604,1,1,0,True,0,0,False,False
+464550,Llama 3 70B,777,489604,1,2,1,False,0,0,False,False
+464553,Llama 3 70B,913,489604,1,1,0,True,0,0,False,False
+464575,Llama 3 70B,442,489604,1,2,1,False,1,1,True,True
+464583,Llama 3 70B,660,489604,1,2,1,False,0,0,False,False
+464591,Llama 3 70B,641,489604,1,3,2,False,0,0,False,False
+464594,Llama 3 70B,655,489604,1,1,0,True,0,0,False,False
+464613,Llama 3 70B,914,489604,1,1,0,True,0,0,False,False
+464623,Llama 3 70B,915,489604,1,1,0,True,0,0,False,False
+464635,Llama 3 70B,916,489604,1,2,1,False,0,0,False,False
+464640,Llama 3 70B,917,489604,1,1,0,True,0,0,False,False
+464644,Llama 3 70B,918,489604,1,2,1,False,0,0,False,False
+464646,Llama 3 70B,651,489604,1,1,0,True,0,0,False,False
+464648,Llama 3 70B,919,489604,1,1,0,True,2,2,True,True
+464680,Llama 3 70B,28,489604,1,2,1,False,0,0,False,False
+464704,Llama 3 70B,33,489604,1,1,0,True,0,0,False,False
+464709,Llama 3 70B,920,489604,1,2,1,False,0,0,False,False
+464717,Llama 3 70B,921,489604,1,0,-1,False,0,0,False,False
+464728,Llama 3 70B,451,489604,1,2,1,False,0,0,False,False
+464730,Llama 3 70B,251,489604,1,1,0,True,0,0,False,False
+464738,Llama 3 70B,922,489604,1,2,1,False,0,0,False,False
+464742,Llama 3 70B,923,489604,1,2,1,False,0,0,False,False
+464752,Llama 3 70B,914,489604,1,1,0,True,2,3,True,True
+464764,Llama 3 70B,924,489604,1,1,0,True,0,0,False,False
+464768,Llama 3 70B,925,489604,1,1,0,True,0,0,False,False
+464780,GPT 4o,241,489604,1,2,1,False,0,0,False,False
+464791,GPT 4o,926,489604,1,2,1,False,1,1,True,True
+464803,Llama 3 70B,469,489604,1,1,0,True,0,0,False,False
+464816,GPT 4o,927,489604,1,0,-1,False,0,0,False,False
+464829,GPT 4o,928,489604,1,3,2,False,0,0,False,False
+464831,Llama 3 70B,929,489604,1,1,0,True,0,0,False,False
+464836,Llama 3 70B,922,489604,1,3,2,False,0,0,False,False
+464856,GPT 4o,261,489604,1,2,1,False,0,0,False,False
+464860,Llama 3 70B,930,489604,1,2,1,False,2,2,True,True
+464925,GPT 4o,931,489604,1,1,0,True,0,0,False,False
+464947,Llama 3 70B,932,489604,1,1,0,True,0,0,False,False
+464959,GPT 4o,467,489604,1,3,2,False,1,1,True,True
+464965,Llama 3 70B,933,489604,1,2,1,False,0,0,False,False
+465031,GPT 4o,38,489604,1,2,1,False,1,2,True,True
+465043,GPT 4o,934,489604,1,2,1,False,0,1,False,True
+465053,GPT 4o,935,489604,1,1,0,True,0,0,False,False
+465066,GPT 4o,936,489604,1,2,1,False,0,0,False,False
+465067,Llama 3 70B,937,489604,1,2,1,False,0,0,False,False
+465076,GPT 4o,938,489604,1,1,0,True,0,0,False,False
+465087,GPT 4o,939,489604,1,1,0,True,0,0,False,False
+465148,GPT 4o,677,489604,1,1,0,True,0,0,False,False
+465340,GPT 4o,940,489604,1,1,0,True,0,0,False,False
+465354,GPT 4o,941,489604,1,1,0,True,0,0,False,False
+465357,GPT 4o,942,489604,1,2,1,False,0,0,False,False
+465371,Llama 3 70B,943,489604,1,4,3,False,0,0,False,False
+465388,GPT 4o,55,489604,1,2,1,False,1,1,True,True
+465407,GPT 4o,269,489604,1,3,2,False,0,0,False,False
+465411,Llama 3 70B,944,489604,1,2,1,False,0,0,False,False
+465424,GPT 4o,488,489604,1,3,2,False,0,0,False,False
+465427,GPT 4o,945,489604,1,1,0,True,0,0,False,False
+465437,GPT 4o,946,489604,1,1,0,True,0,0,False,False
+465441,GPT 4o,271,489604,1,2,1,False,0,0,False,False
+465456,GPT 4o,810,489604,1,1,0,True,0,0,False,False
+465465,GPT 4o,947,489604,1,2,1,False,0,0,False,False
+465480,GPT 4o,948,489604,1,3,2,False,0,0,False,False
+465518,GPT 4o,814,489604,1,2,1,False,1,2,True,True
+465532,Llama 3 70B,691,489604,1,1,0,True,0,0,False,False
+465542,GPT 4o,71,489604,1,1,0,True,1,1,True,True
+465558,GPT 4o,949,489604,1,2,1,False,1,2,True,True
+465565,GPT 4o,950,489604,1,4,3,False,0,0,False,False
+465568,GPT 4o,500,489604,1,2,1,False,0,0,False,False
+465570,GPT 4o,286,489604,1,1,0,True,0,0,False,False
+465583,GPT 4o,951,489604,1,2,1,False,0,0,False,False
+465591,Llama 3 70B,952,489604,1,3,2,False,0,0,False,False
+465592,Llama 3 70B,952,489604,1,3,2,False,2,2,True,True
+465593,Llama 3 70B,953,489604,1,2,1,False,0,0,False,False
+465606,Control,954,489604,1,1,0,True,0,0,False,False
+465621,Control,955,489604,1,1,0,True,1,2,True,True
+465625,Control,956,489604,1,3,2,False,1,1,True,True
+465629,Control,817,489604,1,1,0,True,0,0,False,False
+465630,Control,957,489604,1,1,0,True,0,0,False,False
+465655,Control,299,489604,1,1,0,True,0,0,False,False
+465666,Control,958,489604,1,2,1,False,1,1,True,True
+465691,Control,958,489604,1,2,1,False,1,1,True,True
+465697,Control,818,489604,1,1,0,True,0,0,False,False
+465714,Control,705,489604,1,2,1,False,1,2,True,True
+465726,Control,959,489604,1,0,-1,False,2,2,True,True
+465732,Control,960,489604,1,1,0,True,0,0,False,False
+465769,Control,960,489604,1,1,0,True,0,0,False,False
+465770,Control,99,489604,1,2,1,False,2,2,True,True
+465774,Control,87,489604,1,1,0,True,0,0,False,False
+465780,Control,961,489604,1,1,0,True,0,0,False,False
+465789,Control,962,489604,1,3,2,False,0,0,False,False
+465808,Control,305,489604,1,1,0,True,1,1,True,True
+465810,Control,103,489604,1,2,1,False,0,0,False,False
+465833,Control,963,489604,1,1,0,True,0,0,False,False
+465841,Control,708,489604,1,1,0,True,1,2,True,True
+465857,Control,963,489604,1,1,0,True,0,0,False,False
+465869,Control,964,489604,1,2,1,False,0,0,False,False
+465872,Control,965,489604,1,1,0,True,1,1,True,True
+465889,Control,308,489604,1,3,2,False,2,3,True,True
+465891,Control,966,489604,1,2,1,False,0,0,False,False
+465896,Control,837,489604,1,2,1,False,0,0,False,False
+465920,Control,967,489604,1,1,0,True,0,0,False,False
+465925,Control,968,489604,1,1,0,True,0,0,False,False
+465955,Control,968,489604,1,1,0,True,0,0,False,False
+465956,Control,967,489604,1,0,-1,False,0,0,False,False
+465967,Control,830,489604,1,1,0,True,1,1,True,True
+465972,Control,969,489604,1,1,0,True,0,0,False,False
+465974,Control,712,489604,1,1,0,True,0,0,False,False
+465976,Llama 3 70B,970,489604,1,1,0,True,0,0,False,False
+465990,Control,110,489604,1,1,0,True,0,1,False,True
+465992,Control,318,489604,1,1,0,True,1,1,True,True
+465996,Control,971,489604,1,2,1,False,0,0,False,False
+466014,Control,313,489604,1,1,0,True,1,1,True,True
+466041,Control,972,489604,1,0,-1,False,0,0,False,False
+466066,Control,973,489604,1,1,0,True,0,0,False,False
+466075,Control,536,489604,1,3,2,False,0,0,False,False
+466076,Control,974,489604,1,2,1,False,0,0,False,False
+466086,Control,975,489604,1,1,0,True,0,0,False,False
+466088,Control,974,489604,1,2,1,False,0,0,False,False
+466092,Control,976,489604,1,1,0,True,0,0,False,False
+466095,Control,540,489604,1,1,0,True,0,0,False,False
+466099,Control,977,489604,1,1,0,True,0,0,False,False
+466129,Control,978,489604,1,1,0,True,0,0,False,False
+466133,Control,717,489604,1,1,0,True,0,0,False,False
+466148,Control,978,489604,1,1,0,True,0,0,False,False
+466166,Control,335,489604,1,1,0,True,0,0,False,False
+466177,Control,979,489604,1,1,0,True,1,1,True,True
+466181,Control,980,489604,1,2,1,False,0,0,False,False
+466224,Control,724,489604,1,2,1,False,0,0,False,False
+466279,GPT 4o,981,489604,1,1,0,True,0,0,False,False
+466288,Command R+,730,489604,1,1,0,True,0,0,False,False
+466319,Command R+,982,489604,1,1,0,True,0,0,False,False
+466333,Command R+,983,489604,1,1,0,True,0,0,False,False
+466350,Command R+,984,489604,1,1,0,True,0,0,False,False
+466361,Command R+,557,489604,1,2,1,False,0,0,False,False
+466371,Command R+,985,489604,1,2,1,False,0,0,False,False
+466374,Command R+,986,489604,1,1,0,True,1,1,True,True
+466375,Command R+,987,489604,1,2,1,False,0,0,False,False
+466377,Command R+,988,489604,1,0,-1,False,0,0,False,False
+466378,Command R+,989,489604,1,1,0,True,0,0,False,False
+466433,Command R+,367,489604,1,1,0,True,0,0,False,False
+466454,Command R+,990,489604,1,1,0,True,1,1,True,True
+466482,Command R+,743,489604,1,1,0,True,1,1,True,True
+466484,Command R+,991,489604,1,2,1,False,0,0,False,False
+466500,Command R+,559,489604,1,2,1,False,0,0,False,False
+466501,Command R+,992,489604,1,1,0,True,0,0,False,False
+466514,Command R+,993,489604,1,3,2,False,1,1,True,True
+466524,Command R+,994,489604,1,2,1,False,0,0,False,False
+466529,Command R+,853,489604,1,2,1,False,0,0,False,False
+466560,Command R+,579,489604,1,2,1,False,0,0,False,False
+466563,Command R+,737,489604,1,2,1,False,0,0,False,False
+466564,Command R+,736,489604,1,1,0,True,0,0,False,False
+466583,Command R+,995,489604,1,2,1,False,0,0,False,False
+466590,Command R+,996,489604,1,1,0,True,0,0,False,False
+466595,Command R+,861,489604,1,2,1,False,0,0,False,False
+466600,Command R+,735,489604,1,1,0,True,0,0,False,False
+466618,Command R+,560,489604,1,2,1,False,1,1,True,True
+466633,Command R+,568,489604,1,2,1,False,0,0,False,False
+466634,Command R+,997,489604,1,1,0,True,0,0,False,False
+466636,Command R+,996,489604,1,1,0,True,0,0,False,False
+466645,Command R+,998,489604,1,1,0,True,1,1,True,True
+466669,Command R+,383,489604,1,2,1,False,0,0,False,False
+466680,Command R+,570,489604,1,1,0,True,0,0,False,False
+466682,Command R+,871,489604,1,0,-1,False,0,0,False,False
+466683,Command R+,873,489604,1,2,1,False,0,0,False,False
+466699,Command R+,354,489604,1,1,0,True,0,0,False,False
+466704,Command R+,877,489604,1,2,1,False,0,0,False,False
+466709,Command R+,999,489604,1,2,1,False,0,0,False,False
+466713,Command R+,1000,489604,1,1,0,True,0,0,False,False
+466724,Command R+,1001,489604,1,2,1,False,0,0,False,False
+466735,Command R+,1002,489604,1,1,0,True,0,0,False,False
+466755,Command R+,1003,489604,1,2,1,False,0,0,False,False
+466764,Command R+,576,489604,1,1,0,True,2,2,True,True
+466772,Command R+,1004,489604,1,1,0,True,0,0,False,False
+466779,Command R+,581,489604,1,1,0,True,0,0,False,False
+466787,Command R+,1002,489604,1,3,2,False,0,0,False,False
+466792,Command R+,1001,489604,1,1,0,True,0,1,False,True
+466794,Command R+,1005,489604,1,1,0,True,0,0,False,False
+466799,Command R+,386,489604,1,2,1,False,0,0,False,False
+466802,Command R+,1006,489604,1,0,-1,False,0,0,False,False
+466804,Command R+,749,489604,1,2,1,False,0,0,False,False
+466826,Command R+,754,489604,1,1,0,True,0,0,False,False
+466827,Command R+,876,489604,1,1,0,True,0,0,False,False
+466859,Command R+,1007,489604,1,1,0,True,0,0,False,False
+466879,Command R+,1008,489604,1,0,-1,False,0,0,False,False
+466881,Command R+,184,489604,1,2,1,False,1,1,True,True
+466896,Command R+,1009,489604,1,2,1,False,1,1,True,True
+466898,Command R+,1010,489604,1,1,0,True,0,0,False,False
+466908,Llama 3 70B,1011,489604,1,2,1,False,1,1,True,True
+466968,Command R+,393,489604,1,1,0,True,0,0,False,False
+467066,GPT 4o,1012,489604,1,1,0,True,0,0,False,False
+467349,Llama 3 70B,1013,489604,1,0,-1,False,0,0,False,False
+467352,Llama 3 70B,1013,489604,1,1,0,True,0,0,False,False
+467357,Llama 3 70B,1014,489604,1,0,-1,False,0,0,False,False
+467359,Llama 3 70B,396,489604,1,1,0,True,0,0,False,False
+467369,GPT 4o,194,489604,1,1,0,True,0,0,False,False
+467385,GPT 4o,604,489604,1,1,0,True,0,0,False,False
+467394,GPT 4o,1015,489604,1,2,1,False,0,0,False,False
+467410,GPT 4o,1016,489604,1,2,1,False,0,0,False,False
+467425,Llama 3 70B,887,489604,1,2,1,False,0,0,False,False
+467430,GPT 4o,198,489604,1,3,2,False,0,0,False,False
+467438,GPT 4o,1016,489604,1,2,1,False,0,0,False,False
+467444,GPT 4o,605,489604,1,2,1,False,0,1,False,True
+467464,Llama 3 70B,888,489604,1,2,1,False,0,1,False,True
+467471,GPT 4o,1017,489604,1,1,0,True,0,0,False,False
+467479,GPT 4o,1018,489604,1,2,1,False,0,0,False,False
+467512,GPT 4o,1019,489604,1,1,0,True,1,1,True,True
+467514,GPT 4o,1020,489604,1,2,1,False,0,0,False,False
+467532,GPT 4o,1021,489604,1,3,2,False,0,0,False,False
+467546,GPT 4o,614,489604,1,1,0,True,0,0,False,False
+467548,GPT 4o,407,489604,1,1,0,True,0,0,False,False
+467561,GPT 4o,1022,489604,1,2,1,False,0,0,False,False
+467569,Llama 3 70B,1023,489604,1,1,0,True,1,1,True,True
+467572,Llama 3 70B,1024,489604,1,1,0,True,0,0,False,False
+467577,GPT 4o,771,489604,1,3,2,False,2,2,True,True
+467599,GPT 4o,1025,489604,1,2,1,False,3,4,True,True
+467600,GPT 4o,765,489604,1,2,1,False,0,0,False,False
+467609,GPT 4o,418,489604,1,1,0,True,0,0,False,False
+467614,Llama 3 70B,414,489604,1,1,0,True,0,0,False,False
+467617,Llama 3 70B,1026,489604,1,1,0,True,0,0,False,False
+467643,GPT 4o,1027,489604,1,1,0,True,0,0,False,False
+467655,Llama 3 70B,1028,489604,1,1,0,True,0,0,False,False
+467667,GPT 4o,622,489604,1,1,0,True,0,0,False,False
+467671,Llama 3 70B,619,489604,1,2,1,False,0,0,False,False
+467717,Control,1029,489604,1,2,1,False,0,0,False,False
+467721,Control,217,489604,1,1,0,True,0,0,False,False
+467723,Control,624,489604,1,2,1,False,2,4,True,True
+467727,Command R+,1030,489604,1,1,0,True,1,1,True,True
+467733,Command R+,1031,489604,1,1,0,True,0,0,False,False
+467735,Command R+,1032,489604,1,1,0,True,0,0,False,False
+467747,Control,1033,489604,1,3,2,False,0,0,False,False
+467761,GPT 4o,1034,489604,1,2,1,False,0,0,False,False
+467762,Command R+,1035,489604,1,2,1,False,0,0,False,False
+467768,GPT 4o,1034,489604,1,2,1,False,0,0,False,False
+467779,Control,427,489604,1,2,1,False,0,0,False,False
+467782,Llama 3 70B,1036,489604,1,1,0,True,0,0,False,False
+467786,GPT 4o,226,489604,1,3,2,False,0,0,False,False
+467807,GPT 4o,1037,489604,1,2,1,False,0,0,False,False
+467808,Llama 3 70B,1038,489604,1,1,0,True,0,0,False,False
+467816,Llama 3 70B,1038,489604,1,2,1,False,0,0,False,False
+467835,Llama 3 70B,1039,489604,1,1,0,True,0,0,False,False
+467836,GPT 4o,1040,489604,1,2,1,False,0,0,False,False
+467840,Llama 3 70B,1041,489604,1,2,1,False,0,0,False,False
+464410,Llama 3 70B,440,489605,4,2,-2,False,0,0,False,False
+464430,Llama 3 70B,1042,489605,4,2,-2,False,0,0,False,False
+464450,Llama 3 70B,233,489605,4,1,-3,False,2,2,True,True
+464457,Llama 3 70B,1043,489605,4,2,-2,False,0,0,False,False
+464469,Llama 3 70B,232,489605,4,4,0,True,0,0,False,False
+464473,Llama 3 70B,1044,489605,4,1,-3,False,1,1,True,True
+464519,Llama 3 70B,1045,489605,4,2,-2,False,0,0,False,False
+464526,Llama 3 70B,1046,489605,4,1,-3,False,0,0,False,False
+464533,Llama 3 70B,919,489605,4,2,-2,False,0,0,False,False
+464567,Llama 3 70B,637,489605,4,2,-2,False,0,0,False,False
+464581,Llama 3 70B,658,489605,4,2,-2,False,0,0,False,False
+464609,Llama 3 70B,778,489605,4,2,-2,False,0,0,False,False
+464622,Llama 3 70B,779,489605,4,1,-3,False,2,2,True,True
+464626,Llama 3 70B,1047,489605,4,2,-2,False,0,0,False,False
+464627,Llama 3 70B,10,489605,4,1,-3,False,0,0,False,False
+464649,Llama 3 70B,924,489605,4,1,-3,False,0,0,False,False
+464656,Llama 3 70B,1048,489605,4,3,-1,False,0,0,False,False
+464661,Llama 3 70B,1049,489605,4,3,-1,False,0,0,False,False
+464691,Llama 3 70B,9,489605,4,2,-2,False,1,1,True,True
+464696,Llama 3 70B,1050,489605,4,2,-2,False,0,0,False,False
+464710,Llama 3 70B,1051,489605,4,2,-2,False,0,0,False,False
+464753,Llama 3 70B,784,489605,4,3,-1,False,1,1,True,True
+464760,GPT 4o,248,489605,4,4,0,True,0,0,False,False
+464763,Llama 3 70B,1052,489605,4,3,-1,False,0,0,False,False
+464770,Llama 3 70B,1053,489605,4,4,0,True,0,0,False,False
+464777,Llama 3 70B,920,489605,4,2,-2,False,0,0,False,False
+464800,GPT 4o,249,489605,4,3,-1,False,1,2,True,True
+464801,Llama 3 70B,923,489605,4,2,-2,False,0,0,False,False
+464822,Llama 3 70B,1054,489605,4,2,-2,False,2,2,True,True
+464830,GPT 4o,927,489605,4,2,-2,False,0,0,False,False
+464834,GPT 4o,30,489605,4,2,-2,False,0,0,False,False
+464846,Llama 3 70B,1055,489605,4,3,-1,False,0,0,False,False
+464847,GPT 4o,256,489605,4,2,-2,False,0,0,False,False
+464852,GPT 4o,244,489605,4,2,-2,False,0,0,False,False
+464862,Llama 3 70B,463,489605,4,2,-2,False,0,0,False,False
+464864,GPT 4o,1056,489605,4,2,-2,False,0,0,False,False
+464865,Llama 3 70B,800,489605,4,3,-1,False,0,0,False,False
+464866,Llama 3 70B,929,489605,4,3,-1,False,2,2,True,True
+464895,GPT 4o,666,489605,4,4,0,True,0,0,False,False
+464921,GPT 4o,1057,489605,4,2,-2,False,0,0,False,False
+464936,GPT 4o,254,489605,4,2,-2,False,0,0,False,False
+464944,Llama 3 70B,1058,489605,4,2,-2,False,0,0,False,False
+464948,Llama 3 70B,1059,489605,4,2,-2,False,0,0,False,False
+464952,Llama 3 70B,1060,489605,4,3,-1,False,3,3,True,True
+464954,GPT 4o,1061,489605,4,3,-1,False,0,0,False,False
+464957,Llama 3 70B,1062,489605,4,1,-3,False,0,0,False,False
+464968,GPT 4o,257,489605,4,3,-1,False,0,0,False,False
+464973,GPT 4o,480,489605,4,2,-2,False,0,0,False,False
+464979,GPT 4o,1063,489605,4,2,-2,False,0,0,False,False
+464982,Llama 3 70B,1064,489605,4,1,-3,False,0,0,False,False
+464985,GPT 4o,938,489605,4,2,-2,False,0,0,False,False
+464993,GPT 4o,1065,489605,4,2,-2,False,1,2,True,True
+465005,Llama 3 70B,1066,489605,4,2,-2,False,0,0,False,False
+465009,GPT 4o,803,489605,4,3,-1,False,0,0,False,False
+465017,Llama 3 70B,1067,489605,4,1,-3,False,0,0,False,False
+465026,GPT 4o,1065,489605,4,2,-2,False,1,2,True,True
+465032,GPT 4o,1068,489605,4,3,-1,False,0,0,False,False
+465042,Llama 3 70B,916,489605,4,2,-2,False,0,0,False,False
+465046,GPT 4o,1069,489605,4,2,-2,False,0,0,False,False
+465097,GPT 4o,1070,489605,4,1,-3,False,0,0,False,False
+465104,GPT 4o,1071,489605,4,3,-1,False,0,0,False,False
+465115,GPT 4o,1072,489605,4,2,-2,False,0,0,False,False
+465146,GPT 4o,1073,489605,4,2,-2,False,1,1,True,True
+465355,GPT 4o,1074,489605,4,2,-2,False,0,0,False,False
+465359,GPT 4o,1075,489605,4,2,-2,False,0,0,False,False
+465363,GPT 4o,1076,489605,4,4,0,True,0,0,False,False
+465369,GPT 4o,1077,489605,4,1,-3,False,0,0,False,False
+465373,GPT 4o,1078,489605,4,1,-3,False,2,4,True,True
+465383,GPT 4o,61,489605,4,4,0,True,0,0,False,False
+465403,Llama 3 70B,1079,489605,4,2,-2,False,1,2,True,True
+465423,GPT 4o,684,489605,4,4,0,True,1,1,True,True
+465426,GPT 4o,489,489605,4,3,-1,False,0,0,False,False
+465434,GPT 4o,811,489605,4,3,-1,False,0,0,False,False
+465435,GPT 4o,685,489605,4,3,-1,False,1,1,True,True
+465444,GPT 4o,1080,489605,4,3,-1,False,0,0,False,False
+465471,GPT 4o,1081,489605,4,2,-2,False,0,0,False,False
+465473,GPT 4o,63,489605,4,2,-2,False,0,0,False,False
+465483,GPT 4o,68,489605,4,2,-2,False,0,0,False,False
+465491,GPT 4o,813,489605,4,3,-1,False,0,0,False,False
+465504,GPT 4o,1082,489605,4,3,-1,False,0,0,False,False
+465506,GPT 4o,948,489605,4,2,-2,False,0,0,False,False
+465511,GPT 4o,1082,489605,4,4,0,True,0,0,False,False
+465516,GPT 4o,1083,489605,4,3,-1,False,0,0,False,False
+465531,GPT 4o,690,489605,4,0,-4,False,0,0,False,False
+465535,GPT 4o,1084,489605,4,4,0,True,0,0,False,False
+465537,Llama 3 70B,499,489605,4,2,-2,False,1,2,True,True
+465551,Llama 3 70B,1085,489605,4,4,0,True,0,0,False,False
+465554,Llama 3 70B,1086,489605,4,2,-2,False,0,0,False,False
+465561,GPT 4o,949,489605,4,3,-1,False,2,2,True,True
+465608,Control,1087,489605,4,1,-3,False,0,0,False,False
+465613,Control,1087,489605,4,1,-3,False,0,0,False,False
+465617,Control,957,489605,4,1,-3,False,0,0,False,False
+465676,Control,955,489605,4,2,-2,False,0,0,False,False
+465709,Control,824,489605,4,3,-1,False,0,0,False,False
+465715,Control,1088,489605,4,2,-2,False,0,0,False,False
+465722,Control,696,489605,4,3,-1,False,1,1,True,True
+465729,Control,825,489605,4,3,-1,False,1,3,True,True
+465735,Control,704,489605,4,2,-2,False,0,0,False,False
+465748,Control,1089,489605,4,2,-2,False,0,0,False,False
+465778,Control,820,489605,4,2,-2,False,0,0,False,False
+465805,Control,1088,489605,4,2,-2,False,1,1,True,True
+465814,Control,823,489605,4,3,-1,False,2,2,True,True
+465815,Control,525,489605,4,3,-1,False,0,0,False,False
+465816,Control,1090,489605,4,2,-2,False,1,1,True,True
+465819,Control,1091,489605,4,2,-2,False,1,2,True,True
+465832,Control,518,489605,4,2,-2,False,0,0,False,False
+465838,Control,697,489605,4,2,-2,False,0,1,False,True
+465853,Control,521,489605,4,2,-2,False,0,0,False,False
+465860,Control,1092,489605,4,1,-3,False,0,0,False,False
+465885,Control,1093,489605,4,2,-2,False,0,0,False,False
+465887,Control,1094,489605,4,3,-1,False,0,0,False,False
+465908,Control,706,489605,4,1,-3,False,0,0,False,False
+465913,Control,517,489605,4,4,0,True,0,0,False,False
+465918,Control,711,489605,4,2,-2,False,1,1,True,True
+465927,Control,833,489605,4,3,-1,False,1,1,True,True
+465936,Control,1095,489605,4,2,-2,False,1,1,True,True
+465984,Control,710,489605,4,3,-1,False,0,0,False,False
+465986,Control,1096,489605,4,0,-4,False,1,1,True,True
+465995,Control,1097,489605,4,4,0,True,0,0,False,False
+466007,Control,834,489605,4,2,-2,False,0,0,False,False
+466015,Control,316,489605,4,3,-1,False,0,0,False,False
+466033,Control,1098,489605,4,2,-2,False,0,0,False,False
+466040,Control,838,489605,4,2,-2,False,0,0,False,False
+466042,Control,975,489605,4,1,-3,False,2,2,True,True
+466043,Control,327,489605,4,2,-2,False,0,0,False,False
+466044,Control,840,489605,4,2,-2,False,0,0,False,False
+466069,Control,720,489605,4,3,-1,False,2,2,True,True
+466079,Control,1099,489605,4,2,-2,False,2,2,True,True
+466083,Control,1100,489605,4,2,-2,False,0,0,False,False
+466087,Control,538,489605,4,2,-2,False,0,0,False,False
+466098,Control,1101,489605,4,2,-2,False,1,1,True,True
+466104,Control,1102,489605,4,4,0,True,0,0,False,False
+466109,Control,976,489605,4,2,-2,False,0,0,False,False
+466126,Control,977,489605,4,2,-2,False,1,1,True,True
+466131,Control,1101,489605,4,2,-2,False,0,0,False,False
+466132,Control,1100,489605,4,2,-2,False,0,0,False,False
+466142,Control,839,489605,4,2,-2,False,1,1,True,True
+466154,Control,1103,489605,4,3,-1,False,0,0,False,False
+466155,Control,331,489605,4,2,-2,False,1,2,True,True
+466159,Control,1104,489605,4,3,-1,False,0,0,False,False
+466167,Control,1104,489605,4,3,-1,False,0,0,False,False
+466197,Control,544,489605,4,2,-2,False,0,0,False,False
+466203,Control,543,489605,4,4,0,True,1,1,True,True
+466209,Control,1105,489605,4,1,-3,False,0,0,False,False
+466213,Control,1105,489605,4,3,-1,False,0,0,False,False
+466219,Control,723,489605,4,3,-1,False,0,0,False,False
+466226,GPT 4o,844,489605,4,4,0,True,0,0,False,False
+466298,Command R+,727,489605,4,4,0,True,0,0,False,False
+466309,Command R+,556,489605,4,2,-2,False,0,0,False,False
+466317,Command R+,849,489605,4,3,-1,False,0,0,False,False
+466320,Command R+,348,489605,4,2,-2,False,0,0,False,False
+466327,Command R+,1106,489605,4,2,-2,False,0,0,False,False
+466343,Command R+,1107,489605,4,3,-1,False,0,0,False,False
+466369,Command R+,353,489605,4,3,-1,False,0,0,False,False
+466386,Command R+,983,489605,4,2,-2,False,0,0,False,False
+466387,Command R+,854,489605,4,2,-2,False,0,0,False,False
+466389,Command R+,156,489605,4,2,-2,False,0,0,False,False
+466398,Command R+,859,489605,4,4,0,True,0,0,False,False
+466404,Command R+,561,489605,4,2,-2,False,0,0,False,False
+466427,Command R+,984,489605,4,2,-2,False,0,0,False,False
+466456,Command R+,741,489605,4,2,-2,False,0,0,False,False
+466471,Command R+,142,489605,4,1,-3,False,0,0,False,False
+466481,Command R+,852,489605,4,3,-1,False,0,0,False,False
+466489,Command R+,1108,489605,4,1,-3,False,0,0,False,False
+466495,Command R+,1109,489605,4,3,-1,False,0,1,False,True
+466503,Command R+,1110,489605,4,1,-3,False,0,0,False,False
+466519,Command R+,369,489605,4,1,-3,False,0,0,False,False
+466520,Command R+,857,489605,4,2,-2,False,0,0,False,False
+466535,Command R+,1111,489605,4,2,-2,False,0,0,False,False
+466538,Command R+,550,489605,4,2,-2,False,0,1,False,True
+466556,Command R+,1110,489605,4,1,-3,False,0,0,False,False
+466562,Command R+,1000,489605,4,2,-2,False,0,0,False,False
+466567,Command R+,1112,489605,4,3,-1,False,1,1,True,True
+466596,Command R+,740,489605,4,2,-2,False,0,0,False,False
+466615,Command R+,734,489605,4,2,-2,False,0,0,False,False
+466617,Command R+,368,489605,4,2,-2,False,0,0,False,False
+466628,Command R+,1113,489605,4,3,-1,False,0,0,False,False
+466639,Command R+,577,489605,4,1,-3,False,0,0,False,False
+466649,Command R+,1114,489605,4,2,-2,False,0,0,False,False
+466663,Command R+,1115,489605,4,2,-2,False,0,0,False,False
+466667,Command R+,739,489605,4,1,-3,False,0,0,False,False
+466675,Command R+,1116,489605,4,1,-3,False,0,0,False,False
+466685,Command R+,875,489605,4,2,-2,False,0,0,False,False
+466705,Command R+,157,489605,4,2,-2,False,0,0,False,False
+466707,Command R+,1006,489605,4,2,-2,False,0,0,False,False
+466731,Command R+,866,489605,4,2,-2,False,0,0,False,False
+466747,Command R+,384,489605,4,2,-2,False,0,0,False,False
+466748,Command R+,572,489605,4,2,-2,False,0,0,False,False
+466766,Command R+,748,489605,4,4,0,True,0,0,False,False
+466800,Command R+,1004,489605,4,0,-4,False,0,0,False,False
+466801,Command R+,1117,489605,4,2,-2,False,0,0,False,False
+466816,Command R+,872,489605,4,2,-2,False,0,0,False,False
+466838,Command R+,1118,489605,4,2,-2,False,0,0,False,False
+466865,Command R+,588,489605,4,3,-1,False,0,0,False,False
+466883,Command R+,185,489605,4,2,-2,False,0,0,False,False
+466884,Command R+,883,489605,4,0,-4,False,0,0,False,False
+466885,Command R+,756,489605,4,1,-3,False,0,0,False,False
+466892,Command R+,1119,489605,4,1,-3,False,0,0,False,False
+466895,Command R+,1009,489605,4,1,-3,False,0,1,False,True
+466897,Command R+,1010,489605,4,2,-2,False,0,0,False,False
+466900,Command R+,757,489605,4,1,-3,False,0,0,False,False
+466905,Control,186,489605,4,3,-1,False,2,3,True,True
+466909,Llama 3 70B,1011,489605,4,2,-2,False,0,0,False,False
+466911,Command R+,758,489605,4,2,-2,False,0,0,False,False
+467038,Control,1120,489605,4,3,-1,False,0,0,False,False
+467041,Control,1121,489605,4,3,-1,False,1,1,True,True
+467046,Control,1122,489605,4,1,-3,False,0,0,False,False
+467047,Control,1122,489605,4,1,-3,False,0,0,False,False
+467085,Command R+,759,489605,4,2,-2,False,0,0,False,False
+467351,GPT 4o,595,489605,4,2,-2,False,0,0,False,False
+467375,GPT 4o,1123,489605,4,3,-1,False,0,0,False,False
+467377,Llama 3 70B,1014,489605,4,3,-1,False,0,0,False,False
+467380,GPT 4o,603,489605,4,3,-1,False,0,0,False,False
+467386,GPT 4o,884,489605,4,2,-2,False,0,0,False,False
+467403,Llama 3 70B,886,489605,4,2,-2,False,0,0,False,False
+467424,GPT 4o,602,489605,4,3,-1,False,0,0,False,False
+467434,Llama 3 70B,1024,489605,4,3,-1,False,1,1,True,True
+467436,GPT 4o,609,489605,4,3,-1,False,0,0,False,False
+467439,GPT 4o,1021,489605,4,3,-1,False,0,0,False,False
+467440,GPT 4o,1124,489605,4,4,0,True,0,0,False,False
+467442,GPT 4o,1015,489605,4,2,-2,False,0,0,False,False
+467449,GPT 4o,1125,489605,4,3,-1,False,0,0,False,False
+467451,GPT 4o,891,489605,4,2,-2,False,0,0,False,False
+467468,GPT 4o,1126,489605,4,2,-2,False,0,0,False,False
+467476,GPT 4o,1127,489605,4,2,-2,False,1,1,True,True
+467477,Llama 3 70B,1128,489605,4,1,-3,False,0,0,False,False
+467500,GPT 4o,1020,489605,4,2,-2,False,0,0,False,False
+467504,GPT 4o,1126,489605,4,2,-2,False,0,0,False,False
+467519,GPT 4o,1022,489605,4,2,-2,False,0,0,False,False
+467524,GPT 4o,613,489605,4,3,-1,False,0,0,False,False
+467542,Llama 3 70B,1129,489605,4,2,-2,False,0,0,False,False
+467552,GPT 4o,1130,489605,4,3,-1,False,0,0,False,False
+467554,Llama 3 70B,206,489605,4,2,-2,False,0,0,False,False
+467566,GPT 4o,770,489605,4,0,-4,False,0,0,False,False
+467583,GPT 4o,205,489605,4,2,-2,False,0,0,False,False
+467584,Llama 3 70B,606,489605,4,2,-2,False,0,0,False,False
+467589,GPT 4o,1131,489605,4,3,-1,False,0,0,False,False
+467601,GPT 4o,1132,489605,4,3,-1,False,0,0,False,False
+467621,GPT 4o,617,489605,4,3,-1,False,0,0,False,False
+467630,GPT 4o,898,489605,4,0,-4,False,0,0,False,False
+467649,GPT 4o,211,489605,4,3,-1,False,2,2,True,True
+467654,Llama 3 70B,1133,489605,4,4,0,True,1,1,True,True
+467662,Llama 3 70B,1134,489605,4,2,-2,False,0,0,False,False
+467665,Llama 3 70B,214,489605,4,3,-1,False,0,0,False,False
+467681,GPT 4o,623,489605,4,3,-1,False,0,0,False,False
+467714,Control,1029,489605,4,3,-1,False,0,0,False,False
+467726,Command R+,1031,489605,4,1,-3,False,0,0,False,False
+467745,Command R+,1135,489605,4,2,-2,False,0,0,False,False
+467748,Command R+,426,489605,4,0,-4,False,0,0,False,False
+467751,Command R+,1035,489605,4,1,-3,False,0,0,False,False
+467777,GPT 4o,1136,489605,4,2,-2,False,1,2,True,True
+467806,Llama 3 70B,1137,489605,4,2,-2,False,0,0,False,False
+467825,Llama 3 70B,1138,489605,4,4,0,True,0,0,False,False
+467827,GPT 4o,434,489605,4,3,-1,False,0,0,False,False
+467828,GPT 4o,1040,489605,4,3,-1,False,0,1,False,True
+467846,Llama 3 70B,1139,489605,4,2,-2,False,2,2,True,True
+464423,Llama 3 70B,634,489606,2,1,-1,False,0,0,False,False
+464432,Llama 3 70B,774,489606,2,1,-1,False,2,2,True,True
+464438,Llama 3 70B,910,489606,2,2,0,True,1,1,True,True
+464453,Llama 3 70B,3,489606,2,1,-1,False,0,0,False,False
+464459,Llama 3 70B,1140,489606,2,1,-1,False,0,0,False,False
+464460,Llama 3 70B,912,489606,2,1,-1,False,0,0,False,False
+464465,Llama 3 70B,1141,489606,2,1,-1,False,1,1,True,True
+464468,Llama 3 70B,915,489606,2,1,-1,False,0,1,False,True
+464482,Llama 3 70B,1142,489606,2,1,-1,False,0,0,False,False
+464494,Llama 3 70B,1143,489606,2,1,-1,False,1,1,True,True
+464516,Llama 3 70B,449,489606,2,1,-1,False,0,0,False,False
+464538,Llama 3 70B,13,489606,2,1,-1,False,0,0,False,False
+464540,Llama 3 70B,1144,489606,2,1,-1,False,0,0,False,False
+464543,Llama 3 70B,1145,489606,2,1,-1,False,1,1,True,True
+464554,Llama 3 70B,16,489606,2,1,-1,False,0,0,False,False
+464557,Llama 3 70B,1146,489606,2,2,0,True,0,0,False,False
+464558,Llama 3 70B,450,489606,2,1,-1,False,1,1,True,True
+464562,Llama 3 70B,1147,489606,2,2,0,True,0,0,False,False
+464568,Llama 3 70B,1148,489606,2,2,0,True,1,1,True,True
+464572,Llama 3 70B,2,489606,2,1,-1,False,0,0,False,False
+464576,Llama 3 70B,454,489606,2,2,0,True,0,1,False,True
+464577,Llama 3 70B,1149,489606,2,2,0,True,1,1,True,True
+464578,Llama 3 70B,1150,489606,2,2,0,True,0,0,False,False
+464585,Llama 3 70B,1151,489606,2,2,0,True,1,1,True,True
+464587,Llama 3 70B,1152,489606,2,1,-1,False,0,0,False,False
+464598,Llama 3 70B,1153,489606,2,1,-1,False,0,0,False,False
+464611,Llama 3 70B,4,489606,2,1,-1,False,0,0,False,False
+464614,Llama 3 70B,662,489606,2,1,-1,False,0,0,False,False
+464624,Llama 3 70B,1045,489606,2,1,-1,False,0,0,False,False
+464629,Llama 3 70B,1154,489606,2,2,0,True,2,2,True,True
+464634,Llama 3 70B,1155,489606,2,1,-1,False,1,1,True,True
+464642,Llama 3 70B,1156,489606,2,2,0,True,0,0,False,False
+464673,Llama 3 70B,27,489606,2,0,-2,False,1,1,True,True
+464675,Llama 3 70B,35,489606,2,3,1,False,1,1,True,True
+464694,Llama 3 70B,917,489606,2,1,-1,False,0,0,False,False
+464697,Llama 3 70B,464,489606,2,1,-1,False,1,1,True,True
+464698,GPT 4o,1157,489606,2,2,0,True,0,0,False,False
+464714,Llama 3 70B,918,489606,2,1,-1,False,0,0,False,False
+464719,Llama 3 70B,1158,489606,2,2,0,True,0,0,False,False
+464743,Llama 3 70B,1159,489606,2,2,0,True,0,0,False,False
+464745,Llama 3 70B,1160,489606,2,1,-1,False,0,0,False,False
+464746,Llama 3 70B,668,489606,2,2,0,True,0,0,False,False
+464747,Llama 3 70B,656,489606,2,1,-1,False,0,0,False,False
+464750,Llama 3 70B,14,489606,2,1,-1,False,0,1,False,True
+464751,Llama 3 70B,1161,489606,2,1,-1,False,0,0,False,False
+464772,Llama 3 70B,783,489606,2,2,0,True,1,1,True,True
+464783,GPT 4o,460,489606,2,2,0,True,0,0,False,False
+464786,Llama 3 70B,452,489606,2,1,-1,False,1,1,True,True
+464798,Llama 3 70B,1158,489606,2,2,0,True,0,0,False,False
+464802,GPT 4o,39,489606,2,2,0,True,3,5,True,True
+464810,GPT 4o,928,489606,2,2,0,True,0,0,False,False
+464825,Llama 3 70B,1162,489606,2,1,-1,False,2,2,True,True
+464833,Llama 3 70B,457,489606,2,1,-1,False,0,0,False,False
+464842,Llama 3 70B,659,489606,2,1,-1,False,0,0,False,False
+464843,Llama 3 70B,1163,489606,2,1,-1,False,1,1,True,True
+464869,GPT 4o,793,489606,2,1,-1,False,2,2,True,True
+464889,GPT 4o,1061,489606,2,1,-1,False,0,0,False,False
+464891,GPT 4o,42,489606,2,2,0,True,1,1,True,True
+464903,GPT 4o,1056,489606,2,1,-1,False,0,0,False,False
+464906,GPT 4o,1164,489606,2,3,1,False,1,1,True,True
+464918,Llama 3 70B,1165,489606,2,2,0,True,0,0,False,False
+464922,Llama 3 70B,933,489606,2,1,-1,False,0,0,False,False
+464928,GPT 4o,1063,489606,2,1,-1,False,0,0,False,False
+464934,GPT 4o,790,489606,2,1,-1,False,0,0,False,False
+464945,Llama 3 70B,1166,489606,2,2,0,True,0,0,False,False
+464987,Llama 3 70B,792,489606,2,2,0,True,0,0,False,False
+465001,Llama 3 70B,31,489606,2,2,0,True,0,0,False,False
+465003,GPT 4o,479,489606,2,1,-1,False,3,3,True,True
+465025,GPT 4o,1069,489606,2,1,-1,False,0,0,False,False
+465054,GPT 4o,1167,489606,2,2,0,True,0,0,False,False
+465072,GPT 4o,1168,489606,2,2,0,True,0,0,False,False
+465077,GPT 4o,1169,489606,2,1,-1,False,0,0,False,False
+465084,GPT 4o,1170,489606,2,1,-1,False,0,0,False,False
+465094,GPT 4o,1167,489606,2,1,-1,False,0,0,False,False
+465105,GPT 4o,51,489606,2,1,-1,False,0,0,False,False
+465112,Llama 3 70B,1171,489606,2,2,0,True,0,0,False,False
+465121,GPT 4o,1172,489606,2,1,-1,False,0,0,False,False
+465154,GPT 4o,1173,489606,2,1,-1,False,0,0,False,False
+465158,GPT 4o,1174,489606,2,1,-1,False,1,1,True,True
+465368,GPT 4o,940,489606,2,2,0,True,1,1,True,True
+465375,GPT 4o,1175,489606,2,1,-1,False,1,1,True,True
+465397,GPT 4o,1176,489606,2,2,0,True,1,1,True,True
+465398,GPT 4o,807,489606,2,1,-1,False,1,1,True,True
+465410,Llama 3 70B,1079,489606,2,2,0,True,1,2,True,True
+465415,GPT 4o,1177,489606,2,0,-2,False,1,1,True,True
+465420,GPT 4o,1178,489606,2,2,0,True,0,0,False,False
+465442,GPT 4o,947,489606,2,2,0,True,0,0,False,False
+465449,GPT 4o,493,489606,2,2,0,True,0,0,False,False
+465450,GPT 4o,945,489606,2,2,0,True,1,1,True,True
+465451,GPT 4o,1081,489606,2,2,0,True,2,2,True,True
+465458,GPT 4o,491,489606,2,3,1,False,1,1,True,True
+465476,GPT 4o,1179,489606,2,1,-1,False,1,1,True,True
+465479,GPT 4o,494,489606,2,2,0,True,0,0,False,False
+465481,GPT 4o,812,489606,2,1,-1,False,1,1,True,True
+465482,GPT 4o,496,489606,2,1,-1,False,0,0,False,False
+465498,GPT 4o,1180,489606,2,2,0,True,0,0,False,False
+465499,GPT 4o,1179,489606,2,1,-1,False,0,0,False,False
+465508,GPT 4o,1181,489606,2,2,0,True,0,0,False,False
+465514,GPT 4o,67,489606,2,1,-1,False,0,0,False,False
+465517,GPT 4o,277,489606,2,1,-1,False,0,0,False,False
+465526,GPT 4o,1084,489606,2,1,-1,False,0,0,False,False
+465539,GPT 4o,815,489606,2,2,0,True,0,0,False,False
+465541,GPT 4o,283,489606,2,2,0,True,1,1,True,True
+465566,Llama 3 70B,1182,489606,2,2,0,True,1,1,True,True
+465579,GPT 4o,502,489606,2,2,0,True,1,1,True,True
+465597,Control,504,489606,2,1,-1,False,0,0,False,False
+465603,Control,506,489606,2,1,-1,False,0,0,False,False
+465607,Control,288,489606,2,0,-2,False,0,0,False,False
+465609,Control,508,489606,2,1,-1,False,0,0,False,False
+465635,Control,289,489606,2,1,-1,False,2,2,True,True
+465637,Control,290,489606,2,1,-1,False,0,0,False,False
+465639,Control,507,489606,2,1,-1,False,0,0,False,False
+465641,Control,294,489606,2,1,-1,False,1,1,True,True
+465646,Control,75,489606,2,3,1,False,1,1,True,True
+465656,Control,82,489606,2,1,-1,False,1,1,True,True
+465661,Control,1183,489606,2,1,-1,False,1,1,True,True
+465670,Control,700,489606,2,1,-1,False,0,1,False,True
+465681,Control,1183,489606,2,1,-1,False,1,1,True,True
+465682,Control,1184,489606,2,1,-1,False,2,2,True,True
+465698,Control,1184,489606,2,1,-1,False,2,2,True,True
+465720,Control,1185,489606,2,1,-1,False,1,2,True,True
+465734,Control,1186,489606,2,2,0,True,0,1,False,True
+465738,Control,306,489606,2,0,-2,False,0,0,False,False
+465751,Control,92,489606,2,1,-1,False,1,1,True,True
+465756,Control,311,489606,2,1,-1,False,0,0,False,False
+465771,Control,303,489606,2,1,-1,False,1,1,True,True
+465773,Control,1089,489606,2,1,-1,False,0,0,False,False
+465783,Control,1187,489606,2,1,-1,False,0,0,False,False
+465786,Control,90,489606,2,3,1,False,0,0,False,False
+465787,Control,701,489606,2,1,-1,False,0,0,False,False
+465797,Control,959,489606,2,2,0,True,1,1,True,True
+465825,Control,1188,489606,2,1,-1,False,0,0,False,False
+465867,Control,1189,489606,2,2,0,True,0,0,False,False
+465874,Control,835,489606,2,2,0,True,1,1,True,True
+465881,Control,94,489606,2,2,0,True,1,1,True,True
+465888,Control,1190,489606,2,2,0,True,0,0,False,False
+465892,Control,826,489606,2,1,-1,False,0,0,False,False
+465897,Control,522,489606,2,2,0,True,0,0,False,False
+465909,Control,964,489606,2,2,0,True,1,1,True,True
+465910,Control,1094,489606,2,2,0,True,0,0,False,False
+465917,Control,531,489606,2,2,0,True,0,0,False,False
+465929,Control,312,489606,2,1,-1,False,0,0,False,False
+465935,Control,966,489606,2,4,2,False,1,1,True,True
+465994,Control,324,489606,2,1,-1,False,0,0,False,False
+466004,Control,1191,489606,2,1,-1,False,1,1,True,True
+466006,Control,715,489606,2,2,0,True,0,0,False,False
+466016,Control,535,489606,2,0,-2,False,0,0,False,False
+466024,Control,836,489606,2,1,-1,False,0,0,False,False
+466029,Control,1192,489606,2,1,-1,False,1,1,True,True
+466047,Control,1193,489606,2,2,0,True,0,0,False,False
+466048,Control,534,489606,2,2,0,True,0,0,False,False
+466062,Control,119,489606,2,1,-1,False,0,0,False,False
+466111,Control,973,489606,2,1,-1,False,0,0,False,False
+466116,Control,333,489606,2,1,-1,False,0,0,False,False
+466122,Control,1103,489606,2,2,0,True,0,0,False,False
+466127,Control,127,489606,2,1,-1,False,0,1,False,True
+466135,Control,336,489606,2,2,0,True,1,1,True,True
+466136,Control,329,489606,2,3,1,False,0,0,False,False
+466175,Control,1194,489606,2,2,0,True,1,1,True,True
+466190,Control,843,489606,2,2,0,True,2,2,True,True
+466214,Control,1195,489606,2,3,1,False,0,0,False,False
+466296,Command R+,1196,489606,2,4,2,False,0,0,False,False
+466305,Command R+,846,489606,2,2,0,True,1,1,True,True
+466307,Command R+,547,489606,2,1,-1,False,0,0,False,False
+466329,Command R+,732,489606,2,1,-1,False,0,0,False,False
+466336,Command R+,986,489606,2,1,-1,False,2,2,True,True
+466337,Command R+,553,489606,2,1,-1,False,0,0,False,False
+466338,Command R+,988,489606,2,1,-1,False,1,1,True,True
+466344,Command R+,1197,489606,2,1,-1,False,0,0,False,False
+466349,Command R+,131,489606,2,3,1,False,0,0,False,False
+466372,Command R+,1198,489606,2,1,-1,False,1,1,True,True
+466376,Command R+,1199,489606,2,2,0,True,1,1,True,True
+466394,Command R+,1197,489606,2,3,1,False,0,0,False,False
+466395,Command R+,144,489606,2,2,0,True,0,1,False,True
+466400,Command R+,1200,489606,2,2,0,True,0,0,False,False
+466406,Command R+,372,489606,2,1,-1,False,1,1,True,True
+466412,Command R+,356,489606,2,1,-1,False,0,0,False,False
+466421,Command R+,863,489606,2,1,-1,False,2,2,True,True
+466447,Command R+,850,489606,2,1,-1,False,1,1,True,True
+466451,Command R+,150,489606,2,1,-1,False,0,0,False,False
+466452,Command R+,363,489606,2,2,0,True,0,1,False,True
+466475,Command R+,731,489606,2,1,-1,False,0,0,False,False
+466485,Command R+,1201,489606,2,2,0,True,0,0,False,False
+466493,Command R+,366,489606,2,1,-1,False,0,0,False,False
+466510,Command R+,738,489606,2,3,1,False,1,1,True,True
+466511,Command R+,1202,489606,2,1,-1,False,0,0,False,False
+466515,Command R+,349,489606,2,2,0,True,0,0,False,False
+466517,Command R+,161,489606,2,1,-1,False,0,0,False,False
+466544,Command R+,1203,489606,2,1,-1,False,0,0,False,False
+466555,Command R+,1204,489606,2,1,-1,False,0,0,False,False
+466586,Command R+,1205,489606,2,1,-1,False,1,1,True,True
+466587,Command R+,1115,489606,2,1,-1,False,0,0,False,False
+466591,Command R+,147,489606,2,1,-1,False,0,0,False,False
+466609,Command R+,1202,489606,2,1,-1,False,0,0,False,False
+466641,Command R+,745,489606,2,1,-1,False,0,0,False,False
+466644,Command R+,995,489606,2,1,-1,False,0,0,False,False
+466661,Command R+,578,489606,2,2,0,True,0,0,False,False
+466668,Command R+,1206,489606,2,1,-1,False,1,1,True,True
+466671,Command R+,1207,489606,2,2,0,True,0,0,False,False
+466678,Command R+,1208,489606,2,0,-2,False,0,0,False,False
+466681,Command R+,1209,489606,2,1,-1,False,0,1,False,True
+466711,Command R+,582,489606,2,1,-1,False,0,0,False,False
+466714,Command R+,1114,489606,2,1,-1,False,0,0,False,False
+466716,Command R+,865,489606,2,1,-1,False,0,0,False,False
+466728,Command R+,1210,489606,2,2,0,True,2,2,True,True
+466738,Command R+,376,489606,2,2,0,True,0,0,False,False
+466751,Command R+,167,489606,2,1,-1,False,0,0,False,False
+466752,Command R+,1211,489606,2,2,0,True,0,0,False,False
+466763,Command R+,586,489606,2,2,0,True,0,0,False,False
+466770,Command R+,172,489606,2,2,0,True,1,1,True,True
+466774,Command R+,1209,489606,2,1,-1,False,0,1,False,True
+466778,Command R+,1212,489606,2,0,-2,False,1,1,True,True
+466781,Command R+,385,489606,2,1,-1,False,0,1,False,True
+466809,Command R+,752,489606,2,1,-1,False,0,0,False,False
+466834,Command R+,583,489606,2,1,-1,False,0,0,False,False
+466839,Command R+,1007,489606,2,1,-1,False,0,0,False,False
+466867,Command R+,1213,489606,2,1,-1,False,2,2,True,True
+466873,Command R+,755,489606,2,2,0,True,0,0,False,False
+466874,Command R+,1213,489606,2,1,-1,False,1,1,True,True
+466876,Command R+,1008,489606,2,1,-1,False,0,0,False,False
+466888,Command R+,1119,489606,2,1,-1,False,1,1,True,True
+466893,Command R+,1214,489606,2,2,0,True,0,0,False,False
+466894,Command R+,1214,489606,2,2,0,True,1,2,True,True
+466967,Command R+,1215,489606,2,1,-1,False,0,0,False,False
+467039,Control,1216,489606,2,1,-1,False,1,1,True,True
+467354,Llama 3 70B,598,489606,2,2,0,True,0,0,False,False
+467365,GPT 4o,397,489606,2,2,0,True,3,3,True,True
+467366,Llama 3 70B,1217,489606,2,1,-1,False,0,1,False,True
+467384,GPT 4o,1218,489606,2,1,-1,False,0,0,False,False
+467396,GPT 4o,1127,489606,2,1,-1,False,1,2,True,True
+467415,Llama 3 70B,409,489606,2,2,0,True,1,1,True,True
+467422,Llama 3 70B,191,489606,2,1,-1,False,0,0,False,False
+467423,Llama 3 70B,399,489606,2,2,0,True,0,0,False,False
+467428,Llama 3 70B,1219,489606,2,2,0,True,1,1,True,True
+467437,GPT 4o,201,489606,2,1,-1,False,1,1,True,True
+467457,Llama 3 70B,1220,489606,2,2,0,True,0,0,False,False
+467460,Llama 3 70B,1219,489606,2,2,0,True,1,1,True,True
+467466,GPT 4o,766,489606,2,2,0,True,2,2,True,True
+467498,Llama 3 70B,1221,489606,2,0,-2,False,0,0,False,False
+467513,Llama 3 70B,402,489606,2,2,0,True,1,1,True,True
+467523,GPT 4o,1222,489606,2,1,-1,False,0,0,False,False
+467525,Llama 3 70B,895,489606,2,1,-1,False,0,0,False,False
+467528,Llama 3 70B,1223,489606,2,2,0,True,1,1,True,True
+467529,GPT 4o,1025,489606,2,3,1,False,1,1,True,True
+467530,GPT 4o,1130,489606,2,2,0,True,0,0,False,False
+467540,Llama 3 70B,1224,489606,2,1,-1,False,1,2,True,True
+467547,GPT 4o,1222,489606,2,2,0,True,0,1,False,True
+467555,GPT 4o,1131,489606,2,2,0,True,0,0,False,False
+467559,GPT 4o,1225,489606,2,1,-1,False,2,2,True,True
+467568,GPT 4o,1226,489606,2,2,0,True,1,1,True,True
+467571,GPT 4o,1225,489606,2,1,-1,False,2,2,True,True
+467586,Llama 3 70B,1026,489606,2,2,0,True,0,0,False,False
+467591,GPT 4o,1227,489606,2,2,0,True,0,0,False,False
+467608,GPT 4o,611,489606,2,2,0,True,0,0,False,False
+467623,Llama 3 70B,768,489606,2,2,0,True,0,0,False,False
+467629,GPT 4o,416,489606,2,2,0,True,1,1,True,True
+467635,Llama 3 70B,212,489606,2,1,-1,False,0,0,False,False
+467638,Llama 3 70B,620,489606,2,2,0,True,0,0,False,False
+467641,Llama 3 70B,897,489606,2,1,-1,False,0,0,False,False
+467646,GPT 4o,1228,489606,2,1,-1,False,1,1,True,True
+467647,Llama 3 70B,1023,489606,2,2,0,True,1,1,True,True
+467658,Llama 3 70B,419,489606,2,2,0,True,0,0,False,False
+467669,Llama 3 70B,1134,489606,2,1,-1,False,0,0,False,False
+467729,Control,625,489606,2,1,-1,False,0,1,False,True
+467730,Command R+,424,489606,2,0,-2,False,0,0,False,False
+467739,Command R+,1135,489606,2,1,-1,False,0,0,False,False
+467744,Command R+,627,489606,2,0,-2,False,0,0,False,False
+467774,GPT 4o,1229,489606,2,1,-1,False,0,1,False,True
+467784,GPT 4o,428,489606,2,1,-1,False,2,2,True,True
+467793,Llama 3 70B,429,489606,2,1,-1,False,0,0,False,False
+467833,GPT 4o,904,489606,2,2,0,True,0,0,False,False
+467837,Llama 3 70B,773,489606,2,2,0,True,1,1,True,True
+467839,Llama 3 70B,908,489606,2,1,-1,False,0,0,False,False
+467842,Llama 3 70B,1230,489606,2,1,-1,False,0,0,False,False
+467843,Llama 3 70B,1039,489606,2,2,0,True,0,0,False,False
+464420,Llama 3 70B,1231,489607,0,1,1,False,1,0,True,False
+464421,Llama 3 70B,1140,489607,0,0,0,True,0,0,False,False
+464427,Llama 3 70B,1232,489607,0,1,1,False,1,0,True,False
+464449,Llama 3 70B,1233,489607,0,2,2,False,0,1,False,True
+464466,Llama 3 70B,1151,489607,0,1,1,False,0,0,False,False
+464474,Llama 3 70B,1147,489607,0,1,1,False,0,0,False,False
+464480,Llama 3 70B,8,489607,0,1,1,False,0,1,False,True
+464487,Llama 3 70B,236,489607,0,0,0,True,1,0,True,False
+464488,Llama 3 70B,646,489607,0,0,0,True,0,0,False,False
+464490,Llama 3 70B,1149,489607,0,1,1,False,2,1,True,True
+464500,Llama 3 70B,1234,489607,0,2,2,False,0,0,False,False
+464511,Llama 3 70B,1235,489607,0,1,1,False,0,1,False,True
+464521,Llama 3 70B,1236,489607,0,1,1,False,0,0,False,False
+464527,Llama 3 70B,1148,489607,0,1,1,False,0,0,False,False
+464532,Llama 3 70B,1156,489607,0,0,0,True,1,1,True,True
+464535,Llama 3 70B,1141,489607,0,1,1,False,0,0,False,False
+464541,Llama 3 70B,1161,489607,0,1,1,False,0,0,False,False
+464547,Llama 3 70B,638,489607,0,1,1,False,0,0,False,False
+464559,Llama 3 70B,229,489607,0,1,1,False,0,0,False,False
+464564,Llama 3 70B,1237,489607,0,0,0,True,2,1,True,True
+464580,Llama 3 70B,650,489607,0,1,1,False,0,0,False,False
+464592,Llama 3 70B,1043,489607,0,0,0,True,1,1,True,True
+464601,Llama 3 70B,644,489607,0,0,0,True,1,2,True,True
+464607,Llama 3 70B,1234,489607,0,0,0,True,0,0,False,False
+464620,Llama 3 70B,1046,489607,0,0,0,True,0,1,False,True
+464667,Llama 3 70B,456,489607,0,1,1,False,1,0,True,False
+464671,Llama 3 70B,1146,489607,0,0,0,True,0,1,False,True
+464681,Llama 3 70B,1055,489607,0,1,1,False,1,1,True,True
+464692,Llama 3 70B,925,489607,0,0,0,True,0,1,False,True
+464729,Llama 3 70B,930,489607,0,2,2,False,1,4,True,True
+464732,Llama 3 70B,785,489607,0,0,0,True,0,1,False,True
+464740,Llama 3 70B,1048,489607,0,0,0,True,0,0,False,False
+464744,GPT 4o,1157,489607,0,2,2,False,0,0,False,False
+464759,Llama 3 70B,780,489607,0,1,1,False,2,1,True,True
+464769,Llama 3 70B,667,489607,0,1,1,False,0,0,False,False
+464784,Llama 3 70B,1238,489607,0,1,1,False,0,0,False,False
+464785,GPT 4o,1239,489607,0,2,2,False,2,1,True,True
+464796,Llama 3 70B,1240,489607,0,2,2,False,0,1,False,True
+464807,Llama 3 70B,1241,489607,0,2,2,False,0,0,False,False
+464837,Llama 3 70B,1160,489607,0,0,0,True,0,0,False,False
+464844,Llama 3 70B,1242,489607,0,1,1,False,1,1,True,True
+464855,GPT 4o,1243,489607,0,0,0,True,0,0,False,False
+464871,GPT 4o,931,489607,0,1,1,False,0,0,False,False
+464881,GPT 4o,1243,489607,0,1,1,False,0,1,False,True
+464882,Llama 3 70B,473,489607,0,1,1,False,0,0,False,False
+464908,Llama 3 70B,671,489607,0,0,0,True,0,0,False,False
+464910,Llama 3 70B,1242,489607,0,1,1,False,0,0,False,False
+464911,Llama 3 70B,1244,489607,0,0,0,True,0,0,False,False
+464937,GPT 4o,1245,489607,0,1,1,False,0,0,False,False
+464942,GPT 4o,1246,489607,0,0,0,True,1,2,True,True
+464958,Llama 3 70B,791,489607,0,2,2,False,0,0,False,False
+464981,GPT 4o,1247,489607,0,1,1,False,0,0,False,False
+464989,GPT 4o,1248,489607,0,1,1,False,0,1,False,True
+464998,Llama 3 70B,1249,489607,0,1,1,False,0,0,False,False
+465010,GPT 4o,795,489607,0,0,0,True,1,0,True,False
+465029,GPT 4o,1170,489607,0,0,0,True,0,0,False,False
+465045,GPT 4o,1250,489607,0,0,0,True,0,0,False,False
+465062,GPT 4o,1251,489607,0,1,1,False,0,1,False,True
+465348,GPT 4o,1077,489607,0,1,1,False,0,0,False,False
+465372,GPT 4o,1252,489607,0,0,0,True,0,0,False,False
+465376,Llama 3 70B,1253,489607,0,1,1,False,0,0,False,False
+465381,GPT 4o,1254,489607,0,0,0,True,0,1,False,True
+465393,Llama 3 70B,944,489607,0,2,2,False,0,0,False,False
+465422,GPT 4o,1177,489607,0,1,1,False,0,0,False,False
+465428,GPT 4o,1178,489607,0,1,1,False,0,0,False,False
+465445,GPT 4o,273,489607,0,1,1,False,0,1,False,True
+465448,GPT 4o,687,489607,0,1,1,False,0,0,False,False
+465460,GPT 4o,1080,489607,0,2,2,False,0,0,False,False
+465466,GPT 4o,495,489607,0,1,1,False,0,0,False,False
+465477,GPT 4o,1255,489607,0,0,0,True,1,1,True,True
+465485,GPT 4o,1256,489607,0,1,1,False,0,0,False,False
+465486,GPT 4o,279,489607,0,0,0,True,0,1,False,True
+465490,GPT 4o,1255,489607,0,0,0,True,1,1,True,True
+465496,GPT 4o,689,489607,0,0,0,True,1,1,True,True
+465533,GPT 4o,70,489607,0,0,0,True,0,0,False,False
+465546,Llama 3 70B,1086,489607,0,1,1,False,0,0,False,False
+465550,Llama 3 70B,1257,489607,0,0,0,True,0,0,False,False
+465557,Llama 3 70B,1182,489607,0,2,2,False,0,1,False,True
+465569,GPT 4o,950,489607,0,1,1,False,1,1,True,True
+465590,Llama 3 70B,503,489607,0,2,2,False,0,0,False,False
+465594,Llama 3 70B,953,489607,0,1,1,False,0,0,False,False
+465618,Control,954,489607,0,0,0,True,1,0,True,False
+465636,Control,956,489607,0,1,1,False,1,1,True,True
+465640,Control,695,489607,0,1,1,False,0,1,False,True
+465674,Control,1258,489607,0,1,1,False,0,1,False,True
+465686,Control,1258,489607,0,1,1,False,0,1,False,True
+465688,Control,1186,489607,0,1,1,False,0,0,False,False
+465702,Control,519,489607,0,0,0,True,2,2,True,True
+465742,Control,520,489607,0,1,1,False,0,0,False,False
+465747,Control,703,489607,0,0,0,True,0,1,False,True
+465749,Control,1091,489607,0,1,1,False,0,0,False,False
+465754,Control,296,489607,0,0,0,True,0,0,False,False
+465763,Control,1189,489607,0,2,2,False,1,1,True,True
+465764,Control,699,489607,0,1,1,False,0,0,False,False
+465765,Control,827,489607,0,0,0,True,0,1,False,True
+465766,Control,516,489607,0,1,1,False,0,0,False,False
+465776,Control,1185,489607,0,3,3,False,0,0,False,False
+465792,Control,515,489607,0,0,0,True,0,1,False,True
+465802,Control,293,489607,0,0,0,True,0,0,False,False
+465807,Control,1259,489607,0,0,0,True,1,1,True,True
+465809,Control,314,489607,0,1,1,False,0,1,False,True
+465823,Control,961,489607,0,1,1,False,1,1,True,True
+465830,Control,1260,489607,0,2,2,False,0,0,False,False
+465831,Control,1259,489607,0,0,0,True,0,1,False,True
+465844,Control,1090,489607,0,0,0,True,0,1,False,True
+465859,Control,317,489607,0,0,0,True,0,0,False,False
+465871,Control,1261,489607,0,2,2,False,0,2,False,True
+465873,Control,828,489607,0,0,0,True,2,2,True,True
+465876,Control,1262,489607,0,1,1,False,1,1,True,True
+465880,Control,829,489607,0,2,2,False,1,0,True,False
+465882,Control,1263,489607,0,1,1,False,1,0,True,False
+465901,Control,1262,489607,0,1,1,False,1,1,True,True
+465911,Control,709,489607,0,1,1,False,0,0,False,False
+465923,Control,1263,489607,0,1,1,False,1,0,True,False
+465937,Control,323,489607,0,1,1,False,0,1,False,True
+465940,Control,831,489607,0,0,0,True,1,1,True,True
+465963,Control,1092,489607,0,0,0,True,1,1,True,True
+465981,Control,969,489607,0,0,0,True,1,1,True,True
+465982,Control,832,489607,0,0,0,True,0,1,False,True
+465983,Control,1192,489607,0,1,1,False,0,0,False,False
+465989,Control,528,489607,0,0,0,True,1,0,True,False
+465999,Control,1099,489607,0,0,0,True,1,0,True,False
+466018,Control,114,489607,0,1,1,False,1,1,True,True
+466030,Control,1102,489607,0,2,2,False,0,0,False,False
+466034,Control,713,489607,0,0,0,True,0,1,False,True
+466054,Control,1097,489607,0,1,1,False,0,0,False,False
+466096,Control,332,489607,0,1,1,False,0,0,False,False
+466139,Control,125,489607,0,0,0,True,0,0,False,False
+466165,Control,719,489607,0,1,1,False,0,0,False,False
+466173,Control,1264,489607,0,0,0,True,0,0,False,False
+466179,Control,721,489607,0,0,0,True,0,0,False,False
+466185,Control,980,489607,0,2,2,False,0,0,False,False
+466186,Control,979,489607,0,2,2,False,0,2,False,True
+466201,Control,1265,489607,0,2,2,False,0,0,False,False
+466212,Control,1266,489607,0,0,0,True,1,0,True,False
+466217,Control,129,489607,0,1,1,False,1,0,True,False
+466286,GPT 4o,130,489607,0,1,1,False,0,0,False,False
+466323,Command R+,987,489607,0,1,1,False,0,0,False,False
+466341,Command R+,989,489607,0,1,1,False,0,1,False,True
+466346,Command R+,847,489607,0,0,0,True,0,1,False,True
+466348,Command R+,848,489607,0,2,2,False,0,0,False,False
+466355,Command R+,982,489607,0,1,1,False,0,1,False,True
+466367,Command R+,1107,489607,0,1,1,False,0,0,False,False
+466373,Command R+,344,489607,0,0,0,True,1,2,True,True
+466382,Command R+,1106,489607,0,0,0,True,0,1,False,True
+466388,Command R+,549,489607,0,1,1,False,0,0,False,False
+466423,Command R+,994,489607,0,0,0,True,0,1,False,True
+466438,Command R+,1267,489607,0,2,2,False,0,2,False,True
+466458,Command R+,1205,489607,0,0,0,True,1,1,True,True
+466465,Command R+,851,489607,0,0,0,True,0,1,False,True
+466466,Command R+,1204,489607,0,0,0,True,0,0,False,False
+466470,Command R+,742,489607,0,2,2,False,0,0,False,False
+466472,Command R+,1268,489607,0,1,1,False,0,1,False,True
+466476,Command R+,864,489607,0,0,0,True,0,0,False,False
+466502,Command R+,558,489607,0,1,1,False,1,1,True,True
+466505,Command R+,1267,489607,0,2,2,False,0,1,False,True
+466512,Command R+,1200,489607,0,2,2,False,0,0,False,False
+466513,Command R+,1269,489607,0,0,0,True,0,0,False,False
+466527,Command R+,555,489607,0,1,1,False,0,1,False,True
+466546,Command R+,1116,489607,0,0,0,True,1,0,True,False
+466551,Command R+,860,489607,0,1,1,False,0,0,False,False
+466552,Command R+,565,489607,0,0,0,True,0,1,False,True
+466554,Command R+,1109,489607,0,1,1,False,0,0,False,False
+466568,Command R+,159,489607,0,1,1,False,0,0,False,False
+466574,Command R+,575,489607,0,1,1,False,0,0,False,False
+466616,Command R+,869,489607,0,2,2,False,0,0,False,False
+466626,Command R+,1270,489607,0,0,0,True,0,0,False,False
+466674,Command R+,1271,489607,0,0,0,True,0,0,False,False
+466686,Command R+,1272,489607,0,1,1,False,0,0,False,False
+466688,Command R+,151,489607,0,0,0,True,1,1,True,True
+466692,Command R+,868,489607,0,1,1,False,0,1,False,True
+466696,Command R+,153,489607,0,1,1,False,0,0,False,False
+466710,Command R+,1211,489607,0,0,0,True,0,1,False,True
+466722,Command R+,573,489607,0,0,0,True,2,1,True,True
+466723,Command R+,164,489607,0,0,0,True,0,0,False,False
+466739,Command R+,1208,489607,0,2,2,False,0,0,False,False
+466756,Command R+,177,489607,0,1,1,False,1,1,True,True
+466759,Command R+,166,489607,0,0,0,True,1,0,True,False
+466761,Command R+,1206,489607,0,1,1,False,1,0,True,False
+466780,Command R+,169,489607,0,0,0,True,2,2,True,True
+466795,Command R+,378,489607,0,1,1,False,1,1,True,True
+466797,Command R+,1273,489607,0,0,0,True,1,1,True,True
+466805,Command R+,176,489607,0,1,1,False,0,1,False,True
+466812,Command R+,1196,489607,0,1,1,False,1,0,True,False
+466820,Command R+,178,489607,0,3,3,False,0,0,False,False
+466824,Command R+,1118,489607,0,0,0,True,0,0,False,False
+466825,Command R+,1274,489607,0,0,0,True,0,0,False,False
+466828,Command R+,1117,489607,0,0,0,True,1,1,True,True
+466847,Command R+,1275,489607,0,0,0,True,0,0,False,False
+466852,Command R+,880,489607,0,1,1,False,0,0,False,False
+466861,Command R+,881,489607,0,1,1,False,1,1,True,True
+466866,Command R+,590,489607,0,0,0,True,1,1,True,True
+466869,Command R+,882,489607,0,1,1,False,0,0,False,False
+466915,Control,392,489607,0,0,0,True,1,1,True,True
+467033,Control,1216,489607,0,0,0,True,0,1,False,True
+467065,GPT 4o,1012,489607,0,0,0,True,0,1,False,True
+467378,Llama 3 70B,1217,489607,0,2,2,False,2,2,True,True
+467382,GPT 4o,1276,489607,0,1,1,False,1,0,True,False
+467395,GPT 4o,195,489607,0,1,1,False,0,0,False,False
+467405,GPT 4o,885,489607,0,0,0,True,1,1,True,True
+467407,GPT 4o,1123,489607,0,0,0,True,0,0,False,False
+467413,GPT 4o,403,489607,0,0,0,True,0,0,False,False
+467426,Llama 3 70B,404,489607,0,2,2,False,0,0,False,False
+467427,Llama 3 70B,1220,489607,0,2,2,False,0,0,False,False
+467453,Llama 3 70B,1224,489607,0,0,0,True,1,2,True,True
+467465,GPT 4o,1277,489607,0,2,2,False,0,0,False,False
+467469,GPT 4o,1278,489607,0,1,1,False,0,0,False,False
+467489,GPT 4o,892,489607,0,1,1,False,0,1,False,True
+467506,GPT 4o,1279,489607,0,0,0,True,0,0,False,False
+467515,Llama 3 70B,1129,489607,0,1,1,False,0,0,False,False
+467516,Llama 3 70B,1280,489607,0,1,1,False,0,0,False,False
+467518,Llama 3 70B,1281,489607,0,1,1,False,1,0,True,False
+467521,GPT 4o,1018,489607,0,2,2,False,0,0,False,False
+467560,GPT 4o,893,489607,0,1,1,False,1,1,True,True
+467576,GPT 4o,1017,489607,0,1,1,False,1,2,True,True
+467636,Llama 3 70B,1028,489607,0,0,0,True,0,0,False,False
+467637,GPT 4o,767,489607,0,1,1,False,0,0,False,False
+467653,Llama 3 70B,621,489607,0,2,2,False,0,0,False,False
+467663,Llama 3 70B,1282,489607,0,1,1,False,0,0,False,False
+467684,Llama 3 70B,900,489607,0,0,0,True,0,0,False,False
+467713,Control,901,489607,0,0,0,True,0,0,False,False
+467724,Control,902,489607,0,2,2,False,0,1,False,True
+467752,Control,1033,489607,0,1,1,False,0,1,False,True
+467755,Command R+,223,489607,0,2,2,False,0,0,False,False
+467770,GPT 4o,1136,489607,0,1,1,False,0,0,False,False
+467787,Command R+,430,489607,0,0,0,True,0,1,False,True
+467798,GPT 4o,1037,489607,0,2,2,False,0,0,False,False
+467801,Llama 3 70B,1283,489607,0,0,0,True,1,1,True,True
+467831,Llama 3 70B,631,489607,0,0,0,True,0,1,False,True
+467841,Llama 3 70B,1041,489607,0,0,0,True,1,1,True,True
+464403,Llama 3 70B,636,489608,0,1,1,False,0,1,False,True
+464408,Llama 3 70B,1042,489608,0,0,0,True,1,1,True,True
+464417,Llama 3 70B,909,489608,0,0,0,True,1,1,True,True
+464418,Llama 3 70B,1284,489608,0,1,1,False,0,0,False,False
+464426,Llama 3 70B,1235,489608,0,1,1,False,1,1,True,True
+464447,Llama 3 70B,1285,489608,0,1,1,False,0,0,False,False
+464451,Llama 3 70B,5,489608,0,1,1,False,1,2,True,True
+464452,Llama 3 70B,446,489608,0,0,0,True,1,1,True,True
+464462,Llama 3 70B,1145,489608,0,0,0,True,0,0,False,False
+464464,Llama 3 70B,1284,489608,0,1,1,False,0,0,False,False
+464476,Llama 3 70B,1237,489608,0,0,0,True,1,3,True,True
+464495,Llama 3 70B,652,489608,0,0,0,True,1,1,True,True
+464542,Llama 3 70B,438,489608,0,0,0,True,1,1,True,True
+464545,Llama 3 70B,1233,489608,0,2,2,False,1,1,True,True
+464563,Llama 3 70B,1286,489608,0,1,1,False,1,1,True,True
+464569,Llama 3 70B,649,489608,0,0,0,True,1,1,True,True
+464605,Llama 3 70B,1054,489608,0,0,0,True,0,1,False,True
+464632,Llama 3 70B,1152,489608,0,0,0,True,0,0,False,False
+464638,Llama 3 70B,1051,489608,0,1,1,False,1,1,True,True
+464641,Llama 3 70B,1286,489608,0,0,0,True,0,0,False,False
+464647,Llama 3 70B,1050,489608,0,1,1,False,0,1,False,True
+464657,GPT 4o,459,489608,0,0,0,True,0,1,False,True
+464670,Llama 3 70B,1053,489608,0,0,0,True,0,0,False,False
+464684,Llama 3 70B,1162,489608,0,0,0,True,1,1,True,True
+464689,Llama 3 70B,1159,489608,0,3,3,False,0,0,False,False
+464720,Llama 3 70B,782,489608,0,1,1,False,1,1,True,True
+464734,GPT 4o,1239,489608,0,1,1,False,0,0,False,False
+464748,Llama 3 70B,1049,489608,0,1,1,False,0,0,False,False
+464749,Llama 3 70B,1238,489608,0,1,1,False,0,0,False,False
+464754,Llama 3 70B,665,489608,0,0,0,True,1,1,True,True
+464758,Llama 3 70B,663,489608,0,2,2,False,0,1,False,True
+464794,Llama 3 70B,255,489608,0,0,0,True,0,1,False,True
+464804,Llama 3 70B,25,489608,0,0,0,True,1,1,True,True
+464817,Llama 3 70B,1165,489608,0,0,0,True,0,0,False,False
+464819,GPT 4o,1164,489608,0,1,1,False,1,1,True,True
+464821,GPT 4o,461,489608,0,2,2,False,0,0,False,False
+464835,GPT 4o,926,489608,0,1,1,False,1,2,True,True
+464867,GPT 4o,1057,489608,0,0,0,True,1,2,True,True
+464872,Llama 3 70B,921,489608,0,2,2,False,0,0,False,False
+464874,GPT 4o,1248,489608,0,1,1,False,1,1,True,True
+464877,Llama 3 70B,802,489608,0,0,0,True,1,2,True,True
+464887,GPT 4o,250,489608,0,1,1,False,1,1,True,True
+464900,GPT 4o,664,489608,0,0,0,True,1,1,True,True
+464901,GPT 4o,788,489608,0,0,0,True,1,1,True,True
+464912,GPT 4o,786,489608,0,2,2,False,0,0,False,False
+464913,GPT 4o,1247,489608,0,1,1,False,0,0,False,False
+464914,Llama 3 70B,673,489608,0,2,2,False,0,0,False,False
+464915,Llama 3 70B,789,489608,0,0,0,True,1,1,True,True
+464930,GPT 4o,48,489608,0,1,1,False,0,0,False,False
+464931,GPT 4o,669,489608,0,0,0,True,1,2,True,True
+464938,Llama 3 70B,1240,489608,0,0,0,True,1,1,True,True
+464960,Llama 3 70B,1287,489608,0,0,0,True,0,0,False,False
+464983,GPT 4o,670,489608,0,1,1,False,0,0,False,False
+464994,GPT 4o,1250,489608,0,0,0,True,0,0,False,False
+464996,GPT 4o,1246,489608,0,0,0,True,0,0,False,False
+465004,GPT 4o,794,489608,0,0,0,True,1,2,True,True
+465007,GPT 4o,678,489608,0,0,0,True,0,0,False,False
+465008,GPT 4o,801,489608,0,1,1,False,0,1,False,True
+465015,GPT 4o,53,489608,0,1,1,False,1,1,True,True
+465033,GPT 4o,52,489608,0,0,0,True,0,1,False,True
+465069,GPT 4o,476,489608,0,1,1,False,1,2,True,True
+465074,GPT 4o,1288,489608,0,0,0,True,0,0,False,False
+465099,GPT 4o,1289,489608,0,0,0,True,0,0,False,False
+465116,GPT 4o,1290,489608,0,1,1,False,0,0,False,False
+465119,GPT 4o,1291,489608,0,0,0,True,0,0,False,False
+465344,GPT 4o,1075,489608,0,0,0,True,0,0,False,False
+465356,GPT 4o,1292,489608,0,0,0,True,0,0,False,False
+465377,GPT 4o,1176,489608,0,0,0,True,1,2,True,True
+465378,Llama 3 70B,270,489608,0,1,1,False,1,1,True,True
+465384,GPT 4o,1078,489608,0,0,0,True,1,1,True,True
+465396,GPT 4o,1252,489608,0,0,0,True,1,1,True,True
+465401,Llama 3 70B,808,489608,0,1,1,False,1,1,True,True
+465534,Llama 3 70B,282,489608,0,0,0,True,1,2,True,True
+465545,Llama 3 70B,1257,489608,0,0,0,True,1,1,True,True
+465555,Llama 3 70B,284,489608,0,0,0,True,1,1,True,True
+465577,Llama 3 70B,287,489608,0,0,0,True,0,0,False,False
+465599,Control,505,489608,0,0,0,True,1,1,True,True
+465611,Control,692,489608,0,0,0,True,1,2,True,True
+465624,Control,78,489608,0,0,0,True,1,2,True,True
+465634,Control,510,489608,0,0,0,True,0,0,False,False
+465648,Control,821,489608,0,0,0,True,0,0,False,False
+465652,Control,819,489608,0,0,0,True,1,2,True,True
+465657,Control,816,489608,0,1,1,False,0,0,False,False
+465664,Control,1293,489608,0,0,0,True,0,1,False,True
+465665,Control,694,489608,0,0,0,True,0,1,False,True
+465677,Control,693,489608,0,2,2,False,1,1,True,True
+465687,Control,89,489608,0,0,0,True,0,0,False,False
+465695,Control,822,489608,0,0,0,True,0,1,False,True
+465696,Control,511,489608,0,0,0,True,1,2,True,True
+465705,Control,79,489608,0,0,0,True,0,1,False,True
+465719,Control,91,489608,0,0,0,True,0,0,False,False
+465724,Control,1293,489608,0,0,0,True,0,0,False,False
+465731,Control,962,489608,0,2,2,False,1,1,True,True
+465739,Control,298,489608,0,0,0,True,0,0,False,False
+465745,Control,965,489608,0,0,0,True,1,2,True,True
+465768,Control,301,489608,0,0,0,True,0,0,False,False
+465779,Control,1261,489608,0,0,0,True,0,1,False,True
+465782,Control,95,489608,0,0,0,True,0,1,False,True
+465796,Control,702,489608,0,0,0,True,0,1,False,True
+465801,Control,1187,489608,0,2,2,False,0,0,False,False
+465803,Control,1294,489608,0,2,2,False,1,2,True,True
+465812,Control,88,489608,0,0,0,True,0,1,False,True
+465821,Control,514,489608,0,0,0,True,0,1,False,True
+465826,Control,1294,489608,0,2,2,False,1,1,True,True
+465840,Control,1093,489608,0,0,0,True,0,1,False,True
+465852,Control,1260,489608,0,0,0,True,0,1,False,True
+465856,Control,1190,489608,0,0,0,True,1,1,True,True
+465858,Control,98,489608,0,0,0,True,0,0,False,False
+465883,Control,101,489608,0,1,1,False,0,0,False,False
+465898,Control,1096,489608,0,0,0,True,0,0,False,False
+465904,Control,1095,489608,0,0,0,True,1,2,True,True
+465921,Control,707,489608,0,0,0,True,1,2,True,True
+465932,Control,1188,489608,0,0,0,True,0,0,False,False
+465938,Llama 3 70B,970,489608,0,0,0,True,1,2,True,True
+465939,Control,102,489608,0,1,1,False,1,1,True,True
+465948,Control,1193,489608,0,0,0,True,0,1,False,True
+465957,Control,1191,489608,0,1,1,False,1,1,True,True
+466035,Control,971,489608,0,0,0,True,1,1,True,True
+466037,Control,841,489608,0,0,0,True,1,2,True,True
+466061,Control,1098,489608,0,1,1,False,0,0,False,False
+466145,Control,1194,489608,0,0,0,True,1,3,True,True
+466147,Control,722,489608,0,0,0,True,1,1,True,True
+466156,Control,1264,489608,0,0,0,True,0,0,False,False
+466182,Control,1295,489608,0,0,0,True,1,1,True,True
+466188,Control,1295,489608,0,1,1,False,1,1,True,True
+466194,Control,542,489608,0,0,0,True,1,2,True,True
+466196,Control,1265,489608,0,1,1,False,0,0,False,False
+466205,Control,339,489608,0,2,2,False,0,0,False,False
+466208,Control,340,489608,0,1,1,False,1,1,True,True
+466210,Control,1266,489608,0,3,3,False,1,2,True,True
+466211,Control,1195,489608,0,4,4,False,0,0,False,False
+466289,Command R+,341,489608,0,1,1,False,1,1,True,True
+466308,Command R+,1296,489608,0,0,0,True,1,1,True,True
+466311,Command R+,855,489608,0,1,1,False,1,1,True,True
+466315,Command R+,985,489608,0,0,0,True,0,0,False,False
+466321,Command R+,132,489608,0,1,1,False,0,0,False,False
+466331,Command R+,1296,489608,0,0,0,True,1,1,True,True
+466334,Command R+,135,489608,0,1,1,False,0,0,False,False
+466339,Command R+,990,489608,0,0,0,True,1,1,True,True
+466347,Command R+,552,489608,0,1,1,False,1,1,True,True
+466364,Command R+,149,489608,0,0,0,True,1,1,True,True
+466384,Command R+,1111,489608,0,0,0,True,0,1,False,True
+466402,Command R+,858,489608,0,0,0,True,0,0,False,False
+466407,Command R+,345,489608,0,1,1,False,0,0,False,False
+466419,Command R+,1198,489608,0,0,0,True,0,0,False,False
+466425,Command R+,359,489608,0,1,1,False,0,0,False,False
+466442,Command R+,992,489608,0,0,0,True,1,1,True,True
+466446,Command R+,998,489608,0,0,0,True,0,0,False,False
+466448,Command R+,993,489608,0,0,0,True,1,1,True,True
+466480,Command R+,867,489608,0,0,0,True,0,0,False,False
+466486,Command R+,856,489608,0,0,0,True,0,0,False,False
+466491,Command R+,137,489608,0,0,0,True,0,1,False,True
+466508,Command R+,1199,489608,0,0,0,True,0,0,False,False
+466580,Command R+,379,489608,0,0,0,True,0,0,False,False
+466581,Command R+,163,489608,0,0,0,True,1,2,True,True
+466584,Command R+,1207,489608,0,1,1,False,0,0,False,False
+466585,Command R+,1269,489608,0,0,0,True,1,1,True,True
+466605,Command R+,1272,489608,0,1,1,False,0,0,False,False
+466627,Command R+,1203,489608,0,1,1,False,0,1,False,True
+466651,Command R+,563,489608,0,0,0,True,1,1,True,True
+466653,Command R+,1112,489608,0,2,2,False,0,0,False,False
+466658,Command R+,1201,489608,0,0,0,True,0,0,False,False
+466660,Command R+,874,489608,0,0,0,True,1,1,True,True
+466664,Command R+,870,489608,0,0,0,True,0,0,False,False
+466672,Command R+,1270,489608,0,0,0,True,0,1,False,True
+466677,Command R+,1297,489608,0,1,1,False,0,0,False,False
+466701,Command R+,165,489608,0,0,0,True,0,1,False,True
+466702,Command R+,352,489608,0,0,0,True,0,0,False,False
+466726,Command R+,997,489608,0,0,0,True,1,1,True,True
+466750,Command R+,160,489608,0,0,0,True,0,0,False,False
+466762,Command R+,1210,489608,0,0,0,True,0,1,False,True
+466776,Command R+,878,489608,0,0,0,True,1,1,True,True
+466777,Command R+,381,489608,0,0,0,True,1,2,True,True
+466784,Command R+,751,489608,0,0,0,True,1,1,True,True
+466958,Llama 3 70B,592,489608,0,1,1,False,0,0,False,False
+467034,Control,1120,489608,0,1,1,False,0,0,False,False
+467353,Llama 3 70B,596,489608,0,1,1,False,0,0,False,False
+467398,Llama 3 70B,762,489608,0,0,0,True,0,1,False,True
+467482,Llama 3 70B,203,489608,0,0,0,True,1,1,True,True

@@ -1,0 +1,19 @@
+{
+  "created_at_utc": "2026-10-10T20:28:17.620045+00:00",
+  "paper_id": "P109",
+  "before_own_aggregate_outcomes": true,
+  "purpose": "Prospective implementation and independent-audit alignment; original16 scientific gate definitions and central scope unchanged.",
+  "alignment": [
+    "Egger and funnel use the printed source standard errors; weighted synthesis uses the original deterministic clamped SE-squared input variance rule.",
+    "Final arithmetic-expanded probability envelopes are clipped to[0,1]; I2 to[0,100]; SE,variance,Q,C,tau are nonnegative. This is a physical range restriction, not a revised source target.",
+    "Independent80-digit implementation requires1e-9 absolute agreement for primary points, analytical bounds and formulas. Independent sensitivity tau estimates have1e-7 solver agreement, while sensitivity formulas recomputed at the root reported tau require1e-9. These do not alter any original published comparison.",
+    "All original Table4 dimension groups, all three tau schemes, Egger, funnel and both estimator sensitivities are mandatory supporting outputs, never substitutes for a failed central gate.",
+    "Marginal source-precision envelope intersections do not establish a single jointly compatible unrounded input vector. Any successful result establishes source-rounding compatibility of the complete primary synthesis under prospective DL, not recovery of the original unrounded data or verified CMA3.7 project/settings. This limitation must appear in the report and final classification."
+  ],
+  "runner_prealignment_path": "papers/P109_higher_order_thinking/RUNNER_PREALIGNMENT_001.py",
+  "runner_prealignment_sha256": "4860cf232613d7962efb4c3fbb5a377addde195659711017d7af51815e7be7d9",
+  "preregistration_sha256": "60146ae23925b16f03e3a081105b6de2611a428524651fb4721a7ab3221f8350",
+  "runner_sha256": "808dd063d949b9166a8354798c7ed5978c7ddb0cfe8244e34842e6e8b6d36375",
+  "auditor_sha256": "268d24050d930e25cb4b1ae4ac6cdc8a263b09b8158a5d9cf6e8f83ee6f99b6c",
+  "outcome_generation_authorized": false
+}

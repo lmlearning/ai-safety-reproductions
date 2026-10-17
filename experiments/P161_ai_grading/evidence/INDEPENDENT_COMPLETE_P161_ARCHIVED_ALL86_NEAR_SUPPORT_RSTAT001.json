@@ -1,0 +1,2129 @@
+{
+  "schema": "P161_INDEPENDENT_COMPLETE_ARCHIVED_CENTRAL_NEAR_REVIEW_RSTAT001",
+  "started_UTC": "2026-10-17T09:02:27.8473251Z",
+  "sealed_UTC": "2026-10-17T09:06:09.429823+00:00",
+  "disposition": "NEAR_SUPPORT",
+  "award_authority": "ROOT only; no registry change here",
+  "retrospective_not_original_blind_preregistration": true,
+  "rule_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ADOPTED_P161_ARCHIVED_ALL86_ICC_NEAR_RULE935.json",
+    "bytes": 2762,
+    "sha256": "fb180a172dd0e5b97f348b71713cb34af5f3cd42e186fbb1fdc8b17f2d984474"
+  },
+  "all86_vector_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\P161_independent_archived_near_review_RSTAT001\\COMPLETE_ALL86_PAIRED_ARCHIVED_ICC_NEAR_ERROR_VECTOR_RSTAT001.json",
+    "bytes": 63288,
+    "sha256": "b645492caefbc1feb1c3f36f09db97996e8a36084292ca9dd1cb5f3c4eeb862e"
+  },
+  "maximum_absolute_error_row": {
+    "id": "T5.6.AI_HumanS_average",
+    "role": "CENTRAL_ICC_TABLE5",
+    "query_id": "ICC.common3.6.AI_HumanS",
+    "field_path": [
+      "average"
+    ],
+    "source_literal": ".412",
+    "source_point": "0.412",
+    "absolute_bound": ".010",
+    "routes": {
+      "primary": {
+        "value": 0.4177911591624469,
+        "absolute_error": "0.0057911591624469",
+        "near_pass": true,
+        "old_strict_pass": false
+      },
+      "secondary": {
+        "value": 0.417791159162447,
+        "absolute_error": "0.005791159162447",
+        "near_pass": true,
+        "old_strict_pass": false
+      }
+    },
+    "both_near_pass": true
+  },
+  "whole_central": "Original frozen entireTable5 60 ICCs +Table2 20duplicates +Abstract6, all3pairs/all9criteria+total/single+average. All91records/bothcampuses retained; original common3-raterN90criterion6 excludes sourcerow44, allotherN91. No changedmask or favorable pairwise sensitivity.",
+  "findings": {
+    "all86_primary_and_secondary_near_pass": true,
+    "all20_ordering_claims_both_routes_independently_rechecked": true,
+    "all135_integrity_each_route_true": true,
+    "all189_fact_IDs_match": true,
+    "all42785_archived_comparison_booleans_true": true,
+    "all273_total_formula_equalities_recorded_true": "Original integrity audit, no new workbook/formula evaluation.",
+    "old_strict81of86_failed": true,
+    "old5failure_records": [
+      {
+        "id": "T5.6.AI_HumanS_single",
+        "role": "CENTRAL_ICC_TABLE5",
+        "literal": ".259",
+        "query_id": "ICC.common3.6.AI_HumanS",
+        "field_path": [
+          "single"
+        ],
+        "reference": {
+          "kind": "PRINTED_ROUND_HALF_UNIT_REFERENCE",
+          "point": "0.259",
+          "printed_unit": "0.001",
+          "lower": "0.2585",
+          "upper": "0.2595",
+          "tie_rule": "Both endpoints retained conservatively; original rounding engine unknown. Not a scientific equivalence margin.",
+          "lower_inclusive": true,
+          "upper_inclusive": false,
+          "float_margin": "1e-12",
+          "authority": "ROOT340; supersedes036 conservative endpoint ambiguity for86centraltargets"
+        },
+        "value": 0.2640556343632149,
+        "passed": false,
+        "status": "FAIL",
+        "source_verdict": "FAIL",
+        "method_identification": "UNAMBIGUOUS_ESTIMATOR_WITH_DECLARED_CONVENTIONS"
+      },
+      {
+        "id": "T5.6.AI_HumanS_average",
+        "role": "CENTRAL_ICC_TABLE5",
+        "literal": ".412",
+        "query_id": "ICC.common3.6.AI_HumanS",
+        "field_path": [
+          "average"
+        ],
+        "reference": {
+          "kind": "PRINTED_ROUND_HALF_UNIT_REFERENCE",
+          "point": "0.412",
+          "printed_unit": "0.001",
+          "lower": "0.4115",
+          "upper": "0.4125",
+          "tie_rule": "Both endpoints retained conservatively; original rounding engine unknown. Not a scientific equivalence margin.",
+          "lower_inclusive": true,
+          "upper_inclusive": false,
+          "float_margin": "1e-12",
+          "authority": "ROOT340; supersedes036 conservative endpoint ambiguity for86centraltargets"
+        },
+        "value": 0.4177911591624469,
+        "passed": false,
+        "status": "FAIL",
+        "source_verdict": "FAIL",
+        "method_identification": "UNAMBIGUOUS_ESTIMATOR_WITH_DECLARED_CONVENTIONS"
+      },
+      {
+        "id": "T5.9.AI_HumanS_single",
+        "role": "CENTRAL_ICC_TABLE5",
+        "literal": ".365",
+        "query_id": "ICC.common3.9.AI_HumanS",
+        "field_path": [
+          "single"
+        ],
+        "reference": {
+          "kind": "PRINTED_ROUND_HALF_UNIT_REFERENCE",
+          "point": "0.365",
+          "printed_unit": "0.001",
+          "lower": "0.3645",
+          "upper": "0.3655",
+          "tie_rule": "Both endpoints retained conservatively; original rounding engine unknown. Not a scientific equivalence margin.",
+          "lower_inclusive": true,
+          "upper_inclusive": false,
+          "float_margin": "1e-12",
+          "authority": "ROOT340; supersedes036 conservative endpoint ambiguity for86centraltargets"
+        },
+        "value": 0.36564647238387044,
+        "passed": false,
+        "status": "FAIL",
+        "source_verdict": "FAIL",
+        "method_identification": "UNAMBIGUOUS_ESTIMATOR_WITH_DECLARED_CONVENTIONS"
+      },
+      {
+        "id": "T5.Total.AI_HumanZ_single",
+        "role": "CENTRAL_ICC_TABLE5",
+        "literal": ".406",
+        "query_id": "ICC.common3.Total.AI_HumanZ",
+        "field_path": [
+          "single"
+        ],
+        "reference": {
+          "kind": "PRINTED_ROUND_HALF_UNIT_REFERENCE",
+          "point": "0.406",
+          "printed_unit": "0.001",
+          "lower": "0.4055",
+          "upper": "0.4065",
+          "tie_rule": "Both endpoints retained conservatively; original rounding engine unknown. Not a scientific equivalence margin.",
+          "lower_inclusive": true,
+          "upper_inclusive": false,
+          "float_margin": "1e-12",
+          "authority": "ROOT340; supersedes036 conservative endpoint ambiguity for86centraltargets"
+        },
+        "value": 0.4065483278264503,
+        "passed": false,
+        "status": "FAIL",
+        "source_verdict": "FAIL",
+        "method_identification": "UNAMBIGUOUS_ESTIMATOR_WITH_DECLARED_CONVENTIONS"
+      },
+      {
+        "id": "ABSTRACT.ICC.AI_HumanZ.single",
+        "role": "CENTRAL_ICC_ABSTRACT",
+        "literal": ".406",
+        "query_id": "ICC.common3.Total.AI_HumanZ",
+        "field_path": [
+          "single"
+        ],
+        "reference": {
+          "kind": "PRINTED_ROUND_HALF_UNIT_REFERENCE",
+          "point": "0.406",
+          "lower": "0.4055",
+          "upper": "0.4065",
+          "lower_inclusive": true,
+          "upper_inclusive": false,
+          "float_margin": "1e-12",
+          "authority": "ROOT340; supersedes036 conservative endpoint ambiguity for86centraltargets"
+        },
+        "value": 0.4065483278264503,
+        "passed": false,
+        "status": "FAIL",
+        "source_verdict": "FAIL",
+        "method_identification": null
+      }
+    ],
+    "central_conclusion": "Human-human ICC exceeds bothAI-human ICCs for every10endpointx2measure combination. Reproduces agreement comparison, not causal validity/fairness/interchangeability."
+  },
+  "eligibility": {
+    "DOI": "10.22521/edupij.2025.19.591",
+    "authors": [
+      "Georgios Zacharis",
+      "Stamatios Papadakis"
+    ],
+    "first_principal_OpenAlex": 31,
+    "main_threshold": 20,
+    "exact_raw_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\rstat_new_human_risk_first_metadata_oct15_027\\T02_FIRST_PRINCIPAL_RAW.json",
+      "bytes": 3100,
+      "sha256": "20e68a78f42d0992a68bd9d52b7be2be4f6a2c98582c36e729708d045dc5c046"
+    },
+    "earliest_identified_substantive_report": "PublisherAvailableOnlineDecember2025",
+    "earlier_September_source": "All7files previously whole-content-qualified as individualratings/totals+6instruments, noaggregate realisedstudyresults. This review reuses pinnedqualification, does not reopenratings/instruments or inventearlierpublication.",
+    "date_evidence_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P161_ai_grading\\SELECTION_AND_SOURCE_HOLD339.json",
+      "bytes": 10426,
+      "sha256": "1cda738398bdd302f18c7355a8511a4ddc3110a17c1c74295da00acaf5097029"
+    },
+    "limits": "Year-onlyJanuary1metadata/receiveddate/Septemberrawartifact creation are not independently dated substantive studyreports. No globalabsence proof or citationrefresh."
+  },
+  "closed_provenance": {
+    "old354_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P161_ai_grading\\ROOT_COMPLETE_CLOSED_UNSUCCESSFUL354.json",
+      "bytes": 10638,
+      "sha256": "e0093e93ee2cef80542ffbb22bd196425fc9e9d6ffe5e8e8e83a5d3626283099"
+    },
+    "parent_terminal_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002_meta\\COMPLETE_PARENT_TERMINAL001.json",
+      "bytes": 18491,
+      "sha256": "b419b36cf285cc35eee007c64610a8d44ed4c2f6f5cb67670f9e7c94fde736d8"
+    },
+    "child_terminal_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002_meta\\COMPLETE_CHILD_TERMINAL001.json",
+      "bytes": 4441,
+      "sha256": "e617f23f59f241cb445e31b73878594a3da6130abfa92bd5dccd6fc0e3ac950b"
+    },
+    "one_programme_clock": {
+      "origin_UTC": "2026-10-15T17:43:36.589551+00:00",
+      "work_cutoff_UTC": "2026-10-15T17:52:36.589551+00:00",
+      "deadline_UTC": "2026-10-15T17:53:36.589551+00:00",
+      "actual_last_stdout_elapsed_seconds": 436.295814,
+      "no_reset_or_extension": true,
+      "postrun_metadata_review_is_not_additional_scientific_execution": true
+    },
+    "actual_direct_native_exit": 0,
+    "handle_closed": true,
+    "source_failures_and_two_variable_repair_preserved": true,
+    "old_tool_evidence_limit": "Final stdout decisive fields are transcribed, not a saved byte-identical tool export. Separately pinned native/resource journals and ownfilehashes retained; no all-descendant/currentprocess/DLL claim.",
+    "closed_artifact_hash_checks": [
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\COMPLETE_ALL_FIELDS_AND_PUBLICATION_AUDIT001.json",
+          "bytes": 6316151,
+          "sha256": "23a1752a4f131b96f8e4575af28bdc13ae58a01a2cee6e0db86c53a19e269a4d"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\COMPLETE_ALL_FIELDS_AND_PUBLICATION_AUDIT001.json",
+          "bytes": 6316151,
+          "sha256": "23a1752a4f131b96f8e4575af28bdc13ae58a01a2cee6e0db86c53a19e269a4d"
+        }
+      },
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\COMPLETE_FACTS.json",
+          "bytes": 862591,
+          "sha256": "73c456a8e26cc988bc28e1c11f1d83301c270be9f4e6f4ab64923a6d33f65643"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\COMPLETE_FACTS.json",
+          "bytes": 862591,
+          "sha256": "73c456a8e26cc988bc28e1c11f1d83301c270be9f4e6f4ab64923a6d33f65643"
+        }
+      },
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\COMPLETE_FIVE_CONDITIONAL_FIGURE_RECONSTRUCTION_MANIFEST001.json",
+          "bytes": 2665,
+          "sha256": "81cfadf3242ac5817a927c2c74055b149024c1ff7dff6648eb6f376d8a9f502b"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\COMPLETE_FIVE_CONDITIONAL_FIGURE_RECONSTRUCTION_MANIFEST001.json",
+          "bytes": 2665,
+          "sha256": "81cfadf3242ac5817a927c2c74055b149024c1ff7dff6648eb6f376d8a9f502b"
+        }
+      },
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\COMPLETE_KAPPA_RAW_VARIANCE_AND_EXACT_DEGENERACY_LINEAGE_PRIMARY004.json",
+          "bytes": 3573,
+          "sha256": "ff82f313849d4604cc002c38829a2ac8717b6e03b62dda984bb5bdb2c1acfa4e"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\COMPLETE_KAPPA_RAW_VARIANCE_AND_EXACT_DEGENERACY_LINEAGE_PRIMARY004.json",
+          "bytes": 3573,
+          "sha256": "ff82f313849d4604cc002c38829a2ac8717b6e03b62dda984bb5bdb2c1acfa4e"
+        }
+      },
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\COMPLETE_RAW_INPUT_AND_FORMULA_AUDITS_PRIMARY001.json",
+          "bytes": 157645,
+          "sha256": "3edadde963040638a3b103873741f468f658702f990e0d449491775f0e3bfd76"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\COMPLETE_RAW_INPUT_AND_FORMULA_AUDITS_PRIMARY001.json",
+          "bytes": 157645,
+          "sha256": "3edadde963040638a3b103873741f468f658702f990e0d449491775f0e3bfd76"
+        }
+      },
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\CONDITIONAL_RECONSTRUCTION_FIGURE1.svg",
+          "bytes": 5460,
+          "sha256": "8e24f2757371c05571c31556d397c575eb9500238ae9244a0af22bade29656ad"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\CONDITIONAL_RECONSTRUCTION_FIGURE1.svg",
+          "bytes": 5460,
+          "sha256": "8e24f2757371c05571c31556d397c575eb9500238ae9244a0af22bade29656ad"
+        }
+      },
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\CONDITIONAL_RECONSTRUCTION_FIGURE2.svg",
+          "bytes": 32119,
+          "sha256": "64af39bf0073038ab0485b03ed1f6ba0c0b2be045de9612f29983a54442cfd14"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\CONDITIONAL_RECONSTRUCTION_FIGURE2.svg",
+          "bytes": 32119,
+          "sha256": "64af39bf0073038ab0485b03ed1f6ba0c0b2be045de9612f29983a54442cfd14"
+        }
+      },
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\CONDITIONAL_RECONSTRUCTION_FIGURE3.svg",
+          "bytes": 32119,
+          "sha256": "801e19f8e0b19769bb5f406b44217f88a63af7222a0c86c497a187bcc942a21f"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\CONDITIONAL_RECONSTRUCTION_FIGURE3.svg",
+          "bytes": 32119,
+          "sha256": "801e19f8e0b19769bb5f406b44217f88a63af7222a0c86c497a187bcc942a21f"
+        }
+      },
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\CONDITIONAL_RECONSTRUCTION_FIGURE4.svg",
+          "bytes": 22612,
+          "sha256": "a1bdb114af9ed0659ff43dfe111067659ddcae897f178e158a20ac04a4a03073"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\CONDITIONAL_RECONSTRUCTION_FIGURE4.svg",
+          "bytes": 22612,
+          "sha256": "a1bdb114af9ed0659ff43dfe111067659ddcae897f178e158a20ac04a4a03073"
+        }
+      },
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\CONDITIONAL_RECONSTRUCTION_FIGURE5.svg",
+          "bytes": 6052,
+          "sha256": "4f759b7457c0abccc983a63aa14bdd8dabe495af9e7f44e889ab19e4416c9550"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\CONDITIONAL_RECONSTRUCTION_FIGURE5.svg",
+          "bytes": 6052,
+          "sha256": "4f759b7457c0abccc983a63aa14bdd8dabe495af9e7f44e889ab19e4416c9550"
+        }
+      },
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\ORIGINAL_XML_LITERAL_PROVENANCE_PRIMARY001.json",
+          "bytes": 100993,
+          "sha256": "f38e5f44191eb90f08e93a7c0e233968e5c05bdffa144d00385272b56fac8861"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\primary001\\ORIGINAL_XML_LITERAL_PROVENANCE_PRIMARY001.json",
+          "bytes": 100993,
+          "sha256": "f38e5f44191eb90f08e93a7c0e233968e5c05bdffa144d00385272b56fac8861"
+        }
+      },
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\secondary002\\COMPLETE_FACTS.json",
+          "bytes": 343802,
+          "sha256": "f6de3138ff7b960f605b70b394ddbcf39af6b0e9b74c78ea6aaf00c58e413871"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\secondary002\\COMPLETE_FACTS.json",
+          "bytes": 343802,
+          "sha256": "f6de3138ff7b960f605b70b394ddbcf39af6b0e9b74c78ea6aaf00c58e413871"
+        }
+      },
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\secondary002\\COMPLETE_INDEPENDENT_NUMERICAL_LINEAGE002.json",
+          "bytes": 1097905,
+          "sha256": "7ea3ff26df5ae159e23c0523b847c78530a01fa0efd30138ae2d5116fea5e645"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\secondary002\\COMPLETE_INDEPENDENT_NUMERICAL_LINEAGE002.json",
+          "bytes": 1097905,
+          "sha256": "7ea3ff26df5ae159e23c0523b847c78530a01fa0efd30138ae2d5116fea5e645"
+        }
+      },
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\secondary002\\ORIGINAL_XML_LITERAL_PROVENANCE_SECONDARY002.json",
+          "bytes": 384700,
+          "sha256": "15ef15d43f5d83c1ebd4fe104f822cd3ef68aeea655f2a9b5039bfeb68a48b13"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\secondary002\\ORIGINAL_XML_LITERAL_PROVENANCE_SECONDARY002.json",
+          "bytes": 384700,
+          "sha256": "15ef15d43f5d83c1ebd4fe104f822cd3ef68aeea655f2a9b5039bfeb68a48b13"
+        }
+      },
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002_meta\\ACTUAL_NUMERICAL_RUNTIME001.json",
+          "bytes": 1623,
+          "sha256": "f081c4d16f6666c7f2053b84939339a24dc8cd54fbd0acbfc85900de7dc66c93"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002_meta\\ACTUAL_NUMERICAL_RUNTIME001.json",
+          "bytes": 1623,
+          "sha256": "f081c4d16f6666c7f2053b84939339a24dc8cd54fbd0acbfc85900de7dc66c93"
+        }
+      },
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002_meta\\child.stderr",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002_meta\\child.stderr",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002_meta\\child.stdout",
+          "bytes": 319,
+          "sha256": "2da506abd9ca91d5c2e2891a1056aeebd2f258005c1894f83da2d7cfc5bf7480"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002_meta\\child.stdout",
+          "bytes": 319,
+          "sha256": "2da506abd9ca91d5c2e2891a1056aeebd2f258005c1894f83da2d7cfc5bf7480"
+        }
+      },
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002_meta\\CHILD_RESOURCE_SAMPLES001.ndjson",
+          "bytes": 9231,
+          "sha256": "57d78fd73a3b78247db7afedff5861645f3ff1beb1fd40411b04e7ced819b93a"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002_meta\\CHILD_RESOURCE_SAMPLES001.ndjson",
+          "bytes": 9231,
+          "sha256": "57d78fd73a3b78247db7afedff5861645f3ff1beb1fd40411b04e7ced819b93a"
+        }
+      },
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002_meta\\COMPLETE_CHILD_TERMINAL001.json",
+          "bytes": 4441,
+          "sha256": "e617f23f59f241cb445e31b73878594a3da6130abfa92bd5dccd6fc0e3ac950b"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002_meta\\COMPLETE_CHILD_TERMINAL001.json",
+          "bytes": 4441,
+          "sha256": "e617f23f59f241cb445e31b73878594a3da6130abfa92bd5dccd6fc0e3ac950b"
+        }
+      },
+      {
+        "expected": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002_meta\\PARENT_RESOURCE_SAMPLES001.ndjson",
+          "bytes": 16170,
+          "sha256": "755c90bc272a4a7d4e83ca2a138942081565fbc10d2a49e1faae7f3e69b15eea"
+        },
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002_meta\\PARENT_RESOURCE_SAMPLES001.ndjson",
+          "bytes": 16170,
+          "sha256": "755c90bc272a4a7d4e83ca2a138942081565fbc10d2a49e1faae7f3e69b15eea"
+        }
+      }
+    ]
+  },
+  "support_and_FULL_limits": [
+    "All75noncentral/27extra/27semantic/fiveconditionalfigure records remain available with original failures/unknowns; no supporting match rescues central nor ancillary failure automatically vetoes boundedwholeICC contribution.",
+    "Privateessays/historicalChatGPT4o/humanratingcollection/originalSPSSoptions/code notregenerated. FULL not claimed.",
+    "Original missing criterion6 andblank-as-zero totals remain; pairwiseN91comparison onlydiagnostic and was not selected to fit publication.",
+    "Unknownkappa/PCA/Levene/plotproducers and publication contradictions remain. Nearclassification does not validate broadfairness,causality,policy or everyhuman-humanICC>.80 prose.",
+    "BothNonefields correctly matched by originalcompleteaudit, no newunknown-to-zero rule applied.",
+    "PracticalICC.010margin adopted after oldoutcomes known; notstatisticalequivalence or oldpreregisterednear rule.",
+    "Reviewer authored earlier source/interpretation work but neither originalnumericalroute; currentcheck independently compares archived pairedvectors/roles/checks, not a newnumericreplication.",
+    "Initialmetadatareader treated source original_literal as literal and raisedKeyError before outputwrites. Correctedfieldaccess only; no bound,case,estimate or source changed. Initial archivedcomparison previews included a few oldinput-echo fields; no originalworkbook opened and no rawrating arithmetic performed."
+  ],
+  "checks": [
+    {
+      "name": "rule",
+      "passed": true
+    },
+    {
+      "name": "full189factIDs",
+      "passed": true
+    },
+    {
+      "name": "originalsourcepreoutcome",
+      "passed": true
+    },
+    {
+      "name": "primary_integrity135",
+      "passed": true
+    },
+    {
+      "name": "primary_20directions",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_1_single",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_1_average",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_2_single",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_2_average",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_3_single",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_3_average",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_4_single",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_4_average",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_5_single",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_5_average",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_6_single",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_6_average",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_7_single",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_7_average",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_8_single",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_8_average",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_9_single",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_9_average",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_Total_single",
+      "passed": true
+    },
+    {
+      "name": "primary_ordering_Total_average",
+      "passed": true
+    },
+    {
+      "name": "primary_86strict81",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_1_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_1_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_1_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_2_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_2_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_2_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_3_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_3_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_3_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_4_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_4_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_4_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_5_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_5_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_5_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_6_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_6_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_6_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_7_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_7_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_7_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_8_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_8_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_8_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_9_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_9_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_9_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_Total_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_Total_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "primary_fixedmask_Total_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_integrity135",
+      "passed": true
+    },
+    {
+      "name": "secondary_20directions",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_1_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_1_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_2_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_2_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_3_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_3_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_4_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_4_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_5_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_5_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_6_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_6_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_7_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_7_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_8_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_8_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_9_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_9_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_Total_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_ordering_Total_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_86strict81",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_1_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_1_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_1_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_2_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_2_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_2_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_3_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_3_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_3_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_4_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_4_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_4_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_5_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_5_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_5_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_6_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_6_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_6_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_7_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_7_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_7_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_8_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_8_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_8_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_9_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_9_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_9_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_Total_HumanZ_HumanS",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_Total_AI_HumanZ",
+      "passed": true
+    },
+    {
+      "name": "secondary_fixedmask_Total_AI_HumanS",
+      "passed": true
+    },
+    {
+      "name": "source_T2.1.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.1.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.1.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "source_T2.1.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.1.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.1.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "source_T2.2.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.2.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.2.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "source_T2.2.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.2.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.2.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "source_T2.3.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.3.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.3.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "source_T2.3.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.3.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.3.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "source_T2.4.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.4.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.4.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "source_T2.4.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.4.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.4.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "source_T2.5.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.5.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.5.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "source_T2.5.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.5.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.5.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "source_T2.6.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.6.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.6.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "source_T2.6.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.6.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.6.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "source_T2.7.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.7.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.7.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "source_T2.7.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.7.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.7.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "source_T2.8.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.8.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.8.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "source_T2.8.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.8.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.8.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "source_T2.9.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.9.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.9.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "source_T2.9.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.9.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.9.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "source_T2.Total.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.Total.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.Total.ICC_single",
+      "passed": true
+    },
+    {
+      "name": "source_T2.Total.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T2.Total.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T2.Total.ICC_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.1.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.1.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.1.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.1.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.1.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.1.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.1.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.1.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.1.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.1.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.1.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.1.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.1.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.1.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.1.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.1.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.1.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.1.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.2.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.2.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.2.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.2.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.2.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.2.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.2.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.2.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.2.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.2.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.2.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.2.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.2.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.2.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.2.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.2.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.2.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.2.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.3.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.3.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.3.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.3.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.3.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.3.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.3.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.3.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.3.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.3.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.3.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.3.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.3.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.3.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.3.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.3.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.3.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.3.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.4.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.4.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.4.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.4.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.4.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.4.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.4.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.4.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.4.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.4.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.4.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.4.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.4.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.4.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.4.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.4.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.4.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.4.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.5.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.5.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.5.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.5.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.5.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.5.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.5.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.5.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.5.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.5.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.5.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.5.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.5.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.5.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.5.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.5.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.5.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.5.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.6.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.6.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.6.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.6.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.6.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.6.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.6.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.6.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.6.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.6.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.6.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.6.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.6.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.6.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.6.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.6.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.6.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.6.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.7.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.7.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.7.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.7.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.7.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.7.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.7.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.7.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.7.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.7.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.7.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.7.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.7.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.7.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.7.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.7.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.7.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.7.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.8.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.8.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.8.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.8.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.8.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.8.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.8.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.8.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.8.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.8.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.8.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.8.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.8.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.8.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.8.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.8.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.8.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.8.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.9.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.9.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.9.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.9.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.9.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.9.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.9.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.9.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.9.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.9.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.9.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.9.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.9.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.9.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.9.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.9.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.9.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.9.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.Total.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.Total.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.Total.AI_HumanZ_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.Total.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.Total.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.Total.AI_HumanZ_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.Total.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.Total.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.Total.AI_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.Total.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.Total.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.Total.AI_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_T5.Total.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.Total.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.Total.HumanZ_HumanS_single",
+      "passed": true
+    },
+    {
+      "name": "source_T5.Total.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_T5.Total.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_T5.Total.HumanZ_HumanS_average",
+      "passed": true
+    },
+    {
+      "name": "source_ABSTRACT.ICC.HumanZ_HumanS.single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_ABSTRACT.ICC.HumanZ_HumanS.single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_ABSTRACT.ICC.HumanZ_HumanS.single",
+      "passed": true
+    },
+    {
+      "name": "source_ABSTRACT.ICC.HumanZ_HumanS.average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_ABSTRACT.ICC.HumanZ_HumanS.average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_ABSTRACT.ICC.HumanZ_HumanS.average",
+      "passed": true
+    },
+    {
+      "name": "source_ABSTRACT.ICC.AI_HumanZ.single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_ABSTRACT.ICC.AI_HumanZ.single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_ABSTRACT.ICC.AI_HumanZ.single",
+      "passed": true
+    },
+    {
+      "name": "source_ABSTRACT.ICC.AI_HumanZ.average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_ABSTRACT.ICC.AI_HumanZ.average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_ABSTRACT.ICC.AI_HumanZ.average",
+      "passed": true
+    },
+    {
+      "name": "source_ABSTRACT.ICC.AI_HumanS.single",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_ABSTRACT.ICC.AI_HumanS.single",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_ABSTRACT.ICC.AI_HumanS.single",
+      "passed": true
+    },
+    {
+      "name": "source_ABSTRACT.ICC.AI_HumanS.average",
+      "passed": true
+    },
+    {
+      "name": "primary_fact_ABSTRACT.ICC.AI_HumanS.average",
+      "passed": true
+    },
+    {
+      "name": "secondary_fact_ABSTRACT.ICC.AI_HumanS.average",
+      "passed": true
+    },
+    {
+      "name": "all86_near",
+      "passed": true
+    },
+    {
+      "name": "all42785",
+      "passed": true
+    },
+    {
+      "name": "actualclosed0",
+      "passed": true
+    },
+    {
+      "name": "one600clock",
+      "passed": true
+    },
+    {
+      "name": "closedpin_COMPLETE_ALL_FIELDS_AND_PUBLICATION_AUDIT001.json",
+      "passed": true
+    },
+    {
+      "name": "closedpin_COMPLETE_FACTS.json",
+      "passed": true
+    },
+    {
+      "name": "closedpin_COMPLETE_FIVE_CONDITIONAL_FIGURE_RECONSTRUCTION_MANIFEST001.json",
+      "passed": true
+    },
+    {
+      "name": "closedpin_COMPLETE_KAPPA_RAW_VARIANCE_AND_EXACT_DEGENERACY_LINEAGE_PRIMARY004.json",
+      "passed": true
+    },
+    {
+      "name": "closedpin_COMPLETE_RAW_INPUT_AND_FORMULA_AUDITS_PRIMARY001.json",
+      "passed": true
+    },
+    {
+      "name": "closedpin_CONDITIONAL_RECONSTRUCTION_FIGURE1.svg",
+      "passed": true
+    },
+    {
+      "name": "closedpin_CONDITIONAL_RECONSTRUCTION_FIGURE2.svg",
+      "passed": true
+    },
+    {
+      "name": "closedpin_CONDITIONAL_RECONSTRUCTION_FIGURE3.svg",
+      "passed": true
+    },
+    {
+      "name": "closedpin_CONDITIONAL_RECONSTRUCTION_FIGURE4.svg",
+      "passed": true
+    },
+    {
+      "name": "closedpin_CONDITIONAL_RECONSTRUCTION_FIGURE5.svg",
+      "passed": true
+    },
+    {
+      "name": "closedpin_ORIGINAL_XML_LITERAL_PROVENANCE_PRIMARY001.json",
+      "passed": true
+    },
+    {
+      "name": "closedpin_COMPLETE_FACTS.json",
+      "passed": true
+    },
+    {
+      "name": "closedpin_COMPLETE_INDEPENDENT_NUMERICAL_LINEAGE002.json",
+      "passed": true
+    },
+    {
+      "name": "closedpin_ORIGINAL_XML_LITERAL_PROVENANCE_SECONDARY002.json",
+      "passed": true
+    },
+    {
+      "name": "closedpin_ACTUAL_NUMERICAL_RUNTIME001.json",
+      "passed": true
+    },
+    {
+      "name": "closedpin_child.stderr",
+      "passed": true
+    },
+    {
+      "name": "closedpin_child.stdout",
+      "passed": true
+    },
+    {
+      "name": "closedpin_CHILD_RESOURCE_SAMPLES001.ndjson",
+      "passed": true
+    },
+    {
+      "name": "closedpin_COMPLETE_CHILD_TERMINAL001.json",
+      "passed": true
+    },
+    {
+      "name": "closedpin_PARENT_RESOURCE_SAMPLES001.ndjson",
+      "passed": true
+    },
+    {
+      "name": "rulepin_report",
+      "passed": true
+    },
+    {
+      "name": "rulepin_complete_audit",
+      "passed": true
+    },
+    {
+      "name": "rulepin_old_closed_acceptance",
+      "passed": true
+    },
+    {
+      "name": "rulepin_plan",
+      "passed": true
+    },
+    {
+      "name": "firstOA31_exactDOI",
+      "passed": true
+    },
+    {
+      "name": "December2025main",
+      "passed": true
+    },
+    {
+      "name": "sourcepin_official_article.pdf",
+      "passed": true
+    },
+    {
+      "name": "sourcepin_official_doi_landing.html",
+      "passed": true
+    },
+    {
+      "name": "sourcepin_crossref.json",
+      "passed": true
+    },
+    {
+      "name": "sourcepin_osf_node_metadata.json",
+      "passed": true
+    },
+    {
+      "name": "sourcepin_osf_file_list_metadata.json",
+      "passed": true
+    },
+    {
+      "name": "sourcepin_SOURCE_ORIGINAL_FULL_DATA_UoC_AuT.xlsx",
+      "passed": true
+    },
+    {
+      "name": "sourcepin_COMPLETE_ACTUAL_WORKBOOK_SOURCE_PROVENANCE_AUDIT031.json",
+      "passed": true
+    },
+    {
+      "name": "sourcepin_OFFICIAL_FULL_PAPER_TEXT_SOURCE_ONLY.txt",
+      "passed": true
+    },
+    {
+      "name": "sourcepin_T02_FIRST_PRINCIPAL_RAW.json",
+      "passed": true
+    }
+  ],
+  "all_checks_passed": true,
+  "source_roles_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\papers\\P161_ai_grading\\review\\primary_source001\\COMPLETE_ALL155_86CENTRAL_AND_SEMANTIC_QUERY_ROLES002.json",
+    "bytes": 229115,
+    "sha256": "65669765e102160f1f05e2678bf0da5ed4f2c12ae939684d3eb3c42a8a8602b8"
+  },
+  "operations": {
+    "original_workbook_or_rating_bank_decoded": false,
+    "raw_data_statistics_recomputed": false,
+    "scientific_import_or_rerun": false,
+    "native_queries": false,
+    "network_or_citation_refresh": false,
+    "registry_write_or_credit": false
+  },
+  "all_writers_closed_after_seal": true
+}

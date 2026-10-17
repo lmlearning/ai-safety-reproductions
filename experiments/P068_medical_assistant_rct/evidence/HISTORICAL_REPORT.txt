@@ -1,0 +1,101 @@
+# P068: medical-assistant randomized human trial
+
+The complete selected central human-trial performance analysis reproduces successfully. All **12,000/12,000** original participant-scoring comparisons and **103/103** fixed numerical/qualitative summary checks pass. A separately written scorer and scalar statistical audit passes **29,318/29,318** checks. This is a central empirical analysis reproduction from original individual participant answers; it is not a full rerun of the human experiment or the separate model-only experiments. Success credit is pending independent programme review.
+
+## Original identity and eligibility
+
+Andrew M. Bean et al., *Clinical knowledge in LLMs does not translate to human interactions*, arXiv2504.18919v1, submitted26April2025. Published as *Reliability of LLMs as medical assistants for the general public: a randomized preregistered study*, DOI10.1038/s41591-025-04074-y,9February2026.
+
+The first verified public empirical data/code release is **17April2025**: original GitHub commit3271617a4a4475da08e207fd26d406c279c501c8 (repository created10:41:47UTC) and independently archived HuggingFace data upload0a03e862cb6f57ed3ecf0605aab012357708a9b9 at13:12:51UTC. The initial and current source trees show identical participant raw-response and scoring-list blobs. The author's README explicitly labels17April as the initial release. The earlier OSF registration dt2p3 was registered21August2024 and is a study plan, not a public result/data release. Public title searches and the author's project page identified the April2025 preprint, with no earlier empirical release found.
+
+The preserved10October2026 Semantic Scholar public bulk snapshot records **113 citations**, exceeding the extended-window threshold40. Its index publicationDate2026-02-01 is not used as the original release date. The raw response, original request URL/time/hash and exact citation record remain archived in sources/citation_snapshot.json and the original search manifest.
+
+Primary URLs:
+- https://arxiv.org/abs/2504.18919
+- https://github.com/am-bean/HELPMed/tree/3271617a4a4475da08e207fd26d406c279c501c8
+- https://huggingface.co/datasets/ambean/HELPMed
+- https://osf.io/dt2p3/
+- https://doi.org/10.1038/s41591-025-04074-y
+
+## Fixed scope and method
+
+Preregistration was saved **2026-10-10T16:50:44.181515+00:00**, before any independently computed outcome. The selected complete original central human-trial contribution includes all2400 responses from1298 people, all4 randomized arms, all10 original scenarios, Figure2b means/exact95% intervals, the overall/pairwise relevant-condition tests, relevant/red-flag conditional odds ratios, the relevant-condition count bootstrap intervals, disposition tests, overall accuracy/interval and original acuity comparisons. No original arm, scenario or fixed target was removed.
+
+The runner opens the raw answers and physician scoring lists and independently recalculates every condition/red-flag score using the literal original fuzzy substring rule: lowercase strings, maximum edits floor(20% of each target length), one count per gold target. Disposition scores are recalculated by mapping each original answer to the physician urgency0-4 and checking equality. The original prescored CSV is opened only after every new score has been produced, as a frozen comparison oracle; none of its scores are computational inputs.
+
+The original code's exact Clopper-Pearson intervals, Yates-corrected pairwise chi-square tests, uncorrected4x2 global chi-square, conditional Fisher odds ratios/equal-tail intervals,1000-resample BCa mean bootstrap and asymptotic tie/continuity-corrected Mann-Whitney tests are independently computed. Pairwise significance uses the original Bonferroni threshold0.05/3.
+
+The original bootstrap seed is unreported. The fixed reproduction seed is6812025. All original prose and notebook endpoints are retained despite0.01 source differences, with the preregistered0.02 stochastic endpoint tolerance; deterministic proportion/CI targets use0.00051, conditional odds-ratio targets0.01 and other precisions are fixed in targets.json. The audit reconstructs each of the4000 bootstrap means and BCa endpoints from frozen draw indices.
+
+## Human trial results
+
+Every arm contains600 original responses.
+
+| Arm | Distinct people | Relevant condition, exact95% CI | Correct disposition, exact95% CI |
+|---|---:|---|---|
+| GPT-4o | 340 | 34.5% (30.7-38.5) | 43.7% (39.7-47.7) |
+| Llama 3 | 343 | 34.0% (30.2-37.9) | 44.2% (40.1-48.2) |
+| Command R+ | 314 | 32.0% (28.3-35.9) | 41.7% (37.7-45.7) |
+| Control | 301 | 47.0% (42.9-51.1) | 42.3% (38.3-46.4) |
+
+Each LLM arm has lower condition identification than control: GPT-4o p=1.3774e-5, Llama3 p=5.9522e-6, CommandR+ p=1.4753e-7. All pass the original corrected significance threshold. The original global condition-identification chi-square is36.13492196677295.
+
+Disposition differences are not significant: p=.68315/.56011/.86071 for GPT-4o/Llama3/CommandR+. Overall correct disposition is42.9583%, exact95% CI40.9667%-44.9672%.
+
+Control versus pooled LLM users has conditional odds ratio **1.7599 (1.4519-2.1331)** for identifying a relevant condition and **1.5694 (1.2831-1.9176)** for identifying a red-flag condition.
+
+| Arm | Mean number of relevant conditions | Recomputed1000-resample BCa95% CI |
+|---|---:|---|
+| GPT-4o | 0.4817 | 0.4233-0.5521 |
+| Llama 3 | 0.4350 | 0.3833-0.4949 |
+| Command R+ | 0.3833 | 0.3338-0.4354 |
+| Control | 0.6117 | 0.5467-0.6745 |
+
+![Independently reproduced human trial](human_trial_reproduced.png)
+
+## Original source problems preserved, not repaired as success criteria
+
+1. **The original underestimation test compares answer_delta against gold urgency.** The code forms response-minus-gold and then compares this error to the gold urgency itself. These are different quantities; its extremely small p-values do not test the stated response-versus-gold hypothesis. The original formula and all four original U values are reproduced exactly as fixed gates. A preregistered, separately labeled diagnostic compares response urgency to gold urgency and is independently audited; it also finds lower response acuity in every arm, but is not substituted into the original gates. Both tests are unpaired original-style response-level comparisons.
+
+| Arm | Underestimate | Correct | Overestimate | Original delta-versus-gold p | Diagnostic response-versus-gold p |
+|---|---:|---:|---:|---:|---:|
+| GPT-4o | 217 | 262 | 121 | 9.01e-142 | 0.00022 |
+| Llama 3 | 219 | 265 | 116 | 1.72e-127 | 5.09e-05 |
+| Command R+ | 257 | 250 | 93 | 1.04e-142 | 1.49e-10 |
+| Control | 245 | 254 | 101 | 7.59e-133 | 2.65e-07 |
+
+2. **The CommandR+ effect-size orientation is reversed.** The original printout uses Control versus CommandR+, reporting f=.514368, whereas GPT-4o and Llama3 use model versus Control. In consistent model-versus-Control orientation CommandR+ is .485632. Its p=.366053 is unchanged. The original orientation and claim are retained, and the inversion is disclosed rather than silently harmonized.
+
+3. **Repeated responses are treated as independent in the original analysis.** Up to two scenarios come from the same participant; all original response-level tests and intervals retain this design assumption. No fresh clustered analysis is claimed.
+
+4. **Original protocol and implementation differ.** The archived2024 registration specifies a four-level urgency scale and300people per arm; the released trial uses five levels and1298people total. The reproduction follows the observed original publication/code with all released records, not an invented reconstruction of an earlier design. Original gold-list spellings/encoding defects and matching false-positive/negative limitations are preserved. The original200-case manual threshold calibration is not repeated.
+
+5. **Bootstrap endpoints vary across original sources.** The stored notebook reports control .56-.68 versus manuscript .55-.67; GPT-4o .42-.55 versus .42-.54; Llama3 .39-.49 versus .39-.50. All endpoint references were reviewed and retained before outcomes. Their differences are explicit in the preregistered targets.
+
+## Retained execution failure and correction
+
+P068-central-001 completed scoring/calculations but failed to serialize NumPy scalar boolean values into results.json. Its frozen source, inputs, generated scores, resampling indices, failure status and manifest remain intact. It earns no standalone success claim.
+
+SERIALIZATION_REPAIR.json was saved before fresh P068-central-002. The only scientific-engine source differences are the new run ID and conversion of NumPy scalar values to native scalars when serializing results. The independent audit verifies that exact source diff, identical fixed plan/targets/inputs, and the pre-fresh-run correction timing. No method, tolerance, target or scope changed after outcomes.
+
+## Independent audit
+
+The auditor imports neither the experimental runner, regex, scipy nor statsmodels. It independently scores every raw answer with semiglobal Levenshtein bit-vector matching, verified against1000 conventional dynamic-programming cases. It recomputes Clopper-Pearson intervals, Pearson/Yates tests, conditional hypergeometric odds-ratio estimation and equal-tail inversion, BCa adjustments and tie-corrected rank statistics with scalar60-digit arithmetic.
+
+Audit categories:1000 scorer validations;84 provenance checks;12000 comparisons to independently regenerated experimental scores;12000 comparisons to the original scoring oracle;4000 independent bootstrap means;28 diagnostic checks;103 original fixed summary checks;103 independent summary-value checks. All29,318 pass.
+
+## Resources and provenance
+
+Fresh successful run: **21.421s wall,21.203s CPU,128.55MiB peak working set**, one numerical thread, no GPU, no paid/API-key inference and zero spend. The separate audit took13.121s. Runtime Python3.12.0rc3, NumPy2.3.4, SciPy1.17.1 and regex2025.11.3 are recorded; original package versions are unreported, but every original scored row and deterministic reported statistic matches. No statsmodels installation was needed for this selected analysis.
+
+All saved primary-source bodies have SHA256/byte-count/request-time records. sources_manifest.json, both run manifests, the independent audit manifest and immutable copied plan/targets provide complete retained provenance. The OSF node endpoint returned404, while the correct original registration endpoint succeeded; both request records remain preserved.
+
+## Omissions
+
+- No new human recruitment, randomization or conversations.
+- No fresh model inference or model-only Figure2a, MedQA/simulated-user baselines Figure4.
+- No GPT-extracted condition-list precision/user-interaction analyses Figure3.
+- No repeated physician scenario construction, original manual200-case threshold calibration, demographics/post-survey trust/experience regressions or appendix robustness analyses.
+- No alternative clustered inference: preserve original response-level tests despite up to2 records per participant.
+
+This result covers the identified complete central original human-trial performance analysis. It does not claim fresh human or model behaviour, the full paper, or execution of all hypotheses in the2024 original registration.

@@ -1,0 +1,80 @@
+# P072: The Levers of Political Persuasion with Conversational AI
+
+The complete selected original primary human policy-attitude analysis reproduces all **2,470 preregistered checks** across **93 supplementary tables and 643 result rows**, using the authors' individual participant data from all three studies. A separate raw-data audit passes **14,552/14,552 checks**. This is a complete central human-trial analysis, awaiting programme review; it is not a full-paper reproduction.
+
+The calculation retains every original randomized arm needed for this contribution, both main and original missing-outcome robustness estimators, follow-up and dialogue/static comparisons, post-training and factorial contrasts, personalization, all prompt contrasts and adjusted means, information-by-model interactions, deceptive prompting, attrition tests and sample-size tables. The original analyzed sample is 76,977. The three released input files contain 32,534, 30,652 and 21,900 records respectively; their missing outcomes and follow-up records are preserved and handled using each original formula's filters.
+
+## Identity and eligibility
+
+- Original paper: [arXiv 2507.13919](https://arxiv.org/abs/2507.13919), v1 submitted 18 July 2025 at 13:50:09 UTC.
+- Final publication: [Science, DOI 10.1126/science.aea3884](https://doi.org/10.1126/science.aea3884).
+- Original public analysis repository: [kobihackenburg/scaling-conversational-AI](https://github.com/kobihackenburg/scaling-conversational-AI), pinned commit 8c940f64fab49e9a071447237cd71b713b4e1de8.
+- Repository creation: 4 July 2025 at 13:23:43 UTC. First located empirical data/code commit: dc54c7327a3135cc7bff2ecad52203a9e543f28f, 4 July 2025 at 13:43:11 UTC. The three participant RDS Git blobs are identical in that initial empirical commit and the pinned final tree.
+- The located original empirical releases lie in the extended 10 April-9 October 2025 window. No earlier original empirical release of this paper was located. Repository creation and Git author/commit timestamps do not independently establish the public-push timestamp; this uncertainty is explicit. Earlier single-message persuasion work is a separate paper.
+- Citation gate: 90 citations in the final DOI's archived Semantic Scholar response, retrieved 10 October 2026 at 17:34:55.966 UTC; required threshold 40. A distinct arXiv record reports 33 and is not added to the DOI record. Raw DOI response SHA256: 3bfe0a25283b67bcba9c3230d822fbc727fd44559b42acd4b76fc659b63dfecd.
+
+The source archive includes original arXiv pages, author/repository pages, initial/current trees and commit history, original participant files, all original analysis scripts, final 5 September 2025 supplement, original table LaTeX, raw citation responses, URLs, byte hashes, retrieval timestamps and retained download failures. An unrelated OSF preprint encountered during screening is not used as evidence for this paper's date.
+
+## Preregistered scope and evidence
+
+PREREGISTRATION.json was frozen at **2026-10-10T17:51:45.624488+00:00**, before any reconstructed treatment outcomes. Its SHA256 is **a6c2a79d9042e38597478e7c3dc435e8f1b4d35cec9080f5d5137c77429ad7fe**. The target-file SHA256 remains **55ecf1eb7d653cf4a84dfd10875b3a7daab5c483443a3cf2a2e4dda1464ff6f5**. SOURCE_MANIFEST.json freezes 65 original source/input files.
+
+Selected tables: S1-S7; S22-S25; S30-S61; S74-S75; S80-S81; S86-S87; S92-S93; S98-S99; S115; S117-S148; S153-S159. For S54-S61 only the primary policy-attitude adjusted mean and standard error are targets; their separate model-derived claim columns were omitted prospectively. Every original source row is retained in the transcription, including those omitted columns.
+
+The frozen set comprises 2,458 numerical/undefined-value checks, including the original total sample, plus 12 qualitative claims tied to those quantitative results. Two-decimal statistics use the prospective absolute tolerance 0.0051; three-decimal p-values and attrition proportions use 0.00051; censored p<.001 is checked strictly; integer counts/degrees of freedom are exact. No targets, tolerances, input files or selected tables were changed after outcomes.
+
+All 93 target tables were checked independently against the authors' original LaTeX before preregistration. Four representative supplement pages were rendered and visually checked. That source-only review passes 93/93 and records that reconstructed outcomes had not been calculated.
+
+## Results
+
+P072-central-003 passes **2,470/2,470**, with no missing or extra selected row. It computes 97 original participant regressions and 18 original fixed-effect syntheses.
+
+| Original result | Reconstructed effect | Original printed effect |
+|---|---:|---:|
+| Dialogue versus static, study 1, primary immediate contrast | 2.93890 | 2.94 |
+| Dialogue versus static, study 3 | 3.60093 | 3.60 |
+| Chat-tuned reinforcement post-training main effect | 2.32036 | 2.32 |
+| Developer reinforcement effect pooled across studies | 0.62950 | 0.63 |
+| Personalization pooled across all 11 original subsets | 0.42925 | 0.43 |
+| Information prompt versus basic prompt, pooled | 2.29300 | 2.29 |
+| Deceptive information versus information prompt | -0.72814 | -0.73 |
+
+Effects are percentage points on the paper's policy-attitude scale. Matching estimates alone does not determine success: every selected standard error, test statistic, p-value, confidence limit, degree of freedom, attrition statistic and count also passes its fixed published target. The deceptive-prompt contrast is nonsignificant in the original and reproduction; it is not dropped.
+
+The runner uses unclustered HC2 robust standard errors and n-rank Student-t inference, as in the source lm_robust calls. The authors' exact installed estimatr/metafor package versions are not released. Historical estimatr 1.0.4 source and current official documentation establish the same HC2 default; this version uncertainty remains disclosed. Original metafor method="FE" is reconstructed with inverse-variance precision weights and normal Wald inference.
+
+P072-audit-001 separately rereads all original RDS files, reinterprets each source-defined selection and feature specification, verifies participant-selection hashes including duplicate rows, and recomputes every treatment fit with pivoted QR rank and triangular-QR HC2 covariance. It uses separate Counter aggregation for sample counts and QR ANOVA for attrition; it does not import the runner. It independently recomputes all original target decisions and checks frozen source/run hashes, timing, formulas' row identities and the retained correction. All **14,552/14,552 audit checks pass**.
+
+## Original source choices and retained failures
+
+The reproduction preserves the original analysis rather than silently repairing its choices:
+
+- Tables S22/S23 say "collapsed across all study 3 conditions" in their caption, while the original estimator filters treatment-1 only. The code-defined estimator is reproduced.
+- Durability uses participants complete at immediate and follow-up phases. The stacked study-1 dialogue/static phase estimator is unclustered, as in the original source.
+- The original non-information subgroup already contains control participants and then appends controls again. This duplication is preserved; the information subgroup appends controls once.
+- The scaling-input S6/S7 study-2 model uses the released models_vs_control labels, pooling its deceptive-info participants with the corresponding Llama-405b label. Separate post-training estimates use their own source filters excluding treatment-3. Both original estimators are retained.
+- Original RDS date columns produce a reader warning because of missing dates. These columns are not used in the selected models. The original source files and warning are retained.
+
+Every failed attempt remains:
+
+1. P072-central-001 completed calculation but failed saving a NumPy integer to JSON. Its source, design file and failure record are retained. Only scalar serialization was corrected before the next run.
+2. P072-central-002 saved every computed table and decision: **2,449/2,470** passed, with 21 failed S6/S7 study-2 gates. It also failed in the final console-only JSON printing after the saved outputs. The failed statistical result is retained.
+3. The mismatch was traced to a reconstruction error: S6/S7 were mapped to the separate additional-analysis script's deceptive-arm recoding. Original 4_results_tables.R lines 184-198 instead uses ols_dialogue from function_scaling_curve.R, whose original unweighted model uses unchanged models_vs_control. The exact source evidence and correction were recorded at environment/source_mapping_correction_before_run003.json before P072-central-003. Only that mapping and console scalar serialization changed. The independent audit verifies that the only altered model definitions are these two study-2 S6/S7 designs; all recipes, syntheses, data, targets, tolerances and scope remain unchanged.
+4. The earlier missing-reader-dependency import and a source-schema file-location mistake were retained. The reader dependency was installed in an isolated paper-local vendor folder from archived free wheels.
+
+The failed run-002 manifest names the then-current global runner. Its exact source survives at runs/P072-central-002/runner_before_source_mapping_correction.py with the manifest's original runner hash. The successful run and audit additionally archive immutable copies of their exact source.
+
+## Explicit omissions
+
+This contribution does not reproduce fresh model training/generation or recruit new participants. It omits the paper's separate Bayesian Student-t model-scale meta-regressions, GAM/LOO/census-weighted scaling-curve syntheses (S8-S21), model-derived claim extraction/factual accuracy and main Figure 4, Bayesian latent claim-count/perceived-informativeness correlations/slopes (S62-S69), random-forest analysis, secondary human informativeness/demographic/conversation-length statistics, and derived prose percentages/curve digitization. The original private dialogue text is not publicly released. These omissions were fixed before outcomes; full-paper success is not claimed.
+
+## Reproducibility and resources
+
+- Primary run: runs/P072-central-003/{analysis_designs.json,model_statistics.json,computed_tables.json,target_decisions.json,metrics.json,RUN_MANIFEST.json,runner_source.py}.
+- Independent audit: audits/P072-audit-001/{independent_model_statistics.json,independent_computed_tables.json,independent_target_decisions.json,audit_checks.json,AUDIT_RESULT.json,AUDIT_MANIFEST.json,auditor_source.py}.
+- Free RDS reader: paper-local pyreadr 0.5.7 and narwhals 2.27.1; original wheels/PyPI metadata archived. Other libraries use the existing Python environment.
+- Reproduction: 7.03 CPU seconds, 7.09 wall seconds, 430.18 MiB peak working set, one computational thread.
+- Independent audit: 6.80 CPU seconds, 6.95 wall seconds, 372.91 MiB peak working set.
+- Paid API spend **$0**; fresh GPU inference **none**.
+
+The final review manifest freezes the report and all retained paper source, provenance, run and audit artifacts. No programme registry entry is changed by this agent.

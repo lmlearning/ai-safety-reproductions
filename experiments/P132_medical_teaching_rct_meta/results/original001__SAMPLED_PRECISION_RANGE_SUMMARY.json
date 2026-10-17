@@ -1,0 +1,2242 @@
+{
+  "counts": {
+    "A": 2459,
+    "B": 2459
+  },
+  "whole_analysis_target_compatibility": {
+    "A": {
+      "primary_whole_analysis_compatible": 357,
+      "strict_whole_analysis_compatible": 162,
+      "total": 2459
+    },
+    "B": {
+      "primary_whole_analysis_compatible": 424,
+      "strict_whole_analysis_compatible": 162,
+      "total": 2459
+    }
+  },
+  "ranges": {
+    "A/pools/knowledge/k": {
+      "min": 11,
+      "max": 11,
+      "nominal": 11,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/knowledge/gai_n": {
+      "min": 395,
+      "max": 395,
+      "nominal": 395,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/knowledge/traditional_n": {
+      "min": 391,
+      "max": 391,
+      "nominal": 391,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/knowledge/smd": {
+      "min": 0.2517370059539608,
+      "max": 0.2892629008572049,
+      "nominal": 0.26986963487480575,
+      "worst_absolute_departure": 0.019393265982399155
+    },
+    "A/pools/knowledge/se": {
+      "min": 0.28977414591376993,
+      "max": 0.2994602352792757,
+      "nominal": 0.2944738461288009,
+      "worst_absolute_departure": 0.004986389150474779
+    },
+    "A/pools/knowledge/variance": {
+      "min": 0.08396905564005483,
+      "max": 0.08967643251351913,
+      "nominal": 0.0867148460538887,
+      "worst_absolute_departure": 0.002961586459630433
+    },
+    "A/pools/knowledge/lower": {
+      "min": -0.32960660901177746,
+      "max": -0.2842933255390298,
+      "nominal": -0.3072884979266336,
+      "worst_absolute_departure": 0.02299517238760379
+    },
+    "A/pools/knowledge/upper": {
+      "min": 0.8315472509441726,
+      "max": 0.8644445904707656,
+      "nominal": 0.8470277676762451,
+      "worst_absolute_departure": 0.017416822794520503
+    },
+    "A/pools/knowledge/p": {
+      "min": 0.3229210308436732,
+      "max": 0.3960394962948224,
+      "nominal": 0.3594325612670243,
+      "worst_absolute_departure": 0.036606935027798104
+    },
+    "A/pools/knowledge/Z": {
+      "min": 0.8487157208646504,
+      "max": 0.988473041790387,
+      "nominal": 0.9164468709956897,
+      "worst_absolute_departure": 0.07202617079469731
+    },
+    "A/pools/knowledge/Q": {
+      "min": 144.46697378735826,
+      "max": 153.19981332257444,
+      "nominal": 148.6915336654729,
+      "worst_absolute_departure": 4.5082796571015535
+    },
+    "A/pools/knowledge/df": {
+      "min": 10,
+      "max": 10,
+      "nominal": 10,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/knowledge/tau2": {
+      "min": 0.8515446790435801,
+      "max": 0.913387367503351,
+      "nominal": 0.8813232578385081,
+      "worst_absolute_departure": 0.032064109664842966
+    },
+    "A/pools/knowledge/I2": {
+      "min": 93.07800271727221,
+      "max": 93.4725769025944,
+      "nominal": 93.27466752579332,
+      "worst_absolute_departure": 0.19790937680107845
+    },
+    "A/pools/knowledge/heterogeneity_p": {
+      "min": 8.180066280317481e-28,
+      "max": 5.111135668411863e-26,
+      "nominal": 6.926835870764688e-27,
+      "worst_absolute_departure": 4.4184520813353943e-26
+    },
+    "A/pools/skill/k": {
+      "min": 2,
+      "max": 2,
+      "nominal": 2,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/skill/gai_n": {
+      "min": 52,
+      "max": 52,
+      "nominal": 52,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/skill/traditional_n": {
+      "min": 51,
+      "max": 51,
+      "nominal": 51,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/skill/smd": {
+      "min": 0.6238689540644691,
+      "max": 0.6352204304598471,
+      "nominal": 0.6295243775799755,
+      "worst_absolute_departure": 0.005696052879871627
+    },
+    "A/pools/skill/se": {
+      "min": 0.2659272099869883,
+      "max": 0.2768998650439597,
+      "nominal": 0.27142973961431216,
+      "worst_absolute_departure": 0.005502529627323838
+    },
+    "A/pools/skill/variance": {
+      "min": 0.07071728101146377,
+      "max": 0.07667353526136308,
+      "nominal": 0.0736741035470933,
+      "worst_absolute_departure": 0.002999431714269779
+    },
+    "A/pools/skill/lower": {
+      "min": 0.08354815751758837,
+      "max": 0.11163647926074505,
+      "nominal": 0.09753186360283883,
+      "worst_absolute_departure": 0.014104615657906217
+    },
+    "A/pools/skill/upper": {
+      "min": 1.1540519874281796,
+      "max": 1.1689756831379134,
+      "nominal": 1.1615168915571121,
+      "worst_absolute_departure": 0.007464904128932526
+    },
+    "A/pools/skill/p": {
+      "min": 0.017323687829351214,
+      "max": 0.0237165039346611,
+      "nominal": 0.020379297963913055,
+      "worst_absolute_departure": 0.003337205970748044
+    },
+    "A/pools/skill/Z": {
+      "min": 2.26169095542292,
+      "max": 2.379764873912027,
+      "nominal": 2.3192903565928242,
+      "worst_absolute_departure": 0.060474517319202725
+    },
+    "A/pools/skill/Q": {
+      "min": 1.685076678775267,
+      "max": 1.8254567027130506,
+      "nominal": 1.7547419606322716,
+      "worst_absolute_departure": 0.07071474208077899
+    },
+    "A/pools/skill/df": {
+      "min": 1,
+      "max": 1,
+      "nominal": 1,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/skill/tau2": {
+      "min": 0.05792756960652092,
+      "max": 0.06977239845989389,
+      "nominal": 0.06380622887495747,
+      "worst_absolute_departure": 0.005966169584936412
+    },
+    "A/pools/skill/I2": {
+      "min": 40.65551956206459,
+      "max": 45.21918824402853,
+      "nominal": 43.011563954413084,
+      "worst_absolute_departure": 2.356044392348494
+    },
+    "A/pools/skill/heterogeneity_p": {
+      "min": 0.17666512103370474,
+      "max": 0.19425124479569592,
+      "nominal": 0.1852817107028829,
+      "worst_absolute_departure": 0.008969534092813009
+    },
+    "A/pools/satisfaction/k": {
+      "min": 3,
+      "max": 3,
+      "nominal": 3,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/satisfaction/gai_n": {
+      "min": 94,
+      "max": 94,
+      "nominal": 94,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/satisfaction/traditional_n": {
+      "min": 92,
+      "max": 92,
+      "nominal": 92,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/satisfaction/smd": {
+      "min": 1.163321843899817,
+      "max": 1.2040630009215083,
+      "nominal": 1.1834592440014748,
+      "worst_absolute_departure": 0.020603756920033467
+    },
+    "A/pools/satisfaction/se": {
+      "min": 0.3392291955198654,
+      "max": 0.3613293890852894,
+      "nominal": 0.35006654733693526,
+      "worst_absolute_departure": 0.011262841748354124
+    },
+    "A/pools/satisfaction/variance": {
+      "min": 0.11507644709305508,
+      "max": 0.13055892741674846,
+      "nominal": 0.12254658756440275,
+      "worst_absolute_departure": 0.008012339852345715
+    },
+    "A/pools/satisfaction/lower": {
+      "min": 0.47137264282869995,
+      "max": 0.5233437006943509,
+      "nominal": 0.4973414190287958,
+      "worst_absolute_departure": 0.02600228166555507
+    },
+    "A/pools/satisfaction/upper": {
+      "min": 1.8415940123846446,
+      "max": 1.8988561982515382,
+      "nominal": 1.869577068974154,
+      "worst_absolute_departure": 0.029279129277384186
+    },
+    "A/pools/satisfaction/p": {
+      "min": 0.0005012625970966323,
+      "max": 0.0010211862078948013,
+      "nominal": 0.0007230950251140442,
+      "worst_absolute_departure": 0.0002980911827807571
+    },
+    "A/pools/satisfaction/Z": {
+      "min": 3.2846238075643543,
+      "max": 3.480080792486704,
+      "nominal": 3.380669341313576,
+      "worst_absolute_departure": 0.09941145117312766
+    },
+    "A/pools/satisfaction/Q": {
+      "min": 8.838788870122217,
+      "max": 9.967208691152031,
+      "nominal": 9.38494844328394,
+      "worst_absolute_departure": 0.5822602478680903
+    },
+    "A/pools/satisfaction/df": {
+      "min": 2,
+      "max": 2,
+      "nominal": 2,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/satisfaction/tau2": {
+      "min": 0.26695057706847897,
+      "max": 0.3128819803835428,
+      "nominal": 0.28911201874881565,
+      "worst_absolute_departure": 0.023769961634727166
+    },
+    "A/pools/satisfaction/I2": {
+      "min": 77.37246551096378,
+      "max": 79.93420162080668,
+      "nominal": 78.68928090456116,
+      "worst_absolute_departure": 1.3168153935973805
+    },
+    "A/pools/satisfaction/heterogeneity_p": {
+      "min": 0.006849330658458295,
+      "max": 0.012041522000837357,
+      "nominal": 0.009163984354764437,
+      "worst_absolute_departure": 0.0028775376460729203
+    },
+    "A/pools/geography/Asia/k": {
+      "min": 8,
+      "max": 8,
+      "nominal": 8,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/geography/Asia/gai_n": {
+      "min": 285,
+      "max": 285,
+      "nominal": 285,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/geography/Asia/traditional_n": {
+      "min": 285,
+      "max": 285,
+      "nominal": 285,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/geography/Asia/smd": {
+      "min": 0.234287531613676,
+      "max": 0.2565746084336642,
+      "nominal": 0.24545570618261944,
+      "worst_absolute_departure": 0.01116817456894345
+    },
+    "A/pools/geography/Asia/se": {
+      "min": 0.4010403472887812,
+      "max": 0.41211168066318743,
+      "nominal": 0.40659973365826274,
+      "worst_absolute_departure": 0.005559386369481556
+    },
+    "A/pools/geography/Asia/variance": {
+      "min": 0.16083336015350624,
+      "max": 0.16983603733903696,
+      "nominal": 0.16532334341097019,
+      "worst_absolute_departure": 0.004512693928066774
+    },
+    "A/pools/geography/Asia/lower": {
+      "min": -0.5717228289854775,
+      "max": -0.5311652581789014,
+      "nominal": -0.5514651279111539,
+      "worst_absolute_departure": 0.020299869732252507
+    },
+    "A/pools/geography/Asia/upper": {
+      "min": 1.0366508177003526,
+      "max": 1.0480002074952457,
+      "nominal": 1.0423765402763927,
+      "worst_absolute_departure": 0.005725722576040093
+    },
+    "A/pools/geography/Asia/p": {
+      "min": 0.5232266642148113,
+      "max": 0.568871914010795,
+      "nominal": 0.5460571021326952,
+      "worst_absolute_departure": 0.02283043791788386
+    },
+    "A/pools/geography/Asia/Z": {
+      "min": 0.5697136742116421,
+      "max": 0.6383795123127605,
+      "nominal": 0.603678964504485,
+      "worst_absolute_departure": 0.03470054780827547
+    },
+    "A/pools/geography/Asia/Q": {
+      "min": 136.69604934304124,
+      "max": 143.38033007183074,
+      "nominal": 140.04332284861886,
+      "worst_absolute_departure": 3.3472735055776184
+    },
+    "A/pools/geography/Asia/df": {
+      "min": 7,
+      "max": 7,
+      "nominal": 7,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/geography/Asia/tau2": {
+      "min": 1.2156305365955538,
+      "max": 1.2871909674525048,
+      "nominal": 1.2513229557139443,
+      "worst_absolute_departure": 0.03586801173856058
+    },
+    "A/pools/geography/Asia/I2": {
+      "min": 94.87914973867798,
+      "max": 95.1178798399382,
+      "nominal": 95.00154676594849,
+      "worst_absolute_departure": 0.12239702727050883
+    },
+    "A/pools/geography/Asia/heterogeneity_p": {
+      "min": 9.945454433308592e-28,
+      "max": 2.5003981158555402e-26,
+      "nominal": 4.977850499300726e-27,
+      "worst_absolute_departure": 2.0026130659254674e-26
+    },
+    "A/pools/geography/Europe/k": {
+      "min": 3,
+      "max": 3,
+      "nominal": 3,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/geography/Europe/gai_n": {
+      "min": 110,
+      "max": 110,
+      "nominal": 110,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/geography/Europe/traditional_n": {
+      "min": 106,
+      "max": 106,
+      "nominal": 106,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/geography/Europe/smd": {
+      "min": 0.2668574516940557,
+      "max": 0.3537184180374475,
+      "nominal": 0.3074701559560923,
+      "worst_absolute_departure": 0.04624826208135524
+    },
+    "A/pools/geography/Europe/se": {
+      "min": 0.2886426933993317,
+      "max": 0.3361568513176919,
+      "nominal": 0.310542870187018,
+      "worst_absolute_departure": 0.025613981130673924
+    },
+    "A/pools/geography/Europe/variance": {
+      "min": 0.08331460445282059,
+      "max": 0.11300142868782484,
+      "nominal": 0.09643687422399111,
+      "worst_absolute_departure": 0.01656455446383373
+    },
+    "A/pools/geography/Europe/lower": {
+      "min": -0.30878675527743604,
+      "max": -0.29517449813223295,
+      "nominal": -0.3011826852661602,
+      "worst_absolute_departure": 0.007604070011275832
+    },
+    "A/pools/geography/Europe/upper": {
+      "min": 0.8356700834232829,
+      "max": 1.0094861211125197,
+      "nominal": 0.9161229971783448,
+      "worst_absolute_departure": 0.0933631239341749
+    },
+    "A/pools/geography/Europe/p": {
+      "min": 0.2865716276858572,
+      "max": 0.36244320210657444,
+      "nominal": 0.3221226305807018,
+      "worst_absolute_departure": 0.04032057152587265
+    },
+    "A/pools/geography/Europe/Z": {
+      "min": 0.9107194711792496,
+      "max": 1.0656726889006158,
+      "nominal": 0.9901053460700121,
+      "worst_absolute_departure": 0.07938587489076254
+    },
+    "A/pools/geography/Europe/Q": {
+      "min": 7.513887601909409,
+      "max": 10.029161580259089,
+      "nominal": 8.633617011627315,
+      "worst_absolute_departure": 1.3955445686317738
+    },
+    "A/pools/geography/Europe/df": {
+      "min": 2,
+      "max": 2,
+      "nominal": 2,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/geography/Europe/tau2": {
+      "min": 0.17942538221278248,
+      "max": 0.26516447243998204,
+      "nominal": 0.21727330856966437,
+      "worst_absolute_departure": 0.047891163870317666
+    },
+    "A/pools/geography/Europe/I2": {
+      "min": 73.3826202099195,
+      "max": 80.05815357550225,
+      "nominal": 76.8347380094982,
+      "worst_absolute_departure": 3.4521177995787014
+    },
+    "A/pools/geography/Europe/heterogeneity_p": {
+      "min": 0.0066404151813981675,
+      "max": 0.023355008970035073,
+      "nominal": 0.013342397849444063,
+      "worst_absolute_departure": 0.01001261112059101
+    },
+    "A/pools/duration/short/k": {
+      "min": 5,
+      "max": 5,
+      "nominal": 5,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/duration/short/gai_n": {
+      "min": 179,
+      "max": 179,
+      "nominal": 179,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/duration/short/traditional_n": {
+      "min": 183,
+      "max": 183,
+      "nominal": 183,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/duration/short/smd": {
+      "min": -0.374993872215057,
+      "max": -0.2978102831044865,
+      "nominal": -0.3378036977615325,
+      "worst_absolute_departure": 0.039993414657046034
+    },
+    "A/pools/duration/short/se": {
+      "min": 0.4534496817046064,
+      "max": 0.48786299718131554,
+      "nominal": 0.4700880460756989,
+      "worst_absolute_departure": 0.017774951105616665
+    },
+    "A/pools/duration/short/variance": {
+      "min": 0.20561661383800886,
+      "max": 0.2380103040187363,
+      "nominal": 0.22098277106326839,
+      "worst_absolute_departure": 0.01702753295546791
+    },
+    "A/pools/duration/short/lower": {
+      "min": -1.3007660865440345,
+      "max": -1.2172771452892859,
+      "nominal": -1.259159337632708,
+      "worst_absolute_departure": 0.04188219234342205
+    },
+    "A/pools/duration/short/upper": {
+      "min": 0.539518197567751,
+      "max": 0.6327936380041748,
+      "nominal": 0.5835519421096428,
+      "worst_absolute_departure": 0.04924169589453198
+    },
+    "A/pools/duration/short/p": {
+      "min": 0.4272511825678239,
+      "max": 0.5255447708868719,
+      "nominal": 0.47238947460602343,
+      "worst_absolute_departure": 0.053155296280848474
+    },
+    "A/pools/duration/short/Z": {
+      "min": 0.6348216049064704,
+      "max": 0.7939042375531378,
+      "nominal": 0.7185966556297745,
+      "worst_absolute_departure": 0.08377505072330405
+    },
+    "A/pools/duration/short/Q": {
+      "min": 62.177837092033336,
+      "max": 70.84520930147669,
+      "nominal": 66.33100670874833,
+      "worst_absolute_departure": 4.514202592728353
+    },
+    "A/pools/duration/short/df": {
+      "min": 4,
+      "max": 4,
+      "nominal": 4,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/duration/short/tau2": {
+      "min": 0.9532864884699019,
+      "max": 1.1132770167801394,
+      "nominal": 1.0292279306598848,
+      "worst_absolute_departure": 0.08404908612025452
+    },
+    "A/pools/duration/short/I2": {
+      "min": 93.56683958935504,
+      "max": 94.35388780774394,
+      "nominal": 93.96963773282752,
+      "worst_absolute_departure": 0.4027981434724808
+    },
+    "A/pools/duration/short/heterogeneity_p": {
+      "min": 1.5049749295630077e-14,
+      "max": 1.0106698449149899e-12,
+      "nominal": 1.3489402925428407e-13,
+      "worst_absolute_departure": 8.757758156607058e-13
+    },
+    "A/pools/duration/long/k": {
+      "min": 5,
+      "max": 5,
+      "nominal": 5,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/duration/long/gai_n": {
+      "min": 184,
+      "max": 184,
+      "nominal": 184,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/duration/long/traditional_n": {
+      "min": 176,
+      "max": 176,
+      "nominal": 176,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/duration/long/smd": {
+      "min": 0.635849612359033,
+      "max": 0.6487444753362959,
+      "nominal": 0.6422811184406654,
+      "worst_absolute_departure": 0.00646335689563049
+    },
+    "A/pools/duration/long/se": {
+      "min": 0.2792684605570161,
+      "max": 0.28289398269341676,
+      "nominal": 0.2810626557068896,
+      "worst_absolute_departure": 0.0018313269865271598
+    },
+    "A/pools/duration/long/variance": {
+      "min": 0.07799087306188565,
+      "max": 0.08002900544414317,
+      "nominal": 0.07899621643300957,
+      "worst_absolute_departure": 0.0010327890111336002
+    },
+    "A/pools/duration/long/lower": {
+      "min": 0.085582333042173,
+      "max": 0.09720727500255533,
+      "nominal": 0.09140843585598069,
+      "worst_absolute_departure": 0.005826102813807688
+    },
+    "A/pools/duration/long/upper": {
+      "min": 1.184990099473691,
+      "max": 1.2014244916710275,
+      "nominal": 1.1931538010253502,
+      "worst_absolute_departure": 0.008270690645677314
+    },
+    "A/pools/duration/long/p": {
+      "min": 0.021122124331429543,
+      "max": 0.023544000309912,
+      "nominal": 0.02230178351506975,
+      "worst_absolute_departure": 0.001242216794842252
+    },
+    "A/pools/duration/long/Z": {
+      "min": 2.2644898991863447,
+      "max": 2.305794381389606,
+      "nominal": 2.285188392692332,
+      "worst_absolute_departure": 0.020698493505987514
+    },
+    "A/pools/duration/long/Q": {
+      "min": 24.782260977469118,
+      "max": 25.38202083304467,
+      "nominal": 25.078278739756612,
+      "worst_absolute_departure": 0.3037420932880579
+    },
+    "A/pools/duration/long/df": {
+      "min": 4,
+      "max": 4,
+      "nominal": 4,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/duration/long/tau2": {
+      "min": 0.3224977031979656,
+      "max": 0.332454983785573,
+      "nominal": 0.3274087857146855,
+      "worst_absolute_departure": 0.005046198070887464
+    },
+    "A/pools/duration/long/I2": {
+      "min": 83.85942265866454,
+      "max": 84.24081350216044,
+      "nominal": 84.04994201751654,
+      "worst_absolute_departure": 0.19087148464389259
+    },
+    "A/pools/duration/long/heterogeneity_p": {
+      "min": 4.2150206555540726e-05,
+      "max": 5.5643910858852376e-05,
+      "nominal": 4.851902026623532e-05,
+      "worst_absolute_departure": 7.124890592617057e-06
+    },
+    "A/pools/course/theory/k": {
+      "min": 6,
+      "max": 6,
+      "nominal": 6,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/course/theory/gai_n": {
+      "min": 241,
+      "max": 241,
+      "nominal": 241,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/course/theory/traditional_n": {
+      "min": 240,
+      "max": 240,
+      "nominal": 240,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/course/theory/smd": {
+      "min": -0.2803960508401618,
+      "max": -0.2183696163082154,
+      "nominal": -0.2504737514817341,
+      "worst_absolute_departure": 0.03210413517351873
+    },
+    "A/pools/course/theory/se": {
+      "min": 0.3691366251795856,
+      "max": 0.39403024093202454,
+      "nominal": 0.3812237244678869,
+      "worst_absolute_departure": 0.012806516464137663
+    },
+    "A/pools/course/theory/variance": {
+      "min": 0.1362618480489739,
+      "max": 0.1552598307689493,
+      "nominal": 0.14533152809716732,
+      "worst_absolute_departure": 0.009928302671781991
+    },
+    "A/pools/course/theory/lower": {
+      "min": -1.0337271789629425,
+      "max": -0.9611353551825329,
+      "nominal": -0.9976585214910134,
+      "worst_absolute_departure": 0.036523166308480515
+    },
+    "A/pools/course/theory/upper": {
+      "min": 0.46351707719972784,
+      "max": 0.5338073936447582,
+      "nominal": 0.4967110185275452,
+      "worst_absolute_departure": 0.037096375117212976
+    },
+    "A/pools/course/theory/p": {
+      "min": 0.4649639250679922,
+      "max": 0.5651021341553218,
+      "nominal": 0.5111644471533396,
+      "worst_absolute_departure": 0.053937687001982204
+    },
+    "A/pools/course/theory/Z": {
+      "min": 0.5752797209533117,
+      "max": 0.7306975292275606,
+      "nominal": 0.657025613585162,
+      "worst_absolute_departure": 0.08174589263185028
+    },
+    "A/pools/course/theory/Q": {
+      "min": 71.282897546283,
+      "max": 80.25831274753013,
+      "nominal": 75.6018561381471,
+      "worst_absolute_departure": 4.656456609383028
+    },
+    "A/pools/course/theory/df": {
+      "min": 5,
+      "max": 5,
+      "nominal": 5,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/course/theory/tau2": {
+      "min": 0.7511381363248641,
+      "max": 0.8634630298538986,
+      "nominal": 0.8048045715886498,
+      "worst_absolute_departure": 0.058658458265248736
+    },
+    "A/pools/course/theory/I2": {
+      "min": 92.98569478498882,
+      "max": 93.7701157315273,
+      "nominal": 93.38640576381681,
+      "worst_absolute_departure": 0.4007109788279877
+    },
+    "A/pools/course/theory/heterogeneity_p": {
+      "min": 7.409908428247136e-16,
+      "max": 5.540621165899846e-14,
+      "nominal": 6.9662614661042635e-15,
+      "worst_absolute_departure": 4.8439950192894196e-14
+    },
+    "A/pools/course/practice/k": {
+      "min": 5,
+      "max": 5,
+      "nominal": 5,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/course/practice/gai_n": {
+      "min": 154,
+      "max": 154,
+      "nominal": 154,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/course/practice/traditional_n": {
+      "min": 151,
+      "max": 151,
+      "nominal": 151,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/course/practice/smd": {
+      "min": 0.8900509143865052,
+      "max": 0.8989136012997848,
+      "nominal": 0.894482883774173,
+      "worst_absolute_departure": 0.004431969387667767
+    },
+    "A/pools/course/practice/se": {
+      "min": 0.32606710759354435,
+      "max": 0.32927367143904396,
+      "nominal": 0.3276586800350779,
+      "worst_absolute_departure": 0.0016149914039660374
+    },
+    "A/pools/course/practice/variance": {
+      "min": 0.10631975865442003,
+      "max": 0.10842115070294746,
+      "nominal": 0.10736021060232957,
+      "worst_absolute_departure": 0.0010609401006178854
+    },
+    "A/pools/course/practice/lower": {
+      "min": 0.2469894939725944,
+      "max": 0.2575475566919937,
+      "nominal": 0.252283671683487,
+      "worst_absolute_departure": 0.005294177710892578
+    },
+    "A/pools/course/practice/upper": {
+      "min": 1.530330155948514,
+      "max": 1.5430908020260612,
+      "nominal": 1.536682095864859,
+      "worst_absolute_departure": 0.006408706161202149
+    },
+    "A/pools/course/practice/p": {
+      "min": 0.006003733073896408,
+      "max": 0.006682127267273343,
+      "nominal": 0.006334916870656162,
+      "worst_absolute_departure": 0.00034721039661718064
+    },
+    "A/pools/course/practice/Z": {
+      "min": 2.7122842107128236,
+      "max": 2.747577431460478,
+      "nominal": 2.7299227466777714,
+      "worst_absolute_departure": 0.01765468478270682
+    },
+    "A/pools/course/practice/Q": {
+      "min": 27.89045923028093,
+      "max": 28.389333718234163,
+      "nominal": 28.1375934673864,
+      "worst_absolute_departure": 0.25174025084776375
+    },
+    "A/pools/course/practice/df": {
+      "min": 4,
+      "max": 4,
+      "nominal": 4,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/course/practice/tau2": {
+      "min": 0.45306677154108155,
+      "max": 0.4633709115296357,
+      "nominal": 0.4581683667241563,
+      "worst_absolute_departure": 0.0052025448054794365
+    },
+    "A/pools/course/practice/I2": {
+      "min": 85.65817806378332,
+      "max": 85.91020120549415,
+      "nominal": 85.78414317970618,
+      "worst_absolute_departure": 0.12605802578796954
+    },
+    "A/pools/course/practice/heterogeneity_p": {
+      "min": 1.0399816903922598e-05,
+      "max": 1.3127025264657447e-05,
+      "nominal": 1.1697088779514154e-05,
+      "worst_absolute_departure": 1.4299364851432923e-06
+    },
+    "A/pools/assessment/immediate/k": {
+      "min": 9,
+      "max": 9,
+      "nominal": 9,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/assessment/immediate/gai_n": {
+      "min": 343,
+      "max": 343,
+      "nominal": 343,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/assessment/immediate/traditional_n": {
+      "min": 340,
+      "max": 340,
+      "nominal": 340,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/assessment/immediate/smd": {
+      "min": 0.02397962492068761,
+      "max": 0.066614458501817,
+      "nominal": 0.04456456038856135,
+      "worst_absolute_departure": 0.022049898113255653
+    },
+    "A/pools/assessment/immediate/se": {
+      "min": 0.2980613946456744,
+      "max": 0.31117123828913473,
+      "nominal": 0.30442264089971965,
+      "worst_absolute_departure": 0.006748597389415079
+    },
+    "A/pools/assessment/immediate/variance": {
+      "min": 0.08884059497812445,
+      "max": 0.09682753953839347,
+      "nominal": 0.09267314429235966,
+      "worst_absolute_departure": 0.00415439524603381
+    },
+    "A/pools/assessment/immediate/lower": {
+      "min": -0.5776452288164656,
+      "max": -0.5259222231434911,
+      "nominal": -0.5520928518534591,
+      "worst_absolute_departure": 0.026170628709968002
+    },
+    "A/pools/assessment/immediate/upper": {
+      "min": 0.6221427065229059,
+      "max": 0.662637273544338,
+      "nominal": 0.6412219726305819,
+      "worst_absolute_departure": 0.021415300913756097
+    },
+    "A/pools/assessment/immediate/p": {
+      "min": 0.825603206520918,
+      "max": 0.9377322442525474,
+      "nominal": 0.883613184050821,
+      "worst_absolute_departure": 0.058009977529903
+    },
+    "A/pools/assessment/immediate/Z": {
+      "min": 0.07812044485093791,
+      "max": 0.22034406232988893,
+      "nominal": 0.14639042699600466,
+      "worst_absolute_departure": 0.07395363533388427
+    },
+    "A/pools/assessment/immediate/Q": {
+      "min": 108.02572511305092,
+      "max": 116.79124013236007,
+      "nominal": 112.25654834737409,
+      "worst_absolute_departure": 4.534691784985981
+    },
+    "A/pools/assessment/immediate/df": {
+      "min": 8,
+      "max": 8,
+      "nominal": 8,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/assessment/immediate/tau2": {
+      "min": 0.7332405658534293,
+      "max": 0.8040410648395341,
+      "nominal": 0.7672450932393727,
+      "worst_absolute_departure": 0.03679597160016135
+    },
+    "A/pools/assessment/immediate/I2": {
+      "min": 92.59435658346393,
+      "max": 93.15017120210936,
+      "nominal": 92.87346696671604,
+      "worst_absolute_departure": 0.27911038325210313
+    },
+    "A/pools/assessment/immediate/heterogeneity_p": {
+      "min": 1.5226137549286154e-21,
+      "max": 9.68698937177914e-20,
+      "nominal": 1.3079947267307187e-20,
+      "worst_absolute_departure": 8.378994645048422e-20
+    },
+    "A/pools/assessment/delayed/k": {
+      "min": 3,
+      "max": 3,
+      "nominal": 3,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/assessment/delayed/gai_n": {
+      "min": 108,
+      "max": 108,
+      "nominal": 108,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/assessment/delayed/traditional_n": {
+      "min": 110,
+      "max": 110,
+      "nominal": 110,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/assessment/delayed/smd": {
+      "min": 0.8109596695228593,
+      "max": 0.8263273028106191,
+      "nominal": 0.8186478329958293,
+      "worst_absolute_departure": 0.007688163472970078
+    },
+    "A/pools/assessment/delayed/se": {
+      "min": 0.5775434558206352,
+      "max": 0.5862333219531758,
+      "nominal": 0.5818654206884121,
+      "worst_absolute_departure": 0.004367901264763718
+    },
+    "A/pools/assessment/delayed/variance": {
+      "min": 0.33355644336124196,
+      "max": 0.34366950776825583,
+      "nominal": 0.3385673677929027,
+      "worst_absolute_departure": 0.005102139975353137
+    },
+    "A/pools/assessment/delayed/lower": {
+      "min": -0.33029816788543076,
+      "max": -0.31335176753422367,
+      "nominal": -0.3217874354027055,
+      "worst_absolute_departure": 0.00851073248272527
+    },
+    "A/pools/assessment/delayed/upper": {
+      "min": 1.9466479983090819,
+      "max": 1.9716012923876491,
+      "nominal": 1.9590831013943641,
+      "worst_absolute_departure": 0.012518190993284994
+    },
+    "A/pools/assessment/delayed/p": {
+      "min": 0.1555820315902555,
+      "max": 0.16338987990809517,
+      "nominal": 0.15944615053214706,
+      "worst_absolute_departure": 0.003943729375948113
+    },
+    "A/pools/assessment/delayed/Z": {
+      "min": 1.3937606984450057,
+      "max": 1.4200881091635136,
+      "nominal": 1.406936731224339,
+      "worst_absolute_departure": 0.013176032779333324
+    },
+    "A/pools/assessment/delayed/Q": {
+      "min": 27.959655157260705,
+      "max": 28.71703123717157,
+      "nominal": 28.335397019398943,
+      "worst_absolute_departure": 0.3816342177726284
+    },
+    "A/pools/assessment/delayed/df": {
+      "min": 2,
+      "max": 2,
+      "nominal": 2,
+      "worst_absolute_departure": 0.0
+    },
+    "A/pools/assessment/delayed/tau2": {
+      "min": 0.92436102924018,
+      "max": 0.9543878101432844,
+      "nominal": 0.9392385157109636,
+      "worst_absolute_departure": 0.015149294432320826
+    },
+    "A/pools/assessment/delayed/I2": {
+      "min": 92.84683595433891,
+      "max": 93.03549178366606,
+      "nominal": 92.94169056946419,
+      "worst_absolute_departure": 0.09485461512527138
+    },
+    "A/pools/assessment/delayed/heterogeneity_p": {
+      "min": 5.809996871366476e-07,
+      "max": 8.484729957647736e-07,
+      "nominal": 7.03147951678293e-07,
+      "worst_absolute_departure": 1.453250440864806e-07
+    },
+    "A/between/geography/Q": {
+      "min": 0.0007411175473073237,
+      "max": 0.04843691118737209,
+      "nominal": 0.014692041500629211,
+      "worst_absolute_departure": 0.03374486968674288
+    },
+    "A/between/geography/df": {
+      "min": 1,
+      "max": 1,
+      "nominal": 1,
+      "worst_absolute_departure": 0.0
+    },
+    "A/between/geography/p": {
+      "min": 0.825805834325525,
+      "max": 0.9782814929417365,
+      "nominal": 0.9035241240558868,
+      "worst_absolute_departure": 0.07771828973036177
+    },
+    "A/between/geography/I2": {
+      "min": 0,
+      "max": 0,
+      "nominal": 0,
+      "worst_absolute_departure": 0.0
+    },
+    "A/between/geography/fixed_subgroup_center": {
+      "min": 0.2572261661673509,
+      "max": 0.31287093868001103,
+      "nominal": 0.2846229878611508,
+      "worst_absolute_departure": 0.028247950818860224
+    },
+    "A/between/duration/Q": {
+      "min": 2.9275863460119935,
+      "max": 3.4666227944135666,
+      "nominal": 3.2021117711186835,
+      "worst_absolute_departure": 0.27452542510669
+    },
+    "A/between/duration/df": {
+      "min": 1,
+      "max": 1,
+      "nominal": 1,
+      "worst_absolute_departure": 0.0
+    },
+    "A/between/duration/p": {
+      "min": 0.06261903522765713,
+      "max": 0.0870775877670495,
+      "nominal": 0.07354325124869218,
+      "worst_absolute_departure": 0.013534336518357323
+    },
+    "A/between/duration/I2": {
+      "min": 65.84216887873464,
+      "max": 71.15348108794844,
+      "nominal": 68.77060916425657,
+      "worst_absolute_departure": 2.92844028552193
+    },
+    "A/between/duration/fixed_subgroup_center": {
+      "min": 0.36583870068209495,
+      "max": 0.403165795000152,
+      "nominal": 0.38418640017518735,
+      "worst_absolute_departure": 0.018979394824964635
+    },
+    "A/between/course/Q": {
+      "min": 4.8761131722616256,
+      "max": 5.481097136154866,
+      "nominal": 5.1878454885915035,
+      "worst_absolute_departure": 0.31173231632987797
+    },
+    "A/between/course/df": {
+      "min": 1,
+      "max": 1,
+      "nominal": 1,
+      "worst_absolute_departure": 0.0
+    },
+    "A/between/course/p": {
+      "min": 0.019223189959699245,
+      "max": 0.02723087190662282,
+      "nominal": 0.022745397495911843,
+      "worst_absolute_departure": 0.004485474410710975
+    },
+    "A/between/course/I2": {
+      "min": 79.49186237742339,
+      "max": 81.75547750460912,
+      "nominal": 80.72417534024324,
+      "worst_absolute_departure": 1.2323129628198473
+    },
+    "A/between/course/fixed_subgroup_center": {
+      "min": 0.3852555739810741,
+      "max": 0.43168428222506783,
+      "nominal": 0.40802936485723823,
+      "worst_absolute_departure": 0.023654917367829598
+    },
+    "A/between/assessment/Q": {
+      "min": 1.2999260408365279,
+      "max": 1.475379563783232,
+      "nominal": 1.3894912378081645,
+      "worst_absolute_departure": 0.08956519697163667
+    },
+    "A/between/assessment/df": {
+      "min": 1,
+      "max": 1,
+      "nominal": 1,
+      "worst_absolute_departure": 0.0
+    },
+    "A/between/assessment/p": {
+      "min": 0.22449883401970247,
+      "max": 0.2542267335362985,
+      "nominal": 0.23849103615929035,
+      "worst_absolute_departure": 0.01573569737700814
+    },
+    "A/between/assessment/I2": {
+      "min": 23.072546546072694,
+      "max": 32.220831537360006,
+      "nominal": 28.031212231504433,
+      "worst_absolute_departure": 4.95866568543174
+    },
+    "A/between/assessment/fixed_subgroup_center": {
+      "min": 0.19631335095846394,
+      "max": 0.22709123888255436,
+      "nominal": 0.21091426271535005,
+      "worst_absolute_departure": 0.016176976167204316
+    },
+    "B/pools/knowledge/k": {
+      "min": 11,
+      "max": 11,
+      "nominal": 11,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/knowledge/gai_n": {
+      "min": 395,
+      "max": 395,
+      "nominal": 395,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/knowledge/traditional_n": {
+      "min": 391,
+      "max": 391,
+      "nominal": 391,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/knowledge/smd": {
+      "min": 0.2566227655791772,
+      "max": 0.2832719617798645,
+      "nominal": 0.26986963487480575,
+      "worst_absolute_departure": 0.01340232690505877
+    },
+    "B/pools/knowledge/se": {
+      "min": 0.2902866647111251,
+      "max": 0.29868567797025886,
+      "nominal": 0.2944738461288009,
+      "worst_absolute_departure": 0.004211831841457958
+    },
+    "B/pools/knowledge/variance": {
+      "min": 0.08426634770910915,
+      "max": 0.08921313422455318,
+      "nominal": 0.0867148460538887,
+      "worst_absolute_departure": 0.002498288170664484
+    },
+    "B/pools/knowledge/lower": {
+      "min": -0.32572407636522427,
+      "max": -0.2887596650724446,
+      "nominal": -0.3072884979266336,
+      "worst_absolute_departure": 0.018528832854188992
+    },
+    "B/pools/knowledge/upper": {
+      "min": 0.8374299500566864,
+      "max": 0.8569239300361701,
+      "nominal": 0.8470277676762451,
+      "worst_absolute_departure": 0.009896162359924965
+    },
+    "B/pools/knowledge/p": {
+      "min": 0.3317571327538371,
+      "max": 0.3877542131925076,
+      "nominal": 0.3594325612670243,
+      "worst_absolute_departure": 0.028321651925483304
+    },
+    "B/pools/knowledge/Z": {
+      "min": 0.8636972709749368,
+      "max": 0.9705806757112874,
+      "nominal": 0.9164468709956897,
+      "worst_absolute_departure": 0.0541338047155977
+    },
+    "B/pools/knowledge/Q": {
+      "min": 144.89766105051763,
+      "max": 152.5342452001115,
+      "nominal": 148.6915336654729,
+      "worst_absolute_departure": 3.8427115346386245
+    },
+    "B/pools/knowledge/df": {
+      "min": 10,
+      "max": 10,
+      "nominal": 10,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/knowledge/tau2": {
+      "min": 0.8546965509962103,
+      "max": 0.9084769134345684,
+      "nominal": 0.8813232578385081,
+      "worst_absolute_departure": 0.02715365559606031
+    },
+    "B/pools/knowledge/I2": {
+      "min": 93.09857734935171,
+      "max": 93.44409513622277,
+      "nominal": 93.27466752579332,
+      "worst_absolute_departure": 0.17609017644160474
+    },
+    "B/pools/knowledge/heterogeneity_p": {
+      "min": 1.1215563453497883e-27,
+      "max": 4.169583032364761e-26,
+      "nominal": 6.926835870764688e-27,
+      "worst_absolute_departure": 3.476899445288292e-26
+    },
+    "B/pools/skill/k": {
+      "min": 2,
+      "max": 2,
+      "nominal": 2,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/skill/gai_n": {
+      "min": 52,
+      "max": 52,
+      "nominal": 52,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/skill/traditional_n": {
+      "min": 51,
+      "max": 51,
+      "nominal": 51,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/skill/smd": {
+      "min": 0.6238689540644691,
+      "max": 0.6352204304598471,
+      "nominal": 0.6295243775799755,
+      "worst_absolute_departure": 0.005696052879871627
+    },
+    "B/pools/skill/se": {
+      "min": 0.2659272099869883,
+      "max": 0.2768998650439597,
+      "nominal": 0.27142973961431216,
+      "worst_absolute_departure": 0.005502529627323838
+    },
+    "B/pools/skill/variance": {
+      "min": 0.07071728101146377,
+      "max": 0.07667353526136308,
+      "nominal": 0.0736741035470933,
+      "worst_absolute_departure": 0.002999431714269779
+    },
+    "B/pools/skill/lower": {
+      "min": 0.08354815751758837,
+      "max": 0.11163647926074505,
+      "nominal": 0.09753186360283883,
+      "worst_absolute_departure": 0.014104615657906217
+    },
+    "B/pools/skill/upper": {
+      "min": 1.1540519874281796,
+      "max": 1.1689756831379134,
+      "nominal": 1.1615168915571121,
+      "worst_absolute_departure": 0.007464904128932526
+    },
+    "B/pools/skill/p": {
+      "min": 0.017323687829351214,
+      "max": 0.0237165039346611,
+      "nominal": 0.020379297963913055,
+      "worst_absolute_departure": 0.003337205970748044
+    },
+    "B/pools/skill/Z": {
+      "min": 2.26169095542292,
+      "max": 2.379764873912027,
+      "nominal": 2.3192903565928242,
+      "worst_absolute_departure": 0.060474517319202725
+    },
+    "B/pools/skill/Q": {
+      "min": 1.685076678775267,
+      "max": 1.8254567027130506,
+      "nominal": 1.7547419606322716,
+      "worst_absolute_departure": 0.07071474208077899
+    },
+    "B/pools/skill/df": {
+      "min": 1,
+      "max": 1,
+      "nominal": 1,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/skill/tau2": {
+      "min": 0.05792756960652092,
+      "max": 0.06977239845989389,
+      "nominal": 0.06380622887495747,
+      "worst_absolute_departure": 0.005966169584936412
+    },
+    "B/pools/skill/I2": {
+      "min": 40.65551956206459,
+      "max": 45.21918824402853,
+      "nominal": 43.011563954413084,
+      "worst_absolute_departure": 2.356044392348494
+    },
+    "B/pools/skill/heterogeneity_p": {
+      "min": 0.17666512103370474,
+      "max": 0.19425124479569592,
+      "nominal": 0.1852817107028829,
+      "worst_absolute_departure": 0.008969534092813009
+    },
+    "B/pools/satisfaction/k": {
+      "min": 3,
+      "max": 3,
+      "nominal": 3,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/satisfaction/gai_n": {
+      "min": 94,
+      "max": 94,
+      "nominal": 94,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/satisfaction/traditional_n": {
+      "min": 92,
+      "max": 92,
+      "nominal": 92,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/satisfaction/smd": {
+      "min": 1.163321843899817,
+      "max": 1.2040630009215083,
+      "nominal": 1.1834592440014748,
+      "worst_absolute_departure": 0.020603756920033467
+    },
+    "B/pools/satisfaction/se": {
+      "min": 0.3392291955198654,
+      "max": 0.3613293890852894,
+      "nominal": 0.35006654733693526,
+      "worst_absolute_departure": 0.011262841748354124
+    },
+    "B/pools/satisfaction/variance": {
+      "min": 0.11507644709305508,
+      "max": 0.13055892741674846,
+      "nominal": 0.12254658756440275,
+      "worst_absolute_departure": 0.008012339852345715
+    },
+    "B/pools/satisfaction/lower": {
+      "min": 0.47137264282869995,
+      "max": 0.5233437006943509,
+      "nominal": 0.4973414190287958,
+      "worst_absolute_departure": 0.02600228166555507
+    },
+    "B/pools/satisfaction/upper": {
+      "min": 1.8415940123846446,
+      "max": 1.8988561982515382,
+      "nominal": 1.869577068974154,
+      "worst_absolute_departure": 0.029279129277384186
+    },
+    "B/pools/satisfaction/p": {
+      "min": 0.0005012625970966323,
+      "max": 0.0010211862078948013,
+      "nominal": 0.0007230950251140442,
+      "worst_absolute_departure": 0.0002980911827807571
+    },
+    "B/pools/satisfaction/Z": {
+      "min": 3.2846238075643543,
+      "max": 3.480080792486704,
+      "nominal": 3.380669341313576,
+      "worst_absolute_departure": 0.09941145117312766
+    },
+    "B/pools/satisfaction/Q": {
+      "min": 8.838788870122217,
+      "max": 9.967208691152031,
+      "nominal": 9.38494844328394,
+      "worst_absolute_departure": 0.5822602478680903
+    },
+    "B/pools/satisfaction/df": {
+      "min": 2,
+      "max": 2,
+      "nominal": 2,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/satisfaction/tau2": {
+      "min": 0.26695057706847897,
+      "max": 0.3128819803835428,
+      "nominal": 0.28911201874881565,
+      "worst_absolute_departure": 0.023769961634727166
+    },
+    "B/pools/satisfaction/I2": {
+      "min": 77.37246551096378,
+      "max": 79.93420162080668,
+      "nominal": 78.68928090456116,
+      "worst_absolute_departure": 1.3168153935973805
+    },
+    "B/pools/satisfaction/heterogeneity_p": {
+      "min": 0.006849330658458295,
+      "max": 0.012041522000837357,
+      "nominal": 0.009163984354764437,
+      "worst_absolute_departure": 0.0028775376460729203
+    },
+    "B/pools/geography/Asia/k": {
+      "min": 8,
+      "max": 8,
+      "nominal": 8,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/geography/Asia/gai_n": {
+      "min": 285,
+      "max": 285,
+      "nominal": 285,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/geography/Asia/traditional_n": {
+      "min": 285,
+      "max": 285,
+      "nominal": 285,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/geography/Asia/smd": {
+      "min": 0.234287531613676,
+      "max": 0.2565746084336642,
+      "nominal": 0.24545570618261944,
+      "worst_absolute_departure": 0.01116817456894345
+    },
+    "B/pools/geography/Asia/se": {
+      "min": 0.4010403472887812,
+      "max": 0.41211168066318743,
+      "nominal": 0.40659973365826274,
+      "worst_absolute_departure": 0.005559386369481556
+    },
+    "B/pools/geography/Asia/variance": {
+      "min": 0.16083336015350624,
+      "max": 0.16983603733903696,
+      "nominal": 0.16532334341097019,
+      "worst_absolute_departure": 0.004512693928066774
+    },
+    "B/pools/geography/Asia/lower": {
+      "min": -0.5717228289854775,
+      "max": -0.5311652581789014,
+      "nominal": -0.5514651279111539,
+      "worst_absolute_departure": 0.020299869732252507
+    },
+    "B/pools/geography/Asia/upper": {
+      "min": 1.0366508177003526,
+      "max": 1.0480002074952457,
+      "nominal": 1.0423765402763927,
+      "worst_absolute_departure": 0.005725722576040093
+    },
+    "B/pools/geography/Asia/p": {
+      "min": 0.5232266642148113,
+      "max": 0.568871914010795,
+      "nominal": 0.5460571021326952,
+      "worst_absolute_departure": 0.02283043791788386
+    },
+    "B/pools/geography/Asia/Z": {
+      "min": 0.5697136742116421,
+      "max": 0.6383795123127605,
+      "nominal": 0.603678964504485,
+      "worst_absolute_departure": 0.03470054780827547
+    },
+    "B/pools/geography/Asia/Q": {
+      "min": 136.69604934304124,
+      "max": 143.38033007183074,
+      "nominal": 140.04332284861886,
+      "worst_absolute_departure": 3.3472735055776184
+    },
+    "B/pools/geography/Asia/df": {
+      "min": 7,
+      "max": 7,
+      "nominal": 7,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/geography/Asia/tau2": {
+      "min": 1.2156305365955538,
+      "max": 1.2871909674525048,
+      "nominal": 1.2513229557139443,
+      "worst_absolute_departure": 0.03586801173856058
+    },
+    "B/pools/geography/Asia/I2": {
+      "min": 94.87914973867798,
+      "max": 95.1178798399382,
+      "nominal": 95.00154676594849,
+      "worst_absolute_departure": 0.12239702727050883
+    },
+    "B/pools/geography/Asia/heterogeneity_p": {
+      "min": 9.945454433308592e-28,
+      "max": 2.5003981158555402e-26,
+      "nominal": 4.977850499300726e-27,
+      "worst_absolute_departure": 2.0026130659254674e-26
+    },
+    "B/pools/geography/Europe/k": {
+      "min": 3,
+      "max": 3,
+      "nominal": 3,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/geography/Europe/gai_n": {
+      "min": 110,
+      "max": 110,
+      "nominal": 110,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/geography/Europe/traditional_n": {
+      "min": 106,
+      "max": 106,
+      "nominal": 106,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/geography/Europe/smd": {
+      "min": 0.28435626413047255,
+      "max": 0.3314920365608852,
+      "nominal": 0.3074701559560923,
+      "worst_absolute_departure": 0.024021880604792933
+    },
+    "B/pools/geography/Europe/se": {
+      "min": 0.29724408605452046,
+      "max": 0.32443265575404895,
+      "nominal": 0.310542870187018,
+      "worst_absolute_departure": 0.013889785567030966
+    },
+    "B/pools/geography/Europe/variance": {
+      "min": 0.08835404669438716,
+      "max": 0.10525654811962522,
+      "nominal": 0.09643687422399111,
+      "worst_absolute_departure": 0.008819673895634109
+    },
+    "B/pools/geography/Europe/lower": {
+      "min": -0.3077748035816384,
+      "max": -0.2950782277113104,
+      "nominal": -0.3011826852661602,
+      "worst_absolute_departure": 0.006592118315478179
+    },
+    "B/pools/geography/Europe/upper": {
+      "min": 0.8700094278913459,
+      "max": 0.9642791372641268,
+      "nominal": 0.9161229971783448,
+      "worst_absolute_departure": 0.04815614008578206
+    },
+    "B/pools/geography/Europe/p": {
+      "min": 0.3004640829230901,
+      "max": 0.34574884139879314,
+      "nominal": 0.3221226305807018,
+      "worst_absolute_departure": 0.023626210818091353
+    },
+    "B/pools/geography/Europe/Z": {
+      "min": 0.9428671851890047,
+      "max": 1.0354386943113671,
+      "nominal": 0.9901053460700121,
+      "worst_absolute_departure": 0.04723816088100741
+    },
+    "B/pools/geography/Europe/Q": {
+      "min": 7.9416727023788285,
+      "max": 9.38393817177247,
+      "nominal": 8.633617011627315,
+      "worst_absolute_departure": 0.7503211601451554
+    },
+    "B/pools/geography/Europe/df": {
+      "min": 2,
+      "max": 2,
+      "nominal": 2,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/geography/Europe/tau2": {
+      "min": 0.19389668154959738,
+      "max": 0.24282344006970694,
+      "nominal": 0.21727330856966437,
+      "worst_absolute_departure": 0.025550131500042567
+    },
+    "B/pools/geography/Europe/I2": {
+      "min": 74.81638849960507,
+      "max": 78.68698659997423,
+      "nominal": 76.8347380094982,
+      "worst_absolute_departure": 2.0183495098931274
+    },
+    "B/pools/geography/Europe/heterogeneity_p": {
+      "min": 0.009168614580274799,
+      "max": 0.018857654915886514,
+      "nominal": 0.013342397849444063,
+      "worst_absolute_departure": 0.005515257066442451
+    },
+    "B/pools/duration/short/k": {
+      "min": 5,
+      "max": 5,
+      "nominal": 5,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/duration/short/gai_n": {
+      "min": 179,
+      "max": 179,
+      "nominal": 179,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/duration/short/traditional_n": {
+      "min": 183,
+      "max": 183,
+      "nominal": 183,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/duration/short/smd": {
+      "min": -0.36416620108409614,
+      "max": -0.3111079921580479,
+      "nominal": -0.3378036977615325,
+      "worst_absolute_departure": 0.02669570560348461
+    },
+    "B/pools/duration/short/se": {
+      "min": 0.4568233852839189,
+      "max": 0.4835115635547635,
+      "nominal": 0.4700880460756989,
+      "worst_absolute_departure": 0.013423517479064617
+    },
+    "B/pools/duration/short/variance": {
+      "min": 0.2086876053422598,
+      "max": 0.2337834320911721,
+      "nominal": 0.22098277106326839,
+      "worst_absolute_departure": 0.012800661027903726
+    },
+    "B/pools/duration/short/lower": {
+      "min": -1.2964752949335647,
+      "max": -1.2219459602661369,
+      "nominal": -1.259159337632708,
+      "worst_absolute_departure": 0.037315957300856795
+    },
+    "B/pools/duration/short/upper": {
+      "min": 0.5569246900490961,
+      "max": 0.6109236484121678,
+      "nominal": 0.5835519421096428,
+      "worst_absolute_departure": 0.027371706302525056
+    },
+    "B/pools/duration/short/p": {
+      "min": 0.4439291581571234,
+      "max": 0.5032084781079761,
+      "nominal": 0.47238947460602343,
+      "worst_absolute_departure": 0.030819003501952658
+    },
+    "B/pools/duration/short/Z": {
+      "min": 0.6694499804382147,
+      "max": 0.7655751115378937,
+      "nominal": 0.7185966556297745,
+      "worst_absolute_departure": 0.0491466751915598
+    },
+    "B/pools/duration/short/Q": {
+      "min": 63.0196605721987,
+      "max": 69.73203360507644,
+      "nominal": 66.33100670874833,
+      "worst_absolute_departure": 3.401026896328105
+    },
+    "B/pools/duration/short/df": {
+      "min": 4,
+      "max": 4,
+      "nominal": 4,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/duration/short/tau2": {
+      "min": 0.9683668508552524,
+      "max": 1.0925716209648249,
+      "nominal": 1.0292279306598848,
+      "worst_absolute_departure": 0.06334369030494003
+    },
+    "B/pools/duration/short/I2": {
+      "min": 93.6527744458138,
+      "max": 94.26375541741149,
+      "nominal": 93.96963773282752,
+      "worst_absolute_departure": 0.31686328701371735
+    },
+    "B/pools/duration/short/heterogeneity_p": {
+      "min": 2.5856184872117578e-14,
+      "max": 6.721547674782869e-13,
+      "nominal": 1.3489402925428407e-13,
+      "worst_absolute_departure": 5.372607382240029e-13
+    },
+    "B/pools/duration/long/k": {
+      "min": 5,
+      "max": 5,
+      "nominal": 5,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/duration/long/gai_n": {
+      "min": 184,
+      "max": 184,
+      "nominal": 184,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/duration/long/traditional_n": {
+      "min": 176,
+      "max": 176,
+      "nominal": 176,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/duration/long/smd": {
+      "min": 0.635849612359033,
+      "max": 0.6487444753362959,
+      "nominal": 0.6422811184406654,
+      "worst_absolute_departure": 0.00646335689563049
+    },
+    "B/pools/duration/long/se": {
+      "min": 0.2792684605570161,
+      "max": 0.28289398269341676,
+      "nominal": 0.2810626557068896,
+      "worst_absolute_departure": 0.0018313269865271598
+    },
+    "B/pools/duration/long/variance": {
+      "min": 0.07799087306188565,
+      "max": 0.08002900544414317,
+      "nominal": 0.07899621643300957,
+      "worst_absolute_departure": 0.0010327890111336002
+    },
+    "B/pools/duration/long/lower": {
+      "min": 0.085582333042173,
+      "max": 0.09720727500255533,
+      "nominal": 0.09140843585598069,
+      "worst_absolute_departure": 0.005826102813807688
+    },
+    "B/pools/duration/long/upper": {
+      "min": 1.184990099473691,
+      "max": 1.2014244916710275,
+      "nominal": 1.1931538010253502,
+      "worst_absolute_departure": 0.008270690645677314
+    },
+    "B/pools/duration/long/p": {
+      "min": 0.021122124331429543,
+      "max": 0.023544000309912,
+      "nominal": 0.02230178351506975,
+      "worst_absolute_departure": 0.001242216794842252
+    },
+    "B/pools/duration/long/Z": {
+      "min": 2.2644898991863447,
+      "max": 2.305794381389606,
+      "nominal": 2.285188392692332,
+      "worst_absolute_departure": 0.020698493505987514
+    },
+    "B/pools/duration/long/Q": {
+      "min": 24.782260977469118,
+      "max": 25.38202083304467,
+      "nominal": 25.078278739756612,
+      "worst_absolute_departure": 0.3037420932880579
+    },
+    "B/pools/duration/long/df": {
+      "min": 4,
+      "max": 4,
+      "nominal": 4,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/duration/long/tau2": {
+      "min": 0.3224977031979656,
+      "max": 0.332454983785573,
+      "nominal": 0.3274087857146855,
+      "worst_absolute_departure": 0.005046198070887464
+    },
+    "B/pools/duration/long/I2": {
+      "min": 83.85942265866454,
+      "max": 84.24081350216044,
+      "nominal": 84.04994201751654,
+      "worst_absolute_departure": 0.19087148464389259
+    },
+    "B/pools/duration/long/heterogeneity_p": {
+      "min": 4.2150206555540726e-05,
+      "max": 5.5643910858852376e-05,
+      "nominal": 4.851902026623532e-05,
+      "worst_absolute_departure": 7.124890592617057e-06
+    },
+    "B/pools/course/theory/k": {
+      "min": 6,
+      "max": 6,
+      "nominal": 6,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/course/theory/gai_n": {
+      "min": 241,
+      "max": 241,
+      "nominal": 241,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/course/theory/traditional_n": {
+      "min": 240,
+      "max": 240,
+      "nominal": 240,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/course/theory/smd": {
+      "min": -0.2716697237977818,
+      "max": -0.22903903707879197,
+      "nominal": -0.2504737514817341,
+      "worst_absolute_departure": 0.021434714402942145
+    },
+    "B/pools/course/theory/se": {
+      "min": 0.37117293014692393,
+      "max": 0.3913289319079865,
+      "nominal": 0.3812237244678869,
+      "worst_absolute_departure": 0.010105207440099628
+    },
+    "B/pools/course/theory/variance": {
+      "min": 0.13776934407385327,
+      "max": 0.15313833294824553,
+      "nominal": 0.14533152809716732,
+      "worst_absolute_departure": 0.007806804851078208
+    },
+    "B/pools/course/theory/lower": {
+      "min": -1.0289233964467432,
+      "max": -0.966416580700231,
+      "nominal": -0.9976585214910134,
+      "worst_absolute_departure": 0.03126487495572983
+    },
+    "B/pools/course/theory/upper": {
+      "min": 0.4761863891051719,
+      "max": 0.517783387570838,
+      "nominal": 0.4967110185275452,
+      "worst_absolute_departure": 0.021072369043292793
+    },
+    "B/pools/course/theory/p": {
+      "min": 0.4812594430101633,
+      "max": 0.5433318894409591,
+      "nominal": 0.5111644471533396,
+      "worst_absolute_departure": 0.032167442287619474
+    },
+    "B/pools/course/theory/Z": {
+      "min": 0.6077822708089424,
+      "max": 0.7042783552264968,
+      "nominal": 0.657025613585162,
+      "worst_absolute_departure": 0.049243342776219556
+    },
+    "B/pools/course/theory/Q": {
+      "min": 71.99976029597383,
+      "max": 79.28051296575359,
+      "nominal": 75.6018561381471,
+      "worst_absolute_departure": 3.6786568276064884
+    },
+    "B/pools/course/theory/df": {
+      "min": 5,
+      "max": 5,
+      "nominal": 5,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/course/theory/tau2": {
+      "min": 0.7599631619950975,
+      "max": 0.8510783163758441,
+      "nominal": 0.8048045715886498,
+      "worst_absolute_departure": 0.04627374478719426
+    },
+    "B/pools/course/theory/I2": {
+      "min": 93.0555324358773,
+      "max": 93.69327995877143,
+      "nominal": 93.38640576381681,
+      "worst_absolute_departure": 0.3308733279395142
+    },
+    "B/pools/course/theory/heterogeneity_p": {
+      "min": 1.1867291945653014e-15,
+      "max": 3.928555570391751e-14,
+      "nominal": 6.9662614661042635e-15,
+      "worst_absolute_departure": 3.231929423781325e-14
+    },
+    "B/pools/course/practice/k": {
+      "min": 5,
+      "max": 5,
+      "nominal": 5,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/course/practice/gai_n": {
+      "min": 154,
+      "max": 154,
+      "nominal": 154,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/course/practice/traditional_n": {
+      "min": 151,
+      "max": 151,
+      "nominal": 151,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/course/practice/smd": {
+      "min": 0.8900509143865052,
+      "max": 0.8989136012997848,
+      "nominal": 0.894482883774173,
+      "worst_absolute_departure": 0.004431969387667767
+    },
+    "B/pools/course/practice/se": {
+      "min": 0.32606710759354435,
+      "max": 0.32927367143904396,
+      "nominal": 0.3276586800350779,
+      "worst_absolute_departure": 0.0016149914039660374
+    },
+    "B/pools/course/practice/variance": {
+      "min": 0.10631975865442003,
+      "max": 0.10842115070294746,
+      "nominal": 0.10736021060232957,
+      "worst_absolute_departure": 0.0010609401006178854
+    },
+    "B/pools/course/practice/lower": {
+      "min": 0.2469894939725944,
+      "max": 0.2575475566919937,
+      "nominal": 0.252283671683487,
+      "worst_absolute_departure": 0.005294177710892578
+    },
+    "B/pools/course/practice/upper": {
+      "min": 1.530330155948514,
+      "max": 1.5430908020260612,
+      "nominal": 1.536682095864859,
+      "worst_absolute_departure": 0.006408706161202149
+    },
+    "B/pools/course/practice/p": {
+      "min": 0.006003733073896408,
+      "max": 0.006682127267273343,
+      "nominal": 0.006334916870656162,
+      "worst_absolute_departure": 0.00034721039661718064
+    },
+    "B/pools/course/practice/Z": {
+      "min": 2.7122842107128236,
+      "max": 2.747577431460478,
+      "nominal": 2.7299227466777714,
+      "worst_absolute_departure": 0.01765468478270682
+    },
+    "B/pools/course/practice/Q": {
+      "min": 27.89045923028093,
+      "max": 28.389333718234163,
+      "nominal": 28.1375934673864,
+      "worst_absolute_departure": 0.25174025084776375
+    },
+    "B/pools/course/practice/df": {
+      "min": 4,
+      "max": 4,
+      "nominal": 4,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/course/practice/tau2": {
+      "min": 0.45306677154108155,
+      "max": 0.4633709115296357,
+      "nominal": 0.4581683667241563,
+      "worst_absolute_departure": 0.0052025448054794365
+    },
+    "B/pools/course/practice/I2": {
+      "min": 85.65817806378332,
+      "max": 85.91020120549415,
+      "nominal": 85.78414317970618,
+      "worst_absolute_departure": 0.12605802578796954
+    },
+    "B/pools/course/practice/heterogeneity_p": {
+      "min": 1.0399816903922598e-05,
+      "max": 1.3127025264657447e-05,
+      "nominal": 1.1697088779514154e-05,
+      "worst_absolute_departure": 1.4299364851432923e-06
+    },
+    "B/pools/assessment/immediate/k": {
+      "min": 9,
+      "max": 9,
+      "nominal": 9,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/assessment/immediate/gai_n": {
+      "min": 343,
+      "max": 343,
+      "nominal": 343,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/assessment/immediate/traditional_n": {
+      "min": 340,
+      "max": 340,
+      "nominal": 340,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/assessment/immediate/smd": {
+      "min": 0.029811989775360728,
+      "max": 0.059490712188117786,
+      "nominal": 0.04456456038856135,
+      "worst_absolute_departure": 0.014926151799556434
+    },
+    "B/pools/assessment/immediate/se": {
+      "min": 0.29891567039709444,
+      "max": 0.309961910964071,
+      "nominal": 0.30442264089971965,
+      "worst_absolute_departure": 0.005539270064351343
+    },
+    "B/pools/assessment/immediate/variance": {
+      "min": 0.08935057800894441,
+      "max": 0.09607638624849868,
+      "nominal": 0.09267314429235966,
+      "worst_absolute_departure": 0.0034032419561390165
+    },
+    "B/pools/assessment/immediate/lower": {
+      "min": -0.5734688210194822,
+      "max": -0.530646716447988,
+      "nominal": -0.5520928518534591,
+      "worst_absolute_departure": 0.021446135405471134
+    },
+    "B/pools/assessment/immediate/upper": {
+      "min": 0.6296234061469346,
+      "max": 0.6531099437336992,
+      "nominal": 0.6412219726305819,
+      "worst_absolute_departure": 0.011887971103117345
+    },
+    "B/pools/assessment/immediate/p": {
+      "min": 0.8433732860343597,
+      "max": 0.9228419886983747,
+      "nominal": 0.883613184050821,
+      "worst_absolute_departure": 0.04023989801646133
+    },
+    "B/pools/assessment/immediate/Z": {
+      "min": 0.09685444194752242,
+      "max": 0.1975805086161503,
+      "nominal": 0.14639042699600466,
+      "worst_absolute_departure": 0.051190081620145655
+    },
+    "B/pools/assessment/immediate/Q": {
+      "min": 108.57409761513284,
+      "max": 115.99913930218955,
+      "nominal": 112.25654834737409,
+      "worst_absolute_departure": 3.742590954815455
+    },
+    "B/pools/assessment/immediate/df": {
+      "min": 8,
+      "max": 8,
+      "nominal": 8,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/assessment/immediate/tau2": {
+      "min": 0.7376886917277177,
+      "max": 0.7975033165249611,
+      "nominal": 0.7672450932393727,
+      "worst_absolute_departure": 0.03025822328558836
+    },
+    "B/pools/assessment/immediate/I2": {
+      "min": 92.6317600830007,
+      "max": 93.10339710438782,
+      "nominal": 92.87346696671604,
+      "worst_absolute_departure": 0.241706883715338
+    },
+    "B/pools/assessment/immediate/heterogeneity_p": {
+      "min": 2.217586571641185e-21,
+      "max": 7.474538931492965e-20,
+      "nominal": 1.3079947267307187e-20,
+      "worst_absolute_departure": 6.166544204762246e-20
+    },
+    "B/pools/assessment/delayed/k": {
+      "min": 3,
+      "max": 3,
+      "nominal": 3,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/assessment/delayed/gai_n": {
+      "min": 108,
+      "max": 108,
+      "nominal": 108,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/assessment/delayed/traditional_n": {
+      "min": 110,
+      "max": 110,
+      "nominal": 110,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/assessment/delayed/smd": {
+      "min": 0.8109596695228593,
+      "max": 0.8263273028106191,
+      "nominal": 0.8186478329958293,
+      "worst_absolute_departure": 0.007688163472970078
+    },
+    "B/pools/assessment/delayed/se": {
+      "min": 0.5775434558206352,
+      "max": 0.5862333219531758,
+      "nominal": 0.5818654206884121,
+      "worst_absolute_departure": 0.004367901264763718
+    },
+    "B/pools/assessment/delayed/variance": {
+      "min": 0.33355644336124196,
+      "max": 0.34366950776825583,
+      "nominal": 0.3385673677929027,
+      "worst_absolute_departure": 0.005102139975353137
+    },
+    "B/pools/assessment/delayed/lower": {
+      "min": -0.33029816788543076,
+      "max": -0.31335176753422367,
+      "nominal": -0.3217874354027055,
+      "worst_absolute_departure": 0.00851073248272527
+    },
+    "B/pools/assessment/delayed/upper": {
+      "min": 1.9466479983090819,
+      "max": 1.9716012923876491,
+      "nominal": 1.9590831013943641,
+      "worst_absolute_departure": 0.012518190993284994
+    },
+    "B/pools/assessment/delayed/p": {
+      "min": 0.1555820315902555,
+      "max": 0.16338987990809517,
+      "nominal": 0.15944615053214706,
+      "worst_absolute_departure": 0.003943729375948113
+    },
+    "B/pools/assessment/delayed/Z": {
+      "min": 1.3937606984450057,
+      "max": 1.4200881091635136,
+      "nominal": 1.406936731224339,
+      "worst_absolute_departure": 0.013176032779333324
+    },
+    "B/pools/assessment/delayed/Q": {
+      "min": 27.959655157260705,
+      "max": 28.71703123717157,
+      "nominal": 28.335397019398943,
+      "worst_absolute_departure": 0.3816342177726284
+    },
+    "B/pools/assessment/delayed/df": {
+      "min": 2,
+      "max": 2,
+      "nominal": 2,
+      "worst_absolute_departure": 0.0
+    },
+    "B/pools/assessment/delayed/tau2": {
+      "min": 0.92436102924018,
+      "max": 0.9543878101432844,
+      "nominal": 0.9392385157109636,
+      "worst_absolute_departure": 0.015149294432320826
+    },
+    "B/pools/assessment/delayed/I2": {
+      "min": 92.84683595433891,
+      "max": 93.03549178366606,
+      "nominal": 92.94169056946419,
+      "worst_absolute_departure": 0.09485461512527138
+    },
+    "B/pools/assessment/delayed/heterogeneity_p": {
+      "min": 5.809996871366476e-07,
+      "max": 8.484729957647736e-07,
+      "nominal": 7.03147951678293e-07,
+      "worst_absolute_departure": 1.453250440864806e-07
+    },
+    "B/between/geography/Q": {
+      "min": 0.0038089360089860356,
+      "max": 0.03256937021323211,
+      "nominal": 0.014692041500629211,
+      "worst_absolute_departure": 0.0178773287126029
+    },
+    "B/between/geography/df": {
+      "min": 1,
+      "max": 1,
+      "nominal": 1,
+      "worst_absolute_departure": 0.0
+    },
+    "B/between/geography/p": {
+      "min": 0.8567837144620648,
+      "max": 0.9507885377433388,
+      "nominal": 0.9035241240558868,
+      "worst_absolute_departure": 0.047264413687452045
+    },
+    "B/between/geography/I2": {
+      "min": 0,
+      "max": 0,
+      "nominal": 0,
+      "worst_absolute_departure": 0.0
+    },
+    "B/between/geography/fixed_subgroup_center": {
+      "min": 0.268206712724812,
+      "max": 0.3009815874590423,
+      "nominal": 0.2846229878611508,
+      "worst_absolute_departure": 0.01641627513633881
+    },
+    "B/between/duration/Q": {
+      "min": 3.050635400738717,
+      "max": 3.3561621685246306,
+      "nominal": 3.2021117711186835,
+      "worst_absolute_departure": 0.15405039740594706
+    },
+    "B/between/duration/df": {
+      "min": 1,
+      "max": 1,
+      "nominal": 1,
+      "worst_absolute_departure": 0.0
+    },
+    "B/between/duration/p": {
+      "min": 0.06695393485859366,
+      "max": 0.08070556253741926,
+      "nominal": 0.07354325124869218,
+      "worst_absolute_departure": 0.0071623112887270746
+    },
+    "B/between/duration/I2": {
+      "min": 67.21994376129484,
+      "max": 70.20406196761344,
+      "nominal": 68.77060916425657,
+      "worst_absolute_departure": 1.5506654029617266
+    },
+    "B/between/duration/fixed_subgroup_center": {
+      "min": 0.37169130533933636,
+      "max": 0.39648845919484593,
+      "nominal": 0.38418640017518735,
+      "worst_absolute_departure": 0.012495094835850984
+    },
+    "B/between/course/Q": {
+      "min": 5.0064612032404945,
+      "max": 5.375548567926794,
+      "nominal": 5.1878454885915035,
+      "worst_absolute_departure": 0.1877030793352903
+    },
+    "B/between/course/df": {
+      "min": 1,
+      "max": 1,
+      "nominal": 1,
+      "worst_absolute_departure": 0.0
+    },
+    "B/between/course/p": {
+      "min": 0.020420918350475995,
+      "max": 0.025252877634646648,
+      "nominal": 0.022745397495911843,
+      "worst_absolute_departure": 0.0025074801387348043
+    },
+    "B/between/course/I2": {
+      "min": 80.02581145834633,
+      "max": 81.39724741831003,
+      "nominal": 80.72417534024324,
+      "worst_absolute_departure": 0.6983638818969098
+    },
+    "B/between/course/fixed_subgroup_center": {
+      "min": 0.3921947873569857,
+      "max": 0.4235029719786061,
+      "nominal": 0.40802936485723823,
+      "worst_absolute_departure": 0.015834577500252522
+    },
+    "B/between/assessment/Q": {
+      "min": 1.327082558215747,
+      "max": 1.452165534639635,
+      "nominal": 1.3894912378081645,
+      "worst_absolute_departure": 0.06267429683147041
+    },
+    "B/between/assessment/df": {
+      "min": 1,
+      "max": 1,
+      "nominal": 1,
+      "worst_absolute_departure": 0.0
+    },
+    "B/between/assessment/p": {
+      "min": 0.22818079179675793,
+      "max": 0.24932489757283693,
+      "nominal": 0.23849103615929035,
+      "worst_absolute_departure": 0.010833861413546586
+    },
+    "B/between/assessment/I2": {
+      "min": 24.646737777603466,
+      "max": 31.137327243608148,
+      "nominal": 28.031212231504433,
+      "worst_absolute_departure": 3.3844744539009675
+    },
+    "B/between/assessment/fixed_subgroup_center": {
+      "min": 0.20161033926537442,
+      "max": 0.22044499382269164,
+      "nominal": 0.21091426271535005,
+      "worst_absolute_departure": 0.009530731107341595
+    }
+  },
+  "qualitative_changes": [],
+  "interpretation": "Finite fixed controls; not certified global bounds or confidence intervals; no rescue."
+}

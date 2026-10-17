@@ -1,0 +1,82 @@
+{
+  "schema": "ROOT_P161_PROSPECTIVE_COMPLETE_ICC_CENTRAL_SCOPE_AND_WHOLE_AUXILIARY_DESIGN340",
+  "UTC": "2026-10-15T17:04:34.616535+00:00",
+  "metadata_PID": 24300,
+  "native_birth": "UNMEASURED",
+  "paper_id": "P161",
+  "execution_authorized": false,
+  "primary_targets_final_frozen": false,
+  "independent_source_target_review_pending": true,
+  "source_only_implementation_preparation_permitted": true,
+  "numerical_score_analysis_permitted": false,
+  "selection339_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\papers\\P161_ai_grading\\SELECTION_AND_SOURCE_HOLD339.json",
+    "bytes": 10426,
+    "sha256": "1cda738398bdd302f18c7355a8511a4ddc3110a17c1c74295da00acaf5097029"
+  },
+  "whole_proposal036_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\rstat_grading_whole_family_source_proposal_oct15_036\\COMPLETE_SOURCE_ONLY_WHOLE_FAMILY_RECONSTRUCTION_PROPOSAL036.json",
+    "bytes": 13119,
+    "sha256": "83002524797f173cbdf0f729360dba36e23b9bd25af1eb3f4697bdccdb286a41"
+  },
+  "root_preoutcome_source_read": [
+    "Entire abstract",
+    "Methods3.1-3.7",
+    "Results4.1-4.10 and allTable1-6 text",
+    "Researchgaps2.6; Discussion5; Conclusion6; implications7; limitations8"
+  ],
+  "central_scope": {
+    "name": "Complete original Table5 absolute-agreement ICC result, with completeTable2 ICC repeats and all6 abstract totalICC values",
+    "scope": "All91 original essays ratings, bothuniversities, all3raters, each9criterion plus separatelypublishedtotal, all3raterpairs, bothICC(2,1) andICC(2,2). Entire60-cellTable5;20Table2 repeats;6abstracttotalICC targets; complete weakerAI-versus-HH ordering.",
+    "rationale": "ICCs are the first quantitative abstract finding and explicit first reliability/agreement step inMethods3.7, with a complete self-contained 3pair x10endpoint x2estimator table. This is one complete central result rather than an assertion that all central claims or the whole paper reproduce. Source contradictions in other families are known before data statistics; no numerical results have been inspected for selection.",
+    "no_claims": [
+      "Notfullpaper, historicalAI/human rating collection, high-stakesfairness, equivalence, constructvalidity or allF1-F9 success.",
+      "Do not present the literal Results4.8 claim HH consistentlyabove.80 asreproduced: sourceTable5itself includes .782/.760/.754. Preserve supporting sourceconsistencyfailure."
+    ],
+    "source_scope_analogy": "ExistingregistryP150 completeTable9 centralresult with allotheranalyses/auxiliaryfailures reported; prior unsuccessful studies and their frozenroles are notreopened."
+  },
+  "primary_methods": {
+    "ICC": "Two-way random effects absolute agreement ANOVA for each2-rater matrix: ICC2,1=(MSR-MSE)/(MSR+(k-1)MSE+k*(MSC-MSE)/n); ICC2,k=(MSR-MSE)/(MSR+(MSC-MSE)/n), k=2. No truncation of negativeICC, alternateconsistency/oneway/mixed, transformedratings or rescaling.",
+    "case_mask": "Prospective primary: common complete3-rater rows percriterion, then extracteach2-rater matrix; sourceTable5 explicitlyN90criterion6/otherwise91. This is conditionalon independent schema/sourceaudit before finalfreeze. Raw cached totals analysedseparately with all91; no all27column listwise deletion.",
+    "mandatory_nonrescue_masks": "Also compute eachpair owncompletecase criterionmask, with allcaseIDs/N; never substitute it ifprimaryfails.",
+    "input": "Exact originalXLSX SHA1c7237d8130493521941b1213ec9c3066f4602bccc35e710187919ac8f9b4027. Preserve fullrow/rater/criterion/total/ID/campusmap and allmissingness. Independently validate everycachedindividualtotal againstoriginalExcel formula(SUM/addition blank semantics), retainraw/derivedvalues and anydifferences; no totalsrepair.",
+    "printed_precision": "Everyprimaryprinted3decimalICC target within its literal half-unit interval [value-.0005,value+.0005), declared floatrounding margin<=1e-12. No tolerance selected fromcomputedresults; exactcounts/identities/casemasks/finitearithmetic required.",
+    "directions": "For eachof10criterion/total endpoints andbothsingle/averageICC, HH must exceedbothAI-humanpairs. Wholefamily conjunction, not anycell/pair selection.",
+    "independence": "Two separatelyauthored complete mathroutes fromoriginalscores. One numpyANOVA; one independentlyderived math.fsum sums/covariance/ANOVA. Shared only literalinput/schema/targets and disclosed elementary/SciPy distribution and eigensolver primitives. Primaryresultfiles are not independentinputs."
+  },
+  "all_auxiliary_scope": {
+    "required": "Execute/report allF1-F9, all155tabletargets, everyidentifiedscientificbodyclaim, all5originalfigures and allsource-supportedalpha/kappa/PCA/Levene/missingness variants from036. Underidentifiedproducers receiveexplicitUNESTABLISHED/UNTESTABLE, notsilent defaultsoranymatchingbranchsuccess.",
+    "default_conventions": "Use prospectivelydeclared whole036 M1-M8 conventions, after independentreview. Allvariants emitted; theirstatistical agreement neverrescuesfailedcentralICC.",
+    "contradictions": "AllC1-C5 preserved, plus literalHHabove.80 versus sourceTable5. Main/Table/Figure roundingtargets remainseparate. Exactplotrendering unresolved; generated reconstructionplots are labelled.",
+    "whole_family_success": "Held/likelyunestablished dueknownsourcecontradictions and essentialmethodambiguities; anycentralICC success mustcarrythisexplicitlimitation."
+  },
+  "prospective_resources_not_grant": {
+    "whole_seconds": 600,
+    "work_seconds": 540,
+    "closure_seconds": 60,
+    "CPU_threads": 1,
+    "GPU_context": false,
+    "whole_output_and_metadata_bytes": 67108864,
+    "child_working_cap_bytes": 1073741824,
+    "child_private_cap_bytes": 2147483648,
+    "parent_working_cap_bytes": 67108864,
+    "parent_private_cap_bytes": 67108864,
+    "fresh_RAM_bytes": 2147483648,
+    "fresh_available_commit_bytes": 8589934592,
+    "continuous_RAM_bytes": 1610612736,
+    "continuous_available_commit_bytes": 8589934592,
+    "disk": "35GiB+own64MiB unspent + allcurrent P157input4/science14,P019joint2,P160whole2.75 actualdynamicunspent +ROOToutside64MiB; allnativephysical/charged/logical scoped. No P158 orCursorconcurrentadmission. All3active experiments remain untouched.",
+    "clock": "No clock issued. Futureprimary+independent+allmathematicalcomparisons+fullclosure shareone600seconds with noreset/retry.",
+    "runtime": "Existing publicCPU NumPy/SciPy/matplotlib only; exactselectedversions/origins/source payloadprovenance must be frozen/verified beforeadmittedimports. No newdependencies orgloballywritablecache."
+  },
+  "remaining": [
+    "Independentwholepublishedtarget/source/claimreview mustpass orfixedissuesfrozenbeforeanydata statistics.",
+    "SixearlierOSFinstrumentDOCXcontent audit andcomplete rawschema/missingness audit; no outcomes.",
+    "Two complete source implementations+finiteJSON/undefinedhandling+frozenalltargetqueryroles+auditor+resource/lifecycle/closure review.",
+    "SeparateROOTtruegrant afteractualjointcapacity; no delegateexecution."
+  ],
+  "CENTRAL_success": false,
+  "FULL_success": false,
+  "paper_credit": 0,
+  "all_existing_registry_scopes_and_verdicts_unchanged": true
+}

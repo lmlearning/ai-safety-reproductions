@@ -1,0 +1,5826 @@
+{
+  "paper_id": "P080",
+  "status": "completed",
+  "trial_outcome_calculations_performed": true,
+  "checks": [
+    {
+      "kind": "provenance",
+      "key": "prereg_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "provenance",
+      "key": "proposal_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "provenance",
+      "key": "data_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "provenance",
+      "key": "targets_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "provenance",
+      "key": "input_manifest_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "complete_regression_family",
+      "key": null,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "primary_TaskTime|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "primary_TaskTime|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "primary_TaskTime|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "primary_TaskTime|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "primary_TaskTime|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "primary_TaskTime|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "primary_TaskTime|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "standardized_TaskTime|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "standardized_TaskTime|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "standardized_TaskTime|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "standardized_TaskTime|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "standardized_TaskTime|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "standardized_TaskTime|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "standardized_TaskTime|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "primary_QuizScore|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "primary_QuizScore|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "primary_QuizScore|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "primary_QuizScore|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "primary_QuizScore|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "primary_QuizScore|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "primary_QuizScore|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "standardized_QuizScore|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "standardized_QuizScore|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "standardized_QuizScore|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "standardized_QuizScore|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "standardized_QuizScore|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "standardized_QuizScore|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "standardized_QuizScore|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "adjusted_QuizScorePercent|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "adjusted_QuizScorePercent|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "adjusted_QuizScorePercent|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "adjusted_QuizScorePercent|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "adjusted_QuizScorePercent|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "adjusted_QuizScorePercent|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "adjusted_QuizScorePercent|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|1-3 years|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|1-3 years|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|1-3 years|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|1-3 years|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|1-3 years|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|1-3 years|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|1-3 years|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|1-3 years|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|1-3 years|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|1-3 years|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|1-3 years|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|1-3 years|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|1-3 years|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|1-3 years|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|4-6 years|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|4-6 years|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|4-6 years|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|4-6 years|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|4-6 years|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|4-6 years|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|4-6 years|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|4-6 years|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|4-6 years|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|4-6 years|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|4-6 years|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|4-6 years|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|4-6 years|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|4-6 years|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|7+ years|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|7+ years|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|7+ years|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|7+ years|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|7+ years|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|7+ years|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_TaskTime|7+ years|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|7+ years|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|7+ years|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|7+ years|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|7+ years|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|7+ years|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|7+ years|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "experience_QuizScore|7+ years|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Task1|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Task1|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Task1|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Task1|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Task1|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Task1|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Task1|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Task2|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Task2|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Task2|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Task2|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Task2|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Task2|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Task2|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Conceptual|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Conceptual|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Conceptual|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Conceptual|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Conceptual|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Conceptual|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Conceptual|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Debugging|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Debugging|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Debugging|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Debugging|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Debugging|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Debugging|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Debugging|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "CodeReading|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "CodeReading|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "CodeReading|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "CodeReading|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "CodeReading|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "CodeReading|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "CodeReading|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Learning|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Learning|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Learning|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Learning|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Learning|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Learning|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Learning|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Enjoyment|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Enjoyment|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Enjoyment|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Enjoyment|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Enjoyment|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Enjoyment|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Enjoyment|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Warm Up|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Warm Up|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Warm Up|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Warm Up|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Warm Up|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Warm Up|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Warm Up|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Trio Task|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Trio Task|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Trio Task|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Trio Task|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Trio Task|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Trio Task|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Trio Task|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Post Task Quiz|N",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Post Task Quiz|df",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Post Task Quiz|coef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Post Task Quiz|se",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Post Task Quiz|p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Post Task Quiz|ci95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_regression",
+      "key": "Post Task Quiz|residual_mse",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_Cohen_d",
+      "key": "TaskTime",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_data_Cohen_d",
+      "key": "QuizScore",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "adjusted_Cohen_d",
+      "key": null,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "fixed_rank_levels",
+      "key": null,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "complete_group_family",
+      "key": null,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "complete_original_comparison_family",
+      "key": null,
+      "passed": true,
+      "details": {
+        "figure_mean": 36,
+        "figure_bootstrap_endpoint": 72,
+        "figure_regression_mean": 2,
+        "figure_regression_ci95_low": 2,
+        "figure_regression_ci95_high": 2,
+        "paper_text": 5,
+        "main_time_p": 1,
+        "original_saved_source_p": 16,
+        "original_saved_adjusted_fit": 5
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 0,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 0,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 0,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 0,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "0|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "0|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "0|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 0,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "0|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "0|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "0|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 0,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "0|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 3.461538,
+        "fixed_MC_envelope": [
+          3.423076923076923,
+          3.5384615384615383
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "0|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 3.9625,
+        "fixed_MC_envelope": [
+          3.9615384615384617,
+          4.038461538461538
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 1,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 1,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 1,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 1,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "1|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "1|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "1|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 1,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "1|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "1|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "1|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 1,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "1|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 3.538462,
+        "fixed_MC_envelope": [
+          3.4615384615384617,
+          3.576923076923077
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "1|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 4.076923,
+        "fixed_MC_envelope": [
+          4.038461538461538,
+          4.153846153846154
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 2,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 2,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 2,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 2,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "2|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "2|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "2|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 2,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "2|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "2|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "2|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 2,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "2|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 2.307692,
+        "fixed_MC_envelope": [
+          2.1923076923076925,
+          2.3461538461538463
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "2|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 3.153846,
+        "fixed_MC_envelope": [
+          3.1153846153846154,
+          3.269230769230769
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 3,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 3,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 3,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 3,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "3|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "3|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "3|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 3,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "3|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "3|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "3|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 3,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "3|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 2.845192,
+        "fixed_MC_envelope": [
+          2.769230769230769,
+          2.923076923076923
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "3|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 3.653846,
+        "fixed_MC_envelope": [
+          3.6153846153846154,
+          3.730769230769231
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 4,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 4,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 4,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 4,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "4|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "4|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "4|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 4,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "4|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "4|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "4|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 4,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "4|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 2.538462,
+        "fixed_MC_envelope": [
+          2.423076923076923,
+          2.576923076923077
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "4|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 3.346154,
+        "fixed_MC_envelope": [
+          3.269230769230769,
+          3.423076923076923
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 5,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 5,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 5,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 5,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "5|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "5|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "5|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 5,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "5|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "5|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "5|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 5,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "5|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 1.846154,
+        "fixed_MC_envelope": [
+          1.7692307692307692,
+          1.9230769230769231
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "5|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 2.731731,
+        "fixed_MC_envelope": [
+          2.6538461538461537,
+          2.8076923076923075
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 6,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 6,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 6,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 6,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "6|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "6|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "6|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 6,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "6|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "6|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "6|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 6,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "6|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 29.629629,
+        "fixed_MC_envelope": [
+          29.62962962962963,
+          29.62962962962963
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "6|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 68.51852,
+        "fixed_MC_envelope": [
+          68.51851851851852,
+          68.51851851851852
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 7,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 7,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 7,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 7,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "7|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "7|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "7|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 7,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "7|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "7|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "7|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 7,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "7|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 49.999999,
+        "fixed_MC_envelope": [
+          50.0,
+          50.0
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "7|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 59.259259,
+        "fixed_MC_envelope": [
+          59.25925925925926,
+          59.25925925925926
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 8,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 8,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 8,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 8,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "8|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "8|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "8|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 8,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "8|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "8|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "8|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 8,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "8|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 39.810183,
+        "fixed_MC_envelope": [
+          38.333333333333336,
+          40.925925925925924
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "8|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 59.814816,
+        "fixed_MC_envelope": [
+          58.14814814814814,
+          62.40740740740741
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 9,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 9,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 9,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 9,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "9|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "9|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "9|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 9,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "9|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "9|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "9|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 9,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "9|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 54.938272,
+        "fixed_MC_envelope": [
+          51.23456790123457,
+          57.40740740740742
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "9|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 83.950618,
+        "fixed_MC_envelope": [
+          81.89300411522635,
+          85.18518518518519
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 10,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 10,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 10,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 10,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "10|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "10|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "10|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 10,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "10|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "10|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "10|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 10,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "10|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 35.978834,
+        "fixed_MC_envelope": [
+          34.25925925925926,
+          39.153439153439145
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "10|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 64.685846,
+        "fixed_MC_envelope": [
+          62.56613756613757,
+          67.5925925925926
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 11,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 11,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 11,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 11,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "11|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "11|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "11|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 11,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "11|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "11|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "11|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 11,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "11|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 56.666664,
+        "fixed_MC_envelope": [
+          55.30864197530864,
+          57.65432098765432
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "11|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 71.358025,
+        "fixed_MC_envelope": [
+          70.24691358024691,
+          73.08641975308642
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 12,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 12,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 12,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 12,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "12|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "12|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "12|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 12,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "12|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "12|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "12|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 12,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "12|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 16.0,
+        "fixed_MC_envelope": [
+          16.0,
+          16.0
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "12|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 28.0,
+        "fixed_MC_envelope": [
+          28.0,
+          28.0
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 13,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 13,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 13,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 13,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "13|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "13|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "13|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 13,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "13|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "13|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "13|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 13,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "13|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 32.0,
+        "fixed_MC_envelope": [
+          32.0,
+          32.0
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "13|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 35.0,
+        "fixed_MC_envelope": [
+          35.0,
+          35.0
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 14,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 14,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 14,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 14,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "14|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "14|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "14|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 14,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "14|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "14|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "14|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 14,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "14|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 19.6,
+        "fixed_MC_envelope": [
+          19.2,
+          19.9
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "14|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 25.0,
+        "fixed_MC_envelope": [
+          24.6,
+          25.8
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 15,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 15,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 15,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 15,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "15|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "15|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "15|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 15,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "15|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "15|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "15|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 15,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "15|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 19.777777,
+        "fixed_MC_envelope": [
+          18.88888888888889,
+          20.11111111111111
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "15|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 28.111111,
+        "fixed_MC_envelope": [
+          27.0,
+          28.555555555555557
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 16,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 16,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 16,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 16,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "16|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "16|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "16|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 16,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "16|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "16|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "16|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 16,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "16|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 20.142856,
+        "fixed_MC_envelope": [
+          19.571428571428573,
+          20.785714285714285
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "16|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 27.358929,
+        "fixed_MC_envelope": [
+          26.928571428571427,
+          28.357142857142858
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 17,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 17,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 17,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 17,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "17|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "17|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "17|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 17,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "17|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "17|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "17|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 17,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "17|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 20.065001,
+        "fixed_MC_envelope": [
+          19.266666666666666,
+          20.8
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "17|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 28.266667,
+        "fixed_MC_envelope": [
+          27.666666666666668,
+          29.066666666666666
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 18,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 18,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 18,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 18,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "18|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "18|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "18|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 18,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "18|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "18|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "18|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 18,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "18|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 41.522435,
+        "fixed_MC_envelope": [
+          39.6011396011396,
+          42.735042735042725
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "18|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 58.97614,
+        "fixed_MC_envelope": [
+          57.4074074074074,
+          60.68376068376067
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 19,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 19,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 19,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 19,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "19|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "19|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "19|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 19,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "19|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "19|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "19|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 19,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "19|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 58.830129,
+        "fixed_MC_envelope": [
+          56.98005698005699,
+          59.615384615384606
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "19|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 71.942665,
+        "fixed_MC_envelope": [
+          71.08262108262109,
+          73.57549857549859
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 20,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 20,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 20,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 20,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "20|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "20|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "20|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 20,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "20|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "20|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "20|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 20,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "20|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 20.691346,
+        "fixed_MC_envelope": [
+          20.26923076923077,
+          21.076923076923077
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "20|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 25.500962,
+        "fixed_MC_envelope": [
+          25.03846153846154,
+          25.96153846153846
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 21,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 21,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 21,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 21,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "21|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "21|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "21|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 21,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "21|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "21|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "21|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 21,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "21|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 21.691346,
+        "fixed_MC_envelope": [
+          21.153846153846153,
+          22.23076923076923
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "21|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 27.540385,
+        "fixed_MC_envelope": [
+          27.153846153846153,
+          28.192307692307693
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 22,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 22,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 22,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 22,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "22|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "22|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "22|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 22,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "22|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "22|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "22|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 22,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "22|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 4.692308,
+        "fixed_MC_envelope": [
+          4.538461538461538,
+          4.769230769230769
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "22|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 5.884615,
+        "fixed_MC_envelope": [
+          5.8076923076923075,
+          5.961538461538462
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 23,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 23,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 23,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 23,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "23|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "23|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "23|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 23,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "23|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "23|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "23|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 23,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "23|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 5.346154,
+        "fixed_MC_envelope": [
+          5.230769230769231,
+          5.423076923076923
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "23|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 6.230769,
+        "fixed_MC_envelope": [
+          6.1923076923076925,
+          6.346153846153846
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 24,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 24,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 24,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 24,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "24|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "24|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "24|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 24,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "24|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "24|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "24|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 24,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "24|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 3.538462,
+        "fixed_MC_envelope": [
+          3.423076923076923,
+          3.6538461538461537
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "24|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 4.692308,
+        "fixed_MC_envelope": [
+          4.576923076923077,
+          4.769230769230769
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 25,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 25,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 25,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 25,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "25|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "25|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "25|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 25,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "25|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "25|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "25|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 25,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "25|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 4.269231,
+        "fixed_MC_envelope": [
+          4.153846153846154,
+          4.346153846153846
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "25|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 5.385577,
+        "fixed_MC_envelope": [
+          5.3076923076923075,
+          5.538461538461538
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 26,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 26,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 26,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 26,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "26|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "26|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "26|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 26,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "26|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "26|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "26|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 26,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "26|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 47.115384,
+        "fixed_MC_envelope": [
+          45.19230769230769,
+          48.71794871794873
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "26|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 66.346157,
+        "fixed_MC_envelope": [
+          65.06410256410257,
+          68.58974358974359
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 27,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 27,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 27,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 27,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "27|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "27|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "27|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 27,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "27|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "27|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "27|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 27,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "27|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 59.935898,
+        "fixed_MC_envelope": [
+          58.333333333333336,
+          61.217948717948715
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "27|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 73.71795,
+        "fixed_MC_envelope": [
+          72.75641025641026,
+          75.32051282051283
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 28,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 28,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 28,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 28,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "28|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "28|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "28|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 28,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "28|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "28|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "28|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 28,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "28|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 37.606835,
+        "fixed_MC_envelope": [
+          36.324786324786324,
+          39.31623931623931
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "28|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 55.566239,
+        "fixed_MC_envelope": [
+          53.846153846153854,
+          57.26495726495727
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 29,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 29,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 29,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 29,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "29|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "29|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "29|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 29,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "29|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "29|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "29|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 29,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "29|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 53.835472,
+        "fixed_MC_envelope": [
+          50.427350427350426,
+          54.27350427350427
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "29|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 72.649574,
+        "fixed_MC_envelope": [
+          70.94017094017094,
+          74.35897435897436
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 30,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 30,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 30,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 30,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "30|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "30|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "30|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 30,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "30|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "30|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "30|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 30,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "30|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 25.961536,
+        "fixed_MC_envelope": [
+          23.557692307692307,
+          27.884615384615383
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "30|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 50.961538,
+        "fixed_MC_envelope": [
+          48.55769230769231,
+          53.36538461538461
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 31,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 31,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 31,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 31,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "31|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "31|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "31|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 31,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "31|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "31|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "31|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 31,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "31|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 48.064904,
+        "fixed_MC_envelope": [
+          45.19230769230769,
+          49.51923076923077
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "31|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 71.634618,
+        "fixed_MC_envelope": [
+          68.75,
+          73.07692307692308
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 32,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 32,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 32,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 32,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "32|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "32|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "32|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 32,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "32|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "32|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "32|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 32,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "32|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 42.943376,
+        "fixed_MC_envelope": [
+          41.452991452991455,
+          44.44444444444445
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "32|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 60.683761,
+        "fixed_MC_envelope": [
+          58.97435897435898,
+          62.39316239316239
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 33,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 33,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 33,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 33,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "33|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "33|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "33|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 33,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "33|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "33|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "33|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 33,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "33|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 59.615385,
+        "fixed_MC_envelope": [
+          58.11965811965812,
+          60.683760683760674
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "33|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 73.082267,
+        "fixed_MC_envelope": [
+          72.43589743589743,
+          74.99999999999999
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 34,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 34,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 34,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 34,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "34|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "34|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "34|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 34,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "34|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "34|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "34|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 34,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "34|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 31.623932,
+        "fixed_MC_envelope": [
+          30.341880341880344,
+          34.61538461538461
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "34|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 55.982906,
+        "fixed_MC_envelope": [
+          54.27350427350428,
+          58.54700854700855
+        ]
+      }
+    },
+    {
+      "kind": "original_group_identity",
+      "key": 35,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_N",
+      "key": 35,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "raw_group_mean",
+      "key": 35,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_figure_mean",
+      "key": 35,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "35|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "35|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "35|replay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "replay_percentile",
+      "key": 35,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_hash",
+      "key": "35|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "draw_vector_count",
+      "key": "35|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_draw_replay",
+      "key": "35|reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_MC_envelope",
+      "key": 35,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "35|ci95_low",
+      "passed": true,
+      "details": {
+        "target": 48.717949,
+        "fixed_MC_envelope": [
+          46.58119658119658,
+          50.85470085470085
+        ]
+      }
+    },
+    {
+      "kind": "original_bootstrap_endpoint",
+      "key": "35|ci95_high",
+      "passed": true,
+      "details": {
+        "target": 70.512821,
+        "fixed_MC_envelope": [
+          69.23076923076923,
+          73.07692307692308
+        ]
+      }
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "figure_regression_mean|['TaskTime']",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "figure_regression_mean|['TaskTime']",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "figure_regression_mean|['TaskTime']",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "figure_regression_ci95_low|['TaskTime']",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "figure_regression_ci95_low|['TaskTime']",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "figure_regression_ci95_low|['TaskTime']",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "figure_regression_ci95_high|['TaskTime']",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "figure_regression_ci95_high|['TaskTime']",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "figure_regression_ci95_high|['TaskTime']",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "figure_regression_mean|['QuizScore']",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "figure_regression_mean|['QuizScore']",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "figure_regression_mean|['QuizScore']",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "figure_regression_ci95_low|['QuizScore']",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "figure_regression_ci95_low|['QuizScore']",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "figure_regression_ci95_low|['QuizScore']",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "figure_regression_ci95_high|['QuizScore']",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "figure_regression_ci95_high|['QuizScore']",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "figure_regression_ci95_high|['QuizScore']",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "paper_text|QuizScore difference NoAI-AI (points)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "paper_text|QuizScore difference NoAI-AI (points)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "paper_text|QuizScore difference NoAI-AI (points)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "paper_text|QuizScore Cohen d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "paper_text|QuizScore Cohen d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "paper_text|QuizScore Cohen d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "paper_text|QuizScore unadjusted p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "paper_text|QuizScore unadjusted p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "paper_text|QuizScore unadjusted p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "paper_text|Warmup-adjusted Cohen d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "paper_text|Warmup-adjusted Cohen d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "paper_text|Warmup-adjusted Cohen d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "paper_text|Warmup-adjusted Treatment p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "paper_text|Warmup-adjusted Treatment p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "paper_text|Warmup-adjusted Treatment p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "main_time_p|None",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "main_time_p|None",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "main_time_p|None",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_source_p|experience_TaskTime|1-3 years",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_source_p|experience_TaskTime|1-3 years",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_source_p|experience_TaskTime|1-3 years",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_source_p|experience_TaskTime|4-6 years",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_source_p|experience_TaskTime|4-6 years",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_source_p|experience_TaskTime|4-6 years",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_source_p|experience_TaskTime|7+ years",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_source_p|experience_TaskTime|7+ years",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_source_p|experience_TaskTime|7+ years",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_source_p|experience_QuizScore|1-3 years",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_source_p|experience_QuizScore|1-3 years",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_source_p|experience_QuizScore|1-3 years",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_source_p|experience_QuizScore|4-6 years",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_source_p|experience_QuizScore|4-6 years",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_source_p|experience_QuizScore|4-6 years",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_source_p|experience_QuizScore|7+ years",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_source_p|experience_QuizScore|7+ years",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_source_p|experience_QuizScore|7+ years",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_source_p|Task1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_source_p|Task1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_source_p|Task1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_source_p|Task2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_source_p|Task2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_source_p|Task2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_source_p|Conceptual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_source_p|Conceptual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_source_p|Conceptual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_source_p|Debugging",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_source_p|Debugging",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_source_p|Debugging",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_source_p|CodeReading",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_source_p|CodeReading",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_source_p|CodeReading",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_source_p|Learning",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_source_p|Learning",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_source_p|Learning",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_source_p|Enjoyment",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_source_p|Enjoyment",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_source_p|Enjoyment",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_source_p|Warm Up",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_source_p|Warm Up",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_source_p|Warm Up",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_source_p|Trio Task",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_source_p|Trio Task",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_source_p|Trio Task",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_source_p|Post Task Quiz",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_source_p|Post Task Quiz",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_source_p|Post Task Quiz",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_adjusted_fit|Treatment",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_adjusted_fit|Treatment",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_adjusted_fit|Treatment",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_adjusted_fit|Treatment_ci95_low",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_adjusted_fit|Treatment_ci95_low",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_adjusted_fit|Treatment_ci95_low",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_adjusted_fit|Treatment_ci95_high",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_adjusted_fit|Treatment_ci95_high",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_adjusted_fit|Treatment_ci95_high",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_adjusted_fit|WarmupTaskTime",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_adjusted_fit|WarmupTaskTime",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_adjusted_fit|WarmupTaskTime",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "independent_comparison_value",
+      "key": "original_saved_adjusted_fit|Warmup_p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "comparison_pass_flag",
+      "key": "original_saved_adjusted_fit|Warmup_p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "original_deterministic_target",
+      "key": "original_saved_adjusted_fit|Warmup_p",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "item_total_consistency_count",
+      "key": null,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "item_total_max_discrepancy",
+      "key": null,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "fractional_diagnostic_fit",
+      "key": "Task1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "fractional_diagnostic_mean",
+      "key": "Task1|AI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "fractional_diagnostic_mean",
+      "key": "Task1|No AI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "fractional_diagnostic_fit",
+      "key": "Task2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "fractional_diagnostic_mean",
+      "key": "Task2|AI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "fractional_diagnostic_mean",
+      "key": "Task2|No AI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "fractional_diagnostic_fit",
+      "key": "Conceptual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "fractional_diagnostic_mean",
+      "key": "Conceptual|AI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "fractional_diagnostic_mean",
+      "key": "Conceptual|No AI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "fractional_diagnostic_fit",
+      "key": "Debugging",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "fractional_diagnostic_mean",
+      "key": "Debugging|AI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "fractional_diagnostic_mean",
+      "key": "Debugging|No AI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "fractional_diagnostic_fit",
+      "key": "CodeReading",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "fractional_diagnostic_mean",
+      "key": "CodeReading|AI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "fractional_diagnostic_mean",
+      "key": "CodeReading|No AI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "full_item_audit",
+      "key": "Q1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "full_item_audit",
+      "key": "Q2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "full_item_audit",
+      "key": "Q3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "full_item_audit",
+      "key": "Q4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "full_item_audit",
+      "key": "Q5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "full_item_audit",
+      "key": "Q6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "full_item_audit",
+      "key": "Q8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "full_item_audit",
+      "key": "Q9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "full_item_audit",
+      "key": "Q10",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "full_item_audit",
+      "key": "Q11",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "full_item_audit",
+      "key": "Q12",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "full_item_audit",
+      "key": "Q13",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "full_item_audit",
+      "key": "Q14",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "full_item_audit",
+      "key": "Q15",
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "BH_primary_diagnostic",
+      "key": null,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "BH_exploratory_diagnostic",
+      "key": null,
+      "passed": true,
+      "details": null
+    },
+    {
+      "kind": "source_run_all_pass_flag",
+      "key": null,
+      "passed": true,
+      "details": null
+    }
+  ],
+  "provenance": {
+    "prereg_sha256": "fd77cfc6f61c62e6d4175f71ddb7f815647a4b9f63989f2f7d4fa56973b763b6",
+    "proposal_sha256": "b622eeba4aed6aa70959062c4c4ebcb250bc5243f7c3c81c24d799132b695d98",
+    "data_sha256": "7c76a8d4279a3fa4f0df24b0b4587c1b8c194561f26057545edac7919237518f",
+    "targets_sha256": "ef783454547a2ba7f368f039f16dfa224a8a1e52c16caeb3b42e5e30ef598347",
+    "audit_sha256": "3362cfa76f75f2e924bc29e767febc3dc8c98e4b33867665418b4036c3b5a982",
+    "results_sha256": "72125b6a1de180f3e486c1b998287da3e0377f3177580cd5dc95686a8332f55f",
+    "resource_guard_sha256": "1c3eea4a128c1ec6cdfc22ac8d01b4ce48503a20a7026d46ed031d8fb6b571d7",
+    "input_manifest_sha256": "1ff628a5fe13fd6ff66cac8e72d09e22769ec5cf4e0795a45bc318982ea719a8"
+  },
+  "resource": {
+    "CPU_threads": 1,
+    "elapsed_seconds": 7.3439999998081475,
+    "peak_RSS_bytes": 124116992,
+    "minimum_available_RAM_bytes": 1423437824,
+    "minimum_free_disk_bytes": 101482323968,
+    "limits": {
+      "RSS_bytes": 1073741824,
+      "available_RAM_floor_bytes": 1073741824,
+      "free_disk_floor_bytes": 37580963840,
+      "seconds": 600
+    }
+  },
+  "independent_regressions": {
+    "primary_TaskTime": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        23.000000000000004,
+        1.692307692307691
+      ],
+      "se": [
+        1.3821773407140747,
+        1.9546939408426227
+      ],
+      "p": [
+        4.995753411021408e-22,
+        0.390753790575499
+      ],
+      "ci95": [
+        [
+          20.22381510776955,
+          25.776184892230457
+        ],
+        [
+          -2.233810633939904,
+          5.618426018555286
+        ]
+      ],
+      "residual_mse": 49.67076923076922
+    },
+    "standardized_TaskTime": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        3.2714958937727907,
+        0.24071207245150977
+      ],
+      "se": [
+        0.19659945628747355,
+        0.2780336174369215
+      ],
+      "p": [
+        4.995753411021525e-22,
+        0.3907537905754986
+      ],
+      "ci95": [
+        [
+          2.8766142644125305,
+          3.666377523133051
+        ],
+        [
+          -0.31773488332175587,
+          0.7991590282247754
+        ]
+      ],
+      "residual_mse": 1.0049350015257856
+    },
+    "primary_QuizScore": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        13.5,
+        4.153846153846155
+      ],
+      "se": [
+        1.1036250113514434,
+        1.5607614588273722
+      ],
+      "p": [
+        1.1984883652259279e-16,
+        0.010434680521542145
+      ],
+      "ci95": [
+        [
+          11.283303927107752,
+          15.716696072892248
+        ],
+        [
+          1.0189645039027604,
+          7.28872780378955
+        ]
+      ],
+      "residual_mse": 31.667692307692306
+    },
+    "standardized_QuizScore": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        2.267548587295249,
+        0.6977072576293075
+      ],
+      "se": [
+        0.18537209891804954,
+        0.26215573637547257
+      ],
+      "p": [
+        1.1984883652259279e-16,
+        0.010434680521542145
+      ],
+      "ci95": [
+        [
+          1.895217768884157,
+          2.639879405706341
+        ],
+        [
+          0.1711519645428673,
+          1.2242625507157476
+        ]
+      ],
+      "residual_mse": 0.8934331914893616
+    },
+    "adjusted_QuizScorePercent": {
+      "N": 50,
+      "df": 47,
+      "coef": [
+        55.77563690858484,
+        15.322628987368848,
+        -0.7867694283879284
+      ],
+      "se": [
+        8.673653111825965,
+        6.148146583979544,
+        0.946769966212568
+      ],
+      "p": [
+        5.987112027280368e-08,
+        0.016277485130766073,
+        0.4101733245643287
+      ],
+      "ci95": [
+        [
+          38.3264975414863,
+          73.22477627568338
+        ],
+        [
+          2.954153420027936,
+          27.69110455470976
+        ],
+        [
+          -2.6914249266003125,
+          1.117886069824456
+        ]
+      ],
+      "residual_mse": 446.6090673317701
+    },
+    "experience_TaskTime|1-3 years": {
+      "N": 4,
+      "df": 2,
+      "coef": [
+        22.0,
+        11.5
+      ],
+      "se": [
+        4.373213921133975,
+        6.18465843842649
+      ],
+      "p": [
+        0.03731665905378014,
+        0.2040521787631198
+      ],
+      "ci95": [
+        [
+          3.1835791844545547,
+          40.81642081554544
+        ],
+        [
+          -15.110437512663783,
+          38.11043751266378
+        ]
+      ],
+      "residual_mse": 38.25
+    },
+    "experience_QuizScore|1-3 years": {
+      "N": 4,
+      "df": 2,
+      "coef": [
+        13.25,
+        1.5
+      ],
+      "se": [
+        3.816084380618437,
+        5.3967582862307255
+      ],
+      "p": [
+        0.07387369993929978,
+        0.8071526960400325
+      ],
+      "ci95": [
+        [
+          -3.169285877222201,
+          29.6692858772222
+        ],
+        [
+          -21.72037677204866,
+          24.72037677204866
+        ]
+      ],
+      "residual_mse": 29.125
+    },
+    "experience_TaskTime|4-6 years": {
+      "N": 19,
+      "df": 17,
+      "coef": [
+        22.099999999999998,
+        1.3444444444444477
+      ],
+      "se": [
+        1.826475587544335,
+        2.6538075029832777
+      ],
+      "p": [
+        8.863837928849334e-10,
+        0.6189361540111741
+      ],
+      "ci95": [
+        [
+          18.2464733528667,
+          25.953526647133295
+        ],
+        [
+          -4.254599965920605,
+          6.9434888548095
+        ]
+      ],
+      "residual_mse": 33.360130718954245
+    },
+    "experience_QuizScore|4-6 years": {
+      "N": 19,
+      "df": 17,
+      "coef": [
+        13.25,
+        5.750000000000002
+      ],
+      "se": [
+        1.759219412460103,
+        2.5560865461428626
+      ],
+      "p": [
+        8.214924874952909e-07,
+        0.03801823264810982
+      ],
+      "ci95": [
+        [
+          9.538371478764901,
+          16.9616285212351
+        ],
+        [
+          0.3571287866576345,
+          11.142871213342369
+        ]
+      ],
+      "residual_mse": 30.948529411764707
+    },
+    "experience_TaskTime|7+ years": {
+      "N": 29,
+      "df": 27,
+      "coef": [
+        23.78571428571429,
+        0.48095238095237913
+      ],
+      "se": [
+        2.0888279771116203,
+        2.904397438608824
+      ],
+      "p": [
+        8.156148043204426e-12,
+        0.86970974338586
+      ],
+      "ci95": [
+        [
+          19.499793298598885,
+          28.071635272829692
+        ],
+        [
+          -5.478378915572379,
+          6.4402836774771375
+        ]
+      ],
+      "residual_mse": 61.08483245149911
+    },
+    "experience_QuizScore|7+ years": {
+      "N": 29,
+      "df": 27,
+      "coef": [
+        13.714285714285715,
+        3.519047619047618
+      ],
+      "se": [
+        1.5951235842972027,
+        2.217929338012575
+      ],
+      "p": [
+        3.268036918628553e-09,
+        0.12423862011415732
+      ],
+      "ci95": [
+        [
+          10.441362466467304,
+          16.987208962104127
+        ],
+        [
+          -1.0317674800834995,
+          8.069862718178737
+        ]
+      ],
+      "residual_mse": 35.62186948853616
+    },
+    "Task1": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        51.70940170940172,
+        14.743589743589732
+      ],
+      "se": [
+        4.0955468833239195,
+        5.791977947731548
+      ],
+      "p": [
+        3.5996725598568116e-17,
+        0.014041790957952431
+      ],
+      "ci95": [
+        [
+          43.48325369786559,
+          59.93554972093784
+        ],
+        [
+          3.1100596595868684,
+          26.377119827592594
+        ]
+      ],
+      "residual_mse": 436.11111111111103
+    },
+    "Task2": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        44.44444444444444,
+        15.811965811965813
+      ],
+      "se": [
+        5.914443455719042,
+        8.364286148966666
+      ],
+      "p": [
+        9.431588126075419e-10,
+        0.06450522081540981
+      ],
+      "ci95": [
+        [
+          32.56493514845525,
+          56.32395374043364
+        ],
+        [
+          -0.988197348759364,
+          32.61212897269099
+        ]
+      ],
+      "residual_mse": 909.496676163343
+    },
+    "Conceptual": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        46.58119658119658,
+        16.23931623931624
+      ],
+      "se": [
+        4.891249206093844,
+        6.917270964204549
+      ],
+      "p": [
+        8.09932247040733e-13,
+        0.022891081259639314
+      ],
+      "ci95": [
+        [
+          36.75683341874118,
+          56.40555974365198
+        ],
+        [
+          2.3455686132931763,
+          30.133063865339302
+        ]
+      ],
+      "residual_mse": 622.0322886989553
+    },
+    "Debugging": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        37.980769230769226,
+        21.153846153846153
+      ],
+      "se": [
+        6.183073621451067,
+        8.744186572607427
+      ],
+      "p": [
+        1.3129515889538628e-07,
+        0.019235374915885325
+      ],
+      "ci95": [
+        [
+          25.561700367613838,
+          50.399838093924615
+        ],
+        [
+          3.590630535526387,
+          38.71706177216592
+        ]
+      ],
+      "residual_mse": 993.9903846153844
+    },
+    "CodeReading": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        57.05128205128205,
+        9.935897435897441
+      ],
+      "se": [
+        4.411681716613836,
+        6.239060116508703
+      ],
+      "p": [
+        1.4312569966984148e-17,
+        0.1175684779127464
+      ],
+      "ci95": [
+        [
+          48.19015853968901,
+          65.9124055628751
+        ],
+        [
+          -2.595623612060548,
+          22.467418483855432
+        ]
+      ],
+      "residual_mse": 506.0363247863248
+    },
+    "Learning": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        4.115384615384616,
+        0.7307692307692308
+      ],
+      "se": [
+        0.29357014826555977,
+        0.4151708851850349
+      ],
+      "p": [
+        5.964112104535138e-19,
+        0.08449611557497584
+      ],
+      "ci95": [
+        [
+          3.5257316190450547,
+          4.705037611724177
+        ],
+        [
+          -0.1031260337481098,
+          1.5646644952865714
+        ]
+      ],
+      "residual_mse": 2.240769230769231
+    },
+    "Enjoyment": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        5.307692307692308,
+        0.5
+      ],
+      "se": [
+        0.2795283432401019,
+        0.3953127740778337
+      ],
+      "p": [
+        1.6502806106770985e-24,
+        0.21179896422378194
+      ],
+      "ci95": [
+        [
+          4.746243106786973,
+          5.869141508597644
+        ],
+        [
+          -0.29400907450386227,
+          1.2940090745038622
+        ]
+      ],
+      "residual_mse": 2.031538461538461
+    },
+    "Warm Up": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        2.9230769230769234,
+        -0.653846153846154
+      ],
+      "se": [
+        0.22007260770646106,
+        0.31122966652529094
+      ],
+      "p": [
+        5.052393638100778e-18,
+        0.04071742048233073
+      ],
+      "ci95": [
+        [
+          2.4810480815443348,
+          3.365105764609512
+        ],
+        [
+          -1.2789693365016082,
+          -0.028722971190699775
+        ]
+      ],
+      "residual_mse": 1.2592307692307694
+    },
+    "Trio Task": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        2.730769230769231,
+        0.5384615384615388
+      ],
+      "se": [
+        0.2222797427199983,
+        0.31435102679542387
+      ],
+      "p": [
+        1.0184129857651463e-16,
+        0.09292063143353864
+      ],
+      "ci95": [
+        [
+          2.2843072280935655,
+          3.177231233444896
+        ],
+        [
+          -0.09293108080664025,
+          1.1698541577297177
+        ]
+      ],
+      "residual_mse": 1.2846153846153845
+    },
+    "Post Task Quiz": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        3.730769230769231,
+        0.07692307692307707
+      ],
+      "se": [
+        0.13910108707711638,
+        0.19671864388529886
+      ],
+      "p": [
+        2.4297072505661397e-31,
+        0.697435695745427
+      ],
+      "ci95": [
+        [
+          3.4513764748173674,
+          4.010161986721094
+        ],
+        [
+          -0.3181979477728445,
+          0.4720441016189987
+        ]
+      ],
+      "residual_mse": 0.5030769230769233
+    }
+  },
+  "all_checks_pass": true,
+  "original_run_all_checks_pass": true
+}

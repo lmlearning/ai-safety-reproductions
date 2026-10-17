@@ -1,0 +1,74 @@
+{
+  "UTC": "2026-10-17T09:35:11.909841+00:00",
+  "all_phases_closed": [
+    {
+      "name": "primary955",
+      "native_terminal_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\primary955_native\\COMPLETE_P165_DIRECT_CHILD_TERMINAL001.json",
+        "bytes": 2447,
+        "sha256": "0bfc08ec3683524e9007ceb1a87dfc482213b4caee3246b68cc289c623e6bf44"
+      },
+      "candidate_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\primary955\\MENTALBENCH_PHASE_CANDIDATE001.json",
+        "bytes": 5680,
+        "sha256": "8fe25081c5170a911c3f68d9db5f0f2020d277833da436f2a9519aa41eaa12ca"
+      },
+      "actual_tool_session": 45709,
+      "actual_final_chunk": "1f0cb7",
+      "actual_tool_exit": 0,
+      "all_declared_product_pins_verified": true
+    },
+    {
+      "name": "independent_audit956",
+      "native_terminal_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\independent_audit956_native\\COMPLETE_P165_DIRECT_CHILD_TERMINAL001.json",
+        "bytes": 2450,
+        "sha256": "dfd8390244667135d2512cb70c20677664f38f7b46e9624fabd6418600b36238"
+      },
+      "candidate_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\independent_audit956\\MENTALBENCH_PHASE_CANDIDATE001.json",
+        "bytes": 6666,
+        "sha256": "7bf3d2f680ad50a841cf93ef25fb0f1b7eadaa2bb6b0918ae54b9c2e19d8a6e7"
+      },
+      "actual_tool_session": 85509,
+      "actual_final_chunk": "d31fa0",
+      "actual_tool_exit": 0,
+      "all_declared_product_pins_verified": true
+    }
+  ],
+  "all69502_independent_comparisons_passed": true,
+  "all80000_primary_and_independent_CSV_cell_hashes_identical": true,
+  "all1150_published_targets_reported": true,
+  "all324_main_targets_reported": true,
+  "prospective921_near_targets_passed": 315,
+  "prospective921_near_targets_failed": 9,
+  "old_fixed_bound_conjunction_passed": false,
+  "complete_comparison_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\independent_audit956\\COMPLETE_PRIMARY_INDEPENDENT_COMPARISON005.json",
+    "bytes": 15543014,
+    "sha256": "7860cbfd0682f3afe1117fbfa639a10149b497e69ab8b02e5655a87ad553f30e"
+  },
+  "primary_cell_hash_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\primary955\\COMPLETE_SOURCE_CELL_SHA256_BINARY001.bin",
+    "bytes": 2560000,
+    "sha256": "e67b4768f64e6722d7a3067fa4f8071a5958cf0e27af217a97b4fb26e583a44d"
+  },
+  "independent_cell_hash_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\independent_audit956\\ALL80000_ORIGINAL_CSV_CELL_SHA256.bin",
+    "bytes": 2560000,
+    "sha256": "e67b4768f64e6722d7a3067fa4f8071a5958cf0e27af217a97b4fb26e583a44d"
+  },
+  "original_clock_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\opaque_original9_001\\ORIGINAL_P165_FIRST_REQUEST_PROGRAMME_CLOCK001.json",
+    "bytes": 362,
+    "sha256": "f230377086b68a482b67b0201c8e3a3c68f5b5d351c7aab61ae634c8582bf0a3"
+  },
+  "canonical_source_adoption_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\operations\\P165_reviewed_source_ROOT929\\ROOT_ORIGINAL_CSV_MISSINGNESS_METHOD_ADOPTION953.json",
+    "bytes": 2494,
+    "sha256": "855fb0205e7d4cb6135118fc6e349e9ec5de2b98017b8e4de2b08d7eb6d1d4cd"
+  },
+  "scope": "All1000records,10response sources,7attributes,4judges,28families; full1000-draw conditional source bootstrap and source masks/diagnostics preserved. No individual3-expert aggregation/new model generation/FULL claim.",
+  "classification": "Pending independent scientific assessment of core results and whole error vector under user small-error instruction; no automatic paper credit.",
+  "science_credit_awarded": false
+}

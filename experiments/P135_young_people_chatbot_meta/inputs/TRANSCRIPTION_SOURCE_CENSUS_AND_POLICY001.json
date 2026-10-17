@@ -1,0 +1,42 @@
+{
+  "source_only": true,
+  "no_original_effect_pool_or_test_computation": true,
+  "full_original_effect_rows": 26,
+  "distress_rows": 18,
+  "distress_original_clusters": 11,
+  "wellbeing_rows": 8,
+  "wellbeing_original_clusters": 7,
+  "headers": [
+    "row",
+    "study_key",
+    "study_literal",
+    "intervention_n",
+    "control_n",
+    "printed_g",
+    "printed_CI_low",
+    "printed_CI_high",
+    "printed_weight_percent",
+    "source_image",
+    "source_figure"
+  ],
+  "all_values_literal_manual_reads": true,
+  "source_numeric_minus_signs_normalized_to_ASCII": true,
+  "exact_two_decimal_g_and_CI_source_precision_preserved": true,
+  "arm_N_policy": "original forest post-intervention count, not baseline S3N",
+  "individual_effect_type_names_not_inferred_from_suffixes": true,
+  "all_weights_source_display_only_not_estimator_inputs": true,
+  "original_group_means_SDs_private": true,
+  "independent_visual_QA_required_before_runtime_freeze": true,
+  "original_raw_rasters": [
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\sources\\WVN-22-0-g001.jpg",
+      "bytes": 78646,
+      "sha256": "7b3a14d1a213ae37b7a9e0e157842542aee44286cc89bd2404d23bf727c5aa34"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\sources\\WVN-22-0-g003.jpg",
+      "bytes": 61608,
+      "sha256": "d64a14ba1c32a7d17bac59e0faaf708a37038df832c1ece91ca0c013d594dc82"
+    }
+  ]
+}

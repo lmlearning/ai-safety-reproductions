@@ -1,0 +1,325 @@
+{
+ "schema": "ADDITIVE_P109_RETAINED_SELECTION_AND_FROZEN_COMPLETE_CENTRAL_SCOPE_P092053",
+ "UTC": "2026-10-17T14:21:11.156504+00:00",
+ "status": "MAIN_SELECTION_AND_DISTINCT_CURRENT20_SUPPORTED__NO_NUMERICAL_NEAR_REVIEW_OR_AWARD",
+ "identity": {
+  "paper_id": "P109",
+  "title": "Does Generative Artificial Intelligence Improve Students’ Higher-Order Thinking? A Meta-Analysis Based on 29 Experiments and Quasi-Experiments",
+  "DOI": "10.3390/jintelligence13120160",
+  "arxiv_id": null,
+  "S2_paperId": "aca672118bb6e22918686cec87b139a207e74fd7",
+  "PMC": "PMC12734368",
+  "PubMed": "41440821",
+  "official_URL": "https://doi.org/10.3390/jintelligence13120160"
+ },
+ "citation": {
+  "principal": "Semantic Scholar exact paper-ID batch",
+  "first_retained_numeric_count": 47,
+  "capture_UTC": "2026-10-10T19:40:40.980659+00:00",
+  "raw_ref_key": "raw47",
+  "raw_pointer": "/0",
+  "request_ref_key": "request47",
+  "HTTPstatus": 200,
+  "exact_body_SHA_join": true,
+  "prior_attempts_preserved": [
+   {
+    "ref_key": "alias301request",
+    "date": "2026-10-10T19:38:23.696272+00:00",
+    "status": 301,
+    "meaning": "DOI alias resolves to the exact S2ID; redirect HTML contains no numeric citation observation."
+   },
+   {
+    "ref_key": "prior429request",
+    "date": "2026-10-10T19:38:43.482794+00:00",
+    "status": 429,
+    "meaning": "Initial identical-paperID batch rate limit, not zero or a numeric observation; later same IDs/provider200 is first retained numeric observation in this request chain."
+   }
+  ],
+  "catalogue_join": "prior_catalogue /29 carries same47/provider/capture/DOI. Canonical raw/VOR title retained; legacy catalogue title contains mojibake and is not rewritten.",
+  "earlier_count_extent": "Named base candidates.json and semantic_scholar_candidates.json contain no exact DOI row. No alternate count/provider selected; no claim to exhaustive first-ever historical request absence.",
+  "MAIN_required": 20,
+  "gate_arithmetic_pass": true,
+  "new_lookup_refresh_sum_or_provider_rescue": false,
+  "raw_before_parse_transport_order_independently_replayed_now": false
+ },
+ "chronology": {
+  "first_positive_public_release": "2025-12-05",
+  "window": "MAIN",
+  "source": "Retained VOR XML epub day05/month12/year2025 and Crossref published-online/published/issued5Dec2025 agree.",
+  "S2_index_date_not_release": "2025-12-01",
+  "editorial_dates_not_public_release": {
+   "received": "2025-10-03",
+   "revised": "2025-11-20",
+   "accepted": "2025-11-28"
+  },
+  "earlier_public_release": "Existing exact-title/publisher source review reports no earlier empirical release; finite extent, no global absence proof. No new network/history search.",
+  "date_reset_used": false
+ },
+ "safety_adjacency": "Empirical validity/reliability of generativeAI effects on human higher-order thinking and cognitive offloading; adjacent to AI evaluation/oversight, not a claim that the paper directly tests malicious-use safety.",
+ "frozen_scope": {
+  "claim": "The authors'59 reported effect estimates yield a positive overall random-effects pooled Hedgesg with the Table3 uncertainty/heterogeneity, plus the complete fixed-effects comparison.",
+  "complete_family": "All59source effects exactly once; all16overall Table3 synthesis/heterogeneity and Figure3fixed summary gates, independent source/80digit precision audit. No favorable dimension/moderator subset.",
+  "source_freeze_UTC": "2026-10-10T20:02:45.711423+00:00",
+  "alignment_UTC": "2026-10-10T20:28:17.620045+00:00",
+  "run_freeze_UTC": "2026-10-10T20:31:37.425175+00:00",
+  "ROOT_execution_approval_UTC": "2026-10-10T21:07:09.934554+00:00",
+  "all_preoutcome_flags_retained": true,
+  "all16_target_IDs": [
+   "fixed.k",
+   "random.k",
+   "fixed.mean",
+   "fixed.ci_low",
+   "fixed.ci_high",
+   "random.mean",
+   "random.ci_low",
+   "random.ci_high",
+   "Q",
+   "df",
+   "Q_p",
+   "I2",
+   "fixed.se",
+   "fixed.variance",
+   "fixed.z",
+   "fixed.p"
+  ],
+  "method": "Prospectively inferred DerSimonian-Laird normal fixed/random synthesis, deterministic printed-input point rule, source-rounding boxes and analytic marginal envelopes separated from samplingCIs; source59effect-independence assumption retained. No estimator chosen after outcomes.",
+  "CMA_settings_verified": false,
+  "unrounded_inputs_available": false,
+  "marginal_envelopes_joint_input_solution_claimed": false,
+  "FULL": false,
+  "omissions": [
+   "Original constituent human experiments and search/screening/manual extraction/unrounded means-SDs cannot be repeated with released sources.",
+   "All four Table5 moderator families cannot be reproduced: effect assignments absent, SRL counts56vs59 and education prose/table conflict preserved.",
+   "OriginalCMA3.7 project and tau estimator/advanced settings are unreleased. DL is a prospective inference, not a verified author setting; fullsoftware/project reproduction is not claimed.",
+   "Dimension and bias diagnostics will all be computed as separate source-complete supporting checks; they cannot replace any of16central gates or expand successful scope."
+  ],
+  "source_conflicts": "Original SRL moderator counts56vs59; education prose/table conflict; Figure3fixed summary vs random-effects prose labeling; incomplete original CMA/project/default documentation retained, not corrected by matching outcomes.",
+  "no_numeric_assessment_here": "CPU052 and RSTAT separately own archived whole16 numerical/near review. This dossier neither promotes old strict failure nor changes a width cap/tolerance/source assumption."
+ },
+ "distinctness": {
+  "registry_ref": {
+   "path": "{{REPRODUCTION_ROOT}}\\SUCCESS_REGISTRY.json",
+   "bytes": 46619,
+   "sha256": "875df4b517d2dcc217eaccb5923a19b1275a3b77f0cadb066fa7ac402696d07d"
+  },
+  "current_count": 20,
+  "current_strict": 12,
+  "current_near": 8,
+  "checks": [
+   {
+    "paper_id": "P041",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   },
+   {
+    "paper_id": "P065",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   },
+   {
+    "paper_id": "P066",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   },
+   {
+    "paper_id": "P068",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   },
+   {
+    "paper_id": "P072",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   },
+   {
+    "paper_id": "P080",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   },
+   {
+    "paper_id": "P120",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   },
+   {
+    "paper_id": "P134",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   },
+   {
+    "paper_id": "P132",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   },
+   {
+    "paper_id": "P135",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   },
+   {
+    "paper_id": "P133",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   },
+   {
+    "paper_id": "P150",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   },
+   {
+    "paper_id": "P069",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   },
+   {
+    "paper_id": "P079",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   },
+   {
+    "paper_id": "P028",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   },
+   {
+    "paper_id": "P161",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   },
+   {
+    "paper_id": "P156",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   },
+   {
+    "paper_id": "P165",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   },
+   {
+    "paper_id": "P157",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   },
+   {
+    "paper_id": "P103",
+    "title_match": false,
+    "DOI_match": false,
+    "id_match": false
+   }
+  ],
+  "no_exact_title_DOI_id_match": true,
+  "exactS2ID_not_counted_records": true,
+  "DOI_field_support": "Existing19catalogue supplies DOI metadata where legacy registry leaves omit it; P103newcurrent record has its own DOI. Counted status comes only from current20registry.",
+  "limits": "Finite canonical identity fields, not global alias absence or20independentcohorts."
+ },
+ "source_refs": {
+  "eligibility": {
+   "path": "{{REPRODUCTION_ROOT}}\\papers\\P109_higher_order_thinking\\ELIGIBILITY_REVIEW_20261010.json",
+   "bytes": 1390,
+   "sha256": "76c17a6486a7da8aa86ec6c0e4cc02bfe7a1db4eea52518dd0c690657ade1c55"
+  },
+  "source_review": {
+   "path": "{{REPRODUCTION_ROOT}}\\papers\\P109_higher_order_thinking\\SOURCE_REVIEW_001.md",
+   "bytes": 2475,
+   "sha256": "3bec243e7367bf0342fb1d4eb12d7f15014ba218943e946f06e69a6e1b7705fe"
+  },
+  "preregistration": {
+   "path": "{{REPRODUCTION_ROOT}}\\papers\\P109_higher_order_thinking\\PREREGISTRATION_001.json",
+   "bytes": 7639,
+   "sha256": "60146ae23925b16f03e3a081105b6de2611a428524651fb4721a7ab3221f8350"
+  },
+  "source_freeze": {
+   "path": "{{REPRODUCTION_ROOT}}\\papers\\P109_higher_order_thinking\\SOURCE_FREEZE_001.json",
+   "bytes": 3454,
+   "sha256": "299922bab8648cd75fe02ac4575db0e3da688a90466c0d60edb6e840a2523d49"
+  },
+  "run_freeze": {
+   "path": "{{REPRODUCTION_ROOT}}\\papers\\P109_higher_order_thinking\\RUN_FREEZE_001.json",
+   "bytes": 518603,
+   "sha256": "0030d18172aa3e8059b9cd0f595adc0bf2179ca11f788d65710b4d6407383956"
+  },
+  "alignment": {
+   "path": "{{REPRODUCTION_ROOT}}\\papers\\P109_higher_order_thinking\\PROSPECTIVE_ALIGNMENT_SUPPLEMENT_001.json",
+   "bytes": 2071,
+   "sha256": "33413655f16f07767690d2b37eb7dea082816242a52664cec9ed8e92379251ba"
+  },
+  "ROOT_execution": {
+   "path": "{{REPRODUCTION_ROOT}}\\papers\\P109_higher_order_thinking\\ROOT_EXECUTION_AUTHORIZATION001.json",
+   "bytes": 998,
+   "sha256": "9ad02c5ef6f1ba4fb45487f2f91992364a8016ccc8667e706a7d133c6ac3b96b"
+  },
+  "raw47": {
+   "path": "{{REPRODUCTION_ROOT}}\\literature\\root_new_eligibility_20261010\\P109_P112_s2_exact_batch_retry1.source",
+   "bytes": 1328,
+   "sha256": "b0f1333927c29dbaabda26a7f0139c25e22189ef9fdc0ad54a8fbf212bdfa29c"
+  },
+  "request47": {
+   "path": "{{REPRODUCTION_ROOT}}\\literature\\root_new_eligibility_20261010\\P109_P112_s2_exact_batch_retry1.request.json",
+   "bytes": 557,
+   "sha256": "c0939c69ee706658475ec4dca55823df6edef767f7447495c6d2bd29c6d13967"
+  },
+  "prior429raw": {
+   "path": "{{REPRODUCTION_ROOT}}\\literature\\root_new_eligibility_20261010\\P109_P112_s2_exact_batch.source",
+   "bytes": 174,
+   "sha256": "65ab993d12c5c2cc9b68e6da2bb79b326930283e520363ffcdc145f88cd5a148"
+  },
+  "prior429request": {
+   "path": "{{REPRODUCTION_ROOT}}\\literature\\root_new_eligibility_20261010\\P109_P112_s2_exact_batch.request.json",
+   "bytes": 556,
+   "sha256": "a91c42a033bdca4088095bf88193d07bedd811ba272565ee6aed504b31d65f19"
+  },
+  "alias301request": {
+   "path": "{{REPRODUCTION_ROOT}}\\literature\\root_new_eligibility_20261010\\P109_s2_alias.request.json",
+   "bytes": 378,
+   "sha256": "f8ee58c596acb574ae7da35b13f39ae16b1e9a278dfdb21b3caa057b4b169e48"
+  },
+  "crossref": {
+   "path": "{{REPRODUCTION_ROOT}}\\literature\\root_new_eligibility_20261010\\P109_crossref.source",
+   "bytes": 28597,
+   "sha256": "7196ffb7bf68f8629244d409e01657e8b2fba8f5d52e675f0aed460473353361"
+  },
+  "VOR_XML": {
+   "path": "{{REPRODUCTION_ROOT}}\\literature\\root_new_eligibility_20261010\\P109_epmc_vor.source",
+   "bytes": 165910,
+   "sha256": "85dc8fc00d9c04223f21de8492a05ac9bf8e9c2d8563dfc84a651bd096366c26"
+  },
+  "prior_catalogue": {
+   "path": "{{REPRODUCTION_ROOT}}\\literature\\root_eligibility_shortlist_20261010.json",
+   "bytes": 65893,
+   "sha256": "b90daf3e56cc774d0c236d3ba221fa05ba9ebc654f2437f72a04a32046af452b"
+  },
+  "DOI_metadata19": {
+   "path": "{{REPRODUCTION_ROOT}}\\operations\\final_summary_preparation19\\COMPLETE_CURRENT19_COUNTED_PAPER_SOURCE_CATALOGUE001.json",
+   "bytes": 87642,
+   "sha256": "5dff58e251f1ef55ec2cec982c0fa267cd120d4a0fab90520f921803e322ad4c"
+  }
+ },
+ "operations": {
+  "network_or_count_refresh": false,
+  "original_effectCSV_or_scientific_output_read": false,
+  "scientific_import_fit_or_native_process_query": false,
+  "source_threshold_protocol_registry_mutation": false,
+  "new_count_or_admission": false
+ },
+ "all_writers_closed_after_seal": true
+}

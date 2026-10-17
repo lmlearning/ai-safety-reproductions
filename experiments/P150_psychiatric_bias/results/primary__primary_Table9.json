@@ -1,0 +1,5653 @@
+{
+  "inferential": {
+    "status": "ok",
+    "N": 160,
+    "k": 4,
+    "group_N": {
+      "Gemini": 40,
+      "ChatGPT": 40,
+      "Claude": 40,
+      "NewMes": 40
+    },
+    "df": 3,
+    "H_raw": 15.305729813664597,
+    "tie_correction": 0.9191374663072777,
+    "H": 16.652274958561776,
+    "p": 0.000833177841356646,
+    "eta_H": 0.0875145830677037,
+    "epsilon_control": 0.10473128904755834,
+    "mean_ranks": {
+      "Gemini": 60.075,
+      "ChatGPT": 87.975,
+      "Claude": 75.475,
+      "NewMes": 98.475
+    },
+    "rank_sums": {
+      "Gemini": 2403.0,
+      "ChatGPT": 3519.0,
+      "Claude": 3019.0,
+      "NewMes": 3939.0
+    },
+    "all_row_ranks": {
+      "eating/A/Gemini/explicit/diagnosis": 46.0,
+      "eating/A/ChatGPT/explicit/diagnosis": 12.0,
+      "eating/A/Claude/explicit/diagnosis": 46.0,
+      "eating/A/NewMes/explicit/diagnosis": 143.0,
+      "eating/B/Gemini/explicit/diagnosis": 12.0,
+      "eating/B/ChatGPT/explicit/diagnosis": 143.0,
+      "eating/B/Claude/explicit/diagnosis": 97.0,
+      "eating/B/NewMes/explicit/diagnosis": 97.0,
+      "eating/A/Gemini/implicit/diagnosis": 46.0,
+      "eating/A/ChatGPT/implicit/diagnosis": 46.0,
+      "eating/A/Claude/implicit/diagnosis": 12.0,
+      "eating/A/NewMes/implicit/diagnosis": 97.0,
+      "eating/B/Gemini/implicit/diagnosis": 12.0,
+      "eating/B/ChatGPT/implicit/diagnosis": 12.0,
+      "eating/B/Claude/implicit/diagnosis": 97.0,
+      "eating/B/NewMes/implicit/diagnosis": 97.0,
+      "anxiety/A/Gemini/explicit/diagnosis": 143.0,
+      "anxiety/A/ChatGPT/explicit/diagnosis": 97.0,
+      "anxiety/A/Claude/explicit/diagnosis": 46.0,
+      "anxiety/A/NewMes/explicit/diagnosis": 12.0,
+      "anxiety/B/Gemini/explicit/diagnosis": 97.0,
+      "anxiety/B/ChatGPT/explicit/diagnosis": 97.0,
+      "anxiety/B/Claude/explicit/diagnosis": 143.0,
+      "anxiety/B/NewMes/explicit/diagnosis": 143.0,
+      "anxiety/A/Gemini/implicit/diagnosis": 46.0,
+      "anxiety/A/ChatGPT/implicit/diagnosis": 97.0,
+      "anxiety/A/Claude/implicit/diagnosis": 12.0,
+      "anxiety/A/NewMes/implicit/diagnosis": 12.0,
+      "anxiety/B/Gemini/implicit/diagnosis": 97.0,
+      "anxiety/B/ChatGPT/implicit/diagnosis": 12.0,
+      "anxiety/B/Claude/implicit/diagnosis": 12.0,
+      "anxiety/B/NewMes/implicit/diagnosis": 97.0,
+      "depression/A/Gemini/explicit/diagnosis": 97.0,
+      "depression/A/ChatGPT/explicit/diagnosis": 46.0,
+      "depression/A/Claude/explicit/diagnosis": 12.0,
+      "depression/A/NewMes/explicit/diagnosis": 143.0,
+      "depression/B/Gemini/explicit/diagnosis": 46.0,
+      "depression/B/ChatGPT/explicit/diagnosis": 97.0,
+      "depression/B/Claude/explicit/diagnosis": 46.0,
+      "depression/B/NewMes/explicit/diagnosis": 97.0,
+      "depression/A/Gemini/implicit/diagnosis": 97.0,
+      "depression/A/ChatGPT/implicit/diagnosis": 46.0,
+      "depression/A/Claude/implicit/diagnosis": 12.0,
+      "depression/A/NewMes/implicit/diagnosis": 46.0,
+      "depression/B/Gemini/implicit/diagnosis": 97.0,
+      "depression/B/ChatGPT/implicit/diagnosis": 97.0,
+      "depression/B/Claude/implicit/diagnosis": 46.0,
+      "depression/B/NewMes/implicit/diagnosis": 97.0,
+      "schizophrenia/A/Gemini/explicit/diagnosis": 46.0,
+      "schizophrenia/A/ChatGPT/explicit/diagnosis": 46.0,
+      "schizophrenia/A/Claude/explicit/diagnosis": 46.0,
+      "schizophrenia/A/NewMes/explicit/diagnosis": 97.0,
+      "schizophrenia/B/Gemini/explicit/diagnosis": 46.0,
+      "schizophrenia/B/ChatGPT/explicit/diagnosis": 143.0,
+      "schizophrenia/B/Claude/explicit/diagnosis": 143.0,
+      "schizophrenia/B/NewMes/explicit/diagnosis": 143.0,
+      "schizophrenia/A/Gemini/implicit/diagnosis": 46.0,
+      "schizophrenia/A/ChatGPT/implicit/diagnosis": 12.0,
+      "schizophrenia/A/Claude/implicit/diagnosis": 46.0,
+      "schizophrenia/A/NewMes/implicit/diagnosis": 97.0,
+      "schizophrenia/B/Gemini/implicit/diagnosis": 46.0,
+      "schizophrenia/B/ChatGPT/implicit/diagnosis": 97.0,
+      "schizophrenia/B/Claude/implicit/diagnosis": 12.0,
+      "schizophrenia/B/NewMes/implicit/diagnosis": 46.0,
+      "ADHD/A/Gemini/explicit/diagnosis": 46.0,
+      "ADHD/A/ChatGPT/explicit/diagnosis": 97.0,
+      "ADHD/A/Claude/explicit/diagnosis": 46.0,
+      "ADHD/A/NewMes/explicit/diagnosis": 97.0,
+      "ADHD/B/Gemini/explicit/diagnosis": 46.0,
+      "ADHD/B/ChatGPT/explicit/diagnosis": 97.0,
+      "ADHD/B/Claude/explicit/diagnosis": 46.0,
+      "ADHD/B/NewMes/explicit/diagnosis": 97.0,
+      "ADHD/A/Gemini/implicit/diagnosis": 46.0,
+      "ADHD/A/ChatGPT/implicit/diagnosis": 46.0,
+      "ADHD/A/Claude/implicit/diagnosis": 97.0,
+      "ADHD/A/NewMes/implicit/diagnosis": 97.0,
+      "ADHD/B/Gemini/implicit/diagnosis": 46.0,
+      "ADHD/B/ChatGPT/implicit/diagnosis": 97.0,
+      "ADHD/B/Claude/implicit/diagnosis": 46.0,
+      "ADHD/B/NewMes/implicit/diagnosis": 97.0,
+      "eating/A/Gemini/explicit/treatment": 97.0,
+      "eating/A/ChatGPT/explicit/treatment": 97.0,
+      "eating/A/Claude/explicit/treatment": 97.0,
+      "eating/A/NewMes/explicit/treatment": 143.0,
+      "eating/B/Gemini/explicit/treatment": 97.0,
+      "eating/B/ChatGPT/explicit/treatment": 143.0,
+      "eating/B/Claude/explicit/treatment": 143.0,
+      "eating/B/NewMes/explicit/treatment": 143.0,
+      "eating/A/Gemini/implicit/treatment": 97.0,
+      "eating/A/ChatGPT/implicit/treatment": 97.0,
+      "eating/A/Claude/implicit/treatment": 46.0,
+      "eating/A/NewMes/implicit/treatment": 97.0,
+      "eating/B/Gemini/implicit/treatment": 12.0,
+      "eating/B/ChatGPT/implicit/treatment": 12.0,
+      "eating/B/Claude/implicit/treatment": 46.0,
+      "eating/B/NewMes/implicit/treatment": 97.0,
+      "anxiety/A/Gemini/explicit/treatment": 143.0,
+      "anxiety/A/ChatGPT/explicit/treatment": 143.0,
+      "anxiety/A/Claude/explicit/treatment": 143.0,
+      "anxiety/A/NewMes/explicit/treatment": 97.0,
+      "anxiety/B/Gemini/explicit/treatment": 143.0,
+      "anxiety/B/ChatGPT/explicit/treatment": 143.0,
+      "anxiety/B/Claude/explicit/treatment": 97.0,
+      "anxiety/B/NewMes/explicit/treatment": 97.0,
+      "anxiety/A/Gemini/implicit/treatment": 12.0,
+      "anxiety/A/ChatGPT/implicit/treatment": 143.0,
+      "anxiety/A/Claude/implicit/treatment": 143.0,
+      "anxiety/A/NewMes/implicit/treatment": 143.0,
+      "anxiety/B/Gemini/implicit/treatment": 46.0,
+      "anxiety/B/ChatGPT/implicit/treatment": 143.0,
+      "anxiety/B/Claude/implicit/treatment": 97.0,
+      "anxiety/B/NewMes/implicit/treatment": 97.0,
+      "depression/A/Gemini/explicit/treatment": 12.0,
+      "depression/A/ChatGPT/explicit/treatment": 143.0,
+      "depression/A/Claude/explicit/treatment": 143.0,
+      "depression/A/NewMes/explicit/treatment": 12.0,
+      "depression/B/Gemini/explicit/treatment": 12.0,
+      "depression/B/ChatGPT/explicit/treatment": 97.0,
+      "depression/B/Claude/explicit/treatment": 46.0,
+      "depression/B/NewMes/explicit/treatment": 143.0,
+      "depression/A/Gemini/implicit/treatment": 97.0,
+      "depression/A/ChatGPT/implicit/treatment": 12.0,
+      "depression/A/Claude/implicit/treatment": 97.0,
+      "depression/A/NewMes/implicit/treatment": 143.0,
+      "depression/B/Gemini/implicit/treatment": 12.0,
+      "depression/B/ChatGPT/implicit/treatment": 97.0,
+      "depression/B/Claude/implicit/treatment": 46.0,
+      "depression/B/NewMes/implicit/treatment": 46.0,
+      "schizophrenia/A/Gemini/explicit/treatment": 46.0,
+      "schizophrenia/A/ChatGPT/explicit/treatment": 97.0,
+      "schizophrenia/A/Claude/explicit/treatment": 143.0,
+      "schizophrenia/A/NewMes/explicit/treatment": 143.0,
+      "schizophrenia/B/Gemini/explicit/treatment": 46.0,
+      "schizophrenia/B/ChatGPT/explicit/treatment": 143.0,
+      "schizophrenia/B/Claude/explicit/treatment": 143.0,
+      "schizophrenia/B/NewMes/explicit/treatment": 143.0,
+      "schizophrenia/A/Gemini/implicit/treatment": 46.0,
+      "schizophrenia/A/ChatGPT/implicit/treatment": 46.0,
+      "schizophrenia/A/Claude/implicit/treatment": 97.0,
+      "schizophrenia/A/NewMes/implicit/treatment": 97.0,
+      "schizophrenia/B/Gemini/implicit/treatment": 46.0,
+      "schizophrenia/B/ChatGPT/implicit/treatment": 97.0,
+      "schizophrenia/B/Claude/implicit/treatment": 143.0,
+      "schizophrenia/B/NewMes/implicit/treatment": 97.0,
+      "ADHD/A/Gemini/explicit/treatment": 97.0,
+      "ADHD/A/ChatGPT/explicit/treatment": 46.0,
+      "ADHD/A/Claude/explicit/treatment": 46.0,
+      "ADHD/A/NewMes/explicit/treatment": 97.0,
+      "ADHD/B/Gemini/explicit/treatment": 46.0,
+      "ADHD/B/ChatGPT/explicit/treatment": 143.0,
+      "ADHD/B/Claude/explicit/treatment": 97.0,
+      "ADHD/B/NewMes/explicit/treatment": 143.0,
+      "ADHD/A/Gemini/implicit/treatment": 46.0,
+      "ADHD/A/ChatGPT/implicit/treatment": 97.0,
+      "ADHD/A/Claude/implicit/treatment": 97.0,
+      "ADHD/A/NewMes/implicit/treatment": 12.0,
+      "ADHD/B/Gemini/implicit/treatment": 46.0,
+      "ADHD/B/ChatGPT/implicit/treatment": 143.0,
+      "ADHD/B/Claude/implicit/treatment": 46.0,
+      "ADHD/B/NewMes/implicit/treatment": 97.0
+    },
+    "tie_blocks": [
+      {
+        "score": 0,
+        "n": 23,
+        "rank": 12.0,
+        "IDs": [
+          "ADHD/A/NewMes/implicit/treatment",
+          "anxiety/A/Claude/implicit/diagnosis",
+          "anxiety/A/Gemini/implicit/treatment",
+          "anxiety/A/NewMes/explicit/diagnosis",
+          "anxiety/A/NewMes/implicit/diagnosis",
+          "anxiety/B/ChatGPT/implicit/diagnosis",
+          "anxiety/B/Claude/implicit/diagnosis",
+          "depression/A/ChatGPT/implicit/treatment",
+          "depression/A/Claude/explicit/diagnosis",
+          "depression/A/Claude/implicit/diagnosis",
+          "depression/A/Gemini/explicit/treatment",
+          "depression/A/NewMes/explicit/treatment",
+          "depression/B/Gemini/explicit/treatment",
+          "depression/B/Gemini/implicit/treatment",
+          "eating/A/ChatGPT/explicit/diagnosis",
+          "eating/A/Claude/implicit/diagnosis",
+          "eating/B/ChatGPT/implicit/diagnosis",
+          "eating/B/ChatGPT/implicit/treatment",
+          "eating/B/Gemini/explicit/diagnosis",
+          "eating/B/Gemini/implicit/diagnosis",
+          "eating/B/Gemini/implicit/treatment",
+          "schizophrenia/A/ChatGPT/implicit/diagnosis",
+          "schizophrenia/B/Claude/implicit/diagnosis"
+        ]
+      },
+      {
+        "score": 1,
+        "n": 45,
+        "rank": 46.0,
+        "IDs": [
+          "ADHD/A/ChatGPT/explicit/treatment",
+          "ADHD/A/ChatGPT/implicit/diagnosis",
+          "ADHD/A/Claude/explicit/diagnosis",
+          "ADHD/A/Claude/explicit/treatment",
+          "ADHD/A/Gemini/explicit/diagnosis",
+          "ADHD/A/Gemini/implicit/diagnosis",
+          "ADHD/A/Gemini/implicit/treatment",
+          "ADHD/B/Claude/explicit/diagnosis",
+          "ADHD/B/Claude/implicit/diagnosis",
+          "ADHD/B/Claude/implicit/treatment",
+          "ADHD/B/Gemini/explicit/diagnosis",
+          "ADHD/B/Gemini/explicit/treatment",
+          "ADHD/B/Gemini/implicit/diagnosis",
+          "ADHD/B/Gemini/implicit/treatment",
+          "anxiety/A/Claude/explicit/diagnosis",
+          "anxiety/A/Gemini/implicit/diagnosis",
+          "anxiety/B/Gemini/implicit/treatment",
+          "depression/A/ChatGPT/explicit/diagnosis",
+          "depression/A/ChatGPT/implicit/diagnosis",
+          "depression/A/NewMes/implicit/diagnosis",
+          "depression/B/Claude/explicit/diagnosis",
+          "depression/B/Claude/explicit/treatment",
+          "depression/B/Claude/implicit/diagnosis",
+          "depression/B/Claude/implicit/treatment",
+          "depression/B/Gemini/explicit/diagnosis",
+          "depression/B/NewMes/implicit/treatment",
+          "eating/A/ChatGPT/implicit/diagnosis",
+          "eating/A/Claude/explicit/diagnosis",
+          "eating/A/Claude/implicit/treatment",
+          "eating/A/Gemini/explicit/diagnosis",
+          "eating/A/Gemini/implicit/diagnosis",
+          "eating/B/Claude/implicit/treatment",
+          "schizophrenia/A/ChatGPT/explicit/diagnosis",
+          "schizophrenia/A/ChatGPT/implicit/treatment",
+          "schizophrenia/A/Claude/explicit/diagnosis",
+          "schizophrenia/A/Claude/implicit/diagnosis",
+          "schizophrenia/A/Gemini/explicit/diagnosis",
+          "schizophrenia/A/Gemini/explicit/treatment",
+          "schizophrenia/A/Gemini/implicit/diagnosis",
+          "schizophrenia/A/Gemini/implicit/treatment",
+          "schizophrenia/B/Gemini/explicit/diagnosis",
+          "schizophrenia/B/Gemini/explicit/treatment",
+          "schizophrenia/B/Gemini/implicit/diagnosis",
+          "schizophrenia/B/Gemini/implicit/treatment",
+          "schizophrenia/B/NewMes/implicit/diagnosis"
+        ]
+      },
+      {
+        "score": 2,
+        "n": 57,
+        "rank": 97.0,
+        "IDs": [
+          "ADHD/A/ChatGPT/explicit/diagnosis",
+          "ADHD/A/ChatGPT/implicit/treatment",
+          "ADHD/A/Claude/implicit/diagnosis",
+          "ADHD/A/Claude/implicit/treatment",
+          "ADHD/A/Gemini/explicit/treatment",
+          "ADHD/A/NewMes/explicit/diagnosis",
+          "ADHD/A/NewMes/explicit/treatment",
+          "ADHD/A/NewMes/implicit/diagnosis",
+          "ADHD/B/ChatGPT/explicit/diagnosis",
+          "ADHD/B/ChatGPT/implicit/diagnosis",
+          "ADHD/B/Claude/explicit/treatment",
+          "ADHD/B/NewMes/explicit/diagnosis",
+          "ADHD/B/NewMes/implicit/diagnosis",
+          "ADHD/B/NewMes/implicit/treatment",
+          "anxiety/A/ChatGPT/explicit/diagnosis",
+          "anxiety/A/ChatGPT/implicit/diagnosis",
+          "anxiety/A/NewMes/explicit/treatment",
+          "anxiety/B/ChatGPT/explicit/diagnosis",
+          "anxiety/B/Claude/explicit/treatment",
+          "anxiety/B/Claude/implicit/treatment",
+          "anxiety/B/Gemini/explicit/diagnosis",
+          "anxiety/B/Gemini/implicit/diagnosis",
+          "anxiety/B/NewMes/explicit/treatment",
+          "anxiety/B/NewMes/implicit/diagnosis",
+          "anxiety/B/NewMes/implicit/treatment",
+          "depression/A/Claude/implicit/treatment",
+          "depression/A/Gemini/explicit/diagnosis",
+          "depression/A/Gemini/implicit/diagnosis",
+          "depression/A/Gemini/implicit/treatment",
+          "depression/B/ChatGPT/explicit/diagnosis",
+          "depression/B/ChatGPT/explicit/treatment",
+          "depression/B/ChatGPT/implicit/diagnosis",
+          "depression/B/ChatGPT/implicit/treatment",
+          "depression/B/Gemini/implicit/diagnosis",
+          "depression/B/NewMes/explicit/diagnosis",
+          "depression/B/NewMes/implicit/diagnosis",
+          "eating/A/ChatGPT/explicit/treatment",
+          "eating/A/ChatGPT/implicit/treatment",
+          "eating/A/Claude/explicit/treatment",
+          "eating/A/Gemini/explicit/treatment",
+          "eating/A/Gemini/implicit/treatment",
+          "eating/A/NewMes/implicit/diagnosis",
+          "eating/A/NewMes/implicit/treatment",
+          "eating/B/Claude/explicit/diagnosis",
+          "eating/B/Claude/implicit/diagnosis",
+          "eating/B/Gemini/explicit/treatment",
+          "eating/B/NewMes/explicit/diagnosis",
+          "eating/B/NewMes/implicit/diagnosis",
+          "eating/B/NewMes/implicit/treatment",
+          "schizophrenia/A/ChatGPT/explicit/treatment",
+          "schizophrenia/A/Claude/implicit/treatment",
+          "schizophrenia/A/NewMes/explicit/diagnosis",
+          "schizophrenia/A/NewMes/implicit/diagnosis",
+          "schizophrenia/A/NewMes/implicit/treatment",
+          "schizophrenia/B/ChatGPT/implicit/diagnosis",
+          "schizophrenia/B/ChatGPT/implicit/treatment",
+          "schizophrenia/B/NewMes/implicit/treatment"
+        ]
+      },
+      {
+        "score": 3,
+        "n": 35,
+        "rank": 143.0,
+        "IDs": [
+          "ADHD/B/ChatGPT/explicit/treatment",
+          "ADHD/B/ChatGPT/implicit/treatment",
+          "ADHD/B/NewMes/explicit/treatment",
+          "anxiety/A/ChatGPT/explicit/treatment",
+          "anxiety/A/ChatGPT/implicit/treatment",
+          "anxiety/A/Claude/explicit/treatment",
+          "anxiety/A/Claude/implicit/treatment",
+          "anxiety/A/Gemini/explicit/diagnosis",
+          "anxiety/A/Gemini/explicit/treatment",
+          "anxiety/A/NewMes/implicit/treatment",
+          "anxiety/B/ChatGPT/explicit/treatment",
+          "anxiety/B/ChatGPT/implicit/treatment",
+          "anxiety/B/Claude/explicit/diagnosis",
+          "anxiety/B/Gemini/explicit/treatment",
+          "anxiety/B/NewMes/explicit/diagnosis",
+          "depression/A/ChatGPT/explicit/treatment",
+          "depression/A/Claude/explicit/treatment",
+          "depression/A/NewMes/explicit/diagnosis",
+          "depression/A/NewMes/implicit/treatment",
+          "depression/B/NewMes/explicit/treatment",
+          "eating/A/NewMes/explicit/diagnosis",
+          "eating/A/NewMes/explicit/treatment",
+          "eating/B/ChatGPT/explicit/diagnosis",
+          "eating/B/ChatGPT/explicit/treatment",
+          "eating/B/Claude/explicit/treatment",
+          "eating/B/NewMes/explicit/treatment",
+          "schizophrenia/A/Claude/explicit/treatment",
+          "schizophrenia/A/NewMes/explicit/treatment",
+          "schizophrenia/B/ChatGPT/explicit/diagnosis",
+          "schizophrenia/B/ChatGPT/explicit/treatment",
+          "schizophrenia/B/Claude/explicit/diagnosis",
+          "schizophrenia/B/Claude/explicit/treatment",
+          "schizophrenia/B/Claude/implicit/treatment",
+          "schizophrenia/B/NewMes/explicit/diagnosis",
+          "schizophrenia/B/NewMes/explicit/treatment"
+        ]
+      }
+    ],
+    "Dunn_all6": {
+      "Gemini/ChatGPT": {
+        "models": [
+          "Gemini",
+          "ChatGPT"
+        ],
+        "difference": -27.9,
+        "SE": 9.9324764308965,
+        "z": -2.8089671487377252,
+        "p_raw": 0.004970071784987909,
+        "p_Bonferroni": 0.029820430709927456,
+        "alpha_raw": 0.008333333333333333,
+        "significant_raw": true,
+        "significant_adjusted": true,
+        "literal_0083_control": true
+      },
+      "Gemini/Claude": {
+        "models": [
+          "Gemini",
+          "Claude"
+        ],
+        "difference": -15.4,
+        "SE": 9.9324764308965,
+        "z": -1.5504693222423287,
+        "p_raw": 0.12102891118376356,
+        "p_Bonferroni": 0.7261734671025813,
+        "alpha_raw": 0.008333333333333333,
+        "significant_raw": false,
+        "significant_adjusted": false,
+        "literal_0083_control": false
+      },
+      "Gemini/NewMes": {
+        "models": [
+          "Gemini",
+          "NewMes"
+        ],
+        "difference": -38.4,
+        "SE": 9.9324764308965,
+        "z": -3.8661053229938585,
+        "p_raw": 0.00011058719526611094,
+        "p_Bonferroni": 0.0006635231715966657,
+        "alpha_raw": 0.008333333333333333,
+        "significant_raw": true,
+        "significant_adjusted": true,
+        "literal_0083_control": true
+      },
+      "ChatGPT/Claude": {
+        "models": [
+          "ChatGPT",
+          "Claude"
+        ],
+        "difference": 12.5,
+        "SE": 9.9324764308965,
+        "z": 1.2584978264953965,
+        "p_raw": 0.20821177276222974,
+        "p_Bonferroni": 1.0,
+        "alpha_raw": 0.008333333333333333,
+        "significant_raw": false,
+        "significant_adjusted": false,
+        "literal_0083_control": false
+      },
+      "ChatGPT/NewMes": {
+        "models": [
+          "ChatGPT",
+          "NewMes"
+        ],
+        "difference": -10.5,
+        "SE": 9.9324764308965,
+        "z": -1.0571381742561332,
+        "p_raw": 0.2904485312112775,
+        "p_Bonferroni": 1.0,
+        "alpha_raw": 0.008333333333333333,
+        "significant_raw": false,
+        "significant_adjusted": false,
+        "literal_0083_control": false
+      },
+      "Claude/NewMes": {
+        "models": [
+          "Claude",
+          "NewMes"
+        ],
+        "difference": -23.0,
+        "SE": 9.9324764308965,
+        "z": -2.31563600075153,
+        "p_raw": 0.020578151469995563,
+        "p_Bonferroni": 0.12346890881997338,
+        "alpha_raw": 0.008333333333333333,
+        "significant_raw": false,
+        "significant_adjusted": false,
+        "literal_0083_control": false
+      }
+    },
+    "rank_order": [
+      "Gemini",
+      "Claude",
+      "ChatGPT",
+      "NewMes"
+    ]
+  },
+  "all_descriptives": {
+    "all/explicit": {
+      "n": 80,
+      "mean": 1.925,
+      "SD": 0.9779208116836714,
+      "median": 2.0,
+      "mode_set": [
+        3
+      ],
+      "source_order_mode": 3,
+      "lowest_mode": 3,
+      "highest_mode": 3,
+      "t_df": 79,
+      "t_halfwidth": 0.21762561612512163,
+      "t_low": 1.7073743838748785,
+      "t_high": 2.142625616125122,
+      "normal_low": 1.7107075914150789,
+      "normal_high": 2.139292408584921,
+      "counts": {
+        "0": 7,
+        "1": 20,
+        "2": 25,
+        "3": 28
+      }
+    },
+    "all/implicit": {
+      "n": 80,
+      "mean": 1.375,
+      "SD": 0.9053288094192944,
+      "median": 1.0,
+      "mode_set": [
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 2,
+      "highest_mode": 2,
+      "t_df": 79,
+      "t_halfwidth": 0.2014710573614705,
+      "t_low": 1.1735289426385296,
+      "t_high": 1.5764710573614704,
+      "normal_low": 1.1766147229776571,
+      "normal_high": 1.5733852770223429,
+      "counts": {
+        "0": 16,
+        "1": 25,
+        "2": 32,
+        "3": 7
+      }
+    },
+    "all/diagnosis": {
+      "n": 80,
+      "mean": 1.4125,
+      "SD": 0.9097746278159892,
+      "median": 1.0,
+      "mode_set": [
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 2,
+      "highest_mode": 2,
+      "t_df": 79,
+      "t_halfwidth": 0.20246042578087795,
+      "t_low": 1.2100395742191221,
+      "t_high": 1.614960425780878,
+      "normal_low": 1.213140507968654,
+      "normal_high": 1.6118594920313463,
+      "counts": {
+        "0": 14,
+        "1": 28,
+        "2": 29,
+        "3": 9
+      }
+    },
+    "all/treatment": {
+      "n": 80,
+      "mean": 1.8875,
+      "SD": 0.9935711068181268,
+      "median": 2.0,
+      "mode_set": [
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 2,
+      "highest_mode": 2,
+      "t_df": 79,
+      "t_halfwidth": 0.22110841870022171,
+      "t_low": 1.6663915812997783,
+      "t_high": 2.108608418700222,
+      "normal_low": 1.6697781323020724,
+      "normal_high": 2.1052218676979275,
+      "counts": {
+        "0": 9,
+        "1": 17,
+        "2": 28,
+        "3": 26
+      }
+    },
+    "model/Gemini": {
+      "n": 40,
+      "mean": 1.225,
+      "SD": 0.83166499665831,
+      "median": 1.0,
+      "mode_set": [
+        1
+      ],
+      "source_order_mode": 1,
+      "lowest_mode": 1,
+      "highest_mode": 1,
+      "t_df": 39,
+      "t_halfwidth": 0.26597936962366453,
+      "t_low": 0.9590206303763356,
+      "t_high": 1.4909793696236646,
+      "normal_low": 0.967269083264795,
+      "normal_high": 1.4827309167352052,
+      "counts": {
+        "0": 7,
+        "1": 20,
+        "2": 10,
+        "3": 3
+      }
+    },
+    "model/Gemini/explicit": {
+      "n": 20,
+      "mean": 1.4,
+      "SD": 0.9403246919632545,
+      "median": 1.0,
+      "mode_set": [
+        1
+      ],
+      "source_order_mode": 1,
+      "lowest_mode": 1,
+      "highest_mode": 1,
+      "t_df": 19,
+      "t_halfwidth": 0.44008550255117596,
+      "t_low": 0.959914497448824,
+      "t_high": 1.840085502551176,
+      "normal_low": 0.9878921060167383,
+      "normal_high": 1.8121078939832616,
+      "counts": {
+        "0": 3,
+        "1": 9,
+        "2": 5,
+        "3": 3
+      }
+    },
+    "model/Gemini/explicit/diagnosis": {
+      "n": 10,
+      "mean": 1.3,
+      "SD": 0.8232726023485646,
+      "median": 1.0,
+      "mode_set": [
+        1
+      ],
+      "source_order_mode": 1,
+      "lowest_mode": 1,
+      "highest_mode": 1,
+      "t_df": 9,
+      "t_halfwidth": 0.5889337415864859,
+      "t_low": 0.7110662584135141,
+      "t_high": 1.888933741586486,
+      "normal_low": 0.789739730831911,
+      "normal_high": 1.8102602691680891,
+      "counts": {
+        "0": 1,
+        "1": 6,
+        "2": 2,
+        "3": 1
+      }
+    },
+    "model/Gemini/explicit/treatment": {
+      "n": 10,
+      "mean": 1.5,
+      "SD": 1.0801234497346435,
+      "median": 1.5,
+      "mode_set": [
+        1,
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 1,
+      "highest_mode": 2,
+      "t_df": 9,
+      "t_halfwidth": 0.7726737690685345,
+      "t_low": 0.7273262309314655,
+      "t_high": 2.2726737690685344,
+      "normal_low": 0.8305448515788022,
+      "normal_high": 2.1694551484211977,
+      "counts": {
+        "0": 2,
+        "1": 3,
+        "2": 3,
+        "3": 2
+      }
+    },
+    "model/Gemini/implicit": {
+      "n": 20,
+      "mean": 1.05,
+      "SD": 0.6863327411532597,
+      "median": 1.0,
+      "mode_set": [
+        1
+      ],
+      "source_order_mode": 1,
+      "lowest_mode": 1,
+      "highest_mode": 1,
+      "t_df": 19,
+      "t_halfwidth": 0.32121361045739893,
+      "t_low": 0.7287863895426011,
+      "t_high": 1.3712136104573989,
+      "normal_low": 0.7492069410217278,
+      "normal_high": 1.3507930589782724,
+      "counts": {
+        "0": 4,
+        "1": 11,
+        "2": 5,
+        "3": 0
+      }
+    },
+    "model/Gemini/implicit/diagnosis": {
+      "n": 10,
+      "mean": 1.2,
+      "SD": 0.6324555320336759,
+      "median": 1.0,
+      "mode_set": [
+        1
+      ],
+      "source_order_mode": 1,
+      "lowest_mode": 1,
+      "highest_mode": 1,
+      "t_df": 9,
+      "t_halfwidth": 0.4524314325596405,
+      "t_low": 0.7475685674403594,
+      "t_high": 1.6524314325596405,
+      "normal_low": 0.8080072030919891,
+      "normal_high": 1.5919927969080108,
+      "counts": {
+        "0": 1,
+        "1": 6,
+        "2": 3,
+        "3": 0
+      }
+    },
+    "model/Gemini/implicit/treatment": {
+      "n": 10,
+      "mean": 0.9,
+      "SD": 0.7378647873726218,
+      "median": 1.0,
+      "mode_set": [
+        1
+      ],
+      "source_order_mode": 1,
+      "lowest_mode": 1,
+      "highest_mode": 1,
+      "t_df": 9,
+      "t_halfwidth": 0.5278366713195806,
+      "t_low": 0.37216332868041946,
+      "t_high": 1.4278366713195805,
+      "normal_low": 0.44267507027398745,
+      "normal_high": 1.3573249297260126,
+      "counts": {
+        "0": 3,
+        "1": 5,
+        "2": 2,
+        "3": 0
+      }
+    },
+    "model/ChatGPT": {
+      "n": 40,
+      "mean": 1.8,
+      "SD": 1.017790467580354,
+      "median": 2.0,
+      "mode_set": [
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 2,
+      "highest_mode": 2,
+      "t_df": 39,
+      "t_halfwidth": 0.3255051830529537,
+      "t_low": 1.4744948169470464,
+      "t_high": 2.1255051830529537,
+      "normal_low": 1.48458926213338,
+      "normal_high": 2.11541073786662,
+      "counts": {
+        "0": 6,
+        "1": 7,
+        "2": 16,
+        "3": 11
+      }
+    },
+    "model/ChatGPT/explicit": {
+      "n": 20,
+      "mean": 2.15,
+      "SD": 0.8750939799154206,
+      "median": 2.0,
+      "mode_set": [
+        2,
+        3
+      ],
+      "source_order_mode": 3,
+      "lowest_mode": 2,
+      "highest_mode": 3,
+      "t_df": 19,
+      "t_halfwidth": 0.4095565895717603,
+      "t_low": 1.7404434104282396,
+      "t_high": 2.55955658957176,
+      "normal_low": 1.7664802007406317,
+      "normal_high": 2.533519799259368,
+      "counts": {
+        "0": 1,
+        "1": 3,
+        "2": 8,
+        "3": 8
+      }
+    },
+    "model/ChatGPT/explicit/diagnosis": {
+      "n": 10,
+      "mean": 1.8,
+      "SD": 0.9189365834726815,
+      "median": 2.0,
+      "mode_set": [
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 2,
+      "highest_mode": 2,
+      "t_df": 9,
+      "t_halfwidth": 0.6573676311362702,
+      "t_low": 1.1426323688637299,
+      "t_high": 2.45736763113627,
+      "normal_low": 1.230447670560706,
+      "normal_high": 2.369552329439294,
+      "counts": {
+        "0": 1,
+        "1": 2,
+        "2": 5,
+        "3": 2
+      }
+    },
+    "model/ChatGPT/explicit/treatment": {
+      "n": 10,
+      "mean": 2.5,
+      "SD": 0.7071067811865476,
+      "median": 3.0,
+      "mode_set": [
+        3
+      ],
+      "source_order_mode": 3,
+      "lowest_mode": 3,
+      "highest_mode": 3,
+      "t_df": 9,
+      "t_halfwidth": 0.5058337191804839,
+      "t_low": 1.994166280819516,
+      "t_high": 3.005833719180484,
+      "normal_low": 2.0617387297117094,
+      "normal_high": 2.9382612702882906,
+      "counts": {
+        "0": 0,
+        "1": 1,
+        "2": 3,
+        "3": 6
+      }
+    },
+    "model/ChatGPT/implicit": {
+      "n": 20,
+      "mean": 1.45,
+      "SD": 1.0500626547722611,
+      "median": 2.0,
+      "mode_set": [
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 2,
+      "highest_mode": 2,
+      "t_df": 19,
+      "t_halfwidth": 0.4914444500769644,
+      "t_low": 0.9585555499230356,
+      "t_high": 1.9414444500769643,
+      "normal_low": 0.9897982070372139,
+      "normal_high": 1.910201792962786,
+      "counts": {
+        "0": 5,
+        "1": 4,
+        "2": 8,
+        "3": 3
+      }
+    },
+    "model/ChatGPT/implicit/diagnosis": {
+      "n": 10,
+      "mean": 1.1,
+      "SD": 0.8755950357709131,
+      "median": 1.0,
+      "mode_set": [
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 2,
+      "highest_mode": 2,
+      "t_df": 9,
+      "t_halfwidth": 0.6263629556723532,
+      "t_low": 0.47363704432764686,
+      "t_high": 1.7263629556723532,
+      "normal_low": 0.5573105465186533,
+      "normal_high": 1.642689453481347,
+      "counts": {
+        "0": 3,
+        "1": 3,
+        "2": 4,
+        "3": 0
+      }
+    },
+    "model/ChatGPT/implicit/treatment": {
+      "n": 10,
+      "mean": 1.8,
+      "SD": 1.1352924243950933,
+      "median": 2.0,
+      "mode_set": [
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 2,
+      "highest_mode": 2,
+      "t_df": 9,
+      "t_halfwidth": 0.8121392760872079,
+      "t_low": 0.9878607239127921,
+      "t_high": 2.612139276087208,
+      "normal_low": 1.0963513951469193,
+      "normal_high": 2.5036486048530806,
+      "counts": {
+        "0": 2,
+        "1": 1,
+        "2": 4,
+        "3": 3
+      }
+    },
+    "model/Claude": {
+      "n": 40,
+      "mean": 1.55,
+      "SD": 1.0114726506816303,
+      "median": 1.0,
+      "mode_set": [
+        1
+      ],
+      "source_order_mode": 1,
+      "lowest_mode": 1,
+      "highest_mode": 1,
+      "t_df": 39,
+      "t_halfwidth": 0.3234846471846987,
+      "t_low": 1.2265153528153014,
+      "t_high": 1.8734846471846986,
+      "normal_low": 1.2365471378977992,
+      "normal_high": 1.8634528621022008,
+      "counts": {
+        "0": 6,
+        "1": 15,
+        "2": 10,
+        "3": 9
+      }
+    },
+    "model/Claude/explicit": {
+      "n": 20,
+      "mean": 1.85,
+      "SD": 0.9880869341680844,
+      "median": 2.0,
+      "mode_set": [
+        1
+      ],
+      "source_order_mode": 1,
+      "lowest_mode": 1,
+      "highest_mode": 1,
+      "t_df": 19,
+      "t_halfwidth": 0.4624389199859538,
+      "t_low": 1.3875610800140463,
+      "t_high": 2.312438919985954,
+      "normal_low": 1.4169597650762327,
+      "normal_high": 2.2830402349237673,
+      "counts": {
+        "0": 1,
+        "1": 8,
+        "2": 4,
+        "3": 7
+      }
+    },
+    "model/Claude/explicit/diagnosis": {
+      "n": 10,
+      "mean": 1.4,
+      "SD": 0.9660917830792959,
+      "median": 1.0,
+      "mode_set": [
+        1
+      ],
+      "source_order_mode": 1,
+      "lowest_mode": 1,
+      "highest_mode": 1,
+      "t_df": 9,
+      "t_halfwidth": 0.691100428827287,
+      "t_low": 0.708899571172713,
+      "t_high": 2.091100428827287,
+      "normal_low": 0.8012211120971963,
+      "normal_high": 1.9987788879028034,
+      "counts": {
+        "0": 1,
+        "1": 6,
+        "2": 1,
+        "3": 2
+      }
+    },
+    "model/Claude/explicit/treatment": {
+      "n": 10,
+      "mean": 2.3,
+      "SD": 0.8232726023485646,
+      "median": 2.5,
+      "mode_set": [
+        3
+      ],
+      "source_order_mode": 3,
+      "lowest_mode": 3,
+      "highest_mode": 3,
+      "t_df": 9,
+      "t_halfwidth": 0.5889337415864859,
+      "t_low": 1.711066258413514,
+      "t_high": 2.8889337415864857,
+      "normal_low": 1.7897397308319107,
+      "normal_high": 2.810260269168089,
+      "counts": {
+        "0": 0,
+        "1": 2,
+        "2": 3,
+        "3": 5
+      }
+    },
+    "model/Claude/implicit": {
+      "n": 20,
+      "mean": 1.25,
+      "SD": 0.9665456669582609,
+      "median": 1.0,
+      "mode_set": [
+        1
+      ],
+      "source_order_mode": 1,
+      "lowest_mode": 1,
+      "highest_mode": 1,
+      "t_df": 19,
+      "t_halfwidth": 0.4523572965992154,
+      "t_low": 0.7976427034007846,
+      "t_high": 1.7023572965992155,
+      "normal_low": 0.8264004682072293,
+      "normal_high": 1.6735995317927705,
+      "counts": {
+        "0": 5,
+        "1": 7,
+        "2": 6,
+        "3": 2
+      }
+    },
+    "model/Claude/implicit/diagnosis": {
+      "n": 10,
+      "mean": 0.7,
+      "SD": 0.8232726023485646,
+      "median": 0.5,
+      "mode_set": [
+        0
+      ],
+      "source_order_mode": 0,
+      "lowest_mode": 0,
+      "highest_mode": 0,
+      "t_df": 9,
+      "t_halfwidth": 0.5889337415864859,
+      "t_low": 0.11106625841351403,
+      "t_high": 1.2889337415864859,
+      "normal_low": 0.18973973083191087,
+      "normal_high": 1.210260269168089,
+      "counts": {
+        "0": 5,
+        "1": 3,
+        "2": 2,
+        "3": 0
+      }
+    },
+    "model/Claude/implicit/treatment": {
+      "n": 10,
+      "mean": 1.8,
+      "SD": 0.7888106377466155,
+      "median": 2.0,
+      "mode_set": [
+        1,
+        2
+      ],
+      "source_order_mode": 1,
+      "lowest_mode": 1,
+      "highest_mode": 2,
+      "t_df": 9,
+      "t_halfwidth": 0.5642811372151652,
+      "t_low": 1.235718862784835,
+      "t_high": 2.364281137215165,
+      "normal_low": 1.3110990852956546,
+      "normal_high": 2.2889009147043455,
+      "counts": {
+        "0": 0,
+        "1": 4,
+        "2": 4,
+        "3": 2
+      }
+    },
+    "model/NewMes": {
+      "n": 40,
+      "mean": 2.025,
+      "SD": 0.8911962574151494,
+      "median": 2.0,
+      "mode_set": [
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 2,
+      "highest_mode": 2,
+      "t_df": 39,
+      "t_halfwidth": 0.2850183904705544,
+      "t_low": 1.7399816095294456,
+      "t_high": 2.3100183904705545,
+      "normal_low": 1.7488204934228364,
+      "normal_high": 2.301179506577163,
+      "counts": {
+        "0": 4,
+        "1": 3,
+        "2": 21,
+        "3": 12
+      }
+    },
+    "model/NewMes/explicit": {
+      "n": 20,
+      "mean": 2.3,
+      "SD": 0.9233805168766387,
+      "median": 2.5,
+      "mode_set": [
+        3
+      ],
+      "source_order_mode": 3,
+      "lowest_mode": 3,
+      "highest_mode": 3,
+      "t_df": 19,
+      "t_halfwidth": 0.4321553845057383,
+      "t_low": 1.8678446154942616,
+      "t_high": 2.732155384505738,
+      "normal_low": 1.8953180817141857,
+      "normal_high": 2.704681918285814,
+      "counts": {
+        "0": 2,
+        "1": 0,
+        "2": 8,
+        "3": 10
+      }
+    },
+    "model/NewMes/explicit/diagnosis": {
+      "n": 10,
+      "mean": 2.2,
+      "SD": 0.9189365834726815,
+      "median": 2.0,
+      "mode_set": [
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 2,
+      "highest_mode": 2,
+      "t_df": 9,
+      "t_halfwidth": 0.6573676311362702,
+      "t_low": 1.54263236886373,
+      "t_high": 2.8573676311362703,
+      "normal_low": 1.6304476705607063,
+      "normal_high": 2.769552329439294,
+      "counts": {
+        "0": 1,
+        "1": 0,
+        "2": 5,
+        "3": 4
+      }
+    },
+    "model/NewMes/explicit/treatment": {
+      "n": 10,
+      "mean": 2.4,
+      "SD": 0.9660917830792959,
+      "median": 3.0,
+      "mode_set": [
+        3
+      ],
+      "source_order_mode": 3,
+      "lowest_mode": 3,
+      "highest_mode": 3,
+      "t_df": 9,
+      "t_halfwidth": 0.691100428827287,
+      "t_low": 1.7088995711727129,
+      "t_high": 3.091100428827287,
+      "normal_low": 1.8012211120971964,
+      "normal_high": 2.9987788879028034,
+      "counts": {
+        "0": 1,
+        "1": 0,
+        "2": 3,
+        "3": 6
+      }
+    },
+    "model/NewMes/implicit": {
+      "n": 20,
+      "mean": 1.75,
+      "SD": 0.7863975156570492,
+      "median": 2.0,
+      "mode_set": [
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 2,
+      "highest_mode": 2,
+      "t_df": 19,
+      "t_halfwidth": 0.368045366500333,
+      "t_low": 1.381954633499667,
+      "t_high": 2.118045366500333,
+      "normal_low": 1.4053524258365857,
+      "normal_high": 2.0946475741634143,
+      "counts": {
+        "0": 2,
+        "1": 3,
+        "2": 13,
+        "3": 2
+      }
+    },
+    "model/NewMes/implicit/diagnosis": {
+      "n": 10,
+      "mean": 1.6,
+      "SD": 0.6992058987801011,
+      "median": 2.0,
+      "mode_set": [
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 2,
+      "highest_mode": 2,
+      "t_df": 9,
+      "t_halfwidth": 0.5001817683877703,
+      "t_low": 1.0998182316122298,
+      "t_high": 2.1001817683877704,
+      "normal_low": 1.1666356573780474,
+      "normal_high": 2.0333643426219528,
+      "counts": {
+        "0": 1,
+        "1": 2,
+        "2": 7,
+        "3": 0
+      }
+    },
+    "model/NewMes/implicit/treatment": {
+      "n": 10,
+      "mean": 1.9,
+      "SD": 0.8755950357709131,
+      "median": 2.0,
+      "mode_set": [
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 2,
+      "highest_mode": 2,
+      "t_df": 9,
+      "t_halfwidth": 0.6263629556723532,
+      "t_low": 1.2736370443276468,
+      "t_high": 2.526362955672353,
+      "normal_low": 1.357310546518653,
+      "normal_high": 2.442689453481347,
+      "counts": {
+        "0": 1,
+        "1": 1,
+        "2": 6,
+        "3": 2
+      }
+    },
+    "illness/eating": {
+      "n": 32,
+      "mean": 1.5625,
+      "SD": 1.0453429750487975,
+      "median": 2.0,
+      "mode_set": [
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 2,
+      "highest_mode": 2,
+      "t_df": 31,
+      "t_halfwidth": 0.37688633287650297,
+      "t_low": 1.185613667123497,
+      "t_high": 1.939386332876503,
+      "normal_low": 1.2003137932807004,
+      "normal_high": 1.9246862067192996,
+      "counts": {
+        "0": 7,
+        "1": 6,
+        "2": 13,
+        "3": 6
+      }
+    },
+    "illness/eating/diagnosis": {
+      "n": 16,
+      "mean": 1.25,
+      "SD": 1.0645812948447542,
+      "median": 1.0,
+      "mode_set": [
+        0,
+        2
+      ],
+      "source_order_mode": 0,
+      "lowest_mode": 0,
+      "highest_mode": 2,
+      "t_df": 15,
+      "t_halfwidth": 0.5672753292770716,
+      "t_low": 0.6827246707229284,
+      "t_high": 1.8172753292770716,
+      "normal_low": 0.7283647508723163,
+      "normal_high": 1.7716352491276837,
+      "counts": {
+        "0": 5,
+        "1": 4,
+        "2": 5,
+        "3": 2
+      }
+    },
+    "illness/eating/treatment": {
+      "n": 16,
+      "mean": 1.875,
+      "SD": 0.9574271077563381,
+      "median": 2.0,
+      "mode_set": [
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 2,
+      "highest_mode": 2,
+      "t_df": 15,
+      "t_halfwidth": 0.5101768934334637,
+      "t_low": 1.3648231065665364,
+      "t_high": 2.3851768934334636,
+      "normal_low": 1.405869337743807,
+      "normal_high": 2.344130662256193,
+      "counts": {
+        "0": 2,
+        "1": 2,
+        "2": 8,
+        "3": 4
+      }
+    },
+    "illness/anxiety": {
+      "n": 32,
+      "mean": 1.90625,
+      "SD": 1.1175830776653122,
+      "median": 2.0,
+      "mode_set": [
+        3
+      ],
+      "source_order_mode": 3,
+      "lowest_mode": 3,
+      "highest_mode": 3,
+      "t_df": 31,
+      "t_halfwidth": 0.4029316672898227,
+      "t_low": 1.5033183327101773,
+      "t_high": 2.3091816672898227,
+      "normal_low": 1.5190343346587902,
+      "normal_high": 2.29346566534121,
+      "counts": {
+        "0": 6,
+        "1": 3,
+        "2": 11,
+        "3": 12
+      }
+    },
+    "illness/anxiety/diagnosis": {
+      "n": 16,
+      "mean": 1.4375,
+      "SD": 1.1528949070347507,
+      "median": 2.0,
+      "mode_set": [
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 2,
+      "highest_mode": 2,
+      "t_df": 15,
+      "t_halfwidth": 0.6143343314193491,
+      "t_low": 0.8231656685806509,
+      "t_high": 2.0518343314193492,
+      "normal_low": 0.8725918760630587,
+      "normal_high": 2.0024081239369416,
+      "counts": {
+        "0": 5,
+        "1": 2,
+        "2": 6,
+        "3": 3
+      }
+    },
+    "illness/anxiety/treatment": {
+      "n": 16,
+      "mean": 2.375,
+      "SD": 0.8850612031567836,
+      "median": 3.0,
+      "mode_set": [
+        3
+      ],
+      "source_order_mode": 3,
+      "lowest_mode": 3,
+      "highest_mode": 3,
+      "t_df": 15,
+      "t_halfwidth": 0.47161582481527814,
+      "t_low": 1.9033841751847218,
+      "t_high": 2.846615824815278,
+      "normal_low": 1.941327979424754,
+      "normal_high": 2.808672020575246,
+      "counts": {
+        "0": 1,
+        "1": 1,
+        "2": 5,
+        "3": 9
+      }
+    },
+    "illness/depression": {
+      "n": 32,
+      "mean": 1.4375,
+      "SD": 1.0140146973548327,
+      "median": 1.5,
+      "mode_set": [
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 2,
+      "highest_mode": 2,
+      "t_df": 31,
+      "t_halfwidth": 0.36559128428743687,
+      "t_low": 1.071908715712563,
+      "t_high": 1.803091284287437,
+      "normal_low": 1.086168288247289,
+      "normal_high": 1.788831711752711,
+      "counts": {
+        "0": 7,
+        "1": 9,
+        "2": 11,
+        "3": 5
+      }
+    },
+    "illness/depression/diagnosis": {
+      "n": 16,
+      "mean": 1.4375,
+      "SD": 0.8139410298049853,
+      "median": 1.5,
+      "mode_set": [
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 2,
+      "highest_mode": 2,
+      "t_df": 15,
+      "t_halfwidth": 0.43371855952257243,
+      "t_low": 1.0037814404774275,
+      "t_high": 1.8712185595225725,
+      "normal_low": 1.0386762240106966,
+      "normal_high": 1.8363237759893034,
+      "counts": {
+        "0": 2,
+        "1": 6,
+        "2": 7,
+        "3": 1
+      }
+    },
+    "illness/depression/treatment": {
+      "n": 16,
+      "mean": 1.4375,
+      "SD": 1.2093386622447824,
+      "median": 1.5,
+      "mode_set": [
+        0
+      ],
+      "source_order_mode": 0,
+      "lowest_mode": 0,
+      "highest_mode": 0,
+      "t_df": 15,
+      "t_halfwidth": 0.6444110855173764,
+      "t_low": 0.7930889144826236,
+      "t_high": 2.081911085517376,
+      "normal_low": 0.8449349442220945,
+      "normal_high": 2.0300650557779054,
+      "counts": {
+        "0": 5,
+        "1": 3,
+        "2": 4,
+        "3": 4
+      }
+    },
+    "illness/schizophrenia": {
+      "n": 32,
+      "mean": 1.75,
+      "SD": 0.9503819266229829,
+      "median": 2.0,
+      "mode_set": [
+        1
+      ],
+      "source_order_mode": 1,
+      "lowest_mode": 1,
+      "highest_mode": 1,
+      "t_df": 31,
+      "t_halfwidth": 0.34264922394520453,
+      "t_low": 1.4073507760547954,
+      "t_high": 2.0926492239452044,
+      "normal_low": 1.4207155133250984,
+      "normal_high": 2.0792844866749016,
+      "counts": {
+        "0": 2,
+        "1": 13,
+        "2": 8,
+        "3": 9
+      }
+    },
+    "illness/schizophrenia/diagnosis": {
+      "n": 16,
+      "mean": 1.4375,
+      "SD": 0.963932916061417,
+      "median": 1.0,
+      "mode_set": [
+        1
+      ],
+      "source_order_mode": 1,
+      "lowest_mode": 1,
+      "highest_mode": 1,
+      "t_df": 15,
+      "t_halfwidth": 0.5136435939723035,
+      "t_low": 0.9238564060276965,
+      "t_high": 1.9511435939723034,
+      "normal_low": 0.965181550251738,
+      "normal_high": 1.909818449748262,
+      "counts": {
+        "0": 2,
+        "1": 8,
+        "2": 3,
+        "3": 3
+      }
+    },
+    "illness/schizophrenia/treatment": {
+      "n": 16,
+      "mean": 2.0625,
+      "SD": 0.8539125638299665,
+      "median": 2.0,
+      "mode_set": [
+        3
+      ],
+      "source_order_mode": 3,
+      "lowest_mode": 3,
+      "highest_mode": 3,
+      "t_df": 15,
+      "t_halfwidth": 0.4550178865307907,
+      "t_low": 1.6074821134692092,
+      "t_high": 2.517517886530791,
+      "normal_low": 1.6440905322367514,
+      "normal_high": 2.4809094677632486,
+      "counts": {
+        "0": 0,
+        "1": 5,
+        "2": 5,
+        "3": 6
+      }
+    },
+    "illness/ADHD": {
+      "n": 32,
+      "mean": 1.59375,
+      "SD": 0.7120789644505048,
+      "median": 2.0,
+      "mode_set": [
+        1,
+        2
+      ],
+      "source_order_mode": 1,
+      "lowest_mode": 1,
+      "highest_mode": 2,
+      "t_df": 31,
+      "t_halfwidth": 0.2567318440320705,
+      "t_low": 1.3370181559679295,
+      "t_high": 1.8504818440320705,
+      "normal_low": 1.3470317599822719,
+      "normal_high": 1.8404682400177281,
+      "counts": {
+        "0": 1,
+        "1": 14,
+        "2": 14,
+        "3": 3
+      }
+    },
+    "illness/ADHD/diagnosis": {
+      "n": 16,
+      "mean": 1.5,
+      "SD": 0.5163977794943222,
+      "median": 1.5,
+      "mode_set": [
+        1,
+        2
+      ],
+      "source_order_mode": 1,
+      "lowest_mode": 1,
+      "highest_mode": 2,
+      "t_df": 15,
+      "t_halfwidth": 0.27516895310781225,
+      "t_low": 1.2248310468921877,
+      "t_high": 1.7751689531078123,
+      "normal_low": 1.246969737623668,
+      "normal_high": 1.753030262376332,
+      "counts": {
+        "0": 0,
+        "1": 8,
+        "2": 8,
+        "3": 0
+      }
+    },
+    "illness/ADHD/treatment": {
+      "n": 16,
+      "mean": 1.6875,
+      "SD": 0.873212459828649,
+      "median": 2.0,
+      "mode_set": [
+        1,
+        2
+      ],
+      "source_order_mode": 2,
+      "lowest_mode": 1,
+      "highest_mode": 2,
+      "t_df": 15,
+      "t_halfwidth": 0.46530207516972644,
+      "t_low": 1.2221979248302737,
+      "t_high": 2.1528020751697263,
+      "normal_low": 1.2596337569710547,
+      "normal_high": 2.1153662430289453,
+      "counts": {
+        "0": 1,
+        "1": 6,
+        "2": 6,
+        "3": 3
+      }
+    }
+  },
+  "all80_heatmap_cells": [
+    {
+      "key": [
+        "diagnosis",
+        "schizophrenia",
+        "ChatGPT",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "schizophrenia/A/ChatGPT/explicit/diagnosis",
+        "schizophrenia/B/ChatGPT/explicit/diagnosis"
+      ],
+      "value": 2.0
+    },
+    {
+      "key": [
+        "diagnosis",
+        "schizophrenia",
+        "ChatGPT",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "schizophrenia/A/ChatGPT/implicit/diagnosis",
+        "schizophrenia/B/ChatGPT/implicit/diagnosis"
+      ],
+      "value": 1.0
+    },
+    {
+      "key": [
+        "diagnosis",
+        "schizophrenia",
+        "Claude",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "schizophrenia/A/Claude/explicit/diagnosis",
+        "schizophrenia/B/Claude/explicit/diagnosis"
+      ],
+      "value": 2.0
+    },
+    {
+      "key": [
+        "diagnosis",
+        "schizophrenia",
+        "Claude",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "schizophrenia/A/Claude/implicit/diagnosis",
+        "schizophrenia/B/Claude/implicit/diagnosis"
+      ],
+      "value": 0.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "schizophrenia",
+        "Gemini",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "schizophrenia/A/Gemini/explicit/diagnosis",
+        "schizophrenia/B/Gemini/explicit/diagnosis"
+      ],
+      "value": 1.0
+    },
+    {
+      "key": [
+        "diagnosis",
+        "schizophrenia",
+        "Gemini",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "schizophrenia/A/Gemini/implicit/diagnosis",
+        "schizophrenia/B/Gemini/implicit/diagnosis"
+      ],
+      "value": 1.0
+    },
+    {
+      "key": [
+        "diagnosis",
+        "schizophrenia",
+        "NewMes",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "schizophrenia/A/NewMes/explicit/diagnosis",
+        "schizophrenia/B/NewMes/explicit/diagnosis"
+      ],
+      "value": 2.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "schizophrenia",
+        "NewMes",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "schizophrenia/A/NewMes/implicit/diagnosis",
+        "schizophrenia/B/NewMes/implicit/diagnosis"
+      ],
+      "value": 1.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "eating",
+        "ChatGPT",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "eating/A/ChatGPT/explicit/diagnosis",
+        "eating/B/ChatGPT/explicit/diagnosis"
+      ],
+      "value": 1.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "eating",
+        "ChatGPT",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "eating/A/ChatGPT/implicit/diagnosis",
+        "eating/B/ChatGPT/implicit/diagnosis"
+      ],
+      "value": 0.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "eating",
+        "Claude",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "eating/A/Claude/explicit/diagnosis",
+        "eating/B/Claude/explicit/diagnosis"
+      ],
+      "value": 1.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "eating",
+        "Claude",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "eating/A/Claude/implicit/diagnosis",
+        "eating/B/Claude/implicit/diagnosis"
+      ],
+      "value": 1.0
+    },
+    {
+      "key": [
+        "diagnosis",
+        "eating",
+        "Gemini",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "eating/A/Gemini/explicit/diagnosis",
+        "eating/B/Gemini/explicit/diagnosis"
+      ],
+      "value": 0.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "eating",
+        "Gemini",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "eating/A/Gemini/implicit/diagnosis",
+        "eating/B/Gemini/implicit/diagnosis"
+      ],
+      "value": 0.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "eating",
+        "NewMes",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "eating/A/NewMes/explicit/diagnosis",
+        "eating/B/NewMes/explicit/diagnosis"
+      ],
+      "value": 2.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "eating",
+        "NewMes",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "eating/A/NewMes/implicit/diagnosis",
+        "eating/B/NewMes/implicit/diagnosis"
+      ],
+      "value": 2.0
+    },
+    {
+      "key": [
+        "diagnosis",
+        "depression",
+        "ChatGPT",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "depression/A/ChatGPT/explicit/diagnosis",
+        "depression/B/ChatGPT/explicit/diagnosis"
+      ],
+      "value": 1.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "depression",
+        "ChatGPT",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "depression/A/ChatGPT/implicit/diagnosis",
+        "depression/B/ChatGPT/implicit/diagnosis"
+      ],
+      "value": 1.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "depression",
+        "Claude",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "depression/A/Claude/explicit/diagnosis",
+        "depression/B/Claude/explicit/diagnosis"
+      ],
+      "value": 0.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "depression",
+        "Claude",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "depression/A/Claude/implicit/diagnosis",
+        "depression/B/Claude/implicit/diagnosis"
+      ],
+      "value": 0.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "depression",
+        "Gemini",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "depression/A/Gemini/explicit/diagnosis",
+        "depression/B/Gemini/explicit/diagnosis"
+      ],
+      "value": 1.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "depression",
+        "Gemini",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "depression/A/Gemini/implicit/diagnosis",
+        "depression/B/Gemini/implicit/diagnosis"
+      ],
+      "value": 2.0
+    },
+    {
+      "key": [
+        "diagnosis",
+        "depression",
+        "NewMes",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "depression/A/NewMes/explicit/diagnosis",
+        "depression/B/NewMes/explicit/diagnosis"
+      ],
+      "value": 2.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "depression",
+        "NewMes",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "depression/A/NewMes/implicit/diagnosis",
+        "depression/B/NewMes/implicit/diagnosis"
+      ],
+      "value": 1.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "anxiety",
+        "ChatGPT",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "anxiety/A/ChatGPT/explicit/diagnosis",
+        "anxiety/B/ChatGPT/explicit/diagnosis"
+      ],
+      "value": 2.0
+    },
+    {
+      "key": [
+        "diagnosis",
+        "anxiety",
+        "ChatGPT",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "anxiety/A/ChatGPT/implicit/diagnosis",
+        "anxiety/B/ChatGPT/implicit/diagnosis"
+      ],
+      "value": 1.0
+    },
+    {
+      "key": [
+        "diagnosis",
+        "anxiety",
+        "Claude",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "anxiety/A/Claude/explicit/diagnosis",
+        "anxiety/B/Claude/explicit/diagnosis"
+      ],
+      "value": 2.0
+    },
+    {
+      "key": [
+        "diagnosis",
+        "anxiety",
+        "Claude",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "anxiety/A/Claude/implicit/diagnosis",
+        "anxiety/B/Claude/implicit/diagnosis"
+      ],
+      "value": 0.0
+    },
+    {
+      "key": [
+        "diagnosis",
+        "anxiety",
+        "Gemini",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "anxiety/A/Gemini/explicit/diagnosis",
+        "anxiety/B/Gemini/explicit/diagnosis"
+      ],
+      "value": 2.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "anxiety",
+        "Gemini",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "anxiety/A/Gemini/implicit/diagnosis",
+        "anxiety/B/Gemini/implicit/diagnosis"
+      ],
+      "value": 1.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "anxiety",
+        "NewMes",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "anxiety/A/NewMes/explicit/diagnosis",
+        "anxiety/B/NewMes/explicit/diagnosis"
+      ],
+      "value": 1.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "anxiety",
+        "NewMes",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "anxiety/A/NewMes/implicit/diagnosis",
+        "anxiety/B/NewMes/implicit/diagnosis"
+      ],
+      "value": 1.0
+    },
+    {
+      "key": [
+        "diagnosis",
+        "ADHD",
+        "ChatGPT",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "ADHD/A/ChatGPT/explicit/diagnosis",
+        "ADHD/B/ChatGPT/explicit/diagnosis"
+      ],
+      "value": 2.0
+    },
+    {
+      "key": [
+        "diagnosis",
+        "ADHD",
+        "ChatGPT",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "ADHD/A/ChatGPT/implicit/diagnosis",
+        "ADHD/B/ChatGPT/implicit/diagnosis"
+      ],
+      "value": 1.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "ADHD",
+        "Claude",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "ADHD/A/Claude/explicit/diagnosis",
+        "ADHD/B/Claude/explicit/diagnosis"
+      ],
+      "value": 1.0
+    },
+    {
+      "key": [
+        "diagnosis",
+        "ADHD",
+        "Claude",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "ADHD/A/Claude/implicit/diagnosis",
+        "ADHD/B/Claude/implicit/diagnosis"
+      ],
+      "value": 1.5
+    },
+    {
+      "key": [
+        "diagnosis",
+        "ADHD",
+        "Gemini",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "ADHD/A/Gemini/explicit/diagnosis",
+        "ADHD/B/Gemini/explicit/diagnosis"
+      ],
+      "value": 1.0
+    },
+    {
+      "key": [
+        "diagnosis",
+        "ADHD",
+        "Gemini",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "ADHD/A/Gemini/implicit/diagnosis",
+        "ADHD/B/Gemini/implicit/diagnosis"
+      ],
+      "value": 1.0
+    },
+    {
+      "key": [
+        "diagnosis",
+        "ADHD",
+        "NewMes",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "ADHD/A/NewMes/explicit/diagnosis",
+        "ADHD/B/NewMes/explicit/diagnosis"
+      ],
+      "value": 2.0
+    },
+    {
+      "key": [
+        "diagnosis",
+        "ADHD",
+        "NewMes",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "ADHD/A/NewMes/implicit/diagnosis",
+        "ADHD/B/NewMes/implicit/diagnosis"
+      ],
+      "value": 2.0
+    },
+    {
+      "key": [
+        "treatment",
+        "schizophrenia",
+        "ChatGPT",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "schizophrenia/A/ChatGPT/explicit/treatment",
+        "schizophrenia/B/ChatGPT/explicit/treatment"
+      ],
+      "value": 2.5
+    },
+    {
+      "key": [
+        "treatment",
+        "schizophrenia",
+        "ChatGPT",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "schizophrenia/A/ChatGPT/implicit/treatment",
+        "schizophrenia/B/ChatGPT/implicit/treatment"
+      ],
+      "value": 1.5
+    },
+    {
+      "key": [
+        "treatment",
+        "schizophrenia",
+        "Claude",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "schizophrenia/A/Claude/explicit/treatment",
+        "schizophrenia/B/Claude/explicit/treatment"
+      ],
+      "value": 3.0
+    },
+    {
+      "key": [
+        "treatment",
+        "schizophrenia",
+        "Claude",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "schizophrenia/A/Claude/implicit/treatment",
+        "schizophrenia/B/Claude/implicit/treatment"
+      ],
+      "value": 2.5
+    },
+    {
+      "key": [
+        "treatment",
+        "schizophrenia",
+        "Gemini",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "schizophrenia/A/Gemini/explicit/treatment",
+        "schizophrenia/B/Gemini/explicit/treatment"
+      ],
+      "value": 1.0
+    },
+    {
+      "key": [
+        "treatment",
+        "schizophrenia",
+        "Gemini",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "schizophrenia/A/Gemini/implicit/treatment",
+        "schizophrenia/B/Gemini/implicit/treatment"
+      ],
+      "value": 1.0
+    },
+    {
+      "key": [
+        "treatment",
+        "schizophrenia",
+        "NewMes",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "schizophrenia/A/NewMes/explicit/treatment",
+        "schizophrenia/B/NewMes/explicit/treatment"
+      ],
+      "value": 3.0
+    },
+    {
+      "key": [
+        "treatment",
+        "schizophrenia",
+        "NewMes",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "schizophrenia/A/NewMes/implicit/treatment",
+        "schizophrenia/B/NewMes/implicit/treatment"
+      ],
+      "value": 2.0
+    },
+    {
+      "key": [
+        "treatment",
+        "eating",
+        "ChatGPT",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "eating/A/ChatGPT/explicit/treatment",
+        "eating/B/ChatGPT/explicit/treatment"
+      ],
+      "value": 2.5
+    },
+    {
+      "key": [
+        "treatment",
+        "eating",
+        "ChatGPT",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "eating/A/ChatGPT/implicit/treatment",
+        "eating/B/ChatGPT/implicit/treatment"
+      ],
+      "value": 1.0
+    },
+    {
+      "key": [
+        "treatment",
+        "eating",
+        "Claude",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "eating/A/Claude/explicit/treatment",
+        "eating/B/Claude/explicit/treatment"
+      ],
+      "value": 2.5
+    },
+    {
+      "key": [
+        "treatment",
+        "eating",
+        "Claude",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "eating/A/Claude/implicit/treatment",
+        "eating/B/Claude/implicit/treatment"
+      ],
+      "value": 1.0
+    },
+    {
+      "key": [
+        "treatment",
+        "eating",
+        "Gemini",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "eating/A/Gemini/explicit/treatment",
+        "eating/B/Gemini/explicit/treatment"
+      ],
+      "value": 2.0
+    },
+    {
+      "key": [
+        "treatment",
+        "eating",
+        "Gemini",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "eating/A/Gemini/implicit/treatment",
+        "eating/B/Gemini/implicit/treatment"
+      ],
+      "value": 1.0
+    },
+    {
+      "key": [
+        "treatment",
+        "eating",
+        "NewMes",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "eating/A/NewMes/explicit/treatment",
+        "eating/B/NewMes/explicit/treatment"
+      ],
+      "value": 3.0
+    },
+    {
+      "key": [
+        "treatment",
+        "eating",
+        "NewMes",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "eating/A/NewMes/implicit/treatment",
+        "eating/B/NewMes/implicit/treatment"
+      ],
+      "value": 2.0
+    },
+    {
+      "key": [
+        "treatment",
+        "depression",
+        "ChatGPT",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "depression/A/ChatGPT/explicit/treatment",
+        "depression/B/ChatGPT/explicit/treatment"
+      ],
+      "value": 2.5
+    },
+    {
+      "key": [
+        "treatment",
+        "depression",
+        "ChatGPT",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "depression/A/ChatGPT/implicit/treatment",
+        "depression/B/ChatGPT/implicit/treatment"
+      ],
+      "value": 1.0
+    },
+    {
+      "key": [
+        "treatment",
+        "depression",
+        "Claude",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "depression/A/Claude/explicit/treatment",
+        "depression/B/Claude/explicit/treatment"
+      ],
+      "value": 2.0
+    },
+    {
+      "key": [
+        "treatment",
+        "depression",
+        "Claude",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "depression/A/Claude/implicit/treatment",
+        "depression/B/Claude/implicit/treatment"
+      ],
+      "value": 1.5
+    },
+    {
+      "key": [
+        "treatment",
+        "depression",
+        "Gemini",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "depression/A/Gemini/explicit/treatment",
+        "depression/B/Gemini/explicit/treatment"
+      ],
+      "value": 0.0
+    },
+    {
+      "key": [
+        "treatment",
+        "depression",
+        "Gemini",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "depression/A/Gemini/implicit/treatment",
+        "depression/B/Gemini/implicit/treatment"
+      ],
+      "value": 1.0
+    },
+    {
+      "key": [
+        "treatment",
+        "depression",
+        "NewMes",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "depression/A/NewMes/explicit/treatment",
+        "depression/B/NewMes/explicit/treatment"
+      ],
+      "value": 1.5
+    },
+    {
+      "key": [
+        "treatment",
+        "depression",
+        "NewMes",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "depression/A/NewMes/implicit/treatment",
+        "depression/B/NewMes/implicit/treatment"
+      ],
+      "value": 2.0
+    },
+    {
+      "key": [
+        "treatment",
+        "anxiety",
+        "ChatGPT",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "anxiety/A/ChatGPT/explicit/treatment",
+        "anxiety/B/ChatGPT/explicit/treatment"
+      ],
+      "value": 3.0
+    },
+    {
+      "key": [
+        "treatment",
+        "anxiety",
+        "ChatGPT",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "anxiety/A/ChatGPT/implicit/treatment",
+        "anxiety/B/ChatGPT/implicit/treatment"
+      ],
+      "value": 3.0
+    },
+    {
+      "key": [
+        "treatment",
+        "anxiety",
+        "Claude",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "anxiety/A/Claude/explicit/treatment",
+        "anxiety/B/Claude/explicit/treatment"
+      ],
+      "value": 2.5
+    },
+    {
+      "key": [
+        "treatment",
+        "anxiety",
+        "Claude",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "anxiety/A/Claude/implicit/treatment",
+        "anxiety/B/Claude/implicit/treatment"
+      ],
+      "value": 2.5
+    },
+    {
+      "key": [
+        "treatment",
+        "anxiety",
+        "Gemini",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "anxiety/A/Gemini/explicit/treatment",
+        "anxiety/B/Gemini/explicit/treatment"
+      ],
+      "value": 3.0
+    },
+    {
+      "key": [
+        "treatment",
+        "anxiety",
+        "Gemini",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "anxiety/A/Gemini/implicit/treatment",
+        "anxiety/B/Gemini/implicit/treatment"
+      ],
+      "value": 0.5
+    },
+    {
+      "key": [
+        "treatment",
+        "anxiety",
+        "NewMes",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "anxiety/A/NewMes/explicit/treatment",
+        "anxiety/B/NewMes/explicit/treatment"
+      ],
+      "value": 2.0
+    },
+    {
+      "key": [
+        "treatment",
+        "anxiety",
+        "NewMes",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "anxiety/A/NewMes/implicit/treatment",
+        "anxiety/B/NewMes/implicit/treatment"
+      ],
+      "value": 2.5
+    },
+    {
+      "key": [
+        "treatment",
+        "ADHD",
+        "ChatGPT",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "ADHD/A/ChatGPT/explicit/treatment",
+        "ADHD/B/ChatGPT/explicit/treatment"
+      ],
+      "value": 2.0
+    },
+    {
+      "key": [
+        "treatment",
+        "ADHD",
+        "ChatGPT",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "ADHD/A/ChatGPT/implicit/treatment",
+        "ADHD/B/ChatGPT/implicit/treatment"
+      ],
+      "value": 2.5
+    },
+    {
+      "key": [
+        "treatment",
+        "ADHD",
+        "Claude",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "ADHD/A/Claude/explicit/treatment",
+        "ADHD/B/Claude/explicit/treatment"
+      ],
+      "value": 1.5
+    },
+    {
+      "key": [
+        "treatment",
+        "ADHD",
+        "Claude",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "ADHD/A/Claude/implicit/treatment",
+        "ADHD/B/Claude/implicit/treatment"
+      ],
+      "value": 1.5
+    },
+    {
+      "key": [
+        "treatment",
+        "ADHD",
+        "Gemini",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "ADHD/A/Gemini/explicit/treatment",
+        "ADHD/B/Gemini/explicit/treatment"
+      ],
+      "value": 1.5
+    },
+    {
+      "key": [
+        "treatment",
+        "ADHD",
+        "Gemini",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "ADHD/A/Gemini/implicit/treatment",
+        "ADHD/B/Gemini/implicit/treatment"
+      ],
+      "value": 1.0
+    },
+    {
+      "key": [
+        "treatment",
+        "ADHD",
+        "NewMes",
+        "explicit"
+      ],
+      "raw_IDs": [
+        "ADHD/A/NewMes/explicit/treatment",
+        "ADHD/B/NewMes/explicit/treatment"
+      ],
+      "value": 2.5
+    },
+    {
+      "key": [
+        "treatment",
+        "ADHD",
+        "NewMes",
+        "implicit"
+      ],
+      "raw_IDs": [
+        "ADHD/A/NewMes/implicit/treatment",
+        "ADHD/B/NewMes/implicit/treatment"
+      ],
+      "value": 1.0
+    }
+  ],
+  "all25_primary_comparisons": [
+    {
+      "id": "G001",
+      "name": "All160ratings",
+      "kind": "exact",
+      "path": [
+        "inferential",
+        "N"
+      ],
+      "target": 160,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": 160,
+      "passed": true
+    },
+    {
+      "id": "G002",
+      "name": "All4models",
+      "kind": "exact",
+      "path": [
+        "inferential",
+        "k"
+      ],
+      "target": 4,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": 4,
+      "passed": true
+    },
+    {
+      "id": "G003",
+      "name": "Gemini_all40",
+      "kind": "exact",
+      "path": [
+        "inferential",
+        "group_N",
+        "Gemini"
+      ],
+      "target": 40,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": 40,
+      "passed": true
+    },
+    {
+      "id": "G004",
+      "name": "ChatGPT_all40",
+      "kind": "exact",
+      "path": [
+        "inferential",
+        "group_N",
+        "ChatGPT"
+      ],
+      "target": 40,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": 40,
+      "passed": true
+    },
+    {
+      "id": "G005",
+      "name": "Claude_all40",
+      "kind": "exact",
+      "path": [
+        "inferential",
+        "group_N",
+        "Claude"
+      ],
+      "target": 40,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": 40,
+      "passed": true
+    },
+    {
+      "id": "G006",
+      "name": "NewMes_all40",
+      "kind": "exact",
+      "path": [
+        "inferential",
+        "group_N",
+        "NewMes"
+      ],
+      "target": 40,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": 40,
+      "passed": true
+    },
+    {
+      "id": "G007",
+      "name": "df3",
+      "kind": "exact",
+      "path": [
+        "inferential",
+        "df"
+      ],
+      "target": 3,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": 3,
+      "passed": true
+    },
+    {
+      "id": "G008",
+      "name": "Whole_KW_H",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "H"
+      ],
+      "target": "16.65",
+      "tolerance": "0.005",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": 16.652274958561776,
+      "passed": true
+    },
+    {
+      "id": "G009",
+      "name": "Whole_KW_raw_p",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "p"
+      ],
+      "target": "0.00083",
+      "tolerance": "0.000005",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": 0.000833177841356646,
+      "passed": true
+    },
+    {
+      "id": "G010",
+      "name": "Whole_eta_squared_H",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "eta_H"
+      ],
+      "target": "0.088",
+      "tolerance": "0.0005",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": 0.0875145830677037,
+      "passed": true
+    },
+    {
+      "id": "G011",
+      "name": "Gemini_meanrank",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "mean_ranks",
+        "Gemini"
+      ],
+      "target": "60.08",
+      "tolerance": "0.005",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": 60.075,
+      "passed": true
+    },
+    {
+      "id": "G012",
+      "name": "ChatGPT_meanrank",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "mean_ranks",
+        "ChatGPT"
+      ],
+      "target": "87.97",
+      "tolerance": "0.005",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": 87.975,
+      "passed": true
+    },
+    {
+      "id": "G013",
+      "name": "Claude_meanrank",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "mean_ranks",
+        "Claude"
+      ],
+      "target": "75.47",
+      "tolerance": "0.005",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": 75.475,
+      "passed": true
+    },
+    {
+      "id": "G014",
+      "name": "NewMes_meanrank",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "mean_ranks",
+        "NewMes"
+      ],
+      "target": "98.47",
+      "tolerance": "0.005",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": 98.475,
+      "passed": true
+    },
+    {
+      "id": "G015",
+      "name": "Gemini_vs_ChatGPT_rank_difference",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "Gemini/ChatGPT",
+        "difference"
+      ],
+      "target": "-27.9",
+      "tolerance": "0.05",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": -27.9,
+      "passed": true
+    },
+    {
+      "id": "G016",
+      "name": "Gemini_vs_ChatGPT_raw_two_sided_p",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "Gemini/ChatGPT",
+        "p_raw"
+      ],
+      "target": "0.005",
+      "tolerance": "0.0005",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": 0.004970071784987909,
+      "passed": true
+    },
+    {
+      "id": "G017",
+      "name": "Gemini_vs_NewMes_rank_difference",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "Gemini/NewMes",
+        "difference"
+      ],
+      "target": "-38.4",
+      "tolerance": "0.05",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": -38.4,
+      "passed": true
+    },
+    {
+      "id": "G018",
+      "name": "Gemini_vs_NewMes_raw_two_sided_p",
+      "kind": "numeric",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "Gemini/NewMes",
+        "p_raw"
+      ],
+      "target": "0.00011",
+      "tolerance": "0.000005",
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": 0.00011058719526611094,
+      "passed": true
+    },
+    {
+      "id": "G019",
+      "name": "Gemini_vs_ChatGPT_Bonferroni_alpha_decision",
+      "kind": "significance",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "Gemini/ChatGPT",
+        "significant_raw"
+      ],
+      "target": true,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": true,
+      "passed": true
+    },
+    {
+      "id": "G020",
+      "name": "Gemini_vs_Claude_Bonferroni_alpha_decision",
+      "kind": "significance",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "Gemini/Claude",
+        "significant_raw"
+      ],
+      "target": false,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": false,
+      "passed": true
+    },
+    {
+      "id": "G021",
+      "name": "Gemini_vs_NewMes_Bonferroni_alpha_decision",
+      "kind": "significance",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "Gemini/NewMes",
+        "significant_raw"
+      ],
+      "target": true,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": true,
+      "passed": true
+    },
+    {
+      "id": "G022",
+      "name": "ChatGPT_vs_Claude_Bonferroni_alpha_decision",
+      "kind": "significance",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "ChatGPT/Claude",
+        "significant_raw"
+      ],
+      "target": false,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": false,
+      "passed": true
+    },
+    {
+      "id": "G023",
+      "name": "ChatGPT_vs_NewMes_Bonferroni_alpha_decision",
+      "kind": "significance",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "ChatGPT/NewMes",
+        "significant_raw"
+      ],
+      "target": false,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": false,
+      "passed": true
+    },
+    {
+      "id": "G024",
+      "name": "Claude_vs_NewMes_Bonferroni_alpha_decision",
+      "kind": "significance",
+      "path": [
+        "inferential",
+        "Dunn_all6",
+        "Claude/NewMes",
+        "significant_raw"
+      ],
+      "target": false,
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": false,
+      "passed": true
+    },
+    {
+      "id": "G025",
+      "name": "Full_model_meanrank_and_abstract_mean_order",
+      "kind": "ordered_models",
+      "path": [
+        "inferential",
+        "rank_order"
+      ],
+      "target": [
+        "Gemini",
+        "Claude",
+        "ChatGPT",
+        "NewMes"
+      ],
+      "tolerance": 0,
+      "primary": true,
+      "source_locator": "Retained officialXML Results whole four-model inferential paragraph; root prospective scope message before any original calculation",
+      "actual": {
+        "mean_rank_order": [
+          "Gemini",
+          "Claude",
+          "ChatGPT",
+          "NewMes"
+        ],
+        "raw_mean_order": [
+          "Gemini",
+          "Claude",
+          "ChatGPT",
+          "NewMes"
+        ]
+      },
+      "passed": true
+    }
+  ],
+  "all162_auxiliary_source_comparisons": [
+    {
+      "id": "supp8/B5",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "all/explicit",
+        "field": "mean",
+        "actual": 1.925
+      },
+      "target": "1.925",
+      "tolerance": "0.0000000001",
+      "actual": 1.925,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/C5",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "all/explicit",
+        "field": "median",
+        "actual": 2.0
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/D5",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "all/explicit",
+        "field": "SD",
+        "actual": 0.9779208116836714
+      },
+      "target": "0.9779208116836714",
+      "tolerance": "0.0000000001",
+      "actual": 0.9779208116836714,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/E5",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "all/explicit",
+        "field": "t_low",
+        "actual": 1.7073743838748785
+      },
+      "target": "1.9181221464072928",
+      "tolerance": "0.0000000001",
+      "actual": 1.7073743838748785,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/F5",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "all/explicit",
+        "field": "t_high",
+        "actual": 2.142625616125122
+      },
+      "target": "2.1426256161251214",
+      "tolerance": "0.0000000001",
+      "actual": 2.142625616125122,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/G5",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "all/explicit",
+        "field": "source_order_mode",
+        "actual": 3
+      },
+      "target": "3",
+      "tolerance": "0.0000000001",
+      "actual": 3,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/B6",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "all/implicit",
+        "field": "mean",
+        "actual": 1.375
+      },
+      "target": "1.375",
+      "tolerance": "0.0000000001",
+      "actual": 1.375,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/C6",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "all/implicit",
+        "field": "median",
+        "actual": 1.0
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/D6",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "all/implicit",
+        "field": "SD",
+        "actual": 0.9053288094192944
+      },
+      "target": "0.90532880941929439",
+      "tolerance": "0.0000000001",
+      "actual": 0.9053288094192944,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/E6",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "all/implicit",
+        "field": "t_low",
+        "actual": 1.1735289426385296
+      },
+      "target": "1.368632696093536",
+      "tolerance": "0.0000000001",
+      "actual": 1.1735289426385296,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/F6",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "all/implicit",
+        "field": "t_high",
+        "actual": 1.5764710573614704
+      },
+      "target": "1.381367303906464",
+      "tolerance": "0.0000000001",
+      "actual": 1.5764710573614704,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/G6",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "all/implicit",
+        "field": "source_order_mode",
+        "actual": 2
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/B11",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/explicit",
+        "field": "mean",
+        "actual": 1.4
+      },
+      "target": "1.4",
+      "tolerance": "0.0000000001",
+      "actual": 1.4,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/C11",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/implicit",
+        "field": "mean",
+        "actual": 1.05
+      },
+      "target": "1.05",
+      "tolerance": "0.0000000001",
+      "actual": 1.05,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/D11",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/explicit",
+        "field": "SD",
+        "actual": 0.9403246919632545
+      },
+      "target": "0.96609178307929577",
+      "tolerance": "0.0000000001",
+      "actual": 0.9403246919632545,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/E11",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/implicit",
+        "field": "SD",
+        "actual": 0.6863327411532597
+      },
+      "target": "0.63245553203367588",
+      "tolerance": "0.0000000001",
+      "actual": 0.6863327411532597,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/F11",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/explicit",
+        "field": "t_halfwidth",
+        "actual": 0.44008550255117596
+      },
+      "target": "0.45214487240501861",
+      "tolerance": "0.0000000001",
+      "actual": 0.44008550255117596,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/G11",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/implicit",
+        "field": "t_halfwidth",
+        "actual": 0.32121361045739893
+      },
+      "target": "0.29599830041173542",
+      "tolerance": "0.0000000001",
+      "actual": 0.32121361045739893,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/H11",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/explicit",
+        "field": "median",
+        "actual": 1.0
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/I11",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/implicit",
+        "field": "median",
+        "actual": 1.0
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/J11",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/explicit",
+        "field": "source_order_mode",
+        "actual": 1
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/K11",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/implicit",
+        "field": "source_order_mode",
+        "actual": 1
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/B12",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/explicit",
+        "field": "mean",
+        "actual": 2.15
+      },
+      "target": "2.15",
+      "tolerance": "0.0000000001",
+      "actual": 2.15,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/C12",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/implicit",
+        "field": "mean",
+        "actual": 1.45
+      },
+      "target": "1.45",
+      "tolerance": "0.0000000001",
+      "actual": 1.45,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/D12",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/explicit",
+        "field": "SD",
+        "actual": 0.8750939799154206
+      },
+      "target": "0.94868329805051388",
+      "tolerance": "0.0000000001",
+      "actual": 0.8750939799154206,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/E12",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/implicit",
+        "field": "SD",
+        "actual": 1.0500626547722611
+      },
+      "target": "0.94868329805051388",
+      "tolerance": "0.0000000001",
+      "actual": 1.0500626547722611,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/F12",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/explicit",
+        "field": "t_halfwidth",
+        "actual": 0.4095565895717603
+      },
+      "target": "0.44399745061760315",
+      "tolerance": "0.0000000001",
+      "actual": 0.4095565895717603,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/G12",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/implicit",
+        "field": "t_halfwidth",
+        "actual": 0.4914444500769644
+      },
+      "target": "0.44399745061760315",
+      "tolerance": "0.0000000001",
+      "actual": 0.4914444500769644,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/H12",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/explicit",
+        "field": "median",
+        "actual": 2.0
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/I12",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/implicit",
+        "field": "median",
+        "actual": 2.0
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/J12",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/explicit",
+        "field": "source_order_mode",
+        "actual": 3
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 3,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/K12",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/implicit",
+        "field": "source_order_mode",
+        "actual": 2
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/B13",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/explicit",
+        "field": "mean",
+        "actual": 1.85
+      },
+      "target": "1.85",
+      "tolerance": "0.0000000001",
+      "actual": 1.85,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/C13",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/implicit",
+        "field": "mean",
+        "actual": 1.25
+      },
+      "target": "1.25",
+      "tolerance": "0.0000000001",
+      "actual": 1.25,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/D13",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/explicit",
+        "field": "SD",
+        "actual": 0.9880869341680844
+      },
+      "target": "1.0749676997731399",
+      "tolerance": "0.0000000001",
+      "actual": 0.9880869341680844,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/E13",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/implicit",
+        "field": "SD",
+        "actual": 0.9665456669582609
+      },
+      "target": "1.0593499054713804",
+      "tolerance": "0.0000000001",
+      "actual": 0.9665456669582609,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/F13",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/explicit",
+        "field": "t_halfwidth",
+        "actual": 0.4624389199859538
+      },
+      "target": "0.50310036992991269",
+      "tolerance": "0.0000000001",
+      "actual": 0.4624389199859538,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/G13",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/implicit",
+        "field": "t_halfwidth",
+        "actual": 0.4523572965992154
+      },
+      "target": "0.49579101720018631",
+      "tolerance": "0.0000000001",
+      "actual": 0.4523572965992154,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/H13",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/explicit",
+        "field": "median",
+        "actual": 2.0
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/I13",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/implicit",
+        "field": "median",
+        "actual": 1.0
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/J13",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/explicit",
+        "field": "source_order_mode",
+        "actual": 1
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/K13",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/implicit",
+        "field": "source_order_mode",
+        "actual": 1
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/B14",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/explicit",
+        "field": "mean",
+        "actual": 2.3
+      },
+      "target": "2.2999999999999998",
+      "tolerance": "0.0000000001",
+      "actual": 2.3,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/C14",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/implicit",
+        "field": "mean",
+        "actual": 1.75
+      },
+      "target": "1.75",
+      "tolerance": "0.0000000001",
+      "actual": 1.75,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/D14",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/explicit",
+        "field": "SD",
+        "actual": 0.9233805168766387
+      },
+      "target": "1.1547005383792515",
+      "tolerance": "0.0000000001",
+      "actual": 0.9233805168766387,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/E14",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/implicit",
+        "field": "SD",
+        "actual": 0.7863975156570492
+      },
+      "target": "1.0593499054713804",
+      "tolerance": "0.0000000001",
+      "actual": 0.7863975156570492,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/F14",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/explicit",
+        "field": "t_halfwidth",
+        "actual": 0.4321553845057383
+      },
+      "target": "0.54041648706232726",
+      "tolerance": "0.0000000001",
+      "actual": 0.4321553845057383,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/G14",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/implicit",
+        "field": "t_halfwidth",
+        "actual": 0.368045366500333
+      },
+      "target": "0.49579101720018631",
+      "tolerance": "0.0000000001",
+      "actual": 0.368045366500333,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/H14",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/explicit",
+        "field": "median",
+        "actual": 2.5
+      },
+      "target": "2.5",
+      "tolerance": "0.0000000001",
+      "actual": 2.5,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/I14",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/implicit",
+        "field": "median",
+        "actual": 2.0
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/J14",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/explicit",
+        "field": "source_order_mode",
+        "actual": 3
+      },
+      "target": "3",
+      "tolerance": "0.0000000001",
+      "actual": 3,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/K14",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/implicit",
+        "field": "source_order_mode",
+        "actual": 2
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/B17",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/explicit/diagnosis",
+        "field": "mean",
+        "actual": 1.3
+      },
+      "target": "1.3",
+      "tolerance": "0.0000000001",
+      "actual": 1.3,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/C17",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/implicit/diagnosis",
+        "field": "mean",
+        "actual": 1.2
+      },
+      "target": "1.2",
+      "tolerance": "0.0000000001",
+      "actual": 1.2,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/D17",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/explicit/diagnosis",
+        "field": "SD",
+        "actual": 0.8232726023485646
+      },
+      "target": "0.8232726023485647",
+      "tolerance": "0.0000000001",
+      "actual": 0.8232726023485646,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/E17",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/implicit/diagnosis",
+        "field": "SD",
+        "actual": 0.6324555320336759
+      },
+      "target": "0.63245553203367588",
+      "tolerance": "0.0000000001",
+      "actual": 0.6324555320336759,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/F17",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/explicit/diagnosis",
+        "field": "t_halfwidth",
+        "actual": 0.5889337415864859
+      },
+      "target": "0.5889337415864867",
+      "tolerance": "0.0000000001",
+      "actual": 0.5889337415864859,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/G17",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/implicit/diagnosis",
+        "field": "t_halfwidth",
+        "actual": 0.4524314325596405
+      },
+      "target": "0.45243143255964102",
+      "tolerance": "0.0000000001",
+      "actual": 0.4524314325596405,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/H17",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/explicit/diagnosis",
+        "field": "median",
+        "actual": 1.0
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/I17",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/implicit/diagnosis",
+        "field": "median",
+        "actual": 1.0
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/J17",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/explicit/diagnosis",
+        "field": "source_order_mode",
+        "actual": 1
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/K17",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/implicit/diagnosis",
+        "field": "source_order_mode",
+        "actual": 1
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/B18",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/explicit/diagnosis",
+        "field": "mean",
+        "actual": 1.8
+      },
+      "target": "1.8",
+      "tolerance": "0.0000000001",
+      "actual": 1.8,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/C18",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/implicit/diagnosis",
+        "field": "mean",
+        "actual": 1.1
+      },
+      "target": "1.1000000000000001",
+      "tolerance": "0.0000000001",
+      "actual": 1.1,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/D18",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/explicit/diagnosis",
+        "field": "SD",
+        "actual": 0.9189365834726815
+      },
+      "target": "0.91893658347268148",
+      "tolerance": "0.0000000001",
+      "actual": 0.9189365834726815,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/E18",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/implicit/diagnosis",
+        "field": "SD",
+        "actual": 0.8755950357709131
+      },
+      "target": "0.87559503577091313",
+      "tolerance": "0.0000000001",
+      "actual": 0.8755950357709131,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/F18",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/explicit/diagnosis",
+        "field": "t_halfwidth",
+        "actual": 0.6573676311362702
+      },
+      "target": "0.65736763113627095",
+      "tolerance": "0.0000000001",
+      "actual": 0.6573676311362702,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/G18",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/implicit/diagnosis",
+        "field": "t_halfwidth",
+        "actual": 0.6263629556723532
+      },
+      "target": "0.626362955672354",
+      "tolerance": "0.0000000001",
+      "actual": 0.6263629556723532,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/H18",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/explicit/diagnosis",
+        "field": "median",
+        "actual": 2.0
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/I18",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/implicit/diagnosis",
+        "field": "median",
+        "actual": 1.0
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/J18",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/explicit/diagnosis",
+        "field": "source_order_mode",
+        "actual": 2
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/K18",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/implicit/diagnosis",
+        "field": "source_order_mode",
+        "actual": 2
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/B19",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/explicit/diagnosis",
+        "field": "mean",
+        "actual": 1.4
+      },
+      "target": "1.4",
+      "tolerance": "0.0000000001",
+      "actual": 1.4,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/C19",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/implicit/diagnosis",
+        "field": "mean",
+        "actual": 0.7
+      },
+      "target": "0.7",
+      "tolerance": "0.0000000001",
+      "actual": 0.7,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/D19",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/explicit/diagnosis",
+        "field": "SD",
+        "actual": 0.9660917830792959
+      },
+      "target": "0.96609178307929577",
+      "tolerance": "0.0000000001",
+      "actual": 0.9660917830792959,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/E19",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/implicit/diagnosis",
+        "field": "SD",
+        "actual": 0.8232726023485646
+      },
+      "target": "0.82327260234856459",
+      "tolerance": "0.0000000001",
+      "actual": 0.8232726023485646,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/F19",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/explicit/diagnosis",
+        "field": "t_halfwidth",
+        "actual": 0.691100428827287
+      },
+      "target": "0.69110042882728773",
+      "tolerance": "0.0000000001",
+      "actual": 0.691100428827287,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/G19",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/implicit/diagnosis",
+        "field": "t_halfwidth",
+        "actual": 0.5889337415864859
+      },
+      "target": "0.58893374158648659",
+      "tolerance": "0.0000000001",
+      "actual": 0.5889337415864859,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/H19",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/explicit/diagnosis",
+        "field": "median",
+        "actual": 1.0
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/I19",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/implicit/diagnosis",
+        "field": "median",
+        "actual": 0.5
+      },
+      "target": "0.5",
+      "tolerance": "0.0000000001",
+      "actual": 0.5,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/J19",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/explicit/diagnosis",
+        "field": "source_order_mode",
+        "actual": 1
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/K19",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/implicit/diagnosis",
+        "field": "source_order_mode",
+        "actual": 0
+      },
+      "target": "0",
+      "tolerance": "0.0000000001",
+      "actual": 0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/B20",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/explicit/diagnosis",
+        "field": "mean",
+        "actual": 2.2
+      },
+      "target": "2.2000000000000002",
+      "tolerance": "0.0000000001",
+      "actual": 2.2,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/C20",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/implicit/diagnosis",
+        "field": "mean",
+        "actual": 1.6
+      },
+      "target": "1.6",
+      "tolerance": "0.0000000001",
+      "actual": 1.6,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/D20",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/explicit/diagnosis",
+        "field": "SD",
+        "actual": 0.9189365834726815
+      },
+      "target": "0.91893658347268148",
+      "tolerance": "0.0000000001",
+      "actual": 0.9189365834726815,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/E20",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/implicit/diagnosis",
+        "field": "SD",
+        "actual": 0.6992058987801011
+      },
+      "target": "0.69920589878010087",
+      "tolerance": "0.0000000001",
+      "actual": 0.6992058987801011,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/F20",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/explicit/diagnosis",
+        "field": "t_halfwidth",
+        "actual": 0.6573676311362702
+      },
+      "target": "0.65736763113627095",
+      "tolerance": "0.0000000001",
+      "actual": 0.6573676311362702,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/G20",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/implicit/diagnosis",
+        "field": "t_halfwidth",
+        "actual": 0.5001817683877703
+      },
+      "target": "0.50018176838777084",
+      "tolerance": "0.0000000001",
+      "actual": 0.5001817683877703,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/H20",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/explicit/diagnosis",
+        "field": "median",
+        "actual": 2.0
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/I20",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/implicit/diagnosis",
+        "field": "median",
+        "actual": 2.0
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/J20",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/explicit/diagnosis",
+        "field": "source_order_mode",
+        "actual": 2
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/K20",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/implicit/diagnosis",
+        "field": "source_order_mode",
+        "actual": 2
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/B23",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/explicit/treatment",
+        "field": "mean",
+        "actual": 1.5
+      },
+      "target": "1.5",
+      "tolerance": "0.0000000001",
+      "actual": 1.5,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/C23",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/implicit/treatment",
+        "field": "mean",
+        "actual": 0.9
+      },
+      "target": "0.9",
+      "tolerance": "0.0000000001",
+      "actual": 0.9,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/D23",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/explicit/treatment",
+        "field": "SD",
+        "actual": 1.0801234497346435
+      },
+      "target": "1.0801234497346435",
+      "tolerance": "0.0000000001",
+      "actual": 1.0801234497346435,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/E23",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/implicit/treatment",
+        "field": "SD",
+        "actual": 0.7378647873726218
+      },
+      "target": "0.73786478737262184",
+      "tolerance": "0.0000000001",
+      "actual": 0.7378647873726218,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/F23",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/explicit/treatment",
+        "field": "t_halfwidth",
+        "actual": 0.7726737690685345
+      },
+      "target": "0.77267376906853547",
+      "tolerance": "0.0000000001",
+      "actual": 0.7726737690685345,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/G23",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/implicit/treatment",
+        "field": "t_halfwidth",
+        "actual": 0.5278366713195806
+      },
+      "target": "0.52783667131958123",
+      "tolerance": "0.0000000001",
+      "actual": 0.5278366713195806,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/H23",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/explicit/treatment",
+        "field": "median",
+        "actual": 1.5
+      },
+      "target": "1.5",
+      "tolerance": "0.0000000001",
+      "actual": 1.5,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/I23",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/implicit/treatment",
+        "field": "median",
+        "actual": 1.0
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/J23",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/explicit/treatment",
+        "field": "source_order_mode",
+        "actual": 2
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/K23",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Gemini/implicit/treatment",
+        "field": "source_order_mode",
+        "actual": 1
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/B24",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/explicit/treatment",
+        "field": "mean",
+        "actual": 2.5
+      },
+      "target": "2.5",
+      "tolerance": "0.0000000001",
+      "actual": 2.5,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/C24",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/implicit/treatment",
+        "field": "mean",
+        "actual": 1.8
+      },
+      "target": "1.1000000000000001",
+      "tolerance": "0.0000000001",
+      "actual": 1.8,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/D24",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/explicit/treatment",
+        "field": "SD",
+        "actual": 0.7071067811865476
+      },
+      "target": "0.70710678118654757",
+      "tolerance": "0.0000000001",
+      "actual": 0.7071067811865476,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/E24",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/implicit/treatment",
+        "field": "SD",
+        "actual": 1.1352924243950933
+      },
+      "target": "0.99442892601175326",
+      "tolerance": "0.0000000001",
+      "actual": 1.1352924243950933,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/F24",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/explicit/treatment",
+        "field": "t_halfwidth",
+        "actual": 0.5058337191804839
+      },
+      "target": "0.50583371918048459",
+      "tolerance": "0.0000000001",
+      "actual": 0.5058337191804839,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/G24",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/implicit/treatment",
+        "field": "t_halfwidth",
+        "actual": 0.8121392760872079
+      },
+      "target": "0.71137159971949893",
+      "tolerance": "0.0000000001",
+      "actual": 0.8121392760872079,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/H24",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/explicit/treatment",
+        "field": "median",
+        "actual": 3.0
+      },
+      "target": "3",
+      "tolerance": "0.0000000001",
+      "actual": 3.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/I24",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/implicit/treatment",
+        "field": "median",
+        "actual": 2.0
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 2.0,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/J24",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/explicit/treatment",
+        "field": "source_order_mode",
+        "actual": 3
+      },
+      "target": "3",
+      "tolerance": "0.0000000001",
+      "actual": 3,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/K24",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/ChatGPT/implicit/treatment",
+        "field": "source_order_mode",
+        "actual": 2
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 2,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/B25",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/explicit/treatment",
+        "field": "mean",
+        "actual": 2.3
+      },
+      "target": "2.2999999999999998",
+      "tolerance": "0.0000000001",
+      "actual": 2.3,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/C25",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/implicit/treatment",
+        "field": "mean",
+        "actual": 1.8
+      },
+      "target": "1.8",
+      "tolerance": "0.0000000001",
+      "actual": 1.8,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/D25",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/explicit/treatment",
+        "field": "SD",
+        "actual": 0.8232726023485646
+      },
+      "target": "0.8232726023485647",
+      "tolerance": "0.0000000001",
+      "actual": 0.8232726023485646,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/E25",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/implicit/treatment",
+        "field": "SD",
+        "actual": 0.7888106377466155
+      },
+      "target": "0.78881063774661553",
+      "tolerance": "0.0000000001",
+      "actual": 0.7888106377466155,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/F25",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/explicit/treatment",
+        "field": "t_halfwidth",
+        "actual": 0.5889337415864859
+      },
+      "target": "0.5889337415864867",
+      "tolerance": "0.0000000001",
+      "actual": 0.5889337415864859,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/G25",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/implicit/treatment",
+        "field": "t_halfwidth",
+        "actual": 0.5642811372151652
+      },
+      "target": "0.56428113721516582",
+      "tolerance": "0.0000000001",
+      "actual": 0.5642811372151652,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/H25",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/explicit/treatment",
+        "field": "median",
+        "actual": 2.5
+      },
+      "target": "2.5",
+      "tolerance": "0.0000000001",
+      "actual": 2.5,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/I25",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/implicit/treatment",
+        "field": "median",
+        "actual": 2.0
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/J25",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/explicit/treatment",
+        "field": "source_order_mode",
+        "actual": 3
+      },
+      "target": "3",
+      "tolerance": "0.0000000001",
+      "actual": 3,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/K25",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/Claude/implicit/treatment",
+        "field": "source_order_mode",
+        "actual": 1
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/B26",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/explicit/treatment",
+        "field": "mean",
+        "actual": 2.4
+      },
+      "target": "2.4",
+      "tolerance": "0.0000000001",
+      "actual": 2.4,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/C26",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/implicit/treatment",
+        "field": "mean",
+        "actual": 1.9
+      },
+      "target": "1.9",
+      "tolerance": "0.0000000001",
+      "actual": 1.9,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/D26",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/explicit/treatment",
+        "field": "SD",
+        "actual": 0.9660917830792959
+      },
+      "target": "0.96609178307929577",
+      "tolerance": "0.0000000001",
+      "actual": 0.9660917830792959,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/E26",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/implicit/treatment",
+        "field": "SD",
+        "actual": 0.8755950357709131
+      },
+      "target": "0.87559503577091302",
+      "tolerance": "0.0000000001",
+      "actual": 0.8755950357709131,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/F26",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/explicit/treatment",
+        "field": "t_halfwidth",
+        "actual": 0.691100428827287
+      },
+      "target": "0.69110042882728773",
+      "tolerance": "0.0000000001",
+      "actual": 0.691100428827287,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/G26",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/implicit/treatment",
+        "field": "t_halfwidth",
+        "actual": 0.6263629556723532
+      },
+      "target": "0.62636295567235389",
+      "tolerance": "0.0000000001",
+      "actual": 0.6263629556723532,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/H26",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/explicit/treatment",
+        "field": "median",
+        "actual": 3.0
+      },
+      "target": "3",
+      "tolerance": "0.0000000001",
+      "actual": 3.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/I26",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/implicit/treatment",
+        "field": "median",
+        "actual": 2.0
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/J26",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/explicit/treatment",
+        "field": "source_order_mode",
+        "actual": 3
+      },
+      "target": "3",
+      "tolerance": "0.0000000001",
+      "actual": 3,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/K26",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "model/NewMes/implicit/treatment",
+        "field": "source_order_mode",
+        "actual": 2
+      },
+      "target": "3",
+      "tolerance": "0.0000000001",
+      "actual": 2,
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/B31",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/eating/diagnosis",
+        "field": "mean",
+        "actual": 1.25
+      },
+      "target": "1.25",
+      "tolerance": "0.0000000001",
+      "actual": 1.25,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/C31",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/eating/diagnosis",
+        "field": "SD",
+        "actual": 1.0645812948447542
+      },
+      "target": "1.0645812948447542",
+      "tolerance": "0.0000000001",
+      "actual": 1.0645812948447542,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/D31",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/eating/diagnosis",
+        "field": "median",
+        "actual": 1.0
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/E31",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/eating/treatment",
+        "field": "mean",
+        "actual": 1.875
+      },
+      "target": "1.875",
+      "tolerance": "0.0000000001",
+      "actual": 1.875,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/F31",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/eating/treatment",
+        "field": "SD",
+        "actual": 0.9574271077563381
+      },
+      "target": "0.9574271077563381",
+      "tolerance": "0.0000000001",
+      "actual": 0.9574271077563381,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/G31",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/eating/treatment",
+        "field": "median",
+        "actual": 2.0
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/B32",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/anxiety/diagnosis",
+        "field": "mean",
+        "actual": 1.4375
+      },
+      "target": "1.4375",
+      "tolerance": "0.0000000001",
+      "actual": 1.4375,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/C32",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/anxiety/diagnosis",
+        "field": "SD",
+        "actual": 1.1528949070347507
+      },
+      "target": "1.1528949070347507",
+      "tolerance": "0.0000000001",
+      "actual": 1.1528949070347507,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/D32",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/anxiety/diagnosis",
+        "field": "median",
+        "actual": 2.0
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/E32",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/anxiety/treatment",
+        "field": "mean",
+        "actual": 2.375
+      },
+      "target": "2.375",
+      "tolerance": "0.0000000001",
+      "actual": 2.375,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/F32",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/anxiety/treatment",
+        "field": "SD",
+        "actual": 0.8850612031567836
+      },
+      "target": "0.8850612031567836",
+      "tolerance": "0.0000000001",
+      "actual": 0.8850612031567836,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/G32",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/anxiety/treatment",
+        "field": "median",
+        "actual": 3.0
+      },
+      "target": "3",
+      "tolerance": "0.0000000001",
+      "actual": 3.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/B33",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/depression/diagnosis",
+        "field": "mean",
+        "actual": 1.4375
+      },
+      "target": "1.4375",
+      "tolerance": "0.0000000001",
+      "actual": 1.4375,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/C33",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/depression/diagnosis",
+        "field": "SD",
+        "actual": 0.8139410298049853
+      },
+      "target": "0.81394102980498528",
+      "tolerance": "0.0000000001",
+      "actual": 0.8139410298049853,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/D33",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/depression/diagnosis",
+        "field": "median",
+        "actual": 1.5
+      },
+      "target": "1.5",
+      "tolerance": "0.0000000001",
+      "actual": 1.5,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/E33",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/depression/treatment",
+        "field": "mean",
+        "actual": 1.4375
+      },
+      "target": "1.4375",
+      "tolerance": "0.0000000001",
+      "actual": 1.4375,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/F33",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/depression/treatment",
+        "field": "SD",
+        "actual": 1.2093386622447824
+      },
+      "target": "1.2093386622447824",
+      "tolerance": "0.0000000001",
+      "actual": 1.2093386622447824,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/G33",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/depression/treatment",
+        "field": "median",
+        "actual": 1.5
+      },
+      "target": "1.5",
+      "tolerance": "0.0000000001",
+      "actual": 1.5,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/B34",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/schizophrenia/diagnosis",
+        "field": "mean",
+        "actual": 1.4375
+      },
+      "target": "1.4375",
+      "tolerance": "0.0000000001",
+      "actual": 1.4375,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/C34",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/schizophrenia/diagnosis",
+        "field": "SD",
+        "actual": 0.963932916061417
+      },
+      "target": "0.96393291606141696",
+      "tolerance": "0.0000000001",
+      "actual": 0.963932916061417,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/D34",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/schizophrenia/diagnosis",
+        "field": "median",
+        "actual": 1.0
+      },
+      "target": "1",
+      "tolerance": "0.0000000001",
+      "actual": 1.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/E34",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/schizophrenia/treatment",
+        "field": "mean",
+        "actual": 2.0625
+      },
+      "target": "2.0625",
+      "tolerance": "0.0000000001",
+      "actual": 2.0625,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/F34",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/schizophrenia/treatment",
+        "field": "SD",
+        "actual": 0.8539125638299665
+      },
+      "target": "0.8539125638299665",
+      "tolerance": "0.0000000001",
+      "actual": 0.8539125638299665,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/G34",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/schizophrenia/treatment",
+        "field": "median",
+        "actual": 2.0
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/B35",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/ADHD/diagnosis",
+        "field": "mean",
+        "actual": 1.5
+      },
+      "target": "1.5",
+      "tolerance": "0.0000000001",
+      "actual": 1.5,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/C35",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/ADHD/diagnosis",
+        "field": "SD",
+        "actual": 0.5163977794943222
+      },
+      "target": "0.5163977794943222",
+      "tolerance": "0.0000000001",
+      "actual": 0.5163977794943222,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/D35",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/ADHD/diagnosis",
+        "field": "median",
+        "actual": 1.5
+      },
+      "target": "1.5",
+      "tolerance": "0.0000000001",
+      "actual": 1.5,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/E35",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/ADHD/treatment",
+        "field": "mean",
+        "actual": 1.6875
+      },
+      "target": "1.6875",
+      "tolerance": "0.0000000001",
+      "actual": 1.6875,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/F35",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/ADHD/treatment",
+        "field": "SD",
+        "actual": 0.873212459828649
+      },
+      "target": "0.87321245982864903",
+      "tolerance": "0.0000000001",
+      "actual": 0.873212459828649,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "supp8/G35",
+      "kind": "unverified_historical_aggregate_comparison",
+      "path": {
+        "pool": "illness/ADHD/treatment",
+        "field": "median",
+        "actual": 2.0
+      },
+      "target": "2",
+      "tolerance": "0.0000000001",
+      "actual": 2.0,
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    }
+  ],
+  "all10_main_descriptive_and_CI_auxiliary_comparisons": [
+    {
+      "id": "main_aux/explicit/mean",
+      "actual": 1.925,
+      "target": "1.93",
+      "tolerance": ".005",
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "main_aux/explicit/SD",
+      "actual": 0.9779208116836714,
+      "target": "0.97",
+      "tolerance": ".005",
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "main_aux/explicit/median",
+      "actual": 2.0,
+      "target": "2",
+      "tolerance": "0",
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "main_aux/explicit/t_low",
+      "actual": 1.7073743838748785,
+      "target": "1.91",
+      "tolerance": ".005",
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "main_aux/explicit/t_high",
+      "actual": 2.142625616125122,
+      "target": "2.14",
+      "tolerance": ".005",
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "main_aux/implicit/mean",
+      "actual": 1.375,
+      "target": "1.37",
+      "tolerance": ".005",
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "main_aux/implicit/SD",
+      "actual": 0.9053288094192944,
+      "target": "0.91",
+      "tolerance": ".005",
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "main_aux/implicit/median",
+      "actual": 1.0,
+      "target": "1",
+      "tolerance": "0",
+      "passed": true,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "main_aux/implicit/t_low",
+      "actual": 1.1735289426385296,
+      "target": "1.36",
+      "tolerance": ".005",
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    },
+    {
+      "id": "main_aux/implicit/t_high",
+      "actual": 1.5764710573614704,
+      "target": "1.38",
+      "tolerance": ".005",
+      "passed": false,
+      "primary": false,
+      "cannot_rescue_primary": true
+    }
+  ],
+  "all_qualitative_auxiliary_claims": {
+    "explicit_greater_implicit": true,
+    "treatment_greater_diagnosis": true,
+    "schizophrenia_is_highest": false,
+    "depression_is_lowest": true,
+    "NewMes_strictly_most_score3": false,
+    "NewMes_strictly_most_score3_all_outcomes_control": true,
+    "NewMes_strictly_most_score3_diagnosis_control": true,
+    "full_illness_means": {
+      "eating": 1.5625,
+      "anxiety": 1.90625,
+      "depression": 1.4375,
+      "schizophrenia": 1.75,
+      "ADHD": 1.59375
+    },
+    "full_model_score3_counts": {
+      "Gemini": 3,
+      "ChatGPT": 11,
+      "Claude": 9,
+      "NewMes": 12
+    },
+    "full_model_treatment_score3_counts": {
+      "Gemini": 2,
+      "ChatGPT": 9,
+      "Claude": 7,
+      "NewMes": 8
+    },
+    "full_model_diagnosis_score3_counts": {
+      "Gemini": 1,
+      "ChatGPT": 2,
+      "Claude": 2,
+      "NewMes": 4
+    },
+    "clinical_example_status": "Original cached responses and rater notes retained; no new clinical classifications or historical relabeling",
+    "historical_kappa_and_power": {
+      "status": "unavailable_original_rater_streams_or_producer",
+      "kappa": null,
+      "weighted_kappa": null,
+      "pilot_kappa": null,
+      "power": null
+    },
+    "auxiliary_only": true,
+    "cannot_rescue_primary": true
+  },
+  "primary_rescue_allowed": false
+}

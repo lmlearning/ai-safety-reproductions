@@ -1,0 +1,974 @@
+[
+  {
+    "key": "knowledge/k",
+    "actual": 11,
+    "target": 11,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "knowledge/gai_n",
+    "actual": 395,
+    "target": 395,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "knowledge/traditional_n",
+    "actual": 391,
+    "target": 391,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "knowledge/df",
+    "actual": 10,
+    "target": 10,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "knowledge/smd",
+    "actual": "0.26986963487480590671573923204200434112137357320325283520497880195421422934967069",
+    "target": "0.27",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "knowledge/lower",
+    "actual": "-0.30728849792663349841861106045034317470111820323132529067956552097959464474364434",
+    "target": "-0.31",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "knowledge/upper",
+    "actual": "0.84702776767624531185008952453435185694386534963783096108952312488802310344298572",
+    "target": "0.85",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "knowledge/p",
+    "actual": "0.35943256126702399199709457400891162004283844161473391140085721147430583554758498",
+    "target": "0.36",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "knowledge/I2",
+    "actual": "93.274667525793325041464450218366621209862292209785300658202562863039139994847088",
+    "target": "93",
+    "passed": true,
+    "tolerance": "0.500000001"
+  },
+  {
+    "key": "knowledge/point_direction",
+    "actual": 1,
+    "target": 1,
+    "passed": true,
+    "tolerance": null
+  },
+  {
+    "key": "knowledge/CI_class",
+    "actual": "includes_zero",
+    "target": "includes_zero",
+    "passed": true
+  },
+  {
+    "key": "skill/k",
+    "actual": 2,
+    "target": 2,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "skill/gai_n",
+    "actual": 52,
+    "target": 52,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "skill/traditional_n",
+    "actual": 51,
+    "target": 51,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "skill/df",
+    "actual": 1,
+    "target": 1,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "skill/smd",
+    "actual": "0.62952437757997575044844673810334440350933745666767056932628871481727119250531782",
+    "target": "0.63",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "skill/lower",
+    "actual": "0.09753186360283915809966049382585550754614576334438663936567701181506874250951118",
+    "target": "0.10",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "skill/upper",
+    "actual": "1.1615168915571123427972329823808332994725291499909544992869004178194736425011245",
+    "target": "1.16",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "skill/p",
+    "actual": "0.020379297963913000795859958261002371904692433914139008988950075485607396552467338",
+    "target": "0.02",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "skill/I2",
+    "actual": "43.011563954413061128459722578218999594118832765306034085151407670914570522349595",
+    "target": "43",
+    "passed": true,
+    "tolerance": "0.500000001"
+  },
+  {
+    "key": "skill/point_direction",
+    "actual": 1,
+    "target": 1,
+    "passed": true,
+    "tolerance": null
+  },
+  {
+    "key": "skill/CI_class",
+    "actual": "positive",
+    "target": "positive",
+    "passed": true
+  },
+  {
+    "key": "satisfaction/k",
+    "actual": 3,
+    "target": 3,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "satisfaction/gai_n",
+    "actual": 94,
+    "target": 94,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "satisfaction/traditional_n",
+    "actual": 92,
+    "target": 92,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "satisfaction/df",
+    "actual": 2,
+    "target": 2,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "satisfaction/smd",
+    "actual": "1.1834592440014746244607888386312463420585219855394192429711934773112941720500521",
+    "target": "1.18",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "satisfaction/lower",
+    "actual": "0.49734141902879567637725111412446727942678777161040661393246302045617013669980216",
+    "target": "0.50",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "satisfaction/upper",
+    "actual": "1.8695770689741535725443265631380254046902561994684318720099239341664182074003020",
+    "target": "1.87",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "satisfaction/p",
+    "actual": "0.00072309502511404343294560913433691905067542502437276181019734723872537426133738657",
+    "target": "0.0007",
+    "passed": true,
+    "tolerance": "0.000050001"
+  },
+  {
+    "key": "satisfaction/I2",
+    "actual": "78.689280904561159950495850424240573385182434005535513071652487124044291483060049",
+    "target": "79",
+    "passed": true,
+    "tolerance": "0.500000001"
+  },
+  {
+    "key": "satisfaction/point_direction",
+    "actual": 1,
+    "target": 1,
+    "passed": true,
+    "tolerance": null
+  },
+  {
+    "key": "satisfaction/CI_class",
+    "actual": "positive",
+    "target": "positive",
+    "passed": true
+  },
+  {
+    "key": "geography/Asia/k",
+    "actual": 8,
+    "target": 8,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "geography/Asia/gai_n",
+    "actual": 285,
+    "target": 285,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "geography/Asia/traditional_n",
+    "actual": 285,
+    "target": 285,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "geography/Asia/df",
+    "actual": 7,
+    "target": 7,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "geography/Asia/smd",
+    "actual": "0.24545570618261958234981749809862712129363812896572855788201533048725717028528135",
+    "target": "0.25",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "geography/Asia/lower",
+    "actual": "-0.55146512791115395686183836549860668561949105762909732806924462622141968739337278",
+    "target": "-0.55",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "geography/Asia/upper",
+    "actual": "1.0423765402763931215614733616958609282067673155605544438332752871959340279639355",
+    "target": "1.04",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "geography/Asia/p",
+    "actual": "0.54605710213269489683560621794716219253146582436850193335071147016091271223672445",
+    "target": "0.55",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "geography/Asia/I2",
+    "actual": "95.001546765948481201388990012283306462775705883314165420321529777172881601045224",
+    "target": "95",
+    "passed": true,
+    "tolerance": "0.500000001"
+  },
+  {
+    "key": "geography/Asia/point_direction",
+    "actual": 1,
+    "target": 1,
+    "passed": true,
+    "tolerance": null
+  },
+  {
+    "key": "geography/Asia/CI_class",
+    "actual": "includes_zero",
+    "target": "includes_zero",
+    "passed": true
+  },
+  {
+    "key": "geography/Europe/k",
+    "actual": 3,
+    "target": 3,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "geography/Europe/gai_n",
+    "actual": 110,
+    "target": 110,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "geography/Europe/traditional_n",
+    "actual": 106,
+    "target": 106,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "geography/Europe/df",
+    "actual": 2,
+    "target": 2,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "geography/Europe/smd",
+    "actual": "0.30747015595609236742897540640998407605817104698512673705915965237892312414315793",
+    "target": "0.31",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "geography/Europe/lower",
+    "actual": "-0.30118268526616048120201982099343882425458902448794559611710703130542700305635770",
+    "target": "-0.30",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "geography/Europe/upper",
+    "actual": "0.91612299717834521605997063381340697637093111845819907023542633606327325134267356",
+    "target": "0.92",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "geography/Europe/p",
+    "actual": "0.32212263058070187535289007193817905089736181603566140123251152094809826885226579",
+    "target": "0.32",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "geography/Europe/I2",
+    "actual": "76.834738009498216225656344962240394525563073022512643587665917292335004486932730",
+    "target": "77",
+    "passed": true,
+    "tolerance": "0.500000001"
+  },
+  {
+    "key": "geography/Europe/point_direction",
+    "actual": 1,
+    "target": 1,
+    "passed": true,
+    "tolerance": null
+  },
+  {
+    "key": "geography/Europe/CI_class",
+    "actual": "includes_zero",
+    "target": "includes_zero",
+    "passed": true
+  },
+  {
+    "key": "duration/short/k",
+    "actual": 5,
+    "target": 5,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "duration/short/gai_n",
+    "actual": 179,
+    "target": 179,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "duration/short/traditional_n",
+    "actual": 183,
+    "target": 183,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "duration/short/df",
+    "actual": 4,
+    "target": 4,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "duration/short/smd",
+    "actual": "-0.33780369776153240707665469595101039981010470709008726404278489909809475920909586",
+    "target": "-0.34",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "duration/short/lower",
+    "actual": "-1.2591593376327077338222474962444358180746512643283191762485361531070161104451197",
+    "target": "-1.26",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "duration/short/upper",
+    "actual": "0.58355194210964291966893810434241501845444185014814464816296635491082659202692799",
+    "target": "0.58",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "duration/short/p",
+    "actual": "0.47238947460602358475421062170266602566116351136672717469394908676494273726097046",
+    "target": "0.47",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "duration/short/I2",
+    "actual": "93.969637732827530325328727478307894401953312623848828220558885870064791065255372",
+    "target": "94",
+    "passed": true,
+    "tolerance": "0.500000001"
+  },
+  {
+    "key": "duration/short/point_direction",
+    "actual": -1,
+    "target": -1,
+    "passed": true,
+    "tolerance": null
+  },
+  {
+    "key": "duration/short/CI_class",
+    "actual": "includes_zero",
+    "target": "includes_zero",
+    "passed": true
+  },
+  {
+    "key": "duration/long/k",
+    "actual": 5,
+    "target": 5,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "duration/long/gai_n",
+    "actual": 184,
+    "target": 184,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "duration/long/traditional_n",
+    "actual": 176,
+    "target": 176,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "duration/long/df",
+    "actual": 4,
+    "target": 4,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "duration/long/smd",
+    "actual": "0.64228111844066533316314301998169180944343415456831463128146361737642754939205904",
+    "target": "0.64",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "duration/long/lower",
+    "actual": "0.09140843585598074991100334401543389011649789292695775109430220010584662358511844",
+    "target": "0.09",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "duration/long/upper",
+    "actual": "1.1931538010253499164152826959479497287703704162096715114686250346470084751989996",
+    "target": "1.19",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "duration/long/p",
+    "actual": "0.022301783515069735378377255712118578514248738859405012279203571605836744472866463",
+    "target": "0.02",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "duration/long/I2",
+    "actual": "84.049942017516536576102698321510003049442030143129467481144405151901865452964274",
+    "target": "84",
+    "passed": true,
+    "tolerance": "0.500000001"
+  },
+  {
+    "key": "duration/long/point_direction",
+    "actual": 1,
+    "target": 1,
+    "passed": true,
+    "tolerance": null
+  },
+  {
+    "key": "duration/long/CI_class",
+    "actual": "positive",
+    "target": "positive",
+    "passed": true
+  },
+  {
+    "key": "course/theory/k",
+    "actual": 6,
+    "target": 6,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "course/theory/gai_n",
+    "actual": 241,
+    "target": 241,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "course/theory/traditional_n",
+    "actual": 240,
+    "target": 240,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "course/theory/df",
+    "actual": 5,
+    "target": 5,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "course/theory/smd",
+    "actual": "-0.25047375148173406660839525220966329036179694058204042387062983303121141698102641",
+    "target": "-0.25",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "course/theory/lower",
+    "actual": "-0.99765852149101340860169979660774763447513823405508727316359563334957212040589496",
+    "target": "-1.00",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "course/theory/upper",
+    "actual": "0.49671101852754527538490929218842105375154435289100642542233596728714928644384214",
+    "target": "0.50",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "course/theory/p",
+    "actual": "0.51116444715333966052069795534823461199121944064820504556782476951469582437235273",
+    "target": "0.51",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "course/theory/I2",
+    "actual": "93.386405763816815759817573489067009066782551152623435209150418988770316795298639",
+    "target": "93",
+    "passed": true,
+    "tolerance": "0.500000001"
+  },
+  {
+    "key": "course/theory/point_direction",
+    "actual": -1,
+    "target": -1,
+    "passed": true,
+    "tolerance": null
+  },
+  {
+    "key": "course/theory/CI_class",
+    "actual": "includes_zero",
+    "target": "includes_zero",
+    "passed": true
+  },
+  {
+    "key": "course/practice/k",
+    "actual": 5,
+    "target": 5,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "course/practice/gai_n",
+    "actual": 154,
+    "target": 154,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "course/practice/traditional_n",
+    "actual": 151,
+    "target": 151,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "course/practice/df",
+    "actual": 4,
+    "target": 4,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "course/practice/smd",
+    "actual": "0.89448288377417312754760649553477937312720662447793140854952518860110078868818254",
+    "target": "0.89",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "course/practice/lower",
+    "actual": "0.25228367168348715045541742299687044170944953419751398317047541051623993541765418",
+    "target": "0.25",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "course/practice/upper",
+    "actual": "1.5366820958648591046397955680726883045449637147583488339285749666859616419587109",
+    "target": "1.54",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "course/practice/p",
+    "actual": "0.006334916870656150923701583444942628405435808836722104295398662743098189015467484",
+    "target": "<0.01",
+    "passed": true,
+    "tolerance": "0.015"
+  },
+  {
+    "key": "course/practice/I2",
+    "actual": "85.784143179706168693926110799984164013791812985619666351829748789422768720579969",
+    "target": "86",
+    "passed": true,
+    "tolerance": "0.500000001"
+  },
+  {
+    "key": "course/practice/point_direction",
+    "actual": 1,
+    "target": 1,
+    "passed": true,
+    "tolerance": null
+  },
+  {
+    "key": "course/practice/CI_class",
+    "actual": "positive",
+    "target": "positive",
+    "passed": true
+  },
+  {
+    "key": "assessment/immediate/k",
+    "actual": 9,
+    "target": 9,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "assessment/immediate/gai_n",
+    "actual": 343,
+    "target": 343,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "assessment/immediate/traditional_n",
+    "actual": 340,
+    "target": 340,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "assessment/immediate/df",
+    "actual": 8,
+    "target": 8,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "assessment/immediate/smd",
+    "actual": "0.044564560388561636301143617125545029186135242353907300759332679166838206195701170",
+    "target": "0.04",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "assessment/immediate/lower",
+    "actual": "-0.55209285185345921138411101540492884161804362597354306244582101347193426082623286",
+    "target": "-0.55",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "assessment/immediate/upper",
+    "actual": "0.64122197263058248398639824965601889999031411068135766396448637180561067321763520",
+    "target": "0.64",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "assessment/immediate/p",
+    "actual": "0.88361318405082030354940202562323523478668150070823939453244371425256757791287499",
+    "target": "0.88",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "assessment/immediate/I2",
+    "actual": "92.873466966716038017002035589975905983473644275805665526391244534151023969892638",
+    "target": "93",
+    "passed": true,
+    "tolerance": "0.500000001"
+  },
+  {
+    "key": "assessment/immediate/point_direction",
+    "actual": 1,
+    "target": 1,
+    "passed": true,
+    "tolerance": null
+  },
+  {
+    "key": "assessment/immediate/CI_class",
+    "actual": "includes_zero",
+    "target": "includes_zero",
+    "passed": true
+  },
+  {
+    "key": "assessment/delayed/k",
+    "actual": 3,
+    "target": 3,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "assessment/delayed/gai_n",
+    "actual": 108,
+    "target": 108,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "assessment/delayed/traditional_n",
+    "actual": 110,
+    "target": 110,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "assessment/delayed/df",
+    "actual": 2,
+    "target": 2,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "assessment/delayed/smd",
+    "actual": "0.81864783299582886384428537331769983727129874498568818028338976387629919334875919",
+    "target": "0.82",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "assessment/delayed/lower",
+    "actual": "-0.32178743540270581170053212637590324694104649476698202541093066707961519470268621",
+    "target": "-0.32",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "assessment/delayed/upper",
+    "actual": "1.9590831013943635393891028730113029214836439847383583859777101948322135814002046",
+    "target": "1.96",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "assessment/delayed/p",
+    "actual": "0.15944615053214720428069327452078219515874310481886221969874111072981429721946538",
+    "target": "0.16",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "assessment/delayed/I2",
+    "actual": "92.941690569464184170959624512349048785071607531477365394720719337605530016947972",
+    "target": "93",
+    "passed": true,
+    "tolerance": "0.500000001"
+  },
+  {
+    "key": "assessment/delayed/point_direction",
+    "actual": 1,
+    "target": 1,
+    "passed": true,
+    "tolerance": null
+  },
+  {
+    "key": "assessment/delayed/CI_class",
+    "actual": "includes_zero",
+    "target": "includes_zero",
+    "passed": true
+  },
+  {
+    "key": "between/geography/Q",
+    "actual": "0.014692041500629177594181510325474780547716680236374317422404538859642776314999544",
+    "target": "0.01",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "between/geography/p",
+    "actual": "0.90352412405588692057954670449315511137822914251025872903190443548833714155496141",
+    "target": "0.90",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "between/geography/I2",
+    "actual": "0",
+    "target": "0",
+    "passed": true,
+    "tolerance": "0.500000001"
+  },
+  {
+    "key": "between/geography/df",
+    "actual": 1,
+    "target": 1,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "between/geography/significance",
+    "actual": false,
+    "target": false,
+    "passed": true
+  },
+  {
+    "key": "between/duration/Q",
+    "actual": "3.2021117711186833575927011418075524943515515725552616800588292339430246305000367",
+    "target": "3.20",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "between/duration/p",
+    "actual": "0.073543251248692175427368137928162008556642249318608861138088377556501994637921128",
+    "target": "0.07",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "between/duration/I2",
+    "actual": "68.770609164256561786318970576689841529635372287745437883990769571761598886827544",
+    "target": "68.8",
+    "passed": true,
+    "tolerance": "0.050000001"
+  },
+  {
+    "key": "between/duration/df",
+    "actual": 1,
+    "target": 1,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "between/duration/significance",
+    "actual": false,
+    "target": false,
+    "passed": true
+  },
+  {
+    "key": "between/course/Q",
+    "actual": "5.1878454885915056809147619522411709103249092927992060675684018945954759260356835",
+    "target": "5.19",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "between/course/p",
+    "actual": "0.022745397495911776030811386811476784077541641675298296874041824170202311692544181",
+    "target": "0.02",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "between/course/I2",
+    "actual": "80.724175340243240449909671960740992473439893018322194324799794252865118275012071",
+    "target": "80.7",
+    "passed": true,
+    "tolerance": "0.050000001"
+  },
+  {
+    "key": "between/course/df",
+    "actual": 1,
+    "target": 1,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "between/course/significance",
+    "actual": true,
+    "target": true,
+    "passed": true
+  },
+  {
+    "key": "between/assessment/Q",
+    "actual": "1.3894912378081621205799707872560283524617916546003861865363174657364377455455703",
+    "target": "1.39",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "between/assessment/p",
+    "actual": "0.23849103615929410983205347687628291398773475025988120402391933633259903713771379",
+    "target": "0.24",
+    "passed": true,
+    "tolerance": "0.005000001"
+  },
+  {
+    "key": "between/assessment/I2",
+    "actual": "28.031212231504305729246814956833167703236411430001317186774088813520233828575214",
+    "target": "28.0",
+    "passed": true,
+    "tolerance": "0.050000001"
+  },
+  {
+    "key": "between/assessment/df",
+    "actual": 1,
+    "target": 1,
+    "passed": true,
+    "tolerance": "0"
+  },
+  {
+    "key": "between/assessment/significance",
+    "actual": false,
+    "target": false,
+    "passed": true
+  }
+]

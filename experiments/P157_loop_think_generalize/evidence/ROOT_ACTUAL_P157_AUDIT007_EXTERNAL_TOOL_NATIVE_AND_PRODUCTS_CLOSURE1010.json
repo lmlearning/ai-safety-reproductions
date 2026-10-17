@@ -1,0 +1,66 @@
+{
+  "schema": "ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_AND_NATIVE_CLOSURE1010",
+  "UTC": "2026-10-17T12:25:13.347916+00:00",
+  "actual_launch_tool": "839be8",
+  "actual_session": 36567,
+  "actual_final_tool_completion": "0404a0",
+  "actual_external_tool_exit": 0,
+  "actual_final_stdout": {
+    "phase": "audit",
+    "operational_complete": true,
+    "terminal_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\audit_parent007\\TERMINAL.json",
+      "bytes": 1764,
+      "sha256": "67cc594096a83b422ea00b942ae924cdf6e2fdfcc6deb461ff9b0ca37edf9886"
+    },
+    "paper_credit": 0
+  },
+  "native_parent_terminal_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\audit_parent007\\TERMINAL.json",
+    "bytes": 1764,
+    "sha256": "67cc594096a83b422ea00b942ae924cdf6e2fdfcc6deb461ff9b0ca37edf9886"
+  },
+  "actual_direct_child_native_exit": 0,
+  "retained_direct_handle_and_streams_closed": true,
+  "Job_enforcement_claimed": false,
+  "parent_postexit_native": "UNMEASURED",
+  "closed_stream_refs": [
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\audit_parent007\\child.stdout",
+      "bytes": 334,
+      "sha256": "0365cb07199a924b03113097c55c961f3c11869afe55d8f801c6d450f07bec9b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\audit_parent007\\child.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "complete_full_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\COMPLETE_ALL_NINE_FULL.json",
+    "bytes": 90849229,
+    "sha256": "491c6c8a6bd69a69342cc7ddddb7fd84275d666e37ab6603454cd3064399606d"
+  },
+  "whole_audit_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\COMPLETE_WHOLE_AUDIT.json",
+    "bytes": 203083,
+    "sha256": "96981518e3c9c4fb4b1b1eef76c0e4a1b7042df329d7c27edfe140d80c2a2624"
+  },
+  "published_comparison_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\COMPLETE_ALL3279_PUBLISHED_COMPARISON.json",
+    "bytes": 1932875,
+    "sha256": "aca8ffd282c64ab339204e583b24be9cc3fa85ebdc8764e57bbfba4c746162d2"
+  },
+  "current_audit_admission_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_audit_only007_ROOT1009\\ROOT_ONE_AUDIT_ONLY007_ORIGINAL997_CLOCK_ADMISSION1009.json",
+    "bytes": 11397,
+    "sha256": "f97851a98144010498497517fe584267ee64ff482046b3672384cdc3409fcb29"
+  },
+  "current_source007_bridge_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_audit_only007_ROOT1009\\ROOT_EXPLICIT_AUDIT007_OVER_COMPLETED006_AND_FAILED997_COMPATIBILITY1009.json",
+    "bytes": 4220,
+    "sha256": "1a83c27c3432d407af253e7d986946cfcdc7411e5038ae3df71cdbc37db46b2b"
+  },
+  "integrity_not_target_or_near_verdict": true,
+  "paper_credit": 0
+}

@@ -1,0 +1,706 @@
+{
+  "paper_id": "P079",
+  "arxiv_id": "2507.09089",
+  "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+  "preregistered_at_utc": "2026-10-10T18:18:21.838530+00:00",
+  "outcomes_previously_calculated": false,
+  "class": "central_human_trial_analysis",
+  "full_reproduction": false,
+  "scope": "Entire primary causal issue-time contribution from every246 original released completed tasks: original baseline regression with all3 released covariance estimates, all4 original alternative estimators, both original imputation sensitivities, forecast contrast/calibration, raw-time distributions, all original balance/allocation checks. Original individual observations and full diagnostic outputs retained.",
+  "original_version": "arxiv v1 July12 2025; first original released data/code commit a7fd9c1207323df32ee0f2ab2e933bc71baf4a35 July19; no later header/x cleaning or treatment-label README correction is an input.",
+  "full_reproduction_infeasible": "Fresh16-developer paid human experiment and original historical Cursor/Claude use cannot be repeated within zero-paid constraints. Full factor/qualitative/screen-recording/dropout analysis and expert/post-study belief inputs are not publicly released.",
+  "omissions": [
+    "No new recruitment, model inference, or historical Cursor/Claude run.",
+    "No private screen recordings/activity labels, dropout/deprioritization identities, dates/order/skill/commit-quality/repo covariates or all20-factor analysis.",
+    "No expert forecasts/post-study surveys or missing primary-only outside-time log fields.",
+    "No auxiliary exposure/external-resources heterogeneity; raw literal x and unknown original classifications retained.",
+    "Original Figure14 displayed without complete published numeric targets; full246 diagnostics retained and independently audited, no exact line-shape credit."
+  ],
+  "methods": {
+    "primary": "Execute unchanged original impute/add-total/run_regression functions. AI=1 means allowed per original paper's cohort/code, despite erroneous README label. Mean post-review time imputed separately by treatment as original.",
+    "OLS": "Homoskedastic statsmodels OLS, intercept, all246, log time and stated forecast controls; developer fixed effects C(dev_id). Source uses normal critical norm.ppf(.975). Original HC3 and cluster small-sample correction retained.",
+    "bootstrap": "Original D.4 pooled nonparametric bootstrap. 50000 whole-task resamples seed42 for observed ratio. Forecast unpaired expanded492 rows with forecast-type flag, whole-row pooled resamples seed43. Original bootstrap seed/count/pairing details absent; this is a prospective interpretation fixed from displayed width. Mandatory paired task-bootstrap seed44 also reported, never substituted for primary source-comparison results. NumPy default_rng and linear quantiles. All draws retained.",
+    "balance": "Sample SD ddof1, Welch two-sided t, Pearson chi-square vs50/50; SE sqrt(p(1-p)/n).",
+    "distributions": "Complete empirical distributions include all original tasks; calculate original<=time ECDF fractions at source-frozen five hour checkpoints, no case removal.",
+    "imputation": "Only missing post-review cells set either AI60min/noAI0 or AI0/noAI60; actual observed review times retained."
+  },
+  "prospective_source_conflicts": [
+    "v1 says27 missing review times; first released raw file has16, known structurally before outcomes. No missing values invented; released analysis version used.",
+    "First README says treatment0=allowed despite code and paper cohort indicating1=allowed. Feb2026 README correction is evidence only, not substituted source.",
+    "v1 C.3.4 prose orders sensitivity results14%,23% opposite to monotonic implication of its named imputations. Prospectively compare original14/23 pair with explicit corrected ordering AI60/no0=23, AI0/no60=14 and report literal prose discrepancy.",
+    "July21 data change only headers and one auxiliary x; untouched first file archived.",
+    "Unreleased exact NumPy/pandas/Python/BLAS and bootstrap versions/seeds; core released statsmodels0.14.4/scipy1.15.2 are exact in isolated overlay."
+  ],
+  "dependencies": {
+    "statsmodels": "0.14.4",
+    "scipy": "1.15.2",
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "patsy": "1.0.1",
+    "python": "3.12.0rc3",
+    "isolation": "workspace package overlay in child sys.path, no active shared installation changed",
+    "unreleased_dependency_choices_disclosed": true
+  },
+  "resources": {
+    "paid_api_spend": 0,
+    "fresh_gpu_inference": false,
+    "threads": 1,
+    "cpu_review_seconds": 600,
+    "process_rss_cap_bytes": 1073741824,
+    "launch_available_ram_floor_bytes": 1610612736,
+    "disk_floor_gib": 35
+  },
+  "targets": [
+    {
+      "id": "n",
+      "low": 246,
+      "high": 246,
+      "source": "v1 Sections2/3 and Fig4",
+      "expected": 246,
+      "tolerance": 0
+    },
+    {
+      "id": "developers",
+      "low": 16,
+      "high": 16,
+      "source": "v1 Sections2/3 and Fig4",
+      "expected": 16,
+      "tolerance": 0
+    },
+    {
+      "id": "n_ai",
+      "low": 136,
+      "high": 136,
+      "source": "v1 Sections2/3 and Fig4",
+      "expected": 136,
+      "tolerance": 0
+    },
+    {
+      "id": "n_no_ai",
+      "low": 110,
+      "high": 110,
+      "source": "v1 Sections2/3 and Fig4",
+      "expected": 110,
+      "tolerance": 0
+    },
+    {
+      "id": "baseline.point",
+      "low": 0.18749,
+      "high": 0.18851,
+      "source": "first July19 original README and original regression",
+      "expected": 0.188,
+      "tolerance": 0.00051
+    },
+    {
+      "id": "baseline.Homoskedastic.low",
+      "low": 0.01249,
+      "high": 0.01351,
+      "source": "first original README",
+      "expected": 0.013,
+      "tolerance": 0.00051
+    },
+    {
+      "id": "baseline.Homoskedastic.high",
+      "low": 0.39449,
+      "high": 0.39551000000000003,
+      "source": "first original README",
+      "expected": 0.395,
+      "tolerance": 0.00051
+    },
+    {
+      "id": "baseline.Robust (HC3).low",
+      "low": 0.01249,
+      "high": 0.01351,
+      "source": "first original README",
+      "expected": 0.013,
+      "tolerance": 0.00051
+    },
+    {
+      "id": "baseline.Robust (HC3).high",
+      "low": 0.39349,
+      "high": 0.39451,
+      "source": "first original README",
+      "expected": 0.394,
+      "tolerance": 0.00051
+    },
+    {
+      "id": "baseline.Clustered By Dev.low",
+      "low": 0.01549,
+      "high": 0.01651,
+      "source": "first original README",
+      "expected": 0.016,
+      "tolerance": 0.00051
+    },
+    {
+      "id": "baseline.Clustered By Dev.high",
+      "low": 0.38949,
+      "high": 0.39051,
+      "source": "first original README",
+      "expected": 0.39,
+      "tolerance": 0.00051
+    },
+    {
+      "id": "ratio.point",
+      "low": 0.33490000000000003,
+      "high": 0.3451,
+      "source": "original Figure13 visual or 34% prose",
+      "expected": 0.34,
+      "tolerance": 0.0051
+    },
+    {
+      "id": "ratio.low",
+      "low": 0.039900000000000005,
+      "high": 0.0601,
+      "source": "original Figure13 graphical reading; ratio also Fig4 printed CI",
+      "expected": 0.05,
+      "tolerance": 0.0101
+    },
+    {
+      "id": "ratio.high",
+      "low": 0.6899,
+      "high": 0.7101,
+      "source": "original Figure13 graphical reading; ratio also Fig4 printed CI",
+      "expected": 0.7,
+      "tolerance": 0.0101
+    },
+    {
+      "id": "treatment_only.point",
+      "low": 0.22490000000000002,
+      "high": 0.2351,
+      "source": "original Figure13 visual or 34% prose",
+      "expected": 0.23,
+      "tolerance": 0.0051
+    },
+    {
+      "id": "treatment_only.low",
+      "low": -0.0201,
+      "high": 9.99999999999994e-05,
+      "source": "original Figure13 graphical reading; ratio also Fig4 printed CI",
+      "expected": -0.01,
+      "tolerance": 0.0101
+    },
+    {
+      "id": "treatment_only.high",
+      "low": 0.5199,
+      "high": 0.5401,
+      "source": "original Figure13 graphical reading; ratio also Fig4 printed CI",
+      "expected": 0.53,
+      "tolerance": 0.0101
+    },
+    {
+      "id": "ai_forecast.point",
+      "low": 0.2149,
+      "high": 0.2251,
+      "source": "original Figure13 visual or 34% prose",
+      "expected": 0.22,
+      "tolerance": 0.0051
+    },
+    {
+      "id": "ai_forecast.low",
+      "low": 0.029900000000000003,
+      "high": 0.0501,
+      "source": "original Figure13 graphical reading; ratio also Fig4 printed CI",
+      "expected": 0.04,
+      "tolerance": 0.0101
+    },
+    {
+      "id": "ai_forecast.high",
+      "low": 0.4299,
+      "high": 0.4501,
+      "source": "original Figure13 graphical reading; ratio also Fig4 printed CI",
+      "expected": 0.44,
+      "tolerance": 0.0101
+    },
+    {
+      "id": "developer_fe.point",
+      "low": 0.1449,
+      "high": 0.1651,
+      "source": "original Figure13 visual or 34% prose",
+      "expected": 0.155,
+      "tolerance": 0.0101
+    },
+    {
+      "id": "developer_fe.low",
+      "low": -0.025099999999999997,
+      "high": -0.0049,
+      "source": "original Figure13 graphical reading; ratio also Fig4 printed CI",
+      "expected": -0.015,
+      "tolerance": 0.0101
+    },
+    {
+      "id": "developer_fe.high",
+      "low": 0.3299,
+      "high": 0.3501,
+      "source": "original Figure13 graphical reading; ratio also Fig4 printed CI",
+      "expected": 0.34,
+      "tolerance": 0.0101
+    },
+    {
+      "id": "balance.no_forecast.1.mean",
+      "low": 115.49,
+      "high": 116.51,
+      "source": "original Table4 integer display",
+      "expected": 116,
+      "tolerance": 0.51
+    },
+    {
+      "id": "balance.no_forecast.1.sd",
+      "low": 79.49,
+      "high": 80.51,
+      "source": "original Table4 integer display; sample SD",
+      "expected": 80,
+      "tolerance": 0.51
+    },
+    {
+      "id": "balance.no_forecast.0.mean",
+      "low": 105.49,
+      "high": 106.51,
+      "source": "original Table4 integer display",
+      "expected": 106,
+      "tolerance": 0.51
+    },
+    {
+      "id": "balance.no_forecast.0.sd",
+      "low": 62.49,
+      "high": 63.51,
+      "source": "original Table4 integer display; sample SD",
+      "expected": 63,
+      "tolerance": 0.51
+    },
+    {
+      "id": "balance.no_forecast.difference",
+      "low": 8.49,
+      "high": 9.51,
+      "source": "original Table4 difference",
+      "expected": 9,
+      "tolerance": 0.51
+    },
+    {
+      "id": "balance.no_forecast.p",
+      "low": 0.27490000000000003,
+      "high": 0.2851,
+      "source": "original Table4 two-sided Welch",
+      "expected": 0.28,
+      "tolerance": 0.0051
+    },
+    {
+      "id": "balance.ai_forecast.1.mean",
+      "low": 86.49,
+      "high": 87.51,
+      "source": "original Table4 integer display",
+      "expected": 87,
+      "tolerance": 0.51
+    },
+    {
+      "id": "balance.ai_forecast.1.sd",
+      "low": 61.49,
+      "high": 62.51,
+      "source": "original Table4 integer display; sample SD",
+      "expected": 62,
+      "tolerance": 0.51
+    },
+    {
+      "id": "balance.ai_forecast.0.mean",
+      "low": 81.49,
+      "high": 82.51,
+      "source": "original Table4 integer display",
+      "expected": 82,
+      "tolerance": 0.51
+    },
+    {
+      "id": "balance.ai_forecast.0.sd",
+      "low": 52.49,
+      "high": 53.51,
+      "source": "original Table4 integer display; sample SD",
+      "expected": 53,
+      "tolerance": 0.51
+    },
+    {
+      "id": "balance.ai_forecast.difference",
+      "low": 3.49,
+      "high": 4.51,
+      "source": "original Table4 difference",
+      "expected": 4,
+      "tolerance": 0.51
+    },
+    {
+      "id": "balance.ai_forecast.p",
+      "low": 0.5549000000000001,
+      "high": 0.5651,
+      "source": "original Table4 two-sided Welch",
+      "expected": 0.56,
+      "tolerance": 0.0051
+    },
+    {
+      "id": "allocation.0.percent",
+      "low": 44.649,
+      "high": 44.751000000000005,
+      "source": "original Table5",
+      "expected": 44.7,
+      "tolerance": 0.051
+    },
+    {
+      "id": "allocation.0.se_percent",
+      "low": 3.149,
+      "high": 3.2510000000000003,
+      "source": "original Table5",
+      "expected": 3.2,
+      "tolerance": 0.051
+    },
+    {
+      "id": "allocation.1.percent",
+      "low": 55.248999999999995,
+      "high": 55.351,
+      "source": "original Table5",
+      "expected": 55.3,
+      "tolerance": 0.051
+    },
+    {
+      "id": "allocation.1.se_percent",
+      "low": 3.149,
+      "high": 3.2510000000000003,
+      "source": "original Table5",
+      "expected": 3.2,
+      "tolerance": 0.051
+    },
+    {
+      "id": "allocation.p",
+      "low": 0.09490000000000001,
+      "high": 0.1051,
+      "source": "original Table5 Pearson chi-square",
+      "expected": 0.1,
+      "tolerance": 0.0051
+    },
+    {
+      "id": "forecast_mean_hours.0",
+      "low": 1.8250000000000002,
+      "high": 1.895,
+      "source": "original Figure4 visual bar-height reading in hours",
+      "expected": 1.86,
+      "tolerance": 0.035
+    },
+    {
+      "id": "forecast_mean_hours.1",
+      "low": 1.385,
+      "high": 1.4549999999999998,
+      "source": "original Figure4 visual bar-height reading in hours",
+      "expected": 1.42,
+      "tolerance": 0.035
+    },
+    {
+      "id": "observed_mean_hours.0",
+      "low": 1.635,
+      "high": 1.7049999999999998,
+      "source": "original Figure4 visual bar-height reading in hours",
+      "expected": 1.67,
+      "tolerance": 0.035
+    },
+    {
+      "id": "observed_mean_hours.1",
+      "low": 2.205,
+      "high": 2.2750000000000004,
+      "source": "original Figure4 visual bar-height reading in hours",
+      "expected": 2.24,
+      "tolerance": 0.035
+    },
+    {
+      "id": "forecast.point",
+      "low": -0.24509999999999998,
+      "high": -0.2349,
+      "source": "original Sections3.1/D.4 ratio of all246 issue forecasts",
+      "expected": -0.24,
+      "tolerance": 0.0051
+    },
+    {
+      "id": "forecast.low",
+      "low": -0.3301,
+      "high": -0.3099,
+      "source": "original Figure4 CI 0.68; prospective pooled unpaired two-column expansion",
+      "expected": -0.32,
+      "tolerance": 0.0101
+    },
+    {
+      "id": "forecast.high",
+      "low": -0.1501,
+      "high": -0.12990000000000002,
+      "source": "original Figure4 CI 0.86; prospective pooled unpaired two-column expansion",
+      "expected": -0.14,
+      "tolerance": 0.0101
+    },
+    {
+      "id": "forecast_correlation.0",
+      "low": 0.5849,
+      "high": 0.5951,
+      "source": "original Section3.1 Pearson",
+      "expected": 0.59,
+      "tolerance": 0.0051
+    },
+    {
+      "id": "forecast_correlation.1",
+      "low": 0.6349,
+      "high": 0.6451,
+      "source": "original Section3.1 Pearson",
+      "expected": 0.64,
+      "tolerance": 0.0051
+    },
+    {
+      "id": "ecdf.0.0.5",
+      "low": 0.15,
+      "high": 0.19999999999999998,
+      "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+      "expected": 0.175,
+      "tolerance": 0.025
+    },
+    {
+      "id": "ecdf.0.1",
+      "low": 0.33999999999999997,
+      "high": 0.39,
+      "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+      "expected": 0.365,
+      "tolerance": 0.025
+    },
+    {
+      "id": "ecdf.0.2",
+      "low": 0.775,
+      "high": 0.8250000000000001,
+      "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+      "expected": 0.8,
+      "tolerance": 0.025
+    },
+    {
+      "id": "ecdf.0.4",
+      "low": 0.9199999999999999,
+      "high": 0.97,
+      "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+      "expected": 0.945,
+      "tolerance": 0.025
+    },
+    {
+      "id": "ecdf.0.8",
+      "low": 0.97,
+      "high": 1.02,
+      "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+      "expected": 0.995,
+      "tolerance": 0.025
+    },
+    {
+      "id": "ecdf.1.0.5",
+      "low": 0.10750000000000001,
+      "high": 0.1575,
+      "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+      "expected": 0.1325,
+      "tolerance": 0.025
+    },
+    {
+      "id": "ecdf.1.1",
+      "low": 0.345,
+      "high": 0.395,
+      "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+      "expected": 0.37,
+      "tolerance": 0.025
+    },
+    {
+      "id": "ecdf.1.2",
+      "low": 0.625,
+      "high": 0.675,
+      "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+      "expected": 0.65,
+      "tolerance": 0.025
+    },
+    {
+      "id": "ecdf.1.4",
+      "low": 0.855,
+      "high": 0.905,
+      "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+      "expected": 0.88,
+      "tolerance": 0.025
+    },
+    {
+      "id": "ecdf.1.8",
+      "low": 0.9525,
+      "high": 1.0025,
+      "source": "original Figure5 whole plotted distribution; source-only manual percent reading",
+      "expected": 0.9775,
+      "tolerance": 0.025
+    },
+    {
+      "id": "imputation.ai60_no0",
+      "low": 0.22490000000000002,
+      "high": 0.2351,
+      "source": "original C.3.4 pair14%/23%, ordering corrected prospectively by monotonic treatment-time effect",
+      "expected": 0.23,
+      "tolerance": 0.0051
+    },
+    {
+      "id": "imputation.ai0_no60",
+      "low": 0.13490000000000002,
+      "high": 0.1451,
+      "source": "original C.3.4 pair14%/23%, ordering corrected prospectively by monotonic treatment-time effect",
+      "expected": 0.14,
+      "tolerance": 0.0051
+    }
+  ],
+  "qualitative_gates": 4,
+  "success_rule": "All65 fixed gates plus independent raw-data audit must pass. Missing targets/failure retained, no scope reduction/seed adjustment after outcomes. Raw first release/source discrepancies remain visible.",
+  "inputs": [
+    {
+      "path": "papers/P079_developer_productivity/sources/commit_july19.json",
+      "sha256": "6b03457deb88998ac0791a4bf55b7b670414aa8498c1bf9aa5a8fc3e294888f1",
+      "bytes": 4810
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/commit_july19.request.json",
+      "sha256": "8bd39c44cdb0d1b5902e6cf2c48beb35e746fb026f7aa898ce6f4315bb587624",
+      "bytes": 322
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/commit_july21.json",
+      "sha256": "cbc59afa84a466d230d3759b1376b9806e6c20e6c1b40f934e79913c9810d025",
+      "bytes": 4975
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/commit_july21.request.json",
+      "sha256": "2ae37b1b9a49c29c92c18c8ae610b4de3adcaf7cca1227cefdc63fd73cf411dc",
+      "bytes": 322
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/data_complete.csv",
+      "sha256": "27ca55ffb7d6119026cde1ebdc37eb9c5c31d9389593d3c0855560e3c8746d1a",
+      "bytes": 8818
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/Figure_1.png",
+      "sha256": "6b34e2b547b4de468310306e9f3778c4f650be7240499e0c9e78d6e5fccf3a84",
+      "bytes": 160903
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/Figure_1.request.json",
+      "sha256": "1b85259b3fea8a37751eddb8ac2db06da4b3a0a97c659eea4427d63bed315a2d",
+      "bytes": 276
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/Figure_13.png",
+      "sha256": "72055c510d987137f8efdc30430d3449b26c085ab9a33ff7e3504b971ef21cd5",
+      "bytes": 157148
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/Figure_13.request.json",
+      "sha256": "03d22f6e0076c409f8c5cf2cf695bfa73cab90e25d20c973d17ac13111f228c7",
+      "bytes": 281
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/Figure_14.png",
+      "sha256": "0274b5b1bbf1d05d318bb24148c1b1a795cb3d4c2a85771fd94eb8d437a502bc",
+      "bytes": 1023834
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/Figure_14.request.json",
+      "sha256": "3f96696e89b524c59d1ff4d8b2f350cc4a10fdd0ab639d6233f0616103aeadda",
+      "bytes": 269
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/Figure_4.png",
+      "sha256": "eeb35b60b2b543cb8dd38710597b7843fec05b370bb4f277fa2a6190f8c06ef8",
+      "bytes": 163319
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/Figure_4.request.json",
+      "sha256": "421fd8e68d3efcf64354f65e45a181200fbe5f2db397eecc0b029fe51e5a5a3b",
+      "bytes": 272
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/Figure_5.png",
+      "sha256": "0f5cc3e7fdb99a0159fb8310be876a5c7e62f16f9bc9cad0d290863d2119bd2c",
+      "bytes": 362001
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/Figure_5.request.json",
+      "sha256": "fbffeb2b0a816c951936ce5e62b0e3426270d0d87ede89c74b0f29be24f2e9fd",
+      "bytes": 273
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/paper_v1.pdf",
+      "sha256": "5187178b1af8b30d46615dcf12cbc9534a9bf03f373c7453ceed363b5cf53be6",
+      "bytes": 5516494
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/paper_v1_extracted.txt",
+      "sha256": "e1d8a74248c677387423984980687889ee959d872fb71363461ecf6a59bde193",
+      "bytes": 144788
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/pypi_patsy.json",
+      "sha256": "8f96afd758d3de1960fd008b3bba47c19181e4aea5449c56d81ad5c62fa3026c",
+      "bytes": 5483
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/pypi_patsy.request.json",
+      "sha256": "1c443772ed6053c117f70778ecf833131adaeb1b64c280417772fbb53b963db7",
+      "bytes": 238
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/pypi_scipy.json",
+      "sha256": "93e659b7bc26709da5458a58ebae90464f8547d8e693ecc11fedd2e566a8dc36",
+      "bytes": 92221
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/pypi_scipy.request.json",
+      "sha256": "3a4dc493553b29f3408b65c5570185a3acac40da0b189bb8ec79db87d1dcc7e6",
+      "bytes": 240
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/pypi_statsmodels.json",
+      "sha256": "1ba1a6ddd052c3c580f1158a821e6855cf2b673d99cfe83a1ec8c737fd02d017",
+      "bytes": 35743
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/pypi_statsmodels.request.json",
+      "sha256": "0ae674d8cd7fbaa398baea03169ff356870b9cd37efbcd6ad860b9c2c2956db4",
+      "bytes": 246
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/README.md",
+      "sha256": "180f7356bd62f213c838e9acd5e58a0b5880643c4f49d259dcee090e96197825",
+      "bytes": 2780
+    },
+    {
+      "path": "papers/P079_developer_productivity/sources/regression.py",
+      "sha256": "41307fa0b2f617eb815fdaaf41ee18c04fb7332eab118e86c1556154f496afd6",
+      "bytes": 5310
+    },
+    {
+      "path": "papers/P079_developer_productivity/STRUCTURAL_REVIEW.json",
+      "sha256": "6e625e0eecf7b3f5d93ad68f65062b82f38ee23257b0be477e607324a8a8f73f",
+      "bytes": 998
+    },
+    {
+      "path": "papers/P079_developer_productivity/SETUP_FAILURES.json",
+      "sha256": "7ddeca55a86dd6bba9812de3179c63026cf00bbaf66a13932baf029c85cfdf6d",
+      "bytes": 373
+    },
+    {
+      "path": "papers/P079_developer_productivity/run_central.py",
+      "sha256": "b5c0de0190f144d89c38aa299e75d0dfea69588b5258a50479c49697520f0064",
+      "bytes": 10914
+    },
+    {
+      "path": "environment/p079_cpu_original_001/WHEEL_MANIFEST.json",
+      "sha256": "3e84b4ee6f3e4157789307e9d59a4f0d9dad29af97cefb55d15f6edc48bb3410",
+      "bytes": 1557
+    },
+    {
+      "path": "environment/p079_cpu_original_001/INSTALLATION.json",
+      "sha256": "f7e56913efbd2408203dff9da9bdeb289081943b46a44fb1e7190e720956adc8",
+      "bytes": 676
+    }
+  ],
+  "eligibility": {
+    "first_public_release": "2025-07-10",
+    "primary_source": "Official METR original announcement",
+    "window": "extended",
+    "citations": 213,
+    "required_citations": 40,
+    "S2_ID": "9008680aac5a92b3a089aa1487eea76b8565f0d3",
+    "citation_counts_not_summed": true
+  }
+}

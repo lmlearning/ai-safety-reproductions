@@ -1,0 +1,27 @@
+{
+  "paper_id": "P132",
+  "source_only": true,
+  "original_or_fake_computations": false,
+  "fields": [
+    "gai_mean",
+    "gai_sd",
+    "traditional_mean",
+    "traditional_sd"
+  ],
+  "numerical_tolerance": 1e-09,
+  "primary_checks": 141,
+  "method": "Official RevMan5 source equations; approximateJ=1-3/(4N-9), pooledSD dfN-2, v=N/(n1*n2)+g*g/(2*(N-3.94)). DL random all11pools, exact Normal.975 inverse for95%CI, normal two-sidedp. Qfixed, tauDL; I2 zero k1. Between uses ownDL subgroup variances, fixed subgroup summary pooling, Q df1, chi-square survival.",
+  "formats": {
+    "NOMINAL_COMPLETE_ANALYSIS": "effects map outcome/study to rawfields plusg variance se lower upper; pools map namesknowledge/skill/satisfaction and family/group to k gai_n traditional_n smd se variance lower upper p Z Q df tau2 I2 heterogeneity_p row_keys weights_percent model; between map family to Q df p I2 fixed_subgroup_center.",
+    "PRIMARY_GATES": "List key actual target tolerance optional passed; all11 (k,Narms,df,smd,CI,p,I2,pointdirection,CIcategory) and all4between(Q,p,I2,df,significance).",
+    "ALL4918_PRECISION_CONTROLS": "JSONL eachbox A/B, index0..2458, label, input_fields_order, input_values68, analysis pools/between (no row_keys/weights), target_checks. Exact design source PROSPECTIVE_COMPLETE_ROUNDING_CONTROL001.json.",
+    "SUPPORTING_INTERMEDIATES": "All3pooltau,Q,df,heterop,Z and16rawg/CI/weights strictsource.",
+    "COMPLETE_FIXED_LOO_TIMING_CONTROLS": "fixed_complete fullanalysis; leave_one_row_out map poolname/omitted outcome-study/random+fixed fullpool; between_leave_one_row_out family/omitted unionrowkey/random+fixed between; reused_immediate_complete fullanalysis replacing ONLY fourfields Cicekdelayed fromimmediate. Othersunchanged.",
+    "SAMPLED_PRECISION_RANGE_SUMMARY": "counts A/B2459; ranges box/pools-or-between/name/stat min/max; qualitative_changes box/index/label/changedkeys."
+  },
+  "independence": "Auditor must implement separate Decimal/highprecision arithmetic and tails, own source CSV parser and exact control geometry. May use Sobol standardlibrarysequence but no importing or reading primary mathematical code. Root will review both source before fake authorization.",
+  "scope_review": "ROOT_PROSPECTIVE_SCOPE_AND_RESOURCE_REVIEW001.json",
+  "no_execution_authorized": true,
+  "contract001_preserved_SHA256": "abaf81fba38d753ea3ffa9063e7188e4b15782739a23230f0d274d2c49ef9742",
+  "supplement": "Stream controls include both pragmatic andstrict_target_checks; range summary includes nominal/worst_absolute_departure, whole_analysis_target_compatibility perbox. All outputs independently audited; source math/gates unchanged."
+}

@@ -1,0 +1,45 @@
+{
+  "paper_id": "P069",
+  "at_utc": "2026-10-10T17:13:49.290854+00:00",
+  "full_reproduction": false,
+  "scope": "Complete original central quantitative blinded human review analysis: all 181 reviews/all 43 executed projects/both original arms/all seven execution metrics; original Tables 1,3,4,5 and Figure 2, plus original Appendix D correlations (Table 9) and Appendix F exclusion robustness (Table 10). Independent aggregation and statistical calculations from original raw human scores.",
+  "omissions": [
+    "No fresh project execution, model idea generation or human recruitment/reviewing.",
+    "Participant research profiles/Table 2, manual idea-change taxonomy/Table 6, manual review-rationale taxonomy/Figure 3, institutional tables and qualitative examples are not recreated.",
+    "No Appendix G cross-metric correlation matrices (Tables 11/12): original estimator/aggregation implementation not released and not needed for identified central before/after comparison.",
+    "No inference implementing the planned reviewer-level test: released execution reviews omit stable reviewer identifiers.",
+    "Distribution plots use all raw original scores but no quantitative visual coordinates are used as acceptance gates."
+  ],
+  "eligible_window": "extended",
+  "first_public_empirical_release": "2025-06-25",
+  "first_release_evidence": "Original execution raw data first Git commit d6b5ec1c31dd43ad678a897231f95aca9ebd131e at 2025-06-25T04:15:02Z; archived full history/parent absence; arXiv v1 2025-06-25T19:47:23Z. Git push time unavailable but same UTC eligibility date. The predecessor ideation results date from 2024; this is a distinct later execution study. OSF 2024-11-04 registration is a plan, not empirical results.",
+  "citation_count": 62,
+  "citation_gate": 40,
+  "original_protocol": "sources/original_registration.json",
+  "raw_inputs": [
+    "sources/execution_reviews_initial.json",
+    "sources/ideation_reviews_initial.json"
+  ],
+  "aggregation": "Use exactly the intersection of original execution and ideation idea identifiers. Verify all 43 execution ideas matched; no extra raw-score exclusions. Execution review-level analysis includes all 181 observations. Compute unweighted per-project mean in each phase, then paired phase difference per project. Preserve all seven original execution metrics, four cross-phase metrics and both arms.",
+  "statistics": "Population SD in Table 3 as np.std original code; Welch t-tests use sample variance (ddof1). Review-level five main metrics one-sided AI<Human with BH-FDR; two controls use raw one-sided p per Table 3 caption. Table 4 per-project two-sided Welch with separate four-metric BH family for each phase. Table 5 and Table 10 use one-sided Human gap>AI gap Welch with four-metric BH-FDR separately. Table 9 Pearson and average-tie-rank Spearman. No clustering correction replaces original formulas.",
+  "exclude6_only_for_original_robustness": [
+    "Uncertainty_2_AI",
+    "Multilingual_5_AI",
+    "Bias_4_AI",
+    "Factuality_8_AI",
+    "Uncertainty_6_AI",
+    "Multilingual_8_AI"
+  ],
+  "source_issues_before_outcomes": [
+    "OSF preregistration planned two-sided Welch and reviewer-level tests; Table 3 and original code use one-sided tests, and Table 5 gap analysis is absent from the original hypothesis list. Preserve published central analysis and disclose this deviation.",
+    "Original control script computes BH-adjusted control p, while Table 3 explicitly reports raw control p; use caption-defined raw p and separately record adjusted values.",
+    "Printed Table 5 AI excitement gap -1.760 is arithmetically inconsistent with printed Table 4 3.896-5.653=-1.757 at their stated three-decimal precision. Printed Table 5 Human .078 minus AI -1.760 gives 1.838, inconsistent with reported 1.835. Preserve every printed target with .00051 tolerance; no correction, target pruning or relaxation is authorized.",
+    "Original 66 onboarded/43 completers and excluded vague idea are not re-created; central analysis uses exactly all 43 original completed projects.",
+    "Original review-level tests assume individual reviews independent despite multiple reviews per project; preserve, disclose and reproduce the per-project comparison too."
+  ],
+  "target_count": 155,
+  "targets_sha256": "afd7f5244cfee8ff04d388dba7a620434b040c9a832f2c2066421593567e74a5",
+  "sources_manifest_sha256": "2e01a3a62d3998575f1a4f79658248086b2fccaf226eb2b4cfeaa85a3625cb30",
+  "success_rule": "Every fixed numeric and claim target passes, independently audited; any inconsistent original printed target fails this reproduction. No post-outcome pruning or tolerance changes.",
+  "resources": "CPU only; local numerical operations; no GPU, paid APIs or keys; USD0."
+}

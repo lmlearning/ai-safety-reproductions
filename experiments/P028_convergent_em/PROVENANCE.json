@@ -1,0 +1,132 @@
+{
+  "paper_id": "P028",
+  "source_archive": "ai-safety-reproductions",
+  "files": [
+    {
+      "published_path": "evidence/INDEPENDENT_COMPLETE_P028_ARCHIVED_WHOLE_CENTRAL_NEAR_SUPPORT_RSTAT001.json",
+      "original_relative_path": "environment/P028_independent_archived_near_review_RSTAT001/INDEPENDENT_COMPLETE_P028_ARCHIVED_WHOLE_CENTRAL_NEAR_SUPPORT_RSTAT001.json",
+      "role": "evidence",
+      "purpose": "Final pinned execution/configuration/audit record",
+      "text": true,
+      "original_bytes": 95929,
+      "original_sha256": "ced02f1fa6d8bdd26fed73b8621278b2b8084666e49ce9dcf824f4382cea8650",
+      "published_bytes": 90469,
+      "published_sha256": "d073da94270dd91bede51d93ad572b3b282e7d1fd5dc8ddd16ed648c216ad778",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "evidence/ROOT_ADOPTED_P028_ARCHIVED_COMPLETE_CENTRAL_NEAR_RULE930.json",
+      "original_relative_path": "environment/ROOT_ADOPTED_P028_ARCHIVED_COMPLETE_CENTRAL_NEAR_RULE930.json",
+      "role": "evidence",
+      "purpose": "Final pinned execution/configuration/audit record",
+      "text": true,
+      "original_bytes": 3327,
+      "original_sha256": "058ea8eb32a9d38c951f750e684c5ef5b103bb5b96b42c5ba26cdb2f054d6a4c",
+      "published_bytes": 3075,
+      "published_sha256": "b85740ec360d0843fe53bc59b372f22ea1e7e15cff6e5253cacdd41acb67547a",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "results/P028_near_success_adoption933__ROOT_WHOLE64_NEAR_VECTOR933.json",
+      "original_relative_path": "operations/P028_near_success_adoption933/ROOT_WHOLE64_NEAR_VECTOR933.json",
+      "role": "result",
+      "purpose": "Complete aggregate target/error/audit ledger; exclude underlying participant rows, predictions, logits and bootstrap arrays",
+      "text": true,
+      "original_bytes": 20056,
+      "original_sha256": "047911bd91618db94746f0275d403531e62c8ee8ea5cf1476e67bf14ac75f00b",
+      "published_bytes": 20056,
+      "published_sha256": "047911bd91618db94746f0275d403531e62c8ee8ea5cf1476e67bf14ac75f00b",
+      "changes": "none"
+    },
+    {
+      "published_path": "plans/DEPENDENCY_REVIEW.json",
+      "original_relative_path": "papers/P028_convergent_em/DEPENDENCY_REVIEW.json",
+      "role": "plan",
+      "purpose": "Frozen methods/seeds/complete published targets or dependency metadata; preserve provenance and source versions",
+      "text": true,
+      "original_bytes": 492,
+      "original_sha256": "9a63f017958f45ac464c4175298201c2805ea02ab93eaafcab6e916aefbcf14f",
+      "published_bytes": 492,
+      "published_sha256": "9a63f017958f45ac464c4175298201c2805ea02ab93eaafcab6e916aefbcf14f",
+      "changes": "none"
+    },
+    {
+      "published_path": "plans/PREREGISTRATION.json",
+      "original_relative_path": "papers/P028_convergent_em/PREREGISTRATION.json",
+      "role": "plan",
+      "purpose": "Frozen methods/seeds/complete published targets or dependency metadata; preserve provenance and source versions",
+      "text": true,
+      "original_bytes": 11853,
+      "original_sha256": "2856eddf8cdb00730588552f3d7149d8b05e47134ba3d741e77359f4d122b89d",
+      "published_bytes": 11853,
+      "published_sha256": "2856eddf8cdb00730588552f3d7149d8b05e47134ba3d741e77359f4d122b89d",
+      "changes": "none"
+    },
+    {
+      "published_path": "plans/SAFE_STRUCTURAL_VALIDATION.json",
+      "original_relative_path": "papers/P028_convergent_em/SAFE_STRUCTURAL_VALIDATION.json",
+      "role": "plan",
+      "purpose": "Frozen methods/seeds/complete published targets or dependency metadata; preserve provenance and source versions",
+      "text": true,
+      "original_bytes": 140010,
+      "original_sha256": "589e3017d5fe3599a7cdc2b9e727a9e3bf473e300fe041af78144f1a4f31f3ae",
+      "published_bytes": 140010,
+      "published_sha256": "589e3017d5fe3599a7cdc2b9e727a9e3bf473e300fe041af78144f1a4f31f3ae",
+      "changes": "none"
+    },
+    {
+      "published_path": "code/audit_probe.py",
+      "original_relative_path": "papers/P028_convergent_em/audit_probe.py",
+      "role": "code",
+      "purpose": "primary_or_independent_scientific_entry",
+      "text": true,
+      "original_bytes": 8531,
+      "original_sha256": "12ece342a37ec256ace9e974a17c8b1dffec6e9fcf3642b0cb26508881f6faf8",
+      "published_bytes": 8531,
+      "published_sha256": "12ece342a37ec256ace9e974a17c8b1dffec6e9fcf3642b0cb26508881f6faf8",
+      "changes": "none"
+    },
+    {
+      "published_path": "code/run_probe.py",
+      "original_relative_path": "papers/P028_convergent_em/run_probe.py",
+      "role": "code",
+      "purpose": "primary_or_independent_scientific_entry",
+      "text": true,
+      "original_bytes": 10208,
+      "original_sha256": "d723a6697fe7259e5f9648a50dc0823c0c13e4e566a206aa3fa80f7a37bbfb2a",
+      "published_bytes": 10208,
+      "published_sha256": "d723a6697fe7259e5f9648a50dc0823c0c13e4e566a206aa3fa80f7a37bbfb2a",
+      "changes": "none"
+    },
+    {
+      "published_path": "results/P028-central-001__comparison.json",
+      "original_relative_path": "runs/P028-central-001/comparison.json",
+      "role": "result",
+      "purpose": "Complete aggregate target/error/audit ledger; exclude underlying participant rows, predictions, logits and bootstrap arrays",
+      "text": true,
+      "original_bytes": 30816,
+      "original_sha256": "64a802b5f3fd73377e254a1dc9004e461758cbf9b3f8a438931f5963a02aa015",
+      "published_bytes": 30816,
+      "published_sha256": "64a802b5f3fd73377e254a1dc9004e461758cbf9b3f8a438931f5963a02aa015",
+      "changes": "none"
+    },
+    {
+      "published_path": "results/P028-central-001__manifest.json",
+      "original_relative_path": "runs/P028-central-001/manifest.json",
+      "role": "result",
+      "purpose": "Archived numerical result, complete target comparison, audit or run metadata",
+      "text": true,
+      "original_bytes": 1597,
+      "original_sha256": "e62f9073ef6426a5bfeb4242ff4889dc08a60ab49c1e83cab25526d0f306cbb0",
+      "published_bytes": 1555,
+      "published_sha256": "0e58e8b2352a2dd9792dcf272c84fb4db688549dd8e41520e56373c96c400b42",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    }
+  ],
+  "historical_report_source": {
+    "original_relative_path": "papers/P028_convergent_em/NEAR_SUCCESS_ADDENDUM_2026-10-17.txt",
+    "bytes": 2294,
+    "sha256": "ecf78158692367c1cc75c72aa5adc70fb4ba23d5c843c28a4b19d2b04764dea7"
+  },
+  "note": "Recorded historical manifests retain original hashes. Publication hashes are separate; path normalization does not imply the old hash checks will accept publication copies."
+}

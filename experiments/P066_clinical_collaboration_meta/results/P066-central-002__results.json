@@ -1,0 +1,705 @@
+{
+  "paper_id": "P066",
+  "run_id": "P066-central-002",
+  "scope": "Complete original Figure2 panels A/B/C central statistical analysis, all seven contrasts, weights, pooling, intervals and heterogeneity; additional prose time Q and six original qualitative claims",
+  "fits": {
+    "A": {
+      "k": 2,
+      "df": 1,
+      "Q": 2.7624205849513217,
+      "p_Q": 0.09650212341910358,
+      "I2": 63.79986431292751,
+      "tau2": 0.0762919687048604,
+      "common": {
+        "effect": 1.4424968397336275,
+        "ci_low": 1.1556584368083527,
+        "ci_high": 1.8005295218439785
+      },
+      "random": {
+        "effect": 1.593809819766898,
+        "ci_low": 0.07757697304533065,
+        "ci_high": 32.74463596434803
+      },
+      "pi_low": 0.01552012244440292,
+      "pi_high": 163.67330545781113,
+      "log_or_raw_mu_common": 0.3663755285718096,
+      "log_or_raw_mu_random": 0.46612726319160425,
+      "se_common": 0.11311701317942731,
+      "se_random_classic": 0.23788109788255046,
+      "se_random_hk": 0.23788471545098636,
+      "hk_scale": 1.0000304151609787,
+      "p_random": 0.3004129833839513,
+      "crit_random": 12.706204736174694,
+      "crit_prediction": 12.706204736174694,
+      "prediction_df": 1,
+      "study": [
+        {
+          "effect": 1.3207547169811322,
+          "ci_low": 1.0338887605843439,
+          "ci_high": 1.6872153842179274,
+          "weight_common": 81.97078597634435,
+          "weight_random": 61.573819912549574
+        },
+        {
+          "effect": 2.153846153846154,
+          "ci_low": 1.2777674320072236,
+          "ci_high": 3.6305928123011086,
+          "weight_common": 18.029214023655648,
+          "weight_random": 38.42618008745043
+        }
+      ]
+    },
+    "B": {
+      "k": 2,
+      "df": 1,
+      "Q": 1.5539076663598603,
+      "p_Q": 0.2125594893997861,
+      "I2": 35.64611195061728,
+      "tau2": 3.6091470931165053,
+      "common": {
+        "effect": 5.23590754672355,
+        "ci_low": 2.0559380210113707,
+        "ci_high": 8.41587707243573
+      },
+      "random": {
+        "effect": 4.884471201318414,
+        "ci_low": 0.6535193748265931,
+        "ci_high": 9.115423027810234
+      },
+      "pi_low": -31.653508859577045,
+      "pi_high": 41.42245126221387,
+      "log_or_raw_mu_common": 5.23590754672355,
+      "log_or_raw_mu_random": 4.884471201318414,
+      "se_common": 1.6224632446286633,
+      "se_random_classic": 2.158688557476071,
+      "se_random_hk": 2.158690875205982,
+      "hk_scale": 1.0000021473511291,
+      "p_random": 0.02365400016565887,
+      "crit_random": 1.959963984540054,
+      "crit_prediction": 12.706204736174694,
+      "prediction_df": 1,
+      "study": [
+        {
+          "effect": 2.0,
+          "ci_low": -3.9998417494740135,
+          "ci_high": 7.9998417494740135,
+          "weight_common": 28.09094340614334,
+          "weight_random": 35.90063997070192
+        },
+        {
+          "effect": 6.5,
+          "ci_low": 2.7500009083795147,
+          "ci_high": 10.249999091620484,
+          "weight_common": 71.90905659385666,
+          "weight_random": 64.09936002929808
+        }
+      ]
+    },
+    "C": {
+      "k": 3,
+      "df": 2,
+      "Q": 6.699388020591394,
+      "p_Q": 0.03509509119461829,
+      "I2": 70.14652690883474,
+      "tau2": 1.975742300249093,
+      "common": {
+        "effect": 0.48727971625219435,
+        "ci_low": -0.7110692136985971,
+        "ci_high": 1.6856286462029857
+      },
+      "random": {
+        "effect": 0.3984835340956062,
+        "ci_low": -4.176732386408293,
+        "ci_high": 4.973699454599506
+      },
+      "pi_low": -7.18499603280009,
+      "pi_high": 7.981963100991303,
+      "log_or_raw_mu_common": 0.48727971625219435,
+      "log_or_raw_mu_random": 0.3984835340956062,
+      "se_common": 0.6114137501521533,
+      "se_random_classic": 1.0633476840367309,
+      "se_random_hk": 1.0633477084659604,
+      "hk_scale": 1.0000000459477747,
+      "p_random": 0.7438559751031587,
+      "crit_random": 4.302652729749462,
+      "crit_prediction": 4.302652729749462,
+      "prediction_df": 2,
+      "study": [
+        {
+          "effect": -1.3667,
+          "ci_low": -3.250029392744538,
+          "ci_high": 0.5166293927445378,
+          "weight_common": 40.4868525520307,
+          "weight_random": 39.00243402615697
+        },
+        {
+          "effect": 1.9833,
+          "ci_low": 0.28342323620841126,
+          "ci_high": 3.6831767637915886,
+          "weight_common": 49.69717588506779,
+          "weight_random": 41.448986895072885
+        },
+        {
+          "effect": 0.56,
+          "ci_low": -3.2648697158299154,
+          "ci_high": 4.3848697158299155,
+          "weight_common": 9.815971562901508,
+          "weight_random": 19.548579078770153
+        }
+      ]
+    }
+  },
+  "source_conflict_diagnostics": {
+    "A_MH_common_point": 1.4848484848484849,
+    "B_HKSJ_counterfactual": {
+      "effect": 4.884471201318414,
+      "ci_low": -22.54429702116093,
+      "ci_high": 32.313239423797754
+    }
+  },
+  "checks": [
+    {
+      "name": "A.study.0.effect",
+      "value": 1.3207547169811322,
+      "target": 1.32,
+      "tolerance": 0.01,
+      "absolute_error": 0.0007547169811321641,
+      "passed": true
+    },
+    {
+      "name": "A.study.0.ci_low",
+      "value": 1.0338887605843439,
+      "target": 1.03,
+      "tolerance": 0.01,
+      "absolute_error": 0.003888760584343842,
+      "passed": true
+    },
+    {
+      "name": "A.study.0.ci_high",
+      "value": 1.6872153842179274,
+      "target": 1.69,
+      "tolerance": 0.01,
+      "absolute_error": 0.0027846157820725637,
+      "passed": true
+    },
+    {
+      "name": "A.study.0.weight_common",
+      "value": 81.97078597634435,
+      "target": 82.0,
+      "tolerance": 0.1,
+      "absolute_error": 0.02921402365565484,
+      "passed": true
+    },
+    {
+      "name": "A.study.0.weight_random",
+      "value": 61.573819912549574,
+      "target": 61.6,
+      "tolerance": 0.1,
+      "absolute_error": 0.026180087450427436,
+      "passed": true
+    },
+    {
+      "name": "A.study.1.effect",
+      "value": 2.153846153846154,
+      "target": 2.15,
+      "tolerance": 0.01,
+      "absolute_error": 0.0038461538461542766,
+      "passed": true
+    },
+    {
+      "name": "A.study.1.ci_low",
+      "value": 1.2777674320072236,
+      "target": 1.28,
+      "tolerance": 0.01,
+      "absolute_error": 0.0022325679927763797,
+      "passed": true
+    },
+    {
+      "name": "A.study.1.ci_high",
+      "value": 3.6305928123011086,
+      "target": 3.63,
+      "tolerance": 0.01,
+      "absolute_error": 0.0005928123011087472,
+      "passed": true
+    },
+    {
+      "name": "A.study.1.weight_common",
+      "value": 18.029214023655648,
+      "target": 18.0,
+      "tolerance": 0.1,
+      "absolute_error": 0.029214023655647736,
+      "passed": true
+    },
+    {
+      "name": "A.study.1.weight_random",
+      "value": 38.42618008745043,
+      "target": 38.4,
+      "tolerance": 0.1,
+      "absolute_error": 0.02618008745043454,
+      "passed": true
+    },
+    {
+      "name": "A.common.effect",
+      "value": 1.4424968397336275,
+      "target": 1.44,
+      "tolerance": 0.01,
+      "absolute_error": 0.002496839733627576,
+      "passed": true
+    },
+    {
+      "name": "A.common.ci_low",
+      "value": 1.1556584368083527,
+      "target": 1.16,
+      "tolerance": 0.01,
+      "absolute_error": 0.004341563191647246,
+      "passed": true
+    },
+    {
+      "name": "A.common.ci_high",
+      "value": 1.8005295218439785,
+      "target": 1.8,
+      "tolerance": 0.01,
+      "absolute_error": 0.0005295218439784755,
+      "passed": true
+    },
+    {
+      "name": "A.random.effect",
+      "value": 1.593809819766898,
+      "target": 1.59,
+      "tolerance": 0.01,
+      "absolute_error": 0.0038098197668978706,
+      "passed": true
+    },
+    {
+      "name": "A.random.ci_low",
+      "value": 0.07757697304533065,
+      "target": 0.08,
+      "tolerance": 0.01,
+      "absolute_error": 0.0024230269546693523,
+      "passed": true
+    },
+    {
+      "name": "A.random.ci_high",
+      "value": 32.74463596434803,
+      "target": 32.74,
+      "tolerance": 0.01,
+      "absolute_error": 0.004635964348025823,
+      "passed": true
+    },
+    {
+      "name": "A.pi_low",
+      "value": 0.01552012244440292,
+      "target": 0.02,
+      "tolerance": 0.01,
+      "absolute_error": 0.004479877555597081,
+      "passed": true
+    },
+    {
+      "name": "A.pi_high",
+      "value": 163.67330545781113,
+      "target": 163.67,
+      "tolerance": 0.01,
+      "absolute_error": 0.0033054578111375577,
+      "passed": true
+    },
+    {
+      "name": "A.I2",
+      "value": 63.79986431292751,
+      "target": 63.8,
+      "tolerance": 0.1,
+      "absolute_error": 0.00013568707248623468,
+      "passed": true
+    },
+    {
+      "name": "A.tau2",
+      "value": 0.0762919687048604,
+      "target": 0.0763,
+      "tolerance": 0.00015,
+      "absolute_error": 8.03129513961276e-06,
+      "passed": true
+    },
+    {
+      "name": "A.p_Q",
+      "value": 0.09650212341910358,
+      "target": 0.0965,
+      "tolerance": 0.00015,
+      "absolute_error": 2.1234191035779393e-06,
+      "passed": true
+    },
+    {
+      "name": "B.study.0.effect",
+      "value": 2.0,
+      "target": 2.0,
+      "tolerance": 0.01,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "B.study.0.ci_low",
+      "value": -3.9998417494740135,
+      "target": -4.0,
+      "tolerance": 0.01,
+      "absolute_error": 0.00015825052598650302,
+      "passed": true
+    },
+    {
+      "name": "B.study.0.ci_high",
+      "value": 7.9998417494740135,
+      "target": 8.0,
+      "tolerance": 0.01,
+      "absolute_error": 0.00015825052598650302,
+      "passed": true
+    },
+    {
+      "name": "B.study.0.weight_common",
+      "value": 28.09094340614334,
+      "target": 28.1,
+      "tolerance": 0.1,
+      "absolute_error": 0.009056593856662687,
+      "passed": true
+    },
+    {
+      "name": "B.study.0.weight_random",
+      "value": 35.90063997070192,
+      "target": 35.9,
+      "tolerance": 0.1,
+      "absolute_error": 0.0006399707019184575,
+      "passed": true
+    },
+    {
+      "name": "B.study.1.effect",
+      "value": 6.5,
+      "target": 6.5,
+      "tolerance": 0.01,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "B.study.1.ci_low",
+      "value": 2.7500009083795147,
+      "target": 2.75,
+      "tolerance": 0.01,
+      "absolute_error": 9.083795147191154e-07,
+      "passed": true
+    },
+    {
+      "name": "B.study.1.ci_high",
+      "value": 10.249999091620484,
+      "target": 10.25,
+      "tolerance": 0.01,
+      "absolute_error": 9.083795156072938e-07,
+      "passed": true
+    },
+    {
+      "name": "B.study.1.weight_common",
+      "value": 71.90905659385666,
+      "target": 71.9,
+      "tolerance": 0.1,
+      "absolute_error": 0.009056593856655581,
+      "passed": true
+    },
+    {
+      "name": "B.study.1.weight_random",
+      "value": 64.09936002929808,
+      "target": 64.1,
+      "tolerance": 0.1,
+      "absolute_error": 0.0006399707019113521,
+      "passed": true
+    },
+    {
+      "name": "B.common.effect",
+      "value": 5.23590754672355,
+      "target": 5.24,
+      "tolerance": 0.01,
+      "absolute_error": 0.0040924532764501365,
+      "passed": true
+    },
+    {
+      "name": "B.common.ci_low",
+      "value": 2.0559380210113707,
+      "target": 2.06,
+      "tolerance": 0.01,
+      "absolute_error": 0.004061978988629367,
+      "passed": true
+    },
+    {
+      "name": "B.common.ci_high",
+      "value": 8.41587707243573,
+      "target": 8.42,
+      "tolerance": 0.01,
+      "absolute_error": 0.004122927564269574,
+      "passed": true
+    },
+    {
+      "name": "B.random.effect",
+      "value": 4.884471201318414,
+      "target": 4.88,
+      "tolerance": 0.01,
+      "absolute_error": 0.004471201318414053,
+      "passed": true
+    },
+    {
+      "name": "B.random.ci_low",
+      "value": 0.6535193748265931,
+      "target": 0.65,
+      "tolerance": 0.01,
+      "absolute_error": 0.003519374826593036,
+      "passed": true
+    },
+    {
+      "name": "B.random.ci_high",
+      "value": 9.115423027810234,
+      "target": 9.12,
+      "tolerance": 0.01,
+      "absolute_error": 0.0045769721897652715,
+      "passed": true
+    },
+    {
+      "name": "B.pi_low",
+      "value": -31.653508859577045,
+      "target": -31.65,
+      "tolerance": 0.01,
+      "absolute_error": 0.003508859577046053,
+      "passed": true
+    },
+    {
+      "name": "B.pi_high",
+      "value": 41.42245126221387,
+      "target": 41.42,
+      "tolerance": 0.01,
+      "absolute_error": 0.002451262213867267,
+      "passed": true
+    },
+    {
+      "name": "B.I2",
+      "value": 35.64611195061728,
+      "target": 35.6,
+      "tolerance": 0.1,
+      "absolute_error": 0.046111950617280684,
+      "passed": true
+    },
+    {
+      "name": "B.tau2",
+      "value": 3.6091470931165053,
+      "target": 3.6091,
+      "tolerance": 0.00015,
+      "absolute_error": 4.709311650508141e-05,
+      "passed": true
+    },
+    {
+      "name": "B.p_Q",
+      "value": 0.2125594893997861,
+      "target": 0.2126,
+      "tolerance": 0.00015,
+      "absolute_error": 4.051060021389996e-05,
+      "passed": true
+    },
+    {
+      "name": "C.study.0.effect",
+      "value": -1.3667,
+      "target": -1.37,
+      "tolerance": 0.01,
+      "absolute_error": 0.0033000000000000806,
+      "passed": true
+    },
+    {
+      "name": "C.study.0.ci_low",
+      "value": -3.250029392744538,
+      "target": -3.25,
+      "tolerance": 0.01,
+      "absolute_error": 2.9392744537837245e-05,
+      "passed": true
+    },
+    {
+      "name": "C.study.0.ci_high",
+      "value": 0.5166293927445378,
+      "target": 0.52,
+      "tolerance": 0.01,
+      "absolute_error": 0.0033706072554622324,
+      "passed": true
+    },
+    {
+      "name": "C.study.0.weight_random",
+      "value": 39.00243402615697,
+      "target": 39.0,
+      "tolerance": 0.1,
+      "absolute_error": 0.0024340261569690824,
+      "passed": true
+    },
+    {
+      "name": "C.study.1.effect",
+      "value": 1.9833,
+      "target": 1.98,
+      "tolerance": 0.01,
+      "absolute_error": 0.0033000000000000806,
+      "passed": true
+    },
+    {
+      "name": "C.study.1.ci_low",
+      "value": 0.28342323620841126,
+      "target": 0.28,
+      "tolerance": 0.01,
+      "absolute_error": 0.003423236208411229,
+      "passed": true
+    },
+    {
+      "name": "C.study.1.ci_high",
+      "value": 3.6831767637915886,
+      "target": 3.68,
+      "tolerance": 0.01,
+      "absolute_error": 0.0031767637915884883,
+      "passed": true
+    },
+    {
+      "name": "C.study.1.weight_random",
+      "value": 41.448986895072885,
+      "target": 41.4,
+      "tolerance": 0.1,
+      "absolute_error": 0.04898689507288623,
+      "passed": true
+    },
+    {
+      "name": "C.study.2.effect",
+      "value": 0.56,
+      "target": 0.56,
+      "tolerance": 0.01,
+      "absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C.study.2.ci_low",
+      "value": -3.2648697158299154,
+      "target": -3.26,
+      "tolerance": 0.01,
+      "absolute_error": 0.004869715829915577,
+      "passed": true
+    },
+    {
+      "name": "C.study.2.ci_high",
+      "value": 4.3848697158299155,
+      "target": 4.38,
+      "tolerance": 0.01,
+      "absolute_error": 0.004869715829915577,
+      "passed": true
+    },
+    {
+      "name": "C.study.2.weight_random",
+      "value": 19.548579078770153,
+      "target": 19.5,
+      "tolerance": 0.1,
+      "absolute_error": 0.04857907877015322,
+      "passed": true
+    },
+    {
+      "name": "C.random.effect",
+      "value": 0.3984835340956062,
+      "target": 0.4,
+      "tolerance": 0.01,
+      "absolute_error": 0.0015164659043938045,
+      "passed": true
+    },
+    {
+      "name": "C.random.ci_low",
+      "value": -4.176732386408293,
+      "target": -4.18,
+      "tolerance": 0.01,
+      "absolute_error": 0.003267613591706464,
+      "passed": true
+    },
+    {
+      "name": "C.random.ci_high",
+      "value": 4.973699454599506,
+      "target": 4.97,
+      "tolerance": 0.01,
+      "absolute_error": 0.003699454599506602,
+      "passed": true
+    },
+    {
+      "name": "C.pi_low",
+      "value": -7.18499603280009,
+      "target": -7.18,
+      "tolerance": 0.01,
+      "absolute_error": 0.004996032800089978,
+      "passed": true
+    },
+    {
+      "name": "C.pi_high",
+      "value": 7.981963100991303,
+      "target": 7.98,
+      "tolerance": 0.01,
+      "absolute_error": 0.001963100991302369,
+      "passed": true
+    },
+    {
+      "name": "C.I2",
+      "value": 70.14652690883474,
+      "target": 70.1,
+      "tolerance": 0.1,
+      "absolute_error": 0.04652690883474975,
+      "passed": true
+    },
+    {
+      "name": "C.tau2",
+      "value": 1.975742300249093,
+      "target": 1.9757,
+      "tolerance": 0.00015,
+      "absolute_error": 4.2300249093019104e-05,
+      "passed": true
+    },
+    {
+      "name": "C.p_Q",
+      "value": 0.03509509119461829,
+      "target": 0.0351,
+      "tolerance": 0.00015,
+      "absolute_error": 4.908805381710624e-06,
+      "passed": true
+    },
+    {
+      "name": "C.Q",
+      "value": 6.699388020591394,
+      "target": 6.7,
+      "tolerance": 0.01,
+      "absolute_error": 0.0006119794086059116,
+      "passed": true
+    },
+    {
+      "name": "A_positive_nonsignificant",
+      "value": true,
+      "target": true,
+      "passed": true
+    },
+    {
+      "name": "B_positive_significant_classic",
+      "value": true,
+      "target": true,
+      "passed": true
+    },
+    {
+      "name": "C_nonsignificant",
+      "value": true,
+      "target": true,
+      "passed": true
+    },
+    {
+      "name": "A_prediction_crosses_null",
+      "value": true,
+      "target": true,
+      "passed": true
+    },
+    {
+      "name": "B_prediction_crosses_null",
+      "value": true,
+      "target": true,
+      "passed": true
+    },
+    {
+      "name": "C_prediction_crosses_null",
+      "value": true,
+      "target": true,
+      "passed": true
+    }
+  ],
+  "numerical_check_count": 63,
+  "qualitative_check_count": 6,
+  "all_checks_pass": true
+}

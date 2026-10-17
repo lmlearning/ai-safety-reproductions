@@ -1,0 +1,89 @@
+Fixed-case independent/scalar checks passed.
+Finished n200_m200_q0-70_q1-70, seed 1732; 210,000 raw trials saved.
+Finished n200_m200_q0-70_q1-70, seed 1733; 210,000 raw trials saved.
+Finished n200_m200_q0-70_q1-70, seed 1734; 210,000 raw trials saved.
+Finished n200_m200_q0-70_q1-90, seed 1732; 210,000 raw trials saved.
+Finished n200_m200_q0-70_q1-90, seed 1733; 210,000 raw trials saved.
+Finished n200_m200_q0-70_q1-90, seed 1734; 210,000 raw trials saved.
+Finished n200_m200_q0-90_q1-70, seed 1732; 210,000 raw trials saved.
+Finished n200_m200_q0-90_q1-70, seed 1733; 210,000 raw trials saved.
+Finished n200_m200_q0-90_q1-70, seed 1734; 210,000 raw trials saved.
+Finished n200_m200_q0-90_q1-90, seed 1732; 210,000 raw trials saved.
+Finished n200_m200_q0-90_q1-90, seed 1733; 210,000 raw trials saved.
+Finished n200_m200_q0-90_q1-90, seed 1734; 210,000 raw trials saved.
+Finished n200_m500_q0-70_q1-70, seed 1732; 210,000 raw trials saved.
+Finished n200_m500_q0-70_q1-70, seed 1733; 210,000 raw trials saved.
+Finished n200_m500_q0-70_q1-70, seed 1734; 210,000 raw trials saved.
+Finished n200_m500_q0-70_q1-90, seed 1732; 210,000 raw trials saved.
+Finished n200_m500_q0-70_q1-90, seed 1733; 210,000 raw trials saved.
+Finished n200_m500_q0-70_q1-90, seed 1734; 210,000 raw trials saved.
+Finished n200_m500_q0-90_q1-70, seed 1732; 210,000 raw trials saved.
+Finished n200_m500_q0-90_q1-70, seed 1733; 210,000 raw trials saved.
+Finished n200_m500_q0-90_q1-70, seed 1734; 210,000 raw trials saved.
+Finished n200_m500_q0-90_q1-90, seed 1732; 210,000 raw trials saved.
+Finished n200_m500_q0-90_q1-90, seed 1733; 210,000 raw trials saved.
+Finished n200_m500_q0-90_q1-90, seed 1734; 210,000 raw trials saved.
+Finished n1000_m200_q0-70_q1-70, seed 1732; 210,000 raw trials saved.
+Finished n1000_m200_q0-70_q1-70, seed 1733; 210,000 raw trials saved.
+Finished n1000_m200_q0-70_q1-70, seed 1734; 210,000 raw trials saved.
+Finished n1000_m200_q0-70_q1-90, seed 1732; 210,000 raw trials saved.
+Finished n1000_m200_q0-70_q1-90, seed 1733; 210,000 raw trials saved.
+Finished n1000_m200_q0-70_q1-90, seed 1734; 210,000 raw trials saved.
+Finished n1000_m200_q0-90_q1-70, seed 1732; 210,000 raw trials saved.
+Finished n1000_m200_q0-90_q1-70, seed 1733; 210,000 raw trials saved.
+Finished n1000_m200_q0-90_q1-70, seed 1734; 210,000 raw trials saved.
+Finished n1000_m200_q0-90_q1-90, seed 1732; 210,000 raw trials saved.
+Finished n1000_m200_q0-90_q1-90, seed 1733; 210,000 raw trials saved.
+Finished n1000_m200_q0-90_q1-90, seed 1734; 210,000 raw trials saved.
+Finished n1000_m500_q0-70_q1-70, seed 1732; 210,000 raw trials saved.
+Finished n1000_m500_q0-70_q1-70, seed 1733; 210,000 raw trials saved.
+Finished n1000_m500_q0-70_q1-70, seed 1734; 210,000 raw trials saved.
+Finished n1000_m500_q0-70_q1-90, seed 1732; 210,000 raw trials saved.
+Finished n1000_m500_q0-70_q1-90, seed 1733; 210,000 raw trials saved.
+Finished n1000_m500_q0-70_q1-90, seed 1734; 210,000 raw trials saved.
+Finished n1000_m500_q0-90_q1-70, seed 1732; 210,000 raw trials saved.
+Finished n1000_m500_q0-90_q1-70, seed 1733; 210,000 raw trials saved.
+Finished n1000_m500_q0-90_q1-70, seed 1734; 210,000 raw trials saved.
+Finished n1000_m500_q0-90_q1-90, seed 1732; 210,000 raw trials saved.
+Finished n1000_m500_q0-90_q1-90, seed 1733; 210,000 raw trials saved.
+Finished n1000_m500_q0-90_q1-90, seed 1734; 210,000 raw trials saved.
+Original scalar Monte Carlo completed theta=0.00.
+Original scalar Monte Carlo completed theta=0.05.
+Original scalar Monte Carlo completed theta=0.10.
+Original scalar Monte Carlo completed theta=0.15.
+Original scalar Monte Carlo completed theta=0.20.
+Original scalar Monte Carlo completed theta=0.25.
+Original scalar Monte Carlo completed theta=0.30.
+Original scalar Monte Carlo completed theta=0.35.
+Original scalar Monte Carlo completed theta=0.40.
+Original scalar Monte Carlo completed theta=0.45.
+Original scalar Monte Carlo completed theta=0.50.
+Original scalar Monte Carlo completed theta=0.55.
+Original scalar Monte Carlo completed theta=0.60.
+Original scalar Monte Carlo completed theta=0.65.
+Original scalar Monte Carlo completed theta=0.70.
+Original scalar Monte Carlo completed theta=0.75.
+Original scalar Monte Carlo completed theta=0.80.
+Original scalar Monte Carlo completed theta=0.85.
+Original scalar Monte Carlo completed theta=0.90.
+Original scalar Monte Carlo completed theta=0.95.
+Original scalar Monte Carlo completed theta=1.00.
+{
+  "scope": "central Figure 4 confirmation with complete failed full-study comparisons",
+  "raw_fresh_trials": 10080000,
+  "original_scalar_trials": 210000,
+  "raw_blocks": 1008,
+  "invalid_numeric_values": 0,
+  "published_curve_points": 1344,
+  "maximum_coverage_difference": 0.014200008889609816,
+  "maximum_length_difference": 0.11642486551998321,
+  "original_point_failures": [],
+  "analytic_identity_error": 4.440892098500626e-16,
+  "maximum_deterministic_difference": 0,
+  "wall_seconds": 110.45514960004948,
+  "peak_rss_bytes": 462524416,
+  "preregistered_full_criteria_passed": false,
+  "preregistered_central_criteria_passed": true,
+  "preregistered_criteria_passed": true
+}
+Full curve failures: 336

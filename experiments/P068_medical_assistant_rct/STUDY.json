@@ -1,0 +1,17 @@
+{
+  "ordinal": 4,
+  "paper_id": "P068",
+  "title": "Reliability of LLMs as medical assistants for the general public: a randomized preregistered study",
+  "classification": "Strict CENTRAL",
+  "recorded_public_date": "2025-04-17",
+  "window": "Extended",
+  "citations": 113,
+  "provider": "Semantic Scholar",
+  "capture_time_supported": true,
+  "route": "Released trial data",
+  "result_and_scope": "All2,400 responses,4 arms,10 scenarios;103 targets and12,000 scoring comparisons pass. No new trial/model generation.",
+  "DOI": "10.1038/s41591-025-04074-y",
+  "arxiv_id": "2504.18919",
+  "preserved_limits": "Original released human responses reanalysed; no new recruitment, model-only or interaction analyses. Source inconsistencies/serialization repair disclosed.",
+  "whole_paper_reproduction": false
+}

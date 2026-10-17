@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "path": "audits/P079-audit-001/audit.json",
+      "bytes": 828,
+      "sha256": "f37ee6150883d6d59d3d1b068bf2bcf44d82c3f7e55878b318e257012a649835"
+    },
+    {
+      "path": "audits/P079-audit-001/audit_checks.json",
+      "bytes": 8859024,
+      "sha256": "0160effd0c7be793bb4c031ee087e76b97b0d93174b7482f3cdf2691f9186589"
+    },
+    {
+      "path": "audits/P079-audit-001/auditor_source.py",
+      "bytes": 10717,
+      "sha256": "545768e2a06a00e771a787685807871d6c4a259d75889324f75ddee017a21fc5"
+    },
+    {
+      "path": "audits/P079-audit-001/display_diagnostics.json",
+      "bytes": 2077,
+      "sha256": "bb56441a195bb677888a1d2591920802cd757ea2fa1b1a3365bb31dfbf31e2a3"
+    },
+    {
+      "path": "audits/P079-audit-001/independent_models.json",
+      "bytes": 40142,
+      "sha256": "9e16a3184e1e9a44a5830d94098635b78f7aceb0a41eb1d521dfe656d84988c7"
+    },
+    {
+      "path": "audits/P079-audit-001/independent_statistics.json",
+      "bytes": 2771,
+      "sha256": "e91089d7c4d4a1480716188d2099da0258a9969e412fa9d7f313fd85841f4a97"
+    },
+    {
+      "path": "audits/P079-audit-001/independent_target_decisions.json",
+      "bytes": 16269,
+      "sha256": "e505097c7cc5b8d8c197f6a388a82ec18d67c3d1f3007383657c873e3faaff81"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-11T00:33:33.504641+00:00",
+  "no_numerical_execution": true,
+  "original001_sha256": "fba3a54934e0826dfdb632cc61ba9fbc279f4fc5f076d0f7a32d09cbc9bc9a98",
+  "main002_sha256": "949f69b2bf70bfafbf30f67c6171904362e35cb1481953bb766189e54e93b5de",
+  "change": "Only supporting source-literal Egger eligibility label is now true for life_satisfaction k10; all numerical calculations/gate criteria unchanged. Corrected before any synthetic/original effect computations.",
+  "old_literal": "\"source_life10_alternative_eligible\":True",
+  "new_literal": "\"source_life10_alternative_eligible\":family==\"life_satisfaction\" and len(rows)==10"
+}

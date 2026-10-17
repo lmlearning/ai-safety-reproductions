@@ -1,0 +1,2178 @@
+{
+  "utc": "2026-10-11T07:01:21.178859+00:00",
+  "paper_id": "P135",
+  "classification": "CENTRAL",
+  "FULL": false,
+  "all50primary_passed": true,
+  "all410calls_complete": true,
+  "all26724independent_comparisons_passed": true,
+  "support331_pass190_unavailable32_disagree109": true,
+  "actual_observer_tool_exit": 0,
+  "actual_dispatcher_exit": 0,
+  "actual_guardian_exit": 0,
+  "actual_scientist_exit": 0,
+  "console_exits": [
+    15,
+    0
+  ],
+  "fresh_absences": [
+    {
+      "pid": 60856,
+      "creation_time": 1791699814.6169815,
+      "creation_matched_absence": true
+    },
+    {
+      "pid": 65652,
+      "creation_time": 1791699814.756588,
+      "creation_matched_absence": true
+    },
+    {
+      "pid": 3512,
+      "creation_time": 1791699814.8921509,
+      "creation_matched_absence": true
+    },
+    {
+      "pid": 56276,
+      "creation_time": 1791699814.9025471,
+      "creation_matched_absence": true
+    },
+    {
+      "pid": 29432,
+      "creation_time": 1791699818.6755295,
+      "creation_matched_absence": true
+    },
+    {
+      "pid": 27144,
+      "creation_time": 1791699818.7097073,
+      "creation_matched_absence": true
+    }
+  ],
+  "whole_native_bound_including_observer_before_exit": 234377216,
+  "observer_after_exit_native_unknown_disclosed": true,
+  "minimum_ram_bytes": 488271872,
+  "required_continuous_ram": 268435456,
+  "phase_output_bytes": 83138574,
+  "new_conservative_charge": 1513,
+  "previous_conservative_charge": 4285,
+  "cumulative_seconds": 5798,
+  "shared_seconds": 10800,
+  "frozen_scope_unchanged": true,
+  "prefix129_exact_input_context_numeric_payload_reused_281new": true,
+  "all_output_and410_capsule_references": [
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ALL_INDEPENDENT_COMPARISONS.json",
+      "bytes": 8270331,
+      "sha256": "db1318386d30e80381135809159507a84ec0cebf59bd7c6c16b39a86c33eef6d"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\AUDIT_STATUS.json",
+      "bytes": 381,
+      "sha256": "2df4d32592572cef94f34f6e735d9cb5d10dd384f801b06f1c2be6b625782f83"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\CONTINUATION_COMPLETE410_CALL_IDENTITY_RECEIPT015.json",
+      "bytes": 112822,
+      "sha256": "8204342accbe15f4b3013aa8ff257857dd21a3eb9e1935b259eb71cce174e48a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_PROGRESS.json",
+      "bytes": 129907,
+      "sha256": "d3b2c6b66f45b8d6a8511587d896002a59abf4e697004270af13681145337ef0"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\INDEPENDENT_80_DIGIT_COMPUTATIONS.json",
+      "bytes": 20669452,
+      "sha256": "31da319baef34c9cfa120b761eadf375c8af0e4ec8c7da0f6dffee65305da1e4"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\INDEPENDENT_ALL50_PRIMARY_CHECKS.json",
+      "bytes": 34850,
+      "sha256": "d607293cac88fc5a78e3cd3694d85fdf330d8bfe3fec0684706812ea07fecf6a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\INDEPENDENT_ALL_SUPPORTING_SOURCE_COMPARISONS.json",
+      "bytes": 212633,
+      "sha256": "1f280c1678347d3b9aaf13928409e4f0a85a46ac4a10cd91301ebb499bb79d94"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\runs\\original001\\ALL50_PRIMARY_CHECKS.json",
+      "bytes": 33661,
+      "sha256": "08f529f4d45cc4e96a516ee15bedc819738420a46f3bbd1e8285ab42c2f90e1d"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\runs\\original001\\ALL_ORIGINAL_COMPUTATIONS.json",
+      "bytes": 1055013,
+      "sha256": "dfd84c6dcd6451d8c06b385e246bf3eae69edb8c05e126d1baaf015387d70608"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\runs\\original001\\ALL_SUPPORTING_SOURCE_COMPARISONS.json",
+      "bytes": 169043,
+      "sha256": "846d9771ea70a83dfa0124c36a733dde9a4f7a84fdf1bd5b14cca929d993b982"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\runs\\original001\\NUMERICAL_OPTIMIZER_TRACE.json",
+      "bytes": 2912649,
+      "sha256": "a7c1bf469a6836db00ad76a68603230c5431da6730a4078d72a2a6f9cfb31625"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\runs\\original001\\RESOURCE_SAMPLES.json",
+      "bytes": 568100,
+      "sha256": "57be8d543f9ed56990f350eae783f12199da3ba65adce7f9bfb03f5f4b2da84d"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\runs\\original001\\SUMMARY.json",
+      "bytes": 1584,
+      "sha256": "2d5213a3df7db0aebe208174bac74a68dd3accec874f786e2c798a37b8f26581"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0001.json",
+      "bytes": 147134,
+      "sha256": "b3a5d7b48727ad897dd64d3359b6070eedfa07a4579355f351e82c24929cb02c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0002.json",
+      "bytes": 147180,
+      "sha256": "f026951aa88d45e2ddc2e468a5e2a03e84acf9283a2ef4784d812d009d221cc2"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0003.json",
+      "bytes": 147175,
+      "sha256": "4fb20add3c9f1fc251d54dcc344d5d268b172547558bf8622ce4da45e435ed20"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0004.json",
+      "bytes": 147152,
+      "sha256": "e40a654fc8d022e8743c7c9d91a3e5fd2fc232acba030f202881bedf199813b3"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0005.json",
+      "bytes": 147175,
+      "sha256": "c7f71aa872d6fdbd8f8c7db434c2256bdb780ae51a10919790a5ff8eb66df728"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0006.json",
+      "bytes": 146097,
+      "sha256": "53bb7fe48e7334abb29b87e50e5d8102a725f77ca9c91e2678e33d218a8ffb0a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0007.json",
+      "bytes": 147182,
+      "sha256": "8f2bfcf60ea67057405066c674834ad50e61e47f24033cd760425e4f73d8b500"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0008.json",
+      "bytes": 147176,
+      "sha256": "8a5a69ec861ad184c6a65360e551f9a017cdb85a2c1b9f0af61015fe4977469f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0009.json",
+      "bytes": 147184,
+      "sha256": "37bc29cf886966510d9de017678479a90e14a17a417be0d991b567652998c920"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0010.json",
+      "bytes": 146083,
+      "sha256": "27dd6748fbe4d4a5c1828fc2ec1e4474a65588ab86efc1b35ffa20cbbff864dc"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0011.json",
+      "bytes": 147184,
+      "sha256": "7d463e2c0a0db8c18ee339ffa46f8560835297ea679927674bc2987b04c3ae04"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0012.json",
+      "bytes": 147256,
+      "sha256": "f0a5726444854db3d72c0f5beae04141873d64fef143f24c7335af37523a07d2"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0013.json",
+      "bytes": 147249,
+      "sha256": "0ead14f8a4fb230ce1b3afd4d213517dc04cbdea83b85a9265a909f232a40bee"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0014.json",
+      "bytes": 147108,
+      "sha256": "711a2f40a6320054a45c30465ae95d547bbe8ec57933b7ea61263444b467cac6"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0015.json",
+      "bytes": 147177,
+      "sha256": "95d66d358f55db9b55483ac3ff91f08ef89a3b291108610a5266097833790987"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0016.json",
+      "bytes": 147180,
+      "sha256": "6cff453b12a72f99ba53efd6989febabff579886882e293480908c718e6c172a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0017.json",
+      "bytes": 147108,
+      "sha256": "a2d99adf9d1715bc34a5603c24f721e21f0167903afd29b6c3c690479c080724"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0018.json",
+      "bytes": 147173,
+      "sha256": "0c081b2752a5255f36b540cd8ac0061921d121fbaab1f8121922e5a15a8d636c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0019.json",
+      "bytes": 147177,
+      "sha256": "ec02557f28713db42a58e3eedeef726a9ea7c6e67a83e2599be28c4f86aeafb1"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0020.json",
+      "bytes": 147175,
+      "sha256": "6dcaef7a00c7ddebf3b33ce1c938c72fde463214027b4d4d9617e92a1675ab89"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0021.json",
+      "bytes": 147181,
+      "sha256": "152286f5caeee4ae8254b34bc3d501fbda34f531ab3a89d2d0876710da7a7b8f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0022.json",
+      "bytes": 147179,
+      "sha256": "e90c0a28d28b34d9765431bb3f239495dd409284587dc97f6f41cdcccbb01332"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0023.json",
+      "bytes": 147175,
+      "sha256": "2645aaf2f7b37972e073f1487dcc2a8857c1b5019a523bc7e43e0672006c232b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0024.json",
+      "bytes": 146098,
+      "sha256": "04ebc98df4721936a80abc4d8f5e42c4c554f573fa83983d15f7e34518566467"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0025.json",
+      "bytes": 147182,
+      "sha256": "b065ae8016aaf08728535452fa2c1c431abea95aefbabc9f8dae128b54765a14"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0026.json",
+      "bytes": 147179,
+      "sha256": "f41e0e097b3a97a722598275eb529b604ff6cafa70a3a2b7982db14b6c205866"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0027.json",
+      "bytes": 147173,
+      "sha256": "970a34896369db152debeb460f9e2e8ec28b15607ec837be5b3181398b014077"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0028.json",
+      "bytes": 146091,
+      "sha256": "1fc786aa33ebb632829bcda469c4884325c6ffc7f7651b21ef30295910a56d8e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0029.json",
+      "bytes": 147182,
+      "sha256": "7af890cf5e91eb2fa6074dff065fdda357771a562497e564e36797f6bf88cbcf"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0030.json",
+      "bytes": 147180,
+      "sha256": "b5dab632d79f46c2bb2b7b10cb6695838fb11ea8f5ebadaf69d5c39b4570c2b2"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0031.json",
+      "bytes": 147180,
+      "sha256": "d9289bdbd0c89833704975aafe7dfc20c51f7b97395ed9d4705a29ccc6c245a9"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0032.json",
+      "bytes": 147176,
+      "sha256": "b639b6dea613dd1fb5341a53eafc98c68a11882ebb040d855bfa15511e7799b0"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0033.json",
+      "bytes": 147183,
+      "sha256": "4b177f1a8fdd0d41089e98bc80d6a5c047c24996d1a2b94057039ff8997f83cb"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0034.json",
+      "bytes": 146089,
+      "sha256": "d60f44371fb8fe65032eae6bb06e6e06f5582d8089bb696346d6e96d663cb8a4"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0035.json",
+      "bytes": 147177,
+      "sha256": "c58841b789d9d836e30f18091ae20d7603401448965db9576538dcfe2e814b84"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0036.json",
+      "bytes": 147180,
+      "sha256": "3da4a941cae03d005c5cee85d1969d7ef9b9051dfe48d4d2f7ab624c7c696064"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0037.json",
+      "bytes": 147174,
+      "sha256": "2fca5742bbfe6d071878a3255936e02e5e72a7ad753be6382c95f1378e78b91b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0038.json",
+      "bytes": 173545,
+      "sha256": "0a5e3691f8fb0948064376460a99799ac8066ecb58669cd5e384083c95d31607"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0039.json",
+      "bytes": 173538,
+      "sha256": "3957c972d92869dbd5f8c798f8116421f83de65903a1b389da487d6b3c88e6df"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0040.json",
+      "bytes": 173582,
+      "sha256": "361f4a6534f5efe9795e3aae45ecf17225f91bcbc52207f5f228d3a7f9715c3b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0041.json",
+      "bytes": 173606,
+      "sha256": "cd3d3ee92a20739c5fb46343c410c4f017b4964bdcadd001d202852eeae86be9"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0042.json",
+      "bytes": 173563,
+      "sha256": "3a86c0f94a9ea82e5990b274347b189275a631d832e9bf9c29d8ab14e12ed199"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0043.json",
+      "bytes": 173577,
+      "sha256": "eb05d5762c2d8fb76e9e3d27b00958dfacc00c67b94c0cb488d6066f7b1ef195"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0044.json",
+      "bytes": 173581,
+      "sha256": "ffdb3215dc2f004361dbfbbce3804656cad75cc2975be2fb0500e89e30eb36bb"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0045.json",
+      "bytes": 173607,
+      "sha256": "abbae39b1c2d814788e8c1c19325008661586cc1b7d280ae6ee4d59b5c95dc1c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0046.json",
+      "bytes": 173615,
+      "sha256": "6850ffc695ffd648c4c1dd22618dede7705c6921cc843d8ea77a966e3f98b813"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0047.json",
+      "bytes": 173636,
+      "sha256": "a96c7806174286b4aee2560776f78a1f455938911fec3c00aea6f5fc64047f6f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0048.json",
+      "bytes": 173574,
+      "sha256": "7259196582665ab8fe43874b6c6ef43ed52217190bedd1ff9b4e293326d3d739"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0049.json",
+      "bytes": 173604,
+      "sha256": "61342b9002bf181822074f5aa0172e3244cf873319998b4062a6687e7ca65954"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0050.json",
+      "bytes": 173599,
+      "sha256": "540ecd302d2247b0e2f4dc66c2c85e441a9aae79c834d54f6f52f411e70cc439"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0051.json",
+      "bytes": 173600,
+      "sha256": "06f4633268f8da9d15e6cd020102171cf0102fb6ebf9992341a86362ae2b39f4"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0052.json",
+      "bytes": 173589,
+      "sha256": "14830ed5a082ab69c35a1f83ce68a412950dfb915d43dfd42db7f6252eb49d8e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0053.json",
+      "bytes": 173631,
+      "sha256": "d0c592a2503b7b9063e2ef033b865e6ee1d1db05c3f9b948ca99aebf0172a03c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0054.json",
+      "bytes": 173627,
+      "sha256": "3a20a6a406182cd02145d5518e312a5ad4bb28b32eff390a34f724e770cda26a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0055.json",
+      "bytes": 173665,
+      "sha256": "4e8b86ae9763fbcbbcc442de82d3a3ef5bdd430d5aed3b5b9eb5dd842a9996c2"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0056.json",
+      "bytes": 173641,
+      "sha256": "2d83e2f24823340ed87689927495a8f9432946d800eb9eac81a56df9d17e7da5"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0057.json",
+      "bytes": 173635,
+      "sha256": "35a78e6f0540d5fcb04d4abb121fa5e59d7f181988063faffd9e57afcde98cde"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0058.json",
+      "bytes": 173666,
+      "sha256": "31620597d4d7d58eb86318644f076d4d451a98828947c6f29dab223f5152cda4"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0059.json",
+      "bytes": 173634,
+      "sha256": "34dad1d1ecf32f9713ab6004ac56a3a8a7fa2812bad8378d89ee5fbe80d95564"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0060.json",
+      "bytes": 173657,
+      "sha256": "f28acb4eed18cab70ef722f6b1eac7dc157666f0c3be97b58f07dff54352025a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0061.json",
+      "bytes": 173594,
+      "sha256": "203936d72c587155ceec702aa097757c1e7c70958e7793526497a096099074dd"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0062.json",
+      "bytes": 173668,
+      "sha256": "57e71b389d0dd0d47c017b7cfb45c20318fc9e5bce1cb973d3b1b27e4e4e4dee"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0063.json",
+      "bytes": 173619,
+      "sha256": "6d0b50062f74412fd4b90ebdda558c0d6ad4cba609b8d7096f235024ceb7a593"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0064.json",
+      "bytes": 173629,
+      "sha256": "b76ef6adc4a5a6adc18f350d75d8fd1c1516da57d0ac2e8913b6f2b4671abd7e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0065.json",
+      "bytes": 173638,
+      "sha256": "7d5fcacdbf909126f1da85936a1d1c9cac85636fda8ef686c13152112b220cf0"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0066.json",
+      "bytes": 173655,
+      "sha256": "20d1a45a484344db226602dd136a8bceffe1f3796e6b22d92537b8af322bc292"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0067.json",
+      "bytes": 173637,
+      "sha256": "6fbe2ab68a391a50273b5f76fc187b14ec9681490ccae770084fd6cefd5e9638"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0068.json",
+      "bytes": 173672,
+      "sha256": "d41acfe5077d721e7e293f4afcd482360bd9dcb017aab68b14ffe9e5596ba075"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0069.json",
+      "bytes": 173677,
+      "sha256": "9993834b77fe08809c3ad99e88be799a75fa59ab771fd6d2910c84e0e553e4ce"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0070.json",
+      "bytes": 173634,
+      "sha256": "abb71e0fdd973715a3b6527892b0a6a0163baf7ea5c8574fbf3d5837292869dd"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0071.json",
+      "bytes": 173648,
+      "sha256": "73a4dd9b748ec442116dd5d3b9355dc5a8c36c631f7d38cf5261296d5333afaf"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0072.json",
+      "bytes": 173670,
+      "sha256": "e6ac06124e593b4322ad0d1ad30277efce91ebca30c210eccaece90904c43e4d"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0073.json",
+      "bytes": 173645,
+      "sha256": "8e5c3a7b419187fafc155029784fc7fb9751fcd0bd099aec89eb28bb4f9d188a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0074.json",
+      "bytes": 173676,
+      "sha256": "69d38bad9eabde35d5ffb0b77e6673f8ba6560e50f1634166a6cd5e6bdef54c7"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0075.json",
+      "bytes": 173669,
+      "sha256": "f4b3e51d7ab656bd92b35b9dd27dfc9ca52dfd35667478903e1fdcf727d748f3"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0076.json",
+      "bytes": 173662,
+      "sha256": "6f439a4070396f85571e3701a8dcaf67727250f5527000aa0a681001dca4d541"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0077.json",
+      "bytes": 173622,
+      "sha256": "2b0a067e05f001ebff15c67244a56227ca34e91454af0c810a8225a0c32ede2d"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0078.json",
+      "bytes": 173670,
+      "sha256": "75d90988b4a5f527e70c98c84fca754fef8df2903ba14e0a83c33bc21c7e8305"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0079.json",
+      "bytes": 173651,
+      "sha256": "7d0d063707d9edc01b55aa6f6689f665fa8c7c9c6cdc072291587d7d17744c57"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0080.json",
+      "bytes": 173682,
+      "sha256": "5eb5f482afbd81d672dd01d4270648e0a58166406124cc9c29f83ad3a7536964"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0081.json",
+      "bytes": 173689,
+      "sha256": "38cc2eaf526519bc0f74e1799a5955bba0d94b38a4a92ac6510f0860254400d3"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0082.json",
+      "bytes": 173645,
+      "sha256": "bdb530ca0c17e1dcf331253047eb4331577086a18e90a8ecc1272af2275d0b3d"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0083.json",
+      "bytes": 173680,
+      "sha256": "975d93158268c8a55a1f927db660c6475d178b450ebb89e9140c5cd9a39a1a82"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0084.json",
+      "bytes": 173623,
+      "sha256": "82b54bf119c9d03f5fbb35f7166e184986f0c7d44f1ecb47b50086777be9b8de"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0085.json",
+      "bytes": 173617,
+      "sha256": "4ea2aad3fb6787bb9c169abc40e0c473bb640c261327f23703c7b012f0f50ce6"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0086.json",
+      "bytes": 173696,
+      "sha256": "d3720fc5c3069ab88a01bf264a930b72ed987df86c605fd1d21c48d0d6f1721f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0087.json",
+      "bytes": 173664,
+      "sha256": "acdd9675a8b7e59f510789de27db1bcb2d6afb5b9a5b3bd52faa5bd16cfa7f16"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0088.json",
+      "bytes": 173680,
+      "sha256": "954f2b25c61accbe4b6a326775c8091915b192f4577718ce9e51c9d3e668c203"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0089.json",
+      "bytes": 173650,
+      "sha256": "c7486a597ef0e9f482376542caf283a1e83e7eac69aba388163ad1f35e53d167"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0090.json",
+      "bytes": 173689,
+      "sha256": "0ca4e38364b52244d29bf6883560a2d5dff122d2bf9a4f36caee309cfc37e26b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0091.json",
+      "bytes": 173710,
+      "sha256": "9ca293a6dde9dca912fd77089d6e8bbe2b81194b5103570ade63e92ae8f83ee2"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0092.json",
+      "bytes": 173642,
+      "sha256": "80e8b2b2d83ae96baf4bbdc7ab927766c619c6accc77ac93b4c5241c2c3170f3"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0093.json",
+      "bytes": 173689,
+      "sha256": "34c4b079714eadc2c7563f410be0d3486c39404758f84551c2ea0beca69b9705"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0094.json",
+      "bytes": 173668,
+      "sha256": "0805c4520ce866d00717c5ffe04e6bbe2141cfdf9a77f590a481345184750287"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0095.json",
+      "bytes": 173693,
+      "sha256": "65668322e76269e191d5e7ff958ac320ab96243d3ab9f1c2dde9bb39cf65db17"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0096.json",
+      "bytes": 173671,
+      "sha256": "8338241167611dbe83a36db46ff74721aaa7afc85e60c26253e45123794a3e73"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0097.json",
+      "bytes": 173676,
+      "sha256": "26e04d7f3442350182e62bbe2c7aa4de2c39365a6763549d63cd25a954b708d7"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0098.json",
+      "bytes": 173699,
+      "sha256": "e6df90aa47c51e545c2253a4506e3185f545b98afaacaaa02db7148366880630"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0099.json",
+      "bytes": 173659,
+      "sha256": "e72e03dc1d2b02d3df7bcd37a03076ecbce364e49de1bae3b56d4ba464e24d09"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0100.json",
+      "bytes": 173687,
+      "sha256": "d5a3c4823d3599262ccddd333bfed3d64d44fdedba66566b0b272d25a715906a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0101.json",
+      "bytes": 173663,
+      "sha256": "44fead5a7bf98293338167cedc72bb6b33bcc8f7e1632a873c559886dc307223"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0102.json",
+      "bytes": 173689,
+      "sha256": "a8dbbeb4516004f0ba1fc36b20e191bdc7506fe239684f08d76711ae05553887"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0103.json",
+      "bytes": 173708,
+      "sha256": "ce3cf39547e4217b53b6300ed81a9a5e58608f8ae75687a499dc0c13fe60d3b3"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0104.json",
+      "bytes": 173695,
+      "sha256": "ac2bf522cf13c2b6408441e5aa0950e22df4e1d09435e25973652319fc30fddc"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0105.json",
+      "bytes": 173678,
+      "sha256": "7d4672f3d0d0311bc1a4c8162f14748f85b138abf1a1df7113e5007fab82744e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0106.json",
+      "bytes": 173722,
+      "sha256": "87f94f1a6f8c8a26f382161367a5a1473f8b00fc5126e102ed1e93f3afda46b6"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0107.json",
+      "bytes": 173694,
+      "sha256": "70d9b448be94452394a9b6cde023e3e99480d1e0512ac074edee5e40d5eaace5"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0108.json",
+      "bytes": 173724,
+      "sha256": "58f3342adf20e8ad5bc251a315cf63505f11d632237954d241b8595e1f192807"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0109.json",
+      "bytes": 173699,
+      "sha256": "86b199bad6abc86099732fcaff3b87802534427c1717adf7dec594d9f25f8546"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0110.json",
+      "bytes": 173696,
+      "sha256": "faadc20ec0b7e967b65fea7e86a72a27ccdc41f4d4607df37d3a4b77379240fb"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0111.json",
+      "bytes": 173698,
+      "sha256": "8f93cc4a05f79f35497c2d5327788fb9227b41d2ccf2b83c334a80ab4dabaa3b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0112.json",
+      "bytes": 173680,
+      "sha256": "8e55525e2ba5b312027308eed3fdc6885c4d30e2959a9a9abed4e6855e723e9b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0113.json",
+      "bytes": 173719,
+      "sha256": "9f8ea3f6db7fc4947b45e917f450d66a54be32c17fae7995e925375330cfe6a1"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0114.json",
+      "bytes": 173733,
+      "sha256": "ceee9696ae653126f5c3ecdac17e44c7b65bafc4de9e6e0cb4c2acd21c28d1f3"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0115.json",
+      "bytes": 173735,
+      "sha256": "14c7937005b8246f3c9f9d7d7fcc3d712ebbb75caba9ececec3059adc0a882dd"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0116.json",
+      "bytes": 173754,
+      "sha256": "78d0388f31270b31675825d79da7f0ba5743388058c58bee78a7e7495940901c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0117.json",
+      "bytes": 173736,
+      "sha256": "b971ccde0acf57c5beb1c6a74c0eeb6c8464e787656b518c189fc118124d9deb"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0118.json",
+      "bytes": 173688,
+      "sha256": "245850a19bf8b456f927aa957e395b3f240fc29afeaf0d19ae0853e8ccce2b42"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0119.json",
+      "bytes": 173745,
+      "sha256": "1336415b890f6bd7bca9c9597994e22b84a3fee6814dae9647c2d85c70c6ed39"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0120.json",
+      "bytes": 173696,
+      "sha256": "fd5f646d9145667d8d3e21068f5efb67526ac494d2790820c05698eac3688ccd"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0121.json",
+      "bytes": 173708,
+      "sha256": "4daa68e6aa08db78efb4d991f14893f4ddbfd2c9d659ce2fd4dae2da880d43e4"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0122.json",
+      "bytes": 173655,
+      "sha256": "4885cb73f5017433626642ef1d7dd2bddb16e45381f00d34cbeb3ccbd7c90f96"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0123.json",
+      "bytes": 173715,
+      "sha256": "8fba3749d5b719add9e8d60cca3e8e5ca107bdd837476a69c8a90d7760c4ad39"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0124.json",
+      "bytes": 173674,
+      "sha256": "fa2538d4754d89a47b29f824975ddf7ca21c201dc32da49ecb0ea0be32407702"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0125.json",
+      "bytes": 173696,
+      "sha256": "88f5b5c7525636fe00846e5df6bb2b4281adaa9052642ead86369c0750fbd245"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0126.json",
+      "bytes": 173721,
+      "sha256": "1fe8533d4f7c937e3d48c74d69d4b6e63285b3a7324683911f7ec7a9c2e8e826"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0127.json",
+      "bytes": 173712,
+      "sha256": "0ec6620d7e1cdccc27aee9fe7457a549c265ca1780af675a54554ce54cb2d067"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0128.json",
+      "bytes": 173715,
+      "sha256": "666e91d6f0d2a27b40af60f1eed05199dad49ac00843db1c53e48049b7d4e18e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0129.json",
+      "bytes": 173713,
+      "sha256": "bda49bc972a6d8792a0573b0216291696f8d8bee0463b0a9049e8bba40475565"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0130.json",
+      "bytes": 173716,
+      "sha256": "5aa9b22fe40a2b23405bd79f292c0523ea98911c1f4706cbb56195071f485040"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0131.json",
+      "bytes": 173695,
+      "sha256": "82d3d74ccb1f409ffdf24a3bde9efaf9461a35b35a1ce73518c3c812e56bda68"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0132.json",
+      "bytes": 173775,
+      "sha256": "8ef847bdf21d9da948b6f16dc59c2378f90d181bbf75069f4e86a45c78064a17"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0133.json",
+      "bytes": 173714,
+      "sha256": "3f767bd2a8c8097a0fbb9d344d963df0245ddd83f4475701a690150ca8f96508"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0134.json",
+      "bytes": 173671,
+      "sha256": "90b856028080095bf15eb8f6fea762a2bb12826b62c0d6bde0f0c0bb5d2bb08f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0135.json",
+      "bytes": 173692,
+      "sha256": "994cca4674ad7d283af1b47d31dbef8048adfdd5d08f855fd3de49c35c42cca7"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0136.json",
+      "bytes": 173737,
+      "sha256": "8f20134cb837306e2c694a0b613e6f84ec47bf830b5843b53e93ab6b61f15b56"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0137.json",
+      "bytes": 173689,
+      "sha256": "dce667a6e13882c01585de75db0adfe456e6be08166cca69dd932a568c7cbc8a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0138.json",
+      "bytes": 173667,
+      "sha256": "2dae0317cd44e0c28bc9c9bc5482019458eb3cf4ba7ee860a91819895167af01"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0139.json",
+      "bytes": 173684,
+      "sha256": "187bfc6a1176c96be6614420697262602c20d9ed40f4ee106039f0c7ef7a331c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0140.json",
+      "bytes": 173685,
+      "sha256": "3dfadacead294ce79d2db68736ac8010b9fb9d3b00fffab421675ea9ad73f26d"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0141.json",
+      "bytes": 173667,
+      "sha256": "f01a37ce48039db5bfc526dae8bee983162025fb913489fed57946682ae2fa55"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0142.json",
+      "bytes": 173658,
+      "sha256": "95d65756a430346b2a54b629616bfd244c017a0bcbca147ae4d9b1320b5a3d80"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0143.json",
+      "bytes": 173712,
+      "sha256": "cfda031e75f73d3d4fd679b4445060f2936659965294329261873e938eae4227"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0144.json",
+      "bytes": 173668,
+      "sha256": "e2b9d82ed68f56749a0c121f3c7468fdcc0b3fa2878dc6c0eae375c558f3af25"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0145.json",
+      "bytes": 173701,
+      "sha256": "81b8ef1384614f96bddf3f4f658f40fedd1edc5e3cf7dec19d95d4b8df93665d"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0146.json",
+      "bytes": 173703,
+      "sha256": "6ebdaa0e3e04139a7c02644b04460184c1f9c579e0427a856f7159cc5110d596"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0147.json",
+      "bytes": 173704,
+      "sha256": "5814e802d5c5f5f09c90fa3d6914658397588ece06599bc5880cbf4a9abf8a6c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0148.json",
+      "bytes": 173651,
+      "sha256": "bf9cf26930ad5c425f9d0c60864dc6276f0fb3fe8681e9cf8ae60229e7ab7dc0"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0149.json",
+      "bytes": 173698,
+      "sha256": "07d28ac3461cc40291523b50a2d65d52aca4050e4e58540e37cd15470b8019f0"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0150.json",
+      "bytes": 173672,
+      "sha256": "d55739431142d7d758656bfbd29842b078a13e5c98bb2ecb93382cd82599e989"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0151.json",
+      "bytes": 173715,
+      "sha256": "5d605d2b18f6eb037cacbaa0936f9337969ac8e0794caf5421ffde6ca8855b7b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0152.json",
+      "bytes": 173708,
+      "sha256": "73c181d0626aad2428e2bc1c9d94a8f08dd90f9bfbbb473333277b8494fac38a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0153.json",
+      "bytes": 173711,
+      "sha256": "c15aa76340cab9235a50dc97e296dabf462e484db65df3df4c1c2b05b7b631d2"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0154.json",
+      "bytes": 173672,
+      "sha256": "01f143dd0f2f2408d59febf93ce648058ad7b21d5812787910a3446d3bf3af01"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0155.json",
+      "bytes": 173712,
+      "sha256": "44e7f0dec2db2835074dbcbcb1dc329f3e94d947ff54cac3264223787db96b43"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0156.json",
+      "bytes": 173733,
+      "sha256": "ffe37a5b9e2735e06ad62073034902e2bf09e6bbaf2b942f94830d05de135f04"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0157.json",
+      "bytes": 173723,
+      "sha256": "b2100edd82703d922503ab60fcf7634f789036abba40078f70409167129f13e7"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0158.json",
+      "bytes": 173711,
+      "sha256": "fd18f4823c7cc721e3a43355640769728bfea403a41825a57c4b44f962bc9c33"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0159.json",
+      "bytes": 173697,
+      "sha256": "350034ee4d65c23c9470867b0094dff160c6d6de5caa354334e46a3d6c329109"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0160.json",
+      "bytes": 173684,
+      "sha256": "02e94984a8d934232dcd9c6dd786da7b8c9d3e131b401d3626fd1c4298c9e946"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0161.json",
+      "bytes": 173670,
+      "sha256": "0aa88975ccee8aa478ac98bfb293995a87a0b869098efd595554ec577058ab10"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0162.json",
+      "bytes": 173668,
+      "sha256": "c5c1e02d81cf4be36bf026f3b60cc3e9a6fe595327a747309f1fe9a65bf76615"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0163.json",
+      "bytes": 173679,
+      "sha256": "3d153f740755ca6d7d1b306e8bd94224b757351ad3feab469560cff6d7d67e6a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0164.json",
+      "bytes": 173709,
+      "sha256": "1d7f5a01693452adda2b8750e79c7533c73dc3a30a2018551d74020de986c428"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0165.json",
+      "bytes": 173713,
+      "sha256": "4da79a41bf265fd92941a4692b060ff9fa204b5745a81a6af6e6fedffb69868b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0166.json",
+      "bytes": 147128,
+      "sha256": "06dbfb916359ab6c782783527eda8daf3326e44804fe52fdb77fe621fc95d54e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0167.json",
+      "bytes": 147176,
+      "sha256": "d480a48f1bf7520231ec8a41889488e85e38e4c6e1f7739a68532b777ea70a94"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0168.json",
+      "bytes": 147140,
+      "sha256": "95f992943b20ea77d51aca6c3170f11ed74dc50dcdac3a5ef2827132817e0b5e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0169.json",
+      "bytes": 147148,
+      "sha256": "a6400a644f7ad2f0baba4ef0d710829834d878ff215e8408b099bc817114f3f1"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0170.json",
+      "bytes": 147138,
+      "sha256": "e7f3f5fe1bbe2a640e1fdc037e9c70f1b104963128c9598858f663f1aafc57e1"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0171.json",
+      "bytes": 147149,
+      "sha256": "defefc0d328ca5ad2f701a0a9b0149e566333163e1cb713eb601c35e4e54f67e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0172.json",
+      "bytes": 147177,
+      "sha256": "1aba7851498a6e237a8c335ca2442bd380609ce0af2a77e8040ca024a667b750"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0173.json",
+      "bytes": 147156,
+      "sha256": "74677c122b41fa900ed17f92d1f3279c2c0e02638e5a738c22b05ed2c3a20ea3"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0174.json",
+      "bytes": 147174,
+      "sha256": "b937f1064943a7325c894ed7887f48c16f23d3e91857dccba060c5a2438539d5"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0175.json",
+      "bytes": 147146,
+      "sha256": "f8f5641cae3f71b8a66fa0cff21aee93083e827d3321467b9d18e614325b4d2c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0176.json",
+      "bytes": 147230,
+      "sha256": "fb3c400ae50f19afa182e7cf1b80881de4dcec33d8e2c321dd511038757f1c96"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0177.json",
+      "bytes": 147236,
+      "sha256": "9170871fac9348cc56a023def411a32bbfd503cbbc7e0154db2baa1bfdf5467b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0178.json",
+      "bytes": 147182,
+      "sha256": "83fdf9768cfd8fd0e3abbeb97f4987ef3e85336b083ca74f8f343279010021df"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0179.json",
+      "bytes": 147087,
+      "sha256": "df20883b8ca6320b66e151d5f7c9ed3dc650f142ac13652f409e2798d8bbd9c2"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0180.json",
+      "bytes": 147091,
+      "sha256": "a2e7d83137294a936a0e820398c279a8148713b80c3bc2260ae94f215072663f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0181.json",
+      "bytes": 147141,
+      "sha256": "2ecf1dd61fc79626f5bf87d1833d0a1bd540f5f7505bbf96ceee89b67bcea3ba"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0182.json",
+      "bytes": 147169,
+      "sha256": "0e6408e312032e05def8b408a2f8fc66304d87dcbf3262fd5b83599bc3620522"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0183.json",
+      "bytes": 147160,
+      "sha256": "eb8784652d3b8f2795fa8f6153cb4a5b798e40110d27946d1048c156b4f02ec0"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0184.json",
+      "bytes": 147156,
+      "sha256": "a537e9382c41ba53f22047767adb074ee70b8c7f1ba40b793bf75aa8c3bb1515"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0185.json",
+      "bytes": 147104,
+      "sha256": "c1566c8226b90511d269bac60b8e4b79fdda22657fa643b3fb300f9e15ca48a1"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0186.json",
+      "bytes": 147144,
+      "sha256": "7e970fe9df9c227c597eb9a60212db9b70460289a5d77c0f7e2ee7533007e50a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0187.json",
+      "bytes": 147161,
+      "sha256": "7594fce70b1c6e81fea5bede15ff9a09c116b5e4eb18da81772cf0557ece048d"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0188.json",
+      "bytes": 147144,
+      "sha256": "85c11c979cdd739bfaafaa37538ff17ab284e8885d80e16ea127821a64384370"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0189.json",
+      "bytes": 147152,
+      "sha256": "9ac9a08eac3105a156465d440d9c5f21ff21ca04abcf606e204466d85183534b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0190.json",
+      "bytes": 147141,
+      "sha256": "75e96102a9908060cadee2b107276b88ac9d760240bc365372b8301ca67a22da"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0191.json",
+      "bytes": 147170,
+      "sha256": "28397bdfa6e7d96ac4a0081725a2788b0d490b0f0862892731312d48dafed0fb"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0192.json",
+      "bytes": 147144,
+      "sha256": "78758a892cac40bcb1518d271d24c035fe608b234b8421aec2c101c9dd6859fe"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0193.json",
+      "bytes": 147177,
+      "sha256": "ae642048b6d38b3bc40e8b48c2a0ea23542dcbb9db2d419038c186d4783c107b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0194.json",
+      "bytes": 147163,
+      "sha256": "443a547ec8e0071c654f8de608d27ad8a6a4d9eef380fef19e6bf949a717a2d8"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0195.json",
+      "bytes": 147166,
+      "sha256": "088b188f170849f1f327cc093355479dac2610555274b6df02d331f29aff2253"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0196.json",
+      "bytes": 147172,
+      "sha256": "1a7e8065142c17a28b2bed07412fd64de8db53039db03aa419469e966cae754c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0197.json",
+      "bytes": 147149,
+      "sha256": "10492bd385742842d45c707a4179dbb3ccb61d5637fd86e5e291424e73fdcc98"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0198.json",
+      "bytes": 147135,
+      "sha256": "8e44cd09cf733ccf4db975522dcaf9de8a8b4254ab4528b40d5c37bb273cfb35"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0199.json",
+      "bytes": 147114,
+      "sha256": "1b52877ef5378822e82efd3260764334e07359432ff366fbbb94a71078a663b0"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0200.json",
+      "bytes": 147169,
+      "sha256": "f95fa45752a815f2359571607d0d94a4ec72f5dadbad1666474598081baf78b9"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0201.json",
+      "bytes": 147138,
+      "sha256": "e26c99eb69d1f1067ab34961ad70d5acde0f03514d1b8399c94a66edb09e4e04"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0202.json",
+      "bytes": 147489,
+      "sha256": "d1af6244f99b12a5d95fd60a1f1e224c6a594030aa60a6cdbc1e239f09c7d004"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0203.json",
+      "bytes": 147525,
+      "sha256": "5221530f667345dc3fd78e93efaf58ec61d73ac3a33cdfb66fabbf11c5c50b3f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0204.json",
+      "bytes": 147488,
+      "sha256": "9bec6b96e65fb0e81f83ac8854edcc99d8afdd05b2e62453eebac60e0387ba2c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0205.json",
+      "bytes": 147524,
+      "sha256": "074805663c25fa062037918ffcdd89f3e638ff8754122fd4de5cac77acd53e2d"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0206.json",
+      "bytes": 147488,
+      "sha256": "2391bd8a09eabcd91e8d596d3829949fea22069372b01aa5cc40cb200efa63b9"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0207.json",
+      "bytes": 147524,
+      "sha256": "46e0c85bdd03dcf919e214f002212100715982523d97f917bb0edeea378ad067"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0208.json",
+      "bytes": 147488,
+      "sha256": "03ae234e27e08c78b57c7c0a99a2d1aa0d4d932cad0b1f5c45e4aef6447e36b3"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0209.json",
+      "bytes": 147524,
+      "sha256": "2e9c0ce89371c1682fb93bc28b442fb94f6033fb941f509b989939b3100b59fa"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0210.json",
+      "bytes": 136881,
+      "sha256": "846d4d3fc2e67e2764d7eef95fe4db43a6f73b71add1d4e3c8e5e8cfdcd8176f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0211.json",
+      "bytes": 136944,
+      "sha256": "8f578e5ae3d2189d8454ccfe3fb2f3352986c0a559199cc9153e3f2cdf69e498"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0212.json",
+      "bytes": 127047,
+      "sha256": "4967551e906c71c78487c7de1538f665ce131b5fe5e2b788ea9174ed8bd2536a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0213.json",
+      "bytes": 127188,
+      "sha256": "15d6c34017d2b09bc22fa28367bdc66f4cc18413d59a72291907fb248f37f5bd"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0214.json",
+      "bytes": 136856,
+      "sha256": "bfcc90ae124cc939fa85d6da17f15932abe08cffee72dc6953d38a7090e0ea00"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0215.json",
+      "bytes": 136878,
+      "sha256": "7a6b68fd5bfad28b7bf7e1f409d6e48f8d9dbd02f0dc91dc9c0b8b90dbe285a6"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0216.json",
+      "bytes": 136931,
+      "sha256": "1d28d19b7f554ba102bdc21bb3745f8a0780d39b332d9362e6189dd61621d674"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0217.json",
+      "bytes": 127470,
+      "sha256": "e871aa7a82ab748a0889715a6aeef2fc1033288a851b24384eb5ba3783c70342"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0218.json",
+      "bytes": 136901,
+      "sha256": "08c9931b0a16975f9c4418efe57305c29dc54bdf82747e6542c625eb4be067e7"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0219.json",
+      "bytes": 136953,
+      "sha256": "c7cb3da09c625757ba634fe3ef3374cfb57d88225ee11a8a4bf82bdde0a7da52"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0220.json",
+      "bytes": 130867,
+      "sha256": "c80d393e12591db8d3e0d492fc36a8cbe6343b645de362724a485ed10379198f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0221.json",
+      "bytes": 144077,
+      "sha256": "b949800f0ba868ecb9b47ca6a94cbda6d14bd09fb68bcea37c3b6171b8c57979"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0222.json",
+      "bytes": 144072,
+      "sha256": "cefa20195ef6965a5c5fe3420c0027aa58c4e0f78e1f25a2ef81e123b42014dc"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0223.json",
+      "bytes": 144083,
+      "sha256": "9888e90f4565c78d6d80b8ab0bfe6b02f252d01801fcf2880f69e6f4f5076d04"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0224.json",
+      "bytes": 74892,
+      "sha256": "938d1a7226e368314172f627c43d03d20cbff1b4f5f1ff248434151e252e8b27"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0225.json",
+      "bytes": 160147,
+      "sha256": "21534068e33181f3e1c0e57632c2222aa22c61bf71769cb53e26d84e5867f304"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0226.json",
+      "bytes": 179535,
+      "sha256": "739cc33c74dfd510e9d3ec01744f6b33dd53cee204768b62090304ce9962e504"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0227.json",
+      "bytes": 86320,
+      "sha256": "0c3310e37ab78e1d593842ef8ff48cfd7c57f362fcb37a624071822e0d54b021"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0228.json",
+      "bytes": 86433,
+      "sha256": "889dd4dd1d0b3b6e7866c67fac023adb9814b1c82bdc00d314576605618726db"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0229.json",
+      "bytes": 86429,
+      "sha256": "0ca22ac35bf2cfc95db25d74897faafde418aaa1744bcfb4be7f6b2a63b16b26"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0230.json",
+      "bytes": 86419,
+      "sha256": "6363ebee0520b141ea535801460ca73615a580bff67b2dcc4d5b8ce534cd892b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0231.json",
+      "bytes": 86453,
+      "sha256": "7bc8218ca3f79cb1ffb1af569a4b57e3711912cadedc65846798a13cd5a21522"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0232.json",
+      "bytes": 86435,
+      "sha256": "d8b47fcd6cd26e6628dc23cecf487b93eb30ad2f8c5d44467ffbbd959408cd6b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0233.json",
+      "bytes": 86453,
+      "sha256": "532719800611b1d0aad5b581b344263ef5a2d318a804f2eea5292a45ed97c8f2"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0234.json",
+      "bytes": 86527,
+      "sha256": "54ae1dec97028ff7fe08881951a4259d619cbd788878bd5a84cc6a1cf4ff990b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0235.json",
+      "bytes": 86538,
+      "sha256": "273c314f183c1d9410a2ce81b52709f8ce6a5a3b4c6b073be2881b8630b491fa"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0236.json",
+      "bytes": 86419,
+      "sha256": "6a9b676589bf180d4152f9c4f7924d47489fff3df1751437af05d890e0a5e9c7"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0237.json",
+      "bytes": 86453,
+      "sha256": "c5540f0dae2b2454ad82db61de9700fbafc86e6e53c12750dfd848b2e03fb03f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0238.json",
+      "bytes": 86452,
+      "sha256": "9d738e294ac82652a0022020a5838ab4c85a430ea0828b96dec3e96b7a827909"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0239.json",
+      "bytes": 86418,
+      "sha256": "f9fb9599ab7746f71984013db74f367cdfd284e9245c7905b956a22027419e21"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0240.json",
+      "bytes": 86453,
+      "sha256": "d06a98dc05913865324c0047d903f6d2123abfbbd1f606b63d564974a1b22ee8"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0241.json",
+      "bytes": 86456,
+      "sha256": "ee2d668bdcc54e71e39c2071930753c660578e519399281024f00c4a2b432030"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0242.json",
+      "bytes": 86433,
+      "sha256": "44b888c12ef952db03a8bd7c0d7c331256de0925e3525007eaf051c6979c1f1f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0243.json",
+      "bytes": 86441,
+      "sha256": "db3e0e41d42d7b179553f0d09a57cfcc6a98effefa1a526774726c431185f630"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0244.json",
+      "bytes": 97405,
+      "sha256": "64be54f0b7ba6446bfd4d4362a28c851b0d6f93792612097ba5910872c05dc69"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0245.json",
+      "bytes": 97379,
+      "sha256": "f61b1f211dcca3f72412b80868c9f3a1e8ff1c3a8aa00ba92e204d839c959d32"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0246.json",
+      "bytes": 97447,
+      "sha256": "9ab6868eb502a9b2bb957d14e30d698476fb4138e4b8f8956b8405d7c5d74e51"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0247.json",
+      "bytes": 97451,
+      "sha256": "549eb431e3a1f38397257f895a0b1bf06da4f09de00058c0f1050e5ceff8d4cd"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0248.json",
+      "bytes": 97379,
+      "sha256": "89c42dd70acc679dec74f0d240dc089d638099d067222a30d6fd6cd1d81e6174"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0249.json",
+      "bytes": 97354,
+      "sha256": "45e2d69bbf17189707aa02f779693d3c4444433dd0c8c698eab7a4c3a09be613"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0250.json",
+      "bytes": 97458,
+      "sha256": "dc4ec7b542334b8a3d7b82885aeefc3a9c38667c959ea432a5535cc4df60d99b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0251.json",
+      "bytes": 97440,
+      "sha256": "5de370eeb3d16cc9662c6536cd102bc0b00497f97688a00c80e69ee2f938b2dd"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0252.json",
+      "bytes": 97456,
+      "sha256": "075fa7a0bd2a1dfd4b9d0915ea1b4648c590637f89e6c38e7ab954da0bf719f2"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0253.json",
+      "bytes": 97448,
+      "sha256": "bf4e0a8434e5a980fd3899026a6bba445ca053034cebd669e4a213d13e2cd0a8"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0254.json",
+      "bytes": 97445,
+      "sha256": "6f332e667bc695827b633cd94ffaa21373e18405155c63d49be8174f481f80d9"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0255.json",
+      "bytes": 97453,
+      "sha256": "73efe095b8f6c9ace1434224be470562f88bbfba9c9badd22df3e2d46e65774e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0256.json",
+      "bytes": 97460,
+      "sha256": "09896d7e8d238d2ef1e652ff68c10e6ff1eaa9eaa0be70c25864ca0b03cf14b4"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0257.json",
+      "bytes": 97450,
+      "sha256": "c12ac8561adbedc27bf5853115e5fb7943d0dd9ff3a9ba2334b14a50c80582f6"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0258.json",
+      "bytes": 97451,
+      "sha256": "ea9b0e5f379d83d13953cddcd075e13391d2b71f14be38e65cdce49e38473721"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0259.json",
+      "bytes": 97459,
+      "sha256": "67e461f0319aa33986179276b27ae43b6b42e470b757ecb478829c3506a1a407"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0260.json",
+      "bytes": 97530,
+      "sha256": "bccc6697dbcb91caa499882653f91924655e7d5d2d5566d4050a3ecb79bf3fb0"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0261.json",
+      "bytes": 97458,
+      "sha256": "6f67743718369e47188dfc1726ccdfa7d1807c8e31b0c46dea2a87e8c3d6940c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0262.json",
+      "bytes": 97480,
+      "sha256": "23c8417537e789fb4ad0877f6d04452124de28404936a028a99e622f2560acc1"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0263.json",
+      "bytes": 97526,
+      "sha256": "ad63a943895436400ecae7081519fe0c0453730db4bc8c511a6236076f3740a7"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0264.json",
+      "bytes": 97508,
+      "sha256": "56882bc46aa5d9bfa197ddd9c11e70e34ddb7583e9e8440c19dfeda71eb7223c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0265.json",
+      "bytes": 97495,
+      "sha256": "76c9ed62030b9bde3e17ab4bef687e9d0bd06ef0f0535aeeac7a213ec0196770"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0266.json",
+      "bytes": 97453,
+      "sha256": "42346d7ce20699b998e00fa0aa64e44715eba0b94e78c12d39b57d95fd7b6421"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0267.json",
+      "bytes": 97477,
+      "sha256": "5ac5a9aa3a874b7de6cea9899b4683b2043425f94e1c5858f0aedf6c9afa0dc5"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0268.json",
+      "bytes": 97486,
+      "sha256": "d0822f83e715b8b73a724fbeeef6045d140b9908273c8b77e8d0149e61c1c526"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0269.json",
+      "bytes": 97446,
+      "sha256": "f5b3fa02eeab4e6d0de2f66bd5b7a955d62c410886eda28356aff5c103fcf83a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0270.json",
+      "bytes": 97511,
+      "sha256": "18fd697cdf5aaf5259627f7817b0984e822a6c98437a744558f1bfaca96f48c6"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0271.json",
+      "bytes": 97482,
+      "sha256": "87d56c1f72b17ec62daf4f862b987d01316bbdf0265e3208215d95d6efa522df"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0272.json",
+      "bytes": 97481,
+      "sha256": "35523ba20634e2b60ebfb94825ba886aabe099142aa283d0e297e9f449ad2a08"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0273.json",
+      "bytes": 97461,
+      "sha256": "53a3f620b19b72cd85efeaa785f54a0101f24895bed82d4db234f8937787cde6"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0274.json",
+      "bytes": 97476,
+      "sha256": "a17afaed4c43bf49bf5ea36f39899e9c20f3a3d1c1b17adb7683ea21a6bba2dc"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0275.json",
+      "bytes": 97445,
+      "sha256": "6e93b1620abecac4392223f0e13b6a261178ebba5cb32451e8abde29835070f5"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0276.json",
+      "bytes": 97551,
+      "sha256": "c2049a6aafca1ac0cbbb4aa3b1f2604f188b0929aa7d6580adfdd26c84e4ccfd"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0277.json",
+      "bytes": 97537,
+      "sha256": "39a4189744f95120b9096fd5055f4785e322aba1df4ab0599937511ecd85c453"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0278.json",
+      "bytes": 97491,
+      "sha256": "e1f7a712a29eb10a73b9327ab79c3a43f719b7bcb98f189791bfa2239b396378"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0279.json",
+      "bytes": 97496,
+      "sha256": "46947900aa73b8ad57da8b078dbcfa86a69d81ce68e0dd0241f8ea279ff26aa2"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0280.json",
+      "bytes": 97517,
+      "sha256": "3eb8352338fd2c27d81dc4e4069f4d19faa2987a77df50f781c1409a77898979"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0281.json",
+      "bytes": 97510,
+      "sha256": "336237b7939013098496cbbc14bc70763c3eecb4668dfc6b7f1a93978b4ae238"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0282.json",
+      "bytes": 97502,
+      "sha256": "f8c856918d61d3cbeaa0b990660e35f179179423009e2179f12ed9eef840c52a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0283.json",
+      "bytes": 97516,
+      "sha256": "1be024991883270f5a6438a76d9bbf3273553cd169e16b39d5bb227afb2eba9f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0284.json",
+      "bytes": 97473,
+      "sha256": "12345de2db534be807658db307baf937762f44fb5cd7a60b599d872f3c5efd95"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0285.json",
+      "bytes": 97523,
+      "sha256": "e77cf603f6773e86b0f8e8cd89c5175ee3c5fecd8d89f78779392076ca68be32"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0286.json",
+      "bytes": 97516,
+      "sha256": "66db39aa8a88cc3148873df5370127f47e715f397c2139d2cc9d686cf187caa6"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0287.json",
+      "bytes": 97472,
+      "sha256": "27941a26ad56185ff0ae247ffe444f94f9188e7f37080c067eb311d313b9db23"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0288.json",
+      "bytes": 97516,
+      "sha256": "3107f1867e87489d69655abe91754c3ce0a8e1b1ca15b212ea21ce9917368d82"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0289.json",
+      "bytes": 97436,
+      "sha256": "9b91bf52c53683ba757147baa863e21823466cc26d71698025ccd962b5a67d91"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0290.json",
+      "bytes": 97506,
+      "sha256": "afa6278dd269b0b793a53d88eaee5d8e52b3eb9a1e288216f9642f588d58d1a3"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0291.json",
+      "bytes": 97485,
+      "sha256": "3aea22a4f2520815cdd38556553d5d5205801722f1102c9101137e9ef8199e31"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0292.json",
+      "bytes": 97528,
+      "sha256": "49fffe444d8160099d65fb2206715fd387c2300d8ac2ae0ae4971ef12016728c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0293.json",
+      "bytes": 97518,
+      "sha256": "6ca89dbebaba5d77d96f8fd95dcd40d38c8bc5d75c19d7062eb6c304fea28e15"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0294.json",
+      "bytes": 97509,
+      "sha256": "9f115cc3c3a69090f47726304d7328fe752c5c81554d3231c3dac1bc0e315f90"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0295.json",
+      "bytes": 97550,
+      "sha256": "4b0fc721c6df0e2bbc084a304f110f359d99d8985138a1096752963cd59355c8"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0296.json",
+      "bytes": 97505,
+      "sha256": "5a63aaf5cbb903968663d059eedea82148bef0ba98cd021ab37a921f5c6d87c2"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0297.json",
+      "bytes": 97510,
+      "sha256": "24a0e47397aa9156b1fe241d2f4f411454866df8ebf9f50523850244612e648a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0298.json",
+      "bytes": 97570,
+      "sha256": "c754b7ae04d38078c94eefacfdb05f2cddcb45c5c58f0dd5db1cc597f727ee46"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0299.json",
+      "bytes": 97516,
+      "sha256": "25254521d3b2d4b662c3f5f43ed5f2249c2e435480970793faf1e0d2d52644cd"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0300.json",
+      "bytes": 97563,
+      "sha256": "ff3f4751cb42071e3f091a7eaae5bb430844d88d5d667918cc20b515872e29e6"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0301.json",
+      "bytes": 97513,
+      "sha256": "9565b49fe8f1cf0c265f96aa050cb4f826c00a8bd594a0730d3f23f25dbf1898"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0302.json",
+      "bytes": 97498,
+      "sha256": "08036de7981ff453be4be111bc62a249fe03b836d61bad77db85f6c90cb24675"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0303.json",
+      "bytes": 97524,
+      "sha256": "e4ad61a6db2948da53c71adeb9356c6a6ad22be258ebe36c81a82437c1c50748"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0304.json",
+      "bytes": 97502,
+      "sha256": "e724fcb82fff3d0d64aa7a23bf4f504b06a7b1c817e7533d95299ed3e3b0cd44"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0305.json",
+      "bytes": 97519,
+      "sha256": "7658cbfad62fd628e507071073e42e586842d4b6f454d9327a1f335b9f4dec7c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0306.json",
+      "bytes": 97507,
+      "sha256": "2b56bf5652db555c8c47b661bc040d94a6abd13088f33917e427947449889101"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0307.json",
+      "bytes": 97608,
+      "sha256": "994101cb0325b56129f2e18252b92faae774ff47750b94e67b4f752fef5412c9"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0308.json",
+      "bytes": 97624,
+      "sha256": "abd6d4deb9eb9ea38e84310e12e13c05bc12069ce936f09ed463bb932d0ea1c7"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0309.json",
+      "bytes": 97546,
+      "sha256": "a929dd8ccfb6182c8256af753a4c407afb65544e799df3848558fc1b60b804bb"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0310.json",
+      "bytes": 97589,
+      "sha256": "b7769b504e2906652030df0b6944cadfba38aa31c3bf61ae13292b101a542588"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0311.json",
+      "bytes": 97581,
+      "sha256": "967b85054d6fe9eddbcc7cb4401a74d909f0a314628ff888f4b0ac00819f3557"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0312.json",
+      "bytes": 97514,
+      "sha256": "e5ee196cdcde71cd8628fdc45cb8ca6e2b70558777dedfe42159117881f847ff"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0313.json",
+      "bytes": 97535,
+      "sha256": "5dde2aa5045feead8c757bc1e782d57467c550536ceefeb3b08347179dc6026e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0314.json",
+      "bytes": 97513,
+      "sha256": "f111cb820e787fe454b584b56455facd010e74d0ecb7eaa5118f02972fe73cd2"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0315.json",
+      "bytes": 97515,
+      "sha256": "712e99ea183e3ff9d5569bdeaab42512a767c4456a090a68f431c4219a8b7005"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0316.json",
+      "bytes": 97486,
+      "sha256": "719312b9cb7dbd2c84628db6fc399e864c02d3053a88e0ffa310c4b60cafd636"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0317.json",
+      "bytes": 97545,
+      "sha256": "98b984dcbf9393c43d7f0536456c5cb660d1fe5f0347dc83c5cacd76835859a0"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0318.json",
+      "bytes": 97549,
+      "sha256": "aa43860300533e6c40497155f2641010fde6165039c5c53972b78bfa80596388"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0319.json",
+      "bytes": 97539,
+      "sha256": "00e1d58170c34187cf0d792ca92de062030759bd2262ed276f5d32eeed47a6b3"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0320.json",
+      "bytes": 97572,
+      "sha256": "e36d1b9d18e712a0f8892b1b657805dbace6b63d2cbc6b558a537b6d3cbe3518"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0321.json",
+      "bytes": 97525,
+      "sha256": "b37b7d701f7b3e78152b752e60ac41acfed322686278067807576aa097efc14f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0322.json",
+      "bytes": 97563,
+      "sha256": "d0a3515832419da4b5eccd08916bbe6ed4d9890ec1ece979d613a3c00659d052"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0323.json",
+      "bytes": 97536,
+      "sha256": "5974c7fa4932dbcbcd4e67090e9ce3fa1f083dcd03a74032dd04b3d995891ffa"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0324.json",
+      "bytes": 97505,
+      "sha256": "f3c077e57077b9f401b69eafdac441524cce2b34894f9fdbec2fa2f1fa1f0679"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0325.json",
+      "bytes": 97587,
+      "sha256": "2c148f9ca0a1a4ebc6c1769f8fcd0157d35f8e649cac69d1c55c2fba4fdc631b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0326.json",
+      "bytes": 97547,
+      "sha256": "de7ffc04a05bd13dd5badfd88f9645b402ab7041f59e6153c5013e1742a93cd8"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0327.json",
+      "bytes": 97515,
+      "sha256": "67499b6dd54e6c12c3e2d0bd48d2a39f86d27948516c32d53d6b13aaee86c160"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0328.json",
+      "bytes": 97564,
+      "sha256": "59627c1a5cc77ad2d8f5243f0aafbd553b88e9bf71b509ad97a656235288c799"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0329.json",
+      "bytes": 97558,
+      "sha256": "279ddbc54907953e39c5f9bc812d25f3e32406fb3d6dc9b6723bfc82e557c830"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0330.json",
+      "bytes": 97587,
+      "sha256": "3a8f15ade9a6a058d2abc3076e4873c71baf28fa85113e72e54d6cb01f3c11fb"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0331.json",
+      "bytes": 97478,
+      "sha256": "2b68d6e33f326ea7381cfa1ff151088ebf758c9b5a359d0e98bcf518c3bbf779"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0332.json",
+      "bytes": 97501,
+      "sha256": "ff6582be18c4fe112e40b612016587543a57deee310c0abb5b49ad3c6945724c"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0333.json",
+      "bytes": 97519,
+      "sha256": "a8f63c7285f48a9162b60df30b48f64654233b2ab7495341a738b5a399b85ce8"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0334.json",
+      "bytes": 97520,
+      "sha256": "0641c5e1577f63cf3041a4df3e74bdbe527ee09e3488bcc2cc402b0d1f1639cd"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0335.json",
+      "bytes": 97554,
+      "sha256": "0592680dd674bdb2dbbbe90b415cb050f44f5cfee771cbfce6a2e8ba24abde6f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0336.json",
+      "bytes": 97535,
+      "sha256": "1b2ccbb50a88fff3481fe931c80195044a7af9ee2e17a1713b7401199ac0214d"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0337.json",
+      "bytes": 97533,
+      "sha256": "0b23d99af2cffb8447c4116016ccfda21f2eabcc18be47e591b6c573a4c459a0"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0338.json",
+      "bytes": 97587,
+      "sha256": "e2fa77b0307a9710d46359014e0c13fd719d1024477b9251ef8be4fc8d6a0821"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0339.json",
+      "bytes": 97539,
+      "sha256": "6883e5b690e91adb0adb171507e7cbe20a8f83b72d282b626776d5a34c09659e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0340.json",
+      "bytes": 97570,
+      "sha256": "7721224e27ed487d7354273da227c01edf484172b7e995f4562a878311ff3d6a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0341.json",
+      "bytes": 97573,
+      "sha256": "5b7b4ec1b0409dba449a74a1b94ebfdf8aea7d5c888093f6d5a3cc2c01fe5caf"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0342.json",
+      "bytes": 97542,
+      "sha256": "b95bfd2661ee41a69aa3b87871080f2356b220f767b04f1d99be3e076e0510ee"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0343.json",
+      "bytes": 97593,
+      "sha256": "137ecece510f25a6b2e7a49277a26779d8f55e389e7870d59ad8e8490e4e65a6"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0344.json",
+      "bytes": 97501,
+      "sha256": "033ee497fae8017e3ccd000dc0ee9cc2ae0565356028c5758aa198492f68ab96"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0345.json",
+      "bytes": 97589,
+      "sha256": "f2116cef6062af3803c939a71d3bb4f91c9413835265e3400128e453b309e469"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0346.json",
+      "bytes": 97529,
+      "sha256": "eab296b7da229c564aee96411858d67041a86a8301e038f44cd6b2b64e53d883"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0347.json",
+      "bytes": 97545,
+      "sha256": "95be921f44281508913564fdb71af76fd244ccbdaa2f5e61e5c4eb501f3ac9fd"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0348.json",
+      "bytes": 97585,
+      "sha256": "931932b396e21e96a6947fef9011fd3635a6c2325fd9873479a89ed8f6a117fe"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0349.json",
+      "bytes": 97485,
+      "sha256": "1b977ac4aace0bdfe50558f5d4c86acda92752e061295bf9eef875e5aa41673a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0350.json",
+      "bytes": 97553,
+      "sha256": "0e67fc75ad9557b1367618231c8c34712832e6cb529f7533f51148ee01a0bda5"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0351.json",
+      "bytes": 97575,
+      "sha256": "db9a66b6e94fdbf157ca1add27d23f5ccacb9740f9ed967b887b55b02049685f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0352.json",
+      "bytes": 97552,
+      "sha256": "73ca7616fdca123175f09fcecb875d4dc83e6624efd7f72d59ec0aa60f8a35c4"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0353.json",
+      "bytes": 97531,
+      "sha256": "1bc2a50eb9fab444b80a5bb81e9ab5d078697419616f1571147ea1bdb9978199"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0354.json",
+      "bytes": 97574,
+      "sha256": "53b1a91f95236555b3ff7e37831c81b69d1d2bdfed0aeb2d37a238739db50f2b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0355.json",
+      "bytes": 97558,
+      "sha256": "664ac24d6776e73346d486d9572feea34df2facb767de3a82c7da7048ed567a0"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0356.json",
+      "bytes": 97487,
+      "sha256": "dab856c3b9a5b359f7b235069619dd3f42a16a81c08dee5839fe1b5edebdf817"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0357.json",
+      "bytes": 97532,
+      "sha256": "ba9b3b6c7f4688969e2a895604b4b5760e7cc8e9fa9cf7187f2df80aec579bc4"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0358.json",
+      "bytes": 97585,
+      "sha256": "c469db72a90e1b715be0ec282a127cc97e703d65993a122992a91bb6667e159e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0359.json",
+      "bytes": 97454,
+      "sha256": "bf8c6f5229d7b92675b307a53866ca6d0857bdc5df36ee7ca8016e7f8caed065"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0360.json",
+      "bytes": 97520,
+      "sha256": "5e64a32f33c094489135617f4d6f51e3a21c4094e2a157e613b07add23746eea"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0361.json",
+      "bytes": 97550,
+      "sha256": "98a6c4317b685d17311ee64309b552a7f4520299035b6f0922653c0584786081"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0362.json",
+      "bytes": 97559,
+      "sha256": "82e84763bcf523dc3d42c4820efdf55334e4620f9d982a383c81a51f13e37c85"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0363.json",
+      "bytes": 97569,
+      "sha256": "6f9e613b604e0f66e645e6bc82fc3786a31e74d86fe0910804276477e5b95222"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0364.json",
+      "bytes": 97521,
+      "sha256": "ddfdce64fdc1ca9ec651dc250f65b729831d025dd4675d1ca1ee61d0a453b34b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0365.json",
+      "bytes": 97546,
+      "sha256": "9676b418abcb737b505557c9afec397118ab9fce8afad120fb2368b8daf9f825"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0366.json",
+      "bytes": 97528,
+      "sha256": "dbe7fe2f06b144e4fc25c7cdce427684bc44a4c52e3f0ef08b37fca2e467927b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0367.json",
+      "bytes": 97586,
+      "sha256": "296ab398c0e4e442efe496813efd045063a7234bc43b326ca2013b109ad11c32"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0368.json",
+      "bytes": 97585,
+      "sha256": "d20447ff02f962520ded0df3e16569e8cf92a62e3e032db5629c0c3fdc2a92ad"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0369.json",
+      "bytes": 97520,
+      "sha256": "e8da6d37f1d3323a20a1670e6933d6f07aaec71845ef06ae1dc19cb9390e3d13"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0370.json",
+      "bytes": 97517,
+      "sha256": "ff018f6c29b49ee9a1e80728f27eb0feaf43c11b6e1a21bac81e1e0d7555dbd1"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0371.json",
+      "bytes": 97524,
+      "sha256": "dc8118eb786af7632833be1c27e3cc2a443ab4f7c7fffa2fd1163f78338d9e40"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0372.json",
+      "bytes": 86372,
+      "sha256": "3defb50af258d87d17b69c6aa597234699dc8a93d42e6b186b46267814f146f9"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0373.json",
+      "bytes": 86344,
+      "sha256": "43045c2afa5595a1377b8d3c87560410d8bb7a98938267d5da0b4642192fd36a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0374.json",
+      "bytes": 86363,
+      "sha256": "46ce910ab1974a350b9c10031ec878a64800d661cd902bf6877f8b7d1ce6d4ef"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0375.json",
+      "bytes": 86410,
+      "sha256": "2719e7009c41bbeb32d49e9183b4c2ace26ebc2e62092b53babca47bd3d92754"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0376.json",
+      "bytes": 86343,
+      "sha256": "9e835bc42971c215bb5a221824eaf130cd9783bb50a4eb9cd6cadb2f534cb711"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0377.json",
+      "bytes": 86394,
+      "sha256": "4541f02ffd8d6d5e9bacab724f11c9fd9653923292a422070da9678d17256e76"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0378.json",
+      "bytes": 86454,
+      "sha256": "2b847ac1895438d275d3336705471776a4dbde9966c1f98be9c5164c2486a606"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0379.json",
+      "bytes": 86474,
+      "sha256": "061cb8dd792889d2c0e118b21136a455754cc17ea2884d667c2cf32c769d7a7e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0380.json",
+      "bytes": 86371,
+      "sha256": "93ee9c9c923304fdc81eb77e39173750705521bb5fcc627e3ec6b353a437e29e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0381.json",
+      "bytes": 86339,
+      "sha256": "1eed41ed67479d5ec3beb222e232620b133f14368f19a2140ba64f1f86ab04fd"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0382.json",
+      "bytes": 86351,
+      "sha256": "d25568ca01f0f5532247ea67b94cda7e8c3cdafd4882133d85fe0604a54f301b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0383.json",
+      "bytes": 86338,
+      "sha256": "a1e44d0728132c8d7f6d93f29f8921413ef39a83bf38b52d8a19bf639d4b4469"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0384.json",
+      "bytes": 86354,
+      "sha256": "d55ac3b132ee7293d576b83bbe66a4dce33420fcbe6c652411bc03aa98463d79"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0385.json",
+      "bytes": 86410,
+      "sha256": "4d9e4dfec329d08659181647256aecfc38efc99c3d8ef43cf10867ef286ecad0"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0386.json",
+      "bytes": 86405,
+      "sha256": "ef93b4646ea16da4923a7e8a0bce1df6afbd50959dffbb5252cd4f8a07146a62"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0387.json",
+      "bytes": 86420,
+      "sha256": "94ac2cea4771fbdebabf4ef5fdf3dd3bcc4b0c3f65255f82957ba153ef6ec40a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0388.json",
+      "bytes": 86541,
+      "sha256": "154b62c7664bfba509c8fa58c622be67e8b1e2d7ac331e3c1463842659fc921f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0389.json",
+      "bytes": 86558,
+      "sha256": "d8e91562be2bedec9a760fa3fcb8ba9d9dd5d8176d871c1ccdf77e58d9175af2"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0390.json",
+      "bytes": 86540,
+      "sha256": "b6bdd8b75ece7d22c82acfff58d5095ab9aeccdb2769e579451957698073faee"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0391.json",
+      "bytes": 86557,
+      "sha256": "c415efa2e97ffddabab59dfd74d1a25d3c0d7d3998cbb131c5bd4ace927df8ce"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0392.json",
+      "bytes": 86501,
+      "sha256": "fa9089e9c1f13c3da2919d4aca36a3ff03b9245b0529ca56c01ec7f557881199"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0393.json",
+      "bytes": 86561,
+      "sha256": "642efb9c4ae52cf2bf9274db512cbb5a061e2949d13fcdcd0680587137247f72"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0394.json",
+      "bytes": 86463,
+      "sha256": "6b193458871fb8ed8b691676d784d29aafa5a96f6304c7f29eff3b0ef8a9fe70"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0395.json",
+      "bytes": 86440,
+      "sha256": "8b6055e7e5365911480a3af3aeee3214612ad375d814f4576d7bc59c72b22ed9"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0396.json",
+      "bytes": 47646,
+      "sha256": "048eeff1320427067a60374edfca5fc392734e5062bcd7013c86e8e1735ba5c3"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0397.json",
+      "bytes": 78732,
+      "sha256": "eee79c3f4810312e4fdf7bfa7f23e3500907e00c987b7fe8282d3ac3e080cd09"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0398.json",
+      "bytes": 78902,
+      "sha256": "e0a7f1d1ae1ab8e5fce3782375a4b19d71fba8f763dba2d0360da5dcac1a9067"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0399.json",
+      "bytes": 78777,
+      "sha256": "323ec647ffdf33de6a179f5f1add9c465082ebff4c96e8cab063470b627b45a8"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0400.json",
+      "bytes": 78796,
+      "sha256": "40797caae6ab4b904b1acd6109feaa28cbe31d3d1be3cd1e0b4db38937d2c48a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0401.json",
+      "bytes": 78749,
+      "sha256": "3095a047eb1ecebc223c28c55c45faaed38ed58225b6c6bac12a8348dcf3b555"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0402.json",
+      "bytes": 78794,
+      "sha256": "e9f4b7b17fc460c43736ab808551126086abd67671d5a579b5562095b12bb39d"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0403.json",
+      "bytes": 84955,
+      "sha256": "863be3d14b21f648297649549b1732455b39d615aacbaef533c34fa9932f03ce"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0404.json",
+      "bytes": 84935,
+      "sha256": "a285c0d7bdc9873973f012fcbedfb0a9f072fe139dbee14c9cc6d6efd7297de8"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0405.json",
+      "bytes": 84959,
+      "sha256": "3636095381d6a92af92e4b96e3b9be2293ffa70e3ae255958203519d46fc7558"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0406.json",
+      "bytes": 41044,
+      "sha256": "d9c6a0f9f34d20b250a19618f6b953e5365d9a551aff3dcf214ea198390080df"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0407.json",
+      "bytes": 98006,
+      "sha256": "c393a5894da533862aa2192417e9e1ba8840a637c210774039a729d2e8055432"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0408.json",
+      "bytes": 97959,
+      "sha256": "6f103ed8ca45faa8d42dad472b47cb38bb484829bcce586b2c15ee7ef7ebe828"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0409.json",
+      "bytes": 98036,
+      "sha256": "85944a88867c1e81e510a9b65133af5807e64e4597320bf2b51a5e51aad15262"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original003\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0410.json",
+      "bytes": 98015,
+      "sha256": "588cde29e8dba852afc00a600464e9b45cedeccc3abb95587f4780bdf3ff6ae2"
+    }
+  ]
+}

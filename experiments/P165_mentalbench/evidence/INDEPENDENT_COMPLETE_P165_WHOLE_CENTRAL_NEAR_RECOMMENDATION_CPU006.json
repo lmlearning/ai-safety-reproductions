@@ -1,0 +1,1948 @@
+{
+  "schema": "P165_INDEPENDENT_WHOLE_OUTCOME_RETROSPECTIVE_NEAR_ASSESSMENT_CPU006",
+  "UTC": "2026-10-17T09:37:18.302696+00:00",
+  "review_origin_UTC": "2026-10-17T09:34:35.1427517+00:00",
+  "review_absolute_end_UTC": "2026-10-17T09:40:35.1427517+00:00",
+  "status": "RETROSPECTIVE_COMPLETE_CENTRAL_NEAR_SUPPORTED_WITH_EXPLICIT_MATERIAL_EXCEPTIONS__FIXED921_NOT_PASSED",
+  "recommendation": "ROOT may honestly count a separately labelled retrospective NEAR_SUCCESS for the complete original released-rating central validation, keeping921315/324FAIL and every discrepancy. This is a scientific synthesis under user913, not a newly tuned numeric threshold or a claim that all published uncertainty values are close. ROOT alone awards credit.",
+  "prospective_rule921": {
+    "main_total": 324,
+    "pass_count": 315,
+    "fail_count": 9,
+    "unknown": 0,
+    "unchanged": true,
+    "all_cell_gate": false
+  },
+  "scope": "All1000 original conversations/all10 response roles/all7attributes/all4judges, RQ1/RQ2/RQ3 full fixed central family. All1150 published roles retained,896 numerically identified and254 source-alias/aggregation UNKNOWN auxiliary roles. No new model/human recruitment; FULL false.",
+  "independent_agreement": {
+    "fields": 69502,
+    "TRUE": 69502,
+    "FALSE": 0,
+    "UNKNOWN": 0,
+    "max_abs_error": 1.247890679678676e-13,
+    "all9_input_manifest_refs_identical": true,
+    "all_candidate_product_pins_verified": true,
+    "native_primary_audit_exit0_clean_closure": true,
+    "tool0_evidence": "Trusted ROOT task actual955/956; no new live query"
+  },
+  "whole_family_metrics": {
+    "Table2/mean": {
+      "total": 63,
+      "defined": 63,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0075198338290420825,
+        "RMSE": 0.03892619902727017,
+        "MAX": 0.3080467955239065
+      },
+      "scaled": {
+        "MAE": 0.0018799584572605206,
+        "RMSE": 0.009731549756817542,
+        "MAX": 0.07701169888097663
+      }
+    },
+    "Table2/gpt4o": {
+      "total": 1,
+      "defined": 1,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.00090376090376,
+        "RMSE": 0.00090376090376,
+        "MAX": 0.00090376090376
+      },
+      "scaled": {
+        "MAE": 0.00022594022594,
+        "RMSE": 0.00022594022594,
+        "MAX": 0.00022594022594
+      }
+    },
+    "Table2/gemini": {
+      "total": 1,
+      "defined": 1,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.002223652223652,
+        "RMSE": 0.002223652223652,
+        "MAX": 0.002223652223652
+      },
+      "scaled": {
+        "MAE": 0.000555913055913,
+        "RMSE": 0.000555913055913,
+        "MAX": 0.000555913055913
+      }
+    },
+    "Table2/gpt4omini": {
+      "total": 1,
+      "defined": 1,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.00034463034463,
+        "RMSE": 0.00034463034463,
+        "MAX": 0.00034463034463
+      },
+      "scaled": {
+        "MAE": 8.61575861575e-05,
+        "RMSE": 8.61575861575e-05,
+        "MAX": 8.61575861575e-05
+      }
+    },
+    "Table2/llama_3": {
+      "total": 1,
+      "defined": 1,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.000223303750358,
+        "RMSE": 0.000223303750358,
+        "MAX": 0.000223303750358
+      },
+      "scaled": {
+        "MAE": 5.58259375895e-05,
+        "RMSE": 5.58259375895e-05,
+        "MAX": 5.58259375895e-05
+      }
+    },
+    "Table2/ds_llama": {
+      "total": 1,
+      "defined": 1,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.002202202202202,
+        "RMSE": 0.002202202202202,
+        "MAX": 0.002202202202202
+      },
+      "scaled": {
+        "MAE": 0.0005505505505505,
+        "RMSE": 0.0005505505505505,
+        "MAX": 0.0005505505505505
+      }
+    },
+    "Table2/qwen_2": {
+      "total": 1,
+      "defined": 1,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.003137103381499,
+        "RMSE": 0.003137103381499,
+        "MAX": 0.003137103381499
+      },
+      "scaled": {
+        "MAE": 0.00078427584537475,
+        "RMSE": 0.00078427584537475,
+        "MAX": 0.00078427584537475
+      }
+    },
+    "Table2/claude": {
+      "total": 1,
+      "defined": 1,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.000725399789405,
+        "RMSE": 0.000725399789405,
+        "MAX": 0.000725399789405
+      },
+      "scaled": {
+        "MAE": 0.00018134994735125,
+        "RMSE": 0.00018134994735125,
+        "MAX": 0.00018134994735125
+      }
+    },
+    "Table2/ds_qwen": {
+      "total": 1,
+      "defined": 1,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.005229071040694,
+        "RMSE": 0.005229071040694,
+        "MAX": 0.005229071040694
+      },
+      "scaled": {
+        "MAE": 0.0013072677601735,
+        "RMSE": 0.0013072677601735,
+        "MAX": 0.0013072677601735
+      }
+    },
+    "Table2/qwen_3": {
+      "total": 1,
+      "defined": 1,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0029110203846498,
+        "RMSE": 0.0029110203846498,
+        "MAX": 0.0029110203846498
+      },
+      "scaled": {
+        "MAE": 0.00072775509616245,
+        "RMSE": 0.00072775509616245,
+        "MAX": 0.00072775509616245
+      }
+    },
+    "Table3/icc_c1": {
+      "total": 28,
+      "defined": 28,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0002551612131221643,
+        "RMSE": 0.00028905401150086505,
+        "MAX": 0.0004968657065624
+      },
+      "scaled": {
+        "MAE": 0.0002551612131221643,
+        "RMSE": 0.00028905401150086505,
+        "MAX": 0.0004968657065624
+      }
+    },
+    "Table3/lower": {
+      "total": 28,
+      "defined": 28,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.03092472459972972,
+        "RMSE": 0.04402670236232883,
+        "MAX": 0.1524858263230771
+      },
+      "scaled": {
+        "MAE": 0.03092472459972972,
+        "RMSE": 0.04402670236232883,
+        "MAX": 0.1524858263230771
+      }
+    },
+    "Table3/upper": {
+      "total": 28,
+      "defined": 28,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.004393651429955789,
+        "RMSE": 0.006883743246167191,
+        "MAX": 0.0175061888427833
+      },
+      "scaled": {
+        "MAE": 0.004393651429955789,
+        "RMSE": 0.006883743246167191,
+        "MAX": 0.0175061888427833
+      }
+    },
+    "Table3/icc_a1": {
+      "total": 28,
+      "defined": 28,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0002721668408336236,
+        "RMSE": 0.0003159850970601244,
+        "MAX": 0.00049911159500288
+      },
+      "scaled": {
+        "MAE": 0.0002721668408336236,
+        "RMSE": 0.0003159850970601244,
+        "MAX": 0.00049911159500288
+      }
+    },
+    "Table3/c1_ci_width": {
+      "total": 28,
+      "defined": 28,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.03056828717036175,
+        "RMSE": 0.04340419897926699,
+        "MAX": 0.15183233262198245
+      },
+      "scaled": {
+        "MAE": 0.03056828717036175,
+        "RMSE": 0.04340419897926699,
+        "MAX": 0.15183233262198245
+      }
+    },
+    "Table4/human_mean": {
+      "total": 28,
+      "defined": 28,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.00030131889865922496,
+        "RMSE": 0.00033516505092568365,
+        "MAX": 0.0004955197132617
+      },
+      "scaled": {
+        "MAE": 7.532972466480624e-05,
+        "RMSE": 8.379126273142091e-05,
+        "MAX": 0.000123879928315425
+      }
+    },
+    "Table4/llm_mean": {
+      "total": 28,
+      "defined": 28,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0002643900897488464,
+        "RMSE": 0.00029984819927531204,
+        "MAX": 0.000492107914474
+      },
+      "scaled": {
+        "MAE": 6.60975224372116e-05,
+        "RMSE": 7.496204981882801e-05,
+        "MAX": 0.0001230269786185
+      }
+    },
+    "Table4/bias": {
+      "total": 28,
+      "defined": 28,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.00026978244115575585,
+        "RMSE": 0.00030712822874928627,
+        "MAX": 0.0004769954102765
+      },
+      "scaled": {
+        "MAE": 6.744561028893896e-05,
+        "RMSE": 7.678205718732157e-05,
+        "MAX": 0.000119248852569125
+      }
+    },
+    "Table4/mse": {
+      "total": 28,
+      "defined": 28,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.00021389892778207143,
+        "RMSE": 0.0002909663815028247,
+        "MAX": 0.0008879802845301
+      },
+      "scaled": {
+        "MAE": 1.3368682986379464e-05,
+        "RMSE": 1.8185398843926544e-05,
+        "MAX": 5.549876778313125e-05
+      }
+    },
+    "Table9/gemini": {
+      "total": 6,
+      "defined": 6,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0022194158444161665,
+        "RMSE": 0.00336816230524529,
+        "MAX": 0.006263299013299
+      },
+      "scaled": {
+        "MAE": 0.0005548539611040416,
+        "RMSE": 0.0008420405763113225,
+        "MAX": 0.00156582475332475
+      }
+    },
+    "Table9/gpt4o": {
+      "total": 6,
+      "defined": 6,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.001747282997283,
+        "RMSE": 0.0023246059117477636,
+        "MAX": 0.004714285714286
+      },
+      "scaled": {
+        "MAE": 0.00043682074932075,
+        "RMSE": 0.0005811514779369409,
+        "MAX": 0.0011785714285715
+      }
+    },
+    "Table9/gpt4omini": {
+      "total": 6,
+      "defined": 6,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0027261904761905,
+        "RMSE": 0.0033188033660210884,
+        "MAX": 0.004857142857143
+      },
+      "scaled": {
+        "MAE": 0.000681547619047625,
+        "RMSE": 0.0008297008415052721,
+        "MAX": 0.00121428571428575
+      }
+    },
+    "Table9/claude": {
+      "total": 6,
+      "defined": 6,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.002069319319319417,
+        "RMSE": 0.0024962154703061607,
+        "MAX": 0.004161304161304
+      },
+      "scaled": {
+        "MAE": 0.0005173298298298542,
+        "RMSE": 0.0006240538675765402,
+        "MAX": 0.001040326040326
+      }
+    },
+    "Table9/llama_3": {
+      "total": 6,
+      "defined": 6,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0021800371800371667,
+        "RMSE": 0.00264669747168124,
+        "MAX": 0.004142857142857
+      },
+      "scaled": {
+        "MAE": 0.0005450092950092917,
+        "RMSE": 0.00066167436792031,
+        "MAX": 0.00103571428571425
+      }
+    },
+    "Table9/ds_llama": {
+      "total": 6,
+      "defined": 6,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.003433457266790667,
+        "RMSE": 0.003950981976289468,
+        "MAX": 0.005571428571429
+      },
+      "scaled": {
+        "MAE": 0.0008583643166976667,
+        "RMSE": 0.000987745494072367,
+        "MAX": 0.00139285714285725
+      }
+    },
+    "Table9/ds_qwen": {
+      "total": 6,
+      "defined": 6,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0013498498498501668,
+        "RMSE": 0.0016858086924976161,
+        "MAX": 0.003
+      },
+      "scaled": {
+        "MAE": 0.0003374624624625417,
+        "RMSE": 0.00042145217312440403,
+        "MAX": 0.00075
+      }
+    },
+    "Table9/qwen_2": {
+      "total": 6,
+      "defined": 6,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0028056003477599997,
+        "RMSE": 0.003470422034084228,
+        "MAX": 0.005035785857429
+      },
+      "scaled": {
+        "MAE": 0.0007014000869399999,
+        "RMSE": 0.000867605508521057,
+        "MAX": 0.00125894646435725
+      }
+    },
+    "Table9/qwen_3": {
+      "total": 6,
+      "defined": 6,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0027405798655798334,
+        "RMSE": 0.0038998684393668037,
+        "MAX": 0.008093808093808
+      },
+      "scaled": {
+        "MAE": 0.0006851449663949584,
+        "RMSE": 0.0009749671098417009,
+        "MAX": 0.002023452023452
+      }
+    },
+    "Table10/Guidance": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.23009547585451187,
+        "RMSE": 0.44510514433845033,
+        "MAX": 1.12034034034034
+      },
+      "scaled": {
+        "MAE": 0.05752386896362797,
+        "RMSE": 0.11127628608461258,
+        "MAX": 0.280085085085085
+      }
+    },
+    "Table10/Informativeness": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.20684788919728672,
+        "RMSE": 0.35526055276380475,
+        "MAX": 0.796996996996997
+      },
+      "scaled": {
+        "MAE": 0.05171197229932168,
+        "RMSE": 0.08881513819095119,
+        "MAX": 0.19924924924924925
+      }
+    },
+    "Table10/Relevance": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.1052223255958195,
+        "RMSE": 0.17108716085735057,
+        "MAX": 0.383
+      },
+      "scaled": {
+        "MAE": 0.026305581398954874,
+        "RMSE": 0.04277179021433764,
+        "MAX": 0.09575
+      }
+    },
+    "Table10/Safety": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.053801772512615996,
+        "RMSE": 0.09871153395402005,
+        "MAX": 0.232931726907631
+      },
+      "scaled": {
+        "MAE": 0.013450443128153999,
+        "RMSE": 0.024677883488505012,
+        "MAX": 0.05823293172690775
+      }
+    },
+    "Table10/Empathy": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.057577551734178146,
+        "RMSE": 0.10256388872221542,
+        "MAX": 0.248273092369478
+      },
+      "scaled": {
+        "MAE": 0.014394387933544537,
+        "RMSE": 0.025640972180553855,
+        "MAX": 0.0620682730923695
+      }
+    },
+    "Table10/Helpfulness": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.13956558796317825,
+        "RMSE": 0.2582927453547937,
+        "MAX": 0.6394994994994997
+      },
+      "scaled": {
+        "MAE": 0.03489139699079456,
+        "RMSE": 0.06457318633869842,
+        "MAX": 0.15987487487487492
+      }
+    },
+    "Table10/Understanding": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.1614748035470927,
+        "RMSE": 0.25567557638383137,
+        "MAX": 0.479
+      },
+      "scaled": {
+        "MAE": 0.040368700886773176,
+        "RMSE": 0.06391889409595784,
+        "MAX": 0.11975
+      }
+    },
+    "Table10/gemini": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0004225654225655,
+        "RMSE": 0.0005975977515820481,
+        "MAX": 0.000845130845131
+      },
+      "scaled": {
+        "MAE": 0.000105641355641375,
+        "RMSE": 0.00014939943789551202,
+        "MAX": 0.00021128271128275
+      }
+    },
+    "Table10/gpt4o": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0012142857142855,
+        "RMSE": 0.0017172593257384551,
+        "MAX": 0.002428571428571
+      },
+      "scaled": {
+        "MAE": 0.000303571428571375,
+        "RMSE": 0.0004293148314346138,
+        "MAX": 0.00060714285714275
+      }
+    },
+    "Table10/UNKNOWN": {
+      "total": 18,
+      "defined": 0,
+      "unknown": 18,
+      "original_units": null,
+      "scaled": null
+    },
+    "Table10/llama_3": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.000357142857143,
+        "RMSE": 0.0005050762722763074,
+        "MAX": 0.000714285714286
+      },
+      "scaled": {
+        "MAE": 8.928571428575e-05,
+        "RMSE": 0.00012626906806907686,
+        "MAX": 0.0001785714285715
+      }
+    },
+    "Table10/ds_llama": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.001011726011726,
+        "RMSE": 0.0014307966471885502,
+        "MAX": 0.002023452023452
+      },
+      "scaled": {
+        "MAE": 0.0002529315029315,
+        "RMSE": 0.00035769916179713754,
+        "MAX": 0.000505863005863
+      }
+    },
+    "Table10/qwen_2": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.1125415949512335,
+        "RMSE": 0.15915784991113385,
+        "MAX": 0.225083189902467
+      },
+      "scaled": {
+        "MAE": 0.028135398737808376,
+        "RMSE": 0.03978946247778346,
+        "MAX": 0.05627079747561675
+      }
+    },
+    "Table10/ds_qwen": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.1285,
+        "RMSE": 0.1817264427649427,
+        "MAX": 0.257
+      },
+      "scaled": {
+        "MAE": 0.032125,
+        "RMSE": 0.04543161069123568,
+        "MAX": 0.06425
+      }
+    },
+    "Table10/qwen_3": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.202893607893608,
+        "RMSE": 0.28693489200194927,
+        "MAX": 0.405787215787216
+      },
+      "scaled": {
+        "MAE": 0.050723401973402,
+        "RMSE": 0.07173372300048732,
+        "MAX": 0.101446803946804
+      }
+    },
+    "Table11/Guidance": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.20978628814901376,
+        "RMSE": 0.43537853345422217,
+        "MAX": 1.124234234234234
+      },
+      "scaled": {
+        "MAE": 0.05244657203725344,
+        "RMSE": 0.10884463336355554,
+        "MAX": 0.2810585585585585
+      }
+    },
+    "Table11/Informativeness": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.17106746683700608,
+        "RMSE": 0.2909758715027161,
+        "MAX": 0.604684684684685
+      },
+      "scaled": {
+        "MAE": 0.04276686670925152,
+        "RMSE": 0.07274396787567902,
+        "MAX": 0.15117117117117124
+      }
+    },
+    "Table11/Relevance": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.10766639270246492,
+        "RMSE": 0.15773204701540552,
+        "MAX": 0.2920841683366735
+      },
+      "scaled": {
+        "MAE": 0.02691659817561623,
+        "RMSE": 0.03943301175385138,
+        "MAX": 0.07302104208416837
+      }
+    },
+    "Table11/Safety": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.11854252936016456,
+        "RMSE": 0.16249803751853148,
+        "MAX": 0.280890890890891
+      },
+      "scaled": {
+        "MAE": 0.02963563234004114,
+        "RMSE": 0.04062450937963287,
+        "MAX": 0.07022272272272274
+      }
+    },
+    "Table11/Empathy": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.07724255804616528,
+        "RMSE": 0.1431661824757944,
+        "MAX": 0.364208416833667
+      },
+      "scaled": {
+        "MAE": 0.01931063951154132,
+        "RMSE": 0.0357915456189486,
+        "MAX": 0.09105210420841675
+      }
+    },
+    "Table11/Helpfulness": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.09038183760628642,
+        "RMSE": 0.12039075594361409,
+        "MAX": 0.195190380761523
+      },
+      "scaled": {
+        "MAE": 0.022595459401571604,
+        "RMSE": 0.030097688985903523,
+        "MAX": 0.04879759519038075
+      }
+    },
+    "Table11/Understanding": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.11037810326788278,
+        "RMSE": 0.16442174111532756,
+        "MAX": 0.318076152304609
+      },
+      "scaled": {
+        "MAE": 0.027594525816970694,
+        "RMSE": 0.04110543527883189,
+        "MAX": 0.07951903807615225
+      }
+    },
+    "Table11/gemini": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.002604032604033,
+        "RMSE": 0.003682658225485196,
+        "MAX": 0.005208065208066
+      },
+      "scaled": {
+        "MAE": 0.00065100815100825,
+        "RMSE": 0.000920664556371299,
+        "MAX": 0.0013020163020165
+      }
+    },
+    "Table11/gpt4o": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0002857142857145,
+        "RMSE": 0.00040406101782118734,
+        "MAX": 0.000571428571429
+      },
+      "scaled": {
+        "MAE": 7.1428571428625e-05,
+        "RMSE": 0.00010101525445529683,
+        "MAX": 0.00014285714285725
+      }
+    },
+    "Table11/UNKNOWN": {
+      "total": 18,
+      "defined": 0,
+      "unknown": 18,
+      "original_units": null,
+      "scaled": null
+    },
+    "Table11/llama_3": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.00181538681538675,
+        "RMSE": 0.002567344655273244,
+        "MAX": 0.0036307736307735
+      },
+      "scaled": {
+        "MAE": 0.0004538467038466875,
+        "RMSE": 0.000641836163818311,
+        "MAX": 0.000907693407693375
+      }
+    },
+    "Table11/ds_llama": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0272142857142855,
+        "RMSE": 0.03848681194743893,
+        "MAX": 0.054428571428571
+      },
+      "scaled": {
+        "MAE": 0.006803571428571375,
+        "RMSE": 0.009621702986859732,
+        "MAX": 0.01360714285714275
+      }
+    },
+    "Table11/qwen_2": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.6024821070712855,
+        "RMSE": 0.7218068748214724,
+        "MAX": 1.0
+      },
+      "scaled": {
+        "MAE": 0.08812052676782137,
+        "RMSE": 0.09552655538498865,
+        "MAX": 0.125
+      }
+    },
+    "Table11/ds_qwen": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.5053517803517805,
+        "RMSE": 0.7071472852990863,
+        "MAX": 1.0
+      },
+      "scaled": {
+        "MAE": 0.06383794508794513,
+        "RMSE": 0.08840859796488526,
+        "MAX": 0.125
+      }
+    },
+    "Table11/qwen_3": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.074046904046904,
+        "RMSE": 0.10471813595487087,
+        "MAX": 0.148093808093808
+      },
+      "scaled": {
+        "MAE": 0.018511726011726,
+        "RMSE": 0.026179533988717717,
+        "MAX": 0.037023452023452
+      }
+    },
+    "Table12/Guidance": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.16271428571428573,
+        "RMSE": 0.30515312315529164,
+        "MAX": 0.778
+      },
+      "scaled": {
+        "MAE": 0.04067857142857143,
+        "RMSE": 0.07628828078882291,
+        "MAX": 0.1945
+      }
+    },
+    "Table12/Informativeness": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.08757142857142856,
+        "RMSE": 0.15703639250641419,
+        "MAX": 0.383
+      },
+      "scaled": {
+        "MAE": 0.02189285714285714,
+        "RMSE": 0.039259098126603546,
+        "MAX": 0.09575
+      }
+    },
+    "Table12/Relevance": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.089,
+        "RMSE": 0.13623561523016975,
+        "MAX": 0.264
+      },
+      "scaled": {
+        "MAE": 0.02225,
+        "RMSE": 0.03405890380754244,
+        "MAX": 0.066
+      }
+    },
+    "Table12/Safety": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.11457142857142857,
+        "RMSE": 0.1619550202106393,
+        "MAX": 0.278
+      },
+      "scaled": {
+        "MAE": 0.028642857142857144,
+        "RMSE": 0.04048875505265982,
+        "MAX": 0.0695
+      }
+    },
+    "Table12/Empathy": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.09185714285714286,
+        "RMSE": 0.1354964417034105,
+        "MAX": 0.259
+      },
+      "scaled": {
+        "MAE": 0.022964285714285715,
+        "RMSE": 0.03387411042585262,
+        "MAX": 0.06475
+      }
+    },
+    "Table12/Helpfulness": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.08085714285714285,
+        "RMSE": 0.12602267369689585,
+        "MAX": 0.287
+      },
+      "scaled": {
+        "MAE": 0.020214285714285712,
+        "RMSE": 0.03150566842422396,
+        "MAX": 0.07175
+      }
+    },
+    "Table12/Understanding": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.09171428571428572,
+        "RMSE": 0.13340914511381893,
+        "MAX": 0.261
+      },
+      "scaled": {
+        "MAE": 0.02292857142857143,
+        "RMSE": 0.03335228627845473,
+        "MAX": 0.06525
+      }
+    },
+    "Table12/gpt4o": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.002357142857143,
+        "RMSE": 0.003333503397022497,
+        "MAX": 0.004714285714286
+      },
+      "scaled": {
+        "MAE": 0.00058928571428575,
+        "RMSE": 0.0008333758492556243,
+        "MAX": 0.0011785714285715
+      }
+    },
+    "Table12/gemini": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0005,
+        "RMSE": 0.0007071067811865475,
+        "MAX": 0.001
+      },
+      "scaled": {
+        "MAE": 0.000125,
+        "RMSE": 0.00017677669529663688,
+        "MAX": 0.00025
+      }
+    },
+    "Table12/UNKNOWN": {
+      "total": 18,
+      "defined": 0,
+      "unknown": 18,
+      "original_units": null,
+      "scaled": null
+    },
+    "Table12/llama_3": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.00142857142857125,
+        "RMSE": 0.002020305089104169,
+        "MAX": 0.0028571428571425
+      },
+      "scaled": {
+        "MAE": 0.0003571428571428125,
+        "RMSE": 0.0005050762722760422,
+        "MAX": 0.000714285714285625
+      }
+    },
+    "Table12/ds_llama": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0915714285714285,
+        "RMSE": 0.12950155621159332,
+        "MAX": 0.183142857142857
+      },
+      "scaled": {
+        "MAE": 0.022892857142857125,
+        "RMSE": 0.03237538905289833,
+        "MAX": 0.04578571428571425
+      }
+    },
+    "Table12/qwen_2": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.5050714285714285,
+        "RMSE": 0.707143152958091,
+        "MAX": 1.0
+      },
+      "scaled": {
+        "MAE": 0.06376785714285713,
+        "RMSE": 0.08840653213122539,
+        "MAX": 0.125
+      }
+    },
+    "Table12/ds_qwen": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.5861428571428575,
+        "RMSE": 0.7175243436103541,
+        "MAX": 1.0
+      },
+      "scaled": {
+        "MAE": 0.08403571428571438,
+        "RMSE": 0.09348836280303471,
+        "MAX": 0.125
+      }
+    },
+    "Table12/qwen_3": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0800714285714285,
+        "RMSE": 0.11323810024430273,
+        "MAX": 0.160142857142857
+      },
+      "scaled": {
+        "MAE": 0.020017857142857125,
+        "RMSE": 0.02830952506107568,
+        "MAX": 0.04003571428571425
+      }
+    },
+    "Table13/Guidance": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.19717174317174316,
+        "RMSE": 0.3300196638501884,
+        "MAX": 0.817
+      },
+      "scaled": {
+        "MAE": 0.04929293579293579,
+        "RMSE": 0.0825049159625471,
+        "MAX": 0.20425
+      }
+    },
+    "Table13/Informativeness": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.18021864721864714,
+        "RMSE": 0.2649359171742275,
+        "MAX": 0.607
+      },
+      "scaled": {
+        "MAE": 0.045054661804661784,
+        "RMSE": 0.06623397929355687,
+        "MAX": 0.15175
+      }
+    },
+    "Table13/Relevance": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.13385757185757186,
+        "RMSE": 0.1832917339056729,
+        "MAX": 0.352
+      },
+      "scaled": {
+        "MAE": 0.033464392964392964,
+        "RMSE": 0.04582293347641823,
+        "MAX": 0.088
+      }
+    },
+    "Table13/Safety": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.133000143000143,
+        "RMSE": 0.20252654217692906,
+        "MAX": 0.394
+      },
+      "scaled": {
+        "MAE": 0.03325003575003575,
+        "RMSE": 0.050631635544232265,
+        "MAX": 0.0985
+      }
+    },
+    "Table13/Empathy": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.09286429286429286,
+        "RMSE": 0.15072017710455904,
+        "MAX": 0.35
+      },
+      "scaled": {
+        "MAE": 0.023216073216073215,
+        "RMSE": 0.03768004427613976,
+        "MAX": 0.0875
+      }
+    },
+    "Table13/Helpfulness": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0807304447304447,
+        "RMSE": 0.11198832303494544,
+        "MAX": 0.225
+      },
+      "scaled": {
+        "MAE": 0.020182611182611176,
+        "RMSE": 0.02799708075873636,
+        "MAX": 0.05625
+      }
+    },
+    "Table13/Understanding": {
+      "total": 7,
+      "defined": 7,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.10757014157014157,
+        "RMSE": 0.14179410730408884,
+        "MAX": 0.251
+      },
+      "scaled": {
+        "MAE": 0.026892535392535392,
+        "RMSE": 0.03544852682602221,
+        "MAX": 0.06275
+      }
+    },
+    "Table13/gemini": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 5e-16,
+        "RMSE": 7.071067811865475e-16,
+        "MAX": 1e-15
+      },
+      "scaled": {
+        "MAE": 1.25e-16,
+        "RMSE": 1.7677669529663688e-16,
+        "MAX": 2.5e-16
+      }
+    },
+    "Table13/gpt4o": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0005605605605605,
+        "RMSE": 0.0007927523472761238,
+        "MAX": 0.001121121121121
+      },
+      "scaled": {
+        "MAE": 0.000140140140140125,
+        "RMSE": 0.00019818808681903096,
+        "MAX": 0.00028028028028025
+      }
+    },
+    "Table13/UNKNOWN": {
+      "total": 18,
+      "defined": 0,
+      "unknown": 18,
+      "original_units": null,
+      "scaled": null
+    },
+    "Table13/llama_3": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.5070714285714285,
+        "RMSE": 0.7071774955441397,
+        "MAX": 1.0
+      },
+      "scaled": {
+        "MAE": 0.06426785714285713,
+        "RMSE": 0.08842369952538234,
+        "MAX": 0.125
+      }
+    },
+    "Table13/ds_llama": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.5675,
+        "RMSE": 0.7135211980032549,
+        "MAX": 1.0
+      },
+      "scaled": {
+        "MAE": 0.079375,
+        "RMSE": 0.09155343385149461,
+        "MAX": 0.125
+      }
+    },
+    "Table13/qwen_2": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.5182857142857145,
+        "RMSE": 0.7075794900178195,
+        "MAX": 1.0
+      },
+      "scaled": {
+        "MAE": 0.06707142857142863,
+        "RMSE": 0.08862446568734475,
+        "MAX": 0.125
+      }
+    },
+    "Table13/ds_qwen": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.5593571428571424,
+        "RMSE": 0.7120720053592379,
+        "MAX": 1.0
+      },
+      "scaled": {
+        "MAE": 0.07733928571428562,
+        "RMSE": 0.09084552163436788,
+        "MAX": 0.125
+      }
+    },
+    "Table13/qwen_3": {
+      "total": 2,
+      "defined": 2,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.079,
+        "RMSE": 0.11172287142747452,
+        "MAX": 0.158
+      },
+      "scaled": {
+        "MAE": 0.01975,
+        "RMSE": 0.02793071785686863,
+        "MAX": 0.0395
+      }
+    },
+    "Table14/msr": {
+      "total": 28,
+      "defined": 28,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0002402254629744281,
+        "RMSE": 0.00028140893374306824,
+        "MAX": 0.0004795921630796
+      },
+      "scaled": {
+        "MAE": 1.5014091435901757e-05,
+        "RMSE": 1.7588058358941765e-05,
+        "MAX": 2.9974510192475e-05
+      }
+    },
+    "Table14/msc": {
+      "total": 28,
+      "defined": 28,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0002467169809307213,
+        "RMSE": 0.0002896730515847109,
+        "MAX": 0.0004992794810121
+      },
+      "scaled": {
+        "MAE": 1.5419811308170083e-05,
+        "RMSE": 1.810456572404443e-05,
+        "MAX": 3.120496756325625e-05
+      }
+    },
+    "Table14/anova_mse": {
+      "total": 28,
+      "defined": 28,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.00024289474970963317,
+        "RMSE": 0.000281832260150072,
+        "MAX": 0.00050049426521587
+      },
+      "scaled": {
+        "MAE": 1.5180921856852073e-05,
+        "RMSE": 1.76145162593795e-05,
+        "MAX": 3.128089157599187e-05
+      }
+    },
+    "Table15/icc_c1": {
+      "total": 14,
+      "defined": 14,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.00025427890944221216,
+        "RMSE": 0.00029200441629165474,
+        "MAX": 0.0004968657065624
+      },
+      "scaled": {
+        "MAE": 0.00025427890944221216,
+        "RMSE": 0.00029200441629165474,
+        "MAX": 0.0004968657065624
+      }
+    },
+    "Table15/icc_a1": {
+      "total": 14,
+      "defined": 14,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.000269099540558095,
+        "RMSE": 0.00031422933541938293,
+        "MAX": 0.0004578935458392
+      },
+      "scaled": {
+        "MAE": 0.000269099540558095,
+        "RMSE": 0.00031422933541938293,
+        "MAX": 0.0004578935458392
+      }
+    },
+    "Table15/msr": {
+      "total": 14,
+      "defined": 14,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.000179318487157085,
+        "RMSE": 0.00021335292652172242,
+        "MAX": 0.00046777393367725
+      },
+      "scaled": {
+        "MAE": 1.1207405447317812e-05,
+        "RMSE": 1.3334557907607651e-05,
+        "MAX": 2.9235870854828124e-05
+      }
+    },
+    "Table15/equal_weight_human_mean": {
+      "total": 14,
+      "defined": 14,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.00023835792589210715,
+        "RMSE": 0.0002755571725294471,
+        "MAX": 0.000491757918169
+      },
+      "scaled": {
+        "MAE": 5.958948147302679e-05,
+        "RMSE": 6.888929313236178e-05,
+        "MAX": 0.00012293947954225
+      }
+    },
+    "Table15/equal_weight_llm_mean": {
+      "total": 14,
+      "defined": 14,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0002554407418863357,
+        "RMSE": 0.0002827173301512318,
+        "MAX": 0.00047528961781
+      },
+      "scaled": {
+        "MAE": 6.386018547158392e-05,
+        "RMSE": 7.067933253780795e-05,
+        "MAX": 0.0001188224044525
+      }
+    },
+    "Table15/UNKNOWN": {
+      "total": 70,
+      "defined": 0,
+      "unknown": 70,
+      "original_units": null,
+      "scaled": null
+    },
+    "Table16/n_pairs": {
+      "total": 14,
+      "defined": 14,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "MAX": 0.0
+      },
+      "scaled": {
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "MAX": 0.0
+      }
+    },
+    "Table16/mse": {
+      "total": 14,
+      "defined": 14,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.00016777086453555,
+        "RMSE": 0.00021270925872376092,
+        "MAX": 0.000481792717087
+      },
+      "scaled": {
+        "MAE": 1.0485679033471875e-05,
+        "RMSE": 1.3294328670235058e-05,
+        "MAX": 3.01120448179375e-05
+      }
+    },
+    "Table16/rmse": {
+      "total": 14,
+      "defined": 14,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.00027223577018911427,
+        "RMSE": 0.00031287242451311033,
+        "MAX": 0.0004646585548656
+      },
+      "scaled": {
+        "MAE": 6.805894254727857e-05,
+        "RMSE": 7.821810612827758e-05,
+        "MAX": 0.0001161646387164
+      }
+    },
+    "Table16/bias": {
+      "total": 14,
+      "defined": 14,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0002942537120818189,
+        "RMSE": 0.00034067042965973005,
+        "MAX": 0.0004769954102765
+      },
+      "scaled": {
+        "MAE": 7.356342802045472e-05,
+        "RMSE": 8.516760741493251e-05,
+        "MAX": 0.000119248852569125
+      }
+    },
+    "Table16/human_mean": {
+      "total": 14,
+      "defined": 14,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0002858988281991643,
+        "RMSE": 0.00031982516160874546,
+        "MAX": 0.0004955197132617
+      },
+      "scaled": {
+        "MAE": 7.147470704979107e-05,
+        "RMSE": 7.995629040218637e-05,
+        "MAX": 0.000123879928315425
+      }
+    },
+    "Table16/llm_mean": {
+      "total": 14,
+      "defined": 14,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.00028669175728483575,
+        "RMSE": 0.00032459449460038733,
+        "MAX": 0.000492107914474
+      },
+      "scaled": {
+        "MAE": 7.167293932120894e-05,
+        "RMSE": 8.114862365009683e-05,
+        "MAX": 0.0001230269786185
+      }
+    },
+    "Table16/human_std": {
+      "total": 14,
+      "defined": 14,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.00029470982716401424,
+        "RMSE": 0.00031801464291164675,
+        "MAX": 0.0004646003554398
+      },
+      "scaled": {
+        "MAE": 7.367745679100356e-05,
+        "RMSE": 7.950366072791169e-05,
+        "MAX": 0.00011615008885995
+      }
+    },
+    "Table16/llm_std": {
+      "total": 14,
+      "defined": 14,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.00020515471376744286,
+        "RMSE": 0.0002413669935781416,
+        "MAX": 0.0004155120201249
+      },
+      "scaled": {
+        "MAE": 5.1288678441860716e-05,
+        "RMSE": 6.03417483945354e-05,
+        "MAX": 0.000103878005031225
+      }
+    },
+    "Table16/UNKNOWN": {
+      "total": 112,
+      "defined": 0,
+      "unknown": 112,
+      "original_units": null,
+      "scaled": null
+    },
+    "ALL1150_defined_only": {
+      "total": 1150,
+      "defined": 896,
+      "unknown": 254,
+      "original_units": {
+        "MAE": 0.04159988593480907,
+        "RMSE": 0.1441603835595343,
+        "MAX": 1.124234234234234
+      },
+      "scaled": {
+        "MAE": 0.01084006474918613,
+        "RMSE": 0.031523611545049,
+        "MAX": 0.2810585585585585
+      }
+    },
+    "MAIN324": {
+      "total": 324,
+      "defined": 324,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.007347606050519357,
+        "RMSE": 0.02508528450160236,
+        "MAX": 0.3080467955239065
+      },
+      "scaled": {
+        "MAE": 0.006138046102022457,
+        "RMSE": 0.018784517413559153,
+        "MAX": 0.1524858263230771
+      }
+    },
+    "ALL56_MAIN_ICC_POINTS": {
+      "total": 56,
+      "defined": 56,
+      "unknown": 0,
+      "original_units": {
+        "MAE": 0.0002636640269778939,
+        "RMSE": 0.000302819090488726,
+        "MAX": 0.00049911159500288
+      },
+      "scaled": {
+        "MAE": 0.0002636640269778939,
+        "RMSE": 0.000302819090488726,
+        "MAX": 0.00049911159500288
+      }
+    }
+  },
+  "all56_ICC_point_errors": {
+    "total": 56,
+    "defined": 56,
+    "unknown": 0,
+    "original_units": {
+      "MAE": 0.0002636640269778939,
+      "RMSE": 0.000302819090488726,
+      "MAX": 0.00049911159500288
+    },
+    "scaled": {
+      "MAE": 0.0002636640269778939,
+      "RMSE": 0.000302819090488726,
+      "MAX": 0.00049911159500288
+    }
+  },
+  "all23_original_nominal_contrasts": [
+    {
+      "id": "RQ1_bestclosed_minus_bestopen",
+      "value": 0.220680457153402,
+      "threshold": 0.1,
+      "literal_ge": true
+    },
+    {
+      "id": "RQ1_Llama_minus_nextopen",
+      "value": 0.3370862003688595,
+      "threshold": 0.15,
+      "literal_ge": true
+    },
+    {
+      "id": "RQ1_Qwen3_lowest_margin",
+      "value": 0.5223180506560445,
+      "threshold": 0,
+      "literal_ge": true
+    },
+    {
+      "id": "Claude.RQ2_cognitive_vs_safety",
+      "value": 0.19060266794581504,
+      "threshold": 0.1,
+      "literal_ge": true
+    },
+    {
+      "id": "Claude.RQ2_empathy_scale_mismatch",
+      "value": 0.43289801884967843,
+      "threshold": 0.2,
+      "literal_ge": true
+    },
+    {
+      "id": "Claude.RQ2_precision_difference",
+      "value": 0.4434467924013579,
+      "threshold": 0.15,
+      "literal_ge": true
+    },
+    {
+      "id": "Claude.RQ3_Empathy_inflation",
+      "value": 0.6405287330570181,
+      "threshold": 0.4,
+      "literal_ge": true
+    },
+    {
+      "id": "Claude.RQ3_Helpfulness_inflation",
+      "value": 0.4270191553713454,
+      "threshold": 0.3,
+      "literal_ge": true
+    },
+    {
+      "id": "GPT-4o.RQ2_cognitive_vs_safety",
+      "value": 0.3466328369783871,
+      "threshold": 0.1,
+      "literal_ge": true
+    },
+    {
+      "id": "GPT-4o.RQ2_empathy_scale_mismatch",
+      "value": 0.5469513596738749,
+      "threshold": 0.2,
+      "literal_ge": true
+    },
+    {
+      "id": "GPT-4o.RQ2_precision_difference",
+      "value": 0.34623291120057254,
+      "threshold": 0.15,
+      "literal_ge": true
+    },
+    {
+      "id": "GPT-4o.RQ3_Empathy_inflation",
+      "value": 0.8165230045897235,
+      "threshold": 0.4,
+      "literal_ge": true
+    },
+    {
+      "id": "GPT-4o.RQ3_Helpfulness_inflation",
+      "value": 0.6694279637299899,
+      "threshold": 0.3,
+      "literal_ge": true
+    },
+    {
+      "id": "Gemini.RQ2_cognitive_vs_safety",
+      "value": 0.5246980796112986,
+      "threshold": 0.1,
+      "literal_ge": true
+    },
+    {
+      "id": "Gemini.RQ2_empathy_scale_mismatch",
+      "value": 0.4577383747142474,
+      "threshold": 0.2,
+      "literal_ge": true
+    },
+    {
+      "id": "Gemini.RQ2_precision_difference",
+      "value": 0.38153548710970964,
+      "threshold": 0.15,
+      "literal_ge": true
+    },
+    {
+      "id": "Gemini.RQ3_Empathy_inflation",
+      "value": 0.7026996751428252,
+      "threshold": 0.4,
+      "literal_ge": true
+    },
+    {
+      "id": "Gemini.RQ3_Helpfulness_inflation",
+      "value": 0.7466114036070348,
+      "threshold": 0.3,
+      "literal_ge": true
+    },
+    {
+      "id": "o4-mini.RQ2_cognitive_vs_safety",
+      "value": 0.6325734602329021,
+      "threshold": 0.1,
+      "literal_ge": true
+    },
+    {
+      "id": "o4-mini.RQ2_empathy_scale_mismatch",
+      "value": 0.3836773461209248,
+      "threshold": 0.2,
+      "literal_ge": true
+    },
+    {
+      "id": "o4-mini.RQ2_precision_difference",
+      "value": 0.33855013972412035,
+      "threshold": 0.15,
+      "literal_ge": true
+    },
+    {
+      "id": "o4-mini.RQ3_Empathy_inflation",
+      "value": 0.5812520998992048,
+      "threshold": 0.4,
+      "literal_ge": true
+    },
+    {
+      "id": "o4-mini.RQ3_Helpfulness_inflation",
+      "value": 0.47373726061149063,
+      "threshold": 0.3,
+      "literal_ge": true
+    }
+  ],
+  "all23_pass": true,
+  "six_width_category_changes": [
+    {
+      "target_id": "S6.T3/row10/sourcecell4/numeric1",
+      "judge_attribute": [
+        "GPT-4o",
+        "Relevance"
+      ],
+      "published_width": 0.559,
+      "actual_width": 0.5624467033635396,
+      "published_category": "MR",
+      "actual_category": "PR",
+      "source_distance_to_nearest_boundary": 0.0010000000000000009,
+      "within_existing921_boundary_policy": true
+    },
+    {
+      "target_id": "S6.T3/row12/sourcecell5/numeric1",
+      "judge_attribute": [
+        "GPT-4o",
+        "Empathy"
+      ],
+      "published_width": 0.56,
+      "actual_width": 0.5628272917939527,
+      "published_category": "MR",
+      "actual_category": "PR",
+      "source_distance_to_nearest_boundary": 0.0,
+      "within_existing921_boundary_policy": true
+    },
+    {
+      "target_id": "S6.T3/row15/sourcecell6/numeric1",
+      "judge_attribute": [
+        "Gemini",
+        "Guidance"
+      ],
+      "published_width": 0.398,
+      "actual_width": 0.3279865555217025,
+      "published_category": "MR",
+      "actual_category": "GR",
+      "source_distance_to_nearest_boundary": 0.04300000000000004,
+      "within_existing921_boundary_policy": true
+    },
+    {
+      "target_id": "S6.T3/row20/sourcecell4/numeric1",
+      "judge_attribute": [
+        "Gemini",
+        "Helpfulness"
+      ],
+      "published_width": 0.561,
+      "actual_width": 0.5156299888992641,
+      "published_category": "PR",
+      "actual_category": "MR",
+      "source_distance_to_nearest_boundary": 0.0010000000000000009,
+      "within_existing921_boundary_policy": true
+    },
+    {
+      "target_id": "S6.T3/row24/sourcecell4/numeric1",
+      "judge_attribute": [
+        "o4-mini",
+        "Relevance"
+      ],
+      "published_width": 0.605,
+      "actual_width": 0.5451822631626349,
+      "published_category": "PR",
+      "actual_category": "MR",
+      "source_distance_to_nearest_boundary": 0.04499999999999993,
+      "within_existing921_boundary_policy": true
+    },
+    {
+      "target_id": "S6.T3/row27/sourcecell4/numeric1",
+      "judge_attribute": [
+        "o4-mini",
+        "Helpfulness"
+      ],
+      "published_width": 0.356,
+      "actual_width": 0.3044103071883757,
+      "published_category": "MR",
+      "actual_category": "GR",
+      "source_distance_to_nearest_boundary": 0.0010000000000000009,
+      "within_existing921_boundary_policy": true
+    }
+  ],
+  "central_interpretation": [
+    "RQ1 full human-reference model comparison remains: bestclosed-bestopen0.22068; Llama-nextopen0.33709; Qwen3 remains lowest by0.52232 average. The one Qwen3 Guidance error0.30805 is7.7012% of the four-point scale, NOT tiny rounding. It leaves that model and the broad original comparison conclusion unchanged; report it as a real local exception.",
+    "RQ2 all56 ICC point estimates match published rounding (max0.000499112), substantially tighter than.03. This supports the original consistency-versus-absolute-agreement argument across all28 cells, not a selected subset.",
+    "Uncertainty is genuinely CENTRAL. All56 C1 endpoints and28 widths retained: endpointMAE0.017659/RMSE0.031510/max0.152486; widthMAE0.030568/RMSE0.043404/max0.151832. Eight original bound failures include ClaudeEmpathy interval[.429,.958] versus[.581486,.957653]; this is a material precision discrepancy, not formatting. Yet all4 safety/relevance-minus-guidance/info width contrasts exceed original.15, values.33855..44345. No conclusion reversal; six status changes all fall inside the pre-existing921 boundary allowance, and all remain disclosed.",
+    "RQ3 Table4 all112 mean/bias/MSE targets remain extremely close (max0.000887981), and all8 Empathy/Helpfulness inflation contrasts pass. Thus model-ranking agreement, scale mismatch, safety/relevance relative uncertainty and affective leniency are jointly corroborated by independent whole-family analysis.",
+    "Paper Appendix10-13 defined per-generator judge means/ranks contain larger discrepancies (means up to~1.12/rank1) and254 appendix source aliases remain UNKNOWN. These cannot be called matched. They were supporting diagnostic roles before outcomes under921; they limit all-paper fidelity, not retrospectively removed central observations."
+  ],
+  "source_caveats": [
+    "Human ratings are a reference, not absolute clinical truth; released one-reference score is not independent three-rater agreement. English one-turn corpus includes AI-reprocessed/generated material; no clinical deployment safety validation or therapeutic outcome claim. Original9model generation and recruitment not reproduced.",
+    "Author bootstrap separately conditions each ICC draw to finite[0,1]. Reproduction follows the fixed original filter; neither source95% interval nor this review establishes unconditional coverage. Source main-vs-appendix CI/MSE inconsistencies were retained before data.",
+    "Normalization uses declared unit scales per metric, not bound-based rescaling. Global defined-only896 summary mixes purposes and is descriptive;254 UNKNOWN cells retain explicit ledgers. Near recommendation rests on complete central scientific evidence, not pooled errors hiding max exceptions."
+  ],
+  "retrospective_disclosure": "Reviewed after observing all outcomes; no prospective921PASS, no threshold enlargement, method/sourceversion/seed/denominator switch, rerun, registry edit or automatic promotion.",
+  "binomial_quantile_diagnostic": "Not computed within finite review: useful uniform followup on all28 saved conditional C1 draw sets can invert Binomial(n,p) to rank bounds for Monte Carlo quantile error. Would require explicit IID/exchangeable bootstrap-draw assumptions conditional on source model means/filter; empirical percentile MCerror is different from scientific95% CI coverage. Must not use a successful subset or automatically excuse.15 deviations. No new draws/refits needed.",
+  "refs": {
+    "rule921": {
+      "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ADOPTED_P165_MENTALBENCH_SOURCE_METHOD_NEAR921.json",
+      "bytes": 17392,
+      "sha256": "91ae5fe0a367fb50d9d805b62effc338b5def17959f48010c1d55b8afd901850"
+    },
+    "source_plan": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\COMPLETE_MENTALBENCH_CENTRAL_SOURCE_MAP_AND_PROSPECTIVE_NEAR_PLAN_P092018.json",
+      "bytes": 27482,
+      "sha256": "3730943a8a74f07ab12ab6f4787c64ed48cfac697a44be034fb7b67f093a244f"
+    },
+    "paper_v1_text": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\PAPER_V1_SOURCE_TEXT_WITH_LINES.txt",
+      "bytes": 95035,
+      "sha256": "5d6bc62399e2761ba061f3d7dc1d51e487bd06dc27d5533dce17e6e9d372ad84"
+    },
+    "primary_diagnostics": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\primary955\\COMPLETE_ALL1150_DIAGNOSTICS001.json",
+      "bytes": 623940,
+      "sha256": "d969c8587c17b03f5c1dfb48f9f652ebfed813171a97968b8ab87df7e6fc2289"
+    },
+    "primary_facts": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\primary955\\COMPLETE_ALL28_AND_MODEL_FACTS001.json",
+      "bytes": 1277789,
+      "sha256": "30c391a777a79eeb6185f0a2348fe07956ff8bfc1022431af58f82486e602853"
+    },
+    "primary_claims": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\primary955\\PROPOSED_CORE_DIRECTIONS001.json",
+      "bytes": 6126,
+      "sha256": "b4e61b5cda2c87925b7d412d3389c331d9dd6a6e7135f0c37d56fcfe17d9a0aa"
+    },
+    "independent_diagnostics": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\independent_audit956\\INDEPENDENT_ALL1150_DIAGNOSTICS005.json",
+      "bytes": 342933,
+      "sha256": "41ef04e8d5c78b09d237caf1253613be9816f32f27d04bf9f8e2564ebe7761ea"
+    },
+    "independent_facts": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\independent_audit956\\INDEPENDENT_ALL28_AND_MODEL_FACTS005.json",
+      "bytes": 1277382,
+      "sha256": "ec33e4256653fab328cae42e51b833f4b722af143f3ac349f61d95071305c57b"
+    },
+    "independent_claims": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\independent_audit956\\INDEPENDENT_CENTRAL_CONTRASTS005.json",
+      "bytes": 2340,
+      "sha256": "c1485096d4df8511e837dae0ea3a2f8c4f5fb11b20eb24df76e29a19b3a9f793"
+    },
+    "comparison": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\independent_audit956\\COMPLETE_PRIMARY_INDEPENDENT_COMPARISON005.json",
+      "bytes": 15543014,
+      "sha256": "7860cbfd0682f3afe1117fbfa639a10149b497e69ab8b02e5655a87ad553f30e"
+    },
+    "primary_candidate": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\primary955\\MENTALBENCH_PHASE_CANDIDATE001.json",
+      "bytes": 5680,
+      "sha256": "8fe25081c5170a911c3f68d9db5f0f2020d277833da436f2a9519aa41eaa12ca"
+    },
+    "audit_candidate": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\independent_audit956\\MENTALBENCH_PHASE_CANDIDATE001.json",
+      "bytes": 6666,
+      "sha256": "7bf3d2f680ad50a841cf93ef25fb0f1b7eadaa2bb6b0918ae54b9c2e19d8a6e7"
+    },
+    "primary_native": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\primary955_native\\COMPLETE_P165_DIRECT_CHILD_TERMINAL001.json",
+      "bytes": 2447,
+      "sha256": "0bfc08ec3683524e9007ceb1a87dfc482213b4caee3246b68cc289c623e6bf44"
+    },
+    "audit_native": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P165_MentalBench_original001\\independent_audit956_native\\COMPLETE_P165_DIRECT_CHILD_TERMINAL001.json",
+      "bytes": 2450,
+      "sha256": "dfd8390244667135d2512cb70c20677664f38f7b46e9624fabd6418600b36238"
+    }
+  },
+  "error_vector_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\operations\\P165_whole_outcome_near_review_CPU006\\COMPLETE_ALL1150_ERRORS_AND_ALL56_ICC_VECTOR_CPU006.json",
+    "bytes": 926443,
+    "sha256": "9a82b36c9e0325b3a52d8dc77bf357fd106206e1b33627e72ddf85cc3ad534d0"
+  },
+  "registry_changed": false,
+  "new_statistics_model_or_bank_execution": false,
+  "raw_original_judgments_read": false,
+  "all_writers_closed": true
+}

@@ -1,0 +1,37 @@
+{
+  "paper_id": "P134",
+  "utc": "2026-10-11T00:33:33.514717+00:00",
+  "title": "The Effectiveness of AI Chatbots in Alleviating Mental Distress and Promoting Health Behaviors Among Adolescents and Young Adults: Systematic Review and Meta-Analysis",
+  "doi": "10.2196/79850",
+  "first_public_findings_date": "2025-06-30",
+  "citation_count": 44,
+  "citation_index": "OpenAlex",
+  "citation_snapshot": "literature/root_openalex_feasible_route_search_20261010_2223/query_09.json",
+  "scope": "Complete 11-family released-study-data statistical synthesis:145 rows,88 means/SD/N contrasts,31 original trial mappings. All337 fixed primary comparisons must pass. All336 supporting source displays and complete uniform controls reported; never primary rescue.",
+  "primary_target_file": "FIXED_ALL337_CENTRAL_TARGETS001.json",
+  "supporting_file": "FIXED_ALL336_SUPPORTING_SOURCE_TARGETS001.json",
+  "method": "Historical RevMan Hedges approximate J and variance N/(n1*n2)+g*g/(2*(N-3.94)); DL random/source fixed models and1.96 confidence intervals. All LOO/subgroups/gender REML/DL/fixed/Egger controls and3uniform variance alternatives.",
+  "full_paper_omissions": [
+    "No repeated human trials/search/screening/risk ratings",
+    "Unresolved author subgroup allocation and original trim-fill implementation explicitly reported"
+  ],
+  "resources": {
+    "cpu": 2,
+    "BLAS_threads": 1,
+    "tree_peak_bytes": 536870912,
+    "available_ram_bytes": 536870912,
+    "start_ram_bytes": 805306368,
+    "fresh_start_seconds": 10,
+    "free_disk_bytes": 37580963840,
+    "wall_seconds_per_phase": 600,
+    "maximum_four_planned_phases_seconds": 2400
+  },
+  "phase_order": [
+    "one unrelated whole-geometry synthetic main",
+    "one independent synthetic audit",
+    "one whole original main only after synthetic integrity passes",
+    "one independent whole original audit"
+  ],
+  "no_automatic_retry": true,
+  "no_post_outcome_scope_or_tolerance_rescue": true
+}

@@ -1,0 +1,1572 @@
+{
+  "schema": "ROOT_P161_ARCHIVED_WHOLE86_BOTH_ROUTES_NEAR_CHECK937",
+  "UTC": "2026-10-17T09:04:06.118227+00:00",
+  "rule_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ADOPTED_P161_ARCHIVED_ALL86_ICC_NEAR_RULE935.json",
+    "bytes": 2762,
+    "sha256": "fb180a172dd0e5b97f348b71713cb34af5f3cd42e186fbb1fdc8b17f2d984474"
+  },
+  "audit_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\COMPLETE_ALL_FIELDS_AND_PUBLICATION_AUDIT001.json",
+    "bytes": 6316151,
+    "sha256": "23a1752a4f131b96f8e4575af28bdc13ae58a01a2cee6e0db86c53a19e269a4d"
+  },
+  "all86_both_routes": [
+    {
+      "route": "primary",
+      "id": "T2.1.ICC_single",
+      "source_literal": ".857",
+      "actual": 0.8569441684879795,
+      "abs_error": "0.0000558315120205",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T2.1.ICC_average",
+      "source_literal": ".923",
+      "actual": 0.9229616948427135,
+      "abs_error": "0.0000383051572865",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T2.2.ICC_single",
+      "source_literal": ".803",
+      "actual": 0.8034346577309717,
+      "abs_error": "0.0004346577309717",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T2.2.ICC_average",
+      "source_literal": ".891",
+      "actual": 0.8910050101197784,
+      "abs_error": "0.0000050101197784",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T2.3.ICC_single",
+      "source_literal": ".782",
+      "actual": 0.782153956490557,
+      "abs_error": "0.000153956490557",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T2.3.ICC_average",
+      "source_literal": ".878",
+      "actual": 0.8777625004191958,
+      "abs_error": "0.0002374995808042",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T2.4.ICC_single",
+      "source_literal": ".760",
+      "actual": 0.7599912325564405,
+      "abs_error": "0.0000087674435595",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T2.4.ICC_average",
+      "source_literal": ".864",
+      "actual": 0.8636307028104114,
+      "abs_error": "0.0003692971895886",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T2.5.ICC_single",
+      "source_literal": ".806",
+      "actual": 0.8058112773302645,
+      "abs_error": "0.0001887226697355",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T2.5.ICC_average",
+      "source_literal": ".892",
+      "actual": 0.8924645531304762,
+      "abs_error": "0.0004645531304762",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T2.6.ICC_single",
+      "source_literal": ".809",
+      "actual": 0.8085479762241721,
+      "abs_error": "0.0004520237758279",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T2.6.ICC_average",
+      "source_literal": ".894",
+      "actual": 0.8941404782772004,
+      "abs_error": "0.0001404782772004",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T2.7.ICC_single",
+      "source_literal": ".853",
+      "actual": 0.8528075595129929,
+      "abs_error": "0.0001924404870071",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T2.7.ICC_average",
+      "source_literal": ".921",
+      "actual": 0.920557081208317,
+      "abs_error": "0.000442918791683",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T2.8.ICC_single",
+      "source_literal": ".754",
+      "actual": 0.7544530858003011,
+      "abs_error": "0.0004530858003011",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T2.8.ICC_average",
+      "source_literal": ".860",
+      "actual": 0.8600436134844314,
+      "abs_error": "0.0000436134844314",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T2.9.ICC_single",
+      "source_literal": ".865",
+      "actual": 0.8645007923930269,
+      "abs_error": "0.0004992076069731",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T2.9.ICC_average",
+      "source_literal": ".927",
+      "actual": 0.9273268168295792,
+      "abs_error": "0.0003268168295792",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T2.Total.ICC_single",
+      "source_literal": ".884",
+      "actual": 0.8839373802599138,
+      "abs_error": "0.0000626197400862",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T2.Total.ICC_average",
+      "source_literal": ".938",
+      "actual": 0.9383935894280765,
+      "abs_error": "0.0003935894280765",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.1.AI_HumanZ_single",
+      "source_literal": ".367",
+      "actual": 0.36713995943204863,
+      "abs_error": "0.00013995943204863",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.1.AI_HumanZ_average",
+      "source_literal": ".537",
+      "actual": 0.5370919881305637,
+      "abs_error": "0.0000919881305637",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.1.AI_HumanS_single",
+      "source_literal": ".259",
+      "actual": 0.25883563994052383,
+      "abs_error": "0.00016436005947617",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.1.AI_HumanS_average",
+      "source_literal": ".411",
+      "actual": 0.4112302380519716,
+      "abs_error": "0.0002302380519716",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.1.HumanZ_HumanS_single",
+      "source_literal": ".857",
+      "actual": 0.8569441684879795,
+      "abs_error": "0.0000558315120205",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.1.HumanZ_HumanS_average",
+      "source_literal": ".923",
+      "actual": 0.9229616948427135,
+      "abs_error": "0.0000383051572865",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.2.AI_HumanZ_single",
+      "source_literal": ".268",
+      "actual": 0.2679245283018868,
+      "abs_error": "0.0000754716981132",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.2.AI_HumanZ_average",
+      "source_literal": ".423",
+      "actual": 0.42261904761904756,
+      "abs_error": "0.00038095238095244",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.2.AI_HumanS_single",
+      "source_literal": ".118",
+      "actual": 0.11751134353610693,
+      "abs_error": "0.00048865646389307",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.2.AI_HumanS_average",
+      "source_literal": ".210",
+      "actual": 0.21030899456334712,
+      "abs_error": "0.00030899456334712",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.2.HumanZ_HumanS_single",
+      "source_literal": ".803",
+      "actual": 0.8034346577309717,
+      "abs_error": "0.0004346577309717",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.2.HumanZ_HumanS_average",
+      "source_literal": ".891",
+      "actual": 0.8910050101197784,
+      "abs_error": "0.0000050101197784",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.3.AI_HumanZ_single",
+      "source_literal": ".270",
+      "actual": 0.26987951807228905,
+      "abs_error": "0.00012048192771095",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.3.AI_HumanZ_average",
+      "source_literal": ".425",
+      "actual": 0.42504743833017067,
+      "abs_error": "0.00004743833017067",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.3.AI_HumanS_single",
+      "source_literal": ".241",
+      "actual": 0.2405190962883271,
+      "abs_error": "0.0004809037116729",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.3.AI_HumanS_average",
+      "source_literal": ".388",
+      "actual": 0.3877716949428154,
+      "abs_error": "0.0002283050571846",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.3.HumanZ_HumanS_single",
+      "source_literal": ".782",
+      "actual": 0.782153956490557,
+      "abs_error": "0.000153956490557",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.3.HumanZ_HumanS_average",
+      "source_literal": ".878",
+      "actual": 0.8777625004191958,
+      "abs_error": "0.0002374995808042",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.4.AI_HumanZ_single",
+      "source_literal": ".352",
+      "actual": 0.35234541577825146,
+      "abs_error": "0.00034541577825146",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.4.AI_HumanZ_average",
+      "source_literal": ".521",
+      "actual": 0.5210878990934172,
+      "abs_error": "0.0000878990934172",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.4.AI_HumanS_single",
+      "source_literal": ".219",
+      "actual": 0.21883045237219564,
+      "abs_error": "0.00016954762780436",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.4.AI_HumanS_average",
+      "source_literal": ".359",
+      "actual": 0.35908267954133977,
+      "abs_error": "0.00008267954133977",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.4.HumanZ_HumanS_single",
+      "source_literal": ".760",
+      "actual": 0.7599912325564405,
+      "abs_error": "0.0000087674435595",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.4.HumanZ_HumanS_average",
+      "source_literal": ".864",
+      "actual": 0.8636307028104114,
+      "abs_error": "0.0003692971895886",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.5.AI_HumanZ_single",
+      "source_literal": ".321",
+      "actual": 0.3210749646393211,
+      "abs_error": "0.0000749646393211",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.5.AI_HumanZ_average",
+      "source_literal": ".486",
+      "actual": 0.48608137044967886,
+      "abs_error": "0.00008137044967886",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.5.AI_HumanS_single",
+      "source_literal": ".289",
+      "actual": 0.28875918153200414,
+      "abs_error": "0.00024081846799586",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.5.AI_HumanS_average",
+      "source_literal": ".448",
+      "actual": 0.4481196885654673,
+      "abs_error": "0.0001196885654673",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.5.HumanZ_HumanS_single",
+      "source_literal": ".806",
+      "actual": 0.8058112773302645,
+      "abs_error": "0.0001887226697355",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.5.HumanZ_HumanS_average",
+      "source_literal": ".892",
+      "actual": 0.8924645531304762,
+      "abs_error": "0.0004645531304762",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.6.AI_HumanZ_single",
+      "source_literal": ".315",
+      "actual": 0.31482277541130943,
+      "abs_error": "0.00017722458869057",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.6.AI_HumanZ_average",
+      "source_literal": ".479",
+      "actual": 0.4788824491009064,
+      "abs_error": "0.0001175508990936",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.6.AI_HumanS_single",
+      "source_literal": ".259",
+      "actual": 0.2640556343632149,
+      "abs_error": "0.0050556343632149",
+      "old_strict_pass": false,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.6.AI_HumanS_average",
+      "source_literal": ".412",
+      "actual": 0.4177911591624469,
+      "abs_error": "0.0057911591624469",
+      "old_strict_pass": false,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.6.HumanZ_HumanS_single",
+      "source_literal": ".809",
+      "actual": 0.8085479762241721,
+      "abs_error": "0.0004520237758279",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.6.HumanZ_HumanS_average",
+      "source_literal": ".894",
+      "actual": 0.8941404782772004,
+      "abs_error": "0.0001404782772004",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.7.AI_HumanZ_single",
+      "source_literal": ".181",
+      "actual": 0.18123543123543112,
+      "abs_error": "0.00023543123543112",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.7.AI_HumanZ_average",
+      "source_literal": ".307",
+      "actual": 0.3068574247656634,
+      "abs_error": "0.0001425752343366",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.7.AI_HumanS_single",
+      "source_literal": ".152",
+      "actual": 0.1519995024566205,
+      "abs_error": "4.975433795E-7",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.7.AI_HumanS_average",
+      "source_literal": ".264",
+      "actual": 0.2638881390703451,
+      "abs_error": "0.0001118609296549",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.7.HumanZ_HumanS_single",
+      "source_literal": ".853",
+      "actual": 0.8528075595129929,
+      "abs_error": "0.0001924404870071",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.7.HumanZ_HumanS_average",
+      "source_literal": ".921",
+      "actual": 0.920557081208317,
+      "abs_error": "0.000442918791683",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.8.AI_HumanZ_single",
+      "source_literal": ".384",
+      "actual": 0.38377808988764056,
+      "abs_error": "0.00022191011235944",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.8.AI_HumanZ_average",
+      "source_literal": ".555",
+      "actual": 0.5546815529053541,
+      "abs_error": "0.0003184470946459",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.8.AI_HumanS_single",
+      "source_literal": ".160",
+      "actual": 0.15964582774349345,
+      "abs_error": "0.00035417225650655",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.8.AI_HumanS_average",
+      "source_literal": ".275",
+      "actual": 0.2753354928273948,
+      "abs_error": "0.0003354928273948",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.8.HumanZ_HumanS_single",
+      "source_literal": ".754",
+      "actual": 0.7544530858003011,
+      "abs_error": "0.0004530858003011",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.8.HumanZ_HumanS_average",
+      "source_literal": ".860",
+      "actual": 0.8600436134844314,
+      "abs_error": "0.0000436134844314",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.9.AI_HumanZ_single",
+      "source_literal": ".443",
+      "actual": 0.4431182863245177,
+      "abs_error": "0.0001182863245177",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.9.AI_HumanZ_average",
+      "source_literal": ".614",
+      "actual": 0.6141122186915073,
+      "abs_error": "0.0001122186915073",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.9.AI_HumanS_single",
+      "source_literal": ".365",
+      "actual": 0.36564647238387044,
+      "abs_error": "0.00064647238387044",
+      "old_strict_pass": false,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.9.AI_HumanS_average",
+      "source_literal": ".535",
+      "actual": 0.5354921347185828,
+      "abs_error": "0.0004921347185828",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.9.HumanZ_HumanS_single",
+      "source_literal": ".865",
+      "actual": 0.8645007923930269,
+      "abs_error": "0.0004992076069731",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.9.HumanZ_HumanS_average",
+      "source_literal": ".927",
+      "actual": 0.9273268168295792,
+      "abs_error": "0.0003268168295792",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.Total.AI_HumanZ_single",
+      "source_literal": ".406",
+      "actual": 0.4065483278264503,
+      "abs_error": "0.0005483278264503",
+      "old_strict_pass": false,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.Total.AI_HumanZ_average",
+      "source_literal": ".578",
+      "actual": 0.5780794300252626,
+      "abs_error": "0.0000794300252626",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.Total.AI_HumanS_single",
+      "source_literal": ".279",
+      "actual": 0.27888491040121477,
+      "abs_error": "0.00011508959878523",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.Total.AI_HumanS_average",
+      "source_literal": ".436",
+      "actual": 0.4361376197858529,
+      "abs_error": "0.0001376197858529",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.Total.HumanZ_HumanS_single",
+      "source_literal": ".884",
+      "actual": 0.8839373802599138,
+      "abs_error": "0.0000626197400862",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "T5.Total.HumanZ_HumanS_average",
+      "source_literal": ".938",
+      "actual": 0.9383935894280765,
+      "abs_error": "0.0003935894280765",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "ABSTRACT.ICC.HumanZ_HumanS.single",
+      "source_literal": ".884",
+      "actual": 0.8839373802599138,
+      "abs_error": "0.0000626197400862",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "ABSTRACT.ICC.HumanZ_HumanS.average",
+      "source_literal": ".938",
+      "actual": 0.9383935894280765,
+      "abs_error": "0.0003935894280765",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "ABSTRACT.ICC.AI_HumanZ.single",
+      "source_literal": ".406",
+      "actual": 0.4065483278264503,
+      "abs_error": "0.0005483278264503",
+      "old_strict_pass": false,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "ABSTRACT.ICC.AI_HumanZ.average",
+      "source_literal": ".578",
+      "actual": 0.5780794300252626,
+      "abs_error": "0.0000794300252626",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "ABSTRACT.ICC.AI_HumanS.single",
+      "source_literal": ".279",
+      "actual": 0.27888491040121477,
+      "abs_error": "0.00011508959878523",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "primary",
+      "id": "ABSTRACT.ICC.AI_HumanS.average",
+      "source_literal": ".436",
+      "actual": 0.4361376197858529,
+      "abs_error": "0.0001376197858529",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.1.ICC_single",
+      "source_literal": ".857",
+      "actual": 0.8569441684879795,
+      "abs_error": "0.0000558315120205",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.1.ICC_average",
+      "source_literal": ".923",
+      "actual": 0.9229616948427135,
+      "abs_error": "0.0000383051572865",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.2.ICC_single",
+      "source_literal": ".803",
+      "actual": 0.8034346577309717,
+      "abs_error": "0.0004346577309717",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.2.ICC_average",
+      "source_literal": ".891",
+      "actual": 0.8910050101197784,
+      "abs_error": "0.0000050101197784",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.3.ICC_single",
+      "source_literal": ".782",
+      "actual": 0.782153956490557,
+      "abs_error": "0.000153956490557",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.3.ICC_average",
+      "source_literal": ".878",
+      "actual": 0.8777625004191958,
+      "abs_error": "0.0002374995808042",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.4.ICC_single",
+      "source_literal": ".760",
+      "actual": 0.7599912325564404,
+      "abs_error": "0.0000087674435596",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.4.ICC_average",
+      "source_literal": ".864",
+      "actual": 0.8636307028104114,
+      "abs_error": "0.0003692971895886",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.5.ICC_single",
+      "source_literal": ".806",
+      "actual": 0.8058112773302647,
+      "abs_error": "0.0001887226697353",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.5.ICC_average",
+      "source_literal": ".892",
+      "actual": 0.8924645531304763,
+      "abs_error": "0.0004645531304763",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.6.ICC_single",
+      "source_literal": ".809",
+      "actual": 0.8085479762241721,
+      "abs_error": "0.0004520237758279",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.6.ICC_average",
+      "source_literal": ".894",
+      "actual": 0.8941404782772004,
+      "abs_error": "0.0001404782772004",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.7.ICC_single",
+      "source_literal": ".853",
+      "actual": 0.852807559512993,
+      "abs_error": "0.000192440487007",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.7.ICC_average",
+      "source_literal": ".921",
+      "actual": 0.920557081208317,
+      "abs_error": "0.000442918791683",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.8.ICC_single",
+      "source_literal": ".754",
+      "actual": 0.7544530858003011,
+      "abs_error": "0.0004530858003011",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.8.ICC_average",
+      "source_literal": ".860",
+      "actual": 0.8600436134844314,
+      "abs_error": "0.0000436134844314",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.9.ICC_single",
+      "source_literal": ".865",
+      "actual": 0.8645007923930268,
+      "abs_error": "0.0004992076069732",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.9.ICC_average",
+      "source_literal": ".927",
+      "actual": 0.9273268168295792,
+      "abs_error": "0.0003268168295792",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.Total.ICC_single",
+      "source_literal": ".884",
+      "actual": 0.8839373802599138,
+      "abs_error": "0.0000626197400862",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T2.Total.ICC_average",
+      "source_literal": ".938",
+      "actual": 0.9383935894280765,
+      "abs_error": "0.0003935894280765",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.1.AI_HumanZ_single",
+      "source_literal": ".367",
+      "actual": 0.36713995943204875,
+      "abs_error": "0.00013995943204875",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.1.AI_HumanZ_average",
+      "source_literal": ".537",
+      "actual": 0.5370919881305638,
+      "abs_error": "0.0000919881305638",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.1.AI_HumanS_single",
+      "source_literal": ".259",
+      "actual": 0.25883563994052383,
+      "abs_error": "0.00016436005947617",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.1.AI_HumanS_average",
+      "source_literal": ".411",
+      "actual": 0.4112302380519716,
+      "abs_error": "0.0002302380519716",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.1.HumanZ_HumanS_single",
+      "source_literal": ".857",
+      "actual": 0.8569441684879795,
+      "abs_error": "0.0000558315120205",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.1.HumanZ_HumanS_average",
+      "source_literal": ".923",
+      "actual": 0.9229616948427135,
+      "abs_error": "0.0000383051572865",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.2.AI_HumanZ_single",
+      "source_literal": ".268",
+      "actual": 0.2679245283018868,
+      "abs_error": "0.0000754716981132",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.2.AI_HumanZ_average",
+      "source_literal": ".423",
+      "actual": 0.4226190476190476,
+      "abs_error": "0.0003809523809524",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.2.AI_HumanS_single",
+      "source_literal": ".118",
+      "actual": 0.11751134353610708,
+      "abs_error": "0.00048865646389292",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.2.AI_HumanS_average",
+      "source_literal": ".210",
+      "actual": 0.21030899456334737,
+      "abs_error": "0.00030899456334737",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.2.HumanZ_HumanS_single",
+      "source_literal": ".803",
+      "actual": 0.8034346577309717,
+      "abs_error": "0.0004346577309717",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.2.HumanZ_HumanS_average",
+      "source_literal": ".891",
+      "actual": 0.8910050101197784,
+      "abs_error": "0.0000050101197784",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.3.AI_HumanZ_single",
+      "source_literal": ".270",
+      "actual": 0.26987951807228916,
+      "abs_error": "0.00012048192771084",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.3.AI_HumanZ_average",
+      "source_literal": ".425",
+      "actual": 0.4250474383301708,
+      "abs_error": "0.0000474383301708",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.3.AI_HumanS_single",
+      "source_literal": ".241",
+      "actual": 0.2405190962883271,
+      "abs_error": "0.0004809037116729",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.3.AI_HumanS_average",
+      "source_literal": ".388",
+      "actual": 0.3877716949428154,
+      "abs_error": "0.0002283050571846",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.3.HumanZ_HumanS_single",
+      "source_literal": ".782",
+      "actual": 0.782153956490557,
+      "abs_error": "0.000153956490557",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.3.HumanZ_HumanS_average",
+      "source_literal": ".878",
+      "actual": 0.8777625004191958,
+      "abs_error": "0.0002374995808042",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.4.AI_HumanZ_single",
+      "source_literal": ".352",
+      "actual": 0.35234541577825146,
+      "abs_error": "0.00034541577825146",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.4.AI_HumanZ_average",
+      "source_literal": ".521",
+      "actual": 0.5210878990934172,
+      "abs_error": "0.0000878990934172",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.4.AI_HumanS_single",
+      "source_literal": ".219",
+      "actual": 0.2188304523721956,
+      "abs_error": "0.0001695476278044",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.4.AI_HumanS_average",
+      "source_literal": ".359",
+      "actual": 0.3590826795413397,
+      "abs_error": "0.0000826795413397",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.4.HumanZ_HumanS_single",
+      "source_literal": ".760",
+      "actual": 0.7599912325564404,
+      "abs_error": "0.0000087674435596",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.4.HumanZ_HumanS_average",
+      "source_literal": ".864",
+      "actual": 0.8636307028104114,
+      "abs_error": "0.0003692971895886",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.5.AI_HumanZ_single",
+      "source_literal": ".321",
+      "actual": 0.3210749646393211,
+      "abs_error": "0.0000749646393211",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.5.AI_HumanZ_average",
+      "source_literal": ".486",
+      "actual": 0.48608137044967886,
+      "abs_error": "0.00008137044967886",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.5.AI_HumanS_single",
+      "source_literal": ".289",
+      "actual": 0.2887591815320042,
+      "abs_error": "0.0002408184679958",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.5.AI_HumanS_average",
+      "source_literal": ".448",
+      "actual": 0.4481196885654674,
+      "abs_error": "0.0001196885654674",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.5.HumanZ_HumanS_single",
+      "source_literal": ".806",
+      "actual": 0.8058112773302647,
+      "abs_error": "0.0001887226697353",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.5.HumanZ_HumanS_average",
+      "source_literal": ".892",
+      "actual": 0.8924645531304763,
+      "abs_error": "0.0004645531304763",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.6.AI_HumanZ_single",
+      "source_literal": ".315",
+      "actual": 0.3148227754113096,
+      "abs_error": "0.0001772245886904",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.6.AI_HumanZ_average",
+      "source_literal": ".479",
+      "actual": 0.4788824491009066,
+      "abs_error": "0.0001175508990934",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.6.AI_HumanS_single",
+      "source_literal": ".259",
+      "actual": 0.26405563436321494,
+      "abs_error": "0.00505563436321494",
+      "old_strict_pass": false,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.6.AI_HumanS_average",
+      "source_literal": ".412",
+      "actual": 0.417791159162447,
+      "abs_error": "0.005791159162447",
+      "old_strict_pass": false,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.6.HumanZ_HumanS_single",
+      "source_literal": ".809",
+      "actual": 0.8085479762241721,
+      "abs_error": "0.0004520237758279",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.6.HumanZ_HumanS_average",
+      "source_literal": ".894",
+      "actual": 0.8941404782772004,
+      "abs_error": "0.0001404782772004",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.7.AI_HumanZ_single",
+      "source_literal": ".181",
+      "actual": 0.18123543123543118,
+      "abs_error": "0.00023543123543118",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.7.AI_HumanZ_average",
+      "source_literal": ".307",
+      "actual": 0.3068574247656634,
+      "abs_error": "0.0001425752343366",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.7.AI_HumanS_single",
+      "source_literal": ".152",
+      "actual": 0.1519995024566205,
+      "abs_error": "4.975433795E-7",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.7.AI_HumanS_average",
+      "source_literal": ".264",
+      "actual": 0.2638881390703451,
+      "abs_error": "0.0001118609296549",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.7.HumanZ_HumanS_single",
+      "source_literal": ".853",
+      "actual": 0.852807559512993,
+      "abs_error": "0.000192440487007",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.7.HumanZ_HumanS_average",
+      "source_literal": ".921",
+      "actual": 0.920557081208317,
+      "abs_error": "0.000442918791683",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.8.AI_HumanZ_single",
+      "source_literal": ".384",
+      "actual": 0.3837780898876404,
+      "abs_error": "0.0002219101123596",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.8.AI_HumanZ_average",
+      "source_literal": ".555",
+      "actual": 0.5546815529053539,
+      "abs_error": "0.0003184470946461",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.8.AI_HumanS_single",
+      "source_literal": ".160",
+      "actual": 0.1596458277434934,
+      "abs_error": "0.0003541722565066",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.8.AI_HumanS_average",
+      "source_literal": ".275",
+      "actual": 0.27533549282739467,
+      "abs_error": "0.00033549282739467",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.8.HumanZ_HumanS_single",
+      "source_literal": ".754",
+      "actual": 0.7544530858003011,
+      "abs_error": "0.0004530858003011",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.8.HumanZ_HumanS_average",
+      "source_literal": ".860",
+      "actual": 0.8600436134844314,
+      "abs_error": "0.0000436134844314",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.9.AI_HumanZ_single",
+      "source_literal": ".443",
+      "actual": 0.4431182863245177,
+      "abs_error": "0.0001182863245177",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.9.AI_HumanZ_average",
+      "source_literal": ".614",
+      "actual": 0.6141122186915072,
+      "abs_error": "0.0001122186915072",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.9.AI_HumanS_single",
+      "source_literal": ".365",
+      "actual": 0.3656464723838704,
+      "abs_error": "0.0006464723838704",
+      "old_strict_pass": false,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.9.AI_HumanS_average",
+      "source_literal": ".535",
+      "actual": 0.5354921347185827,
+      "abs_error": "0.0004921347185827",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.9.HumanZ_HumanS_single",
+      "source_literal": ".865",
+      "actual": 0.8645007923930268,
+      "abs_error": "0.0004992076069732",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.9.HumanZ_HumanS_average",
+      "source_literal": ".927",
+      "actual": 0.9273268168295792,
+      "abs_error": "0.0003268168295792",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.Total.AI_HumanZ_single",
+      "source_literal": ".406",
+      "actual": 0.4065483278264504,
+      "abs_error": "0.0005483278264504",
+      "old_strict_pass": false,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.Total.AI_HumanZ_average",
+      "source_literal": ".578",
+      "actual": 0.5780794300252627,
+      "abs_error": "0.0000794300252627",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.Total.AI_HumanS_single",
+      "source_literal": ".279",
+      "actual": 0.2788849104012148,
+      "abs_error": "0.0001150895987852",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.Total.AI_HumanS_average",
+      "source_literal": ".436",
+      "actual": 0.436137619785853,
+      "abs_error": "0.000137619785853",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.Total.HumanZ_HumanS_single",
+      "source_literal": ".884",
+      "actual": 0.8839373802599138,
+      "abs_error": "0.0000626197400862",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "T5.Total.HumanZ_HumanS_average",
+      "source_literal": ".938",
+      "actual": 0.9383935894280765,
+      "abs_error": "0.0003935894280765",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "ABSTRACT.ICC.HumanZ_HumanS.single",
+      "source_literal": ".884",
+      "actual": 0.8839373802599138,
+      "abs_error": "0.0000626197400862",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "ABSTRACT.ICC.HumanZ_HumanS.average",
+      "source_literal": ".938",
+      "actual": 0.9383935894280765,
+      "abs_error": "0.0003935894280765",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "ABSTRACT.ICC.AI_HumanZ.single",
+      "source_literal": ".406",
+      "actual": 0.4065483278264504,
+      "abs_error": "0.0005483278264504",
+      "old_strict_pass": false,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "ABSTRACT.ICC.AI_HumanZ.average",
+      "source_literal": ".578",
+      "actual": 0.5780794300252627,
+      "abs_error": "0.0000794300252627",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "ABSTRACT.ICC.AI_HumanS.single",
+      "source_literal": ".279",
+      "actual": 0.2788849104012148,
+      "abs_error": "0.0001150895987852",
+      "old_strict_pass": true,
+      "near_pass": true
+    },
+    {
+      "route": "secondary",
+      "id": "ABSTRACT.ICC.AI_HumanS.average",
+      "source_literal": ".436",
+      "actual": 0.436137619785853,
+      "abs_error": "0.000137619785853",
+      "old_strict_pass": true,
+      "near_pass": true
+    }
+  ],
+  "maximum_error": "0.005791159162447",
+  "all20_directions_both_routes": true,
+  "all135_integrity_both_routes": true,
+  "all42785_agreements": true,
+  "no_supporting_failures_changed": true,
+  "near_supported": true,
+  "new_independent_review_pending": true,
+  "credit_awarded": 0
+}

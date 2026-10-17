@@ -1,0 +1,17 @@
+[
+  {
+    "path": "audit.json",
+    "bytes": 79009,
+    "sha256": "7abfb1092123dfea27b6c7751ac8580bed3218370a91e5eec83863fcb7fe8c9d"
+  },
+  {
+    "path": "auditor.py",
+    "bytes": 11902,
+    "sha256": "f299a5e24e76c64c495bba8ec49a0b48c4929f7c6cb4fcdcb00039bdc9a8c731"
+  },
+  {
+    "path": "original_prereg_request_log_snapshot.json",
+    "bytes": 3941,
+    "sha256": "e7e4b6ac2f702d3f97c8d5bea4786b1c858b9ece7692625a5001c132fcd08d0e"
+  }
+]

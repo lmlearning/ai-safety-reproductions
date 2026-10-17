@@ -1,0 +1,10 @@
+{
+  "run_id": "P041-central-002",
+  "audited_at_utc": "2026-10-10T12:01:16.929092+00:00",
+  "manifest_files": 1057,
+  "bad_hashes": [],
+  "raw_blocks": 1008,
+  "raw_trials": 10080000,
+  "invalid_count_blocks": [],
+  "passed": true
+}

@@ -1,0 +1,1733 @@
+{
+  "schema": "INDEPENDENT_CLOSED_P157_AUDIT007_NATIVE_SOURCE_SCOPE_PRODUCT_REVIEW_P092042",
+  "UTC": "2026-10-17T12:27:41.197109+00:00",
+  "verdict": "CLOSED_AUDIT_SCOPE_AND_METADATA_PASS",
+  "checks": [
+    {
+      "check": "pin:TERMINAL.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pin:ROOT_ONE_AUDIT_ONLY007_ORIGINAL997_CLOCK_ADMISSION1009.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pin:ROOT_EXPLICIT_AUDIT007_OVER_COMPLETED006_AND_FAILED997_COMPATIBILITY1009.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pin:SOURCE_ONLY_DORMANT_P157_AUDIT_ONLY007_PACKET.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pin:ROOT_COMPLETE_CURRENT_GPU006_FULL_NATIVE_AND_PRODUCTS_ACCEPTANCE997.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pin:ROOT_COMPLETE_AUDIT_ONLY007_SOURCE_ACCEPTANCE1009.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pin:ROOT_CURRENT_AUDIT007_JOINT_RESOURCES_WITH_APPS_TEMPORARILY_CLOSED1009.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pin:ROOT_EXISTING_G9_RUNTIME_AND_NATIVE_CONTEXT_FOR_AUDIT007_1009.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p157_data002.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p157_models002.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p157_audit002.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p157_phase002.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p157_science002.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:COMPLETE_ORIGINAL_METHOD_AND_PREFIX_SOURCE_DERIVATION002.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:SOURCE_ONLY_COMPLETE_SCIENTIFIC_BOUNDARY_QA002.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:PREREGISTRATION.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p157_common001.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p092_lean087_resources.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:source__gpt_utils_extrapolation.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:source__create_dataset.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:source__getNhopfact.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:source__inference_extrapolation.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:source__inference_extrapolation_adaptive.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:source__train_extrapolation.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:COMPLETE_ALL3279_PUBLISHED_FIGURE5_PIXEL_INTERVALS011.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:STATIC_CPU_HYBRID_RUNTIME_PROPOSAL001.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:ROOT_ONE_P157_PUBLIC_ACQUISITION_ONLY_GRANT270.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:ROOT_COMPLETE_P157_CURRENT_PUBLIC_INPUT_QUALIFICATION271.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:COMPLETE_ACQUISITION.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:__init__.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:version.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:linear.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:normalization.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:sparse.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:functional.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:__init__.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:modeling_gpt2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:configuration_gpt2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:activations.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:configuration_utils.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:modeling_utils.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:import_utils.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p157_prepare_and_launch_full_RSTAT003.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:INDEPENDENT_COMPLETE_CLOSED_ALL9_FIDELITY_QUALIFICATION_RSTAT002.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:INDEPENDENT_COMPLETE_CLOSED_NINE_FIDELITY_FULL_SOURCE_TIME_STORAGE_PROJECTION_RSTAT001.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:ROOT_ACTUAL_P157_FIDELITY_PARENT_TOOL_TERMINAL303.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:qualify_P157_closed_complete_fidelity_RSTAT002.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:prepare_P157_closed_fidelity_projection_RSTAT001.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:COMPLETE_FIDELITY274_TO_DORMANT_FULL003_CONTROL_FIELD_CUSTODY.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p157_recovery_phase004.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p157_recovery_science004.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p157_recovery_contract004.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:ROOT_CLOSED_INCOMPLETE_P157_FULL_RESOURCE_FAILURE_ACCEPTANCE383.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:SOURCE_ONLY_COMPLETE_RECOVERY004_RAW_AST_AND_DORMANCY_CHECKS.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:ADDITIVE_FIXED_CLOCK_AND_ROOT383_BINDING004.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:COMPLETE_RETAINED_R1_R7_AND_CLOSED004_METADATA005.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p157_recovery_phase005.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p157_recovery_science005.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p157_recovery_contract005.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:TERMINAL.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:ROOT_P157_CURRENT004_CLOSED_AND_BOTH_SYNC_APPS_RESTORED926.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:ROOT_ADOPTED_PROSPECTIVE_NEAR_SUCCESS_P019_P157_POLICY915.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p157_gpu_models006.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p157_gpu_audit006.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p157_gpu_contract007.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p157_gpu_phase007.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p157_gpu_science007.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:SOURCE_ONLY_EXACT_GPU006_METHOD_RESOURCE_AND_AUDIT_POLICY.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:COMPLETE_CPU005_TO_GPU006_RAW_AST_AND_FALSE_GRAPH_PROOF.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:FALSE_P157_GPU006_FULL_QUALIFICATION_ADMISSION.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:FALSE_P157_GPU006_FULL_REMAINING_ADMISSION.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:FALSE_P157_GPU006_AUDIT_ADMISSION.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:__init__.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:version.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:linear.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:normalization.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:sparse.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:functional.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:__init__.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:modeling_gpt2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:configuration_gpt2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:activations.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:configuration_utils.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:modeling_utils.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:import_utils.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:METADATA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:RECORD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:SOURCE_ONLY_P157_EXISTING_GPU_ACCELERATION_FEASIBILITY_PROPOSAL_P092031.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:SOURCE_ONLY_OLD_AND_EXISTING_G9_GPT2_ACTIVE_PATH_AST_COMPARISON001.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:root_rocm_g9_kernel_qualification003.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:p019_exact_host_g9_stopped_suffix016.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:FALSE_P157_GPU007_AUDIT_ONLY_ADMISSION.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:COMPLETE_006_TO_AUDIT007_NULL_ONLY_AUTHORITY_NAMESPACE_RAW_AST_INVERSE.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "declared_source_pin:FIELD_ONLY_P157_AUDIT_ONLY007_API.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "bridge_exact_packet:completed_full006_source_packet_ref",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "bridge_exact_packet:completed_full006_native_acceptance997_ref",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "bridge_exact_packet:failed_audit997_admission_ref",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "bridge_current007",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "bridge_explicit_acceptance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "full_really006",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "complete_full_pin_all_layers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "997_same_audit_origin",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_certificate_current007",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "joint_runtime_current007",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "runtime_source_refs_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "native_terminal_original_birth",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "native_exit0_handle_closed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "terminal_no_failure_cleanup",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "external_tool0_and_finalstdout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "honest_no_Job_no_parentafterexit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "streams_closed_source_and_ROOT_actual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "stream_pin:child.stdout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "stream_pin:child.stderr",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "child_stderr_empty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "child_stdout_operational_and_audit_ref",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "terminal_before_original_workcut",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original_common_origin",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pin:COMPLETE_ALL_NINE_FULL.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pin:COMPLETE_WHOLE_AUDIT.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pin:COMPLETE_ALL3279_PUBLISHED_COMPARISON.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pin:COMPLETE_ALL3279_PUBLISHED_FIGURE5_PIXEL_INTERVALS011.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "full_and_audit_schemas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "whole_audit_complete_not_neuralrerun",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all9_model_order_full_and_audit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "whole_counts_declared",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original_mixed_device_provenance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r1:all40_full_array_ref_geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r1:all40x39_integer_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r1:independently_audited_counts_match_full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r1:all1170000_predictionIDs_253890000_elements",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r1:all915_B32_extents",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r2:all40_full_array_ref_geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r2:all40x39_integer_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r2:independently_audited_counts_match_full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r2:all1170000_predictionIDs_253890000_elements",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r2:all915_B32_extents",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r3:all40_full_array_ref_geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r3:all40x39_integer_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r3:independently_audited_counts_match_full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r3:all1170000_predictionIDs_253890000_elements",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r3:all915_B32_extents",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r4:all40_full_array_ref_geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r4:all40x39_integer_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r4:independently_audited_counts_match_full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r4:all1170000_predictionIDs_253890000_elements",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r4:all915_B32_extents",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r5:all40_full_array_ref_geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r5:all40x39_integer_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r5:independently_audited_counts_match_full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r5:all1170000_predictionIDs_253890000_elements",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r5:all915_B32_extents",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r6:all40_full_array_ref_geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r6:all40x39_integer_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r6:independently_audited_counts_match_full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r6:all1170000_predictionIDs_253890000_elements",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r6:all915_B32_extents",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r7:all40_full_array_ref_geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r7:all40x39_integer_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r7:independently_audited_counts_match_full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r7:all1170000_predictionIDs_253890000_elements",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r7:all915_B32_extents",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r8:all40_full_array_ref_geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r8:all40x39_integer_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r8:independently_audited_counts_match_full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r8:all1170000_predictionIDs_253890000_elements",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r8:all915_B32_extents",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r_dyn:all40_full_array_ref_geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r_dyn:all40x39_integer_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r_dyn:independently_audited_counts_match_full",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r_dyn:all1170000_predictionIDs_253890000_elements",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "r_dyn:all915_B32_extents",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "actual_all14040",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "full_and_audit_original_data_integrity_identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "whole_original_39hops750and29250",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "both_adaptive_distinct_original_eps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "paper_0p01:original_settings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "paper_0p01:all29250_and_original_predicates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "paper_0p01:all39_correct_count_join",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "paper_0p01:all915_original_B32extents",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "paper_0p01:every_original_decision_step_geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "paper_0p01:no_independent_forward_claim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_0p001:original_settings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_0p001:all29250_and_original_predicates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_0p001:all39_correct_count_join",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_0p001:all915_original_B32extents",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_0p001:every_original_decision_step_geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_0p001:no_independent_forward_claim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact_all3279_complete_original_target_crossjoin",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all3279_unique_no_subsets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "strict_report_reconciles",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "saved_complete_resource_ledger:audit_parent007/resources.jsonl",
+      "passed": true,
+      "detail": {
+        "rows": 33,
+        "rejecting_rows": []
+      }
+    },
+    {
+      "check": "saved_complete_resource_ledger:audit_parent007/direct_child_samples.jsonl",
+      "passed": true,
+      "detail": {
+        "rows": 164,
+        "rejecting_rows": []
+      }
+    },
+    {
+      "check": "saved_complete_resource_ledger:audit_worker007/resources.jsonl",
+      "passed": true,
+      "detail": {
+        "rows": 22,
+        "rejecting_rows": []
+      }
+    },
+    {
+      "check": "saved_complete_resource_ledger:audit_worker007/GPU_allocator_observations.jsonl",
+      "passed": true,
+      "detail": {
+        "rows": 44076,
+        "rejecting_rows": []
+      }
+    },
+    {
+      "check": "parent_observed_peak_under64MiB",
+      "passed": true,
+      "detail": 28037120
+    },
+    {
+      "check": "runtime_original_FP32_and_exact_g9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "complete_module_custody_metadata_nonempty",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "check_count": 243,
+  "all_checks_passed": true,
+  "actual_defects": [],
+  "closed_actual_refs": {
+    "ROOT_external_closure1010_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+      "bytes": 3362,
+      "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+    },
+    "native_terminal_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\audit_parent007\\TERMINAL.json",
+      "bytes": 1764,
+      "sha256": "67cc594096a83b422ea00b942ae924cdf6e2fdfcc6deb461ff9b0ca37edf9886"
+    },
+    "source_bridge1009_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_audit_only007_ROOT1009\\ROOT_EXPLICIT_AUDIT007_OVER_COMPLETED006_AND_FAILED997_COMPATIBILITY1009.json",
+      "bytes": 4220,
+      "sha256": "1a83c27c3432d407af253e7d986946cfcdc7411e5038ae3df71cdbc37db46b2b"
+    },
+    "admission1009_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_audit_only007_ROOT1009\\ROOT_ONE_AUDIT_ONLY007_ORIGINAL997_CLOCK_ADMISSION1009.json",
+      "bytes": 11397,
+      "sha256": "f97851a98144010498497517fe584267ee64ff482046b3672384cdc3409fcb29"
+    },
+    "source007_packet_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P157_loop_think_generalize\\review\\source_preparation007\\SOURCE_ONLY_DORMANT_P157_AUDIT_ONLY007_PACKET.json",
+      "bytes": 54799,
+      "sha256": "755606e91a23a6c76609e39b087d297e9a24724f9e61b20ff8857b3c1f20fc56"
+    },
+    "full006_acceptance997_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_closed_GPU_full_and_audit_ROOT997\\ROOT_COMPLETE_CURRENT_GPU006_FULL_NATIVE_AND_PRODUCTS_ACCEPTANCE997.json",
+      "bytes": 2864,
+      "sha256": "1888ca7fa767e6edf0c61983b705fe4f10f50d870d600c84e22f4db11aa625b8"
+    }
+  },
+  "whole_scope": {
+    "models": [
+      {
+        "model": "r1",
+        "recurrences": 40,
+        "audited_integer_counters": 1560,
+        "examples_per_recurrence": 29250,
+        "IDs_audited": 1170000,
+        "logit_elements_audited": 253890000
+      },
+      {
+        "model": "r2",
+        "recurrences": 40,
+        "audited_integer_counters": 1560,
+        "examples_per_recurrence": 29250,
+        "IDs_audited": 1170000,
+        "logit_elements_audited": 253890000
+      },
+      {
+        "model": "r3",
+        "recurrences": 40,
+        "audited_integer_counters": 1560,
+        "examples_per_recurrence": 29250,
+        "IDs_audited": 1170000,
+        "logit_elements_audited": 253890000
+      },
+      {
+        "model": "r4",
+        "recurrences": 40,
+        "audited_integer_counters": 1560,
+        "examples_per_recurrence": 29250,
+        "IDs_audited": 1170000,
+        "logit_elements_audited": 253890000
+      },
+      {
+        "model": "r5",
+        "recurrences": 40,
+        "audited_integer_counters": 1560,
+        "examples_per_recurrence": 29250,
+        "IDs_audited": 1170000,
+        "logit_elements_audited": 253890000
+      },
+      {
+        "model": "r6",
+        "recurrences": 40,
+        "audited_integer_counters": 1560,
+        "examples_per_recurrence": 29250,
+        "IDs_audited": 1170000,
+        "logit_elements_audited": 253890000
+      },
+      {
+        "model": "r7",
+        "recurrences": 40,
+        "audited_integer_counters": 1560,
+        "examples_per_recurrence": 29250,
+        "IDs_audited": 1170000,
+        "logit_elements_audited": 253890000
+      },
+      {
+        "model": "r8",
+        "recurrences": 40,
+        "audited_integer_counters": 1560,
+        "examples_per_recurrence": 29250,
+        "IDs_audited": 1170000,
+        "logit_elements_audited": 253890000
+      },
+      {
+        "model": "r_dyn",
+        "recurrences": 40,
+        "audited_integer_counters": 1560,
+        "examples_per_recurrence": 29250,
+        "IDs_audited": 1170000,
+        "logit_elements_audited": 253890000
+      }
+    ],
+    "fixed_integer_counters": 14040,
+    "fixed_IDs": 10530000,
+    "fixed_FP32_logit_elements": 2285010000,
+    "heldout_per_recurrence": 29250,
+    "perhop": 750,
+    "hops": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "adaptive": [
+      {
+        "eps_KL": 0.01,
+        "examples_verified": 29250,
+        "maximum_absolute_error": 0.0,
+        "maximum_fraction_of_bound": 0.0,
+        "all_adaptive_vs_fixed_argmax_differences": [],
+        "near_tie_count_effects_retained_not_auto_veto": true,
+        "original_batches": 915,
+        "original_step_records": 10490,
+        "original_step_example_slots": 335230
+      },
+      {
+        "eps_KL": 0.001,
+        "examples_verified": 29250,
+        "maximum_absolute_error": 0.0,
+        "maximum_fraction_of_bound": 0.0,
+        "all_adaptive_vs_fixed_argmax_differences": [],
+        "near_tie_count_effects_retained_not_auto_veto": true,
+        "original_batches": 915,
+        "original_step_records": 11427,
+        "original_step_example_slots": 365214
+      }
+    ],
+    "all3279": 3279
+  },
+  "strict_diagnostic": {
+    "passed": 3278,
+    "total": 3279,
+    "all_AND": false,
+    "panel_summaries": [
+      {
+        "model": "r1",
+        "cells": 288,
+        "strict_passed": 288,
+        "strict_failed": 0
+      },
+      {
+        "model": "r2",
+        "cells": 288,
+        "strict_passed": 288,
+        "strict_failed": 0
+      },
+      {
+        "model": "r3",
+        "cells": 288,
+        "strict_passed": 288,
+        "strict_failed": 0
+      },
+      {
+        "model": "r4",
+        "cells": 288,
+        "strict_passed": 288,
+        "strict_failed": 0
+      },
+      {
+        "model": "r5",
+        "cells": 288,
+        "strict_passed": 288,
+        "strict_failed": 0
+      },
+      {
+        "model": "r6",
+        "cells": 288,
+        "strict_passed": 288,
+        "strict_failed": 0
+      },
+      {
+        "model": "r7",
+        "cells": 288,
+        "strict_passed": 288,
+        "strict_failed": 0
+      },
+      {
+        "model": "r8",
+        "cells": 288,
+        "strict_passed": 288,
+        "strict_failed": 0
+      },
+      {
+        "model": "r_dyn",
+        "cells": 975,
+        "strict_passed": 974,
+        "strict_failed": 1
+      }
+    ],
+    "failed_cells": [
+      {
+        "model": "r_dyn",
+        "hop": 32,
+        "inference_recurrence": "adaptive",
+        "correct": 630,
+        "total": 750,
+        "every_source_RGB_inverse_bin": [
+          {
+            "lower_numerator": 214,
+            "upper_numerator": 215,
+            "denominator": 256,
+            "lower_inclusive": true,
+            "upper_inclusive": false,
+            "accuracy_domain_intersection": [
+              0,
+              1
+            ],
+            "conditional_possible_correct_counts_out_of750": [
+              627,
+              628,
+              629
+            ]
+          }
+        ],
+        "passed": false
+      }
+    ],
+    "strict_failure_is_not_automatic_NEAR_veto": true
+  },
+  "native_and_resource_summary": {
+    "child_PID": 13392,
+    "child_birth": 134367130717061303,
+    "initial_native259": true,
+    "terminal_native0": true,
+    "handle_closed": true,
+    "streams_closed_ROOT1010": true,
+    "cleanup_errors": [],
+    "peak_child_WS": 1317138432,
+    "peak_child_private_commit": 1968218112,
+    "observed_parent_peak_WS": 28037120,
+    "maximum_saved_live_child_sample_gap_seconds": 1.518589,
+    "no_arbitrary_gap_veto": true,
+    "minimum_saved_available_RAM": 5924823040,
+    "minimum_saved_available_commit": 33730232320,
+    "minimum_saved_free_disk": 58811248640,
+    "Job_enforcement_claimed": false,
+    "parent_afterexit_native": "UNMEASURED",
+    "terminal_image31": "Same retained PID/birth and initial queriedimage; no fresh terminalimage claim.",
+    "saved_resource_ledgers": [
+      {
+        "ref": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\audit_parent007\\resources.jsonl",
+          "bytes": 23909,
+          "sha256": "97b31f2234124c6375f7625963506d9e6ecc0fe3f864560978ac4e3c57e8b9fb"
+        },
+        "rows": 33,
+        "complete_saved_censuses": 6,
+        "first_UTC": "2026-10-17T12:17:52.129813+00:00",
+        "last_UTC": "2026-10-17T12:20:34.573167+00:00",
+        "maximum_GPU_allocated_or_peak": 0,
+        "maximum_GPU_reserved_or_peak": 0
+      },
+      {
+        "ref": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\audit_parent007\\direct_child_samples.jsonl",
+          "bytes": 178019,
+          "sha256": "d45aaf2fdf81fe4d5883e8abc69b3ddda018c3f19ddfa84147e748f7f14c39b0"
+        },
+        "rows": 164,
+        "complete_saved_censuses": 0,
+        "first_UTC": "2026-10-17T12:17:52.131722+00:00",
+        "last_UTC": "2026-10-17T12:20:37.577000+00:00",
+        "maximum_GPU_allocated_or_peak": 0,
+        "maximum_GPU_reserved_or_peak": 0
+      },
+      {
+        "ref": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\audit_worker007\\resources.jsonl",
+          "bytes": 19111,
+          "sha256": "c98c5122728965caa85565df84b25d827323afe1f8b19acb6949b5077dbef445"
+        },
+        "rows": 22,
+        "complete_saved_censuses": 8,
+        "first_UTC": "2026-10-17T12:18:09.607461+00:00",
+        "last_UTC": "2026-10-17T12:20:36.552526+00:00",
+        "maximum_GPU_allocated_or_peak": 0,
+        "maximum_GPU_reserved_or_peak": 0
+      },
+      {
+        "ref": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\audit_worker007\\GPU_allocator_observations.jsonl",
+          "bytes": 6785769,
+          "sha256": "1a1323ad2a7352fe435465669a12de7bf05f2b42fb22f13c08ab24ab59578f9d"
+        },
+        "rows": 44076,
+        "complete_saved_censuses": 0,
+        "first_UTC": "2026-10-17T12:18:51.291328+00:00",
+        "last_UTC": "2026-10-17T12:20:36.118803+00:00",
+        "maximum_GPU_allocated_or_peak": 0,
+        "maximum_GPU_reserved_or_peak": 0
+      }
+    ]
+  },
+  "product_integrity_refs": {
+    "near_policy_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ADOPTED_PROSPECTIVE_NEAR_SUCCESS_P019_P157_POLICY915.json",
+      "bytes": 18446,
+      "sha256": "2b6c5ed9074dd924dc4461299808dd552d7ad1cb72fef5481585b9822303842c"
+    },
+    "source_target_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\COMPLETE_ALL3279_PUBLISHED_FIGURE5_PIXEL_INTERVALS011.json",
+      "bytes": 3153387,
+      "sha256": "85d3edc3a680d2832365118c5a0bcf91b86c367c5e500a0ad4c2b848570054f4"
+    },
+    "same_original_common_grant_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P157_loop_think_generalize\\review\\source_preparation001\\ROOT_ONE_P157_PUBLIC_ACQUISITION_ONLY_GRANT270.json",
+      "bytes": 1948,
+      "sha256": "7e4ef94db42f40b9631558d3aa9b4f1620c2392f41d1c0770dd935a5c3f0e87a"
+    },
+    "original_audit_source_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P157_loop_think_generalize\\review\\source_preparation002\\p157_audit002.py",
+      "bytes": 6886,
+      "sha256": "f8f8ad46c1c9b389d8a9bbb94211e4a5d71e1fbff1cefcd1b0323bc2fa098402"
+    },
+    "complete_full_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\COMPLETE_ALL_NINE_FULL.json",
+      "bytes": 90849229,
+      "sha256": "491c6c8a6bd69a69342cc7ddddb7fd84275d666e37ab6603454cd3064399606d"
+    },
+    "whole_audit_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\COMPLETE_WHOLE_AUDIT.json",
+      "bytes": 203083,
+      "sha256": "96981518e3c9c4fb4b1b1eef76c0e4a1b7042df329d7c27edfe140d80c2a2624"
+    },
+    "published_comparison_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\COMPLETE_ALL3279_PUBLISHED_COMPARISON.json",
+      "bytes": 1932875,
+      "sha256": "aca8ffd282c64ab339204e583b24be9cc3fa85ebdc8764e57bbfba4c746162d2"
+    },
+    "original_data_integrity_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\audit_worker007\\COMPLETE_RAW_DATA_INTEGRITY.json",
+      "bytes": 10560,
+      "sha256": "7210c035fa3c85525f9096dbc09d09abf6dfa4f626e7a31fb5fd9b3a061af0d9"
+    },
+    "actual_runtime_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\audit_worker007\\ACTUAL_RUNTIME.json",
+      "bytes": 808,
+      "sha256": "ed82bd91d1be4191d070bbab6ff41bd546dc382c42de8e9b14f43fe0250991cd"
+    },
+    "imported_module_custody_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\audit_worker007\\COMPLETE_IMPORTED_G9_MODULE_CUSTODY.json",
+      "bytes": 761603,
+      "sha256": "189f269f8384b20bbed5f2f781709b53b22a061664bfe3a1755a8f433bb7de4a"
+    }
+  },
+  "ROOT_classifier_qualification_handoff": {
+    "exact_classifier_packet_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_closed_near_classifier_source001\\SOURCE_ONLY_DORMANT_COMPLETE_P157_CLOSED_NEAR_CLASSIFIER_PACKET001.json",
+      "bytes": 5944,
+      "sha256": "cf23294f3cbb6ca0759e5909cf6a3dd721ed460a2fd7c9592b3c73400fef0309"
+    },
+    "exact_classifier_API_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_closed_near_classifier_source001\\FIELD_ONLY_COMPLETE_P157_NEAR_CLASSIFIER_API001.json",
+      "bytes": 3917,
+      "sha256": "5361e146065f32e630e7ca15bd3b7c02e32c1eeb6a9f0faab563d9aef2c5c86a"
+    },
+    "exact_input_refs": {
+      "near_policy_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ADOPTED_PROSPECTIVE_NEAR_SUCCESS_P019_P157_POLICY915.json",
+        "bytes": 18446,
+        "sha256": "2b6c5ed9074dd924dc4461299808dd552d7ad1cb72fef5481585b9822303842c"
+      },
+      "source_target_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\COMPLETE_ALL3279_PUBLISHED_FIGURE5_PIXEL_INTERVALS011.json",
+        "bytes": 3153387,
+        "sha256": "85d3edc3a680d2832365118c5a0bcf91b86c367c5e500a0ad4c2b848570054f4"
+      },
+      "same_original_common_grant_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P157_loop_think_generalize\\review\\source_preparation001\\ROOT_ONE_P157_PUBLIC_ACQUISITION_ONLY_GRANT270.json",
+        "bytes": 1948,
+        "sha256": "7e4ef94db42f40b9631558d3aa9b4f1620c2392f41d1c0770dd935a5c3f0e87a"
+      },
+      "original_audit_source_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P157_loop_think_generalize\\review\\source_preparation002\\p157_audit002.py",
+        "bytes": 6886,
+        "sha256": "f8f8ad46c1c9b389d8a9bbb94211e4a5d71e1fbff1cefcd1b0323bc2fa098402"
+      },
+      "complete_full_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\COMPLETE_ALL_NINE_FULL.json",
+        "bytes": 90849229,
+        "sha256": "491c6c8a6bd69a69342cc7ddddb7fd84275d666e37ab6603454cd3064399606d"
+      },
+      "whole_audit_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\COMPLETE_WHOLE_AUDIT.json",
+        "bytes": 203083,
+        "sha256": "96981518e3c9c4fb4b1b1eef76c0e4a1b7042df329d7c27edfe140d80c2a2624"
+      },
+      "published_comparison_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\COMPLETE_ALL3279_PUBLISHED_COMPARISON.json",
+        "bytes": 1932875,
+        "sha256": "aca8ffd282c64ab339204e583b24be9cc3fa85ebdc8764e57bbfba4c746162d2"
+      }
+    },
+    "template_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_closed_near_classifier_source001\\FALSE_FIELD_TEMPLATE_ROOT_CLOSED_WHOLE_SCOPE_CUSTODY001.json",
+      "bytes": 4291,
+      "sha256": "e821056cbc36da9db96a9b9d892bf10e71493ba2f101d1d4d820f7ddd580805d"
+    },
+    "ROOT_future_flags_not_issued_here": {
+      "ROOT_closed_full_and_whole_independent_audit_qualified": false,
+      "ROOT_exact_original_inputs_and_scope_verified": false,
+      "ROOT_native_tool_handle_stream_and_clock_closure_qualified": false,
+      "ROOT_ordered_operational_violation_disposition_complete": false
+    },
+    "phase_evidence_refs": {
+      "full": {
+        "actual_tool_chain_ref": {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_closed_GPU_full_and_audit_ROOT997\\ROOT_COMPLETE_CURRENT_GPU006_FULL_NATIVE_AND_PRODUCTS_ACCEPTANCE997.json",
+          "bytes": 2864,
+          "sha256": "1888ca7fa767e6edf0c61983b705fe4f10f50d870d600c84e22f4db11aa625b8"
+        },
+        "native_parent_terminal_ref": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\parent\\TERMINAL.json",
+          "bytes": 1766,
+          "sha256": "9ef18a6551b6a27699176560f5ed1b847a888409ac45dba383d1dfeebe476ed7"
+        },
+        "actual_tool_exit": 0,
+        "actual_child_native_exit": 0,
+        "Job_enforcement_claimed": false,
+        "Job_final_active": null,
+        "Job_handle_closed": null
+      },
+      "independent_audit": {
+        "actual_tool_chain_ref": {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+          "bytes": 3362,
+          "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+        },
+        "native_parent_terminal_ref": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\audit_parent007\\TERMINAL.json",
+          "bytes": 1764,
+          "sha256": "67cc594096a83b422ea00b942ae924cdf6e2fdfcc6deb461ff9b0ca37edf9886"
+        },
+        "actual_tool_exit": 0,
+        "actual_child_native_exit": 0,
+        "Job_enforcement_claimed": false,
+        "Job_final_active": null,
+        "Job_handle_closed": null
+      }
+    },
+    "ordered_disposition_needed": "ROOT must retain/dispose earlierfailedfull/reboot/004resource stop, GPUqualification and currentfull006, failedaudit997 NUL/sandboxroute and1001restoration, audit007bridge/currentclosure; no silent failure removal and no new scientificcriteria. This review does not independently issue a no-material-violations certificate.",
+    "source_interop": "Saved audit schema002/all14040/bothadaptive vectors exactly match dormant classifier input shape. Keep fixed original_audit_source_ref from classifierpacket; current007 numerical module/proof/sourcecompatibility1009 supply positive unchanged-scope bridge. No classifier source successor requested.",
+    "C1_C4": "ROOT separate source-bound compatibility disposition and numerical near-classifier run remain pending; no new quantitativecontrast threshold or strictANDveto by this review."
+  },
+  "limits": "Reviewed all saved source/native/resource metadata and full/audit/comparison JSON summaries; no model or array file opened or rerun, no native requery, no scientific libraries, no registry edits. No independent neuralforward credit, no finalNEAR/counting verdict.",
+  "science_credit": false
+}

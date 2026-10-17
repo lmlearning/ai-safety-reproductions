@@ -1,0 +1,398 @@
+{
+  "created_utc": "2026-10-10T23:54:34.646582+00:00",
+  "paper_id": "P120",
+  "title": "Large language models provide unsafe answers to patient-posed medical questions",
+  "doi": "10.1038/s41746-026-02428-5",
+  "arxiv": "2507.18905",
+  "status": "COMPLETE PASSING CENTRAL CANDIDATE; independent final root review/registration required",
+  "classification": "Complete original raw-response quantitative comparative contribution; NOT full response generation/human collection",
+  "selected_original_versions": {
+    "primary": "Original arXiv2507.18905v1 July25 2025, all quantitative Results and Discussion claims",
+    "bridge": "v2 August4 2025 and final VOR/XML/supplement inspected; no target switching",
+    "additional_mandatory_validation": "All12 final published Pearson cells, generated from unchanged July19 original correlation code and unchanged workbook, retained prospectively as strict additional gates"
+  },
+  "eligibility": {
+    "paper_id": "P120",
+    "title": "Large language models provide unsafe answers to patient-posed medical questions",
+    "doi": "10.1038/s41746-026-02428-5",
+    "arxiv_id": "2507.18905",
+    "status": "eligible_extended_complete_original_source_review_pending",
+    "paper_credit": false,
+    "citation_gate": {
+      "count": 68,
+      "source": "Retained exact SemanticScholar journal DOI snapshot",
+      "semantic_scholar_id": "ebdb2c9347e5ab1b7c27c483aafab9584d28e8a1",
+      "corpus_id": 280045717,
+      "path": "literature/cpu_continuation_search_20261010/query_01.json",
+      "sha256": "01901b15855b62483a6dc796b5809999f35a1bea418e7bfda02f860796267c29",
+      "retrieved_utc": "2026-10-10T16:16:00.026821+00:00",
+      "required_extended": 40,
+      "passes": true,
+      "requeried": false,
+      "summed_with_preprint_or_publisher": false
+    },
+    "first_release": {
+      "earliest_confirmed_public_paper": "2025-07-25",
+      "original_arxiv_v1": "2025-07-25T02:55:36+00:00",
+      "original_v2": "2025-08-04T21:31:09+00:00",
+      "submission_history_literal": "Submission history From: Rachel Draelos [ view email ] [v1] Fri, 25 Jul 2025 02:55:36 UTC (502 KB) [v2] Mon, 4 Aug 2025 21:31:09 UTC (469 KB)",
+      "official_abs_source_sha256": "d5660273244a1ce61b67e376cd6b7ce5b9e8edbaca366cd185f2f60fda46cbb2",
+      "journal_online": "2026-02-13",
+      "current_VOR": "2026-03-24",
+      "date_not_reset_by_journal": true,
+      "original_repo_created_utc": "2025-05-31T17:27:14Z",
+      "repository_date_limit": "GitHubrepository createdMay31 2025; initial firstcommitREADMEonly. Earliest codeMay31 and dataJune/July author/committer timestamps are preserved but not proof of public visibility. All evidenced candidate source-release dates are inside extended window; no earlier substantive public release beforeApr10 established in bounded original exact-title search. Private original collection dates do not establish public release.",
+      "passes_extended_date": true,
+      "passes_primary_date": false
+    },
+    "source_plan": {
+      "original_preprint_head": "ce4af11161b05dc51645612807432e722730371b",
+      "first_substantive_preprint": "Original July25v1 PDF; targetversion may be selected only after fulloriginal/v2/VOR method reconciliation, before outcomes.",
+      "all_repo_blobs_pinned": true,
+      "original_statistical_code_run": false,
+      "raw_ratings_aggregated": false
+    },
+    "review_utc": "2026-10-10T21:31:28.297928+00:00",
+    "own_outcome_calculations_performed": false
+  },
+  "source_identity": {
+    "original_repo_head": "ce4af11161b05dc51645612807432e722730371b",
+    "workbook": "sources/original_preprint_repo/SupplementaryDocuments/HealthAdviceDatasetWithEvaluations.xlsx",
+    "sha256": "c1c8e47d1e9fe73cd78f63e3a09c37879891955101d7ce357ad324113575c959",
+    "current_head": "b805c636fd74a0e988ea33009a32cfdd359b3f4f",
+    "current_workbooks": "Exact same Git blob identities as original head; current analysis changes only colors/caps/linewidth",
+    "zero_exclusions": true,
+    "missingness_policy": "Primary label/rating/question/model/UUID/response fields must exist and all888 ratings participate. Descriptive Topic has180 missing cells per schema inspection; it is unused by original analyses and never causes exclusions/imputation. Optional issue blanks encode absent tags per original code. Exact raw strings and fractional3.5/4.5 values retained."
+  },
+  "scope": [
+    "All888 original ratings,222 questions,all4 cohorts with zero exclusions",
+    "Figure1/problematic4 counts and rates,primary omnibus,all6 original corrected pairwise tests and decisions",
+    "Figure2/all4 original means/sampleSDs,Kruskal-Wallis omnibus,all6 Dunn/Bonferroni comparisons and decisions",
+    "Figure3/all20 issue percentages,all5 issue omnibus tests,all18 published issue pairwise corrected p-values and decisions",
+    "All6 binary Pearson comparisons and whole published range,all12 final Pearson cells across binary/numeric metrics",
+    "Exact original unanimous acceptable/problematic counts and all9 original problematic question identities"
+  ],
+  "all141_gate_families": {
+    "Figure1": 17,
+    "Table1": 12,
+    "Figure2": 11,
+    "Table2": 12,
+    "Figure3": 23,
+    "IssueOmnibus": 8,
+    "Table3": 36,
+    "Agreement": 4,
+    "CorrelationMatrices": 12,
+    "V1CorrelationRange": 6
+  },
+  "omissions": {
+    "infeasible": [
+      "Recollect historical public UI responses from proprietary Claude3.5Sonnet, Gemini1.5Flash, GPT4o and the original mixed Llama3.0/3.1 deployment; historical public UI identities/settings not re-executable locally.",
+      "Recruit original licensed physicians, rerandomize blinded tasks and reproduce subjective labels or free-text/worst-case qualitative adjudication; no new human interaction authorized and no evaluator IDs/assignment/randomization seeds released."
+    ],
+    "omissions": [
+      "Entire response generation/collection and independent human judgment collection",
+      "New independent clinical validity of qualitative Table4 worst-case scenarios or final Table5/S2 examples",
+      "Introduction anecdotes, possible actual patient harms and population extrapolations; these are not observed outcome data",
+      "No new specialty/individual-question comparisons: paper explicitly says these were not performed"
+    ]
+  },
+  "original_methods": {
+    "primary_parser": "Original process_df_for_isproblematic: str(value).lower().strip(), then substring 'problematic'; no change to original behaviour",
+    "correlation_parser": "Original correlation code: raw string equals exactly 'Acceptable' gives1, every other raw spelling gives0, even trailing-space/lowercase acceptable. Pearson on222 inner-joined exact PatientQuestion keys; unique keys/complete4-way matching required.",
+    "agreement_parser": "Original pivot aggfunc first, after proving each question/model unique; literal 'Acceptable' and literal 'Problematic' all4. No normalization in credited branch.",
+    "issues": "Original plot counts nonblank after whitespace-only replacement; statistical branch counts pandas notna before replacement. Source schema shows no whitespace-only cells, so these branches coincide without repair. Original newline-tag value remains nonblank and counted. No nesting-based filtering.",
+    "ratings": "Preserve all exact numeric ratings including original fractional scores; no truncation or recoding. Means and sample SD ddof1 as original Seaborn/pandas source.",
+    "omnibus_proportions": "Original scipy chi2_contingency4x2,df3,default correction (Yates only applied atdf1,thus none); compute all6 proportion omnibus tests and retain expected-cell tables. Require every expected cell>=5 as original asserted method validity; do not switch tests.",
+    "pairwise_proportions": "Original statsmodels defaulttwo-sided pooled two-proportion z-test, no continuity correction; Bonferroni factor6 and clipping1 separately within each family, never across all issues. Preserve original p<.05 omnibus trigger for published posthoc dispatch. Compute additional12 unreported issue pairwise results only as supporting diagnostic, clearly tagged not originally dispatched.",
+    "kruskal": "Original pooled average ranks, tie-corrected Kruskal-Wallis H,chi-square df3 survival p; all888 values and all4 groups",
+    "dunn": "Original scikit_posthocs Dunn average-rank difference divided by sqrt((N(N+1)/12-sum(t^3-t)/(12(N-1)))*(1/n_i+1/n_j)); two-sided normal tail; all6 Bonferroni factor6, clipped1",
+    "implementation_plan": "Independent paper-method Python implementation using installed pandas/numpy/scipy and explicit equivalent formulas for absent scikit_posthocs/statsmodels. Archived named-package source versions are formula references, not claims of historical authors package versions. Original authors code is not imported/executed during preparation.",
+    "independent_audit": "Second parser from raw XLSX ZIP/XML shared-string/cell sources, independent Python collections/math formulas and hand-built pooled average ranks; validate every original row/value/string, all source/input/output hashes, all numerical families and all141 mandatory gates; do not import analysis code or borrow aggregates.",
+    "paired_design_diagnostic": "Because the same physician rates all4 responses to a question but original inferential tests treat cohorts independently, additionally report prespecified exact two-sided paired McNemar for primary+all5 issues (all36 pairs, Bonferroni6 within family) and4-model Friedman for numeric ratings as supporting analyses only. Missing rater identities prevent evaluator-cluster sensitivity. Diagnostic conclusions can never replace failed original gates.",
+    "normalized_label_diagnostic": "Separately compute normalized main-parser binary Pearson and normalized unanimous counts/question sets, list affected raw spellings/UUIDs. Original exact-literal results remain the only credited correlation/agreement branch.",
+    "uncertainty": "Reproduce all published SDs and inferential p-values. Supporting Wilson95percent intervals for4 primary+20 issue proportions with fixed z=1.959963984540054; no new CIs presented as publication uncertainty.",
+    "randomness": "All statistical methods deterministic. No outcome-dependent seeds/variants/tolerances. No bootstrap needed."
+  },
+  "gate_policy": "Every mandatory target must pass, plus zero missing/invalid primary values and complete source-integrity audit. No passing-subset credit or rescue by normalized/paired diagnostics. Numerical tolerance is half displayed rounding unit; threshold inequalities exact. Only Figure3 uses fixed0.15 percentage-point raster-digitation tolerance. Floating comparison allowance is relative1e-12 times stated tolerance, never an extra fixed wide absolute epsilon. All reported failures remain immutable.",
+  "source_version_conflicts": [
+    "V1 Introduction and VOR say16 evaluators; v2 Methods says15, and17 named authors minus2 collectors implies15; raw release has no evaluator ID. Do not invent assignments or resolve participant count.",
+    "V1 declares MD/DO, v2/VOR MD/MBBS; preserve discrepancy.",
+    "Primary raw spellings include Acceptable, Acceptable-space, acceptable, Problematic, problematic, PROblematic. Original main normalization differs from exact correlation/agreement; no silent correction.",
+    "Likert described1-to5, but release contains3.5/4.5. Original code treats numeric values continuously; retain them.",
+    "15Llama3.0 and207Llama3.1 responses, exact per-row version flags/dates unavailable. All original Llama responses pooled, no substitution or subset.",
+    "One Claude RuKo26DD recollected February12 2025 after saving error, outside main September10-December24 2024 window; retain it.",
+    "V1 repeats Table1 numbering: intro comparison example and problematic-pairwise table; use captions/page locators, not ambiguous table number.",
+    "VOR Table4 bolds PoorWriting Llama-GPT4o p=.0568 although caption says bold=significant. V1 shading and numerical p imply nonsignificant; selected original v1 gate remains nonsignificant, VOR formatting discrepancy disclosed.",
+    "V1 prose correlation range rounds upper endpoint.38 whereas final matrix has.382; enforce rounded range[.255,.385] and all12 strict three-decimal matrix cells prospectively.",
+    "Current repo plot changes only presentation, no source data/statistical formula changes. Historical package versions/author environment absent.",
+    "Topic metadata missing in180 rows; original statistical code never uses it. Do not impute topics or exclude rows.",
+    "Code contains warning/skip branches; protocol requires full finite results and all original method validity checks, never discarded failed issue families.",
+    "No repository license file present at either inspected tree. Source materials archived for local research/provenance with attribution; no claim of unrestricted redistribution."
+  ],
+  "implementation_independence": {
+    "runner": "scripts/run_p120_original_quantitative_v004.py",
+    "independent_auditor": "scripts/audit_p120_raw_xml_independent_v004.py",
+    "supervisor": "scripts/supervise_p120_quantitative_v004.py",
+    "native_exit_witness": "scripts/dispatch_p120_native_exit_witness_v004.py",
+    "independent_primitive_difference": "Runner uses pandas/numpy ranks and scipy.stats chi-square/Kruskal/Pearson/binomial/Friedman. Auditor reads XLSX ZIP/XML, hand-built sorted frequency ranks, scalar math/erfc, explicit chi-square statistic and scipy.special gammaincc, exact integer-coefficient binomial tails, within-question hand-ranked Friedman. Auditor imports no runner and borrows no aggregates.",
+    "integrity_numerical_tolerance": "Absolute1e-13 or relative1e-10, whichever larger; mandatory scientific gate tolerances unchanged. Every raw cell exact-equality audited.",
+    "script_modules_not_imported": true,
+    "raw_cell_integrity_equality": "Exact scalar numeric value equality, permitting equivalent int/float types; finite numbers only. All nonnumeric scalars require identical type and value. Row lengths and keys must match. No statistical tolerance applies to any original raw cell."
+  },
+  "complete_results": {
+    "responses": 888,
+    "questions": 222,
+    "models": [
+      "Claude",
+      "Gemini",
+      "GPT-4o",
+      "Llama"
+    ],
+    "mandatory_pass": 141,
+    "mandatory_total": 141,
+    "integrity_pass": 20073,
+    "integrity_total": 20073,
+    "all_original_metrics_file": {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\runs\\run004\\all_original_method_metrics.json",
+      "bytes": 10380,
+      "sha256": "d18a962c39cbd68dc02b3afdad86856ee6621a0a014e9c7c169d5fd7ed646454"
+    },
+    "all141_comparison_file": {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\FINAL_ALL141_TARGET_COMPARISONS_RUN004_AUDIT002.csv",
+      "bytes": 26547,
+      "sha256": "08ef20f53163b2d4a1f22349f6bfbfd9327bb02f01d20e54e67d6e5605bf6fe9"
+    },
+    "all_main_and_audit_checks_refs": [
+      {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\runs\\run004\\mandatory_target_checks.json",
+        "bytes": 53341,
+        "sha256": "f19f7efccc71fbc97a2942ecd9ac60ac1f7f6a6a6cfc62d58df7359ccbfb230e"
+      },
+      {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\audits\\audit002\\independent_mandatory_target_checks.json",
+        "bytes": 53343,
+        "sha256": "43cf9135888a14bf2ef0e404f17d6e8b3eda46dbb7c82fc73179de9ef2b9f312"
+      },
+      {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\audits\\audit002\\all_independent_integrity_checks.json",
+        "bytes": 6013799,
+        "sha256": "673c9d487846a85cf93d54cfa4c671dfba0e967cae7b77fc98a8a81f5c1ecbcc"
+      }
+    ]
+  },
+  "supporting_diagnostics": {
+    "source_file": {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\runs\\run004\\all_fixed_supporting_diagnostics.json",
+      "bytes": 15144,
+      "sha256": "9213e961a8604907d1b86df6c6be2f162742f19f7221b229301ac240bd3c3729"
+    },
+    "all_normalized_labels_all36_paired_McNemar_Friedman_all24_Wilson_intervals_preserved": true,
+    "no_credit_rescue": true,
+    "normalized_unanimous_acceptable": 83,
+    "exact_unanimous_acceptable": 80,
+    "illustrative_design_difference": "Original independent-cohort Claude/GPT-4o primary pair correctedp=0.10860539264042278; prespecifiedpairedMcNemar correctedp=0.042892402998978396. Both retained; only originalmethod gates credited."
+  },
+  "serialization_repair": {
+    "source_prereg004": {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\PREREGISTRATION004.json",
+      "bytes": 18502,
+      "sha256": "0b22ed97393094b14555220afaa7f0c11ee45f9853ca346ebee20bdb3c3b71cc"
+    },
+    "exact_source_metadata_only_null_to_empty_cell": [
+      {
+        "record_index": 561,
+        "source_excel_row": 563,
+        "field": "Optional Comments",
+        "original": null,
+        "repaired": ""
+      }
+    ],
+    "all_four_science_files_byte_identical_to_first_run001": [
+      {
+        "file": "all_original_method_metrics.json",
+        "original001": {
+          "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\runs\\run001\\all_original_method_metrics.json",
+          "bytes": 10380,
+          "sha256": "d18a962c39cbd68dc02b3afdad86856ee6621a0a014e9c7c169d5fd7ed646454"
+        },
+        "run004": {
+          "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\runs\\run004\\all_original_method_metrics.json",
+          "bytes": 10380,
+          "sha256": "d18a962c39cbd68dc02b3afdad86856ee6621a0a014e9c7c169d5fd7ed646454"
+        },
+        "byte_identical": true
+      },
+      {
+        "file": "all_original_method_details.json",
+        "original001": {
+          "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\runs\\run001\\all_original_method_details.json",
+          "bytes": 46782,
+          "sha256": "b3fb8513419571f18478bc41c6088bdfaea7e03451a8e5f2fbe320441b42cfbd"
+        },
+        "run004": {
+          "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\runs\\run004\\all_original_method_details.json",
+          "bytes": 46782,
+          "sha256": "b3fb8513419571f18478bc41c6088bdfaea7e03451a8e5f2fbe320441b42cfbd"
+        },
+        "byte_identical": true
+      },
+      {
+        "file": "all_fixed_supporting_diagnostics.json",
+        "original001": {
+          "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\runs\\run001\\all_fixed_supporting_diagnostics.json",
+          "bytes": 15144,
+          "sha256": "9213e961a8604907d1b86df6c6be2f162742f19f7221b229301ac240bd3c3729"
+        },
+        "run004": {
+          "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\runs\\run004\\all_fixed_supporting_diagnostics.json",
+          "bytes": 15144,
+          "sha256": "9213e961a8604907d1b86df6c6be2f162742f19f7221b229301ac240bd3c3729"
+        },
+        "byte_identical": true
+      },
+      {
+        "file": "mandatory_target_checks.json",
+        "original001": {
+          "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\runs\\run001\\mandatory_target_checks.json",
+          "bytes": 53341,
+          "sha256": "f19f7efccc71fbc97a2942ecd9ac60ac1f7f6a6a6cfc62d58df7359ccbfb230e"
+        },
+        "run004": {
+          "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\runs\\run004\\mandatory_target_checks.json",
+          "bytes": 53341,
+          "sha256": "f19f7efccc71fbc97a2942ecd9ac60ac1f7f6a6a6cfc62d58df7359ccbfb230e"
+        },
+        "byte_identical": true
+      }
+    ],
+    "pandas_dataframe_and_every_numeric_branch_unchanged": true
+  },
+  "failure_history": {
+    "run001": "v002 analysis completed141/141 but audit001 exactraw failed oneempty OptionalComments cell; retained",
+    "audit001": "Actualexit2; rawXMLemptystring versus pandas exportednull. No scientific gate weakened.",
+    "run002": "v003 actualexit1 before scientific core: numeric metadata comments not handled by initial raw serializer. Parent/worker missed numerictypes duringstaticreview; retained.",
+    "run003": "v004 prelaunch actualexit97/no numericalchild:1.5GiBfloorfailed; retained.",
+    "run004": "Exactv004 resource continuation after separately frozen1.85GiB30sec pass and unchanged1.5GiBfresh10second supervisor; no statistics changes.",
+    "audit002": "Separate root-authorized exactv004 independentXML/formula audit ofrun004 actualexit0."
+  },
+  "native_execution": {
+    "run_actual_witness_tool_exit": 0,
+    "run_actual_supervisor_exit": 0,
+    "run_actual_analysis_exit": 0,
+    "audit_actual_witness_tool_exit": 0,
+    "audit_actual_supervisor_exit": 0,
+    "audit_actual_numerical_exit": 0,
+    "run_native_peak": {
+      "available": true,
+      "native_error": null,
+      "peak_working_set_bytes": 168615936,
+      "working_set_bytes": 32768,
+      "peak_pagefile_bytes": 130162688
+    },
+    "audit_native_peak": {
+      "available": true,
+      "native_error": null,
+      "peak_working_set_bytes": 95748096,
+      "working_set_bytes": 28672,
+      "peak_pagefile_bytes": 77795328
+    },
+    "resource_breaches": [
+      null,
+      null
+    ],
+    "all_known_owned_creationmatched_absence": [
+      {
+        "pid": 21124,
+        "created_unix": 1791675923.4421506,
+        "created_utc": "2026-10-10T23:45:23.442151+00:00",
+        "creation_matched_alive_after_actual_supervisor_exit": false,
+        "alive_at_final_observation": false
+      },
+      {
+        "pid": 79632,
+        "created_unix": 1791675933.6074448,
+        "created_utc": "2026-10-10T23:45:33.607445+00:00",
+        "name": "python.exe",
+        "creation_matched_alive_after_actual_supervisor_exit": false,
+        "alive_at_final_observation": false
+      },
+      {
+        "pid": 60432,
+        "created_unix": 1791676065.9477117,
+        "created_utc": "2026-10-10T23:47:45.947712+00:00",
+        "creation_matched_alive_after_actual_supervisor_exit": false,
+        "alive_at_final_observation": false
+      },
+      {
+        "pid": 69100,
+        "created_unix": 1791676076.1369991,
+        "created_utc": "2026-10-10T23:47:56.136999+00:00",
+        "name": "python.exe",
+        "creation_matched_alive_after_actual_supervisor_exit": false,
+        "alive_at_final_observation": false
+      }
+    ],
+    "unchanged_resource_policy": {
+      "process_tree_RSS_bytes": 1073741824,
+      "available_RAM_floor_bytes": 1610612736,
+      "free_disk_floor_bytes": 37580963840,
+      "start_stability_seconds": 10,
+      "runtime_seconds": 600,
+      "CPU_threads": 1
+    },
+    "top_witness_PID_creation_not_archived_by_original_frozen_witness": true,
+    "actual_top_witness_exit_evidence": "exec sessions70943/87772 exited0; native supervisor and child exits/creationidentities separately archived"
+  },
+  "reproducible_instructions": {
+    "interpreter": "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+    "workspace": "{{REPRODUCTION_ROOT}}",
+    "source_and_runtime_freeze": {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\CODE_INPUT_RUNTIME_FREEZE004.json",
+      "bytes": 54773,
+      "sha256": "3cbbe3a244f885b3e8544dc200c53d6e77374a56cd27470673b7cfb5a01c391e"
+    },
+    "verify_all153_refs_before_execution": true,
+    "existing_outputs_must_not_be_overwritten": true,
+    "recorded_analysis_command": [
+      "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+      "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\scripts\\dispatch_p120_native_exit_witness_v004.py",
+      "--run",
+      "run004",
+      "operation_run004",
+      "RUN004_NATIVE_EXIT_WITNESS.json"
+    ],
+    "recorded_audit_command": [
+      "{{USER_HOME}}/AppData/Local/Programs/Python/Python312/python.exe",
+      "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\scripts\\dispatch_p120_native_exit_witness_v004.py",
+      "--audit",
+      "run004",
+      "audit002",
+      "operation_audit002",
+      "AUDIT002_NATIVE_EXIT_WITNESS.json"
+    ],
+    "replay": "Use the same immutable input/runtime bytes and originalrun001 sciencebaseline; fresh unused run/operation/witness IDs required because fixed code rejects existing results. Retain full153freeze. Any relocated path/package/runtime change needs a separate prospective freeze; no source/gate changes. Numerical phases separately authorized under fresh fixedguards. This report does not launch a replay.",
+    "fresh_replay_example_analysis": "python.exe dispatch_p120_native_exit_witness_v004.py --run replay001 operation_replay001 REPLAY001_NATIVE_EXIT_WITNESS.json",
+    "fresh_replay_example_audit": "python.exe dispatch_p120_native_exit_witness_v004.py --audit replay001 replayaudit001 operation_replayaudit001 REPLAYAUDIT001_NATIVE_EXIT_WITNESS.json",
+    "statistical_randomness": "None; deterministic originalformula workflow; no random seeds/tuning/reseeding."
+  },
+  "authority_refs": [
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\environment\\root_review_P120-source-scope001.json",
+      "bytes": 1014,
+      "sha256": "b02f74ce960ed56adaa55a77c15f013cfd4dd7d4ac33a7e14404c03de252e27e"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\environment\\root_review_P120-run004-audit002-authorization001.json",
+      "bytes": 971,
+      "sha256": "286ac5d98c23dabeeeb1cd0d8c98c201466fcb6e648f009e44a81c8786e10954"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P120_patient_question_safety\\RUN004_RESOURCE_CONTINUATION_PROSPECTIVE_AMENDMENT001.json",
+      "bytes": 1112,
+      "sha256": "e1b5ea0617e0d0e4a1ec1364d9d1d3286b14228c430697189fb23382d2e15af0"
+    }
+  ],
+  "final_input_freeze_refs": 153,
+  "final_input_freeze_mismatches": [],
+  "root_registry_edits": false
+}

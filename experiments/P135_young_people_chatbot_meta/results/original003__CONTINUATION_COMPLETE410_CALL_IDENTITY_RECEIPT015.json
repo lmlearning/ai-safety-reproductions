@@ -1,0 +1,2359 @@
+{
+  "status": "complete_fixed410",
+  "prefix_replayed": 129,
+  "new_completed_calls": 281,
+  "fixed_order": "distress226 then wellbeing184; original013 generating call order unchanged",
+  "all_ordinals": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339,
+    340,
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    387,
+    388,
+    389,
+    390,
+    391,
+    392,
+    393,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399,
+    400,
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410
+  ],
+  "prefix_receipts": [
+    {
+      "ordinal": 1,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0001.json",
+        "bytes": 147134,
+        "sha256": "66628b139eb762f5f954a1fd470af22d90edb155f476378efa9dba8108c24c6e",
+        "ordinal": 1
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "02800f053fce31fa889f6e95e1359e70538ea7fc6280efb7934c7da40f5a5e2d",
+      "numeric_payload_sha256": "0a5f64d8eaa7c3470a6de0526cb8f3c097ab9e55365d6c4838184e310c51fec5",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 2,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0002.json",
+        "bytes": 147180,
+        "sha256": "7e4c457d880212569df8de21077e5813c18b5c32563c6797423d81be2d46cd48",
+        "ordinal": 2
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "4fb09574625c455d07a617fa9945b266d79d86662b05cf7a4285a1167173f6f7",
+      "numeric_payload_sha256": "ea9a6169bf0487a667dfab7a388fa5be0f2adbbc1d17a3137377140a7a182f75",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 3,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0003.json",
+        "bytes": 147175,
+        "sha256": "013accf2f7e8f3ed4ddc22ef51afdf57cf1b5a020bcb9baa91b07c2b498c7c0f",
+        "ordinal": 3
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "d8c1433be238c3822105a292b133cfeb9a5fb711793ac15ad387fdf4860f462e",
+      "numeric_payload_sha256": "1e21518b5510e36e434a53592eae6aa4d8cb8d49b9d9477d83621ce21074925b",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 4,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0004.json",
+        "bytes": 147152,
+        "sha256": "106536642646582f582d25f57f4c96fb9e9801733d4ac75fd6c52369e4f84f28",
+        "ordinal": 4
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "fe28e462bb2924309a8ae66ea76232cad23a154520cf4874deb86613f57acdc6",
+      "numeric_payload_sha256": "8b2a9bc49e4e4e2c1d78c85c55655082678d44eae594fdb10b618d3cbf6e99fc",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 5,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0005.json",
+        "bytes": 147175,
+        "sha256": "6113feb618e8a234d3c107cbc2d0202d20811e533d5f565b16a9dfd5b6b66698",
+        "ordinal": 5
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "dc6bc38316ec0288feb36e4d83c0cc77db5b14c73cee3d491423db1c30918ff1",
+      "numeric_payload_sha256": "508491a017aeb2f2404ea6a0d745c017a5ee35898fa8d48ad29edbbfba975f4a",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 6,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0006.json",
+        "bytes": 146097,
+        "sha256": "29a93a62f013713945095e503b07d16886de4d8ad33ead69366f3389fc8efa28",
+        "ordinal": 6
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "b56ff68b327f14e12b51ceec0aebe91ad2236417a0fc9bb5fe428ce8687e691e",
+      "numeric_payload_sha256": "5a93d4b3c81ac61841aa3b5f06dcacd30035d01da18b9492456063329364eb03",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 7,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0007.json",
+        "bytes": 147182,
+        "sha256": "4c559095e8e33a7ad547d8604c6210a69dff88a3cf5c6e3ba9d3da30f7fdfff9",
+        "ordinal": 7
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "76e453702b8f027d5bc43fd18666d411d89267b60ffab3db39cb5c68c5b324a8",
+      "numeric_payload_sha256": "31ee8e01b9f971e7272ccafcb6ed1e29a8578e3c86abdbe1dc53783589b84c88",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 8,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0008.json",
+        "bytes": 147176,
+        "sha256": "821dd4003af31035bdf363bcc9c7ef205c40a455a8a44ab9bb5c365960bb1527",
+        "ordinal": 8
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "84d74a003763b9074b359b7994006303410b386d506c74db78ba61d79313b9ad",
+      "numeric_payload_sha256": "85401bf12ea96a1af15146b5f110c128546c322062a3187d7395ea1ba502247f",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 9,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0009.json",
+        "bytes": 147184,
+        "sha256": "d20d34222f9447cc9cda20be27753f95fed21ed4e3587e9f12a055a68277c872",
+        "ordinal": 9
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "8e6fd8e685ea38276962372261d570864dc70ecf8567a0191a223fab2c0f9afc",
+      "numeric_payload_sha256": "39bebf2a3db8234c10710618f5148d38f3f2dfd7fb4dbe8708c070da7984f4e6",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 10,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0010.json",
+        "bytes": 146083,
+        "sha256": "d590d65363dc96b74e333eb8ea558b7506fb9f9339aeedacb47e360d24bd2aa1",
+        "ordinal": 10
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "38fdf110f967e415c4a75f9a968aafe565b98ab573c1f18f04424061c38b1337",
+      "numeric_payload_sha256": "80b6872d24176144ee2845bdfb4b0b6993adcde6d4f86b0b7ab7fd49d495cfa5",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 11,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0011.json",
+        "bytes": 147184,
+        "sha256": "180dd6c4e5e271cc26a0036473ddb4dc05762baa3bb630e79ec568723951bac4",
+        "ordinal": 11
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "c38e228ca269bb22c9a27be959a7474d0f128c48c89d837cc9990a7a812ff0b2",
+      "numeric_payload_sha256": "45fed88613e31e5259615e66edc6340f35533abefdc63ba1999065a0f2d95f86",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 12,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0012.json",
+        "bytes": 147256,
+        "sha256": "d04495f21f4fcf79ae04e3cb8da87cd5044e336e0f0e23d87a36bee9d40418da",
+        "ordinal": 12
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "17001f3f8e7685ba7fc6c4fee48bfb4fb72bb047a6dbe41fe693e2283c5d7cbf",
+      "numeric_payload_sha256": "8b07fb4e99f29c079d81833e80932336d06397c62d61705956dc8d63dd1c7be3",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 13,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0013.json",
+        "bytes": 147249,
+        "sha256": "4496a8596b24cb212f2dcaee14ff94d618ac3ae480b5473e3eebf1c674fc6592",
+        "ordinal": 13
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "47795b53a16dd401bf30aac2b7401f383325a4c38a87f08a6bf03d387f7570f4",
+      "numeric_payload_sha256": "7d8ccdbd8a42df184fbfd77690a4e6a0c916f039f4de318fad581475c98b9ae1",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 14,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0014.json",
+        "bytes": 147108,
+        "sha256": "10a02a68561c90d58f17b608b6e73fb36d7028c6877ca1baf0ae41923cc1ea7b",
+        "ordinal": 14
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "69920d8f46f34686682cd3578e4aab8a7c8fc0f91b00d450690bd4672aaea649",
+      "numeric_payload_sha256": "9cd6d88d15a1b894b392eba211e1e50504d561ae5471586a343258f96d8b31ac",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 15,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0015.json",
+        "bytes": 147177,
+        "sha256": "1f88763cbea0b22d65462b19ffe79b16eff616e2603d5eda0e9e24f8b6b14bc5",
+        "ordinal": 15
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "8244bc66db3b9babb4bfbf61f3d50aa39930778b796ff19a1dbcc5ff024da996",
+      "numeric_payload_sha256": "1e809c8f1082a5aad582153216b7a806ed86f8730a1233379882e6f3feb78df1",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 16,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0016.json",
+        "bytes": 147180,
+        "sha256": "71c841d2329ac6bb97fcb60ee689e17e8a8ce778e2205e7a5e39905e681a31aa",
+        "ordinal": 16
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "de44465730a1e81bb4a8c6088f634afa8c33db7c356952abef479bedd3742793",
+      "numeric_payload_sha256": "b0a33be423bb44033c5b8ffa147490e5ae7212a8bffadc843a08f725c9e0097b",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 17,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0017.json",
+        "bytes": 147108,
+        "sha256": "a749aa368324f7e48143ba235e501db88c40776d726ccd059d108ad3d69ce01f",
+        "ordinal": 17
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "cd2e4d1449aa1df78700263f3eadcc86377a613ad1434ed929b57e4c5c254f94",
+      "numeric_payload_sha256": "505b850a5756b0d5886a81ce8eaf5250aec6f9df03dda272638e835a58ae0492",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 18,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0018.json",
+        "bytes": 147173,
+        "sha256": "df707d6482ac85a30ff4c4144022eaebfcd688431c5e0dc6a5da17d7bb3c7ebd",
+        "ordinal": 18
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "fcfc2aaa59d877ace52a09d4ba93061bf0530de3db9df60f3b69d2b664bbf2b9",
+      "numeric_payload_sha256": "417e319ec481bfe3339c5bc7ddfb61b51f8955f6696558161488a488838d4f09",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 19,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0019.json",
+        "bytes": 147177,
+        "sha256": "4da3591b5df6dbe91fb425acb0d0ab5f846d2e69e3fd553a9d938410b203cb1c",
+        "ordinal": 19
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "c96d0e84dd549696ff202bf141708050d7c6e95ae5ed7950805ff43c86cb73c2",
+      "numeric_payload_sha256": "73742134d8a8cd230dcd2aa65c3b9b269b0c87843cc7b7308020804858596eec",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 20,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0020.json",
+        "bytes": 147175,
+        "sha256": "788ee7ee6036af791b6d45b0a878b694c9cdded097cf79fa625b0e39772edfa1",
+        "ordinal": 20
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "fa9811ba2f6f1db0e9261882656b92108119bde4376b369a033343aa85b63936",
+      "numeric_payload_sha256": "2f29a753f7daf6402efd98569762888ded24b16a369856e9a44b0c5b3f7e0968",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 21,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0021.json",
+        "bytes": 147181,
+        "sha256": "4439d3cdc1729bd63553e44a2538bf0cd201c8576ac648c34408edf1c6194b56",
+        "ordinal": 21
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "ad281e236637794ba0bcb8dfb1e763dbbe72ee3754579af8db6b364c079ebbcd",
+      "numeric_payload_sha256": "44cdaa3f1e5763121a1f1c061d4ac909ae04cd99f4406f458ee8b4d1bb2f74f3",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 22,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0022.json",
+        "bytes": 147179,
+        "sha256": "8320bebd964d48079309a29668523f6d05784f37f3508cbaf2f613c85aeec44b",
+        "ordinal": 22
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "ea48319d946a524cf503043cf30c2beae29bc0e04017da675200d33210ef110e",
+      "numeric_payload_sha256": "82db63893280e06356ff5d1108192c4db2b618a6e9bd4dc6ac3e25e4c3f209b7",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 23,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0023.json",
+        "bytes": 147175,
+        "sha256": "21a2738b5cbe00009bd4d1c197aa0eef3cb6f2a9d8cec717330416957f50da18",
+        "ordinal": 23
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "37a76bfabd488acb18b58c12b3239e75bfd6e9938801bbce7e1d83991d3f673d",
+      "numeric_payload_sha256": "d3438513a9446eb8f157c80a173590b6af6496cc0afe66aa6856c215b1056113",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 24,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0024.json",
+        "bytes": 146098,
+        "sha256": "67720374683155215bb2d268bf460aa1e91f62e6a7f67aaec093561d3edec24a",
+        "ordinal": 24
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "6f80f7130dfee94bb37141215c3e17a11652ec6f38d83ccf08affe1e0379c06a",
+      "numeric_payload_sha256": "352ad975fc8c1fc648381c7f3aa3a6793468a28f7a64dc082491c651e799bb28",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 25,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0025.json",
+        "bytes": 147182,
+        "sha256": "cbdec3bc703311a14859020734bb4ae11985c3fb3ce7e42601ef0e17b2fd9b74",
+        "ordinal": 25
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "5e7f32b1ca002663251b89e38b281056182eb41be33744a4644fc9901b2f234c",
+      "numeric_payload_sha256": "47317c3e7c84b86f4f05923177761e969c071a7a93db002a2be61e1c97b00599",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 26,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0026.json",
+        "bytes": 147179,
+        "sha256": "f114309c7df0ea5b2f8ed3de9c8ac51d4dff55b4c005283faeb1d8aff21b31c8",
+        "ordinal": 26
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "f4e3b553a616720335bad197216a3160a6c25fdf430ee5058d4fafcf591b9b41",
+      "numeric_payload_sha256": "75ebe8d8d2202b9634cb752907930adce1c84f84601c857bb94bb239ef8e6f75",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 27,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0027.json",
+        "bytes": 147173,
+        "sha256": "af629dff609bf13e4c7c034412ebaab402f8a3fc163d0ff77df53a93cfacbb3e",
+        "ordinal": 27
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "19e086f21449c0b43fc4cb76648598ca528cf6fcffd1b5a88c8e0a549b69b5ef",
+      "numeric_payload_sha256": "6515c4893e907b46d7cf55609b0b4b5f91af9fc37aa31f366ec108541e8cbf20",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 28,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0028.json",
+        "bytes": 146091,
+        "sha256": "a2b1561d1d38ffe55098364a3ec7d5fad14d7dbd5557c2fba54813e5d8097ef2",
+        "ordinal": 28
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "9e7f1b5deaeeb08e95f6bd199d55dd8f2ffac06e2735b4d8585ccd8097d331da",
+      "numeric_payload_sha256": "2d5061e8ff63c6755c635daf86adc8c0862273d938e48e6309a42f1b98d6c55f",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 29,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0029.json",
+        "bytes": 147182,
+        "sha256": "96ff494fbeaf23647633071ec315afbba2d16761156280787066ae7435bc8af2",
+        "ordinal": 29
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "376cf234de02adc5d277a2717d69b763aab952d4a744f094ab17d90273a102da",
+      "numeric_payload_sha256": "8b50520f6ad2179dbee5a5b8bdd0ffa916c9699e359bd2ba48b3e35fff0bf5f7",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 30,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0030.json",
+        "bytes": 147180,
+        "sha256": "198ed31416e81dd2db19646b6d4d3c576024331b759ff69c7338f5f0c5db5af9",
+        "ordinal": 30
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "67c35599c3055ce629bd20b5f305796900ec2d62c069c606315d8fd8e6e7b4f6",
+      "numeric_payload_sha256": "352d696d1240bf2a2078bb457ed9dd7b39334fca9879b4de826b1741e709cf19",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 31,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0031.json",
+        "bytes": 147180,
+        "sha256": "433865bb43943cb81d9308c409230f5273be9b1428f021feefbcad8368676b6c",
+        "ordinal": 31
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "e63236d3417d6ad58c34cd01a66c0945b47c45ceca495f986254bba0552c4ad1",
+      "numeric_payload_sha256": "f676b379009585a06a0fe19f8d62ccc90a15458f72a7d5702e8690f4fee1f824",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 32,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0032.json",
+        "bytes": 147176,
+        "sha256": "c7345f87e1a12ae8c859cefb26ff0d623a8620e977d5209e1856faa6f1ed5819",
+        "ordinal": 32
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "c16b626cbbf4bfd1121e3e88cf5d9f4d5959999e960867acaa97d7d7c65250cc",
+      "numeric_payload_sha256": "2377386887a3a3c99989e7f39284dba44229ec5648da71d8cb1c215c36fadf81",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 33,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0033.json",
+        "bytes": 147183,
+        "sha256": "02384954798cc4bf290b0ab34290dce1c87ec1ac15eaa173b837d5bd14b00cf6",
+        "ordinal": 33
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "62b85d572c2af5886b56b3dad88d145354d1139a78409f49a1573b7314f21edb",
+      "numeric_payload_sha256": "b80fb857aa66db763f1f25c2f53690ee17411491b0ebb6e09c49371bf8a40597",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 34,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0034.json",
+        "bytes": 146089,
+        "sha256": "8b37f087a4b074b756247bd4e4d90439c77a261409ef4618fe2676cbc91031ad",
+        "ordinal": 34
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "6c1ebf2f9d48a1b28e7c4a65bc2858781db36ea205afddd84a9178046117d1c2",
+      "numeric_payload_sha256": "46f74c0c72eb0d1c37b1a511e950970a256209d4809e999571129704e4860f7b",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 35,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0035.json",
+        "bytes": 147177,
+        "sha256": "246c2d22e5762532c1451fef5c8276f2403b3067b5a65ba2f55ca210b07a28e1",
+        "ordinal": 35
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "18c2db05a250387e56edbbf198e98898600a93beb51834b598fa59df9fb3ced8",
+      "numeric_payload_sha256": "63486bebf27b891f8a741a32a8b0b9c7ede8a200081c687ad0a5af0079d26696",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 36,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0036.json",
+        "bytes": 147180,
+        "sha256": "214b30e8249c8f1d514b237e00799d7362d20fac527506d6054cae99545e2cb9",
+        "ordinal": 36
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "669ba3e399518e24864360a3d86133d244e697c28df266811491ffc849326ba4",
+      "numeric_payload_sha256": "4fec4c1539ff26dbfec086e362cd3e9dc45e3a291f567f8436dd0955ec424ef5",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 37,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0037.json",
+        "bytes": 147174,
+        "sha256": "4d9cf60a0781b90a720bc83f6cb46bfd249cb54b0e3acb12438e1cbd95d3fe2c",
+        "ordinal": 37
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "0c5a45a48d5648d033497dfaa8c7eb7da922d796dc41eebedf15295438ad600e",
+      "numeric_payload_sha256": "f6145aba0edfda4a864111b550b1e90643ebc1ffa8488d0140e90c1a5ed78d89",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 38,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0038.json",
+        "bytes": 173545,
+        "sha256": "505993956067b3ca979cb2aa502f2322ed99f7f3a7b67393b62573784c14c46d",
+        "ordinal": 38
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "38dc940ea74a5331c74087a68c93090dd3933557f26535ca7d1d9041b54eb83c",
+      "numeric_payload_sha256": "011b2a70620a3a3c5b4fbbc36a1b34064c56f32f8ec224787098fc3f50b0bec0",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 39,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0039.json",
+        "bytes": 173538,
+        "sha256": "d031a096b5fef056e46527804c1e49ca303119dce228a629a4c37c84f624316a",
+        "ordinal": 39
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "03b7b6ea68de1c7cb2b60242301d432085e56817f54858f0c5b90905b10a3e7c",
+      "numeric_payload_sha256": "6e2c88d9dced6e7d37968294fdaae72b97070dcb042b30bc24f3bd8faa1f1f11",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 40,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0040.json",
+        "bytes": 173582,
+        "sha256": "f51b8bae2770f52198b96b98d62fff9f7cdc1879cba9f57fa452981e2226ab6e",
+        "ordinal": 40
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "3dec509922c35557218f5aa00dac1bffdcc839d1e69c2100c5c62b320a1e1ab8",
+      "numeric_payload_sha256": "4cf6a3633949da081d8ffeb35dec6f4c5626077290b93cf107a0cbea8d644e7e",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 41,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0041.json",
+        "bytes": 173606,
+        "sha256": "6868e2d21872b64fd0614683e60850111c83e8789946b5bc3ff5a61e755b3abc",
+        "ordinal": 41
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "206fdd9d8173ebf713ea505539a45c8f86174eccc152c09e5564ae93d05dd463",
+      "numeric_payload_sha256": "6eb28f5b7b76c79bbea330beae6798d8f66fff6e898006c855b9764baf4b49ac",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 42,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0042.json",
+        "bytes": 173563,
+        "sha256": "206de97495d8af84e546f52ec9e5b8f83e715f626c2687c229281ebe05eff48a",
+        "ordinal": 42
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "452e8df2f13179e254ff629374bc9a1d57b51aca21d8b6327e30db0791a8f0a1",
+      "numeric_payload_sha256": "f36baf7a6fd8503eeea2d6f0e4e8f69fd9377382f7ed626b3ed280c8edbc245c",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 43,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0043.json",
+        "bytes": 173577,
+        "sha256": "6ef19024cdb5e71d7ae8aa25022906ef9584068028e1631e3a762b072320115a",
+        "ordinal": 43
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "8c08dc22d1a6ff0d28917d6e98525e934ac8e2106afb38ba8b6d95f9b785a3ad",
+      "numeric_payload_sha256": "ccf94bb9bdf90558da89a091e88552965a89a68dd1e151f6c2bfaaabe5a852de",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 44,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0044.json",
+        "bytes": 173581,
+        "sha256": "87b6f5f446605c2bef3a9adfd21cfc0c2ff9bfda431c109613ed0a3a416d3541",
+        "ordinal": 44
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "e6bbea33799764152fc46b30c4ac2c9ce4876e7630fe6926f506f515e299ba0f",
+      "numeric_payload_sha256": "e813a6a94654720bdd456c32f8a425baa30d9f15bd15b7452365f5bdda788ae9",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 45,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0045.json",
+        "bytes": 173607,
+        "sha256": "0612482339794fe038e1be7ec81495fd1241714921929f68a486b39905992174",
+        "ordinal": 45
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "eede76afc599db8cb5e68da658283b5dd198e7a3a18ce9967451db6780de5805",
+      "numeric_payload_sha256": "78a9fa7c0f7322fbec741d9192f622ab814c0dac84b9611fa96e915d482b9098",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 46,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0046.json",
+        "bytes": 173615,
+        "sha256": "8da3e8c6283ca5d16662443f4ac2e35b4268c9055f9ebb42168210478e1da8eb",
+        "ordinal": 46
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "e679a07fd35ac7f2c3164011e6277d3540d208eaac3ba47f2de97cbcdfdcbdf2",
+      "numeric_payload_sha256": "99a58f7ab2339c8a90c3158906aefc59f83d46c36e96ee90664152c6c658e708",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 47,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0047.json",
+        "bytes": 173636,
+        "sha256": "ee8d3997ef6582b85241d3327b23b4bcc4e5bbea09bcd44ee64350fbab724466",
+        "ordinal": 47
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "682bed2704de0f3a673fe51d9562be21829682a9d1417de2dec8373633040716",
+      "numeric_payload_sha256": "bfb2287c3cd7ef0c2642eaa17f2cd546437382b968cae88443fa3f702ef69966",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 48,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0048.json",
+        "bytes": 173574,
+        "sha256": "8f828077e62a987670890c873f6880599647c166bd2a9c5dfe6f21d0a3ab5f0b",
+        "ordinal": 48
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "e6699f4ac27867f4c6bceb0310129abd96c89082655c34fc553cbb7644ed12f9",
+      "numeric_payload_sha256": "7ece0296b844a895c196cd1980e22161fa048f43a2de2e06e14358586ba5e9c9",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 49,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0049.json",
+        "bytes": 173604,
+        "sha256": "63e83ef784f9990c5cea24358e3e4c3c3dc233aba2997d9ab686ab7607dc8d5f",
+        "ordinal": 49
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "963256c05fa835c8c7bd97be40a262ee40e50b81c11b12311b44f1e19d3ae8cf",
+      "numeric_payload_sha256": "5c2748926f08295b535ce61d673bdb5dfcaba1598d38fb93a0cb0b99eb91064b",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 50,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0050.json",
+        "bytes": 173599,
+        "sha256": "eea81e948305bd77daa295a57c9eb32b22425c4e20d88e7b3fc26d209b58b711",
+        "ordinal": 50
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "1285c253a3202bb1f7374009228e168ee4675bdbd13030fe01d3ba1c8d159019",
+      "numeric_payload_sha256": "ff42511351ecb61faa6b19ddd2e61c05854ac17b0e81010fd3437059e5975380",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 51,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0051.json",
+        "bytes": 173600,
+        "sha256": "b1b9de74785aab0069e825ec7e187f58955d27a10d34a2441611588096a3aa5b",
+        "ordinal": 51
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "8d15df96a3703425209e56e42d98e2a8c10cc46067e611f01a86770743198a30",
+      "numeric_payload_sha256": "e7cf4199b3dcc6b0d57d9ed2ff31fc8c110275414a393297619531a41621cdf1",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 52,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0052.json",
+        "bytes": 173589,
+        "sha256": "4ee17f2430ecf9f53431ac222699183b6ce45bd0a30682f2f848d359c1cc6dee",
+        "ordinal": 52
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "be77049805a490223d4848bcecbfbe7abf5a70e13c7ea6b902d8b8c07d73d9ad",
+      "numeric_payload_sha256": "855e8efca54bd4cc5bc7c087bb1dcb2894ec522152680789fdf9caa1c6b46187",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 53,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0053.json",
+        "bytes": 173631,
+        "sha256": "090eb28e3800b993ebdfaa44743ea47731afb9556db4ac58921b1b0e0dcc83bb",
+        "ordinal": 53
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "792d5f3349241235cd6f44c3e2c973c2042332e941192b159a51deb82130c7b0",
+      "numeric_payload_sha256": "58d04e74a10137f8c8e0cdf950fbb81d55bc4f8155dfee8f34c3731dadaf21b0",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 54,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0054.json",
+        "bytes": 173627,
+        "sha256": "bb4ff4412ec355856e4cc5e41befdf89fb419492afa7333a2422012d9e925746",
+        "ordinal": 54
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "0527361be31a399459bfccb617988db536c5d7ba24d804fdcabcd05dfdd1dad3",
+      "numeric_payload_sha256": "e564813b3e9b5fb1e902d3358bd67b82546eedf1981345b875bb4f544ebfd3b8",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 55,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0055.json",
+        "bytes": 173665,
+        "sha256": "d10e9e85161e18850c313e09f03ceae0ebb949775f0815084db8ceeda6453ed6",
+        "ordinal": 55
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "8123c90f1589ff859de75e5f27d27174e7bbfcf4143bf755c612cdec95ef032f",
+      "numeric_payload_sha256": "8c008c310c4f59057af0db19dc812e295e9c610c015685c6b4afc5e5c4c80ef5",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 56,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0056.json",
+        "bytes": 173641,
+        "sha256": "a7f15b9d7d2682532fa8e9614a4607dc7889385152a233d8a0a6f6b8a7fb9fc2",
+        "ordinal": 56
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "4915920cef4a0e64efd03dd90286687718dc8ea09ed5eea5ec7ff857fd0f4355",
+      "numeric_payload_sha256": "67091865fbcb101bf9e13f4f9e55876776b99cf856a975f32731f3cb3f989254",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 57,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0057.json",
+        "bytes": 173635,
+        "sha256": "b69d1fbb54f43386b76a1b5a1487d0006303786898df1d067c8d6fa46820b266",
+        "ordinal": 57
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "231ba43d5676bdafa1491cbf49fae8ec1979c3dab30343df30e8e044d24452fc",
+      "numeric_payload_sha256": "e4c4cdfe4831a9bae0013d104a84473871424deebda49ee42c3aa3a4cfc6ebaa",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 58,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0058.json",
+        "bytes": 173666,
+        "sha256": "f3d15487eec4d13fdf9c83b5716a9461bcd551fae58e3233194695047c22e2a1",
+        "ordinal": 58
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "7d309d2e40b056c959554c39554013430d09d0b4339a9df615edfe00e82da93f",
+      "numeric_payload_sha256": "4844c4ccfeac0ff5782cd110f8d68be5ea0d37570a05aefaf6645fc060ce074f",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 59,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0059.json",
+        "bytes": 173634,
+        "sha256": "ada83509bbb38dd704b2d2594020d9410c54a074c6d64b391f980e654a368d83",
+        "ordinal": 59
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "dd0bb9b41ab0256f629182282024a61b33f237b17c7c2059387a8a3bb0790378",
+      "numeric_payload_sha256": "ba8cfe194561cb52767a02022da5803fd57d9db0b37f99603f0acb992e6c1099",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 60,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0060.json",
+        "bytes": 173657,
+        "sha256": "7ec4b112ce2243f00f43d126dc532051ef012feb795250f8644f11d5381978d4",
+        "ordinal": 60
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "59a4fa06c5220b14f5126fef2e02bc28398e076d812e7c7fac35fe59bf067b7a",
+      "numeric_payload_sha256": "4dc642a2e16a24bf514a892b84236a05183bcbb445159cffa238d2c88d9ba070",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 61,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0061.json",
+        "bytes": 173594,
+        "sha256": "1b86563d8f786b989b2471992fe97b03e3f0aa9ea5bb0c3b520cb38ea2a00b11",
+        "ordinal": 61
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "dd858a7dd86395f9fb7639f1fa6d9cb46f561a7de34c8fafd71039550e67796a",
+      "numeric_payload_sha256": "072065fe336a96b32f4ec2b0b33579347cc18312f9be15063306a782416c3f98",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 62,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0062.json",
+        "bytes": 173668,
+        "sha256": "9ac3a01885def937cbd688ad79999a0b133f037fa4f6da90a9dec7ed98416ccd",
+        "ordinal": 62
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "eae5d3e28ea5b7cf97d54b01b02f04f35382651d9ef9d1cd64796be4e34a5d53",
+      "numeric_payload_sha256": "70e098dd6a0b9e8f917ec549fff0594b4dcf44c9cbeebf6c54c5ab5d050fda54",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 63,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0063.json",
+        "bytes": 173619,
+        "sha256": "4cc15480733afb3fbe0d8389a6141f0659198cf1e73375c4a7205f9cb28d4023",
+        "ordinal": 63
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "17038f7768bf1357f174c7b989c502af559e746ee2c8f151f9993220ccd9f02c",
+      "numeric_payload_sha256": "61b98fb0f8d98b181edc934943d20a48fe6921ae5798654b08ed1a911127441c",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 64,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0064.json",
+        "bytes": 173629,
+        "sha256": "997c9630c540ba3d3a460c0198189796b5a8a49c9861c3175f4ce2d93dc824ce",
+        "ordinal": 64
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "13797244b2b2787fbbf996a4e5c26c522c75f4522b6f09dde111254d10550e16",
+      "numeric_payload_sha256": "063b954829fcaa6625ba24fc3a3ec2b9da520f797fb28d878253b807ca65e541",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 65,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0065.json",
+        "bytes": 173638,
+        "sha256": "8ceabb05deab9bb344a96a780dd1843591aa879101ccb9a8975d30d30d1ec8c4",
+        "ordinal": 65
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "f363004ee8ce86ac06408095d7a190c0c5e5a1d68e2ebd7f03d12cc968d84d97",
+      "numeric_payload_sha256": "02b05d8b3b6cf4e206a96d9f2e1744021f7f1909eb54a01cd9776581e04cf9a9",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 66,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0066.json",
+        "bytes": 173655,
+        "sha256": "e508c15663910abca080585a11d7abe4bccb72b84e87bebece1cbb93dbecae6f",
+        "ordinal": 66
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "5b3890e43d992be00c60082f969fbb832250827bd2d9a6b5bf57fc8c6c65c79e",
+      "numeric_payload_sha256": "cfed1325735eae01f2a97f27312459185eeace0db1ee98672e23d1063608233e",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 67,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0067.json",
+        "bytes": 173637,
+        "sha256": "38c8bd775fb4f1e2116b0a5fd4a68cf67eaca768a465329c108a6a6ff596fcd2",
+        "ordinal": 67
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "8d11d74d2f1270edb6315767d3e3bafc08e3330b9eddaa5695b51d2a87e88da1",
+      "numeric_payload_sha256": "6871d3c855efdda19ccf0623c876407c6c61db66d83d2f3515c20fb919e58bd1",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 68,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0068.json",
+        "bytes": 173672,
+        "sha256": "9a42fcf29fe2c0a3a0c3e00e3015d50951ee6ee03d96d7e7c2b74a989b5acf88",
+        "ordinal": 68
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "63da062cc958991d8934abc23ddbc227c244eb8ad9f58c5c2477ecfc40662720",
+      "numeric_payload_sha256": "fa0188da73c4a0d243d6422580382d998c905748ef89e91cb444f002802cfef8",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 69,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0069.json",
+        "bytes": 173677,
+        "sha256": "982445b79912c1cf919ec5cf4a0bdcb2a00e3b1ee9453438fff1eb562004e9c1",
+        "ordinal": 69
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "9902681b6ec79097fc46e2be532f4356ade29d6f86db1d235ec6e1b46ae52cde",
+      "numeric_payload_sha256": "3b6803549efcc0e9717bf42366274c81233782dc6ad988c07ec6ebbb704770d3",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 70,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0070.json",
+        "bytes": 173634,
+        "sha256": "342bcbfe16cf32c57f3d38e224d1232cf7a79561988901227e3cac8a845c440b",
+        "ordinal": 70
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "53a8a1366eb239db1e34c1ede557e4f1016750f56bc80a07c5d94cac68a9da7b",
+      "numeric_payload_sha256": "88b02ff8233524c35f814139ebcf7298f4acbe60ab2b1b5d7e3510611038ad3a",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 71,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0071.json",
+        "bytes": 173648,
+        "sha256": "ef30f231befdf18cd0f516ef2f1bd5ed72a34e6965404b850e6073b595086b50",
+        "ordinal": 71
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "1821bc2dce469a58c481e726c0367f1dee5363236810dc2518ad3e5aa40739fc",
+      "numeric_payload_sha256": "649380f5e9b827d6175eb93c6cb800fb708960d5978639a2fb377d59b839a737",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 72,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0072.json",
+        "bytes": 173670,
+        "sha256": "fe509a3b13c8916fc72efa4f315bd4c815d282d4ebf60582d2a6fd6c45ea5fc7",
+        "ordinal": 72
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "3d675b47a2cbc0dbe02b99f905a6138cade059bfcd9a5ecfdced43adf638f91d",
+      "numeric_payload_sha256": "a83bea28b5cac216a0d35867d1fdc1f4e41b15b9d7be33dfd5c0492c27c06854",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 73,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0073.json",
+        "bytes": 173645,
+        "sha256": "b8a06f2e07d03d5775f08badd3a48beb42e1a0362350e797faef7850a91c0f95",
+        "ordinal": 73
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "c1b7a8c4f1e9b36c077cad8b00621ed180eade68950c2456447f2e82e7ae60fd",
+      "numeric_payload_sha256": "d57205c1553017ccaed80b047902b822b2cf19c5f075f01c6a4d8b4923b69f8f",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 74,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0074.json",
+        "bytes": 173676,
+        "sha256": "55521f905e507931b7a59c642a6ccbbc8583aa5b7682e7a270019aa6fcef57f5",
+        "ordinal": 74
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "17f8de5947c72b764588fbee2832af9f17a07cbaf6fa8b22fa8d26e7cabc3195",
+      "numeric_payload_sha256": "606e21ad1fdbb82bf05e111d3b887ab13cb190c3885c05a1198156d79edfc754",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 75,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0075.json",
+        "bytes": 173669,
+        "sha256": "53ac627be5ec467eb3f32cf1773d74f1dbea054cdb130f91fb0a818ef69871b1",
+        "ordinal": 75
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "3d5d7a835563d08ee6b8927a2f6825930e54dfaf2236c05460fcd4b6fc30bb0c",
+      "numeric_payload_sha256": "4200d80ea6c22b27db440159e6c9f8ae8b90417f24381e8354949c3f103f03d7",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 76,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0076.json",
+        "bytes": 173662,
+        "sha256": "2b8953315618a321efdbd59fa8b9224b1a2b2a2ce4794e3c00eebceee8551db7",
+        "ordinal": 76
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "a08dff2fcb77a1c531b05cee3604207d846a1aea11cb84d55f657b762b01c9b8",
+      "numeric_payload_sha256": "5cdd7467a1faedc91a7f3986855c6e86f37a2cf8dbda5101ba9521ad93d1fc31",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 77,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0077.json",
+        "bytes": 173622,
+        "sha256": "9f3159060b51e99901da2cd20f6aa838baaabd3afa11bc5afec80841801b4a3a",
+        "ordinal": 77
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "101945642993bfbeb33987c93ffcda01d9ed89b95519c51c3d17238967e6a921",
+      "numeric_payload_sha256": "1e272a1ec4586bd8403216fe736d2d1caf095ee0c24d73cb0d019bf48f3aec1e",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 78,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0078.json",
+        "bytes": 173670,
+        "sha256": "e6df55a1c64d8d5a5b9deff773f998820d0ca73d38d1de9c5b94733e53fa0db8",
+        "ordinal": 78
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "46601eae4ed5f0984e9605383304a38d4c0a7329bbbd0378ad9305668e297f54",
+      "numeric_payload_sha256": "1e8bd77e750586cfc46fa4310177af0f8d166a6eee9e82e40302a0172b62f771",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 79,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0079.json",
+        "bytes": 173651,
+        "sha256": "cf16e24bca10067a252d945104e8f5947beb97aaa92f80ba0d070aa72b532f49",
+        "ordinal": 79
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "88110a73125a8612fe0902d804f45e33279469a37adc6c37dad99f2a9aa920ba",
+      "numeric_payload_sha256": "941d7709b01cc8d7ff4f28b272744f7e30ba246b97ca943ba0ca05dd4138009c",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 80,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0080.json",
+        "bytes": 173682,
+        "sha256": "5153af700c7b3d645ce18e32a5a0b4c29a0c72c8e574ffe406253af83124e680",
+        "ordinal": 80
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "11ffb2b031b6249611af1e1685d6b6ae2e59ed98f0028f18338929fb8d9f95a1",
+      "numeric_payload_sha256": "5da859646ffa3b02ab8d45ace2b57e30e4b1d9ee06592d2bad5d219ec3074c0a",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 81,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0081.json",
+        "bytes": 173689,
+        "sha256": "887eb2d7e527b31f85cf3e46da0eb66275bae203d448cfc3717b002da083a963",
+        "ordinal": 81
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "cc972611815c66fc6bb74741c52ceabb55fb5513b18425e4c6a59bcbaaab5b1b",
+      "numeric_payload_sha256": "eadb23718442b4aa94f0138226166d9a2a320012497a9a1cb180cd4155f3abc0",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 82,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0082.json",
+        "bytes": 173645,
+        "sha256": "22debc7c60e0658d716520d838f2c6389e78cd5bb79a78b978adb31213f9cf34",
+        "ordinal": 82
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "d28208542e77128071e34124c203597a9397e197647ed44422090c514c06b6c3",
+      "numeric_payload_sha256": "fd3c62e51ace03a7b72d6533e5d815c5371c33f88ee5dcf37f305915320526ce",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 83,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0083.json",
+        "bytes": 173680,
+        "sha256": "ff51ba4e78b5064bb8d8e9f7ca8d120fc41975fd0af44a8ade33bda3cdd45096",
+        "ordinal": 83
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "ac63ec7260546fd9dc0260faa1142c9ad2fd872fc162ffed28d7e4be6318de50",
+      "numeric_payload_sha256": "4421ba532838ba3872a8b606bdcefd81ecaf8c2571459ccd365b3db5d0d19f60",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 84,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0084.json",
+        "bytes": 173623,
+        "sha256": "bbfabdec0f9e252c2588167a696937300639fbc836d37ec5413df6de8b150711",
+        "ordinal": 84
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "c8bf0699d59ba837f9075ba2cbb5e101228d535291050049ace6029f9e1129a4",
+      "numeric_payload_sha256": "dd253d894aa18a97c9f6a8631c75122aeb8163b1cbf781f0afca8cfd1b2beddc",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 85,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0085.json",
+        "bytes": 173617,
+        "sha256": "742f31afc79c032f2e4abffd7790bb95785a0d9249c01d56c6af42464d250d10",
+        "ordinal": 85
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "ad74672b5516d417430202e1f658e11cb1de1644c150067b491b148f50252383",
+      "numeric_payload_sha256": "5db8c65f4afdd26515f194e54e962b309cda97f064f3407f0d92b27f78caad78",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 86,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0086.json",
+        "bytes": 173696,
+        "sha256": "ad59cf3917c2cd99392c09006d1e1e5c657d2fda1d3dbed433432654e03d6e3a",
+        "ordinal": 86
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "0c0efc4b026c0dd313e8c2a18d8cb8c3c2fde77dada2b9845b8412537770af83",
+      "numeric_payload_sha256": "2d5717d84d8ecfe716ff7780aa4c75f4216fed71c85051e60f83f7aafd386313",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 87,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0087.json",
+        "bytes": 173664,
+        "sha256": "96c8601d9a315e63fb6a5393e09cd85a89233169ee9344cafc506461b414bbcd",
+        "ordinal": 87
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "4b28a85ce2d1b8f0bc0e8f93a6b573056c72c6eef801a6ad8ce36f6c0f9e99b7",
+      "numeric_payload_sha256": "40f8db13c68b5b6de9242029fc16556d84f20b4c439da2a1f06ba138b1071940",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 88,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0088.json",
+        "bytes": 173680,
+        "sha256": "6c77f0dcc1abc3ca4d702cf0ea54cdd31cd2251b2890c8b47075af2bb0e39f99",
+        "ordinal": 88
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "cccd9a3fbe2d30420e68ff52c497afb21bdf8866a7ae481a7f711d8e8a2f2b8a",
+      "numeric_payload_sha256": "5729ed4541d7dc214adc3fe4f39dab8829b6c20e75f58c5564bfde7f35e39f93",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 89,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0089.json",
+        "bytes": 173650,
+        "sha256": "dc96c80b27b448b5d325fe104cae4181a7a7894f3bc059d6be32f8e5f6fb809f",
+        "ordinal": 89
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "f0627466869e5281423c1c0cae94e72bc32f6d0cc2dcdd872150837e0fb66ec7",
+      "numeric_payload_sha256": "af73fd0c70476a256593087814a03f98858932e00b0ead7c93ccf888f1a8ad1b",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 90,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0090.json",
+        "bytes": 173689,
+        "sha256": "3afe8a646baa76883bee69b3eaeed95fa9a4dedb61c428107ced8ee4e3bdeae4",
+        "ordinal": 90
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "bc1e0c5a44a8d591c1aa382a64191a7a0a7645dc27fdc93f250dc09684891543",
+      "numeric_payload_sha256": "92d66a3a0f6fa921ce84822549bd803aa23c44c6ed75ba2303ed1a3f2c4ae4d7",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 91,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0091.json",
+        "bytes": 173710,
+        "sha256": "ad694d9716657c2eafc339a5dc2c0fd90c8b391cff9cd93e7bc695b6ed134c69",
+        "ordinal": 91
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "361a45cd4ac5a22ff7a29b44c4a85cba0fee891798abc80fc8318a55a5df51a4",
+      "numeric_payload_sha256": "5e059d91b654e1ad3f5d1193712191c0c868286e86f2518326d8ab14b02df8f0",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 92,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0092.json",
+        "bytes": 173642,
+        "sha256": "35e798a34481aff1fbffe7e3bf9fb88ff92b8e8f89c8f4d01bd1290058649cd0",
+        "ordinal": 92
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "ba36e02df145ef159a72dc8b1e759f60afbde6558712c76151db46d97bf167f8",
+      "numeric_payload_sha256": "5fcced573bec909b12065f34eba60faaad012d8cad97fe9dac44f5b10f8c7163",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 93,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0093.json",
+        "bytes": 173689,
+        "sha256": "b1f4dc16d49688b0ea0faef46a954e376258852a519c8ea086c5a41160b18e90",
+        "ordinal": 93
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "45d9bdda2af0c9fefb69e98f037971a8605f8ce48b0125997343a7500cf14bb1",
+      "numeric_payload_sha256": "8a64ee81aefc6c7998fc07e00bbd64d2befe29bd64c1fb3d540532fc3e8a10bd",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 94,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0094.json",
+        "bytes": 173668,
+        "sha256": "eb2a98cd775f72d37382c8770eb278a332cd28c8f05a095eec3deed18579b43f",
+        "ordinal": 94
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "fa2988feff1f0980d7ad097d6e252b4b6034ef1d5e0e410c045c5f3047f9d2f8",
+      "numeric_payload_sha256": "7ee1085414645f69423579e47104d0bad2872123f3d5e3a2289c36152efe6885",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 95,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0095.json",
+        "bytes": 173693,
+        "sha256": "7b9d1b30d3334f1a09a6fa91e310071a4ea3ba9faa1430d389508562429768e5",
+        "ordinal": 95
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "40fcb1056ba4970446ba2e2470b178006e5c7e6c4f8a5056f84b88b117b33a2d",
+      "numeric_payload_sha256": "ab563d0716920655f8f1d27819872419d6b23f62e32358bfda8380a0693e70b5",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 96,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0096.json",
+        "bytes": 173671,
+        "sha256": "e09f915487657f251cb913035b4afe6a61d604380a6ca7fce8ca34e116552bd0",
+        "ordinal": 96
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "897b8ba8bbf07d8ac9ce7ecb09300768474eb64ca7fc4a551354504c7199c404",
+      "numeric_payload_sha256": "7ff5454d0d0c4f3474a058dc762a5b54de626d1ac11edc2edc6487c4d5907bd1",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 97,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0097.json",
+        "bytes": 173676,
+        "sha256": "9417f08011c362939f99a319745a813808ba74033d199207a87b4b67a05412af",
+        "ordinal": 97
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "176282ff3b8c19a14407aed6e49b1b6d6816ba56f2c49340b3913e4b80c98af3",
+      "numeric_payload_sha256": "ebd4685a5a33c8f6c90bc5fd80317b3e218f9ca56785ccfb55ffea33bdf252a0",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 98,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0098.json",
+        "bytes": 173699,
+        "sha256": "a987430c409e4bea9cdc1457b57b32bbbf9ab70094cc8bd41d76db81143093c2",
+        "ordinal": 98
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "338281d6676c93ab41a97842dec5dea4c4314bb8ea708c7e540d44b7d13f4e12",
+      "numeric_payload_sha256": "208d49eab3ea4c359ff331cdcd24554b356bac13b129f6c87ebd83f9f3473e77",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 99,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0099.json",
+        "bytes": 173659,
+        "sha256": "162756105a5d6b32d600a997b497060c06b399d37c96718b9c2a079cc02d9c02",
+        "ordinal": 99
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "c4e423ebda87f2934cc41fc4e273141cb567e7bf1bdc1d6985c0b96c69c37723",
+      "numeric_payload_sha256": "da99be197e885dbbffbce6c4a99726ce6661017b35ebe9fa34963f1b573875fe",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 100,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0100.json",
+        "bytes": 173687,
+        "sha256": "b87f1d82f0e2ef2242513f8aaa5c5b0f39d6220e30c125716077879bd9846627",
+        "ordinal": 100
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "d4d679eac48b2e00591196cff4fdedfe7f1dc568c8e5763fead2f086409f0cb0",
+      "numeric_payload_sha256": "f97d800bd35f6b6a796fae9ba83a1eccc6fa67bf31ce4171aa389a2688f2dc15",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 101,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0101.json",
+        "bytes": 173663,
+        "sha256": "1527ba9e0cc097eb3128bbde8b686846fe5365d5c6f47da75cb1f0cb76191175",
+        "ordinal": 101
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "74799a851ba594c1dfc129eacb8c3d5060295f349764f3564954b775a0ab1841",
+      "numeric_payload_sha256": "a4193b4c23bc69717e23bbdb198702c3aa10d0cc0a258dbff845344f8eb0de2f",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 102,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0102.json",
+        "bytes": 173689,
+        "sha256": "7bfb6762b1e9be310c41c9f3a34b655ff185930595941c65049c9ba89ed49dfe",
+        "ordinal": 102
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "a52761d002b7c689a8a74f0c6d884b5d68155ccf11a4a1fea63e3caf897b61b9",
+      "numeric_payload_sha256": "e8efe2c68cfa266dbaa236fb66f8f9bb4625f4ff18f54e4e58dc1f4c2a9d3ef0",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 103,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0103.json",
+        "bytes": 173708,
+        "sha256": "4551e8cab168895fa3e805e1247eb409f0e3c415d4c2cbf8ac0bb9af19212ac0",
+        "ordinal": 103
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "eb8b1528597755688a195cc8ae403702e3d0646743aa355d601d3144d27cfe60",
+      "numeric_payload_sha256": "bef6da06ad95d10930edb927fb933561ac11ed4e33e80a232df381da3581583d",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 104,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0104.json",
+        "bytes": 173695,
+        "sha256": "d452b82081e7421b8d81743363b6d78f3570c9dbb8b9fa0bcc7a6d953515cf7e",
+        "ordinal": 104
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "78b3ed61ce584ce029e1ce019a2f4c556b90e12f132104a8e75dd8abf6002170",
+      "numeric_payload_sha256": "e0c6da8a016b71d8dd16851e17772a8cca629b27a02010d6a6c2546c5c7393b3",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 105,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0105.json",
+        "bytes": 173678,
+        "sha256": "906a19a14b8999b9a4f1c0f49201390736cae937cf0a6eef4b7c43f0daa5edea",
+        "ordinal": 105
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "28a06ed0ee20bcf97c1e15607aa1fba094f2fda68ffebb364b48d6affee879f0",
+      "numeric_payload_sha256": "81478a2ab40a289eb1ca38338356253e1de0b98bdad9de3028f1d4a3e52b5271",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 106,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0106.json",
+        "bytes": 173722,
+        "sha256": "fdc78eee1cca6b9720b72e0fff3c4d32a35fd97f986993dd152fcfe54a01d1ff",
+        "ordinal": 106
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "2174235f8d12a86aeb177eaac48f92d17bc1ff9a0f91237fef4c92ff2486609e",
+      "numeric_payload_sha256": "4862fa186dea490e07dfb160cb9c6aa40b528a73eb52ef330f35d97cf23d2c8d",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 107,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0107.json",
+        "bytes": 173694,
+        "sha256": "e67687f62c4b5b31a344368878f759bb664ffabd937231019136aa4ddec63017",
+        "ordinal": 107
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "fc37302760733332b72aa9bab2068caa3f457434286d13ca19cf4b01a9b800ec",
+      "numeric_payload_sha256": "ec83f3814f72ffb05481c0e769b0bfd4f42deda7f0de004e4331620b6a0a6cd1",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 108,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0108.json",
+        "bytes": 173724,
+        "sha256": "43238c15b1056c5175be0d1f7ec679decc3ce8646347e30a7d92dfc4e61d7db6",
+        "ordinal": 108
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "1b4225d377f724753d8af9dfd4bfd5c70cd0e0b2d0a1cfd82f32fde3affbae5d",
+      "numeric_payload_sha256": "99d26d1cf86f4f2e885651002c0384b5e795336a81d172612126d03ff527edf1",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 109,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0109.json",
+        "bytes": 173699,
+        "sha256": "868c0e364dab287873c790bef43098998e8492eb2111b01065ffb6368cda63f4",
+        "ordinal": 109
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "489213768c79fdf9ffc26283642b0ec5e818ad4c3822904a1aa32150677fd82a",
+      "numeric_payload_sha256": "ea01bd4c5e97268875c08ed45d4167f1807bb24528f702eb4976a484d87852fa",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 110,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0110.json",
+        "bytes": 173696,
+        "sha256": "491220fec78d62fdbf38b09bf5a69fdfd3723db7fcb8fc215d776e7824f75eb0",
+        "ordinal": 110
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "bb001f95792f0e50526e606d611478b4e378ccdedff31bf5a0f461a58b19e3c0",
+      "numeric_payload_sha256": "69da1b7ef6de1561f68c3af175e38cb3960d3455cacddba8a354811a34d8d205",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 111,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0111.json",
+        "bytes": 173698,
+        "sha256": "c3b18cc04883efab0ed303fccc2db230656184059d8ac555df1d49cadd5080b3",
+        "ordinal": 111
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "625360c7cb44666eb3784b3c7e604265cbba27c1d8290f956efec2b12d64f049",
+      "numeric_payload_sha256": "f2f45d9ae514c368a99864e961f3f8cc4c62d0e6d4af4896075a1d3f3cf6b495",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 112,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0112.json",
+        "bytes": 173680,
+        "sha256": "fb0f4dee896c6448b3a333d6198e342afbb640f360d6c009031b97ca05b41bd7",
+        "ordinal": 112
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "3b0f0415bf02436e754c2a31d2545b76ca63b12696feb69f9f679bb2bbd96b1f",
+      "numeric_payload_sha256": "46ee8aad4bda4676cbc175e67e14fe1b06aa0a0f835167c6c00211053571ca45",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 113,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0113.json",
+        "bytes": 173719,
+        "sha256": "4edb41c9070e6e2ba9f951ce0e595f5561463df0912595984f0a7b43fa5be83b",
+        "ordinal": 113
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "1eae612bd9c24aa75853ed5022e0b44b7ed85bdaaf53c439fd914f863efd4425",
+      "numeric_payload_sha256": "97fa5c44007396f6c05aafd5e86effbb15a752d5e2b9d30be9a078bfc7972683",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 114,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0114.json",
+        "bytes": 173733,
+        "sha256": "7ef8dc17f3fc108981fbd2239538a305662f5b8012483fbc8c267b6c735b62ce",
+        "ordinal": 114
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "265f820630921cc9348d3a7e6c95c33d1ad313eb4f88b13351d248aafab1c299",
+      "numeric_payload_sha256": "625204c65d228c799e17abf57fdf166df7c51e869cd75ba1dbd995ed7417dd34",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 115,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0115.json",
+        "bytes": 173735,
+        "sha256": "99b679407b8e6c3d0b8b4643554cee5df38a6e4aee7ee46a8a237a1a2f8e37f3",
+        "ordinal": 115
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "478d980e5be0a5f438e1cd009fcd6efba30dc9e4c821e4bcf5cd30d0f453259c",
+      "numeric_payload_sha256": "3ebf89b1371f3a1bc97dbf6d22935e4be99c26d0b8ae583fa8480d76a01b1221",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 116,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0116.json",
+        "bytes": 173754,
+        "sha256": "2894303a2dc267735cf34c48822a3a66885a61ee1d1235d0e886ea9f68b0b8f8",
+        "ordinal": 116
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "1dcdd38b20bf0fc5e214c0edd4a8fae01751d296be261f41dd6c1f81e5d1abad",
+      "numeric_payload_sha256": "455729c67c5041f01781d0fb6109f671a2d24b062a1fabd7392e453d418e4bf8",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 117,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0117.json",
+        "bytes": 173736,
+        "sha256": "0a977e0ae1df8fc7af82e9ad883786553db20d652660f564434ad44acb649d0d",
+        "ordinal": 117
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "92257b8ec3e73950de87982257994d4b0ba4b5ba6896ce63c9768138b7ed3dfe",
+      "numeric_payload_sha256": "94d5c654a726a5fd4f71fb97a4abf4bbdde063f51135e690ee1de9189b7c3e06",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 118,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0118.json",
+        "bytes": 173688,
+        "sha256": "1a4bbf8cfebdc5e7861b8ea6a6750fa8e7a88e61b270d0fb6474c03d63c7c7ee",
+        "ordinal": 118
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "c12be411d6d1e9f2afbaf39f43a67223e7c796c69d51f901ca6bddc4a8b18db8",
+      "numeric_payload_sha256": "4ade12c8f215891a9225180727a92ebc42e061d6fef9da23549d774901fc43b7",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 119,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0119.json",
+        "bytes": 173745,
+        "sha256": "fac623faefe629c27efc163d6ed2438406691ae36e7a8d79d22a24f48ec48613",
+        "ordinal": 119
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "c28d1a090795ea726d1850118e169b97e1edd124ab74e9b6588ac031068bc123",
+      "numeric_payload_sha256": "25ab4036ed62330d1c76da7c016f1c3ab0afae56acf1eec771074e7a90b3bf27",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 120,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0120.json",
+        "bytes": 173696,
+        "sha256": "99bd496c8509ca06a871e91708ae2328ce5dfa1b6f0ef53009b64f08b718d502",
+        "ordinal": 120
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "d898f946650fcf8fcc79e12d509421b7f76c01667b41641e13ff623c60f907f6",
+      "numeric_payload_sha256": "013381b0aab9375a6aeee2e9cdaa5fdc746eb48cec2f238b47161cc2b2f5c29b",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 121,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0121.json",
+        "bytes": 173708,
+        "sha256": "1d05ef8b57cd0a66eba8c5171f30554d569ce53da80a88122c1a773d6f2fa953",
+        "ordinal": 121
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "f33f958af098b0a4ae6b82c031521d4453efbf5bfc3b0d564662a3d135f4f1fb",
+      "numeric_payload_sha256": "dcc2db3f708d80268daf70a39170d814875aed751d647abc11a23c386633dab5",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 122,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0122.json",
+        "bytes": 173655,
+        "sha256": "d7acae753a0494533ccedeb535075136afcf3c659c7de3e79d026911580d1ddb",
+        "ordinal": 122
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "da924918cc7bb4dbd1c99e37d9a82c543049aeffe3c1e8975a0266fa06b38df5",
+      "numeric_payload_sha256": "5a912fb7738ee35d8b1c9dd1bf0b7ed0773ccbdafac92974ffc2eda2291dd377",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 123,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0123.json",
+        "bytes": 173715,
+        "sha256": "6795e9f49658ee212826c42d0ad90ff8e753156f01cb68dd4fa3cf5421436f87",
+        "ordinal": 123
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "a15cd9e1ffbc88f6baa2b514798f8d086629ba2c28a6774148c57f6f1486cf6a",
+      "numeric_payload_sha256": "a8d23c6d28a01278861859580a0c1b7f36cbbe402f6dee42f39ee0491756aa02",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 124,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0124.json",
+        "bytes": 173674,
+        "sha256": "bb226ddc145dbeeb6d3a6bda0b3b1ecccaa8b1e3a19e360fb59f0ab9d31840b7",
+        "ordinal": 124
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "7789b2662e214184e080eea94a546686da6c4948a99643c1129a4746ff0538c8",
+      "numeric_payload_sha256": "d7208d561ac670a3758962ca10023f949407ad148fbd23468a9981ab6f289984",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 125,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0125.json",
+        "bytes": 173696,
+        "sha256": "80f68105f67de198a5a327c87cdc4cd3768a8b9071e1b69e9d5b694a7d896566",
+        "ordinal": 125
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "413ce5a95809ccd08680cc5c0039ca36d271addaebb80bc59ba679cbfdadb60b",
+      "numeric_payload_sha256": "51e9c3865ce71b8574c2e2027a7ce6f44421399ff15ef0461613a9845f38d883",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 126,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0126.json",
+        "bytes": 173721,
+        "sha256": "bbb8e916e48bc443be26c264a8cb8ac981cdd74fcdf7a324f7e0bd2a34209747",
+        "ordinal": 126
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "a95a9b9253d29320071717435e69ddbf865613f3a203c19e50c5fe82fbba8803",
+      "numeric_payload_sha256": "6d4e228c586fdefa98f38c8e947de188f07c410c2ba55fea51c19da4a063f0ec",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 127,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0127.json",
+        "bytes": 173712,
+        "sha256": "3ddfbec93e947676e5eb36bb462717017a3a468fcd3fef9ec9135118af0df8c1",
+        "ordinal": 127
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "a12df17a5a28cc911dc86f7916752f402da1718328be4bff820d0d36db85d274",
+      "numeric_payload_sha256": "c7b36db1e8afe0538d96c878e1a29d990c0cd1a45a151332258a62c6060bdff1",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 128,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0128.json",
+        "bytes": 173715,
+        "sha256": "138a14f870d529c7cbb586be2f43450b96cd07bfe3e313cd6b71e7b159ab010f",
+        "ordinal": 128
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "588d215eceb80101cd066ced6f1a4b361d680f6d100977390d3398be02d7d995",
+      "numeric_payload_sha256": "81283c9c4523bea07fb38cc874bf87c3b4e23c3cc19e4c84149361c4ab513e7a",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    },
+    {
+      "ordinal": 129,
+      "prior_capsule": {
+        "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\audits\\original002\\ENGINEERING_COMPLETED_FIT_CAPSULES\\fit_0129.json",
+        "bytes": 173713,
+        "sha256": "3f2ecaaa1c51cbc77363d1dd3d1438ef15d42117b0fa907b43df84a8bc0d698a",
+        "ordinal": 129
+      },
+      "exact_input_context_signature_verified": true,
+      "input_signature_sha256": "ab60720ef0c13f1898e8534924ba813f65d28bf69ba164e80f90730133ec625f",
+      "numeric_payload_sha256": "9f36745d96218c7eea2e0b908c24abe30deb5bafec014e9f9c1b18aa4257d1ca",
+      "numeric_payload_roundtrip_exact": true,
+      "historical_post_flags_recovered": false,
+      "recorded_next_PRE_flag_boundary_normalization_disclosed": true
+    }
+  ],
+  "historical_post_flags_recovered": false,
+  "semantic_boundary": "Exact historical PRE flags, precision/traps and numeric payload; byte-identical arithmetic never reads sticky flags; no exact unobserved POST-state claim.",
+  "remaining_all26724_comparisons_required": true,
+  "no_primary_rescue": true
+}

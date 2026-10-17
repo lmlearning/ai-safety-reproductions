@@ -1,0 +1,17 @@
+{
+  "ordinal": 21,
+  "paper_id": "P109",
+  "title": "Does Generative Artificial Intelligence Improve Students’ Higher-Order Thinking? A Meta-Analysis Based on 29 Experiments and Quasi-Experiments",
+  "classification": "Bounded NEAR — retrospective",
+  "recorded_public_date": "2025-12-05 positive VOR; earlier issue/index date not public-release proof",
+  "window": "Main",
+  "citations": 47,
+  "provider": "Semantic Scholar exact paper-ID batch",
+  "capture_time_supported": true,
+  "route": "Released published-effect meta-analysis",
+  "result_and_scope": "All59 effects/413 published numeric fields and all16 overall synthesis targets;607/607 independent80-digit checks.15/16 strict passes; sole Z source-rounding envelope width0.208389 exceeds old0.2 diagnostic cap, while published Z19.483 lies inside the retained envelope. Pooled random g0.608797 vs0.609, CI[0.485221,0.732372] vs[0.485,0.732]; all uncertainty/heterogeneity claims retained.",
+  "DOI": "10.3390/jintelligence13120160",
+  "arxiv_id": null,
+  "preserved_limits": "Retrospective near; old width failure and all source contradictions retained. Printed input rounding, unknown unrounded effect dependence/author tau settings; DL inferred before outcomes, not proven CMA settings. Marginal rounding boxes do not prove a single joint unrounded dataset. Original trials, search and four moderator families omitted before outcomes; no FULL.",
+  "whole_paper_reproduction": false
+}

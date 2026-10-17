@@ -1,0 +1,101 @@
+{
+  "A": {
+    "study": [
+      {
+        "effect": 1.32,
+        "ci_low": 1.03,
+        "ci_high": 1.69,
+        "weight_common": 82.0,
+        "weight_random": 61.6
+      },
+      {
+        "effect": 2.15,
+        "ci_low": 1.28,
+        "ci_high": 3.63,
+        "weight_common": 18.0,
+        "weight_random": 38.4
+      }
+    ],
+    "common": {
+      "effect": 1.44,
+      "ci_low": 1.16,
+      "ci_high": 1.8
+    },
+    "random": {
+      "effect": 1.59,
+      "ci_low": 0.08,
+      "ci_high": 32.74
+    },
+    "pi_low": 0.02,
+    "pi_high": 163.67,
+    "I2": 63.8,
+    "tau2": 0.0763,
+    "p_Q": 0.0965
+  },
+  "B": {
+    "study": [
+      {
+        "effect": 2.0,
+        "ci_low": -4.0,
+        "ci_high": 8.0,
+        "weight_common": 28.1,
+        "weight_random": 35.9
+      },
+      {
+        "effect": 6.5,
+        "ci_low": 2.75,
+        "ci_high": 10.25,
+        "weight_common": 71.9,
+        "weight_random": 64.1
+      }
+    ],
+    "common": {
+      "effect": 5.24,
+      "ci_low": 2.06,
+      "ci_high": 8.42
+    },
+    "random": {
+      "effect": 4.88,
+      "ci_low": 0.65,
+      "ci_high": 9.12
+    },
+    "pi_low": -31.65,
+    "pi_high": 41.42,
+    "I2": 35.6,
+    "tau2": 3.6091,
+    "p_Q": 0.2126
+  },
+  "C": {
+    "study": [
+      {
+        "effect": -1.37,
+        "ci_low": -3.25,
+        "ci_high": 0.52,
+        "weight_random": 39.0
+      },
+      {
+        "effect": 1.98,
+        "ci_low": 0.28,
+        "ci_high": 3.68,
+        "weight_random": 41.4
+      },
+      {
+        "effect": 0.56,
+        "ci_low": -3.26,
+        "ci_high": 4.38,
+        "weight_random": 19.5
+      }
+    ],
+    "random": {
+      "effect": 0.4,
+      "ci_low": -4.18,
+      "ci_high": 4.97
+    },
+    "pi_low": -7.18,
+    "pi_high": 7.98,
+    "I2": 70.1,
+    "tau2": 1.9757,
+    "p_Q": 0.0351,
+    "Q": 6.7
+  }
+}

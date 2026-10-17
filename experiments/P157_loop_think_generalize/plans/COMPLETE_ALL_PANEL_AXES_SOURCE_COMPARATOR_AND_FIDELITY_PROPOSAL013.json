@@ -1,0 +1,1277 @@
+{
+  "schema": "SOURCE_ONLY_COMPLETE_FIGURE5_AXES_AND_PRE_OUTCOME_COMPARATOR_PROPOSAL013",
+  "UTC": "2026-10-15T12:57:47.454738+00:00",
+  "metadata_PID": 44048,
+  "metadata_birth": "UNMEASURED",
+  "execution_authorized": false,
+  "base_packet_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\SOURCE_ONLY_COMPLETE_MAIN_NINE_CHECKPOINT_SOURCE_TARGET_COST_PACKET012.json",
+    "bytes": 102857,
+    "sha256": "61b3e8f5fa953a3d23a594ba055ee017fc2d125b197d9c95aa797cf8a2d41bc9"
+  },
+  "exact_interval_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\COMPLETE_ALL3279_PUBLISHED_FIGURE5_PIXEL_INTERVALS011.json",
+    "bytes": 3153387,
+    "sha256": "85d3edc3a680d2832365118c5a0bcf91b86c367c5e500a0ad4c2b848570054f4"
+  },
+  "all_panels": [
+    {
+      "model": "r1",
+      "printed_ID_max_hop": 2,
+      "printed_fixed_inference_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "printed_hop_columns": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "complete_unique_cells": 288,
+      "all_cells_mandatory": true,
+      "source_image_axis_placements": [
+        {
+          "original_image_ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\pdf_original_objects007\\main_results_accuracy_region_image_13.png",
+            "bytes": 102,
+            "sha256": "9fb5363a47bda7a2ced526f9b4db9694e4d0b80a461ae608f9d21fc2c6ecf78b"
+          },
+          "xref": 13,
+          "colormap": "Blues",
+          "first_hop": 2,
+          "last_hop": 2,
+          "rows": 12,
+          "PDF_placement_rect": [
+            37.972801208496094,
+            12.033760070800781,
+            43.24368667602539,
+            108.63926696777344
+          ],
+          "PDF_placement_transform": [
+            5.270886421203613,
+            0.0,
+            -0.0,
+            -96.60550689697266,
+            37.972801208496094,
+            108.63926696777344
+          ],
+          "source_rows_top_to_bottom": false
+        },
+        {
+          "original_image_ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\pdf_original_objects007\\main_results_accuracy_region_image_14.png",
+            "bytes": 167,
+            "sha256": "cec2f63d73896e1cc714395aa288b50e6fd87ddfa36f892bad2b4ff1cb8b33ab"
+          },
+          "xref": 14,
+          "colormap": "Reds",
+          "first_hop": 3,
+          "last_hop": 25,
+          "rows": 12,
+          "PDF_placement_rect": [
+            43.24368667602539,
+            12.033760070800781,
+            164.4740753173828,
+            108.63926696777344
+          ],
+          "PDF_placement_transform": [
+            121.23038482666016,
+            0.0,
+            -0.0,
+            -96.60550689697266,
+            43.24368667602539,
+            108.63926696777344
+          ],
+          "source_rows_top_to_bottom": false
+        }
+      ]
+    },
+    {
+      "model": "r2",
+      "printed_ID_max_hop": 6,
+      "printed_fixed_inference_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "printed_hop_columns": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "complete_unique_cells": 288,
+      "all_cells_mandatory": true,
+      "source_image_axis_placements": [
+        {
+          "original_image_ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\pdf_original_objects007\\main_results_accuracy_region_image_15.png",
+            "bytes": 209,
+            "sha256": "624bbd6847f831110467358174fd181bc5fe2cd56658d2395349500c6ad26805"
+          },
+          "xref": 15,
+          "colormap": "Blues",
+          "first_hop": 2,
+          "last_hop": 6,
+          "rows": 12,
+          "PDF_placement_rect": [
+            185.4429168701172,
+            12.033760070800781,
+            211.79734802246094,
+            108.63926696777344
+          ],
+          "PDF_placement_transform": [
+            26.35443115234375,
+            0.0,
+            -0.0,
+            -96.60550689697266,
+            185.4429168701172,
+            108.63926696777344
+          ],
+          "source_rows_top_to_bottom": false
+        },
+        {
+          "original_image_ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\pdf_original_objects007\\main_results_accuracy_region_image_16.png",
+            "bytes": 140,
+            "sha256": "4ccc2f38a89a775875edadf7edbba205f79cbffb90670aabb1751e30aae60e0c"
+          },
+          "xref": 16,
+          "colormap": "Reds",
+          "first_hop": 7,
+          "last_hop": 25,
+          "rows": 12,
+          "PDF_placement_rect": [
+            211.79736328125,
+            12.033760070800781,
+            311.9442138671875,
+            108.63926696777344
+          ],
+          "PDF_placement_transform": [
+            100.14684295654297,
+            0.0,
+            -0.0,
+            -96.60550689697266,
+            211.79736328125,
+            108.63926696777344
+          ],
+          "source_rows_top_to_bottom": false
+        }
+      ]
+    },
+    {
+      "model": "r3",
+      "printed_ID_max_hop": 9,
+      "printed_fixed_inference_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "printed_hop_columns": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "complete_unique_cells": 288,
+      "all_cells_mandatory": true,
+      "source_image_axis_placements": [
+        {
+          "original_image_ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\pdf_original_objects007\\main_results_accuracy_region_image_17.png",
+            "bytes": 310,
+            "sha256": "ae3b401e394daf27354e27ad6c91682a004b2fe74595fe2a9d8cf70f7417a9a5"
+          },
+          "xref": 17,
+          "colormap": "Blues",
+          "first_hop": 2,
+          "last_hop": 9,
+          "rows": 12,
+          "PDF_placement_rect": [
+            332.9130554199219,
+            12.033760070800781,
+            375.08013916015625,
+            108.63926696777344
+          ],
+          "PDF_placement_transform": [
+            42.167091369628906,
+            0.0,
+            -0.0,
+            -96.60550689697266,
+            332.9130554199219,
+            108.63926696777344
+          ],
+          "source_rows_top_to_bottom": false
+        },
+        {
+          "original_image_ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\pdf_original_objects007\\main_results_accuracy_region_image_18.png",
+            "bytes": 190,
+            "sha256": "d04a9b61cf65a9c2518ee18499ceba2caef0b2ec1d09a5f6cf266389751af2b1"
+          },
+          "xref": 18,
+          "colormap": "Reds",
+          "first_hop": 10,
+          "last_hop": 25,
+          "rows": 12,
+          "PDF_placement_rect": [
+            375.08013916015625,
+            12.033760070800781,
+            459.414306640625,
+            108.63926696777344
+          ],
+          "PDF_placement_transform": [
+            84.33418273925781,
+            0.0,
+            -0.0,
+            -96.60550689697266,
+            375.08013916015625,
+            108.63926696777344
+          ],
+          "source_rows_top_to_bottom": false
+        }
+      ]
+    },
+    {
+      "model": "r4",
+      "printed_ID_max_hop": 10,
+      "printed_fixed_inference_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "printed_hop_columns": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "complete_unique_cells": 288,
+      "all_cells_mandatory": true,
+      "source_image_axis_placements": [
+        {
+          "original_image_ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\pdf_original_objects007\\main_results_accuracy_region_image_19.png",
+            "bytes": 287,
+            "sha256": "d6b3675138dbb798a54c4009aaf9816a2f66eac07359a0ec710e95902cdd3f74"
+          },
+          "xref": 19,
+          "colormap": "Blues",
+          "first_hop": 2,
+          "last_hop": 10,
+          "rows": 12,
+          "PDF_placement_rect": [
+            480.3831787109375,
+            12.033760070800781,
+            527.8211669921875,
+            108.63926696777344
+          ],
+          "PDF_placement_transform": [
+            47.4379768371582,
+            0.0,
+            -0.0,
+            -96.60550689697266,
+            480.3831787109375,
+            108.63926696777344
+          ],
+          "source_rows_top_to_bottom": false
+        },
+        {
+          "original_image_ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\pdf_original_objects007\\main_results_accuracy_region_image_20.png",
+            "bytes": 199,
+            "sha256": "be0053eda8773358c1a1abbd44f6e11077b69b2a99555b9a548988df0e47853a"
+          },
+          "xref": 20,
+          "colormap": "Reds",
+          "first_hop": 11,
+          "last_hop": 25,
+          "rows": 12,
+          "PDF_placement_rect": [
+            527.8211669921875,
+            12.033760070800781,
+            606.8844604492188,
+            108.63926696777344
+          ],
+          "PDF_placement_transform": [
+            79.06329345703125,
+            0.0,
+            -0.0,
+            -96.60550689697266,
+            527.8211669921875,
+            108.63926696777344
+          ],
+          "source_rows_top_to_bottom": false
+        }
+      ]
+    },
+    {
+      "model": "r5",
+      "printed_ID_max_hop": 12,
+      "printed_fixed_inference_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "printed_hop_columns": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "complete_unique_cells": 288,
+      "all_cells_mandatory": true,
+      "source_image_axis_placements": [
+        {
+          "original_image_ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\pdf_original_objects007\\main_results_accuracy_region_image_21.png",
+            "bytes": 262,
+            "sha256": "12b023c1f6f8fbe476cc5be3697c305aa53dd2dbdaa663cc5a998c5403afc37e"
+          },
+          "xref": 21,
+          "colormap": "Blues",
+          "first_hop": 2,
+          "last_hop": 12,
+          "rows": 12,
+          "PDF_placement_rect": [
+            37.972801208496094,
+            126.02825164794922,
+            95.95255279541016,
+            222.63375854492188
+          ],
+          "PDF_placement_transform": [
+            57.97975158691406,
+            0.0,
+            -0.0,
+            -96.60550689697266,
+            37.972801208496094,
+            222.63375854492188
+          ],
+          "source_rows_top_to_bottom": false
+        },
+        {
+          "original_image_ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\pdf_original_objects007\\main_results_accuracy_region_image_22.png",
+            "bytes": 276,
+            "sha256": "c50e88170b92f0b9fe6756ca9e5f9f3f91d88220cd5c70a3b02fab69d1143cf7"
+          },
+          "xref": 22,
+          "colormap": "Reds",
+          "first_hop": 13,
+          "last_hop": 25,
+          "rows": 12,
+          "PDF_placement_rect": [
+            95.95255279541016,
+            126.02825164794922,
+            164.4740753173828,
+            222.63375854492188
+          ],
+          "PDF_placement_transform": [
+            68.52152252197266,
+            0.0,
+            -0.0,
+            -96.60550689697266,
+            95.95255279541016,
+            222.63375854492188
+          ],
+          "source_rows_top_to_bottom": false
+        }
+      ]
+    },
+    {
+      "model": "r6",
+      "printed_ID_max_hop": 13,
+      "printed_fixed_inference_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "printed_hop_columns": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "complete_unique_cells": 288,
+      "all_cells_mandatory": true,
+      "source_image_axis_placements": [
+        {
+          "original_image_ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\pdf_original_objects007\\main_results_accuracy_region_image_23.png",
+            "bytes": 254,
+            "sha256": "d3c4b4ea2e2bfe80a589e9b7e2ac5fe69ad170cf57202791cdaa2c8f4bd46de4"
+          },
+          "xref": 23,
+          "colormap": "Blues",
+          "first_hop": 2,
+          "last_hop": 13,
+          "rows": 12,
+          "PDF_placement_rect": [
+            185.4429168701172,
+            126.02825164794922,
+            248.6935577392578,
+            222.63375854492188
+          ],
+          "PDF_placement_transform": [
+            63.25063705444336,
+            0.0,
+            -0.0,
+            -96.60550689697266,
+            185.4429168701172,
+            222.63375854492188
+          ],
+          "source_rows_top_to_bottom": false
+        },
+        {
+          "original_image_ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\pdf_original_objects007\\main_results_accuracy_region_image_24.png",
+            "bytes": 266,
+            "sha256": "9ba2811dbf5965962d80de4ed09632274c4a3382ed835e2da3e416224f7b9dd8"
+          },
+          "xref": 24,
+          "colormap": "Reds",
+          "first_hop": 14,
+          "last_hop": 25,
+          "rows": 12,
+          "PDF_placement_rect": [
+            248.6935577392578,
+            126.02825164794922,
+            311.9441833496094,
+            222.63375854492188
+          ],
+          "PDF_placement_transform": [
+            63.25063705444336,
+            0.0,
+            -0.0,
+            -96.60550689697266,
+            248.6935577392578,
+            222.63375854492188
+          ],
+          "source_rows_top_to_bottom": false
+        }
+      ]
+    },
+    {
+      "model": "r7",
+      "printed_ID_max_hop": 16,
+      "printed_fixed_inference_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "printed_hop_columns": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "complete_unique_cells": 288,
+      "all_cells_mandatory": true,
+      "source_image_axis_placements": [
+        {
+          "original_image_ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\pdf_original_objects007\\main_results_accuracy_region_image_25.png",
+            "bytes": 226,
+            "sha256": "708c23d4b303e1dfcd5cb0d890ef7946f7c62eb2be195dc174a0ec72ecabb5db"
+          },
+          "xref": 25,
+          "colormap": "Blues",
+          "first_hop": 2,
+          "last_hop": 16,
+          "rows": 12,
+          "PDF_placement_rect": [
+            332.9130554199219,
+            126.02825164794922,
+            411.9763488769531,
+            222.63375854492188
+          ],
+          "PDF_placement_transform": [
+            79.06329345703125,
+            0.0,
+            -0.0,
+            -96.60550689697266,
+            332.9130554199219,
+            222.63375854492188
+          ],
+          "source_rows_top_to_bottom": false
+        },
+        {
+          "original_image_ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\pdf_original_objects007\\main_results_accuracy_region_image_26.png",
+            "bytes": 253,
+            "sha256": "f317f25614b190bbdf026d4021407bf9a69bc23a86e9b155a76472f5fc140483"
+          },
+          "xref": 26,
+          "colormap": "Reds",
+          "first_hop": 17,
+          "last_hop": 25,
+          "rows": 12,
+          "PDF_placement_rect": [
+            411.9763488769531,
+            126.02825164794922,
+            459.4143371582031,
+            222.63375854492188
+          ],
+          "PDF_placement_transform": [
+            47.4379768371582,
+            0.0,
+            -0.0,
+            -96.60550689697266,
+            411.9763488769531,
+            222.63375854492188
+          ],
+          "source_rows_top_to_bottom": false
+        }
+      ]
+    },
+    {
+      "model": "r8",
+      "printed_ID_max_hop": 16,
+      "printed_fixed_inference_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "printed_hop_columns": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "complete_unique_cells": 288,
+      "all_cells_mandatory": true,
+      "source_image_axis_placements": [
+        {
+          "original_image_ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\pdf_original_objects007\\main_results_accuracy_region_image_27.png",
+            "bytes": 229,
+            "sha256": "742dfb619710a0bcb4b6064352ff5f776f3711d896a717a0f51f0aa75382db55"
+          },
+          "xref": 27,
+          "colormap": "Blues",
+          "first_hop": 2,
+          "last_hop": 16,
+          "rows": 12,
+          "PDF_placement_rect": [
+            480.3831787109375,
+            126.02825164794922,
+            559.4464721679688,
+            222.63375854492188
+          ],
+          "PDF_placement_transform": [
+            79.06329345703125,
+            0.0,
+            -0.0,
+            -96.60550689697266,
+            480.3831787109375,
+            222.63375854492188
+          ],
+          "source_rows_top_to_bottom": false
+        },
+        {
+          "original_image_ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\pdf_original_objects007\\main_results_accuracy_region_image_28.png",
+            "bytes": 236,
+            "sha256": "1187eb7706dc86d64534e6c49efe8bbb682a421632102ab8b31df3f88109bbd9"
+          },
+          "xref": 28,
+          "colormap": "Reds",
+          "first_hop": 17,
+          "last_hop": 25,
+          "rows": 12,
+          "PDF_placement_rect": [
+            559.4464721679688,
+            126.02825164794922,
+            606.8844604492188,
+            222.63375854492188
+          ],
+          "PDF_placement_transform": [
+            47.4379768371582,
+            0.0,
+            -0.0,
+            -96.60550689697266,
+            559.4464721679688,
+            222.63375854492188
+          ],
+          "source_rows_top_to_bottom": false
+        }
+      ]
+    },
+    {
+      "model": "r_dyn",
+      "printed_ID_max_hop": 22,
+      "printed_fixed_inference_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        "adaptive"
+      ],
+      "printed_hop_columns": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "complete_unique_cells": 975,
+      "all_cells_mandatory": true,
+      "source_image_axis_placements": [
+        {
+          "original_image_ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\pdf_original_objects007\\main_results_accuracy_region_image_29.png",
+            "bytes": 313,
+            "sha256": "42dd15d288f1f8f02c8b76fc51a97d4ed631544eaa2ec8ad0ccf72c4be2ceb47"
+          },
+          "xref": 29,
+          "colormap": "Blues",
+          "first_hop": 2,
+          "last_hop": 22,
+          "rows": 25,
+          "PDF_placement_rect": [
+            627.853271484375,
+            12.03375244140625,
+            708.230224609375,
+            222.63375854492188
+          ],
+          "PDF_placement_transform": [
+            80.37696075439453,
+            0.0,
+            -0.0,
+            -210.60000610351562,
+            627.853271484375,
+            222.63375854492188
+          ],
+          "source_rows_top_to_bottom": false
+        },
+        {
+          "original_image_ref": {
+            "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\pdf_original_objects007\\main_results_accuracy_region_image_30.png",
+            "bytes": 598,
+            "sha256": "68ac0b1eeab27b449e60284885d15bfab8b1c9fedafa55032a04c4233b03ab9b"
+          },
+          "xref": 30,
+          "colormap": "Reds",
+          "first_hop": 23,
+          "last_hop": 40,
+          "rows": 25,
+          "PDF_placement_rect": [
+            708.2302856445312,
+            12.03375244140625,
+            777.1248168945312,
+            222.63375854492188
+          ],
+          "PDF_placement_transform": [
+            68.89453887939453,
+            0.0,
+            -0.0,
+            -210.60000610351562,
+            708.2302856445312,
+            222.63375854492188
+          ],
+          "source_rows_top_to_bottom": false
+        }
+      ]
+    }
+  ],
+  "published_cell_count": 3279,
+  "literal_PDF_colorbar_labels_and_positions": [
+    {
+      "size": 7.5,
+      "flags": 4,
+      "bidi": 0,
+      "char_flags": 16,
+      "font": "DejaVuSerif",
+      "color": 0,
+      "alpha": 255,
+      "ascender": 0.9290000200271606,
+      "descender": -0.23600000143051147,
+      "text": "0.00",
+      "origin": [
+        807.0640258789062,
+        110.35733032226562
+      ],
+      "bbox": [
+        807.0640258789062,
+        103.38983154296875,
+        823.759033203125,
+        112.12732696533203
+      ]
+    },
+    {
+      "size": 7.5,
+      "flags": 4,
+      "bidi": 0,
+      "char_flags": 16,
+      "font": "DejaVuSerif",
+      "color": 0,
+      "alpha": 255,
+      "ascender": 0.9290000200271606,
+      "descender": -0.23600000143051147,
+      "text": "0.25",
+      "origin": [
+        807.0640258789062,
+        94.913330078125
+      ],
+      "bbox": [
+        807.0640258789062,
+        87.94583129882812,
+        823.759033203125,
+        96.6833267211914
+      ]
+    },
+    {
+      "size": 7.5,
+      "flags": 4,
+      "bidi": 0,
+      "char_flags": 16,
+      "font": "DejaVuSerif",
+      "color": 0,
+      "alpha": 255,
+      "ascender": 0.9290000200271606,
+      "descender": -0.23600000143051147,
+      "text": "0.50",
+      "origin": [
+        807.0640258789062,
+        79.46932983398438
+      ],
+      "bbox": [
+        807.0640258789062,
+        72.5018310546875,
+        823.759033203125,
+        81.23932647705078
+      ]
+    },
+    {
+      "size": 7.5,
+      "flags": 4,
+      "bidi": 0,
+      "char_flags": 16,
+      "font": "DejaVuSerif",
+      "color": 0,
+      "alpha": 255,
+      "ascender": 0.9290000200271606,
+      "descender": -0.23600000143051147,
+      "text": "0.75",
+      "origin": [
+        807.0640258789062,
+        64.02532958984375
+      ],
+      "bbox": [
+        807.0640258789062,
+        57.057830810546875,
+        823.759033203125,
+        65.79532623291016
+      ]
+    },
+    {
+      "size": 7.5,
+      "flags": 4,
+      "bidi": 0,
+      "char_flags": 16,
+      "font": "DejaVuSerif",
+      "color": 0,
+      "alpha": 255,
+      "ascender": 0.9290000200271606,
+      "descender": -0.23600000143051147,
+      "text": "1.00",
+      "origin": [
+        807.0640258789062,
+        48.581329345703125
+      ],
+      "bbox": [
+        807.0640258789062,
+        41.61383056640625,
+        823.759033203125,
+        50.3513298034668
+      ]
+    },
+    {
+      "size": 10.0,
+      "flags": 4,
+      "bidi": 0,
+      "char_flags": 16,
+      "font": "DejaVuSerif",
+      "color": 0,
+      "alpha": 255,
+      "ascender": 0.9290000200271606,
+      "descender": -0.23600000143051147,
+      "text": "ID",
+      "origin": [
+        835.3452758789062,
+        82.60214233398438
+      ],
+      "bbox": [
+        826.0552978515625,
+        70.63214111328125,
+        837.7052612304688,
+        82.60214233398438
+      ]
+    },
+    {
+      "size": 7.5,
+      "flags": 4,
+      "bidi": 0,
+      "char_flags": 16,
+      "font": "DejaVuSerif",
+      "color": 0,
+      "alpha": 255,
+      "ascender": 0.9290000200271606,
+      "descender": -0.23600000143051147,
+      "text": "0.00",
+      "origin": [
+        807.0640258789062,
+        222.6773223876953
+      ],
+      "bbox": [
+        807.0640258789062,
+        215.70982360839844,
+        823.759033203125,
+        224.44732666015625
+      ]
+    },
+    {
+      "size": 7.5,
+      "flags": 4,
+      "bidi": 0,
+      "char_flags": 16,
+      "font": "DejaVuSerif",
+      "color": 0,
+      "alpha": 255,
+      "ascender": 0.9290000200271606,
+      "descender": -0.23600000143051147,
+      "text": "0.25",
+      "origin": [
+        807.0640258789062,
+        207.2333221435547
+      ],
+      "bbox": [
+        807.0640258789062,
+        200.2658233642578,
+        823.759033203125,
+        209.00332641601562
+      ]
+    },
+    {
+      "size": 7.5,
+      "flags": 4,
+      "bidi": 0,
+      "char_flags": 16,
+      "font": "DejaVuSerif",
+      "color": 0,
+      "alpha": 255,
+      "ascender": 0.9290000200271606,
+      "descender": -0.23600000143051147,
+      "text": "0.50",
+      "origin": [
+        807.0640258789062,
+        191.78932189941406
+      ],
+      "bbox": [
+        807.0640258789062,
+        184.8218231201172,
+        823.759033203125,
+        193.559326171875
+      ]
+    },
+    {
+      "size": 7.5,
+      "flags": 4,
+      "bidi": 0,
+      "char_flags": 16,
+      "font": "DejaVuSerif",
+      "color": 0,
+      "alpha": 255,
+      "ascender": 0.9290000200271606,
+      "descender": -0.23600000143051147,
+      "text": "0.75",
+      "origin": [
+        807.0640258789062,
+        176.34532165527344
+      ],
+      "bbox": [
+        807.0640258789062,
+        169.37782287597656,
+        823.759033203125,
+        178.11532592773438
+      ]
+    },
+    {
+      "size": 7.5,
+      "flags": 4,
+      "bidi": 0,
+      "char_flags": 16,
+      "font": "DejaVuSerif",
+      "color": 0,
+      "alpha": 255,
+      "ascender": 0.9290000200271606,
+      "descender": -0.23600000143051147,
+      "text": "1.00",
+      "origin": [
+        807.0640258789062,
+        160.9013214111328
+      ],
+      "bbox": [
+        807.0640258789062,
+        153.93382263183594,
+        823.759033203125,
+        162.67132568359375
+      ]
+    },
+    {
+      "size": 10.0,
+      "flags": 4,
+      "bidi": 0,
+      "char_flags": 16,
+      "font": "DejaVuSerif",
+      "color": 0,
+      "alpha": 255,
+      "ascender": 0.9290000200271606,
+      "descender": -0.23600000143051147,
+      "text": "OOD",
+      "origin": [
+        835.3452758789062,
+        201.14869689941406
+      ],
+      "bbox": [
+        826.0552978515625,
+        176.7286834716797,
+        837.7052612304688,
+        201.14869689941406
+      ]
+    }
+  ],
+  "PDF_objects_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\pdf_original_objects007\\main_results_accuracy_region.vector_paths_and_text.json",
+    "bytes": 308430,
+    "sha256": "abbab3ca668a7213ee38f53dc1a1ad457386a9c6018896a388a67b5aa8ace801"
+  },
+  "exact_Matplotlib392_Normalize_call_source": "def __call__(self, value, clip=None):\n        \"\"\"\n        Normalize the data and return the normalized data.\n\n        Parameters\n        ----------\n        value\n            Data to normalize.\n        clip : bool, optional\n            See the description of the parameter *clip* in `.Normalize`.\n\n            If ``None``, defaults to ``self.clip`` (which defaults to\n            ``False``).\n\n        Notes\n        -----\n        If not already initialized, ``self.vmin`` and ``self.vmax`` are\n        initialized using ``self.autoscale_None(value)``.\n        \"\"\"\n        if clip is None:\n            clip = self.clip\n\n        result, is_scalar = self.process_value(value)\n\n        if self.vmin is None or self.vmax is None:\n            self.autoscale_None(result)\n        # Convert at least to float, without losing precision.\n        (vmin,), _ = self.process_value(self.vmin)\n        (vmax,), _ = self.process_value(self.vmax)\n        if vmin == vmax:\n            result.fill(0)  # Or should it be all masked?  Or 0.5?\n        elif vmin > vmax:\n            raise ValueError(\"minvalue must be less than or equal to maxvalue\")\n        else:\n            if clip:\n                mask = np.ma.getmask(result)\n                result = np.ma.array(np.clip(result.filled(vmax), vmin, vmax),\n                                     mask=mask)\n            # ma division is very slow; we can take a shortcut\n            resdat = result.data\n            resdat -= vmin\n            resdat /= (vmax - vmin)\n            result = np.ma.array(resdat, mask=result.mask, copy=False)\n        if is_scalar:\n            result = result[0]\n        return result",
+  "normalization_evidence_disposition": "Bothprintedlinearaxeslabel0..1. Pinnedofficial3.9.2Normalize performs(value-vmin)/(vmax-vmin). ActualFigure5plotkwargs areunreleased; linearvmin0/vmax1 is pre-outcome reconstruction consistent withprintedscale andALLdataRGBmatchingnameddefaultLUT. This is not proof no undocumentedcustomnorm existed. ROOT mustprospectivelyapprove this source-digitization interpretation, no fitting or ownoutputs.",
+  "primary_and_secondary_decision_proposal": {
+    "source_paper": "v1 completeFigure5ALLninepanels",
+    "primary_fixed": "ALL3240publishedfixedcells; everyconditionalinversebinunion ismandatory; no extra numericaltolerance.",
+    "primary_adaptive": "ALL39publishedadaptivecells frompaperAppendixC epsKL.01/H3.0/max16, no choosingafteroutputs.",
+    "secondary": "Releasedwrapper epsKL.001/H3.0/max16 onALL39hops; completeoutcomes/source-consistency reported even ifdiscrepant, neverused toreplaceprimary afterseeingresults.",
+    "whole_unplotted_fixed": "ALL9models\u00d739hops2..40\u00d740inferenceR1..40 retained inmatrices andper-exampleIDs, including everyunplottedrow/column.",
+    "no_source_outcome_or_scope_waiver": true,
+    "ROOT_has_not_yet_adopted_this_proposal": true
+  },
+  "source_accuracy_scale_join": {
+    "fixed_function_source": "def evaluate_model_test(model, dataloader, device, pred_pos=\"last_token\", pad_idx=0):\n    model.eval()\n\n    correct_per_type = defaultdict(int)\n    total_per_type = defaultdict(int)\n\n    with torch.no_grad():\n        for batch in dataloader:\n            input_ids, target_tokens, attention_mask, input_lengths, test_types = batch\n\n            input_ids = input_ids.to(device)\n            target_tokens = target_tokens.to(device)\n            attention_mask = attention_mask.to(device)\n\n            outputs = model(input_ids=input_ids, attention_mask=attention_mask)\n            if pred_pos == \"last_token\":\n                logits = outputs.logits[:, -1, :]\n            else:\n                idx = (input_lengths - 1).view(-1, 1, 1).expand(-1, 1, outputs.logits.size(-1)).to(device)\n                logits = outputs.logits.gather(1, idx).squeeze(1)\n\n            predicted_tokens = torch.argmax(logits, dim=-1)\n\n            batch_size = input_ids.size(0)\n            for i in range(batch_size):\n                test_type = test_types[i]\n                if target_tokens[i] != pad_idx:\n                    is_correct = (predicted_tokens[i] == target_tokens[i])\n                    correct_per_type[test_type] += int(is_correct)\n                    total_per_type[test_type] += 1\n\n    accuracy_per_type = {tt: correct_per_type[tt] / total_per_type[tt]\n                         for tt in total_per_type if total_per_type[tt] > 0}\n    return accuracy_per_type",
+    "adaptive_function_source": "def evaluate_model_test_adaptive_metrics(\n        model,\n        dataloader,\n        device,\n        max_recurrence,\n        pred_pos=\"last_token\",\n        eps_kl=0.001,\n        entropy_thresh=3.00,\n        min_iters=1,\n):\n    model.eval()\n    old_num_iterations = getattr(model, \"num_iterations\", None)\n    model.num_iterations = max_recurrence\n\n    correct_per_type = defaultdict(int)\n    total_per_type = defaultdict(int)\n    iterations_per_type = defaultdict(list)\n\n    with torch.no_grad():\n        for batch in tqdm(dataloader, desc=\"Evaluating with Adaptive Recurrence (KL + Entropy)\"):\n            if len(batch) == 6:\n                input_ids, target_tokens, attention_mask, input_lengths, test_types, _ = batch\n            else:\n                input_ids, target_tokens, attention_mask, input_lengths, test_types = batch\n\n            input_ids = input_ids.to(device)\n            target_tokens = target_tokens.to(device)\n            attention_mask = attention_mask.to(device)\n\n            outputs = model.forward_adapative(\n                input_ids=input_ids,\n                attention_mask=attention_mask,\n                input_lengths=input_lengths,\n                pred_pos=pred_pos,\n                eps_kl=eps_kl,\n                entropy_thresh=entropy_thresh,\n                min_iters=min_iters,\n            )\n\n            final_logits = outputs[\"final_logits\"]\n            iterations_used = outputs[\"iterations_used\"]\n\n            if pred_pos == \"inp_len\":\n                input_lengths_dev = torch.as_tensor(input_lengths, device=device, dtype=torch.long)\n                current_predict_pos = (input_lengths_dev - 1).clamp(min=0, max=final_logits.size(1) - 1)\n                pred_ids = final_logits[\n                           torch.arange(final_logits.size(0), device=device), current_predict_pos, :\n                           ].argmax(dim=-1)\n            else:\n                pred_ids = final_logits[:, -1, :].argmax(dim=-1)\n\n            for i in range(input_ids.size(0)):\n                tt = test_types[i]\n                tgt_id = target_tokens[i].item()\n\n                iterations_per_type[tt].append(int(iterations_used[i].item()))\n                correct_per_type[tt] += int(pred_ids[i].item() == tgt_id)\n                total_per_type[tt] += 1\n\n    if old_num_iterations is not None:\n        model.num_iterations = old_num_iterations\n\n    accuracy_per_type = {\n        tt: (correct_per_type[tt] / total_per_type[tt]) * 100.0\n        for tt in total_per_type if total_per_type[tt] > 0\n    }\n\n    avg_iterations_per_type = {\n        tt: float(np.mean(v)) for tt, v in iterations_per_type.items()\n    }\n\n    iterations_stats_per_type = {}\n    for tt, lst in iterations_per_type.items():\n        arr = np.array(lst, dtype=np.float32)\n        iterations_stats_per_type[tt] = {\n            \"count\": int(arr.size),\n            \"mean\": float(arr.mean()) if arr.size else float(\"nan\"),\n            \"median\": float(np.median(arr)) if arr.size else float(\"nan\"),\n            \"std\": float(arr.std(ddof=0)) if arr.size else float(\"nan\"),\n            \"min\": float(arr.min()) if arr.size else float(\"nan\"),\n            \"max\": float(arr.max()) if arr.size else float(\"nan\"),\n            \"values\": lst,\n        }\n\n    return accuracy_per_type, avg_iterations_per_type, iterations_stats_per_type",
+    "fixed_return_units": "fractioncorrect/total",
+    "adaptive_return_units": "percentage(correct/total)*100",
+    "prospective_adapter_rule": "Retainrawsourcepercentunchanged, plus exactintegercorrect/total canonicalfraction; comparecanonicalrationalaccuracy to sourcepixelintervals. Do not compare0..100directly to0..1, do not roundpercent or change denominator. ActualperhopN750 mustbeverified.",
+    "normalization_is_representation_only_not_tolerance": true
+  },
+  "all_cell_boundary_source_QA": {
+    "complete_keysets": true,
+    "unique_keys": 3279,
+    "all_inverse_RGB_indices_roundtrip": true,
+    "all_conditional750_counts_roundtrip": true,
+    "interval_records_checked": 3288,
+    "finalbin_includes_accuracy1": true,
+    "no_convertedmidpoints": true,
+    "no_unrecognizedpixel": true
+  },
+  "fidelity_and_runtime_proposal": {
+    "status": "SOURCE_PROPOSAL_ONLY; no candidatepayload or scientificclock",
+    "inputstage": "AfterROOTreview, exactninefullcheckpointIDs/listedsizes plusfulltest/vocab, andfulltrainforheldoutaudit ifdeclared. Wholepayloadhashes/actualstate shapes andlimits beforemodelinference.",
+    "runtime": "UsealreadyinstalledqualifiedCPU stack; pinactualTorch/Transformers/NumPy versions withoutinstall/downgrade. FP32 expectedweights not yetmeasured. Choose12+availablecores onlyaftercurrentstudy/concurrencyresourceapproval.",
+    "sharedprefix_source_contract": "Sameone-modelinitialembedding,mask,eval/dropoutoff,orderedfourblockmap at everyt; intermediatefinalLN/head reads do notmodifyhiddenstate. Preservebatchshape/dtype/predposition/argmaxtieorder/maskedpadding. AddobservationofallR, notalterweights/precision.",
+    "prospective_first_fidelity_stage": "Predeclarefirstoriginalexample fromeachof39hopbins forall9models; runall40R unmodifiedsourceforward vsone40step sharedprefix, requireallpredIDs and finitefull-logitcomparison underapriorifixedcriterion chosenbeforeoutputs; benchmarksameactualwork. This is sourcefidelityvalidation notpapercredit, includedwithinoneROOTfiniteprogramme.",
+    "cost_note": "287820naive+14040prefixblockexamples\u22480.864PF beforeheads/overhead. Fullsharedprefixprimary\u224830.14PF beforeheads/otheroverhead. Actualthroughput/peakUNKNOWN.",
+    "complete_independence_limit": "Separateallrawdataset/graph/label andper-examplecounteraudit ispossible; itdoesnotbyitselfindependentlyrerunneuralforward. Fullsecondforwardwouldcostanother\u224830PF andmustbeexplicitlyadmitted, notclaimedfromsourcealone.",
+    "no_budget_or_resource_cap_issued": true
+  },
+  "no_model_import_or_payload_or_inference": true
+}

@@ -1,0 +1,137 @@
+{
+  "utc": "2026-10-11T01:11:16.758147+00:00",
+  "phase": "source-only public contract; no calculations",
+  "main_cli": "--run RUN_DIR --freeze FREEZE_JSON",
+  "audit_cli": "--audit RUN_DIR AUDIT_DIR --freeze FREEZE_JSON",
+  "freeze_schema": {
+    "files": "[{absolute_path,bytes,sha256}]",
+    "config": "mode, input_root, metadata_path, targets_path, supporting_targets_path, output_contract_path"
+  },
+  "modes": [
+    "synthetic",
+    "original"
+  ],
+  "result_files": [
+    "ALL_ORIGINAL_COMPUTATIONS.json",
+    "ALL50_PRIMARY_CHECKS.json",
+    "ALL_SUPPORTING_SOURCE_COMPARISONS.json",
+    "SUMMARY.json",
+    "NUMERICAL_OPTIMIZER_TRACE.json",
+    "OUTPUT_MANIFEST.json"
+  ],
+  "computations_schema": {
+    "mode": "synthetic/original",
+    "raw_source_records": "family -> all CSV DictReader exact strings, source order",
+    "metadata_used": "study_key -> original declared category/source metadata",
+    "families": {
+      "family": {
+        "geometry": "effects,trials,trial_keys,row_ids",
+        "primary": "pool object",
+        "rows": "str(row)->{row:str,study_key,g,variance,SE,CI_low,CI_high,row_weight_percent}",
+        "rounding": {
+          "e": 0.005,
+          "h": 0.0001,
+          "Halton_points": 64,
+          "Jacobian": "g/CI_low/CI_high -> source-order vectors",
+          "radius": "g/CI_low/CI_high -> L1 + max absolute fixed-probe nonlinear residual",
+          "allowance": "g/CI_low/CI_high -> min(.02,.005+radius)+1e-9",
+          "probe_records": "all {id,kind,delta:[source order],pool:pool object,point_direction,CI_classification}",
+          "finite_probe_allowance_not_rigorous_enclosure": true
+        },
+        "leave_one_trial_out": "trial_key -> {pool,remaining_row_ids,point_direction,CI_classification,removed_trial_literal}",
+        "supporting": {
+          "sampling_alternatives": "LS2,UB,CI_derived,ordinary_two_level_REML -> {pool,rows}; no primary rescue",
+          "egger": "{k,intercept,SE,t,df,p_value,method:unweighted standardized Egger OLS}",
+          "subgroups": "sample_type/platform/interaction_mode/response_generation -> {status,reason,categories,omnibus:{F,df1,df2,p_value},groups:category->{g,SE,CI_low,CI_high,t,p_value,trials,effects},full_moderator_pool}; missing Karhiy split-arm factors explicitly unavailable for distress",
+          "all_controls_supporting_only": true
+        }
+      }
+    }
+  },
+  "pool_fields": [
+    "k",
+    "parameters",
+    "trials",
+    "coefficients",
+    "covariance",
+    "df",
+    "g",
+    "SE",
+    "CI_low",
+    "CI_high",
+    "t",
+    "p_value",
+    "a",
+    "b",
+    "total_tau2",
+    "nll",
+    "Q",
+    "Q_df",
+    "Q_p",
+    "I2_Q",
+    "I2_components",
+    "sampling_typical_variance",
+    "row_weights_percent",
+    "converged",
+    "identifiability",
+    "component_identifiable"
+  ],
+  "primary_checks_schema": "50 entries: {id,family,kind,source_literal,target,actual,allowance,difference,passed,source}; all mandatory",
+  "supporting_checks_schema": "list of frozen {id,path:[dict keys],source_literal,kind:numeric/exact/relation,relation,tolerance,target,source,primary_rescue:false}, plusactual,difference,passes_source_display; missing input ->actual/difference/pass None with explicit unavailable status; not eligible for primary rescue",
+  "summary_schema": {
+    "mode": "synthetic/original",
+    "complete_families": 2,
+    "raw_effect_rows": 26,
+    "raw_trial_counts": "family->11/7",
+    "primary_gates": 50,
+    "primary_passed": "int",
+    "all_primary_passed": "bool",
+    "all_fits_converged": "bool",
+    "no_primary_rescue": true,
+    "original_human_trials_repeated": false,
+    "rounding_qualitative_stability": "family->{midpoint_point_direction,midpoint_CI_classification,all_fixed_probe_point_direction_matches,all_fixed_probe_CI_classification_matches}",
+    "whole_trial_leave_out_qualitative_robustness": "family->{complete_source_leave_outs,all_point_directions_match,all_CI_classifications_match}"
+  },
+  "scientific_contract": {
+    "sampling_variance_primary": "LS=1/n1+1/n2+g*g/(2N); source g already corrected",
+    "marginal_covariance": "diag(v+a)+b*Z*Ztranspose; effect and trial components nonnegative",
+    "REML": "0.5*(logdet(M)+logdet(XtransposeMinvX)+(y-Xbeta)transposeMinv(y-Xbeta)); beta GLS",
+    "test": "residual Student-t df=k-rank(X); pool k-1; two-sided p",
+    "moderator": "joint complete-cohort dummy-design REML; Wald F all nonreference coefficients/(p-1), numerator p-1, denominator k-p; predicted category CIs same residual df",
+    "heterogeneity": "Q using sampling-only inverse variance; Q_df=k-p; Q_p chi-square; Q-based I2 and variance-component I2 retained separately",
+    "typical_sampling_variance": "(k-p)/trace(P_sampling), P_sampling=W-WX(XtransposeWX)^-1XtransposeW; components I2=100*(a+b)/(a+b+typicalV)",
+    "row_CI": "g +/-1.96sqrt(v), row GLS weights from Minv1/sum for primary intercept",
+    "identifiability": "When every retained trial has one effect, Z*Ztranspose=I: components unidentifiable; set b=0 and estimate total a, identical marginal model. For one effect, a=b=0, no residual REML/t inference; report unavailable CI, do not invent significance. Independent representative may a=0,b=total; compare total/objective/pool rather than separate components when component_identifiable=false.",
+    "optimizer": "Primary full-matrix implementation uses analytic REML gradient, fixed starts plus both zero-component boundaries and zero corner, bounded search U=max(1,100*population variance of y); record all candidate/failed optimization paths. Independent block auditor uses its own optimizer and exact equivalent model. Boundary/identifiability conventions are public contract, not shared implementation.",
+    "fit_convergence": "Selected fit finite and projected gradient <=1e-5, component upper bound never active within1e-7; singular designs/failed fit retained and operational failure",
+    "audit_tolerances": "canonical fit g/SE/CIs/p/Q/I2/weights 1e-7 relative with scale max(1,abs(main),abs(audit)); optimized a/b or identifiable total and nll 1e-6; raw strings/scalars exact. Independent algorithm path/candidates need not byte-match."
+  },
+  "independence": "Neither implementation imports or reads the other mathematical code. Both may read this public contract and original source methods/targets only.",
+  "no_original_or_fixture_execution_authorized": true,
+  "output_metadata_schema": "{mode,studies:{study_key:{sample_type,platform,interaction_mode,response_generation,source_S3,source_S4}},category_order:{factor:[reference first, remaining]},unavailable_families:[{family,factor,reason}]}",
+  "source_contract001_preserved": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\PUBLIC_MAIN_AUDIT_OUTPUT_AND_METHOD_CONTRACT001.json",
+    "bytes": 5883,
+    "sha256": "9b308bd6f6e9b58dca82e94f2f5dd3ba948460cdbcb2063985e06226357ca8a4"
+  },
+  "probe_geometry": {
+    "coordinate_numbering": "one-based source row index",
+    "Jacobian_fit_records": "separate +/-h derivative fits; IDs Jacobian_%02d_minus/plus; source coordinate order, minus then plus; not fixed-e probes",
+    "probe_records_order": "interleaved halton_%03d/Halton and complement_%03d/Halton_complement1..64; coordinate_%02d_minus/plus/coordinate_endpoint; uniform_minus/plus/uniform_corner; gradient_g_minus/plus,gradient_CI_low_minus/plus,gradient_CI_high_minus/plus/gradient_sign_corner",
+    "radius_domain": "ONLY registered fixed-e probes; +/-h fits retained as derivative fits but not nonlinear-radius probes",
+    "duplicates": "retain every point/corner even identical; no deduplication",
+    "probe_counts": {
+      "psychological_distress": 172,
+      "psychological_wellbeing": 152
+    },
+    "Jacobian_fit_counts": {
+      "psychological_distress": 36,
+      "psychological_wellbeing": 16
+    }
+  },
+  "declarative50_gate_descriptors": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P135_young_people_chatbot_meta\\method_preparation001\\ALL50_DECLARATIVE_PRIMARY_GATE_DESCRIPTORS001.json",
+    "bytes": 22650,
+    "sha256": "b1d8ea16cf33792811e365923cc76b78d5271569a347931e90539866cc66a515"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "papers\\P065_empathy_meta_analysis\\sources\\abs.html": {
+    "sha256": "2cf41bd054a936a448761bbb3af0af42f72ca46cf1df044cec57e2e02d1a27e5",
+    "bytes": 46304
+  },
+  "papers\\P065_empathy_meta_analysis\\sources\\abs.txt": {
+    "sha256": "bae86e069ee2acc9bc3254ef87c408b08fc755cdfc5722882597dbf21dfedda6",
+    "bytes": 6055
+  },
+  "papers\\P065_empathy_meta_analysis\\sources\\cpu_routes_request_log.json": {
+    "sha256": "0f0571d075f118f586bb2e7e5a182e9d51fe8e9e49183a6ac50b31b4389bfbe4",
+    "bytes": 1600
+  },
+  "papers\\P065_empathy_meta_analysis\\sources\\forest_page_10.png": {
+    "sha256": "c111d62560f8aba1dd4194218a46a7b7c93fd82a6d5d5a939e2526e577f23d5c",
+    "bytes": 294407
+  },
+  "papers\\P065_empathy_meta_analysis\\sources\\forest_page_3.png": {
+    "sha256": "1b3d78b62474bdbd55a87c611f9f0bd7e6ba7162a9e77e73e953225708b40cb2",
+    "bytes": 306839
+  },
+  "papers\\P065_empathy_meta_analysis\\sources\\forest_page_5.png": {
+    "sha256": "80cfcd79438a857492ff26ed8743d6b87f9cc59c84d261739b83f8e52a1fd5f1",
+    "bytes": 335523
+  },
+  "papers\\P065_empathy_meta_analysis\\sources\\forest_page_6.png": {
+    "sha256": "32f363283cdd19fa194cf01de6f0d12152f6ac825bb2a2d51ea916d8d6229490",
+    "bytes": 232305
+  },
+  "papers\\P065_empathy_meta_analysis\\sources\\forest_page_7.png": {
+    "sha256": "605110440e707afc4195f5be84941ee9cf61178ad5eec513e6ed5a61bd609486",
+    "bytes": 252854
+  },
+  "papers\\P065_empathy_meta_analysis\\sources\\forest_page_8.png": {
+    "sha256": "66d8560f144d00c4e7d2dbd8c9c49ea59bd9fa240e4e89c49d411b9d91494883",
+    "bytes": 304770
+  },
+  "papers\\P065_empathy_meta_analysis\\sources\\forest_page_9.png": {
+    "sha256": "bb5a05217861939e46a66096e46334b4d085412b9e56a28643289ce325c39453",
+    "bytes": 321906
+  },
+  "papers\\P065_empathy_meta_analysis\\sources\\paper_fulltext.txt": {
+    "sha256": "2ecc97b83b4bf63b9eebf11107da76e290c3648dd47c507061c8a4fc26490dd9",
+    "bytes": 60315
+  },
+  "papers\\P065_empathy_meta_analysis\\sources\\paper_fulltext.xml": {
+    "sha256": "86aa3b35e669bf7ad36f91fc048a54840dbfd258a794bae6bdf54032810a93a1",
+    "bytes": 119944
+  },
+  "papers\\P065_empathy_meta_analysis\\sources\\paper_preprint_v1.pdf": {
+    "sha256": "c50b0da1c965cdf192945c797cb7d38968a9bfc5b232d7b85a5d8d7faf0e1f9b",
+    "bytes": 598721
+  },
+  "papers\\P065_empathy_meta_analysis\\sources\\paper_preprint_v1_extracted.txt": {
+    "sha256": "e0e6423f735095c880c9c6c86fe0db1eb59c8230a0aec38e5244399ce0d1f4a8",
+    "bytes": 59885
+  },
+  "papers\\P065_empathy_meta_analysis\\sources\\preprint_source_v1.tar.gz": {
+    "sha256": "c50b0da1c965cdf192945c797cb7d38968a9bfc5b232d7b85a5d8d7faf0e1f9b",
+    "bytes": 598721
+  },
+  "papers\\P065_empathy_meta_analysis\\sources\\RevMan5_algorithms.pdf": {
+    "sha256": "edaa4110779827901ea5f8690cd13e32811332285f33dad9b341935e30f7139e",
+    "bytes": 100852
+  },
+  "papers\\P065_empathy_meta_analysis\\sources\\xml_links.json": {
+    "sha256": "ca56d5c38be0b2217ae416dd32697a8f1a79f005c20c61896e0e227bdb703692",
+    "bytes": 475
+  }
+}

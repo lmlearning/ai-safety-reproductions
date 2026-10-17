@@ -1,0 +1,46 @@
+{
+  "configuration.json": {
+    "sha256": "a9ec44dcb2042787bf6cf731fef25f6ae3b1ef3228bd62d51f5f51c0a0a520cd",
+    "bytes": 681
+  },
+  "environment.json": {
+    "sha256": "299fe0485e32e97b771f7fc5a6f57793f455158ce7f43de51c85069e9088d99e",
+    "bytes": 588
+  },
+  "execution.json": {
+    "sha256": "83287499ba5231d0dbc76aa1edfab6557cec74a9c867f4984008642927acfe8b",
+    "bytes": 713
+  },
+  "frozen\\audit_empathy_meta_analysis.py": {
+    "sha256": "66d97a18c9c619e9d1364c9d32349b6ca7cee8b9117e61cc1cce4ecb9799de47",
+    "bytes": 8099
+  },
+  "frozen\\original_data.csv": {
+    "sha256": "db8183c5d0ff2fa15f669b94ff2fd4c662971c5a05209887baeae4e28933bd42",
+    "bytes": 746
+  },
+  "frozen\\PREREGISTRATION.md": {
+    "sha256": "07e0501391e12fe7d86f6e4aeb0f5b7d4fef2ed6cc33086c244265475222c36f",
+    "bytes": 5626
+  },
+  "frozen\\run_empathy_meta_analysis.py": {
+    "sha256": "ee558e77fb809e123726750ef4904a01119c4fe997e13a4d50d9205946822b4b",
+    "bytes": 8750
+  },
+  "frozen\\targets.json": {
+    "sha256": "bf15292e4c366ad4df7ea30b619b1ab53c947ed03fc0fbbb1aadd62599145065",
+    "bytes": 1236
+  },
+  "raw_per_study.json": {
+    "sha256": "19dacaea17173e6cfd594f32cdf5f052a42acfbaccffeb4021aaab23f2d0f136",
+    "bytes": 14993
+  },
+  "results.json": {
+    "sha256": "824600ffcbd6d225f071070211d4bc9c654fee0cc4f8bddeb485b4a7a97ae8ff",
+    "bytes": 23187
+  },
+  "source_manifest.json": {
+    "sha256": "17a349a84458ecb031be9fa6fea9e6b91d0307d4d5a7412d3091aa2f3368e94b",
+    "bytes": 3092
+  }
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12953916/fullTextXML",
+    "path": "papers\\P066_clinical_collaboration_meta\\sources\\paper_fulltext.xml",
+    "retrieved_at_utc": "2026-10-10T16:16:59.371750+00:00",
+    "bytes": 127843,
+    "sha256": "1f61584a99b1e630c943c02365674619ad88bea4269c04912d643c1e72ffe808"
+  },
+  {
+    "url": "https://www.nature.com/articles/s41746-026-02382-2",
+    "path": "papers\\P066_clinical_collaboration_meta\\sources\\publisher_page.html",
+    "retrieved_at_utc": "2026-10-10T16:16:59.887708+00:00",
+    "bytes": 3038,
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea"
+  },
+  {
+    "url": "https://zenodo.org/api/records/17611904",
+    "path": "papers\\P066_clinical_collaboration_meta\\sources\\zenodo_record.json",
+    "retrieved_at_utc": "2026-10-10T16:17:24.525694+00:00",
+    "bytes": 3781,
+    "sha256": "5cc5920b3e388d5febf4f909a1406e6fcfc45c5b591a206b6d7f9f2c944d51d3"
+  },
+  {
+    "url": "https://zenodo.org/api/records/17611904/files/R-code-Figure2-PanelABC.R/content",
+    "path": "papers\\P066_clinical_collaboration_meta\\sources\\original_analysis.R",
+    "retrieved_at_utc": "2026-10-10T16:19:45.340485+00:00",
+    "bytes": 3694,
+    "sha256": "c04f661d9a3a2ab708bd913b303672ee5d8c946917335ab209b1b40bd81784c4"
+  },
+  {
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41746-026-02382-2/MediaObjects/41746_2026_2382_MOESM1_ESM.pdf",
+    "path": "papers\\P066_clinical_collaboration_meta\\sources\\supplementary_information.pdf",
+    "retrieved_at_utc": "2026-10-10T16:19:48.649625+00:00",
+    "bytes": 333234,
+    "sha256": "ef3f55194ba597175f0ad7159748b08fea72e70711cdcf58da3a6d11d02b74e6"
+  },
+  {
+    "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41746-026-02382-2/MediaObjects/41746_2026_2382_Fig2_HTML.png",
+    "path": "papers\\P066_clinical_collaboration_meta\\sources\\original_figure2.png",
+    "retrieved_at_utc": "2026-10-10T16:19:48.721405+00:00",
+    "bytes": 3038,
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953916/",
+    "path": "papers\\P066_clinical_collaboration_meta\\sources\\pmc_page.html",
+    "retrieved_at_utc": "2026-10-10T16:20:28.861125+00:00",
+    "bytes": 228185,
+    "sha256": "d968011ee895a0630d6ae04b7a90c557e662bd89498770f450a1c616e03e9c69"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12953916/pdf/41746_2026_Article_2382.pdf",
+    "path": "papers\\P066_clinical_collaboration_meta\\sources\\publisher_paper.pdf",
+    "retrieved_at_utc": "2026-10-10T16:20:29.111190+00:00",
+    "bytes": 1817,
+    "sha256": "722f76484660108daf8a33f323b73e8479d1f33883827156b9546c9a626b368e"
+  },
+  {
+    "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2e40/12953916/c3a5ebc973ee/41746_2026_2382_Fig2_HTML.jpg",
+    "path": "papers\\P066_clinical_collaboration_meta\\sources\\original_figure2_valid.jpg",
+    "retrieved_at_utc": "2026-10-10T16:21:04.675682+00:00",
+    "bytes": 131485,
+    "sha256": "4e9b6cc450bd6ceff8852cf865226eae1e600dbf2394a9ce78b1b460d5a791b1"
+  },
+  {
+    "url": "https://www.nature.com/articles/s41746-026-02382-2.pdf",
+    "path": "papers\\P066_clinical_collaboration_meta\\sources\\publisher_paper_valid.pdf",
+    "retrieved_at_utc": "2026-10-10T16:21:05.335958+00:00",
+    "bytes": 3038,
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea"
+  },
+  {
+    "url": "https://cran.r-project.org/src/contrib/Archive/meta/meta_8.2-1.tar.gz",
+    "path": "papers\\P066_clinical_collaboration_meta\\sources\\meta_8.2-1.tar.gz",
+    "retrieved_at_utc": "2026-10-10T16:21:55.249195+00:00",
+    "bytes": 1002880,
+    "sha256": "4d800d6f039b4dbf904eb72e38beed43906f5777ce76bd149bd51e5381f28546"
+  }
+]

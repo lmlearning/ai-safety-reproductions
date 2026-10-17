@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-11T00:41:38.891612+00:00",
+  "prior_preregistration_sha256": "20b61fe36f7c93228a48addcda2187b86ac3ba7b3cc3a2fae54bf75ca3f6c3dd",
+  "no_original_data_computed": true,
+  "prior_failed_synthetic_phases_preserved": true,
+  "change": "One corrected synthetic main002 and independent audit002 after24single-study I2 report discrepancies. I2=0 for k1, with all337 primary families k>=4 unaffected. Native guard PID/creation dedup corrects safe prior double accounting.",
+  "scientific_gate_or_population_change": false,
+  "shared_maximum_all_phase_seconds": 2400,
+  "phase_cap_seconds": 600,
+  "no_automatic_retry": true
+}

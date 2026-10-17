@@ -1,0 +1,17 @@
+P069 — NEAR_SUCCESS under the user-directed small-error rule
+
+The Ideation-Execution Gap: Execution Outcomes of LLM-Generated versus Human Research Ideas
+
+This completed original-data reanalysis now counts once toward the twenty as a NEAR_SUCCESS. The original strict result remains 152 of 155 targets passed, with its three failed gap summaries unchanged. This is an explicitly retrospective classification after the user's instruction to count reproductions bounded by small error; it is not an original preregistered success or a new experiment.
+
+The complete selected central family covers all 181 reviews, all 43 executed projects, both study arms and all seven execution metrics, including the original correlation and exclusion-robustness analyses. All 155 original targets remain: 21 exact count targets, 27 exact qualitative claim flags and 107 scalar quantities. Every count and claim agrees. The largest scalar error across the original primary and separate independent calculations is 0.005, below the adopted 0.010 natural-unit bound. All 1,127 archived independent computational checks pass. The central conclusions and ranking changes remain compatible; no stronger reviewer-level or project-level significance claim is added.
+
+Two reviewers and ROOT checked the complete target vector and retained source/run/audit hashes. The historical auditor serialized some integer counts and Boolean flags as text; ROOT decoded only canonical integer/True/False representations to compare their meaning. Two failed metadata checks and the exact corrective source changes are preserved. No scalar tolerance, input, statistical estimator, raw response or original result was altered during that correction.
+
+Eligibility remains the distinct execution study's empirical release on 25 June 2025 and the retained first Semantic Scholar count of 62, satisfying the original extension threshold of 40. The earlier ideation-only study and planning registration are not treated as the same empirical release. No citation refresh was used.
+
+This is a central released-data reanalysis. Fresh idea generation, project execution, recruitment and human reviewing were not repeated. Original omissions, unavailable stable reviewer identifiers, source arithmetic inconsistencies and historical process-provenance limits remain in the original report and both review receipts. No FULL reproduction is claimed.
+
+Programme tally after this classification: 12 confirmed central reproductions plus 1 NEAR_SUCCESS = 13 distinct papers toward twenty; 0 FULL. The old registry bytes and every old failed result are retained.
+
+Recorded UTC 2026-10-17T08:34:18.496850+00:00

@@ -1,0 +1,51 @@
+{
+  "paper_id": "P066",
+  "run_id": "P066-central-001",
+  "created_at_utc": "2026-10-10T16:23:32.244689+00:00",
+  "outcomes_computed": false,
+  "scope": "Complete original Figure2 panels A/B/C central statistical analysis, all seven contrasts, weights, pooling, intervals and heterogeneity; additional prose time Q and six original qualitative claims",
+  "full_paper_reproduction": false,
+  "omissions": [
+    "Original systematic literature search and study selection",
+    "Constituent clinical trials and fresh model inference",
+    "Risk-of-bias and GRADE judgments",
+    "Narrative unpooled studies and unspecified estimator-switching sensitivities"
+  ],
+  "methods": {
+    "tau2": "Paule-Mandel solve Q(tau2)=k-1 with no fitting against published outcomes",
+    "common": "Inverse variance normal CI in A/B, per original R code and Fig2; no common result C",
+    "random_ci": {
+      "A": "HKSJ t(k-1)",
+      "B": "classic normal, as original R hakn=FALSE and displayed original Fig2",
+      "C": "HKSJ t(k-1)"
+    },
+    "study_ci": "normal 95%",
+    "prediction": "meta8.2-1 default V: t(k-1) times sqrt(tau2+classic pooled variance)",
+    "I2": "100 max(0,(Q-(k-1))/Q)",
+    "random_weights": "inverse(vi+tau2)",
+    "input_source": "Original Zenodo R arrays; raw Table6 and original Fig2 provide crosschecks"
+  },
+  "pre_outcome_source_conflicts": [
+    "Methods prose claims all random CIs HKSJ, but panelB original R explicitly hakn=FALSE and original Fig2 shows narrower classical CI. Central reproduction follows actual original code/figure; counterfactual HKSJ B is retained separately without substituting the target.",
+    "Methods prose says common Mantel-Haenszel A, but original R and figure use inverse variance; retain MH sensitivity separately.",
+    "Supplement GRADE accuracy RR1.63 differs from main original Fig2RR1.59; supplemental value retained as source conflict, outside this expressly preregistered complete central figure scope.",
+    "Supplement Goh2025 composite CI 2.7to10.2 differs in precision from R SE1.9133 and Fig2CI2.75to10.25. Use original internal R SE, not an outcome-fitted reconstruction."
+  ],
+  "tolerances": {
+    "effect_or_CI": 0.01,
+    "tau2": 0.00015,
+    "p_Q": 0.00015,
+    "I2_or_weight_percentage_points": 0.1,
+    "Q": 0.01
+  },
+  "success": "Every one of all63 numerical targets and six qualitative claims must pass; no post-outcome pruning or tolerance changes.",
+  "cost_limit": 0,
+  "api_keys": false,
+  "GPU": false,
+  "seed": null,
+  "stochastic": false,
+  "citation_evidence": "sources/citation_snapshot.json",
+  "first_public_release": "2025-11-14 (Zenodo public original empirical-code deposit), metadata publication_date2025-11-15; manuscript2026-01-28; both primary",
+  "citation_count": 34,
+  "citation_snapshot_at_utc": "2026-10-10T16:16:00.025813+00:00"
+}

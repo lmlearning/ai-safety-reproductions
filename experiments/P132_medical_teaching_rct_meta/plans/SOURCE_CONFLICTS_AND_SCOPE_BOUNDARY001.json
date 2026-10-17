@@ -1,0 +1,47 @@
+[
+  {
+    "id": "baseline_vs_analysis_N",
+    "source": "Table1 vsFigure3",
+    "detail": "Cicek64/65 baseline vs56/59 forest; Kavadella39/38 baseline vs39/31 forest. Forest counts395/391 are the complete central analysis population. Baseline table sums403/404, not stated395/391. Do not replace forest Ns with baseline allocation."
+  },
+  {
+    "id": "Turkey_geographical_coding",
+    "source": "Table1/Table2",
+    "detail": "Cicek countryTurkiye but originalEurope3study totals require Cicek+Kavadella+Svendsen. All8/3 rows fixed from complete original subgroup identities/counts before effects; do not silently recodeTurkey toAsia."
+  },
+  {
+    "id": "duration_boundary",
+    "source": "Methods vsdiscussion",
+    "detail": "Methods/Table2 use<1week vs>=1week, whereas prose sometimes saysmorethan1week. Gan1week belongslong. Huangdurationmissing is excluded only from this original10study duration family, retained every applicable complete family."
+  },
+  {
+    "id": "delayed_assessment",
+    "source": "Table2/citedRCT PMID39656920",
+    "detail": "Cicek appears both immediate and10daydelayed. Delayed meanSD are primary trial76.0/14.5 vs78.0/21.2. Delayed56/59 Ns are uniquely implied by original subgroup108/110 minusWu/Zeng, not independently confirmed against participant-level trial records. Primary proposal usesactual delayedmeans, supporting complete timing counterpart reusesimmediate; counterpart cannot replace or rescue primary."
+  },
+  {
+    "id": "repeated_timing_dependence",
+    "source": "OriginalTable2",
+    "detail": "Cicek same randomizedstudents appears in both timinggroups, so subgroup independence assumption is questionable. Reproduceoriginal nominal RevMan subgroup test with disclosure; do not inventcorrelations/covarianceadjustment."
+  },
+  {
+    "id": "skill_cohort",
+    "source": "Table1/Figure3",
+    "detail": "Table1 mentionsBa skillassessment, but original skillforest contains onlyWu/Zeng. Retain complete original2-study skillsynthesis; no add/drop chosen by own computed outcome."
+  },
+  {
+    "id": "forest_favours_axis",
+    "source": "Figure3",
+    "detail": "Forest leftlabel favoursGAI andrightlabel favoursTraditional conflict withpositivehighermeanGAI direction. Numericaleffectgai minusTraditional isfixed; retain wrongdisplaylabels asdisclosedsourceannotation."
+  },
+  {
+    "id": "full_review_private_data",
+    "source": "Dataavailability/Methods",
+    "detail": "Originaldataset andRevManproject authorrequestonly; searchdatabase/screening decisions/riskofbias andGRADE rawadjudications unavailable. Selectedscope iscomplete originalsummary-statistic quantitativecontribution, notfullsystematicreview orindividualRCT/generation reproduction."
+  },
+  {
+    "id": "supplement_access_render",
+    "source": "SOURCE_REQUESTS001-007",
+    "detail": "Publisher/PMC DOCX1/2 HTTP200challengeHTML andalternatehost/OAAPI errors retained. DOCX3validexclusionslist archived. EuropePMCdocumented publicZIP bounded retry pending. NativeLibreOffice notinstalled, soOOXML literal extraction available butexactWordrendering unavailable;noWordartifact authored."
+  }
+]

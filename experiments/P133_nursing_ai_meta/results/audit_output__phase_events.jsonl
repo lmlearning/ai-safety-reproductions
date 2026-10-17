@@ -1,0 +1,29 @@
+{"utc": "2026-10-11T08:33:21.805103+00:00", "phase": "independent_complete_input_reconstruction", "elapsed": 0.06300000008195639, "detail": {"rows": 43, "studies": 18, "groups": {"awareness": {"students": 7, "nurses": 7, "faculty": 1}, "attitude": {"students": 9, "nurses": 7}, "implementation": {"students": 6, "nurses": 5, "faculty": 1}}, "metadata": 18, "Figure2": 16, "Figure3": 2, "source_conflicts": 23}}
+{"utc": "2026-10-11T08:33:24.371390+00:00", "phase": "pipeline_family_complete", "elapsed": 2.625, "detail": {"pipeline": "PFT_REML", "family": "awareness"}}
+{"utc": "2026-10-11T08:33:27.038432+00:00", "phase": "pipeline_family_complete", "elapsed": 5.29700000025332, "detail": {"pipeline": "PFT_REML", "family": "attitude"}}
+{"utc": "2026-10-11T08:33:28.961165+00:00", "phase": "pipeline_family_complete", "elapsed": 7.219000000040978, "detail": {"pipeline": "PFT_REML", "family": "implementation"}}
+{"utc": "2026-10-11T08:33:29.870007+00:00", "phase": "pipeline_family_complete", "elapsed": 8.125, "detail": {"pipeline": "PAS_REML", "family": "awareness"}}
+{"utc": "2026-10-11T08:33:31.048105+00:00", "phase": "pipeline_family_complete", "elapsed": 9.313000000081956, "detail": {"pipeline": "PAS_REML", "family": "attitude"}}
+{"utc": "2026-10-11T08:33:31.776635+00:00", "phase": "pipeline_family_complete", "elapsed": 10.032000000122935, "detail": {"pipeline": "PAS_REML", "family": "implementation"}}
+{"utc": "2026-10-11T08:33:32.954153+00:00", "phase": "pipeline_family_complete", "elapsed": 11.219000000040978, "detail": {"pipeline": "PLOGIT_REML", "family": "awareness"}}
+{"utc": "2026-10-11T08:33:34.343600+00:00", "phase": "pipeline_family_complete", "elapsed": 12.610000000335276, "detail": {"pipeline": "PLOGIT_REML", "family": "attitude"}}
+{"utc": "2026-10-11T08:33:35.286356+00:00", "phase": "pipeline_family_complete", "elapsed": 13.54700000025332, "detail": {"pipeline": "PLOGIT_REML", "family": "implementation"}}
+{"utc": "2026-10-11T08:33:35.781142+00:00", "phase": "pipeline_family_complete", "elapsed": 14.04700000025332, "detail": {"pipeline": "PLOGIT_DL", "family": "awareness"}}
+{"utc": "2026-10-11T08:33:36.374265+00:00", "phase": "pipeline_family_complete", "elapsed": 14.641000000294298, "detail": {"pipeline": "PLOGIT_DL", "family": "attitude"}}
+{"utc": "2026-10-11T08:33:36.745238+00:00", "phase": "pipeline_family_complete", "elapsed": 15.0, "detail": {"pipeline": "PLOGIT_DL", "family": "implementation"}}
+{"utc": "2026-10-11T08:33:37.338694+00:00", "phase": "pipeline_family_complete", "elapsed": 15.594000000040978, "detail": {"pipeline": "PFT_DL", "family": "awareness"}}
+{"utc": "2026-10-11T08:33:37.964701+00:00", "phase": "pipeline_family_complete", "elapsed": 16.219000000040978, "detail": {"pipeline": "PFT_DL", "family": "attitude"}}
+{"utc": "2026-10-11T08:33:38.380562+00:00", "phase": "pipeline_family_complete", "elapsed": 16.641000000294298, "detail": {"pipeline": "PFT_DL", "family": "implementation"}}
+{"utc": "2026-10-11T08:33:38.868636+00:00", "phase": "pipeline_family_complete", "elapsed": 17.125, "detail": {"pipeline": "PRAW_DL", "family": "awareness"}}
+{"utc": "2026-10-11T08:33:39.445818+00:00", "phase": "pipeline_family_complete", "elapsed": 17.70300000021234, "detail": {"pipeline": "PRAW_DL", "family": "attitude"}}
+{"utc": "2026-10-11T08:33:39.820334+00:00", "phase": "pipeline_family_complete", "elapsed": 18.07800000021234, "detail": {"pipeline": "PRAW_DL", "family": "implementation"}}
+{"utc": "2026-10-11T08:33:39.899057+00:00", "phase": "backsize_policy_complete", "elapsed": 18.157000000122935, "detail": {"policy": "min"}}
+{"utc": "2026-10-11T08:33:39.961029+00:00", "phase": "backsize_policy_complete", "elapsed": 18.219000000040978, "detail": {"policy": "max"}}
+{"utc": "2026-10-11T08:33:40.027499+00:00", "phase": "backsize_policy_complete", "elapsed": 18.282000000122935, "detail": {"policy": "arithmetic"}}
+{"utc": "2026-10-11T08:33:40.102823+00:00", "phase": "backsize_policy_complete", "elapsed": 18.360000000335276, "detail": {"policy": "geometric"}}
+{"utc": "2026-10-11T08:33:40.149362+00:00", "phase": "backsize_policy_complete", "elapsed": 18.407000000122935, "detail": {"policy": "median"}}
+{"utc": "2026-10-11T08:33:45.568229+00:00", "phase": "legacy_family_complete", "elapsed": 23.82800000021234, "detail": {"family": "awareness"}}
+{"utc": "2026-10-11T08:33:53.783945+00:00", "phase": "legacy_family_complete", "elapsed": 32.04700000025332, "detail": {"family": "attitude"}}
+{"utc": "2026-10-11T08:33:57.322708+00:00", "phase": "legacy_family_complete", "elapsed": 35.57800000021234, "detail": {"family": "implementation"}}
+{"utc": "2026-10-11T08:33:59.446899+00:00", "phase": "independent_complete_before_subject_numeric_read", "elapsed": 37.70300000021234, "detail": {"pipeline_count": 6, "LOO": 258, "backsize_views": 270, "legacy_nested_LOO": 43, "source_comparisons": 506}}
+{"utc": "2026-10-11T08:34:22.071214+00:00", "phase": "audit_complete", "elapsed": 60.32800000021234, "detail": {"checks": 312782, "failures": 0}}

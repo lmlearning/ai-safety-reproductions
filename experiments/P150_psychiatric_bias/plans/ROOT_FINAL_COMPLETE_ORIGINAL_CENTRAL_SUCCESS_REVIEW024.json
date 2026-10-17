@@ -1,0 +1,115 @@
+{
+  "paper_id": "P150",
+  "doi": "10.1038/s41746-025-01746-4",
+  "scientific_required_review_upper_utc": "2026-10-12T00:35:21.261645+00:00",
+  "later_readonly_diagnostic_report_work": "Administrative; no new target-code execution or criteria changes",
+  "central_success": true,
+  "full_success": false,
+  "all25_primary": true,
+  "all13087_independent_leaves": true,
+  "original_audit_charge_seconds": 111,
+  "original_pair_charge_seconds": 179,
+  "programme_actual_charge_seconds": 388,
+  "programme_cap_seconds": 1800,
+  "remaining_seconds": 1412,
+  "prior_failed75seconds_preserved": true,
+  "complete_census": {
+    "source_variants": 2,
+    "archives": 2,
+    "ratings_per_variant": 160,
+    "response_strings": 120,
+    "descriptive_pools_per_variant": 47,
+    "supplement_targets_per_variant": 162,
+    "main_targets_per_variant": 10,
+    "heatmaps_per_variant": 80,
+    "Dunn_per_variant": 6,
+    "central_gates": 25
+  },
+  "auxiliary_primary_agree": 136,
+  "auxiliary_primary_total": 162,
+  "main_literal_primary_agree": 6,
+  "main_literal_total": 10,
+  "counterpart_central_agree": 14,
+  "counterpart_central_total": 25,
+  "counterpart_aux_agree": 112,
+  "counterpart_aux_total": 162,
+  "native_original_audit_tools": [
+    "ba98b4/session23671",
+    "ba4930exit0",
+    "03dafbexit0"
+  ],
+  "native_original_primary_tools": [
+    "7012c8/session14514",
+    "9e908bexit0",
+    "d53e43exit0"
+  ],
+  "whole_peak_working_bound_bytes": 112181248,
+  "whole_peak_commit_bound_bytes": 97697792,
+  "outer_own_after_write": "UNKNOWN; enforced32MiB reserve; ownmeasuredpeak<32MiB; actualoutertool0 and allPIDabsence; no invented finalpeak",
+  "post_outcome_scope_method_or_tolerance_change": false,
+  "math_source_primary": {
+    "path": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\scripts\\P150_complete_primary002.py",
+    "bytes": 20697,
+    "sha256": "9185b585f264ff865823462568b911b965618391723e7d16ccb475c45cae04bd"
+  },
+  "math_source_auditor": {
+    "path": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\review\\independent_audit_preparation001\\P150_independent_auditor003.py",
+    "bytes": 42340,
+    "sha256": "27b841a2c2628a91cf12b0a17796ca0d9498033318a63d93eaf64b35cb37e1bc"
+  },
+  "required_refs": [
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\runs\\P150-central-001\\primary\\ALL_SOURCE_NOTES_AND_AUXILIARY_PROSE.json",
+      "bytes": 545676,
+      "sha256": "14027537646f1a2df7efa776726deba205226e6433f6b363bc836c3aa157a6dc"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\runs\\P150-central-001\\primary\\CANONICAL_ALL160_BOTH_COMPLETE_SOURCE_VERSIONS.json",
+      "bytes": 417667,
+      "sha256": "fb054ea2e50a796a1dce675705d144a187510bd69fb5c968ce2ea5cdf023ae53"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\runs\\P150-central-001\\primary\\mandatory_complete_Table3_7_counterpart.json",
+      "bytes": 146875,
+      "sha256": "6274daaf19794ea7d10ce2e6960259b83a57410c2f046fbb75133d91bc89a4fb"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\runs\\P150-central-001\\primary\\OUTPUT_MANIFEST.json",
+      "bytes": 1562,
+      "sha256": "f5a2b6d95e3ad5b28cc58c69c343ad1dece0c2f22e876d39a446f420572c3f36"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\runs\\P150-central-001\\primary\\primary_Table9.json",
+      "bytes": 146869,
+      "sha256": "f5b2cbd87302a8204c5e0eb6149835be090a5a13cc8202e3f8588353efe8bc9e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\runs\\P150-central-001\\primary\\RUN_STATUS.json",
+      "bytes": 559,
+      "sha256": "1f3f2b35c5ffb7613302a590a0e008b96fceead2c0642de7ad2f32d67ea8bcaa"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\runs\\P150-central-001\\independent_audit\\AUDIT_COMPLETION_STATUS.json",
+      "bytes": 452,
+      "sha256": "d2c2eeed45dc25578cdbc66eda08bcbaa007226c0144cc147e96888896b9d1e7"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\runs\\P150-central-001\\independent_audit\\EVERY_SCHEMA_ALIGNED_LEAF_AUDIT.json",
+      "bytes": 4342822,
+      "sha256": "0f42eb7e8cde97ff55c18f36ce94f68c1de1244870648f9353b5d5268611dab8"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P150_psychiatric_bias\\runs\\P150-central-001\\independent_audit\\INDEPENDENT_RESULTS_BEFORE_PRIMARY_COMPARISON.json",
+      "bytes": 7682315,
+      "sha256": "e79e3b7330b2b5253e1175dfb55e6a74c3ee1d079e926290b4c79199d6666549"
+    }
+  ],
+  "full_limitations": [
+    "Historical generation/annotation/rater kappa/pilot/power unavailable",
+    "Seven public score-table conflicts retained",
+    "Published CIs/severe-treatment/schizophrenia claims disagree",
+    "Removed OSF prehistory uncertain; node date not earlier findings",
+    "Meanranks lie at inclusive preregistered half-unit boundaries; original display rule unknown"
+  ],
+  "report_stage_metadata_failure": "Root first combined certificate/report source exceeded8191commandguard; no command launched/file mutation. Split administrative writes only."
+}

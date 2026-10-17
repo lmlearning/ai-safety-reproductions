@@ -1,0 +1,2479 @@
+{
+  "schema": "P028_INDEPENDENT_COMPLETE_ARCHIVED_CENTRAL_NEAR_REVIEW_RSTAT001",
+  "started_UTC": "2026-10-17T08:54:18.3637921Z",
+  "sealed_UTC": "2026-10-17T08:57:03.477999+00:00",
+  "disposition": "NEAR_SUPPORT",
+  "counting_decision": "ROOT alone; no registry mutation or paper credit awarded here",
+  "retrospective": true,
+  "not_blind_or_original_near_preregistration": true,
+  "rule_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ADOPTED_P028_ARCHIVED_COMPLETE_CENTRAL_NEAR_RULE930.json",
+    "bytes": 3327,
+    "sha256": "058ea8eb32a9d38c951f750e684c5ef5b103bb5b96b42c5ba26cdb2f054d6a4c"
+  },
+  "whole_scope": {
+    "all4_original_classifier_contrasts": true,
+    "Table1_metrics": 20,
+    "Figure6_and17_ninelayer_medians": 36,
+    "original_qualitative_claims": 8,
+    "records": 897,
+    "answer_tokens": 55386,
+    "original_scope_fits": 800,
+    "prespecified_stream_diagnostic_fits": 400,
+    "fits_per_scope": 100,
+    "all1200_converged_archived_flag": true,
+    "independent_audit_checks": 6083,
+    "all6083_individually_pass": true
+  },
+  "all64_vector_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\P028_independent_archived_near_review_RSTAT001\\COMPLETE_ALL64_ARCHIVED_PRIMARY_NEAR_ERROR_VECTOR_RSTAT001.json",
+    "bytes": 25404,
+    "sha256": "9bd02210ab96226ec62c2e15367e5dfb7e302ea179515d3065846b380956473d"
+  },
+  "all64_near_pass": true,
+  "maximum_Table1_absolute_error": {
+    "kind": "table",
+    "test": 4,
+    "metric": "recall",
+    "actual": 0.6224076354679806,
+    "target": 0.63,
+    "tolerance": 0.0051,
+    "pass": false,
+    "original_strict_pass": false,
+    "source_corrected_target": null,
+    "effective_target": "0.63",
+    "near_absolute_bound": "0.010",
+    "absolute_error": "0.0075923645320194",
+    "near_pass": true
+  },
+  "maximum_corrected_figure_absolute_error": {
+    "kind": "figure_median",
+    "figure": "figure6_1",
+    "layer": 28,
+    "actual": 0.07545702017162335,
+    "target": 0.09,
+    "tolerance": 0.02,
+    "pass": true,
+    "original_strict_pass": true,
+    "source_corrected_target": null,
+    "effective_target": "0.09",
+    "near_absolute_bound": "0.020",
+    "absolute_error": "0.01454297982837665",
+    "near_pass": true
+  },
+  "two_prior_transcription_corrections": {
+    "basis": "I independently viewed complete retained original page17PNG. Right Figure17 panel layer27 median is visibly about-.06, not0; layer28 is about-.03, not-.06. Both corrections were already documented in Oct10 independent audit, before this retrospective near policy. No coefficient tolerance increased.",
+    "old_corrections": {
+      "figure17_4:27": {
+        "original": 0.0,
+        "source_corrected": -0.06,
+        "actual": -0.05541261591742874,
+        "corrected_gate_pass": true
+      },
+      "figure17_4:28": {
+        "original": -0.06,
+        "source_corrected": -0.03,
+        "actual": -0.030499330652027902,
+        "corrected_gate_pass": true
+      }
+    },
+    "source_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\review_figures\\source_page_17-17.png",
+      "bytes": 275590,
+      "sha256": "fa9aa128be093e789721c994dc8c42a28a2d46db32030993d19a476cbea26138"
+    },
+    "actual_corrected_errors": [
+      "0.00458738408257126",
+      "0.000499330652027902"
+    ]
+  },
+  "original_strict": {
+    "passed": 59,
+    "total": 64,
+    "success": false,
+    "all5_failures_unchanged": [
+      {
+        "kind": "table",
+        "test": 2,
+        "metric": "f1",
+        "actual": 0.6846357902570145,
+        "target": 0.69,
+        "tolerance": 0.0051,
+        "pass": false
+      },
+      {
+        "kind": "table",
+        "test": 3,
+        "metric": "f1",
+        "actual": 0.6648675089462478,
+        "target": 0.67,
+        "tolerance": 0.0051,
+        "pass": false
+      },
+      {
+        "kind": "table",
+        "test": 4,
+        "metric": "recall",
+        "actual": 0.6224076354679806,
+        "target": 0.63,
+        "tolerance": 0.0051,
+        "pass": false
+      },
+      {
+        "kind": "figure_median",
+        "figure": "figure17_4",
+        "layer": 27,
+        "actual": -0.05541261591742874,
+        "target": 0,
+        "tolerance": 0.02,
+        "pass": false
+      },
+      {
+        "kind": "figure_median",
+        "figure": "figure17_4",
+        "layer": 28,
+        "actual": -0.030499330652027902,
+        "target": -0.06,
+        "tolerance": 0.02,
+        "pass": false
+      }
+    ],
+    "all_original_plan_results_untouched": true
+  },
+  "qualitative_review": "All8 original qualitative comparisons independently re-evaluated from archived coefficient medians and classifier means, without raw-data statistics: six general layers dominate otherthree in filteredgeneral test; twomedical layers dominate remainingseven in filteredmedical test; all4 accuracies>.6; medicalalignment highest; bothalignment tests stronger thancontext tests. All8match original True.",
+  "eligibility": {
+    "arxiv": "2506.11618v1",
+    "title": "Convergent Linear Representations of Emergent Misalignment",
+    "authors": [
+      "Anna Soligo",
+      "Edward Turner",
+      "Senthooran Rajamanoharan",
+      "Neel Nanda"
+    ],
+    "positive_substantive_preprint_date": "2025-06-13",
+    "exact_v1_submission_UTC": "2025-06-13T09:39:54Z",
+    "retained_first_S2_count": 71,
+    "original_extension_gate": 40,
+    "archived_record_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\papers\\2506.11618\\record.json",
+      "bytes": 1523,
+      "sha256": "847330356e184fc97d620d85638b8fc33f10a4e1d602e147d97c20cd38b688f7"
+    },
+    "source_history": "Shared organism repositoryJune6; original probe introductionJune18,2025. These located dates remain inside extendedwindow. A Gitcommit alone is not publicpush proof and no globalearlierabsence claimed.",
+    "firstcount_provenance_limit": "This review verifies the frozen original catalogue record/prospective plan retaining71 from SemanticScholar bulk API. It performs no citationrefresh or newAPI query and does not invent an exact missing countcapture time."
+  },
+  "provenance": {
+    "all119_manifest_frozen_source_checks": [
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P028-central-001\\comparison.json",
+          "bytes": 30816,
+          "sha256": "64a802b5f3fd73377e254a1dc9004e461758cbf9b3f8a438931f5963a02aa015"
+        },
+        "expected": {
+          "bytes": 30816,
+          "sha256": "64a802b5f3fd73377e254a1dc9004e461758cbf9b3f8a438931f5963a02aa015"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P028-central-001\\features.npz",
+          "bytes": 2082304,
+          "sha256": "82a84f721846cdf74bb068ca5d7cde70ec3d03eaf8e06d72d871ecfa5b272a74"
+        },
+        "expected": {
+          "bytes": 2082304,
+          "sha256": "82a84f721846cdf74bb068ca5d7cde70ec3d03eaf8e06d72d871ecfa5b272a74"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P028-central-001\\heldout_predictions.npz",
+          "bytes": 42973670,
+          "sha256": "629b488bb7bf8453a41660e6858b1995c2ff9277e1792e07fad2c310a348fbb7"
+        },
+        "expected": {
+          "bytes": 42973670,
+          "sha256": "629b488bb7bf8453a41660e6858b1995c2ff9277e1792e07fad2c310a348fbb7"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P028-central-001\\regressions.json",
+          "bytes": 904510,
+          "sha256": "adc6b89b768728f8169949a38f9357d71a9862f93d1f7be324ff981b94a6dde3"
+        },
+        "expected": {
+          "bytes": 904510,
+          "sha256": "adc6b89b768728f8169949a38f9357d71a9862f93d1f7be324ff981b94a6dde3"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\audits\\P028-audit-001\\medical_aligned_token_provenance.json",
+          "bytes": 305565,
+          "sha256": "610dd210b0fb8069d3d694a874a775d0d0a2cc283614e8726af7c769accd24b3"
+        },
+        "expected": {
+          "bytes": 305565,
+          "sha256": "610dd210b0fb8069d3d694a874a775d0d0a2cc283614e8726af7c769accd24b3"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\audits\\P028-audit-001\\medical_misaligned_token_provenance.json",
+          "bytes": 217270,
+          "sha256": "2ec680e72c07423ea142e256830591d129c062ff6f74b00c7be72e44838e0c74"
+        },
+        "expected": {
+          "bytes": 217270,
+          "sha256": "2ec680e72c07423ea142e256830591d129c062ff6f74b00c7be72e44838e0c74"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\audits\\P028-audit-001\\non_medical_aligned_token_provenance.json",
+          "bytes": 696978,
+          "sha256": "c5d197ec03becef333ba2cf2b4291b569b829473f7f8e733c3654cab16a033f4"
+        },
+        "expected": {
+          "bytes": 696978,
+          "sha256": "c5d197ec03becef333ba2cf2b4291b569b829473f7f8e733c3654cab16a033f4"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\audits\\P028-audit-001\\non_medical_misaligned_token_provenance.json",
+          "bytes": 280336,
+          "sha256": "f41f66e5da94cdc85e7c4d4b6b14371f9746885368a71b99aebd63dee8b0a805"
+        },
+        "expected": {
+          "bytes": 280336,
+          "sha256": "f41f66e5da94cdc85e7c4d4b6b14371f9746885368a71b99aebd63dee8b0a805"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\AUDIT_CONSOLE.txt",
+          "bytes": 304,
+          "sha256": "56fe71f2163e2fa0e5fcdc9bee91190981f074043b2455a6f212b97dc544aec3"
+        },
+        "expected": {
+          "bytes": 304,
+          "sha256": "56fe71f2163e2fa0e5fcdc9bee91190981f074043b2455a6f212b97dc544aec3"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\AUDIT_LAUNCH.json",
+          "bytes": 656,
+          "sha256": "c41a6e2ade6c34a5443da1188c3c4c24d1e55401bea8e3a29b8ff99e94c57418"
+        },
+        "expected": {
+          "bytes": 656,
+          "sha256": "c41a6e2ade6c34a5443da1188c3c4c24d1e55401bea8e3a29b8ff99e94c57418"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\audit_probe.py",
+          "bytes": 8531,
+          "sha256": "12ece342a37ec256ace9e974a17c8b1dffec6e9fcf3642b0cb26508881f6faf8"
+        },
+        "expected": {
+          "bytes": 8531,
+          "sha256": "12ece342a37ec256ace9e974a17c8b1dffec6e9fcf3642b0cb26508881f6faf8"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\CONSOLE.txt",
+          "bytes": 806726,
+          "sha256": "d57121084a5c9d0db47eacbfa62f7332534746b154a268b3d3c189d89b4dae2f"
+        },
+        "expected": {
+          "bytes": 806726,
+          "sha256": "d57121084a5c9d0db47eacbfa62f7332534746b154a268b3d3c189d89b4dae2f"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\DEPENDENCY_REVIEW.json",
+          "bytes": 492,
+          "sha256": "9a63f017958f45ac464c4175298201c2805ea02ab93eaafcab6e916aefbcf14f"
+        },
+        "expected": {
+          "bytes": 492,
+          "sha256": "9a63f017958f45ac464c4175298201c2805ea02ab93eaafcab6e916aefbcf14f"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\LAUNCH.json",
+          "bytes": 533,
+          "sha256": "dc8ae10768e70f014cb2daca9a91291ef881c66eda299adbcc4f27c4749fd210"
+        },
+        "expected": {
+          "bytes": 533,
+          "sha256": "dc8ae10768e70f014cb2daca9a91291ef881c66eda299adbcc4f27c4749fd210"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\PREREGISTRATION.json",
+          "bytes": 11853,
+          "sha256": "2856eddf8cdb00730588552f3d7149d8b05e47134ba3d741e77359f4d122b89d"
+        },
+        "expected": {
+          "bytes": 11853,
+          "sha256": "2856eddf8cdb00730588552f3d7149d8b05e47134ba3d741e77359f4d122b89d"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\REPORT.md",
+          "bytes": 6987,
+          "sha256": "c5da13b395086d675107e76042d0375e267b4d5614b6905d76f351512680451f"
+        },
+        "expected": {
+          "bytes": 6987,
+          "sha256": "c5da13b395086d675107e76042d0375e267b4d5614b6905d76f351512680451f"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\run_probe.py",
+          "bytes": 10208,
+          "sha256": "d723a6697fe7259e5f9648a50dc0823c0c13e4e566a206aa3fa80f7a37bbfb2a"
+        },
+        "expected": {
+          "bytes": 10208,
+          "sha256": "d723a6697fe7259e5f9648a50dc0823c0c13e4e566a206aa3fa80f7a37bbfb2a"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\SAFE_STRUCTURAL_VALIDATION.json",
+          "bytes": 140010,
+          "sha256": "589e3017d5fe3599a7cdc2b9e727a9e3bf473e300fe041af78144f1a4f31f3ae"
+        },
+        "expected": {
+          "bytes": 140010,
+          "sha256": "589e3017d5fe3599a7cdc2b9e727a9e3bf473e300fe041af78144f1a4f31f3ae"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\SETUP_FAILURES.json",
+          "bytes": 368,
+          "sha256": "6613628717d233e416702cbd79339f3622151c694381d3053ae8a0a6e3d5b2d2"
+        },
+        "expected": {
+          "bytes": 368,
+          "sha256": "6613628717d233e416702cbd79339f3622151c694381d3053ae8a0a6e3d5b2d2"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\STRUCTURAL_REVIEW.json",
+          "bytes": 9039,
+          "sha256": "05d78965fd208a6cedc64c6e5bd8e5324203ae149d2453e5d76c37fb16f7c6d3"
+        },
+        "expected": {
+          "bytes": 9039,
+          "sha256": "05d78965fd208a6cedc64c6e5bd8e5324203ae149d2453e5d76c37fb16f7c6d3"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\write_report.py",
+          "bytes": 7919,
+          "sha256": "781cf6e87db5778949d582703abcd3ae2db0a7440deefad890c14ccd3c354887"
+        },
+        "expected": {
+          "bytes": 7919,
+          "sha256": "781cf6e87db5778949d582703abcd3ae2db0a7440deefad890c14ccd3c354887"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\output\\coefficient_distributions.png",
+          "bytes": 118612,
+          "sha256": "6237aa4965f9952f10fa62c260dbb1d7b375afd2df25266c4a46292717e5d4d0"
+        },
+        "expected": {
+          "bytes": 118612,
+          "sha256": "6237aa4965f9952f10fa62c260dbb1d7b375afd2df25266c4a46292717e5d4d0"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\output\\table_metrics.png",
+          "bytes": 96879,
+          "sha256": "c301b94c4fc96c60b396c6a1a2bdc7c69f4712b030873efd66c894bef47ae51b"
+        },
+        "expected": {
+          "bytes": 96879,
+          "sha256": "c301b94c4fc96c60b396c6a1a2bdc7c69f4712b030873efd66c894bef47ae51b"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\review_figures\\source_page_17-17.png",
+          "bytes": 275590,
+          "sha256": "fa9aa128be093e789721c994dc8c42a28a2d46db32030993d19a476cbea26138"
+        },
+        "expected": {
+          "bytes": 275590,
+          "sha256": "fa9aa128be093e789721c994dc8c42a28a2d46db32030993d19a476cbea26138"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\review_figures\\source_page_6-06.png",
+          "bytes": 597632,
+          "sha256": "a7c6f6b0c0686c13c4302cf7d96384719bef8b0bc6a14df26f8500acce40a38a"
+        },
+        "expected": {
+          "bytes": 597632,
+          "sha256": "a7c6f6b0c0686c13c4302cf7d96384719bef8b0bc6a14df26f8500acce40a38a"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\review_figures\\source_page_7-07.png",
+          "bytes": 350463,
+          "sha256": "6a84d977767e81a32bb7513ae9506dac6ccd90d1ca5230274a518e209f978055"
+        },
+        "expected": {
+          "bytes": 350463,
+          "sha256": "6a84d977767e81a32bb7513ae9506dac6ccd90d1ca5230274a518e209f978055"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\ACQUISITION_MANIFEST.json",
+          "bytes": 11377,
+          "sha256": "9ac766b2401d54caf805afed0e47e2a4d49c564eec872fc46772fadea9fd804f"
+        },
+        "expected": {
+          "bytes": 11377,
+          "sha256": "9ac766b2401d54caf805afed0e47e2a4d49c564eec872fc46772fadea9fd804f"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_data_loader.py",
+          "bytes": 3643,
+          "sha256": "c55f1d7f0b922c6cd970901b1e1207fd5108c6647068e9c24cfac3165ecc6394"
+        },
+        "expected": {
+          "bytes": 3643,
+          "sha256": "c55f1d7f0b922c6cd970901b1e1207fd5108c6647068e9c24cfac3165ecc6394"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_data_loader.py.request.json",
+          "bytes": 503,
+          "sha256": "55247d125546c4eb47c8aa996f3dc8f1b96565a24c78d2b5ebe9e2b98bf9da98"
+        },
+        "expected": {
+          "bytes": 503,
+          "sha256": "55247d125546c4eb47c8aa996f3dc8f1b96565a24c78d2b5ebe9e2b98bf9da98"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_probing.py",
+          "bytes": 20573,
+          "sha256": "33b3319b7e55453ca0d5c9061fd8e9f53dbdb9e24b66fc10123fa8564d5797c2"
+        },
+        "expected": {
+          "bytes": 20573,
+          "sha256": "33b3319b7e55453ca0d5c9061fd8e9f53dbdb9e24b66fc10123fa8564d5797c2"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_probing.py.request.json",
+          "bytes": 500,
+          "sha256": "89129744fdc38d59e927df853d7d497e3cf339962abfe41e7fa5fc7217fb67b0"
+        },
+        "expected": {
+          "bytes": 500,
+          "sha256": "89129744fdc38d59e927df853d7d497e3cf339962abfe41e7fa5fc7217fb67b0"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_r1_3_3_3_scalars_medical_aligned.pt",
+          "bytes": 4164624,
+          "sha256": "e44c670f8571cdc8bcf91aebbf377efe2ec7aac30579dcaea0d2c649dfb86359"
+        },
+        "expected": {
+          "bytes": 4164624,
+          "sha256": "e44c670f8571cdc8bcf91aebbf377efe2ec7aac30579dcaea0d2c649dfb86359"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_r1_3_3_3_scalars_medical_aligned.pt.request.json",
+          "bytes": 545,
+          "sha256": "dc14789bdbcfaeaa5e78793a5a500fa41c5132f49c68709ea46737722dc5d8a7"
+        },
+        "expected": {
+          "bytes": 545,
+          "sha256": "dc14789bdbcfaeaa5e78793a5a500fa41c5132f49c68709ea46737722dc5d8a7"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_r1_3_3_3_scalars_medical_misaligned.pt",
+          "bytes": 2931612,
+          "sha256": "0cd653d6ab48d3626e21867dbc5f1352542e48c4c4e0589431f51d1c586bfa03"
+        },
+        "expected": {
+          "bytes": 2931612,
+          "sha256": "0cd653d6ab48d3626e21867dbc5f1352542e48c4c4e0589431f51d1c586bfa03"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_r1_3_3_3_scalars_medical_misaligned.pt.request.json",
+          "bytes": 548,
+          "sha256": "522d735c4bba21dac95a20f135576675e31920a331f8871eeee056e6caea97b9"
+        },
+        "expected": {
+          "bytes": 548,
+          "sha256": "522d735c4bba21dac95a20f135576675e31920a331f8871eeee056e6caea97b9"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_r1_3_3_3_scalars_non_medical_aligned.pt",
+          "bytes": 8536160,
+          "sha256": "6f4fe84c6327fef77f5c07b5be8e18f858477f914eb708945096f16d9c669e5a"
+        },
+        "expected": {
+          "bytes": 8536160,
+          "sha256": "6f4fe84c6327fef77f5c07b5be8e18f858477f914eb708945096f16d9c669e5a"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_r1_3_3_3_scalars_non_medical_aligned.pt.request.json",
+          "bytes": 549,
+          "sha256": "f7f01a29c364d7c544293f490082916a0656bc3ae36402c35990153b2b77414f"
+        },
+        "expected": {
+          "bytes": 549,
+          "sha256": "f7f01a29c364d7c544293f490082916a0656bc3ae36402c35990153b2b77414f"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_r1_3_3_3_scalars_non_medical_misaligned.pt",
+          "bytes": 3181996,
+          "sha256": "c9cf89c7a72402e0391d4c5c77e29cf88737ee3a1bd0ff5f240601ef9d5d2a50"
+        },
+        "expected": {
+          "bytes": 3181996,
+          "sha256": "c9cf89c7a72402e0391d4c5c77e29cf88737ee3a1bd0ff5f240601ef9d5d2a50"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_r1_3_3_3_scalars_non_medical_misaligned.pt.request.json",
+          "bytes": 552,
+          "sha256": "22feaf334ada7b9c7610b5499daf941eafd82965c2dd325de6c865fe010928ba"
+        },
+        "expected": {
+          "bytes": 552,
+          "sha256": "22feaf334ada7b9c7610b5499daf941eafd82965c2dd325de6c865fe010928ba"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_steering.py",
+          "bytes": 10461,
+          "sha256": "bd24d7359786d1ab840bae601899fd354db69b0d4b58249e98774af292f1d57a"
+        },
+        "expected": {
+          "bytes": 10461,
+          "sha256": "bd24d7359786d1ab840bae601899fd354db69b0d4b58249e98774af292f1d57a"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_steering.py.request.json",
+          "bytes": 501,
+          "sha256": "20be0949573fbd246a19cf680637a3af68b2668d1c56187e1d7046ee9e994504"
+        },
+        "expected": {
+          "bytes": 501,
+          "sha256": "20be0949573fbd246a19cf680637a3af68b2668d1c56187e1d7046ee9e994504"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_utils.py",
+          "bytes": 10004,
+          "sha256": "33b7f9f2b9930852bb46a27afab6f6e37d94c7cfe1ce306ef4ff3695eb67846a"
+        },
+        "expected": {
+          "bytes": 10004,
+          "sha256": "33b7f9f2b9930852bb46a27afab6f6e37d94c7cfe1ce306ef4ff3695eb67846a"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_utils.py.request.json",
+          "bytes": 498,
+          "sha256": "45dab7e213e54cd41ab68c8e56174898ea95a8dafe5795166c49e93acfd99df7"
+        },
+        "expected": {
+          "bytes": 498,
+          "sha256": "45dab7e213e54cd41ab68c8e56174898ea95a8dafe5795166c49e93acfd99df7"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+          "bytes": 162638,
+          "sha256": "f3881f5dc2e7619c60dd6b928c9f28c1a5a9032231f109a294d1b43ccb4ce8b0"
+        },
+        "expected": {
+          "bytes": 162638,
+          "sha256": "f3881f5dc2e7619c60dd6b928c9f28c1a5a9032231f109a294d1b43ccb4ce8b0"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet.request.json",
+          "bytes": 566,
+          "sha256": "646e6b26634c2457c2ced992b8518d8da30da77393e6ae588d6faf18a23ac629"
+        },
+        "expected": {
+          "bytes": 566,
+          "sha256": "646e6b26634c2457c2ced992b8518d8da30da77393e6ae588d6faf18a23ac629"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\medical_aligned_data_3_3_3_kl_divergence.parquet",
+          "bytes": 194738,
+          "sha256": "2a0d57bd66d7eb444ab9836619905c0f24fdd4a9c12033f05b7427e1d204e1da"
+        },
+        "expected": {
+          "bytes": 194738,
+          "sha256": "2a0d57bd66d7eb444ab9836619905c0f24fdd4a9c12033f05b7427e1d204e1da"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\medical_aligned_data_3_3_3_kl_divergence.parquet.request.json",
+          "bytes": 548,
+          "sha256": "609b102137f65a84ef1e29cbfaa3e6d54d50967cad623d031b669224c83a571d"
+        },
+        "expected": {
+          "bytes": 548,
+          "sha256": "609b102137f65a84ef1e29cbfaa3e6d54d50967cad623d031b669224c83a571d"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+          "bytes": 130691,
+          "sha256": "e0d6a578e10eae1ec2be83686fa5c1e9b0a07eb8558fdad2c9666a6df8539b25"
+        },
+        "expected": {
+          "bytes": 130691,
+          "sha256": "e0d6a578e10eae1ec2be83686fa5c1e9b0a07eb8558fdad2c9666a6df8539b25"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet.request.json",
+          "bytes": 569,
+          "sha256": "d3698f8730a4d2dc083acb75694bed3a9baa98c03760ce9a6a08fd4bc0980792"
+        },
+        "expected": {
+          "bytes": 569,
+          "sha256": "d3698f8730a4d2dc083acb75694bed3a9baa98c03760ce9a6a08fd4bc0980792"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\medical_misaligned_data_3_3_3_kl_divergence.parquet",
+          "bytes": 154687,
+          "sha256": "14701318cda7d28dfc0ac2110a6d73f3374128a21ba1fc9c53a7fc72e72d8051"
+        },
+        "expected": {
+          "bytes": 154687,
+          "sha256": "14701318cda7d28dfc0ac2110a6d73f3374128a21ba1fc9c53a7fc72e72d8051"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\medical_misaligned_data_3_3_3_kl_divergence.parquet.request.json",
+          "bytes": 551,
+          "sha256": "8971238757eca57e9e06e742a8ec4ef761d6ff114a47efe1b0d4af601aca9af4"
+        },
+        "expected": {
+          "bytes": 551,
+          "sha256": "8971238757eca57e9e06e742a8ec4ef761d6ff114a47efe1b0d4af601aca9af4"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\non_medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+          "bytes": 334612,
+          "sha256": "d680fc9e3c1ce3574e851d5487670261800e83e205a044c9238a6bdfe08eec21"
+        },
+        "expected": {
+          "bytes": 334612,
+          "sha256": "d680fc9e3c1ce3574e851d5487670261800e83e205a044c9238a6bdfe08eec21"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\non_medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet.request.json",
+          "bytes": 570,
+          "sha256": "7ce3809d661c2d8b553846e09e13e501d0424d9eb2e038b5af139d44c80b2db3"
+        },
+        "expected": {
+          "bytes": 570,
+          "sha256": "7ce3809d661c2d8b553846e09e13e501d0424d9eb2e038b5af139d44c80b2db3"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\non_medical_aligned_data_3_3_3_kl_divergence.parquet",
+          "bytes": 391888,
+          "sha256": "628d264fbba04c9918bec163e0fa1203b7a8f08877beeb1b8fa0003f5dc2a3c6"
+        },
+        "expected": {
+          "bytes": 391888,
+          "sha256": "628d264fbba04c9918bec163e0fa1203b7a8f08877beeb1b8fa0003f5dc2a3c6"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\non_medical_aligned_data_3_3_3_kl_divergence.parquet.request.json",
+          "bytes": 552,
+          "sha256": "dc3defb29b4bb179e511bd25999a1f87c2a250d6d3455fe5937e09b3a3563763"
+        },
+        "expected": {
+          "bytes": 552,
+          "sha256": "dc3defb29b4bb179e511bd25999a1f87c2a250d6d3455fe5937e09b3a3563763"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\non_medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+          "bytes": 157548,
+          "sha256": "d4039eed6a5a9f5d6508af8acd88e6907b21a723540c8572e890befd861c125f"
+        },
+        "expected": {
+          "bytes": 157548,
+          "sha256": "d4039eed6a5a9f5d6508af8acd88e6907b21a723540c8572e890befd861c125f"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\non_medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet.request.json",
+          "bytes": 573,
+          "sha256": "4c8973f8e1637c7b9a92b0c588acbf146e07c8e645949e11f50fa5a565341d39"
+        },
+        "expected": {
+          "bytes": 573,
+          "sha256": "4c8973f8e1637c7b9a92b0c588acbf146e07c8e645949e11f50fa5a565341d39"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\non_medical_misaligned_data_3_3_3_kl_divergence.parquet",
+          "bytes": 180643,
+          "sha256": "28e201cc0d7c04d8283d886f9fb54bbab48f200bc6815c9f119d158478b44f5a"
+        },
+        "expected": {
+          "bytes": 180643,
+          "sha256": "28e201cc0d7c04d8283d886f9fb54bbab48f200bc6815c9f119d158478b44f5a"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\non_medical_misaligned_data_3_3_3_kl_divergence.parquet.request.json",
+          "bytes": 555,
+          "sha256": "de4883943c9c2b960bc96f5ab785be08e55ff0d5e7007a8017b6001001868e32"
+        },
+        "expected": {
+          "bytes": 555,
+          "sha256": "de4883943c9c2b960bc96f5ab785be08e55ff0d5e7007a8017b6001001868e32"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\paper_v1.pdf",
+          "bytes": 6774920,
+          "sha256": "dcd5c8d41f4176e2975033dbefaa24d9346d9be02b39d7bb83e1168333528966"
+        },
+        "expected": {
+          "bytes": 6774920,
+          "sha256": "dcd5c8d41f4176e2975033dbefaa24d9346d9be02b39d7bb83e1168333528966"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\paper_v1.pdf.request.json",
+          "bytes": 217,
+          "sha256": "7c30de4c4194cb9d18b495a2b45323b91079a8d06f11f90760a130790bc4d0be"
+        },
+        "expected": {
+          "bytes": 217,
+          "sha256": "7c30de4c4194cb9d18b495a2b45323b91079a8d06f11f90760a130790bc4d0be"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\responses_layer_15_-10_layer_16_-10_layer_17_-10_layer_21_30_layer_22_-10_layer_23_30_layer_28_-10_layer_29_-10.csv",
+          "bytes": 272038,
+          "sha256": "6b0ce92cf9ae90265a039c761d293537359c5326de3f0f774a08488c326627bb"
+        },
+        "expected": {
+          "bytes": 272038,
+          "sha256": "6b0ce92cf9ae90265a039c761d293537359c5326de3f0f774a08488c326627bb"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\responses_layer_15_-10_layer_16_-10_layer_17_-10_layer_21_30_layer_22_-10_layer_23_30_layer_28_-10_layer_29_-10.csv.request.json",
+          "bytes": 628,
+          "sha256": "c8ad7bfa69aa309c6791616bd613fdcfe94f955f0d04d86a5ff39a49888147de"
+        },
+        "expected": {
+          "bytes": 628,
+          "sha256": "c8ad7bfa69aa309c6791616bd613fdcfe94f955f0d04d86a5ff39a49888147de"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\responses_layer_15_20_layer_16_20_layer_17_20_layer_22_20_layer_28_20_layer_29_20.csv",
+          "bytes": 42718,
+          "sha256": "ed66b58cd9eab38c04bfd7d3e361e682433ca78921cc00fa688f6de9ee7251c5"
+        },
+        "expected": {
+          "bytes": 42718,
+          "sha256": "ed66b58cd9eab38c04bfd7d3e361e682433ca78921cc00fa688f6de9ee7251c5"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\responses_layer_15_20_layer_16_20_layer_17_20_layer_22_20_layer_28_20_layer_29_20.csv.request.json",
+          "bytes": 597,
+          "sha256": "b535150b950770093de032426e78d68f992adf371bcfaf2267ecc9a0f26a7ff0"
+        },
+        "expected": {
+          "bytes": 597,
+          "sha256": "b535150b950770093de032426e78d68f992adf371bcfaf2267ecc9a0f26a7ff0"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\responses_layer_21_30_layer_23_30.csv",
+          "bytes": 88067,
+          "sha256": "311befe7cae6aba0ea4c031edfd554e7a3c19220128963a789ba462cdd76e6a8"
+        },
+        "expected": {
+          "bytes": 88067,
+          "sha256": "311befe7cae6aba0ea4c031edfd554e7a3c19220128963a789ba462cdd76e6a8"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\responses_layer_21_30_layer_23_30.csv.request.json",
+          "bytes": 549,
+          "sha256": "ef44046788a1601ceabccc2e254c4a07c72c4640d5cd9f552d416ebd8e939da6"
+        },
+        "expected": {
+          "bytes": 549,
+          "sha256": "ef44046788a1601ceabccc2e254c4a07c72c4640d5cd9f552d416ebd8e939da6"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\sklearn_1_8_logistic_source.py",
+          "bytes": 89134,
+          "sha256": "b52ddd68b8e673731564f8a981bb6495eefb714bad496c7c329cb06fad45f95a"
+        },
+        "expected": {
+          "bytes": 89134,
+          "sha256": "b52ddd68b8e673731564f8a981bb6495eefb714bad496c7c329cb06fad45f95a"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\SOURCE_ACQUISITION_PLAN.json",
+          "bytes": 3532,
+          "sha256": "36fb8568b632cb48e9793c629485393013e53702ba8693775945eb86eeb3c6be"
+        },
+        "expected": {
+          "bytes": 3532,
+          "sha256": "36fb8568b632cb48e9793c629485393013e53702ba8693775945eb86eeb3c6be"
+        },
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\ACQUISITION_MANIFEST.json",
+          "bytes": 11377,
+          "sha256": "9ac766b2401d54caf805afed0e47e2a4d49c564eec872fc46772fadea9fd804f"
+        },
+        "expected_sha256": "9ac766b2401d54caf805afed0e47e2a4d49c564eec872fc46772fadea9fd804f",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_data_loader.py",
+          "bytes": 3643,
+          "sha256": "c55f1d7f0b922c6cd970901b1e1207fd5108c6647068e9c24cfac3165ecc6394"
+        },
+        "expected_sha256": "c55f1d7f0b922c6cd970901b1e1207fd5108c6647068e9c24cfac3165ecc6394",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_data_loader.py.request.json",
+          "bytes": 503,
+          "sha256": "55247d125546c4eb47c8aa996f3dc8f1b96565a24c78d2b5ebe9e2b98bf9da98"
+        },
+        "expected_sha256": "55247d125546c4eb47c8aa996f3dc8f1b96565a24c78d2b5ebe9e2b98bf9da98",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_probing.py",
+          "bytes": 20573,
+          "sha256": "33b3319b7e55453ca0d5c9061fd8e9f53dbdb9e24b66fc10123fa8564d5797c2"
+        },
+        "expected_sha256": "33b3319b7e55453ca0d5c9061fd8e9f53dbdb9e24b66fc10123fa8564d5797c2",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_probing.py.request.json",
+          "bytes": 500,
+          "sha256": "89129744fdc38d59e927df853d7d497e3cf339962abfe41e7fa5fc7217fb67b0"
+        },
+        "expected_sha256": "89129744fdc38d59e927df853d7d497e3cf339962abfe41e7fa5fc7217fb67b0",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_r1_3_3_3_scalars_medical_aligned.pt",
+          "bytes": 4164624,
+          "sha256": "e44c670f8571cdc8bcf91aebbf377efe2ec7aac30579dcaea0d2c649dfb86359"
+        },
+        "expected_sha256": "e44c670f8571cdc8bcf91aebbf377efe2ec7aac30579dcaea0d2c649dfb86359",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_r1_3_3_3_scalars_medical_aligned.pt.request.json",
+          "bytes": 545,
+          "sha256": "dc14789bdbcfaeaa5e78793a5a500fa41c5132f49c68709ea46737722dc5d8a7"
+        },
+        "expected_sha256": "dc14789bdbcfaeaa5e78793a5a500fa41c5132f49c68709ea46737722dc5d8a7",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_r1_3_3_3_scalars_medical_misaligned.pt",
+          "bytes": 2931612,
+          "sha256": "0cd653d6ab48d3626e21867dbc5f1352542e48c4c4e0589431f51d1c586bfa03"
+        },
+        "expected_sha256": "0cd653d6ab48d3626e21867dbc5f1352542e48c4c4e0589431f51d1c586bfa03",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_r1_3_3_3_scalars_medical_misaligned.pt.request.json",
+          "bytes": 548,
+          "sha256": "522d735c4bba21dac95a20f135576675e31920a331f8871eeee056e6caea97b9"
+        },
+        "expected_sha256": "522d735c4bba21dac95a20f135576675e31920a331f8871eeee056e6caea97b9",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_r1_3_3_3_scalars_non_medical_aligned.pt",
+          "bytes": 8536160,
+          "sha256": "6f4fe84c6327fef77f5c07b5be8e18f858477f914eb708945096f16d9c669e5a"
+        },
+        "expected_sha256": "6f4fe84c6327fef77f5c07b5be8e18f858477f914eb708945096f16d9c669e5a",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_r1_3_3_3_scalars_non_medical_aligned.pt.request.json",
+          "bytes": 549,
+          "sha256": "f7f01a29c364d7c544293f490082916a0656bc3ae36402c35990153b2b77414f"
+        },
+        "expected_sha256": "f7f01a29c364d7c544293f490082916a0656bc3ae36402c35990153b2b77414f",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_r1_3_3_3_scalars_non_medical_misaligned.pt",
+          "bytes": 3181996,
+          "sha256": "c9cf89c7a72402e0391d4c5c77e29cf88737ee3a1bd0ff5f240601ef9d5d2a50"
+        },
+        "expected_sha256": "c9cf89c7a72402e0391d4c5c77e29cf88737ee3a1bd0ff5f240601ef9d5d2a50",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_r1_3_3_3_scalars_non_medical_misaligned.pt.request.json",
+          "bytes": 552,
+          "sha256": "22feaf334ada7b9c7610b5499daf941eafd82965c2dd325de6c865fe010928ba"
+        },
+        "expected_sha256": "22feaf334ada7b9c7610b5499daf941eafd82965c2dd325de6c865fe010928ba",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_steering.py",
+          "bytes": 10461,
+          "sha256": "bd24d7359786d1ab840bae601899fd354db69b0d4b58249e98774af292f1d57a"
+        },
+        "expected_sha256": "bd24d7359786d1ab840bae601899fd354db69b0d4b58249e98774af292f1d57a",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_steering.py.request.json",
+          "bytes": 501,
+          "sha256": "20be0949573fbd246a19cf680637a3af68b2668d1c56187e1d7046ee9e994504"
+        },
+        "expected_sha256": "20be0949573fbd246a19cf680637a3af68b2668d1c56187e1d7046ee9e994504",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_utils.py",
+          "bytes": 10004,
+          "sha256": "33b7f9f2b9930852bb46a27afab6f6e37d94c7cfe1ce306ef4ff3695eb67846a"
+        },
+        "expected_sha256": "33b7f9f2b9930852bb46a27afab6f6e37d94c7cfe1ce306ef4ff3695eb67846a",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_utils.py.request.json",
+          "bytes": 498,
+          "sha256": "45dab7e213e54cd41ab68c8e56174898ea95a8dafe5795166c49e93acfd99df7"
+        },
+        "expected_sha256": "45dab7e213e54cd41ab68c8e56174898ea95a8dafe5795166c49e93acfd99df7",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+          "bytes": 162638,
+          "sha256": "f3881f5dc2e7619c60dd6b928c9f28c1a5a9032231f109a294d1b43ccb4ce8b0"
+        },
+        "expected_sha256": "f3881f5dc2e7619c60dd6b928c9f28c1a5a9032231f109a294d1b43ccb4ce8b0",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet.request.json",
+          "bytes": 566,
+          "sha256": "646e6b26634c2457c2ced992b8518d8da30da77393e6ae588d6faf18a23ac629"
+        },
+        "expected_sha256": "646e6b26634c2457c2ced992b8518d8da30da77393e6ae588d6faf18a23ac629",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\medical_aligned_data_3_3_3_kl_divergence.parquet",
+          "bytes": 194738,
+          "sha256": "2a0d57bd66d7eb444ab9836619905c0f24fdd4a9c12033f05b7427e1d204e1da"
+        },
+        "expected_sha256": "2a0d57bd66d7eb444ab9836619905c0f24fdd4a9c12033f05b7427e1d204e1da",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\medical_aligned_data_3_3_3_kl_divergence.parquet.request.json",
+          "bytes": 548,
+          "sha256": "609b102137f65a84ef1e29cbfaa3e6d54d50967cad623d031b669224c83a571d"
+        },
+        "expected_sha256": "609b102137f65a84ef1e29cbfaa3e6d54d50967cad623d031b669224c83a571d",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+          "bytes": 130691,
+          "sha256": "e0d6a578e10eae1ec2be83686fa5c1e9b0a07eb8558fdad2c9666a6df8539b25"
+        },
+        "expected_sha256": "e0d6a578e10eae1ec2be83686fa5c1e9b0a07eb8558fdad2c9666a6df8539b25",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet.request.json",
+          "bytes": 569,
+          "sha256": "d3698f8730a4d2dc083acb75694bed3a9baa98c03760ce9a6a08fd4bc0980792"
+        },
+        "expected_sha256": "d3698f8730a4d2dc083acb75694bed3a9baa98c03760ce9a6a08fd4bc0980792",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\medical_misaligned_data_3_3_3_kl_divergence.parquet",
+          "bytes": 154687,
+          "sha256": "14701318cda7d28dfc0ac2110a6d73f3374128a21ba1fc9c53a7fc72e72d8051"
+        },
+        "expected_sha256": "14701318cda7d28dfc0ac2110a6d73f3374128a21ba1fc9c53a7fc72e72d8051",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\medical_misaligned_data_3_3_3_kl_divergence.parquet.request.json",
+          "bytes": 551,
+          "sha256": "8971238757eca57e9e06e742a8ec4ef761d6ff114a47efe1b0d4af601aca9af4"
+        },
+        "expected_sha256": "8971238757eca57e9e06e742a8ec4ef761d6ff114a47efe1b0d4af601aca9af4",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\non_medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+          "bytes": 334612,
+          "sha256": "d680fc9e3c1ce3574e851d5487670261800e83e205a044c9238a6bdfe08eec21"
+        },
+        "expected_sha256": "d680fc9e3c1ce3574e851d5487670261800e83e205a044c9238a6bdfe08eec21",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\non_medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet.request.json",
+          "bytes": 570,
+          "sha256": "7ce3809d661c2d8b553846e09e13e501d0424d9eb2e038b5af139d44c80b2db3"
+        },
+        "expected_sha256": "7ce3809d661c2d8b553846e09e13e501d0424d9eb2e038b5af139d44c80b2db3",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\non_medical_aligned_data_3_3_3_kl_divergence.parquet",
+          "bytes": 391888,
+          "sha256": "628d264fbba04c9918bec163e0fa1203b7a8f08877beeb1b8fa0003f5dc2a3c6"
+        },
+        "expected_sha256": "628d264fbba04c9918bec163e0fa1203b7a8f08877beeb1b8fa0003f5dc2a3c6",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\non_medical_aligned_data_3_3_3_kl_divergence.parquet.request.json",
+          "bytes": 552,
+          "sha256": "dc3defb29b4bb179e511bd25999a1f87c2a250d6d3455fe5937e09b3a3563763"
+        },
+        "expected_sha256": "dc3defb29b4bb179e511bd25999a1f87c2a250d6d3455fe5937e09b3a3563763",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\non_medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+          "bytes": 157548,
+          "sha256": "d4039eed6a5a9f5d6508af8acd88e6907b21a723540c8572e890befd861c125f"
+        },
+        "expected_sha256": "d4039eed6a5a9f5d6508af8acd88e6907b21a723540c8572e890befd861c125f",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\non_medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet.request.json",
+          "bytes": 573,
+          "sha256": "4c8973f8e1637c7b9a92b0c588acbf146e07c8e645949e11f50fa5a565341d39"
+        },
+        "expected_sha256": "4c8973f8e1637c7b9a92b0c588acbf146e07c8e645949e11f50fa5a565341d39",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\non_medical_misaligned_data_3_3_3_kl_divergence.parquet",
+          "bytes": 180643,
+          "sha256": "28e201cc0d7c04d8283d886f9fb54bbab48f200bc6815c9f119d158478b44f5a"
+        },
+        "expected_sha256": "28e201cc0d7c04d8283d886f9fb54bbab48f200bc6815c9f119d158478b44f5a",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\non_medical_misaligned_data_3_3_3_kl_divergence.parquet.request.json",
+          "bytes": 555,
+          "sha256": "de4883943c9c2b960bc96f5ab785be08e55ff0d5e7007a8017b6001001868e32"
+        },
+        "expected_sha256": "de4883943c9c2b960bc96f5ab785be08e55ff0d5e7007a8017b6001001868e32",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\paper_v1.pdf",
+          "bytes": 6774920,
+          "sha256": "dcd5c8d41f4176e2975033dbefaa24d9346d9be02b39d7bb83e1168333528966"
+        },
+        "expected_sha256": "dcd5c8d41f4176e2975033dbefaa24d9346d9be02b39d7bb83e1168333528966",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\paper_v1.pdf.request.json",
+          "bytes": 217,
+          "sha256": "7c30de4c4194cb9d18b495a2b45323b91079a8d06f11f90760a130790bc4d0be"
+        },
+        "expected_sha256": "7c30de4c4194cb9d18b495a2b45323b91079a8d06f11f90760a130790bc4d0be",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\responses_layer_15_-10_layer_16_-10_layer_17_-10_layer_21_30_layer_22_-10_layer_23_30_layer_28_-10_layer_29_-10.csv",
+          "bytes": 272038,
+          "sha256": "6b0ce92cf9ae90265a039c761d293537359c5326de3f0f774a08488c326627bb"
+        },
+        "expected_sha256": "6b0ce92cf9ae90265a039c761d293537359c5326de3f0f774a08488c326627bb",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\responses_layer_15_-10_layer_16_-10_layer_17_-10_layer_21_30_layer_22_-10_layer_23_30_layer_28_-10_layer_29_-10.csv.request.json",
+          "bytes": 628,
+          "sha256": "c8ad7bfa69aa309c6791616bd613fdcfe94f955f0d04d86a5ff39a49888147de"
+        },
+        "expected_sha256": "c8ad7bfa69aa309c6791616bd613fdcfe94f955f0d04d86a5ff39a49888147de",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\responses_layer_15_20_layer_16_20_layer_17_20_layer_22_20_layer_28_20_layer_29_20.csv",
+          "bytes": 42718,
+          "sha256": "ed66b58cd9eab38c04bfd7d3e361e682433ca78921cc00fa688f6de9ee7251c5"
+        },
+        "expected_sha256": "ed66b58cd9eab38c04bfd7d3e361e682433ca78921cc00fa688f6de9ee7251c5",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\responses_layer_15_20_layer_16_20_layer_17_20_layer_22_20_layer_28_20_layer_29_20.csv.request.json",
+          "bytes": 597,
+          "sha256": "b535150b950770093de032426e78d68f992adf371bcfaf2267ecc9a0f26a7ff0"
+        },
+        "expected_sha256": "b535150b950770093de032426e78d68f992adf371bcfaf2267ecc9a0f26a7ff0",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\responses_layer_21_30_layer_23_30.csv",
+          "bytes": 88067,
+          "sha256": "311befe7cae6aba0ea4c031edfd554e7a3c19220128963a789ba462cdd76e6a8"
+        },
+        "expected_sha256": "311befe7cae6aba0ea4c031edfd554e7a3c19220128963a789ba462cdd76e6a8",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\responses_layer_21_30_layer_23_30.csv.request.json",
+          "bytes": 549,
+          "sha256": "ef44046788a1601ceabccc2e254c4a07c72c4640d5cd9f552d416ebd8e939da6"
+        },
+        "expected_sha256": "ef44046788a1601ceabccc2e254c4a07c72c4640d5cd9f552d416ebd8e939da6",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\SOURCE_ACQUISITION_PLAN.json",
+          "bytes": 3532,
+          "sha256": "36fb8568b632cb48e9793c629485393013e53702ba8693775945eb86eeb3c6be"
+        },
+        "expected_sha256": "36fb8568b632cb48e9793c629485393013e53702ba8693775945eb86eeb3c6be",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\review_figures\\source_page_17-17.png",
+          "bytes": 275590,
+          "sha256": "fa9aa128be093e789721c994dc8c42a28a2d46db32030993d19a476cbea26138"
+        },
+        "expected_sha256": "fa9aa128be093e789721c994dc8c42a28a2d46db32030993d19a476cbea26138",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\review_figures\\source_page_6-06.png",
+          "bytes": 597632,
+          "sha256": "a7c6f6b0c0686c13c4302cf7d96384719bef8b0bc6a14df26f8500acce40a38a"
+        },
+        "expected_sha256": "a7c6f6b0c0686c13c4302cf7d96384719bef8b0bc6a14df26f8500acce40a38a",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\review_figures\\source_page_7-07.png",
+          "bytes": 350463,
+          "sha256": "6a84d977767e81a32bb7513ae9506dac6ccd90d1ca5230274a518e209f978055"
+        },
+        "expected_sha256": "6a84d977767e81a32bb7513ae9506dac6ccd90d1ca5230274a518e209f978055",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\STRUCTURAL_REVIEW.json",
+          "bytes": 9039,
+          "sha256": "05d78965fd208a6cedc64c6e5bd8e5324203ae149d2453e5d76c37fb16f7c6d3"
+        },
+        "expected_sha256": "05d78965fd208a6cedc64c6e5bd8e5324203ae149d2453e5d76c37fb16f7c6d3",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\SAFE_STRUCTURAL_VALIDATION.json",
+          "bytes": 140010,
+          "sha256": "589e3017d5fe3599a7cdc2b9e727a9e3bf473e300fe041af78144f1a4f31f3ae"
+        },
+        "expected_sha256": "589e3017d5fe3599a7cdc2b9e727a9e3bf473e300fe041af78144f1a4f31f3ae",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\run_probe.py",
+          "bytes": 10208,
+          "sha256": "d723a6697fe7259e5f9648a50dc0823c0c13e4e566a206aa3fa80f7a37bbfb2a"
+        },
+        "expected_sha256": "d723a6697fe7259e5f9648a50dc0823c0c13e4e566a206aa3fa80f7a37bbfb2a",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\literature\\papers\\2506.11618\\record.json",
+          "bytes": 1523,
+          "sha256": "847330356e184fc97d620d85638b8fc33f10a4e1d602e147d97c20cd38b688f7"
+        },
+        "expected_sha256": "847330356e184fc97d620d85638b8fc33f10a4e1d602e147d97c20cd38b688f7",
+        "pass": true
+      },
+      {
+        "actual": {
+          "path": "{{REPRODUCTION_ROOT}}\\literature\\papers\\2506.11618\\paper_v1.txt",
+          "bytes": 74769,
+          "sha256": "5e421ce2e0eebd5e64df080d09d8e4e59c239139e1357de415fec5dfd6f1f7d2"
+        },
+        "expected_sha256": "5e421ce2e0eebd5e64df080d09d8e4e59c239139e1357de415fec5dfd6f1f7d2",
+        "pass": true
+      }
+    ],
+    "launch_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\LAUNCH.json",
+      "bytes": 533,
+      "sha256": "dc8ae10768e70f014cb2daca9a91291ef881c66eda299adbcc4f27c4749fd210"
+    },
+    "audit_launch_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\AUDIT_LAUNCH.json",
+      "bytes": 656,
+      "sha256": "c41a6e2ade6c34a5443da1188c3c4c24d1e55401bea8e3a29b8ff99e94c57418"
+    },
+    "run_manifest_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P028-central-001\\manifest.json",
+      "bytes": 1597,
+      "sha256": "e62f9073ef6426a5bfeb4242ff4889dc08a60ab49c1e83cab25526d0f306cbb0"
+    },
+    "source_acquisition_manifest_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\ACQUISITION_MANIFEST.json",
+      "bytes": 11377,
+      "sha256": "9ac766b2401d54caf805afed0e47e2a4d49c564eec872fc46772fadea9fd804f"
+    },
+    "original_plan_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\PREREGISTRATION.json",
+      "bytes": 11853,
+      "sha256": "2856eddf8cdb00730588552f3d7149d8b05e47134ba3d741e77359f4d122b89d"
+    },
+    "original_runner_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\run_probe.py",
+      "bytes": 10208,
+      "sha256": "d723a6697fe7259e5f9648a50dc0823c0c13e4e566a206aa3fa80f7a37bbfb2a"
+    },
+    "independent_auditor_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\audit_probe.py",
+      "bytes": 8531,
+      "sha256": "12ece342a37ec256ace9e974a17c8b1dffec6e9fcf3642b0cb26508881f6faf8"
+    },
+    "raw_NPZ_PT_Parquet_handling": "Opaque chunked hash only. No load, unpickle, Parquet/NPZ decode, classifier refit or heldoutstatistical recalculation.",
+    "actual_old_execution": "Both archived launch receipts shell_exit0; runstatuscompleted/exit0. Prereg17:45:16 precedesrun17:45:44..17:47:05; independent audit17:49:40..17:50:20. Modern fullretainednativehandlecertificate not required retroactively and not asserted.",
+    "independence": "Archived audit source independently rebuilds original matrices with restrictedreader, recreates sampling/normalization/splits, manually scores five metrics including tiedrankAUROC and independently refits all1200 classifiers. Shared public liblinear estimator/runtime means it is not an independently implemented optimizer; this limitation does not erase complete independent input/identity/refit/metric checks."
+  },
+  "scientific_limits": [
+    "CENTRAL is the entire separately substantive original logistic-probe study, not FULL fine-tuning/causal steering/ablation/generalization acrossfresh model generations.",
+    "All897 original classlabels retained; underlying original judge score selection thresholds cannot be independently revalidated because those scores are unreleased.",
+    "Original global z-scoring occurs before token-level split. Tokens from one response can enter bothtrain andtest; the result is not heldout-response generalization.",
+    "Historical interactive RNGstream order and original analysis-libraryversions unavailable; predeclared primary scopeorders/seed0/paper100repetitions and liblinearL1C.01 preserved.400reset diagnostics never rescue primary.",
+    "A1percentagepoint near bound is practical agreement, not proof of statistical equivalence or a demonstrated cause of three Table1 discrepancies. AcrossfitSD is not independent-response uncertainty.",
+    "Both sourcecorrections and near bound are disclosed post-outcome choices. Neither is relabelled an original blind preregistration; old59/64/fivefailure records remain.",
+    "One inspection metadata reader raised KeyError from treating a dictmanifest as list after printing comparisons; corrected dictiteration only, no source/result write or scientific rerun."
+  ],
+  "all194_metadata_checks": [
+    {
+      "name": "old59of64",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "6083_all_individual_checks",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all1200_converged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all12_scopes_100fits",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_1_accuracy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_1_precision",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_1_recall",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_1_f1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_1_auroc",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_2_accuracy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_2_precision",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_2_recall",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_2_f1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_2_auroc",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_3_accuracy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_3_precision",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_3_recall",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_3_f1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_3_auroc",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_4_accuracy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_4_precision",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_4_recall",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_4_f1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "table_source_summary_4_auroc",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure6_1:15",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure6_1:16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure6_1:17",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure6_1:21",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure6_1:22",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure6_1:23",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure6_1:27",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure6_1:28",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure6_1:29",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure6_4:15",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure6_4:16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure6_4:17",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure6_4:21",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure6_4:22",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure6_4:23",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure6_4:27",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure6_4:28",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure6_4:29",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure17_1:15",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure17_1:16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure17_1:17",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure17_1:21",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure17_1:22",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure17_1:23",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure17_1:27",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure17_1:28",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure17_1:29",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure17_4:15",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure17_4:16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure17_4:17",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure17_4:21",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure17_4:22",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure17_4:23",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure17_4:27",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "exact_documented_correction_figure17_4:27",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure17_4:28",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "exact_documented_correction_figure17_4:28",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "figure_summary_figure17_4:29",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "whole64_near",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "whole_counts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "8claims_rechecked_from_archived_aggregates",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "full_original_cohort897_55386",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "historical_launches_0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prospective_plan_precedes_run",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "archived_runner_auditor_plan_pins",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_runs\\P028-central-001/comparison.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_runs\\P028-central-001/features.npz",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_runs\\P028-central-001/heldout_predictions.npz",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_runs\\P028-central-001/regressions.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_audits\\P028-audit-001/medical_aligned_token_provenance.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_audits\\P028-audit-001/medical_misaligned_token_provenance.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_audits\\P028-audit-001/non_medical_aligned_token_provenance.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_audits\\P028-audit-001/non_medical_misaligned_token_provenance.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/AUDIT_CONSOLE.txt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/AUDIT_LAUNCH.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/audit_probe.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/CONSOLE.txt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/DEPENDENCY_REVIEW.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/LAUNCH.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/PREREGISTRATION.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/REPORT.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/run_probe.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/SAFE_STRUCTURAL_VALIDATION.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/SETUP_FAILURES.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/STRUCTURAL_REVIEW.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/write_report.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/output\\coefficient_distributions.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/output\\table_metrics.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/review_figures\\source_page_17-17.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/review_figures\\source_page_6-06.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/review_figures\\source_page_7-07.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\ACQUISITION_MANIFEST.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\lora_data_loader.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\lora_data_loader.py.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\lora_probing.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\lora_probing.py.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\lora_r1_3_3_3_scalars_medical_aligned.pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\lora_r1_3_3_3_scalars_medical_aligned.pt.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\lora_r1_3_3_3_scalars_medical_misaligned.pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\lora_r1_3_3_3_scalars_medical_misaligned.pt.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\lora_r1_3_3_3_scalars_non_medical_aligned.pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\lora_r1_3_3_3_scalars_non_medical_aligned.pt.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\lora_r1_3_3_3_scalars_non_medical_misaligned.pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\lora_r1_3_3_3_scalars_non_medical_misaligned.pt.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\lora_steering.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\lora_steering.py.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\lora_utils.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\lora_utils.py.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\medical_aligned_data_3_3_3_kl_divergence.parquet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\medical_aligned_data_3_3_3_kl_divergence.parquet.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\medical_misaligned_data_3_3_3_kl_divergence.parquet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\medical_misaligned_data_3_3_3_kl_divergence.parquet.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\non_medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\non_medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\non_medical_aligned_data_3_3_3_kl_divergence.parquet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\non_medical_aligned_data_3_3_3_kl_divergence.parquet.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\non_medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\non_medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\non_medical_misaligned_data_3_3_3_kl_divergence.parquet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\non_medical_misaligned_data_3_3_3_kl_divergence.parquet.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\paper_v1.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\paper_v1.pdf.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\responses_layer_15_-10_layer_16_-10_layer_17_-10_layer_21_30_layer_22_-10_layer_23_30_layer_28_-10_layer_29_-10.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\responses_layer_15_-10_layer_16_-10_layer_17_-10_layer_21_30_layer_22_-10_layer_23_30_layer_28_-10_layer_29_-10.csv.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\responses_layer_15_20_layer_16_20_layer_17_20_layer_22_20_layer_28_20_layer_29_20.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\responses_layer_15_20_layer_16_20_layer_17_20_layer_22_20_layer_28_20_layer_29_20.csv.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\responses_layer_21_30_layer_23_30.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\responses_layer_21_30_layer_23_30.csv.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\sklearn_1_8_logistic_source.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_papers\\P028_convergent_em/sources\\SOURCE_ACQUISITION_PLAN.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/ACQUISITION_MANIFEST.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/lora_data_loader.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/lora_data_loader.py.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/lora_probing.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/lora_probing.py.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/lora_r1_3_3_3_scalars_medical_aligned.pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/lora_r1_3_3_3_scalars_medical_aligned.pt.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/lora_r1_3_3_3_scalars_medical_misaligned.pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/lora_r1_3_3_3_scalars_medical_misaligned.pt.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/lora_r1_3_3_3_scalars_non_medical_aligned.pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/lora_r1_3_3_3_scalars_non_medical_aligned.pt.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/lora_r1_3_3_3_scalars_non_medical_misaligned.pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/lora_r1_3_3_3_scalars_non_medical_misaligned.pt.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/lora_steering.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/lora_steering.py.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/lora_utils.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/lora_utils.py.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/medical_aligned_data_3_3_3_kl_divergence.parquet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/medical_aligned_data_3_3_3_kl_divergence.parquet.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/medical_misaligned_data_3_3_3_kl_divergence.parquet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/medical_misaligned_data_3_3_3_kl_divergence.parquet.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/non_medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/non_medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/non_medical_aligned_data_3_3_3_kl_divergence.parquet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/non_medical_aligned_data_3_3_3_kl_divergence.parquet.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/non_medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/non_medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/non_medical_misaligned_data_3_3_3_kl_divergence.parquet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/non_medical_misaligned_data_3_3_3_kl_divergence.parquet.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/paper_v1.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/paper_v1.pdf.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/responses_layer_15_-10_layer_16_-10_layer_17_-10_layer_21_30_layer_22_-10_layer_23_30_layer_28_-10_layer_29_-10.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/responses_layer_15_-10_layer_16_-10_layer_17_-10_layer_21_30_layer_22_-10_layer_23_30_layer_28_-10_layer_29_-10.csv.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/responses_layer_15_20_layer_16_20_layer_17_20_layer_22_20_layer_28_20_layer_29_20.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/responses_layer_15_20_layer_16_20_layer_17_20_layer_22_20_layer_28_20_layer_29_20.csv.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/responses_layer_21_30_layer_23_30.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/responses_layer_21_30_layer_23_30.csv.request.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/sources/SOURCE_ACQUISITION_PLAN.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/review_figures/source_page_17-17.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/review_figures/source_page_6-06.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/review_figures/source_page_7-07.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/STRUCTURAL_REVIEW.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/SAFE_STRUCTURAL_VALIDATION.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_papers/P028_convergent_em/run_probe.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_literature/papers/2506.11618/record.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_literature/papers/2506.11618/paper_v1.txt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "eligibility_retained71_June13",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rule_source_report",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rule_source_primary",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rule_source_audit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rule_source_plan",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rule_source_original_Fig17",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "all_checks_pass": true,
+  "read_extent": "Complete oldreport/prereg/930/auditor source/64comparison vector/6083checkbooleans/manifests and relevant runner gate source; complete originalpage17PNG viewed; primary cachedabstract/date/title metadata checked. No claim wholepaper or all archivedraw arrays reread.",
+  "operations": {
+    "raw_statistical_bank_read": false,
+    "statistical_rerun_or_refit": false,
+    "scientific_imports": false,
+    "new_clock_or_grant": false,
+    "network_or_count_refresh": false,
+    "registry_write": false,
+    "FULL_claim": false,
+    "paper_credit_awarded": false
+  },
+  "all_writers_closed_after_seal": true
+}

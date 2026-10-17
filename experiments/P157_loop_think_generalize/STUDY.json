@@ -1,0 +1,17 @@
+{
+  "ordinal": 19,
+  "paper_id": "P157",
+  "title": "Loop, Think, & Generalize: Implicit Reasoning in Recurrent-Depth Transformers",
+  "classification": "Bounded NEAR",
+  "recorded_public_date": "2026-04-08 substantive README; 2026-04-09 paper v1",
+  "window": "Main",
+  "citations": 37,
+  "provider": "Semantic Scholar",
+  "capture_time_supported": false,
+  "route": "Original checkpoint inference",
+  "result_and_scope": "All9 checkpoints/29,250 examples/40 recurrences/both adaptive policies/3,279 figure cells. Max distance outside figure-compatible union0.015625pp; all panel/cell bounds met. Strict3278/3279 remains; audit does not replay every neural forward.",
+  "DOI": null,
+  "arxiv_id": "2604.07822",
+  "preserved_limits": "All9 checkpoints/fixed recurrences/both adaptive policies; whole audit did not rerun all neural forwards. Figure-derived interval agreement, unreleased raw author accuracies unavailable; conservative any-compatible-source bound .745833333pp is descriptive1014. Training/other seeds/figures excluded. Earlier operational failures/direct-only custody limits retained.",
+  "whole_paper_reproduction": false
+}

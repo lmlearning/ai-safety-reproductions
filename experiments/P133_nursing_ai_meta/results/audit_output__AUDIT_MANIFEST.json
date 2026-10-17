@@ -1,0 +1,49 @@
+{
+  "utc": "2026-10-11T08:34:22.232862+00:00",
+  "files": [
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\audits\\P133-original-independent-auditor003-029\\audit_output\\ALL_INDEPENDENT_CHECKS.jsonl",
+      "bytes": 59094822,
+      "sha256": "b401aa4f5129ca188fe9f6d41d1932bf092737ce17e7bbe86b2488d2156b9221"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\audits\\P133-original-independent-auditor003-029\\audit_output\\AUDIT_STATUS.json",
+      "bytes": 47065,
+      "sha256": "8c44857a325186863fdaa0a736d596f3dd5a89ac914d03e13412455ec98e3242"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\audits\\P133-original-independent-auditor003-029\\audit_output\\INDEPENDENT_ALL506_SOURCE_COMPARISONS.json",
+      "bytes": 303003,
+      "sha256": "54a8de30abae879ad3134ec2f3c822434912d9ad37810d71f5fc99784fd493ba"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\audits\\P133-original-independent-auditor003-029\\audit_output\\INDEPENDENT_CANONICAL_INPUT.json",
+      "bytes": 369453,
+      "sha256": "0cbe62fae3345a85ecd51d086db6a62b2eafda4423a8f5c5cd1314cc23572d45"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\audits\\P133-original-independent-auditor003-029\\audit_output\\INDEPENDENT_COMPLETE_RESULT.json",
+      "bytes": 11900036,
+      "sha256": "77f6932e09bc8510a604f5228dc9f501629f116aec84197b832d062148bb6b84"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\audits\\P133-original-independent-auditor003-029\\audit_output\\INDEPENDENT_SUPPORTING_CLAIM_DIAGNOSTICS.json",
+      "bytes": 640,
+      "sha256": "5af4f3e65c6b6f28d25e1a5a2eb2f63efc5e02c8e74b3ecfe26b302f2b6a1b33"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\audits\\P133-original-independent-auditor003-029\\audit_output\\phase_events.jsonl",
+      "bytes": 5014,
+      "sha256": "d9dc7c69da1b75bba1b37b79652d599d0eee1556e2b20c12efe3f95e06ed8707"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\audits\\P133-original-independent-auditor003-029\\audit_output\\progress.json",
+      "bytes": 102,
+      "sha256": "104f159706727e9c75bc4e9b1f734b3028ef2420cd757c56d3b0b1e653832c21"
+    }
+  ],
+  "input_freeze": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\complete_original_audit_metadata_repair_preparation029\\COMPLETE_CURRENT_AUDITOR003_ORIGINAL_SOURCE_RUNTIME_FREEZE029.json",
+    "sha256": "484ebf5e38e597c3838f2f7b1572262457f6294a91acd1298f7b7daa2013afac"
+  }
+}

@@ -1,0 +1,723 @@
+[
+  {
+    "key": "GPT 4o.n",
+    "expected": 600,
+    "tolerance": 0,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.unique_participants",
+    "expected": 340,
+    "tolerance": 0,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.n",
+    "expected": 600,
+    "tolerance": 0,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.unique_participants",
+    "expected": 343,
+    "tolerance": 0,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.n",
+    "expected": 600,
+    "tolerance": 0,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.unique_participants",
+    "expected": 314,
+    "tolerance": 0,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Control.n",
+    "expected": 600,
+    "tolerance": 0,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Control.unique_participants",
+    "expected": 301,
+    "tolerance": 0,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "total_n",
+    "expected": 2400,
+    "tolerance": 0,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "total_unique_participants",
+    "expected": 1298,
+    "tolerance": 0,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.condition.mean",
+    "expected": 0.345,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.condition.ci_low",
+    "expected": 0.307,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.condition.ci_high",
+    "expected": 0.385,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.condition.mean",
+    "expected": 0.34,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.condition.ci_low",
+    "expected": 0.302,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.condition.ci_high",
+    "expected": 0.379,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.condition.mean",
+    "expected": 0.32,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.condition.ci_low",
+    "expected": 0.283,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.condition.ci_high",
+    "expected": 0.359,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Control.condition.mean",
+    "expected": 0.47,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Control.condition.ci_low",
+    "expected": 0.429,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Control.condition.ci_high",
+    "expected": 0.511,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.disposition.mean",
+    "expected": 0.437,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.disposition.ci_low",
+    "expected": 0.397,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.disposition.ci_high",
+    "expected": 0.477,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.disposition.mean",
+    "expected": 0.442,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.disposition.ci_low",
+    "expected": 0.401,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.disposition.ci_high",
+    "expected": 0.482,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.disposition.mean",
+    "expected": 0.417,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.disposition.ci_low",
+    "expected": 0.377,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.disposition.ci_high",
+    "expected": 0.457,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Control.disposition.mean",
+    "expected": 0.423,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Control.disposition.ci_low",
+    "expected": 0.383,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Control.disposition.ci_high",
+    "expected": 0.464,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "condition.overall_chi2",
+    "expected": 36.13492196677295,
+    "tolerance": 1e-09,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.condition.chi2",
+    "expected": 18.9,
+    "tolerance": 0.01,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.condition.p",
+    "expected": 1.3773877475162154e-05,
+    "tolerance": 1e-12,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.condition.chi2",
+    "expected": 20.5,
+    "tolerance": 0.01,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.condition.p",
+    "expected": 5.952199975720612e-06,
+    "tolerance": 1e-12,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.condition.chi2",
+    "expected": 27.62,
+    "tolerance": 0.01,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.condition.p",
+    "expected": 1.4753446266336077e-07,
+    "tolerance": 1e-12,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.disposition.chi2",
+    "expected": 0.17,
+    "tolerance": 0.01,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.disposition.p",
+    "expected": 0.6831525419947563,
+    "tolerance": 1e-10,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.disposition.chi2",
+    "expected": 0.34,
+    "tolerance": 0.01,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.disposition.p",
+    "expected": 0.56010577940573,
+    "tolerance": 1e-10,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.disposition.chi2",
+    "expected": 0.03,
+    "tolerance": 0.01,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.disposition.p",
+    "expected": 0.860713797391357,
+    "tolerance": 1e-10,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "condition.or",
+    "expected": 1.76,
+    "tolerance": 0.01,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "condition.ci_low",
+    "expected": 1.45,
+    "tolerance": 0.01,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "condition.ci_high",
+    "expected": 2.13,
+    "tolerance": 0.01,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "red_flag.or",
+    "expected": 1.57,
+    "tolerance": 0.01,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "red_flag.ci_low",
+    "expected": 1.28,
+    "tolerance": 0.01,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "red_flag.ci_high",
+    "expected": 1.92,
+    "tolerance": 0.01,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.count_bootstrap.paper.ci_low",
+    "expected": 0.42,
+    "tolerance": 0.02,
+    "kind": "abs",
+    "source": "Original 1000-resample BCa bootstrap, original seed unreported; published and stored notebook endpoints conflict by0.01, both retained."
+  },
+  {
+    "key": "GPT 4o.count_bootstrap.paper.ci_high",
+    "expected": 0.54,
+    "tolerance": 0.02,
+    "kind": "abs",
+    "source": "Original 1000-resample BCa bootstrap, original seed unreported; published and stored notebook endpoints conflict by0.01, both retained."
+  },
+  {
+    "key": "Llama 3 70B.count_bootstrap.paper.ci_low",
+    "expected": 0.39,
+    "tolerance": 0.02,
+    "kind": "abs",
+    "source": "Original 1000-resample BCa bootstrap, original seed unreported; published and stored notebook endpoints conflict by0.01, both retained."
+  },
+  {
+    "key": "Llama 3 70B.count_bootstrap.paper.ci_high",
+    "expected": 0.5,
+    "tolerance": 0.02,
+    "kind": "abs",
+    "source": "Original 1000-resample BCa bootstrap, original seed unreported; published and stored notebook endpoints conflict by0.01, both retained."
+  },
+  {
+    "key": "Command R+.count_bootstrap.paper.ci_low",
+    "expected": 0.34,
+    "tolerance": 0.02,
+    "kind": "abs",
+    "source": "Original 1000-resample BCa bootstrap, original seed unreported; published and stored notebook endpoints conflict by0.01, both retained."
+  },
+  {
+    "key": "Command R+.count_bootstrap.paper.ci_high",
+    "expected": 0.43,
+    "tolerance": 0.02,
+    "kind": "abs",
+    "source": "Original 1000-resample BCa bootstrap, original seed unreported; published and stored notebook endpoints conflict by0.01, both retained."
+  },
+  {
+    "key": "Control.count_bootstrap.paper.ci_low",
+    "expected": 0.55,
+    "tolerance": 0.02,
+    "kind": "abs",
+    "source": "Original 1000-resample BCa bootstrap, original seed unreported; published and stored notebook endpoints conflict by0.01, both retained."
+  },
+  {
+    "key": "Control.count_bootstrap.paper.ci_high",
+    "expected": 0.67,
+    "tolerance": 0.02,
+    "kind": "abs",
+    "source": "Original 1000-resample BCa bootstrap, original seed unreported; published and stored notebook endpoints conflict by0.01, both retained."
+  },
+  {
+    "key": "GPT 4o.count_bootstrap.notebook.ci_low",
+    "expected": 0.42,
+    "tolerance": 0.02,
+    "kind": "abs",
+    "source": "Original 1000-resample BCa bootstrap, original seed unreported; published and stored notebook endpoints conflict by0.01, both retained."
+  },
+  {
+    "key": "GPT 4o.count_bootstrap.notebook.ci_high",
+    "expected": 0.55,
+    "tolerance": 0.02,
+    "kind": "abs",
+    "source": "Original 1000-resample BCa bootstrap, original seed unreported; published and stored notebook endpoints conflict by0.01, both retained."
+  },
+  {
+    "key": "Llama 3 70B.count_bootstrap.notebook.ci_low",
+    "expected": 0.39,
+    "tolerance": 0.02,
+    "kind": "abs",
+    "source": "Original 1000-resample BCa bootstrap, original seed unreported; published and stored notebook endpoints conflict by0.01, both retained."
+  },
+  {
+    "key": "Llama 3 70B.count_bootstrap.notebook.ci_high",
+    "expected": 0.49,
+    "tolerance": 0.02,
+    "kind": "abs",
+    "source": "Original 1000-resample BCa bootstrap, original seed unreported; published and stored notebook endpoints conflict by0.01, both retained."
+  },
+  {
+    "key": "Command R+.count_bootstrap.notebook.ci_low",
+    "expected": 0.34,
+    "tolerance": 0.02,
+    "kind": "abs",
+    "source": "Original 1000-resample BCa bootstrap, original seed unreported; published and stored notebook endpoints conflict by0.01, both retained."
+  },
+  {
+    "key": "Command R+.count_bootstrap.notebook.ci_high",
+    "expected": 0.43,
+    "tolerance": 0.02,
+    "kind": "abs",
+    "source": "Original 1000-resample BCa bootstrap, original seed unreported; published and stored notebook endpoints conflict by0.01, both retained."
+  },
+  {
+    "key": "Control.count_bootstrap.notebook.ci_low",
+    "expected": 0.56,
+    "tolerance": 0.02,
+    "kind": "abs",
+    "source": "Original 1000-resample BCa bootstrap, original seed unreported; published and stored notebook endpoints conflict by0.01, both retained."
+  },
+  {
+    "key": "Control.count_bootstrap.notebook.ci_high",
+    "expected": 0.68,
+    "tolerance": 0.02,
+    "kind": "abs",
+    "source": "Original 1000-resample BCa bootstrap, original seed unreported; published and stored notebook endpoints conflict by0.01, both retained."
+  },
+  {
+    "key": "overall.disposition.mean",
+    "expected": 0.43,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "overall.disposition.ci_low",
+    "expected": 0.4096667470028597,
+    "tolerance": 1e-10,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "overall.disposition.ci_high",
+    "expected": 0.44967201336900187,
+    "tolerance": 1e-10,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.acuity.U",
+    "expected": 192970.0,
+    "tolerance": 0,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.acuity.f",
+    "expected": 0.536,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.acuity.p",
+    "expected": 0.023,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.acuity.U",
+    "expected": 190275.0,
+    "tolerance": 0,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.acuity.f",
+    "expected": 0.529,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.acuity.p",
+    "expected": 0.072,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.acuity.U",
+    "expected": 185172.5,
+    "tolerance": 0,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.acuity.f",
+    "expected": 0.514,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.acuity.p",
+    "expected": 0.366,
+    "tolerance": 0.00051,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "original_underestimate.sorted_U.0",
+    "expected": 30107.0,
+    "tolerance": 0,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "original_underestimate.sorted_U.1",
+    "expected": 30667.0,
+    "tolerance": 0,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "original_underestimate.sorted_U.2",
+    "expected": 35683.0,
+    "tolerance": 0,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "original_underestimate.sorted_U.3",
+    "expected": 38976.5,
+    "tolerance": 0,
+    "kind": "abs",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.original_underestimate.p",
+    "expected": 0.001,
+    "tolerance": 0,
+    "kind": "lt",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.original_underestimate.p",
+    "expected": 0.001,
+    "tolerance": 0,
+    "kind": "lt",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.original_underestimate.p",
+    "expected": 0.001,
+    "tolerance": 0,
+    "kind": "lt",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Control.original_underestimate.p",
+    "expected": 0.001,
+    "tolerance": 0,
+    "kind": "lt",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.condition.lower_than_control",
+    "expected": true,
+    "tolerance": 0,
+    "kind": "eq",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.condition.significant",
+    "expected": true,
+    "tolerance": 0,
+    "kind": "eq",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.disposition.nonsignificant",
+    "expected": true,
+    "tolerance": 0,
+    "kind": "eq",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "GPT 4o.acuity.nonsignificant_bonferroni",
+    "expected": true,
+    "tolerance": 0,
+    "kind": "eq",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.condition.lower_than_control",
+    "expected": true,
+    "tolerance": 0,
+    "kind": "eq",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.condition.significant",
+    "expected": true,
+    "tolerance": 0,
+    "kind": "eq",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.disposition.nonsignificant",
+    "expected": true,
+    "tolerance": 0,
+    "kind": "eq",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Llama 3 70B.acuity.nonsignificant_bonferroni",
+    "expected": true,
+    "tolerance": 0,
+    "kind": "eq",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.condition.lower_than_control",
+    "expected": true,
+    "tolerance": 0,
+    "kind": "eq",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.condition.significant",
+    "expected": true,
+    "tolerance": 0,
+    "kind": "eq",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.disposition.nonsignificant",
+    "expected": true,
+    "tolerance": 0,
+    "kind": "eq",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "Command R+.acuity.nonsignificant_bonferroni",
+    "expected": true,
+    "tolerance": 0,
+    "kind": "eq",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "condition.or_greater_than_one",
+    "expected": true,
+    "tolerance": 0,
+    "kind": "eq",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  },
+  {
+    "key": "red_flag.or_greater_than_one",
+    "expected": true,
+    "tolerance": 0,
+    "kind": "eq",
+    "source": "original April17 notebook outputs / April26 paper v1"
+  }
+]

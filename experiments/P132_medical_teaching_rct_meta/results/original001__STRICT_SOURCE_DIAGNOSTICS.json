@@ -1,0 +1,963 @@
+[
+  {
+    "key": "knowledge/k",
+    "actual": 11,
+    "target": 11,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "knowledge/gai_n",
+    "actual": 395,
+    "target": 395,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "knowledge/traditional_n",
+    "actual": 391,
+    "target": 391,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "knowledge/df",
+    "actual": 10,
+    "target": 10,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "knowledge/smd",
+    "actual": 0.26986963487480575,
+    "target": "0.27",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/lower",
+    "actual": -0.3072884979266336,
+    "target": "-0.31",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/upper",
+    "actual": 0.8470277676762451,
+    "target": "0.85",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/p",
+    "actual": 0.3594325612670243,
+    "target": "0.36",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "knowledge/I2",
+    "actual": 93.27466752579332,
+    "target": "93",
+    "tolerance": 0.5,
+    "passed": true
+  },
+  {
+    "key": "knowledge/point_direction",
+    "actual": 1,
+    "target": 1,
+    "passed": true
+  },
+  {
+    "key": "knowledge/CI_class",
+    "actual": "includes_zero",
+    "target": "includes_zero",
+    "passed": true
+  },
+  {
+    "key": "skill/k",
+    "actual": 2,
+    "target": 2,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "skill/gai_n",
+    "actual": 52,
+    "target": 52,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "skill/traditional_n",
+    "actual": 51,
+    "target": 51,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "skill/df",
+    "actual": 1,
+    "target": 1,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "skill/smd",
+    "actual": 0.6295243775799755,
+    "target": "0.63",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "skill/lower",
+    "actual": 0.09753186360283883,
+    "target": "0.10",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "skill/upper",
+    "actual": 1.1615168915571121,
+    "target": "1.16",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "skill/p",
+    "actual": 0.020379297963913055,
+    "target": "0.02",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "skill/I2",
+    "actual": 43.011563954413084,
+    "target": "43",
+    "tolerance": 0.5,
+    "passed": true
+  },
+  {
+    "key": "skill/point_direction",
+    "actual": 1,
+    "target": 1,
+    "passed": true
+  },
+  {
+    "key": "skill/CI_class",
+    "actual": "positive",
+    "target": "positive",
+    "passed": true
+  },
+  {
+    "key": "satisfaction/k",
+    "actual": 3,
+    "target": 3,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/gai_n",
+    "actual": 94,
+    "target": 94,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/traditional_n",
+    "actual": 92,
+    "target": 92,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/df",
+    "actual": 2,
+    "target": 2,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/smd",
+    "actual": 1.1834592440014748,
+    "target": "1.18",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/lower",
+    "actual": 0.4973414190287958,
+    "target": "0.50",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/upper",
+    "actual": 1.869577068974154,
+    "target": "1.87",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/p",
+    "actual": 0.0007230950251140442,
+    "target": "0.0007",
+    "tolerance": 5e-05,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/I2",
+    "actual": 78.68928090456116,
+    "target": "79",
+    "tolerance": 0.5,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/point_direction",
+    "actual": 1,
+    "target": 1,
+    "passed": true
+  },
+  {
+    "key": "satisfaction/CI_class",
+    "actual": "positive",
+    "target": "positive",
+    "passed": true
+  },
+  {
+    "key": "geography/Asia/k",
+    "actual": 8,
+    "target": 8,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "geography/Asia/gai_n",
+    "actual": 285,
+    "target": 285,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "geography/Asia/traditional_n",
+    "actual": 285,
+    "target": 285,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "geography/Asia/df",
+    "actual": 7,
+    "target": 7,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "geography/Asia/smd",
+    "actual": 0.24545570618261944,
+    "target": "0.25",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "geography/Asia/lower",
+    "actual": -0.5514651279111539,
+    "target": "-0.55",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "geography/Asia/upper",
+    "actual": 1.0423765402763927,
+    "target": "1.04",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "geography/Asia/p",
+    "actual": 0.5460571021326952,
+    "target": "0.55",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "geography/Asia/I2",
+    "actual": 95.00154676594849,
+    "target": "95",
+    "tolerance": 0.5,
+    "passed": true
+  },
+  {
+    "key": "geography/Asia/point_direction",
+    "actual": 1,
+    "target": 1,
+    "passed": true
+  },
+  {
+    "key": "geography/Asia/CI_class",
+    "actual": "includes_zero",
+    "target": "includes_zero",
+    "passed": true
+  },
+  {
+    "key": "geography/Europe/k",
+    "actual": 3,
+    "target": 3,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "geography/Europe/gai_n",
+    "actual": 110,
+    "target": 110,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "geography/Europe/traditional_n",
+    "actual": 106,
+    "target": 106,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "geography/Europe/df",
+    "actual": 2,
+    "target": 2,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "geography/Europe/smd",
+    "actual": 0.3074701559560923,
+    "target": "0.31",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "geography/Europe/lower",
+    "actual": -0.3011826852661602,
+    "target": "-0.30",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "geography/Europe/upper",
+    "actual": 0.9161229971783448,
+    "target": "0.92",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "geography/Europe/p",
+    "actual": 0.3221226305807018,
+    "target": "0.32",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "geography/Europe/I2",
+    "actual": 76.8347380094982,
+    "target": "77",
+    "tolerance": 0.5,
+    "passed": true
+  },
+  {
+    "key": "geography/Europe/point_direction",
+    "actual": 1,
+    "target": 1,
+    "passed": true
+  },
+  {
+    "key": "geography/Europe/CI_class",
+    "actual": "includes_zero",
+    "target": "includes_zero",
+    "passed": true
+  },
+  {
+    "key": "duration/short/k",
+    "actual": 5,
+    "target": 5,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "duration/short/gai_n",
+    "actual": 179,
+    "target": 179,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "duration/short/traditional_n",
+    "actual": 183,
+    "target": 183,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "duration/short/df",
+    "actual": 4,
+    "target": 4,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "duration/short/smd",
+    "actual": -0.3378036977615325,
+    "target": "-0.34",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "duration/short/lower",
+    "actual": -1.259159337632708,
+    "target": "-1.26",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "duration/short/upper",
+    "actual": 0.5835519421096428,
+    "target": "0.58",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "duration/short/p",
+    "actual": 0.47238947460602343,
+    "target": "0.47",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "duration/short/I2",
+    "actual": 93.96963773282752,
+    "target": "94",
+    "tolerance": 0.5,
+    "passed": true
+  },
+  {
+    "key": "duration/short/point_direction",
+    "actual": -1,
+    "target": -1,
+    "passed": true
+  },
+  {
+    "key": "duration/short/CI_class",
+    "actual": "includes_zero",
+    "target": "includes_zero",
+    "passed": true
+  },
+  {
+    "key": "duration/long/k",
+    "actual": 5,
+    "target": 5,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "duration/long/gai_n",
+    "actual": 184,
+    "target": 184,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "duration/long/traditional_n",
+    "actual": 176,
+    "target": 176,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "duration/long/df",
+    "actual": 4,
+    "target": 4,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "duration/long/smd",
+    "actual": 0.6422811184406654,
+    "target": "0.64",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "duration/long/lower",
+    "actual": 0.09140843585598069,
+    "target": "0.09",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "duration/long/upper",
+    "actual": 1.1931538010253502,
+    "target": "1.19",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "duration/long/p",
+    "actual": 0.02230178351506975,
+    "target": "0.02",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "duration/long/I2",
+    "actual": 84.04994201751654,
+    "target": "84",
+    "tolerance": 0.5,
+    "passed": true
+  },
+  {
+    "key": "duration/long/point_direction",
+    "actual": 1,
+    "target": 1,
+    "passed": true
+  },
+  {
+    "key": "duration/long/CI_class",
+    "actual": "positive",
+    "target": "positive",
+    "passed": true
+  },
+  {
+    "key": "course/theory/k",
+    "actual": 6,
+    "target": 6,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "course/theory/gai_n",
+    "actual": 241,
+    "target": 241,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "course/theory/traditional_n",
+    "actual": 240,
+    "target": 240,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "course/theory/df",
+    "actual": 5,
+    "target": 5,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "course/theory/smd",
+    "actual": -0.2504737514817341,
+    "target": "-0.25",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "course/theory/lower",
+    "actual": -0.9976585214910134,
+    "target": "-1.00",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "course/theory/upper",
+    "actual": 0.4967110185275452,
+    "target": "0.50",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "course/theory/p",
+    "actual": 0.5111644471533396,
+    "target": "0.51",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "course/theory/I2",
+    "actual": 93.38640576381681,
+    "target": "93",
+    "tolerance": 0.5,
+    "passed": true
+  },
+  {
+    "key": "course/theory/point_direction",
+    "actual": -1,
+    "target": -1,
+    "passed": true
+  },
+  {
+    "key": "course/theory/CI_class",
+    "actual": "includes_zero",
+    "target": "includes_zero",
+    "passed": true
+  },
+  {
+    "key": "course/practice/k",
+    "actual": 5,
+    "target": 5,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "course/practice/gai_n",
+    "actual": 154,
+    "target": 154,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "course/practice/traditional_n",
+    "actual": 151,
+    "target": 151,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "course/practice/df",
+    "actual": 4,
+    "target": 4,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "course/practice/smd",
+    "actual": 0.894482883774173,
+    "target": "0.89",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "course/practice/lower",
+    "actual": 0.252283671683487,
+    "target": "0.25",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "course/practice/upper",
+    "actual": 1.536682095864859,
+    "target": "1.54",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "course/practice/p",
+    "actual": 0.006334916870656162,
+    "target": "<0.01",
+    "tolerance": 0.015,
+    "passed": true
+  },
+  {
+    "key": "course/practice/I2",
+    "actual": 85.78414317970618,
+    "target": "86",
+    "tolerance": 0.5,
+    "passed": true
+  },
+  {
+    "key": "course/practice/point_direction",
+    "actual": 1,
+    "target": 1,
+    "passed": true
+  },
+  {
+    "key": "course/practice/CI_class",
+    "actual": "positive",
+    "target": "positive",
+    "passed": true
+  },
+  {
+    "key": "assessment/immediate/k",
+    "actual": 9,
+    "target": 9,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "assessment/immediate/gai_n",
+    "actual": 343,
+    "target": 343,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "assessment/immediate/traditional_n",
+    "actual": 340,
+    "target": 340,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "assessment/immediate/df",
+    "actual": 8,
+    "target": 8,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "assessment/immediate/smd",
+    "actual": 0.04456456038856135,
+    "target": "0.04",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "assessment/immediate/lower",
+    "actual": -0.5520928518534591,
+    "target": "-0.55",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "assessment/immediate/upper",
+    "actual": 0.6412219726305819,
+    "target": "0.64",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "assessment/immediate/p",
+    "actual": 0.883613184050821,
+    "target": "0.88",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "assessment/immediate/I2",
+    "actual": 92.87346696671604,
+    "target": "93",
+    "tolerance": 0.5,
+    "passed": true
+  },
+  {
+    "key": "assessment/immediate/point_direction",
+    "actual": 1,
+    "target": 1,
+    "passed": true
+  },
+  {
+    "key": "assessment/immediate/CI_class",
+    "actual": "includes_zero",
+    "target": "includes_zero",
+    "passed": true
+  },
+  {
+    "key": "assessment/delayed/k",
+    "actual": 3,
+    "target": 3,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "assessment/delayed/gai_n",
+    "actual": 108,
+    "target": 108,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "assessment/delayed/traditional_n",
+    "actual": 110,
+    "target": 110,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "assessment/delayed/df",
+    "actual": 2,
+    "target": 2,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "assessment/delayed/smd",
+    "actual": 0.8186478329958293,
+    "target": "0.82",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "assessment/delayed/lower",
+    "actual": -0.3217874354027055,
+    "target": "-0.32",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "assessment/delayed/upper",
+    "actual": 1.9590831013943641,
+    "target": "1.96",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "assessment/delayed/p",
+    "actual": 0.15944615053214706,
+    "target": "0.16",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "assessment/delayed/I2",
+    "actual": 92.94169056946419,
+    "target": "93",
+    "tolerance": 0.5,
+    "passed": true
+  },
+  {
+    "key": "assessment/delayed/point_direction",
+    "actual": 1,
+    "target": 1,
+    "passed": true
+  },
+  {
+    "key": "assessment/delayed/CI_class",
+    "actual": "includes_zero",
+    "target": "includes_zero",
+    "passed": true
+  },
+  {
+    "key": "between/geography/Q",
+    "actual": 0.014692041500629211,
+    "target": "0.01",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "between/geography/p",
+    "actual": 0.9035241240558868,
+    "target": "0.90",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "between/geography/I2",
+    "actual": 0,
+    "target": "0",
+    "tolerance": 0.5,
+    "passed": true
+  },
+  {
+    "key": "between/geography/df",
+    "actual": 1,
+    "target": 1,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "between/geography/significance",
+    "actual": false,
+    "target": false,
+    "passed": true
+  },
+  {
+    "key": "between/duration/Q",
+    "actual": 3.2021117711186835,
+    "target": "3.20",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "between/duration/p",
+    "actual": 0.07354325124869218,
+    "target": "0.07",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "between/duration/I2",
+    "actual": 68.77060916425657,
+    "target": "68.8",
+    "tolerance": 0.05,
+    "passed": true
+  },
+  {
+    "key": "between/duration/df",
+    "actual": 1,
+    "target": 1,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "between/duration/significance",
+    "actual": false,
+    "target": false,
+    "passed": true
+  },
+  {
+    "key": "between/course/Q",
+    "actual": 5.1878454885915035,
+    "target": "5.19",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "between/course/p",
+    "actual": 0.022745397495911843,
+    "target": "0.02",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "between/course/I2",
+    "actual": 80.72417534024324,
+    "target": "80.7",
+    "tolerance": 0.05,
+    "passed": true
+  },
+  {
+    "key": "between/course/df",
+    "actual": 1,
+    "target": 1,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "between/course/significance",
+    "actual": true,
+    "target": true,
+    "passed": true
+  },
+  {
+    "key": "between/assessment/Q",
+    "actual": 1.3894912378081645,
+    "target": "1.39",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "between/assessment/p",
+    "actual": 0.23849103615929035,
+    "target": "0.24",
+    "tolerance": 0.005,
+    "passed": true
+  },
+  {
+    "key": "between/assessment/I2",
+    "actual": 28.031212231504433,
+    "target": "28.0",
+    "tolerance": 0.05,
+    "passed": true
+  },
+  {
+    "key": "between/assessment/df",
+    "actual": 1,
+    "target": 1,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "key": "between/assessment/significance",
+    "actual": false,
+    "target": false,
+    "passed": true
+  }
+]

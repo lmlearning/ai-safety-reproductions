@@ -1,0 +1,248 @@
+{
+  "paper_id": "P080",
+  "title": "How AI Impacts Skill Formation",
+  "arxiv_id": "2601.20245",
+  "date": "2026-10-10",
+  "status": "prospective_main_RCT_plan_pending_root_freeze",
+  "counted_success": false,
+  "scope": "Complete primary quantitative main human coding-skill RCT and every reported follow-up quantitative analysis in original Sections5.2.1-5.2.2/Figures6-10. Independent participant-level statistical recomputation of original trial; no new human trial, model judge or API calls.",
+  "source_authority": {
+    "paper": "sources/paper_v1_tex/main.tex and original v1 figure PDFs",
+    "main_data_commit": "00bd5407a2ead5d40bcd8bee859eb5da62b003e4",
+    "main_data_path": "sources/retained_original_data/data_analysis__data__Full-Study.csv",
+    "main_data_sha256": "7c76a8d4279a3fa4f0df24b0b4587c1b8c194561f26057545edac7919237518f",
+    "driver": "Original retained data_analysis/pilot.ipynb, source inspected without execution; saved stdout explicitly treated as original released targets.",
+    "task_release_commit": "bae6eab7b80ab652d612ff9a9ee2d72dddd754aa",
+    "preregistration": "https://api.osf.io/v2/registrations/w49e7/; June9'25 register date; original v1 project link pk6a5 corrected to registration w49e7 in v2. Preserve differing legacy registered_meta versus registration_responses."
+  },
+  "eligibility": {
+    "citations": 42,
+    "citation_source": "Root public Semantic Scholar batch archived in sources/P078_P080_s2_batch.source",
+    "original_arxiv": "2026-01-28T04:40:43Z",
+    "publication_note": "Arxiv v1 HTML date August24'26 is a LaTeXML rendering artifact; original submission record is authoritative.",
+    "earlier_history": "April4'25 first retained task-code author/committer time; August15'25 retained result-data commit. Neither proves first public empirical release. June9'25 public-now registration is a prospective study plan, not published trial outcomes. Exact prior repo visibility/push chronology unresolved; root must classify eligibility before outcomes."
+  },
+  "cohort": {
+    "input_rows": 58,
+    "exact_status_filter": [
+      "COMPLETED",
+      "TIME-1N",
+      "TIME-2N",
+      "TIME-3N"
+    ],
+    "retained": 52,
+    "AI": 26,
+    "No_AI": 26,
+    "excluded_by_original_filter": "One TIME-4N and five INCOMPLETE; no new exclusions.",
+    "main_required_complete": [
+      "Condition",
+      "Task Time",
+      "Quiz Score"
+    ],
+    "warmup_adjusted": "Original source implicit listwise omission for two missing Warmup Task Time values yields50; no imputation or alternate52 adjusted fit.",
+    "item_columns": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5",
+      "Q6",
+      "Q8",
+      "Q9",
+      "Q10",
+      "Q11",
+      "Q12",
+      "Q13",
+      "Q14",
+      "Q15"
+    ],
+    "item_weights": "Q1=1,Q2=1,Q15=3; all remaining scored items=2, total27; Q7 attention check excluded."
+  },
+  "treatment_and_tasks": {
+    "assignment": "Between-subjects AI assistance versus No AI, balanced recruitment; original row Condition labels fixed. 35min to complete two Trio coding tasks; neither group may use AI in warm-up or quiz.",
+    "model": "Original CodeSignal chat assistant based on GPT-4o, current code context; exact dated API snapshot/system instructions unreleased, no new assistant generations needed for statistical reanalysis.",
+    "task1": "Timer/structured concurrency/nursery functions; task2 record retrieval and error handling/storage. Original final_task starter/solution/instructions/pytest files retained.",
+    "scoring": "Use frozen original human per-item graded scores and stored Quiz Score. OSF registration_responses publishes final27-point rubric. No regrading freeform answers or replacing human judgments with model/regex judges.",
+    "warmup": "Recorded add-border Python task time, original source covariate. Original platform warm-up implementation not separately released; recorded value remains original statistical input."
+  },
+  "main_estimators": {
+    "coding": "AI=0,No AI=1 so coefficients are control-minus-treatment; never orient by observed result.",
+    "primary": [
+      "Mean Task Time (minutes) by condition and unadjusted OLS TaskTime~Treatment.",
+      "Mean QuizScore (0..27), percent=100*QuizScore/27 by condition; OLS QuizScore~Treatment.",
+      "Pooled Cohen d=(NoAI mean-AI mean)/pooled within-condition SD, ddof1.",
+      "Figure6 plotted standardized effects divide outcome by total52-sample SD(ddof1), distinct from Cohen d."
+    ],
+    "regression": "OLS intercept plus stated regressors; conventional homoskedastic residual covariance, df=N-rank(X), two-sided Student-t p-values and t_.975 CIs. Independent linear algebra implementation and separate two-sample/normal-equation audit.",
+    "adjusted": "QuizScorePercent~Treatment+WarmupTaskTime, listwise50; adjusted d=Treatment coefficient/sqrt(residual MSE), original source protocol."
+  },
+  "reported_followups": {
+    "experience": "All three released CodingExpertiseAll categories 1-3/4-6/7+ years x both TaskTime and QuizScorePercent; all condition means/CIs and source subgroup OLS tests.",
+    "subareas": {
+      "Task1": [
+        "Q1",
+        "Q4",
+        "Q5",
+        "Q8",
+        "Q9",
+        "Q11",
+        "Q12",
+        "Q14",
+        "Q15"
+      ],
+      "Task2": [
+        "Q2",
+        "Q3",
+        "Q6",
+        "Q10",
+        "Q13"
+      ],
+      "Conceptual": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q14",
+        "Q15"
+      ],
+      "Debugging": [
+        "Q8",
+        "Q10",
+        "Q11",
+        "Q12"
+      ],
+      "CodeReading": [
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q9",
+        "Q13"
+      ]
+    },
+    "subarea_formula": "Exactly original graded-item astype(int) truncation toward zero, then sum items / original category maximum *100. Q3 belongs to both Conceptual and CodeReading in source; preserve overlap.",
+    "self_reports": "All Fig9 Learning/Enjoyment (1..7) and Fig10 WarmUp/TrioTask/PostTaskQuiz effort-based difficulty (Very little1,Little2,Moderate3,High4,Very high5); use original CSV columns and declared fixed map.",
+    "all_items": "Audit full14 graded item completeness/ranges and raw-score versus original stored-total consistency; report both stored primary score and reconstructed fractional sum discrepancies without repairing primary values. No item-level efficacy target invented because original paper reports grouped subareas."
+  },
+  "targets": {
+    "published_figures": "ORIGINAL_PUBLISHED_FIGURE_TARGETS_20261010.json: all38 means/standardized effects and76 CI endpoints from original vector PDFs, not participant data.",
+    "published_text": [
+      {
+        "statistic": "QuizScore difference NoAI-AI (points)",
+        "value": 4.15,
+        "rounding_tolerance": 0.005
+      },
+      {
+        "statistic": "QuizScore Cohen d",
+        "value": 0.738,
+        "rounding_tolerance": 0.0005
+      },
+      {
+        "statistic": "QuizScore unadjusted p",
+        "value": 0.01,
+        "rounding_tolerance": 0.0005
+      },
+      {
+        "statistic": "Warmup-adjusted Cohen d",
+        "value": 0.725,
+        "rounding_tolerance": 0.0005
+      },
+      {
+        "statistic": "Warmup-adjusted Treatment p",
+        "value": 0.016,
+        "rounding_tolerance": 0.0005
+      }
+    ],
+    "main_time_p": {
+      "value": 0.391,
+      "rounding_tolerance": 0.0005,
+      "source": "Original Figure6 PDF and saved notebook stdout."
+    },
+    "original_saved_adjusted_fit": {
+      "N": 50,
+      "Treatment": 15.3226,
+      "Treatment_ci95": [
+        2.954,
+        27.691
+      ],
+      "WarmupTaskTime": -0.7868,
+      "Warmup_p": 0.41,
+      "source": "Original notebook saved cell7 stdout only, not recomputed."
+    },
+    "source_followup_p": {
+      "experience_TaskTime": {
+        "1-3 years": 0.204,
+        "4-6 years": 0.619,
+        "7+ years": 0.87
+      },
+      "experience_QuizScore": {
+        "1-3 years": 0.807,
+        "4-6 years": 0.038,
+        "7+ years": 0.124
+      },
+      "subarea": {
+        "Task1": 0.014,
+        "Task2": 0.065,
+        "Conceptual": 0.023,
+        "Debugging": 0.019,
+        "CodeReading": 0.118
+      },
+      "self_report": {
+        "Learning": 0.084,
+        "Enjoyment": 0.212
+      },
+      "difficulty": {
+        "Warm Up": 0.041,
+        "Trio Task": 0.093,
+        "Post Task Quiz": 0.697
+      }
+    },
+    "strict_mean_and_effect_comparison": "Proposed absolute1e-4 in displayed units for every deterministic figure mean and four regression-effect CI endpoints; stricter than global1% criterion. Root must freeze final gate before execution.",
+    "prose_translation_conflict": "Literal17% assertion preserved as source conflict: original plotted50.000% versus65.384615% and4.15/27 imply15.3846percentage points, not17. No winning denominator selection; numerical verification does not validate erroneous17% translation."
+  },
+  "bootstrap_ci_gate": {
+    "algorithm": "Seaborn compatible original0.12.2/0.13.0/0.13.1/0.13.2 source: pointplot estimator mean,errorbar=('ci',95),n_boot1000,unitsNone,seedNone. Individual cases resampled with replacement within each condition/category; np.nanpercentile defaults linear interpolation. No BCa, percentile-of-raw-data or parametric substitution.",
+    "historical_version": "Exact final notebook Seaborn version not pinned; requirements old conda build path and Py3.13 notebook disagree. Relevant compatible released source algorithms/defaults inspected and preserved.",
+    "replay": "One deterministic1000-draw replication, NumPy default_rng SeedSequence([1729,fixed_group_index,0]), printed regardless of fit; no reseeding/retry.",
+    "reference": "One fixed1,000,000-draw reference per36 bootstrap groups, default_rng SeedSequence([1729,fixed_group_index,1]); group index is fixed lexicographic(metric,category,condition) from prospective published targets excluding2regression effects.",
+    "family": "All76 original CI endpoints family;72 bootstrap endpoints gated by MC envelope,4 exact regression-effect endpoints strict. Total familywise Monte Carlo error alpha.05,split.025 historical draw uncertainty+.025 reference uncertainty.",
+    "rank_bound": "At B1000 and q.025/.975, NumPy linear percentile lies between order ranks(25,26)/(975,976), one-based. Bound lower-rank CDF using Beta(rank,B+1-rank) quantile .025/(2*76), upper rank using1-that; inverse-binomial order-statistic bounds fixed without data.",
+    "reference_error": "Uniform empirical reference CDF DKW bound epsilon=sqrt(log(2*76/.025)/(2*1e6))=.0020871942859925874; subtract/add to fixed order-rank probability bounds. Use empirical generalized inverse (NumPy inverted_cdf) at resulting fixed probability levels.",
+    "fixed_probability_levels": {
+      "lower_CI": [
+        0.008844709981637416,
+        0.04989239700060292
+      ],
+      "upper_CI": [
+        0.9501076029993965,
+        0.9911552900183623
+      ]
+    },
+    "pass": "Every original bootstrap endpoint must lie in its independently generated reference envelope plus/minus fixed1e-4 vector-extraction tolerance. Means/tests/effects remain strict. Failures are reported; no widening, alternate quantile algorithm, new draw count, seed selection or plot-target-guided change.",
+    "design_file": "sources/bootstrap_fixed_rank_design_no_outcomes.json; constants computed without trial outcomes."
+  },
+  "operational_adaptations": [
+    "Define original effort_mapping before use, map actual CSV questions to original WarmUp/TrioTask/PostTaskQuiz aliases; original notebook has undeclared state/placeholder columns. Fixed mapping explicitly inspected, no outcome-based repair.",
+    "Replace unavailable statsmodels execution with mathematically equivalent OLS linear algebra and independent Student-t audit; retain covariance/df/two-sided conventions.",
+    "Seed otherwise unseeded bootstrap; fixed rank-based Monte Carlo gate covers original1000-draw randomness prospectively."
+  ],
+  "supporting_diagnostics": [
+    "Fractional subareas with same exact overlapping item map, avoiding original int truncation; no credit/gate based on corrected version.",
+    "BH FDR across two primary unadjusted p-values, and separately across all16 source exploratory follow-up tests. Original notebook reports unadjusted p-values despite OSF planned5% FDR; preserve raw published comparison and disclose mismatch.",
+    "Audit author original graded-item sum versus stored QuizScore; no regrading or manual total repairs.",
+    "Report original trial limited external validity and observational nature of qualitative associations; no causal persona-effect claim."
+  ],
+  "omissions_and_full_infeasibility": [
+    "Four preliminary pilots A-C raw cohorts absent; pilotD historical CSV/source retained but filtered18 while paper says20, documented supporting only outside final main-RCT gate.",
+    "Figures11-19/Table3-4 qualitative contribution not reproduced: released anonymous transcripts lack exact bridge to original CSV platform Respondent/Worker IDs and original six-persona/adoption-group assignments. No row-order or outcome-based matching.",
+    "Six paper persona group counts sum24 whereas25 treatment traces analyzed; full paper says51 recordings, appendix says25AI+25NoAI, release52 includes25AI+27No-AI. These source discrepancies are preserved.",
+    "Released annotation event labels contain spelling variants; original aggregation/classification driver and raw keystroke/video scoring bridge absent. No convenient new definitions or regenerated human coding."
+  ],
+  "execution": {
+    "trial_outcomes_computed": false,
+    "only_source_targets_extracted": true,
+    "model_inference": false,
+    "closed_API": false,
+    "root_freeze_required_before_statistics": true,
+    "statistical_notebook_or_trial_outcome_code_executed": false
+  }
+}

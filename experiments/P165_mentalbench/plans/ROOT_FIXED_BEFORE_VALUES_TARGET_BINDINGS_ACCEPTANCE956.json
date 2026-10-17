@@ -1,0 +1,15 @@
+{
+  "UTC": "2026-10-17T09:33:52.582180+00:00",
+  "ROOT_fixed_before_values_source_semantic_bindings_accepted": true,
+  "binding_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\operations\\MentalBench_dormant_primary_structure_P092019\\ALL1150_PUBLISHED_TARGET_BINDINGS001.json",
+    "bytes": 589152,
+    "sha256": "60663792c76da795146bf6355fb0279476969a65ac8b74510eb0dd49eee0226b"
+  },
+  "catalogue_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\MentalBench_complete_central_source_plan_P092018\\COMPLETE_ALL_PUBLISHED_CENTRAL_FAMILY_NUMERIC_TARGET_LEXEMES.json",
+    "bytes": 303492,
+    "sha256": "93503ebd75f5f2fb4534060e860fba9aea7c63174514fac963df55d3b9c682ed"
+  },
+  "basis": "Exact catalogue/binding DATA frozen and source-reviewed in original019/ROOT929 before bank statistical outcomes. No target paths, lexical values, decimal precision or921bounds changed after primary955. This certificate records that pre-existing source fixation; current signing time is after primary closure."
+}

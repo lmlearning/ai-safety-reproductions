@@ -1,0 +1,17 @@
+{
+  "ordinal": 13,
+  "paper_id": "P069",
+  "title": "The Ideation-Execution Gap: Execution Outcomes of LLM-Generated versus Human Research Ideas",
+  "classification": "Bounded NEAR",
+  "recorded_public_date": "2025-06-25",
+  "window": "Extended",
+  "citations": 62,
+  "provider": "Semantic Scholar",
+  "capture_time_supported": false,
+  "route": "Released review data",
+  "result_and_scope": "All181 reviews/43 projects/both arms/7 metrics/155 targets. Scalar max error0.005 within0.010; counts/claims agree;1,127 checks. Old152/155 remains.",
+  "DOI": null,
+  "arxiv_id": null,
+  "preserved_limits": "Distinct execution-study public25Jun, not2024 idea-only predecessor/prospective plan. No fresh ideas/projects/recruitment/review; stable reviewer-ID/historical custody limits retained.",
+  "whole_paper_reproduction": false
+}

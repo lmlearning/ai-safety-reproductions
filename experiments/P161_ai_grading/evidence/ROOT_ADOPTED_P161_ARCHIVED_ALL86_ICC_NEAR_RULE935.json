@@ -1,0 +1,41 @@
+{
+  "schema": "ROOT_RETROSPECTIVE_P161_CENTRAL_NEAR_RULE",
+  "UTC": "2026-10-17T09:02:57.351735+00:00",
+  "paper_id": "P161",
+  "user_instruction_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_USER_DIRECTED_NEAR_SUCCESS_COUNTING_CHANGE913.json",
+    "bytes": 2551,
+    "sha256": "fa0000ec371755eff4b9ce9d28a7e79e10fd32db272a81df4e23e8991dcb5b35"
+  },
+  "retrospective_after_reading_archived_reports": true,
+  "original_preregistration_or_blind_choice_claimed": false,
+  "complete_central_scope_unchanged": "Entire Table5 ICC60 + Table2 duplicates20 + Abstract6, all91 original records/both campuses/3 rater pairs/9 criteria+totals, single and average ICC; original common-mask N90 at criterion6 and N91 elsewhere. No mask changed.",
+  "adopted_rule": "ALL86 central ICC absolute errors <=0.010. ALL20 ordering claims,135 integrity checks and42785 independent field comparisons pass. Noncentral failures and conditional figures remain explicit, non-rescue and outside the counted central claim. Old81/86 and five failures remain unchanged.",
+  "rationale": "Small absolute agreement on the original bounded 0\u20131 scale; the full target family and substantive conclusions remain required. This practical near rule is not a statistical equivalence guarantee.",
+  "source_refs": {
+    "report": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P161_ai_grading\\RESULT_REPORT_CURRENT355.txt",
+      "bytes": 12145,
+      "sha256": "2460fd0eddd5c555a1b5dbc3702a535bf067c353efbede2d06bfc125cc3ce2db"
+    },
+    "complete_audit": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P161_complete_original002\\COMPLETE_ALL_FIELDS_AND_PUBLICATION_AUDIT001.json",
+      "bytes": 6316151,
+      "sha256": "23a1752a4f131b96f8e4575af28bdc13ae58a01a2cee6e0db86c53a19e269a4d"
+    },
+    "old_closed_acceptance": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P161_ai_grading\\ROOT_COMPLETE_CLOSED_UNSUCCESSFUL354.json",
+      "bytes": 10638,
+      "sha256": "e0093e93ee2cef80542ffbb22bd196425fc9e9d6ffe5e8e8e83a5d3626283099"
+    },
+    "plan": {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P161_ai_grading\\PREREGISTRATION.txt",
+      "bytes": 8997,
+      "sha256": "3bccc24c107fe6f818a81491c2b472b708ca215fdabd0c5140dabd6500921f6f"
+    }
+  },
+  "no_new_original_data_statistics_or_rerun": true,
+  "no_FULL_claim": true,
+  "candidate_only_no_award": true,
+  "retained_reader_failure": "Actual11bbee SyntaxError before writes; this saved source corrects framing only, without changing the proposed numeric rules."
+}

@@ -1,0 +1,27 @@
+# P041: full empirical reproduction of judge-reporting simulations
+
+Registered before local simulation outcomes, 2026-10-10. Paper v1, first public release 2025-11-26; saved Semantic Scholar snapshot: 31 citations. Original sources: https://arxiv.org/html/2511.21140v1 and https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting at 082884d075188bed2f2645234fa2cc3050a517c5 (2025-11-27).
+
+## Scope and budget
+
+Reproduce all empirical settings: Figure 2 analytic illustration, Figure 3 deterministic interval-length comparisons, Figure 4 Monte Carlo, and all 16 Appendix C Monte Carlo configurations. No real LLM is used in these published experiments. Mathematical propositions are reviewed but not claimed machine-proved. CPU only, no paid services or credentials. Expected under two hours and 2 GiB RAM, intermediate result storage below 1 GiB.
+
+## Fixed procedure
+
+- Monte Carlo: n in {200,1000}, total calibration m in {200,500}, (q0,q1) in {(0.7,0.7),(0.7,0.9),(0.9,0.7),(0.9,0.9)}, theta=0,0.05,...,1; 10,000 trials per point and seed; alpha=0.05; pilot 10 observations per class. Independent vectorized implementation with fresh seeds 1729,1730,1731. Preserve every trial's sufficient counts. Sampling binomial counts replaces sums of independent Bernoulli trials with their identical distributions; it changes the random-number stream, not the statistical experiment.
+- The test truth count is sampled first; judge true-positive and false-positive counts are conditional on it. Equal calibration is independent. Adaptive calibration reuses its pilot success counts and samples the additional allocated observations. Pilot-dependent allocation, rounding to even at ties, smoothing, and clipping follow the original source exactly.
+- Cross-check independent formulas against the original scalar functions on fixed cases before trials. Also execute the original scalar Figure 4 Monte Carlo for the main configuration and seed 1234 (210,000 trials), retaining its output arrays. Compare its first-trial point estimates to the original vector illustration.
+- Figure 2: q0=.7,q1=.9,n=1e9,m0=m1=500,200-point theta grid. Figure 3: p=.3,.5,.7,.9, n=1e9, total m=100..10000 step 10, q0=.7,q1=.9, no pilot, using specified q beliefs. Compare all 3,964 interval lengths to the original functions. Store complete numeric arrays and plots.
+
+## Numerical success criteria
+
+1. Analytic corrected point estimate recovers each theta with absolute error <=1e-12. Independent deterministic interval lengths and original scalar functions agree <=1e-12.
+2. For all 16 configurations and 21 theta points, pooled fresh-seed naive and equal-calibration coverages agree with the published SVG curves within 0.020; mean equal and adaptive interval lengths agree within 0.005. These are fixed absolute tolerances for Monte Carlo variation, with vector-coordinate rounding negligible. No failing point is discarded.
+3. Original scalar main-run first-trial naive and adjusted point estimates agree with the published SVG points within 0.00001. This assesses whether released code reconstructs the published illustrative random stream.
+4. All results finite, all trial counts correct, zero exclusions, saved raw sufficient counts and immutable source/configuration hashes; scalar/vector fixed-case checks pass. A run passing these criteria is a full empirical reproduction, counted once after review.
+
+## Findings recorded before running
+
+The original Figure 4(c) vector curves cross: adaptive intervals are sometimes longer. Accordingly, numerical reconstruction of the actual published results and verification of prose claims are reported separately. We will report all points where the claim of *consistently* shorter intervals fails, together with adaptive coverage (not shown in the paper). Failure of an overstatement is not concealed by numerical agreement. Figure 4(a) is a single trial, not a mean-unbiasedness demonstration. The source clips point estimates to [0,1], introducing boundary bias; exact unbiasedness of the unbounded known-reliability formula is not asserted for the finite-sample clipped estimator. Algorithm 1's final assignment appears reversed in the paper; the released implementation's m0=m-m1 is used. Its p<1e-6 branch allocates m1=m-pilot; retain rather than silently repair it.
+
+No outcome-dependent tolerance changes, extra seeds chosen to rescue an outcome, or modified methods will be used. Failures or corrections require a new immutable run and a disclosed amendment.

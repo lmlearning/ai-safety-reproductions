@@ -1,0 +1,431 @@
+{
+  "records": [
+    {
+      "canonical_index": 1,
+      "source_row": 2,
+      "source_document": "sources/supplement_appendixB_cloud001.docx",
+      "source_document_sha256": "6a4691c5fe7e09b497bf784eaf53cea470dd4a1449b8b1e8899fc5c656f462f2",
+      "original_visible_cells": [
+        "\n",
+        "Abou Hashish and Alnajjar 2024",
+        "Cross-sectional survey",
+        "To assess nursing students' perceived knowledge, attitudes, and skills regarding digital transformation, digital health literacy, and attitudes toward AI.",
+        "266  nursing students",
+        "Universities in Egypt and Saudi Arabia(27)"
+      ],
+      "primary_group": "students",
+      "group_basis": "Source sample if explicit, otherwise original aim; nurse managers included nurses; B medical/nursing discrepancy preserved",
+      "primary_country_tokens": [
+        "Egypt",
+        "Saudi Arabia"
+      ],
+      "country_missing": false,
+      "multicountry": true,
+      "no_geography_inferred_from_hospital_name": true,
+      "conflicts_preserved": true
+    },
+    {
+      "canonical_index": 2,
+      "source_row": 3,
+      "source_document": "sources/supplement_appendixB_cloud001.docx",
+      "source_document_sha256": "6a4691c5fe7e09b497bf784eaf53cea470dd4a1449b8b1e8899fc5c656f462f2",
+      "original_visible_cells": [
+        "",
+        "Algunmeeyn and Mrayyan 2025",
+        "Cross-sectional online survey",
+        "To explore nursing students' perceptions of AI use in nursing research.",
+        "434 nursing students",
+        "Online survey across various institutions(62)"
+      ],
+      "primary_group": "students",
+      "group_basis": "Source sample if explicit, otherwise original aim; nurse managers included nurses; B medical/nursing discrepancy preserved",
+      "primary_country_tokens": null,
+      "country_missing": true,
+      "multicountry": false,
+      "no_geography_inferred_from_hospital_name": true,
+      "conflicts_preserved": true
+    },
+    {
+      "canonical_index": 3,
+      "source_row": 4,
+      "source_document": "sources/supplement_appendixB_cloud001.docx",
+      "source_document_sha256": "6a4691c5fe7e09b497bf784eaf53cea470dd4a1449b8b1e8899fc5c656f462f2",
+      "original_visible_cells": [
+        "",
+        "Ali 2024\n",
+        "Descriptive research design",
+        "To assess challenges and barriers of using AI as perceived by nursing personnel.",
+        "250 nursing personnel",
+        "EL Fayoum University hospitals, Egypt(60)"
+      ],
+      "primary_group": "nurses",
+      "group_basis": "Source sample if explicit, otherwise original aim; nurse managers included nurses; B medical/nursing discrepancy preserved",
+      "primary_country_tokens": [
+        "Egypt"
+      ],
+      "country_missing": false,
+      "multicountry": false,
+      "no_geography_inferred_from_hospital_name": true,
+      "conflicts_preserved": true
+    },
+    {
+      "canonical_index": 4,
+      "source_row": 5,
+      "source_document": "sources/supplement_appendixB_cloud001.docx",
+      "source_document_sha256": "6a4691c5fe7e09b497bf784eaf53cea470dd4a1449b8b1e8899fc5c656f462f2",
+      "original_visible_cells": [
+        "",
+        "Al-Sabawy 2023",
+        "Cross-sectional exploratory survey",
+        "To explore nurses' attitudes and perceptions toward the implementation of AI in nursing practice.",
+        "410 nurses",
+        "Kirkuk Health Department, Iraq(65)"
+      ],
+      "primary_group": "nurses",
+      "group_basis": "Source sample if explicit, otherwise original aim; nurse managers included nurses; B medical/nursing discrepancy preserved",
+      "primary_country_tokens": [
+        "Iraq"
+      ],
+      "country_missing": false,
+      "multicountry": false,
+      "no_geography_inferred_from_hospital_name": true,
+      "conflicts_preserved": true
+    },
+    {
+      "canonical_index": 5,
+      "source_row": 6,
+      "source_document": "sources/supplement_appendixB_cloud001.docx",
+      "source_document_sha256": "6a4691c5fe7e09b497bf784eaf53cea470dd4a1449b8b1e8899fc5c656f462f2",
+      "original_visible_cells": [
+        "",
+        "Gulsum Asiksoy 2025\n",
+        "Mixed-methods phenomenological study",
+        "To evaluate the medical reliability and patient safety implications of AI-powered chatbots in health literacy education.",
+        "44 nurses",
+        "Private hospital in Cyprus(144)"
+      ],
+      "primary_group": "nurses",
+      "group_basis": "Source sample if explicit, otherwise original aim; nurse managers included nurses; B medical/nursing discrepancy preserved",
+      "primary_country_tokens": [
+        "Cyprus"
+      ],
+      "country_missing": false,
+      "multicountry": false,
+      "no_geography_inferred_from_hospital_name": true,
+      "conflicts_preserved": true
+    },
+    {
+      "canonical_index": 6,
+      "source_row": 7,
+      "source_document": "sources/supplement_appendixB_cloud001.docx",
+      "source_document_sha256": "6a4691c5fe7e09b497bf784eaf53cea470dd4a1449b8b1e8899fc5c656f462f2",
+      "original_visible_cells": [
+        "",
+        "\nKhaled and Elborai 2024\n\n",
+        "Descriptive cross-sectional study",
+        "To assess nursing students' knowledge and attitudes regarding AI.",
+        "222",
+        "Nursing faculties in Egypt(61)"
+      ],
+      "primary_group": "students",
+      "group_basis": "Source sample if explicit, otherwise original aim; nurse managers included nurses; B medical/nursing discrepancy preserved",
+      "primary_country_tokens": [
+        "Egypt"
+      ],
+      "country_missing": false,
+      "multicountry": false,
+      "no_geography_inferred_from_hospital_name": true,
+      "conflicts_preserved": true
+    },
+    {
+      "canonical_index": 7,
+      "source_row": 8,
+      "source_document": "sources/supplement_appendixB_cloud001.docx",
+      "source_document_sha256": "6a4691c5fe7e09b497bf784eaf53cea470dd4a1449b8b1e8899fc5c656f462f2",
+      "original_visible_cells": [
+        "",
+        "\n\nQaladi et al. 2025a \n",
+        "Cross-sectional survey",
+        "To explore registered nurses' perceptions of AI in Saudi Arabia, focusing on both challenges and opportunities.",
+        "202 nurses",
+        "Saudi Arabia(70)"
+      ],
+      "primary_group": "nurses",
+      "group_basis": "Source sample if explicit, otherwise original aim; nurse managers included nurses; B medical/nursing discrepancy preserved",
+      "primary_country_tokens": [
+        "Saudi Arabia"
+      ],
+      "country_missing": false,
+      "multicountry": false,
+      "no_geography_inferred_from_hospital_name": true,
+      "conflicts_preserved": true
+    },
+    {
+      "canonical_index": 8,
+      "source_row": 9,
+      "source_document": "sources/supplement_appendixB_cloud001.docx",
+      "source_document_sha256": "6a4691c5fe7e09b497bf784eaf53cea470dd4a1449b8b1e8899fc5c656f462f2",
+      "original_visible_cells": [
+        "",
+        "\n\nSabra et al. 2023\n",
+        "Descriptive research design",
+        "To assess nurses' perspectives and attitudes toward AI utilization in healthcare.",
+        "200 nurses",
+        "Qena University Hospitals(145)"
+      ],
+      "primary_group": "nurses",
+      "group_basis": "Source sample if explicit, otherwise original aim; nurse managers included nurses; B medical/nursing discrepancy preserved",
+      "primary_country_tokens": null,
+      "country_missing": true,
+      "multicountry": false,
+      "no_geography_inferred_from_hospital_name": true,
+      "conflicts_preserved": true
+    },
+    {
+      "canonical_index": 9,
+      "source_row": 10,
+      "source_document": "sources/supplement_appendixB_cloud001.docx",
+      "source_document_sha256": "6a4691c5fe7e09b497bf784eaf53cea470dd4a1449b8b1e8899fc5c656f462f2",
+      "original_visible_cells": [
+        "",
+        " Salameh et al. 2025",
+        "Cross-sectional study",
+        "To explore nursing students' attitudes toward AI in Palestine.",
+        "325",
+        "Palestine(59)"
+      ],
+      "primary_group": "students",
+      "group_basis": "Source sample if explicit, otherwise original aim; nurse managers included nurses; B medical/nursing discrepancy preserved",
+      "primary_country_tokens": [
+        "Palestine"
+      ],
+      "country_missing": false,
+      "multicountry": false,
+      "no_geography_inferred_from_hospital_name": true,
+      "conflicts_preserved": true
+    },
+    {
+      "canonical_index": 10,
+      "source_row": 11,
+      "source_document": "sources/supplement_appendixB_cloud001.docx",
+      "source_document_sha256": "6a4691c5fe7e09b497bf784eaf53cea470dd4a1449b8b1e8899fc5c656f462f2",
+      "original_visible_cells": [
+        "",
+        "\n\nYaseen et al. 2025\n\n",
+        "Descriptive cross-sectional study",
+        "To assess nurses' knowledge regarding the application of AI in nursing practice.",
+        "307",
+        "Not specified(146)"
+      ],
+      "primary_group": "nurses",
+      "group_basis": "Source sample if explicit, otherwise original aim; nurse managers included nurses; B medical/nursing discrepancy preserved",
+      "primary_country_tokens": null,
+      "country_missing": true,
+      "multicountry": false,
+      "no_geography_inferred_from_hospital_name": true,
+      "conflicts_preserved": true
+    },
+    {
+      "canonical_index": 11,
+      "source_row": 12,
+      "source_document": "sources/supplement_appendixB_cloud001.docx",
+      "source_document_sha256": "6a4691c5fe7e09b497bf784eaf53cea470dd4a1449b8b1e8899fc5c656f462f2",
+      "original_visible_cells": [
+        "",
+        "Buabbas et al. 2023 \n",
+        "Cross-Sectional Study",
+        "Assess medical students\u2019 perceptions and attitudes towards AI in healthcare.",
+        "352 nursing students",
+        "Kuwait University(147)"
+      ],
+      "primary_group": "students",
+      "group_basis": "Source sample if explicit, otherwise original aim; nurse managers included nurses; B medical/nursing discrepancy preserved",
+      "primary_country_tokens": [
+        "Kuwait"
+      ],
+      "country_missing": false,
+      "multicountry": false,
+      "no_geography_inferred_from_hospital_name": true,
+      "conflicts_preserved": true
+    },
+    {
+      "canonical_index": 12,
+      "source_row": 13,
+      "source_document": "sources/supplement_appendixB_cloud001.docx",
+      "source_document_sha256": "6a4691c5fe7e09b497bf784eaf53cea470dd4a1449b8b1e8899fc5c656f462f2",
+      "original_visible_cells": [
+        "",
+        "\nG\u00fcl\u0131rmak G\u00fcler and \u015een Atasayar (2025)\n\n",
+        "Descriptive and Relational Study",
+        "To examine the relationship between nursing students' attitudes toward AI and their creative personality traits.",
+        "492 nursing students from a Turkish university",
+        "Nursing programs in Turkey(148)"
+      ],
+      "primary_group": "students",
+      "group_basis": "Source sample if explicit, otherwise original aim; nurse managers included nurses; B medical/nursing discrepancy preserved",
+      "primary_country_tokens": [
+        "Turkey"
+      ],
+      "country_missing": false,
+      "multicountry": false,
+      "no_geography_inferred_from_hospital_name": true,
+      "conflicts_preserved": true
+    },
+    {
+      "canonical_index": 13,
+      "source_row": 14,
+      "source_document": "sources/supplement_appendixB_cloud001.docx",
+      "source_document_sha256": "6a4691c5fe7e09b497bf784eaf53cea470dd4a1449b8b1e8899fc5c656f462f2",
+      "original_visible_cells": [
+        "",
+        "J.-w. Han et al. 2025",
+        "Quasi-Experimental / Program Evaluation",
+        "To develop and test a chatbot-based education program supporting self-directed learning in nursing students.",
+        "99 nursing students ",
+        "South Korean nursing program (63)"
+      ],
+      "primary_group": "students",
+      "group_basis": "Source sample if explicit, otherwise original aim; nurse managers included nurses; B medical/nursing discrepancy preserved",
+      "primary_country_tokens": [
+        "South Korea"
+      ],
+      "country_missing": false,
+      "multicountry": false,
+      "no_geography_inferred_from_hospital_name": true,
+      "conflicts_preserved": true
+    },
+    {
+      "canonical_index": 14,
+      "source_row": 15,
+      "source_document": "sources/supplement_appendixB_cloud001.docx",
+      "source_document_sha256": "6a4691c5fe7e09b497bf784eaf53cea470dd4a1449b8b1e8899fc5c656f462f2",
+      "original_visible_cells": [
+        "",
+        "Elsayed and Sleem 2021",
+        "Descriptive research design",
+        "To investigate nurse managers' perspectives and attitudes toward using AI technology in health settings.",
+        "130 nurse managers",
+        "Mansoura University Hospitals, Egypt(149)"
+      ],
+      "primary_group": "nurses",
+      "group_basis": "Source sample if explicit, otherwise original aim; nurse managers included nurses; B medical/nursing discrepancy preserved",
+      "primary_country_tokens": [
+        "Egypt"
+      ],
+      "country_missing": false,
+      "multicountry": false,
+      "no_geography_inferred_from_hospital_name": true,
+      "conflicts_preserved": true
+    },
+    {
+      "canonical_index": 15,
+      "source_row": 16,
+      "source_document": "sources/supplement_appendixB_cloud001.docx",
+      "source_document_sha256": "6a4691c5fe7e09b497bf784eaf53cea470dd4a1449b8b1e8899fc5c656f462f2",
+      "original_visible_cells": [
+        "",
+        "Honkavuo 2020",
+        "Quantitative descriptive study",
+        "To assess nursing students' views on digital teaching methods in nursing education.",
+        "186",
+        "Nursing schools in Finland(64)"
+      ],
+      "primary_group": "students",
+      "group_basis": "Source sample if explicit, otherwise original aim; nurse managers included nurses; B medical/nursing discrepancy preserved",
+      "primary_country_tokens": [
+        "Finland"
+      ],
+      "country_missing": false,
+      "multicountry": false,
+      "no_geography_inferred_from_hospital_name": true,
+      "conflicts_preserved": true
+    },
+    {
+      "canonical_index": 16,
+      "source_row": 17,
+      "source_document": "sources/supplement_appendixB_cloud001.docx",
+      "source_document_sha256": "6a4691c5fe7e09b497bf784eaf53cea470dd4a1449b8b1e8899fc5c656f462f2",
+      "original_visible_cells": [
+        "",
+        "S\u00e1nchez and Karaksha (2023)",
+        "Quantitative, non-experimental, descriptive, and exploratory study",
+        "To determine the attitudes of undergraduate nursing students toward e-learning.",
+        "71 sophomore nursing students (58 responded; 82.8% female)",
+        "Not specified(150)"
+      ],
+      "primary_group": "students",
+      "group_basis": "Source sample if explicit, otherwise original aim; nurse managers included nurses; B medical/nursing discrepancy preserved",
+      "primary_country_tokens": null,
+      "country_missing": true,
+      "multicountry": false,
+      "no_geography_inferred_from_hospital_name": true,
+      "conflicts_preserved": true
+    },
+    {
+      "canonical_index": 17,
+      "source_row": 18,
+      "source_document": "sources/supplement_appendixB_cloud001.docx",
+      "source_document_sha256": "6a4691c5fe7e09b497bf784eaf53cea470dd4a1449b8b1e8899fc5c656f462f2",
+      "original_visible_cells": [
+        "",
+        "Saleh et al. 2025",
+        "Cross-sectional study",
+        "To examine faculty perceptions of artificial intelligence (AI) chatbots in nursing education, focusing on their usage patterns, perceived benefits, and limitations.",
+        "474 nursing faculty members from Jordan and the United States, all with at least one year of teaching experience.",
+        "Nursing faculty in Jordan and the U.S(41)"
+      ],
+      "primary_group": "faculty",
+      "group_basis": "Source sample if explicit, otherwise original aim; nurse managers included nurses; B medical/nursing discrepancy preserved",
+      "primary_country_tokens": [
+        "Jordan",
+        "United States"
+      ],
+      "country_missing": false,
+      "multicountry": true,
+      "no_geography_inferred_from_hospital_name": true,
+      "conflicts_preserved": true
+    },
+    {
+      "canonical_index": 18,
+      "source_row": 19,
+      "source_document": "sources/supplement_appendixB_cloud001.docx",
+      "source_document_sha256": "6a4691c5fe7e09b497bf784eaf53cea470dd4a1449b8b1e8899fc5c656f462f2",
+      "original_visible_cells": [
+        "",
+        "Majed Mowanes Alruwaili et al. 2024",
+        "Descriptive Cross-Sectional Study",
+        "To explore nurses\u2019 awareness and attitudes toward AI and its implications for nursing practice.",
+        "220 Practicing nurses",
+        "Saudi Arabia (151)\n"
+      ],
+      "primary_group": "nurses",
+      "group_basis": "Source sample if explicit, otherwise original aim; nurse managers included nurses; B medical/nursing discrepancy preserved",
+      "primary_country_tokens": [
+        "Saudi Arabia"
+      ],
+      "country_missing": false,
+      "multicountry": false,
+      "no_geography_inferred_from_hospital_name": true,
+      "conflicts_preserved": true
+    }
+  ],
+  "source_group_census_only": {
+    "awareness": {
+      "students": 7,
+      "nurses": 7,
+      "faculty": 1
+    },
+    "attitude": {
+      "students": 9,
+      "nurses": 7
+    },
+    "implementation": {
+      "students": 6,
+      "nurses": 5,
+      "faculty": 1
+    }
+  },
+  "original_Table6_counts_preserved_separately": true,
+  "no_coefficient_agreement_used": true,
+  "no_original_statistics": true
+}

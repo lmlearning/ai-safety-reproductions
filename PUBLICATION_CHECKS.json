@@ -1,0 +1,147 @@
+{
+  "record_scope": "Local preparation validation before the initial upload; external-publication fields describe this timestamp only.",
+  "prepared_utc": "2026-10-17T15:50:51.872548+00:00",
+  "status": "PASS",
+  "structural_validation": {
+    "ok": true,
+    "distinct_studies": 21,
+    "scientific_code_files": 85,
+    "python_files_parsed": 108,
+    "local_markdown_links_checked": 687,
+    "per_study": [
+      {
+        "paper_id": "P028",
+        "scientific_code_files": 2,
+        "selected_archive_files": 10
+      },
+      {
+        "paper_id": "P041",
+        "scientific_code_files": 2,
+        "selected_archive_files": 40
+      },
+      {
+        "paper_id": "P065",
+        "scientific_code_files": 2,
+        "selected_archive_files": 14
+      },
+      {
+        "paper_id": "P066",
+        "scientific_code_files": 2,
+        "selected_archive_files": 20
+      },
+      {
+        "paper_id": "P068",
+        "scientific_code_files": 2,
+        "selected_archive_files": 20
+      },
+      {
+        "paper_id": "P069",
+        "scientific_code_files": 2,
+        "selected_archive_files": 12
+      },
+      {
+        "paper_id": "P072",
+        "scientific_code_files": 2,
+        "selected_archive_files": 19
+      },
+      {
+        "paper_id": "P079",
+        "scientific_code_files": 2,
+        "selected_archive_files": 17
+      },
+      {
+        "paper_id": "P080",
+        "scientific_code_files": 4,
+        "selected_archive_files": 20
+      },
+      {
+        "paper_id": "P103",
+        "scientific_code_files": 4,
+        "selected_archive_files": 18
+      },
+      {
+        "paper_id": "P109",
+        "scientific_code_files": 4,
+        "selected_archive_files": 18
+      },
+      {
+        "paper_id": "P120",
+        "scientific_code_files": 2,
+        "selected_archive_files": 25
+      },
+      {
+        "paper_id": "P132",
+        "scientific_code_files": 2,
+        "selected_archive_files": 41
+      },
+      {
+        "paper_id": "P133",
+        "scientific_code_files": 6,
+        "selected_archive_files": 36
+      },
+      {
+        "paper_id": "P134",
+        "scientific_code_files": 2,
+        "selected_archive_files": 29
+      },
+      {
+        "paper_id": "P135",
+        "scientific_code_files": 2,
+        "selected_archive_files": 25
+      },
+      {
+        "paper_id": "P150",
+        "scientific_code_files": 2,
+        "selected_archive_files": 13
+      },
+      {
+        "paper_id": "P156",
+        "scientific_code_files": 3,
+        "selected_archive_files": 10
+      },
+      {
+        "paper_id": "P157",
+        "scientific_code_files": 18,
+        "selected_archive_files": 30
+      },
+      {
+        "paper_id": "P161",
+        "scientific_code_files": 11,
+        "selected_archive_files": 20
+      },
+      {
+        "paper_id": "P165",
+        "scientific_code_files": 9,
+        "selected_archive_files": 19
+      }
+    ],
+    "failures": [],
+    "scientific_programs_executed": false,
+    "limits": "Static syntax and selected navigation/coverage checks, not runtime portability, external URL availability, license adjudication or scientific recomputation."
+  },
+  "original_archive_checks": {
+    "selected_source_files_checked": 456,
+    "all_selected_sources_unchanged": true,
+    "all21_counted_report_pins_unchanged": true
+  },
+  "finite_privacy_and_credential_pattern_scan": {
+    "matched_files": [],
+    "not_a_universal_security_guarantee": true
+  },
+  "artifact_tool_checks": {
+    "valid_inventory_accepted": true,
+    "altered_file_detected": true,
+    "missing_file_detected": true,
+    "P065_staging_smoke_test_completed": true,
+    "existing_stage_directory_refused": true
+  },
+  "scientific_experiments_rerun_during_packaging": false,
+  "external_download_urls_refetched_during_packaging": false,
+  "licensing": "No blanket license assigned; publication does not grant a permissive license.",
+  "external_publication_performed": false,
+  "limits": [
+    "Legacy scientific runtimes and authorization/hash guards were not made universally portable.",
+    "Inputs with landing-page-only records require manual upstream acquisition.",
+    "The release is a curated evidence/code set; original large arrays, weights, third-party raw data and unrelated unsuccessful papers are not included."
+  ]
+}

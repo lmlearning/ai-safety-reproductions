@@ -1,0 +1,74 @@
+P157 — Loop, Think, & Generalize: Implicit Reasoning in Recurrent-Depth Transformers
+NEAR SUCCESS: complete central Figure 5 checkpoint evaluation
+
+Decision: count one distinct paper toward twenty, raising the total from18 to19
+(12 strict central reproductions and7 near successes). This is not a whole-paper
+reproduction: training, other seeds, other figures and broad language-model claims
+are outside the reproduced scope.
+
+Why this paper: the first retained Semantic Scholar snapshot records37 citations
+and public paper date2026-04-09 (arXiv2604.07822). The substantive repository
+README is dated2026-04-08; both dates fall inside the frozen main selection window.
+Citation37 is the retained selection observation, not a current refreshed count.
+The work concerns robust compositional reasoning and generalization, adjacent to
+AI reliability. Earlier-release searches and their finite limitations are retained.
+
+Experiment: all nine original final checkpoints r1..r8/r_dyn, all29,250 original
+held-out examples (750 for every hop2..40), all40 fixed inference recurrences,
+10,530,000 fixed predictions,14,040 accuracy counters and2,285,010,000 retained
+FP32 logit elements. Both complete adaptive policies were run; the primary uses
+epsKL=.01, entropy3,max16,min1. The released-wrapper .001 sensitivity remains
+separate. Seven complete CPU model products were reused only after exact source
+and whole-model custody qualification. Whole r8/r_dyn and both adaptive policies
+were newly completed on the local GPU. Prior partial r8 was excluded in full.
+
+Independent verification: the separate whole audit checked every fixed prediction,
+FP32 logit, counter, original input identity and both adaptive halting/selection
+rules. ROOT rehashed all726 fixed/adaptive arrays. Independent review additionally
+passed243 source/scope/native/product checks. The audit did not rerun the full
+neural forward computation; qualification had separately checked all nine model
+prefixes against the original CPU route, including5,734,442 independently checked
+array elements with no argmax/correctness changes.
+
+Numerical result:3,278 of3,279 published cells satisfy the original exact graphical
+interval test. The only exception is dynamic primaryadaptive hop32:630/750=.84
+against published compatible bin[214/256,215/256). Distance to that interval
+union is exactly1/6400=.00015625, or0.015625 percentage points. The eight fixed
+panel mean distances are0; the whole975-cell dynamic panel mean is1/6,240,000.
+All nine panel means are below the prospectively fixed.02 bound, and the global
+maximum is below.05. No target, source union or threshold was changed after the
+outcome. The original strict3279-cell conjunction remains FALSE in its old record.
+
+The source claims remain compatible: inference recurrence unlocks deeper reasoning
+for models trained with R>4; the dynamic curriculum setting supports deeper
+generalization; beyond15 dynamic iterations the OOD profile plateaus/declines;
+and the complete primary adaptive profile is closely reproduced. No universal
+per-step monotonicity, causal matched-training, optimal-depth or efficiency claim
+is added. Both ROOT and an independent reviewer checked these fixed roles.
+
+Limits: author raw accuracies and plotting arguments were not released. This is
+conditional agreement with the frozen complete source-figure interval extraction,
+not recovery of unpublished ordinates. Earlier storage/resource stops, engineering
+repair failures, audit-startup failure and administrative app-lifecycle errors are
+preserved with finite dispositions. They remain failed attempts, not scientific
+negative results. Successful full and whole audit ended with actual external and
+direct-child exit0, closed handles and streams, under the original unreset clock.
+The direct-process evidence does not establish an unmeasured parent postexit peak
+or a kernel Job enforcement claim. No paid service or additional API key was used.
+Google Drive and OneDrive were positively observed reopened after this experiment.
+
+Decision UTC 2026-10-17T12:29:31.643411+00:00
+
+Evidence:
+full_native_and726_array_hash_acceptance997 | {{REPRODUCTION_ROOT}}\operations\P157_closed_GPU_full_and_audit_ROOT997\ROOT_COMPLETE_CURRENT_GPU006_FULL_NATIVE_AND_PRODUCTS_ACCEPTANCE997.json | 2864 bytes | SHA256 1888ca7fa767e6edf0c61983b705fe4f10f50d870d600c84e22f4db11aa625b8
+whole_audit_actual_tool_and_native_closure1010 | {{REPRODUCTION_ROOT}}\operations\closed_actual_audit_and_runtime_ROOT1010\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json | 3362 bytes | SHA256 0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929
+whole_closed_inputs_and_operational_dispositions1011 | {{REPRODUCTION_ROOT}}\operations\P157_closed_near_ROOT1011\ROOT_CLOSED_ALL9_FIXED_AND_BOTH_ADAPTIVE_WHOLE_INPUT_QUALIFICATION1011.json | 46449 bytes | SHA256 9782a9c26993b1d8b3cca3226e56e8ef435064551c34fd63ed9358c4596a49fa
+accepted_source_bound_claims1012 | {{REPRODUCTION_ROOT}}\operations\P157_final_near_ROOT1012\ROOT_ACCEPTED_COMPLETE_C1_C4_SOURCE_BOUND_COMPATIBILITY1012.json | 9154 bytes | SHA256 b0d46bff9870fefa58f1be637ae65282de81a0e578b54686d4297ddea8d7cfb4
+independent_complete_scope243checks | {{REPRODUCTION_ROOT}}\operations\P157_closed_audit007_scope_review_P092042\INDEPENDENT_COMPLETE_CLOSED_P157_AUDIT007_SCOPE_NATIVE_PRODUCTS_P092042.json | 49249 bytes | SHA256 eed2ce5ef39eef190bd65a470e19a38f9bf82edd6394512b06c29c769e6703b9
+independent_complete_claims | {{REPRODUCTION_ROOT}}\operations\P157_closed_C1_C4_independent_interpretation_RSTAT001\INDEPENDENT_COMPLETE_CLOSED_P157_C1_C4_COMPATIBILITY_RSTAT001.json | 11169 bytes | SHA256 7b9609bac06ab7b362607299513d660ff6b35958481b7e85ef7ebb4f733f8dcb
+both_apps_restored1010 | {{REPRODUCTION_ROOT}}\operations\closed_actual_audit_and_runtime_ROOT1010\ROOT_ACTUAL_BOTH_SYNC_APPS_RESTORED_AFTER_P157_AUDIT1010.json | 1623 bytes | SHA256 418f80a7a23115682b289165149dbf1df34b1a70277ae9cb0cc1c873310bc6b2
+prospective_near_policy915 | {{REPRODUCTION_ROOT}}\environment\ROOT_ADOPTED_PROSPECTIVE_NEAR_SUCCESS_P019_P157_POLICY915.json | 18446 bytes | SHA256 2b6c5ed9074dd924dc4461299808dd552d7ad1cb72fef5481585b9822303842c
+original_preregistration | {{REPRODUCTION_ROOT}}\papers\P157_loop_think_generalize\PREREGISTRATION.txt | 7357 bytes | SHA256 ac63685d67ca9a30359c3598683817382ed6dd9e00d06b1119760a5489f99ad3
+retained_first_citation_snapshot | {{REPRODUCTION_ROOT}}\literature\root_fresh_candidate_metadata_oct15_256\01_grokking.json | 13662 bytes | SHA256 6cda6bcfd9c317ff0fd6bf28bfd8ae6368b535ca36daecee9aca68ac94803e18
+bounded_public_chronology_and_plot_source | {{REPRODUCTION_ROOT}}\literature\loop_think_generalize_source_oct15_001\EXACT_PLOT_VERSION_AND_PUBLIC_CHRONOLOGY_SOURCES009.json | 15512 bytes | SHA256 5d7140b1a7e97c2039e2805a1493aa2ba4be1fe3bfcbab3d04a5715bca4fea40
+final_full_quantitative_vector | {{REPRODUCTION_ROOT}}\runs\P157_complete_main001\recovery_full005\near915002\COMPLETE_ALL3279_ALL14040_NEAR_BOUND_CANDIDATE001.json | 2602562 bytes | SHA256 42e2dd81202ecc7d46a86783fe0f64aa54f108c506a17c185b7460519bda929f

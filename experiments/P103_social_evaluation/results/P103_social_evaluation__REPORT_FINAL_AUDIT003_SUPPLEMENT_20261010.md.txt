@@ -1,0 +1,11 @@
+# P103 completed audit supplement
+
+The complete original primaryStudy1 anticipation analysis remains107/108 published target gates passing, with no reproduction credit. The sole unchanged failure is the laziness Welch degrees of freedom:492.74805082411166 versus published492.8, outside frozen absolute tolerance0.050000001. The later R printing diagnosis is supporting evidence only and does not change this gate.
+
+Independent auditor003 completed: all1484 integrity checks passed, all108 original target checks were performed, and the same107/108 result was independently confirmed. Total1591/1592 checks passed. Both auditor and supervisor exited0; completion does not mean every scientific target passed.
+
+The auditor correction follows original Study1.Rmd mean(age,na.rm=TRUE): four missing ages are omitted only from the demographic mean (ageN493). All497 retained rating participants,500rawrecords,21items,sixpairedtraits, original uncertainty calculations and201MC1records are unchanged. Six unrelated synthetic missing-age fixtures passed before this authorized audit. No original analysis rerun occurred.
+
+Audit003 started21:25:55.370002UTC and its supervisor recorded actual childexit0 at21:25:56.484760UTC after1.125seconds, with no resource breach. AuditorPID43612 creation21:25:55.378715UTC and supervisorPID31044 creation21:25:55.216846UTC were independently observed; both exact owned processes are absent after exit. Resource settings remain oneCPUthread,1GiBRSS cap,1GiBavailableRAM floor during work,1.5GiB/10sec start condition,35GiBdisk floor and600second bound.
+
+All numerical run001 outputs, the initial report/provenance/manifests, audit001 resource stop, and audit002 age-conversion failure/partial outputs remain immutable. This separately versioned supplement records completion of the independent integrity audit and retains every earlier failure.

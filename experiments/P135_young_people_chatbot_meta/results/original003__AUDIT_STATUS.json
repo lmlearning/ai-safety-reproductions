@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "mode": "original",
+  "checks": 26724,
+  "failures": 0,
+  "failed_checks": [],
+  "primary_gates": 50,
+  "primary_passed": 50,
+  "all_primary_passed": true,
+  "supporting_comparisons": 331,
+  "supporting_source_passed": 190,
+  "complete_original_outputs_verified": 6,
+  "elapsed_seconds": 1507.2997522354126,
+  "no_primary_rescue": true
+}

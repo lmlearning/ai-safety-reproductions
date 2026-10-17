@@ -1,0 +1,133 @@
+{
+  "schema": "EXACT_CLOSED_PRIMARY_AGGREGATE_PROJECTION_NO_RECOMPUTATION",
+  "paper_id": "P156",
+  "source_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P156_ai_agent_index_original001\\PRIMARY_COMPLETE_ORIGINAL_JSON_TRANSPARENCY029.json",
+    "bytes": 1990092,
+    "sha256": "3123ed52be2177ad281980f571a289e5692322359c52402ee4fcf6b18742ebed",
+    "purpose": "Immutable completed original primary result; not bundled raw records"
+  },
+  "projection": {
+    "primary_target_comparisons": [
+      {
+        "id": "Fig3_all1350",
+        "numerator": 199,
+        "denominator": 1350,
+        "target_numerator": 198,
+        "target_denominator": 1350,
+        "passed": false
+      },
+      {
+        "id": "Fig6_all240",
+        "numerator": 135,
+        "denominator": 240,
+        "target_numerator": 133,
+        "target_denominator": 240,
+        "passed": false
+      },
+      {
+        "id": "Fig6_Enterprise",
+        "numerator": 67,
+        "denominator": 104,
+        "target_numerator": 67,
+        "target_denominator": 104,
+        "passed": true
+      },
+      {
+        "id": "Fig6_Enterprise_percentage_display",
+        "numerator": 67,
+        "denominator": 104,
+        "percentage_exact_fraction": "1675/26",
+        "target_display": "64",
+        "rounding_interval": "[display-0.5,display+0.5) percent",
+        "passed": true
+      },
+      {
+        "id": "Fig6_Browser",
+        "numerator": 25,
+        "denominator": 40,
+        "target_numerator": 25,
+        "target_denominator": 40,
+        "passed": true
+      },
+      {
+        "id": "Fig6_Browser_percentage_display",
+        "numerator": 25,
+        "denominator": 40,
+        "percentage_exact_fraction": "125/2",
+        "target_display": "63",
+        "rounding_interval": "[display-0.5,display+0.5) percent",
+        "passed": true
+      },
+      {
+        "id": "Fig6_Chat",
+        "numerator": 43,
+        "denominator": 96,
+        "target_numerator": 41,
+        "target_denominator": 96,
+        "passed": false
+      },
+      {
+        "id": "Fig6_Chat_percentage_display",
+        "numerator": 43,
+        "denominator": 96,
+        "percentage_exact_fraction": "1075/24",
+        "target_display": "43",
+        "rounding_interval": "[display-0.5,display+0.5) percent",
+        "passed": false
+      }
+    ],
+    "all_primary_published_targets_passed": false,
+    "mandatory_literal_caption_audit": [
+      {
+        "literal_category": "Browser",
+        "literal_numerator": 67,
+        "literal_denominator": 104,
+        "literal_percentage_display": "64",
+        "actual_numerator": 25,
+        "actual_denominator": 40,
+        "literal_exact_fraction_passed": false,
+        "role": "MANDATORY_SUPPORTING_LITERAL_CAPTION_AUDIT_NOT_FULL"
+      },
+      {
+        "literal_category": "Enterprise",
+        "literal_numerator": 25,
+        "literal_denominator": 40,
+        "literal_percentage_display": "63",
+        "actual_numerator": 67,
+        "actual_denominator": 104,
+        "literal_exact_fraction_passed": false,
+        "role": "MANDATORY_SUPPORTING_LITERAL_CAPTION_AUDIT_NOT_FULL"
+      },
+      {
+        "literal_category": "Chat",
+        "literal_numerator": 41,
+        "literal_denominator": 96,
+        "literal_percentage_display": "43",
+        "actual_numerator": 43,
+        "actual_denominator": 96,
+        "literal_exact_fraction_passed": false,
+        "role": "MANDATORY_SUPPORTING_LITERAL_CAPTION_AUDIT_NOT_FULL"
+      }
+    ],
+    "all_literal_caption_audits_passed": false,
+    "word_mean14_status": {
+      "role": "HELD_AUXILIARY",
+      "published_text": "14 words",
+      "computed": false,
+      "reason": "Unreleased original tokenizer/markup/nonempty denominator generator"
+    },
+    "FULL_reproduction_qualified": false,
+    "paper_credit": 0,
+    "Fig3_counts": {
+      "missing": 199,
+      "denominator": 1350
+    },
+    "Fig6_counts": {
+      "missing": 135,
+      "denominator": 240
+    }
+  },
+  "no_numerical_recomputation": true,
+  "raw_participant_or_response_records_included": false
+}

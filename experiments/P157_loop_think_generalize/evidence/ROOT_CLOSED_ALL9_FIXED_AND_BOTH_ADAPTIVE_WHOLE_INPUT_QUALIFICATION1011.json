@@ -1,0 +1,729 @@
+{
+  "schema": "ROOT_P157_CLOSED_WHOLE_FAMILY_NEAR_INPUT_QUALIFICATION001",
+  "ROOT_closed_full_and_whole_independent_audit_qualified": true,
+  "ROOT_exact_original_inputs_and_scope_verified": true,
+  "ROOT_native_tool_handle_stream_and_clock_closure_qualified": true,
+  "ROOT_ordered_operational_violation_disposition_complete": true,
+  "near_policy_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ADOPTED_PROSPECTIVE_NEAR_SUCCESS_P019_P157_POLICY915.json",
+    "bytes": 18446,
+    "sha256": "2b6c5ed9074dd924dc4461299808dd552d7ad1cb72fef5481585b9822303842c"
+  },
+  "source_target_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\COMPLETE_ALL3279_PUBLISHED_FIGURE5_PIXEL_INTERVALS011.json",
+    "bytes": 3153387,
+    "sha256": "85d3edc3a680d2832365118c5a0bcf91b86c367c5e500a0ad4c2b848570054f4"
+  },
+  "same_original_common_grant_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\papers\\P157_loop_think_generalize\\review\\source_preparation001\\ROOT_ONE_P157_PUBLIC_ACQUISITION_ONLY_GRANT270.json",
+    "bytes": 1948,
+    "sha256": "7e4ef94db42f40b9631558d3aa9b4f1620c2392f41d1c0770dd935a5c3f0e87a"
+  },
+  "original_audit_source_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\papers\\P157_loop_think_generalize\\review\\source_preparation002\\p157_audit002.py",
+    "bytes": 6886,
+    "sha256": "f8f8ad46c1c9b389d8a9bbb94211e4a5d71e1fbff1cefcd1b0323bc2fa098402"
+  },
+  "complete_full_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\COMPLETE_ALL_NINE_FULL.json",
+    "bytes": 90849229,
+    "sha256": "491c6c8a6bd69a69342cc7ddddb7fd84275d666e37ab6603454cd3064399606d"
+  },
+  "whole_audit_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\COMPLETE_WHOLE_AUDIT.json",
+    "bytes": 203083,
+    "sha256": "96981518e3c9c4fb4b1b1eef76c0e4a1b7042df329d7c27edfe140d80c2a2624"
+  },
+  "published_comparison_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\COMPLETE_ALL3279_PUBLISHED_COMPARISON.json",
+    "bytes": 1932875,
+    "sha256": "aca8ffd282c64ab339204e583b24be9cc3fa85ebdc8764e57bbfba4c746162d2"
+  },
+  "original_common_origin_UTC": "2026-10-15T13:28:33.952532+00:00",
+  "original_common_deadline_UTC": "2026-10-21T13:28:33.952532+00:00",
+  "whole_scope": {
+    "models": [
+      "r1",
+      "r2",
+      "r3",
+      "r4",
+      "r5",
+      "r6",
+      "r7",
+      "r8",
+      "r_dyn"
+    ],
+    "heldout_examples": 29250,
+    "hops": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "examples_per_hop": 750,
+    "fixed_inference_recurrences": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "fixed_accuracy_counters": 14040,
+    "published_targets": 3279,
+    "adaptive_eps_KL": [
+      0.01,
+      0.001
+    ]
+  },
+  "unresolved_material_operational_violations": [],
+  "ordered_operational_violation_dispositions": [
+    {
+      "ordinal": 1,
+      "event_id": "FULL003_DISK_RESERVE_STOP_383",
+      "event_UTC": "2026-10-15T20:11:39.083691+00:00",
+      "event_kind": "SCIENTIFIC_PHASE_RESOURCE_STOP",
+      "ROOT_disposition_complete": true,
+      "material_impact_resolved": true,
+      "description": "Original full worker and parent stopped on complete owned-storage/free-space reserve failure. Direct native/Popen/tool exit1, no whole manifest/audit or scientific verdict. Partial allocated files were not promoted to complete observations.",
+      "evidence_refs": [
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_CLOSED_INCOMPLETE_P157_FULL_RESOURCE_FAILURE_ACCEPTANCE383.json",
+          "bytes": 12735,
+          "sha256": "dad204d1bae3b46b3b687824421ab7136bc60091b8a5d7ff825dc617bd6caba6"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\full\\parent\\TERMINAL.json",
+          "bytes": 4425,
+          "sha256": "ed53edb7ec4caae95cdfbe19ee160731ec40876bbeb59293b14b155800cf432e"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\full\\worker\\FAILURE.json",
+          "bytes": 3966,
+          "sha256": "1cb3b95f10e157e7cd2e399bbf8a53de3a65c50e86c8f851d2c1fa8fe0df36e8"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\p157_closed_failed_full_RSTAT001\\TOOL_EVENT_F63249_STRUCTURED_TRANSCRIPTION.json",
+          "bytes": 1951,
+          "sha256": "09569c1344e8b1a6e24107be43f4569900f41e9c59840ab9cc9bc5c55eb326df"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\p157_closed_failed_full_RSTAT001\\COMPLETE_CLOSED_FAILED_P157_FULL_CUSTODY_RSTAT001.json",
+          "bytes": 196392,
+          "sha256": "6a3a793e3b3c1372b138cea64edd3bc4e567fe5a30c67cd50d7948cc0e981a49"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+          "bytes": 3362,
+          "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_BOTH_SYNC_APPS_RESTORED_AFTER_P157_AUDIT1010.json",
+          "bytes": 1623,
+          "sha256": "418f80a7a23115682b289165149dbf1df34b1a70277ae9cb0cc1c873310bc6b2"
+        }
+      ],
+      "proposed_finite_disposition_before_ROOT_review": "Keep383 and all partials failed/immutable. Completed-model manifests alone may be reused only via the later source-authorized same-clock byte-qualified full path. A later complete independent audit can verify all original inputs, exact reused/new products and entire fixed/adaptive statistical family; no selection of favorable partial batches is permitted.",
+      "not_resolved_or_not_proven_by_future_whole_audit": "Later audit cannot make the earlier disk condition pass or identify the unestablished cause of the free-space change. Direct scope only; parent postexit native UNMEASURED and terminal image error31/retained-initial provenance stay explicit.",
+      "future_whole_audit_success_asserted": false,
+      "scientific_outcomes_interpreted": false,
+      "ROOT_finite_actual_disposition": "Earlier disk stop stays failed. Whole completed-model reuse was qualified before results;997 rehashed all726 current arrays and007 independently verified every prediction/logit/counter and both policies. No partial favorable batch is used.",
+      "current_whole_audit_closure_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+        "bytes": 3362,
+        "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+      },
+      "historical_failure_reclassified": false
+    },
+    {
+      "ordinal": 2,
+      "event_id": "PREFLIGHT449_HARDLINK_REFUSAL_452",
+      "event_UTC": "2026-10-16T13:46:06+00:00",
+      "event_kind": "PREGRANT_INPUT_CUSTODY_REFUSAL",
+      "ROOT_disposition_complete": true,
+      "material_impact_resolved": true,
+      "description": "Recovery pregrant census refused an owned hardlink before recovery grant/output. Read-only metadata found309 nonunit-link paths among324; external upload alias was observed without creator attribution.",
+      "evidence_refs": [
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_P157_PREAUTHORITY_RESOURCE_FAILURE_AND_READONLY_ALIAS_WITNESS452.json",
+          "bytes": 3598,
+          "sha256": "17dcc25e1e73ed227aa04785610101073d30aef4dda85b2eb2fdf98b47174a61"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_READONLY_P157_COMPLETE_ALLOCATION_LINK_DIAGNOSIS451.json",
+          "bytes": 279701,
+          "sha256": "c38330a1a038d4933d1a731affc06368926921a7fd17835acdc2c5b04bb07846"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ACTUAL_FINAL_P157_REPAIR003_COMPLETE_QUALIFICATION469.json",
+          "bytes": 8400,
+          "sha256": "0b7db5d129bff34171a664ccc9b8487b2421e3e13251ba4ffe8d728294c2964e"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\temp_cache\\p157_own_path_hardlink_detach003\\TERMINAL.json",
+          "bytes": 112782,
+          "sha256": "00e52a435ac07f7d8fbd8156e79e59d5e4a7b386c30f460d7c38ab6e8d200c20"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+          "bytes": 3362,
+          "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_BOTH_SYNC_APPS_RESTORED_AFTER_P157_AUDIT1010.json",
+          "bytes": 1623,
+          "sha256": "418f80a7a23115682b289165149dbf1df34b1a70277ae9cb0cc1c873310bc6b2"
+        }
+      ],
+      "proposed_finite_disposition_before_ROOT_review": "Keep refusal. Later469 separately proves fresh canonical pre/post SHA custody for all324 and single-link final owned paths without touching external alias bytes. A later whole audit can reverify exact original inputs and imported products against their original hashes; it does not rely on alias names as scientific identity.",
+      "not_resolved_or_not_proven_by_future_whole_audit": "External alias creator/history or global filesystem absence is not established.469 is prior engineering custody evidence, not paper success or a new clock.",
+      "future_whole_audit_success_asserted": false,
+      "scientific_outcomes_interpreted": false,
+      "ROOT_finite_actual_disposition": "Earlier pregrant refusal stays refused.469 verified canonical all324 bytes and detached owned links; current source-bound whole audit and997 retained all exact source/product hashes. External alias origin remains unknown and is immaterial to current exact bytes.",
+      "current_whole_audit_closure_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+        "bytes": 3362,
+        "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+      },
+      "historical_failure_reclassified": false
+    },
+    {
+      "ordinal": 3,
+      "event_id": "DETACH001_PERMISSION_FAILURE_459",
+      "event_UTC": "2026-10-16T14:13:28.856334+00:00",
+      "event_kind": "ENGINEERING_ONLY_FAILED_BYTE_REPAIR",
+      "ROOT_disposition_complete": true,
+      "material_impact_resolved": true,
+      "description": "First detach actor prehashed324, replaced0, then failed first os.replace with PermissionError13. Exact native WinError was not retained. Closed outer tool97; no scientific execution grant.",
+      "evidence_refs": [
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ACTUAL_FIRST_P157_OWN_PATH_DETACH_FAILURE459.json",
+          "bytes": 4101,
+          "sha256": "09047a4b55ef807bc97d121a3a22a65e33a660fc948e195ba45ae7fc484c8c0c"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\temp_cache\\p157_own_path_hardlink_detach001\\ALL324_PREFLIGHT_BEFORE_ANY_REPLACE.json",
+          "bytes": 680713,
+          "sha256": "6e251cc802ef7b07f4e9987cd1eb6ca7e993325a01fd2209cb61f2762a7654b2"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\temp_cache\\p157_own_path_hardlink_detach001\\EVENTS.jsonl",
+          "bytes": 419234,
+          "sha256": "b318ba2ecdd9a3086c6a168016d3a1ba80a6b2bdc606481677c2ad7bd64dfb60"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\temp_cache\\p157_own_path_hardlink_detach001\\TERMINAL.json",
+          "bytes": 71287,
+          "sha256": "485db10968779a7da2b746d30367406df4d72c00efd5c6072d5312416ce4d0ee"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ACTUAL_FINAL_P157_REPAIR003_COMPLETE_QUALIFICATION469.json",
+          "bytes": 8400,
+          "sha256": "0b7db5d129bff34171a664ccc9b8487b2421e3e13251ba4ffe8d728294c2964e"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+          "bytes": 3362,
+          "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_BOTH_SYNC_APPS_RESTORED_AFTER_P157_AUDIT1010.json",
+          "bytes": 1623,
+          "sha256": "418f80a7a23115682b289165149dbf1df34b1a70277ae9cb0cc1c873310bc6b2"
+        }
+      ],
+      "proposed_finite_disposition_before_ROOT_review": "Keep failed attempt and all failure artifacts. It changed no original destination. Later469 cumulative byte verification plus a later whole original-input/product audit can establish that current scientific inputs have exact source bytes; no rerun of this engineering failure is implied.",
+      "not_resolved_or_not_proven_by_future_whole_audit": "Future audit cannot recover absent WinError or retrospectively label tool97 operationally successful. Engineering cost and original scientific clocks remain charged.",
+      "future_whole_audit_success_asserted": false,
+      "scientific_outcomes_interpreted": false,
+      "ROOT_finite_actual_disposition": "Engineering attempt459 stays failed with exact native WinError unknown. No destination was replaced then.469 and the current full/audit establish the actual scientific input bytes independently of that unsuccessful repair.",
+      "current_whole_audit_closure_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+        "bytes": 3362,
+        "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+      },
+      "historical_failure_reclassified": false
+    },
+    {
+      "ordinal": 4,
+      "event_id": "DETACH002_BOOKKEEPING_CAP_FAILURE_465",
+      "event_UTC": "2026-10-16T14:31:24.482336+00:00",
+      "event_kind": "ENGINEERING_ONLY_PARTIAL_BYTE_REPAIR",
+      "ROOT_disposition_complete": true,
+      "material_impact_resolved": true,
+      "description": "Second detach actor stopped at its4096-record bookkeeping ceiling after287 replacements/301 posthashes, with22 expected remaining. Closed outer tool97; this was our logging design failure, not scientific disagreement.",
+      "evidence_refs": [
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ACTUAL_CLOSED_P157_SECOND_DETACH_BOOKKEEPING_FAILURE465.json",
+          "bytes": 4917,
+          "sha256": "b08be076f76dc17ec37989b7210c8f903bb046c95029eaa5167beaf11700a174"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\temp_cache\\p157_own_path_hardlink_detach002\\TERMINAL.json",
+          "bytes": 353797,
+          "sha256": "d4342f9987572100f24b500dfc1937d45ce9a42d2df339bef3dff3b20f592cea"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ACTUAL_FINAL_P157_REPAIR003_COMPLETE_QUALIFICATION469.json",
+          "bytes": 8400,
+          "sha256": "0b7db5d129bff34171a664ccc9b8487b2421e3e13251ba4ffe8d728294c2964e"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\temp_cache\\p157_own_path_hardlink_detach003\\TERMINAL.json",
+          "bytes": 112782,
+          "sha256": "00e52a435ac07f7d8fbd8156e79e59d5e4a7b386c30f460d7c38ab6e8d200c20"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\temp_cache\\p157_own_path_hardlink_detach003\\ALL324_COMPLETE_POSTHASHES.json",
+          "bytes": 105574,
+          "sha256": "93fd1bc63b23eed48e7fbbe5388e137485674828435df9351394ee7fb8a91206"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+          "bytes": 3362,
+          "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_BOTH_SYNC_APPS_RESTORED_AFTER_P157_AUDIT1010.json",
+          "bytes": 1623,
+          "sha256": "418f80a7a23115682b289165149dbf1df34b1a70277ae9cb0cc1c873310bc6b2"
+        }
+      ],
+      "proposed_finite_disposition_before_ROOT_review": "Preserve partial replacement history.469 separately verifies all324 current canonical bytes, completed remaining replacement custody, all390 data-handle close records and all prior failure artifacts unchanged. Later complete audit can independently rejoin scientific inputs to source hashes, without treating partial repair counters as scientific observations.",
+      "not_resolved_or_not_proven_by_future_whole_audit": "No claim that002 itself met the record cap or completed; exact prior failures, source identity/ACL/cooperative and external-alias limits remain.",
+      "future_whole_audit_success_asserted": false,
+      "scientific_outcomes_interpreted": false,
+      "ROOT_finite_actual_disposition": "Engineering attempt465 stays incomplete.469 completed canonical byte custody for all324 without scientific selection; current independent whole audit establishes all current scientific products. No historical cap pass is asserted.",
+      "current_whole_audit_closure_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+        "bytes": 3362,
+        "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+      },
+      "historical_failure_reclassified": false
+    },
+    {
+      "ordinal": 5,
+      "event_id": "RESTORE_WATCHER726_FAILED_727",
+      "event_UTC": "2026-10-17T02:49:20.743814Z",
+      "event_kind": "ADMINISTRATIVE_PAIR_RESTORE_STARTUP_FAILURE",
+      "ROOT_disposition_complete": true,
+      "material_impact_resolved": true,
+      "description": "Breakaway watcher was actually created but refused because it remained in a Job. It opened0 original P157 pair handles and took no app action. Direct watcher native1/signaled/handle closed; no automatic observer was established.",
+      "evidence_refs": [
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_P157_WATCHER_FAILED_CLOSED727.json",
+          "bytes": 3815,
+          "sha256": "5374a5f2e132166ea49686e879d4bd4d8e4bc39151cc77f388b3e2e3c396f9e4"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ACTUAL_P157_BREAKAWAY_LAUNCH_TOOL726.json",
+          "bytes": 2859,
+          "sha256": "4a74fa79f5f24f3167fadadf0caa34890246889d4714ad686fab8f18b7050d74"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_exact_pair_breakaway_launcher001\\actual001\\ONE_EXACT_BREAKAWAY_STARTUP_CUSTODY001.json",
+          "bytes": 2333,
+          "sha256": "d3b33933e924462c6eb1e51126eba558f3179e5a9e33f9fb41d41ace5d4f28e4"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_closed726_independent_custody_review_P092001\\INDEPENDENT_COMPLETE_CLOSED_P157_BREAKAWAY726_FAILURE_CUSTODY_REVIEW001.json",
+          "bytes": 18153,
+          "sha256": "e954de4f71462267b0c30b1f6cca3fd60e10978443c27edeb3c99cb132316838"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_P157_CURRENT004_CLOSED_AND_BOTH_SYNC_APPS_RESTORED926.json",
+          "bytes": 3366,
+          "sha256": "7b2e732c8bb17a8ef619b0273a81e44ad4e94a3fa785d89ec69d502afb169eea"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+          "bytes": 3362,
+          "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_BOTH_SYNC_APPS_RESTORED_AFTER_P157_AUDIT1010.json",
+          "bytes": 1623,
+          "sha256": "418f80a7a23115682b289165149dbf1df34b1a70277ae9cb0cc1c873310bc6b2"
+        }
+      ],
+      "proposed_finite_disposition_before_ROOT_review": "Retain failed watcher and absence of any observer guarantee from that attempt.926 records actual strict004 pair closure, then approved BOTH-app restoration and positive process observations before a later fresh experiment. This is a separate lifecycle disposition, never a numeric audit criterion.",
+      "not_resolved_or_not_proven_by_future_whole_audit": "Whole audit does not erase the disclosed delay between004 terminal08:41:38 and actual restore about08:49:09, or infer an observer existed. It does not certify general GUI health/global process absence.",
+      "future_whole_audit_success_asserted": false,
+      "scientific_outcomes_interpreted": false,
+      "ROOT_finite_actual_disposition": "Failed watcher stays failed; no automatic observer is claimed.926 records actual later restoration and disclosed delay. This administrative failure changes no input/prediction; subsequent separate restoration1010 is also positively observed.",
+      "current_whole_audit_closure_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+        "bytes": 3362,
+        "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+      },
+      "historical_failure_reclassified": false
+    },
+    {
+      "ordinal": 6,
+      "event_id": "CPU_RECOVERY004_CONTINUOUS_RESERVE_STOP_926",
+      "event_UTC": "2026-10-17T08:41:38.191658+00:00",
+      "event_kind": "SCIENTIFIC_PHASE_RESOURCE_STOP",
+      "ROOT_disposition_complete": true,
+      "material_impact_resolved": true,
+      "description": "CPU004 parent stopped on Continuous1GiB RAM/8GiB commit; terminal writer native/Popen1, cleanup[] and direct handle closed.926 records actual parent tool1, strict pair closure and BOTH-app restoration.575 retained004 files were inventoried; no complete audit was waived.",
+      "evidence_refs": [
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_P157_CURRENT004_CLOSED_AND_BOTH_SYNC_APPS_RESTORED926.json",
+          "bytes": 3366,
+          "sha256": "7b2e732c8bb17a8ef619b0273a81e44ad4e94a3fa785d89ec69d502afb169eea"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_full004\\parent\\TERMINAL.json",
+          "bytes": 2910,
+          "sha256": "b2d15858fd14a0e4cf80672d4acd93be9f09f11e22db641ffb8403e73d6218e4"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P157_loop_think_generalize\\review\\source_preparation005\\COMPLETE_RETAINED_R1_R7_AND_CLOSED004_METADATA005.json",
+          "bytes": 1152592,
+          "sha256": "3bff766e2b80fcaaa14a35c947ef818a609ce1e7fe3b0b65f76f9d47a5a502fc"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_stopped004_same_clock_feasibility_P092021\\COMPLETE_METADATA_ONLY_MODEL_COVERAGE_AND_STORAGE_PROJECTION001.json",
+          "bytes": 1232828,
+          "sha256": "0f179a20d2e494d920655fe01a5b758f294a996e1c683eaa7944671dac467968"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_stopped004_same_clock_feasibility_P092021\\COMPLETE_P157_FAILED004_SAME_CLOCK_CONTINUATION_SOURCE_FEASIBILITY_P092021.json",
+          "bytes": 15206,
+          "sha256": "3346a0c727bd3a20c2c29576903ca4797856846d81dd4e3b873a4a8945786ca4"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+          "bytes": 3362,
+          "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_BOTH_SYNC_APPS_RESTORED_AFTER_P157_AUDIT1010.json",
+          "bytes": 1623,
+          "sha256": "418f80a7a23115682b289165149dbf1df34b1a70277ae9cb0cc1c873310bc6b2"
+        }
+      ],
+      "proposed_finite_disposition_before_ROOT_review": "Preserve all575 files, original clocks and the failed stop. Seven complete model manifests were source-qualified for exact whole-model reuse; partially allocated r8 is not a resumed favorable subset. Later006 completes the remaining whole fixed/adaptive family, and a successful whole independent audit could verify all exact reuse/new products and all required counters/targets.",
+      "not_resolved_or_not_proven_by_future_whole_audit": "Later audit cannot turn004 resource floor into a pass or establish which transient resource observation caused the stop beyond retained failure. No hard-floor lowering, failed-time deletion, row dropping, or clock reset is authorized.",
+      "future_whole_audit_success_asserted": false,
+      "scientific_outcomes_interpreted": false,
+      "ROOT_finite_actual_disposition": "CPU004 resource stop stays failed and all575 files remain. Source006 reused only seven whole qualified models and recomputed whole remaining r8/dynamic/adaptive;997 rehashed726arrays and007 verified all required outputs. No source floor or clock was changed.",
+      "current_whole_audit_closure_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+        "bytes": 3362,
+        "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+      },
+      "historical_failure_reclassified": false
+    },
+    {
+      "ordinal": 7,
+      "event_id": "AUDIT997_NUL_WRITE_HOOK_STARTUP_FAILURE_1001",
+      "event_UTC": "2026-10-17T12:02:41.114319+00:00",
+      "event_kind": "AUDIT_STARTUP_FAILURE_BEFORE_PREDICTION_READ",
+      "ROOT_disposition_complete": true,
+      "material_impact_resolved": true,
+      "description": "Audit997 failed while importing runtime: platform metadata fallback attempted os.open(os.devnull, O_RDWR), and the own-write hook refused literal NUL as outside root. Worker/direct parent native/tool1.1001 records closed handle/streams, cleanup[], and BOTH-app restore/observations. No audit prediction-array read or model forward occurred.",
+      "evidence_refs": [
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_P157_AUDIT997_CLOSED_AND_BOTH_SYNC_APPS_RESTORED1001.json",
+          "bytes": 2757,
+          "sha256": "1f8db9ff0b84e60e11a8aa5949f71f965373ac64fcce299bec4fc197e5dbb38d"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\audit_parent006\\TERMINAL.json",
+          "bytes": 2532,
+          "sha256": "05db9b18168846e536be5ef3c1b510f462e24b740229ed493590cffae1e68057"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\audit_worker006\\FAILURE.json",
+          "bytes": 5218,
+          "sha256": "ce93daf509e7a31e68f1beeae58280df541da0282f426f8894e9f0993d67b05a"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\papers\\P157_loop_think_generalize\\review\\source_preparation007\\COMPLETE_006_TO_AUDIT007_NULL_ONLY_AUTHORITY_NAMESPACE_RAW_AST_INVERSE.json",
+          "bytes": 22831,
+          "sha256": "f62538f0f90bef0f1b676062d3ad3b7009875c5b43ce955bb8bcf8ec87720bf4"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_audit_only007_ROOT1009\\ROOT_COMPLETE_AUDIT_ONLY007_SOURCE_ACCEPTANCE1009.json",
+          "bytes": 1707,
+          "sha256": "9faeb625dbdacf9915895fb15e772e61f2a8168a9c02cd68afef03d955f0147e"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_audit_only007_ROOT1009\\ROOT_EXPLICIT_AUDIT007_OVER_COMPLETED006_AND_FAILED997_COMPATIBILITY1009.json",
+          "bytes": 4220,
+          "sha256": "1a83c27c3432d407af253e7d986946cfcdc7411e5038ae3df71cdbc37db46b2b"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+          "bytes": 3362,
+          "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_BOTH_SYNC_APPS_RESTORED_AFTER_P157_AUDIT1010.json",
+          "bytes": 1623,
+          "sha256": "418f80a7a23115682b289165149dbf1df34b1a70277ae9cb0cc1c873310bc6b2"
+        }
+      ],
+      "proposed_finite_disposition_before_ROOT_review": "Keep audit997 failed.007 adds only the exact NUL-device open exemption, fresh audit namespaces and explicit completed006\u2192audit007 authority/source bridge; unchanged audit/model arithmetic is byte pinned. Native context1002 avoids default sandbox OS metadata subprocess fallback while keeping the subprocess prohibition. A later actual complete007 audit may establish scientific integrity of006 products; no audit result exists here.",
+      "not_resolved_or_not_proven_by_future_whole_audit": "No failed997 clean exit or original-rule pass. Imported environment and native/tool closure of the new attempt still need actual evidence. Current catalogue does not infer success from source acceptance.",
+      "future_whole_audit_success_asserted": false,
+      "scientific_outcomes_interpreted": false,
+      "ROOT_finite_actual_disposition": "Failed audit997 stays failed before numerical work.007 changed only null-device/namespace/explicit source bridge, used qualified native OS metadata context, and has now actually completed with tool/native0 and all required numerical integrity checks. No arithmetic bound changed.",
+      "current_whole_audit_closure_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+        "bytes": 3362,
+        "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+      },
+      "historical_failure_reclassified": false
+    },
+    {
+      "ordinal": 8,
+      "event_id": "AUDIT007_PREGRANT1005_FRESH_MEMORY_REFUSAL",
+      "event_UTC": "2026-10-17T12:15:07.664825+00:00",
+      "event_kind": "PREGRANT_FRESH_RESOURCE_REFUSAL",
+      "ROOT_disposition_complete": true,
+      "material_impact_resolved": true,
+      "description": "1005 builder wrote source/compatibility/runtime metadata then failed its unchanged5GiB RAM/12GiB commit/storage fresh assertion before fresh receipt/joint grant/audit admission. Original rejected native snapshot was not persisted.1007 later retained3,899,555,840 available RAM while apps were open, below5GiB; it is a later dated snapshot, not reconstruction of1005.",
+      "evidence_refs": [
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ADMIT_P157_AUDIT_ONLY007_1005.py",
+          "bytes": 6173,
+          "sha256": "8b4b555306be1231d5428b6ec5d3e720219f5c285d96dff3445006ef156bfe9b"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_audit_only007_ROOT1005\\ROOT_COMPLETE_AUDIT_ONLY007_SOURCE_ACCEPTANCE1005.json",
+          "bytes": 1707,
+          "sha256": "744d79470777bf8b4c8ba81fdd0df126b4ec07d6172a780d0b6334596e499462"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_audit_only007_ROOT1005\\ROOT_EXPLICIT_AUDIT007_OVER_COMPLETED006_AND_FAILED997_COMPATIBILITY1005.json",
+          "bytes": 3841,
+          "sha256": "7da7beb29cb8d811687b0bbc7ace7d38ac8c9c61a25f6618c1093d0e58237159"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\environment\\ACTUAL_CURRENT_AUDIT_PREFLIGHT_RAM_AFTER_RESTORATION1007.json",
+          "bytes": 757,
+          "sha256": "91c05faeba62885f8b34eab44d4143725b94136a6f220f5c5b04cfd420548994"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_audit_only007_ROOT1009\\ACTUAL_FRESH_AUDIT007_WITH_APPS_TEMPORARILY_CLOSED_NATIVE_AND_PHYSICAL_CAPACITY1009.json",
+          "bytes": 2281,
+          "sha256": "52e0c0789f7b43f2284bd4df9648d13d039af4c759960297e5905f782d655a6b"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+          "bytes": 3362,
+          "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_BOTH_SYNC_APPS_RESTORED_AFTER_P157_AUDIT1010.json",
+          "bytes": 1623,
+          "sha256": "418f80a7a23115682b289165149dbf1df34b1a70277ae9cb0cc1c873310bc6b2"
+        }
+      ],
+      "proposed_finite_disposition_before_ROOT_review": "Retain pregrant failure/no launch. Under prior human app permission, a later explicit1009 fresh measurement after temporary closure independently satisfies unchanged fresh thresholds and complete storage reservations before a new same-origin audit admission. This does not lower5GiB/12GiB or rescue any numeric outcome.",
+      "not_resolved_or_not_proven_by_future_whole_audit": "Exact failed1005 snapshot and first assertion operand are UNKNOWN;1007 only establishes its own below-floor RAM. A later numerical audit cannot repair missing historical resource telemetry.",
+      "future_whole_audit_success_asserted": false,
+      "scientific_outcomes_interpreted": false,
+      "ROOT_finite_actual_disposition": "1005 remains a pregrant refusal with rejected snapshot UNKNOWN.1007 is only its dated measurement.1009 independently satisfied unchanged fresh floors before the actual successful audit; refusal consumed time but no scientific data were altered.",
+      "current_whole_audit_closure_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+        "bytes": 3362,
+        "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+      },
+      "historical_failure_reclassified": false
+    },
+    {
+      "ordinal": 9,
+      "event_id": "SYNC_APP1008A_IMMEDIATE_ENUMERATION_ASSERTION",
+      "event_UTC": "2026-10-17T12:17:19.145057+00:00",
+      "event_kind": "ADMINISTRATIVE_ONLY_APP_LIFECYCLE",
+      "ROOT_disposition_complete": true,
+      "material_impact_resolved": true,
+      "description": "Approved temporary-closure tool2fde4b exited1 at its final immediate-enumeration assertion after the retained stop/wait/dispose loop. Individual process exit values were not persisted. Subsequent CIM8c3e3d/tool0 returned exact-name[];1008B records no current sync instances observed and continuing restore obligation.",
+      "evidence_refs": [
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\approved_drive_app_temporary_closure_oct17_006\\ROOT_ACTUAL_APPROVED_SYNC_CLOSURE_AFTER_ENUMERATION_SETTLED1008B.json",
+          "bytes": 2321,
+          "sha256": "98972ce2dd2290026fa4198b2dcb2876ffa081f61c4bce3b81918581e3dd4a21"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\approved_drive_app_temporary_closure_oct17_006\\BEFORE_NATIVE_IDENTITIES1008.json",
+          "bytes": 793,
+          "sha256": "77db0a934f03e9a10083cc73fc2feff1e7215668c7a109cf7753e02019e0c2a4"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_TEMPORARY_SYNC_CLOSURE1008A.ps1",
+          "bytes": 2635,
+          "sha256": "3614b241e0969215f5b87a41cda6de5d0e508d61f8b30e090d99235fee8215eb"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\approved_drive_app_temporary_closure_oct15_001\\RESTORE_BOTH_DRIVE_APPS_AFTER_EXPERIMENTS.ps1",
+          "bytes": 859,
+          "sha256": "671220f2d99b41a1f7e14dac74115becab99164308028996967ec718d8358b70"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+          "bytes": 3362,
+          "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+        },
+        {
+          "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_BOTH_SYNC_APPS_RESTORED_AFTER_P157_AUDIT1010.json",
+          "bytes": 1623,
+          "sha256": "418f80a7a23115682b289165149dbf1df34b1a70277ae9cb0cc1c873310bc6b2"
+        }
+      ],
+      "proposed_finite_disposition_before_ROOT_review": "Treat1008B as dated administrative state supporting1009 fresh capacity, not paper data or scientific output. Restore BOTH immediately on same-experiment completion, blocking failure or abandonment; retain actual restore attempt and positive presence observations separately. A whole numerical audit has no role in proving app health.",
+      "not_resolved_or_not_proven_by_future_whole_audit": "Tool1 remains1; no fabricated individual exit codes or global absence. Current pending restoration is not certified complete by this catalogue, and future audit success cannot discharge it without actual app lifecycle evidence.",
+      "future_whole_audit_success_asserted": false,
+      "scientific_outcomes_interpreted": false,
+      "ROOT_finite_actual_disposition": "The immediate administrative enumeration assertion stays failed and individual exits UNKNOWN.1008B is only its dated settled absence. Actual64bf8d0 restoration and c0c2920 positive presence of both apps are now retained1010; no numerical conclusion depends on app health.",
+      "current_whole_audit_closure_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+        "bytes": 3362,
+        "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+      },
+      "historical_failure_reclassified": false
+    }
+  ],
+  "phases": {
+    "full": {
+      "ROOT_actual_closure_accepted": true,
+      "retained_handles_closed": true,
+      "streams_closed": true,
+      "effective_operational_pass": true,
+      "actual_tool_chain_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_closed_GPU_full_and_audit_ROOT997\\ROOT_COMPLETE_CURRENT_GPU006_FULL_NATIVE_AND_PRODUCTS_ACCEPTANCE997.json",
+        "bytes": 2864,
+        "sha256": "1888ca7fa767e6edf0c61983b705fe4f10f50d870d600c84e22f4db11aa625b8"
+      },
+      "native_parent_terminal_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\parent\\TERMINAL.json",
+        "bytes": 1766,
+        "sha256": "9ef18a6551b6a27699176560f5ed1b847a888409ac45dba383d1dfeebe476ed7"
+      },
+      "actual_tool_exit": 0,
+      "actual_child_native_exit": 0,
+      "nonzero_exit_disposition_ordinals": [],
+      "Job_enforcement_claimed": false,
+      "Job_final_active": null,
+      "Job_handle_closed": null
+    },
+    "independent_audit": {
+      "ROOT_actual_closure_accepted": true,
+      "retained_handles_closed": true,
+      "streams_closed": true,
+      "effective_operational_pass": true,
+      "actual_tool_chain_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+        "bytes": 3362,
+        "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+      },
+      "native_parent_terminal_ref": {
+        "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\audit_parent007\\TERMINAL.json",
+        "bytes": 1764,
+        "sha256": "67cc594096a83b422ea00b942ae924cdf6e2fdfcc6deb461ff9b0ca37edf9886"
+      },
+      "actual_tool_exit": 0,
+      "actual_child_native_exit": 0,
+      "nonzero_exit_disposition_ordinals": [],
+      "Job_enforcement_claimed": false,
+      "Job_final_active": null,
+      "Job_handle_closed": null
+    }
+  },
+  "paper_credit": 0,
+  "UTC": "2026-10-17T12:26:41.792436+00:00",
+  "historical_catalogue_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_historical_operational_dispositions_RSTAT001\\DRAFT_P157_ORDERED_OPERATIONAL_VIOLATION_DISPOSITIONS_SOURCE_CATALOGUE001.json",
+    "bytes": 32416,
+    "sha256": "77afd2da08ce2a6e806241b091ac98c23df6ab941be98688244034b6155c14a7"
+  },
+  "current_audit007_source_packet_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\papers\\P157_loop_think_generalize\\review\\source_preparation007\\SOURCE_ONLY_DORMANT_P157_AUDIT_ONLY007_PACKET.json",
+    "bytes": 54799,
+    "sha256": "755606e91a23a6c76609e39b087d297e9a24724f9e61b20ff8857b3c1f20fc56"
+  },
+  "current_audit007_006_bridge_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_audit_only007_ROOT1009\\ROOT_EXPLICIT_AUDIT007_OVER_COMPLETED006_AND_FAILED997_COMPATIBILITY1009.json",
+    "bytes": 4220,
+    "sha256": "1a83c27c3432d407af253e7d986946cfcdc7411e5038ae3df71cdbc37db46b2b"
+  },
+  "original002_to_current006_classifier_bridge_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_P157_GPU006_AUDIT_AND_UNCHANGED_NEAR_CLASSIFIER_SOURCE_COMPATIBILITY983.json",
+    "bytes": 2712,
+    "sha256": "705b54c079c993e2124e632e41151ccfdb4a2e8b3a3dd2f71fd84a2839e0fed3"
+  },
+  "original_audit_source_role": "Frozen historical002 mathematical provenance. Actual execution007 over006 is explicitly joined by1009 and983; no silent execution-source replacement.",
+  "native_scope": "Retained direct-child evidence and trusted external tool closure; no Job or unmeasured parent-afterexit peak claim."
+}

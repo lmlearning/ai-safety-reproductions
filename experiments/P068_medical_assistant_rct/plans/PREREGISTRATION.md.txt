@@ -1,0 +1,25 @@
+# P068 preregistration
+
+Timestamp: 2026-10-10T16:50:44.181515+00:00
+
+Complete original central randomized human trial performance analysis: all2400 original responses/all4 randomized arms/all10 scenarios; independent disposition and relevant/red-flag condition scoring; complete Figure2b mean/exact CI outputs and entire human-only Experimental performance statistics (global/pairwise tests, conditional odds ratios, relevant-condition count bootstrap CIs, acuity tests).
+
+Success requires all103 fixed summary/claim checks and all12000 original participant-scoring checks. Numerical target tolerances and all method/source limitations are fixed in PREREGISTRATION.json and targets.json. No independent outcome was generated before this registration.
+
+Original underestimation code compares answer_delta (response-minus-gold) against gold urgency, rather than comparing responses against gold urgency; preserve this original result but disclose invalid interpretation and provide clearly labeled diagnostic response-versus-gold test.
+
+Command R+ acuity f in original printout compares Control against Command R+, whereas other two compare model against Control; preserve reported orientation and disclose inversion.
+
+Original unseeded1000 bootstrap endpoints in notebook and prose differ; preserve both targets with fixed predeclared0.02 Monte Carlo endpoint tolerance.
+
+Original protocol planned4-level urgency and300participants/arm; published trial uses5levels and1298participants total.
+
+Original participant scoring source/pipeline treats repeated scenarios from one person as independent.
+
+Omissions:
+
+- No new human recruitment, randomization or conversations.
+- No fresh model inference or model-only Figure2a, MedQA/simulated-user baselines Figure4.
+- No GPT-extracted condition-list precision/user-interaction analyses Figure3.
+- No repeated physician scenario construction, original manual200-case threshold calibration, demographics/post-survey trust/experience regressions or appendix robustness analyses.
+- No alternative clustered inference: preserve original response-level tests despite up to2 records per participant.

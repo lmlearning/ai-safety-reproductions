@@ -1,0 +1,17 @@
+{
+  "ordinal": 15,
+  "paper_id": "P028",
+  "title": "Convergent Linear Representations of Emergent Misalignment",
+  "classification": "Bounded NEAR",
+  "recorded_public_date": "2025-06-13",
+  "window": "Extended",
+  "citations": 71,
+  "provider": "Semantic Scholar",
+  "capture_time_supported": false,
+  "route": "Released activations + fresh probes",
+  "result_and_scope": "All897 responses/55,386 tokens/9 layers/4 classifier contrasts.20 metric errors max0.007592;36 graphical medians max0.014543 within0.020;8 claims/6,083 checks. Old59/64 remains.",
+  "DOI": null,
+  "arxiv_id": null,
+  "preserved_limits": "Saved original activations plus fresh classifier fits; no fresh base-model generation or causal steering. Old5 failures and prior graphical transcription errors explicit.",
+  "whole_paper_reproduction": false
+}

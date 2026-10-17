@@ -1,0 +1,17 @@
+{
+  "ordinal": 10,
+  "paper_id": "P135",
+  "title": "Chatbot-Delivered Interventions for Improving Mental Health Among Young People: A Systematic Review and Meta-Analysis",
+  "classification": "Strict CENTRAL",
+  "recorded_public_date": "2025-07-15",
+  "window": "Extended",
+  "citations": 54,
+  "provider": "OpenAlex",
+  "capture_time_supported": false,
+  "route": "Released synthesis",
+  "result_and_scope": "Both central families/26 effects;50 primary gates and26,724 comparisons pass. Support displays:190 agree,32 unavailable,109 disagree.",
+  "DOI": "10.1111/wvn.70059",
+  "arxiv_id": null,
+  "preserved_limits": "Human trials, screening, private unrounded inputs and covariance unavailable; all supporting disagreements remain.",
+  "whole_paper_reproduction": false
+}

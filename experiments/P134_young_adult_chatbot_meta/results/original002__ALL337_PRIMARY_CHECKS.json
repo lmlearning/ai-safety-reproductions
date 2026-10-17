@@ -1,0 +1,5321 @@
+[
+  {
+    "id": "families/overall_mental/pool/g",
+    "path": [
+      "families",
+      "overall_mental",
+      "pool",
+      "g"
+    ],
+    "target": "-.35",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.35039407123120925,
+    "difference": -0.0003940712312092698,
+    "passed": true
+  },
+  {
+    "id": "families/overall_mental/pool/CI_low",
+    "path": [
+      "families",
+      "overall_mental",
+      "pool",
+      "CI_low"
+    ],
+    "target": "-.46",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.45600688517711624,
+    "difference": 0.003993114822883781,
+    "passed": true
+  },
+  {
+    "id": "families/overall_mental/pool/CI_high",
+    "path": [
+      "families",
+      "overall_mental",
+      "pool",
+      "CI_high"
+    ],
+    "target": "-.24",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.24478125728530226,
+    "difference": -0.004781257285302265,
+    "passed": true
+  },
+  {
+    "id": "families/overall_mental/pool/k",
+    "path": [
+      "families",
+      "overall_mental",
+      "pool",
+      "k"
+    ],
+    "target": 48,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 48,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/overall_mental/pool/interpretation",
+    "path": [
+      "families",
+      "overall_mental",
+      "pool",
+      "interpretation"
+    ],
+    "target": "negative_significant",
+    "kind": "exact",
+    "tolerance": null,
+    "actual": "negative_significant",
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/depression/pool/g",
+    "path": [
+      "families",
+      "depression",
+      "pool",
+      "g"
+    ],
+    "target": "-.43",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.4265627775398963,
+    "difference": 0.003437222460103695,
+    "passed": true
+  },
+  {
+    "id": "families/depression/pool/CI_low",
+    "path": [
+      "families",
+      "depression",
+      "pool",
+      "CI_low"
+    ],
+    "target": "-.62",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.6186102586399694,
+    "difference": 0.0013897413600305608,
+    "passed": true
+  },
+  {
+    "id": "families/depression/pool/CI_high",
+    "path": [
+      "families",
+      "depression",
+      "pool",
+      "CI_high"
+    ],
+    "target": "-.23",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.2345152964398232,
+    "difference": -0.00451529643982318,
+    "passed": true
+  },
+  {
+    "id": "families/depression/pool/k",
+    "path": [
+      "families",
+      "depression",
+      "pool",
+      "k"
+    ],
+    "target": 17,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 17,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/depression/pool/interpretation",
+    "path": [
+      "families",
+      "depression",
+      "pool",
+      "interpretation"
+    ],
+    "target": "negative_significant",
+    "kind": "exact",
+    "tolerance": null,
+    "actual": "negative_significant",
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/pool/g",
+    "path": [
+      "families",
+      "anxiety",
+      "pool",
+      "g"
+    ],
+    "target": "-.37",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.373321863138712,
+    "difference": -0.0033218631387120223,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/pool/CI_low",
+    "path": [
+      "families",
+      "anxiety",
+      "pool",
+      "CI_low"
+    ],
+    "target": "-.58",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5764822504895944,
+    "difference": 0.00351774951040551,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/pool/CI_high",
+    "path": [
+      "families",
+      "anxiety",
+      "pool",
+      "CI_high"
+    ],
+    "target": "-.17",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.1701614757878296,
+    "difference": -0.00016147578782960137,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/pool/k",
+    "path": [
+      "families",
+      "anxiety",
+      "pool",
+      "k"
+    ],
+    "target": 18,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 18,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/pool/interpretation",
+    "path": [
+      "families",
+      "anxiety",
+      "pool",
+      "interpretation"
+    ],
+    "target": "negative_significant",
+    "kind": "exact",
+    "tolerance": null,
+    "actual": "negative_significant",
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/pool/g",
+    "path": [
+      "families",
+      "positive_affect",
+      "pool",
+      "g"
+    ],
+    "target": ".03",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.03119137175925172,
+    "difference": 0.0011913717592517206,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/pool/CI_low",
+    "path": [
+      "families",
+      "positive_affect",
+      "pool",
+      "CI_low"
+    ],
+    "target": "-.15",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.14656600661659913,
+    "difference": 0.003433993383400863,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/pool/CI_high",
+    "path": [
+      "families",
+      "positive_affect",
+      "pool",
+      "CI_high"
+    ],
+    "target": ".21",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.20894875013510256,
+    "difference": -0.0010512498648974355,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/pool/k",
+    "path": [
+      "families",
+      "positive_affect",
+      "pool",
+      "k"
+    ],
+    "target": 11,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 11,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/pool/interpretation",
+    "path": [
+      "families",
+      "positive_affect",
+      "pool",
+      "interpretation"
+    ],
+    "target": "not_significant",
+    "kind": "exact",
+    "tolerance": null,
+    "actual": "not_significant",
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/pool/g",
+    "path": [
+      "families",
+      "negative_affect",
+      "pool",
+      "g"
+    ],
+    "target": "-.27",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.27091202816653165,
+    "difference": -0.000912028166531631,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/pool/CI_low",
+    "path": [
+      "families",
+      "negative_affect",
+      "pool",
+      "CI_low"
+    ],
+    "target": "-.53",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5306810696412313,
+    "difference": -0.0006810696412312689,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/pool/CI_high",
+    "path": [
+      "families",
+      "negative_affect",
+      "pool",
+      "CI_high"
+    ],
+    "target": "-.01",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.011142986691832002,
+    "difference": -0.0011429866918320018,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/pool/k",
+    "path": [
+      "families",
+      "negative_affect",
+      "pool",
+      "k"
+    ],
+    "target": 11,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 11,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/pool/interpretation",
+    "path": [
+      "families",
+      "negative_affect",
+      "pool",
+      "interpretation"
+    ],
+    "target": "negative_significant",
+    "kind": "exact",
+    "tolerance": null,
+    "actual": "negative_significant",
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/stress/pool/g",
+    "path": [
+      "families",
+      "stress",
+      "pool",
+      "g"
+    ],
+    "target": "-.41",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.4064759267675621,
+    "difference": 0.003524073232437863,
+    "passed": true
+  },
+  {
+    "id": "families/stress/pool/CI_low",
+    "path": [
+      "families",
+      "stress",
+      "pool",
+      "CI_low"
+    ],
+    "target": "-.50",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5012679959882276,
+    "difference": -0.001267995988227577,
+    "passed": true
+  },
+  {
+    "id": "families/stress/pool/CI_high",
+    "path": [
+      "families",
+      "stress",
+      "pool",
+      "CI_high"
+    ],
+    "target": "-.31",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.3116838575468967,
+    "difference": -0.0016838575468967054,
+    "passed": true
+  },
+  {
+    "id": "families/stress/pool/k",
+    "path": [
+      "families",
+      "stress",
+      "pool",
+      "k"
+    ],
+    "target": 6,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 6,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/stress/pool/interpretation",
+    "path": [
+      "families",
+      "stress",
+      "pool",
+      "interpretation"
+    ],
+    "target": "negative_significant",
+    "kind": "exact",
+    "tolerance": null,
+    "actual": "negative_significant",
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/pool/g",
+    "path": [
+      "families",
+      "psychosomatic",
+      "pool",
+      "g"
+    ],
+    "target": "-.48",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.4759521517299501,
+    "difference": 0.004047848270049892,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/pool/CI_low",
+    "path": [
+      "families",
+      "psychosomatic",
+      "pool",
+      "CI_low"
+    ],
+    "target": "-.82",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.8161438047775738,
+    "difference": 0.0038561952224261953,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/pool/CI_high",
+    "path": [
+      "families",
+      "psychosomatic",
+      "pool",
+      "CI_high"
+    ],
+    "target": "-.14",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.13576049868232648,
+    "difference": 0.004239501317673533,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/pool/k",
+    "path": [
+      "families",
+      "psychosomatic",
+      "pool",
+      "k"
+    ],
+    "target": 5,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 5,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/pool/interpretation",
+    "path": [
+      "families",
+      "psychosomatic",
+      "pool",
+      "interpretation"
+    ],
+    "target": "negative_significant",
+    "kind": "exact",
+    "tolerance": null,
+    "actual": "negative_significant",
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/self_ambivalence/pool/g",
+    "path": [
+      "families",
+      "self_ambivalence",
+      "pool",
+      "g"
+    ],
+    "target": "-.25",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.2539700297274434,
+    "difference": -0.003970029727443425,
+    "passed": true
+  },
+  {
+    "id": "families/self_ambivalence/pool/CI_low",
+    "path": [
+      "families",
+      "self_ambivalence",
+      "pool",
+      "CI_low"
+    ],
+    "target": "-.34",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.33771714314909407,
+    "difference": 0.0022828568509059566,
+    "passed": true
+  },
+  {
+    "id": "families/self_ambivalence/pool/CI_high",
+    "path": [
+      "families",
+      "self_ambivalence",
+      "pool",
+      "CI_high"
+    ],
+    "target": "-.17",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.17022291630579278,
+    "difference": -0.00022291630579276966,
+    "passed": true
+  },
+  {
+    "id": "families/self_ambivalence/pool/k",
+    "path": [
+      "families",
+      "self_ambivalence",
+      "pool",
+      "k"
+    ],
+    "target": 4,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 4,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/self_ambivalence/pool/interpretation",
+    "path": [
+      "families",
+      "self_ambivalence",
+      "pool",
+      "interpretation"
+    ],
+    "target": "negative_significant",
+    "kind": "exact",
+    "tolerance": null,
+    "actual": "negative_significant",
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/pool/g",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "pool",
+      "g"
+    ],
+    "target": ".12",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.11656069262209201,
+    "difference": -0.0034393073779079852,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/pool/CI_low",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "pool",
+      "CI_low"
+    ],
+    "target": ".03",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.025476703588816277,
+    "difference": -0.004523296411183722,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/pool/CI_high",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "pool",
+      "CI_high"
+    ],
+    "target": ".21",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.20764468165536776,
+    "difference": -0.0023553183446322346,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/pool/k",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "pool",
+      "k"
+    ],
+    "target": 10,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 10,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/pool/interpretation",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "pool",
+      "interpretation"
+    ],
+    "target": "positive_significant",
+    "kind": "exact",
+    "tolerance": null,
+    "actual": "positive_significant",
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/pool/g",
+    "path": [
+      "families",
+      "self_efficacy",
+      "pool",
+      "g"
+    ],
+    "target": ".14",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.13750232557296696,
+    "difference": -0.002497674427033053,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/pool/CI_low",
+    "path": [
+      "families",
+      "self_efficacy",
+      "pool",
+      "CI_low"
+    ],
+    "target": "-.14",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.1386680684243953,
+    "difference": 0.0013319315756047112,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/pool/CI_high",
+    "path": [
+      "families",
+      "self_efficacy",
+      "pool",
+      "CI_high"
+    ],
+    "target": ".41",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.41367271957032925,
+    "difference": 0.0036727195703292748,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/pool/k",
+    "path": [
+      "families",
+      "self_efficacy",
+      "pool",
+      "k"
+    ],
+    "target": 6,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 6,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/pool/interpretation",
+    "path": [
+      "families",
+      "self_efficacy",
+      "pool",
+      "interpretation"
+    ],
+    "target": "not_significant",
+    "kind": "exact",
+    "tolerance": null,
+    "actual": "not_significant",
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/health/pool/g",
+    "path": [
+      "families",
+      "health",
+      "pool",
+      "g"
+    ],
+    "target": ".11",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.10858620716034988,
+    "difference": -0.0014137928396501243,
+    "passed": true
+  },
+  {
+    "id": "families/health/pool/CI_low",
+    "path": [
+      "families",
+      "health",
+      "pool",
+      "CI_low"
+    ],
+    "target": ".03",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.03096717647565539,
+    "difference": 0.0009671764756553902,
+    "passed": true
+  },
+  {
+    "id": "families/health/pool/CI_high",
+    "path": [
+      "families",
+      "health",
+      "pool",
+      "CI_high"
+    ],
+    "target": ".19",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.18620523784504436,
+    "difference": -0.0037947621549556387,
+    "passed": true
+  },
+  {
+    "id": "families/health/pool/k",
+    "path": [
+      "families",
+      "health",
+      "pool",
+      "k"
+    ],
+    "target": 9,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 9,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/health/pool/interpretation",
+    "path": [
+      "families",
+      "health",
+      "pool",
+      "interpretation"
+    ],
+    "target": "positive_significant",
+    "kind": "exact",
+    "tolerance": null,
+    "actual": "positive_significant",
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/1/g",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "1",
+      "g"
+    ],
+    "target": "-.47",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.4699022552958414,
+    "difference": 9.77447041585755e-05,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/1/CI_low",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "1",
+      "CI_low"
+    ],
+    "target": "-.95",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.9483210478275582,
+    "difference": 0.0016789521724417389,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/1/CI_high",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "1",
+      "CI_high"
+    ],
+    "target": ".01",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.008516537235875421,
+    "difference": -0.0014834627641245792,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/2/g",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "2",
+      "g"
+    ],
+    "target": "-.55",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5529364145271812,
+    "difference": -0.002936414527181186,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/2/CI_low",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "2",
+      "CI_low"
+    ],
+    "target": "-1.03",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.0310464298559454,
+    "difference": -0.0010464298559453855,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/2/CI_high",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "2",
+      "CI_high"
+    ],
+    "target": "-.07",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.07482639919841705,
+    "difference": -0.004826399198417042,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/3/g",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "3",
+      "g"
+    ],
+    "target": "-.10",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.1046915967276717,
+    "difference": -0.004691596727671693,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/3/CI_low",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "3",
+      "CI_low"
+    ],
+    "target": "-.25",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.2529581209615782,
+    "difference": -0.0029581209615782145,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/3/CI_high",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "3",
+      "CI_high"
+    ],
+    "target": ".04",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.04357492750623482,
+    "difference": 0.0035749275062348165,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/4/g",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "4",
+      "g"
+    ],
+    "target": ".06",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.06359561359810474,
+    "difference": 0.003595613598104744,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/4/CI_low",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "4",
+      "CI_low"
+    ],
+    "target": "-.52",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5245652474161092,
+    "difference": -0.004565247416109197,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/4/CI_high",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "4",
+      "CI_high"
+    ],
+    "target": ".65",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.6517564746123187,
+    "difference": 0.001756474612318648,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/5/g",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "5",
+      "g"
+    ],
+    "target": "-.53",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.529424726226281,
+    "difference": 0.0005752737737190206,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/5/CI_low",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "5",
+      "CI_low"
+    ],
+    "target": "-.97",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.9659979564241077,
+    "difference": 0.004002043575892289,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/5/CI_high",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "5",
+      "CI_high"
+    ],
+    "target": "-.09",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.09285149602845438,
+    "difference": -0.0028514960284543867,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/6/g",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "6",
+      "g"
+    ],
+    "target": "-1.06",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.057967832686725,
+    "difference": 0.002032167313275046,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/6/CI_low",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "6",
+      "CI_low"
+    ],
+    "target": "-1.53",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.5294406510205216,
+    "difference": 0.0005593489794784023,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/6/CI_high",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "6",
+      "CI_high"
+    ],
+    "target": "-.59",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5864950143529283,
+    "difference": 0.00350498564707169,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/7/g",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "7",
+      "g"
+    ],
+    "target": "-.56",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5642818509477957,
+    "difference": -0.004281850947795651,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/7/CI_low",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "7",
+      "CI_low"
+    ],
+    "target": "-1.15",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.1546999523599053,
+    "difference": -0.0046999523599053905,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/7/CI_high",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "7",
+      "CI_high"
+    ],
+    "target": ".03",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.026136250464313893,
+    "difference": -0.0038637495356861062,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/8/g",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "8",
+      "g"
+    ],
+    "target": "-.28",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.2847447997165553,
+    "difference": -0.004744799716555281,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/8/CI_low",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "8",
+      "CI_low"
+    ],
+    "target": "-.76",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.7628695152029039,
+    "difference": -0.002869515202903905,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/8/CI_high",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "8",
+      "CI_high"
+    ],
+    "target": ".19",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.1933799157697933,
+    "difference": 0.0033799157697932958,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/9/g",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "9",
+      "g"
+    ],
+    "target": "-.82",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.8181924379036308,
+    "difference": 0.0018075620963691197,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/9/CI_low",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "9",
+      "CI_low"
+    ],
+    "target": "-1.27",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.2670003708940825,
+    "difference": 0.002999629105917556,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/9/CI_high",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "9",
+      "CI_high"
+    ],
+    "target": "-.37",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.3693845049131792,
+    "difference": 0.0006154950868207942,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/10/g",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "10",
+      "g"
+    ],
+    "target": "-.91",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.9128319535450925,
+    "difference": -0.0028319535450924693,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/10/CI_low",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "10",
+      "CI_low"
+    ],
+    "target": "-1.94",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.940213122513148,
+    "difference": -0.0002131225131480896,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/10/CI_high",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "10",
+      "CI_high"
+    ],
+    "target": ".11",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.11454921542296292,
+    "difference": 0.004549215422962924,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/11/g",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "11",
+      "g"
+    ],
+    "target": "-1.68",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.6791482847861783,
+    "difference": 0.0008517152138216577,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/11/CI_low",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "11",
+      "CI_low"
+    ],
+    "target": "-2.19",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -2.1859877584839293,
+    "difference": 0.004012241516070603,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/11/CI_high",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "11",
+      "CI_high"
+    ],
+    "target": "-1.17",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.1723088110884272,
+    "difference": -0.0023088110884272872,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/12/g",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "12",
+      "g"
+    ],
+    "target": "-.18",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.17624362633377988,
+    "difference": 0.003756373666220114,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/12/CI_low",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "12",
+      "CI_low"
+    ],
+    "target": "-.43",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.42899974621617987,
+    "difference": 0.0010002537838201264,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/12/CI_high",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "12",
+      "CI_high"
+    ],
+    "target": ".08",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.07651249354862011,
+    "difference": -0.003487506451379893,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/13/g",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "13",
+      "g"
+    ],
+    "target": ".54",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.5417690080056495,
+    "difference": 0.0017690080056494972,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/13/CI_low",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "13",
+      "CI_low"
+    ],
+    "target": "-.14",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.14431271594572603,
+    "difference": -0.00431271594572602,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/13/CI_high",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "13",
+      "CI_high"
+    ],
+    "target": "1.23",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 1.227850731957025,
+    "difference": -0.0021492680429748834,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/14/g",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "14",
+      "g"
+    ],
+    "target": "-.04",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.03982729361773187,
+    "difference": 0.0001727063822681285,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/14/CI_low",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "14",
+      "CI_low"
+    ],
+    "target": "-.36",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.3595897509427297,
+    "difference": 0.0004102490572702733,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/14/CI_high",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "14",
+      "CI_high"
+    ],
+    "target": ".28",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.279935163707266,
+    "difference": -6.483629273401625e-05,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/15/g",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "15",
+      "g"
+    ],
+    "target": "-.58",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5845911432963519,
+    "difference": -0.004591143296351907,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/15/CI_low",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "15",
+      "CI_low"
+    ],
+    "target": "-.91",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.911854138156291,
+    "difference": -0.0018541381562909853,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/15/CI_high",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "15",
+      "CI_high"
+    ],
+    "target": "-.26",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.25732814843641266,
+    "difference": 0.0026718515635873463,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/16/g",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "16",
+      "g"
+    ],
+    "target": "-.50",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5003967883974573,
+    "difference": -0.00039678839745727057,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/16/CI_low",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "16",
+      "CI_low"
+    ],
+    "target": "-.91",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.9068202432663748,
+    "difference": 0.0031797567336252497,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/16/CI_high",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "16",
+      "CI_high"
+    ],
+    "target": "-.09",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.0939733335285397,
+    "difference": -0.0039733335285397076,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/17/g",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "17",
+      "g"
+    ],
+    "target": "-.03",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.03331625979167633,
+    "difference": -0.0033162597916763306,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/17/CI_low",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "17",
+      "CI_low"
+    ],
+    "target": "-.15",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.14894397929428835,
+    "difference": 0.0010560207057116466,
+    "passed": true
+  },
+  {
+    "id": "families/depression/rows/17/CI_high",
+    "path": [
+      "families",
+      "depression",
+      "rows",
+      "17",
+      "CI_high"
+    ],
+    "target": ".08",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.0823114597109357,
+    "difference": 0.002311459710935701,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/1/g",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "1",
+      "g"
+    ],
+    "target": "-.56",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5602382461624896,
+    "difference": -0.00023824616248957486,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/1/CI_low",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "1",
+      "CI_low"
+    ],
+    "target": "-1.04",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.041207187907378,
+    "difference": -0.00120718790737806,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/1/CI_high",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "1",
+      "CI_high"
+    ],
+    "target": "-.08",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.0792693044176011,
+    "difference": 0.0007306955823988964,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/2/g",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "2",
+      "g"
+    ],
+    "target": ".13",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.13354717820386175,
+    "difference": 0.003547178203861745,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/2/CI_low",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "2",
+      "CI_low"
+    ],
+    "target": "-.34",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.3357266471019095,
+    "difference": 0.004273352898090499,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/2/CI_high",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "2",
+      "CI_high"
+    ],
+    "target": ".60",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.6028210035096331,
+    "difference": 0.002821003509633102,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/3/g",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "3",
+      "g"
+    ],
+    "target": "-.11",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.1096843674394845,
+    "difference": 0.00031563256051550526,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/3/CI_low",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "3",
+      "CI_low"
+    ],
+    "target": "-.26",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.2579608518145408,
+    "difference": 0.002039148185459194,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/3/CI_high",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "3",
+      "CI_high"
+    ],
+    "target": ".04",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.03859211693557181,
+    "difference": -0.0014078830644281906,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/4/g",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "4",
+      "g"
+    ],
+    "target": "-.20",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.20179444788574558,
+    "difference": -0.0017944478857455648,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/4/CI_low",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "4",
+      "CI_low"
+    ],
+    "target": "-.79",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.7914120709546946,
+    "difference": -0.0014120709546945331,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/4/CI_high",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "4",
+      "CI_high"
+    ],
+    "target": ".39",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.3878231751832035,
+    "difference": -0.002176824816796541,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/5/g",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "5",
+      "g"
+    ],
+    "target": "-.40",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.39909651635955756,
+    "difference": 0.0009034836404424595,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/5/CI_low",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "5",
+      "CI_low"
+    ],
+    "target": "-.84",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.8441162564646885,
+    "difference": -0.004116256464688495,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/5/CI_high",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "5",
+      "CI_high"
+    ],
+    "target": ".05",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.045923223745573394,
+    "difference": -0.004076776254426609,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/6/g",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "6",
+      "g"
+    ],
+    "target": "-.57",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5716036643469399,
+    "difference": -0.0016036643469399259,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/6/CI_low",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "6",
+      "CI_low"
+    ],
+    "target": "-1.16",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.1623433229225895,
+    "difference": -0.0023433229225895413,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/6/CI_high",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "6",
+      "CI_high"
+    ],
+    "target": ".02",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.019135994228709707,
+    "difference": -0.0008640057712902931,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/7/g",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "7",
+      "g"
+    ],
+    "target": ".03",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.03044627763885383,
+    "difference": 0.0004462776388538328,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/7/CI_low",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "7",
+      "CI_low"
+    ],
+    "target": "-.45",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.44515851209349516,
+    "difference": 0.004841487906504849,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/7/CI_high",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "7",
+      "CI_high"
+    ],
+    "target": ".51",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.5060510673712029,
+    "difference": -0.003948932628797142,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/8/g",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "8",
+      "g"
+    ],
+    "target": "-.48",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.48432099373957627,
+    "difference": -0.004320993739576284,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/8/CI_low",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "8",
+      "CI_low"
+    ],
+    "target": "-1.05",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.0492010731528005,
+    "difference": 0.0007989268471995103,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/8/CI_high",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "8",
+      "CI_high"
+    ],
+    "target": "0.08",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.080559085673648,
+    "difference": 0.0005590856736479993,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/9/g",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "9",
+      "g"
+    ],
+    "target": "-.30",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.2970357578506682,
+    "difference": 0.002964242149331775,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/9/CI_low",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "9",
+      "CI_low"
+    ],
+    "target": "-.73",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.7298264959500051,
+    "difference": 0.0001735040499948326,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/9/CI_high",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "9",
+      "CI_high"
+    ],
+    "target": ".14",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.13575498024866878,
+    "difference": -0.004245019751331236,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/10/g",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "10",
+      "g"
+    ],
+    "target": "-.39",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.39017405690062984,
+    "difference": -0.00017405690062982648,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/10/CI_low",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "10",
+      "CI_low"
+    ],
+    "target": "-.53",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5278887325445989,
+    "difference": 0.0021112674554011335,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/10/CI_high",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "10",
+      "CI_high"
+    ],
+    "target": "-.25",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.2524593812566608,
+    "difference": -0.0024593812566607864,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/11/g",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "11",
+      "g"
+    ],
+    "target": "-.69",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.6941924853910987,
+    "difference": -0.0041924853910987325,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/11/CI_low",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "11",
+      "CI_low"
+    ],
+    "target": "-1.70",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.696108615905921,
+    "difference": 0.0038913840940788536,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/11/CI_high",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "11",
+      "CI_high"
+    ],
+    "target": ".31",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.30772364512372385,
+    "difference": -0.002276354876276143,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/12/g",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "12",
+      "g"
+    ],
+    "target": "-3.94",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -3.9361487696870867,
+    "difference": 0.003851230312913234,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/12/CI_low",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "12",
+      "CI_low"
+    ],
+    "target": "-4.69",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -4.690300638484988,
+    "difference": -0.0003006384849877364,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/12/CI_high",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "12",
+      "CI_high"
+    ],
+    "target": "-3.18",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -3.1819969008891857,
+    "difference": -0.001996900889185582,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/13/g",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "13",
+      "g"
+    ],
+    "target": "-.01",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.00896648520943937,
+    "difference": 0.0010335147905606301,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/13/CI_low",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "13",
+      "CI_low"
+    ],
+    "target": "-.26",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.2612378136309664,
+    "difference": -0.0012378136309663668,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/13/CI_high",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "13",
+      "CI_high"
+    ],
+    "target": ".24",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.24330484321208762,
+    "difference": 0.003304843212087627,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/14/g",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "14",
+      "g"
+    ],
+    "target": ".49",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.4861125559755841,
+    "difference": -0.003887444024415876,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/14/CI_low",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "14",
+      "CI_low"
+    ],
+    "target": "-.20",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.19729990370703587,
+    "difference": 0.002700096292964138,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/14/CI_high",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "14",
+      "CI_high"
+    ],
+    "target": "1.17",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 1.1695250156582042,
+    "difference": -0.00047498434179571447,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/15/g",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "15",
+      "g"
+    ],
+    "target": "-.07",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.07356905300989958,
+    "difference": -0.00356905300989957,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/15/CI_low",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "15",
+      "CI_low"
+    ],
+    "target": "-.39",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.3934091173574415,
+    "difference": -0.0034091173574414824,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/15/CI_high",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "15",
+      "CI_high"
+    ],
+    "target": ".25",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.24627101133764234,
+    "difference": -0.0037289886623576574,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/16/g",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "16",
+      "g"
+    ],
+    "target": "-.65",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.6518256075081222,
+    "difference": -0.0018256075081222178,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/16/CI_low",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "16",
+      "CI_low"
+    ],
+    "target": "-.98",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.980754609093593,
+    "difference": -0.0007546090935930394,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/16/CI_high",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "16",
+      "CI_high"
+    ],
+    "target": "-.32",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.3228966059226514,
+    "difference": -0.0028966059226513963,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/17/g",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "17",
+      "g"
+    ],
+    "target": "-.29",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.2859609394709045,
+    "difference": 0.004039060529095473,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/17/CI_low",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "17",
+      "CI_low"
+    ],
+    "target": "-.69",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.6881257902453921,
+    "difference": 0.0018742097546078362,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/17/CI_high",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "17",
+      "CI_high"
+    ],
+    "target": ".12",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.11620391130358315,
+    "difference": -0.003796088696416844,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/18/g",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "18",
+      "g"
+    ],
+    "target": "-.10",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.09797592374587004,
+    "difference": 0.0020240762541299667,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/18/CI_low",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "18",
+      "CI_low"
+    ],
+    "target": "-.21",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.21295061152138872,
+    "difference": -0.0029506115213887296,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/rows/18/CI_high",
+    "path": [
+      "families",
+      "anxiety",
+      "rows",
+      "18",
+      "CI_high"
+    ],
+    "target": ".02",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.016998764029648658,
+    "difference": -0.0030012359703513423,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/1/g",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "1",
+      "g"
+    ],
+    "target": "-.18",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.18115862406351854,
+    "difference": -0.0011586240635185485,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/1/CI_low",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "1",
+      "CI_low"
+    ],
+    "target": "-.42",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.4170513395139866,
+    "difference": 0.002948660486013388,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/1/CI_high",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "1",
+      "CI_high"
+    ],
+    "target": ".05",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.05473409138694951,
+    "difference": 0.00473409138694951,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/2/g",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "2",
+      "g"
+    ],
+    "target": ".26",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.26289954365193047,
+    "difference": 0.0028995436519304585,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/2/CI_low",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "2",
+      "CI_low"
+    ],
+    "target": "-.18",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.17686840308189283,
+    "difference": 0.00313159691810716,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/2/CI_high",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "2",
+      "CI_high"
+    ],
+    "target": ".70",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.7026674903857537,
+    "difference": 0.002667490385753757,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/3/g",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "3",
+      "g"
+    ],
+    "target": "-.35",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.3457834410113093,
+    "difference": 0.004216558988690666,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/3/CI_low",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "3",
+      "CI_low"
+    ],
+    "target": "-.73",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.7338507158644103,
+    "difference": -0.0038507158644103257,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/3/CI_high",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "3",
+      "CI_high"
+    ],
+    "target": ".04",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.04228383384179163,
+    "difference": 0.0022838338417916285,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/4/g",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "4",
+      "g"
+    ],
+    "target": ".10",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.10436970854998194,
+    "difference": 0.004369708549981935,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/4/CI_low",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "4",
+      "CI_low"
+    ],
+    "target": "-.36",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.36468900720455233,
+    "difference": -0.004689007204552342,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/4/CI_high",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "4",
+      "CI_high"
+    ],
+    "target": ".57",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.5734284243045162,
+    "difference": 0.0034284243045162865,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/5/g",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "5",
+      "g"
+    ],
+    "target": ".21",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.21427089511925052,
+    "difference": 0.004270895119250523,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/5/CI_low",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "5",
+      "CI_low"
+    ],
+    "target": "-.38",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.3755526199184899,
+    "difference": 0.004447380081510077,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/5/CI_high",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "5",
+      "CI_high"
+    ],
+    "target": ".80",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.8040944101569909,
+    "difference": 0.0040944101569908575,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/6/g",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "6",
+      "g"
+    ],
+    "target": "-.06",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.05742467280440039,
+    "difference": 0.002575327195599608,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/6/CI_low",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "6",
+      "CI_low"
+    ],
+    "target": "-.53",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5331041841635612,
+    "difference": -0.0031041841635611744,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/6/CI_high",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "6",
+      "CI_high"
+    ],
+    "target": ".42",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.4182548385547604,
+    "difference": -0.0017451614452395625,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/7/g",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "7",
+      "g"
+    ],
+    "target": "-.70",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.6991741929584021,
+    "difference": 0.000825807041597848,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/7/CI_low",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "7",
+      "CI_low"
+    ],
+    "target": "-1.54",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.5425639565038183,
+    "difference": -0.0025639565038182432,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/7/CI_high",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "7",
+      "CI_high"
+    ],
+    "target": ".14",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.14421557058701406,
+    "difference": 0.00421557058701405,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/8/g",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "8",
+      "g"
+    ],
+    "target": "-.17",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.17015437335797304,
+    "difference": -0.00015437335797302554,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/8/CI_low",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "8",
+      "CI_low"
+    ],
+    "target": "-.60",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.6012780708638179,
+    "difference": -0.0012780708638179261,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/8/CI_high",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "8",
+      "CI_high"
+    ],
+    "target": ".26",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.2609693241478718,
+    "difference": 0.000969324147871764,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/9/g",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "9",
+      "g"
+    ],
+    "target": ".18",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.18153693142452718,
+    "difference": 0.0015369314245271826,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/9/CI_low",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "9",
+      "CI_low"
+    ],
+    "target": ".04",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.041633714201181254,
+    "difference": 0.0016337142011812536,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/9/CI_high",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "9",
+      "CI_high"
+    ],
+    "target": ".32",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.32144014864787307,
+    "difference": 0.001440148647873063,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/10/g",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "10",
+      "g"
+    ],
+    "target": ".79",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.7897054299858011,
+    "difference": -0.00029457001419896933,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/10/CI_low",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "10",
+      "CI_low"
+    ],
+    "target": ".34",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.33931419363745796,
+    "difference": -0.000685806362542063,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/10/CI_high",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "10",
+      "CI_high"
+    ],
+    "target": "1.24",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 1.2400966663341442,
+    "difference": 9.66663341441798e-05,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/11/g",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "11",
+      "g"
+    ],
+    "target": "-.03",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.03031322378501208,
+    "difference": -0.000313223785012081,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/11/CI_low",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "11",
+      "CI_low"
+    ],
+    "target": "-.28",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.2825976850646651,
+    "difference": -0.0025976850646650673,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/rows/11/CI_high",
+    "path": [
+      "families",
+      "positive_affect",
+      "rows",
+      "11",
+      "CI_high"
+    ],
+    "target": ".22",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.22197123749464095,
+    "difference": 0.001971237494640954,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/1/g",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "1",
+      "g"
+    ],
+    "target": "-.08",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.08085102783125761,
+    "difference": -0.0008510278312576086,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/1/CI_low",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "1",
+      "CI_low"
+    ],
+    "target": "-.32",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.31635298973159165,
+    "difference": 0.003647010268408357,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/1/CI_high",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "1",
+      "CI_high"
+    ],
+    "target": ".15",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.15465093406907646,
+    "difference": 0.004650934069076462,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/2/g",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "2",
+      "g"
+    ],
+    "target": ".02",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.02321407668936124,
+    "difference": 0.003214076689361238,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/2/CI_low",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "2",
+      "CI_low"
+    ],
+    "target": "-.41",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.4146792214334128,
+    "difference": -0.004679221433412817,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/2/CI_high",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "2",
+      "CI_high"
+    ],
+    "target": ".46",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.4611073748121353,
+    "difference": 0.0011073748121352978,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/3/g",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "3",
+      "g"
+    ],
+    "target": ".10",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.10283409723111984,
+    "difference": 0.0028340972311198392,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/3/CI_low",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "3",
+      "CI_low"
+    ],
+    "target": "-.28",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.2825812111918381,
+    "difference": -0.002581211191838073,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/3/CI_high",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "3",
+      "CI_high"
+    ],
+    "target": ".49",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.4882494056540778,
+    "difference": -0.001750594345922174,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/4/g",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "4",
+      "g"
+    ],
+    "target": "-.19",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.19353434440701642,
+    "difference": -0.0035343444070164154,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/4/CI_low",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "4",
+      "CI_low"
+    ],
+    "target": "-.66",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.6634156337984302,
+    "difference": -0.003415633798430129,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/4/CI_high",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "4",
+      "CI_high"
+    ],
+    "target": ".28",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.2763469449843974,
+    "difference": -0.0036530550156026464,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/5/g",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "5",
+      "g"
+    ],
+    "target": "-.13",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.12567089807875692,
+    "difference": 0.004329101921243084,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/5/CI_low",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "5",
+      "CI_low"
+    ],
+    "target": "-.71",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.7142988024343937,
+    "difference": -0.004298802434393734,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/5/CI_high",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "5",
+      "CI_high"
+    ],
+    "target": ".46",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.4629570062768799,
+    "difference": 0.002957006276879892,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/6/g",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "6",
+      "g"
+    ],
+    "target": "-.34",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.33943081940198816,
+    "difference": 0.0005691805980118647,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/6/CI_low",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "6",
+      "CI_low"
+    ],
+    "target": "-.82",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.8186246435749569,
+    "difference": 0.0013753564250430506,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/6/CI_high",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "6",
+      "CI_high"
+    ],
+    "target": ".14",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.13976300477098058,
+    "difference": -0.00023699522901943215,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/7/g",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "7",
+      "g"
+    ],
+    "target": "-.13",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.13162805045071344,
+    "difference": -0.0016280504507134308,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/7/CI_low",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "7",
+      "CI_low"
+    ],
+    "target": "-.95",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.9523979299157795,
+    "difference": -0.002397929915779584,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/7/CI_high",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "7",
+      "CI_high"
+    ],
+    "target": ".69",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.6891418290143526,
+    "difference": -0.000858170985647333,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/8/g",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "8",
+      "g"
+    ],
+    "target": ".08",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.08442503500423625,
+    "difference": 0.004425035004236244,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/8/CI_low",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "8",
+      "CI_low"
+    ],
+    "target": "-.35",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.3460832642420211,
+    "difference": 0.003916735757978851,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/8/CI_high",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "8",
+      "CI_high"
+    ],
+    "target": ".51",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.5149333342504936,
+    "difference": 0.004933334250493582,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/9/g",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "9",
+      "g"
+    ],
+    "target": "-.11",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.1078532658217828,
+    "difference": 0.0021467341782172022,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/9/CI_low",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "9",
+      "CI_low"
+    ],
+    "target": "-.25",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.24757201864017897,
+    "difference": 0.00242798135982103,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/9/CI_high",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "9",
+      "CI_high"
+    ],
+    "target": ".03",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.03186548699661339,
+    "difference": 0.0018654869966133886,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/10/g",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "10",
+      "g"
+    ],
+    "target": "-2.25",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -2.2521720027116148,
+    "difference": -0.0021720027116147733,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/10/CI_low",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "10",
+      "CI_low"
+    ],
+    "target": "-2.81",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -2.81102687880778,
+    "difference": -0.0010268788077798519,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/10/CI_high",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "10",
+      "CI_high"
+    ],
+    "target": "-1.69",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.6933171266154496,
+    "difference": -0.0033171266154496948,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/11/g",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "11",
+      "g"
+    ],
+    "target": "-.27",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.2739481143144751,
+    "difference": -0.00394811431447506,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/11/CI_low",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "11",
+      "CI_low"
+    ],
+    "target": "-.53",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5273909222137761,
+    "difference": 0.002609077786223879,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/rows/11/CI_high",
+    "path": [
+      "families",
+      "negative_affect",
+      "rows",
+      "11",
+      "CI_high"
+    ],
+    "target": "-.02",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.020505306415174007,
+    "difference": -0.0005053064151740068,
+    "passed": true
+  },
+  {
+    "id": "families/stress/rows/1/g",
+    "path": [
+      "families",
+      "stress",
+      "rows",
+      "1",
+      "g"
+    ],
+    "target": "-.36",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.36343415620524044,
+    "difference": -0.0034341562052404573,
+    "passed": true
+  },
+  {
+    "id": "families/stress/rows/1/CI_low",
+    "path": [
+      "families",
+      "stress",
+      "rows",
+      "1",
+      "CI_low"
+    ],
+    "target": "-.47",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.47098103526025115,
+    "difference": -0.000981035260251173,
+    "passed": true
+  },
+  {
+    "id": "families/stress/rows/1/CI_high",
+    "path": [
+      "families",
+      "stress",
+      "rows",
+      "1",
+      "CI_high"
+    ],
+    "target": "-.26",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.25588727715022974,
+    "difference": 0.004112722849770267,
+    "passed": true
+  },
+  {
+    "id": "families/stress/rows/2/g",
+    "path": [
+      "families",
+      "stress",
+      "rows",
+      "2",
+      "g"
+    ],
+    "target": "-.64",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.6418335471205985,
+    "difference": -0.0018335471205984666,
+    "passed": true
+  },
+  {
+    "id": "families/stress/rows/2/CI_low",
+    "path": [
+      "families",
+      "stress",
+      "rows",
+      "2",
+      "CI_low"
+    ],
+    "target": "-1.09",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.0939657078280571,
+    "difference": -0.003965707828057052,
+    "passed": true
+  },
+  {
+    "id": "families/stress/rows/2/CI_high",
+    "path": [
+      "families",
+      "stress",
+      "rows",
+      "2",
+      "CI_high"
+    ],
+    "target": "-.19",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.18970138641313977,
+    "difference": 0.0002986135868602302,
+    "passed": true
+  },
+  {
+    "id": "families/stress/rows/3/g",
+    "path": [
+      "families",
+      "stress",
+      "rows",
+      "3",
+      "g"
+    ],
+    "target": "-.58",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5815487290442789,
+    "difference": -0.0015487290442789403,
+    "passed": true
+  },
+  {
+    "id": "families/stress/rows/3/CI_low",
+    "path": [
+      "families",
+      "stress",
+      "rows",
+      "3",
+      "CI_low"
+    ],
+    "target": "-1.17",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.1727315044243083,
+    "difference": -0.002731504424308362,
+    "passed": true
+  },
+  {
+    "id": "families/stress/rows/3/CI_high",
+    "path": [
+      "families",
+      "stress",
+      "rows",
+      "3",
+      "CI_high"
+    ],
+    "target": ".01",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.00963404633575049,
+    "difference": -0.00036595366424951,
+    "passed": true
+  },
+  {
+    "id": "families/stress/rows/4/g",
+    "path": [
+      "families",
+      "stress",
+      "rows",
+      "4",
+      "g"
+    ],
+    "target": "-.85",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.8485958014180712,
+    "difference": 0.0014041985819287506,
+    "passed": true
+  },
+  {
+    "id": "families/stress/rows/4/CI_low",
+    "path": [
+      "families",
+      "stress",
+      "rows",
+      "4",
+      "CI_low"
+    ],
+    "target": "-1.63",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.6272417202382485,
+    "difference": 0.002758279761751359,
+    "passed": true
+  },
+  {
+    "id": "families/stress/rows/4/CI_high",
+    "path": [
+      "families",
+      "stress",
+      "rows",
+      "4",
+      "CI_high"
+    ],
+    "target": "-.07",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.06994988259789392,
+    "difference": 5.011740210608684e-05,
+    "passed": true
+  },
+  {
+    "id": "families/stress/rows/5/g",
+    "path": [
+      "families",
+      "stress",
+      "rows",
+      "5",
+      "g"
+    ],
+    "target": "-.43",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.4291329766288567,
+    "difference": 0.0008670233711433051,
+    "passed": true
+  },
+  {
+    "id": "families/stress/rows/5/CI_low",
+    "path": [
+      "families",
+      "stress",
+      "rows",
+      "5",
+      "CI_low"
+    ],
+    "target": "-.75",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.7543971753873924,
+    "difference": -0.004397175387392371,
+    "passed": true
+  },
+  {
+    "id": "families/stress/rows/5/CI_high",
+    "path": [
+      "families",
+      "stress",
+      "rows",
+      "5",
+      "CI_high"
+    ],
+    "target": "-.10",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.103868777870321,
+    "difference": -0.0038687778703209996,
+    "passed": true
+  },
+  {
+    "id": "families/stress/rows/6/g",
+    "path": [
+      "families",
+      "stress",
+      "rows",
+      "6",
+      "g"
+    ],
+    "target": "-.59",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5947902169551433,
+    "difference": -0.004790216955143367,
+    "passed": true
+  },
+  {
+    "id": "families/stress/rows/6/CI_low",
+    "path": [
+      "families",
+      "stress",
+      "rows",
+      "6",
+      "CI_low"
+    ],
+    "target": "-1.00",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.003802584662969,
+    "difference": -0.0038025846629690108,
+    "passed": true
+  },
+  {
+    "id": "families/stress/rows/6/CI_high",
+    "path": [
+      "families",
+      "stress",
+      "rows",
+      "6",
+      "CI_high"
+    ],
+    "target": "-.19",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.18577784924731772,
+    "difference": 0.0042221507526822855,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/rows/1/g",
+    "path": [
+      "families",
+      "psychosomatic",
+      "rows",
+      "1",
+      "g"
+    ],
+    "target": "-.46",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.45860046856012315,
+    "difference": 0.0013995314398768666,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/rows/1/CI_low",
+    "path": [
+      "families",
+      "psychosomatic",
+      "rows",
+      "1",
+      "CI_low"
+    ],
+    "target": "-.94",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.9367308410255812,
+    "difference": 0.0032691589744187066,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/rows/1/CI_high",
+    "path": [
+      "families",
+      "psychosomatic",
+      "rows",
+      "1",
+      "CI_high"
+    ],
+    "target": ".02",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.019529903905334878,
+    "difference": -0.00047009609466512267,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/rows/2/g",
+    "path": [
+      "families",
+      "psychosomatic",
+      "rows",
+      "2",
+      "g"
+    ],
+    "target": "-1.00",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.0021825818890486,
+    "difference": -0.0021825818890486293,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/rows/2/CI_low",
+    "path": [
+      "families",
+      "psychosomatic",
+      "rows",
+      "2",
+      "CI_low"
+    ],
+    "target": "-1.47",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -1.4705673661254897,
+    "difference": -0.0005673661254896878,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/rows/2/CI_high",
+    "path": [
+      "families",
+      "psychosomatic",
+      "rows",
+      "2",
+      "CI_high"
+    ],
+    "target": "-.53",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5337977976526076,
+    "difference": -0.0037977976526075707,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/rows/3/g",
+    "path": [
+      "families",
+      "psychosomatic",
+      "rows",
+      "3",
+      "g"
+    ],
+    "target": "-.03",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.030788334096448662,
+    "difference": -0.0007883340964486632,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/rows/3/CI_low",
+    "path": [
+      "families",
+      "psychosomatic",
+      "rows",
+      "3",
+      "CI_low"
+    ],
+    "target": "-.28",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.2830732500442216,
+    "difference": -0.003073250044221598,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/rows/3/CI_high",
+    "path": [
+      "families",
+      "psychosomatic",
+      "rows",
+      "3",
+      "CI_high"
+    ],
+    "target": ".22",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.22149658185132431,
+    "difference": 0.0014965818513243134,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/rows/4/g",
+    "path": [
+      "families",
+      "psychosomatic",
+      "rows",
+      "4",
+      "g"
+    ],
+    "target": "-.65",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.6471705503674603,
+    "difference": 0.0028294496325397267,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/rows/4/CI_low",
+    "path": [
+      "families",
+      "psychosomatic",
+      "rows",
+      "4",
+      "CI_low"
+    ],
+    "target": "-.98",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.9759786505352863,
+    "difference": 0.004021349464713664,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/rows/4/CI_high",
+    "path": [
+      "families",
+      "psychosomatic",
+      "rows",
+      "4",
+      "CI_high"
+    ],
+    "target": "-.32",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.31836245019963433,
+    "difference": 0.0016375498003656785,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/rows/5/g",
+    "path": [
+      "families",
+      "psychosomatic",
+      "rows",
+      "5",
+      "g"
+    ],
+    "target": "-.36",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.3573380742333735,
+    "difference": 0.002661925766626494,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/rows/5/CI_low",
+    "path": [
+      "families",
+      "psychosomatic",
+      "rows",
+      "5",
+      "CI_low"
+    ],
+    "target": "-.76",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.7606670161125657,
+    "difference": -0.0006670161125656993,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/rows/5/CI_high",
+    "path": [
+      "families",
+      "psychosomatic",
+      "rows",
+      "5",
+      "CI_high"
+    ],
+    "target": ".05",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.04599086764581872,
+    "difference": -0.00400913235418128,
+    "passed": true
+  },
+  {
+    "id": "families/self_ambivalence/rows/1/g",
+    "path": [
+      "families",
+      "self_ambivalence",
+      "rows",
+      "1",
+      "g"
+    ],
+    "target": "-.38",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.3807859456360534,
+    "difference": -0.0007859456360533867,
+    "passed": true
+  },
+  {
+    "id": "families/self_ambivalence/rows/1/CI_low",
+    "path": [
+      "families",
+      "self_ambivalence",
+      "rows",
+      "1",
+      "CI_low"
+    ],
+    "target": "-.53",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5302946186330837,
+    "difference": -0.0002946186330836653,
+    "passed": true
+  },
+  {
+    "id": "families/self_ambivalence/rows/1/CI_high",
+    "path": [
+      "families",
+      "self_ambivalence",
+      "rows",
+      "1",
+      "CI_high"
+    ],
+    "target": "-.23",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.23127727263902312,
+    "difference": -0.0012772726390231082,
+    "passed": true
+  },
+  {
+    "id": "families/self_ambivalence/rows/2/g",
+    "path": [
+      "families",
+      "self_ambivalence",
+      "rows",
+      "2",
+      "g"
+    ],
+    "target": "-.24",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.24420649434300562,
+    "difference": -0.004206494343005629,
+    "passed": true
+  },
+  {
+    "id": "families/self_ambivalence/rows/2/CI_low",
+    "path": [
+      "families",
+      "self_ambivalence",
+      "rows",
+      "2",
+      "CI_low"
+    ],
+    "target": "-.39",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.3929253113351333,
+    "difference": -0.002925311335133296,
+    "passed": true
+  },
+  {
+    "id": "families/self_ambivalence/rows/2/CI_high",
+    "path": [
+      "families",
+      "self_ambivalence",
+      "rows",
+      "2",
+      "CI_high"
+    ],
+    "target": "-.10",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.09548767735087796,
+    "difference": 0.004512322649122047,
+    "passed": true
+  },
+  {
+    "id": "families/self_ambivalence/rows/3/g",
+    "path": [
+      "families",
+      "self_ambivalence",
+      "rows",
+      "3",
+      "g"
+    ],
+    "target": "-.07",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.06748771268242532,
+    "difference": 0.0025122873175746907,
+    "passed": true
+  },
+  {
+    "id": "families/self_ambivalence/rows/3/CI_low",
+    "path": [
+      "families",
+      "self_ambivalence",
+      "rows",
+      "3",
+      "CI_low"
+    ],
+    "target": "-.89",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.8876362419766635,
+    "difference": 0.0023637580233365485,
+    "passed": true
+  },
+  {
+    "id": "families/self_ambivalence/rows/3/CI_high",
+    "path": [
+      "families",
+      "self_ambivalence",
+      "rows",
+      "3",
+      "CI_high"
+    ],
+    "target": ".75",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.7526608166118127,
+    "difference": 0.002660816611812722,
+    "passed": true
+  },
+  {
+    "id": "families/self_ambivalence/rows/4/g",
+    "path": [
+      "families",
+      "self_ambivalence",
+      "rows",
+      "4",
+      "g"
+    ],
+    "target": "-.16",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.15709160029443442,
+    "difference": 0.002908399705565584,
+    "passed": true
+  },
+  {
+    "id": "families/self_ambivalence/rows/4/CI_low",
+    "path": [
+      "families",
+      "self_ambivalence",
+      "rows",
+      "4",
+      "CI_low"
+    ],
+    "target": "-.30",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.2969232358652648,
+    "difference": 0.003076764134735177,
+    "passed": true
+  },
+  {
+    "id": "families/self_ambivalence/rows/4/CI_high",
+    "path": [
+      "families",
+      "self_ambivalence",
+      "rows",
+      "4",
+      "CI_high"
+    ],
+    "target": "-.02",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.017259964723604027,
+    "difference": 0.002740035276395974,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/1/g",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "1",
+      "g"
+    ],
+    "target": ".19",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.18557773287378102,
+    "difference": -0.004422267126218987,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/1/CI_low",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "1",
+      "CI_low"
+    ],
+    "target": "-.29",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.28769255454187703,
+    "difference": 0.0023074454581229475,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/1/CI_high",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "1",
+      "CI_high"
+    ],
+    "target": ".66",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.6588480202894391,
+    "difference": -0.001151979710560913,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/2/g",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "2",
+      "g"
+    ],
+    "target": ".07",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.07256451577622272,
+    "difference": 0.0025645157762227144,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/2/CI_low",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "2",
+      "CI_low"
+    ],
+    "target": "-.37",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.3654582506751275,
+    "difference": 0.004541749324872502,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/2/CI_high",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "2",
+      "CI_high"
+    ],
+    "target": ".51",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.510587282227573,
+    "difference": 0.0005872822275729828,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/3/g",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "3",
+      "g"
+    ],
+    "target": ".14",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.14068173780912208,
+    "difference": 0.0006817378091220627,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/3/CI_low",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "3",
+      "CI_low"
+    ],
+    "target": "-.30",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.2977386604714778,
+    "difference": 0.0022613395285221993,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/3/CI_high",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "3",
+      "CI_high"
+    ],
+    "target": ".58",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.5791021360897219,
+    "difference": -0.0008978639102780184,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/4/g",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "4",
+      "g"
+    ],
+    "target": "-.18",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.18062827602188378,
+    "difference": -0.0006282760218837835,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/4/CI_low",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "4",
+      "CI_low"
+    ],
+    "target": "-.57",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5665816152222425,
+    "difference": 0.003418384777757466,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/4/CI_high",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "4",
+      "CI_high"
+    ],
+    "target": ".21",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.20532506317847496,
+    "difference": -0.004674936821525033,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/5/g",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "5",
+      "g"
+    ],
+    "target": "-.04",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.03620338868318492,
+    "difference": 0.0037966113168150795,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/5/CI_low",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "5",
+      "CI_low"
+    ],
+    "target": "-.42",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.421392440400763,
+    "difference": -0.0013924404007630287,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/5/CI_high",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "5",
+      "CI_high"
+    ],
+    "target": ".35",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.3489856630343932,
+    "difference": -0.0010143369656067658,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/6/g",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "6",
+      "g"
+    ],
+    "target": "-.29",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.2926687837556562,
+    "difference": -0.002668783755656212,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/6/CI_low",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "6",
+      "CI_low"
+    ],
+    "target": "-.77",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.7709369455807648,
+    "difference": -0.0009369455807647364,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/6/CI_high",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "6",
+      "CI_high"
+    ],
+    "target": ".19",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.18559937806945237,
+    "difference": -0.004400621930547632,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/7/g",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "7",
+      "g"
+    ],
+    "target": ".14",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.14346922567417883,
+    "difference": 0.0034692256741788163,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/7/CI_low",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "7",
+      "CI_low"
+    ],
+    "target": "-.60",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5984494029384843,
+    "difference": 0.0015505970615157239,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/7/CI_high",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "7",
+      "CI_high"
+    ],
+    "target": ".89",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.885387854286842,
+    "difference": -0.0046121457131580446,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/8/g",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "8",
+      "g"
+    ],
+    "target": ".01",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.011613476087239892,
+    "difference": 0.0016134760872398915,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/8/CI_low",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "8",
+      "CI_low"
+    ],
+    "target": "-.73",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.7292041582893986,
+    "difference": 0.0007958417106014304,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/8/CI_high",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "8",
+      "CI_high"
+    ],
+    "target": ".75",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.7524311104638782,
+    "difference": 0.0024311104638782277,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/9/g",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "9",
+      "g"
+    ],
+    "target": ".66",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.655151282034356,
+    "difference": -0.004848717965644012,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/9/CI_low",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "9",
+      "CI_low"
+    ],
+    "target": ".33",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.326135402613721,
+    "difference": -0.003864597386279034,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/9/CI_high",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "9",
+      "CI_high"
+    ],
+    "target": ".98",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.9841671614549911,
+    "difference": 0.004167161454991075,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/10/g",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "10",
+      "g"
+    ],
+    "target": ".11",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.11357784799531877,
+    "difference": 0.003577847995318767,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/10/CI_low",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "10",
+      "CI_low"
+    ],
+    "target": "-.00",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.0019267715451191658,
+    "difference": -0.0019267715451191658,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/rows/10/CI_high",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "rows",
+      "10",
+      "CI_high"
+    ],
+    "target": ".23",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.2290824675357567,
+    "difference": -0.0009175324642433091,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/rows/1/g",
+    "path": [
+      "families",
+      "self_efficacy",
+      "rows",
+      "1",
+      "g"
+    ],
+    "target": ".02",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.02022093240966068,
+    "difference": 0.00022093240966068045,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/rows/1/CI_low",
+    "path": [
+      "families",
+      "self_efficacy",
+      "rows",
+      "1",
+      "CI_low"
+    ],
+    "target": "-.42",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.41766880417495333,
+    "difference": 0.0023311958250466502,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/rows/1/CI_high",
+    "path": [
+      "families",
+      "self_efficacy",
+      "rows",
+      "1",
+      "CI_high"
+    ],
+    "target": ".46",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.45811066899427466,
+    "difference": -0.0018893310057253587,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/rows/2/g",
+    "path": [
+      "families",
+      "self_efficacy",
+      "rows",
+      "2",
+      "g"
+    ],
+    "target": "-.58",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.5810478856732177,
+    "difference": -0.0010478856732177855,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/rows/2/CI_low",
+    "path": [
+      "families",
+      "self_efficacy",
+      "rows",
+      "2",
+      "CI_low"
+    ],
+    "target": "-.97",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.974367075674864,
+    "difference": -0.004367075674864052,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/rows/2/CI_high",
+    "path": [
+      "families",
+      "self_efficacy",
+      "rows",
+      "2",
+      "CI_high"
+    ],
+    "target": "-.19",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.18772869567157147,
+    "difference": 0.002271304328428536,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/rows/3/g",
+    "path": [
+      "families",
+      "self_efficacy",
+      "rows",
+      "3",
+      "g"
+    ],
+    "target": ".00",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.0,
+    "difference": 0.0,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/rows/3/CI_low",
+    "path": [
+      "families",
+      "self_efficacy",
+      "rows",
+      "3",
+      "CI_low"
+    ],
+    "target": "-.11",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.10666765867334849,
+    "difference": 0.003332341326651514,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/rows/3/CI_high",
+    "path": [
+      "families",
+      "self_efficacy",
+      "rows",
+      "3",
+      "CI_high"
+    ],
+    "target": ".11",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.10666765867334849,
+    "difference": -0.003332341326651514,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/rows/4/g",
+    "path": [
+      "families",
+      "self_efficacy",
+      "rows",
+      "4",
+      "g"
+    ],
+    "target": ".20",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.20198114548996934,
+    "difference": 0.0019811454899693326,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/rows/4/CI_low",
+    "path": [
+      "families",
+      "self_efficacy",
+      "rows",
+      "4",
+      "CI_low"
+    ],
+    "target": ".06",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.06201016064905038,
+    "difference": 0.00201016064905038,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/rows/4/CI_high",
+    "path": [
+      "families",
+      "self_efficacy",
+      "rows",
+      "4",
+      "CI_high"
+    ],
+    "target": ".34",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.34195213033088834,
+    "difference": 0.0019521303308883131,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/rows/5/g",
+    "path": [
+      "families",
+      "self_efficacy",
+      "rows",
+      "5",
+      "g"
+    ],
+    "target": ".70",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.6975000457110294,
+    "difference": -0.0024999542889705406,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/rows/5/CI_low",
+    "path": [
+      "families",
+      "self_efficacy",
+      "rows",
+      "5",
+      "CI_low"
+    ],
+    "target": "-.30",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": -0.30475388155644745,
+    "difference": -0.004753881556447459,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/rows/5/CI_high",
+    "path": [
+      "families",
+      "self_efficacy",
+      "rows",
+      "5",
+      "CI_high"
+    ],
+    "target": "1.70",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 1.6997539729785063,
+    "difference": -0.0002460270214936777,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/rows/6/g",
+    "path": [
+      "families",
+      "self_efficacy",
+      "rows",
+      "6",
+      "g"
+    ],
+    "target": ".81",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.8050175001347237,
+    "difference": -0.004982499865276324,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/rows/6/CI_low",
+    "path": [
+      "families",
+      "self_efficacy",
+      "rows",
+      "6",
+      "CI_low"
+    ],
+    "target": ".47",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 0.47044394041524384,
+    "difference": 0.00044394041524387085,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/rows/6/CI_high",
+    "path": [
+      "families",
+      "self_efficacy",
+      "rows",
+      "6",
+      "CI_high"
+    ],
+    "target": "1.14",
+    "kind": "rounded",
+    "tolerance": ".005000001",
+    "actual": 1.1395910598542036,
+    "difference": -0.00040894014579628823,
+    "passed": true
+  },
+  {
+    "id": "families/depression/arm_totals/experimental_n",
+    "path": [
+      "families",
+      "depression",
+      "arm_totals",
+      "experimental_n"
+    ],
+    "target": 1577,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 1577,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/depression/arm_totals/control_n",
+    "path": [
+      "families",
+      "depression",
+      "arm_totals",
+      "control_n"
+    ],
+    "target": 1606,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 1606,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/arm_totals/experimental_n",
+    "path": [
+      "families",
+      "anxiety",
+      "arm_totals",
+      "experimental_n"
+    ],
+    "target": 1880,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 1880,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/anxiety/arm_totals/control_n",
+    "path": [
+      "families",
+      "anxiety",
+      "arm_totals",
+      "control_n"
+    ],
+    "target": 2210,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 2210,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/arm_totals/experimental_n",
+    "path": [
+      "families",
+      "positive_affect",
+      "arm_totals",
+      "experimental_n"
+    ],
+    "target": 902,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 902,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/positive_affect/arm_totals/control_n",
+    "path": [
+      "families",
+      "positive_affect",
+      "arm_totals",
+      "control_n"
+    ],
+    "target": 987,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 987,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/arm_totals/experimental_n",
+    "path": [
+      "families",
+      "negative_affect",
+      "arm_totals",
+      "experimental_n"
+    ],
+    "target": 902,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 902,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/negative_affect/arm_totals/control_n",
+    "path": [
+      "families",
+      "negative_affect",
+      "arm_totals",
+      "control_n"
+    ],
+    "target": 987,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 987,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/stress/arm_totals/experimental_n",
+    "path": [
+      "families",
+      "stress",
+      "arm_totals",
+      "experimental_n"
+    ],
+    "target": 881,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 881,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/stress/arm_totals/control_n",
+    "path": [
+      "families",
+      "stress",
+      "arm_totals",
+      "control_n"
+    ],
+    "target": 871,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 871,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/arm_totals/experimental_n",
+    "path": [
+      "families",
+      "psychosomatic",
+      "arm_totals",
+      "experimental_n"
+    ],
+    "target": 324,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 324,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/psychosomatic/arm_totals/control_n",
+    "path": [
+      "families",
+      "psychosomatic",
+      "arm_totals",
+      "control_n"
+    ],
+    "target": 328,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 328,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/self_ambivalence/arm_totals/experimental_n",
+    "path": [
+      "families",
+      "self_ambivalence",
+      "arm_totals",
+      "experimental_n"
+    ],
+    "target": 1079,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 1079,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/self_ambivalence/arm_totals/control_n",
+    "path": [
+      "families",
+      "self_ambivalence",
+      "arm_totals",
+      "control_n"
+    ],
+    "target": 1147,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 1147,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/arm_totals/experimental_n",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "arm_totals",
+      "experimental_n"
+    ],
+    "target": 888,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 888,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/life_satisfaction/arm_totals/control_n",
+    "path": [
+      "families",
+      "life_satisfaction",
+      "arm_totals",
+      "control_n"
+    ],
+    "target": 997,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 997,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/arm_totals/experimental_n",
+    "path": [
+      "families",
+      "self_efficacy",
+      "arm_totals",
+      "experimental_n"
+    ],
+    "target": 1209,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 1209,
+    "difference": null,
+    "passed": true
+  },
+  {
+    "id": "families/self_efficacy/arm_totals/control_n",
+    "path": [
+      "families",
+      "self_efficacy",
+      "arm_totals",
+      "control_n"
+    ],
+    "target": 1296,
+    "kind": "exact",
+    "tolerance": null,
+    "actual": 1296,
+    "difference": null,
+    "passed": true
+  }
+]

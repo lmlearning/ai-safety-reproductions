@@ -1,0 +1,67 @@
+{
+  "utc": "2026-10-11T08:54:03.518378+00:00",
+  "paper_id": "P133",
+  "decision": "CENTRAL",
+  "full_reproduction": false,
+  "freeze": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\final_original029_closure001\\FINAL_COMPLETE_ORIGINAL029_OUTPUT_SOURCE_REPORT_FREEZE001.json",
+    "bytes": 4823248,
+    "sha256": "064b6709aa0796eaa387041aa198439db30ca686f2d3483fde2175b2edf21b7a"
+  },
+  "fresh_file_references": 15595,
+  "unique_paths": 13869,
+  "all_hashes_pass": true,
+  "all392_primary_pass": true,
+  "claims3_pass": true,
+  "independent_checks": 312782,
+  "independent_failures": 0,
+  "support_agree19_disagree95_retained": true,
+  "all6_fresh_absences": [
+    {
+      "pid": 65292,
+      "retained_creation_time": 1791707574.8291543,
+      "observed_pid_present": false,
+      "creation_matched_absence": true
+    },
+    {
+      "pid": 68836,
+      "retained_creation_time": 1791707575.0340805,
+      "observed_pid_present": false,
+      "creation_matched_absence": true
+    },
+    {
+      "pid": 75592,
+      "retained_creation_time": 1791707575.265873,
+      "observed_pid_present": false,
+      "creation_matched_absence": true
+    },
+    {
+      "pid": 75292,
+      "retained_creation_time": 1791707575.2830093,
+      "observed_pid_present": false,
+      "creation_matched_absence": true
+    },
+    {
+      "pid": 74832,
+      "retained_creation_time": 1791707590.496664,
+      "observed_pid_present": false,
+      "creation_matched_absence": true
+    },
+    {
+      "pid": 63352,
+      "retained_creation_time": 1791707590.5489278,
+      "observed_pid_present": false,
+      "creation_matched_absence": true
+    }
+  ],
+  "actual_root_tool_exit0_chunk": "5a62f0",
+  "actual_native_verifier0_chunk": "ff5865",
+  "shared_charge571_of1800": true,
+  "all_prior_failures_preserved": true,
+  "post_outcome_method_or_gate_changes": false,
+  "report": {
+    "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\final_original029_closure001\\SUMMARY_REPORT.html",
+    "bytes": 42030,
+    "sha256": "f9060f76a51994b2495d369c12a5dba403322a9f4e1ba932584f18104398fdc9"
+  }
+}

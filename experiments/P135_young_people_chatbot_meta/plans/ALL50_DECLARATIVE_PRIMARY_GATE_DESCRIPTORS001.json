@@ -1,0 +1,735 @@
+{
+  "source_only": true,
+  "checks": [
+    {
+      "id": "primary_01",
+      "family": "psychological_distress",
+      "kind": "pooled_g",
+      "target": "-0.28",
+      "path": [
+        "families",
+        "psychological_distress",
+        "primary",
+        "g"
+      ],
+      "source": "Original Figure",
+      "rule": "midpoint published difference within frozen source-rounding allowance"
+    },
+    {
+      "id": "primary_02",
+      "family": "psychological_distress",
+      "kind": "pooled_CI_low",
+      "target": "-0.46",
+      "path": [
+        "families",
+        "psychological_distress",
+        "primary",
+        "CI_low"
+      ],
+      "source": "Original Figure",
+      "rule": "midpoint published difference within frozen source-rounding allowance"
+    },
+    {
+      "id": "primary_03",
+      "family": "psychological_distress",
+      "kind": "pooled_CI_high",
+      "target": "-0.10",
+      "path": [
+        "families",
+        "psychological_distress",
+        "primary",
+        "CI_high"
+      ],
+      "source": "Original Figure",
+      "rule": "midpoint published difference within frozen source-rounding allowance"
+    },
+    {
+      "id": "primary_04",
+      "family": "psychological_distress",
+      "kind": "all_rounding_point_direction",
+      "target": "negative",
+      "path": [
+        "families",
+        "psychological_distress"
+      ],
+      "source": "Original pooled qualitative claim",
+      "rule": "midpoint AND EVERY fixed-e probe point direction identical to source"
+    },
+    {
+      "id": "primary_05",
+      "family": "psychological_distress",
+      "kind": "all_rounding_CI_classification",
+      "target": "negative_significant",
+      "path": [
+        "families",
+        "psychological_distress"
+      ],
+      "source": "Original pooled qualitative claim",
+      "rule": "midpoint AND EVERY fixed-e probe CI classification identical to source"
+    },
+    {
+      "id": "primary_06",
+      "family": "psychological_distress",
+      "kind": "exact_effects",
+      "target": 18,
+      "path": [
+        "families",
+        "psychological_distress",
+        "geometry",
+        "effects"
+      ],
+      "source": "Complete source cohort geometry",
+      "rule": "exact equality"
+    },
+    {
+      "id": "primary_07",
+      "family": "psychological_distress",
+      "kind": "exact_trials",
+      "target": 11,
+      "path": [
+        "families",
+        "psychological_distress",
+        "geometry",
+        "trials"
+      ],
+      "source": "Complete source cohort geometry",
+      "rule": "exact equality"
+    },
+    {
+      "id": "primary_08",
+      "family": "psychological_distress",
+      "kind": "LOO_-Liu 2022 (a)_point_direction",
+      "target": "negative",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Liu2022a",
+        "point_direction"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_09",
+      "family": "psychological_distress",
+      "kind": "LOO_-Liu 2022 (a)_CI_classification",
+      "target": "negative_significant",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Liu2022a",
+        "CI_classification"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_10",
+      "family": "psychological_distress",
+      "kind": "LOO_-Ehrlich 2023_point_direction",
+      "target": "negative",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Ehrlich2023",
+        "point_direction"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_11",
+      "family": "psychological_distress",
+      "kind": "LOO_-Ehrlich 2023_CI_classification",
+      "target": "negative_significant",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Ehrlich2023",
+        "CI_classification"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_12",
+      "family": "psychological_distress",
+      "kind": "LOO_-Fitzpatrick 2017_point_direction",
+      "target": "negative",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Fitzpatrick2017",
+        "point_direction"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_13",
+      "family": "psychological_distress",
+      "kind": "LOO_-Fitzpatrick 2017_CI_classification",
+      "target": "negative_significant",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Fitzpatrick2017",
+        "CI_classification"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_14",
+      "family": "psychological_distress",
+      "kind": "LOO_-Greer 2019_point_direction",
+      "target": "negative",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Greer2019",
+        "point_direction"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_15",
+      "family": "psychological_distress",
+      "kind": "LOO_-Greer 2019_CI_classification",
+      "target": "negative_significant",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Greer2019",
+        "CI_classification"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_16",
+      "family": "psychological_distress",
+      "kind": "LOO_-He 2022_point_direction",
+      "target": "negative",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "He2022",
+        "point_direction"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_17",
+      "family": "psychological_distress",
+      "kind": "LOO_-He 2022_CI_classification",
+      "target": "negative_significant",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "He2022",
+        "CI_classification"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_18",
+      "family": "psychological_distress",
+      "kind": "LOO_-Karhiy 2023_point_direction",
+      "target": "negative",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Karhiy2023",
+        "point_direction"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_19",
+      "family": "psychological_distress",
+      "kind": "LOO_-Karhiy 2023_CI_classification",
+      "target": "negative_significant",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Karhiy2023",
+        "CI_classification"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_20",
+      "family": "psychological_distress",
+      "kind": "LOO_-Klos 2021_point_direction",
+      "target": "negative",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Klos2021",
+        "point_direction"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_21",
+      "family": "psychological_distress",
+      "kind": "LOO_-Klos 2021_CI_classification",
+      "target": "negative_significant",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Klos2021",
+        "CI_classification"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_22",
+      "family": "psychological_distress",
+      "kind": "LOO_-Liu 2022 (b)_point_direction",
+      "target": "negative",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Liu2022b",
+        "point_direction"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_23",
+      "family": "psychological_distress",
+      "kind": "LOO_-Liu 2022 (b)_CI_classification",
+      "target": "negative_significant",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Liu2022b",
+        "CI_classification"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_24",
+      "family": "psychological_distress",
+      "kind": "LOO_-Maciejewski 2023_point_direction",
+      "target": "negative",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Maciejewski2023",
+        "point_direction"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_25",
+      "family": "psychological_distress",
+      "kind": "LOO_-Maciejewski 2023_CI_classification",
+      "target": "negative_significant",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Maciejewski2023",
+        "CI_classification"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_26",
+      "family": "psychological_distress",
+      "kind": "LOO_-Matheson 2023_point_direction",
+      "target": "negative",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Matheson2023",
+        "point_direction"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_27",
+      "family": "psychological_distress",
+      "kind": "LOO_-Matheson 2023_CI_classification",
+      "target": "negative_significant",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Matheson2023",
+        "CI_classification"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_28",
+      "family": "psychological_distress",
+      "kind": "LOO_-Nicol 2022_point_direction",
+      "target": "negative",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Nicol2022",
+        "point_direction"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_29",
+      "family": "psychological_distress",
+      "kind": "LOO_-Nicol 2022_CI_classification",
+      "target": "negative_significant",
+      "path": [
+        "families",
+        "psychological_distress",
+        "leave_one_trial_out",
+        "Nicol2022",
+        "CI_classification"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_30",
+      "family": "psychological_wellbeing",
+      "kind": "pooled_g",
+      "target": "0.13",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "primary",
+        "g"
+      ],
+      "source": "Original Figure",
+      "rule": "midpoint published difference within frozen source-rounding allowance"
+    },
+    {
+      "id": "primary_31",
+      "family": "psychological_wellbeing",
+      "kind": "pooled_CI_low",
+      "target": "-0.16",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "primary",
+        "CI_low"
+      ],
+      "source": "Original Figure",
+      "rule": "midpoint published difference within frozen source-rounding allowance"
+    },
+    {
+      "id": "primary_32",
+      "family": "psychological_wellbeing",
+      "kind": "pooled_CI_high",
+      "target": "0.41",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "primary",
+        "CI_high"
+      ],
+      "source": "Original Figure",
+      "rule": "midpoint published difference within frozen source-rounding allowance"
+    },
+    {
+      "id": "primary_33",
+      "family": "psychological_wellbeing",
+      "kind": "all_rounding_point_direction",
+      "target": "positive",
+      "path": [
+        "families",
+        "psychological_wellbeing"
+      ],
+      "source": "Original pooled qualitative claim",
+      "rule": "midpoint AND EVERY fixed-e probe point direction identical to source"
+    },
+    {
+      "id": "primary_34",
+      "family": "psychological_wellbeing",
+      "kind": "all_rounding_CI_classification",
+      "target": "crosses_zero",
+      "path": [
+        "families",
+        "psychological_wellbeing"
+      ],
+      "source": "Original pooled qualitative claim",
+      "rule": "midpoint AND EVERY fixed-e probe CI classification identical to source"
+    },
+    {
+      "id": "primary_35",
+      "family": "psychological_wellbeing",
+      "kind": "exact_effects",
+      "target": 8,
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "geometry",
+        "effects"
+      ],
+      "source": "Complete source cohort geometry",
+      "rule": "exact equality"
+    },
+    {
+      "id": "primary_36",
+      "family": "psychological_wellbeing",
+      "kind": "exact_trials",
+      "target": 7,
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "geometry",
+        "trials"
+      ],
+      "source": "Complete source cohort geometry",
+      "rule": "exact equality"
+    },
+    {
+      "id": "primary_37",
+      "family": "psychological_wellbeing",
+      "kind": "LOO_-Ehrlich 2023_point_direction",
+      "target": "positive",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Ehrlich2023",
+        "point_direction"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_38",
+      "family": "psychological_wellbeing",
+      "kind": "LOO_-Ehrlich 2023_CI_classification",
+      "target": "crosses_zero",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Ehrlich2023",
+        "CI_classification"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_39",
+      "family": "psychological_wellbeing",
+      "kind": "LOO_-Fitzpatrick 2017_point_direction",
+      "target": "positive",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Fitzpatrick2017",
+        "point_direction"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_40",
+      "family": "psychological_wellbeing",
+      "kind": "LOO_-Fitzpatrick 2017_CI_classification",
+      "target": "crosses_zero",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Fitzpatrick2017",
+        "CI_classification"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_41",
+      "family": "psychological_wellbeing",
+      "kind": "LOO_-Greer 2019_point_direction",
+      "target": "positive",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Greer2019",
+        "point_direction"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_42",
+      "family": "psychological_wellbeing",
+      "kind": "LOO_-Greer 2019_CI_classification",
+      "target": "crosses_zero",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Greer2019",
+        "CI_classification"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_43",
+      "family": "psychological_wellbeing",
+      "kind": "LOO_-Liu 2022 (b)_point_direction",
+      "target": "positive",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Liu2022b",
+        "point_direction"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_44",
+      "family": "psychological_wellbeing",
+      "kind": "LOO_-Liu 2022 (b)_CI_classification",
+      "target": "crosses_zero",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Liu2022b",
+        "CI_classification"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_45",
+      "family": "psychological_wellbeing",
+      "kind": "LOO_-Maciejewski 2023_point_direction",
+      "target": "positive",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Maciejewski2023",
+        "point_direction"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_46",
+      "family": "psychological_wellbeing",
+      "kind": "LOO_-Maciejewski 2023_CI_classification",
+      "target": "crosses_zero",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Maciejewski2023",
+        "CI_classification"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_47",
+      "family": "psychological_wellbeing",
+      "kind": "LOO_-Matheson 2023_point_direction",
+      "target": "positive",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Matheson2023",
+        "point_direction"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_48",
+      "family": "psychological_wellbeing",
+      "kind": "LOO_-Matheson 2023_CI_classification",
+      "target": "crosses_zero",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Matheson2023",
+        "CI_classification"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_49",
+      "family": "psychological_wellbeing",
+      "kind": "LOO_-Nicol 2022_point_direction",
+      "target": "positive",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Nicol2022",
+        "point_direction"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    },
+    {
+      "id": "primary_50",
+      "family": "psychological_wellbeing",
+      "kind": "LOO_-Nicol 2022_CI_classification",
+      "target": "crosses_zero",
+      "path": [
+        "families",
+        "psychological_wellbeing",
+        "leave_one_trial_out",
+        "Nicol2022",
+        "CI_classification"
+      ],
+      "source": "Original S8 complete robustness",
+      "rule": "exact qualitative classification; source ambiguous0 remains unavailable"
+    }
+  ],
+  "no_outcome_selected_order_or_criterion": true,
+  "primary_rescue": false
+}

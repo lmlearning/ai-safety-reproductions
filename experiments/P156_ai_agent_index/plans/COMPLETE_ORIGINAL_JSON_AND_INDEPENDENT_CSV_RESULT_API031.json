@@ -1,0 +1,101 @@
+{
+  "schema": "AI_AGENT_INDEX_COMPLETE_PRIMARY_INDEPENDENT_RESULT_API031",
+  "ROOT258_scope_decision_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_AI_AGENT_INDEX_CENTRAL_SCOPE_DECISION258.txt",
+    "bytes": 3907,
+    "sha256": "1f0543e807dc4e4026311d7a0c0a3f8caf4cc7f8e0c18f3e38f572658fec2d7a"
+  },
+  "primary_source_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\cpu_additional_complete_route_screen_oct15_002\\agent_index_transparency_preparation028\\agent_index_complete_primary031.py",
+    "bytes": 11045,
+    "sha256": "8f75e693a12735778e3171a299c0cf6fc6636514518ba2dfc519d536834be0f3"
+  },
+  "primary_callable": "primary_result(cfg)",
+  "complete_result_schema": "AI_AGENT_INDEX_COMPLETE_TRANSPARENCY_RESULT029",
+  "original_JSON_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\cpu_additional_complete_route_screen_oct15_002\\agent_index_original024\\2025_annotations.json",
+    "bytes": 306577,
+    "sha256": "c45813d44333b05b2d24f582b2818aec8d26310a3c3649897ee772454db9da64"
+  },
+  "original_CSV_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\cpu_additional_complete_route_screen_oct15_002\\agent_index_original024\\2025_annotations.csv",
+    "bytes": 247431,
+    "sha256": "417edeb0a2c33300b481730c7c13dc2689b892a36e3b5e59e981b66dd3bef390"
+  },
+  "matrix_contract_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\cpu_additional_complete_route_screen_oct15_002\\agent_index_source_contract026\\COMPLETE30_BY45_FROZEN_ORIGINAL_MATRIX_AND_SOURCE_COHORTS026.json",
+    "bytes": 656646,
+    "sha256": "a351bb280ac4b902ea9b87a6eed080729d5adaf8e09cb87a9ee4ae66817a816c"
+  },
+  "all1350_source_evidence_map_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\literature\\cpu_additional_complete_route_screen_oct15_002\\agent_index_transparency_preparation028\\COMPLETE_ALL1350_LITERAL_AUTHOR_STATUS_AND_SOURCE_EVIDENCE_MAP028.json",
+    "bytes": 1630297,
+    "sha256": "2cfd75e41e7d13577e05844251c7b5da5af431d7579970249b404bb128b3569d"
+  },
+  "result_structure": "Complete primary source031 is the exact result specification. Existing029 config/result schemas and all existing fields are preserved. The new complete_cohort_cross_margins field is mandatory common core. Independent source_mode/original_input_ref differ by provenance; every common mathematical/cell/status/target field compares exactly.",
+  "exact_comparison_fields": [
+    "all30_agent_order",
+    "all45_ordered_fields",
+    "all1350_cells",
+    "Fig3",
+    "Fig6",
+    "all_source_status_classes",
+    "primary_target_comparisons",
+    "all_primary_published_targets_passed",
+    "mandatory_literal_caption_audit",
+    "all_literal_caption_audits_passed",
+    "word_mean14",
+    "all_other_original_fields_retained",
+    "all_other_paper_claims_reproduced",
+    "FULL_reproduction_qualified",
+    "paper_credit",
+    "complete_cohort_cross_margins"
+  ],
+  "cell_roster": "Row-major original30 agents x45 ordered fields. All1350 cell records, raw UTF8 SHA, exact pointers, every status label, all3 flag arrays, individual rationale and both known source-inconsistency flags are mandatory.",
+  "status_class_order": "First occurrence in full original cell order; preserve all classes present, no dropped uncertainty/blank/confirmed-absence/NA class.",
+  "sensitivity_rules": {
+    "literal_whole_cell_only": "raw.strip().casefold() == 'none found'",
+    "broader_marker": "case-insensitive whole-word none followed by one-or-more whitespace and found anywhere in full raw value; regex \\bnone\\s+found\\b",
+    "neither_can_rescue_primary": true
+  },
+  "cohort_order": [
+    "Enterprise",
+    "Browser",
+    "Chat"
+  ],
+  "all_counts_flags_and_NA_equality": "Exact integers/booleans/strings/null/order and all full arrays. Percentage comparisons use exact rational counts/denominators against half-unit display intervals, no float tolerance or hidden exclusions.",
+  "original_scientific_output_root": "{{REPRODUCTION_ROOT}}\\runs\\AIIndex_transparency_original001",
+  "independent_callable_proposed": "run_complete_independent(cfg,primary_result_ref)",
+  "independent_output_subfolder_proposed": "independent029",
+  "scientific_execution": false,
+  "execution_authorized": false,
+  "paper_credit": 0,
+  "complete_cohort_cross_margins": {
+    "ordered_cohorts": [
+      "Enterprise",
+      "Browser",
+      "Chat"
+    ],
+    "entry_keys": [
+      "cohort",
+      "complete_all45",
+      "by_section",
+      "by_safety_field"
+    ],
+    "complete_all45": "Existing exact group_summary shape, key=cohort. Every original row-major cell in that cohort, all45 fields, no exclusions; member identities remain explicitly in Fig6.cohorts[].members.",
+    "by_section": "Every original section, first-source-section order; exact group_summary shape keyed by section, original full cell order.",
+    "by_safety_field": "All eight original safety fields, exact source field order; group_summary keyed by field name, original cohort member order.",
+    "group_summary_fields": [
+      "key",
+      "cell_ordinals1",
+      "primary_flags",
+      "literal_whole_cell_flags",
+      "broader_marker_flags",
+      "missing",
+      "denominator",
+      "literal_whole_cell_missing",
+      "broader_marker_missing"
+    ],
+    "role": "Mandatory exact primary/independent agreement in addition to every previous029 common field; no target or status predicate changed."
+  }
+}

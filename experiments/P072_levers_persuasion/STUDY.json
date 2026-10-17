@@ -1,0 +1,17 @@
+{
+  "ordinal": 5,
+  "paper_id": "P072",
+  "title": "The Levers of Political Persuasion with Conversational AI",
+  "classification": "Strict CENTRAL",
+  "recorded_public_date": "2025-07-18",
+  "window": "Extended",
+  "citations": 90,
+  "provider": "Semantic Scholar",
+  "capture_time_supported": false,
+  "route": "Released experiment data",
+  "result_and_scope": "All3 studies in the primary policy-attitude family:93 tables,643 rows,2,470 targets pass. Other analysis families excluded.",
+  "DOI": "10.1126/science.aea3884",
+  "arxiv_id": "2507.13919",
+  "preserved_limits": "18Jul paper is positively identified; earlier4Jul empirical commit public-push timing UNKNOWN, still in extension if public. Selected original primary policy-attitude family; no Bayesian scale/claim/dialogue or secondary informativeness. September count-table extension declared before outcomes.",
+  "whole_paper_reproduction": false
+}

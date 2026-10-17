@@ -1,0 +1,17 @@
+{
+  "ordinal": 20,
+  "paper_id": "P103",
+  "title": "Evidence of a social evaluation penalty for using AI",
+  "classification": "Bounded NEAR — retrospective",
+  "recorded_public_date": "2025-04-23 positive OSF public event; VOR2025-05-08",
+  "window": "Extended",
+  "citations": 78,
+  "provider": "Semantic Scholar exact DOI batch",
+  "capture_time_supported": true,
+  "route": "Released Study1 participant-data reanalysis",
+  "result_and_scope": "Complete primary Study1 anticipation + MC1:500 raw/497 retained participants,21 items/six traits,201 MC1 records,all108 targets.107 original passes; sole Welch df492.748050824 vs492.8 (error0.0519492df,0.010542%); all1484 independent computational checks pass, effects/CIs/p claims compatible.",
+  "DOI": "10.1073/pnas.2426766122",
+  "arxiv_id": null,
+  "preserved_limits": "Retrospective user-directed near classification; strict107/108 unchanged. Plausible double rounding is not proven author procedure. Historical native/resource evidence is retained with its limits. Later studies, hiring/mediation/perception/norms/Pollfish omitted before outcomes; no FULL.",
+  "whole_paper_reproduction": false
+}

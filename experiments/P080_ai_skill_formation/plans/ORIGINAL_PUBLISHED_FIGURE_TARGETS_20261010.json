@@ -1,0 +1,1292 @@
+{
+  "paper_id": "P080",
+  "purpose": "Prospective target extraction from original published PDF vectors only; no participant data read or outcomes computed.",
+  "target_count": 38,
+  "method": "Map published colored circle centers and vertical CI bars linearly to labeled horizontal gridlines. Main standardized-effect negative tick glyphs restored from visible original axis. Legend points require no matching CI and are excluded.",
+  "source_files": [
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/main_study.pdf",
+      "sha256": "c514f67a6e4af132b3e25c979125f9315f17ad4064fbcadd7d15420487867ac0"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/main_study_yoe.pdf",
+      "sha256": "7bc9106deb392f17c826cd37af14c2b7d4b52fc932eadc87e81df4f25b76a9a3"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/quiz_score_subarea.pdf",
+      "sha256": "c66491ef9ad941aaed45170b5b9c4ecddc7127ec2081d4f1342a93dc6b96451e"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/task_learning_enjoyment.pdf",
+      "sha256": "3fc360edda8afcc09eecc2957d9c99c9902315f71f6fa36d5a01c483ef07c012"
+    },
+    {
+      "path": "papers/P080_ai_skill_formation/sources/paper_v1_tex/img/task_difficulty.pdf",
+      "sha256": "b8ed9b27e9146c342deb8dd8f511e64ae5d7e9286e99656ac12eccf62f14f5fc"
+    }
+  ],
+  "targets": [
+    {
+      "figure_pdf": "main_study.pdf",
+      "metric": "main_TaskTime",
+      "category": "all",
+      "condition": "AI",
+      "mean": 23.0,
+      "ci95_low": 20.691346,
+      "ci95_high": 25.500962,
+      "pdf_marker_xy": [
+        73.71499633789062,
+        183.97190856933594
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          66.9111328125,
+          90.32328796386719,
+          113.73544311523438,
+          137.14759826660156,
+          160.55975341796875,
+          183.97190856933594,
+          207.38406372070312,
+          230.79620361328125
+        ],
+        "values": [
+          28.0,
+          27.0,
+          26.0,
+          25.0,
+          24.0,
+          23.0,
+          22.0,
+          21.0
+        ],
+        "a": -0.042712857823078536,
+        "b": 30.85796581122583
+      }
+    },
+    {
+      "figure_pdf": "main_study.pdf",
+      "metric": "main_TaskTime",
+      "category": "all",
+      "condition": "No AI",
+      "mean": 24.692308,
+      "ci95_low": 21.691346,
+      "ci95_high": 27.540385,
+      "pdf_marker_xy": [
+        175.96499633789062,
+        144.35133361816406
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          66.9111328125,
+          90.32328796386719,
+          113.73544311523438,
+          137.14759826660156,
+          160.55975341796875,
+          183.97190856933594,
+          207.38406372070312,
+          230.79620361328125
+        ],
+        "values": [
+          28.0,
+          27.0,
+          26.0,
+          25.0,
+          24.0,
+          23.0,
+          22.0,
+          21.0
+        ],
+        "a": -0.042712857823078536,
+        "b": 30.85796581122583
+      }
+    },
+    {
+      "figure_pdf": "main_study.pdf",
+      "metric": "main_QuizScorePercent",
+      "category": "all",
+      "condition": "AI",
+      "mean": 49.999999,
+      "ci95_low": 41.522435,
+      "ci95_high": 58.97614,
+      "pdf_marker_xy": [
+        288.9949951171875,
+        193.33563232421875
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          61.555938720703125,
+          87.911865234375,
+          114.26780700683594,
+          140.62374877929688,
+          166.9796905517578,
+          193.33563232421875,
+          219.69155883789062
+        ],
+        "values": [
+          75.0,
+          70.0,
+          65.0,
+          60.0,
+          55.0,
+          50.0,
+          45.0
+        ],
+        "a": -0.18971056558975732,
+        "b": 86.67781091627236
+      }
+    },
+    {
+      "figure_pdf": "main_study.pdf",
+      "metric": "main_QuizScorePercent",
+      "category": "all",
+      "condition": "No AI",
+      "mean": 65.384615,
+      "ci95_low": 58.830129,
+      "ci95_high": 71.942665,
+      "pdf_marker_xy": [
+        391.2449951171875,
+        112.24043273925781
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          61.555938720703125,
+          87.911865234375,
+          114.26780700683594,
+          140.62374877929688,
+          166.9796905517578,
+          193.33563232421875,
+          219.69155883789062
+        ],
+        "values": [
+          75.0,
+          70.0,
+          65.0,
+          60.0,
+          55.0,
+          50.0,
+          45.0
+        ],
+        "a": -0.18971056558975732,
+        "b": 86.67781091627236
+      }
+    },
+    {
+      "figure_pdf": "main_study.pdf",
+      "metric": "main_effect_total_SD",
+      "category": "TaskTime",
+      "condition": "No AI minus AI",
+      "mean": 0.240712,
+      "ci95_low": -0.317735,
+      "ci95_high": 0.799159,
+      "pdf_marker_xy": [
+        504.2749938964844,
+        163.7626953125
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          47.09625244140625,
+          80.2535400390625,
+          113.41082763671875,
+          146.56813049316406,
+          179.7254180908203,
+          212.88270568847656,
+          246.04000854492188
+        ],
+        "values": [
+          2,
+          1.5,
+          1,
+          0.5,
+          0,
+          -0.5,
+          -1
+        ],
+        "a": -0.015079638965268708,
+        "b": 2.710194425909296
+      }
+    },
+    {
+      "figure_pdf": "main_study.pdf",
+      "metric": "main_effect_total_SD",
+      "category": "QuizScore",
+      "condition": "No AI minus AI",
+      "mean": 0.697707,
+      "ci95_low": 0.171152,
+      "ci95_high": 1.224263,
+      "pdf_marker_xy": [
+        606.5250244140625,
+        133.45724487304688
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          47.09625244140625,
+          80.2535400390625,
+          113.41082763671875,
+          146.56813049316406,
+          179.7254180908203,
+          212.88270568847656,
+          246.04000854492188
+        ],
+        "values": [
+          2,
+          1.5,
+          1,
+          0.5,
+          0,
+          -0.5,
+          -1
+        ],
+        "a": -0.015079638965268708,
+        "b": 2.710194425909296
+      }
+    },
+    {
+      "figure_pdf": "main_study_yoe.pdf",
+      "metric": "experience_TaskTime",
+      "category": "1-3 years",
+      "condition": "AI",
+      "mean": 22.0,
+      "ci95_low": 16.0,
+      "ci95_high": 28.0,
+      "pdf_marker_xy": [
+        74.75585174560547,
+        179.88406372070312
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          56.13914489746094,
+          79.93624877929688,
+          103.73335266113281,
+          127.53044128417969,
+          151.32754516601562,
+          175.1246337890625,
+          198.9217529296875,
+          222.71884155273438
+        ],
+        "values": [
+          35.0,
+          32.5,
+          30.0,
+          27.5,
+          25.0,
+          22.5,
+          20.0,
+          17.5
+        ],
+        "a": -0.10505482051512613,
+        "b": 40.897688058243524
+      }
+    },
+    {
+      "figure_pdf": "main_study_yoe.pdf",
+      "metric": "experience_TaskTime",
+      "category": "1-3 years",
+      "condition": "No AI",
+      "mean": 33.5,
+      "ci95_low": 32.0,
+      "ci95_high": 35.0,
+      "pdf_marker_xy": [
+        94.7665786743164,
+        70.41740417480469
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          56.13914489746094,
+          79.93624877929688,
+          103.73335266113281,
+          127.53044128417969,
+          151.32754516601562,
+          175.1246337890625,
+          198.9217529296875,
+          222.71884155273438
+        ],
+        "values": [
+          35.0,
+          32.5,
+          30.0,
+          27.5,
+          25.0,
+          22.5,
+          20.0,
+          17.5
+        ],
+        "a": -0.10505482051512613,
+        "b": 40.897688058243524
+      }
+    },
+    {
+      "figure_pdf": "main_study_yoe.pdf",
+      "metric": "experience_TaskTime",
+      "category": "4-6 years",
+      "condition": "AI",
+      "mean": 22.100001,
+      "ci95_low": 19.6,
+      "ci95_high": 25.0,
+      "pdf_marker_xy": [
+        141.45828247070312,
+        178.9321746826172
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          56.13914489746094,
+          79.93624877929688,
+          103.73335266113281,
+          127.53044128417969,
+          151.32754516601562,
+          175.1246337890625,
+          198.9217529296875,
+          222.71884155273438
+        ],
+        "values": [
+          35.0,
+          32.5,
+          30.0,
+          27.5,
+          25.0,
+          22.5,
+          20.0,
+          17.5
+        ],
+        "a": -0.10505482051512613,
+        "b": 40.897688058243524
+      }
+    },
+    {
+      "figure_pdf": "main_study_yoe.pdf",
+      "metric": "experience_TaskTime",
+      "category": "4-6 years",
+      "condition": "No AI",
+      "mean": 23.444445,
+      "ci95_low": 19.777777,
+      "ci95_high": 28.111111,
+      "pdf_marker_xy": [
+        161.468994140625,
+        166.13462829589844
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          56.13914489746094,
+          79.93624877929688,
+          103.73335266113281,
+          127.53044128417969,
+          151.32754516601562,
+          175.1246337890625,
+          198.9217529296875,
+          222.71884155273438
+        ],
+        "values": [
+          35.0,
+          32.5,
+          30.0,
+          27.5,
+          25.0,
+          22.5,
+          20.0,
+          17.5
+        ],
+        "a": -0.10505482051512613,
+        "b": 40.897688058243524
+      }
+    },
+    {
+      "figure_pdf": "main_study_yoe.pdf",
+      "metric": "experience_TaskTime",
+      "category": "7+ years",
+      "condition": "AI",
+      "mean": 23.785714,
+      "ci95_low": 20.142856,
+      "ci95_high": 27.358929,
+      "pdf_marker_xy": [
+        208.16070556640625,
+        162.88613891601562
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          56.13914489746094,
+          79.93624877929688,
+          103.73335266113281,
+          127.53044128417969,
+          151.32754516601562,
+          175.1246337890625,
+          198.9217529296875,
+          222.71884155273438
+        ],
+        "values": [
+          35.0,
+          32.5,
+          30.0,
+          27.5,
+          25.0,
+          22.5,
+          20.0,
+          17.5
+        ],
+        "a": -0.10505482051512613,
+        "b": 40.897688058243524
+      }
+    },
+    {
+      "figure_pdf": "main_study_yoe.pdf",
+      "metric": "experience_TaskTime",
+      "category": "7+ years",
+      "condition": "No AI",
+      "mean": 24.266666,
+      "ci95_low": 20.065001,
+      "ci95_high": 28.266667,
+      "pdf_marker_xy": [
+        228.17141723632812,
+        158.3080291748047
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          56.13914489746094,
+          79.93624877929688,
+          103.73335266113281,
+          127.53044128417969,
+          151.32754516601562,
+          175.1246337890625,
+          198.9217529296875,
+          222.71884155273438
+        ],
+        "values": [
+          35.0,
+          32.5,
+          30.0,
+          27.5,
+          25.0,
+          22.5,
+          20.0,
+          17.5
+        ],
+        "a": -0.10505482051512613,
+        "b": 40.897688058243524
+      }
+    },
+    {
+      "figure_pdf": "main_study_yoe.pdf",
+      "metric": "experience_QuizScorePercent",
+      "category": "1-3 years",
+      "condition": "AI",
+      "mean": 49.074072,
+      "ci95_low": 29.629629,
+      "ci95_high": 68.51852,
+      "pdf_marker_xy": [
+        317.9031066894531,
+        172.2581787109375
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          69.29244995117188,
+          102.58676147460938,
+          135.8810577392578,
+          169.1753692626953,
+          202.46966552734375,
+          235.76397705078125
+        ],
+        "values": [
+          80.0,
+          70.0,
+          60.0,
+          50.0,
+          40.0,
+          30.0
+        ],
+        "a": -0.30035167082663516,
+        "b": 100.81210377322
+      }
+    },
+    {
+      "figure_pdf": "main_study_yoe.pdf",
+      "metric": "experience_QuizScorePercent",
+      "category": "1-3 years",
+      "condition": "No AI",
+      "mean": 54.629629,
+      "ci95_low": 49.999999,
+      "ci95_high": 59.259259,
+      "pdf_marker_xy": [
+        337.9138488769531,
+        153.76133728027344
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          69.29244995117188,
+          102.58676147460938,
+          135.8810577392578,
+          169.1753692626953,
+          202.46966552734375,
+          235.76397705078125
+        ],
+        "values": [
+          80.0,
+          70.0,
+          60.0,
+          50.0,
+          40.0,
+          30.0
+        ],
+        "a": -0.30035167082663516,
+        "b": 100.81210377322
+      }
+    },
+    {
+      "figure_pdf": "main_study_yoe.pdf",
+      "metric": "experience_QuizScorePercent",
+      "category": "4-6 years",
+      "condition": "AI",
+      "mean": 49.074072,
+      "ci95_low": 39.810183,
+      "ci95_high": 59.814816,
+      "pdf_marker_xy": [
+        384.60552978515625,
+        172.2581787109375
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          69.29244995117188,
+          102.58676147460938,
+          135.8810577392578,
+          169.1753692626953,
+          202.46966552734375,
+          235.76397705078125
+        ],
+        "values": [
+          80.0,
+          70.0,
+          60.0,
+          50.0,
+          40.0,
+          30.0
+        ],
+        "a": -0.30035167082663516,
+        "b": 100.81210377322
+      }
+    },
+    {
+      "figure_pdf": "main_study_yoe.pdf",
+      "metric": "experience_QuizScorePercent",
+      "category": "4-6 years",
+      "condition": "No AI",
+      "mean": 70.370369,
+      "ci95_low": 54.938272,
+      "ci95_high": 83.950618,
+      "pdf_marker_xy": [
+        404.61627197265625,
+        101.3536376953125
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          69.29244995117188,
+          102.58676147460938,
+          135.8810577392578,
+          169.1753692626953,
+          202.46966552734375,
+          235.76397705078125
+        ],
+        "values": [
+          80.0,
+          70.0,
+          60.0,
+          50.0,
+          40.0,
+          30.0
+        ],
+        "a": -0.30035167082663516,
+        "b": 100.81210377322
+      }
+    },
+    {
+      "figure_pdf": "main_study_yoe.pdf",
+      "metric": "experience_QuizScorePercent",
+      "category": "7+ years",
+      "condition": "AI",
+      "mean": 50.793647,
+      "ci95_low": 35.978834,
+      "ci95_high": 64.685846,
+      "pdf_marker_xy": [
+        451.3079528808594,
+        166.53297424316406
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          69.29244995117188,
+          102.58676147460938,
+          135.8810577392578,
+          169.1753692626953,
+          202.46966552734375,
+          235.76397705078125
+        ],
+        "values": [
+          80.0,
+          70.0,
+          60.0,
+          50.0,
+          40.0,
+          30.0
+        ],
+        "a": -0.30035167082663516,
+        "b": 100.81210377322
+      }
+    },
+    {
+      "figure_pdf": "main_study_yoe.pdf",
+      "metric": "experience_QuizScorePercent",
+      "category": "7+ years",
+      "condition": "No AI",
+      "mean": 63.827159,
+      "ci95_low": 56.666664,
+      "ci95_high": 71.358025,
+      "pdf_marker_xy": [
+        471.3186950683594,
+        123.13880157470703
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          69.29244995117188,
+          102.58676147460938,
+          135.8810577392578,
+          169.1753692626953,
+          202.46966552734375,
+          235.76397705078125
+        ],
+        "values": [
+          80.0,
+          70.0,
+          60.0,
+          50.0,
+          40.0,
+          30.0
+        ],
+        "a": -0.30035167082663516,
+        "b": 100.81210377322
+      }
+    },
+    {
+      "figure_pdf": "quiz_score_subarea.pdf",
+      "metric": "subarea_percent",
+      "category": "Task1",
+      "condition": "AI",
+      "mean": 51.709401,
+      "ci95_low": 42.943376,
+      "ci95_high": 60.683761,
+      "pdf_marker_xy": [
+        85.53150177001953,
+        160.01461791992188
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          60.782073974609375,
+          115.03536987304688,
+          169.28868103027344,
+          223.5419921875,
+          277.7952880859375
+        ],
+        "values": [
+          70.0,
+          60.0,
+          50.0,
+          40.0,
+          30.0
+        ],
+        "a": -0.18432056793774929,
+        "b": 81.20338583293245
+      }
+    },
+    {
+      "figure_pdf": "quiz_score_subarea.pdf",
+      "metric": "subarea_percent",
+      "category": "Task1",
+      "condition": "No AI",
+      "mean": 66.452993,
+      "ci95_low": 59.615385,
+      "ci95_high": 73.082267,
+      "pdf_marker_xy": [
+        116.3385009765625,
+        80.0257568359375
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          60.782073974609375,
+          115.03536987304688,
+          169.28868103027344,
+          223.5419921875,
+          277.7952880859375
+        ],
+        "values": [
+          70.0,
+          60.0,
+          50.0,
+          40.0,
+          30.0
+        ],
+        "a": -0.18432056793774929,
+        "b": 81.20338583293245
+      }
+    },
+    {
+      "figure_pdf": "quiz_score_subarea.pdf",
+      "metric": "subarea_percent",
+      "category": "Task2",
+      "condition": "AI",
+      "mean": 44.444443,
+      "ci95_low": 31.623932,
+      "ci95_high": 55.982906,
+      "pdf_marker_xy": [
+        188.22149658203125,
+        199.42941284179688
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          60.782073974609375,
+          115.03536987304688,
+          169.28868103027344,
+          223.5419921875,
+          277.7952880859375
+        ],
+        "values": [
+          70.0,
+          60.0,
+          50.0,
+          40.0,
+          30.0
+        ],
+        "a": -0.18432056793774929,
+        "b": 81.20338583293245
+      }
+    },
+    {
+      "figure_pdf": "quiz_score_subarea.pdf",
+      "metric": "subarea_percent",
+      "category": "Task2",
+      "condition": "No AI",
+      "mean": 60.256412,
+      "ci95_low": 48.717949,
+      "ci95_high": 70.512821,
+      "pdf_marker_xy": [
+        219.02850341796875,
+        113.64425659179688
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          60.782073974609375,
+          115.03536987304688,
+          169.28868103027344,
+          223.5419921875,
+          277.7952880859375
+        ],
+        "values": [
+          70.0,
+          60.0,
+          50.0,
+          40.0,
+          30.0
+        ],
+        "a": -0.18432056793774929,
+        "b": 81.20338583293245
+      }
+    },
+    {
+      "figure_pdf": "quiz_score_subarea.pdf",
+      "metric": "subarea_percent",
+      "category": "Conceptual",
+      "condition": "AI",
+      "mean": 46.581196,
+      "ci95_low": 37.606835,
+      "ci95_high": 55.566239,
+      "pdf_marker_xy": [
+        290.9114990234375,
+        187.83682250976562
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          60.782073974609375,
+          115.03536987304688,
+          169.28868103027344,
+          223.5419921875,
+          277.7952880859375
+        ],
+        "values": [
+          70.0,
+          60.0,
+          50.0,
+          40.0,
+          30.0
+        ],
+        "a": -0.18432056793774929,
+        "b": 81.20338583293245
+      }
+    },
+    {
+      "figure_pdf": "quiz_score_subarea.pdf",
+      "metric": "subarea_percent",
+      "category": "Conceptual",
+      "condition": "No AI",
+      "mean": 62.820514,
+      "ci95_low": 53.835472,
+      "ci95_high": 72.649574,
+      "pdf_marker_xy": [
+        321.718505859375,
+        99.733154296875
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          60.782073974609375,
+          115.03536987304688,
+          169.28868103027344,
+          223.5419921875,
+          277.7952880859375
+        ],
+        "values": [
+          70.0,
+          60.0,
+          50.0,
+          40.0,
+          30.0
+        ],
+        "a": -0.18432056793774929,
+        "b": 81.20338583293245
+      }
+    },
+    {
+      "figure_pdf": "quiz_score_subarea.pdf",
+      "metric": "subarea_percent",
+      "category": "Debugging",
+      "condition": "AI",
+      "mean": 37.98077,
+      "ci95_low": 25.961536,
+      "ci95_high": 50.961538,
+      "pdf_marker_xy": [
+        393.60150146484375,
+        234.49697875976562
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          60.782073974609375,
+          115.03536987304688,
+          169.28868103027344,
+          223.5419921875,
+          277.7952880859375
+        ],
+        "values": [
+          70.0,
+          60.0,
+          50.0,
+          40.0,
+          30.0
+        ],
+        "a": -0.18432056793774929,
+        "b": 81.20338583293245
+      }
+    },
+    {
+      "figure_pdf": "quiz_score_subarea.pdf",
+      "metric": "subarea_percent",
+      "category": "Debugging",
+      "condition": "No AI",
+      "mean": 59.134618,
+      "ci95_low": 48.064904,
+      "ci95_high": 71.634618,
+      "pdf_marker_xy": [
+        424.40850830078125,
+        119.73036193847656
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          60.782073974609375,
+          115.03536987304688,
+          169.28868103027344,
+          223.5419921875,
+          277.7952880859375
+        ],
+        "values": [
+          70.0,
+          60.0,
+          50.0,
+          40.0,
+          30.0
+        ],
+        "a": -0.18432056793774929,
+        "b": 81.20338583293245
+      }
+    },
+    {
+      "figure_pdf": "quiz_score_subarea.pdf",
+      "metric": "subarea_percent",
+      "category": "CodeReading",
+      "condition": "AI",
+      "mean": 57.051283,
+      "ci95_low": 47.115384,
+      "ci95_high": 66.346157,
+      "pdf_marker_xy": [
+        496.29150390625,
+        131.03313827514648
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          60.782073974609375,
+          115.03536987304688,
+          169.28868103027344,
+          223.5419921875,
+          277.7952880859375
+        ],
+        "values": [
+          70.0,
+          60.0,
+          50.0,
+          40.0,
+          30.0
+        ],
+        "a": -0.18432056793774929,
+        "b": 81.20338583293245
+      }
+    },
+    {
+      "figure_pdf": "quiz_score_subarea.pdf",
+      "metric": "subarea_percent",
+      "category": "CodeReading",
+      "condition": "No AI",
+      "mean": 66.987181,
+      "ci95_low": 59.935898,
+      "ci95_high": 73.71795,
+      "pdf_marker_xy": [
+        527.0985107421875,
+        77.12760925292969
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          60.782073974609375,
+          115.03536987304688,
+          169.28868103027344,
+          223.5419921875,
+          277.7952880859375
+        ],
+        "values": [
+          70.0,
+          60.0,
+          50.0,
+          40.0,
+          30.0
+        ],
+        "a": -0.18432056793774929,
+        "b": 81.20338583293245
+      }
+    },
+    {
+      "figure_pdf": "task_learning_enjoyment.pdf",
+      "metric": "self_report",
+      "category": "Learning",
+      "condition": "AI",
+      "mean": 4.115385,
+      "ci95_low": 3.538462,
+      "ci95_high": 4.692308,
+      "pdf_marker_xy": [
+        121.85465240478516,
+        233.24481201171875
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          61.04241943359375,
+          106.72877502441406,
+          152.41513061523438,
+          198.10147094726562,
+          243.78782653808594,
+          289.47418212890625
+        ],
+        "values": [
+          6.0,
+          5.5,
+          5.0,
+          4.5,
+          4.0,
+          3.5
+        ],
+        "a": -0.010944187525477447,
+        "b": 6.66805970914653
+      }
+    },
+    {
+      "figure_pdf": "task_learning_enjoyment.pdf",
+      "metric": "self_report",
+      "category": "Learning",
+      "condition": "No AI",
+      "mean": 4.846154,
+      "ci95_low": 4.269231,
+      "ci95_high": 5.385577,
+      "pdf_marker_xy": [
+        181.12472534179688,
+        166.47247314453125
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          61.04241943359375,
+          106.72877502441406,
+          152.41513061523438,
+          198.10147094726562,
+          243.78782653808594,
+          289.47418212890625
+        ],
+        "values": [
+          6.0,
+          5.5,
+          5.0,
+          4.5,
+          4.0,
+          3.5
+        ],
+        "a": -0.010944187525477447,
+        "b": 6.66805970914653
+      }
+    },
+    {
+      "figure_pdf": "task_learning_enjoyment.pdf",
+      "metric": "self_report",
+      "category": "Enjoyment",
+      "condition": "AI",
+      "mean": 5.307692,
+      "ci95_low": 4.692308,
+      "ci95_high": 5.884615,
+      "pdf_marker_xy": [
+        319.4215393066406,
+        124.30044555664062
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          61.04241943359375,
+          106.72877502441406,
+          152.41513061523438,
+          198.10147094726562,
+          243.78782653808594,
+          289.47418212890625
+        ],
+        "values": [
+          6.0,
+          5.5,
+          5.0,
+          4.5,
+          4.0,
+          3.5
+        ],
+        "a": -0.010944187525477447,
+        "b": 6.66805970914653
+      }
+    },
+    {
+      "figure_pdf": "task_learning_enjoyment.pdf",
+      "metric": "self_report",
+      "category": "Enjoyment",
+      "condition": "No AI",
+      "mean": 5.807692,
+      "ci95_low": 5.346154,
+      "ci95_high": 6.230769,
+      "pdf_marker_xy": [
+        378.69158935546875,
+        78.6141128540039
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          61.04241943359375,
+          106.72877502441406,
+          152.41513061523438,
+          198.10147094726562,
+          243.78782653808594,
+          289.47418212890625
+        ],
+        "values": [
+          6.0,
+          5.5,
+          5.0,
+          4.5,
+          4.0,
+          3.5
+        ],
+        "a": -0.010944187525477447,
+        "b": 6.66805970914653
+      }
+    },
+    {
+      "figure_pdf": "task_difficulty.pdf",
+      "metric": "difficulty",
+      "category": "Warm Up",
+      "condition": "AI",
+      "mean": 2.923077,
+      "ci95_low": 2.538462,
+      "ci95_high": 3.346154,
+      "pdf_marker_xy": [
+        98.7256851196289,
+        167.17056274414062
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          48.434967041015625,
+          103.56221008300781,
+          158.689453125,
+          213.81668090820312,
+          268.94390869140625
+        ],
+        "values": [
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0
+        ],
+        "a": -0.009069926983600152,
+        "b": 4.439301669873526
+      }
+    },
+    {
+      "figure_pdf": "task_difficulty.pdf",
+      "metric": "difficulty",
+      "category": "Warm Up",
+      "condition": "No AI",
+      "mean": 2.269231,
+      "ci95_low": 1.846154,
+      "ci95_high": 2.731731,
+      "pdf_marker_xy": [
+        138.24806213378906,
+        239.26002502441406
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          48.434967041015625,
+          103.56221008300781,
+          158.689453125,
+          213.81668090820312,
+          268.94390869140625
+        ],
+        "values": [
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0
+        ],
+        "a": -0.009069926983600152,
+        "b": 4.439301669873526
+      }
+    },
+    {
+      "figure_pdf": "task_difficulty.pdf",
+      "metric": "difficulty",
+      "category": "Trio Task",
+      "condition": "AI",
+      "mean": 2.730769,
+      "ci95_low": 2.307692,
+      "ci95_high": 3.153846,
+      "pdf_marker_xy": [
+        230.46694946289062,
+        188.37335205078125
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          48.434967041015625,
+          103.56221008300781,
+          158.689453125,
+          213.81668090820312,
+          268.94390869140625
+        ],
+        "values": [
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0
+        ],
+        "a": -0.009069926983600152,
+        "b": 4.439301669873526
+      }
+    },
+    {
+      "figure_pdf": "task_difficulty.pdf",
+      "metric": "difficulty",
+      "category": "Trio Task",
+      "condition": "No AI",
+      "mean": 3.269231,
+      "ci95_low": 2.845192,
+      "ci95_high": 3.653846,
+      "pdf_marker_xy": [
+        269.98931884765625,
+        129.00555038452148
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          48.434967041015625,
+          103.56221008300781,
+          158.689453125,
+          213.81668090820312,
+          268.94390869140625
+        ],
+        "values": [
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0
+        ],
+        "a": -0.009069926983600152,
+        "b": 4.439301669873526
+      }
+    },
+    {
+      "figure_pdf": "task_difficulty.pdf",
+      "metric": "difficulty",
+      "category": "Post Task Quiz",
+      "condition": "AI",
+      "mean": 3.730769,
+      "ci95_low": 3.461538,
+      "ci95_high": 3.9625,
+      "pdf_marker_xy": [
+        362.20819091796875,
+        78.11888885498047
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          48.434967041015625,
+          103.56221008300781,
+          158.689453125,
+          213.81668090820312,
+          268.94390869140625
+        ],
+        "values": [
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0
+        ],
+        "a": -0.009069926983600152,
+        "b": 4.439301669873526
+      }
+    },
+    {
+      "figure_pdf": "task_difficulty.pdf",
+      "metric": "difficulty",
+      "category": "Post Task Quiz",
+      "condition": "No AI",
+      "mean": 3.807692,
+      "ci95_low": 3.538462,
+      "ci95_high": 4.076923,
+      "pdf_marker_xy": [
+        401.7305908203125,
+        69.63776397705078
+      ],
+      "source_y_axis_calibration": {
+        "pixel_y": [
+          48.434967041015625,
+          103.56221008300781,
+          158.689453125,
+          213.81668090820312,
+          268.94390869140625
+        ],
+        "values": [
+          4.0,
+          3.5,
+          3.0,
+          2.5,
+          2.0
+        ],
+        "a": -0.009069926983600152,
+        "b": 4.439301669873526
+      }
+    }
+  ]
+}

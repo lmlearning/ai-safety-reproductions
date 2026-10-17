@@ -1,0 +1,6 @@
+{
+  "utc": "2026-10-10T17:50:22.125558+00:00",
+  "installed_source_sha256": "b52ddd68b8e673731564f8a981bb6495eefb714bad496c7c329cb06fad45f95a",
+  "observation": "Installed1.8 deprecates penalty and emits misleading l1_ratio inconsistency warning, but fit uses penalty=self.penalty and passes that exact l1 to _fit_liblinear; L1 behavior retained. Original dependency exact versions not pinned in inspected probe source. No parameters changed.",
+  "post_outcome_dependency_review": true
+}

@@ -1,0 +1,45 @@
+# P080 complete primary quantitative RCT reproduction
+
+The entire prospective main RCT quantitative contribution in original Sections5.2.1-5.2.2/Figures6-10 passed:141/141 original comparisons and796/796 independent raw-data checks. This is an independent statistical recomputation of the original 52-person trial, with all 26 AI and 26 No-AI cases. The adjusted model uses the original 50-case listwise cohort.
+
+| Endpoint | AI mean | No-AI mean | No-AI minus AI (95% CI) | p | Cohen d |
+|---|---:|---:|---|---:|---:|
+| TaskTime | 23.000000 | 24.692308 | 1.692308 [-2.233811, 5.618426] | 0.39075379 | 0.240120 |
+| QuizScore | 13.500000 | 17.653846 | 4.153846 [1.018965, 7.288728] | 0.01043468 | 0.738146 |
+
+Quiz means are50.000000% AI and65.384615% No-AI. Warmup-adjusted control-minus-AI score difference is15.322629 percentage points (95% CI [2.954153, 27.691105]), p=0.01627749, adjusted d=0.725053.
+
+Every published figure mean/effect matched within the frozen0.0001 displayed-unit tolerance. Four regression-effect interval bounds matched strictly. All72 historical bootstrap bounds passed the fixed familywise order-rank/DKW comparison rule; the historical unseeded1000-draw intervals were not required to equal an arbitrarily chosen replay. All36 fixed1000-draw replays and36 million-draw reference vectors are saved, hashed and independently regenerated bit-identically.
+
+| Original follow-up metric/category | AI mean | No-AI mean | Original source p |
+|---|---:|---:|---:|
+| experience_TaskTime / 1-3 years | 22.000000 | 33.500000 | 0.20405218 |
+| experience_QuizScorePercent / 1-3 years | 49.074074 | 54.629630 | 0.80715270 |
+| experience_TaskTime / 4-6 years | 22.100000 | 23.444444 | 0.61893615 |
+| experience_QuizScorePercent / 4-6 years | 49.074074 | 70.370370 | 0.03801823 |
+| experience_TaskTime / 7+ years | 23.785714 | 24.266667 | 0.86970974 |
+| experience_QuizScorePercent / 7+ years | 50.793651 | 63.827160 | 0.12423862 |
+| subarea_percent / Task1 | 51.709402 | 66.452991 | 0.01404179 |
+| subarea_percent / Task2 | 44.444444 | 60.256410 | 0.06450522 |
+| subarea_percent / Conceptual | 46.581197 | 62.820513 | 0.02289108 |
+| subarea_percent / Debugging | 37.980769 | 59.134615 | 0.01923537 |
+| subarea_percent / CodeReading | 57.051282 | 66.987179 | 0.11756848 |
+| self_report / Learning | 4.115385 | 4.846154 | 0.08449612 |
+| self_report / Enjoyment | 5.307692 | 5.807692 | 0.21179896 |
+| difficulty / Warm Up | 2.923077 | 2.269231 | 0.04071742 |
+| difficulty / Trio Task | 2.730769 | 3.269231 | 0.09292063 |
+| difficulty / Post Task Quiz | 3.730769 | 3.807692 | 0.69743570 |
+
+All 14 graded-item sums agree with stored QuizScore for all 52 participants. Original subarea integer truncation discards partial credit in one Q3 grade and 23 Q6 grades; the original Q3 overlap in Conceptual/CodeReading is preserved. The prospectively fixed fractional-grade diagnostic changes Task2 p from the original approximately0.065 to0.046096, but it provides no reproduction credit. Fractional diagnostics and BH-adjusted two primary / 16 exploratory tests are reported separately in the raw results and review.
+
+The original literal 17% prose conflicts with its own 4.15/27 and50%/65.384615% numbers. The reproduced gap is15.384615percentage points; this does not validate the17% translation. Historical package/seed uncertainty, original source effort-column/mapping repairs, N50 adjustment, OSF legacy/current registration discrepancies and planned-FDR versus unadjusted-source tests remain explicit.
+
+This is a complete central quantitative trial contribution, not a full-paper reproduction. Separate qualitative Figures11-19/Tables3-4 lack an exact anonymous-transcript-to-CSV bridge, original persona/adoption assignments and complete aggregation driver. PilotA-C raw cohorts are absent; retained PilotD has18 source-filtered cases versus20 reported. No matching by row order/outcomes, new human coding or API experiment was used.
+
+Eligibility:42 original Semantic Scholar citations clear primary20 and extended40. Original arXiv publication is Jan28'26; retained Aug2025 author/committer timestamps do not establish earlier public empirical release, and unknown repository visibility is disclosed.
+
+One CPU thread; run12.641s peakRSS159.78MiB; audit7.344s peakRSS118.37MiB. All frozen resource guards held. Original1.5GiB available-RAM floor was amended to1.0GiB before outcomes;1GiB process cap,35GiB free disk,600sec bound and chunk size<=10000 stayed fixed. No GPU, weights, closed judges or new humans.
+
+Immutable input/code/preregistration hashes are in FINAL_FREEZE_MANIFEST_20261010.json. All38 target means/effects and76 original interval endpoints, plus every source/text test, are in ORIGINAL_PUBLISHED_FIGURE_TARGETS_20261010.json and RUN_MAIN_RCT_20261010.json. Complete independent checks are in AUDIT_MAIN_RCT_20261010.json; no failed checks or attempts were discarded.
+
+Static comparisons for every original mean/CI group are in [the five-page PDF](figures/P080_all_five_original_figure_groups.pdf) and the five PNGs in figures/. Filled circles show the completed fixed replication; open diamonds show the original published targets. Reference acceptance envelopes are not drawn as publication CIs. All five PNGs were visually inspected and all PDF titles/text bounds verified. The first presentation attempt stopped at the memory floor before producing plots; the same-code retry passed after another worker released memory. Neither attempt reran statistics.

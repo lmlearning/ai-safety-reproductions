@@ -1,0 +1,17 @@
+{
+  "ordinal": 18,
+  "paper_id": "P165",
+  "title": "When Can We Trust LLMs in Mental Health? Large-Scale Benchmarks for Reliable LLM Evaluation",
+  "classification": "Qualified NEAR — material exceptions",
+  "recorded_public_date": "2025-10-21",
+  "window": "Main",
+  "citations": 31,
+  "provider": "Semantic Scholar",
+  "capture_time_supported": false,
+  "route": "Released MentalBench ratings",
+  "result_and_scope": "All1,000 conversations/10 response roles/7 attributes/4 judges.56 ICC max0.000499;112 Table4 max0.000888;23 contrasts/69,502 checks. BUT315/324:mean error0.308047;8 CI errors up to0.152486 remain material.",
+  "DOI": null,
+  "arxiv_id": "2510.19032",
+  "preserved_limits": "Exact first S2 HTTP captureUTC UNKNOWN; known-by782 retention, not proven as-of10Oct. EarlierAug8 repository commit is not public-visibility proof; earlier title alias retained. All1,150 diagnostics/254 source-role UNKNOWNs and6 status changes retained. Canonical paper-date CSV missingness; raw-workbook10 human cells not filled. Released single human reference, three-expert aggregation producer unverified.",
+  "whole_paper_reproduction": false
+}

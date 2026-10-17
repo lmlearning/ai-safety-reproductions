@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-10-10T21:12:55.693302+00:00",
+  "files": [
+    {
+      "path": "papers\\P109_higher_order_thinking\\runs\\P109-central-001\\independent_audit002\\AUDIT_STATUS.json",
+      "bytes": 1023,
+      "sha256": "662296b243318bd39a0edd5c45eb4118cb3444e91e7369457aa4d01ad4b60a8a"
+    },
+    {
+      "path": "papers\\P109_higher_order_thinking\\runs\\P109-central-001\\independent_audit002\\INDEPENDENT80_RESULTS.json",
+      "bytes": 172506,
+      "sha256": "20856afdc8a8269b22e10d8cec209cf5e22813f08da046beb25064686c1d4bf5"
+    }
+  ]
+}

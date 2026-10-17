@@ -1,0 +1,86 @@
+{
+  "files": [
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\runs\\original001\\ALL4918_PRECISION_CONTROLS.jsonl",
+      "bytes": 157172975,
+      "sha256": "aefec6687d5cfa03bceb631ea3f5222367c3b57fb5031c7a3f4a90ae8428bb60"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\runs\\original001\\COMPLETE_FIXED_LOO_TIMING_CONTROLS.json",
+      "bytes": 193866,
+      "sha256": "33b755d824532fb0499564b3fdbfc15612399344d939d2995ce087344fb4ee4d"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\runs\\original001\\forest_knowledge.png",
+      "bytes": 60873,
+      "sha256": "de2f819c534bf2976aaa7cf50af72039c887cc1f22f83679d13e21a10e45f9e6"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\runs\\original001\\forest_knowledge.svg",
+      "bytes": 52177,
+      "sha256": "ed517f5e537dafb6ba6daf87ece077e10fe4468d87cce92e5b90633d1a5e0e4c"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\runs\\original001\\forest_satisfaction.png",
+      "bytes": 30860,
+      "sha256": "70c67b767ece65631f995f78f4839bf6a782908d4c52f62ee38b66569c4b423a"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\runs\\original001\\forest_satisfaction.svg",
+      "bytes": 34261,
+      "sha256": "2939de89e4a0dd79289671accde72ca45ac91fcebb64e0df7eae682141516a10"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\runs\\original001\\forest_skill.png",
+      "bytes": 30782,
+      "sha256": "41a60d440b80e300b5109ce4bc9636b828e9b57cc24a2a082922ebbd0e789995"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\runs\\original001\\forest_skill.svg",
+      "bytes": 33430,
+      "sha256": "2e1fa07c2378e2e2e699536a9165a53a680c2e6e843c092080acafc4590cb28e"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\runs\\original001\\knowledge_funnel.png",
+      "bytes": 37678,
+      "sha256": "b2b19d309b683171b478e119f4422868f78b09f8069771314a739d571e7a71c7"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\runs\\original001\\knowledge_funnel.svg",
+      "bytes": 30098,
+      "sha256": "9f6e37386dbe2fc3f2e2c8200695f89cc742dd5ef9f1159aeee0747ec2b80006"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\runs\\original001\\NOMINAL_COMPLETE_ANALYSIS.json",
+      "bytes": 19444,
+      "sha256": "af3f2d2bdc373267aff0cb70b4c46ff4bacfdc80547e01ac32625c7508b42950"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\runs\\original001\\PRIMARY_GATES.json",
+      "bytes": 19041,
+      "sha256": "391935136da649613a705966ec88b973906e8b62e0539360e622367d84f99972"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\runs\\original001\\SAMPLED_PRECISION_RANGE_SUMMARY.json",
+      "bytes": 71178,
+      "sha256": "c20b37d25388619cb91a5147898b38cd192ade473200bf1ecdfc2297d067b9f4"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\runs\\original001\\STRICT_SOURCE_DIAGNOSTICS.json",
+      "bytes": 19042,
+      "sha256": "c8d1cfa7cbc5ea3b3199868bac157724b9ad5af21752046b39c0965d17294eec"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\runs\\original001\\SUMMARY.json",
+      "bytes": 529,
+      "sha256": "01fd92dd28f10f1123fa3199a0e12f5f6fe0438b0bb4e4af277174cdebc90f91"
+    },
+    {
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\runs\\original001\\SUPPORTING_INTERMEDIATES.json",
+      "bytes": 12114,
+      "sha256": "8c44d79c69d9643ea893efd5a881beda2eb7573e2bb77ddfab5ae8c624a024fc"
+    }
+  ],
+  "mode": "original",
+  "input_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\sources\\ORIGINAL_MEAN_SD_N_TRANSCRIPTION001.csv"
+}

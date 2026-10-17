@@ -1,0 +1,166 @@
+{
+  "schema": "INDEPENDENT_CLOSED_P157_C1_C4_SOURCE_BOUND_COMPATIBILITY_REVIEW_RSTAT001",
+  "UTC": "2026-10-17T12:27:11.674773+00:00",
+  "verdict": "ALL_C1_C4_COMPATIBLE_WITH_UNCHANGED_SOURCE_AND_915",
+  "ROOT_complete_C1_C4_source_bound_review_accepted": false,
+  "claims": [
+    {
+      "id": "C1",
+      "status": "COMPATIBLE",
+      "source_bound_reason": "Complete r1..r8 published panels and all own printed ID boundaries retain the source pattern: increased inference recurrence unlocks OOD reasoning for the R>4 trained models, visibly across r5..r8, with r1..r4 retained as context. This is a complete-profile judgment, not an adjacent monotonicity or best-depth test. All2304 fixed published cells lie in their frozen compatible source unions. No source-resolved broad disappearance or reversal appears.",
+      "scope": "All8 fixed panels, all12 displayed recurrences and all24 hops2..25; entire40x39 fixed counters retained by whole audit. Printed ID maxima2,6,9,10,12,13,16,16 remain as source context.",
+      "excluded_inference": "No new optimal-depth/frontier, accuracy cutoff, per-cell benefit requirement or neighboring-cell monotonicity."
+    },
+    {
+      "id": "C2",
+      "status": "COMPATIBLE",
+      "source_bound_reason": "Complete dynamic h2..40/r1..24 profile retains substantially deeper generalization in the source curriculum setting, alongside all fixed panels and the common published h2..25 overlap. The dynamic printed ID boundary22 and fixed boundaries are retained. All936 nonadaptive dynamic published cells are members of frozen source unions. This preserves the descriptive source advantage/profile; it does not causally isolate training strategy from different curriculum complexity.",
+      "scope": "Whole975-cell dynamic panel including primaryadaptive39, plus all2304 fixed cells and all14040 underlying fixed counters.",
+      "excluded_inference": "No matched-training Figure7 result or causal claim is imported; no retrospectively chosen fixed-depth envelope."
+    },
+    {
+      "id": "C3",
+      "status": "COMPATIBLE",
+      "source_bound_reason": "All39-hop dynamic row vectors, especially the source-specified beyond15-iteration rows16..24 over OOD23..40, retain a plateau/declining tail rather than sustained substantial further OOD improvement. Small local count changes and irregular adjacent steps remain compatible with the source claim that further compute no longer improves extrapolation. Every936 dynamic fixed displayed cell remains in its source union; no source-resolved late-compute pattern is inverted.",
+      "scope": "All24 displayed dynamic recurrence rows across39 hops, with entire fixed-panel context. No tail is omitted and no new region-specific2pp guarantee is assumed.",
+      "excluded_inference": "No strictly negative per-step slope, optimum estimate, Figure8 logit-margin mechanism or extra monotonicity gate."
+    },
+    {
+      "id": "C4",
+      "status": "COMPATIBLE",
+      "source_bound_reason": "The primaryadaptive epsKL=.01 complete39-hop accuracy profile is retained.38 points satisfy old exact source-union membership; hop32 is630/750=.84 versus frozen[214/256,215/256), with distance-to-union infimum exactly1/6400=.00015625 (0.015625 percentage points). This minute one-cell exception is far inside unchanged915 bounds and cannot reverse the complete adaptive profile. The .001 complete sensitivity is retained separately, never substituted. Whole audit verifies actual FP32 halting predicates and selected-logit identity with zero retained argmax/correctness-impact differences; no independent neural-forward rerun is claimed.",
+      "scope": "All39 primaryadaptive points h2..40 with epsKL=.01,entropy3,max16/min1; complete.001 sensitivity remains diagnostic.",
+      "excluded_inference": "No adaptive-beats-every-depth/best-depth requirement; no Figure9 efficiency or Figure10 ablation claim."
+    }
+  ],
+  "review_refs": {
+    "pre_outcome_CPU029_interpretation": {
+      "path": "{{REPRODUCTION_ROOT}}\\operations\\P157_C1_C4_before_audit_source_interpretation_CPU029\\COMPLETE_EXISTING_P157_C1_C4_SOURCE_INTERPRETATION_CPU029.json",
+      "bytes": 11606,
+      "sha256": "d9fdbf3e2293bd561678941e166c6ca5fff0fd34a8516ff238456dcedbda6258"
+    },
+    "policy915": {
+      "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ADOPTED_PROSPECTIVE_NEAR_SUCCESS_P019_P157_POLICY915.json",
+      "bytes": 18446,
+      "sha256": "2b6c5ed9074dd924dc4461299808dd552d7ad1cb72fef5481585b9822303842c"
+    },
+    "original_source_TeX": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\v1_tex_sources\\colm2026_conference.tex",
+      "bytes": 82041,
+      "sha256": "1839c40ee70cb8c158663c92117f2aac66a313071ef91d1dd04dca1a80c24504"
+    },
+    "fixed_source_axes_metadata": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\COMPLETE_ALL_PANEL_AXES_SOURCE_COMPARATOR_AND_FIDELITY_PROPOSAL013.json",
+      "bytes": 42378,
+      "sha256": "2632fc0fef92c7c5035e577d29c90cafd8696472dad18f6acaa9cac2681cafb0"
+    },
+    "frozen_source_interval_target": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\loop_think_generalize_source_oct15_001\\COMPLETE_ALL3279_PUBLISHED_FIGURE5_PIXEL_INTERVALS011.json",
+      "bytes": 3153387,
+      "sha256": "85d3edc3a680d2832365118c5a0bcf91b86c367c5e500a0ad4c2b848570054f4"
+    },
+    "closed_whole_audit": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\COMPLETE_WHOLE_AUDIT.json",
+      "bytes": 203083,
+      "sha256": "96981518e3c9c4fb4b1b1eef76c0e4a1b7042df329d7c27edfe140d80c2a2624"
+    },
+    "closed_complete_published_comparison": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\COMPLETE_ALL3279_PUBLISHED_COMPARISON.json",
+      "bytes": 1932875,
+      "sha256": "aca8ffd282c64ab339204e583b24be9cc3fa85ebdc8764e57bbfba4c746162d2"
+    },
+    "closed_native_terminal": {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P157_complete_main001\\recovery_gpu006\\full\\audit_parent007\\TERMINAL.json",
+      "bytes": 1764,
+      "sha256": "67cc594096a83b422ea00b942ae924cdf6e2fdfcc6deb461ff9b0ca37edf9886"
+    },
+    "external_ROOT_closed_tool_native_products_acceptance1010": {
+      "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+      "bytes": 3362,
+      "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+    }
+  },
+  "complete_summary_review": {
+    "all9_fixed_models": true,
+    "all40x39_counters_per_model_present": true,
+    "all_published3279_records_unique_and_present": true,
+    "fixed_panel_cells": 2304,
+    "dynamic_fixed_cells": 936,
+    "primaryadaptive_cells": 39,
+    "both_adaptive39_vectors_present": true,
+    "whole_audit_operational_complete": true,
+    "strict_membership_passes": 3278,
+    "strict_membership_failures": 1,
+    "strict_all3279_AND": false,
+    "strict_scientific_central_conjunction": false,
+    "strict_failure_preserved_not_a_near_veto": true
+  },
+  "exact_closed_comparison_distance_implication": {
+    "sole_exception": {
+      "model": "r_dyn",
+      "hop": 32,
+      "inference_recurrence": "adaptive",
+      "correct": 630,
+      "total": 750,
+      "every_source_RGB_inverse_bin": [
+        {
+          "lower_numerator": 214,
+          "upper_numerator": 215,
+          "denominator": 256,
+          "lower_inclusive": true,
+          "upper_inclusive": false,
+          "accuracy_domain_intersection": [
+            0,
+            1
+          ],
+          "conditional_possible_correct_counts_out_of750": [
+            627,
+            628,
+            629
+          ]
+        }
+      ],
+      "passed": false
+    },
+    "distance_infimum_exact_ratio": [
+      "1",
+      "6400"
+    ],
+    "distance_fraction": 0.00015625,
+    "distance_percentage_points": 0.015625,
+    "eight_fixed_panel_means": "0: all their published cells are compatible-union members",
+    "dynamic_whole975_cell_panel_mean_exact_ratio": [
+      "1",
+      "6240000"
+    ],
+    "dynamic_whole975_mean_distance_fraction": 1.6025641025641025e-07,
+    "unchanged_all9_panel_mean_bound_fraction": 0.02,
+    "unchanged_all3279_maximum_bound_fraction": 0.05,
+    "material_reversal": false,
+    "reason": "No compatible source union is replaced by a midpoint or filled hull. All3278 old memberships imply zero distance; the one remaining bin yields exact1/6400. This elementary closed-product arithmetic is not model/statistical rerun, new digitization, or a changed bound. ROOT existing classifier supplies the full vector/AND independently."
+  },
+  "actual_closed_custody_limits": {
+    "external_tool0_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\operations\\closed_actual_audit_and_runtime_ROOT1010\\ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json",
+      "bytes": 3362,
+      "sha256": "0957e7ff3d0935727afb6703e1428b6d8a1d1f71a437043b844e353fdf8a0929"
+    },
+    "direct_native0": true,
+    "direct_handle_and_streams_closed_reported_by_ROOT": true,
+    "Job_enforcement_claimed": false,
+    "parent_postexit_native": "UNMEASURED",
+    "terminal_image_error31": "Retained-initial image provenance with exact held-child birth is explicit; no fresh terminal image success claimed.",
+    "previous_operational_failures_not_erased": true,
+    "native_full_audit_acceptance_or_registry_changes_by_this_review": false
+  },
+  "method_limits": [
+    "Source conclusions remain conditional on published Figure5 interval extraction; unreleased raw author accuracies are not recovered.",
+    "No model/forward rerun or original arrays opened; independently produced closed integer summaries and published comparison are interpreted. All full/audit integrity claims remain exactly those supported by the frozen audit/ROOT closure.",
+    "C1..C4 are the already-frozen source roles. No neighboring monotonicity, new frontier, causal fixed-vs-dynamic comparison, new tolerance, favorable panel selection, or additional figure claim is introduced.",
+    "This report is an independent interpretive recommendation. ROOT must issue its own accepted C1..C4 certificate and run the existing classifier before any registry decision.",
+    "One initial inline metadata projection had a SyntaxError before reading/writing; a whitespace-only literal correction reran the reader. No actor/scientific source changed."
+  ],
+  "registry_mutated": false,
+  "paper_credit": 0,
+  "all_writers_closed_after_seal": true
+}

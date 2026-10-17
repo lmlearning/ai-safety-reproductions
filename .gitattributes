@@ -1,0 +1,2 @@
+# Preserve the exact artifact bytes recorded in RELEASE_MANIFEST.json.
+* -text

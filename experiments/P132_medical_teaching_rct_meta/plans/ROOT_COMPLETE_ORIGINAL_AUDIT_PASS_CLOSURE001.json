@@ -1,0 +1,64 @@
+{
+  "utc": "2026-10-11T02:53:09.987862+00:00",
+  "status": "Complete independent original audit passed; final writeup/root registry review next",
+  "actual_tool_guardian_auditor_exit": 0,
+  "all_native_actual_exits_and_fresh_ctime_absences_verified": true,
+  "conhost_forced_cleanup15_separate": true,
+  "checks": 6859667,
+  "failed": 0,
+  "all4918_precision_141primary_79support_fullfixed_LOO_timing_complete": true,
+  "all_original_primary_and_strict_passed": 141,
+  "all_original_support_passed": 79,
+  "complete_audit_output_refs_root_hashverified": 11,
+  "paired_source_freeze_fresh_root_refs_verified": 3933,
+  "mismatches": 0,
+  "root_all141_independent_gates_semantic_and_actual_review": true,
+  "all4_original_plots_visually_checked": true,
+  "full_native_peak_sum_bytes": 183205888,
+  "minimum_available_RAM_bytes": 899276800,
+  "minimum_free_disk_bytes": 84129660928,
+  "native_elapsed_seconds": 75.12608814239502,
+  "prior_charge_seconds": 287,
+  "conservative_additional_charge_seconds": 77,
+  "cumulative_shared_charge_seconds": 364,
+  "remaining1800_seconds": 1436,
+  "comparison_count_difference_from_fake": {
+    "difference": 6167,
+    "cause": "Fake range summary has1016 qualitative-change records and1087 changedlabels; recursive full comparison5+len(changed) perrecord=6167. Original has0 qualitative changes. All mandatory fields/control cohorts still compared."
+  },
+  "no_original_math_gate_scope_or_tolerance_adjustment": true,
+  "no_automatic_retry": true,
+  "full_reproduction": false,
+  "evidence": [
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\audits\\original001\\OUTPUT_MANIFEST.json",
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\audits\\original001\\OUTPUT_MANIFEST.json",
+      "bytes": 3494,
+      "sha256": "a7dc56adc9ed92176c7f6f56be5aff8a1eaa9c406a21982910142b646755369e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\operations\\original_audit001_WITNESS.json",
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\operations\\original_audit001_WITNESS.json",
+      "bytes": 1320,
+      "sha256": "3b17038cee1404ae3f6b9d3111073b65450524b8d66db3fdc0a1379fc3c5d0e9"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\operations\\original_audit001\\GUARD_STATUS.json",
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\operations\\original_audit001\\GUARD_STATUS.json",
+      "bytes": 6966,
+      "sha256": "b3060a13888063ac0f4eebadd48372b55e05c535fe56e30133c516f962d842f9"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\ROOT_COMPLETE_PAIRED_INPUT_CODE_RUNTIME_FREEZE005.json",
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\ROOT_COMPLETE_PAIRED_INPUT_CODE_RUNTIME_FREEZE005.json",
+      "bytes": 1612543,
+      "sha256": "bb5d5511f4c62eeb5909fd263afb9155aab906af0aa1e93220a4f8e3580a1388"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\ROOT_COMPLETE_ORIGINAL_MAIN_CLOSURE001.json",
+      "absolute_path": "{{REPRODUCTION_ROOT}}\\papers\\P132_medical_teaching_rct_meta\\ROOT_COMPLETE_ORIGINAL_MAIN_CLOSURE001.json",
+      "bytes": 2780,
+      "sha256": "2f3cf5248f13969c4a109cc2a6627cb87b51b171c589b4ed62f3a0db504d5f2c"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "scope": "Eligibility/date audit only; root owns acceptance/shared ledger",
+  "unchanged_fixed_unsummed_counts": true,
+  "own_numerical_results_unread": true,
+  "decisions": [
+    {
+      "paper_id": "P065",
+      "fixed_citations": 79,
+      "existing_earliest": "2025-10-20",
+      "recommended_earliest": "2025-06-09",
+      "recommended_window": "extended",
+      "gate": 40,
+      "gate_met": true,
+      "disposition": "Date correction required; no eligibility exclusion",
+      "evidence": [
+        "Official medRxiv details version1,date2025-06-09,published10.1093/bmb/ldaf017",
+        "Crossref preprint posted/published2025-06-09 with same title/six authors/full empirical abstract"
+      ],
+      "limitations": [
+        "medRxiv API author string omits Joseff Griffiths whereas Crossref and journal include him",
+        "2024 OSF node and only one file identify a scoping review protocol; protocol PDF body not consumed",
+        "No assertion of a globally proven first-ever date"
+      ]
+    },
+    {
+      "paper_id": "P066",
+      "fixed_citations": 34,
+      "existing_earliest": "2025-11-15",
+      "recommended_earliest": "2025-11-15",
+      "recommended_window": "primary",
+      "gate": 20,
+      "gate_met": true,
+      "disposition": "No window change; preserve created/publication distinction",
+      "evidence": [
+        "Only one official Zenodo open code version: created2025-11-14,metadata publication_date2025-11-15",
+        "Publisher Crossref VOR2026-01-28 and empty preprint relation"
+      ],
+      "limitations": [
+        "Record creation alone does not establish historical public access; using Nov14 conservatively still primary",
+        "No positive pre-Oct10 public empirical release found by bounded title/author searches; absence not proof"
+      ]
+    },
+    {
+      "paper_id": "P134",
+      "fixed_citations": 44,
+      "existing_earliest": "2025-06-30",
+      "recommended_earliest": "2025-06-30",
+      "recommended_window": "extended",
+      "gate": 40,
+      "gate_met": true,
+      "disposition": "Publisher explicitly confirms existing preprint date",
+      "evidence": [
+        "Official JMIR publisher web line62 explicitly first published30.Jun.2025",
+        "Published XML received same day is separately classified as submission, not relied on for public date"
+      ],
+      "limitations": [
+        "Native held preprint text zero bytes; guessed Crossref preprint DOI404 retained",
+        "Earlier unseen releases remain possible"
+      ]
+    },
+    {
+      "paper_id": "P132",
+      "fixed_citations": 47,
+      "existing_earliest": "2025-08-19",
+      "recommended_earliest": "2025-08-19",
+      "recommended_window": "extended",
+      "gate": 40,
+      "gate_met": true,
+      "disposition": "Existing VOR date supported; no earlier positive empirical evidence found",
+      "evidence": [
+        "Publisher Crossref created/published-online/issued2025-08-19",
+        "XML EPUB2025-08-19",
+        "INPLASY202510006 is a protocol; source-held conference dateSep18-21 later"
+      ],
+      "limitations": [
+        "May18 received and Jan protocol dates do not themselves prove public results",
+        "Bounded preprint/title search is not exhaustive negative proof"
+      ]
+    },
+    {
+      "paper_id": "P135",
+      "fixed_citations": 54,
+      "existing_earliest": "2025-07-15",
+      "recommended_earliest": "2025-07-15",
+      "recommended_window": "extended",
+      "gate": 40,
+      "gate_met": true,
+      "disposition": "Existing journal date supported; related publication later",
+      "evidence": [
+        "Publisher Crossref and XML EPUB2025-07-15",
+        "Related same-team empirical DOI10.3233/SHTI251258 publishedAug7,2025",
+        "Institutional repository availableOct8,2025"
+      ],
+      "limitations": [
+        "Journal receivedDec21,2024/revisedFeb12,2025 are not public release dates",
+        "No earlier positive preprint found; bounded absence is not proof"
+      ]
+    },
+    {
+      "paper_id": "P133",
+      "fixed_citations": 56,
+      "existing_earliest": "2025-11-26",
+      "recommended_earliest": "2025-11-26",
+      "recommended_window": "primary",
+      "gate": 20,
+      "gate_met": true,
+      "disposition": "Existing publisher date supported; no earlier positive findings found",
+      "evidence": [
+        "Publisher Crossref created/published-online/issued2025-11-26",
+        "XML EPUB2025-11-26",
+        "Published PROSPERO registrationCRD420251090108 refers protocol, not released synthesis results"
+      ],
+      "limitations": [
+        "Held PROSPERO API file is a status/error response, not a genuine retrieved protocol",
+        "SubmissionAug26/acceptanceOct29 are not public release",
+        "No earlier positive preprint found in bounded primary searches; no exhaustive absence assertion"
+      ]
+    }
+  ]
+}

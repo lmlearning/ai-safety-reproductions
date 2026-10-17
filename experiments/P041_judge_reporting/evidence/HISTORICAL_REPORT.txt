@@ -1,0 +1,46 @@
+# How to Correctly Report LLM-as-a-Judge Evaluations: reproduction study
+
+**Reviewed outcome: central Figure 4 reproduced; full empirical reproduction failed.** This paper receives one central-result credit. The fallback scope was amended after the full attempt failed, then confirmed with three new, fixed seeds. This post-outcome scope amendment is explicit; thresholds, methods and references were unchanged.
+
+The paper was first posted on 26 November 2025 and has 31 citations in the saved Semantic Scholar snapshot. Its empirical experiments simulate imperfect judges; they do not require real LLM inference. Sources: [original paper v1](https://arxiv.org/html/2511.21140v1), [official source at the pinned revision](https://github.com/UW-Madison-Lee-Lab/LLM-judge-reporting/tree/082884d075188bed2f2645234fa2cc3050a517c5), [citation record](https://www.semanticscholar.org/paper/26ee57cf62ebbf55e917755c23e5d949c5cc1d4a).
+
+## Design and feasibility
+
+We attempted the complete empirical design: Figures 2–4 and all 16 appendix configurations. Each configuration has 21 true-accuracy values and 10,000 trials per value per seed. The independent implementation samples the exact binomial sufficient-count distributions corresponding to the authors' Bernoulli sequences, preserving conditional judge counts, pilot-dependent allocation, reuse of pilot observations, rounding, smoothing and clipping. The random stream differs from the scalar implementation, so fresh Monte Carlo averages are compared within prespecified tolerances. Original scalar formulas and 5,082 allocation cases were cross-checked. The authors' main experiment was also rerun with its original seed1234 and sample order.
+
+The first run used seeds 1729–1731; the fresh confirmation used 1732–1734. Each retained 10,080,000 fresh trials plus 210,000 original scalar trials. The confirmation took110.46seconds and its measured peak process memory was441.1MiB. Both studies are CPU-only, with zero paid services or additional keys. The mathematical proofs were reviewed but not machine-proved.
+
+## Central numerical result
+
+The central setting is n=1000,m=500,q0=.7,q1=.9, all 21 theta values, pilot10 per class and alpha=.05. All 84 published coverage and interval-length points passed the unchanged criteria in the confirmation.
+
+| Published curve | Maximum absolute difference | Fixed tolerance |
+|---|---:|---:|
+| Naive coverage | 0.0052334 | .020 |
+| Adjusted equal-calibration coverage | 0.0039334 | .020 |
+| Equal-calibration interval length | 0.0006102 | .005 |
+| Adaptive-calibration interval length | 0.0005166 | .005 |
+
+All 42 original seed1234 first-trial point comparisons passed the .00001 tolerance. Figure 2's analytic point correction had maximum error4.44e-16; Figure 3's complete deterministic interval grid agreed with the released functions to0. No trials were dropped and no numerical values were invalid.
+
+![Fresh central result](../../runs/P041-central-002/n1000_m500_q0-70_q1-90.png)
+
+The left panel shows fresh-trial means rather than the paper's single illustrative trial; its exact original single-trial reconstruction is saved separately. The middle panel additionally reports adaptive coverage, which the paper's main coverage plot omits.
+
+## Why the full reproduction failed
+
+The full protocol failed 336 of 1,344 plotted Monte Carlo comparisons: every equal/adaptive interval-length point for the eight m=200 configurations. All 672 coverage comparisons and all 336 m=500 interval-length comparisons passed. The affected m=200 SVGs are byte-identical to their m=500 counterparts, confirmed by SHA-256 hashes and extracted coordinates. This is a duplicated-reference problem in the published figures. Using the specified smaller calibration budget yields longer intervals, so the published smaller-budget figures cannot be reconstructed as labelled.
+
+The fresh confirmation retained all 16 settings and repeats the same 336 full-study failures. We do not relabel m=200 as m=500, replace the published references, loosen tolerances, or call the full study successful. [Exact duplicate-file evidence](reference_duplication_evidence.json) lists all eight file pairs and hashes.
+
+## Claims requiring qualification
+
+Adaptive intervals are not consistently shorter. In the fresh main setting they are longer at: theta=0.50: +0.000751; theta=0.55: +0.001371; theta=0.60: +0.001139; theta=0.65: +0.000287. The same crossing is present in the original published vector curves, as recorded before running. This matters when using the allocation rule to promise an efficiency gain for every accuracy level.
+
+The released point estimator clips to [0,1], so the finite-sample boundary estimator is not exactly unbiased. The analytic known-reliability inversion is a different statement. Equal-calibration coverage is close to nominal in the interior and conservative at boundaries; the published universal phrasing should be interpreted in that light. The implementation retains the source's interval-center adjustment and its unusual p<1e-6 allocation branch. Algorithm 1's final assignment appears reversed; the released code's m0=m-m1 was fixed as the interpretation before outcomes.
+
+## Audit and rerun
+
+The original [full preregistration](PREREGISTRATION.md), [disclosed amendment](AMENDMENT_CENTRAL.md), failed run P041-full-001 and successful central confirmation P041-central-002 are retained. Each immutable run includes source snapshots, environment versions, settings, seeds, all raw sufficient counts, original scalar arrays, published numeric references, every point comparison, complete plots, errors/status and SHA-256 manifests. The confirmation audit checked1057files and 1,008 raw blocks; all hashes and count constraints passed. The same audit passed the failed full run.
+
+From the programme directory, use the saved Python environment and `scripts/run_judge_reporting.py --run-id A_NEW_UNIQUE_ID --central-confirmation`, followed by `scripts/audit_reporting.py --run-id A_NEW_UNIQUE_ID`. The runner refuses to overwrite an existing run. Full-protocol execution omits the final flag and remains expected to fail the duplicated appendix comparisons. This report concerns empirical reproduction and published-reference discrepancies; it is not a general guarantee for real-world LLM judges.

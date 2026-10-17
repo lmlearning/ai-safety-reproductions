@@ -1,0 +1,4247 @@
+{
+  "paper_id": "P080",
+  "status": "completed",
+  "trial_outcome_calculations_performed": true,
+  "provenance": {
+    "prereg_sha256": "fd77cfc6f61c62e6d4175f71ddb7f815647a4b9f63989f2f7d4fa56973b763b6",
+    "proposal_sha256": "b622eeba4aed6aa70959062c4c4ebcb250bc5243f7c3c81c24d799132b695d98",
+    "data_sha256": "7c76a8d4279a3fa4f0df24b0b4587c1b8c194561f26057545edac7919237518f",
+    "targets_sha256": "ef783454547a2ba7f368f039f16dfa224a8a1e52c16caeb3b42e5e30ef598347",
+    "runner_sha256": "ebf5a1bb502ad6ec17a02a4f4c03941dc548eb9fedbb71069b46a6b050984403",
+    "resource_guard_sha256": "1c3eea4a128c1ec6cdfc22ac8d01b4ce48503a20a7026d46ed031d8fb6b571d7",
+    "input_manifest_sha256": "1ff628a5fe13fd6ff66cac8e72d09e22769ec5cf4e0795a45bc318982ea719a8",
+    "python": "3.12.0rc3 (tags/v3.12.0rc3:b973ab3, Sep 19 2023, 09:39:54) [MSC v.1935 64 bit (AMD64)]",
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1"
+  },
+  "operational": {
+    "base_seed": 1729,
+    "bootstrap_replay": 1000,
+    "bootstrap_reference": 1000000,
+    "family_endpoint_denominator": 76,
+    "probability_levels": [
+      [
+        0.008844709981637416,
+        0.04989239700060292
+      ],
+      [
+        0.9501076029993965,
+        0.9911552900183623
+      ]
+    ]
+  },
+  "resource": {
+    "CPU_threads": 1,
+    "elapsed_seconds": 12.641000000061467,
+    "peak_RSS_bytes": 167542784,
+    "minimum_available_RAM_bytes": 1530896384,
+    "minimum_free_disk_bytes": 101486624768,
+    "limits": {
+      "RSS_bytes": 1073741824,
+      "available_RAM_floor_bytes": 1073741824,
+      "free_disk_floor_bytes": 37580963840,
+      "seconds": 600
+    }
+  },
+  "regressions": {
+    "primary_TaskTime": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        23.0,
+        1.6923076923076967
+      ],
+      "se": [
+        1.382177340714075,
+        1.9546939408426223
+      ],
+      "p": [
+        4.995753411021525e-22,
+        0.3907537905754974
+      ],
+      "ci95": [
+        [
+          20.223815107769546,
+          25.776184892230454
+        ],
+        [
+          -2.233810633939897,
+          5.618426018555291
+        ]
+      ],
+      "residual_mse": 49.67076923076923
+    },
+    "standardized_TaskTime": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        3.2714958937727903,
+        0.24071207245150994
+      ],
+      "se": [
+        0.19659945628747352,
+        0.2780336174369214
+      ],
+      "p": [
+        4.995753411021525e-22,
+        0.3907537905754981
+      ],
+      "ci95": [
+        [
+          2.87661426441253,
+          3.6663775231330504
+        ],
+        [
+          -0.3177348833217555,
+          0.7991590282247754
+        ]
+      ],
+      "residual_mse": 1.0049350015257854
+    },
+    "primary_QuizScore": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        13.5,
+        4.153846153846155
+      ],
+      "se": [
+        1.1036250113514434,
+        1.5607614588273715
+      ],
+      "p": [
+        1.1984883652259279e-16,
+        0.010434680521542098
+      ],
+      "ci95": [
+        [
+          11.283303927107752,
+          15.716696072892248
+        ],
+        [
+          1.0189645039027617,
+          7.288727803789548
+        ]
+      ],
+      "residual_mse": 31.667692307692306
+    },
+    "standardized_QuizScore": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        2.2675485872952486,
+        0.6977072576293071
+      ],
+      "se": [
+        0.1853720989180495,
+        0.26215573637547246
+      ],
+      "p": [
+        1.1984883652259279e-16,
+        0.010434680521542145
+      ],
+      "ci95": [
+        [
+          1.8952177688841567,
+          2.6398794057063406
+        ],
+        [
+          0.17115196454286707,
+          1.2242625507157472
+        ]
+      ],
+      "residual_mse": 0.8934331914893615
+    },
+    "adjusted_QuizScorePercent": {
+      "N": 50,
+      "df": 47,
+      "coef": [
+        55.77563690858483,
+        15.322628987368901,
+        -0.7867694283879241
+      ],
+      "se": [
+        8.673653111825965,
+        6.148146583979545,
+        0.9467699662125677
+      ],
+      "p": [
+        5.987112027280396e-08,
+        0.016277485130765743,
+        0.41017332456433103
+      ],
+      "ci95": [
+        [
+          38.32649754148628,
+          73.22477627568338
+        ],
+        [
+          2.9541534200279873,
+          27.691104554709817
+        ],
+        [
+          -2.6914249266003076,
+          1.1178860698244595
+        ]
+      ],
+      "residual_mse": 446.6090673317701
+    },
+    "experience_TaskTime|1-3 years": {
+      "N": 4,
+      "df": 2,
+      "coef": [
+        21.999999999999993,
+        11.500000000000002
+      ],
+      "se": [
+        4.373213921133974,
+        6.1846584384264895
+      ],
+      "p": [
+        0.03731665905378014,
+        0.2040521787631198
+      ],
+      "ci95": [
+        [
+          3.183579184454551,
+          40.816420815545435
+        ],
+        [
+          -15.110437512663777,
+          38.11043751266378
+        ]
+      ],
+      "residual_mse": 38.25000000000001
+    },
+    "experience_QuizScore|1-3 years": {
+      "N": 4,
+      "df": 2,
+      "coef": [
+        13.249999999999996,
+        1.5
+      ],
+      "se": [
+        3.816084380618436,
+        5.396758286230724
+      ],
+      "p": [
+        0.07387369993929978,
+        0.8071526960400324
+      ],
+      "ci95": [
+        [
+          -3.169285877222201,
+          29.669285877222194
+        ],
+        [
+          -21.720376772048652,
+          24.720376772048652
+        ]
+      ],
+      "residual_mse": 29.125
+    },
+    "experience_TaskTime|4-6 years": {
+      "N": 19,
+      "df": 17,
+      "coef": [
+        22.100000000000005,
+        1.3444444444444414
+      ],
+      "se": [
+        1.826475587544336,
+        2.6538075029832786
+      ],
+      "p": [
+        8.863837928849378e-10,
+        0.6189361540111759
+      ],
+      "ci95": [
+        [
+          18.24647335286671,
+          25.9535266471333
+        ],
+        [
+          -4.254599965920613,
+          6.9434888548094955
+        ]
+      ],
+      "residual_mse": 33.360130718954245
+    },
+    "experience_QuizScore|4-6 years": {
+      "N": 19,
+      "df": 17,
+      "coef": [
+        13.25,
+        5.749999999999997
+      ],
+      "se": [
+        1.759219412460104,
+        2.556086546142863
+      ],
+      "p": [
+        8.214924874952931e-07,
+        0.03801823264810996
+      ],
+      "ci95": [
+        [
+          9.5383714787649,
+          16.9616285212351
+        ],
+        [
+          0.35712878665762915,
+          11.142871213342366
+        ]
+      ],
+      "residual_mse": 30.948529411764707
+    },
+    "experience_TaskTime|7+ years": {
+      "N": 29,
+      "df": 27,
+      "coef": [
+        23.78571428571428,
+        0.4809523809523812
+      ],
+      "se": [
+        2.0888279771116194,
+        2.9043974386088247
+      ],
+      "p": [
+        8.156148043204385e-12,
+        0.8697097433858595
+      ],
+      "ci95": [
+        [
+          19.49979329859888,
+          28.07163527282968
+        ],
+        [
+          -5.478378915572379,
+          6.440283677477141
+        ]
+      ],
+      "residual_mse": 61.08483245149911
+    },
+    "experience_QuizScore|7+ years": {
+      "N": 29,
+      "df": 27,
+      "coef": [
+        13.714285714285712,
+        3.5190476190476185
+      ],
+      "se": [
+        1.5951235842972018,
+        2.217929338012575
+      ],
+      "p": [
+        3.268036918628553e-09,
+        0.1242386201141573
+      ],
+      "ci95": [
+        [
+          10.441362466467302,
+          16.987208962104123
+        ],
+        [
+          -1.031767480083499,
+          8.069862718178737
+        ]
+      ],
+      "residual_mse": 35.62186948853615
+    },
+    "Task1": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        51.70940170940171,
+        14.743589743589746
+      ],
+      "se": [
+        4.0955468833239195,
+        5.791977947731545
+      ],
+      "p": [
+        3.5996725598568196e-17,
+        0.014041790957952298
+      ],
+      "ci95": [
+        [
+          43.48325369786558,
+          59.93554972093784
+        ],
+        [
+          3.110059659586888,
+          26.377119827592605
+        ]
+      ],
+      "residual_mse": 436.11111111111103
+    },
+    "Task2": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        44.44444444444444,
+        15.811965811965814
+      ],
+      "se": [
+        5.9144434557190415,
+        8.364286148966661
+      ],
+      "p": [
+        9.431588126075419e-10,
+        0.06450522081540963
+      ],
+      "ci95": [
+        [
+          32.56493514845525,
+          56.32395374043364
+        ],
+        [
+          -0.9881973487593516,
+          32.61212897269098
+        ]
+      ],
+      "residual_mse": 909.4966761633427
+    },
+    "Conceptual": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        46.58119658119658,
+        16.239316239316235
+      ],
+      "se": [
+        4.891249206093844,
+        6.917270964204546
+      ],
+      "p": [
+        8.09932247040733e-13,
+        0.022891081259639276
+      ],
+      "ci95": [
+        [
+          36.75683341874118,
+          56.40555974365198
+        ],
+        [
+          2.34556861329318,
+          30.133063865339288
+        ]
+      ],
+      "residual_mse": 622.0322886989552
+    },
+    "Debugging": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        37.98076923076923,
+        21.153846153846153
+      ],
+      "se": [
+        6.183073621451067,
+        8.744186572607425
+      ],
+      "p": [
+        1.3129515889538514e-07,
+        0.019235374915885308
+      ],
+      "ci95": [
+        [
+          25.561700367613845,
+          50.39983809392462
+        ],
+        [
+          3.5906305355263903,
+          38.71706177216592
+        ]
+      ],
+      "residual_mse": 993.9903846153844
+    },
+    "CodeReading": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        57.05128205128205,
+        9.93589743589744
+      ],
+      "se": [
+        4.411681716613836,
+        6.239060116508702
+      ],
+      "p": [
+        1.4312569966984148e-17,
+        0.1175684779127464
+      ],
+      "ci95": [
+        [
+          48.19015853968901,
+          65.9124055628751
+        ],
+        [
+          -2.595623612060546,
+          22.467418483855425
+        ]
+      ],
+      "residual_mse": 506.03632478632477
+    },
+    "Learning": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        4.115384615384615,
+        0.7307692307692312
+      ],
+      "se": [
+        0.2935701482655597,
+        0.41517088518503475
+      ],
+      "p": [
+        5.964112104535138e-19,
+        0.08449611557497556
+      ],
+      "ci95": [
+        [
+          3.525731619045054,
+          4.705037611724176
+        ],
+        [
+          -0.10312603374810914,
+          1.5646644952865714
+        ]
+      ],
+      "residual_mse": 2.2407692307692306
+    },
+    "Enjoyment": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        5.3076923076923075,
+        0.5000000000000002
+      ],
+      "se": [
+        0.2795283432401019,
+        0.39531277407783366
+      ],
+      "p": [
+        1.6502806106771076e-24,
+        0.2117989642237817
+      ],
+      "ci95": [
+        [
+          4.746243106786972,
+          5.869141508597643
+        ],
+        [
+          -0.29400907450386193,
+          1.2940090745038624
+        ]
+      ],
+      "residual_mse": 2.031538461538462
+    },
+    "Warm Up": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        2.923076923076923,
+        -0.6538461538461533
+      ],
+      "se": [
+        0.22007260770646103,
+        0.31122966652529077
+      ],
+      "p": [
+        5.052393638100778e-18,
+        0.040717420482330846
+      ],
+      "ci95": [
+        [
+          2.4810480815443343,
+          3.3651057646095115
+        ],
+        [
+          -1.278969336501607,
+          -0.028722971190699442
+        ]
+      ],
+      "residual_mse": 1.2592307692307692
+    },
+    "Trio Task": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        2.730769230769231,
+        0.5384615384615388
+      ],
+      "se": [
+        0.2222797427199983,
+        0.3143510267954237
+      ],
+      "p": [
+        1.0184129857651463e-16,
+        0.09292063143353844
+      ],
+      "ci95": [
+        [
+          2.2843072280935655,
+          3.177231233444896
+        ],
+        [
+          -0.09293108080663992,
+          1.1698541577297175
+        ]
+      ],
+      "residual_mse": 1.2846153846153845
+    },
+    "Post Task Quiz": {
+      "N": 52,
+      "df": 50,
+      "coef": [
+        3.73076923076923,
+        0.0769230769230776
+      ],
+      "se": [
+        0.13910108707711635,
+        0.19671864388529872
+      ],
+      "p": [
+        2.429707250566156e-31,
+        0.697435695745425
+      ],
+      "ci95": [
+        [
+          3.4513764748173665,
+          4.010161986721093
+        ],
+        [
+          -0.3181979477728437,
+          0.4720441016189989
+        ]
+      ],
+      "residual_mse": 0.5030769230769231
+    }
+  },
+  "Cohen_d": {
+    "TaskTime": 0.24012030461195383,
+    "QuizScore": 0.7381458786017869,
+    "adjusted_QuizScorePercent": 0.7250526061131661
+  },
+  "checks": [
+    {
+      "kind": "figure_mean",
+      "key": [
+        "difficulty",
+        "Post Task Quiz",
+        "AI"
+      ],
+      "actual": 3.730769230769231,
+      "target": 3.730769,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "difficulty",
+        "Post Task Quiz",
+        "AI",
+        "ci95_low"
+      ],
+      "target": 3.461538,
+      "fixed_MC_envelope": [
+        3.423076923076923,
+        3.5384615384615383
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "difficulty",
+        "Post Task Quiz",
+        "AI",
+        "ci95_high"
+      ],
+      "target": 3.9625,
+      "fixed_MC_envelope": [
+        3.9615384615384617,
+        4.038461538461538
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "difficulty",
+        "Post Task Quiz",
+        "No AI"
+      ],
+      "actual": 3.8076923076923075,
+      "target": 3.807692,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "difficulty",
+        "Post Task Quiz",
+        "No AI",
+        "ci95_low"
+      ],
+      "target": 3.538462,
+      "fixed_MC_envelope": [
+        3.4615384615384617,
+        3.576923076923077
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "difficulty",
+        "Post Task Quiz",
+        "No AI",
+        "ci95_high"
+      ],
+      "target": 4.076923,
+      "fixed_MC_envelope": [
+        4.038461538461538,
+        4.153846153846154
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "difficulty",
+        "Trio Task",
+        "AI"
+      ],
+      "actual": 2.730769230769231,
+      "target": 2.730769,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "difficulty",
+        "Trio Task",
+        "AI",
+        "ci95_low"
+      ],
+      "target": 2.307692,
+      "fixed_MC_envelope": [
+        2.1923076923076925,
+        2.3461538461538463
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "difficulty",
+        "Trio Task",
+        "AI",
+        "ci95_high"
+      ],
+      "target": 3.153846,
+      "fixed_MC_envelope": [
+        3.1153846153846154,
+        3.269230769230769
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "difficulty",
+        "Trio Task",
+        "No AI"
+      ],
+      "actual": 3.269230769230769,
+      "target": 3.269231,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "difficulty",
+        "Trio Task",
+        "No AI",
+        "ci95_low"
+      ],
+      "target": 2.845192,
+      "fixed_MC_envelope": [
+        2.769230769230769,
+        2.923076923076923
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "difficulty",
+        "Trio Task",
+        "No AI",
+        "ci95_high"
+      ],
+      "target": 3.653846,
+      "fixed_MC_envelope": [
+        3.6153846153846154,
+        3.730769230769231
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "difficulty",
+        "Warm Up",
+        "AI"
+      ],
+      "actual": 2.923076923076923,
+      "target": 2.923077,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "difficulty",
+        "Warm Up",
+        "AI",
+        "ci95_low"
+      ],
+      "target": 2.538462,
+      "fixed_MC_envelope": [
+        2.423076923076923,
+        2.576923076923077
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "difficulty",
+        "Warm Up",
+        "AI",
+        "ci95_high"
+      ],
+      "target": 3.346154,
+      "fixed_MC_envelope": [
+        3.269230769230769,
+        3.423076923076923
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "difficulty",
+        "Warm Up",
+        "No AI"
+      ],
+      "actual": 2.269230769230769,
+      "target": 2.269231,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "difficulty",
+        "Warm Up",
+        "No AI",
+        "ci95_low"
+      ],
+      "target": 1.846154,
+      "fixed_MC_envelope": [
+        1.7692307692307692,
+        1.9230769230769231
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "difficulty",
+        "Warm Up",
+        "No AI",
+        "ci95_high"
+      ],
+      "target": 2.731731,
+      "fixed_MC_envelope": [
+        2.6538461538461537,
+        2.8076923076923075
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "experience_QuizScorePercent",
+        "1-3 years",
+        "AI"
+      ],
+      "actual": 49.074074074074076,
+      "target": 49.074072,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_QuizScorePercent",
+        "1-3 years",
+        "AI",
+        "ci95_low"
+      ],
+      "target": 29.629629,
+      "fixed_MC_envelope": [
+        29.62962962962963,
+        29.62962962962963
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_QuizScorePercent",
+        "1-3 years",
+        "AI",
+        "ci95_high"
+      ],
+      "target": 68.51852,
+      "fixed_MC_envelope": [
+        68.51851851851852,
+        68.51851851851852
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "experience_QuizScorePercent",
+        "1-3 years",
+        "No AI"
+      ],
+      "actual": 54.62962962962963,
+      "target": 54.629629,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_QuizScorePercent",
+        "1-3 years",
+        "No AI",
+        "ci95_low"
+      ],
+      "target": 49.999999,
+      "fixed_MC_envelope": [
+        50.0,
+        50.0
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_QuizScorePercent",
+        "1-3 years",
+        "No AI",
+        "ci95_high"
+      ],
+      "target": 59.259259,
+      "fixed_MC_envelope": [
+        59.25925925925926,
+        59.25925925925926
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "experience_QuizScorePercent",
+        "4-6 years",
+        "AI"
+      ],
+      "actual": 49.07407407407407,
+      "target": 49.074072,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_QuizScorePercent",
+        "4-6 years",
+        "AI",
+        "ci95_low"
+      ],
+      "target": 39.810183,
+      "fixed_MC_envelope": [
+        38.333333333333336,
+        40.925925925925924
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_QuizScorePercent",
+        "4-6 years",
+        "AI",
+        "ci95_high"
+      ],
+      "target": 59.814816,
+      "fixed_MC_envelope": [
+        58.14814814814814,
+        62.40740740740741
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "experience_QuizScorePercent",
+        "4-6 years",
+        "No AI"
+      ],
+      "actual": 70.37037037037037,
+      "target": 70.370369,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_QuizScorePercent",
+        "4-6 years",
+        "No AI",
+        "ci95_low"
+      ],
+      "target": 54.938272,
+      "fixed_MC_envelope": [
+        51.23456790123457,
+        57.40740740740742
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_QuizScorePercent",
+        "4-6 years",
+        "No AI",
+        "ci95_high"
+      ],
+      "target": 83.950618,
+      "fixed_MC_envelope": [
+        81.89300411522635,
+        85.18518518518519
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "experience_QuizScorePercent",
+        "7+ years",
+        "AI"
+      ],
+      "actual": 50.793650793650784,
+      "target": 50.793647,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_QuizScorePercent",
+        "7+ years",
+        "AI",
+        "ci95_low"
+      ],
+      "target": 35.978834,
+      "fixed_MC_envelope": [
+        34.25925925925926,
+        39.153439153439145
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_QuizScorePercent",
+        "7+ years",
+        "AI",
+        "ci95_high"
+      ],
+      "target": 64.685846,
+      "fixed_MC_envelope": [
+        62.56613756613757,
+        67.5925925925926
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "experience_QuizScorePercent",
+        "7+ years",
+        "No AI"
+      ],
+      "actual": 63.82716049382715,
+      "target": 63.827159,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_QuizScorePercent",
+        "7+ years",
+        "No AI",
+        "ci95_low"
+      ],
+      "target": 56.666664,
+      "fixed_MC_envelope": [
+        55.30864197530864,
+        57.65432098765432
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_QuizScorePercent",
+        "7+ years",
+        "No AI",
+        "ci95_high"
+      ],
+      "target": 71.358025,
+      "fixed_MC_envelope": [
+        70.24691358024691,
+        73.08641975308642
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "experience_TaskTime",
+        "1-3 years",
+        "AI"
+      ],
+      "actual": 22.0,
+      "target": 22.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_TaskTime",
+        "1-3 years",
+        "AI",
+        "ci95_low"
+      ],
+      "target": 16.0,
+      "fixed_MC_envelope": [
+        16.0,
+        16.0
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_TaskTime",
+        "1-3 years",
+        "AI",
+        "ci95_high"
+      ],
+      "target": 28.0,
+      "fixed_MC_envelope": [
+        28.0,
+        28.0
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "experience_TaskTime",
+        "1-3 years",
+        "No AI"
+      ],
+      "actual": 33.5,
+      "target": 33.5,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_TaskTime",
+        "1-3 years",
+        "No AI",
+        "ci95_low"
+      ],
+      "target": 32.0,
+      "fixed_MC_envelope": [
+        32.0,
+        32.0
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_TaskTime",
+        "1-3 years",
+        "No AI",
+        "ci95_high"
+      ],
+      "target": 35.0,
+      "fixed_MC_envelope": [
+        35.0,
+        35.0
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "experience_TaskTime",
+        "4-6 years",
+        "AI"
+      ],
+      "actual": 22.1,
+      "target": 22.100001,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_TaskTime",
+        "4-6 years",
+        "AI",
+        "ci95_low"
+      ],
+      "target": 19.6,
+      "fixed_MC_envelope": [
+        19.2,
+        19.9
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_TaskTime",
+        "4-6 years",
+        "AI",
+        "ci95_high"
+      ],
+      "target": 25.0,
+      "fixed_MC_envelope": [
+        24.6,
+        25.8
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "experience_TaskTime",
+        "4-6 years",
+        "No AI"
+      ],
+      "actual": 23.444444444444443,
+      "target": 23.444445,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_TaskTime",
+        "4-6 years",
+        "No AI",
+        "ci95_low"
+      ],
+      "target": 19.777777,
+      "fixed_MC_envelope": [
+        18.88888888888889,
+        20.11111111111111
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_TaskTime",
+        "4-6 years",
+        "No AI",
+        "ci95_high"
+      ],
+      "target": 28.111111,
+      "fixed_MC_envelope": [
+        27.0,
+        28.555555555555557
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "experience_TaskTime",
+        "7+ years",
+        "AI"
+      ],
+      "actual": 23.785714285714285,
+      "target": 23.785714,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_TaskTime",
+        "7+ years",
+        "AI",
+        "ci95_low"
+      ],
+      "target": 20.142856,
+      "fixed_MC_envelope": [
+        19.571428571428573,
+        20.785714285714285
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_TaskTime",
+        "7+ years",
+        "AI",
+        "ci95_high"
+      ],
+      "target": 27.358929,
+      "fixed_MC_envelope": [
+        26.928571428571427,
+        28.357142857142858
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "experience_TaskTime",
+        "7+ years",
+        "No AI"
+      ],
+      "actual": 24.266666666666666,
+      "target": 24.266666,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_TaskTime",
+        "7+ years",
+        "No AI",
+        "ci95_low"
+      ],
+      "target": 20.065001,
+      "fixed_MC_envelope": [
+        19.266666666666666,
+        20.8
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "experience_TaskTime",
+        "7+ years",
+        "No AI",
+        "ci95_high"
+      ],
+      "target": 28.266667,
+      "fixed_MC_envelope": [
+        27.666666666666668,
+        29.066666666666666
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "main_QuizScorePercent",
+        "all",
+        "AI"
+      ],
+      "actual": 50.0,
+      "target": 49.999999,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "main_QuizScorePercent",
+        "all",
+        "AI",
+        "ci95_low"
+      ],
+      "target": 41.522435,
+      "fixed_MC_envelope": [
+        39.6011396011396,
+        42.735042735042725
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "main_QuizScorePercent",
+        "all",
+        "AI",
+        "ci95_high"
+      ],
+      "target": 58.97614,
+      "fixed_MC_envelope": [
+        57.4074074074074,
+        60.68376068376067
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "main_QuizScorePercent",
+        "all",
+        "No AI"
+      ],
+      "actual": 65.38461538461537,
+      "target": 65.384615,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "main_QuizScorePercent",
+        "all",
+        "No AI",
+        "ci95_low"
+      ],
+      "target": 58.830129,
+      "fixed_MC_envelope": [
+        56.98005698005699,
+        59.615384615384606
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "main_QuizScorePercent",
+        "all",
+        "No AI",
+        "ci95_high"
+      ],
+      "target": 71.942665,
+      "fixed_MC_envelope": [
+        71.08262108262109,
+        73.57549857549859
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "main_TaskTime",
+        "all",
+        "AI"
+      ],
+      "actual": 23.0,
+      "target": 23.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "main_TaskTime",
+        "all",
+        "AI",
+        "ci95_low"
+      ],
+      "target": 20.691346,
+      "fixed_MC_envelope": [
+        20.26923076923077,
+        21.076923076923077
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "main_TaskTime",
+        "all",
+        "AI",
+        "ci95_high"
+      ],
+      "target": 25.500962,
+      "fixed_MC_envelope": [
+        25.03846153846154,
+        25.96153846153846
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "main_TaskTime",
+        "all",
+        "No AI"
+      ],
+      "actual": 24.692307692307693,
+      "target": 24.692308,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "main_TaskTime",
+        "all",
+        "No AI",
+        "ci95_low"
+      ],
+      "target": 21.691346,
+      "fixed_MC_envelope": [
+        21.153846153846153,
+        22.23076923076923
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "main_TaskTime",
+        "all",
+        "No AI",
+        "ci95_high"
+      ],
+      "target": 27.540385,
+      "fixed_MC_envelope": [
+        27.153846153846153,
+        28.192307692307693
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "self_report",
+        "Enjoyment",
+        "AI"
+      ],
+      "actual": 5.3076923076923075,
+      "target": 5.307692,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "self_report",
+        "Enjoyment",
+        "AI",
+        "ci95_low"
+      ],
+      "target": 4.692308,
+      "fixed_MC_envelope": [
+        4.538461538461538,
+        4.769230769230769
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "self_report",
+        "Enjoyment",
+        "AI",
+        "ci95_high"
+      ],
+      "target": 5.884615,
+      "fixed_MC_envelope": [
+        5.8076923076923075,
+        5.961538461538462
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "self_report",
+        "Enjoyment",
+        "No AI"
+      ],
+      "actual": 5.8076923076923075,
+      "target": 5.807692,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "self_report",
+        "Enjoyment",
+        "No AI",
+        "ci95_low"
+      ],
+      "target": 5.346154,
+      "fixed_MC_envelope": [
+        5.230769230769231,
+        5.423076923076923
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "self_report",
+        "Enjoyment",
+        "No AI",
+        "ci95_high"
+      ],
+      "target": 6.230769,
+      "fixed_MC_envelope": [
+        6.1923076923076925,
+        6.346153846153846
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "self_report",
+        "Learning",
+        "AI"
+      ],
+      "actual": 4.115384615384615,
+      "target": 4.115385,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "self_report",
+        "Learning",
+        "AI",
+        "ci95_low"
+      ],
+      "target": 3.538462,
+      "fixed_MC_envelope": [
+        3.423076923076923,
+        3.6538461538461537
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "self_report",
+        "Learning",
+        "AI",
+        "ci95_high"
+      ],
+      "target": 4.692308,
+      "fixed_MC_envelope": [
+        4.576923076923077,
+        4.769230769230769
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "self_report",
+        "Learning",
+        "No AI"
+      ],
+      "actual": 4.846153846153846,
+      "target": 4.846154,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "self_report",
+        "Learning",
+        "No AI",
+        "ci95_low"
+      ],
+      "target": 4.269231,
+      "fixed_MC_envelope": [
+        4.153846153846154,
+        4.346153846153846
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "self_report",
+        "Learning",
+        "No AI",
+        "ci95_high"
+      ],
+      "target": 5.385577,
+      "fixed_MC_envelope": [
+        5.3076923076923075,
+        5.538461538461538
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "subarea_percent",
+        "CodeReading",
+        "AI"
+      ],
+      "actual": 57.05128205128205,
+      "target": 57.051283,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "CodeReading",
+        "AI",
+        "ci95_low"
+      ],
+      "target": 47.115384,
+      "fixed_MC_envelope": [
+        45.19230769230769,
+        48.71794871794873
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "CodeReading",
+        "AI",
+        "ci95_high"
+      ],
+      "target": 66.346157,
+      "fixed_MC_envelope": [
+        65.06410256410257,
+        68.58974358974359
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "subarea_percent",
+        "CodeReading",
+        "No AI"
+      ],
+      "actual": 66.98717948717947,
+      "target": 66.987181,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "CodeReading",
+        "No AI",
+        "ci95_low"
+      ],
+      "target": 59.935898,
+      "fixed_MC_envelope": [
+        58.333333333333336,
+        61.217948717948715
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "CodeReading",
+        "No AI",
+        "ci95_high"
+      ],
+      "target": 73.71795,
+      "fixed_MC_envelope": [
+        72.75641025641026,
+        75.32051282051283
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "subarea_percent",
+        "Conceptual",
+        "AI"
+      ],
+      "actual": 46.58119658119658,
+      "target": 46.581196,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "Conceptual",
+        "AI",
+        "ci95_low"
+      ],
+      "target": 37.606835,
+      "fixed_MC_envelope": [
+        36.324786324786324,
+        39.31623931623931
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "Conceptual",
+        "AI",
+        "ci95_high"
+      ],
+      "target": 55.566239,
+      "fixed_MC_envelope": [
+        53.846153846153854,
+        57.26495726495727
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "subarea_percent",
+        "Conceptual",
+        "No AI"
+      ],
+      "actual": 62.820512820512825,
+      "target": 62.820514,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "Conceptual",
+        "No AI",
+        "ci95_low"
+      ],
+      "target": 53.835472,
+      "fixed_MC_envelope": [
+        50.427350427350426,
+        54.27350427350427
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "Conceptual",
+        "No AI",
+        "ci95_high"
+      ],
+      "target": 72.649574,
+      "fixed_MC_envelope": [
+        70.94017094017094,
+        74.35897435897436
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "subarea_percent",
+        "Debugging",
+        "AI"
+      ],
+      "actual": 37.98076923076923,
+      "target": 37.98077,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "Debugging",
+        "AI",
+        "ci95_low"
+      ],
+      "target": 25.961536,
+      "fixed_MC_envelope": [
+        23.557692307692307,
+        27.884615384615383
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "Debugging",
+        "AI",
+        "ci95_high"
+      ],
+      "target": 50.961538,
+      "fixed_MC_envelope": [
+        48.55769230769231,
+        53.36538461538461
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "subarea_percent",
+        "Debugging",
+        "No AI"
+      ],
+      "actual": 59.13461538461539,
+      "target": 59.134618,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "Debugging",
+        "No AI",
+        "ci95_low"
+      ],
+      "target": 48.064904,
+      "fixed_MC_envelope": [
+        45.19230769230769,
+        49.51923076923077
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "Debugging",
+        "No AI",
+        "ci95_high"
+      ],
+      "target": 71.634618,
+      "fixed_MC_envelope": [
+        68.75,
+        73.07692307692308
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "subarea_percent",
+        "Task1",
+        "AI"
+      ],
+      "actual": 51.70940170940172,
+      "target": 51.709401,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "Task1",
+        "AI",
+        "ci95_low"
+      ],
+      "target": 42.943376,
+      "fixed_MC_envelope": [
+        41.452991452991455,
+        44.44444444444445
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "Task1",
+        "AI",
+        "ci95_high"
+      ],
+      "target": 60.683761,
+      "fixed_MC_envelope": [
+        58.97435897435898,
+        62.39316239316239
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "subarea_percent",
+        "Task1",
+        "No AI"
+      ],
+      "actual": 66.45299145299147,
+      "target": 66.452993,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "Task1",
+        "No AI",
+        "ci95_low"
+      ],
+      "target": 59.615385,
+      "fixed_MC_envelope": [
+        58.11965811965812,
+        60.683760683760674
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "Task1",
+        "No AI",
+        "ci95_high"
+      ],
+      "target": 73.082267,
+      "fixed_MC_envelope": [
+        72.43589743589743,
+        74.99999999999999
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "subarea_percent",
+        "Task2",
+        "AI"
+      ],
+      "actual": 44.44444444444445,
+      "target": 44.444443,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "Task2",
+        "AI",
+        "ci95_low"
+      ],
+      "target": 31.623932,
+      "fixed_MC_envelope": [
+        30.341880341880344,
+        34.61538461538461
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "Task2",
+        "AI",
+        "ci95_high"
+      ],
+      "target": 55.982906,
+      "fixed_MC_envelope": [
+        54.27350427350428,
+        58.54700854700855
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_mean",
+      "key": [
+        "subarea_percent",
+        "Task2",
+        "No AI"
+      ],
+      "actual": 60.25641025641025,
+      "target": 60.256412,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "Task2",
+        "No AI",
+        "ci95_low"
+      ],
+      "target": 48.717949,
+      "fixed_MC_envelope": [
+        46.58119658119658,
+        50.85470085470085
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_bootstrap_endpoint",
+      "key": [
+        "subarea_percent",
+        "Task2",
+        "No AI",
+        "ci95_high"
+      ],
+      "target": 70.512821,
+      "fixed_MC_envelope": [
+        69.23076923076923,
+        73.07692307692308
+      ],
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_regression_mean",
+      "key": [
+        "TaskTime"
+      ],
+      "actual": 0.24071207245150994,
+      "target": 0.240712,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_regression_ci95_low",
+      "key": [
+        "TaskTime"
+      ],
+      "actual": -0.3177348833217555,
+      "target": -0.317735,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_regression_ci95_high",
+      "key": [
+        "TaskTime"
+      ],
+      "actual": 0.7991590282247754,
+      "target": 0.799159,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_regression_mean",
+      "key": [
+        "QuizScore"
+      ],
+      "actual": 0.6977072576293071,
+      "target": 0.697707,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_regression_ci95_low",
+      "key": [
+        "QuizScore"
+      ],
+      "actual": 0.17115196454286707,
+      "target": 0.171152,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "figure_regression_ci95_high",
+      "key": [
+        "QuizScore"
+      ],
+      "actual": 1.2242625507157472,
+      "target": 1.224263,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "kind": "paper_text",
+      "key": "QuizScore difference NoAI-AI (points)",
+      "actual": 4.153846153846155,
+      "target": 4.15,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "kind": "paper_text",
+      "key": "QuizScore Cohen d",
+      "actual": 0.7381458786017869,
+      "target": 0.738,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "paper_text",
+      "key": "QuizScore unadjusted p",
+      "actual": 0.010434680521542098,
+      "target": 0.01,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "paper_text",
+      "key": "Warmup-adjusted Cohen d",
+      "actual": 0.7250526061131661,
+      "target": 0.725,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "paper_text",
+      "key": "Warmup-adjusted Treatment p",
+      "actual": 0.016277485130765743,
+      "target": 0.016,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "main_time_p",
+      "actual": 0.3907537905754974,
+      "target": 0.391,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_source_p",
+      "key": "experience_TaskTime|1-3 years",
+      "actual": 0.2040521787631198,
+      "target": 0.204,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_source_p",
+      "key": "experience_TaskTime|4-6 years",
+      "actual": 0.6189361540111759,
+      "target": 0.619,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_source_p",
+      "key": "experience_TaskTime|7+ years",
+      "actual": 0.8697097433858595,
+      "target": 0.87,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_source_p",
+      "key": "experience_QuizScore|1-3 years",
+      "actual": 0.8071526960400324,
+      "target": 0.807,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_source_p",
+      "key": "experience_QuizScore|4-6 years",
+      "actual": 0.03801823264810996,
+      "target": 0.038,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_source_p",
+      "key": "experience_QuizScore|7+ years",
+      "actual": 0.1242386201141573,
+      "target": 0.124,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_source_p",
+      "key": "Task1",
+      "actual": 0.014041790957952298,
+      "target": 0.014,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_source_p",
+      "key": "Task2",
+      "actual": 0.06450522081540963,
+      "target": 0.065,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_source_p",
+      "key": "Conceptual",
+      "actual": 0.022891081259639276,
+      "target": 0.023,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_source_p",
+      "key": "Debugging",
+      "actual": 0.019235374915885308,
+      "target": 0.019,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_source_p",
+      "key": "CodeReading",
+      "actual": 0.1175684779127464,
+      "target": 0.118,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_source_p",
+      "key": "Learning",
+      "actual": 0.08449611557497556,
+      "target": 0.084,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_source_p",
+      "key": "Enjoyment",
+      "actual": 0.2117989642237817,
+      "target": 0.212,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_source_p",
+      "key": "Warm Up",
+      "actual": 0.040717420482330846,
+      "target": 0.041,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_source_p",
+      "key": "Trio Task",
+      "actual": 0.09292063143353844,
+      "target": 0.093,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_source_p",
+      "key": "Post Task Quiz",
+      "actual": 0.697435695745425,
+      "target": 0.697,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_adjusted_fit",
+      "key": "Treatment",
+      "actual": 15.322628987368901,
+      "target": 15.3226,
+      "tolerance": 5e-05,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_adjusted_fit",
+      "key": "Treatment_ci95_low",
+      "actual": 2.9541534200279873,
+      "target": 2.954,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_adjusted_fit",
+      "key": "Treatment_ci95_high",
+      "actual": 27.691104554709817,
+      "target": 27.691,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_adjusted_fit",
+      "key": "WarmupTaskTime",
+      "actual": -0.7867694283879241,
+      "target": -0.7868,
+      "tolerance": 5e-05,
+      "passed": true
+    },
+    {
+      "kind": "original_saved_adjusted_fit",
+      "key": "Warmup_p",
+      "actual": 0.41017332456433103,
+      "target": 0.41,
+      "tolerance": 0.0005,
+      "passed": true
+    }
+  ],
+  "groups": [
+    {
+      "key": [
+        "difficulty",
+        "Post Task Quiz",
+        "AI"
+      ],
+      "group_index": 0,
+      "N": 26,
+      "mean": 3.730769230769231,
+      "replay_ci95": [
+        3.5,
+        4.0
+      ],
+      "MC_envelopes": [
+        [
+          3.423076923076923,
+          3.5384615384615383
+        ],
+        [
+          3.9615384615384617,
+          4.038461538461538
+        ]
+      ],
+      "reference_percentile_ci95": [
+        3.5,
+        4.0
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_00_replay.npy",
+          "sha256": "e26148ea8599ae964a4cae3dedd333a91283918676ad546025470eaae480816c",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_00_reference.npy",
+          "sha256": "b5367e2445f501c40eb9a14aaf3031f5947b24060617d56ce90b068e870c98a1",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "difficulty",
+        "Post Task Quiz",
+        "No AI"
+      ],
+      "group_index": 1,
+      "N": 26,
+      "mean": 3.8076923076923075,
+      "replay_ci95": [
+        3.5384615384615383,
+        4.076923076923077
+      ],
+      "MC_envelopes": [
+        [
+          3.4615384615384617,
+          3.576923076923077
+        ],
+        [
+          4.038461538461538,
+          4.153846153846154
+        ]
+      ],
+      "reference_percentile_ci95": [
+        3.5384615384615383,
+        4.076923076923077
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_01_replay.npy",
+          "sha256": "9a35e8388cf72757fcf29e6c2116d73726e90ec712aa2334ac2a62eb10cfb39e",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_01_reference.npy",
+          "sha256": "27e336c05cd253fd21ae6883fce2b2be65ad9bdefb88cb3f08ee6777d3937589",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "difficulty",
+        "Trio Task",
+        "AI"
+      ],
+      "group_index": 2,
+      "N": 26,
+      "mean": 2.730769230769231,
+      "replay_ci95": [
+        2.3076923076923075,
+        3.1923076923076925
+      ],
+      "MC_envelopes": [
+        [
+          2.1923076923076925,
+          2.3461538461538463
+        ],
+        [
+          3.1153846153846154,
+          3.269230769230769
+        ]
+      ],
+      "reference_percentile_ci95": [
+        2.269230769230769,
+        3.1923076923076925
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_02_replay.npy",
+          "sha256": "3aad003ab7db6800abdd4da156da3e2b5b4bff205a83b853baa6193c9056a268",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_02_reference.npy",
+          "sha256": "38b52d9e71f9c5045e1e8be128e3ad03fd2ff1459fab904ac225febbefb5b533",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "difficulty",
+        "Trio Task",
+        "No AI"
+      ],
+      "group_index": 3,
+      "N": 26,
+      "mean": 3.269230769230769,
+      "replay_ci95": [
+        2.8461538461538463,
+        3.6538461538461537
+      ],
+      "MC_envelopes": [
+        [
+          2.769230769230769,
+          2.923076923076923
+        ],
+        [
+          3.6153846153846154,
+          3.730769230769231
+        ]
+      ],
+      "reference_percentile_ci95": [
+        2.8461538461538463,
+        3.6538461538461537
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_03_replay.npy",
+          "sha256": "b04584d684ff98f4e9618e1df4923ca8e80016691e89d52bbad1a9b675aaa22a",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_03_reference.npy",
+          "sha256": "b4a1f94e78f7ef9f2d2c060d67580faf260c74466894c0f69d79b57b853c1e2e",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "difficulty",
+        "Warm Up",
+        "AI"
+      ],
+      "group_index": 4,
+      "N": 26,
+      "mean": 2.923076923076923,
+      "replay_ci95": [
+        2.5,
+        3.3076923076923075
+      ],
+      "MC_envelopes": [
+        [
+          2.423076923076923,
+          2.576923076923077
+        ],
+        [
+          3.269230769230769,
+          3.423076923076923
+        ]
+      ],
+      "reference_percentile_ci95": [
+        2.5,
+        3.3461538461538463
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_04_replay.npy",
+          "sha256": "6cfd859a3c80ea935780ab5238b99c68f5c0cc11c046b3a7714c4023ee0c8ad6",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_04_reference.npy",
+          "sha256": "ac343708bb3b4f2cbb9e7254919d9757171dfae0a571bfddbe068fac4e7ef6e5",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "difficulty",
+        "Warm Up",
+        "No AI"
+      ],
+      "group_index": 5,
+      "N": 26,
+      "mean": 2.269230769230769,
+      "replay_ci95": [
+        1.8846153846153846,
+        2.769230769230769
+      ],
+      "MC_envelopes": [
+        [
+          1.7692307692307692,
+          1.9230769230769231
+        ],
+        [
+          2.6538461538461537,
+          2.8076923076923075
+        ]
+      ],
+      "reference_percentile_ci95": [
+        1.8461538461538463,
+        2.730769230769231
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_05_replay.npy",
+          "sha256": "25d144361e4697f6e19ac0ce381321680aeb264abc1cf17577936e290d723494",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_05_reference.npy",
+          "sha256": "53115b838714d13f47bb1b03dcc59d6f68834e300fe986bfe58d4f407b916c14",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "experience_QuizScorePercent",
+        "1-3 years",
+        "AI"
+      ],
+      "group_index": 6,
+      "N": 2,
+      "mean": 49.074074074074076,
+      "replay_ci95": [
+        29.62962962962963,
+        68.51851851851852
+      ],
+      "MC_envelopes": [
+        [
+          29.62962962962963,
+          29.62962962962963
+        ],
+        [
+          68.51851851851852,
+          68.51851851851852
+        ]
+      ],
+      "reference_percentile_ci95": [
+        29.62962962962963,
+        68.51851851851852
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_06_replay.npy",
+          "sha256": "85e0ebb64310518fc5792806fdb51c6956998ea2ae5eb1834f0753569f813c1b",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_06_reference.npy",
+          "sha256": "01f953da8d592ca8d35e7ba70c4c95cb4612b5e364953531c8ae062da6f755a0",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "experience_QuizScorePercent",
+        "1-3 years",
+        "No AI"
+      ],
+      "group_index": 7,
+      "N": 2,
+      "mean": 54.62962962962963,
+      "replay_ci95": [
+        50.0,
+        59.25925925925926
+      ],
+      "MC_envelopes": [
+        [
+          50.0,
+          50.0
+        ],
+        [
+          59.25925925925926,
+          59.25925925925926
+        ]
+      ],
+      "reference_percentile_ci95": [
+        50.0,
+        59.25925925925926
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_07_replay.npy",
+          "sha256": "17b8ed6ee10548c65010df22f260dc153a9184c73c5fd7700a2f97284a43c82a",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_07_reference.npy",
+          "sha256": "18501a01b84599eb40092584159bff2781f4428ae5944709882da2ccd9a5baa9",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "experience_QuizScorePercent",
+        "4-6 years",
+        "AI"
+      ],
+      "group_index": 8,
+      "N": 10,
+      "mean": 49.07407407407407,
+      "replay_ci95": [
+        40.0,
+        60.56018518518518
+      ],
+      "MC_envelopes": [
+        [
+          38.333333333333336,
+          40.925925925925924
+        ],
+        [
+          58.14814814814814,
+          62.40740740740741
+        ]
+      ],
+      "reference_percentile_ci95": [
+        39.81481481481482,
+        60.0
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_08_replay.npy",
+          "sha256": "6a74bbaa8834efa755e7295f0214782a2a01b6c5e29ffb798c0330cccd3a679f",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_08_reference.npy",
+          "sha256": "22402999f4da6a069aa6c404fecc7b405c3c71538695f5be80d011cb3b9072cf",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "experience_QuizScorePercent",
+        "4-6 years",
+        "No AI"
+      ],
+      "group_index": 9,
+      "N": 9,
+      "mean": 70.37037037037037,
+      "replay_ci95": [
+        54.93312757201646,
+        83.53909465020575
+      ],
+      "MC_envelopes": [
+        [
+          51.23456790123457,
+          57.40740740740742
+        ],
+        [
+          81.89300411522635,
+          85.18518518518519
+        ]
+      ],
+      "reference_percentile_ci95": [
+        54.52674897119341,
+        83.7448559670782
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_09_replay.npy",
+          "sha256": "488276cc360e4dc661398b7464262598de5b90b68339c549e59d61cebb727aa7",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_09_reference.npy",
+          "sha256": "1654966dfae0742a011c8c9a2e15d726a602e328c6bfee5baa9479696ae0a178",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "experience_QuizScorePercent",
+        "7+ years",
+        "AI"
+      ],
+      "group_index": 10,
+      "N": 14,
+      "mean": 50.793650793650784,
+      "replay_ci95": [
+        36.633597883597886,
+        65.47619047619047
+      ],
+      "MC_envelopes": [
+        [
+          34.25925925925926,
+          39.153439153439145
+        ],
+        [
+          62.56613756613757,
+          67.5925925925926
+        ]
+      ],
+      "reference_percentile_ci95": [
+        36.90476190476191,
+        64.81481481481481
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_10_replay.npy",
+          "sha256": "1c6bd3016d6b8ef05db6b06c8a67d8be1f3764b1d159f1bf6696855914467b6c",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_10_reference.npy",
+          "sha256": "052205dcbd24e0ef8756db926864aef87e0e605201178b5a74fcd9df84b67a66",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "experience_QuizScorePercent",
+        "7+ years",
+        "No AI"
+      ],
+      "group_index": 11,
+      "N": 15,
+      "mean": 63.82716049382715,
+      "replay_ci95": [
+        56.54012345679011,
+        71.9753086419753
+      ],
+      "MC_envelopes": [
+        [
+          55.30864197530864,
+          57.65432098765432
+        ],
+        [
+          70.24691358024691,
+          73.08641975308642
+        ]
+      ],
+      "reference_percentile_ci95": [
+        56.66666666666666,
+        71.48148148148148
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_11_replay.npy",
+          "sha256": "0a3b3d69b0b66a7e25132fc391709b58a99fa5ecd4a8cc9ff44d5b21664267b4",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_11_reference.npy",
+          "sha256": "1a20aff6b1a7e8d39ce0f5e074ddda95ec4aa449bd51b14d50e0c4cfbc93686d",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "experience_TaskTime",
+        "1-3 years",
+        "AI"
+      ],
+      "group_index": 12,
+      "N": 2,
+      "mean": 22.0,
+      "replay_ci95": [
+        16.0,
+        28.0
+      ],
+      "MC_envelopes": [
+        [
+          16.0,
+          16.0
+        ],
+        [
+          28.0,
+          28.0
+        ]
+      ],
+      "reference_percentile_ci95": [
+        16.0,
+        28.0
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_12_replay.npy",
+          "sha256": "1b2a1e55b9198d4296badbd48d148f18a50c50b570be36d91e46626f5660d341",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_12_reference.npy",
+          "sha256": "70b627e91ec68db8523cd4d7e83ce8ac72d54053ae07acfa1bd774825adb1787",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "experience_TaskTime",
+        "1-3 years",
+        "No AI"
+      ],
+      "group_index": 13,
+      "N": 2,
+      "mean": 33.5,
+      "replay_ci95": [
+        32.0,
+        35.0
+      ],
+      "MC_envelopes": [
+        [
+          32.0,
+          32.0
+        ],
+        [
+          35.0,
+          35.0
+        ]
+      ],
+      "reference_percentile_ci95": [
+        32.0,
+        35.0
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_13_replay.npy",
+          "sha256": "5d979158e21d18feb45002ced52bc5d3617e302fbf33b34026aceb804dc08d79",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_13_reference.npy",
+          "sha256": "00c6be8db1299aefdf8503fda81ee07ee2e8133343acd6cfa8899703c168d78d",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "experience_TaskTime",
+        "4-6 years",
+        "AI"
+      ],
+      "group_index": 14,
+      "N": 10,
+      "mean": 22.1,
+      "replay_ci95": [
+        19.7,
+        25.2
+      ],
+      "MC_envelopes": [
+        [
+          19.2,
+          19.9
+        ],
+        [
+          24.6,
+          25.8
+        ]
+      ],
+      "reference_percentile_ci95": [
+        19.6,
+        25.1
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_14_replay.npy",
+          "sha256": "f636ea47ceb5042a239bdad299b6d07e4f30837aed2201f422b8fb3648eafbe9",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_14_reference.npy",
+          "sha256": "fd9c93292156fcca5d592bafb78fa7ef08eb6dce28b0b9d8b3a4d8630daa0c1f",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "experience_TaskTime",
+        "4-6 years",
+        "No AI"
+      ],
+      "group_index": 15,
+      "N": 9,
+      "mean": 23.444444444444443,
+      "replay_ci95": [
+        19.333333333333332,
+        27.555555555555557
+      ],
+      "MC_envelopes": [
+        [
+          18.88888888888889,
+          20.11111111111111
+        ],
+        [
+          27.0,
+          28.555555555555557
+        ]
+      ],
+      "reference_percentile_ci95": [
+        19.555555555555557,
+        27.77777777777778
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_15_replay.npy",
+          "sha256": "264db5ebb906bd3aa097e079326a04ed600566d612bd85917e95dd3f6e8243bc",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_15_reference.npy",
+          "sha256": "aa3528934335f78c500dda4852b1efeadc52fd939cd83c4806a6287de4bcd297",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "experience_TaskTime",
+        "7+ years",
+        "AI"
+      ],
+      "group_index": 16,
+      "N": 14,
+      "mean": 23.785714285714285,
+      "replay_ci95": [
+        20.0,
+        27.714285714285715
+      ],
+      "MC_envelopes": [
+        [
+          19.571428571428573,
+          20.785714285714285
+        ],
+        [
+          26.928571428571427,
+          28.357142857142858
+        ]
+      ],
+      "reference_percentile_ci95": [
+        20.214285714285715,
+        27.571428571428573
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_16_replay.npy",
+          "sha256": "91d9328d2a889ad7f180cd6f8f0713bac2690b953abbdb769a186ee2f6afb7d4",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_16_reference.npy",
+          "sha256": "d6b70c7476d4fb1361a458e59161224048d0a97f05bc023308e88aa1d4161d4e",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "experience_TaskTime",
+        "7+ years",
+        "No AI"
+      ],
+      "group_index": 17,
+      "N": 15,
+      "mean": 24.266666666666666,
+      "replay_ci95": [
+        19.866666666666667,
+        28.2
+      ],
+      "MC_envelopes": [
+        [
+          19.266666666666666,
+          20.8
+        ],
+        [
+          27.666666666666668,
+          29.066666666666666
+        ]
+      ],
+      "reference_percentile_ci95": [
+        20.133333333333333,
+        28.266666666666666
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_17_replay.npy",
+          "sha256": "e27a8193a0e46a9ccd05ee596940b9d72e5c43474d05aaef2fdaa4725b9b93ef",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_17_reference.npy",
+          "sha256": "4b05a1fec88e46b4f2ce29e15503254cc148ec0d4157381ba2b3858ff63d9b3a",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "main_QuizScorePercent",
+        "all",
+        "AI"
+      ],
+      "group_index": 18,
+      "N": 26,
+      "mean": 50.0,
+      "replay_ci95": [
+        41.30698005698005,
+        58.83190883190883
+      ],
+      "MC_envelopes": [
+        [
+          39.6011396011396,
+          42.735042735042725
+        ],
+        [
+          57.4074074074074,
+          60.68376068376067
+        ]
+      ],
+      "reference_percentile_ci95": [
+        41.38176638176637,
+        58.83190883190882
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_18_replay.npy",
+          "sha256": "cbafaaa64c56584000f3a7e292bed58574e339cb946c54b832e041d6b8304ef7",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_18_reference.npy",
+          "sha256": "4cd0f4fcad6aeadfa25dcc660534bf969e6cc3f66a7e2e3337f6bc509ec84749",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "main_QuizScorePercent",
+        "all",
+        "No AI"
+      ],
+      "group_index": 19,
+      "N": 26,
+      "mean": 65.38461538461537,
+      "replay_ci95": [
+        58.68411680911681,
+        72.36467236467236
+      ],
+      "MC_envelopes": [
+        [
+          56.98005698005699,
+          59.615384615384606
+        ],
+        [
+          71.08262108262109,
+          73.57549857549859
+        ]
+      ],
+      "reference_percentile_ci95": [
+        58.47578347578348,
+        72.15099715099716
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_19_replay.npy",
+          "sha256": "ea31b0ecb3e7bee15858177478c222732dc84358793756f243724c6b7d93b83b",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_19_reference.npy",
+          "sha256": "cbf955bdc574e2d5bbf7e8e625ff41c2647000a1ed2ec52196d96dd93b36b3ee",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "main_TaskTime",
+        "all",
+        "AI"
+      ],
+      "group_index": 20,
+      "N": 26,
+      "mean": 23.0,
+      "replay_ci95": [
+        20.615384615384617,
+        25.23076923076923
+      ],
+      "MC_envelopes": [
+        [
+          20.26923076923077,
+          21.076923076923077
+        ],
+        [
+          25.03846153846154,
+          25.96153846153846
+        ]
+      ],
+      "reference_percentile_ci95": [
+        20.73076923076923,
+        25.423076923076923
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_20_replay.npy",
+          "sha256": "a87f0a59f93514e9b8d55599c496ab45e849b9b39226fc7b14c7da3c8f6645cd",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_20_reference.npy",
+          "sha256": "e30e8b6f60a899a09c0d9975ad51c32b38e0198e78ee14b25317f21f9a27e25f",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "main_TaskTime",
+        "all",
+        "No AI"
+      ],
+      "group_index": 21,
+      "N": 26,
+      "mean": 24.692307692307693,
+      "replay_ci95": [
+        21.846153846153847,
+        27.692307692307693
+      ],
+      "MC_envelopes": [
+        [
+          21.153846153846153,
+          22.23076923076923
+        ],
+        [
+          27.153846153846153,
+          28.192307692307693
+        ]
+      ],
+      "reference_percentile_ci95": [
+        21.76923076923077,
+        27.576923076923077
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_21_replay.npy",
+          "sha256": "33c1d0da64b00767510f538a5ad68f97172f458bb61954be4e29724308b3d38b",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_21_reference.npy",
+          "sha256": "f1fe88c1b3de14d3c45fd0acca603042dea2feffea22814dc35a2ac369b6de2c",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "self_report",
+        "Enjoyment",
+        "AI"
+      ],
+      "group_index": 22,
+      "N": 26,
+      "mean": 5.3076923076923075,
+      "replay_ci95": [
+        4.653846153846154,
+        5.847115384615384
+      ],
+      "MC_envelopes": [
+        [
+          4.538461538461538,
+          4.769230769230769
+        ],
+        [
+          5.8076923076923075,
+          5.961538461538462
+        ]
+      ],
+      "reference_percentile_ci95": [
+        4.6923076923076925,
+        5.884615384615385
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_22_replay.npy",
+          "sha256": "4462b5a5d3100f55f9c65ad74e8a671a6dd634d83ff79493fbbdc8ec1e2c7502",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_22_reference.npy",
+          "sha256": "59c75ec4dfb8c493507cbacfeb56c04c5c52d44ee4f51c8b3b4604c76e83761a",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "self_report",
+        "Enjoyment",
+        "No AI"
+      ],
+      "group_index": 23,
+      "N": 26,
+      "mean": 5.8076923076923075,
+      "replay_ci95": [
+        5.346153846153846,
+        6.269230769230769
+      ],
+      "MC_envelopes": [
+        [
+          5.230769230769231,
+          5.423076923076923
+        ],
+        [
+          6.1923076923076925,
+          6.346153846153846
+        ]
+      ],
+      "reference_percentile_ci95": [
+        5.3076923076923075,
+        6.230769230769231
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_23_replay.npy",
+          "sha256": "f5617abf37d0e9e56beb99fa9b1c3420b769486389c5751f3ca4e34f7a5ef5f3",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_23_reference.npy",
+          "sha256": "96c8bcc04b8f9e271c548c1411f6b50822d174f34706782f8bc09866ef7cea4c",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "self_report",
+        "Learning",
+        "AI"
+      ],
+      "group_index": 24,
+      "N": 26,
+      "mean": 4.115384615384615,
+      "replay_ci95": [
+        3.5384615384615383,
+        4.6923076923076925
+      ],
+      "MC_envelopes": [
+        [
+          3.423076923076923,
+          3.6538461538461537
+        ],
+        [
+          4.576923076923077,
+          4.769230769230769
+        ]
+      ],
+      "reference_percentile_ci95": [
+        3.5384615384615383,
+        4.653846153846154
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_24_replay.npy",
+          "sha256": "0b2f5cdee4af27b4cb651cfca46298540cf4298e3bbc014b8548dbc12381d982",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_24_reference.npy",
+          "sha256": "e7cc41bbc4008b2794f1b2ed016f15c1a5be9760130e5d021287e9b99f09c63d",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "self_report",
+        "Learning",
+        "No AI"
+      ],
+      "group_index": 25,
+      "N": 26,
+      "mean": 4.846153846153846,
+      "replay_ci95": [
+        4.269230769230769,
+        5.385576923076923
+      ],
+      "MC_envelopes": [
+        [
+          4.153846153846154,
+          4.346153846153846
+        ],
+        [
+          5.3076923076923075,
+          5.538461538461538
+        ]
+      ],
+      "reference_percentile_ci95": [
+        4.269230769230769,
+        5.423076923076923
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_25_replay.npy",
+          "sha256": "04487686c5c0321477a383c131ae56ecc5e32d07c1f250c64cf68d2c1a4c141b",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_25_reference.npy",
+          "sha256": "394973b81bde818817dbfbc662631fbce4a6e3a5825e460e571a6394f1f1aecc",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "subarea_percent",
+        "CodeReading",
+        "AI"
+      ],
+      "group_index": 26,
+      "N": 26,
+      "mean": 57.05128205128205,
+      "replay_ci95": [
+        47.11538461538461,
+        66.66666666666667
+      ],
+      "MC_envelopes": [
+        [
+          45.19230769230769,
+          48.71794871794873
+        ],
+        [
+          65.06410256410257,
+          68.58974358974359
+        ]
+      ],
+      "reference_percentile_ci95": [
+        47.435897435897424,
+        66.66666666666667
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_26_replay.npy",
+          "sha256": "c39f35f004e646b829a0b88d9d2a26af329ce4b7365a910e1a037d94b149aa4f",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_26_reference.npy",
+          "sha256": "30056b39c5c97a359ddf3537aac2f826f3c989c9124484fbaec6a0b45ab27615",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "subarea_percent",
+        "CodeReading",
+        "No AI"
+      ],
+      "group_index": 27,
+      "N": 26,
+      "mean": 66.98717948717947,
+      "replay_ci95": [
+        59.294871794871796,
+        74.03846153846153
+      ],
+      "MC_envelopes": [
+        [
+          58.333333333333336,
+          61.217948717948715
+        ],
+        [
+          72.75641025641026,
+          75.32051282051283
+        ]
+      ],
+      "reference_percentile_ci95": [
+        59.93589743589743,
+        74.03846153846153
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_27_replay.npy",
+          "sha256": "e94e6a11773929d0c2324f9a57b89a1f1d3ea6c66da5ca1c8a45941e5aacd0f8",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_27_reference.npy",
+          "sha256": "d055ac8833400380be2b086e1f509e18e85611b15cdfaa99b63c19d3a386a7d8",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "subarea_percent",
+        "Conceptual",
+        "AI"
+      ],
+      "group_index": 28,
+      "N": 26,
+      "mean": 46.58119658119658,
+      "replay_ci95": [
+        38.02350427350427,
+        55.128205128205124
+      ],
+      "MC_envelopes": [
+        [
+          36.324786324786324,
+          39.31623931623931
+        ],
+        [
+          53.846153846153854,
+          57.26495726495727
+        ]
+      ],
+      "reference_percentile_ci95": [
+        38.034188034188034,
+        55.55555555555555
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_28_replay.npy",
+          "sha256": "831e2d252e08891530d2d3ecb4df530c2c90055d5aefaae3d73f7c9a11b0301f",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_28_reference.npy",
+          "sha256": "ef29c3ce47a5bf2eafc20c9050e63d863a9c09461c0a2b652512d2f70a7223c6",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "subarea_percent",
+        "Conceptual",
+        "No AI"
+      ],
+      "group_index": 29,
+      "N": 26,
+      "mean": 62.820512820512825,
+      "replay_ci95": [
+        52.564102564102555,
+        72.64957264957265
+      ],
+      "MC_envelopes": [
+        [
+          50.427350427350426,
+          54.27350427350427
+        ],
+        [
+          70.94017094017094,
+          74.35897435897436
+        ]
+      ],
+      "reference_percentile_ci95": [
+        52.56410256410257,
+        72.64957264957265
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_29_replay.npy",
+          "sha256": "7dd2fc0ab42405982b7227a56120f9ff0fa7942af55146bdce452cdc526923c2",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_29_reference.npy",
+          "sha256": "6849a0c6f5918c2f0ccc050f91f5b253a8f60f4ce706fb4b12c61d56ee4894ec",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "subarea_percent",
+        "Debugging",
+        "AI"
+      ],
+      "group_index": 30,
+      "N": 26,
+      "mean": 37.98076923076923,
+      "replay_ci95": [
+        26.442307692307693,
+        49.51923076923077
+      ],
+      "MC_envelopes": [
+        [
+          23.557692307692307,
+          27.884615384615383
+        ],
+        [
+          48.55769230769231,
+          53.36538461538461
+        ]
+      ],
+      "reference_percentile_ci95": [
+        25.96153846153846,
+        50.48076923076923
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_30_replay.npy",
+          "sha256": "32c5a4e888298dcf5b225c2bbdde6c0513f03d972327c8d9bb14ace2f1215904",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_30_reference.npy",
+          "sha256": "76de49027fb36d896baa7f51be4f407e937159c148fe1870190dbcf0460bf924",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "subarea_percent",
+        "Debugging",
+        "No AI"
+      ],
+      "group_index": 31,
+      "N": 26,
+      "mean": 59.13461538461539,
+      "replay_ci95": [
+        47.59615384615385,
+        71.15384615384616
+      ],
+      "MC_envelopes": [
+        [
+          45.19230769230769,
+          49.51923076923077
+        ],
+        [
+          68.75,
+          73.07692307692308
+        ]
+      ],
+      "reference_percentile_ci95": [
+        47.59615384615385,
+        70.67307692307692
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_31_replay.npy",
+          "sha256": "0cfbfa5b6e1abf6ea7df698a25cd8b0b42502a6bf054a6c9ebb331e98913b3a4",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_31_reference.npy",
+          "sha256": "78a027caf1b132abb9ae6a1c7e7a15d1517b13f5489922886c95777c28746ac4",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "subarea_percent",
+        "Task1",
+        "AI"
+      ],
+      "group_index": 32,
+      "N": 26,
+      "mean": 51.70940170940172,
+      "replay_ci95": [
+        43.589743589743584,
+        60.25641025641026
+      ],
+      "MC_envelopes": [
+        [
+          41.452991452991455,
+          44.44444444444445
+        ],
+        [
+          58.97435897435898,
+          62.39316239316239
+        ]
+      ],
+      "reference_percentile_ci95": [
+        43.16239316239316,
+        60.470085470085465
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_32_replay.npy",
+          "sha256": "eaf686677e194aa0a80d68bb6feaea57478b4dcfb4ca1eb98e9a2a5de13c39b5",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_32_reference.npy",
+          "sha256": "df6066f5cc0f1ec6ab041b7231ca89a9ed2c3d1336479e2feb379dffd5f10ce3",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "subarea_percent",
+        "Task1",
+        "No AI"
+      ],
+      "group_index": 33,
+      "N": 26,
+      "mean": 66.45299145299147,
+      "replay_ci95": [
+        59.82905982905982,
+        73.50961538461539
+      ],
+      "MC_envelopes": [
+        [
+          58.11965811965812,
+          60.683760683760674
+        ],
+        [
+          72.43589743589743,
+          74.99999999999999
+        ]
+      ],
+      "reference_percentile_ci95": [
+        59.40170940170942,
+        73.5042735042735
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_33_replay.npy",
+          "sha256": "d7de582ff43e2c1bd8e170614846ca07f6251bed9a72df4956805515b44cc880",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_33_reference.npy",
+          "sha256": "f4ecbdbcdda4e696a8f1c4d0c3d32698704dc50e7e2a43305181e2ace7299ad4",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "subarea_percent",
+        "Task2",
+        "AI"
+      ],
+      "group_index": 34,
+      "N": 26,
+      "mean": 44.44444444444445,
+      "replay_ci95": [
+        32.47863247863248,
+        56.410256410256416
+      ],
+      "MC_envelopes": [
+        [
+          30.341880341880344,
+          34.61538461538461
+        ],
+        [
+          54.27350427350428,
+          58.54700854700855
+        ]
+      ],
+      "reference_percentile_ci95": [
+        32.9059829059829,
+        56.4102564102564
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_34_replay.npy",
+          "sha256": "7ebcf443e4d44f24b5fa1f68e9fc5c43690840dbcec56dc138e4777c372cd436",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_34_reference.npy",
+          "sha256": "d72991aa799fba7b528ba264f2ded4d16a67082883d806460afec0cb50520300",
+          "draw_count": 1000000
+        }
+      }
+    },
+    {
+      "key": [
+        "subarea_percent",
+        "Task2",
+        "No AI"
+      ],
+      "group_index": 35,
+      "N": 26,
+      "mean": 60.25641025641025,
+      "replay_ci95": [
+        49.561965811965806,
+        70.08547008547009
+      ],
+      "MC_envelopes": [
+        [
+          46.58119658119658,
+          50.85470085470085
+        ],
+        [
+          69.23076923076923,
+          73.07692307692308
+        ]
+      ],
+      "reference_percentile_ci95": [
+        49.14529914529915,
+        70.94017094017094
+      ],
+      "saved_draw_vectors": {
+        "replay": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_35_replay.npy",
+          "sha256": "8874617204a4c2737048c8da5b21b069c66bd9e3fb28372ec245b0a8033791c0",
+          "draw_count": 1000
+        },
+        "reference": {
+          "path": "papers/P080_ai_skill_formation/RUN_MAIN_RCT_20261010_draws/group_35_reference.npy",
+          "sha256": "447ed980d2a7effcf83e171be9729655276abc1c88c6cd4c94abf40d19495ea1",
+          "draw_count": 1000000
+        }
+      }
+    }
+  ],
+  "scope": "complete_primary_quantitative_main_RCT",
+  "N": 52,
+  "adjusted_N": 50,
+  "all_checks_pass": true,
+  "supporting_only": {
+    "fractional_subareas": {
+      "Task1": {
+        "by_condition": {
+          "AI": 51.70940170940172,
+          "No AI": 66.45299145299147
+        },
+        "regression": {
+          "N": 52,
+          "df": 50,
+          "coef": [
+            51.70940170940171,
+            14.743589743589746
+          ],
+          "se": [
+            4.0955468833239195,
+            5.791977947731545
+          ],
+          "p": [
+            3.5996725598568196e-17,
+            0.014041790957952298
+          ],
+          "ci95": [
+            [
+              43.48325369786558,
+              59.93554972093784
+            ],
+            [
+              3.110059659586888,
+              26.377119827592605
+            ]
+          ],
+          "residual_mse": 436.11111111111103
+        }
+      },
+      "Task2": {
+        "by_condition": {
+          "AI": 46.58119658119658,
+          "No AI": 63.24786324786324
+        },
+        "regression": {
+          "N": 52,
+          "df": 50,
+          "coef": [
+            46.58119658119658,
+            16.66666666666667
+          ],
+          "se": [
+            5.761786903938174,
+            8.14839718305305
+          ],
+          "p": [
+            1.2314588404056288e-10,
+            0.046095969070366276
+          ],
+          "ci95": [
+            [
+              35.00830699330873,
+              58.15408616908443
+            ],
+            [
+              0.30012925562930093,
+              33.03320407770404
+            ]
+          ],
+          "residual_mse": 863.1528964862297
+        }
+      },
+      "Conceptual": {
+        "by_condition": {
+          "AI": 46.58119658119658,
+          "No AI": 63.034188034188034
+        },
+        "regression": {
+          "N": 52,
+          "df": 50,
+          "coef": [
+            46.58119658119658,
+            16.452991452991448
+          ],
+          "se": [
+            4.887233746481336,
+            6.9115922467613755
+          ],
+          "p": [
+            7.885508450005538e-13,
+            0.02114179581945216
+          ],
+          "ci95": [
+            [
+              36.76489870673515,
+              56.397494455658006
+            ],
+            [
+              2.570649866633918,
+              30.335333039348978
+            ]
+          ],
+          "residual_mse": 621.0113960113958
+        }
+      },
+      "Debugging": {
+        "by_condition": {
+          "AI": 37.98076923076923,
+          "No AI": 59.13461538461539
+        },
+        "regression": {
+          "N": 52,
+          "df": 50,
+          "coef": [
+            37.98076923076923,
+            21.153846153846153
+          ],
+          "se": [
+            6.183073621451067,
+            8.744186572607425
+          ],
+          "p": [
+            1.3129515889538514e-07,
+            0.019235374915885308
+          ],
+          "ci95": [
+            [
+              25.561700367613845,
+              50.39983809392462
+            ],
+            [
+              3.5906305355263903,
+              38.71706177216592
+            ]
+          ],
+          "residual_mse": 993.9903846153844
+        }
+      },
+      "CodeReading": {
+        "by_condition": {
+          "AI": 58.653846153846146,
+          "No AI": 69.23076923076923
+        },
+        "regression": {
+          "N": 52,
+          "df": 50,
+          "coef": [
+            58.65384615384615,
+            10.576923076923078
+          ],
+          "se": [
+            4.339369563096488,
+            6.136795288280063
+          ],
+          "p": [
+            2.5402271566197058e-18,
+            0.09097288141386121
+          ],
+          "ci95": [
+            [
+              49.93796587711601,
+              67.3697264305763
+            ],
+            [
+              -1.7491930184488567,
+              22.903039172295014
+            ]
+          ],
+          "residual_mse": 489.58333333333337
+        }
+      }
+    },
+    "item_audit": {
+      "Q1": {
+        "N": 52,
+        "min": 0.0,
+        "max": 1.0,
+        "maximum_rubric": 1,
+        "fractional_count": 0
+      },
+      "Q2": {
+        "N": 52,
+        "min": 0.0,
+        "max": 1.0,
+        "maximum_rubric": 1,
+        "fractional_count": 0
+      },
+      "Q3": {
+        "N": 52,
+        "min": 0.0,
+        "max": 2.0,
+        "maximum_rubric": 2,
+        "fractional_count": 1
+      },
+      "Q4": {
+        "N": 52,
+        "min": 0.0,
+        "max": 2.0,
+        "maximum_rubric": 2,
+        "fractional_count": 0
+      },
+      "Q5": {
+        "N": 52,
+        "min": 0.0,
+        "max": 2.0,
+        "maximum_rubric": 2,
+        "fractional_count": 0
+      },
+      "Q6": {
+        "N": 52,
+        "min": 0.0,
+        "max": 2.0,
+        "maximum_rubric": 2,
+        "fractional_count": 23
+      },
+      "Q8": {
+        "N": 52,
+        "min": 0.0,
+        "max": 2.0,
+        "maximum_rubric": 2,
+        "fractional_count": 0
+      },
+      "Q9": {
+        "N": 52,
+        "min": 0.0,
+        "max": 2.0,
+        "maximum_rubric": 2,
+        "fractional_count": 0
+      },
+      "Q10": {
+        "N": 52,
+        "min": 0.0,
+        "max": 2.0,
+        "maximum_rubric": 2,
+        "fractional_count": 0
+      },
+      "Q11": {
+        "N": 52,
+        "min": 0.0,
+        "max": 2.0,
+        "maximum_rubric": 2,
+        "fractional_count": 0
+      },
+      "Q12": {
+        "N": 52,
+        "min": 0.0,
+        "max": 2.0,
+        "maximum_rubric": 2,
+        "fractional_count": 0
+      },
+      "Q13": {
+        "N": 52,
+        "min": 0.0,
+        "max": 2.0,
+        "maximum_rubric": 2,
+        "fractional_count": 0
+      },
+      "Q14": {
+        "N": 52,
+        "min": 0.0,
+        "max": 2.0,
+        "maximum_rubric": 2,
+        "fractional_count": 0
+      },
+      "Q15": {
+        "N": 52,
+        "min": 0.0,
+        "max": 3.0,
+        "maximum_rubric": 3,
+        "fractional_count": 0
+      }
+    },
+    "stored_total_mismatch_count": 0,
+    "stored_total_max_abs_discrepancy": 0.0,
+    "BH_primary": [
+      0.3907537905754974,
+      0.020869361043084195
+    ],
+    "BH_exploratory_keys": [
+      "experience_TaskTime|1-3 years",
+      "experience_QuizScore|1-3 years",
+      "experience_TaskTime|4-6 years",
+      "experience_QuizScore|4-6 years",
+      "experience_TaskTime|7+ years",
+      "experience_QuizScore|7+ years",
+      "Task1",
+      "Task2",
+      "Conceptual",
+      "Debugging",
+      "CodeReading",
+      "Learning",
+      "Enjoyment",
+      "Warm Up",
+      "Trio Task",
+      "Post Task Quiz"
+    ],
+    "BH_exploratory": [
+      0.28239861896504226,
+      0.8609628757760345,
+      0.7617675741676011,
+      0.1302957455434587,
+      0.8697097433858595,
+      0.19878179218265168,
+      0.12208576671807614,
+      0.17201392217442568,
+      0.12208576671807614,
+      0.12208576671807614,
+      0.19878179218265168,
+      0.1858412628670769,
+      0.28239861896504226,
+      0.1302957455434587,
+      0.1858412628670769,
+      0.7970693665662
+    ],
+    "prose17percent_conflict_preserved": true
+  }
+}

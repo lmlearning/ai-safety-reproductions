@@ -1,0 +1,64 @@
+{
+  "paper_id": "P068",
+  "at_utc": "2026-10-10T16:50:44.181515+00:00",
+  "full_reproduction": false,
+  "scope": "Complete original central randomized human trial performance analysis: all2400 original responses/all4 randomized arms/all10 scenarios; independent disposition and relevant/red-flag condition scoring; complete Figure2b mean/exact CI outputs and entire human-only Experimental performance statistics (global/pairwise tests, conditional odds ratios, relevant-condition count bootstrap CIs, acuity tests).",
+  "omissions": [
+    "No new human recruitment, randomization or conversations.",
+    "No fresh model inference or model-only Figure2a, MedQA/simulated-user baselines Figure4.",
+    "No GPT-extracted condition-list precision/user-interaction analyses Figure3.",
+    "No repeated physician scenario construction, original manual200-case threshold calibration, demographics/post-survey trust/experience regressions or appendix robustness analyses.",
+    "No alternative clustered inference: preserve original response-level tests despite up to2 records per participant."
+  ],
+  "eligible_window": "extended",
+  "first_public_empirical_release": "2025-04-17",
+  "first_release_evidence": "Initial public GitHub repository/data commit3271617a4a4475da08e207fd26d406c279c501c8 and independent HuggingFace upload0a03e862cb6f57ed3ecf0605aab012357708a9b9; original paper v1 April26. August2024 OSF registration is a study plan, not result release.",
+  "citation_count": 113,
+  "citation_gate": 40,
+  "citation_snapshot": "sources/citation_snapshot.json",
+  "original_commit": "3271617a4a4475da08e207fd26d406c279c501c8",
+  "raw_inputs": [
+    "sources/original_examples_initial.csv",
+    "sources/original_scoring_scenarios_initial.csv"
+  ],
+  "original_protocol": "sources/original_protocol_registration.json",
+  "scoring": "For each raw likely_cause string, independently apply literal original regex fuzzy substring matching, lowercase, max edits floor(.20*target length), one match per gold target. Count all gold differential/redflag matches. Disposition maps original textual options to physician urgency0..4; correct iff equal. Preserve source spellings and encoding defects.",
+  "statistics": "Clopper-Pearson exact95% intervals; SciPy chi2_contingency defaults with Yates correction for pairwise2x2, no correction global4x2; original conditional Fisher odds ratio and equal-tailed95% CI; BCa bootstrap mean1000 resamples, fixed seed6812025, source1000 original seed unknown; Mann-Whitney asymptotic tie-corrected two-sided tests with continuity correction and original lexicographic treatment ordering, Bonferroni .05/3.",
+  "source_issues_before_outcomes": [
+    "Original underestimation code compares answer_delta (response-minus-gold) against gold urgency, rather than comparing responses against gold urgency; preserve this original result but disclose invalid interpretation and provide clearly labeled diagnostic response-versus-gold test.",
+    "Command R+ acuity f in original printout compares Control against Command R+, whereas other two compare model against Control; preserve reported orientation and disclose inversion.",
+    "Original unseeded1000 bootstrap endpoints in notebook and prose differ; preserve both targets with fixed predeclared0.02 Monte Carlo endpoint tolerance.",
+    "Original protocol planned4-level urgency and300participants/arm; published trial uses5levels and1298participants total.",
+    "Original participant scoring source/pipeline treats repeated scenarios from one person as independent."
+  ],
+  "bootstrap_seed": 6812025,
+  "bootstrap_resamples": 1000,
+  "row_reference_columns": [
+    "correct",
+    "red_flag_correct_count",
+    "differential_correct_count",
+    "red_flag_correct",
+    "differential_correct"
+  ],
+  "row_reference_expected_rows": 2400,
+  "row_reference_exact_comparisons": 12000,
+  "row_reference_file": "original_row_targets.csv",
+  "row_reference_sha256": "06892c2dd85bb4717f794610c596bd099469445fc0aadb14d605b3577e9aa6e8",
+  "target_file": "targets.json",
+  "targets_sha256": "3316d7c07df7edc24976f6b3f8fe01cf0d9b3a0faad37da843540e94dc4377b9",
+  "target_count": 103,
+  "success_rule": "Every fixed target and all12000 exact original row-scoring comparisons must pass; no target removal, post-outcome tolerance relaxation or scope pruning. Independent audit must rescore raw answers using an independent substring edit-distance algorithm and recompute all statistical comparisons.",
+  "sources_manifest_sha256": "4a5467b975c63c713fce945828ed4453056f0f77781bdb8551e7aacd36201641",
+  "packages": {
+    "python": "3.12.0rc3 (tags/v3.12.0rc3:b973ab3, Sep 19 2023, 09:39:54) [MSC v.1935 64 bit (AMD64)]",
+    "numpy": "2.3.4",
+    "scipy": "1.17.1",
+    "regex": "2025.11.3"
+  },
+  "budget": {
+    "gpu": false,
+    "paid_api": false,
+    "spend": 0
+  },
+  "independent_outcomes_generated_before_preregistration": false
+}

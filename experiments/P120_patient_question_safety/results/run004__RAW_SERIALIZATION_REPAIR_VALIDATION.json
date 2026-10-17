@@ -1,0 +1,48 @@
+{
+  "original_run001_scientific_files": [
+    {
+      "path": "all_original_method_metrics.json",
+      "original_run001_sha256": "d18a962c39cbd68dc02b3afdad86856ee6621a0a014e9c7c169d5fd7ed646454",
+      "repair_sha256": "d18a962c39cbd68dc02b3afdad86856ee6621a0a014e9c7c169d5fd7ed646454",
+      "byte_identical": true
+    },
+    {
+      "path": "all_original_method_details.json",
+      "original_run001_sha256": "b3fb8513419571f18478bc41c6088bdfaea7e03451a8e5f2fbe320441b42cfbd",
+      "repair_sha256": "b3fb8513419571f18478bc41c6088bdfaea7e03451a8e5f2fbe320441b42cfbd",
+      "byte_identical": true
+    },
+    {
+      "path": "all_fixed_supporting_diagnostics.json",
+      "original_run001_sha256": "9213e961a8604907d1b86df6c6be2f162742f19f7221b229301ac240bd3c3729",
+      "repair_sha256": "9213e961a8604907d1b86df6c6be2f162742f19f7221b229301ac240bd3c3729",
+      "byte_identical": true
+    },
+    {
+      "path": "mandatory_target_checks.json",
+      "original_run001_sha256": "f19f7efccc71fbc97a2942ecd9ac60ac1f7f6a6a6cfc62d58df7359ccbfb230e",
+      "repair_sha256": "f19f7efccc71fbc97a2942ecd9ac60ac1f7f6a6a6cfc62d58df7359ccbfb230e",
+      "byte_identical": true
+    }
+  ],
+  "raw_metadata_changes": [
+    {
+      "record_index": 561,
+      "source_excel_row": 563,
+      "field": "Optional Comments",
+      "original": null,
+      "repaired": ""
+    }
+  ],
+  "expected_only_metadata_change": [
+    {
+      "record_index": 561,
+      "source_excel_row": 563,
+      "field": "Optional Comments",
+      "original": null,
+      "repaired": ""
+    }
+  ],
+  "repair_validated": true,
+  "original_dataframe_and_all_numerical_branches_unchanged": true
+}

@@ -1,0 +1,7911 @@
+{
+  "created_at_utc": "2026-10-10T18:05:43.239000+00:00",
+  "models": [
+    {
+      "id": "M001",
+      "study": 1,
+      "outcome": "d1.post_average",
+      "select": [
+        "and",
+        [
+          "and",
+          [
+            "notna",
+            "d1.post_average"
+          ],
+          [
+            "notna",
+            "d1.post_average_followup"
+          ]
+        ],
+        [
+          "eq",
+          "d1.model",
+          "gpt-4o"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d1.models_vs_control",
+          "name": "d1.models_vs_control",
+          "base": "aa_control",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d1.pre_average",
+          "name": "d1.pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M002",
+      "study": 1,
+      "outcome": "d2.post_average",
+      "select": [
+        "and",
+        [
+          "notna",
+          "d2.post_average"
+        ],
+        [
+          "notna",
+          "d2.post_average_followup"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d2.condition",
+          "name": "d2.condition",
+          "base": "control",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d2.pre_average",
+          "name": "d2.pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M003",
+      "study": 1,
+      "outcome": "d1.post_average_followup",
+      "select": [
+        "and",
+        [
+          "and",
+          [
+            "notna",
+            "d1.post_average"
+          ],
+          [
+            "notna",
+            "d1.post_average_followup"
+          ]
+        ],
+        [
+          "eq",
+          "d1.model",
+          "gpt-4o"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d1.models_vs_control",
+          "name": "d1.models_vs_control",
+          "base": "aa_control",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d1.pre_average",
+          "name": "d1.pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M004",
+      "study": 1,
+      "outcome": "d2.post_average_followup",
+      "select": [
+        "and",
+        [
+          "notna",
+          "d2.post_average"
+        ],
+        [
+          "notna",
+          "d2.post_average_followup"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d2.condition",
+          "name": "d2.condition",
+          "base": "control",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d2.pre_average",
+          "name": "d2.pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M005",
+      "study": 1,
+      "outcome": "value",
+      "select": [
+        "and",
+        [
+          "eq",
+          "d1.model",
+          "gpt-4o"
+        ],
+        [
+          "regex",
+          "d1.condition",
+          "control",
+          true
+        ]
+      ],
+      "features": [
+        {
+          "kind": "indicator",
+          "column": "d1.condition",
+          "value": "treat_dialogue",
+          "name": "dialogue"
+        },
+        {
+          "kind": "numeric",
+          "column": "_phase",
+          "name": "_phase",
+          "scale": false
+        },
+        {
+          "kind": "product",
+          "left": "dialogue",
+          "right": "_phase",
+          "name": "interaction"
+        }
+      ],
+      "intercept": true,
+      "parts": [
+        {
+          "outcome": "d1.post_average_imputed_with_pre",
+          "phase": 0
+        },
+        {
+          "outcome": "d1.post_average_followup",
+          "phase": 1
+        }
+      ]
+    },
+    {
+      "id": "M006",
+      "study": 3,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "eq",
+          "model",
+          "gpt-4.5"
+        ],
+        [
+          "eq",
+          "post_train",
+          "base"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "indicator",
+          "column": "condition",
+          "value": "treatment-1",
+          "name": "dialogue"
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M007",
+      "study": 1,
+      "outcome": "d1.post_average_imputed_with_pre",
+      "select": null,
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d1.models_vs_control",
+          "name": "d1.models_vs_control",
+          "base": "aa_control",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d1.pre_average",
+          "name": "d1.pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M008",
+      "study": 2,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "or",
+        [
+          "isna",
+          "post_train"
+        ],
+        [
+          "eq",
+          "post_train",
+          "base"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "models_vs_control",
+          "name": "models_vs_control",
+          "base": "aa_control",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M009",
+      "study": 3,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "eq",
+        "post_train",
+        "base"
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "models_vs_control",
+          "name": "models_vs_control",
+          "base": "aa_control",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M010",
+      "study": 3,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "eq",
+          "condition",
+          "treatment-1"
+        ],
+        [
+          "regex",
+          "model",
+          "gpt-4o",
+          false
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "model",
+          "name": "model",
+          "base": "gpt-4o",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M011",
+      "study": 2,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "eq",
+        "condition",
+        "treatment-1"
+      ],
+      "features": [
+        {
+          "kind": "contains",
+          "column": "post_train",
+          "value": "rm",
+          "name": "rm"
+        },
+        {
+          "kind": "contains",
+          "column": "post_train",
+          "value": "sft",
+          "name": "sft"
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M012",
+      "study": 2,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "eq",
+        "condition",
+        "treatment-2"
+      ],
+      "features": [
+        {
+          "kind": "contains",
+          "column": "post_train",
+          "value": "rm",
+          "name": "rm"
+        },
+        {
+          "kind": "contains",
+          "column": "post_train",
+          "value": "sft",
+          "name": "sft"
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M013",
+      "study": 3,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "in",
+        "condition",
+        [
+          "treatment-1",
+          "treatment-2"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "contains",
+          "column": "post_train",
+          "value": "rm",
+          "name": "rm"
+        },
+        {
+          "kind": "contains",
+          "column": "post_train",
+          "value": "sft",
+          "name": "sft"
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M014",
+      "study": 2,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "control"
+          ]
+        ],
+        [
+          "or",
+          [
+            "eq",
+            "condition",
+            "control"
+          ],
+          [
+            "eq",
+            "model",
+            "llama-3-1-8b"
+          ],
+          [
+            "isna",
+            "model"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "post_train",
+          "name": "post_train",
+          "base": "aa_control",
+          "full": false,
+          "rename": {
+            "condition_column": "condition",
+            "condition_value": "control",
+            "replacement": "aa_control"
+          }
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M015",
+      "study": 2,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "control"
+          ]
+        ],
+        [
+          "or",
+          [
+            "eq",
+            "condition",
+            "control"
+          ],
+          [
+            "eq",
+            "model",
+            "llama-3-1-405b"
+          ],
+          [
+            "isna",
+            "model"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "post_train",
+          "name": "post_train",
+          "base": "aa_control",
+          "full": false,
+          "rename": {
+            "condition_column": "condition",
+            "condition_value": "control",
+            "replacement": "aa_control"
+          }
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M016",
+      "study": 2,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-2",
+            "control"
+          ]
+        ],
+        [
+          "or",
+          [
+            "eq",
+            "condition",
+            "control"
+          ],
+          [
+            "eq",
+            "model",
+            "gpt-4.5"
+          ],
+          [
+            "isna",
+            "model"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "post_train",
+          "name": "post_train",
+          "base": "aa_control",
+          "full": false,
+          "rename": {
+            "condition_column": "condition",
+            "condition_value": "control",
+            "replacement": "aa_control"
+          }
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M017",
+      "study": 2,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-2",
+            "control"
+          ]
+        ],
+        [
+          "or",
+          [
+            "eq",
+            "condition",
+            "control"
+          ],
+          [
+            "eq",
+            "model",
+            "gpt-3.5"
+          ],
+          [
+            "isna",
+            "model"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "post_train",
+          "name": "post_train",
+          "base": "aa_control",
+          "full": false,
+          "rename": {
+            "condition_column": "condition",
+            "condition_value": "control",
+            "replacement": "aa_control"
+          }
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M018",
+      "study": 2,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-2",
+            "control"
+          ]
+        ],
+        [
+          "or",
+          [
+            "eq",
+            "condition",
+            "control"
+          ],
+          [
+            "eq",
+            "model",
+            "gpt-4o"
+          ],
+          [
+            "isna",
+            "model"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "post_train",
+          "name": "post_train",
+          "base": "aa_control",
+          "full": false,
+          "rename": {
+            "condition_column": "condition",
+            "condition_value": "control",
+            "replacement": "aa_control"
+          }
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M019",
+      "study": 3,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "control"
+          ]
+        ],
+        [
+          "or",
+          [
+            "eq",
+            "condition",
+            "control"
+          ],
+          [
+            "eq",
+            "model",
+            "gpt-4o"
+          ],
+          [
+            "isna",
+            "model"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "post_train",
+          "name": "post_train",
+          "base": "aa_control",
+          "full": false,
+          "rename": {
+            "condition_column": "condition",
+            "condition_value": "control",
+            "replacement": "aa_control"
+          }
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M020",
+      "study": 3,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-2",
+            "control"
+          ]
+        ],
+        [
+          "or",
+          [
+            "eq",
+            "condition",
+            "control"
+          ],
+          [
+            "eq",
+            "model",
+            "grok-3"
+          ],
+          [
+            "isna",
+            "model"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "post_train",
+          "name": "post_train",
+          "base": "aa_control",
+          "full": false,
+          "rename": {
+            "condition_column": "condition",
+            "condition_value": "control",
+            "replacement": "aa_control"
+          }
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M021",
+      "study": 3,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "control"
+          ]
+        ],
+        [
+          "or",
+          [
+            "eq",
+            "condition",
+            "control"
+          ],
+          [
+            "eq",
+            "model",
+            "gpt-4.5"
+          ],
+          [
+            "isna",
+            "model"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "post_train",
+          "name": "post_train",
+          "base": "aa_control",
+          "full": false,
+          "rename": {
+            "condition_column": "condition",
+            "condition_value": "control",
+            "replacement": "aa_control"
+          }
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M022",
+      "study": 3,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "control"
+          ]
+        ],
+        [
+          "or",
+          [
+            "eq",
+            "condition",
+            "control"
+          ],
+          [
+            "eq",
+            "model",
+            "chatgpt-4o-latest"
+          ],
+          [
+            "isna",
+            "model"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "post_train",
+          "name": "post_train",
+          "base": "aa_control",
+          "full": false,
+          "rename": {
+            "condition_column": "condition",
+            "condition_value": "control",
+            "replacement": "aa_control"
+          }
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M023",
+      "study": 1,
+      "outcome": "value",
+      "select": [
+        "and",
+        [
+          "eq",
+          "d1.model",
+          "gpt-4o"
+        ],
+        [
+          "regex",
+          "d1.condition",
+          "control",
+          true
+        ]
+      ],
+      "features": [
+        {
+          "kind": "indicator",
+          "column": "d1.condition",
+          "value": "treat_dialogue",
+          "name": "dialogue"
+        },
+        {
+          "kind": "numeric",
+          "column": "_phase",
+          "name": "_phase",
+          "scale": false
+        },
+        {
+          "kind": "product",
+          "left": "dialogue",
+          "right": "_phase",
+          "name": "interaction"
+        }
+      ],
+      "intercept": true,
+      "parts": [
+        {
+          "outcome": "d1.post_average",
+          "phase": 0
+        },
+        {
+          "outcome": "d1.post_average_followup",
+          "phase": 1
+        }
+      ]
+    },
+    {
+      "id": "M024",
+      "study": 3,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "eq",
+          "model",
+          "gpt-4.5"
+        ],
+        [
+          "eq",
+          "post_train",
+          "base"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "indicator",
+          "column": "condition",
+          "value": "treatment-1",
+          "name": "dialogue"
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M025",
+      "study": 1,
+      "outcome": "d1.post_average",
+      "select": null,
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d1.models_vs_control",
+          "name": "d1.models_vs_control",
+          "base": "aa_control",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d1.pre_average",
+          "name": "d1.pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M026",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "or",
+        [
+          "isna",
+          "post_train"
+        ],
+        [
+          "eq",
+          "post_train",
+          "base"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "models_vs_control",
+          "name": "models_vs_control",
+          "base": "aa_control",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M027",
+      "study": 3,
+      "outcome": "post_average",
+      "select": [
+        "eq",
+        "post_train",
+        "base"
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "models_vs_control",
+          "name": "models_vs_control",
+          "base": "aa_control",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M028",
+      "study": 3,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "eq",
+          "condition",
+          "treatment-1"
+        ],
+        [
+          "regex",
+          "model",
+          "gpt-4o",
+          false
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "model",
+          "name": "model",
+          "base": "gpt-4o",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M029",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "eq",
+        "condition",
+        "treatment-1"
+      ],
+      "features": [
+        {
+          "kind": "contains",
+          "column": "post_train",
+          "value": "rm",
+          "name": "rm"
+        },
+        {
+          "kind": "contains",
+          "column": "post_train",
+          "value": "sft",
+          "name": "sft"
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M030",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "eq",
+        "condition",
+        "treatment-2"
+      ],
+      "features": [
+        {
+          "kind": "contains",
+          "column": "post_train",
+          "value": "rm",
+          "name": "rm"
+        },
+        {
+          "kind": "contains",
+          "column": "post_train",
+          "value": "sft",
+          "name": "sft"
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M031",
+      "study": 3,
+      "outcome": "post_average",
+      "select": [
+        "in",
+        "condition",
+        [
+          "treatment-1",
+          "treatment-2"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "contains",
+          "column": "post_train",
+          "value": "rm",
+          "name": "rm"
+        },
+        {
+          "kind": "contains",
+          "column": "post_train",
+          "value": "sft",
+          "name": "sft"
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M032",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "control"
+          ]
+        ],
+        [
+          "or",
+          [
+            "eq",
+            "condition",
+            "control"
+          ],
+          [
+            "eq",
+            "model",
+            "llama-3-1-8b"
+          ],
+          [
+            "isna",
+            "model"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "post_train",
+          "name": "post_train",
+          "base": "aa_control",
+          "full": false,
+          "rename": {
+            "condition_column": "condition",
+            "condition_value": "control",
+            "replacement": "aa_control"
+          }
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M033",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "control"
+          ]
+        ],
+        [
+          "or",
+          [
+            "eq",
+            "condition",
+            "control"
+          ],
+          [
+            "eq",
+            "model",
+            "llama-3-1-405b"
+          ],
+          [
+            "isna",
+            "model"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "post_train",
+          "name": "post_train",
+          "base": "aa_control",
+          "full": false,
+          "rename": {
+            "condition_column": "condition",
+            "condition_value": "control",
+            "replacement": "aa_control"
+          }
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M034",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-2",
+            "control"
+          ]
+        ],
+        [
+          "or",
+          [
+            "eq",
+            "condition",
+            "control"
+          ],
+          [
+            "eq",
+            "model",
+            "gpt-4.5"
+          ],
+          [
+            "isna",
+            "model"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "post_train",
+          "name": "post_train",
+          "base": "aa_control",
+          "full": false,
+          "rename": {
+            "condition_column": "condition",
+            "condition_value": "control",
+            "replacement": "aa_control"
+          }
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M035",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-2",
+            "control"
+          ]
+        ],
+        [
+          "or",
+          [
+            "eq",
+            "condition",
+            "control"
+          ],
+          [
+            "eq",
+            "model",
+            "gpt-3.5"
+          ],
+          [
+            "isna",
+            "model"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "post_train",
+          "name": "post_train",
+          "base": "aa_control",
+          "full": false,
+          "rename": {
+            "condition_column": "condition",
+            "condition_value": "control",
+            "replacement": "aa_control"
+          }
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M036",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-2",
+            "control"
+          ]
+        ],
+        [
+          "or",
+          [
+            "eq",
+            "condition",
+            "control"
+          ],
+          [
+            "eq",
+            "model",
+            "gpt-4o"
+          ],
+          [
+            "isna",
+            "model"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "post_train",
+          "name": "post_train",
+          "base": "aa_control",
+          "full": false,
+          "rename": {
+            "condition_column": "condition",
+            "condition_value": "control",
+            "replacement": "aa_control"
+          }
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M037",
+      "study": 3,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "control"
+          ]
+        ],
+        [
+          "or",
+          [
+            "eq",
+            "condition",
+            "control"
+          ],
+          [
+            "eq",
+            "model",
+            "gpt-4o"
+          ],
+          [
+            "isna",
+            "model"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "post_train",
+          "name": "post_train",
+          "base": "aa_control",
+          "full": false,
+          "rename": {
+            "condition_column": "condition",
+            "condition_value": "control",
+            "replacement": "aa_control"
+          }
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M038",
+      "study": 3,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-2",
+            "control"
+          ]
+        ],
+        [
+          "or",
+          [
+            "eq",
+            "condition",
+            "control"
+          ],
+          [
+            "eq",
+            "model",
+            "grok-3"
+          ],
+          [
+            "isna",
+            "model"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "post_train",
+          "name": "post_train",
+          "base": "aa_control",
+          "full": false,
+          "rename": {
+            "condition_column": "condition",
+            "condition_value": "control",
+            "replacement": "aa_control"
+          }
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M039",
+      "study": 3,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "control"
+          ]
+        ],
+        [
+          "or",
+          [
+            "eq",
+            "condition",
+            "control"
+          ],
+          [
+            "eq",
+            "model",
+            "gpt-4.5"
+          ],
+          [
+            "isna",
+            "model"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "post_train",
+          "name": "post_train",
+          "base": "aa_control",
+          "full": false,
+          "rename": {
+            "condition_column": "condition",
+            "condition_value": "control",
+            "replacement": "aa_control"
+          }
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M040",
+      "study": 3,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "control"
+          ]
+        ],
+        [
+          "or",
+          [
+            "eq",
+            "condition",
+            "control"
+          ],
+          [
+            "eq",
+            "model",
+            "chatgpt-4o-latest"
+          ],
+          [
+            "isna",
+            "model"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "post_train",
+          "name": "post_train",
+          "base": "aa_control",
+          "full": false,
+          "rename": {
+            "condition_column": "condition",
+            "condition_value": "control",
+            "replacement": "aa_control"
+          }
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M041",
+      "study": 3,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "eq",
+          "post_train",
+          "base"
+        ],
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "treatment-2"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "model",
+          "name": "model",
+          "base": "chatgpt-4o-latest",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M042",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "eq",
+        "condition",
+        "treatment-1"
+      ],
+      "features": [
+        {
+          "kind": "contains",
+          "column": "post_train",
+          "value": "rm",
+          "name": "rm"
+        },
+        {
+          "kind": "contains",
+          "column": "post_train",
+          "value": "sft",
+          "name": "sft"
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        },
+        {
+          "kind": "product",
+          "left": "rm",
+          "right": "sft",
+          "name": "rm*sft"
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M043",
+      "study": 1,
+      "outcome": "d1.post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "eq",
+          "d1.condition",
+          "treat_dialogue"
+        ],
+        [
+          "regex",
+          "d1.model",
+          "gpt|chat",
+          true
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d1.prompt_personalize",
+          "name": "d1.prompt_personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d1.pre_average",
+          "name": "d1.pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M044",
+      "study": 1,
+      "outcome": "d1.post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "eq",
+          "d1.condition",
+          "treat_dialogue"
+        ],
+        [
+          "regex",
+          "d1.model",
+          "gpt|chat",
+          false
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d1.prompt_personalize",
+          "name": "d1.prompt_personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d1.pre_average",
+          "name": "d1.pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M045",
+      "study": 1,
+      "outcome": "d2.post_average_imputed_with_pre",
+      "select": [
+        "eq",
+        "d2.condition",
+        "treatment"
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d2.prompt_personalize",
+          "name": "d2.prompt_personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d2.pre_average",
+          "name": "d2.pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M046",
+      "study": 2,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "treatment-3"
+          ]
+        ],
+        [
+          "or",
+          [
+            "isna",
+            "post_train"
+          ],
+          [
+            "eq",
+            "post_train",
+            "base"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "personalize",
+          "name": "personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M047",
+      "study": 2,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "eq",
+          "condition",
+          "treatment-1"
+        ],
+        [
+          "eq",
+          "post_train",
+          "rm"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "personalize",
+          "name": "personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M048",
+      "study": 2,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "eq",
+          "condition",
+          "treatment-1"
+        ],
+        [
+          "eq",
+          "post_train",
+          "sft"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "personalize",
+          "name": "personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M049",
+      "study": 2,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "eq",
+          "condition",
+          "treatment-1"
+        ],
+        [
+          "eq",
+          "post_train",
+          "sft_and_rm"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "personalize",
+          "name": "personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M050",
+      "study": 2,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "eq",
+          "condition",
+          "treatment-2"
+        ],
+        [
+          "eq",
+          "post_train",
+          "base"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "personalize",
+          "name": "personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M051",
+      "study": 3,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "treatment-2"
+          ]
+        ],
+        [
+          "eq",
+          "post_train",
+          "base"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "personalize",
+          "name": "personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M052",
+      "study": 2,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "eq",
+          "condition",
+          "treatment-2"
+        ],
+        [
+          "eq",
+          "post_train",
+          "rm"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "personalize",
+          "name": "personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M053",
+      "study": 3,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "treatment-2"
+          ]
+        ],
+        [
+          "eq",
+          "post_train",
+          "rm"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "personalize",
+          "name": "personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M054",
+      "study": 1,
+      "outcome": "d1.post_average",
+      "select": [
+        "and",
+        [
+          "eq",
+          "d1.condition",
+          "treat_dialogue"
+        ],
+        [
+          "regex",
+          "d1.model",
+          "gpt|chat",
+          true
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d1.prompt_personalize",
+          "name": "d1.prompt_personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d1.pre_average",
+          "name": "d1.pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M055",
+      "study": 1,
+      "outcome": "d1.post_average",
+      "select": [
+        "and",
+        [
+          "eq",
+          "d1.condition",
+          "treat_dialogue"
+        ],
+        [
+          "regex",
+          "d1.model",
+          "gpt|chat",
+          false
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d1.prompt_personalize",
+          "name": "d1.prompt_personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d1.pre_average",
+          "name": "d1.pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M056",
+      "study": 1,
+      "outcome": "d2.post_average",
+      "select": [
+        "eq",
+        "d2.condition",
+        "treatment"
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d2.prompt_personalize",
+          "name": "d2.prompt_personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d2.pre_average",
+          "name": "d2.pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M057",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "treatment-3"
+          ]
+        ],
+        [
+          "or",
+          [
+            "isna",
+            "post_train"
+          ],
+          [
+            "eq",
+            "post_train",
+            "base"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "personalize",
+          "name": "personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M058",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "eq",
+          "condition",
+          "treatment-1"
+        ],
+        [
+          "eq",
+          "post_train",
+          "rm"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "personalize",
+          "name": "personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M059",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "eq",
+          "condition",
+          "treatment-1"
+        ],
+        [
+          "eq",
+          "post_train",
+          "sft"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "personalize",
+          "name": "personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M060",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "eq",
+          "condition",
+          "treatment-1"
+        ],
+        [
+          "eq",
+          "post_train",
+          "sft_and_rm"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "personalize",
+          "name": "personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M061",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "eq",
+          "condition",
+          "treatment-2"
+        ],
+        [
+          "eq",
+          "post_train",
+          "base"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "personalize",
+          "name": "personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M062",
+      "study": 3,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "treatment-2"
+          ]
+        ],
+        [
+          "eq",
+          "post_train",
+          "base"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "personalize",
+          "name": "personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M063",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "eq",
+          "condition",
+          "treatment-2"
+        ],
+        [
+          "eq",
+          "post_train",
+          "rm"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "personalize",
+          "name": "personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M064",
+      "study": 3,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "treatment-2"
+          ]
+        ],
+        [
+          "eq",
+          "post_train",
+          "rm"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "personalize",
+          "name": "personalize",
+          "base": "generic",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M065",
+      "study": 1,
+      "outcome": "d1.post_average_imputed_with_pre",
+      "select": [
+        "eq",
+        "d1.condition",
+        "treat_dialogue"
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d1.prompt_rhetoric_id",
+          "name": "d1.prompt_rhetoric_id",
+          "base": "none",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d1.pre_average",
+          "name": "d1.pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M066",
+      "study": 1,
+      "outcome": "d1.post_average_imputed_with_pre",
+      "select": [
+        "eq",
+        "d1.condition",
+        "treat_dialogue"
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d1.prompt_rhetoric_id",
+          "name": "d1.prompt_rhetoric_id",
+          "base": null,
+          "full": true,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d1.pre_average",
+          "name": "d1.pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": false,
+      "parts": null
+    },
+    {
+      "id": "M067",
+      "study": 1,
+      "outcome": "d2.post_average_imputed_with_pre",
+      "select": [
+        "eq",
+        "d2.condition",
+        "treatment"
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d2.prompt_rhetoric_id",
+          "name": "d2.prompt_rhetoric_id",
+          "base": "none",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d2.pre_average",
+          "name": "d2.pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M068",
+      "study": 1,
+      "outcome": "d2.post_average_imputed_with_pre",
+      "select": [
+        "eq",
+        "d2.condition",
+        "treatment"
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d2.prompt_rhetoric_id",
+          "name": "d2.prompt_rhetoric_id",
+          "base": null,
+          "full": true,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d2.pre_average",
+          "name": "d2.pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": false,
+      "parts": null
+    },
+    {
+      "id": "M069",
+      "study": 2,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "treatment-2"
+          ]
+        ],
+        [
+          "in",
+          "post_train",
+          [
+            "base",
+            "rm"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "prompt_rhetoric_id",
+          "name": "prompt_rhetoric_id",
+          "base": "none",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M070",
+      "study": 2,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "treatment-2"
+          ]
+        ],
+        [
+          "in",
+          "post_train",
+          [
+            "base",
+            "rm"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "prompt_rhetoric_id",
+          "name": "prompt_rhetoric_id",
+          "base": null,
+          "full": true,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": false,
+      "parts": null
+    },
+    {
+      "id": "M071",
+      "study": 3,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "treatment-2"
+          ]
+        ],
+        [
+          "in",
+          "post_train",
+          [
+            "base",
+            "rm"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "prompt_rhetoric_id",
+          "name": "prompt_rhetoric_id",
+          "base": "none",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M072",
+      "study": 3,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "in",
+        "condition",
+        [
+          "treatment-1",
+          "treatment-2"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "prompt_rhetoric_id",
+          "name": "prompt_rhetoric_id",
+          "base": null,
+          "full": true,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": false,
+      "parts": null
+    },
+    {
+      "id": "M073",
+      "study": 1,
+      "outcome": "d1.post_average",
+      "select": [
+        "eq",
+        "d1.condition",
+        "treat_dialogue"
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d1.prompt_rhetoric_id",
+          "name": "d1.prompt_rhetoric_id",
+          "base": "none",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d1.pre_average",
+          "name": "d1.pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M074",
+      "study": 1,
+      "outcome": "d1.post_average",
+      "select": [
+        "eq",
+        "d1.condition",
+        "treat_dialogue"
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d1.prompt_rhetoric_id",
+          "name": "d1.prompt_rhetoric_id",
+          "base": null,
+          "full": true,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d1.pre_average",
+          "name": "d1.pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": false,
+      "parts": null
+    },
+    {
+      "id": "M075",
+      "study": 1,
+      "outcome": "d2.post_average",
+      "select": [
+        "eq",
+        "d2.condition",
+        "treatment"
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d2.prompt_rhetoric_id",
+          "name": "d2.prompt_rhetoric_id",
+          "base": "none",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d2.pre_average",
+          "name": "d2.pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M076",
+      "study": 1,
+      "outcome": "d2.post_average",
+      "select": [
+        "eq",
+        "d2.condition",
+        "treatment"
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "d2.prompt_rhetoric_id",
+          "name": "d2.prompt_rhetoric_id",
+          "base": null,
+          "full": true,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "d2.pre_average",
+          "name": "d2.pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": false,
+      "parts": null
+    },
+    {
+      "id": "M077",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "treatment-2"
+          ]
+        ],
+        [
+          "in",
+          "post_train",
+          [
+            "base",
+            "rm"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "prompt_rhetoric_id",
+          "name": "prompt_rhetoric_id",
+          "base": "none",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M078",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "treatment-2"
+          ]
+        ],
+        [
+          "in",
+          "post_train",
+          [
+            "base",
+            "rm"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "prompt_rhetoric_id",
+          "name": "prompt_rhetoric_id",
+          "base": null,
+          "full": true,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": false,
+      "parts": null
+    },
+    {
+      "id": "M079",
+      "study": 3,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "treatment-2"
+          ]
+        ],
+        [
+          "in",
+          "post_train",
+          [
+            "base",
+            "rm"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "prompt_rhetoric_id",
+          "name": "prompt_rhetoric_id",
+          "base": "none",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M080",
+      "study": 3,
+      "outcome": "post_average",
+      "select": [
+        "in",
+        "condition",
+        [
+          "treatment-1",
+          "treatment-2"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "prompt_rhetoric_id",
+          "name": "prompt_rhetoric_id",
+          "base": null,
+          "full": true,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": false,
+      "parts": null
+    },
+    {
+      "id": "M081",
+      "study": 2,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "and",
+          [
+            "in",
+            "condition",
+            [
+              "treatment-2",
+              "control"
+            ]
+          ],
+          [
+            "in",
+            "model",
+            [
+              "gpt-4o",
+              "gpt-4.5"
+            ]
+          ]
+        ],
+        [
+          "not_in",
+          "prompt_rhetoric_id",
+          [
+            "information"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "models_vs_control",
+          "name": "models_vs_control",
+          "base": "aa_control",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": [
+        {
+          "select": [
+            "and",
+            [
+              "and",
+              [
+                "in",
+                "condition",
+                [
+                  "treatment-2",
+                  "control"
+                ]
+              ],
+              [
+                "in",
+                "model",
+                [
+                  "gpt-4o",
+                  "gpt-4.5"
+                ]
+              ]
+            ],
+            [
+              "not_in",
+              "prompt_rhetoric_id",
+              [
+                "information"
+              ]
+            ]
+          ],
+          "outcome": "post_average_imputed_with_pre"
+        },
+        {
+          "select": [
+            "and",
+            [
+              "and",
+              [
+                "in",
+                "condition",
+                [
+                  "treatment-2",
+                  "control"
+                ]
+              ],
+              [
+                "in",
+                "model",
+                [
+                  "gpt-4o",
+                  "gpt-4.5"
+                ]
+              ]
+            ],
+            [
+              "eq",
+              "condition",
+              "control"
+            ]
+          ],
+          "outcome": "post_average_imputed_with_pre"
+        }
+      ]
+    },
+    {
+      "id": "M082",
+      "study": 2,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "and",
+          [
+            "in",
+            "condition",
+            [
+              "treatment-2",
+              "control"
+            ]
+          ],
+          [
+            "in",
+            "model",
+            [
+              "gpt-4o",
+              "gpt-4.5"
+            ]
+          ]
+        ],
+        [
+          "eq",
+          "prompt_rhetoric_id",
+          "information"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "models_vs_control",
+          "name": "models_vs_control",
+          "base": "aa_control",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": [
+        {
+          "select": [
+            "and",
+            [
+              "and",
+              [
+                "in",
+                "condition",
+                [
+                  "treatment-2",
+                  "control"
+                ]
+              ],
+              [
+                "in",
+                "model",
+                [
+                  "gpt-4o",
+                  "gpt-4.5"
+                ]
+              ]
+            ],
+            [
+              "eq",
+              "prompt_rhetoric_id",
+              "information"
+            ]
+          ],
+          "outcome": "post_average_imputed_with_pre"
+        },
+        {
+          "select": [
+            "and",
+            [
+              "and",
+              [
+                "in",
+                "condition",
+                [
+                  "treatment-2",
+                  "control"
+                ]
+              ],
+              [
+                "in",
+                "model",
+                [
+                  "gpt-4o",
+                  "gpt-4.5"
+                ]
+              ]
+            ],
+            [
+              "eq",
+              "condition",
+              "control"
+            ]
+          ],
+          "outcome": "post_average_imputed_with_pre"
+        }
+      ]
+    },
+    {
+      "id": "M083",
+      "study": 3,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "and",
+          [
+            "in",
+            "condition",
+            [
+              "treatment-1",
+              "treatment-2",
+              "control"
+            ]
+          ],
+          [
+            "in",
+            "model",
+            [
+              "gpt-4o",
+              "gpt-4.5",
+              "chatgpt-4o-latest",
+              "grok-3"
+            ]
+          ]
+        ],
+        [
+          "not_in",
+          "prompt_rhetoric_id",
+          [
+            "information"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "models_vs_control",
+          "name": "models_vs_control",
+          "base": "aa_control",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": [
+        {
+          "select": [
+            "and",
+            [
+              "and",
+              [
+                "in",
+                "condition",
+                [
+                  "treatment-1",
+                  "treatment-2",
+                  "control"
+                ]
+              ],
+              [
+                "in",
+                "model",
+                [
+                  "gpt-4o",
+                  "gpt-4.5",
+                  "chatgpt-4o-latest",
+                  "grok-3"
+                ]
+              ]
+            ],
+            [
+              "not_in",
+              "prompt_rhetoric_id",
+              [
+                "information"
+              ]
+            ]
+          ],
+          "outcome": "post_average_imputed_with_pre"
+        },
+        {
+          "select": [
+            "and",
+            [
+              "and",
+              [
+                "in",
+                "condition",
+                [
+                  "treatment-1",
+                  "treatment-2",
+                  "control"
+                ]
+              ],
+              [
+                "in",
+                "model",
+                [
+                  "gpt-4o",
+                  "gpt-4.5",
+                  "chatgpt-4o-latest",
+                  "grok-3"
+                ]
+              ]
+            ],
+            [
+              "eq",
+              "condition",
+              "control"
+            ]
+          ],
+          "outcome": "post_average_imputed_with_pre"
+        }
+      ]
+    },
+    {
+      "id": "M084",
+      "study": 3,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "and",
+          [
+            "in",
+            "condition",
+            [
+              "treatment-1",
+              "treatment-2",
+              "control"
+            ]
+          ],
+          [
+            "in",
+            "model",
+            [
+              "gpt-4o",
+              "gpt-4.5",
+              "chatgpt-4o-latest",
+              "grok-3"
+            ]
+          ]
+        ],
+        [
+          "eq",
+          "prompt_rhetoric_id",
+          "information"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "models_vs_control",
+          "name": "models_vs_control",
+          "base": "aa_control",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": [
+        {
+          "select": [
+            "and",
+            [
+              "and",
+              [
+                "in",
+                "condition",
+                [
+                  "treatment-1",
+                  "treatment-2",
+                  "control"
+                ]
+              ],
+              [
+                "in",
+                "model",
+                [
+                  "gpt-4o",
+                  "gpt-4.5",
+                  "chatgpt-4o-latest",
+                  "grok-3"
+                ]
+              ]
+            ],
+            [
+              "eq",
+              "prompt_rhetoric_id",
+              "information"
+            ]
+          ],
+          "outcome": "post_average_imputed_with_pre"
+        },
+        {
+          "select": [
+            "and",
+            [
+              "and",
+              [
+                "in",
+                "condition",
+                [
+                  "treatment-1",
+                  "treatment-2",
+                  "control"
+                ]
+              ],
+              [
+                "in",
+                "model",
+                [
+                  "gpt-4o",
+                  "gpt-4.5",
+                  "chatgpt-4o-latest",
+                  "grok-3"
+                ]
+              ]
+            ],
+            [
+              "eq",
+              "condition",
+              "control"
+            ]
+          ],
+          "outcome": "post_average_imputed_with_pre"
+        }
+      ]
+    },
+    {
+      "id": "M085",
+      "study": 3,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1"
+          ]
+        ],
+        [
+          "in",
+          "model",
+          [
+            "gpt-4o",
+            "chatgpt-4o-latest"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "indicator",
+          "column": "prompt_rhetoric_id",
+          "value": "information",
+          "name": "info"
+        },
+        {
+          "kind": "factor",
+          "column": "model",
+          "name": "model",
+          "base": "gpt-4o",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "product",
+          "left": "info",
+          "right": "model::chatgpt-4o-latest",
+          "name": "interaction"
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M086",
+      "study": 2,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-2"
+          ]
+        ],
+        [
+          "in",
+          "model",
+          [
+            "gpt-4o",
+            "gpt-4.5"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "indicator",
+          "column": "prompt_rhetoric_id",
+          "value": "information",
+          "name": "info"
+        },
+        {
+          "kind": "factor",
+          "column": "model",
+          "name": "model",
+          "base": "gpt-4o",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "product",
+          "left": "info",
+          "right": "model::gpt-4.5",
+          "name": "interaction"
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M087",
+      "study": 3,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1"
+          ]
+        ],
+        [
+          "in",
+          "model",
+          [
+            "gpt-4o",
+            "gpt-4.5"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "indicator",
+          "column": "prompt_rhetoric_id",
+          "value": "information",
+          "name": "info"
+        },
+        {
+          "kind": "factor",
+          "column": "model",
+          "name": "model",
+          "base": "gpt-4o",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "product",
+          "left": "info",
+          "right": "model::gpt-4.5",
+          "name": "interaction"
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M088",
+      "study": 3,
+      "outcome": "post_average_imputed_with_pre",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "treatment-2"
+          ]
+        ],
+        [
+          "in",
+          "model",
+          [
+            "gpt-4o",
+            "grok-3"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "indicator",
+          "column": "prompt_rhetoric_id",
+          "value": "information",
+          "name": "info"
+        },
+        {
+          "kind": "factor",
+          "column": "model",
+          "name": "model",
+          "base": "gpt-4o",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "product",
+          "left": "info",
+          "right": "model::grok-3",
+          "name": "interaction"
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M089",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "and",
+          [
+            "in",
+            "condition",
+            [
+              "treatment-2",
+              "control"
+            ]
+          ],
+          [
+            "in",
+            "model",
+            [
+              "gpt-4o",
+              "gpt-4.5"
+            ]
+          ]
+        ],
+        [
+          "not_in",
+          "prompt_rhetoric_id",
+          [
+            "information"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "models_vs_control",
+          "name": "models_vs_control",
+          "base": "aa_control",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": [
+        {
+          "select": [
+            "and",
+            [
+              "and",
+              [
+                "in",
+                "condition",
+                [
+                  "treatment-2",
+                  "control"
+                ]
+              ],
+              [
+                "in",
+                "model",
+                [
+                  "gpt-4o",
+                  "gpt-4.5"
+                ]
+              ]
+            ],
+            [
+              "not_in",
+              "prompt_rhetoric_id",
+              [
+                "information"
+              ]
+            ]
+          ],
+          "outcome": "post_average"
+        },
+        {
+          "select": [
+            "and",
+            [
+              "and",
+              [
+                "in",
+                "condition",
+                [
+                  "treatment-2",
+                  "control"
+                ]
+              ],
+              [
+                "in",
+                "model",
+                [
+                  "gpt-4o",
+                  "gpt-4.5"
+                ]
+              ]
+            ],
+            [
+              "eq",
+              "condition",
+              "control"
+            ]
+          ],
+          "outcome": "post_average"
+        }
+      ]
+    },
+    {
+      "id": "M090",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "and",
+          [
+            "in",
+            "condition",
+            [
+              "treatment-2",
+              "control"
+            ]
+          ],
+          [
+            "in",
+            "model",
+            [
+              "gpt-4o",
+              "gpt-4.5"
+            ]
+          ]
+        ],
+        [
+          "eq",
+          "prompt_rhetoric_id",
+          "information"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "models_vs_control",
+          "name": "models_vs_control",
+          "base": "aa_control",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": [
+        {
+          "select": [
+            "and",
+            [
+              "and",
+              [
+                "in",
+                "condition",
+                [
+                  "treatment-2",
+                  "control"
+                ]
+              ],
+              [
+                "in",
+                "model",
+                [
+                  "gpt-4o",
+                  "gpt-4.5"
+                ]
+              ]
+            ],
+            [
+              "eq",
+              "prompt_rhetoric_id",
+              "information"
+            ]
+          ],
+          "outcome": "post_average"
+        },
+        {
+          "select": [
+            "and",
+            [
+              "and",
+              [
+                "in",
+                "condition",
+                [
+                  "treatment-2",
+                  "control"
+                ]
+              ],
+              [
+                "in",
+                "model",
+                [
+                  "gpt-4o",
+                  "gpt-4.5"
+                ]
+              ]
+            ],
+            [
+              "eq",
+              "condition",
+              "control"
+            ]
+          ],
+          "outcome": "post_average"
+        }
+      ]
+    },
+    {
+      "id": "M091",
+      "study": 3,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "and",
+          [
+            "in",
+            "condition",
+            [
+              "treatment-1",
+              "treatment-2",
+              "control"
+            ]
+          ],
+          [
+            "in",
+            "model",
+            [
+              "gpt-4o",
+              "gpt-4.5",
+              "chatgpt-4o-latest",
+              "grok-3"
+            ]
+          ]
+        ],
+        [
+          "not_in",
+          "prompt_rhetoric_id",
+          [
+            "information"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "models_vs_control",
+          "name": "models_vs_control",
+          "base": "aa_control",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": [
+        {
+          "select": [
+            "and",
+            [
+              "and",
+              [
+                "in",
+                "condition",
+                [
+                  "treatment-1",
+                  "treatment-2",
+                  "control"
+                ]
+              ],
+              [
+                "in",
+                "model",
+                [
+                  "gpt-4o",
+                  "gpt-4.5",
+                  "chatgpt-4o-latest",
+                  "grok-3"
+                ]
+              ]
+            ],
+            [
+              "not_in",
+              "prompt_rhetoric_id",
+              [
+                "information"
+              ]
+            ]
+          ],
+          "outcome": "post_average"
+        },
+        {
+          "select": [
+            "and",
+            [
+              "and",
+              [
+                "in",
+                "condition",
+                [
+                  "treatment-1",
+                  "treatment-2",
+                  "control"
+                ]
+              ],
+              [
+                "in",
+                "model",
+                [
+                  "gpt-4o",
+                  "gpt-4.5",
+                  "chatgpt-4o-latest",
+                  "grok-3"
+                ]
+              ]
+            ],
+            [
+              "eq",
+              "condition",
+              "control"
+            ]
+          ],
+          "outcome": "post_average"
+        }
+      ]
+    },
+    {
+      "id": "M092",
+      "study": 3,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "and",
+          [
+            "in",
+            "condition",
+            [
+              "treatment-1",
+              "treatment-2",
+              "control"
+            ]
+          ],
+          [
+            "in",
+            "model",
+            [
+              "gpt-4o",
+              "gpt-4.5",
+              "chatgpt-4o-latest",
+              "grok-3"
+            ]
+          ]
+        ],
+        [
+          "eq",
+          "prompt_rhetoric_id",
+          "information"
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "models_vs_control",
+          "name": "models_vs_control",
+          "base": "aa_control",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": true
+        }
+      ],
+      "intercept": true,
+      "parts": [
+        {
+          "select": [
+            "and",
+            [
+              "and",
+              [
+                "in",
+                "condition",
+                [
+                  "treatment-1",
+                  "treatment-2",
+                  "control"
+                ]
+              ],
+              [
+                "in",
+                "model",
+                [
+                  "gpt-4o",
+                  "gpt-4.5",
+                  "chatgpt-4o-latest",
+                  "grok-3"
+                ]
+              ]
+            ],
+            [
+              "eq",
+              "prompt_rhetoric_id",
+              "information"
+            ]
+          ],
+          "outcome": "post_average"
+        },
+        {
+          "select": [
+            "and",
+            [
+              "and",
+              [
+                "in",
+                "condition",
+                [
+                  "treatment-1",
+                  "treatment-2",
+                  "control"
+                ]
+              ],
+              [
+                "in",
+                "model",
+                [
+                  "gpt-4o",
+                  "gpt-4.5",
+                  "chatgpt-4o-latest",
+                  "grok-3"
+                ]
+              ]
+            ],
+            [
+              "eq",
+              "condition",
+              "control"
+            ]
+          ],
+          "outcome": "post_average"
+        }
+      ]
+    },
+    {
+      "id": "M093",
+      "study": 3,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1"
+          ]
+        ],
+        [
+          "in",
+          "model",
+          [
+            "gpt-4o",
+            "chatgpt-4o-latest"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "indicator",
+          "column": "prompt_rhetoric_id",
+          "value": "information",
+          "name": "info"
+        },
+        {
+          "kind": "factor",
+          "column": "model",
+          "name": "model",
+          "base": "gpt-4o",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "product",
+          "left": "info",
+          "right": "model::chatgpt-4o-latest",
+          "name": "interaction"
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M094",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-2"
+          ]
+        ],
+        [
+          "in",
+          "model",
+          [
+            "gpt-4o",
+            "gpt-4.5"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "indicator",
+          "column": "prompt_rhetoric_id",
+          "value": "information",
+          "name": "info"
+        },
+        {
+          "kind": "factor",
+          "column": "model",
+          "name": "model",
+          "base": "gpt-4o",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "product",
+          "left": "info",
+          "right": "model::gpt-4.5",
+          "name": "interaction"
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M095",
+      "study": 3,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1"
+          ]
+        ],
+        [
+          "in",
+          "model",
+          [
+            "gpt-4o",
+            "gpt-4.5"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "indicator",
+          "column": "prompt_rhetoric_id",
+          "value": "information",
+          "name": "info"
+        },
+        {
+          "kind": "factor",
+          "column": "model",
+          "name": "model",
+          "base": "gpt-4o",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "product",
+          "left": "info",
+          "right": "model::gpt-4.5",
+          "name": "interaction"
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M096",
+      "study": 3,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "in",
+          "condition",
+          [
+            "treatment-1",
+            "treatment-2"
+          ]
+        ],
+        [
+          "in",
+          "model",
+          [
+            "gpt-4o",
+            "grok-3"
+          ]
+        ]
+      ],
+      "features": [
+        {
+          "kind": "indicator",
+          "column": "prompt_rhetoric_id",
+          "value": "information",
+          "name": "info"
+        },
+        {
+          "kind": "factor",
+          "column": "model",
+          "name": "model",
+          "base": "gpt-4o",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "product",
+          "left": "info",
+          "right": "model::grok-3",
+          "name": "interaction"
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    },
+    {
+      "id": "M097",
+      "study": 2,
+      "outcome": "post_average",
+      "select": [
+        "and",
+        [
+          "regex",
+          "model",
+          "405b",
+          false
+        ],
+        [
+          "regex",
+          "prompt_rhetoric_id",
+          "information",
+          false
+        ]
+      ],
+      "features": [
+        {
+          "kind": "factor",
+          "column": "prompt_rhetoric_id",
+          "name": "prompt_rhetoric_id",
+          "base": "information",
+          "full": false,
+          "rename": null
+        },
+        {
+          "kind": "numeric",
+          "column": "pre_average",
+          "name": "pre_average",
+          "scale": false
+        }
+      ],
+      "intercept": true,
+      "parts": null
+    }
+  ],
+  "recipes": [
+    {
+      "table": 1,
+      "label": "GPT-4o (8/24)",
+      "suffix": "S1 chat 1 0",
+      "kind": "model",
+      "model": "M001",
+      "term": "d1.models_vs_control::gpt-4o"
+    },
+    {
+      "table": 1,
+      "label": "Static message",
+      "suffix": "S1 chat 1 0",
+      "kind": "model",
+      "model": "M001",
+      "term": "d1.models_vs_control::treat_static"
+    },
+    {
+      "table": 1,
+      "label": "GPT-4o (8/24)",
+      "suffix": "S1 chat 2 0",
+      "kind": "model",
+      "model": "M002",
+      "term": "d2.condition::treatment"
+    },
+    {
+      "table": 1,
+      "label": "GPT-4o (8/24)",
+      "suffix": "S1 chat 1 1",
+      "kind": "model",
+      "model": "M003",
+      "term": "d1.models_vs_control::gpt-4o"
+    },
+    {
+      "table": 1,
+      "label": "Static message",
+      "suffix": "S1 chat 1 1",
+      "kind": "model",
+      "model": "M003",
+      "term": "d1.models_vs_control::treat_static"
+    },
+    {
+      "table": 1,
+      "label": "GPT-4o (8/24)",
+      "suffix": "S1 chat 2 1",
+      "kind": "model",
+      "model": "M004",
+      "term": "d2.condition::treatment"
+    },
+    {
+      "table": 2,
+      "label": "dialogue (vs. static)",
+      "suffix": "",
+      "kind": "model",
+      "model": "M005",
+      "term": "dialogue"
+    },
+    {
+      "table": 2,
+      "label": "time",
+      "suffix": "",
+      "kind": "model",
+      "model": "M005",
+      "term": "_phase"
+    },
+    {
+      "table": 2,
+      "label": "dialogue (vs. static) x time",
+      "suffix": "",
+      "kind": "model",
+      "model": "M005",
+      "term": "interaction"
+    },
+    {
+      "table": 4,
+      "label": "dialogue (vs. static)",
+      "suffix": "",
+      "kind": "model",
+      "model": "M006",
+      "term": "dialogue"
+    },
+    {
+      "table": 6,
+      "label": "Llama3.1-405b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M007",
+      "term": "d1.models_vs_control::llama-3-1-405b"
+    },
+    {
+      "table": 6,
+      "label": "Qwen-1-5-1-8b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M007",
+      "term": "d1.models_vs_control::qwen-1-5-1-8b"
+    },
+    {
+      "table": 6,
+      "label": "Qwen-1-5-0-5b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M007",
+      "term": "d1.models_vs_control::qwen-1-5-0-5b"
+    },
+    {
+      "table": 6,
+      "label": "Qwen-1-5-72b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M007",
+      "term": "d1.models_vs_control::qwen-1-5-72b"
+    },
+    {
+      "table": 6,
+      "label": "llama-3-1-70b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M007",
+      "term": "d1.models_vs_control::llama-3-1-70b"
+    },
+    {
+      "table": 6,
+      "label": "Qwen-1-5-4b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M007",
+      "term": "d1.models_vs_control::qwen-1-5-4b"
+    },
+    {
+      "table": 6,
+      "label": "GPT-4o (8/24)",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M007",
+      "term": "d1.models_vs_control::gpt-4o"
+    },
+    {
+      "table": 6,
+      "label": "Qwen-1-5-32b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M007",
+      "term": "d1.models_vs_control::qwen-1-5-32b"
+    },
+    {
+      "table": 6,
+      "label": "Qwen-1-5-14b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M007",
+      "term": "d1.models_vs_control::qwen-1-5-14b"
+    },
+    {
+      "table": 6,
+      "label": "Qwen-1-5-72b-chat",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M007",
+      "term": "d1.models_vs_control::qwen-1-5-72b-chat"
+    },
+    {
+      "table": 6,
+      "label": "Qwen-1-5-110b-chat",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M007",
+      "term": "d1.models_vs_control::qwen-1-5-110b-chat"
+    },
+    {
+      "table": 6,
+      "label": "Llama3.1-8b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M007",
+      "term": "d1.models_vs_control::llama-3-1-8b"
+    },
+    {
+      "table": 6,
+      "label": "Qwen-1-5-7b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M007",
+      "term": "d1.models_vs_control::qwen-1-5-7b"
+    },
+    {
+      "table": 6,
+      "label": "Llama3.1-8b",
+      "suffix": "2",
+      "kind": "model",
+      "model": "M008",
+      "term": "models_vs_control::llama-3-1-8b"
+    },
+    {
+      "table": 6,
+      "label": "Llama3.1-405b",
+      "suffix": "2",
+      "kind": "model",
+      "model": "M008",
+      "term": "models_vs_control::llama-3-1-405b"
+    },
+    {
+      "table": 6,
+      "label": "GPT-4.5",
+      "suffix": "2",
+      "kind": "model",
+      "model": "M008",
+      "term": "models_vs_control::gpt-4.5"
+    },
+    {
+      "table": 6,
+      "label": "GPT-3.5",
+      "suffix": "2",
+      "kind": "model",
+      "model": "M008",
+      "term": "models_vs_control::gpt-3.5"
+    },
+    {
+      "table": 6,
+      "label": "GPT-4o (8/24)",
+      "suffix": "2",
+      "kind": "model",
+      "model": "M008",
+      "term": "models_vs_control::gpt-4o"
+    },
+    {
+      "table": 6,
+      "label": "GPT-4o (8/24)",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M009",
+      "term": "models_vs_control::gpt-4o"
+    },
+    {
+      "table": 6,
+      "label": "Grok-3",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M009",
+      "term": "models_vs_control::grok-3"
+    },
+    {
+      "table": 6,
+      "label": "GPT-4.5",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M009",
+      "term": "models_vs_control::gpt-4.5"
+    },
+    {
+      "table": 6,
+      "label": "GPT-4o (3/25)",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M009",
+      "term": "models_vs_control::chatgpt-4o-latest"
+    },
+    {
+      "table": 22,
+      "label": "GPT-4o (3/25)",
+      "suffix": "",
+      "kind": "model",
+      "model": "M010",
+      "term": "model::chatgpt-4o-latest"
+    },
+    {
+      "table": 30,
+      "label": "RM",
+      "suffix": "2 chat-tuned",
+      "kind": "model",
+      "model": "M011",
+      "term": "rm"
+    },
+    {
+      "table": 30,
+      "label": "SFT",
+      "suffix": "2 chat-tuned",
+      "kind": "model",
+      "model": "M011",
+      "term": "sft"
+    },
+    {
+      "table": 30,
+      "label": "RM",
+      "suffix": "2 developer",
+      "kind": "model",
+      "model": "M012",
+      "term": "rm"
+    },
+    {
+      "table": 30,
+      "label": "RM",
+      "suffix": "3 developer",
+      "kind": "model",
+      "model": "M013",
+      "term": "rm"
+    },
+    {
+      "table": 32,
+      "label": "",
+      "suffix": "",
+      "kind": "meta",
+      "model": "FE001"
+    },
+    {
+      "table": 34,
+      "label": "RM",
+      "suffix": "2 Llama3.1-8b",
+      "kind": "model",
+      "model": "M014",
+      "term": "post_train::rm"
+    },
+    {
+      "table": 34,
+      "label": "Base",
+      "suffix": "2 Llama3.1-8b",
+      "kind": "model",
+      "model": "M014",
+      "term": "post_train::base"
+    },
+    {
+      "table": 34,
+      "label": "SFT",
+      "suffix": "2 Llama3.1-8b",
+      "kind": "model",
+      "model": "M014",
+      "term": "post_train::sft"
+    },
+    {
+      "table": 34,
+      "label": "SFT + RM",
+      "suffix": "2 Llama3.1-8b",
+      "kind": "model",
+      "model": "M014",
+      "term": "post_train::sft_and_rm"
+    },
+    {
+      "table": 34,
+      "label": "RM",
+      "suffix": "2 Llama3.1-405b",
+      "kind": "model",
+      "model": "M015",
+      "term": "post_train::rm"
+    },
+    {
+      "table": 34,
+      "label": "SFT",
+      "suffix": "2 Llama3.1-405b",
+      "kind": "model",
+      "model": "M015",
+      "term": "post_train::sft"
+    },
+    {
+      "table": 34,
+      "label": "Base",
+      "suffix": "2 Llama3.1-405b",
+      "kind": "model",
+      "model": "M015",
+      "term": "post_train::base"
+    },
+    {
+      "table": 34,
+      "label": "SFT + RM",
+      "suffix": "2 Llama3.1-405b",
+      "kind": "model",
+      "model": "M015",
+      "term": "post_train::sft_and_rm"
+    },
+    {
+      "table": 34,
+      "label": "Base",
+      "suffix": "2 GPT-4.5",
+      "kind": "model",
+      "model": "M016",
+      "term": "post_train::base"
+    },
+    {
+      "table": 34,
+      "label": "RM",
+      "suffix": "2 GPT-4.5",
+      "kind": "model",
+      "model": "M016",
+      "term": "post_train::rm"
+    },
+    {
+      "table": 34,
+      "label": "RM",
+      "suffix": "2 GPT-3.5",
+      "kind": "model",
+      "model": "M017",
+      "term": "post_train::rm"
+    },
+    {
+      "table": 34,
+      "label": "Base",
+      "suffix": "2 GPT-3.5",
+      "kind": "model",
+      "model": "M017",
+      "term": "post_train::base"
+    },
+    {
+      "table": 34,
+      "label": "Base",
+      "suffix": "2 GPT-4o (8/24)",
+      "kind": "model",
+      "model": "M018",
+      "term": "post_train::base"
+    },
+    {
+      "table": 34,
+      "label": "RM",
+      "suffix": "2 GPT-4o (8/24)",
+      "kind": "model",
+      "model": "M018",
+      "term": "post_train::rm"
+    },
+    {
+      "table": 34,
+      "label": "RM",
+      "suffix": "3 GPT-4o (8/24)",
+      "kind": "model",
+      "model": "M019",
+      "term": "post_train::rm"
+    },
+    {
+      "table": 34,
+      "label": "Base",
+      "suffix": "3 GPT-4o (8/24)",
+      "kind": "model",
+      "model": "M019",
+      "term": "post_train::base"
+    },
+    {
+      "table": 34,
+      "label": "Base",
+      "suffix": "3 Grok-3",
+      "kind": "model",
+      "model": "M020",
+      "term": "post_train::base"
+    },
+    {
+      "table": 34,
+      "label": "RM",
+      "suffix": "3 Grok-3",
+      "kind": "model",
+      "model": "M020",
+      "term": "post_train::rm"
+    },
+    {
+      "table": 34,
+      "label": "RM",
+      "suffix": "3 GPT-4.5",
+      "kind": "model",
+      "model": "M021",
+      "term": "post_train::rm"
+    },
+    {
+      "table": 34,
+      "label": "Base",
+      "suffix": "3 GPT-4.5",
+      "kind": "model",
+      "model": "M021",
+      "term": "post_train::base"
+    },
+    {
+      "table": 34,
+      "label": "Base",
+      "suffix": "3 GPT-4o (3/25)",
+      "kind": "model",
+      "model": "M022",
+      "term": "post_train::base"
+    },
+    {
+      "table": 34,
+      "label": "RM",
+      "suffix": "3 GPT-4o (3/25)",
+      "kind": "model",
+      "model": "M022",
+      "term": "post_train::rm"
+    },
+    {
+      "table": 3,
+      "label": "dialogue (vs. static)",
+      "suffix": "",
+      "kind": "model",
+      "model": "M023",
+      "term": "dialogue"
+    },
+    {
+      "table": 3,
+      "label": "time",
+      "suffix": "",
+      "kind": "model",
+      "model": "M023",
+      "term": "_phase"
+    },
+    {
+      "table": 3,
+      "label": "dialogue (vs. static) x time",
+      "suffix": "",
+      "kind": "model",
+      "model": "M023",
+      "term": "interaction"
+    },
+    {
+      "table": 5,
+      "label": "dialogue (vs. static)",
+      "suffix": "",
+      "kind": "model",
+      "model": "M024",
+      "term": "dialogue"
+    },
+    {
+      "table": 7,
+      "label": "Llama3.1-405b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M025",
+      "term": "d1.models_vs_control::llama-3-1-405b"
+    },
+    {
+      "table": 7,
+      "label": "Qwen-1-5-1-8b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M025",
+      "term": "d1.models_vs_control::qwen-1-5-1-8b"
+    },
+    {
+      "table": 7,
+      "label": "Qwen-1-5-0-5b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M025",
+      "term": "d1.models_vs_control::qwen-1-5-0-5b"
+    },
+    {
+      "table": 7,
+      "label": "Qwen-1-5-72b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M025",
+      "term": "d1.models_vs_control::qwen-1-5-72b"
+    },
+    {
+      "table": 7,
+      "label": "llama-3-1-70b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M025",
+      "term": "d1.models_vs_control::llama-3-1-70b"
+    },
+    {
+      "table": 7,
+      "label": "Qwen-1-5-4b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M025",
+      "term": "d1.models_vs_control::qwen-1-5-4b"
+    },
+    {
+      "table": 7,
+      "label": "GPT-4o (8/24)",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M025",
+      "term": "d1.models_vs_control::gpt-4o"
+    },
+    {
+      "table": 7,
+      "label": "Qwen-1-5-32b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M025",
+      "term": "d1.models_vs_control::qwen-1-5-32b"
+    },
+    {
+      "table": 7,
+      "label": "Qwen-1-5-14b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M025",
+      "term": "d1.models_vs_control::qwen-1-5-14b"
+    },
+    {
+      "table": 7,
+      "label": "Qwen-1-5-72b-chat",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M025",
+      "term": "d1.models_vs_control::qwen-1-5-72b-chat"
+    },
+    {
+      "table": 7,
+      "label": "Qwen-1-5-110b-chat",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M025",
+      "term": "d1.models_vs_control::qwen-1-5-110b-chat"
+    },
+    {
+      "table": 7,
+      "label": "Llama3.1-8b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M025",
+      "term": "d1.models_vs_control::llama-3-1-8b"
+    },
+    {
+      "table": 7,
+      "label": "Qwen-1-5-7b",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M025",
+      "term": "d1.models_vs_control::qwen-1-5-7b"
+    },
+    {
+      "table": 7,
+      "label": "Llama3.1-8b",
+      "suffix": "2",
+      "kind": "model",
+      "model": "M026",
+      "term": "models_vs_control::llama-3-1-8b"
+    },
+    {
+      "table": 7,
+      "label": "Llama3.1-405b",
+      "suffix": "2",
+      "kind": "model",
+      "model": "M026",
+      "term": "models_vs_control::llama-3-1-405b"
+    },
+    {
+      "table": 7,
+      "label": "GPT-4.5",
+      "suffix": "2",
+      "kind": "model",
+      "model": "M026",
+      "term": "models_vs_control::gpt-4.5"
+    },
+    {
+      "table": 7,
+      "label": "GPT-3.5",
+      "suffix": "2",
+      "kind": "model",
+      "model": "M026",
+      "term": "models_vs_control::gpt-3.5"
+    },
+    {
+      "table": 7,
+      "label": "GPT-4o (8/24)",
+      "suffix": "2",
+      "kind": "model",
+      "model": "M026",
+      "term": "models_vs_control::gpt-4o"
+    },
+    {
+      "table": 7,
+      "label": "GPT-4o (8/24)",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M027",
+      "term": "models_vs_control::gpt-4o"
+    },
+    {
+      "table": 7,
+      "label": "Grok-3",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M027",
+      "term": "models_vs_control::grok-3"
+    },
+    {
+      "table": 7,
+      "label": "GPT-4.5",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M027",
+      "term": "models_vs_control::gpt-4.5"
+    },
+    {
+      "table": 7,
+      "label": "GPT-4o (3/25)",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M027",
+      "term": "models_vs_control::chatgpt-4o-latest"
+    },
+    {
+      "table": 23,
+      "label": "GPT-4o (3/25)",
+      "suffix": "",
+      "kind": "model",
+      "model": "M028",
+      "term": "model::chatgpt-4o-latest"
+    },
+    {
+      "table": 31,
+      "label": "RM",
+      "suffix": "2 chat-tuned",
+      "kind": "model",
+      "model": "M029",
+      "term": "rm"
+    },
+    {
+      "table": 31,
+      "label": "SFT",
+      "suffix": "2 chat-tuned",
+      "kind": "model",
+      "model": "M029",
+      "term": "sft"
+    },
+    {
+      "table": 31,
+      "label": "RM",
+      "suffix": "2 developer",
+      "kind": "model",
+      "model": "M030",
+      "term": "rm"
+    },
+    {
+      "table": 31,
+      "label": "RM",
+      "suffix": "3 developer",
+      "kind": "model",
+      "model": "M031",
+      "term": "rm"
+    },
+    {
+      "table": 33,
+      "label": "",
+      "suffix": "",
+      "kind": "meta",
+      "model": "FE002"
+    },
+    {
+      "table": 35,
+      "label": "RM",
+      "suffix": "2 Llama3.1-8b",
+      "kind": "model",
+      "model": "M032",
+      "term": "post_train::rm"
+    },
+    {
+      "table": 35,
+      "label": "Base",
+      "suffix": "2 Llama3.1-8b",
+      "kind": "model",
+      "model": "M032",
+      "term": "post_train::base"
+    },
+    {
+      "table": 35,
+      "label": "SFT",
+      "suffix": "2 Llama3.1-8b",
+      "kind": "model",
+      "model": "M032",
+      "term": "post_train::sft"
+    },
+    {
+      "table": 35,
+      "label": "SFT + RM",
+      "suffix": "2 Llama3.1-8b",
+      "kind": "model",
+      "model": "M032",
+      "term": "post_train::sft_and_rm"
+    },
+    {
+      "table": 35,
+      "label": "RM",
+      "suffix": "2 Llama3.1-405b",
+      "kind": "model",
+      "model": "M033",
+      "term": "post_train::rm"
+    },
+    {
+      "table": 35,
+      "label": "SFT",
+      "suffix": "2 Llama3.1-405b",
+      "kind": "model",
+      "model": "M033",
+      "term": "post_train::sft"
+    },
+    {
+      "table": 35,
+      "label": "Base",
+      "suffix": "2 Llama3.1-405b",
+      "kind": "model",
+      "model": "M033",
+      "term": "post_train::base"
+    },
+    {
+      "table": 35,
+      "label": "SFT + RM",
+      "suffix": "2 Llama3.1-405b",
+      "kind": "model",
+      "model": "M033",
+      "term": "post_train::sft_and_rm"
+    },
+    {
+      "table": 35,
+      "label": "Base",
+      "suffix": "2 GPT-4.5",
+      "kind": "model",
+      "model": "M034",
+      "term": "post_train::base"
+    },
+    {
+      "table": 35,
+      "label": "RM",
+      "suffix": "2 GPT-4.5",
+      "kind": "model",
+      "model": "M034",
+      "term": "post_train::rm"
+    },
+    {
+      "table": 35,
+      "label": "RM",
+      "suffix": "2 GPT-3.5",
+      "kind": "model",
+      "model": "M035",
+      "term": "post_train::rm"
+    },
+    {
+      "table": 35,
+      "label": "Base",
+      "suffix": "2 GPT-3.5",
+      "kind": "model",
+      "model": "M035",
+      "term": "post_train::base"
+    },
+    {
+      "table": 35,
+      "label": "Base",
+      "suffix": "2 GPT-4o (8/24)",
+      "kind": "model",
+      "model": "M036",
+      "term": "post_train::base"
+    },
+    {
+      "table": 35,
+      "label": "RM",
+      "suffix": "2 GPT-4o (8/24)",
+      "kind": "model",
+      "model": "M036",
+      "term": "post_train::rm"
+    },
+    {
+      "table": 35,
+      "label": "RM",
+      "suffix": "3 GPT-4o (8/24)",
+      "kind": "model",
+      "model": "M037",
+      "term": "post_train::rm"
+    },
+    {
+      "table": 35,
+      "label": "Base",
+      "suffix": "3 GPT-4o (8/24)",
+      "kind": "model",
+      "model": "M037",
+      "term": "post_train::base"
+    },
+    {
+      "table": 35,
+      "label": "Base",
+      "suffix": "3 Grok-3",
+      "kind": "model",
+      "model": "M038",
+      "term": "post_train::base"
+    },
+    {
+      "table": 35,
+      "label": "RM",
+      "suffix": "3 Grok-3",
+      "kind": "model",
+      "model": "M038",
+      "term": "post_train::rm"
+    },
+    {
+      "table": 35,
+      "label": "RM",
+      "suffix": "3 GPT-4.5",
+      "kind": "model",
+      "model": "M039",
+      "term": "post_train::rm"
+    },
+    {
+      "table": 35,
+      "label": "Base",
+      "suffix": "3 GPT-4.5",
+      "kind": "model",
+      "model": "M039",
+      "term": "post_train::base"
+    },
+    {
+      "table": 35,
+      "label": "Base",
+      "suffix": "3 GPT-4o (3/25)",
+      "kind": "model",
+      "model": "M040",
+      "term": "post_train::base"
+    },
+    {
+      "table": 35,
+      "label": "RM",
+      "suffix": "3 GPT-4o (3/25)",
+      "kind": "model",
+      "model": "M040",
+      "term": "post_train::rm"
+    },
+    {
+      "table": 24,
+      "label": "GPT-4.5",
+      "suffix": "",
+      "kind": "model",
+      "model": "M041",
+      "term": "model::gpt-4.5"
+    },
+    {
+      "table": 24,
+      "label": "GPT-4o (8/24)",
+      "suffix": "",
+      "kind": "model",
+      "model": "M041",
+      "term": "model::gpt-4o"
+    },
+    {
+      "table": 24,
+      "label": "Grok-3",
+      "suffix": "",
+      "kind": "model",
+      "model": "M041",
+      "term": "model::grok-3"
+    },
+    {
+      "table": 25,
+      "label": "(Intercept)",
+      "suffix": "",
+      "kind": "model",
+      "model": "M042",
+      "term": "Intercept"
+    },
+    {
+      "table": 25,
+      "label": "RM",
+      "suffix": "",
+      "kind": "model",
+      "model": "M042",
+      "term": "rm"
+    },
+    {
+      "table": 25,
+      "label": "SFT",
+      "suffix": "",
+      "kind": "model",
+      "model": "M042",
+      "term": "sft"
+    },
+    {
+      "table": 25,
+      "label": "pre_average",
+      "suffix": "",
+      "kind": "model",
+      "model": "M042",
+      "term": "pre_average"
+    },
+    {
+      "table": 25,
+      "label": "RM x SFT",
+      "suffix": "",
+      "kind": "model",
+      "model": "M042",
+      "term": "rm*sft"
+    },
+    {
+      "table": 36,
+      "label": "",
+      "suffix": "1 chat-tuned Base",
+      "kind": "model",
+      "model": "M043",
+      "term": "d1.prompt_personalize::personalized"
+    },
+    {
+      "table": 36,
+      "label": "",
+      "suffix": "1 developer Base",
+      "kind": "model",
+      "model": "M044",
+      "term": "d1.prompt_personalize::personalized"
+    },
+    {
+      "table": 36,
+      "label": "",
+      "suffix": "2 developer Base",
+      "kind": "model",
+      "model": "M045",
+      "term": "d2.prompt_personalize::personalized"
+    },
+    {
+      "table": 38,
+      "label": "",
+      "suffix": "chat-tuned Base",
+      "kind": "model",
+      "model": "M046",
+      "term": "personalize::personalized"
+    },
+    {
+      "table": 38,
+      "label": "",
+      "suffix": "chat-tuned RM-only",
+      "kind": "model",
+      "model": "M047",
+      "term": "personalize::personalized"
+    },
+    {
+      "table": 38,
+      "label": "",
+      "suffix": "chat-tuned SFT-only",
+      "kind": "model",
+      "model": "M048",
+      "term": "personalize::personalized"
+    },
+    {
+      "table": 38,
+      "label": "",
+      "suffix": "chat-tuned SFT + RM",
+      "kind": "model",
+      "model": "M049",
+      "term": "personalize::personalized"
+    },
+    {
+      "table": 38,
+      "label": "",
+      "suffix": "developer Base",
+      "kind": "model",
+      "model": "M050",
+      "term": "personalize::personalized"
+    },
+    {
+      "table": 40,
+      "label": "",
+      "suffix": "developer Base",
+      "kind": "model",
+      "model": "M051",
+      "term": "personalize::personalized"
+    },
+    {
+      "table": 38,
+      "label": "",
+      "suffix": "developer RM-only",
+      "kind": "model",
+      "model": "M052",
+      "term": "personalize::personalized"
+    },
+    {
+      "table": 40,
+      "label": "",
+      "suffix": "developer RM-only",
+      "kind": "model",
+      "model": "M053",
+      "term": "personalize::personalized"
+    },
+    {
+      "table": 42,
+      "label": "",
+      "suffix": "",
+      "kind": "meta",
+      "model": "FE003"
+    },
+    {
+      "table": 37,
+      "label": "",
+      "suffix": "1 chat-tuned Base",
+      "kind": "model",
+      "model": "M054",
+      "term": "d1.prompt_personalize::personalized"
+    },
+    {
+      "table": 37,
+      "label": "",
+      "suffix": "1 developer Base",
+      "kind": "model",
+      "model": "M055",
+      "term": "d1.prompt_personalize::personalized"
+    },
+    {
+      "table": 37,
+      "label": "",
+      "suffix": "2 developer Base",
+      "kind": "model",
+      "model": "M056",
+      "term": "d2.prompt_personalize::personalized"
+    },
+    {
+      "table": 39,
+      "label": "",
+      "suffix": "chat-tuned Base",
+      "kind": "model",
+      "model": "M057",
+      "term": "personalize::personalized"
+    },
+    {
+      "table": 39,
+      "label": "",
+      "suffix": "chat-tuned RM-only",
+      "kind": "model",
+      "model": "M058",
+      "term": "personalize::personalized"
+    },
+    {
+      "table": 39,
+      "label": "",
+      "suffix": "chat-tuned SFT-only",
+      "kind": "model",
+      "model": "M059",
+      "term": "personalize::personalized"
+    },
+    {
+      "table": 39,
+      "label": "",
+      "suffix": "chat-tuned SFT + RM",
+      "kind": "model",
+      "model": "M060",
+      "term": "personalize::personalized"
+    },
+    {
+      "table": 39,
+      "label": "",
+      "suffix": "developer Base",
+      "kind": "model",
+      "model": "M061",
+      "term": "personalize::personalized"
+    },
+    {
+      "table": 41,
+      "label": "",
+      "suffix": "developer Base",
+      "kind": "model",
+      "model": "M062",
+      "term": "personalize::personalized"
+    },
+    {
+      "table": 39,
+      "label": "",
+      "suffix": "developer RM-only",
+      "kind": "model",
+      "model": "M063",
+      "term": "personalize::personalized"
+    },
+    {
+      "table": 41,
+      "label": "",
+      "suffix": "developer RM-only",
+      "kind": "model",
+      "model": "M064",
+      "term": "personalize::personalized"
+    },
+    {
+      "table": 43,
+      "label": "",
+      "suffix": "",
+      "kind": "meta",
+      "model": "FE004"
+    },
+    {
+      "table": 44,
+      "label": "debate",
+      "suffix": "",
+      "kind": "model",
+      "model": "M065",
+      "term": "d1.prompt_rhetoric_id::debate"
+    },
+    {
+      "table": 44,
+      "label": "deep_canvass",
+      "suffix": "",
+      "kind": "model",
+      "model": "M065",
+      "term": "d1.prompt_rhetoric_id::deep_canvass"
+    },
+    {
+      "table": 44,
+      "label": "information",
+      "suffix": "",
+      "kind": "model",
+      "model": "M065",
+      "term": "d1.prompt_rhetoric_id::information"
+    },
+    {
+      "table": 44,
+      "label": "mega",
+      "suffix": "",
+      "kind": "model",
+      "model": "M065",
+      "term": "d1.prompt_rhetoric_id::mega"
+    },
+    {
+      "table": 44,
+      "label": "moral_reframing",
+      "suffix": "",
+      "kind": "model",
+      "model": "M065",
+      "term": "d1.prompt_rhetoric_id::moral_reframing"
+    },
+    {
+      "table": 44,
+      "label": "norms",
+      "suffix": "",
+      "kind": "model",
+      "model": "M065",
+      "term": "d1.prompt_rhetoric_id::norms"
+    },
+    {
+      "table": 44,
+      "label": "storytelling",
+      "suffix": "",
+      "kind": "model",
+      "model": "M065",
+      "term": "d1.prompt_rhetoric_id::storytelling"
+    },
+    {
+      "table": 54,
+      "label": "debate",
+      "suffix": "",
+      "kind": "model",
+      "model": "M066",
+      "term": "d1.prompt_rhetoric_id::debate"
+    },
+    {
+      "table": 54,
+      "label": "deep_canvass",
+      "suffix": "",
+      "kind": "model",
+      "model": "M066",
+      "term": "d1.prompt_rhetoric_id::deep_canvass"
+    },
+    {
+      "table": 54,
+      "label": "information",
+      "suffix": "",
+      "kind": "model",
+      "model": "M066",
+      "term": "d1.prompt_rhetoric_id::information"
+    },
+    {
+      "table": 54,
+      "label": "mega",
+      "suffix": "",
+      "kind": "model",
+      "model": "M066",
+      "term": "d1.prompt_rhetoric_id::mega"
+    },
+    {
+      "table": 54,
+      "label": "moral_reframing",
+      "suffix": "",
+      "kind": "model",
+      "model": "M066",
+      "term": "d1.prompt_rhetoric_id::moral_reframing"
+    },
+    {
+      "table": 54,
+      "label": "none",
+      "suffix": "",
+      "kind": "model",
+      "model": "M066",
+      "term": "d1.prompt_rhetoric_id::none"
+    },
+    {
+      "table": 54,
+      "label": "norms",
+      "suffix": "",
+      "kind": "model",
+      "model": "M066",
+      "term": "d1.prompt_rhetoric_id::norms"
+    },
+    {
+      "table": 54,
+      "label": "storytelling",
+      "suffix": "",
+      "kind": "model",
+      "model": "M066",
+      "term": "d1.prompt_rhetoric_id::storytelling"
+    },
+    {
+      "table": 46,
+      "label": "debate",
+      "suffix": "",
+      "kind": "model",
+      "model": "M067",
+      "term": "d2.prompt_rhetoric_id::debate"
+    },
+    {
+      "table": 46,
+      "label": "deep_canvass",
+      "suffix": "",
+      "kind": "model",
+      "model": "M067",
+      "term": "d2.prompt_rhetoric_id::deep_canvass"
+    },
+    {
+      "table": 46,
+      "label": "information",
+      "suffix": "",
+      "kind": "model",
+      "model": "M067",
+      "term": "d2.prompt_rhetoric_id::information"
+    },
+    {
+      "table": 46,
+      "label": "mega",
+      "suffix": "",
+      "kind": "model",
+      "model": "M067",
+      "term": "d2.prompt_rhetoric_id::mega"
+    },
+    {
+      "table": 46,
+      "label": "moral_reframing",
+      "suffix": "",
+      "kind": "model",
+      "model": "M067",
+      "term": "d2.prompt_rhetoric_id::moral_reframing"
+    },
+    {
+      "table": 46,
+      "label": "norms",
+      "suffix": "",
+      "kind": "model",
+      "model": "M067",
+      "term": "d2.prompt_rhetoric_id::norms"
+    },
+    {
+      "table": 46,
+      "label": "storytelling",
+      "suffix": "",
+      "kind": "model",
+      "model": "M067",
+      "term": "d2.prompt_rhetoric_id::storytelling"
+    },
+    {
+      "table": 56,
+      "label": "debate",
+      "suffix": "",
+      "kind": "model",
+      "model": "M068",
+      "term": "d2.prompt_rhetoric_id::debate"
+    },
+    {
+      "table": 56,
+      "label": "deep_canvass",
+      "suffix": "",
+      "kind": "model",
+      "model": "M068",
+      "term": "d2.prompt_rhetoric_id::deep_canvass"
+    },
+    {
+      "table": 56,
+      "label": "information",
+      "suffix": "",
+      "kind": "model",
+      "model": "M068",
+      "term": "d2.prompt_rhetoric_id::information"
+    },
+    {
+      "table": 56,
+      "label": "mega",
+      "suffix": "",
+      "kind": "model",
+      "model": "M068",
+      "term": "d2.prompt_rhetoric_id::mega"
+    },
+    {
+      "table": 56,
+      "label": "moral_reframing",
+      "suffix": "",
+      "kind": "model",
+      "model": "M068",
+      "term": "d2.prompt_rhetoric_id::moral_reframing"
+    },
+    {
+      "table": 56,
+      "label": "none",
+      "suffix": "",
+      "kind": "model",
+      "model": "M068",
+      "term": "d2.prompt_rhetoric_id::none"
+    },
+    {
+      "table": 56,
+      "label": "norms",
+      "suffix": "",
+      "kind": "model",
+      "model": "M068",
+      "term": "d2.prompt_rhetoric_id::norms"
+    },
+    {
+      "table": 56,
+      "label": "storytelling",
+      "suffix": "",
+      "kind": "model",
+      "model": "M068",
+      "term": "d2.prompt_rhetoric_id::storytelling"
+    },
+    {
+      "table": 48,
+      "label": "debate",
+      "suffix": "",
+      "kind": "model",
+      "model": "M069",
+      "term": "prompt_rhetoric_id::debate"
+    },
+    {
+      "table": 48,
+      "label": "deep_canvass",
+      "suffix": "",
+      "kind": "model",
+      "model": "M069",
+      "term": "prompt_rhetoric_id::deep_canvass"
+    },
+    {
+      "table": 48,
+      "label": "information",
+      "suffix": "",
+      "kind": "model",
+      "model": "M069",
+      "term": "prompt_rhetoric_id::information"
+    },
+    {
+      "table": 48,
+      "label": "mega",
+      "suffix": "",
+      "kind": "model",
+      "model": "M069",
+      "term": "prompt_rhetoric_id::mega"
+    },
+    {
+      "table": 48,
+      "label": "moral_reframing",
+      "suffix": "",
+      "kind": "model",
+      "model": "M069",
+      "term": "prompt_rhetoric_id::moral_reframing"
+    },
+    {
+      "table": 48,
+      "label": "norms",
+      "suffix": "",
+      "kind": "model",
+      "model": "M069",
+      "term": "prompt_rhetoric_id::norms"
+    },
+    {
+      "table": 48,
+      "label": "storytelling",
+      "suffix": "",
+      "kind": "model",
+      "model": "M069",
+      "term": "prompt_rhetoric_id::storytelling"
+    },
+    {
+      "table": 58,
+      "label": "debate",
+      "suffix": "",
+      "kind": "model",
+      "model": "M070",
+      "term": "prompt_rhetoric_id::debate"
+    },
+    {
+      "table": 58,
+      "label": "deep_canvass",
+      "suffix": "",
+      "kind": "model",
+      "model": "M070",
+      "term": "prompt_rhetoric_id::deep_canvass"
+    },
+    {
+      "table": 58,
+      "label": "information",
+      "suffix": "",
+      "kind": "model",
+      "model": "M070",
+      "term": "prompt_rhetoric_id::information"
+    },
+    {
+      "table": 58,
+      "label": "mega",
+      "suffix": "",
+      "kind": "model",
+      "model": "M070",
+      "term": "prompt_rhetoric_id::mega"
+    },
+    {
+      "table": 58,
+      "label": "moral_reframing",
+      "suffix": "",
+      "kind": "model",
+      "model": "M070",
+      "term": "prompt_rhetoric_id::moral_reframing"
+    },
+    {
+      "table": 58,
+      "label": "none",
+      "suffix": "",
+      "kind": "model",
+      "model": "M070",
+      "term": "prompt_rhetoric_id::none"
+    },
+    {
+      "table": 58,
+      "label": "norms",
+      "suffix": "",
+      "kind": "model",
+      "model": "M070",
+      "term": "prompt_rhetoric_id::norms"
+    },
+    {
+      "table": 58,
+      "label": "storytelling",
+      "suffix": "",
+      "kind": "model",
+      "model": "M070",
+      "term": "prompt_rhetoric_id::storytelling"
+    },
+    {
+      "table": 50,
+      "label": "debate",
+      "suffix": "",
+      "kind": "model",
+      "model": "M071",
+      "term": "prompt_rhetoric_id::debate"
+    },
+    {
+      "table": 50,
+      "label": "deep_canvass",
+      "suffix": "",
+      "kind": "model",
+      "model": "M071",
+      "term": "prompt_rhetoric_id::deep_canvass"
+    },
+    {
+      "table": 50,
+      "label": "information",
+      "suffix": "",
+      "kind": "model",
+      "model": "M071",
+      "term": "prompt_rhetoric_id::information"
+    },
+    {
+      "table": 50,
+      "label": "mega",
+      "suffix": "",
+      "kind": "model",
+      "model": "M071",
+      "term": "prompt_rhetoric_id::mega"
+    },
+    {
+      "table": 50,
+      "label": "moral_reframing",
+      "suffix": "",
+      "kind": "model",
+      "model": "M071",
+      "term": "prompt_rhetoric_id::moral_reframing"
+    },
+    {
+      "table": 50,
+      "label": "norms",
+      "suffix": "",
+      "kind": "model",
+      "model": "M071",
+      "term": "prompt_rhetoric_id::norms"
+    },
+    {
+      "table": 50,
+      "label": "storytelling",
+      "suffix": "",
+      "kind": "model",
+      "model": "M071",
+      "term": "prompt_rhetoric_id::storytelling"
+    },
+    {
+      "table": 60,
+      "label": "debate",
+      "suffix": "",
+      "kind": "model",
+      "model": "M072",
+      "term": "prompt_rhetoric_id::debate"
+    },
+    {
+      "table": 60,
+      "label": "deep_canvass",
+      "suffix": "",
+      "kind": "model",
+      "model": "M072",
+      "term": "prompt_rhetoric_id::deep_canvass"
+    },
+    {
+      "table": 60,
+      "label": "information",
+      "suffix": "",
+      "kind": "model",
+      "model": "M072",
+      "term": "prompt_rhetoric_id::information"
+    },
+    {
+      "table": 60,
+      "label": "mega",
+      "suffix": "",
+      "kind": "model",
+      "model": "M072",
+      "term": "prompt_rhetoric_id::mega"
+    },
+    {
+      "table": 60,
+      "label": "moral_reframing",
+      "suffix": "",
+      "kind": "model",
+      "model": "M072",
+      "term": "prompt_rhetoric_id::moral_reframing"
+    },
+    {
+      "table": 60,
+      "label": "none",
+      "suffix": "",
+      "kind": "model",
+      "model": "M072",
+      "term": "prompt_rhetoric_id::none"
+    },
+    {
+      "table": 60,
+      "label": "norms",
+      "suffix": "",
+      "kind": "model",
+      "model": "M072",
+      "term": "prompt_rhetoric_id::norms"
+    },
+    {
+      "table": 60,
+      "label": "storytelling",
+      "suffix": "",
+      "kind": "model",
+      "model": "M072",
+      "term": "prompt_rhetoric_id::storytelling"
+    },
+    {
+      "table": 52,
+      "label": "debate",
+      "suffix": "",
+      "kind": "meta",
+      "model": "FE005"
+    },
+    {
+      "table": 52,
+      "label": "deep_canvass",
+      "suffix": "",
+      "kind": "meta",
+      "model": "FE006"
+    },
+    {
+      "table": 52,
+      "label": "information",
+      "suffix": "",
+      "kind": "meta",
+      "model": "FE007"
+    },
+    {
+      "table": 52,
+      "label": "mega",
+      "suffix": "",
+      "kind": "meta",
+      "model": "FE008"
+    },
+    {
+      "table": 52,
+      "label": "moral_reframing",
+      "suffix": "",
+      "kind": "meta",
+      "model": "FE009"
+    },
+    {
+      "table": 52,
+      "label": "norms",
+      "suffix": "",
+      "kind": "meta",
+      "model": "FE010"
+    },
+    {
+      "table": 52,
+      "label": "storytelling",
+      "suffix": "",
+      "kind": "meta",
+      "model": "FE011"
+    },
+    {
+      "table": 45,
+      "label": "debate",
+      "suffix": "",
+      "kind": "model",
+      "model": "M073",
+      "term": "d1.prompt_rhetoric_id::debate"
+    },
+    {
+      "table": 45,
+      "label": "deep_canvass",
+      "suffix": "",
+      "kind": "model",
+      "model": "M073",
+      "term": "d1.prompt_rhetoric_id::deep_canvass"
+    },
+    {
+      "table": 45,
+      "label": "information",
+      "suffix": "",
+      "kind": "model",
+      "model": "M073",
+      "term": "d1.prompt_rhetoric_id::information"
+    },
+    {
+      "table": 45,
+      "label": "mega",
+      "suffix": "",
+      "kind": "model",
+      "model": "M073",
+      "term": "d1.prompt_rhetoric_id::mega"
+    },
+    {
+      "table": 45,
+      "label": "moral_reframing",
+      "suffix": "",
+      "kind": "model",
+      "model": "M073",
+      "term": "d1.prompt_rhetoric_id::moral_reframing"
+    },
+    {
+      "table": 45,
+      "label": "norms",
+      "suffix": "",
+      "kind": "model",
+      "model": "M073",
+      "term": "d1.prompt_rhetoric_id::norms"
+    },
+    {
+      "table": 45,
+      "label": "storytelling",
+      "suffix": "",
+      "kind": "model",
+      "model": "M073",
+      "term": "d1.prompt_rhetoric_id::storytelling"
+    },
+    {
+      "table": 55,
+      "label": "debate",
+      "suffix": "",
+      "kind": "model",
+      "model": "M074",
+      "term": "d1.prompt_rhetoric_id::debate"
+    },
+    {
+      "table": 55,
+      "label": "deep_canvass",
+      "suffix": "",
+      "kind": "model",
+      "model": "M074",
+      "term": "d1.prompt_rhetoric_id::deep_canvass"
+    },
+    {
+      "table": 55,
+      "label": "information",
+      "suffix": "",
+      "kind": "model",
+      "model": "M074",
+      "term": "d1.prompt_rhetoric_id::information"
+    },
+    {
+      "table": 55,
+      "label": "mega",
+      "suffix": "",
+      "kind": "model",
+      "model": "M074",
+      "term": "d1.prompt_rhetoric_id::mega"
+    },
+    {
+      "table": 55,
+      "label": "moral_reframing",
+      "suffix": "",
+      "kind": "model",
+      "model": "M074",
+      "term": "d1.prompt_rhetoric_id::moral_reframing"
+    },
+    {
+      "table": 55,
+      "label": "none",
+      "suffix": "",
+      "kind": "model",
+      "model": "M074",
+      "term": "d1.prompt_rhetoric_id::none"
+    },
+    {
+      "table": 55,
+      "label": "norms",
+      "suffix": "",
+      "kind": "model",
+      "model": "M074",
+      "term": "d1.prompt_rhetoric_id::norms"
+    },
+    {
+      "table": 55,
+      "label": "storytelling",
+      "suffix": "",
+      "kind": "model",
+      "model": "M074",
+      "term": "d1.prompt_rhetoric_id::storytelling"
+    },
+    {
+      "table": 47,
+      "label": "debate",
+      "suffix": "",
+      "kind": "model",
+      "model": "M075",
+      "term": "d2.prompt_rhetoric_id::debate"
+    },
+    {
+      "table": 47,
+      "label": "deep_canvass",
+      "suffix": "",
+      "kind": "model",
+      "model": "M075",
+      "term": "d2.prompt_rhetoric_id::deep_canvass"
+    },
+    {
+      "table": 47,
+      "label": "information",
+      "suffix": "",
+      "kind": "model",
+      "model": "M075",
+      "term": "d2.prompt_rhetoric_id::information"
+    },
+    {
+      "table": 47,
+      "label": "mega",
+      "suffix": "",
+      "kind": "model",
+      "model": "M075",
+      "term": "d2.prompt_rhetoric_id::mega"
+    },
+    {
+      "table": 47,
+      "label": "moral_reframing",
+      "suffix": "",
+      "kind": "model",
+      "model": "M075",
+      "term": "d2.prompt_rhetoric_id::moral_reframing"
+    },
+    {
+      "table": 47,
+      "label": "norms",
+      "suffix": "",
+      "kind": "model",
+      "model": "M075",
+      "term": "d2.prompt_rhetoric_id::norms"
+    },
+    {
+      "table": 47,
+      "label": "storytelling",
+      "suffix": "",
+      "kind": "model",
+      "model": "M075",
+      "term": "d2.prompt_rhetoric_id::storytelling"
+    },
+    {
+      "table": 57,
+      "label": "debate",
+      "suffix": "",
+      "kind": "model",
+      "model": "M076",
+      "term": "d2.prompt_rhetoric_id::debate"
+    },
+    {
+      "table": 57,
+      "label": "deep_canvass",
+      "suffix": "",
+      "kind": "model",
+      "model": "M076",
+      "term": "d2.prompt_rhetoric_id::deep_canvass"
+    },
+    {
+      "table": 57,
+      "label": "information",
+      "suffix": "",
+      "kind": "model",
+      "model": "M076",
+      "term": "d2.prompt_rhetoric_id::information"
+    },
+    {
+      "table": 57,
+      "label": "mega",
+      "suffix": "",
+      "kind": "model",
+      "model": "M076",
+      "term": "d2.prompt_rhetoric_id::mega"
+    },
+    {
+      "table": 57,
+      "label": "moral_reframing",
+      "suffix": "",
+      "kind": "model",
+      "model": "M076",
+      "term": "d2.prompt_rhetoric_id::moral_reframing"
+    },
+    {
+      "table": 57,
+      "label": "none",
+      "suffix": "",
+      "kind": "model",
+      "model": "M076",
+      "term": "d2.prompt_rhetoric_id::none"
+    },
+    {
+      "table": 57,
+      "label": "norms",
+      "suffix": "",
+      "kind": "model",
+      "model": "M076",
+      "term": "d2.prompt_rhetoric_id::norms"
+    },
+    {
+      "table": 57,
+      "label": "storytelling",
+      "suffix": "",
+      "kind": "model",
+      "model": "M076",
+      "term": "d2.prompt_rhetoric_id::storytelling"
+    },
+    {
+      "table": 49,
+      "label": "debate",
+      "suffix": "",
+      "kind": "model",
+      "model": "M077",
+      "term": "prompt_rhetoric_id::debate"
+    },
+    {
+      "table": 49,
+      "label": "deep_canvass",
+      "suffix": "",
+      "kind": "model",
+      "model": "M077",
+      "term": "prompt_rhetoric_id::deep_canvass"
+    },
+    {
+      "table": 49,
+      "label": "information",
+      "suffix": "",
+      "kind": "model",
+      "model": "M077",
+      "term": "prompt_rhetoric_id::information"
+    },
+    {
+      "table": 49,
+      "label": "mega",
+      "suffix": "",
+      "kind": "model",
+      "model": "M077",
+      "term": "prompt_rhetoric_id::mega"
+    },
+    {
+      "table": 49,
+      "label": "moral_reframing",
+      "suffix": "",
+      "kind": "model",
+      "model": "M077",
+      "term": "prompt_rhetoric_id::moral_reframing"
+    },
+    {
+      "table": 49,
+      "label": "norms",
+      "suffix": "",
+      "kind": "model",
+      "model": "M077",
+      "term": "prompt_rhetoric_id::norms"
+    },
+    {
+      "table": 49,
+      "label": "storytelling",
+      "suffix": "",
+      "kind": "model",
+      "model": "M077",
+      "term": "prompt_rhetoric_id::storytelling"
+    },
+    {
+      "table": 59,
+      "label": "debate",
+      "suffix": "",
+      "kind": "model",
+      "model": "M078",
+      "term": "prompt_rhetoric_id::debate"
+    },
+    {
+      "table": 59,
+      "label": "deep_canvass",
+      "suffix": "",
+      "kind": "model",
+      "model": "M078",
+      "term": "prompt_rhetoric_id::deep_canvass"
+    },
+    {
+      "table": 59,
+      "label": "information",
+      "suffix": "",
+      "kind": "model",
+      "model": "M078",
+      "term": "prompt_rhetoric_id::information"
+    },
+    {
+      "table": 59,
+      "label": "mega",
+      "suffix": "",
+      "kind": "model",
+      "model": "M078",
+      "term": "prompt_rhetoric_id::mega"
+    },
+    {
+      "table": 59,
+      "label": "moral_reframing",
+      "suffix": "",
+      "kind": "model",
+      "model": "M078",
+      "term": "prompt_rhetoric_id::moral_reframing"
+    },
+    {
+      "table": 59,
+      "label": "none",
+      "suffix": "",
+      "kind": "model",
+      "model": "M078",
+      "term": "prompt_rhetoric_id::none"
+    },
+    {
+      "table": 59,
+      "label": "norms",
+      "suffix": "",
+      "kind": "model",
+      "model": "M078",
+      "term": "prompt_rhetoric_id::norms"
+    },
+    {
+      "table": 59,
+      "label": "storytelling",
+      "suffix": "",
+      "kind": "model",
+      "model": "M078",
+      "term": "prompt_rhetoric_id::storytelling"
+    },
+    {
+      "table": 51,
+      "label": "debate",
+      "suffix": "",
+      "kind": "model",
+      "model": "M079",
+      "term": "prompt_rhetoric_id::debate"
+    },
+    {
+      "table": 51,
+      "label": "deep_canvass",
+      "suffix": "",
+      "kind": "model",
+      "model": "M079",
+      "term": "prompt_rhetoric_id::deep_canvass"
+    },
+    {
+      "table": 51,
+      "label": "information",
+      "suffix": "",
+      "kind": "model",
+      "model": "M079",
+      "term": "prompt_rhetoric_id::information"
+    },
+    {
+      "table": 51,
+      "label": "mega",
+      "suffix": "",
+      "kind": "model",
+      "model": "M079",
+      "term": "prompt_rhetoric_id::mega"
+    },
+    {
+      "table": 51,
+      "label": "moral_reframing",
+      "suffix": "",
+      "kind": "model",
+      "model": "M079",
+      "term": "prompt_rhetoric_id::moral_reframing"
+    },
+    {
+      "table": 51,
+      "label": "norms",
+      "suffix": "",
+      "kind": "model",
+      "model": "M079",
+      "term": "prompt_rhetoric_id::norms"
+    },
+    {
+      "table": 51,
+      "label": "storytelling",
+      "suffix": "",
+      "kind": "model",
+      "model": "M079",
+      "term": "prompt_rhetoric_id::storytelling"
+    },
+    {
+      "table": 61,
+      "label": "debate",
+      "suffix": "",
+      "kind": "model",
+      "model": "M080",
+      "term": "prompt_rhetoric_id::debate"
+    },
+    {
+      "table": 61,
+      "label": "deep_canvass",
+      "suffix": "",
+      "kind": "model",
+      "model": "M080",
+      "term": "prompt_rhetoric_id::deep_canvass"
+    },
+    {
+      "table": 61,
+      "label": "information",
+      "suffix": "",
+      "kind": "model",
+      "model": "M080",
+      "term": "prompt_rhetoric_id::information"
+    },
+    {
+      "table": 61,
+      "label": "mega",
+      "suffix": "",
+      "kind": "model",
+      "model": "M080",
+      "term": "prompt_rhetoric_id::mega"
+    },
+    {
+      "table": 61,
+      "label": "moral_reframing",
+      "suffix": "",
+      "kind": "model",
+      "model": "M080",
+      "term": "prompt_rhetoric_id::moral_reframing"
+    },
+    {
+      "table": 61,
+      "label": "none",
+      "suffix": "",
+      "kind": "model",
+      "model": "M080",
+      "term": "prompt_rhetoric_id::none"
+    },
+    {
+      "table": 61,
+      "label": "norms",
+      "suffix": "",
+      "kind": "model",
+      "model": "M080",
+      "term": "prompt_rhetoric_id::norms"
+    },
+    {
+      "table": 61,
+      "label": "storytelling",
+      "suffix": "",
+      "kind": "model",
+      "model": "M080",
+      "term": "prompt_rhetoric_id::storytelling"
+    },
+    {
+      "table": 53,
+      "label": "debate",
+      "suffix": "",
+      "kind": "meta",
+      "model": "FE012"
+    },
+    {
+      "table": 53,
+      "label": "deep_canvass",
+      "suffix": "",
+      "kind": "meta",
+      "model": "FE013"
+    },
+    {
+      "table": 53,
+      "label": "information",
+      "suffix": "",
+      "kind": "meta",
+      "model": "FE014"
+    },
+    {
+      "table": 53,
+      "label": "mega",
+      "suffix": "",
+      "kind": "meta",
+      "model": "FE015"
+    },
+    {
+      "table": 53,
+      "label": "moral_reframing",
+      "suffix": "",
+      "kind": "meta",
+      "model": "FE016"
+    },
+    {
+      "table": 53,
+      "label": "norms",
+      "suffix": "",
+      "kind": "meta",
+      "model": "FE017"
+    },
+    {
+      "table": 53,
+      "label": "storytelling",
+      "suffix": "",
+      "kind": "meta",
+      "model": "FE018"
+    },
+    {
+      "table": 74,
+      "label": "GPT-4o (8/24)",
+      "suffix": "0",
+      "kind": "model",
+      "model": "M081",
+      "term": "models_vs_control::gpt-4o"
+    },
+    {
+      "table": 74,
+      "label": "GPT-4.5",
+      "suffix": "0",
+      "kind": "model",
+      "model": "M081",
+      "term": "models_vs_control::gpt-4.5"
+    },
+    {
+      "table": 74,
+      "label": "GPT-4o (8/24)",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M082",
+      "term": "models_vs_control::gpt-4o"
+    },
+    {
+      "table": 74,
+      "label": "GPT-4.5",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M082",
+      "term": "models_vs_control::gpt-4.5"
+    },
+    {
+      "table": 80,
+      "label": "GPT-4o (8/24)",
+      "suffix": "0",
+      "kind": "model",
+      "model": "M083",
+      "term": "models_vs_control::gpt-4o"
+    },
+    {
+      "table": 80,
+      "label": "GPT-4.5",
+      "suffix": "0",
+      "kind": "model",
+      "model": "M083",
+      "term": "models_vs_control::gpt-4.5"
+    },
+    {
+      "table": 80,
+      "label": "GPT-4o (3/25)",
+      "suffix": "0",
+      "kind": "model",
+      "model": "M083",
+      "term": "models_vs_control::chatgpt-4o-latest"
+    },
+    {
+      "table": 80,
+      "label": "Grok-3",
+      "suffix": "0",
+      "kind": "model",
+      "model": "M083",
+      "term": "models_vs_control::grok-3"
+    },
+    {
+      "table": 80,
+      "label": "GPT-4o (8/24)",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M084",
+      "term": "models_vs_control::gpt-4o"
+    },
+    {
+      "table": 80,
+      "label": "GPT-4.5",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M084",
+      "term": "models_vs_control::gpt-4.5"
+    },
+    {
+      "table": 80,
+      "label": "GPT-4o (3/25)",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M084",
+      "term": "models_vs_control::chatgpt-4o-latest"
+    },
+    {
+      "table": 80,
+      "label": "Grok-3",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M084",
+      "term": "models_vs_control::grok-3"
+    },
+    {
+      "table": 86,
+      "label": "Info prompt",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M085",
+      "term": "info"
+    },
+    {
+      "table": 86,
+      "label": "GPT-4o (3/25)",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M085",
+      "term": "model::chatgpt-4o-latest"
+    },
+    {
+      "table": 86,
+      "label": "Info prompt x GPT-4o (3/25)",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M085",
+      "term": "interaction"
+    },
+    {
+      "table": 92,
+      "label": "Info prompt",
+      "suffix": "2",
+      "kind": "model",
+      "model": "M086",
+      "term": "info"
+    },
+    {
+      "table": 92,
+      "label": "GPT-4.5",
+      "suffix": "2",
+      "kind": "model",
+      "model": "M086",
+      "term": "model::gpt-4.5"
+    },
+    {
+      "table": 92,
+      "label": "Info prompt x GPT-4.5",
+      "suffix": "2",
+      "kind": "model",
+      "model": "M086",
+      "term": "interaction"
+    },
+    {
+      "table": 92,
+      "label": "Info prompt",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M087",
+      "term": "info"
+    },
+    {
+      "table": 92,
+      "label": "GPT-4.5",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M087",
+      "term": "model::gpt-4.5"
+    },
+    {
+      "table": 92,
+      "label": "Info prompt x GPT-4.5",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M087",
+      "term": "interaction"
+    },
+    {
+      "table": 98,
+      "label": "Info prompt",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M088",
+      "term": "info"
+    },
+    {
+      "table": 98,
+      "label": "Grok-3",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M088",
+      "term": "model::grok-3"
+    },
+    {
+      "table": 98,
+      "label": "Info prompt x Grok-3",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M088",
+      "term": "interaction"
+    },
+    {
+      "table": 75,
+      "label": "GPT-4o (8/24)",
+      "suffix": "0",
+      "kind": "model",
+      "model": "M089",
+      "term": "models_vs_control::gpt-4o"
+    },
+    {
+      "table": 75,
+      "label": "GPT-4.5",
+      "suffix": "0",
+      "kind": "model",
+      "model": "M089",
+      "term": "models_vs_control::gpt-4.5"
+    },
+    {
+      "table": 75,
+      "label": "GPT-4o (8/24)",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M090",
+      "term": "models_vs_control::gpt-4o"
+    },
+    {
+      "table": 75,
+      "label": "GPT-4.5",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M090",
+      "term": "models_vs_control::gpt-4.5"
+    },
+    {
+      "table": 81,
+      "label": "GPT-4o (8/24)",
+      "suffix": "0",
+      "kind": "model",
+      "model": "M091",
+      "term": "models_vs_control::gpt-4o"
+    },
+    {
+      "table": 81,
+      "label": "GPT-4.5",
+      "suffix": "0",
+      "kind": "model",
+      "model": "M091",
+      "term": "models_vs_control::gpt-4.5"
+    },
+    {
+      "table": 81,
+      "label": "GPT-4o (3/25)",
+      "suffix": "0",
+      "kind": "model",
+      "model": "M091",
+      "term": "models_vs_control::chatgpt-4o-latest"
+    },
+    {
+      "table": 81,
+      "label": "Grok-3",
+      "suffix": "0",
+      "kind": "model",
+      "model": "M091",
+      "term": "models_vs_control::grok-3"
+    },
+    {
+      "table": 81,
+      "label": "GPT-4o (8/24)",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M092",
+      "term": "models_vs_control::gpt-4o"
+    },
+    {
+      "table": 81,
+      "label": "GPT-4.5",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M092",
+      "term": "models_vs_control::gpt-4.5"
+    },
+    {
+      "table": 81,
+      "label": "GPT-4o (3/25)",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M092",
+      "term": "models_vs_control::chatgpt-4o-latest"
+    },
+    {
+      "table": 81,
+      "label": "Grok-3",
+      "suffix": "1",
+      "kind": "model",
+      "model": "M092",
+      "term": "models_vs_control::grok-3"
+    },
+    {
+      "table": 87,
+      "label": "Info prompt",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M093",
+      "term": "info"
+    },
+    {
+      "table": 87,
+      "label": "GPT-4o (3/25)",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M093",
+      "term": "model::chatgpt-4o-latest"
+    },
+    {
+      "table": 87,
+      "label": "Info prompt x GPT-4o (3/25)",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M093",
+      "term": "interaction"
+    },
+    {
+      "table": 93,
+      "label": "Info prompt",
+      "suffix": "2",
+      "kind": "model",
+      "model": "M094",
+      "term": "info"
+    },
+    {
+      "table": 93,
+      "label": "GPT-4.5",
+      "suffix": "2",
+      "kind": "model",
+      "model": "M094",
+      "term": "model::gpt-4.5"
+    },
+    {
+      "table": 93,
+      "label": "Info prompt x GPT-4.5",
+      "suffix": "2",
+      "kind": "model",
+      "model": "M094",
+      "term": "interaction"
+    },
+    {
+      "table": 93,
+      "label": "Info prompt",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M095",
+      "term": "info"
+    },
+    {
+      "table": 93,
+      "label": "GPT-4.5",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M095",
+      "term": "model::gpt-4.5"
+    },
+    {
+      "table": 93,
+      "label": "Info prompt x GPT-4.5",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M095",
+      "term": "interaction"
+    },
+    {
+      "table": 99,
+      "label": "Info prompt",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M096",
+      "term": "info"
+    },
+    {
+      "table": 99,
+      "label": "Grok-3",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M096",
+      "term": "model::grok-3"
+    },
+    {
+      "table": 99,
+      "label": "Info prompt x Grok-3",
+      "suffix": "3",
+      "kind": "model",
+      "model": "M096",
+      "term": "interaction"
+    },
+    {
+      "table": 115,
+      "label": "Deceptive info prompt (vs. info prompt)",
+      "suffix": "",
+      "kind": "model",
+      "model": "M097",
+      "term": "prompt_rhetoric_id::information_with_deception"
+    }
+  ],
+  "meta": [
+    {
+      "id": "FE001",
+      "refs": [
+        [
+          "M012",
+          "rm"
+        ],
+        [
+          "M013",
+          "rm"
+        ]
+      ]
+    },
+    {
+      "id": "FE002",
+      "refs": [
+        [
+          "M030",
+          "rm"
+        ],
+        [
+          "M031",
+          "rm"
+        ]
+      ]
+    },
+    {
+      "id": "FE003",
+      "refs": [
+        [
+          "M043",
+          "d1.prompt_personalize::personalized"
+        ],
+        [
+          "M044",
+          "d1.prompt_personalize::personalized"
+        ],
+        [
+          "M045",
+          "d2.prompt_personalize::personalized"
+        ],
+        [
+          "M046",
+          "personalize::personalized"
+        ],
+        [
+          "M047",
+          "personalize::personalized"
+        ],
+        [
+          "M048",
+          "personalize::personalized"
+        ],
+        [
+          "M049",
+          "personalize::personalized"
+        ],
+        [
+          "M050",
+          "personalize::personalized"
+        ],
+        [
+          "M051",
+          "personalize::personalized"
+        ],
+        [
+          "M052",
+          "personalize::personalized"
+        ],
+        [
+          "M053",
+          "personalize::personalized"
+        ]
+      ]
+    },
+    {
+      "id": "FE004",
+      "refs": [
+        [
+          "M054",
+          "d1.prompt_personalize::personalized"
+        ],
+        [
+          "M055",
+          "d1.prompt_personalize::personalized"
+        ],
+        [
+          "M056",
+          "d2.prompt_personalize::personalized"
+        ],
+        [
+          "M057",
+          "personalize::personalized"
+        ],
+        [
+          "M058",
+          "personalize::personalized"
+        ],
+        [
+          "M059",
+          "personalize::personalized"
+        ],
+        [
+          "M060",
+          "personalize::personalized"
+        ],
+        [
+          "M061",
+          "personalize::personalized"
+        ],
+        [
+          "M062",
+          "personalize::personalized"
+        ],
+        [
+          "M063",
+          "personalize::personalized"
+        ],
+        [
+          "M064",
+          "personalize::personalized"
+        ]
+      ]
+    },
+    {
+      "id": "FE005",
+      "refs": [
+        [
+          "M065",
+          "d1.prompt_rhetoric_id::debate"
+        ],
+        [
+          "M067",
+          "d2.prompt_rhetoric_id::debate"
+        ],
+        [
+          "M069",
+          "prompt_rhetoric_id::debate"
+        ],
+        [
+          "M071",
+          "prompt_rhetoric_id::debate"
+        ]
+      ]
+    },
+    {
+      "id": "FE006",
+      "refs": [
+        [
+          "M065",
+          "d1.prompt_rhetoric_id::deep_canvass"
+        ],
+        [
+          "M067",
+          "d2.prompt_rhetoric_id::deep_canvass"
+        ],
+        [
+          "M069",
+          "prompt_rhetoric_id::deep_canvass"
+        ],
+        [
+          "M071",
+          "prompt_rhetoric_id::deep_canvass"
+        ]
+      ]
+    },
+    {
+      "id": "FE007",
+      "refs": [
+        [
+          "M065",
+          "d1.prompt_rhetoric_id::information"
+        ],
+        [
+          "M067",
+          "d2.prompt_rhetoric_id::information"
+        ],
+        [
+          "M069",
+          "prompt_rhetoric_id::information"
+        ],
+        [
+          "M071",
+          "prompt_rhetoric_id::information"
+        ]
+      ]
+    },
+    {
+      "id": "FE008",
+      "refs": [
+        [
+          "M065",
+          "d1.prompt_rhetoric_id::mega"
+        ],
+        [
+          "M067",
+          "d2.prompt_rhetoric_id::mega"
+        ],
+        [
+          "M069",
+          "prompt_rhetoric_id::mega"
+        ],
+        [
+          "M071",
+          "prompt_rhetoric_id::mega"
+        ]
+      ]
+    },
+    {
+      "id": "FE009",
+      "refs": [
+        [
+          "M065",
+          "d1.prompt_rhetoric_id::moral_reframing"
+        ],
+        [
+          "M067",
+          "d2.prompt_rhetoric_id::moral_reframing"
+        ],
+        [
+          "M069",
+          "prompt_rhetoric_id::moral_reframing"
+        ],
+        [
+          "M071",
+          "prompt_rhetoric_id::moral_reframing"
+        ]
+      ]
+    },
+    {
+      "id": "FE010",
+      "refs": [
+        [
+          "M065",
+          "d1.prompt_rhetoric_id::norms"
+        ],
+        [
+          "M067",
+          "d2.prompt_rhetoric_id::norms"
+        ],
+        [
+          "M069",
+          "prompt_rhetoric_id::norms"
+        ],
+        [
+          "M071",
+          "prompt_rhetoric_id::norms"
+        ]
+      ]
+    },
+    {
+      "id": "FE011",
+      "refs": [
+        [
+          "M065",
+          "d1.prompt_rhetoric_id::storytelling"
+        ],
+        [
+          "M067",
+          "d2.prompt_rhetoric_id::storytelling"
+        ],
+        [
+          "M069",
+          "prompt_rhetoric_id::storytelling"
+        ],
+        [
+          "M071",
+          "prompt_rhetoric_id::storytelling"
+        ]
+      ]
+    },
+    {
+      "id": "FE012",
+      "refs": [
+        [
+          "M073",
+          "d1.prompt_rhetoric_id::debate"
+        ],
+        [
+          "M075",
+          "d2.prompt_rhetoric_id::debate"
+        ],
+        [
+          "M077",
+          "prompt_rhetoric_id::debate"
+        ],
+        [
+          "M079",
+          "prompt_rhetoric_id::debate"
+        ]
+      ]
+    },
+    {
+      "id": "FE013",
+      "refs": [
+        [
+          "M073",
+          "d1.prompt_rhetoric_id::deep_canvass"
+        ],
+        [
+          "M075",
+          "d2.prompt_rhetoric_id::deep_canvass"
+        ],
+        [
+          "M077",
+          "prompt_rhetoric_id::deep_canvass"
+        ],
+        [
+          "M079",
+          "prompt_rhetoric_id::deep_canvass"
+        ]
+      ]
+    },
+    {
+      "id": "FE014",
+      "refs": [
+        [
+          "M073",
+          "d1.prompt_rhetoric_id::information"
+        ],
+        [
+          "M075",
+          "d2.prompt_rhetoric_id::information"
+        ],
+        [
+          "M077",
+          "prompt_rhetoric_id::information"
+        ],
+        [
+          "M079",
+          "prompt_rhetoric_id::information"
+        ]
+      ]
+    },
+    {
+      "id": "FE015",
+      "refs": [
+        [
+          "M073",
+          "d1.prompt_rhetoric_id::mega"
+        ],
+        [
+          "M075",
+          "d2.prompt_rhetoric_id::mega"
+        ],
+        [
+          "M077",
+          "prompt_rhetoric_id::mega"
+        ],
+        [
+          "M079",
+          "prompt_rhetoric_id::mega"
+        ]
+      ]
+    },
+    {
+      "id": "FE016",
+      "refs": [
+        [
+          "M073",
+          "d1.prompt_rhetoric_id::moral_reframing"
+        ],
+        [
+          "M075",
+          "d2.prompt_rhetoric_id::moral_reframing"
+        ],
+        [
+          "M077",
+          "prompt_rhetoric_id::moral_reframing"
+        ],
+        [
+          "M079",
+          "prompt_rhetoric_id::moral_reframing"
+        ]
+      ]
+    },
+    {
+      "id": "FE017",
+      "refs": [
+        [
+          "M073",
+          "d1.prompt_rhetoric_id::norms"
+        ],
+        [
+          "M075",
+          "d2.prompt_rhetoric_id::norms"
+        ],
+        [
+          "M077",
+          "prompt_rhetoric_id::norms"
+        ],
+        [
+          "M079",
+          "prompt_rhetoric_id::norms"
+        ]
+      ]
+    },
+    {
+      "id": "FE018",
+      "refs": [
+        [
+          "M073",
+          "d1.prompt_rhetoric_id::storytelling"
+        ],
+        [
+          "M075",
+          "d2.prompt_rhetoric_id::storytelling"
+        ],
+        [
+          "M077",
+          "prompt_rhetoric_id::storytelling"
+        ],
+        [
+          "M079",
+          "prompt_rhetoric_id::storytelling"
+        ]
+      ]
+    }
+  ],
+  "attrition": [
+    [
+      117,
+      1,
+      "d1.",
+      "models_vs_control",
+      null
+    ],
+    [
+      119,
+      1,
+      "d1.",
+      "prompt_personalize",
+      [
+        "regex",
+        "d1.condition",
+        "control",
+        true
+      ]
+    ],
+    [
+      121,
+      1,
+      "d1.",
+      "prompt_rhetoric_id",
+      [
+        "regex",
+        "d1.condition",
+        "control",
+        true
+      ]
+    ],
+    [
+      123,
+      1,
+      "d2.",
+      "condition",
+      null
+    ],
+    [
+      125,
+      1,
+      "d2.",
+      "prompt_personalize",
+      [
+        "regex",
+        "d2.condition",
+        "control",
+        true
+      ]
+    ],
+    [
+      127,
+      1,
+      "d2.",
+      "prompt_rhetoric_id",
+      [
+        "regex",
+        "d2.condition",
+        "control",
+        true
+      ]
+    ],
+    [
+      129,
+      2,
+      "",
+      "models_vs_control",
+      null
+    ],
+    [
+      131,
+      2,
+      "",
+      "personalize",
+      [
+        "regex",
+        "condition",
+        "control",
+        true
+      ]
+    ],
+    [
+      133,
+      2,
+      "",
+      "post_train",
+      [
+        "eq",
+        "condition",
+        "treatment-2"
+      ]
+    ],
+    [
+      135,
+      2,
+      "",
+      "post_train",
+      [
+        "and",
+        [
+          "eq",
+          "condition",
+          "treatment-1"
+        ],
+        [
+          "regex",
+          "model",
+          "405b",
+          false
+        ]
+      ]
+    ],
+    [
+      137,
+      2,
+      "",
+      "post_train",
+      [
+        "and",
+        [
+          "eq",
+          "condition",
+          "treatment-1"
+        ],
+        [
+          "regex",
+          "model",
+          "8b",
+          false
+        ]
+      ]
+    ],
+    [
+      139,
+      2,
+      "",
+      "prompt_rhetoric_id",
+      [
+        "regex",
+        "condition",
+        "control",
+        true
+      ]
+    ],
+    [
+      141,
+      3,
+      "",
+      "models_vs_control",
+      null
+    ],
+    [
+      143,
+      3,
+      "",
+      "personalize",
+      [
+        "in",
+        "condition",
+        [
+          "treatment-1",
+          "treatment-2"
+        ]
+      ]
+    ],
+    [
+      145,
+      3,
+      "",
+      "post_train",
+      [
+        "in",
+        "condition",
+        [
+          "treatment-1",
+          "treatment-2"
+        ]
+      ]
+    ],
+    [
+      147,
+      3,
+      "",
+      "prompt_rhetoric_id",
+      [
+        "in",
+        "condition",
+        [
+          "treatment-1",
+          "treatment-2"
+        ]
+      ]
+    ]
+  ],
+  "counts": [
+    [
+      153,
+      1,
+      [
+        "d1.condition",
+        "d1.model"
+      ],
+      [
+        "d1.post_average",
+        "d1.condition"
+      ]
+    ],
+    [
+      154,
+      1,
+      [
+        "d1.condition",
+        "d1.prompt_rhetoric_id",
+        "d1.prompt_personalize"
+      ],
+      [
+        "d1.post_average",
+        "d1.condition"
+      ]
+    ],
+    [
+      155,
+      1,
+      [
+        "d2.condition",
+        "d2.prompt_rhetoric_id",
+        "d2.prompt_personalize"
+      ],
+      [
+        "d2.post_average"
+      ]
+    ],
+    [
+      156,
+      2,
+      [
+        "condition",
+        "model",
+        "post_train"
+      ],
+      [
+        "post_average"
+      ]
+    ],
+    [
+      157,
+      2,
+      [
+        "condition",
+        "prompt_rhetoric_id",
+        "personalize"
+      ],
+      [
+        "post_average"
+      ]
+    ],
+    [
+      158,
+      3,
+      [
+        "condition",
+        "model",
+        "post_train"
+      ],
+      [
+        "post_average"
+      ]
+    ],
+    [
+      159,
+      3,
+      [
+        "condition",
+        "prompt_rhetoric_id",
+        "personalize"
+      ],
+      [
+        "post_average"
+      ]
+    ]
+  ],
+  "runner_sha256": "4a436651c25f4633714629ec7e56185b0235c9dca05563c361456a48e9cbc15a"
+}

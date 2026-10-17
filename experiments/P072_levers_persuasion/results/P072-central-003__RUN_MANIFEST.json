@@ -1,0 +1,47 @@
+{
+  "paper_id": "P072",
+  "run_id": "P072-central-003",
+  "created_at_utc": "2026-10-10T18:05:48.697852+00:00",
+  "files": [
+    {
+      "path": "papers/P072_levers_persuasion/runs/P072-central-003/analysis_designs.json",
+      "bytes": 167524,
+      "sha256": "49db604da04770718324c1970053fbed8e7664cb320806b29f253de2d5d177dc"
+    },
+    {
+      "path": "papers/P072_levers_persuasion/runs/P072-central-003/attrition_details.json",
+      "bytes": 1522,
+      "sha256": "c8a34803cc6cfaecbe3a5c5832a41928c2ca0fe0209545a741d914b00b5f65e7"
+    },
+    {
+      "path": "papers/P072_levers_persuasion/runs/P072-central-003/computed_tables.json",
+      "bytes": 259033,
+      "sha256": "8bc0b0cfd28c93c095fae8b38a0b6fe7bbc3ca6e5c0de3f097615a532e243d4c"
+    },
+    {
+      "path": "papers/P072_levers_persuasion/runs/P072-central-003/metrics.json",
+      "bytes": 1232,
+      "sha256": "4b7991c68ccfbc7e40f206d568c5f0af873b0fe4b7286b80b89c5f3940e00c92"
+    },
+    {
+      "path": "papers/P072_levers_persuasion/runs/P072-central-003/model_statistics.json",
+      "bytes": 204871,
+      "sha256": "f55a5321a8753860fc2fbe3d640663497ee1057ed8edf8ec018709e10844942d"
+    },
+    {
+      "path": "papers/P072_levers_persuasion/runs/P072-central-003/runner_source.py",
+      "bytes": 26245,
+      "sha256": "4a436651c25f4633714629ec7e56185b0235c9dca05563c361456a48e9cbc15a"
+    },
+    {
+      "path": "papers/P072_levers_persuasion/runs/P072-central-003/target_decisions.json",
+      "bytes": 899993,
+      "sha256": "64120d360b70d02833444cf398c6abd4df5ee97b1e7fdb0460b2e5568a207857"
+    },
+    {
+      "path": "scripts/p072_central.py",
+      "bytes": 26245,
+      "sha256": "4a436651c25f4633714629ec7e56185b0235c9dca05563c361456a48e9cbc15a"
+    }
+  ]
+}

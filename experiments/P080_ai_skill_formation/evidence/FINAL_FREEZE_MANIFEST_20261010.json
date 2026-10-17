@@ -1,0 +1,14 @@
+{
+  "paper_id": "P080",
+  "frozen_UTC": "2026-10-10T18:45:08.673574+00:00",
+  "participant_outcome_calculations_performed": false,
+  "prereg_sha256": "fd77cfc6f61c62e6d4175f71ddb7f815647a4b9f63989f2f7d4fa56973b763b6",
+  "input_manifest_sha256": "1ff628a5fe13fd6ff66cac8e72d09e22769ec5cf4e0795a45bc318982ea719a8",
+  "proposal_sha256": "b622eeba4aed6aa70959062c4c4ebcb250bc5243f7c3c81c24d799132b695d98",
+  "data_sha256": "7c76a8d4279a3fa4f0df24b0b4587c1b8c194561f26057545edac7919237518f",
+  "targets_sha256": "ef783454547a2ba7f368f039f16dfa224a8a1e52c16caeb3b42e5e30ef598347",
+  "runner_sha256": "ebf5a1bb502ad6ec17a02a4f4c03941dc548eb9fedbb71069b46a6b050984403",
+  "audit_sha256": "3362cfa76f75f2e924bc29e767febc3dc8c98e4b33867665418b4036c3b5a982",
+  "resource_guard_sha256": "1c3eea4a128c1ec6cdfc22ac8d01b4ce48503a20a7026d46ed031d8fb6b571d7",
+  "eligibility_record_sha256": "5d6ebc7d8af403db2204149c0849c752bd51ce032b50eb8e45e638ab249b24dd"
+}

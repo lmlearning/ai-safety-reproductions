@@ -1,0 +1,168 @@
+{
+  "paper_id": "P150",
+  "source_archive": "ai-safety-reproductions",
+  "files": [
+    {
+      "published_path": "plans/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+      "original_relative_path": "literature/source_only_methodology_discovery_20261011_214000/two_cached_whole_source_target_inventory054/PSYCHIATRIC_ALL_PRIMARY_SECTIONS_AND_HISTORY001.json",
+      "role": "plan",
+      "purpose": "scientific method/source/target binding consumed by original code",
+      "text": true,
+      "original_bytes": 31732,
+      "original_sha256": "38df260d4f469877438501b7e7d9e4c91f1ff55b3ec1b5835d67f9055f72dfc4",
+      "published_bytes": 31690,
+      "published_sha256": "0eb9db39e885ea574ad1414c3a9c635391e5d69c69931109e62292bf7586d9ae",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "results/final_report001__ROOT_EXACT_SUCCESS_REGISTRATION_RECEIPT001.json",
+      "original_relative_path": "papers/P150_psychiatric_bias/final_report001/ROOT_EXACT_SUCCESS_REGISTRATION_RECEIPT001.json",
+      "role": "result",
+      "purpose": "successful original run/audit product, target comparison, figure or hash manifest",
+      "text": true,
+      "original_bytes": 904,
+      "original_sha256": "c7a9c1c19adc15e3c7e31d2a10e0489c92e50b267bb43a3cccf46b5ff4b81a19",
+      "published_bytes": 904,
+      "published_sha256": "c7a9c1c19adc15e3c7e31d2a10e0489c92e50b267bb43a3cccf46b5ff4b81a19",
+      "changes": "none"
+    },
+    {
+      "published_path": "code/P150_independent_auditor003.py",
+      "original_relative_path": "papers/P150_psychiatric_bias/review/independent_audit_preparation001/P150_independent_auditor003.py",
+      "role": "code",
+      "purpose": "scientific entry",
+      "text": true,
+      "original_bytes": 42340,
+      "original_sha256": "27b841a2c2628a91cf12b0a17796ca0d9498033318a63d93eaf64b35cb37e1bc",
+      "published_bytes": 42340,
+      "published_sha256": "27b841a2c2628a91cf12b0a17796ca0d9498033318a63d93eaf64b35cb37e1bc",
+      "changes": "none"
+    },
+    {
+      "published_path": "plans/ROOT_TRUE_INDEPENDENT_ORIGINAL_CONFIG001.json",
+      "original_relative_path": "papers/P150_psychiatric_bias/review/independent_audit_preparation001/ROOT_TRUE_INDEPENDENT_ORIGINAL_CONFIG001.json",
+      "role": "plan",
+      "purpose": "fixed method/target/configuration or provenance contract",
+      "text": true,
+      "original_bytes": 3004,
+      "original_sha256": "9f97272e5b8d2cf41a87f0c0efa4f0985a12b3ba018cd56c60f8d0a4fbada354",
+      "published_bytes": 2671,
+      "published_sha256": "47ce0f4998808b713ab17dbe25d2255620e84247bdd09832a7a374d5dc2be31b",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "plans/ALL25_PROSPECTIVE_CENTRAL_GATE_DESCRIPTORS001.json",
+      "original_relative_path": "papers/P150_psychiatric_bias/review/source_primary_preparation001/ALL25_PROSPECTIVE_CENTRAL_GATE_DESCRIPTORS001.json",
+      "role": "plan",
+      "purpose": "scientific method/source/target binding consumed by original code",
+      "text": true,
+      "original_bytes": 10817,
+      "original_sha256": "f80580f4b2e5dc90db783dd4c9c2517d244660a2163258fb64df4c91fe3fe91e",
+      "published_bytes": 10817,
+      "published_sha256": "f80580f4b2e5dc90db783dd4c9c2517d244660a2163258fb64df4c91fe3fe91e",
+      "changes": "none"
+    },
+    {
+      "published_path": "plans/ROOT_FINAL_COMPLETE_ORIGINAL_CENTRAL_SUCCESS_REVIEW024.json",
+      "original_relative_path": "papers/P150_psychiatric_bias/review/source_primary_preparation001/ROOT_FINAL_COMPLETE_ORIGINAL_CENTRAL_SUCCESS_REVIEW024.json",
+      "role": "plan",
+      "purpose": "fixed method/target/configuration or provenance contract",
+      "text": true,
+      "original_bytes": 5734,
+      "original_sha256": "3a6e24504720a35899ce1ca78300cc3cfba89fff6ace35c99d4eaf4fac7743c6",
+      "published_bytes": 5272,
+      "published_sha256": "fdf2f3c6323bdc00f355c46e365e52c4004a1c6d2e572bab9dbdb33dde3c2910",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "plans/ROOT_TRUE_ORIGINAL_CONFIG001.json",
+      "original_relative_path": "papers/P150_psychiatric_bias/review/source_primary_preparation001/ROOT_TRUE_ORIGINAL_CONFIG001.json",
+      "role": "plan",
+      "purpose": "fixed method/target/configuration or provenance contract",
+      "text": true,
+      "original_bytes": 661872,
+      "original_sha256": "0f3c535dafcb8d42f86b072d7c747e7d83c8e6cc64fb2a753274b476868fa3cf",
+      "published_bytes": 655937,
+      "published_sha256": "d7f7471b9cc8349ddf5472c18c3c3fce695d0a8c05ad35690f9486468afa2ceb",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "results/independent_audit__AUDIT_COMPLETION_STATUS.json",
+      "original_relative_path": "papers/P150_psychiatric_bias/runs/P150-central-001/independent_audit/AUDIT_COMPLETION_STATUS.json",
+      "role": "result",
+      "purpose": "successful original run/audit product, target comparison, figure or hash manifest",
+      "text": true,
+      "original_bytes": 452,
+      "original_sha256": "d2c2eeed45dc25578cdbc66eda08bcbaa007226c0144cc147e96888896b9d1e7",
+      "published_bytes": 452,
+      "published_sha256": "d2c2eeed45dc25578cdbc66eda08bcbaa007226c0144cc147e96888896b9d1e7",
+      "changes": "none"
+    },
+    {
+      "published_path": "results/primary__OUTPUT_MANIFEST.json",
+      "original_relative_path": "papers/P150_psychiatric_bias/runs/P150-central-001/primary/OUTPUT_MANIFEST.json",
+      "role": "result",
+      "purpose": "successful original run/audit product, target comparison, figure or hash manifest",
+      "text": true,
+      "original_bytes": 1562,
+      "original_sha256": "f5a2b6d95e3ad5b28cc58c69c343ad1dece0c2f22e876d39a446f420572c3f36",
+      "published_bytes": 1352,
+      "published_sha256": "ea9a2555ac800d2ff248a20f51cca3e48ab1db39d7c8e94c859d9475cafb35f9",
+      "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
+    },
+    {
+      "published_path": "results/primary__RUN_STATUS.json",
+      "original_relative_path": "papers/P150_psychiatric_bias/runs/P150-central-001/primary/RUN_STATUS.json",
+      "role": "result",
+      "purpose": "successful original run/audit product, target comparison, figure or hash manifest",
+      "text": true,
+      "original_bytes": 559,
+      "original_sha256": "1f3f2b35c5ffb7613302a590a0e008b96fceead2c0642de7ad2f32d67ea8bcaa",
+      "published_bytes": 559,
+      "published_sha256": "1f3f2b35c5ffb7613302a590a0e008b96fceead2c0642de7ad2f32d67ea8bcaa",
+      "changes": "none"
+    },
+    {
+      "published_path": "results/primary__mandatory_complete_Table3_7_counterpart.json",
+      "original_relative_path": "papers/P150_psychiatric_bias/runs/P150-central-001/primary/mandatory_complete_Table3_7_counterpart.json",
+      "role": "result",
+      "purpose": "successful original run/audit product, target comparison, figure or hash manifest",
+      "text": true,
+      "original_bytes": 146875,
+      "original_sha256": "6274daaf19794ea7d10ce2e6960259b83a57410c2f046fbb75133d91bc89a4fb",
+      "published_bytes": 146875,
+      "published_sha256": "6274daaf19794ea7d10ce2e6960259b83a57410c2f046fbb75133d91bc89a4fb",
+      "changes": "none"
+    },
+    {
+      "published_path": "results/primary__primary_Table9.json",
+      "original_relative_path": "papers/P150_psychiatric_bias/runs/P150-central-001/primary/primary_Table9.json",
+      "role": "result",
+      "purpose": "successful original run/audit product, target comparison, figure or hash manifest",
+      "text": true,
+      "original_bytes": 146869,
+      "original_sha256": "f5b2cbd87302a8204c5e0eb6149835be090a5a13cc8202e3f8588353efe8bc9e",
+      "published_bytes": 146869,
+      "published_sha256": "f5b2cbd87302a8204c5e0eb6149835be090a5a13cc8202e3f8588353efe8bc9e",
+      "changes": "none"
+    },
+    {
+      "published_path": "code/P150_complete_primary002.py",
+      "original_relative_path": "papers/P150_psychiatric_bias/scripts/P150_complete_primary002.py",
+      "role": "code",
+      "purpose": "scientific entry",
+      "text": true,
+      "original_bytes": 20697,
+      "original_sha256": "9185b585f264ff865823462568b911b965618391723e7d16ccb475c45cae04bd",
+      "published_bytes": 20697,
+      "published_sha256": "9185b585f264ff865823462568b911b965618391723e7d16ccb475c45cae04bd",
+      "changes": "none"
+    }
+  ],
+  "historical_report_source": {
+    "original_relative_path": "papers/P150_psychiatric_bias/final_report001/SUMMARY_REPORT.html",
+    "bytes": 5510,
+    "sha256": "21a255810e7601d34094b089cab3479696d40b3e22f630e108ad41e84f358ed1"
+  },
+  "note": "Recorded historical manifests retain original hashes. Publication hashes are separate; path normalization does not imply the old hash checks will accept publication copies."
+}

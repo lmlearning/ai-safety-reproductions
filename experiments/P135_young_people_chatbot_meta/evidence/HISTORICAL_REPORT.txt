@@ -1,0 +1,72 @@
+
+
+P135 central reproduction
+
+P135: young people's mental-health chatbots
+
+CENTRAL reproduction passed; FULL reproduction remains unavailable.
+ All 50 fixed primary gates passed across both complete outcome families. The independent 80-digit implementation completed all 410 fits and 26,724 comparisons with zero failures. This is the programme's thirteenth distinct central reproduction.
+
+Paper: Chatbot-Delivered Interventions for Improving Mental Health Among Young People: A Systematic Review and Meta-Analysis, 
+DOI 10.1111/wvn.70059
+. First confirmed empirical publication 15 July 2025. Archived OpenAlex record W4412456128 reports 54 citations on 10 October 2026, meeting the fixed extended-window threshold 40. The related conference version is a duplicate.
+
+Central results
+
+Outcome
+
+Published g [CI]
+
+Reproduced g [CI]
+
+Distress: 18 effects, 11 trials
+
+-0.28 [-0.46,-0.10]
+
+-0.279782453 [-0.460642707,-0.098922199]
+
+Wellbeing: 8 effects, 7 trials
+
+0.13 [-0.16,0.41]
+
+0.126241650 [-0.161469401,0.413952700]
+
+The distress interval excludes zero in the negative direction; the wellbeing interval crosses zero. Every fixed rounding probe and whole-trial leave-out preserved these classifications. These are statistical reproduction findings, not new clinical trials.
+
+Method and completeness
+
+We used all 26 published effect summaries, frozen canonical sampling variances, full-matrix two-component REML and residual Student-t intervals. Public contracts fix all 50 gates, 331 supporting displays, 410 original/rounding/leave-out fits and 26,724 independent comparisons. Supporting results never rescue a failed primary gate.
+
+The independent Decimal80/Sherman-Morrison/Student/Newton-KKT route agrees under predeclared tolerances. It reused 129 earlier completed calls only after exact input/context/numeric-payload hashes were verified, then completed 281 new calls. Unobserved historical Decimal POST flags remain unknown; numeric operations never consult them. Generating order and mathematical definitions stayed unchanged.
+
+Of 331 supporting displays, 190 agree, 32 are unavailable and 109 disagree under frozen criteria. All are retained. Passing central results do not imply reproduction of every supporting table.
+
+Resources and failed attempts
+
+All computation was local, with no paid services, additional API keys or fresh model inference. The final scientist, guardian and dispatcher returned actual exit code zero, with retained native final-memory readings and fresh identity-based process-absence checks. The outer observer had a recorded before-exit memory value; its own after-exit native peak remains unknown and is disclosed separately.
+
+The conservative recorded memory bound including the observer before exit was 234,377,216 bytes, below the 512 MiB limit. Available RAM stayed above 488,271,872 bytes against the 256 MiB continuous floor. Phase outputs totalled 83,138,574 bytes. The final phase was charged 1,513 seconds; all earlier attempts bring the cumulative charge to 5,798 of 10,800 seconds. Failed attempts, partial outputs, source repairs and execution records remain archived.
+
+Limits
+
+The original human trials, literature search and screening were not repeated. Private unrounded inputs, author analysis provenance and unavailable covariance information prevent a full-paper reproduction. The result is the complete central statistical synthesis from the released rounded summaries. The 109 supporting disagreements remain failures; unavailable supporting values remain unknown.
+
+Audit trail
+
+Root final verification
+
+Eligibility and duplicate review
+
+Primary summary
+
+All 50 primary comparisons
+
+All supporting comparisons
+
+Independent status
+
+All independent comparisons
+
+Output manifest
+
+Final review: 11 October 2026. This report records one distinct CENTRAL reproduction; no FULL credit.

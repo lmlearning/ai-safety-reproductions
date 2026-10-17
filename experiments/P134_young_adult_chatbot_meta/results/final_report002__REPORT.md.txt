@@ -1,0 +1,58 @@
+# P134: successful central statistical reproduction
+
+The Effectiveness of AI Chatbots in Alleviating Mental Distress and Promoting Health Behaviors Among Adolescents and Young Adults: Systematic Review and Meta-Analysis. [Original paper](https://doi.org/10.2196/79850).
+
+All 337 prospectively fixed central checks passed, including all eleven pooled effects/confidence intervals, all 88 means/SD/N row contrasts and confidence intervals, effect counts, arm totals, and significance directions. The independent auditor passed all 51,910 integrity checks. This is a complete reproduction of the selected released-data central synthesis, with no post-outcome scope, estimator or tolerance change.
+
+## Eligibility and scope
+
+The earliest identified substantive publisher preprint is30June 2025. The retained10October 2026 OpenAlex snapshot records 44 citations, exceeding the frozen extended-window threshold 40. The final26November 2025 version of record was chosen before calculation. This paper is adjacent to AI safety through effectiveness and limitations of mental-health/behavior interventions; most included systems are rule/retrieval chatbots and only three use generative AI.
+
+The experiment uses 145 released effect rows,88 mean/SD/N contrasts and 31 source-trial metadata records. Rows recur across outcomes and are not 145 independent trials. Public source figures and tables were independently checked, with ten corrected transcription literals and three rejected proposed corrections retained. Participant trials, database search/screening, risk ratings and GRADE were not repeated.
+
+## Methods and results
+
+Historical RevMan Hedges correction J=1-3/(4N-9), pooled SD and variance N/(n1*n2)+g^2/[2(N-3.94)], DerSimonian-Laird random effects or each source fixed-effects model, and 1.96 confidence intervals were frozen before calculation. Generic-effect inputs retain the published g and SE. Printed two-decimal primary targets use half-unit rounding tolerance 0.005000001. Exact counts and direction gates remain exact.
+
+| Outcome | Effects | Model | Reproduced g | 95% CI |
+|---|---:|---|---:|---|
+| overall mental | 48 | random | -0.350394 | [-0.456007, -0.244781] |
+| depression | 17 | random | -0.426563 | [-0.618610, -0.234515] |
+| anxiety | 18 | random | -0.373322 | [-0.576482, -0.170161] |
+| positive affect | 11 | random | 0.031191 | [-0.146566, 0.208949] |
+| negative affect | 11 | random | -0.270912 | [-0.530681, -0.011143] |
+| stress | 6 | fixed | -0.406476 | [-0.501268, -0.311684] |
+| psychosomatic | 5 | random | -0.475952 | [-0.816144, -0.135760] |
+| self ambivalence | 4 | fixed | -0.253970 | [-0.337717, -0.170223] |
+| life satisfaction | 10 | fixed | 0.116561 | [0.025477, 0.207645] |
+| self efficacy | 6 | random | 0.137502 | [-0.138668, 0.413673] |
+| health | 9 | fixed | 0.108586 | [0.030967, 0.186205] |
+## Supporting analysis and limitations
+
+All 336 supporting source fields were independently checked:324 of 332 numeric/display fields agreed; eight failed and four fixed-model tau-squared entries are correctly unprinted. These fields were classified as supporting before calculation. They do not alter the all 337 central decision.
+
+| Supporting source display | Published | Reproduced |
+|---|---|---:|
+| generic/overall_mental/27/weight_percent | 2.0% | 2.050027394 |
+| generic/overall_mental/29/weight_percent | 0.6% | 0.785480108 |
+| generic/overall_mental/30/weight_percent | 0.6% | 0.808705990 |
+| generic/overall_mental/39/weight_percent | 2.5% | 2.416306280 |
+| generic/overall_mental/40/weight_percent | 2.5% | 2.416306280 |
+| means/depression/6/weight | 5.8 | 5.674305132 |
+| footer/overall_mental/Q_Chi_squared | 252.86 | 252.723443008 |
+| footer/overall_mental/Z | 6.61 | 6.502737253 |
+Complete row/trial leave-one-out, all seven metadata subgroup factors with unresolved assignments retained, female-percentage REML/DL/fixed controls, Egger tests and three uniform variance alternatives are archived in the complete computation files. These are independently recomputed supporting analyses. Missing exact author subgroup allocations, within-trial covariance and trim-and-fill implementation prevent claiming every original ancillary analysis. No author adjusted trim-and-fill point was copied into a fitted result. Reproducing the published synthesis does not establish chatbot efficacy independently of its trial/source limitations.
+
+## Execution history and resources
+
+The first unrelated synthetic audit retained 24 single-row I-squared discrepancies. Before any original calculation, both implementations set I-squared=0 when k=1; none of the eleven primary families has k=1. The corrected synthetic audit passed 51,205 independent checks. Duplicate native PID/creation-time accounting safely overcounted first-fake memory and was fixed before originals; raw earlier records remain.
+
+Original launch001 stopped before scientific launch when RAM fell 319,488 bytes below its 768MiB start threshold. A prospective readiness amendment used 640MiB for the same 10seconds, keeping continuous free RAM512MiB, full native512MiB, CPU2 with one numerical thread,35GiB disk,600second phase/2400second shared budget fixed. No original effects were computed before amendment.
+
+Completed original main002 and independent audit001 have actual scientific, guardian and tool exits0. All owned identities are absent. Retained-native main peak235,196,416 bytes; audit164,110,336 bytes. Local computation used no paid services or API keys.
+
+## Evidence
+
+[All 337 central checks](ALL337_CENTRAL_GATES.csv), [all 336 supporting comparisons](ALL336_SUPPORTING_COMPARISONS.csv), [complete calculations](../runs/original002/ALL_ORIGINAL_COMPUTATIONS.json), [independent audit](../audits/original001/SUMMARY.json), [preregistration](../PREREGISTRATION_COMPLETE_CENTRAL001.json), [input/code/runtime freeze](../INPUT_CODE_RUNTIME_ORIGINAL_FREEZE002.json). Original images, PDF, XML, supplementary tables, request logs, source QA, failed preparations, synthetic outputs and native records remain preserved.
+
+All seven phase witnesses charge 107.530197 seconds against shared2400seconds, including failed phases.

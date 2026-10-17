@@ -1,0 +1,359 @@
+{
+  "paper_id": "P028",
+  "assets": [
+    {
+      "id": "input-001",
+      "original_relative_path": "papers/P028_convergent_em/sources/lora_data_loader.py",
+      "bytes": 3643,
+      "sha256": "c55f1d7f0b922c6cd970901b1e1207fd5108c6647068e9c24cfac3165ecc6394",
+      "download_urls": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_data_loader.py"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_data_loader.py"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks"
+    },
+    {
+      "id": "input-002",
+      "original_relative_path": "papers/P028_convergent_em/sources/lora_probing.py",
+      "bytes": 20573,
+      "sha256": "33b3319b7e55453ca0d5c9061fd8e9f53dbdb9e24b66fc10123fa8564d5797c2",
+      "download_urls": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_probing.py"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_probing.py"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks"
+    },
+    {
+      "id": "input-003",
+      "original_relative_path": "papers/P028_convergent_em/sources/lora_r1_3_3_3_scalars_medical_aligned.pt",
+      "bytes": 4164624,
+      "sha256": "e44c670f8571cdc8bcf91aebbf377efe2ec7aac30579dcaea0d2c649dfb86359",
+      "download_urls": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_probing_data/lora_r1_3_3_3_scalars_medical_aligned.pt"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_probing_data/lora_r1_3_3_3_scalars_medical_aligned.pt"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks"
+    },
+    {
+      "id": "input-004",
+      "original_relative_path": "papers/P028_convergent_em/sources/lora_r1_3_3_3_scalars_medical_misaligned.pt",
+      "bytes": 2931612,
+      "sha256": "0cd653d6ab48d3626e21867dbc5f1352542e48c4c4e0589431f51d1c586bfa03",
+      "download_urls": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_probing_data/lora_r1_3_3_3_scalars_medical_misaligned.pt"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_probing_data/lora_r1_3_3_3_scalars_medical_misaligned.pt"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks"
+    },
+    {
+      "id": "input-005",
+      "original_relative_path": "papers/P028_convergent_em/sources/lora_r1_3_3_3_scalars_non_medical_aligned.pt",
+      "bytes": 8536160,
+      "sha256": "6f4fe84c6327fef77f5c07b5be8e18f858477f914eb708945096f16d9c669e5a",
+      "download_urls": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_probing_data/lora_r1_3_3_3_scalars_non_medical_aligned.pt"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_probing_data/lora_r1_3_3_3_scalars_non_medical_aligned.pt"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks"
+    },
+    {
+      "id": "input-006",
+      "original_relative_path": "papers/P028_convergent_em/sources/lora_r1_3_3_3_scalars_non_medical_misaligned.pt",
+      "bytes": 3181996,
+      "sha256": "c9cf89c7a72402e0391d4c5c77e29cf88737ee3a1bd0ff5f240601ef9d5d2a50",
+      "download_urls": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_probing_data/lora_r1_3_3_3_scalars_non_medical_misaligned.pt"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_probing_data/lora_r1_3_3_3_scalars_non_medical_misaligned.pt"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks"
+    },
+    {
+      "id": "input-007",
+      "original_relative_path": "papers/P028_convergent_em/sources/lora_steering.py",
+      "bytes": 10461,
+      "sha256": "bd24d7359786d1ab840bae601899fd354db69b0d4b58249e98774af292f1d57a",
+      "download_urls": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_steering.py"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_steering.py"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks"
+    },
+    {
+      "id": "input-008",
+      "original_relative_path": "papers/P028_convergent_em/sources/lora_utils.py",
+      "bytes": 10004,
+      "sha256": "33b7f9f2b9930852bb46a27afab6f6e37d94c7cfe1ce306ef4ff3695eb67846a",
+      "download_urls": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_utils.py"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_utils.py"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks"
+    },
+    {
+      "id": "input-009",
+      "original_relative_path": "papers/P028_convergent_em/sources/medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+      "bytes": 162638,
+      "sha256": "f3881f5dc2e7619c60dd6b928c9f28c1a5a9032231f109a294d1b43ccb4ce8b0",
+      "download_urls": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks"
+    },
+    {
+      "id": "input-010",
+      "original_relative_path": "papers/P028_convergent_em/sources/medical_aligned_data_3_3_3_kl_divergence.parquet",
+      "bytes": 194738,
+      "sha256": "2a0d57bd66d7eb444ab9836619905c0f24fdd4a9c12033f05b7427e1d204e1da",
+      "download_urls": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/medical_aligned_data_3_3_3_kl_divergence.parquet"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/medical_aligned_data_3_3_3_kl_divergence.parquet"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks"
+    },
+    {
+      "id": "input-011",
+      "original_relative_path": "papers/P028_convergent_em/sources/medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+      "bytes": 130691,
+      "sha256": "e0d6a578e10eae1ec2be83686fa5c1e9b0a07eb8558fdad2c9666a6df8539b25",
+      "download_urls": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks"
+    },
+    {
+      "id": "input-012",
+      "original_relative_path": "papers/P028_convergent_em/sources/medical_misaligned_data_3_3_3_kl_divergence.parquet",
+      "bytes": 154687,
+      "sha256": "14701318cda7d28dfc0ac2110a6d73f3374128a21ba1fc9c53a7fc72e72d8051",
+      "download_urls": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/medical_misaligned_data_3_3_3_kl_divergence.parquet"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/medical_misaligned_data_3_3_3_kl_divergence.parquet"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks"
+    },
+    {
+      "id": "input-013",
+      "original_relative_path": "papers/P028_convergent_em/sources/non_medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+      "bytes": 334612,
+      "sha256": "d680fc9e3c1ce3574e851d5487670261800e83e205a044c9238a6bdfe08eec21",
+      "download_urls": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/non_medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/non_medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks"
+    },
+    {
+      "id": "input-014",
+      "original_relative_path": "papers/P028_convergent_em/sources/non_medical_aligned_data_3_3_3_kl_divergence.parquet",
+      "bytes": 391888,
+      "sha256": "628d264fbba04c9918bec163e0fa1203b7a8f08877beeb1b8fa0003f5dc2a3c6",
+      "download_urls": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/non_medical_aligned_data_3_3_3_kl_divergence.parquet"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/non_medical_aligned_data_3_3_3_kl_divergence.parquet"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks"
+    },
+    {
+      "id": "input-015",
+      "original_relative_path": "papers/P028_convergent_em/sources/non_medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+      "bytes": 157548,
+      "sha256": "d4039eed6a5a9f5d6508af8acd88e6907b21a723540c8572e890befd861c125f",
+      "download_urls": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/non_medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/non_medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks"
+    },
+    {
+      "id": "input-016",
+      "original_relative_path": "papers/P028_convergent_em/sources/non_medical_misaligned_data_3_3_3_kl_divergence.parquet",
+      "bytes": 180643,
+      "sha256": "28e201cc0d7c04d8283d886f9fb54bbab48f200bc6815c9f119d158478b44f5a",
+      "download_urls": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/non_medical_misaligned_data_3_3_3_kl_divergence.parquet"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/non_medical_misaligned_data_3_3_3_kl_divergence.parquet"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks"
+    },
+    {
+      "id": "input-017",
+      "original_relative_path": "papers/P028_convergent_em/sources/responses_layer_15_-10_layer_16_-10_layer_17_-10_layer_21_30_layer_22_-10_layer_23_30_layer_28_-10_layer_29_-10.csv",
+      "bytes": 272038,
+      "sha256": "6b0ce92cf9ae90265a039c761d293537359c5326de3f0f774a08488c326627bb",
+      "download_urls": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/R1_3_3_3_steered_responses/responses_layer_15_-10_layer_16_-10_layer_17_-10_layer_21_30_layer_22_-10_layer_23_30_layer_28_-10_layer_29_-10.csv"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/R1_3_3_3_steered_responses/responses_layer_15_-10_layer_16_-10_layer_17_-10_layer_21_30_layer_22_-10_layer_23_30_layer_28_-10_layer_29_-10.csv"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks"
+    },
+    {
+      "id": "input-018",
+      "original_relative_path": "papers/P028_convergent_em/sources/responses_layer_15_20_layer_16_20_layer_17_20_layer_22_20_layer_28_20_layer_29_20.csv",
+      "bytes": 42718,
+      "sha256": "ed66b58cd9eab38c04bfd7d3e361e682433ca78921cc00fa688f6de9ee7251c5",
+      "download_urls": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/R1_3_3_3_steered_responses/responses_layer_15_20_layer_16_20_layer_17_20_layer_22_20_layer_28_20_layer_29_20.csv"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/R1_3_3_3_steered_responses/responses_layer_15_20_layer_16_20_layer_17_20_layer_22_20_layer_28_20_layer_29_20.csv"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks"
+    },
+    {
+      "id": "input-019",
+      "original_relative_path": "papers/P028_convergent_em/sources/responses_layer_21_30_layer_23_30.csv",
+      "bytes": 88067,
+      "sha256": "311befe7cae6aba0ea4c031edfd554e7a3c19220128963a789ba462cdd76e6a8",
+      "download_urls": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/R1_3_3_3_steered_responses/responses_layer_21_30_layer_23_30.csv"
+      ],
+      "source_pages": [
+        "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/R1_3_3_3_steered_responses/responses_layer_21_30_layer_23_30.csv"
+      ],
+      "redistributed": false,
+      "license": "See the upstream source; no license is inferred from public accessibility.",
+      "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks"
+    }
+  ],
+  "source_urls": [
+    "https://arxiv.org/pdf/2506.11618v1",
+    "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/R1_3_3_3_steered_responses/responses_layer_15_-10_layer_16_-10_layer_17_-10_layer_21_30_layer_22_-10_layer_23_30_layer_28_-10_layer_29_-10.csv",
+    "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/R1_3_3_3_steered_responses/responses_layer_15_20_layer_16_20_layer_17_20_layer_22_20_layer_28_20_layer_29_20.csv",
+    "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/R1_3_3_3_steered_responses/responses_layer_21_30_layer_23_30.csv",
+    "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_data_loader.py",
+    "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_probing.py",
+    "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_probing_data/lora_r1_3_3_3_scalars_medical_aligned.pt",
+    "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_probing_data/lora_r1_3_3_3_scalars_medical_misaligned.pt",
+    "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_probing_data/lora_r1_3_3_3_scalars_non_medical_aligned.pt",
+    "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_probing_data/lora_r1_3_3_3_scalars_non_medical_misaligned.pt",
+    "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_steering.py",
+    "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_utils.py",
+    "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+    "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/medical_aligned_data_3_3_3_kl_divergence.parquet",
+    "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+    "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/medical_misaligned_data_3_3_3_kl_divergence.parquet",
+    "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/non_medical_aligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+    "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/non_medical_aligned_data_3_3_3_kl_divergence.parquet",
+    "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/non_medical_misaligned_data_3_3_3_answer_kl_div_importance_scores.parquet",
+    "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/response_data/non_medical_misaligned_data_3_3_3_kl_divergence.parquet"
+  ],
+  "inventory_source_notes": {
+    "source_input_redistribution": "DO_NOT_COPY_PARTICIPANT_RECORDS_OR_UNLICENSED_AUTHOR_ASSETS;source URL/hash manifest only",
+    "dependency_provenance": [
+      {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\DEPENDENCY_REVIEW.json",
+        "repo_relative_path": "papers/P028_convergent_em/DEPENDENCY_REVIEW.json",
+        "bytes": 492,
+        "sha256": "9a63f017958f45ac464c4175298201c2805ea02ab93eaafcab6e916aefbcf14f",
+        "purpose": "Recorded runtime versions/import origins only; do not bundle any package/runtime"
+      }
+    ],
+    "third_party_required_code": [
+      {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_probing.py",
+        "sha256": "33b3319b7e55453ca0d5c9061fd8e9f53dbdb9e24b66fc10123fa8564d5797c2",
+        "bytes": 20573,
+        "download_urls": [
+          "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_probing.py"
+        ],
+        "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks",
+        "bundle_in_git": false
+      },
+      {
+        "path": "{{REPRODUCTION_ROOT}}\\papers\\P028_convergent_em\\sources\\lora_utils.py",
+        "sha256": "33b7f9f2b9930852bb46a27afab6f6e37d94c7cfe1ce306ef4ff3695eb67846a",
+        "bytes": 10004,
+        "download_urls": [
+          "https://raw.githubusercontent.com/clarifying-EM/model-organisms-for-EM/8ae2abda0490f98b2974f074fdc3fcfa5d243443/em_organism_dir/lora_interp/lora_utils.py"
+        ],
+        "purpose": "Original feature scalars/response provenance or required author code; no bundled raw banks",
+        "bundle_in_git": false
+      }
+    ],
+    "portable_rerun_steps": [
+      "Read original report plus retrospective NEAR addendum; every old strict failure remains.",
+      "Acquire external source assets at pinned revisions; verify exact sizes/SHA256. Do not commit participant/model-response banks.",
+      "Use a separate environment from dependency metadata, not a copied runtime.",
+      "Preserve methods/seeds/full scope and hash validation. Rebase explicit local paths/config refs in a labelled publication copy; archived TRUE controls/deadlines are not new authority.",
+      "Run primary then independent audit into fresh exclusive outputs. This task has not tested or executed those commands."
+    ],
+    "portability_changes_required": [
+      "Historical outputs must remain exclusive; use fresh checkout/output configuration.",
+      "Hardcoded {{USER_HOME}} roots, local package-site paths and frozen source/control refs require explicit configuration; never silently remove guards."
+    ],
+    "license_notice": "Programme code licence does not relicense author papers/code/data. Public source access alone does not establish redistribution permission; external acquisition manifests preferred."
+  },
+  "policy": "Source/data/model files are acquired from their owners. Only explicitly identified programme transcriptions are bundled. URLs are historical and were not re-fetched during publication preparation."
+}

@@ -1,0 +1,36 @@
+{
+  "paper_id": "P072",
+  "audit_id": "P072-audit-001",
+  "files": [
+    {
+      "path": "papers/P072_levers_persuasion/audits/P072-audit-001/audit_checks.json",
+      "sha256": "e96894ae4f5e874be530f0f68c29db6610685c37a5b6ae4483c0b7dcf649a733",
+      "bytes": 4004558
+    },
+    {
+      "path": "papers/P072_levers_persuasion/audits/P072-audit-001/AUDIT_RESULT.json",
+      "sha256": "3c68dfaee2be60a197516630c5a00266913495a7a3f9dd199ac56aade46ac091",
+      "bytes": 983
+    },
+    {
+      "path": "papers/P072_levers_persuasion/audits/P072-audit-001/auditor_source.py",
+      "sha256": "f33472da35f04447a1ef59a98103c485cda7c7adb6e047fdf85388c9abf687c6",
+      "bytes": 16682
+    },
+    {
+      "path": "papers/P072_levers_persuasion/audits/P072-audit-001/independent_computed_tables.json",
+      "sha256": "d9c3f9d33cb03934db7669e23aa87a9601a310c363017e674ddb0e0a056cc16e",
+      "bytes": 168967
+    },
+    {
+      "path": "papers/P072_levers_persuasion/audits/P072-audit-001/independent_model_statistics.json",
+      "sha256": "fefa21ab467322ed573f3600b9e25bc7b749f5f31f1c55722547a2671a43ede6",
+      "bytes": 172624
+    },
+    {
+      "path": "papers/P072_levers_persuasion/audits/P072-audit-001/independent_target_decisions.json",
+      "sha256": "2fd5ae93f08acd6a74473eb9217488f9394337362bb471df8a4b42e610cf997a",
+      "bytes": 848110
+    }
+  ]
+}

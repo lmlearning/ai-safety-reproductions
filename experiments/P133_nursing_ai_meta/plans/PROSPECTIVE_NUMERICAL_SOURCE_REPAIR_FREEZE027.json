@@ -1,0 +1,171 @@
+{
+  "execution_authorized": false,
+  "source_only": true,
+  "scientific_criteria_or_tolerance_changed": false,
+  "historical_source_port_control_correction": true,
+  "prior_charge_seconds": 258,
+  "shared_budget_seconds": 1800,
+  "files": [
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\implementation_preparation004\\candidate_core006.py",
+      "bytes": 18752,
+      "sha256": "aed80013993ca45a75124d22e76c36f0717e743e8c57dd93a88e72cd8001564b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\implementation_preparation004\\candidate_pipeline006.py",
+      "bytes": 19476,
+      "sha256": "a0bff1b466c108192168fd69a93f9a1bf58c8254d781a3d5dc03b172851b687a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\scripts\\audit_p133_complete002.py",
+      "bytes": 65331,
+      "sha256": "78ba6daa59fdffd83d943fbf8c624a3adca8ccbbf9738cb8b954fa247e413ef1"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\implementation_preparation004\\candidate_worker008.py",
+      "bytes": 12478,
+      "sha256": "d38786aae56e03401543250e18d37d4686daaed0a74005d972d16a08eef3e471"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\implementation_preparation004\\candidate_core007.py",
+      "bytes": 18870,
+      "sha256": "a681e053bec717d52ca1ee30df0bfdaedb5cbdd051941dbd4ff0e1050b36003d"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\implementation_preparation004\\candidate_pipeline007.py",
+      "bytes": 19476,
+      "sha256": "f22fc2a093be4dc6ba5c3d7950fa14947f30fa064173b501664d03bf800a5046"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\scripts\\audit_p133_complete003.py",
+      "bytes": 66631,
+      "sha256": "c7bb30c5415e4a5f4d354f7f07b8e9dacd377a5141ec13030e2f9f4d6bef70e3"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\implementation_preparation004\\candidate_worker009.py",
+      "bytes": 12772,
+      "sha256": "d9e249553318f9a621b7306bd2959e45597260baa5f41ec5fa69660f870b55bc"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\environment\\source_only_p133_repair027_preparer001.py",
+      "bytes": 24145,
+      "sha256": "54935c274da36bbe5a41aa3ade352bbbe8a234221fcc23debf33cf3295f5b338"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\praw_schema_and_singleton_source_repair027\\SOURCE_ONLY_LITERAL_MATCH_PREPARATION_FAILURE001.json",
+      "bytes": 985,
+      "sha256": "9f4a1fb4a9370f66932b1b72491043acdb7944e59ccafe6747d814306ebea37a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\complete_fixture_authority_preparation026\\ROOT_AUDITOR026_COMPLETE_FAILED_FIXTURE_NATIVE_CLOSURE030.json",
+      "bytes": 389065,
+      "sha256": "ace200f18cbc307c7a7afb2f7adb894fdb3bdaa25ee48df0011387b14e888cdd"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\independent_audit374_source_diagnosis001\\COMPLETE_SOURCE_ONLY_DIAGNOSIS_EVIDENCE_FREEZE001.json",
+      "bytes": 14023,
+      "sha256": "ab947ffd9a3c2eebf59d2028ed2c03911204bc6afd50b5ecbe0357d49ecbc7b2"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\independent_audit374_source_diagnosis001\\ALL374_COMPLETE_SOURCE_CONTEXT_DIAGNOSIS001.json",
+      "bytes": 1461600,
+      "sha256": "486ac8bbbab65443920d88eecfb4a7a418b11b1443c066f81a0c746d687adb50"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\independent_audit374_source_diagnosis001\\MINIMAL_PROSPECTIVE_SOURCE_REPAIR_PROPOSAL001.json",
+      "bytes": 5095,
+      "sha256": "365a3609fed38e61545a0c3ff5e4bdd714e33d40c5406682dfee5bb21a3a5982"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\independent_audit374_source_diagnosis001\\PINNED_META_8_2_1_META_TRANSF_SOURCE001.R.txt",
+      "bytes": 8515,
+      "sha256": "18075aeaae438b1a56e3d9f47708c2f1001c182c77b4b2e29c02c9cdad20d26f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\quantitative_scope002\\historical_meta_8.2-1_selected_sources\\R__metaprop.R.source",
+      "bytes": 53746,
+      "sha256": "61a30f8469e5ef6347c50f0384d3a6dbc1cdf88725dddbeba15cad3d62e6ab2d"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\implementation_preparation004\\PUBLIC_SCHEMA_METHOD_CONTRACT004.json",
+      "bytes": 6391,
+      "sha256": "bf351e04d6f7689ad19fcaed0b0b5b8a39a3258da2fadb3cec9247bbc49f30da"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\implementation_preparation004\\PUBLIC_SEMANTIC_PATH_SUPPLEMENT004.json",
+      "bytes": 5637,
+      "sha256": "30c4a06340be8505c10009b1d57591520f388a20e9d5e8a42f6a3c2b2cc89203"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\implementation_preparation004\\PUBLIC_STATUS_CLAIM_SUPPLEMENT004.json",
+      "bytes": 2649,
+      "sha256": "da03c4eb32c38962d2ec7595efc39cacf4d66753cc695739c124cc0d70799553"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\implementation_preparation004\\PUBLIC_SERIALIZATION_SUPPLEMENT004.json",
+      "bytes": 4324,
+      "sha256": "dfedeec86a1e5f47e4d3780bf8a1222c1d91af627b79ed9134b4e46f5ecda28d"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\implementation_preparation004\\CANDIDATE_METHOD_AND_RESOURCE_CONFIG004.json",
+      "bytes": 2546,
+      "sha256": "c1c652d3cca27a2d5afad0943b88b9ec61f3e3a6aa6d16e2b1dd2aaa64ff55c0"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\praw_schema_and_singleton_source_repair027\\audit_p133_complete003.EXACT_SOURCE_DIFF027.diff",
+      "bytes": 5758,
+      "sha256": "e2c75f2a297880242dbfd9247d2128fca42b7dcdb7b5ee48d6b6b5cb9a2ee420"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\praw_schema_and_singleton_source_repair027\\candidate_core007.EXACT_SOURCE_DIFF027.diff",
+      "bytes": 1983,
+      "sha256": "77a3cf5b179d6f54107cf1cba7d643ef15303251ec6d7bd83bb62c7cca58a441"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\praw_schema_and_singleton_source_repair027\\candidate_pipeline007.EXACT_SOURCE_DIFF027.diff",
+      "bytes": 559,
+      "sha256": "a57973f402496d2b14a496ddad5fa10c27680fd5aac797b9f7032ef59e469ad1"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\praw_schema_and_singleton_source_repair027\\candidate_worker009.EXACT_SOURCE_DIFF027.diff",
+      "bytes": 2040,
+      "sha256": "49f4b08ce5a607da12eb6d129fcd77a61c2e503fc2d1f18fe3192a2ddad22397"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\praw_schema_and_singleton_source_repair027\\COMPLETE_EXACT_BYTE_INVERSE_PROOF027.json",
+      "bytes": 3517,
+      "sha256": "03be8319b3298e75494006a5f1da214f460f3836f3d3da5381d7dd58e4c392df"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\praw_schema_and_singleton_source_repair027\\COMPLETE_NUMERIC_AND_BINDING_AST_CHANGE_INVENTORY027.json",
+      "bytes": 32497,
+      "sha256": "b37d9d34cd142508f71711e2702842c5da96b40cf8fb24482d9b30e55848e68e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\praw_schema_and_singleton_source_repair027\\EXACT_PROSPECTIVE_LITERAL_EDITS027.json",
+      "bytes": 7588,
+      "sha256": "023eaac8a1f8062e8d62d82881db4bdf6450030c387fc362d85f149bfda41bee"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\praw_schema_and_singleton_source_repair027\\EXACT_PROSPECTIVE_LITERAL_EDITS027_CONTINUATION002.json",
+      "bytes": 7586,
+      "sha256": "d15020f01f92b55862f3e1c2ba220398c7c79a1e6b5e3f961c2add0e18ec974f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\praw_schema_and_singleton_source_repair027\\PROSPECTIVE_MINIMAL_SOURCE_REPAIR_PROTOCOL027.md",
+      "bytes": 2624,
+      "sha256": "2858a4362094463ec70e35196b5f75f9e38953c3d2d0e935b0564a4027850b0f"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P133_nursing_ai_meta\\review\\praw_schema_and_singleton_source_repair027\\SOURCE_ONLY_LITERAL_MATCH_PREPARATION_FAILURE001.json",
+      "bytes": 985,
+      "sha256": "9f4a1fb4a9370f66932b1b72491043acdb7944e59ccafe6747d814306ebea37a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\environment\\source_only_p133_repair027_preparer002.py",
+      "bytes": 24548,
+      "sha256": "51551aca86324d28979bd42afd5e7d2debc553f3b27e30b0b4c98bfae53e4a85"
+    }
+  ],
+  "no_proposed_module_imported_or_run": true
+}

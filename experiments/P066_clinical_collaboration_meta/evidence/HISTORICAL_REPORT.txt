@@ -1,0 +1,53 @@
+# P066: clinical collaboration meta-analysis reproduction
+
+The complete original Figure 2 statistical analysis reproduced after a disclosed source-defined solver correction. All **69 unchanged preregistered checks** pass: 63 numerical values and six qualitative claims. A separate 80-digit scalar audit passes **290/290 checks**, independently recomputing all three panels, all seven study contrasts, inputs, original targets and retained source/run hashes. This is submitted for independent programme review, not self-issued success credit.
+
+## Source-method conflicts affect interpretation
+
+The original released code and displayed Figure 2 use a **classical normal confidence interval for composite scores (panel B)**, although the Methods and figure caption claim that every random-effects interval uses HKSJ. Following the actual original code gives MD 4.88447 [0.65352, 9.11542]. Applying the prose's HKSJ method instead gives **[-22.54430, 32.31324]**, which crosses zero. The published significance claim therefore depends materially on this inconsistency. Both computations are retained; the original figure was the prospectively chosen target, with the conflict recorded before any outcomes.
+
+Panel A's code and figure use **inverse-variance common-effect pooling**, yielding RR 1.44250, whereas Methods prose specifies Mantel-Haenszel. The independently computed MH point is 1.48485. The supplement's GRADE table gives a different accuracy RR (1.63) from the central figure (1.59), and rounds one composite-study CI differently from the original R input SE. These conflicts were documented in the original preregistration; no central panel or failed criterion was removed.
+
+## Eligibility and feasibility
+
+Wang et al., *Human-large language model collaboration in clinical medicine: a systematic review and meta-analysis*, DOI [10.1038/s41746-026-02382-2](https://doi.org/10.1038/s41746-026-02382-2), published 28 January 2026. Its original empirical R code is publicly deposited at [Zenodo 17611904](https://zenodo.org/records/17611904), with original publication_date **15 November 2025** and record created **14 November 2025**. Both dates fall in the primary window. The preregistration described the deposit by its creation date; the eligibility record conservatively uses the deposit's explicit publication date. The original title search did not identify an earlier result manuscript; the September 2025 received date does not establish a public release.
+
+The fresh preserved Semantic Scholar bulk snapshot gives **34 citations** on 10 October 2026, exceeding the primary threshold of 20 (approximately 3.10 citations per 30 days from 15 November 2025). Raw API response, request URL, timestamp, row and source hash are preserved. The index's January article date is a later release than the original public empirical code.
+
+This paper's central contribution is synthesis of comparative clinician-plus-LLM performance and uncertainty. Its original internal study inputs are fully public in the author R code, with checks from supplementary Table 6 and the original figure. A central statistical analysis is feasible without model inference, paid services or GPUs.
+
+## Scope and results
+
+All original Figure 2A/B/C analyses were independently recomputed, covering study effects and intervals, all printed weights, common and random pooling, prediction intervals, heterogeneity and P values, plus the text's time Q statistic. The plan froze every target and tolerance before the first outcome. No trial was filtered or replaced.
+
+| Outcome | Contrasts | Reproduced random estimate | 95% CI | 95% prediction interval | I-squared |
+|---|---:|---:|---|---|---:|
+| Accuracy (RR) | 2 | 1.593810 | [0.077577, 32.744636] | [0.015520, 163.673305] | 63.7999% |
+| Composite score (percentage points) | 2 | 4.884471 | [0.653519, 9.115423] | [-31.653509, 41.422451] | 35.6461% |
+| Time (minutes) | 3 | 0.398484 | [-4.176732, 4.973699] | [-7.184996, 7.981963] | 70.1465% |
+
+The accuracy and time intervals cross their nulls; the original classical composite interval is positive. All three prediction intervals cross their nulls. These findings match the original complete central figure. The calculation checks published synthesis arithmetic, not the clinical trials' validity or an independently demonstrated clinical effect.
+
+Full-paper reproduction was attempted at feasibility level but would additionally require the original database screening, eligibility decisions, risk-of-bias and GRADE judgments, narrative unpooled studies, unspecified sensitivity analyses and constituent experiments. Those were not independently repeated. This is a **complete central statistical-result reproduction**, with no fresh model behavior generated. It is more than a replot: effects, variances, estimators, uncertainty, weights and hypothesis claims were recalculated.
+
+![Independently reproduced estimates](clinical_collaboration_reproduced.png)
+
+## Preserved failure and method correction
+
+P066-central-001 used an effectively exact PM root (tolerance 1e-13), passing 68/69 checks. Its panel A prediction upper endpoint was 163.689428 versus the printed 163.67 and failed the fixed 0.01 tolerance. This failed run remains immutable.
+
+Reviewing declared **meta 8.2-1** source established that its estimator calls metafor's PM solver. Contemporary **metafor 4.8-0** uses R uniroot with tolerance double.eps to the one-quarter power (0.0001220703125), maxiter 100 and source-defined adaptive bounds. The declared **R 4.5.2** root-solver source was archived and independently translated. SOLVER_CORRECTION.json disclosed this method correction before P066-central-002, retaining exactly the original 69 gates and tolerances. The same original solver was applied to **all three panels**, without selecting a fitted endpoint or parameter.
+
+The corrected panel A tau-squared is 0.0762919687, producing prediction upper 163.673305, which passes the original tolerance. Original inputs, target values and target hashes are unchanged. The author did not identify their installed metafor version; 4.8-0 is the contemporary primary dependency release, while the exact original meta and R versions are explicitly stated. This dependency-version uncertainty remains a limitation.
+
+## Audit, provenance and execution
+
+The audit uses independent 80-digit scalar arithmetic, pairwise expanded Q, an independent emulation of the archived R algorithm, analytical normal/t1/t2 quantiles and probability tails. It imports no experiment implementation or SciPy. Original input arrays and all original targets were independently reentered and checked against sources/frozen records. Every immutable run hash and corrected-phase source hash passes.
+
+The first audit, P066-audit-001, passed all numerical checks but failed one request-log prefix hash because its reconstruction used LF while original Windows text output used CRLF. That audit is retained (289/290). P066-audit-002 reconstructs the exact original bytes and cryptographically verifies the preregistration-phase request-log prefix before later source requests were appended; all290 checks pass. No source statistic, tolerance or result changed.
+
+P066-central-002 started 2026-10-10T16:28:43.065122+00:00 and ended 2026-10-10T16:28:45.950697+00:00, exit status 0. Complete instrumented execution including numerical imports took 2.886 seconds wall time and 2.453 seconds CPU time. Peak process working set was 91.93 MiB. Numerical libraries used one thread; GPU allocation and paid-service cost were **zero**. Electricity cost was unmeasured.
+
+Source request records retain invalid HTML responses returned under image/PDF names; validation explicitly marks them unusable, and the exact valid PMC-CDN original figure is separately preserved. Frozen runs contain code, data, plan, correction, configuration, package versions, all intermediate weights and Q terms, solver iteration traces, all comparison records, execution and integrity manifests.
+
+The original runs and audits cannot be overwritten. A future repeat must use new identifiers, preserve prior failures, and count this paper at most once.

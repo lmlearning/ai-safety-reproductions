@@ -1,0 +1,193 @@
+{
+  "schema": "INDEPENDENT_ARCHIVED_COMPLETE_P156_NEAR_REVIEW_CPU003",
+  "started_UTC": "2026-10-17T09:06:03+00:00",
+  "closed_UTC": "2026-10-17T09:08:31.644783+00:00",
+  "finite_end_UTC": "2026-10-17T09:12:03+00:00",
+  "recommendation": "NEAR_SUPPORTED",
+  "retrospective_user_directed_rule": true,
+  "bounds_fixed_after_archived_outcomes": true,
+  "blind_or_original_preregistered_near_claim": false,
+  "all8_near_pass": true,
+  "max_absolute_rate_error": "1/48",
+  "max_absolute_rate_error_display": 0.020833333333333332,
+  "max_percentage_points": 2.0833333333333335,
+  "unchanged_complete_central": {
+    "agents": 30,
+    "fields": 45,
+    "cells": 1350,
+    "safety_fields": 8,
+    "safety_cells": 240,
+    "cohorts": {
+      "Enterprise": 104,
+      "Browser": 40,
+      "Chat": 96
+    },
+    "qualified_markers": 17,
+    "scope": "Complete original author-coded missing-public-information family Figures3/6; allstatus/margin/cell/cohort/sensitivity fields retained, not fresh real-world absence reannotation."
+  },
+  "all_denominators_and_definitions_unchanged": true,
+  "conclusions": {
+    "safety_missing_more_than_half": "135/240=9/16>1/2",
+    "source_unit_cohort_order": "67/104 >25/40 >43/96",
+    "none_found_semantics": "Author-coded leading None found, with all17 prequalifiedcells retained; None/Notavailable/Notapplicable/UNSURE/TODO/blanks remain distinct. MixedManuscloud/local andCodexAtlas inconsistency remain visible.",
+    "descriptive_population": "Exact index reductions, not1350 independent randomproducts; no sampling/significance/equivalence guarantee."
+  },
+  "independent_support": {
+    "all21_domains_exact": true,
+    "source": "Independent originalCSV reader never imports or executes primaryJSON reducer; unique30agent×45field roster, all1350 exactrawcell/pointer/hash/statuschecks,30×8safety,allthreecomplete13/5/12cohorts,17exactqualifiedmarkerwitnesses, allmargins/status/sensitivities; recursive typed wholearray equality.",
+    "review": "Entire14420B independent source read and currenthashmatches; all21 archived agreement flags checked. No fresh rawbank decoding/reducer/statistical operation."
+  },
+  "old_failures_retained": {
+    "strict_pass4_of8": true,
+    "strict_failure_ids": [
+      "Fig3_all1350",
+      "Fig6_all240",
+      "Fig6_Chat",
+      "Fig6_Chat_percentage_display"
+    ],
+    "literal_caption_all3_fail": [
+      {
+        "literal_category": "Browser",
+        "literal_numerator": 67,
+        "literal_denominator": 104,
+        "literal_percentage_display": "64",
+        "actual_numerator": 25,
+        "actual_denominator": 40,
+        "literal_exact_fraction_passed": false,
+        "role": "MANDATORY_SUPPORTING_LITERAL_CAPTION_AUDIT_NOT_FULL"
+      },
+      {
+        "literal_category": "Enterprise",
+        "literal_numerator": 25,
+        "literal_denominator": 40,
+        "literal_percentage_display": "63",
+        "actual_numerator": 67,
+        "actual_denominator": 104,
+        "literal_exact_fraction_passed": false,
+        "role": "MANDATORY_SUPPORTING_LITERAL_CAPTION_AUDIT_NOT_FULL"
+      },
+      {
+        "literal_category": "Chat",
+        "literal_numerator": 41,
+        "literal_denominator": 96,
+        "literal_percentage_display": "43",
+        "actual_numerator": 43,
+        "actual_denominator": 96,
+        "literal_exact_fraction_passed": false,
+        "role": "MANDATORY_SUPPORTING_LITERAL_CAPTION_AUDIT_NOT_FULL"
+      }
+    ],
+    "all_literal_caption_audits_passed": false,
+    "auxiliary_word_mean14": "UNAVAILABLE_NOT_REPRODUCED; original tokenizer/markup/nonempty denominator generator absent",
+    "other_section4_and_full_pipeline": "Not claimed; historicalcollection/annotation/searchvolume/confidentialcorrespondence/fullfeaturecode unavailable",
+    "FULL": false,
+    "old_source_versions_and_sensitivity": "Original Zenodo18701931v1.0.0 unchanged; no laterwebsite227/1350substitution/no wholecell182orbroadermarker rescue"
+  },
+  "eligibility": {
+    "original_raw_principal": {
+      "paperId": "385451a76e4a5379685e9f72f11f7e3b0ae0f1e4",
+      "externalIds": {
+        "ArXiv": "2602.17753",
+        "DBLP": "journals/corr/abs-2602-17753",
+        "DOI": "10.1145/3805689.3806728",
+        "CorpusId": 285872007
+      },
+      "url": "https://www.semanticscholar.org/paper/385451a76e4a5379685e9f72f11f7e3b0ae0f1e4",
+      "title": "The 2025 AI Agent Index: Documenting Technical and Safety Features of Deployed Agentic AI Systems",
+      "citationCount": 38,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1145/3805689.3806728",
+        "status": "HYBRID",
+        "license": "CCBY"
+      },
+      "publicationDate": "2026-02-19"
+    },
+    "principal_pointer": "/data/180",
+    "source_ref": {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\metadata_checks\\s2_bulk_safety.json",
+      "bytes": 370884,
+      "sha256": "7de5fa52d0ef85d7b3076b232a5c91702f505059889f045fc707b99fd7c2a6c2"
+    },
+    "retained_first38_no_refresh": true,
+    "original_main_gate20": true,
+    "earliest_distinct_substantive_release": "2026-02-19T18:57:43+00:00 arXiv2602.17753v1; originalZenodoFeb19. New30agent2025measurementwave differs from2024paper2502.01635Feb3,2025; no reset ofolderstudy.",
+    "earlier_search_bounded": true,
+    "no_new_citation_or_date_requests": true
+  },
+  "custody": {
+    "oldoperational_complete": true,
+    "oldactualtool87fbb6_exit0": true,
+    "oldchild_wait0_and_handleclosed": true,
+    "full13outputcustody_and30source_report_refs_rehashed": true,
+    "native_limits": "Directretainedchild; birth/outer-native-exit UNMEASURED, noJob/treeclaim. Fourresourcesamples and old600s actualtoolcompletion withinallocation; no modernnativeproof invented or imposed retrospectively."
+  },
+  "rule_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_ADOPTED_P156_ARCHIVED_ALL8_PROPORTIONS_NEAR_RULE936.json",
+    "bytes": 2960,
+    "sha256": "a61ef5fc990884e777ed9b3d16060b1ecb974281377160f892198bd57e03f455"
+  },
+  "root938_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_P156_ARCHIVED_WHOLE8_PROPORTIONS_NEAR_CHECK938.json",
+    "bytes": 3600,
+    "sha256": "3bcbdec08cfcdb6c522d3857aa86139cb9d8d1cbd3256d24a4843cde1e44f28e"
+  },
+  "vector_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\operations\\P156_user_near_independent_review_CPU003\\ENTIRE8_UNCHANGED_SOURCE_PROPORTION_ERROR_VECTOR_CPU003.json",
+    "bytes": 6152,
+    "sha256": "faaac07fcb574a5062ab800cfe3582b49cb9063430995e19f92c8b2829cabf9a"
+  },
+  "evidence_ref": {
+    "path": "{{REPRODUCTION_ROOT}}\\operations\\P156_user_near_independent_review_CPU003\\ALL_CLOSED_CUSTODY_SOURCE_AND_OUTPUT_HASH_CHECKS_CPU003.json",
+    "bytes": 26611,
+    "sha256": "002781f58626b9fff7d2060a62a799048cd1cdc3e4f318d27dd96a6b66c8964c"
+  },
+  "source_refs": [
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P156_ai_agent_index\\COMPLETE_FAILED_CENTRAL_RESULT_AND_AUDIT034.json",
+      "bytes": 119302,
+      "sha256": "d6793f1fe72cfda72cdeb97ebc156296acca9bf4385440f1d8298d331e4fc0f3"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P156_ai_agent_index\\RESULTS_REPORT.md",
+      "bytes": 38832,
+      "sha256": "d4ba9805b8e6907ee435b1f843910e3b29eb0e8032cf4a091fe60aef38656b6e"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\papers\\P156_ai_agent_index\\PREREGISTRATION.txt",
+      "bytes": 5103,
+      "sha256": "1d6d1244b0aece144093b57d25f12c0ed7c39ddbe21a687fd396b2e7e1803e72"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\environment\\ROOT_AI_AGENT_INDEX_CENTRAL_SCOPE_DECISION258.txt",
+      "bytes": 3907,
+      "sha256": "1f0543e807dc4e4026311d7a0c0a3f8caf4cc7f8e0c18f3e38f572658fec2d7a"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\cpu_additional_complete_route_screen_oct15_002\\agent_index_transparency_preparation028\\eligibility030\\COMPLETE_DISTINCT_2025_WAVE_EARLIEST_RELEASE_AND_FROZEN_FIRST38_ELIGIBILITY030.json",
+      "bytes": 19082,
+      "sha256": "c05a468b16972a98642fda4eac9037248df195c392a3cd96c4c1bd2c60956a4b"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\runs\\P156_ai_agent_index_original001\\independent029\\COMPLETE_INDEPENDENT_CSV_AUDIT_RSTAT001.json",
+      "bytes": 272365,
+      "sha256": "bb949c86391496fc30170754015181e475b2d97603953c3a1525cf92aaf7daab"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\cpu_additional_complete_route_screen_oct15_002\\agent_index_transparency_preparation028\\independent_RSTAT001\\agent_index_complete_csv_independent_RSTAT002.py",
+      "bytes": 14420,
+      "sha256": "822fee79dd83e76c1935724519b1553f2176b3d2a612ab8971bfab3780f22dc6"
+    },
+    {
+      "path": "{{REPRODUCTION_ROOT}}\\literature\\cpu_additional_complete_route_screen_oct15_002\\agent_index_original024\\exact_original_source\\arxiv.tex",
+      "bytes": 118136,
+      "sha256": "14e08b25caf95617721e8949a4aa71791bb6c2a5fe0ec3b5fc8400905ae40325"
+    }
+  ],
+  "no_new_raw_data_statistics_native_or_scientific_execution": true,
+  "no_old_sources_flags_registry_or_journals_edited": true,
+  "no_credit_awarded_by_reviewer": true,
+  "limitations": "NewNEARrule is retrospective with knownold4/8failure; it establishes bounded agreement of the originallychosen complete coded-transparency centralfamily, not literalcaptionagreement, historicalgeneratoridentity, fullpublicationreproduction or factualcurrentabsence.",
+  "preparation_incidents": [
+    "Initial ROOT938 guessed filename absent; exact scoped environment inventory located existingwhole8file. Initial longreport tool output truncated; originalsource/method/prereg/fullindividualindependentsource/targetrecords subsequently read; no originalbank rows decoded."
+  ]
+}
