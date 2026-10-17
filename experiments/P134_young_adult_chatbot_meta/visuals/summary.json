@@ -1,0 +1,58 @@
+{
+  "paper_id": "P134",
+  "title": "The Effectiveness of AI Chatbots in Alleviating Mental Distress and Promoting Health Behaviors Among Adolescents and Young Adults: Systematic Review and Meta-Analysis",
+  "classification": "Strict CENTRAL",
+  "report": "experiments/P134_young_adult_chatbot_meta/README.md",
+  "citations": 44,
+  "provider": "OpenAlex",
+  "window": "Extended",
+  "recorded_public_date": "2025-06-30",
+  "capture_time_supported": false,
+  "short_title": "Young-adult chatbots",
+  "outcome_key": "strict",
+  "route_group": "Released-data / effect reanalysis",
+  "citation_provider_group": "OpenAlex",
+  "original_central_checks": {
+    "matched": 337,
+    "total": 337,
+    "unmatched": 0,
+    "short_label": "Central outcome synthesis targets",
+    "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+  },
+  "scope_metrics": [
+    {
+      "value": "145",
+      "label": "released effect rows"
+    },
+    {
+      "value": "11",
+      "label": "central outcome families"
+    }
+  ],
+  "agreement_note": "Overall mental distress reproduced as g = -0.350394; the other central families also met their criteria.",
+  "chart_scope_note": "Repeated effect rows are not independent trials. Some supporting displays were not recovered within the programme setup.",
+  "sources": [
+    {
+      "path": "experiments/P134_young_adult_chatbot_meta/README.md",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 9254,
+      "sha256_at_source_commit": "32a95353f4bea1f9b053d8436f96fef0da33e1598fa411a442c67c28831c98a6",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P134_young_adult_chatbot_meta/README.md"
+    },
+    {
+      "path": "experiments/P134_young_adult_chatbot_meta/results/original002__ALL337_PRIMARY_CHECKS.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 113796,
+      "sha256_at_source_commit": "c7b53538ed2a5a3b0da7c3acf1e600556256af55e7cb12f62bfc24dc876315b7",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P134_young_adult_chatbot_meta/results/original002__ALL337_PRIMARY_CHECKS.json"
+    },
+    {
+      "path": "experiments/P134_young_adult_chatbot_meta/results/original002__ALL_SUPPORTING_SOURCE_COMPARISONS.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 332622,
+      "sha256_at_source_commit": "4db4969d735c0492d6a3e46ac741316535cfa96e3d9dd3132bc51cbfb45d63a4",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P134_young_adult_chatbot_meta/results/original002__ALL_SUPPORTING_SOURCE_COMPARISONS.json"
+    }
+  ],
+  "failure_interpretation": "The supporting displays that did not match were unsuccessful comparisons in this programme, with limits including unavailable subgroup assignments, covariance and auxiliary implementation details. Their cause is not fully established. They do not, by themselves, determine the validity of the paper or its conclusions."
+}

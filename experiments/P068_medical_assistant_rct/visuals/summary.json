@@ -1,0 +1,58 @@
+{
+  "paper_id": "P068",
+  "title": "Reliability of LLMs as medical assistants for the general public: a randomized preregistered study",
+  "classification": "Strict CENTRAL",
+  "report": "experiments/P068_medical_assistant_rct/README.md",
+  "citations": 113,
+  "provider": "Semantic Scholar",
+  "window": "Extended",
+  "recorded_public_date": "2025-04-17",
+  "capture_time_supported": true,
+  "short_title": "Medical assistants",
+  "outcome_key": "strict",
+  "route_group": "Released-data / effect reanalysis",
+  "citation_provider_group": "Semantic Scholar",
+  "original_central_checks": {
+    "matched": 103,
+    "total": 103,
+    "unmatched": 0,
+    "short_label": "Trial performance summary comparisons",
+    "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+  },
+  "scope_metrics": [
+    {
+      "value": "2,400",
+      "label": "released responses"
+    },
+    {
+      "value": "1,298",
+      "label": "original participants"
+    }
+  ],
+  "agreement_note": "Relevant-condition identification reproduced at 32.0–34.5% in AI arms versus 47.0% in control.",
+  "chart_scope_note": "Summary targets only; 12,000 separate scoring checks are not added. No new participants or AI conversations were generated.",
+  "sources": [
+    {
+      "path": "experiments/P068_medical_assistant_rct/README.md",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 8544,
+      "sha256_at_source_commit": "563a127a15cd75a628d50367e37ea75eb0e45773c3d7f6ba653c88a9a71f1bcf",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P068_medical_assistant_rct/README.md"
+    },
+    {
+      "path": "experiments/P068_medical_assistant_rct/results/P068-audit-001__audit.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 227638,
+      "sha256_at_source_commit": "69e825c99aa4674c20febd8200fd53eed1ddc720c4cd8efaff94b33daeaeec95",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P068_medical_assistant_rct/results/P068-audit-001__audit.json"
+    },
+    {
+      "path": "experiments/P068_medical_assistant_rct/results/P068-central-002__results.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 139586,
+      "sha256_at_source_commit": "deb9491501941f184c7ae369b48ee1877f3efbc00daafdf8c7c95d43eede7edc",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P068_medical_assistant_rct/results/P068-central-002__results.json"
+    }
+  ],
+  "failure_interpretation": "All selected comparisons passed. The repaired serialization failure was an execution problem in this programme. Unavailable historical seeds and omitted analyses limit what was checked; they are not findings against the validity of the paper."
+}

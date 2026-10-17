@@ -1,0 +1,51 @@
+{
+  "paper_id": "P065",
+  "title": "AI chatbots versus human healthcare professionals: a systematic review and meta-analysis of empathy in patient care",
+  "classification": "Strict CENTRAL",
+  "report": "experiments/P065_empathy_meta_analysis/README.md",
+  "citations": 79,
+  "provider": "Semantic Scholar",
+  "window": "Extended",
+  "recorded_public_date": "2025-06-09",
+  "capture_time_supported": false,
+  "short_title": "Empathy meta-analysis",
+  "outcome_key": "strict",
+  "route_group": "Released-data / effect reanalysis",
+  "citation_provider_group": "Semantic Scholar",
+  "original_central_checks": {
+    "matched": 97,
+    "total": 97,
+    "unmatched": 0,
+    "short_label": "Figure 2 numerical and claim comparisons",
+    "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+  },
+  "scope_metrics": [
+    {
+      "value": "13",
+      "label": "published effect estimates"
+    },
+    {
+      "value": "Figure 2",
+      "label": "pooled empathy analysis"
+    }
+  ],
+  "agreement_note": "The overall standardized difference reproduced as 0.871882, matching the published 0.87.",
+  "chart_scope_note": "The chart covers the declared central pooling calculation, without repeating the review or its underlying studies.",
+  "sources": [
+    {
+      "path": "experiments/P065_empathy_meta_analysis/README.md",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 7929,
+      "sha256_at_source_commit": "093e5d9b2b4102433b5867a449cc4ac6981d76e770fcf00ee76106e5daa02c69",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P065_empathy_meta_analysis/README.md"
+    },
+    {
+      "path": "experiments/P065_empathy_meta_analysis/results/P065-central-001__results.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 23187,
+      "sha256_at_source_commit": "824600ffcbd6d225f071070211d4bc9c654fee0cc4f8bddeb485b4a7a97ae8ff",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P065_empathy_meta_analysis/results/P065-central-001__results.json"
+    }
+  ],
+  "failure_interpretation": "All selected comparisons passed. The underlying experiments, review process and empathy measurements were outside this attempt, so their absence from the reproduced scope is an untested area rather than a failed test or a judgment on the paper's validity."
+}

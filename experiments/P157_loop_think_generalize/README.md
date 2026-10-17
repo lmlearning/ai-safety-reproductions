@@ -22,6 +22,12 @@ This is a bounded near success under limits fixed before the final outcome audit
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
+## Reproduction at a glance
+
+![P157: original central target checks, reproduced scope and outcome](visuals/summary.png)
+
+The chart retains this programme's original central comparison criteria alongside the adopted outcome. Targets differ across studies and are not a common quality score. [Chart data](visuals/summary.json) · [Graph definitions and rendering code](../../visuals/README.md).
+
 **Result.** The complete Figure 5 checkpoint evaluation is a bounded near success with one tiny mismatch between the programme's evaluation and a source-compatible figure interval.
 
 ## What was reproduced

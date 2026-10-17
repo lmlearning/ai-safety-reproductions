@@ -22,6 +22,12 @@ The reproduction analysis estimated a slowdown of 18.84%, matching the authorsâ€
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
+## Reproduction at a glance
+
+![P079: original central target checks, reproduced scope and outcome](visuals/summary.png)
+
+The chart retains this programme's original central comparison criteria alongside the adopted outcome. Targets differ across studies and are not a common quality score. [Chart data](visuals/summary.json) Â· [Graph definitions and rendering code](../../visuals/README.md).
+
 **Result.** The complete developer-productivity reanalysis is a bounded near success; its original 62/65 strict result is retained.
 
 ## What was reproduced

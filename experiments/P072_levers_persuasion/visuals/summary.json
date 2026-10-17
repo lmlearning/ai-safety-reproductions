@@ -1,0 +1,58 @@
+{
+  "paper_id": "P072",
+  "title": "The Levers of Political Persuasion with Conversational AI",
+  "classification": "Strict CENTRAL",
+  "report": "experiments/P072_levers_persuasion/README.md",
+  "citations": 90,
+  "provider": "Semantic Scholar",
+  "window": "Extended",
+  "recorded_public_date": "2025-07-18",
+  "capture_time_supported": false,
+  "short_title": "Political persuasion",
+  "outcome_key": "strict",
+  "route_group": "Released-data / effect reanalysis",
+  "citation_provider_group": "Semantic Scholar",
+  "original_central_checks": {
+    "matched": 2470,
+    "total": 2470,
+    "unmatched": 0,
+    "short_label": "Selected policy-attitude table comparisons",
+    "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+  },
+  "scope_metrics": [
+    {
+      "value": "3",
+      "label": "original studies"
+    },
+    {
+      "value": "93",
+      "label": "selected tables"
+    }
+  ],
+  "agreement_note": "The complete selected policy-attitude family matched after the programme corrected its source-script mapping.",
+  "chart_scope_note": "This scope excludes separate factual-accuracy and scaling analyses; no new persuasive messages were generated.",
+  "sources": [
+    {
+      "path": "experiments/P072_levers_persuasion/README.md",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 8769,
+      "sha256_at_source_commit": "11fe81db6b3585f79ee9c78bf74d1e62c267725339c16468c7a8108e1f3f7ea5",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P072_levers_persuasion/README.md"
+    },
+    {
+      "path": "experiments/P072_levers_persuasion/plans/PREREGISTRATION.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 7490,
+      "sha256_at_source_commit": "a6c2a79d9042e38597478e7c3dc435e8f1b4d35cec9080f5d5137c77429ad7fe",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P072_levers_persuasion/plans/PREREGISTRATION.json"
+    },
+    {
+      "path": "experiments/P072_levers_persuasion/results/P072-central-003__metrics.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 1232,
+      "sha256_at_source_commit": "4b7991c68ccfbc7e40f206d568c5f0af873b0fe4b7286b80b89c5f3940e00c92",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P072_levers_persuasion/results/P072-central-003__metrics.json"
+    }
+  ],
+  "failure_interpretation": "The intermediate misses arose from this programme's script mapping and serialization, and the final selected comparisons passed after repair. Those execution failures describe this reproduction attempt and make no judgment about the validity of the original studies."
+}

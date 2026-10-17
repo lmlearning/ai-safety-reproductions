@@ -22,6 +22,12 @@ The designated Table 9 analysis reproduced all 25 central comparisons, including
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
+## Reproduction at a glance
+
+![P150: original central target checks, reproduced scope and outcome](visuals/summary.png)
+
+The chart retains this programme's original central comparison criteria alongside the adopted outcome. Targets differ across studies and are not a common quality score. [Chart data](visuals/summary.json) · [Graph definitions and rendering code](../../visuals/README.md).
+
 **Result.** The complete designated Table 9 inferential result was reproduced from all 160 ratings.
 
 ## What was reproduced

@@ -1,0 +1,58 @@
+{
+  "paper_id": "P161",
+  "title": "Can AI Grade Like a Human? Validity, Reliability, and Fairness in University Coursework Assessment",
+  "classification": "Bounded NEAR",
+  "report": "experiments/P161_ai_grading/README.md",
+  "citations": 31,
+  "provider": "OpenAlex",
+  "window": "Main",
+  "recorded_public_date": "2025-12 (exact day UNKNOWN in selected metadata)",
+  "capture_time_supported": false,
+  "short_title": "AI grading agreement",
+  "outcome_key": "near",
+  "route_group": "Released-data / effect reanalysis",
+  "citation_provider_group": "OpenAlex",
+  "original_central_checks": {
+    "matched": 81,
+    "total": 86,
+    "unmatched": 5,
+    "short_label": "Selected central grading-agreement targets",
+    "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+  },
+  "scope_metrics": [
+    {
+      "value": "91",
+      "label": "released grading records"
+    },
+    {
+      "value": "3",
+      "label": "grader pairs"
+    }
+  ],
+  "agreement_note": "All selected ICC differences were within the adopted 0.010 near bound; five older strict misses remain.",
+  "chart_scope_note": "Original missing-score rules were retained. No new essays were graded, and wider fairness claims were outside this attempt.",
+  "sources": [
+    {
+      "path": "experiments/P161_ai_grading/README.md",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 8728,
+      "sha256_at_source_commit": "6869e95c5f2cb1e3ced67dcf47f32ee0c93f9ce4c8531b34394887ed97350788",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P161_ai_grading/README.md"
+    },
+    {
+      "path": "experiments/P161_ai_grading/STUDY.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 924,
+      "sha256_at_source_commit": "de263e7c4d4fb0a92008657dd1eabeaea242c92a1592c4d8cb96942fb58cff24",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P161_ai_grading/STUDY.json"
+    },
+    {
+      "path": "experiments/P161_ai_grading/evidence/ROOT_ADOPTED_P161_ARCHIVED_ALL86_ICC_NEAR_RULE935.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 2552,
+      "sha256_at_source_commit": "b7d0b7e834516ffad3d017a453c64938886f9571efe8419097ea2632f3c4d2ed",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P161_ai_grading/evidence/ROOT_ADOPTED_P161_ARCHIVED_ALL86_ICC_NEAR_RULE935.json"
+    }
+  ],
+  "failure_interpretation": "The strict misses and unmatched supporting results describe this programme's recovery from released grading records, with incomplete producer information for some supporting outputs. Fresh grading was not attempted. These limits do not establish that the paper or its grading-agreement findings are invalid."
+}

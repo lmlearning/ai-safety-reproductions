@@ -1,0 +1,58 @@
+{
+  "paper_id": "P069",
+  "title": "The Ideation-Execution Gap: Execution Outcomes of LLM-Generated versus Human Research Ideas",
+  "classification": "Bounded NEAR",
+  "report": "experiments/P069_ideation_execution/README.md",
+  "citations": 62,
+  "provider": "Semantic Scholar",
+  "window": "Extended",
+  "recorded_public_date": "2025-06-25",
+  "capture_time_supported": false,
+  "short_title": "Research ideas",
+  "outcome_key": "near",
+  "route_group": "Released-data / effect reanalysis",
+  "citation_provider_group": "Semantic Scholar",
+  "original_central_checks": {
+    "matched": 152,
+    "total": 155,
+    "unmatched": 3,
+    "short_label": "21 count + 107 scalar + 27 claim targets",
+    "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+  },
+  "scope_metrics": [
+    {
+      "value": "43",
+      "label": "completed projects"
+    },
+    {
+      "value": "181",
+      "label": "execution reviews"
+    }
+  ],
+  "agreement_note": "Largest scalar difference: 0.005 in the original score units, within the adopted 0.010 near bound.",
+  "chart_scope_note": "Three original precision misses remain; historical mean-gap producer arithmetic was not recovered.",
+  "sources": [
+    {
+      "path": "experiments/P069_ideation_execution/README.md",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 7628,
+      "sha256_at_source_commit": "a09267c118e4ced4aa5ee555c1f73a1b582e5b7a12464fc96c53a1ef4602c404",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P069_ideation_execution/README.md"
+    },
+    {
+      "path": "experiments/P069_ideation_execution/STUDY.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 827,
+      "sha256_at_source_commit": "9248d6b80c9c693b1a4ef1be53d30c0caf638040d75dce60af83b2f4d4b734c6",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P069_ideation_execution/STUDY.json"
+    },
+    {
+      "path": "experiments/P069_ideation_execution/evidence/ROOT_ADOPTED_ARCHIVED_P069_NEAR_SUCCESS_REVIEW_RULE916.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 3736,
+      "sha256_at_source_commit": "b0054010053a3f18db0dd18ed24b868b48250a0a521573379ae083cb0903fea4",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P069_ideation_execution/evidence/ROOT_ADOPTED_ARCHIVED_P069_NEAR_SUCCESS_REVIEW_RULE916.json"
+    }
+  ],
+  "failure_interpretation": "The programme could not match the remaining mean-gap summaries at the original precision with the released reviews and available calculation history. Their producer arithmetic remains unresolved. This records a limitation of the reproduction attempt, without determining whether the paper or its conclusions are valid."
+}

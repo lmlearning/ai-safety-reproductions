@@ -1,0 +1,58 @@
+{
+  "paper_id": "P080",
+  "title": "How AI Impacts Skill Formation",
+  "classification": "Strict CENTRAL",
+  "report": "experiments/P080_ai_skill_formation/README.md",
+  "citations": 42,
+  "provider": "Semantic Scholar",
+  "window": "Main",
+  "recorded_public_date": "2026-01-28",
+  "capture_time_supported": true,
+  "short_title": "Skill formation",
+  "outcome_key": "strict",
+  "route_group": "Released-data / effect reanalysis",
+  "citation_provider_group": "Semantic Scholar",
+  "original_central_checks": {
+    "matched": 141,
+    "total": 141,
+    "unmatched": 0,
+    "short_label": "Quantitative targets, including 72 bootstrap endpoints",
+    "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+  },
+  "scope_metrics": [
+    {
+      "value": "52",
+      "label": "original participants"
+    },
+    {
+      "value": "50",
+      "label": "adjusted-analysis records"
+    }
+  ],
+  "agreement_note": "Mean quiz scores reproduced as 50.0% with AI and 65.4% without it in the released trial.",
+  "chart_scope_note": "Bootstrap endpoint targets are already included in this count. The separate qualitative contribution was outside scope.",
+  "sources": [
+    {
+      "path": "experiments/P080_ai_skill_formation/README.md",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 8300,
+      "sha256_at_source_commit": "f00177bdb01ecc2fc12487947cbf81c31ac5437f0c6c28f94c7e042805bdd1bc",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P080_ai_skill_formation/README.md"
+    },
+    {
+      "path": "experiments/P080_ai_skill_formation/plans/AUDIT_MAIN_RCT_20261010.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 127539,
+      "sha256_at_source_commit": "5dc89694639699c9b5298c15b0b4ec11c19eac765a75676923ce3b45d56f6e85",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P080_ai_skill_formation/plans/AUDIT_MAIN_RCT_20261010.json"
+    },
+    {
+      "path": "experiments/P080_ai_skill_formation/plans/RUN_MAIN_RCT_20261010.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 101425,
+      "sha256_at_source_commit": "72125b6a1de180f3e486c1b998287da3e0377f3177580cd5dc95686a8332f55f",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P080_ai_skill_formation/plans/RUN_MAIN_RCT_20261010.json"
+    }
+  ],
+  "failure_interpretation": "The programme recovered the selected trial statistics but could not reconcile every prose description or recover the separate qualitative analysis from the available material. Those limits concern this attempt's scope and source access; they do not determine the validity of the paper."
+}

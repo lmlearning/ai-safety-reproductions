@@ -1,13 +1,13 @@
 {
   "record_scope": "Local validation before this documentation/licensing update was uploaded; publication fields describe this check only.",
-  "prepared_utc": "2026-10-17T16:45:38.062436+00:00",
+  "prepared_utc": "2026-10-17T17:20:00.227411+00:00",
   "status": "PASS",
   "structural_validation": {
     "ok": true,
     "distinct_studies": 21,
     "scientific_code_files": 85,
-    "python_files_parsed": 108,
-    "local_markdown_links_checked": 719,
+    "python_files_parsed": 109,
+    "local_markdown_links_checked": 788,
     "per_study": [
       {
         "paper_id": "P028",

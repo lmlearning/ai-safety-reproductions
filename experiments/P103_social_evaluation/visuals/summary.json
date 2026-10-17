@@ -1,0 +1,58 @@
+{
+  "paper_id": "P103",
+  "title": "Evidence of a social evaluation penalty for using AI",
+  "classification": "Bounded NEAR — retrospective",
+  "report": "experiments/P103_social_evaluation/README.md",
+  "citations": 78,
+  "provider": "Semantic Scholar exact DOI batch",
+  "window": "Extended",
+  "recorded_public_date": "2025-04-23 positive OSF public event; VOR2025-05-08",
+  "capture_time_supported": true,
+  "short_title": "Social evaluation",
+  "outcome_key": "near",
+  "route_group": "Released-data / effect reanalysis",
+  "citation_provider_group": "Semantic Scholar",
+  "original_central_checks": {
+    "matched": 107,
+    "total": 108,
+    "unmatched": 1,
+    "short_label": "Primary Study 1 and manipulation-check targets",
+    "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+  },
+  "scope_metrics": [
+    {
+      "value": "497",
+      "label": "retained rating records"
+    },
+    {
+      "value": "201",
+      "label": "manipulation-check records"
+    }
+  ],
+  "agreement_note": "The sole strict miss was a displayed degrees-of-freedom value: a difference of 0.051949 df.",
+  "chart_scope_note": "This concerns anticipated evaluation in the primary study. Later perception, hiring and mediation studies were not repeated.",
+  "sources": [
+    {
+      "path": "experiments/P103_social_evaluation/README.md",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 8892,
+      "sha256_at_source_commit": "0f080afac7e286c5335eb330a2cbacf0715fe1926943b47fdc4988467837a2bf",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P103_social_evaluation/README.md"
+    },
+    {
+      "path": "experiments/P103_social_evaluation/STUDY.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 1155,
+      "sha256_at_source_commit": "33f0d88b18512442b3a501c221db1951b3059da7afc161b9c048f3d53a403aa5",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P103_social_evaluation/STUDY.json"
+    },
+    {
+      "path": "experiments/P103_social_evaluation/results/P103_archived_complete_central_near_assessment_CPU051__ALL108_UNA__d5650336.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 68533,
+      "sha256_at_source_commit": "794793b51eb48ea7ab7c78beb30592d12ab222a575e902b50267cb9825dde080",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P103_social_evaluation/results/P103_archived_complete_central_near_assessment_CPU051__ALL108_UNA__d5650336.json"
+    }
+  ],
+  "failure_interpretation": "The strict miss belongs to this programme's comparison of a displayed degrees-of-freedom value. Its historical rounding procedure is unknown, and earlier execution failures belonged to the programme. These outcomes describe what could be recovered within this setup, without establishing that the paper or its conclusions are invalid."
+}

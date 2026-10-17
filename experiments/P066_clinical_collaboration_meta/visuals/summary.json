@@ -1,0 +1,51 @@
+{
+  "paper_id": "P066",
+  "title": "Human-large language model collaboration in clinical medicine: a systematic review and meta-analysis",
+  "classification": "Strict CENTRAL",
+  "report": "experiments/P066_clinical_collaboration_meta/README.md",
+  "citations": 34,
+  "provider": "Semantic Scholar",
+  "window": "Main",
+  "recorded_public_date": "2025-11-15",
+  "capture_time_supported": true,
+  "short_title": "Clinical collaboration",
+  "outcome_key": "strict",
+  "route_group": "Released-data / effect reanalysis",
+  "citation_provider_group": "Semantic Scholar",
+  "original_central_checks": {
+    "matched": 69,
+    "total": 69,
+    "unmatched": 0,
+    "short_label": "63 numerical targets + 6 qualitative claims",
+    "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+  },
+  "scope_metrics": [
+    {
+      "value": "7",
+      "label": "published contrasts"
+    },
+    {
+      "value": "3",
+      "label": "Figure 2 panels"
+    }
+  ],
+  "agreement_note": "The composite-score difference reproduced as 4.884471 percentage points using the released-code convention.",
+  "chart_scope_note": "The historical method description remains unresolved; matching the figure does not reconcile every source convention.",
+  "sources": [
+    {
+      "path": "experiments/P066_clinical_collaboration_meta/README.md",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 8574,
+      "sha256_at_source_commit": "44c8858c7d81d252a88273f5904a4e79507276d657adb53280d1988fa0e11e4b",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P066_clinical_collaboration_meta/README.md"
+    },
+    {
+      "path": "experiments/P066_clinical_collaboration_meta/results/P066-central-002__results.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 18697,
+      "sha256_at_source_commit": "ce46c6bd688ef735139be0d493a5f2576869b23b2c8a48f19b39f0ccd166eee7",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P066_clinical_collaboration_meta/results/P066-central-002__results.json"
+    }
+  ],
+  "failure_interpretation": "The initial mismatch belonged to this programme's implementation and was resolved. The retained code, prose and interval conventions still do not fully identify the authors' historical setup. Those limits describe what the programme could reconstruct; they do not establish that the paper or its conclusions are invalid."
+}

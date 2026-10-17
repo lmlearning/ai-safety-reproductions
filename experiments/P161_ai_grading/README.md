@@ -22,6 +22,12 @@ Every selected value was within 0.010 of the publication, making this a near suc
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
+## Reproduction at a glance
+
+![P161: original central target checks, reproduced scope and outcome](visuals/summary.png)
+
+The chart retains this programme's original central comparison criteria alongside the adopted outcome. Targets differ across studies and are not a common quality score. [Chart data](visuals/summary.json) · [Graph definitions and rendering code](../../visuals/README.md).
+
 **Result.** The complete central grading-agreement family is a bounded near success, preserving the original 81/86 strict result.
 
 ## What was reproduced

@@ -1,0 +1,2 @@
+# Optional publication graphics only; not a scientific reproduction environment.
+matplotlib==3.11.2

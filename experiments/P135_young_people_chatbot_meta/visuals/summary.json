@@ -1,0 +1,58 @@
+{
+  "paper_id": "P135",
+  "title": "Chatbot-Delivered Interventions for Improving Mental Health Among Young People: A Systematic Review and Meta-Analysis",
+  "classification": "Strict CENTRAL",
+  "report": "experiments/P135_young_people_chatbot_meta/README.md",
+  "citations": 54,
+  "provider": "OpenAlex",
+  "window": "Extended",
+  "recorded_public_date": "2025-07-15",
+  "capture_time_supported": false,
+  "short_title": "Youth chatbot outcomes",
+  "outcome_key": "strict",
+  "route_group": "Released-data / effect reanalysis",
+  "citation_provider_group": "OpenAlex",
+  "original_central_checks": {
+    "matched": 50,
+    "total": 50,
+    "unmatched": 0,
+    "short_label": "Both central outcome-family targets",
+    "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+  },
+  "scope_metrics": [
+    {
+      "value": "26",
+      "label": "published effect summaries"
+    },
+    {
+      "value": "2",
+      "label": "central outcome families"
+    }
+  ],
+  "agreement_note": "Distress reproduced at about -0.280 and wellbeing at 0.126; the wellbeing interval includes zero.",
+  "chart_scope_note": "Supporting displays are outside this central denominator and did not all match. Private unrounded inputs were incomplete.",
+  "sources": [
+    {
+      "path": "experiments/P135_young_people_chatbot_meta/README.md",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 9085,
+      "sha256_at_source_commit": "1d502bdaf57f86b511648e0ed9ffa54f2fca50ab8209fc8efd67a0de8662d151",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P135_young_people_chatbot_meta/README.md"
+    },
+    {
+      "path": "experiments/P135_young_people_chatbot_meta/results/original001__ALL50_PRIMARY_CHECKS.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 33661,
+      "sha256_at_source_commit": "08f529f4d45cc4e96a516ee15bedc819738420a46f3bbd1e8285ab42c2f90e1d",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P135_young_people_chatbot_meta/results/original001__ALL50_PRIMARY_CHECKS.json"
+    },
+    {
+      "path": "experiments/P135_young_people_chatbot_meta/results/original001__ALL_SUPPORTING_SOURCE_COMPARISONS.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 169043,
+      "sha256_at_source_commit": "846d9771ea70a83dfa0124c36a733dde9a4f7a84fdf1bd5b14cca929d993b982",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P135_young_people_chatbot_meta/results/original001__ALL_SUPPORTING_SOURCE_COMPARISONS.json"
+    }
+  ],
+  "failure_interpretation": "The programme did not recover all supporting displays from the available summaries and reconstruction conventions; some displays could not be checked at all. Private unrounded inputs, provenance and covariance were incomplete. These are limits of the reproduction attempt, without establishing that the paper or its conclusions are invalid."
+}

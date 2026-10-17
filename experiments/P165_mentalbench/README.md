@@ -22,6 +22,12 @@ Agreement estimates and all 23 selected central contrasts reproduced closely, bu
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
+## Reproduction at a glance
+
+![P165: original central target checks, reproduced scope and outcome](visuals/summary.png)
+
+The chart retains this programme's original central comparison criteria alongside the adopted outcome. Targets differ across studies and are not a common quality score. [Chart data](visuals/summary.json) · [Graph definitions and rendering code](../../visuals/README.md).
+
 **Result.** The programme's MentalBench reproduction is a qualified near success with material local exceptions. It is not uniformly small-error or an all-table success.
 
 ## What was reproduced

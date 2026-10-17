@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1008pt" height="468pt" viewBox="0 0 1008 468" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>tools/render_visuals.py</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 468 
+L 1008 468 
+L 1008 0 
+L 0 0 
+z
+" style="fill: #f3f6fa"/>
+  </g>
+  <g id="patch_2">
+   <path d="M 51.408 317.304 
+L 613.872 317.304 
+Q 627.984 317.304 627.984 310.752 
+L 627.984 101.088 
+Q 627.984 94.536 613.872 94.536 
+L 51.408 94.536 
+Q 37.296 94.536 37.296 101.088 
+L 37.296 310.752 
+Q 37.296 317.304 51.408 317.304 
+z
+" style="fill: #ffffff; stroke: #dfe6ee; stroke-width: 0.8; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_3">
+   <path d="M 651.168 317.304 
+L 956.592 317.304 
+Q 970.704 317.304 970.704 310.752 
+L 970.704 101.088 
+Q 970.704 94.536 956.592 94.536 
+L 651.168 94.536 
+Q 637.056 94.536 637.056 101.088 
+L 637.056 310.752 
+Q 637.056 317.304 651.168 317.304 
+z
+" style="fill: #ffffff; stroke: #dfe6ee; stroke-width: 0.8; stroke-linejoin: miter"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_4">
+    <path d="M 67.536 241.722 
+L 563.661 241.722 
+L 563.661 217.386 
+L 67.536 217.386 
+z
+" clip-path="url(#p292d71f86d)" style="fill: #3569a8"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 563.661 241.722 
+L 596.736 241.722 
+L 596.736 217.386 
+L 563.661 217.386 
+z
+" clip-path="url(#p292d71f86d)" style="fill: url(#hb1d66aecc7); stroke: #8996a6; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+  </g>
+  <g id="text_1">
+   <text style="font-weight: 700; font-size: 24px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182b42" x="45.36" y="41.63625" transform="rotate(-0 45.36 41.63625)">P109  /  Higher-order thinking</text>
+  </g>
+  <g id="text_2">
+   <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #3569a8" x="47.376" y="73.173656" transform="rotate(-0 47.376 73.173656)">Bounded / precision-supported near success</text>
+  </g>
+  <g id="text_3">
+   <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182b42" x="65.52" y="125.8815" transform="rotate(-0 65.52 125.8815)">Original central target checks</text>
+  </g>
+  <g id="text_4">
+   <text style="font-weight: 700; font-size: 27px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #3569a8" x="65.52" y="164.657672" transform="rotate(-0 65.52 164.657672)">15 / 16</text>
+  </g>
+  <g id="text_5">
+   <text style="font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #53657a" x="65.52" y="192.954047" transform="rotate(-0 65.52 192.954047)">matched within this study’s original criteria</text>
+  </g>
+  <g id="text_6">
+   <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #3569a8" x="67.536" y="269.238047" transform="rotate(-0 67.536 269.238047)">Matched: 15</text>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #53657a" x="312.48" y="269.238047" transform="rotate(-0 312.48 269.238047)">Unmatched: 1</text>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 11.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #53657a" x="67.536" y="293.358187" transform="rotate(-0 67.536 293.358187)">Overall pooling, uncertainty and heterogeneity targets</text>
+  </g>
+  <g id="text_9">
+   <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182b42" x="665.28" y="125.8815" transform="rotate(-0 665.28 125.8815)">Declared scope</text>
+  </g>
+  <g id="text_10">
+   <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182b42" x="665.28" y="166.414141" transform="rotate(-0 665.28 166.414141)">59</text>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #53657a" x="665.28" y="186.958125" transform="rotate(-0 665.28 186.958125)">published effect estimates</text>
+  </g>
+  <g id="text_12">
+   <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182b42" x="665.28" y="236.614141" transform="rotate(-0 665.28 236.614141)">29</text>
+  </g>
+  <g id="text_13">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #53657a" x="665.28" y="257.158125" transform="rotate(-0 665.28 257.158125)">source studies</text>
+  </g>
+  <g id="text_14">
+   <text style="font-size: 12.8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #182b42" x="47.376" y="344.814" transform="rotate(-0 47.376 344.814)">The sole strict miss was envelope width: 0.208389 versus a 0.2 diagnostic cap; the published Z lies inside.</text>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 11.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #53657a" x="47.376" y="394.446188" transform="rotate(-0 47.376 394.446188)">An envelope-width check is not a point-estimate error. Source rounding and unavailable historical settings limit reconstruction.</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 11.8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #53657a" x="47.376" y="438.590156" transform="rotate(-0 47.376 438.590156)">Unmatched checks describe this attempt under its constraints; they do not establish that the paper is invalid.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p292d71f86d">
+   <rect x="67.536" y="214.344" width="529.2" height="30.42"/>
+  </clipPath>
+ </defs>
+ <defs>
+  <pattern id="hb1d66aecc7" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#e0e6ed"/>
+   <path d="M -36 36 
+L 36 -36 
+M -33 39 
+L 39 -33 
+M -30 42 
+L 42 -30 
+M -27 45 
+L 45 -27 
+M -24 48 
+L 48 -24 
+M -21 51 
+L 51 -21 
+M -18 54 
+L 54 -18 
+M -15 57 
+L 57 -15 
+M -12 60 
+L 60 -12 
+M -9 63 
+L 63 -9 
+M -6 66 
+L 66 -6 
+M -3 69 
+L 69 -3 
+M 0 72 
+L 72 0 
+M 3 75 
+L 75 3 
+M 6 78 
+L 78 6 
+M 9 81 
+L 81 9 
+M 12 84 
+L 84 12 
+M 15 87 
+L 87 15 
+M 18 90 
+L 90 18 
+M 21 93 
+L 93 21 
+M 24 96 
+L 96 24 
+M 27 99 
+L 99 27 
+M 30 102 
+L 102 30 
+M 33 105 
+L 105 33 
+M 36 108 
+L 108 36 
+" style="fill: #8996a6; stroke: #8996a6; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+ </defs>
+</svg>

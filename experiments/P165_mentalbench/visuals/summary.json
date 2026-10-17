@@ -1,0 +1,65 @@
+{
+  "paper_id": "P165",
+  "title": "When Can We Trust LLMs in Mental Health? Large-Scale Benchmarks for Reliable LLM Evaluation",
+  "classification": "Qualified NEAR — material exceptions",
+  "report": "experiments/P165_mentalbench/README.md",
+  "citations": 31,
+  "provider": "Semantic Scholar",
+  "window": "Main",
+  "recorded_public_date": "2025-10-21",
+  "capture_time_supported": false,
+  "short_title": "MentalBench",
+  "outcome_key": "qualified",
+  "route_group": "Released-data / effect reanalysis",
+  "citation_provider_group": "Semantic Scholar",
+  "original_central_checks": {
+    "matched": 315,
+    "total": 324,
+    "unmatched": 9,
+    "short_label": "Original central numerical targets under stated bounds",
+    "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+  },
+  "scope_metrics": [
+    {
+      "value": "1,000",
+      "label": "rated one-turn contexts"
+    },
+    {
+      "value": "10",
+      "label": "response sources"
+    }
+  ],
+  "agreement_note": "Material exceptions remain: a guidance mean differs by 0.308047 on a 1–5 scale; interval errors also remain.",
+  "chart_scope_note": "Qualified near only. This does not imply an all-target small-error match; preprocessing and human-reference history were incomplete.",
+  "sources": [
+    {
+      "path": "experiments/P165_mentalbench/README.md",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 10190,
+      "sha256_at_source_commit": "d36558edc2974c8ddd4d52b454013d3b9fa93c53beff07d8406c9097d5e10bbd",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P165_mentalbench/README.md"
+    },
+    {
+      "path": "experiments/P165_mentalbench/evidence/ROOT_ADOPTED_P165_MENTALBENCH_SOURCE_METHOD_NEAR921.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 17098,
+      "sha256_at_source_commit": "0cc3abc4f1a8d5b11fc9fc3fdcdcaf03ac4f4e452bc94157e3ed1b65ebbda9f7",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P165_mentalbench/evidence/ROOT_ADOPTED_P165_MENTALBENCH_SOURCE_METHOD_NEAR921.json"
+    },
+    {
+      "path": "experiments/P165_mentalbench/evidence/ROOT_RETROSPECTIVE_P165_CENTRAL_NEAR_DECISION958.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 2790,
+      "sha256_at_source_commit": "f5428492cfb7158968e7ff5d86acf8530cb143caa4b11424738d4649d2b12e4a",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P165_mentalbench/evidence/ROOT_RETROSPECTIVE_P165_CENTRAL_NEAR_DECISION958.json"
+    },
+    {
+      "path": "experiments/P165_mentalbench/results/P165_reviewed_source_ROOT929__ROOT_COMPLETE_CLOSED_P165_ANALYSIS___1d0cc830.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 3831,
+      "sha256_at_source_commit": "7ee233be8fc00fe4e4a45022b078e9ee404ef4fdfa136eaa7ad0d182cc8898b1",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P165_mentalbench/results/P165_reviewed_source_ROOT929__ROOT_COMPLETE_CLOSED_P165_ANALYSIS___1d0cc830.json"
+    }
+  ],
+  "failure_interpretation": "The programme did not recover every mean and interval within the original criteria using the released ratings, aggregated human reference and available preprocessing history. The material errors remain disclosed, but their cause is unresolved. They describe the limits of this attempt, not a finding that the paper or its conclusions are invalid."
+}

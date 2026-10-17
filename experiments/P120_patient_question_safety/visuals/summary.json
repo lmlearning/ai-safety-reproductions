@@ -1,0 +1,51 @@
+{
+  "paper_id": "P120",
+  "title": "Large language models provide unsafe answers to patient-posed medical questions",
+  "classification": "Strict CENTRAL",
+  "report": "experiments/P120_patient_question_safety/README.md",
+  "citations": 68,
+  "provider": "Semantic Scholar",
+  "window": "Extended",
+  "recorded_public_date": "2025-07-25",
+  "capture_time_supported": true,
+  "short_title": "Patient-question safety",
+  "outcome_key": "strict",
+  "route_group": "Released-data / effect reanalysis",
+  "citation_provider_group": "Semantic Scholar",
+  "original_central_checks": {
+    "matched": 141,
+    "total": 141,
+    "unmatched": 0,
+    "short_label": "Four-model comparative analysis targets",
+    "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+  },
+  "scope_metrics": [
+    {
+      "value": "888",
+      "label": "archived responses"
+    },
+    {
+      "value": "222",
+      "label": "patient-written questions"
+    }
+  ],
+  "agreement_note": "Problematic-response rates reproduced from the archived human ratings, with all selected comparisons matched.",
+  "chart_scope_note": "No fresh responses or physician ratings were obtained. The result is not a current-model test or a patient-harm rate.",
+  "sources": [
+    {
+      "path": "experiments/P120_patient_question_safety/README.md",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 8865,
+      "sha256_at_source_commit": "1913f4c88fa62e1837ebefc989923a38d593f8cafcc5df1448365f4d0878a81a",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P120_patient_question_safety/README.md"
+    },
+    {
+      "path": "experiments/P120_patient_question_safety/results/run004__mandatory_target_checks.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 53341,
+      "sha256_at_source_commit": "f19f7efccc71fbc97a2942ecd9ac60ac1f7f6a6a6cfc62d58df7359ccbfb230e",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P120_patient_question_safety/results/run004__mandatory_target_checks.json"
+    }
+  ],
+  "failure_interpretation": "All selected comparisons passed. The repaired export issue belonged to the programme, and alternative diagnostic results were not substitutes for the authors' analysis. Unavailable generation details and unattempted fresh ratings limit this reproduction's scope, without determining the validity of the paper."
+}

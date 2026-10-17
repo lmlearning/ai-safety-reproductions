@@ -1,0 +1,58 @@
+{
+  "paper_id": "P132",
+  "title": "Effectiveness of generative artificial intelligence-based teaching versus traditional teaching methods in medical education: a meta-analysis of randomized controlled trials",
+  "classification": "Strict CENTRAL",
+  "report": "experiments/P132_medical_teaching_rct_meta/README.md",
+  "citations": 47,
+  "provider": "OpenAlex",
+  "window": "Extended",
+  "recorded_public_date": "2025-08-19",
+  "capture_time_supported": false,
+  "short_title": "Medical teaching",
+  "outcome_key": "strict",
+  "route_group": "Released-data / effect reanalysis",
+  "citation_provider_group": "OpenAlex",
+  "original_central_checks": {
+    "matched": 141,
+    "total": 141,
+    "unmatched": 0,
+    "short_label": "Primary quantitative synthesis targets",
+    "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+  },
+  "scope_metrics": [
+    {
+      "value": "17",
+      "label": "mean / SD / sample-size contrasts"
+    },
+    {
+      "value": "11",
+      "label": "pooled summaries"
+    }
+  ],
+  "agreement_note": "Standardized differences reproduced at about 0.27 for knowledge, 0.63 for skills and 1.18 for satisfaction.",
+  "chart_scope_note": "Primary targets only; repeated display checks are not added. The original teaching trials and review were not repeated.",
+  "sources": [
+    {
+      "path": "experiments/P132_medical_teaching_rct_meta/README.md",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 9290,
+      "sha256_at_source_commit": "e8504a4d76b1546049d309e216119c05db189e9d246b6fece3db29b9dc4b4014",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P132_medical_teaching_rct_meta/README.md"
+    },
+    {
+      "path": "experiments/P132_medical_teaching_rct_meta/results/original001__PRIMARY_GATES.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 19041,
+      "sha256_at_source_commit": "391935136da649613a705966ec88b973906e8b62e0539360e622367d84f99972",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P132_medical_teaching_rct_meta/results/original001__PRIMARY_GATES.json"
+    },
+    {
+      "path": "experiments/P132_medical_teaching_rct_meta/results/original001__SUMMARY.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 529,
+      "sha256_at_source_commit": "01fd92dd28f10f1123fa3199a0e12f5f6fe0438b0bb4e4af277174cdebc90f91",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P132_medical_teaching_rct_meta/results/original001__SUMMARY.json"
+    }
+  ],
+  "failure_interpretation": "All selected comparisons passed. The programme could not independently recover participant histories, every source assignment or the original unrounded analysis project. Those areas were not validated by this attempt, and their absence is not a finding that the paper or its conclusions are invalid."
+}

@@ -22,6 +22,12 @@ This is a retrospective bounded near success. Both reproduction routes retain th
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
+## Reproduction at a glance
+
+![P103: original central target checks, reproduced scope and outcome](visuals/summary.png)
+
+The chart retains this programme's original central comparison criteria alongside the adopted outcome. Targets differ across studies and are not a common quality score. [Chart data](visuals/summary.json) · [Graph definitions and rendering code](../../visuals/README.md).
+
 **Result.** Complete primary Study 1 anticipation plus its manipulation check is a bounded near success. The programme's sole strict comparison miss is incidental degrees of freedom.
 
 ## What was reproduced

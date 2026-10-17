@@ -22,6 +22,12 @@ All 2,470 selected comparisons reproduced after the programme corrected its mapp
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
+## Reproduction at a glance
+
+![P072: original central target checks, reproduced scope and outcome](visuals/summary.png)
+
+The chart retains this programme's original central comparison criteria alongside the adopted outcome. Targets differ across studies and are not a common quality score. [Chart data](visuals/summary.json) · [Graph definitions and rendering code](../../visuals/README.md).
+
 **Result.** The complete declared primary policy-attitude contribution across all three studies was reproduced.
 
 ## What was reproduced

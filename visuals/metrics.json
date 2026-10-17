@@ -1,0 +1,1234 @@
+{
+  "schema": "reproduction-publication-visuals-v1",
+  "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+  "data_scope": "Recorded results and retained citation observations from the existing publication; no refresh or scientific rerun.",
+  "comparison_limit": "Central target types and denominators vary. No pooled target-success percentage or cross-paper quality score is calculated.",
+  "failure_interpretation": "A failed comparison or unmatched result means that this reproduction programme did not recover that result within its stated scope and constraints, including the available inputs, methods, software and local resources. It does not establish that the paper or its conclusions are invalid. Work outside the attempted scope was not tested by this programme.",
+  "studies": [
+    {
+      "paper_id": "P041",
+      "title": "How to Correctly Report LLM-as-a-Judge Evaluations",
+      "classification": "Strict CENTRAL",
+      "report": "experiments/P041_judge_reporting/README.md",
+      "citations": 31,
+      "provider": "Semantic Scholar",
+      "window": "Main",
+      "recorded_public_date": "2025-11-26",
+      "capture_time_supported": false,
+      "short_title": "Judge evaluation",
+      "outcome_key": "strict",
+      "route_group": "Fresh simulation",
+      "citation_provider_group": "Semantic Scholar",
+      "original_central_checks": {
+        "matched": 126,
+        "total": 126,
+        "unmatched": 0,
+        "short_label": "84 curve targets + 42 original-seed scalar targets",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "21",
+          "label": "true-accuracy settings"
+        },
+        {
+          "value": "Figure 4",
+          "label": "central simulation"
+        }
+      ],
+      "agreement_note": "Main Figure 4 matched its fixed simulation bounds; real LLM judges were not tested.",
+      "chart_scope_note": "Central scope was amended after the broader attempt did not match all appendix targets. The wider comparison is not this denominator.",
+      "sources": [
+        {
+          "path": "experiments/P041_judge_reporting/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 8512,
+          "sha256_at_source_commit": "0a77a736367b15de3f359a1ab014d0d269ce1ff06d418d796a908dbabc209810",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P041_judge_reporting/README.md"
+        },
+        {
+          "path": "experiments/P041_judge_reporting/plans/AMENDMENT_CENTRAL.md.txt",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 2015,
+          "sha256_at_source_commit": "1d6a05786ac55125611c03b1a39cce76f01b6476ff690f3c8ca8573600cd5eb3",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P041_judge_reporting/plans/AMENDMENT_CENTRAL.md.txt"
+        },
+        {
+          "path": "experiments/P041_judge_reporting/results/P041-central-002__metrics.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 106270,
+          "sha256_at_source_commit": "43dafc69b8141bc98789c106fbea1b114806d5c2d83e2556aa2b2aa1fee5ba93",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P041_judge_reporting/results/P041-central-002__metrics.json"
+        },
+        {
+          "path": "experiments/P041_judge_reporting/results/P041-central-002__original_point_comparison.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 8588,
+          "sha256_at_source_commit": "7ddb213d84d87739f59571f75fd13929ad8f3ccd1c3e27a36e94b1256ef1be7d",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P041_judge_reporting/results/P041-central-002__original_point_comparison.json"
+        },
+        {
+          "path": "experiments/P041_judge_reporting/results/P041-central-002__published_curve_comparison.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 369121,
+          "sha256_at_source_commit": "b3c494778d65d0459f06e1f0f7b36b1a4818733da7d76b5e691bd41e64cdc56e",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P041_judge_reporting/results/P041-central-002__published_curve_comparison.json"
+        }
+      ],
+      "failure_interpretation": "The programme did not recover the full appendix comparison within the retained code, reference figures and simulation setup. The duplicated references document the materials compared, while the failed checks describe this attempt; neither is treated here as a verdict on the validity of the paper or its mathematical results."
+    },
+    {
+      "paper_id": "P065",
+      "title": "AI chatbots versus human healthcare professionals: a systematic review and meta-analysis of empathy in patient care",
+      "classification": "Strict CENTRAL",
+      "report": "experiments/P065_empathy_meta_analysis/README.md",
+      "citations": 79,
+      "provider": "Semantic Scholar",
+      "window": "Extended",
+      "recorded_public_date": "2025-06-09",
+      "capture_time_supported": false,
+      "short_title": "Empathy meta-analysis",
+      "outcome_key": "strict",
+      "route_group": "Released-data / effect reanalysis",
+      "citation_provider_group": "Semantic Scholar",
+      "original_central_checks": {
+        "matched": 97,
+        "total": 97,
+        "unmatched": 0,
+        "short_label": "Figure 2 numerical and claim comparisons",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "13",
+          "label": "published effect estimates"
+        },
+        {
+          "value": "Figure 2",
+          "label": "pooled empathy analysis"
+        }
+      ],
+      "agreement_note": "The overall standardized difference reproduced as 0.871882, matching the published 0.87.",
+      "chart_scope_note": "The chart covers the declared central pooling calculation, without repeating the review or its underlying studies.",
+      "sources": [
+        {
+          "path": "experiments/P065_empathy_meta_analysis/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 7929,
+          "sha256_at_source_commit": "093e5d9b2b4102433b5867a449cc4ac6981d76e770fcf00ee76106e5daa02c69",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P065_empathy_meta_analysis/README.md"
+        },
+        {
+          "path": "experiments/P065_empathy_meta_analysis/results/P065-central-001__results.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 23187,
+          "sha256_at_source_commit": "824600ffcbd6d225f071070211d4bc9c654fee0cc4f8bddeb485b4a7a97ae8ff",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P065_empathy_meta_analysis/results/P065-central-001__results.json"
+        }
+      ],
+      "failure_interpretation": "All selected comparisons passed. The underlying experiments, review process and empathy measurements were outside this attempt, so their absence from the reproduced scope is an untested area rather than a failed test or a judgment on the paper's validity."
+    },
+    {
+      "paper_id": "P066",
+      "title": "Human-large language model collaboration in clinical medicine: a systematic review and meta-analysis",
+      "classification": "Strict CENTRAL",
+      "report": "experiments/P066_clinical_collaboration_meta/README.md",
+      "citations": 34,
+      "provider": "Semantic Scholar",
+      "window": "Main",
+      "recorded_public_date": "2025-11-15",
+      "capture_time_supported": true,
+      "short_title": "Clinical collaboration",
+      "outcome_key": "strict",
+      "route_group": "Released-data / effect reanalysis",
+      "citation_provider_group": "Semantic Scholar",
+      "original_central_checks": {
+        "matched": 69,
+        "total": 69,
+        "unmatched": 0,
+        "short_label": "63 numerical targets + 6 qualitative claims",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "7",
+          "label": "published contrasts"
+        },
+        {
+          "value": "3",
+          "label": "Figure 2 panels"
+        }
+      ],
+      "agreement_note": "The composite-score difference reproduced as 4.884471 percentage points using the released-code convention.",
+      "chart_scope_note": "The historical method description remains unresolved; matching the figure does not reconcile every source convention.",
+      "sources": [
+        {
+          "path": "experiments/P066_clinical_collaboration_meta/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 8574,
+          "sha256_at_source_commit": "44c8858c7d81d252a88273f5904a4e79507276d657adb53280d1988fa0e11e4b",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P066_clinical_collaboration_meta/README.md"
+        },
+        {
+          "path": "experiments/P066_clinical_collaboration_meta/results/P066-central-002__results.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 18697,
+          "sha256_at_source_commit": "ce46c6bd688ef735139be0d493a5f2576869b23b2c8a48f19b39f0ccd166eee7",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P066_clinical_collaboration_meta/results/P066-central-002__results.json"
+        }
+      ],
+      "failure_interpretation": "The initial mismatch belonged to this programme's implementation and was resolved. The retained code, prose and interval conventions still do not fully identify the authors' historical setup. Those limits describe what the programme could reconstruct; they do not establish that the paper or its conclusions are invalid."
+    },
+    {
+      "paper_id": "P068",
+      "title": "Reliability of LLMs as medical assistants for the general public: a randomized preregistered study",
+      "classification": "Strict CENTRAL",
+      "report": "experiments/P068_medical_assistant_rct/README.md",
+      "citations": 113,
+      "provider": "Semantic Scholar",
+      "window": "Extended",
+      "recorded_public_date": "2025-04-17",
+      "capture_time_supported": true,
+      "short_title": "Medical assistants",
+      "outcome_key": "strict",
+      "route_group": "Released-data / effect reanalysis",
+      "citation_provider_group": "Semantic Scholar",
+      "original_central_checks": {
+        "matched": 103,
+        "total": 103,
+        "unmatched": 0,
+        "short_label": "Trial performance summary comparisons",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "2,400",
+          "label": "released responses"
+        },
+        {
+          "value": "1,298",
+          "label": "original participants"
+        }
+      ],
+      "agreement_note": "Relevant-condition identification reproduced at 32.0–34.5% in AI arms versus 47.0% in control.",
+      "chart_scope_note": "Summary targets only; 12,000 separate scoring checks are not added. No new participants or AI conversations were generated.",
+      "sources": [
+        {
+          "path": "experiments/P068_medical_assistant_rct/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 8544,
+          "sha256_at_source_commit": "563a127a15cd75a628d50367e37ea75eb0e45773c3d7f6ba653c88a9a71f1bcf",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P068_medical_assistant_rct/README.md"
+        },
+        {
+          "path": "experiments/P068_medical_assistant_rct/results/P068-audit-001__audit.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 227638,
+          "sha256_at_source_commit": "69e825c99aa4674c20febd8200fd53eed1ddc720c4cd8efaff94b33daeaeec95",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P068_medical_assistant_rct/results/P068-audit-001__audit.json"
+        },
+        {
+          "path": "experiments/P068_medical_assistant_rct/results/P068-central-002__results.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 139586,
+          "sha256_at_source_commit": "deb9491501941f184c7ae369b48ee1877f3efbc00daafdf8c7c95d43eede7edc",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P068_medical_assistant_rct/results/P068-central-002__results.json"
+        }
+      ],
+      "failure_interpretation": "All selected comparisons passed. The repaired serialization failure was an execution problem in this programme. Unavailable historical seeds and omitted analyses limit what was checked; they are not findings against the validity of the paper."
+    },
+    {
+      "paper_id": "P072",
+      "title": "The Levers of Political Persuasion with Conversational AI",
+      "classification": "Strict CENTRAL",
+      "report": "experiments/P072_levers_persuasion/README.md",
+      "citations": 90,
+      "provider": "Semantic Scholar",
+      "window": "Extended",
+      "recorded_public_date": "2025-07-18",
+      "capture_time_supported": false,
+      "short_title": "Political persuasion",
+      "outcome_key": "strict",
+      "route_group": "Released-data / effect reanalysis",
+      "citation_provider_group": "Semantic Scholar",
+      "original_central_checks": {
+        "matched": 2470,
+        "total": 2470,
+        "unmatched": 0,
+        "short_label": "Selected policy-attitude table comparisons",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "3",
+          "label": "original studies"
+        },
+        {
+          "value": "93",
+          "label": "selected tables"
+        }
+      ],
+      "agreement_note": "The complete selected policy-attitude family matched after the programme corrected its source-script mapping.",
+      "chart_scope_note": "This scope excludes separate factual-accuracy and scaling analyses; no new persuasive messages were generated.",
+      "sources": [
+        {
+          "path": "experiments/P072_levers_persuasion/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 8769,
+          "sha256_at_source_commit": "11fe81db6b3585f79ee9c78bf74d1e62c267725339c16468c7a8108e1f3f7ea5",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P072_levers_persuasion/README.md"
+        },
+        {
+          "path": "experiments/P072_levers_persuasion/plans/PREREGISTRATION.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 7490,
+          "sha256_at_source_commit": "a6c2a79d9042e38597478e7c3dc435e8f1b4d35cec9080f5d5137c77429ad7fe",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P072_levers_persuasion/plans/PREREGISTRATION.json"
+        },
+        {
+          "path": "experiments/P072_levers_persuasion/results/P072-central-003__metrics.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 1232,
+          "sha256_at_source_commit": "4b7991c68ccfbc7e40f206d568c5f0af873b0fe4b7286b80b89c5f3940e00c92",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P072_levers_persuasion/results/P072-central-003__metrics.json"
+        }
+      ],
+      "failure_interpretation": "The intermediate misses arose from this programme's script mapping and serialization, and the final selected comparisons passed after repair. Those execution failures describe this reproduction attempt and make no judgment about the validity of the original studies."
+    },
+    {
+      "paper_id": "P080",
+      "title": "How AI Impacts Skill Formation",
+      "classification": "Strict CENTRAL",
+      "report": "experiments/P080_ai_skill_formation/README.md",
+      "citations": 42,
+      "provider": "Semantic Scholar",
+      "window": "Main",
+      "recorded_public_date": "2026-01-28",
+      "capture_time_supported": true,
+      "short_title": "Skill formation",
+      "outcome_key": "strict",
+      "route_group": "Released-data / effect reanalysis",
+      "citation_provider_group": "Semantic Scholar",
+      "original_central_checks": {
+        "matched": 141,
+        "total": 141,
+        "unmatched": 0,
+        "short_label": "Quantitative targets, including 72 bootstrap endpoints",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "52",
+          "label": "original participants"
+        },
+        {
+          "value": "50",
+          "label": "adjusted-analysis records"
+        }
+      ],
+      "agreement_note": "Mean quiz scores reproduced as 50.0% with AI and 65.4% without it in the released trial.",
+      "chart_scope_note": "Bootstrap endpoint targets are already included in this count. The separate qualitative contribution was outside scope.",
+      "sources": [
+        {
+          "path": "experiments/P080_ai_skill_formation/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 8300,
+          "sha256_at_source_commit": "f00177bdb01ecc2fc12487947cbf81c31ac5437f0c6c28f94c7e042805bdd1bc",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P080_ai_skill_formation/README.md"
+        },
+        {
+          "path": "experiments/P080_ai_skill_formation/plans/AUDIT_MAIN_RCT_20261010.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 127539,
+          "sha256_at_source_commit": "5dc89694639699c9b5298c15b0b4ec11c19eac765a75676923ce3b45d56f6e85",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P080_ai_skill_formation/plans/AUDIT_MAIN_RCT_20261010.json"
+        },
+        {
+          "path": "experiments/P080_ai_skill_formation/plans/RUN_MAIN_RCT_20261010.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 101425,
+          "sha256_at_source_commit": "72125b6a1de180f3e486c1b998287da3e0377f3177580cd5dc95686a8332f55f",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P080_ai_skill_formation/plans/RUN_MAIN_RCT_20261010.json"
+        }
+      ],
+      "failure_interpretation": "The programme recovered the selected trial statistics but could not reconcile every prose description or recover the separate qualitative analysis from the available material. Those limits concern this attempt's scope and source access; they do not determine the validity of the paper."
+    },
+    {
+      "paper_id": "P120",
+      "title": "Large language models provide unsafe answers to patient-posed medical questions",
+      "classification": "Strict CENTRAL",
+      "report": "experiments/P120_patient_question_safety/README.md",
+      "citations": 68,
+      "provider": "Semantic Scholar",
+      "window": "Extended",
+      "recorded_public_date": "2025-07-25",
+      "capture_time_supported": true,
+      "short_title": "Patient-question safety",
+      "outcome_key": "strict",
+      "route_group": "Released-data / effect reanalysis",
+      "citation_provider_group": "Semantic Scholar",
+      "original_central_checks": {
+        "matched": 141,
+        "total": 141,
+        "unmatched": 0,
+        "short_label": "Four-model comparative analysis targets",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "888",
+          "label": "archived responses"
+        },
+        {
+          "value": "222",
+          "label": "patient-written questions"
+        }
+      ],
+      "agreement_note": "Problematic-response rates reproduced from the archived human ratings, with all selected comparisons matched.",
+      "chart_scope_note": "No fresh responses or physician ratings were obtained. The result is not a current-model test or a patient-harm rate.",
+      "sources": [
+        {
+          "path": "experiments/P120_patient_question_safety/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 8865,
+          "sha256_at_source_commit": "1913f4c88fa62e1837ebefc989923a38d593f8cafcc5df1448365f4d0878a81a",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P120_patient_question_safety/README.md"
+        },
+        {
+          "path": "experiments/P120_patient_question_safety/results/run004__mandatory_target_checks.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 53341,
+          "sha256_at_source_commit": "f19f7efccc71fbc97a2942ecd9ac60ac1f7f6a6a6cfc62d58df7359ccbfb230e",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P120_patient_question_safety/results/run004__mandatory_target_checks.json"
+        }
+      ],
+      "failure_interpretation": "All selected comparisons passed. The repaired export issue belonged to the programme, and alternative diagnostic results were not substitutes for the authors' analysis. Unavailable generation details and unattempted fresh ratings limit this reproduction's scope, without determining the validity of the paper."
+    },
+    {
+      "paper_id": "P134",
+      "title": "The Effectiveness of AI Chatbots in Alleviating Mental Distress and Promoting Health Behaviors Among Adolescents and Young Adults: Systematic Review and Meta-Analysis",
+      "classification": "Strict CENTRAL",
+      "report": "experiments/P134_young_adult_chatbot_meta/README.md",
+      "citations": 44,
+      "provider": "OpenAlex",
+      "window": "Extended",
+      "recorded_public_date": "2025-06-30",
+      "capture_time_supported": false,
+      "short_title": "Young-adult chatbots",
+      "outcome_key": "strict",
+      "route_group": "Released-data / effect reanalysis",
+      "citation_provider_group": "OpenAlex",
+      "original_central_checks": {
+        "matched": 337,
+        "total": 337,
+        "unmatched": 0,
+        "short_label": "Central outcome synthesis targets",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "145",
+          "label": "released effect rows"
+        },
+        {
+          "value": "11",
+          "label": "central outcome families"
+        }
+      ],
+      "agreement_note": "Overall mental distress reproduced as g = -0.350394; the other central families also met their criteria.",
+      "chart_scope_note": "Repeated effect rows are not independent trials. Some supporting displays were not recovered within the programme setup.",
+      "sources": [
+        {
+          "path": "experiments/P134_young_adult_chatbot_meta/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 9254,
+          "sha256_at_source_commit": "32a95353f4bea1f9b053d8436f96fef0da33e1598fa411a442c67c28831c98a6",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P134_young_adult_chatbot_meta/README.md"
+        },
+        {
+          "path": "experiments/P134_young_adult_chatbot_meta/results/original002__ALL337_PRIMARY_CHECKS.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 113796,
+          "sha256_at_source_commit": "c7b53538ed2a5a3b0da7c3acf1e600556256af55e7cb12f62bfc24dc876315b7",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P134_young_adult_chatbot_meta/results/original002__ALL337_PRIMARY_CHECKS.json"
+        },
+        {
+          "path": "experiments/P134_young_adult_chatbot_meta/results/original002__ALL_SUPPORTING_SOURCE_COMPARISONS.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 332622,
+          "sha256_at_source_commit": "4db4969d735c0492d6a3e46ac741316535cfa96e3d9dd3132bc51cbfb45d63a4",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P134_young_adult_chatbot_meta/results/original002__ALL_SUPPORTING_SOURCE_COMPARISONS.json"
+        }
+      ],
+      "failure_interpretation": "The supporting displays that did not match were unsuccessful comparisons in this programme, with limits including unavailable subgroup assignments, covariance and auxiliary implementation details. Their cause is not fully established. They do not, by themselves, determine the validity of the paper or its conclusions."
+    },
+    {
+      "paper_id": "P132",
+      "title": "Effectiveness of generative artificial intelligence-based teaching versus traditional teaching methods in medical education: a meta-analysis of randomized controlled trials",
+      "classification": "Strict CENTRAL",
+      "report": "experiments/P132_medical_teaching_rct_meta/README.md",
+      "citations": 47,
+      "provider": "OpenAlex",
+      "window": "Extended",
+      "recorded_public_date": "2025-08-19",
+      "capture_time_supported": false,
+      "short_title": "Medical teaching",
+      "outcome_key": "strict",
+      "route_group": "Released-data / effect reanalysis",
+      "citation_provider_group": "OpenAlex",
+      "original_central_checks": {
+        "matched": 141,
+        "total": 141,
+        "unmatched": 0,
+        "short_label": "Primary quantitative synthesis targets",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "17",
+          "label": "mean / SD / sample-size contrasts"
+        },
+        {
+          "value": "11",
+          "label": "pooled summaries"
+        }
+      ],
+      "agreement_note": "Standardized differences reproduced at about 0.27 for knowledge, 0.63 for skills and 1.18 for satisfaction.",
+      "chart_scope_note": "Primary targets only; repeated display checks are not added. The original teaching trials and review were not repeated.",
+      "sources": [
+        {
+          "path": "experiments/P132_medical_teaching_rct_meta/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 9290,
+          "sha256_at_source_commit": "e8504a4d76b1546049d309e216119c05db189e9d246b6fece3db29b9dc4b4014",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P132_medical_teaching_rct_meta/README.md"
+        },
+        {
+          "path": "experiments/P132_medical_teaching_rct_meta/results/original001__PRIMARY_GATES.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 19041,
+          "sha256_at_source_commit": "391935136da649613a705966ec88b973906e8b62e0539360e622367d84f99972",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P132_medical_teaching_rct_meta/results/original001__PRIMARY_GATES.json"
+        },
+        {
+          "path": "experiments/P132_medical_teaching_rct_meta/results/original001__SUMMARY.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 529,
+          "sha256_at_source_commit": "01fd92dd28f10f1123fa3199a0e12f5f6fe0438b0bb4e4af277174cdebc90f91",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P132_medical_teaching_rct_meta/results/original001__SUMMARY.json"
+        }
+      ],
+      "failure_interpretation": "All selected comparisons passed. The programme could not independently recover participant histories, every source assignment or the original unrounded analysis project. Those areas were not validated by this attempt, and their absence is not a finding that the paper or its conclusions are invalid."
+    },
+    {
+      "paper_id": "P135",
+      "title": "Chatbot-Delivered Interventions for Improving Mental Health Among Young People: A Systematic Review and Meta-Analysis",
+      "classification": "Strict CENTRAL",
+      "report": "experiments/P135_young_people_chatbot_meta/README.md",
+      "citations": 54,
+      "provider": "OpenAlex",
+      "window": "Extended",
+      "recorded_public_date": "2025-07-15",
+      "capture_time_supported": false,
+      "short_title": "Youth chatbot outcomes",
+      "outcome_key": "strict",
+      "route_group": "Released-data / effect reanalysis",
+      "citation_provider_group": "OpenAlex",
+      "original_central_checks": {
+        "matched": 50,
+        "total": 50,
+        "unmatched": 0,
+        "short_label": "Both central outcome-family targets",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "26",
+          "label": "published effect summaries"
+        },
+        {
+          "value": "2",
+          "label": "central outcome families"
+        }
+      ],
+      "agreement_note": "Distress reproduced at about -0.280 and wellbeing at 0.126; the wellbeing interval includes zero.",
+      "chart_scope_note": "Supporting displays are outside this central denominator and did not all match. Private unrounded inputs were incomplete.",
+      "sources": [
+        {
+          "path": "experiments/P135_young_people_chatbot_meta/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 9085,
+          "sha256_at_source_commit": "1d502bdaf57f86b511648e0ed9ffa54f2fca50ab8209fc8efd67a0de8662d151",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P135_young_people_chatbot_meta/README.md"
+        },
+        {
+          "path": "experiments/P135_young_people_chatbot_meta/results/original001__ALL50_PRIMARY_CHECKS.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 33661,
+          "sha256_at_source_commit": "08f529f4d45cc4e96a516ee15bedc819738420a46f3bbd1e8285ab42c2f90e1d",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P135_young_people_chatbot_meta/results/original001__ALL50_PRIMARY_CHECKS.json"
+        },
+        {
+          "path": "experiments/P135_young_people_chatbot_meta/results/original001__ALL_SUPPORTING_SOURCE_COMPARISONS.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 169043,
+          "sha256_at_source_commit": "846d9771ea70a83dfa0124c36a733dde9a4f7a84fdf1bd5b14cca929d993b982",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P135_young_people_chatbot_meta/results/original001__ALL_SUPPORTING_SOURCE_COMPARISONS.json"
+        }
+      ],
+      "failure_interpretation": "The programme did not recover all supporting displays from the available summaries and reconstruction conventions; some displays could not be checked at all. Private unrounded inputs, provenance and covariance were incomplete. These are limits of the reproduction attempt, without establishing that the paper or its conclusions are invalid."
+    },
+    {
+      "paper_id": "P133",
+      "title": "AI literacy and competency in nursing education: preparing students and faculty members for an AI-enabled future-a systematic review and meta-analysis",
+      "classification": "Strict CENTRAL",
+      "report": "experiments/P133_nursing_ai_meta/README.md",
+      "citations": 56,
+      "provider": "OpenAlex",
+      "window": "Main",
+      "recorded_public_date": "2025-11-26",
+      "capture_time_supported": false,
+      "short_title": "Nursing AI literacy",
+      "outcome_key": "strict",
+      "route_group": "Released-data / effect reanalysis",
+      "citation_provider_group": "OpenAlex",
+      "original_central_checks": {
+        "matched": 266,
+        "total": 266,
+        "unmatched": 0,
+        "short_label": "263 forest-output targets + 3 central claims",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "43",
+          "label": "published effect rows"
+        },
+        {
+          "value": "18",
+          "label": "source studies"
+        }
+      ],
+      "agreement_note": "Awareness, attitude and implementation proportions reproduced at about 73%, 71% and 67%.",
+      "chart_scope_note": "The central output/claim family is shown. Input checks and supporting displays are separate; supporting targets did not all match.",
+      "sources": [
+        {
+          "path": "experiments/P133_nursing_ai_meta/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 9976,
+          "sha256_at_source_commit": "57b70551c51e28958f9f6a6d45304e3200a1c4d3a3d4fe79019c76563719089f",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P133_nursing_ai_meta/README.md"
+        },
+        {
+          "path": "experiments/P133_nursing_ai_meta/results/audit_output__INDEPENDENT_SUPPORTING_CLAIM_DIAGNOSTICS.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 640,
+          "sha256_at_source_commit": "5af4f3e65c6b6f28d25e1a5a2eb2f63efc5e02c8e74b3ecfe26b302f2b6a1b33",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P133_nursing_ai_meta/results/audit_output__INDEPENDENT_SUPPORTING_CLAIM_DIAGNOSTICS.json"
+        },
+        {
+          "path": "experiments/P133_nursing_ai_meta/results/final_original029_closure001__REPORT_SUMMARY_AND_PROVENANCE001.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 12860,
+          "sha256_at_source_commit": "de151ad42fe09b13da1f3ea29efb009ab52fb285cdba1a589eb9fcb56fcf14b7",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P133_nursing_ai_meta/results/final_original029_closure001__REPORT_SUMMARY_AND_PROVENANCE001.json"
+        },
+        {
+          "path": "experiments/P133_nursing_ai_meta/results/worker_output__gate_comparisons.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 303124,
+          "sha256_at_source_commit": "ac70ce803bb86dd8f8f264af68ed4f92c1fcc159d7faf37307811ca40ae33b70",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P133_nursing_ai_meta/results/worker_output__gate_comparisons.json"
+        }
+      ],
+      "failure_interpretation": "The programme did not match every supporting display under its source-supported reconstruction; the authors' exact transformation and settings were unavailable. These unsuccessful comparisons describe the limits of that reconstruction and do not establish that the paper or its supporting conclusions are invalid."
+    },
+    {
+      "paper_id": "P150",
+      "title": "Racial bias in AI-mediated psychiatric diagnosis and treatment: a qualitative comparison of four large language models",
+      "classification": "Strict CENTRAL",
+      "report": "experiments/P150_psychiatric_bias/README.md",
+      "citations": 53,
+      "provider": "Semantic Scholar",
+      "window": "Extended",
+      "recorded_public_date": "2025-06-04",
+      "capture_time_supported": true,
+      "short_title": "Psychiatric bias",
+      "outcome_key": "strict",
+      "route_group": "Released-data / effect reanalysis",
+      "citation_provider_group": "Semantic Scholar",
+      "original_central_checks": {
+        "matched": 25,
+        "total": 25,
+        "unmatched": 0,
+        "short_label": "Designated Table 9 inferential comparisons",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "160",
+          "label": "archived bias ratings"
+        },
+        {
+          "value": "4",
+          "label": "model groups"
+        }
+      ],
+      "agreement_note": "The designated Table 9 rank-based comparison reproduced, including the model ordering and pairwise decisions.",
+      "chart_scope_note": "The alternative source variant and descriptive targets are separate. Source differences remain unresolved within this attempt.",
+      "sources": [
+        {
+          "path": "experiments/P150_psychiatric_bias/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 7527,
+          "sha256_at_source_commit": "8f35e218141153872bf0b4bd462ec332b970b1d9859a586814e8fc73be27887a",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P150_psychiatric_bias/README.md"
+        },
+        {
+          "path": "experiments/P150_psychiatric_bias/plans/ROOT_FINAL_COMPLETE_ORIGINAL_CENTRAL_SUCCESS_REVIEW024.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 5272,
+          "sha256_at_source_commit": "fdf2f3c6323bdc00f355c46e365e52c4004a1c6d2e572bab9dbdb33dde3c2910",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P150_psychiatric_bias/plans/ROOT_FINAL_COMPLETE_ORIGINAL_CENTRAL_SUCCESS_REVIEW024.json"
+        },
+        {
+          "path": "experiments/P150_psychiatric_bias/results/primary__mandatory_complete_Table3_7_counterpart.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 146875,
+          "sha256_at_source_commit": "6274daaf19794ea7d10ce2e6960259b83a57410c2f046fbb75133d91bc89a4fb",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P150_psychiatric_bias/results/primary__mandatory_complete_Table3_7_counterpart.json"
+        },
+        {
+          "path": "experiments/P150_psychiatric_bias/results/primary__primary_Table9.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 146869,
+          "sha256_at_source_commit": "f5b2cbd87302a8204c5e0eb6149835be090a5a13cc8202e3f8588353efe8bc9e",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P150_psychiatric_bias/results/primary__primary_Table9.json"
+        }
+      ],
+      "failure_interpretation": "The programme could not obtain one reconstruction matching every descriptive target across the retained source variants and unknown display conventions. The recorded source differences and unsuccessful matches remain unresolved within this attempt; they do not establish that the paper or its conclusions are invalid."
+    },
+    {
+      "paper_id": "P069",
+      "title": "The Ideation-Execution Gap: Execution Outcomes of LLM-Generated versus Human Research Ideas",
+      "classification": "Bounded NEAR",
+      "report": "experiments/P069_ideation_execution/README.md",
+      "citations": 62,
+      "provider": "Semantic Scholar",
+      "window": "Extended",
+      "recorded_public_date": "2025-06-25",
+      "capture_time_supported": false,
+      "short_title": "Research ideas",
+      "outcome_key": "near",
+      "route_group": "Released-data / effect reanalysis",
+      "citation_provider_group": "Semantic Scholar",
+      "original_central_checks": {
+        "matched": 152,
+        "total": 155,
+        "unmatched": 3,
+        "short_label": "21 count + 107 scalar + 27 claim targets",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "43",
+          "label": "completed projects"
+        },
+        {
+          "value": "181",
+          "label": "execution reviews"
+        }
+      ],
+      "agreement_note": "Largest scalar difference: 0.005 in the original score units, within the adopted 0.010 near bound.",
+      "chart_scope_note": "Three original precision misses remain; historical mean-gap producer arithmetic was not recovered.",
+      "sources": [
+        {
+          "path": "experiments/P069_ideation_execution/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 7628,
+          "sha256_at_source_commit": "a09267c118e4ced4aa5ee555c1f73a1b582e5b7a12464fc96c53a1ef4602c404",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P069_ideation_execution/README.md"
+        },
+        {
+          "path": "experiments/P069_ideation_execution/STUDY.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 827,
+          "sha256_at_source_commit": "9248d6b80c9c693b1a4ef1be53d30c0caf638040d75dce60af83b2f4d4b734c6",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P069_ideation_execution/STUDY.json"
+        },
+        {
+          "path": "experiments/P069_ideation_execution/evidence/ROOT_ADOPTED_ARCHIVED_P069_NEAR_SUCCESS_REVIEW_RULE916.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 3736,
+          "sha256_at_source_commit": "b0054010053a3f18db0dd18ed24b868b48250a0a521573379ae083cb0903fea4",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P069_ideation_execution/evidence/ROOT_ADOPTED_ARCHIVED_P069_NEAR_SUCCESS_REVIEW_RULE916.json"
+        }
+      ],
+      "failure_interpretation": "The programme could not match the remaining mean-gap summaries at the original precision with the released reviews and available calculation history. Their producer arithmetic remains unresolved. This records a limitation of the reproduction attempt, without determining whether the paper or its conclusions are valid."
+    },
+    {
+      "paper_id": "P079",
+      "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+      "classification": "Bounded NEAR",
+      "report": "experiments/P079_developer_productivity/README.md",
+      "citations": 213,
+      "provider": "Semantic Scholar",
+      "window": "Extended",
+      "recorded_public_date": "2025-07-10",
+      "capture_time_supported": false,
+      "short_title": "Developer productivity",
+      "outcome_key": "near",
+      "route_group": "Released-data / effect reanalysis",
+      "citation_provider_group": "Semantic Scholar",
+      "original_central_checks": {
+        "matched": 62,
+        "total": 65,
+        "unmatched": 3,
+        "short_label": "Original central published-target comparisons",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "246",
+          "label": "completed tasks"
+        },
+        {
+          "value": "16",
+          "label": "original developers"
+        }
+      ],
+      "agreement_note": "Estimated slowdown reproduced as 18.84%; all displayed-time differences were below one original minute.",
+      "chart_scope_note": "Three strict display misses remain. Historical formatting code and seed were unavailable; the bound is in minutes.",
+      "sources": [
+        {
+          "path": "experiments/P079_developer_productivity/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 8783,
+          "sha256_at_source_commit": "b550de97d98978702bf39dd2dde79a117888d6a52184641b70d99f7ea321f1ad",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P079_developer_productivity/README.md"
+        },
+        {
+          "path": "experiments/P079_developer_productivity/STUDY.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 786,
+          "sha256_at_source_commit": "6916d8c6cca533e35e71eb23fcacd9ff66b5fc2ff9a053d85fa1a31e6af4ba4f",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P079_developer_productivity/STUDY.json"
+        }
+      ],
+      "failure_interpretation": "The remaining strict misses concern this programme's recovery of displayed time summaries with unavailable historical formatting code and seed. Their cause is not established. Failure to match those displays within this setup does not establish that the paper or its conclusions are invalid."
+    },
+    {
+      "paper_id": "P028",
+      "title": "Convergent Linear Representations of Emergent Misalignment",
+      "classification": "Bounded NEAR",
+      "report": "experiments/P028_convergent_em/README.md",
+      "citations": 71,
+      "provider": "Semantic Scholar",
+      "window": "Extended",
+      "recorded_public_date": "2025-06-13",
+      "capture_time_supported": false,
+      "short_title": "Emergent misalignment",
+      "outcome_key": "near",
+      "route_group": "Released-data / effect reanalysis",
+      "citation_provider_group": "Semantic Scholar",
+      "original_central_checks": {
+        "matched": 59,
+        "total": 64,
+        "unmatched": 5,
+        "short_label": "20 prediction metrics + 36 graph medians + 8 claims",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "897",
+          "label": "responses"
+        },
+        {
+          "value": "9",
+          "label": "model layers"
+        }
+      ],
+      "agreement_note": "Largest prediction-metric difference: 0.007592 on a 0–1 scale; the bounded central result was accepted.",
+      "chart_scope_note": "Earlier strict count retained; the near assessment includes two documented programme graph-transcription corrections.",
+      "sources": [
+        {
+          "path": "experiments/P028_convergent_em/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 7322,
+          "sha256_at_source_commit": "e220d241357349fd645b9b4b60a16f0157bc1e278a79ef316880f2d28051d241",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P028_convergent_em/README.md"
+        },
+        {
+          "path": "experiments/P028_convergent_em/STUDY.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 824,
+          "sha256_at_source_commit": "ed957b65bc6cc1a09eb9f53bd4b89e22aa307c73fd2dad846d3b86d813874614",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P028_convergent_em/STUDY.json"
+        },
+        {
+          "path": "experiments/P028_convergent_em/evidence/ROOT_ADOPTED_P028_ARCHIVED_COMPLETE_CENTRAL_NEAR_RULE930.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 3075,
+          "sha256_at_source_commit": "b85740ec360d0843fe53bc59b372f22ea1e7e15cff6e5253cacdd41acb67547a",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P028_convergent_em/evidence/ROOT_ADOPTED_P028_ARCHIVED_COMPLETE_CENTRAL_NEAR_RULE930.json"
+        }
+      ],
+      "failure_interpretation": "The retained strict misses are outcomes of this programme's comparison with saved activations and published summaries; two earlier misses arose from the programme's own graph transcriptions. The remaining limits and unmatched targets do not establish that the paper or its conclusions are invalid."
+    },
+    {
+      "paper_id": "P161",
+      "title": "Can AI Grade Like a Human? Validity, Reliability, and Fairness in University Coursework Assessment",
+      "classification": "Bounded NEAR",
+      "report": "experiments/P161_ai_grading/README.md",
+      "citations": 31,
+      "provider": "OpenAlex",
+      "window": "Main",
+      "recorded_public_date": "2025-12 (exact day UNKNOWN in selected metadata)",
+      "capture_time_supported": false,
+      "short_title": "AI grading agreement",
+      "outcome_key": "near",
+      "route_group": "Released-data / effect reanalysis",
+      "citation_provider_group": "OpenAlex",
+      "original_central_checks": {
+        "matched": 81,
+        "total": 86,
+        "unmatched": 5,
+        "short_label": "Selected central grading-agreement targets",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "91",
+          "label": "released grading records"
+        },
+        {
+          "value": "3",
+          "label": "grader pairs"
+        }
+      ],
+      "agreement_note": "All selected ICC differences were within the adopted 0.010 near bound; five older strict misses remain.",
+      "chart_scope_note": "Original missing-score rules were retained. No new essays were graded, and wider fairness claims were outside this attempt.",
+      "sources": [
+        {
+          "path": "experiments/P161_ai_grading/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 8728,
+          "sha256_at_source_commit": "6869e95c5f2cb1e3ced67dcf47f32ee0c93f9ce4c8531b34394887ed97350788",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P161_ai_grading/README.md"
+        },
+        {
+          "path": "experiments/P161_ai_grading/STUDY.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 924,
+          "sha256_at_source_commit": "de263e7c4d4fb0a92008657dd1eabeaea242c92a1592c4d8cb96942fb58cff24",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P161_ai_grading/STUDY.json"
+        },
+        {
+          "path": "experiments/P161_ai_grading/evidence/ROOT_ADOPTED_P161_ARCHIVED_ALL86_ICC_NEAR_RULE935.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 2552,
+          "sha256_at_source_commit": "b7d0b7e834516ffad3d017a453c64938886f9571efe8419097ea2632f3c4d2ed",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P161_ai_grading/evidence/ROOT_ADOPTED_P161_ARCHIVED_ALL86_ICC_NEAR_RULE935.json"
+        }
+      ],
+      "failure_interpretation": "The strict misses and unmatched supporting results describe this programme's recovery from released grading records, with incomplete producer information for some supporting outputs. Fresh grading was not attempted. These limits do not establish that the paper or its grading-agreement findings are invalid."
+    },
+    {
+      "paper_id": "P156",
+      "title": "The 2025 AI Agent Index",
+      "classification": "Bounded NEAR",
+      "report": "experiments/P156_ai_agent_index/README.md",
+      "citations": 38,
+      "provider": "Semantic Scholar",
+      "window": "Main",
+      "recorded_public_date": "2026-02-19",
+      "capture_time_supported": true,
+      "short_title": "AI Agent Index",
+      "outcome_key": "near",
+      "route_group": "Released-data / effect reanalysis",
+      "citation_provider_group": "Semantic Scholar",
+      "original_central_checks": {
+        "matched": 4,
+        "total": 8,
+        "unmatched": 4,
+        "short_label": "Central released-annotation proportions",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "30",
+          "label": "AI agents"
+        },
+        {
+          "value": "45",
+          "label": "annotation fields per agent"
+        }
+      ],
+      "agreement_note": "Every central proportion was within 3 percentage points; the largest difference was 2.083333 points.",
+      "chart_scope_note": "Original strict count and caption misses remain. This reanalyses author annotations, rather than refreshing company disclosures.",
+      "sources": [
+        {
+          "path": "experiments/P156_ai_agent_index/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 7693,
+          "sha256_at_source_commit": "939f2a52807bce02a148b839c43e05e823e7619fd76d5194096b8a041a444d4f",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P156_ai_agent_index/README.md"
+        },
+        {
+          "path": "experiments/P156_ai_agent_index/STUDY.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 799,
+          "sha256_at_source_commit": "1bec28466d143ab3f15094eff7fe9b25ccc1b5c32607e7d838dc1e483b926a35",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P156_ai_agent_index/STUDY.json"
+        },
+        {
+          "path": "experiments/P156_ai_agent_index/evidence/ROOT_ADOPTED_P156_ARCHIVED_ALL8_PROPORTIONS_NEAR_RULE936.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 2750,
+          "sha256_at_source_commit": "ec8b58ec9ffe922a024aee7980fd2eb6d30f217be4ad1eb4101fe39f80106b76",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P156_ai_agent_index/evidence/ROOT_ADOPTED_P156_ARCHIVED_ALL8_PROPORTIONS_NEAR_RULE936.json"
+        }
+      ],
+      "failure_interpretation": "The programme did not exactly match all published counts and captions from the released annotations, and the original count-producing steps and auxiliary mean were unavailable. These limits describe the attempted reconstruction; they are not a judgment on the validity of the paper or its transparency findings."
+    },
+    {
+      "paper_id": "P165",
+      "title": "When Can We Trust LLMs in Mental Health? Large-Scale Benchmarks for Reliable LLM Evaluation",
+      "classification": "Qualified NEAR — material exceptions",
+      "report": "experiments/P165_mentalbench/README.md",
+      "citations": 31,
+      "provider": "Semantic Scholar",
+      "window": "Main",
+      "recorded_public_date": "2025-10-21",
+      "capture_time_supported": false,
+      "short_title": "MentalBench",
+      "outcome_key": "qualified",
+      "route_group": "Released-data / effect reanalysis",
+      "citation_provider_group": "Semantic Scholar",
+      "original_central_checks": {
+        "matched": 315,
+        "total": 324,
+        "unmatched": 9,
+        "short_label": "Original central numerical targets under stated bounds",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "1,000",
+          "label": "rated one-turn contexts"
+        },
+        {
+          "value": "10",
+          "label": "response sources"
+        }
+      ],
+      "agreement_note": "Material exceptions remain: a guidance mean differs by 0.308047 on a 1–5 scale; interval errors also remain.",
+      "chart_scope_note": "Qualified near only. This does not imply an all-target small-error match; preprocessing and human-reference history were incomplete.",
+      "sources": [
+        {
+          "path": "experiments/P165_mentalbench/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 10190,
+          "sha256_at_source_commit": "d36558edc2974c8ddd4d52b454013d3b9fa93c53beff07d8406c9097d5e10bbd",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P165_mentalbench/README.md"
+        },
+        {
+          "path": "experiments/P165_mentalbench/evidence/ROOT_ADOPTED_P165_MENTALBENCH_SOURCE_METHOD_NEAR921.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 17098,
+          "sha256_at_source_commit": "0cc3abc4f1a8d5b11fc9fc3fdcdcaf03ac4f4e452bc94157e3ed1b65ebbda9f7",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P165_mentalbench/evidence/ROOT_ADOPTED_P165_MENTALBENCH_SOURCE_METHOD_NEAR921.json"
+        },
+        {
+          "path": "experiments/P165_mentalbench/evidence/ROOT_RETROSPECTIVE_P165_CENTRAL_NEAR_DECISION958.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 2790,
+          "sha256_at_source_commit": "f5428492cfb7158968e7ff5d86acf8530cb143caa4b11424738d4649d2b12e4a",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P165_mentalbench/evidence/ROOT_RETROSPECTIVE_P165_CENTRAL_NEAR_DECISION958.json"
+        },
+        {
+          "path": "experiments/P165_mentalbench/results/P165_reviewed_source_ROOT929__ROOT_COMPLETE_CLOSED_P165_ANALYSIS___1d0cc830.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 3831,
+          "sha256_at_source_commit": "7ee233be8fc00fe4e4a45022b078e9ee404ef4fdfa136eaa7ad0d182cc8898b1",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P165_mentalbench/results/P165_reviewed_source_ROOT929__ROOT_COMPLETE_CLOSED_P165_ANALYSIS___1d0cc830.json"
+        }
+      ],
+      "failure_interpretation": "The programme did not recover every mean and interval within the original criteria using the released ratings, aggregated human reference and available preprocessing history. The material errors remain disclosed, but their cause is unresolved. They describe the limits of this attempt, not a finding that the paper or its conclusions are invalid."
+    },
+    {
+      "paper_id": "P157",
+      "title": "Loop, Think, & Generalize: Implicit Reasoning in Recurrent-Depth Transformers",
+      "classification": "Bounded NEAR",
+      "report": "experiments/P157_loop_think_generalize/README.md",
+      "citations": 37,
+      "provider": "Semantic Scholar",
+      "window": "Main",
+      "recorded_public_date": "2026-04-08 substantive README; 2026-04-09 paper v1",
+      "capture_time_supported": false,
+      "short_title": "Recurrent reasoning",
+      "outcome_key": "near",
+      "route_group": "Original-checkpoint inference",
+      "citation_provider_group": "Semantic Scholar",
+      "original_central_checks": {
+        "matched": 3278,
+        "total": 3279,
+        "unmatched": 1,
+        "short_label": "Figure 5 source-compatible interval comparisons",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "9",
+          "label": "original checkpoints"
+        },
+        {
+          "value": "29,250",
+          "label": "held-out examples"
+        }
+      ],
+      "agreement_note": "One cell was 0.015625 percentage points outside its figure-compatible range; all adopted near bounds passed.",
+      "chart_scope_note": "The reference is an interval read from a figure, not an exact source accuracy. No model training was repeated.",
+      "sources": [
+        {
+          "path": "experiments/P157_loop_think_generalize/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 10517,
+          "sha256_at_source_commit": "53632ee471a1c80f35ac9637e0b6fb97236d472bf92f9bc05a6c71dc2849e53f",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P157_loop_think_generalize/README.md"
+        },
+        {
+          "path": "experiments/P157_loop_think_generalize/STUDY.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 1141,
+          "sha256_at_source_commit": "bc198aa710f596bc935d5e471f9e0adcf4971f4afbf83bc0ded1f50dbb866bd9",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P157_loop_think_generalize/STUDY.json"
+        },
+        {
+          "path": "experiments/P157_loop_think_generalize/results/near915002__COMPLETE_ALL3279_ALL14040_NEAR_BOUND_CANDIDATE001.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 2602226,
+          "sha256_at_source_commit": "6988af8c5dbd3a6a2fa16335f410b445d3d449d76059c1d85d9926a85bd751c4",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P157_loop_think_generalize/results/near915002__COMPLETE_ALL3279_ALL14040_NEAR_BOUND_CANDIDATE001.json"
+        }
+      ],
+      "failure_interpretation": "The remaining strict miss concerns this programme's comparison of checkpoint outputs with a range read from a figure; exact author accuracies were unavailable. Failure to place that cell inside the retained range does not establish that the paper, model or reasoning result is invalid."
+    },
+    {
+      "paper_id": "P103",
+      "title": "Evidence of a social evaluation penalty for using AI",
+      "classification": "Bounded NEAR — retrospective",
+      "report": "experiments/P103_social_evaluation/README.md",
+      "citations": 78,
+      "provider": "Semantic Scholar exact DOI batch",
+      "window": "Extended",
+      "recorded_public_date": "2025-04-23 positive OSF public event; VOR2025-05-08",
+      "capture_time_supported": true,
+      "short_title": "Social evaluation",
+      "outcome_key": "near",
+      "route_group": "Released-data / effect reanalysis",
+      "citation_provider_group": "Semantic Scholar",
+      "original_central_checks": {
+        "matched": 107,
+        "total": 108,
+        "unmatched": 1,
+        "short_label": "Primary Study 1 and manipulation-check targets",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "497",
+          "label": "retained rating records"
+        },
+        {
+          "value": "201",
+          "label": "manipulation-check records"
+        }
+      ],
+      "agreement_note": "The sole strict miss was a displayed degrees-of-freedom value: a difference of 0.051949 df.",
+      "chart_scope_note": "This concerns anticipated evaluation in the primary study. Later perception, hiring and mediation studies were not repeated.",
+      "sources": [
+        {
+          "path": "experiments/P103_social_evaluation/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 8892,
+          "sha256_at_source_commit": "0f080afac7e286c5335eb330a2cbacf0715fe1926943b47fdc4988467837a2bf",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P103_social_evaluation/README.md"
+        },
+        {
+          "path": "experiments/P103_social_evaluation/STUDY.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 1155,
+          "sha256_at_source_commit": "33f0d88b18512442b3a501c221db1951b3059da7afc161b9c048f3d53a403aa5",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P103_social_evaluation/STUDY.json"
+        },
+        {
+          "path": "experiments/P103_social_evaluation/results/P103_archived_complete_central_near_assessment_CPU051__ALL108_UNA__d5650336.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 68533,
+          "sha256_at_source_commit": "794793b51eb48ea7ab7c78beb30592d12ab222a575e902b50267cb9825dde080",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P103_social_evaluation/results/P103_archived_complete_central_near_assessment_CPU051__ALL108_UNA__d5650336.json"
+        }
+      ],
+      "failure_interpretation": "The strict miss belongs to this programme's comparison of a displayed degrees-of-freedom value. Its historical rounding procedure is unknown, and earlier execution failures belonged to the programme. These outcomes describe what could be recovered within this setup, without establishing that the paper or its conclusions are invalid."
+    },
+    {
+      "paper_id": "P109",
+      "title": "Does Generative Artificial Intelligence Improve Students’ Higher-Order Thinking? A Meta-Analysis Based on 29 Experiments and Quasi-Experiments",
+      "classification": "Bounded NEAR — retrospective",
+      "report": "experiments/P109_higher_order_thinking/README.md",
+      "citations": 47,
+      "provider": "Semantic Scholar exact paper-ID batch",
+      "window": "Main",
+      "recorded_public_date": "2025-12-05 positive VOR; earlier issue/index date not public-release proof",
+      "capture_time_supported": true,
+      "short_title": "Higher-order thinking",
+      "outcome_key": "near",
+      "route_group": "Released-data / effect reanalysis",
+      "citation_provider_group": "Semantic Scholar",
+      "original_central_checks": {
+        "matched": 15,
+        "total": 16,
+        "unmatched": 1,
+        "short_label": "Overall pooling, uncertainty and heterogeneity targets",
+        "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+      },
+      "scope_metrics": [
+        {
+          "value": "59",
+          "label": "published effect estimates"
+        },
+        {
+          "value": "29",
+          "label": "source studies"
+        }
+      ],
+      "agreement_note": "The sole strict miss was envelope width: 0.208389 versus a 0.2 diagnostic cap; the published Z lies inside.",
+      "chart_scope_note": "An envelope-width check is not a point-estimate error. Source rounding and unavailable historical settings limit reconstruction.",
+      "sources": [
+        {
+          "path": "experiments/P109_higher_order_thinking/README.md",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 8991,
+          "sha256_at_source_commit": "636cbe701138e2d98546221ebc415d491a66d30958d8368d56e78749cef4c0cd",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P109_higher_order_thinking/README.md"
+        },
+        {
+          "path": "experiments/P109_higher_order_thinking/STUDY.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 1450,
+          "sha256_at_source_commit": "80587ebe6964fbdbb39707d8d89cc6df7b907c38d1dbc282783c7e378d8650d1",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P109_higher_order_thinking/STUDY.json"
+        },
+        {
+          "path": "experiments/P109_higher_order_thinking/results/P109_archived_complete_synthesis_near_assessment_CPU052__ALL16_OR__5d4d24a4.json",
+          "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+          "bytes_at_source_commit": 16532,
+          "sha256_at_source_commit": "77f08fdbe577928801d035a66337cb85a668b807fdacba21c7eb5f15f0418555",
+          "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P109_higher_order_thinking/results/P109_archived_complete_synthesis_near_assessment_CPU052__ALL16_OR__5d4d24a4.json"
+        }
+      ],
+      "failure_interpretation": "The failed strict check concerns the programme's rounding-envelope width criterion; the published test statistic remains inside that envelope. Unrounded inputs and historical software settings were unavailable. This is a limit of the attempted precision reconstruction, not a finding that the paper or its pooled result is invalid."
+    }
+  ]
+}

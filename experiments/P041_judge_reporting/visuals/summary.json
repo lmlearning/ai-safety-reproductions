@@ -1,0 +1,72 @@
+{
+  "paper_id": "P041",
+  "title": "How to Correctly Report LLM-as-a-Judge Evaluations",
+  "classification": "Strict CENTRAL",
+  "report": "experiments/P041_judge_reporting/README.md",
+  "citations": 31,
+  "provider": "Semantic Scholar",
+  "window": "Main",
+  "recorded_public_date": "2025-11-26",
+  "capture_time_supported": false,
+  "short_title": "Judge evaluation",
+  "outcome_key": "strict",
+  "route_group": "Fresh simulation",
+  "citation_provider_group": "Semantic Scholar",
+  "original_central_checks": {
+    "matched": 126,
+    "total": 126,
+    "unmatched": 0,
+    "short_label": "84 curve targets + 42 original-seed scalar targets",
+    "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+  },
+  "scope_metrics": [
+    {
+      "value": "21",
+      "label": "true-accuracy settings"
+    },
+    {
+      "value": "Figure 4",
+      "label": "central simulation"
+    }
+  ],
+  "agreement_note": "Main Figure 4 matched its fixed simulation bounds; real LLM judges were not tested.",
+  "chart_scope_note": "Central scope was amended after the broader attempt did not match all appendix targets. The wider comparison is not this denominator.",
+  "sources": [
+    {
+      "path": "experiments/P041_judge_reporting/README.md",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 8512,
+      "sha256_at_source_commit": "0a77a736367b15de3f359a1ab014d0d269ce1ff06d418d796a908dbabc209810",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P041_judge_reporting/README.md"
+    },
+    {
+      "path": "experiments/P041_judge_reporting/plans/AMENDMENT_CENTRAL.md.txt",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 2015,
+      "sha256_at_source_commit": "1d6a05786ac55125611c03b1a39cce76f01b6476ff690f3c8ca8573600cd5eb3",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P041_judge_reporting/plans/AMENDMENT_CENTRAL.md.txt"
+    },
+    {
+      "path": "experiments/P041_judge_reporting/results/P041-central-002__metrics.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 106270,
+      "sha256_at_source_commit": "43dafc69b8141bc98789c106fbea1b114806d5c2d83e2556aa2b2aa1fee5ba93",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P041_judge_reporting/results/P041-central-002__metrics.json"
+    },
+    {
+      "path": "experiments/P041_judge_reporting/results/P041-central-002__original_point_comparison.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 8588,
+      "sha256_at_source_commit": "7ddb213d84d87739f59571f75fd13929ad8f3ccd1c3e27a36e94b1256ef1be7d",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P041_judge_reporting/results/P041-central-002__original_point_comparison.json"
+    },
+    {
+      "path": "experiments/P041_judge_reporting/results/P041-central-002__published_curve_comparison.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 369121,
+      "sha256_at_source_commit": "b3c494778d65d0459f06e1f0f7b36b1a4818733da7d76b5e691bd41e64cdc56e",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P041_judge_reporting/results/P041-central-002__published_curve_comparison.json"
+    }
+  ],
+  "failure_interpretation": "The programme did not recover the full appendix comparison within the retained code, reference figures and simulation setup. The duplicated references document the materials compared, while the failed checks describe this attempt; neither is treated here as a verdict on the validity of the paper or its mathematical results."
+}

@@ -1,0 +1,237 @@
+{
+  "purpose": "Publication graphics from recorded outcomes; no scientific experiment executed.",
+  "matplotlib_version": "3.11.2",
+  "study_graphs_rendered": 21,
+  "files": [
+    {
+      "path": "visuals/programme_dashboard.png",
+      "bytes": 154843,
+      "sha256": "035d39fd998a44dc59e54e9a609b107bd3f47541a740cd93d89a17924e37a454"
+    },
+    {
+      "path": "visuals/programme_dashboard.svg",
+      "bytes": 16224,
+      "sha256": "44329bd845189a4cc34e53584430455bcaec0be4325b83eb60be31749f58fdfd"
+    },
+    {
+      "path": "visuals/citation_selection.png",
+      "bytes": 242764,
+      "sha256": "c6482e1dad587e1d61aac90541b8addf976fec657da4036d33cbbd2fbd51bd7a"
+    },
+    {
+      "path": "visuals/citation_selection.svg",
+      "bytes": 27907,
+      "sha256": "d1aa0f4e080e4a286c7600ce4880755464df91f4b172be6040c00fea58eb4af5"
+    },
+    {
+      "path": "experiments/P041_judge_reporting/visuals/summary.png",
+      "bytes": 126433,
+      "sha256": "a13e7420c3342026d8e262075fe38600100e647a033c9cd8d7ca533119ac10ff"
+    },
+    {
+      "path": "experiments/P041_judge_reporting/visuals/summary.svg",
+      "bytes": 6013,
+      "sha256": "ac7989298561fe1231558764c7dffffd2340c7af218844d8fba3e7b951860dd9"
+    },
+    {
+      "path": "experiments/P065_empathy_meta_analysis/visuals/summary.png",
+      "bytes": 122850,
+      "sha256": "015f526b159e3046660b2ff9979ca4371083bebf037ac7a28b035958fc080845"
+    },
+    {
+      "path": "experiments/P065_empathy_meta_analysis/visuals/summary.svg",
+      "bytes": 6000,
+      "sha256": "ec039f27858c8b9f1331af02e95d156c6220e41bd71e8cdb59d95301e27f5c90"
+    },
+    {
+      "path": "experiments/P066_clinical_collaboration_meta/visuals/summary.png",
+      "bytes": 125991,
+      "sha256": "4bf497d525a9ea6cb075c8e633a5ee636dc4886a46c4527c14bbdd07e14a21c2"
+    },
+    {
+      "path": "experiments/P066_clinical_collaboration_meta/visuals/summary.svg",
+      "bytes": 6003,
+      "sha256": "4b2eb00ee1174a86032632353fdf779cd235fb027c27e834b56ae6f84e6a2df7"
+    },
+    {
+      "path": "experiments/P068_medical_assistant_rct/visuals/summary.png",
+      "bytes": 128628,
+      "sha256": "f0ae8890a04450785a5d66e7c6a0228ed373c32d4244e55ef542bf4663fefc54"
+    },
+    {
+      "path": "experiments/P068_medical_assistant_rct/visuals/summary.svg",
+      "bytes": 6004,
+      "sha256": "8da8ab830e0b4947b1cca515036e8781c7ae723fda8fd9ac3a08607fee6d5ef8"
+    },
+    {
+      "path": "experiments/P072_levers_persuasion/visuals/summary.png",
+      "bytes": 123268,
+      "sha256": "dd1fbdb7c7a5165e84184369a432926d82b1b43cddab7b9e9f19c83f125f6c59"
+    },
+    {
+      "path": "experiments/P072_levers_persuasion/visuals/summary.svg",
+      "bytes": 6002,
+      "sha256": "2518b9e241fe512e00a324d8301c67c8d3a26ce450aec34428b8d02761941d0f"
+    },
+    {
+      "path": "experiments/P080_ai_skill_formation/visuals/summary.png",
+      "bytes": 119605,
+      "sha256": "617be0de978736ee9bb393e191f3cf4c3a4e1f467ea666638d9366836560a53f"
+    },
+    {
+      "path": "experiments/P080_ai_skill_formation/visuals/summary.svg",
+      "bytes": 6007,
+      "sha256": "a08e3e5fe828e64f9d800f981c965886d78843fec0cd6e1eba96185669345cd7"
+    },
+    {
+      "path": "experiments/P120_patient_question_safety/visuals/summary.png",
+      "bytes": 124188,
+      "sha256": "076b60ac5015109a19db35065d44a8d4ee10f30dd4d063f6b6789f33adb48f37"
+    },
+    {
+      "path": "experiments/P120_patient_question_safety/visuals/summary.svg",
+      "bytes": 6018,
+      "sha256": "3d140245942633a6729aa55771327350fc44ec069500927c1ad0a41a838de62e"
+    },
+    {
+      "path": "experiments/P134_young_adult_chatbot_meta/visuals/summary.png",
+      "bytes": 122287,
+      "sha256": "70d00d0b3c510df88071e3e12ab8770dc4bed54558b7b158c78a1ffdf6787b4c"
+    },
+    {
+      "path": "experiments/P134_young_adult_chatbot_meta/visuals/summary.svg",
+      "bytes": 6007,
+      "sha256": "cc1ba968439d4a8cebed6b22bcdcd07c48435a769ae61167d3e91058cf527f95"
+    },
+    {
+      "path": "experiments/P132_medical_teaching_rct_meta/visuals/summary.png",
+      "bytes": 118001,
+      "sha256": "874250885ba3901a2c66b2f65e8917e6c6ba3a6f0d8a1b46b7a44837f8a79ff5"
+    },
+    {
+      "path": "experiments/P132_medical_teaching_rct_meta/visuals/summary.svg",
+      "bytes": 6014,
+      "sha256": "7c91607c542b35716a3d7d28a889cce109c965d01f233b70188faf437a02a1b9"
+    },
+    {
+      "path": "experiments/P135_young_people_chatbot_meta/visuals/summary.png",
+      "bytes": 120361,
+      "sha256": "8275217f22da8eb63a3918cb7375566ad9141c754e45fd98912ba9f14fa7dabd"
+    },
+    {
+      "path": "experiments/P135_young_people_chatbot_meta/visuals/summary.svg",
+      "bytes": 6006,
+      "sha256": "be3c74eaa27a10ca2fde86a14186b8606db0654e25c6a05a710d6fcc58c2a226"
+    },
+    {
+      "path": "experiments/P133_nursing_ai_meta/visuals/summary.png",
+      "bytes": 124322,
+      "sha256": "c00c1d5f55bc5918ff8b6a05c266a1284de5cd213c619df89e9c93050771618b"
+    },
+    {
+      "path": "experiments/P133_nursing_ai_meta/visuals/summary.svg",
+      "bytes": 6001,
+      "sha256": "15e60cdee84f472391e6b5966ba4a94180fd1e0c1149adb02363a0888d1b6302"
+    },
+    {
+      "path": "experiments/P150_psychiatric_bias/visuals/summary.png",
+      "bytes": 128527,
+      "sha256": "a790de33d9933a9a815794cd66f48ab1f478d3e8833cae188d8a698f368aed96"
+    },
+    {
+      "path": "experiments/P150_psychiatric_bias/visuals/summary.svg",
+      "bytes": 6008,
+      "sha256": "db3233a2eb152db93d41f5cabb3a789d8ddae196d479b6caf33d3cb4496cc516"
+    },
+    {
+      "path": "experiments/P069_ideation_execution/visuals/summary.png",
+      "bytes": 124100,
+      "sha256": "e7940163459a32517f6e2dd39f505af9c6f71b00741695399923839996f07f1a"
+    },
+    {
+      "path": "experiments/P069_ideation_execution/visuals/summary.svg",
+      "bytes": 7079,
+      "sha256": "75df98f6d8fe0916461056f81d2b5ba626654a24f257b2d5d5bffb86054cf2fe"
+    },
+    {
+      "path": "experiments/P079_developer_productivity/visuals/summary.png",
+      "bytes": 132216,
+      "sha256": "c9909e754f3db4b2fab134f00242d59adbfb240cf0b7b3dd8e998ae22fa7d6f7"
+    },
+    {
+      "path": "experiments/P079_developer_productivity/visuals/summary.svg",
+      "bytes": 7109,
+      "sha256": "73be0b6cf068b406ea977aa010e7a34063483e014a47e005c1069c073b9e2210"
+    },
+    {
+      "path": "experiments/P028_convergent_em/visuals/summary.png",
+      "bytes": 125642,
+      "sha256": "2e18480fefffbb2e967a7ca6a4c088c87cd923abaae866db075b1ca1e70cf0d8"
+    },
+    {
+      "path": "experiments/P028_convergent_em/visuals/summary.svg",
+      "bytes": 7101,
+      "sha256": "229e788b6d14fe6684e46adaf2e0d36044c2b2a9330fd1c1a22948701b108d49"
+    },
+    {
+      "path": "experiments/P161_ai_grading/visuals/summary.png",
+      "bytes": 125226,
+      "sha256": "3132544867eb965eda5ddbce87686c52985d044fde85654c6a0f23b0d4dc35d7"
+    },
+    {
+      "path": "experiments/P161_ai_grading/visuals/summary.svg",
+      "bytes": 7113,
+      "sha256": "97279b34c0180be8a986c8310c2f50a76b466cf041b1a01052e8683a25c187ca"
+    },
+    {
+      "path": "experiments/P156_ai_agent_index/visuals/summary.png",
+      "bytes": 126840,
+      "sha256": "3f395b171de75098ec5331106ffad65d376d4f706922b779dccc5efea93062a0"
+    },
+    {
+      "path": "experiments/P156_ai_agent_index/visuals/summary.svg",
+      "bytes": 7092,
+      "sha256": "9f3574134b19a184f6b26b8e22a3b8729eb1c6430a3598e15f83607afef89df7"
+    },
+    {
+      "path": "experiments/P165_mentalbench/visuals/summary.png",
+      "bytes": 133840,
+      "sha256": "74f95341dd4ae60c090af350633dac2ef4e8755f8965163715e8f5975b1afb9f"
+    },
+    {
+      "path": "experiments/P165_mentalbench/visuals/summary.svg",
+      "bytes": 7133,
+      "sha256": "4abc280198ecd226d498c96783989bb52405e4930d2de49e6e432336accefcc6"
+    },
+    {
+      "path": "experiments/P157_loop_think_generalize/visuals/summary.png",
+      "bytes": 136128,
+      "sha256": "b41f02b27aa429d1ab177ce7bace81a9164e06b8bd6ae38629beb4fceb26c9e8"
+    },
+    {
+      "path": "experiments/P157_loop_think_generalize/visuals/summary.svg",
+      "bytes": 7123,
+      "sha256": "41aa9b82d09f8e4fa8a13a9ad15206f256ae535326f4fef45dc07fbef09fdc87"
+    },
+    {
+      "path": "experiments/P103_social_evaluation/visuals/summary.png",
+      "bytes": 130462,
+      "sha256": "233e6a821443727d643db5dcd2e54f815074b06d6ed3d5d8939590b554ee6b8c"
+    },
+    {
+      "path": "experiments/P103_social_evaluation/visuals/summary.svg",
+      "bytes": 7110,
+      "sha256": "dabf0b8270b0b0d84e5176b6be370f49a8d72ce32942ed8c44c1c4617831117e"
+    },
+    {
+      "path": "experiments/P109_higher_order_thinking/visuals/summary.png",
+      "bytes": 123291,
+      "sha256": "2477898c19b5c57bbb959b2812f79b432ebdbb28a2b92091a4a9dcc4dd1f0da1"
+    },
+    {
+      "path": "experiments/P109_higher_order_thinking/visuals/summary.svg",
+      "bytes": 7128,
+      "sha256": "7064f57a3e20da7c0b735f232cf65f2169117de9d37e4a186b4e1f04851b776f"
+    }
+  ]
+}

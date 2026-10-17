@@ -1,0 +1,58 @@
+{
+  "paper_id": "P109",
+  "title": "Does Generative Artificial Intelligence Improve Students’ Higher-Order Thinking? A Meta-Analysis Based on 29 Experiments and Quasi-Experiments",
+  "classification": "Bounded NEAR — retrospective",
+  "report": "experiments/P109_higher_order_thinking/README.md",
+  "citations": 47,
+  "provider": "Semantic Scholar exact paper-ID batch",
+  "window": "Main",
+  "recorded_public_date": "2025-12-05 positive VOR; earlier issue/index date not public-release proof",
+  "capture_time_supported": true,
+  "short_title": "Higher-order thinking",
+  "outcome_key": "near",
+  "route_group": "Released-data / effect reanalysis",
+  "citation_provider_group": "Semantic Scholar",
+  "original_central_checks": {
+    "matched": 15,
+    "total": 16,
+    "unmatched": 1,
+    "short_label": "Overall pooling, uncertainty and heterogeneity targets",
+    "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+  },
+  "scope_metrics": [
+    {
+      "value": "59",
+      "label": "published effect estimates"
+    },
+    {
+      "value": "29",
+      "label": "source studies"
+    }
+  ],
+  "agreement_note": "The sole strict miss was envelope width: 0.208389 versus a 0.2 diagnostic cap; the published Z lies inside.",
+  "chart_scope_note": "An envelope-width check is not a point-estimate error. Source rounding and unavailable historical settings limit reconstruction.",
+  "sources": [
+    {
+      "path": "experiments/P109_higher_order_thinking/README.md",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 8991,
+      "sha256_at_source_commit": "636cbe701138e2d98546221ebc415d491a66d30958d8368d56e78749cef4c0cd",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P109_higher_order_thinking/README.md"
+    },
+    {
+      "path": "experiments/P109_higher_order_thinking/STUDY.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 1450,
+      "sha256_at_source_commit": "80587ebe6964fbdbb39707d8d89cc6df7b907c38d1dbc282783c7e378d8650d1",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P109_higher_order_thinking/STUDY.json"
+    },
+    {
+      "path": "experiments/P109_higher_order_thinking/results/P109_archived_complete_synthesis_near_assessment_CPU052__ALL16_OR__5d4d24a4.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 16532,
+      "sha256_at_source_commit": "77f08fdbe577928801d035a66337cb85a668b807fdacba21c7eb5f15f0418555",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P109_higher_order_thinking/results/P109_archived_complete_synthesis_near_assessment_CPU052__ALL16_OR__5d4d24a4.json"
+    }
+  ],
+  "failure_interpretation": "The failed strict check concerns the programme's rounding-envelope width criterion; the published test statistic remains inside that envelope. Unrounded inputs and historical software settings were unavailable. This is a limit of the attempted precision reconstruction, not a finding that the paper or its pooled result is invalid."
+}

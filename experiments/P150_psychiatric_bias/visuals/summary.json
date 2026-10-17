@@ -1,0 +1,65 @@
+{
+  "paper_id": "P150",
+  "title": "Racial bias in AI-mediated psychiatric diagnosis and treatment: a qualitative comparison of four large language models",
+  "classification": "Strict CENTRAL",
+  "report": "experiments/P150_psychiatric_bias/README.md",
+  "citations": 53,
+  "provider": "Semantic Scholar",
+  "window": "Extended",
+  "recorded_public_date": "2025-06-04",
+  "capture_time_supported": true,
+  "short_title": "Psychiatric bias",
+  "outcome_key": "strict",
+  "route_group": "Released-data / effect reanalysis",
+  "citation_provider_group": "Semantic Scholar",
+  "original_central_checks": {
+    "matched": 25,
+    "total": 25,
+    "unmatched": 0,
+    "short_label": "Designated Table 9 inferential comparisons",
+    "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+  },
+  "scope_metrics": [
+    {
+      "value": "160",
+      "label": "archived bias ratings"
+    },
+    {
+      "value": "4",
+      "label": "model groups"
+    }
+  ],
+  "agreement_note": "The designated Table 9 rank-based comparison reproduced, including the model ordering and pairwise decisions.",
+  "chart_scope_note": "The alternative source variant and descriptive targets are separate. Source differences remain unresolved within this attempt.",
+  "sources": [
+    {
+      "path": "experiments/P150_psychiatric_bias/README.md",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 7527,
+      "sha256_at_source_commit": "8f35e218141153872bf0b4bd462ec332b970b1d9859a586814e8fc73be27887a",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P150_psychiatric_bias/README.md"
+    },
+    {
+      "path": "experiments/P150_psychiatric_bias/plans/ROOT_FINAL_COMPLETE_ORIGINAL_CENTRAL_SUCCESS_REVIEW024.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 5272,
+      "sha256_at_source_commit": "fdf2f3c6323bdc00f355c46e365e52c4004a1c6d2e572bab9dbdb33dde3c2910",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P150_psychiatric_bias/plans/ROOT_FINAL_COMPLETE_ORIGINAL_CENTRAL_SUCCESS_REVIEW024.json"
+    },
+    {
+      "path": "experiments/P150_psychiatric_bias/results/primary__mandatory_complete_Table3_7_counterpart.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 146875,
+      "sha256_at_source_commit": "6274daaf19794ea7d10ce2e6960259b83a57410c2f046fbb75133d91bc89a4fb",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P150_psychiatric_bias/results/primary__mandatory_complete_Table3_7_counterpart.json"
+    },
+    {
+      "path": "experiments/P150_psychiatric_bias/results/primary__primary_Table9.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 146869,
+      "sha256_at_source_commit": "f5b2cbd87302a8204c5e0eb6149835be090a5a13cc8202e3f8588353efe8bc9e",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P150_psychiatric_bias/results/primary__primary_Table9.json"
+    }
+  ],
+  "failure_interpretation": "The programme could not obtain one reconstruction matching every descriptive target across the retained source variants and unknown display conventions. The recorded source differences and unsuccessful matches remain unresolved within this attempt; they do not establish that the paper or its conclusions are invalid."
+}

@@ -1,0 +1,58 @@
+{
+  "paper_id": "P028",
+  "title": "Convergent Linear Representations of Emergent Misalignment",
+  "classification": "Bounded NEAR",
+  "report": "experiments/P028_convergent_em/README.md",
+  "citations": 71,
+  "provider": "Semantic Scholar",
+  "window": "Extended",
+  "recorded_public_date": "2025-06-13",
+  "capture_time_supported": false,
+  "short_title": "Emergent misalignment",
+  "outcome_key": "near",
+  "route_group": "Released-data / effect reanalysis",
+  "citation_provider_group": "Semantic Scholar",
+  "original_central_checks": {
+    "matched": 59,
+    "total": 64,
+    "unmatched": 5,
+    "short_label": "20 prediction metrics + 36 graph medians + 8 claims",
+    "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+  },
+  "scope_metrics": [
+    {
+      "value": "897",
+      "label": "responses"
+    },
+    {
+      "value": "9",
+      "label": "model layers"
+    }
+  ],
+  "agreement_note": "Largest prediction-metric difference: 0.007592 on a 0–1 scale; the bounded central result was accepted.",
+  "chart_scope_note": "Earlier strict count retained; the near assessment includes two documented programme graph-transcription corrections.",
+  "sources": [
+    {
+      "path": "experiments/P028_convergent_em/README.md",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 7322,
+      "sha256_at_source_commit": "e220d241357349fd645b9b4b60a16f0157bc1e278a79ef316880f2d28051d241",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P028_convergent_em/README.md"
+    },
+    {
+      "path": "experiments/P028_convergent_em/STUDY.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 824,
+      "sha256_at_source_commit": "ed957b65bc6cc1a09eb9f53bd4b89e22aa307c73fd2dad846d3b86d813874614",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P028_convergent_em/STUDY.json"
+    },
+    {
+      "path": "experiments/P028_convergent_em/evidence/ROOT_ADOPTED_P028_ARCHIVED_COMPLETE_CENTRAL_NEAR_RULE930.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 3075,
+      "sha256_at_source_commit": "b85740ec360d0843fe53bc59b372f22ea1e7e15cff6e5253cacdd41acb67547a",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P028_convergent_em/evidence/ROOT_ADOPTED_P028_ARCHIVED_COMPLETE_CENTRAL_NEAR_RULE930.json"
+    }
+  ],
+  "failure_interpretation": "The retained strict misses are outcomes of this programme's comparison with saved activations and published summaries; two earlier misses arose from the programme's own graph transcriptions. The remaining limits and unmatched targets do not establish that the paper or its conclusions are invalid."
+}

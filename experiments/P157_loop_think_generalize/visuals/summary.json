@@ -1,0 +1,58 @@
+{
+  "paper_id": "P157",
+  "title": "Loop, Think, & Generalize: Implicit Reasoning in Recurrent-Depth Transformers",
+  "classification": "Bounded NEAR",
+  "report": "experiments/P157_loop_think_generalize/README.md",
+  "citations": 37,
+  "provider": "Semantic Scholar",
+  "window": "Main",
+  "recorded_public_date": "2026-04-08 substantive README; 2026-04-09 paper v1",
+  "capture_time_supported": false,
+  "short_title": "Recurrent reasoning",
+  "outcome_key": "near",
+  "route_group": "Original-checkpoint inference",
+  "citation_provider_group": "Semantic Scholar",
+  "original_central_checks": {
+    "matched": 3278,
+    "total": 3279,
+    "unmatched": 1,
+    "short_label": "Figure 5 source-compatible interval comparisons",
+    "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+  },
+  "scope_metrics": [
+    {
+      "value": "9",
+      "label": "original checkpoints"
+    },
+    {
+      "value": "29,250",
+      "label": "held-out examples"
+    }
+  ],
+  "agreement_note": "One cell was 0.015625 percentage points outside its figure-compatible range; all adopted near bounds passed.",
+  "chart_scope_note": "The reference is an interval read from a figure, not an exact source accuracy. No model training was repeated.",
+  "sources": [
+    {
+      "path": "experiments/P157_loop_think_generalize/README.md",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 10517,
+      "sha256_at_source_commit": "53632ee471a1c80f35ac9637e0b6fb97236d472bf92f9bc05a6c71dc2849e53f",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P157_loop_think_generalize/README.md"
+    },
+    {
+      "path": "experiments/P157_loop_think_generalize/STUDY.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 1141,
+      "sha256_at_source_commit": "bc198aa710f596bc935d5e471f9e0adcf4971f4afbf83bc0ded1f50dbb866bd9",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P157_loop_think_generalize/STUDY.json"
+    },
+    {
+      "path": "experiments/P157_loop_think_generalize/results/near915002__COMPLETE_ALL3279_ALL14040_NEAR_BOUND_CANDIDATE001.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 2602226,
+      "sha256_at_source_commit": "6988af8c5dbd3a6a2fa16335f410b445d3d449d76059c1d85d9926a85bd751c4",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P157_loop_think_generalize/results/near915002__COMPLETE_ALL3279_ALL14040_NEAR_BOUND_CANDIDATE001.json"
+    }
+  ],
+  "failure_interpretation": "The remaining strict miss concerns this programme's comparison of checkpoint outputs with a range read from a figure; exact author accuracies were unavailable. Failure to place that cell inside the retained range does not establish that the paper, model or reasoning result is invalid."
+}

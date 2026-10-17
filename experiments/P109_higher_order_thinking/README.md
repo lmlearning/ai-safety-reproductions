@@ -22,6 +22,12 @@ The positive pooled effect reproduces under the declared assumptions: the reprod
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
+## Reproduction at a glance
+
+![P109: original central target checks, reproduced scope and outcome](visuals/summary.png)
+
+The chart retains this programme's original central comparison criteria alongside the adopted outcome. Targets differ across studies and are not a common quality score. [Chart data](visuals/summary.json) · [Graph definitions and rendering code](../../visuals/README.md).
+
 **Result.** The complete overall 59-effect meta-analysis is a bounded near success. The programme's only strict comparison miss is a slightly over-wide source-rounding precision envelope.
 
 ## What was reproduced

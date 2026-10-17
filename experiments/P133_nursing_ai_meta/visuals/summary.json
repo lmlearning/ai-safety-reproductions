@@ -1,0 +1,65 @@
+{
+  "paper_id": "P133",
+  "title": "AI literacy and competency in nursing education: preparing students and faculty members for an AI-enabled future-a systematic review and meta-analysis",
+  "classification": "Strict CENTRAL",
+  "report": "experiments/P133_nursing_ai_meta/README.md",
+  "citations": 56,
+  "provider": "OpenAlex",
+  "window": "Main",
+  "recorded_public_date": "2025-11-26",
+  "capture_time_supported": false,
+  "short_title": "Nursing AI literacy",
+  "outcome_key": "strict",
+  "route_group": "Released-data / effect reanalysis",
+  "citation_provider_group": "OpenAlex",
+  "original_central_checks": {
+    "matched": 266,
+    "total": 266,
+    "unmatched": 0,
+    "short_label": "263 forest-output targets + 3 central claims",
+    "interpretation": "Study-specific original central criteria, including stated tolerances; not literal equality, independent audit counts or a paper-quality score."
+  },
+  "scope_metrics": [
+    {
+      "value": "43",
+      "label": "published effect rows"
+    },
+    {
+      "value": "18",
+      "label": "source studies"
+    }
+  ],
+  "agreement_note": "Awareness, attitude and implementation proportions reproduced at about 73%, 71% and 67%.",
+  "chart_scope_note": "The central output/claim family is shown. Input checks and supporting displays are separate; supporting targets did not all match.",
+  "sources": [
+    {
+      "path": "experiments/P133_nursing_ai_meta/README.md",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 9976,
+      "sha256_at_source_commit": "57b70551c51e28958f9f6a6d45304e3200a1c4d3a3d4fe79019c76563719089f",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P133_nursing_ai_meta/README.md"
+    },
+    {
+      "path": "experiments/P133_nursing_ai_meta/results/audit_output__INDEPENDENT_SUPPORTING_CLAIM_DIAGNOSTICS.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 640,
+      "sha256_at_source_commit": "5af4f3e65c6b6f28d25e1a5a2eb2f63efc5e02c8e74b3ecfe26b302f2b6a1b33",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P133_nursing_ai_meta/results/audit_output__INDEPENDENT_SUPPORTING_CLAIM_DIAGNOSTICS.json"
+    },
+    {
+      "path": "experiments/P133_nursing_ai_meta/results/final_original029_closure001__REPORT_SUMMARY_AND_PROVENANCE001.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 12860,
+      "sha256_at_source_commit": "de151ad42fe09b13da1f3ea29efb009ab52fb285cdba1a589eb9fcb56fcf14b7",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P133_nursing_ai_meta/results/final_original029_closure001__REPORT_SUMMARY_AND_PROVENANCE001.json"
+    },
+    {
+      "path": "experiments/P133_nursing_ai_meta/results/worker_output__gate_comparisons.json",
+      "source_commit": "ee6e354e4c3f7fa988fee0399d20d4f3d7a53473",
+      "bytes_at_source_commit": 303124,
+      "sha256_at_source_commit": "ac70ce803bb86dd8f8f264af68ed4f92c1fcc159d7faf37307811ca40ae33b70",
+      "source_url": "https://github.com/lmlearning/ai-safety-reproductions/blob/ee6e354e4c3f7fa988fee0399d20d4f3d7a53473/experiments/P133_nursing_ai_meta/results/worker_output__gate_comparisons.json"
+    }
+  ],
+  "failure_interpretation": "The programme did not match every supporting display under its source-supported reconstruction; the authors' exact transformation and settings were unavailable. These unsuccessful comparisons describe the limits of that reconstruction and do not establish that the paper or its supporting conclusions are invalid."
+}

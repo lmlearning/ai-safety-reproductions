@@ -6,6 +6,12 @@ Each report distinguishes the original paper's authors and their research from t
 
 The reproduced scopes concern AI evaluation, model reliability, emergent misalignment, human–AI interaction, persuasion, education, health and agent transparency. Most are reanalyses of released observations or published effect estimates. They test whether a paper's central analysis can be recovered; they do not independently repeat participant recruitment, original model training or every experiment in a paper.
 
+## Programme dashboard
+
+![Programme dashboard: 21 central-result studies, outcome categories, computational routes and selection windows](visuals/programme_dashboard.png)
+
+The dashboard summarizes this programme, with eight bounded or precision-supported near successes and one separately qualified near success. [Chart data and rendering method](visuals/README.md).
+
 ## Results at a glance
 
 **How to read unsuccessful results:** every failed comparison or unmatched result records what this reproduction programme could not recover within its scope, available inputs, methods, software and local resources. It does not establish that the original paper or its conclusions are invalid. Work outside the attempted scope was not tested.
@@ -50,6 +56,10 @@ Click a paper title for what was done, the issues encountered, the exact reprodu
 ## How the programme selected papers and assessed reproductions
 
 The main selection window was **10 October 2025–10 October 2026**, with an explicit “or so” extension **10 April–9 October 2025**. The adopted citation gates were 20 in the main window and 40 in the extension. The final set has 9 main-window and 12 extended-window papers; retained counts range from 31 to 213. Counts from different providers were not combined. Exact citation-capture times are supported for 8 papers and unknown for 13. The dates reflect retained substantive-release evidence with stated limits, rather than an exhaustive proof of the first-ever public appearance.
+
+![Retained citation counts for the 21 studies, with Semantic Scholar and OpenAlex identified separately](visuals/citation_selection.png)
+
+These are the retained selection observations, without a citation refresh or addition across providers; citations indicate attention rather than paper validity.
 
 Plans, inputs, seeds, comparison criteria, complete target families, outcomes and independent computational checks were retained during the programme. Strict and near outcomes refer to each report's declared central scope. Some scopes, methods or near-success decisions were amended after outcomes; those changes and the earlier failures are disclosed. See [methodology and interpretation](METHODOLOGY.md).
 
