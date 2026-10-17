@@ -4,9 +4,21 @@
 
 [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# The Ideation-Execution Gap: Execution Outcomes of LLM-Generated versus Human Research Ideas
+## Study in plain language
 
-Bounded near success
+### The question
+
+An appealing research idea may not lead to an equally strong finished project. This paper asks how ideas proposed by language models compare with human ideas once they have been developed into research projects. It uses blinded human reviews, meaning reviewers were not told which source produced an idea.
+
+### What we actually did
+
+We reanalysed the released idea and execution reviews for all 43 completed projects and all 181 execution reviews. Both idea-source groups and all seven evaluation measures were retained. Our code reconstructed the original review-level and project-level summaries, differences between idea and execution scores, correlations and specified exclusion checks. We compared the entire set of 155 published targets. An independent implementation checked the data handling and arithmetic rather than simply importing our analysis.
+
+### What the result tells us
+
+The complete analysis is a retrospective bounded near success. All count and qualitative-claim targets agree; the largest error among 107 numerical summaries is 0.005, within the adopted 0.010 bound in the original score units. All 1,127 independent checks pass. Three mean-gap summaries still miss the original precision rule, so the strict result remains 152/155. We did not generate ideas, execute projects or recruit reviewers anew. Missing stable reviewer identifiers also limit analysis of dependence between reviews by the same person.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** The complete execution-study review analysis is a bounded near success; the original strict result remains 152/155.
 
@@ -35,12 +47,7 @@ This is a retrospective application of the user’s later bounded-error instruct
 - Distinct June 2025 execution study, not its 2024 idea-only predecessor or planning registration.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **released review data**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
-
-## Paper selection
-
-The retained selection observation was **62 citations** from **Semantic Scholar**. The recorded substantive public date was **2025-06-25** (extended window). The exact citation-capture time is unknown in the retained evidence; the count is not presented as a current observation. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 
 
@@ -50,6 +57,8 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 
 - [p069_audit_setup_corrected.py](code/p069_audit_setup_corrected.py) — primary_or_independent_scientific_entry
 - [p069_central.py](code/p069_central.py) — primary_or_independent_scientific_entry
+
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 

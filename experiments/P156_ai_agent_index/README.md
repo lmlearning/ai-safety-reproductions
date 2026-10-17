@@ -4,9 +4,21 @@
 
 [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# The 2025 AI Agent Index
+## Study in plain language
 
-Bounded near success
+### The question
+
+How much information do AI-agent developers disclose about their products and safety practices? The AI Agent Index organizes published information about 30 agents. Our reproduction concerns the authors’ released annotations: their recorded judgments about disclosure. It is not a fresh investigation of what every company publishes today or a direct test of agent safety.
+
+### What we actually did
+
+We independently read the original JSON and CSV releases, covering all 45 fields for each agent: 1,350 coded cells, including 240 safety-related cells. Both implementations applied the original qualified “None found” rule, preserving distinctions between that code, other missing-information markers and informative text. We rebuilt the full Enterprise, Browser and Chat category comparisons and assessed all eight central published proportions, using the original denominators.
+
+### What the result tells us
+
+This is a retrospective bounded near success. Every proportion is within three percentage points; the largest difference is 2.083333 points. The implementations agree across all 21 checked result and data-origin categories. Our totals differ from the paper by one overall field and two safety fields. The old 4/8 strict result and three caption failures, including the Browser/Enterprise reversal, remain recorded. We did not substitute a later website version or reannotate the agents. A “None found” annotation does not prove that no relevant information exists, and the unrecovered auxiliary mean remains unavailable.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** The complete released-code transparency analysis is a bounded near success; exact count discrepancies remain.
 
@@ -37,12 +49,7 @@ No independent reannotation, refreshed company-disclosure audit or verification 
 - Distinct 2025 measurement wave publishedFebruary2026; neither the earlier wave nor later website is substituted.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **released author coding**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
-
-## Paper selection
-
-The retained selection observation was **38 citations** from **Semantic Scholar**. The recorded substantive public date was **2026-02-19** (main window). An exact capture time is supported in the archived selection records. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 
 
@@ -53,6 +60,8 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 - [agent_index_complete_lean_supervisor032.py](code/agent_index_complete_lean_supervisor032.py) — local_helper_or_native_execution_support
 - [agent_index_complete_primary031.py](code/agent_index_complete_primary031.py) — primary_or_independent_scientific_entry
 - [agent_index_complete_csv_independent_RSTAT002.py](code/agent_index_complete_csv_independent_RSTAT002.py) — primary_or_independent_scientific_entry
+
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 

@@ -4,9 +4,21 @@
 
 [Paper / DOI](https://doi.org/10.1126/science.aea3884) · [arXiv](https://arxiv.org/abs/2507.13919) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# The Levers of Political Persuasion with Conversational AI
+## Study in plain language
 
-Strict central reproduction
+### The question
+
+What makes an AI conversation persuasive? The original experiments measured people's agreement with policy positions before and after exposure to persuasive material. They varied features such as having a dialogue instead of reading a static argument, personalisation, prompting and how the model had been trained.
+
+### What we actually did
+
+We used the released participant records from all three studies to rebuild the complete selected policy-attitude analysis. For each comparison, the code recreated the original group assignments and exclusions, calculated the changes in reported attitudes, and fitted the same statistical designs used by the source scripts. We then checked the published estimates, uncertainty intervals, tests and participant counts across the selected 93 tables. This included follow-up and robustness analyses; it did not involve generating new persuasive messages or recruiting another sample.
+
+### What the result tells us
+
+All 2,470 selected comparisons reproduced after a documented correction to which source script defined two designs. For example, dialogue-versus-static differences reproduced at about 2.94 and 3.60 percentage points in studies 1 and 3. These are changes in the study's attitude measure, not evidence that the arguments were true, that people changed their real-world behaviour, or that every kind of AI persuasion has the same effect. The paper's separate factual-accuracy and scaling analyses were outside this reproduction.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** The complete declared primary policy-attitude contribution across all three studies was reproduced.
 
@@ -34,12 +46,7 @@ New conversations, recruitment and model training were not repeated. Separate Ba
 - July 18 is a confirmed public report. Earlier July repository public-push timing remains unknown; located dates remain in the extension.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **released experiment data**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
-
-## Paper selection
-
-The retained selection observation was **90 citations** from **Semantic Scholar**. The recorded substantive public date was **2025-07-18** (extended window). The exact citation-capture time is unknown in the retained evidence; the count is not presented as a current observation. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 
 
@@ -49,6 +56,8 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 
 - [p072_audit.py](code/p072_audit.py) — scientific entry
 - [p072_central.py](code/p072_central.py) — scientific entry
+
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 

@@ -4,9 +4,21 @@
 
 [Paper / DOI](https://doi.org/10.3389/fmed.2025.1681784) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# AI literacy and competency in nursing education: preparing students and faculty members for an AI-enabled future-a systematic review and meta-analysis
+## Study in plain language
 
-Strict central reproduction
+### The question
+
+The paper brings together studies of AI awareness, attitudes and implementation in nursing education. Its central quantitative figures estimate proportions for these three outcomes. A pooled proportion combines study estimates while allowing for differences in their precision and substantial differences between studies. It is a summary of the reported measurements, not a direct test that a given nurse or student can use AI safely.
+
+### What we actually did
+
+We retained all 43 reported rows from 18 studies: 15 for awareness, 16 for attitudes and 12 for implementation. Our code transformed the proportions for statistical calculation, combined them, calculated uncertainty and converted them back to percentages. It also reconstructed study intervals, weights and variation between studies. All 129 input comparisons, 263 central figure comparisons and three central claims passed; the independent implementation passed 312,782 checks. The main estimates reproduce as approximately 73%, 71% and 67%, with their published intervals.
+
+### What the result tells us
+
+The three declared central figures reproduce, but the wider analysis does not uniformly agree: only 19 of 114 supporting displays match. The authors’ exact software settings are unavailable, so our source-supported method was fixed before calculation rather than claimed as recovered history. We did not repeat the underlying studies, literature screening or qualitative synthesis. These results do not validate every subgroup conclusion, resolve source inconsistencies or establish clinical competence.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** The three central prevalence/heterogeneity forest analyses were reproduced from every released effect row.
 
@@ -35,12 +47,7 @@ Original studies, screening, qualitative synthesis and extraction/coding were no
 - Positive November 2025 substantive release; no citation refresh.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **released synthesis**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
-
-## Paper selection
-
-The retained selection observation was **56 citations** from **OpenAlex**. The recorded substantive public date was **2025-11-26** (main window). The exact citation-capture time is unknown in the retained evidence; the count is not presented as a current observation. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 
 
@@ -54,6 +61,11 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 - [engineering_checks004.py](code/engineering_checks004.py) — statically imported runner/auditor helper
 - [synthetic_fixture004.py](code/synthetic_fixture004.py) — statically imported runner/auditor helper
 - [audit_p133_complete003.py](code/audit_p133_complete003.py) — scientific entry
+
+
+
+**Licensing:** this study includes a GPL-covered primary statistical program. The independent auditor and original documentation use MIT. See [LICENSING.md](LICENSING.md) for the exact scope.
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 

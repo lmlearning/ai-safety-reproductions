@@ -4,9 +4,21 @@
 
 [arXiv](https://arxiv.org/abs/2511.21140) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# How to Correctly Report LLM-as-a-Judge Evaluations
+## Study in plain language
 
-Strict central reproduction
+### The question
+
+An AI model is often evaluated by asking another model to mark its answers as correct or incorrect. That judge can make mistakes too. This paper studies how to estimate the first model's true accuracy, and the uncertainty around it, when the judge is imperfect. It also asks how a limited budget of trusted calibration labels should be allocated.
+
+### What we actually did
+
+We generated artificial correct/incorrect answers and judge decisions with known error rates. Because the true accuracy is known in a simulation, we can check whether a reported uncertainty interval actually contains it across repeated trials. We varied true accuracy across all 21 published settings, recalculated the main figure's coverage and interval-width curves, and checked the authors' original-seed example. We compared the uncorrected judge estimate with the paper's corrections and calibration-allocation rules.
+
+### What the result tells us
+
+The main figure's numerical behaviour reproduced within the fixed error bounds. This supports the recoverability of that simulation, rather than demonstrating that a real language-model judge works reliably. The broader appendix did not fully reproduce: eight smaller-budget reference figures duplicate larger-budget figures. The central-only scope was adopted after that failure and then checked with new fixed random seeds. Those limitations remain in the detailed results below.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** The main Figure 4 simulation was reproduced. The full empirical attempt did not pass.
 
@@ -35,12 +47,7 @@ No real LLM judge inference or machine-checked proof was performed. The result r
 - Original v1; precise citation capture time remains unknown.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **fresh simulation**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
-
-## Paper selection
-
-The retained selection observation was **31 citations** from **Semantic Scholar**. The recorded substantive public date was **2025-11-26** (main window). The exact citation-capture time is unknown in the retained evidence; the count is not presented as a current observation. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 
 
@@ -50,6 +57,8 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 
 - [audit_reporting.py](code/audit_reporting.py) — scientific entry
 - [run_judge_reporting.py](code/run_judge_reporting.py) — scientific entry
+
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 

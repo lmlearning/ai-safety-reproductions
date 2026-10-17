@@ -4,9 +4,21 @@
 
 [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity
+## Study in plain language
 
-Bounded near success
+### The question
+
+Does access to an AI coding assistant make experienced developers faster on real work? The original trial followed 16 developers completing tasks in familiar open-source projects, with AI access allowed for some tasks and disallowed for others. Its finding concerns this particular trial, rather than every developer or coding tool.
+
+### What we actually did
+
+We used all 246 completed tasks in the released dataset. Following the original code, we reconstructed completion times, handled missing review time and fitted the regressions that estimate the AI-access effect while accounting for specified differences between tasks and developers. We also repeated the alternative estimates, forecast comparisons, balance checks and fixed bootstrap calculations. A bootstrap repeatedly resamples observed tasks to describe uncertainty. The independent auditor checked all 150,000 saved draws and the full set of 65 targets.
+
+### What the result tells us
+
+Our estimated slowdown was 18.84%, matching the reported 18.8–19%. The result is a retrospective bounded near success: all 55 non-display targets retain their original passing limits, while all ten integer-displayed time summaries differ by less than one minute. Three still fail their old strict display checks, leaving 62/65 unchanged. All 1,782 independent checks pass. No new developer trial, current-assistant comparison or independent assessment of code quality was conducted; unreleased trial information and historical formatting choices remain unavailable.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** The complete developer-productivity reanalysis is a bounded near success; its original 62/65 strict result is retained.
 
@@ -38,12 +50,7 @@ Near classification is retrospective; no cohort, estimator or original failed co
 - July 10 empirical announcement precedes July 12 arXiv v1.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **released trial data**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
-
-## Paper selection
-
-The retained selection observation was **213 citations** from **Semantic Scholar**. The recorded substantive public date was **2025-07-10** (extended window). The exact citation-capture time is unknown in the retained evidence; the count is not presented as a current observation. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 
 
@@ -53,6 +60,8 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 
 - [audit_central.py](code/audit_central.py) — primary_or_independent_scientific_entry
 - [run_central.py](code/run_central.py) — primary_or_independent_scientific_entry
+
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 

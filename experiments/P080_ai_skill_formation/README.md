@@ -4,9 +4,21 @@
 
 [arXiv](https://arxiv.org/abs/2601.20245) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# How AI Impacts Skill Formation
+## Study in plain language
 
-Strict central reproduction
+### The question
+
+Getting a programming task finished and learning the underlying skill are different outcomes. The original trial asked how access to an AI assistant affected what experienced Python users learned while using the unfamiliar Trio asynchronous-programming library. Participants had 35 minutes to work on two tasks, followed by an unaided quiz.
+
+### What we actually did
+
+We recomputed the quantitative analysis from the released records for all 52 participants: 26 with AI assistance and 26 without it. We used their recorded task times, original quiz grades, experience categories and self-reports to rebuild the group comparisons, adjusted analyses and uncertainty estimates. The adjusted analysis retained the original 50-person subset because two warm-up times were missing. We also checked the published breakdowns of quiz skills and the resampling calculations used for plotted intervals. We did not rerun the teaching session or ask an AI to grade new answers.
+
+### What the result tells us
+
+The selected numerical results reproduced. Average quiz scores were 50.0% with AI and 65.4% without it: about a 15.4-percentage-point gap in this sample. This recovers the evidence for a learning difference in this particular task and population. It does not establish that AI always harms learning, and the reproduced task-time tests do not establish equal speed between groups. The separate qualitative analysis was not reproduced.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** The complete main randomized-trial quantitative contribution was reproduced, including its bootstrap uncertainty.
 
@@ -35,12 +47,7 @@ The historical bootstrap seed, qualitative persona/adoption bridge and complete 
 - January 2026 v1 is positive; August 2025 repository public visibility remains unknown. Retained42 also clears the extended threshold40.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **released trial data**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
-
-## Paper selection
-
-The retained selection observation was **42 citations** from **Semantic Scholar**. The recorded substantive public date was **2026-01-28** (main window). An exact capture time is supported in the archived selection records. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 
 
@@ -52,6 +59,8 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 - [p080_resource_guard.py](code/p080_resource_guard.py) — statically imported runner/auditor helper
 - [plot_p080_main_rct.py](code/plot_p080_main_rct.py) — scientific entry
 - [run_p080_main_rct.py](code/run_p080_main_rct.py) — scientific entry
+
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 

@@ -4,9 +4,21 @@
 
 [Paper / DOI](https://doi.org/10.22521/edupij.2025.19.591) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# Can AI Grade Like a Human? Validity, Reliability, and Fairness in University Coursework Assessment
+## Study in plain language
 
-Bounded near success
+### The question
+
+If an AI and a lecturer both grade an essay, how close are their actual marks? The original study compared ChatGPT-4o with two faculty graders on teacher-education essays about designing a preschool science activity with ScratchJr. Each essay received scores on nine criteria and a total mark.
+
+### What we actually did
+
+We used the released 91 grading records from two campuses. For every criterion and the total, we compared all three grader pairs: the two humans with each other, and each human with the AI. We recalculated the paper's intraclass correlation coefficients, or ICCs, which assess agreement in the marks themselves. This is stronger than merely asking whether graders rank students in a similar order. We retained the original missing-score rule: one criterion uses 90 common records; the other criteria and totals use 91. We checked all 86 selected published agreement values, including duplicates reported in different places.
+
+### What the result tells us
+
+Every selected value was within 0.010 of the publication, making this a near success; five values still fail the older, tighter criteria. The reported pattern of higher human–human than human–AI agreement also held. We did not have the AI or faculty grade new essays. These results do not show that AI marks are interchangeable with lecturers' marks or reproduce the paper's broader fairness claims.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** The complete central grading-agreement family is a bounded near success, preserving the original 81/86 strict result.
 
@@ -35,12 +47,7 @@ The 0.010 near bound was adopted retrospectively from archived results, not pres
 - December 2025 supported; exact day unknown. Earlier raw ratings/instruments are not confirmed aggregate findings.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **released assessment data**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
-
-## Paper selection
-
-The retained selection observation was **31 citations** from **OpenAlex**. The recorded substantive public date was **2025-12 (exact day UNKNOWN in selected metadata)** (main window). The exact citation-capture time is unknown in the retained evidence; the count is not presented as a current observation. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 
 
@@ -59,6 +66,8 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 - [p161_secondary_entry002.py](code/p161_secondary_entry002.py) — primary_or_independent_scientific_entry
 - [p161_secondary_primitives001.py](code/p161_secondary_primitives001.py) — local_helper_or_native_execution_support
 - [p161_secondary_xlsx001.py](code/p161_secondary_xlsx001.py) — local_helper_or_native_execution_support
+
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 

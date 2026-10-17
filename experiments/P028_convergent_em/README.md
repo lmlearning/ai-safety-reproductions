@@ -4,9 +4,21 @@
 
 [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# Convergent Linear Representations of Emergent Misalignment
+## Study in plain language
 
-Bounded near success
+### The question
+
+Can simple measurements inside a language model distinguish responses labelled aligned from responses labelled misaligned? The paper studies a “probe”: a small classifier trained to recognize a pattern in a larger model’s internal measurements. Recognizing a pattern is different from showing that the pattern causes the model’s behaviour.
+
+### What we actually did
+
+We downloaded the authors’ saved measurements and response provenance, covering 897 responses and 55,386 tokens, the pieces of text processed by the model. We fitted the original linear-probe procedure across all four comparisons and nine layers, preserving its labels, balancing, normalization, splits and seeds. We compared all 20 reported prediction metrics, 36 summaries of classifier weights and eight claims. A separately written auditor reconstructed the inputs and refitted the classifiers.
+
+### What the result tells us
+
+This is a retrospective bounded near success. Prediction-metric errors were at most 0.007592 on a 0–1 scale; all graphical comparisons met the unchanged bound. All 6,083 independent checks passed. The original strict result remains 59/64, including documented corrections to two graph transcriptions. Tokens from one response can appear on both sides of the original split, limiting generalization claims. We did not repeat model training, generate new responses, perform causal steering or obtain fresh external model judgments.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** The complete saved-activation probe study is a bounded near success, with all original failed flags preserved.
 
@@ -35,12 +47,7 @@ The near classification is retrospective. No data, labels, estimator, seeds or f
 - Original June 13 v1; related source history retained without a later-version date reset.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **released activations + fresh probes**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
-
-## Paper selection
-
-The retained selection observation was **71 citations** from **Semantic Scholar**. The recorded substantive public date was **2025-06-13** (extended window). The exact citation-capture time is unknown in the retained evidence; the count is not presented as a current observation. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 
 
@@ -50,6 +57,8 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 
 - [audit_probe.py](code/audit_probe.py) — primary_or_independent_scientific_entry
 - [run_probe.py](code/run_probe.py) — primary_or_independent_scientific_entry
+
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 

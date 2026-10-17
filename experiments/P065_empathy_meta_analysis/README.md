@@ -4,9 +4,21 @@
 
 [Paper / DOI](https://doi.org/10.1093/bmb/ldaf017) · [arXiv](https://arxiv.org/abs/2602.05628) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# AI chatbots versus human healthcare professionals: a systematic review and meta-analysis of empathy in patient care
+## Study in plain language
 
-Strict central reproduction
+### The question
+
+The paper asks whether people rate chatbot responses as more empathetic than responses from healthcare professionals. It brings together results from earlier studies rather than running one new comparison. This is a meta-analysis: each study contributes an estimated difference and a measure of how precisely it was estimated. Combining them can reveal an overall pattern, while also showing how much the studies disagree.
+
+### What we actually did
+
+We started with all 13 published effect estimates and standard errors behind Figure 2. Our code recomputed the weighted overall result, the GPT-3.5 and GPT-4 groups, confidence intervals, study weights, differences between groups and variation between studies. More precise results contribute more weight, while the model also allows studies to differ. We compared every planned value and claim with the publication: all 97 comparisons passed. A separately written calculation passed 189 checks. The overall difference was 0.872 standardized units, matching the reported 0.87.
+
+### What the result tells us
+
+The published central calculation is recoverable from its public inputs. Its confidence interval, about 0.54 to 1.20 standardized units, remains positive, but results vary greatly between studies. This concerns perceived empathy in the studied responses, not better medical decisions or patient outcomes. We did not repeat the literature search, assess the trials afresh or collect new responses and ratings.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** The complete Figure 2 empathy meta-analysis was independently recomputed.
 
@@ -35,12 +47,7 @@ Database searches, study selection, risk-of-bias judgments, constituent experime
 - The June 2025 medRxiv report predates the later journal/arXiv release; no date reset.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **released synthesis**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
-
-## Paper selection
-
-The retained selection observation was **79 citations** from **Semantic Scholar**. The recorded substantive public date was **2025-06-09** (extended window). The exact citation-capture time is unknown in the retained evidence; the count is not presented as a current observation. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 
 
@@ -50,6 +57,8 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 
 - [audit_empathy_meta_analysis.py](code/audit_empathy_meta_analysis.py) — scientific entry
 - [run_empathy_meta_analysis.py](code/run_empathy_meta_analysis.py) — scientific entry
+
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 

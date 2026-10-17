@@ -4,9 +4,21 @@
 
 [Paper / DOI](https://doi.org/10.1038/s41591-025-04074-y) · [arXiv](https://arxiv.org/abs/2504.18919) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# Reliability of LLMs as medical assistants for the general public: a randomized preregistered study
+## Study in plain language
 
-Strict central reproduction
+### The question
+
+A model can answer a medical exam question well without helping a person make a sound decision about symptoms. The original trial tested that distinction: people read fictional medical scenarios, suggested possible conditions and chose an urgency of care. They were assigned either one of three AI assistants or a control condition using their usual resources, mostly internet search or their own knowledge.
+
+### What we actually did
+
+We analysed the released answers, rather than recruiting new people or holding new AI conversations. There were 2,400 responses from 1,298 participants across ten scenarios. We independently rescored each answer against the physicians' reference lists, using the original rule for recognising condition names, and checked whether the selected urgency matched the reference. We then rebuilt the comparisons between groups, including condition identification, serious conditions that should not be missed, and uncertainty around the estimates. Repeated responses from the same person were retained under the original response-level analysis.
+
+### What the result tells us
+
+The selected scoring and statistical results reproduced. In these released data, relevant-condition identification was about 32–35% in the AI-assisted groups versus 47% in control. That is a finding about this experiment and its scoring rules, not a new clinical test or a measure of actual patient harm. We also retain the source-analysis problems described below; reproducing a calculation does not make its assumptions correct.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** The complete selected human-trial performance analysis was reproduced from original participant answers and scoring lists.
 
@@ -36,12 +48,7 @@ No new recruitment, conversations or model inference occurred. Separate model-on
 - April 2025 public data/code precede arXiv v1 and the later journal publication.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **released trial data**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
-
-## Paper selection
-
-The retained selection observation was **113 citations** from **Semantic Scholar**. The recorded substantive public date was **2025-04-17** (extended window). An exact capture time is supported in the archived selection records. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 
 
@@ -51,6 +58,8 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 
 - [p068_audit.py](code/p068_audit.py) — scientific entry
 - [p068_central_serialization_corrected.py](code/p068_central_serialization_corrected.py) — scientific entry
+
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 

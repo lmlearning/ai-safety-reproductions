@@ -2,6 +2,8 @@
 
 This repository documents a local reproduction programme examining recent, well-cited papers in and around AI safety. It contains **21 counted central-result studies: 12 strict reproductions and 9 near successes**. Each paper has an individual report, the scientific code and audit tools used, selected recorded results, and input/provenance records.
 
+You do not need to have read the papers: each report opens with the original question, what we actually did, and what the result tells us. A short [reading guide](READING_GUIDE.md) explains common terms before you get into the numerical audit details.
+
 The reproduced scopes concern AI evaluation, model reliability, emergent misalignment, human–AI interaction, persuasion, education, health and agent transparency. Most are reanalyses of released observations or published effect estimates. They test whether a paper's central analysis can be recovered; they do not independently repeat participant recruitment, original model training or every experiment in a paper.
 
 ## Results at a glance
@@ -53,7 +55,7 @@ Plans, inputs, seeds, comparison criteria, complete target families, outcomes an
 
 Each `experiments/Pxxx_.../` folder contains:
 
-- `README.md`: the scientific report, with scope, agreement, issues and omissions.
+- `README.md`: a plain-language introduction followed by the scientific report, with scope, agreement, issues and omissions.
 - `code/`: the original programme-authored scientific runner, auditor and relevant helpers.
 - `results/`, `evidence/` and `plans/`: selected numerical records, independent checks and frozen decisions.
 - `INPUTS.json` and `PROVENANCE.json`: source acquisition records and original-to-publication file hashes.
@@ -72,3 +74,7 @@ This command checks file hashes. It does **not** execute or independently reprod
 ## Scope of this release
 
 This is a curated release of the 21 counted studies. It excludes unrelated unsuccessful candidate studies and machine-management records. Within these 21 studies, failed comparisons, repairs, scope amendments and unresolved source discrepancies remain part of the scientific account. The original research archive remains separate and unchanged; this release includes selected evidence rather than every raw array or every operational log.
+
+## Licence
+
+The original reproduction code and associated documentation use the [MIT License](LICENSE), copyright © 2026 Lars Malmqvist, with the explicit exception of the GPL-covered P133 primary statistical program. Third-party papers, quoted source text, data and model dependencies retain their own terms. See [third-party notices and the P133 exception](THIRD_PARTY_NOTICES.md) and the [included licence texts](LICENSES/README.md).

@@ -4,9 +4,21 @@
 
 [arXiv](https://arxiv.org/abs/2604.07822) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# Loop, Think, & Generalize: Implicit Reasoning in Recurrent-Depth Transformers
+## Study in plain language
 
-Bounded near success
+### The question
+
+Can a model solve harder reasoning problems by repeating its internal computation, and can extra repetition sometimes hurt? This paper studies recurrent-depth transformers. A recurrence is another pass through a repeated computation block; a checkpoint is a saved trained model. The reproduced benchmark tests reasoning that requires linking multiple facts.
+
+### What we actually did
+
+We evaluated the authors’ nine final checkpoints across all 29,250 held-out examples, up to 40 fixed recurrences, and both original adaptive stopping policies, rules that choose when to stop repeating. Verified completed CPU results for seven checkpoints were retained; the remaining models and adaptive evaluations were completed on GPU. We compared all 3,279 Figure 5 cells. Because a plotted curve does not always reveal an exact number, comparisons retained the ranges supported by the source figure. The whole audit checked predictions, counters, saved outputs and adaptive rules.
+
+### What the result tells us
+
+This is a bounded near success under limits fixed before the final outcome audit. The strict figure-interval rule remains 3,278/3,279: one cell lies 0.015625 percentage points outside its compatible range. All panel and cell near bounds pass, and the published claim interpretations remain compatible. The audit did not independently repeat every pass through the neural network. We did not retrain models or reproduce other seeds and figures; the result does not claim that more computation always helps or establish a universally optimal stopping depth.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** The complete Figure 5 checkpoint evaluation is a bounded near success with one tiny source-figure discrepancy.
 
@@ -35,12 +47,7 @@ Training, other seeds/figures and broad language-model claims are outside scope.
 - Substantive READMEApril8 and paper v1April9; finite earlier-source review is not a global absence proof.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **original checkpoint inference**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
-
-## Paper selection
-
-The retained selection observation was **37 citations** from **Semantic Scholar**. The recorded substantive public date was **2026-04-08 substantive README; 2026-04-09 paper v1** (main window). The exact citation-capture time is unknown in the retained evidence; the count is not presented as a current observation. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 
 
@@ -66,6 +73,8 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 - [p157_gpu_models006__36b96fd2.py](code/p157_gpu_models006__36b96fd2.py) — local_helper_or_native_execution_support
 - [p157_gpu_phase007.py](code/p157_gpu_phase007.py) — local_helper_or_native_execution_support
 - [p157_gpu_science007.py](code/p157_gpu_science007.py) — local_helper_or_native_execution_support
+
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 

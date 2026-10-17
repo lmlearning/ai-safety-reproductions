@@ -4,9 +4,21 @@
 
 [Paper / DOI](https://doi.org/10.1186/s12909-025-07750-2) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# Effectiveness of generative artificial intelligence-based teaching versus traditional teaching methods in medical education: a meta-analysis of randomized controlled trials
+## Study in plain language
 
-Strict central reproduction
+### The question
+
+The paper combines randomized teaching studies to ask whether generative-AI approaches change medical learners’ knowledge, practical skills or satisfaction. Different studies use different tests, so their results are converted to a common standardized difference before combination. The pooled estimate summarizes the reported differences; its confidence interval expresses their statistical uncertainty. A wide interval can leave both improvement and no improvement compatible with the evidence.
+
+### What we actually did
+
+We started with every published mean, standard deviation and sample size in the 17 comparisons. We recalculated the standardized effects, eleven pooled summaries, uncertainty, variation between studies and four comparisons between subgroups. All 141 primary comparisons, 79 supporting comparisons and 141 stricter display-precision checks passed. The independent calculation passed 6,859,667 comparisons. The reproduced standardized differences were about 0.27 for knowledge, 0.63 for skills and 1.18 for satisfaction; the knowledge interval includes zero.
+
+### What the result tells us
+
+The published central synthesis is recoverable, not independently confirmed by new teaching experiments. We retained source choices that complicate interpretation: analytic counts differ from initial allocations, some participants appear in both immediate and delayed analyses, and a figure’s direction labels are reversed. We did not reconstruct participant records, screening decisions or the original unrounded analysis project. Reproducing the arithmetic does not establish that AI improves every learning outcome or that overlapping comparisons are independent.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** The complete declared quantitative synthesis of generative-AI teaching versus traditional teaching was reproduced.
 
@@ -35,12 +47,7 @@ Finite rounding sensitivity samples are not rigorous bounds over every unrounded
 - The earlier protocol is methods-only, not an earlier empirical findings release.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **released synthesis**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
-
-## Paper selection
-
-The retained selection observation was **47 citations** from **OpenAlex**. The recorded substantive public date was **2025-08-19** (extended window). The exact citation-capture time is unknown in the retained evidence; the count is not presented as a current observation. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 
 
@@ -50,6 +57,8 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 
 - [audit_p132_complete007.py](code/audit_p132_complete007.py) — scientific entry
 - [run_p132_complete002.py](code/run_p132_complete002.py) — scientific entry
+
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 

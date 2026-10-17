@@ -4,9 +4,21 @@
 
 [Paper / DOI](https://doi.org/10.2196/79850) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# The Effectiveness of AI Chatbots in Alleviating Mental Distress and Promoting Health Behaviors Among Adolescents and Young Adults: Systematic Review and Meta-Analysis
+## Study in plain language
 
-Strict central reproduction
+### The question
+
+The paper asks what earlier studies suggest about chatbot interventions for adolescents and young adults, including distress, emotions, wellbeing and health behaviours. It combines multiple studies because any one study may be small or measure a different outcome. Most included chatbots are rule-based or retrieve prepared material; only three use generative AI. The findings should therefore not be read as a test of every modern language-model chatbot.
+
+### What we actually did
+
+We used all 145 released effect rows, including 88 comparisons described by means, standard deviations and sample sizes. Rows can recur across outcomes, so they are not 145 independent trials. We recomputed all eleven central outcome summaries, their confidence intervals, study counts and statistical directions. All 337 central comparisons and 51,910 independent checks passed. Overall mental distress reproduced as a standardized difference of about −0.35, with an interval from −0.46 to −0.24; negative values indicate lower distress under the source’s coding.
+
+### What the result tells us
+
+The complete declared central synthesis is recoverable from public summaries. Eight supporting numerical displays still disagree, and some subgroup assignments, correlations within trials and auxiliary methods are unavailable. Source-transcription corrections were documented before calculation. We did not repeat recruitment, intervention delivery, study selection or risk-of-bias assessment. Statistical agreement is not an independent demonstration that these interventions are effective, safe or suitable for an individual.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** All eleven central outcome syntheses were reproduced from released summaries.
 
@@ -35,12 +47,7 @@ Most included systems are rule-based or retrieval chatbots; only three use gener
 - Publisher public preprintJune30 predates its later version of record.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **released synthesis**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
-
-## Paper selection
-
-The retained selection observation was **44 citations** from **OpenAlex**. The recorded substantive public date was **2025-06-30** (extended window). The exact citation-capture time is unknown in the retained evidence; the count is not presented as a current observation. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 
 
@@ -50,6 +57,8 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 
 - [audit_independent_source_formula_local004.py](code/audit_independent_source_formula_local004.py) — scientific entry
 - [run_complete_central003.py](code/run_complete_central003.py) — scientific entry
+
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 

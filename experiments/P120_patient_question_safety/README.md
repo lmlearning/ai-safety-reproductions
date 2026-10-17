@@ -4,9 +4,21 @@
 
 [Paper / DOI](https://doi.org/10.1038/s41746-026-02428-5) · [arXiv](https://arxiv.org/abs/2507.18905) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# Large language models provide unsafe answers to patient-posed medical questions
+## Study in plain language
 
-Strict central reproduction
+### The question
+
+The paper asks how often answers to patient-written medical questions were judged problematic, and whether those judgments differed between four model groups. The evidence is a saved collection of responses and human ratings, not observations of what happened to patients. Its central analysis counts problematic answers, summarizes quality ratings and examines which kinds of problems and agreements occur across models.
+
+### What we actually did
+
+We reanalysed all 888 responses to 222 questions. Our code read the original ratings, reproduced the authors’ label-processing rules, counted problems, calculated means and variation in quality scores, and recomputed every original overall and pairwise comparison. All 141 published comparisons passed, with 20,073 independent checks. Problematic-response rates ranged from about 21.6% for Claude to 43.2% for the pooled Llama group. We also retained all issue categories, correlations and questions that received unanimous judgments.
+
+### What the result tells us
+
+The reported comparison can be reconstructed, including its source quirks. Different parts of the original code handle capitalization and trailing spaces differently; we preserved those rules rather than silently cleaning the answers. The Llama group also mixes two versions. No new responses or physician judgments were obtained. These percentages describe the archived ratings, not current model performance, a probability of patient harm or an independent validation of the rating process.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** The complete four-model comparative analysis of patient-question responses was reproduced from released ratings.
 
@@ -36,12 +48,7 @@ No new model responses, physician judgments or question collection occurred. The
 - Use the July 2025 original preprint, not the later journal date.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **released judged responses**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
-
-## Paper selection
-
-The retained selection observation was **68 citations** from **Semantic Scholar**. The recorded substantive public date was **2025-07-25** (extended window). An exact capture time is supported in the archived selection records. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 
 
@@ -51,6 +58,8 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 
 - [audit_p120_raw_xml_independent_v004.py](code/audit_p120_raw_xml_independent_v004.py) — scientific entry
 - [run_p120_original_quantitative_v004.py](code/run_p120_original_quantitative_v004.py) — scientific entry
+
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 

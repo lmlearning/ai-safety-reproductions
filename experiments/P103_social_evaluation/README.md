@@ -4,9 +4,21 @@
 
 [Paper / DOI](https://doi.org/10.1073/pnas.2426766122) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# Evidence of a social evaluation penalty for using AI
+## Study in plain language
 
-Bounded near success
+### The question
+
+People may worry that using AI will make them seem lazy, less competent or replaceable. This paper examines that social-evaluation concern. The contribution reproduced here concerns people’s anticipated evaluations in AI-tool versus dashboard-tool situations, not a new experiment measuring how employers or colleagues actually judge AI users.
+
+### What we actually did
+
+We reanalysed the original 500 survey records, retaining the fixed 497-person rating cohort after the original three exclusions for giving the same answer throughout. The analysis combined 21 question items into six scales, reconstructed the group comparisons and correlations, and included the separate 201-person manipulation check—a check that participants understood the intended situation. We compared every one of the 108 targets. A separately written auditor independently reconstructed the calculations; missing demographic ages did not remove anyone from the rating analysis.
+
+### What the result tells us
+
+This is a retrospective bounded near success. Both routes retain the original 107/108 result, and all 1,484 independent computational checks pass. The sole strict miss is 0.051949 in a Welch test’s degrees of freedom, a quantity used to calculate uncertainty when groups have unequal variation. The effect estimates, intervals and statistical conclusions remain compatible. A printing explanation is plausible but unproven. Later actual-perception, hiring, mediation and other study families were outside the frozen scope, so neither whole-paper reproduction nor a universal social penalty is claimed.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** Complete primary Study 1 anticipation plus its manipulation check is a bounded near success. The sole strict miss is incidental degrees of freedom.
 
@@ -37,12 +49,7 @@ Classification is retrospective. The original strict failure, cohort, estimator 
 - Positive OSF public eventApril23 precedes May8 version of record; private project creation is not public findings.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **released study1 participant-data reanalysis**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
-
-## Paper selection
-
-The retained selection observation was **78 citations** from **Semantic Scholar exact DOI batch**. The recorded substantive public date was **2025-04-23 positive OSF public event; VOR2025-05-08** (extended window). An exact capture time is supported in the archived selection records. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 
 
@@ -54,6 +61,8 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 - [run_p103_primary_study1.py](code/run_p103_primary_study1.py) — primary_or_independent_scientific_entry
 - [supervise_p103_primary_study1.py](code/supervise_p103_primary_study1.py) — Required transitive local helper, native supervisor or full original reference route
 - [supervise_p103_primary_study1_age_fix_v003.py](code/supervise_p103_primary_study1_age_fix_v003.py) — Required transitive local helper, native supervisor or full original reference route
+
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 

@@ -4,9 +4,21 @@
 
 [Paper / DOI](https://doi.org/10.1111/wvn.70059) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# Chatbot-Delivered Interventions for Improving Mental Health Among Young People: A Systematic Review and Meta-Analysis
+## Study in plain language
 
-Strict central reproduction
+### The question
+
+The paper asks whether studies of chatbot-delivered interventions show changes in young people’s distress and wellbeing. It combines reported results rather than conducting one new trial. A pooled effect is a weighted summary of those results on a common scale. Its uncertainty interval is essential: an estimate above or below zero can still be compatible with no difference when the interval spans zero.
+
+### What we actually did
+
+We retained all 26 published effect summaries: 18 distress effects from 11 trials and eight wellbeing effects from seven trials. We independently recomputed both central statistical families, including their uncertainty, using the method fixed before outcomes. The work also retained all 410 planned original, rounding and leave-out fits. All 50 primary comparisons passed, alongside 26,724 independent comparisons. Distress reproduced as about −0.280, with an interval from −0.461 to −0.099. Wellbeing reproduced as 0.126, with an interval from −0.161 to 0.414.
+
+### What the result tells us
+
+The published distress reduction and inconclusive wellbeing estimate are recoverable from the released summaries. That success does not extend to every supporting result: 190 supporting displays agree, 109 disagree and 32 are unavailable. Private unrounded inputs, covariance information and parts of the historical analysis remain unknown. We did not rerun the trials or systematic-review process. This verifies the declared central calculation, not independent clinical effectiveness or suitability of chatbot care.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** Both complete central outcome families were reproduced from all 26 published effect summaries.
 
@@ -35,12 +47,7 @@ The human trials, systematic review and private analysis project were not recons
 - Related conference material concerns the same study and adds no distinct paper.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **released synthesis**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
-
-## Paper selection
-
-The retained selection observation was **54 citations** from **OpenAlex**. The recorded substantive public date was **2025-07-15** (extended window). The exact citation-capture time is unknown in the retained evidence; the count is not presented as a current observation. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 
 
@@ -50,6 +57,8 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 
 - [run_two_family_matrix_source004.py](code/run_two_family_matrix_source004.py) — scientific entry
 - [audit_p135_central015.py](code/audit_p135_central015.py) — scientific entry
+
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 

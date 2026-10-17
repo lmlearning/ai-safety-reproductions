@@ -1,13 +1,13 @@
 {
-  "record_scope": "Local preparation validation before the initial upload; external-publication fields describe this timestamp only.",
-  "prepared_utc": "2026-10-17T15:54:03.475362+00:00",
+  "record_scope": "Local validation before this documentation/licensing update was uploaded; publication fields describe this check only.",
+  "prepared_utc": "2026-10-17T16:13:18.746005+00:00",
   "status": "PASS",
   "structural_validation": {
     "ok": true,
     "distinct_studies": 21,
     "scientific_code_files": 85,
     "python_files_parsed": 108,
-    "local_markdown_links_checked": 687,
+    "local_markdown_links_checked": 719,
     "per_study": [
       {
         "paper_id": "P028",
@@ -137,7 +137,7 @@
   },
   "scientific_experiments_rerun_during_packaging": false,
   "external_download_urls_refetched_during_packaging": false,
-  "licensing": "No blanket license assigned; publication does not grant a permissive license.",
+  "licensing": "MIT for original reproduction code/documentation, except the P133 GPL-covered primary program and third-party material; see THIRD_PARTY_NOTICES.md.",
   "external_publication_performed": false,
   "limits": [
     "Legacy scientific runtimes and authorization/hash guards were not made universally portable.",

@@ -4,9 +4,21 @@
 
 [Paper / DOI](https://doi.org/10.3390/jintelligence13120160) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# Does Generative Artificial Intelligence Improve Students’ Higher-Order Thinking? A Meta-Analysis Based on 29 Experiments and Quasi-Experiments
+## Study in plain language
 
-Bounded near success
+### The question
+
+Does generative AI improve students’ higher-order thinking? The paper addresses this through a meta-analysis: combining effect estimates from several studies rather than running one new classroom experiment. Its overall synthesis contains 59 effects from 29 experiments and quasi-experiments. Multiple effects can come from the same study.
+
+### What we actually did
+
+We transcribed the published effect sizes and their reported precision, then reconstructed both fixed-effect and random-effects summaries. These approaches respectively assume a common effect or allow effects to vary between studies. We propagated uncertainty caused by rounded input numbers and compared all 16 overall effect, interval and heterogeneity targets. Heterogeneity describes variation between study effects. A separate implementation using 80-digit arithmetic checked the complete calculation; it did not repeat the constituent trials.
+
+### What the result tells us
+
+The positive pooled effect reproduces under the declared assumptions: our random-effects estimate is 0.608797 versus 0.609, with a closely matching uncertainty interval. This is a retrospective bounded near success, with all 607 independent checks passing. The original strict result remains 15/16: one rounding-uncertainty envelope was slightly wider than its unchanged limit, although it contains the published value. Original software settings and unrounded inputs are unavailable. Treating multiple effects as independent remains an assumption, and four sets of source-incomplete subgroup comparisons were omitted. This supports the reported overall synthesis, not every educational use of AI.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** The complete overall 59-effect meta-analysis is a bounded near success. Its only strict miss is a slightly over-wide source-rounding precision envelope.
 
@@ -35,12 +47,7 @@ Trials, searching/screening/extraction, private unrounded inputs and four source
 - Positive December5 version of record; earlier issue/index dates are not substantive-publication proof. Earlier failed requests supplied no numeric count.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **released published-effect meta-analysis**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
-
-## Paper selection
-
-The retained selection observation was **47 citations** from **Semantic Scholar exact paper-ID batch**. The recorded substantive public date was **2025-12-05 positive VOR; earlier issue/index date not public-release proof** (main window). An exact capture time is supported in the archived selection records. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 
 
@@ -52,6 +59,8 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 - [run_p109_central_001.py](code/run_p109_central_001.py) — primary_or_independent_scientific_entry
 - [supervise_p109_central_001.py](code/supervise_p109_central_001.py) — Required transitive local helper, native supervisor or full original reference route
 - [supervise_p109_central_002.py](code/supervise_p109_central_002.py) — Required transitive local helper, native supervisor or full original reference route
+
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 

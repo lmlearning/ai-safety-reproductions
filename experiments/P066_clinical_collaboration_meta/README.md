@@ -4,9 +4,21 @@
 
 [Paper / DOI](https://doi.org/10.1038/s41746-026-02382-2) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# Human-large language model collaboration in clinical medicine: a systematic review and meta-analysis
+## Study in plain language
 
-Strict central reproduction
+### The question
+
+The paper asks whether clinicians working with a language model perform differently from clinicians working without one. Its central figure combines earlier comparisons of accuracy, broader performance scores and time taken. A combined, or pooled, result is a weighted summary across studies. The surrounding uncertainty interval matters: a positive average alone does not establish a dependable improvement, especially when only a few comparisons are available.
+
+### What we actually did
+
+We used all seven comparisons in the authors’ released analysis code. We independently recalculated study effects, pooled results, confidence and prediction intervals, weights, variation between studies and statistical tests for all three panels. All 63 numerical comparisons and six stated claims passed, as did 290 independent checks. An initial mismatch was traced to the source software’s numerical solver convention; matching that convention across every panel resolved it without changing the comparison limits.
+
+### What the result tells us
+
+The figure’s calculations reproduce, but a consequential source conflict remains. The released code gives a composite-score improvement of about 4.88 percentage points, with an interval from 0.65 to 9.12. Using the different interval method named in the paper’s prose gives roughly −22.54 to 32.31, which includes no improvement. We preserve both facts. We did not repeat the clinical trials or review process, and reproducing the figure does not resolve this disagreement or demonstrate clinical benefit.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** All three panels of the original Figure 2 clinician–LLM collaboration synthesis were reproduced, with material source-method conflicts disclosed.
 
@@ -36,12 +48,7 @@ Trials, screening, risk-of-bias/GRADE and unavailable sensitivities were not rep
 - November 2025 public empirical-code deposit precedes the January 2026 article. Creation time alone is not public-release proof.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **released synthesis**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
-
-## Paper selection
-
-The retained selection observation was **34 citations** from **Semantic Scholar**. The recorded substantive public date was **2025-11-15** (main window). An exact capture time is supported in the archived selection records. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 
 
@@ -51,6 +58,8 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 
 - [p066_audit_windows_newlines.py](code/p066_audit_windows_newlines.py) — scientific entry
 - [p066_central_solver_corrected.py](code/p066_central_solver_corrected.py) — scientific entry
+
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 

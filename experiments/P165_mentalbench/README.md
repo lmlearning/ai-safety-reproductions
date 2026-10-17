@@ -4,9 +4,21 @@
 
 [arXiv](https://arxiv.org/abs/2510.19032) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
-# When Can We Trust LLMs in Mental Health? Large-Scale Benchmarks for Reliable LLM Evaluation
+## Study in plain language
 
-Qualified near success — material exceptions
+### The question
+
+A mental-health response can sound convincing while receiving very different quality ratings from different evaluators. MentalBench investigates how AI judges and a human reference rate responses, and how the choice of judge affects comparisons between responding models. The released material covers 1,000 one-turn contexts, responses from nine models plus a human source, seven rating attributes and four AI judges.
+
+### What we actually did
+
+We joined the released records by their explicit conversation IDs and rebuilt the central statistical analysis from the existing ratings. This included mean scores, agreement with the human reference, judge differences and the selected comparisons between models. The central agreement calculation uses model-level averages; its resampling is over models, not a fresh sample of 1,000 people. We preserved the original missing values and the released aggregated human reference. We did not recover the three experts' separate rating arrays or generate new responses.
+
+### What the result tells us
+
+Agreement estimates and all 23 selected central contrasts reproduced closely, but only 315 of the original 324 numerical targets passed. One guidance mean differs by 0.308 on a 1–5 scale, and eight interval quantities have material errors. This is therefore a qualified near success, with substantial exceptions, rather than a uniform small-error match. It does not establish reliable clinical treatment, validate every auxiliary table or show that all judges are interchangeable.
+
+The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
 **Result.** MentalBench is a qualified near success with material local exceptions. It is not uniformly small-error or an all-table success.
 
@@ -39,12 +51,9 @@ This retrospective paper-level classification reflects close central agreement e
 - Exact firstS2 capture time unknown. Known-by later retention is not proof of capture as ofOctober10. Earlier repository visibility/title-alias limitations and separate retrospective selection remain explicit.
 - Citation values are retained selection evidence, not current counts.
 
-
 The route was **released mentalbench ratings**, using local computation without paid services or additional API keys. The code below is the programme's implementation and independent audit tooling for this scope.
 
-## Paper selection
 
-The retained selection observation was **31 citations** from **Semantic Scholar**. The recorded substantive public date was **2025-10-21** (main window). The exact citation-capture time is unknown in the retained evidence; the count is not presented as a current observation. Counts were not refreshed or added across providers. See the programme [selection rules](../../METHODOLOGY.md).
 
 Selection used a separately disclosed retrospective retained-record method. Its exact first Semantic Scholar capture time is unknown; later verified retention does not establish that 31 citations were observed on 10 October 2026. Earlier repository public visibility and title-alias provenance remain unresolved.
 
@@ -61,6 +70,8 @@ Start with [REPRODUCE.md](REPRODUCE.md). It identifies the scientific entry poin
 - [original_reader005.py](code/original_reader005.py) — local_helper_or_native_execution_support
 - [semantic_bridge005.py](code/semantic_bridge005.py) — local_helper_or_native_execution_support
 - [independent_mentalbench_core001.py](code/independent_mentalbench_core001.py) — local_helper_or_native_execution_support
+
+
 
 The folder also provides [a local artifact tool](reproduce.py), [input acquisition records](INPUTS.json), and [source-to-publication hashes](PROVENANCE.json). The artifact tool can check file integrity or reconstruct the original relative layout; it does not rerun the scientific experiment.
 
