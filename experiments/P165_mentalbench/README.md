@@ -2,6 +2,8 @@
 
 **Outcome: Qualified near success — material exceptions.** This is a central-result reproduction; whole-paper reproduction is not claimed.
 
+**Interpreting non-reproduction.** A failed comparison or unmatched result means that this reproduction programme did not recover that result within its stated scope and constraints, including the available inputs, methods, software and local resources. It does not establish that the paper or its conclusions are invalid. Work outside the attempted scope was not tested by this programme.
+
 [arXiv](https://arxiv.org/abs/2510.19032) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
 ## Study in plain language
@@ -16,11 +18,11 @@ The reproduction programme joined the released records by their explicit convers
 
 ### What was reproduced and what it means
 
-Agreement estimates and all 23 selected central contrasts reproduced closely, but only 315 of the original 324 numerical targets passed. One guidance mean differs by 0.308 on a 1–5 scale, and eight interval quantities have material errors. This is therefore a qualified near success, with substantial exceptions, rather than a uniform small-error match. It does not establish reliable clinical treatment, validate every auxiliary table or show that all judges are interchangeable.
+Agreement estimates and all 23 selected central contrasts reproduced closely, but the programme matched only 315 of the original 324 numerical targets within its original criteria. One guidance mean differs by 0.308 on a 1–5 scale, and eight interval quantities have material errors. This is therefore a qualified near success, with substantial exceptions, rather than a uniform small-error match. These are unresolved reproduction discrepancies within the available ratings and preprocessing information; they do not establish that the paper is invalid. This reproduction does not independently establish reliable clinical treatment, validate every auxiliary table or show that all judges are interchangeable.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
-**Result.** MentalBench is a qualified near success with material local exceptions. It is not uniformly small-error or an all-table success.
+**Result.** The programme's MentalBench reproduction is a qualified near success with material local exceptions. It is not uniformly small-error or an all-table success.
 
 ## What was reproduced
 
@@ -30,7 +32,9 @@ All 1,000 conversations, ten response sources, seven attributes and four judges 
 
 All 56 ICC point estimates are within 0.0005; all 112 Table 4 values are within 0.001. All 23 fixed central contrasts agree and the independent implementation passes 69,502 comparisons.
 
-Only 315/324 original central numerical targets pass. Qwen3 Guidance is 2.761953 versus 3.07: error 0.308047 on the 1–5 scale. Eight confidence-limit/width targets have errors up to 0.152486. These are material, not roundoff. Original seeds, inputs, targets and limits were not changed to hide them.
+The programme matched only 315/324 original central numerical targets within its original criteria. Qwen3 Guidance is 2.761953 versus 3.07: error 0.308047 on the 1–5 scale. Eight confidence-limit/width targets have errors up to 0.152486. These programme-to-target differences are material rather than roundoff. The programme retained its original seeds, inputs, targets and limits, together with every unsuccessful comparison.
+
+**Limits of this reproduction:** The programme did not recover every mean and interval within the original criteria using the released ratings, aggregated human reference and available preprocessing history. The material errors remain disclosed, but their cause is unresolved. They describe the limits of this attempt, not a finding that the paper or its conclusions are invalid.
 
 ## Issues and omitted work
 
@@ -40,7 +44,7 @@ The released human reference is aggregated; three individual expert arrays and t
 
 ## Interpretation
 
-This retrospective paper-level classification reflects close central agreement estimates and 23 scientific contrasts while retaining substantial mean/interval exceptions. The original 315/324 conjunction remains failed. It is separate from the eight bounded near cases; excluding it still leaves 20 counted papers.
+This retrospective reproduction-outcome classification reflects close central agreement estimates and 23 scientific contrasts while retaining substantial mean/interval exceptions. The programme's original 315/324 all-target comparison remains unmet. It is separate from the eight bounded near cases; excluding it still leaves 20 counted papers.
 
 ## Paper and selection
 
@@ -85,5 +89,7 @@ The folder also provides [a local artifact tool](reproduce.py), [input acquisiti
 - [COMPLETE_MENTALBENCH_CENTRAL_SOURCE_MAP_AND_PROSPECTIVE_NEAR_PLAN_P092018.json](evidence/COMPLETE_MENTALBENCH_CENTRAL_SOURCE_MAP_AND_PROSPECTIVE_NEAR_PLAN_P092018.json) — Final pinned execution/configuration/audit record
 - [ROOT_RETROSPECTIVE_P165_CENTRAL_NEAR_DECISION958.json](evidence/ROOT_RETROSPECTIVE_P165_CENTRAL_NEAR_DECISION958.json) — Final pinned execution/configuration/audit record
 - [INDEPENDENT_COMPLETE_P165_WHOLE_CENTRAL_NEAR_RECOMMENDATION_CPU006.json](evidence/INDEPENDENT_COMPLETE_P165_WHOLE_CENTRAL_NEAR_RECOMMENDATION_CPU006.json) — Final pinned execution/configuration/audit record
+
+Pass/fail labels and unmatched values in the linked historical records describe this programme's checks under its recorded constraints; they are not judgments on paper validity. Missing or unattempted components were not tested.
 
 The full included-file index is [PROVENANCE.json](PROVENANCE.json). The [historical report](evidence/HISTORICAL_REPORT.txt) preserves the counted report's original qualifications; old warehouse paths there are historical references rather than public download links. Published copies normalize workstation paths and UTF-8 encoding. Their hashes are recorded separately from the original archive hashes.

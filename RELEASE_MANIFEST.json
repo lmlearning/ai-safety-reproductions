@@ -1,6 +1,6 @@
 {
   "schema": "ai-safety-reproductions-publication-v1",
-  "prepared_utc": "2026-10-17T16:32:49.864873+00:00",
+  "prepared_utc": "2026-10-17T16:45:38.062436+00:00",
   "study_count": 21,
   "strict_central": 12,
   "near_successes": 9,
@@ -68,13 +68,13 @@
     },
     {
       "path": "experiments/P028_convergent_em/README.md",
-      "bytes": 6188,
-      "sha256": "8f90a7de3a3587811f0985f3ee7656f3dcc908ada2c27b5affdd4bad004643ff"
+      "bytes": 7322,
+      "sha256": "e220d241357349fd645b9b4b60a16f0157bc1e278a79ef316880f2d28051d241"
     },
     {
       "path": "experiments/P028_convergent_em/REPRODUCE.md",
-      "bytes": 4330,
-      "sha256": "228282fa7dc93f53554a6b997d12ee512eec1e45d30e43f65b2c5f9a453a04a0"
+      "bytes": 4564,
+      "sha256": "b06afd1cdb07715f4e1e76abd5f49494abeb0596421306fa3df578a1fff43986"
     },
     {
       "path": "experiments/P028_convergent_em/reproduce.py",
@@ -163,13 +163,13 @@
     },
     {
       "path": "experiments/P041_judge_reporting/README.md",
-      "bytes": 7244,
-      "sha256": "feac6349b41ce7170554c0dace996e874e3b343839a03ffc4ed49cf8860c3e31"
+      "bytes": 8512,
+      "sha256": "0a77a736367b15de3f359a1ab014d0d269ce1ff06d418d796a908dbabc209810"
     },
     {
       "path": "experiments/P041_judge_reporting/REPRODUCE.md",
-      "bytes": 4577,
-      "sha256": "874dfc375b5780e0949bd7dd77041be50d0d9207f0119c6fd0ea01520742dfa3"
+      "bytes": 4811,
+      "sha256": "09f79a71c51f17051dfd710f7ba74379f045e97af312e2f773f5d3274a6a345a"
     },
     {
       "path": "experiments/P041_judge_reporting/reproduce.py",
@@ -393,13 +393,13 @@
     },
     {
       "path": "experiments/P065_empathy_meta_analysis/README.md",
-      "bytes": 6929,
-      "sha256": "d577249f35f95489845cee63afb9fea55348fd3716bea6a77ae17c2f35b4fba6"
+      "bytes": 7929,
+      "sha256": "093e5d9b2b4102433b5867a449cc4ac6981d76e770fcf00ee76106e5daa02c69"
     },
     {
       "path": "experiments/P065_empathy_meta_analysis/REPRODUCE.md",
-      "bytes": 4382,
-      "sha256": "9e436146e8fd36a7ad762a4f4858670edc3439707b213f71c67f4471ba2da9f5"
+      "bytes": 4616,
+      "sha256": "8db45fc4246f2b7a79aab4ff5bca954f76d37893baeb4eb0d6526c7413647ff3"
     },
     {
       "path": "experiments/P065_empathy_meta_analysis/reproduce.py",
@@ -528,13 +528,13 @@
     },
     {
       "path": "experiments/P066_clinical_collaboration_meta/README.md",
-      "bytes": 7593,
-      "sha256": "59f27f9e81996898db4492605e284f1d26ed4e649ef9c6a9cbcc13b5a33305a5"
+      "bytes": 8574,
+      "sha256": "44c8858c7d81d252a88273f5904a4e79507276d657adb53280d1988fa0e11e4b"
     },
     {
       "path": "experiments/P066_clinical_collaboration_meta/REPRODUCE.md",
-      "bytes": 4406,
-      "sha256": "59e3bf773edd2a73c08081c5fe75ebc42c3d46e1069f400ee751b9cd3ce09980"
+      "bytes": 4640,
+      "sha256": "2f9cb7b0e61a7422f8a4df1c871419d666b4b52d6f63fa9785ba68546a71d789"
     },
     {
       "path": "experiments/P066_clinical_collaboration_meta/reproduce.py",
@@ -658,13 +658,13 @@
     },
     {
       "path": "experiments/P068_medical_assistant_rct/README.md",
-      "bytes": 7535,
-      "sha256": "eb4d542a68bde1d478a88c86a3060a904ed8cbbc87392b18e7453562e5ae6de2"
+      "bytes": 8544,
+      "sha256": "563a127a15cd75a628d50367e37ea75eb0e45773c3d7f6ba653c88a9a71f1bcf"
     },
     {
       "path": "experiments/P068_medical_assistant_rct/REPRODUCE.md",
-      "bytes": 4397,
-      "sha256": "779866b63b56a6fe42b87d5e0db09295f5d99167cef4befa4259008ce4ccccd0"
+      "bytes": 4631,
+      "sha256": "81a7c8360e03149ca824502ba9d1f93b5ced229707d152f4c92da3d4955b0102"
     },
     {
       "path": "experiments/P068_medical_assistant_rct/reproduce.py",
@@ -803,13 +803,13 @@
     },
     {
       "path": "experiments/P069_ideation_execution/README.md",
-      "bytes": 6473,
-      "sha256": "c74dd0d1236f73c7a52cf506760a82c77b20dacf9b4c15ae1aeb71cd7291048f"
+      "bytes": 7628,
+      "sha256": "a09267c118e4ced4aa5ee555c1f73a1b582e5b7a12464fc96c53a1ef4602c404"
     },
     {
       "path": "experiments/P069_ideation_execution/REPRODUCE.md",
-      "bytes": 4301,
-      "sha256": "92504d3663cef1eb4a84a0c1ab92b05ddc23761d540f843dd47db0a864cb238d"
+      "bytes": 4535,
+      "sha256": "357a696b88d9f7f51c5528fedf362999fdd9d0550ee6c4836b2ae7d61a1204c9"
     },
     {
       "path": "experiments/P069_ideation_execution/reproduce.py",
@@ -883,13 +883,13 @@
     },
     {
       "path": "experiments/P072_levers_persuasion/README.md",
-      "bytes": 7723,
-      "sha256": "d60619e30653f972b1e854129d2bc9cd510e9590218df561c1938027c13406c0"
+      "bytes": 8769,
+      "sha256": "11fe81db6b3585f79ee9c78bf74d1e62c267725339c16468c7a8108e1f3f7ea5"
     },
     {
       "path": "experiments/P072_levers_persuasion/REPRODUCE.md",
-      "bytes": 4290,
-      "sha256": "40f30fff6f70b32b204ffca27115cc1cebb5e6d6310acd3ada2958f1e6a69c0f"
+      "bytes": 4524,
+      "sha256": "e8b9675f28de8ddeb1aa47e516c588fbf727299fc9f1d8cb4f9447f27d230a59"
     },
     {
       "path": "experiments/P072_levers_persuasion/reproduce.py",
@@ -1023,13 +1023,13 @@
     },
     {
       "path": "experiments/P079_developer_productivity/README.md",
-      "bytes": 7654,
-      "sha256": "d14f889ee40bd643b29d429109720726d403b30af3f2c903fc127494f1c3f237"
+      "bytes": 8783,
+      "sha256": "b550de97d98978702bf39dd2dde79a117888d6a52184641b70d99f7ea321f1ad"
     },
     {
       "path": "experiments/P079_developer_productivity/REPRODUCE.md",
-      "bytes": 4188,
-      "sha256": "a89ef9d4c0ab4480dded1b8c81b8f7e54fc989459eb1abe02ccc1acd03f198f1"
+      "bytes": 4422,
+      "sha256": "01eb17a60e698e3b27da0f1bd16c35d4ea5db77c3d3b4f4131c828a2eeb23dae"
     },
     {
       "path": "experiments/P079_developer_productivity/reproduce.py",
@@ -1183,13 +1183,13 @@
     },
     {
       "path": "experiments/P080_ai_skill_formation/README.md",
-      "bytes": 7196,
-      "sha256": "8c77be749bab0f649d9ff24eda28dc2685a5b37b3be692475ef495acb591f133"
+      "bytes": 8300,
+      "sha256": "f00177bdb01ecc2fc12487947cbf81c31ac5437f0c6c28f94c7e042805bdd1bc"
     },
     {
       "path": "experiments/P080_ai_skill_formation/REPRODUCE.md",
-      "bytes": 4688,
-      "sha256": "fcc1c6797f8e1b02f3f4bf6284710b83327da87ea389260671a93982d18aaadb"
+      "bytes": 4922,
+      "sha256": "69ed0e6559154fbba86760c250c18629b654b1dc4180a289a7037ff10fb0ce8d"
     },
     {
       "path": "experiments/P080_ai_skill_formation/reproduce.py",
@@ -1303,13 +1303,13 @@
     },
     {
       "path": "experiments/P103_social_evaluation/README.md",
-      "bytes": 7671,
-      "sha256": "ab13beac72e4db0835ec6ecbd0d886d2a822e0afeed227cc810a4efa020be92f"
+      "bytes": 8892,
+      "sha256": "0f080afac7e286c5335eb330a2cbacf0715fe1926943b47fdc4988467837a2bf"
     },
     {
       "path": "experiments/P103_social_evaluation/REPRODUCE.md",
-      "bytes": 4974,
-      "sha256": "81af7ab710616e49f346cb7a1ec0dae004489b07f90d4e55b82c81b713c0f84b"
+      "bytes": 5208,
+      "sha256": "055a7b969f373374a3bb56eea4acc32220b42d2a3d5e9162d8172366c3e6b72f"
     },
     {
       "path": "experiments/P103_social_evaluation/reproduce.py",
@@ -1438,13 +1438,13 @@
     },
     {
       "path": "experiments/P109_higher_order_thinking/README.md",
-      "bytes": 7837,
-      "sha256": "e2754d1649e3a499c2aacf5a7a5e882149cb07c744e2dce0e9a122a83a5aacae"
+      "bytes": 8991,
+      "sha256": "636cbe701138e2d98546221ebc415d491a66d30958d8368d56e78749cef4c0cd"
     },
     {
       "path": "experiments/P109_higher_order_thinking/REPRODUCE.md",
-      "bytes": 5312,
-      "sha256": "2083abd767a826d2648697915500cac923612c7273380cecab813447c78019f0"
+      "bytes": 5546,
+      "sha256": "43fccd18c48be954effd80618865e2664e310d9cfedfde2e5916a40bcfdfdbd3"
     },
     {
       "path": "experiments/P109_higher_order_thinking/reproduce.py",
@@ -1578,13 +1578,13 @@
     },
     {
       "path": "experiments/P120_patient_question_safety/README.md",
-      "bytes": 7853,
-      "sha256": "3f6d8b97bcb64779696eecfa25cb2edf74a953c9cbea76ade23572e7f05979e4"
+      "bytes": 8865,
+      "sha256": "1913f4c88fa62e1837ebefc989923a38d593f8cafcc5df1448365f4d0878a81a"
     },
     {
       "path": "experiments/P120_patient_question_safety/REPRODUCE.md",
-      "bytes": 4420,
-      "sha256": "10211ebc40b8d3cc42458403f7692baac8869304b3f1368872af02f17a0a828f"
+      "bytes": 4654,
+      "sha256": "a6c994dae8b0a7fd8e5e82a36ee01ec09e5180813594342f9511ebad17a831bc"
     },
     {
       "path": "experiments/P120_patient_question_safety/reproduce.py",
@@ -1743,13 +1743,13 @@
     },
     {
       "path": "experiments/P132_medical_teaching_rct_meta/README.md",
-      "bytes": 8313,
-      "sha256": "77c5ef8a057141a1453ab93a42aaf58a8e4c95307cc90dd2d82fe42de67cd063"
+      "bytes": 9290,
+      "sha256": "e8504a4d76b1546049d309e216119c05db189e9d246b6fece3db29b9dc4b4014"
     },
     {
       "path": "experiments/P132_medical_teaching_rct_meta/REPRODUCE.md",
-      "bytes": 4578,
-      "sha256": "0c9d448614717571b3057e16d0e62a73fd92ee9afd7685bcb843273a87d11e21"
+      "bytes": 4812,
+      "sha256": "ae98b1948b54aa6c227709aff3c405b6f6d34fdb8f10a771de862bfba295a49b"
     },
     {
       "path": "experiments/P132_medical_teaching_rct_meta/reproduce.py",
@@ -2008,13 +2008,13 @@
     },
     {
       "path": "experiments/P133_nursing_ai_meta/README.md",
-      "bytes": 8917,
-      "sha256": "0fe386afc99100cdf2d860c938986752ad23351adeb69d5c8775fe4aed0a13c7"
+      "bytes": 9976,
+      "sha256": "57b70551c51e28958f9f6a6d45304e3200a1c4d3a3d4fe79019c76563719089f"
     },
     {
       "path": "experiments/P133_nursing_ai_meta/REPRODUCE.md",
-      "bytes": 5006,
-      "sha256": "be6142c540e972cd71ba8b4f2e37ee7aac7844873d3fda2e26d1cb04988f2b37"
+      "bytes": 5240,
+      "sha256": "bd67fd9580f6f58bcab1b0674a5c373d1720659d57bb299d784fdfec0d83eb59"
     },
     {
       "path": "experiments/P133_nursing_ai_meta/reproduce.py",
@@ -2218,13 +2218,13 @@
     },
     {
       "path": "experiments/P134_young_adult_chatbot_meta/README.md",
-      "bytes": 8128,
-      "sha256": "6146b13fbf71e60a7b608214e07753167c931916ed934f536d7db2adcb1c7dda"
+      "bytes": 9254,
+      "sha256": "32a95353f4bea1f9b053d8436f96fef0da33e1598fa411a442c67c28831c98a6"
     },
     {
       "path": "experiments/P134_young_adult_chatbot_meta/REPRODUCE.md",
-      "bytes": 4575,
-      "sha256": "92676410f5a7bf2a5b0462daae171a87f511fd39ab5c2f339a13d8e3022f6c4d"
+      "bytes": 4809,
+      "sha256": "e588dbfb66c8cf5087a8db31254ce296c74cba2ba05ae5b95f3a7cf6ac497865"
     },
     {
       "path": "experiments/P134_young_adult_chatbot_meta/reproduce.py",
@@ -2393,13 +2393,13 @@
     },
     {
       "path": "experiments/P135_young_people_chatbot_meta/README.md",
-      "bytes": 7975,
-      "sha256": "faa51d15a9c78cbcf4a8f06c706270c09f83accce9db4667891b4d7aadb987f6"
+      "bytes": 9085,
+      "sha256": "1d502bdaf57f86b511648e0ed9ffa54f2fca50ab8209fc8efd67a0de8662d151"
     },
     {
       "path": "experiments/P135_young_people_chatbot_meta/REPRODUCE.md",
-      "bytes": 4610,
-      "sha256": "a518bfa9777fde80916a33d6cfe8091548f504f817aa3b38f3d7788058d836d3"
+      "bytes": 4844,
+      "sha256": "9f3d2f6a35a17eec3204edd2ec062f336581014781b7e67ee96e266dacd052e9"
     },
     {
       "path": "experiments/P135_young_people_chatbot_meta/reproduce.py",
@@ -2533,13 +2533,13 @@
     },
     {
       "path": "experiments/P150_psychiatric_bias/README.md",
-      "bytes": 6352,
-      "sha256": "4096a825c7906425902130f87919f494189b179dc1e0129ceca1a34d20670204"
+      "bytes": 7527,
+      "sha256": "8f35e218141153872bf0b4bd462ec332b970b1d9859a586814e8fc73be27887a"
     },
     {
       "path": "experiments/P150_psychiatric_bias/REPRODUCE.md",
-      "bytes": 4634,
-      "sha256": "8c5d750cf65bbe0e8963aa49a799edb3fb7d7605a60d7cec917133b4a917ce7e"
+      "bytes": 4868,
+      "sha256": "0844025ecc8477fcb9dd317eb5be603f079cc1b307363950273308edde75f10d"
     },
     {
       "path": "experiments/P150_psychiatric_bias/reproduce.py",
@@ -2643,13 +2643,13 @@
     },
     {
       "path": "experiments/P156_ai_agent_index/README.md",
-      "bytes": 6542,
-      "sha256": "7cd1456b2df63695fca5c59b6a30d199510c04a71f9591be25e5d704213cf881"
+      "bytes": 7693,
+      "sha256": "939f2a52807bce02a148b839c43e05e823e7619fd76d5194096b8a041a444d4f"
     },
     {
       "path": "experiments/P156_ai_agent_index/REPRODUCE.md",
-      "bytes": 4614,
-      "sha256": "fad312e0c7063a48dec9bb42be4f7f58c630dc3e27044b8b8a98af4804068c85"
+      "bytes": 4848,
+      "sha256": "60973e8a9671b5d2e26ed1efcc5867358a65ce4c5ee4658a8bdf14f8f586d256"
     },
     {
       "path": "experiments/P156_ai_agent_index/reproduce.py",
@@ -2838,13 +2838,13 @@
     },
     {
       "path": "experiments/P157_loop_think_generalize/README.md",
-      "bytes": 9335,
-      "sha256": "5efb6b29c6746367ec44d7e72bbf52c4d73035841ddacbb580c956c5fabb73ea"
+      "bytes": 10517,
+      "sha256": "53632ee471a1c80f35ac9637e0b6fb97236d472bf92f9bc05a6c71dc2849e53f"
     },
     {
       "path": "experiments/P157_loop_think_generalize/REPRODUCE.md",
-      "bytes": 6740,
-      "sha256": "bafc930080814e7d506f641852060bce3650adbaf6083fd4d504512526f35927"
+      "bytes": 6974,
+      "sha256": "d3cdab3877ee7cb58a4e2139e5e88caa8e8dc131ba90bebdb82be06fe4aa970c"
     },
     {
       "path": "experiments/P157_loop_think_generalize/reproduce.py",
@@ -2968,13 +2968,13 @@
     },
     {
       "path": "experiments/P161_ai_grading/README.md",
-      "bytes": 7516,
-      "sha256": "a84c3de9da355bb8ae9bab44205ef4871987399221bec1c7df66478ece7d4d23"
+      "bytes": 8728,
+      "sha256": "6869e95c5f2cb1e3ced67dcf47f32ee0c93f9ce4c8531b34394887ed97350788"
     },
     {
       "path": "experiments/P161_ai_grading/REPRODUCE.md",
-      "bytes": 5699,
-      "sha256": "6a31a5a3aa627ad6b9ad6307e3a5676f4a2c39f5bb88a870403e70ba40ae70d2"
+      "bytes": 5933,
+      "sha256": "9080852881e9c1358962ff6d1853dbc148a822365fcde79612356c3bd4cc8018"
     },
     {
       "path": "experiments/P161_ai_grading/reproduce.py",
@@ -3103,13 +3103,13 @@
     },
     {
       "path": "experiments/P165_mentalbench/README.md",
-      "bytes": 8772,
-      "sha256": "3007d13d78635c85ccf8c41c42a235079d006e4b6dfd833a53e1d93a3c47f866"
+      "bytes": 10190,
+      "sha256": "d36558edc2974c8ddd4d52b454013d3b9fa93c53beff07d8406c9097d5e10bbd"
     },
     {
       "path": "experiments/P165_mentalbench/REPRODUCE.md",
-      "bytes": 5552,
-      "sha256": "4fab5f465593b06c8455a320c541ab0ccbe8886363026e16ee746854ba71cb95"
+      "bytes": 5786,
+      "sha256": "b4c83ab0251129fea14fde4075a094b2799b337aa912143e13c76ab045804e72"
     },
     {
       "path": "experiments/P165_mentalbench/reproduce.py",
@@ -3158,33 +3158,33 @@
     },
     {
       "path": "METHODOLOGY.md",
-      "bytes": 4252,
-      "sha256": "2316c1f55092d041ce27c6284a064116d38cd73c0432b4c9108b97d6df15b3ec"
+      "bytes": 5441,
+      "sha256": "a53402e2b0130fe9a742124ed9f96882bc465897785c016e0ba6dd35089c00b1"
     },
     {
       "path": "PUBLICATION_CHECKS.json",
       "bytes": 4357,
-      "sha256": "f279bb2fc5e6e5c39e6a01618d2472145300ac665e4bd76777c27df5cb558e81"
+      "sha256": "63a21081394c536c43000aa8881c8c2879ff9eeb0ca57d6a8a10ac6cb287031b"
     },
     {
       "path": "READING_GUIDE.md",
-      "bytes": 3551,
-      "sha256": "7447e3ca42169ef4ded3b15a95080cc04658b1f6f9820ada023a85ba50fa4716"
+      "bytes": 4264,
+      "sha256": "c74c8dc2f85a3d4c311b814a0504741630eac7eebc45150c12993259176720fc"
     },
     {
       "path": "README.md",
-      "bytes": 11719,
-      "sha256": "6a5d2156a9a9c5eefa732b44cdaf5b68c5015e3914c6f206e02287af08e9b22b"
+      "bytes": 12278,
+      "sha256": "e32f3a6e239a897530a483eb05bfc4b5707c316ad70e194ebbd0f866c68a7c83"
     },
     {
       "path": "REPRODUCING.md",
-      "bytes": 2696,
-      "sha256": "915b329958e9712f05d817a30c326e8c10010a9634cf3389dc194445921452f3"
+      "bytes": 2926,
+      "sha256": "111b1ffdfd9237915eede4fe710e13dd8af27369311b7d127225baaffc08edd5"
     },
     {
       "path": "STUDIES.json",
-      "bytes": 21067,
-      "sha256": "526526f3dcb431281f75581251e92087e7f0f5965d93279a73315c81ffdb48b8"
+      "bytes": 28819,
+      "sha256": "42d319e2dc5f30ad58f942274e1f15718b83cf16474e2976c532db7857eaee32"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",

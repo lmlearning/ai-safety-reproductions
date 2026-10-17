@@ -22,6 +22,12 @@ A **confidence interval** describes the uncertainty in an estimated quantity und
 
 A **checkpoint** is a saved trained model. Running it on test examples is new inference, not new training. **Activations** are internal numerical measurements recorded while a model processes text. A **probe** is a small classifier trained on those measurements; successfully predicting a label does not establish what causes the larger model's behaviour.
 
+## What an unsuccessful or incomplete match establishes
+
+A failed comparison means that the reproduction programme did not recover the target within its stated scope and constraints. Available source data, historical settings, numerical precision, implementation choices and local resources limit what can be reconstructed; the cause of a mismatch may remain unknown. Such a result does not establish that the paper or its conclusions are invalid.
+
+A result that was not attempted, or could not be checked because inputs were unavailable, is untested by this programme. Historical failure labels apply to its checks, not to the paper. The recorded discrepancies remain visible so readers can assess the attempt.
+
 ## What a successful match establishes
 
 The outcome label applies to the complete central result described in that report. A **strict central reproduction** meets all its adopted criteria. A **near success** retains the earlier strict misses and explains the numerical discrepancy. P165 is separately qualified because material discrepancies remain. None is a claim that every experiment in its paper was repeated.

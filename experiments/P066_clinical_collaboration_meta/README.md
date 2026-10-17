@@ -2,6 +2,8 @@
 
 **Outcome: Strict central reproduction.** This is a central-result reproduction; whole-paper reproduction is not claimed.
 
+**Interpreting non-reproduction.** A failed comparison or unmatched result means that this reproduction programme did not recover that result within its stated scope and constraints, including the available inputs, methods, software and local resources. It does not establish that the paper or its conclusions are invalid. Work outside the attempted scope was not tested by this programme.
+
 [Paper / DOI](https://doi.org/10.1038/s41746-026-02382-2) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
 ## Study in plain language
@@ -12,11 +14,11 @@ The original authors asked whether clinicians working with a language model perf
 
 ### What the reproduction programme checked
 
-The reproduction programme used all seven comparisons in the authors’ released analysis code. The reproduction analysis independently recalculated study effects, pooled results, confidence and prediction intervals, weights, variation between studies and statistical tests for all three panels. All 63 numerical comparisons and six stated claims passed, as did 290 independent checks. An initial reproduction mismatch was traced to the source software’s numerical solver convention; matching that convention across every panel resolved it without changing the comparison limits.
+The reproduction programme used all seven comparisons in the authors’ released analysis code. The reproduction analysis independently recalculated study effects, pooled results, confidence and prediction intervals, weights, variation between studies and statistical tests for all three panels. All 63 numerical comparisons and six stated claims passed, as did 290 independent checks. The programme’s initial implementation missed one comparison; applying the source solver convention across every panel resolved it without changing the limits.
 
 ### What was reproduced and what it means
 
-The authors’ figure calculations reproduce, but a consequential source conflict remains. Following the authors’ released code, the reproduction analysis gives a composite-score improvement of about 4.88 percentage points, with an interval from 0.65 to 9.12. Applying the different interval method stated by the authors gives roughly −22.54 to 32.31, which includes no improvement. The programme preserves both results. The programme did not repeat the clinical trials or review process, and reproducing the figure does not resolve this disagreement or demonstrate clinical benefit.
+The programme reproduced the figure but could not reconcile the available source methods. Following the authors’ code gives a composite improvement of about 4.88 percentage points, interval 0.65 to 9.12. Applying the interval method stated in their prose gives roughly −22.54 to 32.31, including no improvement. Both results remain recorded. This unresolved reconstruction does not determine the paper’s validity. Repeating the trials or review was outside the programme’s scope; the reconstruction neither resolves this gap nor independently demonstrates clinical benefit.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
@@ -30,11 +32,13 @@ All seven contrasts, study effects, pooled results, intervals, prediction interv
 
 All 63 numerical comparisons, six claims and 290 independent checks pass after a documented source-defined solver correction. The composite-score estimate is 4.884471 percentage points, 95% CI [0.653519, 9.115423]. Accuracy/time confidence intervals and all three prediction intervals cross their nulls.
 
+**Limits of this reproduction:** The initial mismatch belonged to this programme's implementation and was resolved. The retained code, prose and interval conventions still do not fully identify the authors' historical setup. Those limits describe what the programme could reconstruct; they do not establish that the paper or its conclusions are invalid.
+
 ## Issues and omitted work
 
 The code uses a normal composite interval while the prose says HKSJ; HKSJ gives [-22.54430, 32.31324] and changes significance. Accuracy common-effect code also differs from the prose’s Mantel–Haenszel description.
 
-An initial 68/69 result used a more exact root solver than the source software. Reproducing the documented solver convention across every panel resolved this without changing targets or tolerances. The authors’ exact dependency version remains unknown; a separate audit line-ending repair changed no statistics.
+The programme's initial 68/69 comparison result used a different numerical root-solving convention from the source software. Reproducing the documented solver convention across every panel resolved this without changing targets or tolerances. The authors’ exact dependency version remains unknown; a separate audit line-ending repair changed no statistics.
 
 Trials, screening, risk-of-bias/GRADE and unavailable sensitivities were not repeated. Recovering the figure does not resolve its conflict with the Methods section or establish clinical benefit.
 
@@ -77,5 +81,7 @@ The folder also provides [a local artifact tool](reproduce.py), [input acquisiti
 
 - [root_review_P066-central-002.json](evidence/root_review_P066-central-002.json) — compact independent/ROOT success and closure decision
 - [ALL_SIX_EARLIEST_RELEASE_PROPOSED_DISPOSITIONS001.json](evidence/ALL_SIX_EARLIEST_RELEASE_PROPOSED_DISPOSITIONS001.json) — Final pinned execution/configuration/audit record
+
+Pass/fail labels and unmatched values in the linked historical records describe this programme's checks under its recorded constraints; they are not judgments on paper validity. Missing or unattempted components were not tested.
 
 The full included-file index is [PROVENANCE.json](PROVENANCE.json). The [historical report](evidence/HISTORICAL_REPORT.txt) preserves the counted report's original qualifications; old warehouse paths there are historical references rather than public download links. Published copies normalize workstation paths and UTF-8 encoding. Their hashes are recorded separately from the original archive hashes.

@@ -2,6 +2,8 @@
 
 **Outcome: Strict central reproduction.** This is a central-result reproduction; whole-paper reproduction is not claimed.
 
+**Interpreting non-reproduction.** A failed comparison or unmatched result means that this reproduction programme did not recover that result within its stated scope and constraints, including the available inputs, methods, software and local resources. It does not establish that the paper or its conclusions are invalid. Work outside the attempted scope was not tested by this programme.
+
 [Paper / DOI](https://doi.org/10.1093/bmb/ldaf017) · [arXiv](https://arxiv.org/abs/2602.05628) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
 ## Study in plain language
@@ -16,7 +18,7 @@ The reproduction programme started with all 13 published effect estimates and st
 
 ### What was reproduced and what it means
 
-The published central calculation is recoverable from its public inputs. Its confidence interval, about 0.54 to 1.20 standardized units, remains positive, but results vary greatly between studies. This concerns perceived empathy in the studied responses, not better medical decisions or patient outcomes. The reproduction programme did not repeat the literature search, assess the trials afresh or collect new responses and ratings.
+The programme reproduced the published central calculation from public inputs. Its confidence interval, about 0.54 to 1.20 standardized units, remains positive, but results vary greatly between studies. This concerns perceived empathy, not better medical decisions or patient outcomes. Repeating the literature search, reassessing trials and collecting responses or ratings were outside the programme’s scope, not attempted experiments that failed. This limited reconstruction does not determine the paper’s validity.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
@@ -29,6 +31,8 @@ All 13 published effect/standard-error inputs, overall and GPT-3.5/GPT-4 subgrou
 ## Agreement and differences
 
 All 97 original comparisons and 189 independent checks pass. Overall standardized mean difference is 0.871882, 95% CI [0.539217, 1.204548], matching 0.87 [0.54, 1.20]. GPT-3.5 is 0.509224 [-0.139022, 1.157470]; GPT-4 is 1.027394 [0.709252, 1.345535]. The between-subgroup difference remains nonsignificant.
+
+**Limits of this reproduction:** All selected comparisons passed. The underlying experiments, review process and empathy measurements were outside this attempt, so their absence from the reproduced scope is an untested area rather than a failed test or a judgment on the paper's validity.
 
 ## Issues and omitted work
 
@@ -74,5 +78,7 @@ The folder also provides [a local artifact tool](reproduce.py), [input acquisiti
 - [P065-central-001__source_manifest.json](results/P065-central-001__source_manifest.json) — successful original run/audit product, target comparison, figure or hash manifest
 
 - [ALL_SIX_EARLIEST_RELEASE_PROPOSED_DISPOSITIONS001.json](evidence/ALL_SIX_EARLIEST_RELEASE_PROPOSED_DISPOSITIONS001.json) — Final pinned execution/configuration/audit record
+
+Pass/fail labels and unmatched values in the linked historical records describe this programme's checks under its recorded constraints; they are not judgments on paper validity. Missing or unattempted components were not tested.
 
 The full included-file index is [PROVENANCE.json](PROVENANCE.json). The [historical report](evidence/HISTORICAL_REPORT.txt) preserves the counted report's original qualifications; old warehouse paths there are historical references rather than public download links. Published copies normalize workstation paths and UTF-8 encoding. Their hashes are recorded separately from the original archive hashes.

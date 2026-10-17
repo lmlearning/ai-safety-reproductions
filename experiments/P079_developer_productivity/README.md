@@ -2,6 +2,8 @@
 
 **Outcome: Near success.** This is a central-result reproduction; whole-paper reproduction is not claimed.
 
+**Interpreting non-reproduction.** A failed comparison or unmatched result means that this reproduction programme did not recover that result within its stated scope and constraints, including the available inputs, methods, software and local resources. It does not establish that the paper or its conclusions are invalid. Work outside the attempted scope was not tested by this programme.
+
 [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
 ## Study in plain language
@@ -16,7 +18,7 @@ The reproduction programme used all 246 completed tasks in the authors’ releas
 
 ### What was reproduced and what it means
 
-The reproduction analysis estimated a slowdown of 18.84%, matching the authors’ reported 18.8–19%. The result is a retrospective bounded near success: all 55 non-display targets retain their original passing limits, while all ten integer-displayed time summaries differ by less than one minute. Three still fail their old strict display checks, leaving 62/65 unchanged. All 1,782 independent checks pass. No new developer trial, current-assistant comparison or independent assessment of code quality was conducted; unreleased trial information and historical formatting choices remain unavailable.
+The reproduction analysis estimated a slowdown of 18.84%, matching the authors’ reported 18.8–19%. This is a retrospective bounded near success: all 55 non-display targets retain their original passing limits, while all ten integer-displayed time summaries differ by less than one minute. The programme could not match three under its old strict display checks, leaving 62/65 unchanged. All 1,782 independent checks pass. Those mismatches within its available inputs, methods and resources do not determine the paper’s validity. The programme did not attempt a new developer trial, current-assistant comparison or independent assessment of code quality; unreleased trial information and historical formatting choices remained unavailable to it.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
@@ -30,11 +32,13 @@ All 246 completed tasks, 16 developers, both trial arms, 65 original targets and
 
 Estimated slowdown with AI access is 18.8400%, consistent with the reported 18.8–19%. All 55 non-display targets retain their passing original limits. All ten integer-displayed completion-time summaries are within one minute; maximum error is 0.877005 minutes.
 
-All 1,782 independent checks, including 150,000 bootstrap draws, pass. The original three strict failures remain.
+All 1,782 independent checks, including 150,000 bootstrap draws, pass. The programme's original three strict comparison failures remain.
+
+**Limits of this reproduction:** The remaining strict misses concern this programme's recovery of displayed time summaries with unavailable historical formatting code and seed. Their cause is not established. Failure to match those displays within this setup does not establish that the paper or its conclusions are invalid.
 
 ## Issues and omitted work
 
-The display bound was initially described with the wrong unit. It is one original minute, not one percentage point; correcting wording did not rescale it. Historical formatting code/seed are unavailable; truncation is possible but unproven. Source data/code conflicts remain disclosed.
+The programme initially described its display bound with the wrong unit. It is one original minute, not one percentage point; correcting wording did not rescale it. Historical formatting code/seed are unavailable; truncation is possible but unproven. Source data/code conflicts remain disclosed.
 
 No new developer trial, current assistant test, expert quality review or unreleased-covariate reconstruction occurred. The central slowdown and uncertainty reproduce for this trial, not all AI coding use.
 
@@ -80,5 +84,7 @@ The folder also provides [a local artifact tool](reproduce.py), [input acquisiti
 
 - [ROOT_ADOPTED_P079_ARCHIVED_INTEGER_DISPLAY_NEAR_RULE923.json](evidence/ROOT_ADOPTED_P079_ARCHIVED_INTEGER_DISPLAY_NEAR_RULE923.json) — Final pinned execution/configuration/audit record
 - [INDEPENDENT_COMPLETE_P079_ARCHIVED_NEAR_SUPPORTED923_CPU002.json](evidence/INDEPENDENT_COMPLETE_P079_ARCHIVED_NEAR_SUPPORTED923_CPU002.json) — Final pinned execution/configuration/audit record
+
+Pass/fail labels and unmatched values in the linked historical records describe this programme's checks under its recorded constraints; they are not judgments on paper validity. Missing or unattempted components were not tested.
 
 The full included-file index is [PROVENANCE.json](PROVENANCE.json). The [historical report](evidence/HISTORICAL_REPORT.txt) preserves the counted report's original qualifications; old warehouse paths there are historical references rather than public download links. Published copies normalize workstation paths and UTF-8 encoding. Their hashes are recorded separately from the original archive hashes.

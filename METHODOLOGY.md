@@ -16,6 +16,14 @@ At the user's direction, small bounded discrepancies could count as near success
 
 No study claims whole-paper reproduction. Published statements outside the fixed central scope, unreleased software settings, source ambiguities, input rounding, missingness and unsupported mechanisms remain limitations. Agreement with a paper's arithmetic or figure does not independently establish the causal, clinical or policy validity of its conclusions.
 
+## Interpreting unsuccessful or incomplete reproduction
+
+A failed comparison, unmatched display or unrecovered result means that this programme did not reproduce that target within its stated constraints. The result depends on the inputs and source versions available, the reconstruction methods, historical software information, numerical precision and local resources. The cause of a mismatch may remain unknown. These outcomes do not establish that a paper, its methods or its conclusions are invalid.
+
+Reports retain numerical discrepancies, documented differences between source artifacts, programme implementation errors and unresolved questions so that readers can inspect what happened. A documented source difference is reported as a difference between the retained materials, without converting an unsuccessful reconstruction into a verdict on the paper's overall validity. Missing inputs or work outside the attempted scope are untested, rather than failed scientific findings.
+
+Historical pass/fail labels are the programme's comparison outcomes, not grades assigned to the paper. A successful numerical match likewise does not independently validate every aspect of a paper.
+
 ## Auditing and provenance
 
 The research retained source versions, configurations, seeds, execution records, comparison outputs and independently implemented mathematical/data checks. Independent here means separately implemented computational checks within the same AI-assisted programme; it does not mean independent human-laboratory replication or blinded review. Historical platform/process evidence differs across studies and is not a universal forensic certificate.

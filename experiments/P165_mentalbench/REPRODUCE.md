@@ -75,4 +75,4 @@ Original frozen guards, root authorizations and software/code hashes are retaine
 
 ## Read the recorded outcome
 
-[README.md](README.md) states the result and limitations. [PROVENANCE.json](PROVENANCE.json) inventories every selected source file with original and publication hashes. The scientific outcome is historical evidence; checking its bytes does not independently recompute it.
+[README.md](README.md) states the result and limitations. [PROVENANCE.json](PROVENANCE.json) inventories every selected source file with original and publication hashes. The scientific outcome is historical evidence; checking its bytes does not independently recompute it. Failed or unmatched results in these records mean that this programme did not recover a target under its stated constraints; they do not establish that the paper or its conclusions are invalid. Unattempted components remain untested.

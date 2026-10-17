@@ -2,6 +2,8 @@
 
 **Outcome: Near success.** This is a central-result reproduction; whole-paper reproduction is not claimed.
 
+**Interpreting non-reproduction.** A failed comparison or unmatched result means that this reproduction programme did not recover that result within its stated scope and constraints, including the available inputs, methods, software and local resources. It does not establish that the paper or its conclusions are invalid. Work outside the attempted scope was not tested by this programme.
+
 [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
 ## Study in plain language
@@ -16,11 +18,11 @@ The reproduction programme downloaded the authors’ saved measurements and resp
 
 ### What was reproduced and what it means
 
-This is a retrospective bounded near success. Prediction-metric errors were at most 0.007592 on a 0–1 scale; all graphical comparisons met the unchanged bound. All 6,083 independent checks passed. The original strict reproduction result remains 59/64, including documented corrections to two graph transcriptions. Tokens from one response can appear on both sides of the authors’ split, limiting generalization claims. The reproduction programme did not repeat model training, generate new responses, perform causal steering or obtain fresh external model judgments.
+The programme’s attempt is a retrospective bounded near success. Its prediction-metric differences were at most 0.007592 on a 0–1 scale; all graphical comparisons met the unchanged bound. All 6,083 independent checks passed. The programme’s strict result remains 59/64, including documented corrections to two of its graph transcriptions. Its inability to match every target with the available inputs, methods and resources does not determine the paper’s validity. Tokens from one response can appear on both sides of the authors’ split, limiting generalization claims. Model training, new responses, causal steering and fresh external model judgments were not attempted by the programme.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
-**Result.** The complete saved-activation probe study is a bounded near success, with all original failed flags preserved.
+**Result.** The complete saved-activation probe study is a bounded near success, with all of the programme's original failed comparison flags preserved.
 
 ## What was reproduced
 
@@ -28,7 +30,9 @@ All 897 responses, 55,386 tokens, nine layers, four classifier contrasts, 20 Tab
 
 ## Agreement and differences
 
-Maximum metric error is 0.007592365 on the 0–1 scale, within 0.010. All 36 graphical medians meet the unchanged 0.020 bound; maximum error is 0.014542980. All eight claims and 6,083 independent checks pass. The original strict result remains 59/64.
+Maximum metric error is 0.007592365 on the 0–1 scale, within 0.010. All 36 graphical medians meet the unchanged 0.020 bound; maximum error is 0.014542980. All eight claims and 6,083 independent checks pass. The programme's original strict comparison result remains 59/64.
+
+**Limits of this reproduction:** The retained strict misses are outcomes of this programme's comparison with saved activations and published summaries; two earlier misses arose from the programme's own graph transcriptions. The remaining limits and unmatched targets do not establish that the paper or its conclusions are invalid.
 
 ## Issues and omitted work
 
@@ -70,5 +74,7 @@ The folder also provides [a local artifact tool](reproduce.py), [input acquisiti
 
 - [INDEPENDENT_COMPLETE_P028_ARCHIVED_WHOLE_CENTRAL_NEAR_SUPPORT_RSTAT001.json](evidence/INDEPENDENT_COMPLETE_P028_ARCHIVED_WHOLE_CENTRAL_NEAR_SUPPORT_RSTAT001.json) — Final pinned execution/configuration/audit record
 - [ROOT_ADOPTED_P028_ARCHIVED_COMPLETE_CENTRAL_NEAR_RULE930.json](evidence/ROOT_ADOPTED_P028_ARCHIVED_COMPLETE_CENTRAL_NEAR_RULE930.json) — Final pinned execution/configuration/audit record
+
+Pass/fail labels and unmatched values in the linked historical records describe this programme's checks under its recorded constraints; they are not judgments on paper validity. Missing or unattempted components were not tested.
 
 The full included-file index is [PROVENANCE.json](PROVENANCE.json). The [historical report](evidence/HISTORICAL_REPORT.txt) preserves the counted report's original qualifications; old warehouse paths there are historical references rather than public download links. Published copies normalize workstation paths and UTF-8 encoding. Their hashes are recorded separately from the original archive hashes.

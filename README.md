@@ -8,6 +8,8 @@ The reproduced scopes concern AI evaluation, model reliability, emergent misalig
 
 ## Results at a glance
 
+**How to read unsuccessful results:** every failed comparison or unmatched result records what this reproduction programme could not recover within its scope, available inputs, methods, software and local resources. It does not establish that the original paper or its conclusions are invalid. Work outside the attempted scope was not tested.
+
 - **12 strict central reproductions:** all adopted central comparison criteria passed.
 - **8 near successes with quantitative error/precision support:** small discrepancies are disclosed alongside the original strict decisions.
 - **1 qualified near success (P165):** the central patterns reproduced, with material local mean/interval exceptions. This is not a uniform small-error match. Excluding this case still leaves **20** counted studies.
@@ -43,9 +45,9 @@ Click a paper title for what was done, the issues encountered, the exact reprodu
 | P103 | [Evidence of a social evaluation penalty for using AI](experiments/P103_social_evaluation/README.md) | Near success | Complete primary Study 1 anticipation and manipulation check | 78 (S2) | 2025-04-23 |
 | P109 | [Does Generative Artificial Intelligence Improve Students’ Higher-Order Thinking? A Meta-Analysis Based on 29 Experiments and Quasi-Experiments](experiments/P109_higher_order_thinking/README.md) | Near success | All 59 effects and 16 overall synthesis targets | 47 (S2) | 2025-12-05 |
 
-† P165's qualified classification and numerical exceptions are prominent in its report. Near-success classifications do not rewrite the original strict failures.
+† P165's qualified classification and numerical exceptions are prominent in its report. Near-success classifications do not rewrite the programme's original strict comparison failures. Those failures describe the reproduction attempt, without determining the validity of the paper.
 
-## How the programme selected and judged papers
+## How the programme selected papers and assessed reproductions
 
 The main selection window was **10 October 2025–10 October 2026**, with an explicit “or so” extension **10 April–9 October 2025**. The adopted citation gates were 20 in the main window and 40 in the extension. The final set has 9 main-window and 12 extended-window papers; retained counts range from 31 to 213. Counts from different providers were not combined. Exact citation-capture times are supported for 8 papers and unknown for 13. The dates reflect retained substantive-release evidence with stated limits, rather than an exhaustive proof of the first-ever public appearance.
 
@@ -73,7 +75,7 @@ This command checks file hashes. It does **not** execute or independently reprod
 
 ## Scope of this release
 
-This is a curated release of the 21 counted studies. It excludes unrelated unsuccessful candidate studies and machine-management records. Within these 21 studies, failed comparisons, repairs, scope amendments and unresolved source discrepancies remain part of the scientific account. The original research archive remains separate and unchanged; this release includes selected evidence rather than every raw array or every operational log.
+This is a curated release of the 21 counted studies. It excludes unrelated unsuccessful reproduction attempts and machine-management records. An unsuccessful attempt is not a finding that its source paper is invalid. Within these 21 studies, failed comparisons, repairs, scope amendments and unresolved source discrepancies remain part of the scientific account. The original research archive remains separate and unchanged; this release includes selected evidence rather than every raw array or every operational log.
 
 ## Licence
 

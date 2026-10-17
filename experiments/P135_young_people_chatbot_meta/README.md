@@ -2,6 +2,8 @@
 
 **Outcome: Strict central reproduction.** This is a central-result reproduction; whole-paper reproduction is not claimed.
 
+**Interpreting non-reproduction.** A failed comparison or unmatched result means that this reproduction programme did not recover that result within its stated scope and constraints, including the available inputs, methods, software and local resources. It does not establish that the paper or its conclusions are invalid. Work outside the attempted scope was not tested by this programme.
+
 [Paper / DOI](https://doi.org/10.1111/wvn.70059) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
 ## Study in plain language
@@ -16,7 +18,7 @@ The reproduction programme retained all 26 published effect summaries: 18 distre
 
 ### What was reproduced and what it means
 
-The published distress reduction and inconclusive wellbeing estimate are recoverable from the released summaries. That success does not extend to every supporting result: 190 supporting displays agree, 109 disagree and 32 are unavailable. Private unrounded inputs, covariance information and parts of the historical analysis remain unknown. The programme did not rerun the trials or systematic-review process. The reproduction verifies the declared central calculation, not independent clinical effectiveness or suitability of chatbot care.
+The programme reproduced the central distress and wellbeing summaries. With its available inputs and fixed method, it matched 190 supporting displays, could not match 109 and could not evaluate 32 unavailable displays. These outcomes do not determine the paper’s validity. Private unrounded inputs, covariance information and historical analysis details remained unavailable. Repeating trials and the systematic review was outside scope, not attempted failures. This is a central reconstruction, not independent clinical-effectiveness or care-suitability evidence.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
@@ -30,7 +32,9 @@ The analysis retains 18 distress effects from 11 trials and eight wellbeing effe
 
 All 50 primary comparisons and 26,724 independent comparisons pass. Distress is g=-0.279782453, 95% CI [-0.460642707, -0.098922199], matching -0.28 [-0.46, -0.10]. Wellbeing is 0.126241650 [-0.161469401, 0.413952700], matching 0.13 [-0.16, 0.41].
 
-Of 331 supporting displays, 190 agree, 32 are unavailable and 109 disagree. Central success does not promote them.
+Of 331 supporting displays, the programme matched 190, could not assess 32 because they were unavailable, and did not match 109 within its reconstruction. Central success does not change those outcomes.
+
+**Limits of this reproduction:** The programme did not recover all supporting displays from the available summaries and reconstruction conventions; some displays could not be checked at all. Private unrounded inputs, provenance and covariance were incomplete. These are limits of the reproduction attempt, without establishing that the paper or its conclusions are invalid.
 
 ## Issues and omitted work
 
@@ -79,5 +83,7 @@ The folder also provides [a local artifact tool](reproduce.py), [input acquisiti
 
 - [root_review_P135_complete_central_success001.json](evidence/root_review_P135_complete_central_success001.json) — compact independent/ROOT success and closure decision
 - [ALL_SIX_EARLIEST_RELEASE_PROPOSED_DISPOSITIONS001.json](evidence/ALL_SIX_EARLIEST_RELEASE_PROPOSED_DISPOSITIONS001.json) — Final pinned execution/configuration/audit record
+
+Pass/fail labels and unmatched values in the linked historical records describe this programme's checks under its recorded constraints; they are not judgments on paper validity. Missing or unattempted components were not tested.
 
 The full included-file index is [PROVENANCE.json](PROVENANCE.json). The [historical report](evidence/HISTORICAL_REPORT.txt) preserves the counted report's original qualifications; old warehouse paths there are historical references rather than public download links. Published copies normalize workstation paths and UTF-8 encoding. Their hashes are recorded separately from the original archive hashes.

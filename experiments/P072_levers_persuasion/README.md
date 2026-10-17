@@ -2,6 +2,8 @@
 
 **Outcome: Strict central reproduction.** This is a central-result reproduction; whole-paper reproduction is not claimed.
 
+**Interpreting non-reproduction.** A failed comparison or unmatched result means that this reproduction programme did not recover that result within its stated scope and constraints, including the available inputs, methods, software and local resources. It does not establish that the paper or its conclusions are invalid. Work outside the attempted scope was not tested by this programme.
+
 [Paper / DOI](https://doi.org/10.1126/science.aea3884) · [arXiv](https://arxiv.org/abs/2507.13919) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
 ## Study in plain language
@@ -16,7 +18,7 @@ The reproduction programme used the released participant records from all three 
 
 ### What was reproduced and what it means
 
-All 2,470 selected comparisons reproduced after a documented correction to which source script defined two designs. For example, dialogue-versus-static differences reproduced at about 2.94 and 3.60 percentage points in studies 1 and 3. These are changes in the study's attitude measure, not evidence that the arguments were true, that people changed their real-world behaviour, or that every kind of AI persuasion has the same effect. The paper's separate factual-accuracy and scaling analyses were outside this reproduction.
+All 2,470 selected comparisons reproduced after the programme corrected its mapping of two designs to the source scripts. The intermediate mismatches were reproduction errors and do not call the paper's validity into question. For example, dialogue-versus-static differences reproduced at about 2.94 and 3.60 percentage points in studies 1 and 3. These are changes in the study's attitude measure, not evidence that the arguments were true, that people changed their real-world behaviour, or that every kind of AI persuasion has the same effect. The paper's separate factual-accuracy and scaling analyses were outside this reproduction.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
@@ -30,9 +32,11 @@ Released participant data were used for all 93 selected supplementary tables, 64
 
 All 2,470 comparisons and 14,552 independent checks pass. Dialogue-versus-static effects are 2.93890 and 3.60093 percentage points in studies 1 and 3; the pooled information-prompt effect is 2.29300 points. Selected uncertainty, tests and counts also match their fixed precision.
 
+**Limits of this reproduction:** The intermediate misses arose from this programme's script mapping and serialization, and the final selected comparisons passed after repair. Those execution failures describe this reproduction attempt and make no judgment about the validity of the original studies.
+
 ## Issues and omitted work
 
-An intermediate 2,449/2,470 result mapped two study-2 designs to the wrong original script. The source-defined mapping was corrected without changing data, targets or tolerances; earlier serialization failures remain. Original duplicated controls, unclustered inference and code/caption filters were preserved.
+The programme's intermediate 2,449/2,470 result mapped two study-2 designs to the wrong original script. The source-defined mapping was corrected without changing data, targets or tolerances; earlier serialization failures remain. Original duplicated controls, unclustered inference and code/caption filters were preserved.
 
 New conversations, recruitment and model training were not repeated. Separate Bayesian scale/claim analyses, other scaling-curve syntheses, factual extraction, secondary statistics and private dialogue text are outside this scope. This is the complete selected policy-attitude family, not the full paper or a general claim about all AI persuasion.
 
@@ -77,5 +81,7 @@ The folder also provides [a local artifact tool](reproduce.py), [input acquisiti
 - [P072-central-003__model_statistics.json](results/P072-central-003__model_statistics.json) — successful original run/audit product, target comparison, figure or hash manifest
 
 - [root_review_P072-central-003.json](evidence/root_review_P072-central-003.json) — compact independent/ROOT success and closure decision
+
+Pass/fail labels and unmatched values in the linked historical records describe this programme's checks under its recorded constraints; they are not judgments on paper validity. Missing or unattempted components were not tested.
 
 The full included-file index is [PROVENANCE.json](PROVENANCE.json). The [historical report](evidence/HISTORICAL_REPORT.txt) preserves the counted report's original qualifications; old warehouse paths there are historical references rather than public download links. Published copies normalize workstation paths and UTF-8 encoding. Their hashes are recorded separately from the original archive hashes.

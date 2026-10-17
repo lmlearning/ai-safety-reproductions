@@ -2,6 +2,8 @@
 
 **Outcome: Near success.** This is a central-result reproduction; whole-paper reproduction is not claimed.
 
+**Interpreting non-reproduction.** A failed comparison or unmatched result means that this reproduction programme did not recover that result within its stated scope and constraints, including the available inputs, methods, software and local resources. It does not establish that the paper or its conclusions are invalid. Work outside the attempted scope was not tested by this programme.
+
 [arXiv](https://arxiv.org/abs/2604.07822) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
 ## Study in plain language
@@ -16,11 +18,11 @@ The reproduction programme evaluated the authors’ nine final checkpoints acros
 
 ### What was reproduced and what it means
 
-This is a bounded near success under limits fixed before the final outcome audit. The strict figure-interval rule remains 3,278/3,279: one cell lies 0.015625 percentage points outside its compatible range. All panel and cell near bounds pass, and the published claim interpretations remain compatible. The reproduction audit did not independently repeat every pass through the neural network. The reproduction programme did not retrain models or reproduce other seeds and figures; the result does not claim that more computation always helps or establish a universally optimal stopping depth.
+This is a bounded near success under limits fixed before the final outcome audit. The programme’s strict figure-interval result remains 3,278/3,279: one of its comparisons lies 0.015625 percentage points outside the compatible range. All panel and cell near bounds pass, and the published claim interpretations remain compatible. Its inability to match that cell with the available inputs, methods and resources does not determine the paper’s validity. The reproduction audit did not attempt an independent repeat of every neural-network pass. Retraining and other seeds and figures were also not attempted; the result does not claim that more computation always helps or establish a universally optimal stopping depth.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
-**Result.** The complete Figure 5 checkpoint evaluation is a bounded near success with one tiny source-figure discrepancy.
+**Result.** The complete Figure 5 checkpoint evaluation is a bounded near success with one tiny mismatch between the programme's evaluation and a source-compatible figure interval.
 
 ## What was reproduced
 
@@ -28,15 +30,17 @@ All nine original final checkpoints, 29,250 held-out examples, 40 fixed recurren
 
 ## Agreement and differences
 
-The old strict interval rule passes 3,278/3,279. The sole miss lies 0.015625 percentage points outside its source-compatible interval union. All panel means meet the prospective two-point bound, every cell the five-point maximum, and all four source-claim interpretations remain compatible.
+The old strict interval rule passes 3,278/3,279. The programme's sole strict comparison miss lies 0.015625 percentage points outside its source-compatible interval union. All panel means meet the prospective two-point bound, every cell the five-point maximum, and all four source-claim interpretations remain compatible.
 
 The conservative difference to any compatible source ordinate is at most 0.745833333 percentage points. This describes figure uncertainty; it is distinct from the 0.015625-point distance outside the interval. Unreleased author accuracies were not recovered.
+
+**Limits of this reproduction:** The remaining strict miss concerns this programme's comparison of checkpoint outputs with a range read from a figure; exact author accuracies were unavailable. Failure to place that cell inside the retained range does not establish that the paper, model or reasoning result is invalid.
 
 ## Issues and omitted work
 
 Seven verified complete CPU products were reused; full r8/r_dyn and both adaptive policies were completed on GPU. Partial r8 was excluded. Earlier stops/repairs remain archived. The whole audit checks predictions, logits, counters and adaptive rules but does not repeat every neural forward pass.
 
-Training, other seeds/figures and broad language-model claims are outside scope. No universal monotonicity or optimal-depth claim is added. Near bounds were fixed before these outcomes; the original strict conjunction remains false.
+Training, other seeds/figures and broad language-model claims are outside scope. No universal monotonicity or optimal-depth claim is added. Near bounds were fixed before these outcomes; the programme's original strict all-target comparison remains unmet.
 
 ## Paper and selection
 
@@ -90,5 +94,7 @@ The folder also provides [a local artifact tool](reproduce.py), [input acquisiti
 - [ROOT_CLOSED_ALL9_FIXED_AND_BOTH_ADAPTIVE_WHOLE_INPUT_QUALIFICATION1011.json](evidence/ROOT_CLOSED_ALL9_FIXED_AND_BOTH_ADAPTIVE_WHOLE_INPUT_QUALIFICATION1011.json) — Final pinned execution/configuration/audit record
 - [ROOT_ACCEPTED_COMPLETE_C1_C4_SOURCE_BOUND_COMPATIBILITY1012.json](evidence/ROOT_ACCEPTED_COMPLETE_C1_C4_SOURCE_BOUND_COMPATIBILITY1012.json) — Final pinned execution/configuration/audit record
 - [ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json](evidence/ROOT_ACTUAL_P157_AUDIT007_EXTERNAL_TOOL_NATIVE_AND_PRODUCTS_CLOSURE1010.json) — Final pinned execution/configuration/audit record
+
+Pass/fail labels and unmatched values in the linked historical records describe this programme's checks under its recorded constraints; they are not judgments on paper validity. Missing or unattempted components were not tested.
 
 The full included-file index is [PROVENANCE.json](PROVENANCE.json). The [historical report](evidence/HISTORICAL_REPORT.txt) preserves the counted report's original qualifications; old warehouse paths there are historical references rather than public download links. Published copies normalize workstation paths and UTF-8 encoding. Their hashes are recorded separately from the original archive hashes.

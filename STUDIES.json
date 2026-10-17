@@ -4,6 +4,7 @@
   "bounded_or_precision_supported_near": 8,
   "qualified_near": 1,
   "whole_paper_reproductions": 0,
+  "interpretation_of_non_reproduction": "A failed comparison or unmatched result means that this reproduction programme did not recover that result within its stated scope and constraints, including the available inputs, methods, software and local resources. It does not establish that the paper or its conclusions are invalid. Work outside the attempted scope was not tested by this programme.",
   "studies": [
     {
       "ordinal": 1,
@@ -20,7 +21,8 @@
       "DOI": null,
       "arxiv_id": "2511.21140",
       "preserved_limits": "Central scope amended after full attempt failed, then confirmed with fresh fixed seeds. Duplicated m=200 published references and full failures preserved; no machine proof or real LLM experiment.",
-      "report": "experiments/P041_judge_reporting/README.md"
+      "report": "experiments/P041_judge_reporting/README.md",
+      "non_reproduction_interpretation": "The programme did not recover the full appendix comparison within the retained code, reference figures and simulation setup. The duplicated references document the materials compared, while the failed checks describe this attempt; neither is treated here as a verdict on the validity of the paper or its mathematical results."
     },
     {
       "ordinal": 2,
@@ -37,7 +39,8 @@
       "DOI": "10.1093/bmb/ldaf017",
       "arxiv_id": "2602.05628",
       "preserved_limits": "Date corrected from journal20Oct to public medRxiv9Jun; extension40 met by retained79. Rounded effect/SE inputs, not original review screening/constituent experiments.",
-      "report": "experiments/P065_empathy_meta_analysis/README.md"
+      "report": "experiments/P065_empathy_meta_analysis/README.md",
+      "non_reproduction_interpretation": "All selected comparisons passed. The underlying experiments, review process and empathy measurements were outside this attempt, so their absence from the reproduced scope is an untested area rather than a failed test or a judgment on the paper's validity."
     },
     {
       "ordinal": 3,
@@ -54,7 +57,8 @@
       "DOI": "10.1038/s41746-026-02382-2",
       "arxiv_id": null,
       "preserved_limits": "Retained public-code date15Nov; creation14Nov alone does not prove public access, but either is main-window. GRADE, screening and unavailable sensitivities not repeated.",
-      "report": "experiments/P066_clinical_collaboration_meta/README.md"
+      "report": "experiments/P066_clinical_collaboration_meta/README.md",
+      "non_reproduction_interpretation": "The initial mismatch belonged to this programme's implementation and was resolved. The retained code, prose and interval conventions still do not fully identify the authors' historical setup. Those limits describe what the programme could reconstruct; they do not establish that the paper or its conclusions are invalid."
     },
     {
       "ordinal": 4,
@@ -71,7 +75,8 @@
       "DOI": "10.1038/s41591-025-04074-y",
       "arxiv_id": "2504.18919",
       "preserved_limits": "Original released human responses reanalysed; no new recruitment, model-only or interaction analyses. Source inconsistencies/serialization repair disclosed.",
-      "report": "experiments/P068_medical_assistant_rct/README.md"
+      "report": "experiments/P068_medical_assistant_rct/README.md",
+      "non_reproduction_interpretation": "All selected comparisons passed. The repaired serialization failure was an execution problem in this programme. Unavailable historical seeds and omitted analyses limit what was checked; they are not findings against the validity of the paper."
     },
     {
       "ordinal": 5,
@@ -88,7 +93,8 @@
       "DOI": "10.1126/science.aea3884",
       "arxiv_id": "2507.13919",
       "preserved_limits": "18Jul paper is positively identified; earlier4Jul empirical commit public-push timing UNKNOWN, still in extension if public. Selected original primary policy-attitude family; no Bayesian scale/claim/dialogue or secondary informativeness. September count-table extension declared before outcomes.",
-      "report": "experiments/P072_levers_persuasion/README.md"
+      "report": "experiments/P072_levers_persuasion/README.md",
+      "non_reproduction_interpretation": "The intermediate misses arose from this programme's script mapping and serialization, and the final selected comparisons passed after repair. Those execution failures describe this reproduction attempt and make no judgment about the validity of the original studies."
     },
     {
       "ordinal": 6,
@@ -105,7 +111,8 @@
       "DOI": null,
       "arxiv_id": "2601.20245",
       "preserved_limits": "28Jan v1 is identified public report. Earlier15Aug outcome-data commit public visibility UNKNOWN; count42 also clears extension40 if earlier artifact public. Pilots/qualitative personas unavailable; historical bootstrap seed uncertain.",
-      "report": "experiments/P080_ai_skill_formation/README.md"
+      "report": "experiments/P080_ai_skill_formation/README.md",
+      "non_reproduction_interpretation": "The programme recovered the selected trial statistics but could not reconcile every prose description or recover the separate qualitative analysis from the available material. Those limits concern this attempt's scope and source access; they do not determine the validity of the paper."
     },
     {
       "ordinal": 7,
@@ -122,7 +129,8 @@
       "DOI": "10.1038/s41746-026-02428-5",
       "arxiv_id": "2507.18905",
       "preserved_limits": "Original responses/human judgments reanalysed, not regenerated; original source inconsistencies retained.",
-      "report": "experiments/P120_patient_question_safety/README.md"
+      "report": "experiments/P120_patient_question_safety/README.md",
+      "non_reproduction_interpretation": "All selected comparisons passed. The repaired export issue belonged to the programme, and alternative diagnostic results were not substitutes for the authors' analysis. Unavailable generation details and unattempted fresh ratings limit this reproduction's scope, without determining the validity of the paper."
     },
     {
       "ordinal": 8,
@@ -139,7 +147,8 @@
       "DOI": "10.2196/79850",
       "arxiv_id": null,
       "preserved_limits": "Publisher confirms public preprint30Jun. Complete11-family145-row synthesis; no new screening or constituent human trials.",
-      "report": "experiments/P134_young_adult_chatbot_meta/README.md"
+      "report": "experiments/P134_young_adult_chatbot_meta/README.md",
+      "non_reproduction_interpretation": "The supporting displays that did not match were unsuccessful comparisons in this programme, with limits including unavailable subgroup assignments, covariance and auxiliary implementation details. Their cause is not fully established. They do not, by themselves, determine the validity of the paper or its conclusions."
     },
     {
       "ordinal": 9,
@@ -156,7 +165,8 @@
       "DOI": "10.1186/s12909-025-07750-2",
       "arxiv_id": null,
       "preserved_limits": "19Aug publisher release retained; received/protocol dates not public empirical-report proof. No constituent trials/full review rerun.",
-      "report": "experiments/P132_medical_teaching_rct_meta/README.md"
+      "report": "experiments/P132_medical_teaching_rct_meta/README.md",
+      "non_reproduction_interpretation": "All selected comparisons passed. The programme could not independently recover participant histories, every source assignment or the original unrounded analysis project. Those areas were not validated by this attempt, and their absence is not a finding that the paper or its conclusions are invalid."
     },
     {
       "ordinal": 10,
@@ -173,7 +183,8 @@
       "DOI": "10.1111/wvn.70059",
       "arxiv_id": null,
       "preserved_limits": "Human trials, screening, private unrounded inputs and covariance unavailable; all supporting disagreements remain.",
-      "report": "experiments/P135_young_people_chatbot_meta/README.md"
+      "report": "experiments/P135_young_people_chatbot_meta/README.md",
+      "non_reproduction_interpretation": "The programme did not recover all supporting displays from the available summaries and reconstruction conventions; some displays could not be checked at all. Private unrounded inputs, provenance and covariance were incomplete. These are limits of the reproduction attempt, without establishing that the paper or its conclusions are invalid."
     },
     {
       "ordinal": 11,
@@ -190,7 +201,8 @@
       "DOI": "10.3389/fmed.2025.1681784",
       "arxiv_id": null,
       "preserved_limits": "Original human studies/search/qualitative synthesis/exact author settings unavailable; complete central prevalence synthesis only.",
-      "report": "experiments/P133_nursing_ai_meta/README.md"
+      "report": "experiments/P133_nursing_ai_meta/README.md",
+      "non_reproduction_interpretation": "The programme did not match every supporting display under its source-supported reconstruction; the authors' exact transformation and settings were unavailable. These unsuccessful comparisons describe the limits of that reconstruction and do not establish that the paper or its supporting conclusions are invalid."
     },
     {
       "ordinal": 12,
@@ -207,7 +219,8 @@
       "DOI": "10.1038/s41746-025-01746-4",
       "arxiv_id": null,
       "preserved_limits": "4Jun positive public release; earlier removed OSF substantive findings UNKNOWN. Designated complete160-rating Table9 result; historical generation/rater-agreement/pilot/power unavailable.",
-      "report": "experiments/P150_psychiatric_bias/README.md"
+      "report": "experiments/P150_psychiatric_bias/README.md",
+      "non_reproduction_interpretation": "The programme could not obtain one reconstruction matching every descriptive target across the retained source variants and unknown display conventions. The recorded source differences and unsuccessful matches remain unresolved within this attempt; they do not establish that the paper or its conclusions are invalid."
     },
     {
       "ordinal": 13,
@@ -224,7 +237,8 @@
       "DOI": null,
       "arxiv_id": null,
       "preserved_limits": "Distinct execution-study public25Jun, not2024 idea-only predecessor/prospective plan. No fresh ideas/projects/recruitment/review; stable reviewer-ID/historical custody limits retained.",
-      "report": "experiments/P069_ideation_execution/README.md"
+      "report": "experiments/P069_ideation_execution/README.md",
+      "non_reproduction_interpretation": "The programme could not match the remaining mean-gap summaries at the original precision with the released reviews and available calculation history. Their producer arithmetic remains unresolved. This records a limitation of the reproduction attempt, without determining whether the paper or its conclusions are valid."
     },
     {
       "ordinal": 14,
@@ -241,7 +255,8 @@
       "DOI": null,
       "arxiv_id": null,
       "preserved_limits": "No fresh developer trial. Unit-wording pp-to-minutes correction did not rescale the original1.0 numeric display bound; all old failures retained.",
-      "report": "experiments/P079_developer_productivity/README.md"
+      "report": "experiments/P079_developer_productivity/README.md",
+      "non_reproduction_interpretation": "The remaining strict misses concern this programme's recovery of displayed time summaries with unavailable historical formatting code and seed. Their cause is not established. Failure to match those displays within this setup does not establish that the paper or its conclusions are invalid."
     },
     {
       "ordinal": 15,
@@ -258,7 +273,8 @@
       "DOI": null,
       "arxiv_id": null,
       "preserved_limits": "Saved original activations plus fresh classifier fits; no fresh base-model generation or causal steering. Old5 failures and prior graphical transcription errors explicit.",
-      "report": "experiments/P028_convergent_em/README.md"
+      "report": "experiments/P028_convergent_em/README.md",
+      "non_reproduction_interpretation": "The retained strict misses are outcomes of this programme's comparison with saved activations and published summaries; two earlier misses arose from the programme's own graph transcriptions. The remaining limits and unmatched targets do not establish that the paper or its conclusions are invalid."
     },
     {
       "ordinal": 16,
@@ -275,7 +291,8 @@
       "DOI": "10.22521/edupij.2025.19.591",
       "arxiv_id": null,
       "preserved_limits": "Publisher monthDec2025 is known; exact day not supplied here. EarlierSept repository raw ratings/instruments lack aggregate study results. Fixed original N90 criterion6/N91 elsewhere; noncentral/support failures not promoted.",
-      "report": "experiments/P161_ai_grading/README.md"
+      "report": "experiments/P161_ai_grading/README.md",
+      "non_reproduction_interpretation": "The strict misses and unmatched supporting results describe this programme's recovery from released grading records, with incomplete producer information for some supporting outputs. Fresh grading was not attempted. These limits do not establish that the paper or its grading-agreement findings are invalid."
     },
     {
       "ordinal": 17,
@@ -292,7 +309,8 @@
       "DOI": null,
       "arxiv_id": null,
       "preserved_limits": "Distinct2025 measurement wave released19Feb2026, not earlier index wave. Reanalyses author codes, not independent reannotation or updated website; caption label reversal/unavailable14-word mean remain.",
-      "report": "experiments/P156_ai_agent_index/README.md"
+      "report": "experiments/P156_ai_agent_index/README.md",
+      "non_reproduction_interpretation": "The programme did not exactly match all published counts and captions from the released annotations, and the original count-producing steps and auxiliary mean were unavailable. These limits describe the attempted reconstruction; they are not a judgment on the validity of the paper or its transparency findings."
     },
     {
       "ordinal": 18,
@@ -309,7 +327,8 @@
       "DOI": null,
       "arxiv_id": "2510.19032",
       "preserved_limits": "Exact first S2 HTTP captureUTC UNKNOWN; known-by782 retention, not proven as-of10Oct. EarlierAug8 repository commit is not public-visibility proof; earlier title alias retained. All1,150 diagnostics/254 source-role UNKNOWNs and6 status changes retained. Canonical paper-date CSV missingness; raw-workbook10 human cells not filled. Released single human reference, three-expert aggregation producer unverified.",
-      "report": "experiments/P165_mentalbench/README.md"
+      "report": "experiments/P165_mentalbench/README.md",
+      "non_reproduction_interpretation": "The programme did not recover every mean and interval within the original criteria using the released ratings, aggregated human reference and available preprocessing history. The material errors remain disclosed, but their cause is unresolved. They describe the limits of this attempt, not a finding that the paper or its conclusions are invalid."
     },
     {
       "ordinal": 19,
@@ -326,7 +345,8 @@
       "DOI": null,
       "arxiv_id": "2604.07822",
       "preserved_limits": "All9 checkpoints/fixed recurrences/both adaptive policies; whole audit did not rerun all neural forwards. Figure-derived interval agreement, unreleased raw author accuracies unavailable; conservative any-compatible-source bound .745833333pp is descriptive1014. Training/other seeds/figures excluded. Earlier operational failures/direct-only custody limits retained.",
-      "report": "experiments/P157_loop_think_generalize/README.md"
+      "report": "experiments/P157_loop_think_generalize/README.md",
+      "non_reproduction_interpretation": "The remaining strict miss concerns this programme's comparison of checkpoint outputs with a range read from a figure; exact author accuracies were unavailable. Failure to place that cell inside the retained range does not establish that the paper, model or reasoning result is invalid."
     },
     {
       "ordinal": 20,
@@ -343,7 +363,8 @@
       "DOI": "10.1073/pnas.2426766122",
       "arxiv_id": null,
       "preserved_limits": "Retrospective user-directed near classification; strict107/108 unchanged. Plausible double rounding is not proven author procedure. Historical native/resource evidence is retained with its limits. Later studies, hiring/mediation/perception/norms/Pollfish omitted before outcomes; no FULL.",
-      "report": "experiments/P103_social_evaluation/README.md"
+      "report": "experiments/P103_social_evaluation/README.md",
+      "non_reproduction_interpretation": "The strict miss belongs to this programme's comparison of a displayed degrees-of-freedom value. Its historical rounding procedure is unknown, and earlier execution failures belonged to the programme. These outcomes describe what could be recovered within this setup, without establishing that the paper or its conclusions are invalid."
     },
     {
       "ordinal": 21,
@@ -360,7 +381,8 @@
       "DOI": "10.3390/jintelligence13120160",
       "arxiv_id": null,
       "preserved_limits": "Retrospective near; old width failure and all source contradictions retained. Printed input rounding, unknown unrounded effect dependence/author tau settings; DL inferred before outcomes, not proven CMA settings. Marginal rounding boxes do not prove a single joint unrounded dataset. Original trials, search and four moderator families omitted before outcomes; no FULL.",
-      "report": "experiments/P109_higher_order_thinking/README.md"
+      "report": "experiments/P109_higher_order_thinking/README.md",
+      "non_reproduction_interpretation": "The failed strict check concerns the programme's rounding-envelope width criterion; the published test statistic remains inside that envelope. Unrounded inputs and historical software settings were unavailable. This is a limit of the attempted precision reconstruction, not a finding that the paper or its pooled result is invalid."
     }
   ]
 }

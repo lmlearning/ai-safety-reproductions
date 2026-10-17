@@ -2,6 +2,8 @@
 
 **Outcome: Strict central reproduction.** This is a central-result reproduction; whole-paper reproduction is not claimed.
 
+**Interpreting non-reproduction.** A failed comparison or unmatched result means that this reproduction programme did not recover that result within its stated scope and constraints, including the available inputs, methods, software and local resources. It does not establish that the paper or its conclusions are invalid. Work outside the attempted scope was not tested by this programme.
+
 [Paper / DOI](https://doi.org/10.1038/s41591-025-04074-y) · [arXiv](https://arxiv.org/abs/2504.18919) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
 ## Study in plain language
@@ -16,7 +18,7 @@ The reproduction programme analysed the released answers, rather than recruiting
 
 ### What was reproduced and what it means
 
-The selected scoring and statistical results reproduced. In these released data, relevant-condition identification was about 32–35% in the AI-assisted groups versus 47% in control. That is a finding about this experiment and its scoring rules, not a new clinical test or a measure of actual patient harm. The report also retains the source-analysis problems described below; reproducing a calculation does not make its assumptions correct.
+The selected scoring and statistical results reproduced. In these released data, relevant-condition identification was about 32–35% in the AI-assisted groups versus 47% in control. That is a finding about this experiment and its scoring rules, not a new clinical test or a measure of actual patient harm. The report also retains the source-analysis limitations described below. Reproducing a calculation does not independently validate its assumptions; equally, limits of this reproduction do not establish that the paper is invalid.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
@@ -32,9 +34,11 @@ All 12,000 scoring comparisons, 103 summary comparisons and 29,318 independent c
 
 The historical bootstrap seed is unavailable. A fixed disclosed seed was used with the original 0.02 stochastic endpoint allowance; deterministic comparisons retain separate precision limits.
 
+**Limits of this reproduction:** All selected comparisons passed. The repaired serialization failure was an execution problem in this programme. Unavailable historical seeds and omitted analyses limit what was checked; they are not findings against the validity of the paper.
+
 ## Issues and omitted work
 
-The source fuzzy-matching and response-level assumptions were preserved, including participants with multiple responses. An initial serialization failure was repaired without changing scientific methods or targets.
+The source fuzzy-matching and response-level assumptions were preserved, including participants with multiple responses. An initial serialization failure in the programme was repaired without changing scientific methods or targets.
 
 No new recruitment, conversations or model inference occurred. Separate model-only, simulated-user, interaction/precision, trust/demographic and appendix analyses were omitted. This reproduces released trial statistics, not a new clinical deployment test or patient-harm estimate.
 
@@ -78,5 +82,7 @@ The folder also provides [a local artifact tool](reproduce.py), [input acquisiti
 - [P068-central-002__targets.json](results/P068-central-002__targets.json) — successful original run/audit product, target comparison, figure or hash manifest
 
 - [root_review_P068-central-002.json](evidence/root_review_P068-central-002.json) — compact independent/ROOT success and closure decision
+
+Pass/fail labels and unmatched values in the linked historical records describe this programme's checks under its recorded constraints; they are not judgments on paper validity. Missing or unattempted components were not tested.
 
 The full included-file index is [PROVENANCE.json](PROVENANCE.json). The [historical report](evidence/HISTORICAL_REPORT.txt) preserves the counted report's original qualifications; old warehouse paths there are historical references rather than public download links. Published copies normalize workstation paths and UTF-8 encoding. Their hashes are recorded separately from the original archive hashes.

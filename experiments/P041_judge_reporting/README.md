@@ -2,6 +2,8 @@
 
 **Outcome: Strict central reproduction.** This is a central-result reproduction; whole-paper reproduction is not claimed.
 
+**Interpreting non-reproduction.** A failed comparison or unmatched result means that this reproduction programme did not recover that result within its stated scope and constraints, including the available inputs, methods, software and local resources. It does not establish that the paper or its conclusions are invalid. Work outside the attempted scope was not tested by this programme.
+
 [arXiv](https://arxiv.org/abs/2511.21140) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
 ## Study in plain language
@@ -16,11 +18,11 @@ The reproduction programme generated artificial correct/incorrect answers and ju
 
 ### What was reproduced and what it means
 
-The main figure's numerical behaviour reproduced within the fixed error bounds. This supports the recoverability of that simulation, rather than demonstrating that a real language-model judge works reliably. The broader appendix did not fully reproduce: eight smaller-budget reference figures duplicate larger-budget figures. The central-only scope was adopted after that failure and then checked with new fixed random seeds. Those limitations remain in the detailed results below.
+The main figure's numerical behaviour reproduced within the fixed error bounds. This supports the recoverability of that simulation, rather than demonstrating that a real language-model judge works reliably. The programme did not fully reproduce the broader appendix within its available setup: eight smaller-budget reference figures duplicate larger-budget figures. The central-only scope was adopted after that reproduction failure and then checked with new fixed random seeds. Those limitations remain in the detailed results below. This unsuccessful broader attempt does not establish that the paper or its results are invalid.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
-**Result.** The main Figure 4 simulation was reproduced. The full empirical attempt did not pass.
+**Result.** The main Figure 4 simulation was reproduced. The programme's full empirical reproduction attempt did not pass its comparison criteria.
 
 ## What was reproduced
 
@@ -30,11 +32,13 @@ Fresh CPU simulations covered all 21 true-accuracy values, all 84 central covera
 
 Maximum coverage errors were 0.0052334 and 0.0039334, within the fixed 0.020 bound. Maximum interval-length errors were 0.0006102 and 0.0005166, within 0.005. All 42 single-trial comparisons passed their 0.00001 bound.
 
-The full experiment still fails 336/1,344 plotted comparisons: all eight m=200 interval-length references duplicate their m=500 counterparts. Those failures are retained.
+The programme did not reproduce 336/1,344 full-scope plotted comparisons within the available setup: all eight m=200 interval-length references duplicate their m=500 counterparts. Those unsuccessful reproduction checks are retained.
+
+**Limits of this reproduction:** The programme did not recover the full appendix comparison within the retained code, reference figures and simulation setup. The duplicated references document the materials compared, while the failed checks describe this attempt; neither is treated here as a verdict on the validity of the paper or its mathematical results.
 
 ## Issues and omitted work
 
-The central-only scope was adopted after the full failure, then confirmed with three fresh fixed seeds. This is a disclosed post-result scope amendment. Source algorithm/code differences and clipping were preserved. Adaptive intervals are not shorter at every accuracy level.
+The central-only scope was adopted after the unsuccessful full reproduction attempt, then confirmed with three fresh fixed seeds. This is a disclosed post-result scope amendment. Source algorithm/code differences and clipping were preserved. Adaptive intervals are not shorter at every accuracy level.
 
 No real LLM judge inference or machine-checked proof was performed. The result recovers an imperfect-judge simulation, not real-world judge reliability or the full appendix.
 
@@ -78,5 +82,7 @@ The folder also provides [a local artifact tool](reproduce.py), [input acquisiti
 - [P041-central-002__n1000_m200_q0-70_q1-90.png](results/P041-central-002__n1000_m200_q0-70_q1-90.png) — successful original run/audit product, target comparison, figure or hash manifest
 
 - [audit_P041-central-002.json](evidence/audit_P041-central-002.json) — compact independent/ROOT success and closure decision
+
+Pass/fail labels and unmatched values in the linked historical records describe this programme's checks under its recorded constraints; they are not judgments on paper validity. Missing or unattempted components were not tested.
 
 The full included-file index is [PROVENANCE.json](PROVENANCE.json). The [historical report](evidence/HISTORICAL_REPORT.txt) preserves the counted report's original qualifications; old warehouse paths there are historical references rather than public download links. Published copies normalize workstation paths and UTF-8 encoding. Their hashes are recorded separately from the original archive hashes.

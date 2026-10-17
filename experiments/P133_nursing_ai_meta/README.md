@@ -2,6 +2,8 @@
 
 **Outcome: Strict central reproduction.** This is a central-result reproduction; whole-paper reproduction is not claimed.
 
+**Interpreting non-reproduction.** A failed comparison or unmatched result means that this reproduction programme did not recover that result within its stated scope and constraints, including the available inputs, methods, software and local resources. It does not establish that the paper or its conclusions are invalid. Work outside the attempted scope was not tested by this programme.
+
 [Paper / DOI](https://doi.org/10.3389/fmed.2025.1681784) · [Source and acquisition records](INPUTS.json) · [Programme overview](../../README.md)
 
 ## Study in plain language
@@ -16,7 +18,7 @@ The reproduction programme retained all 43 reported rows from 18 studies: 15 for
 
 ### What was reproduced and what it means
 
-The three declared central figures reproduce, but the wider analysis does not uniformly agree: only 19 of 114 supporting displays match. The authors’ exact software settings are unavailable, so the reproduction programme fixed its source-supported method before calculation rather than claiming recovered history. The programme did not repeat the underlying studies, literature screening or qualitative synthesis. These results do not validate every subgroup conclusion, resolve source inconsistencies or establish clinical competence.
+The programme reproduced the three central figures but matched only 19 of 114 supporting displays under its available inputs and fixed method. Those unmatched comparisons do not determine the paper’s validity. The authors’ exact software settings were unavailable, so the programme fixed a source-supported method before calculation, not a recovered historical setup. Repeating the underlying studies, screening or qualitative synthesis was outside scope. Subgroup and source inconsistencies remain unresolved by this reconstruction; it was not a clinical-competence test.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
@@ -30,7 +32,9 @@ All 43 rows across 18 studies remain: awareness 15, attitude 16 and implementati
 
 All central comparisons and 312,782 independent comparisons pass. Recreated random prevalences are awareness 0.73 [0.64, 0.81], attitude 0.71 [0.63, 0.78] and implementation 0.67 [0.55, 0.78]. High heterogeneity also matches.
 
-Only 19/114 supporting displays agree; all 95 disagreements remain explicit.
+The programme matched only 19/114 supporting displays with its reconstruction; all 95 unsuccessful comparisons remain explicit.
+
+**Limits of this reproduction:** The programme did not match every supporting display under its source-supported reconstruction; the authors' exact transformation and settings were unavailable. These unsuccessful comparisons describe the limits of that reconstruction and do not establish that the paper or its supporting conclusions are invalid.
 
 ## Issues and omitted work
 
@@ -86,5 +90,7 @@ The folder also provides [a local artifact tool](reproduce.py), [input acquisiti
 
 - [root_review_P133_complete_central_success001.json](evidence/root_review_P133_complete_central_success001.json) — compact independent/ROOT success and closure decision
 - [ALL_SIX_EARLIEST_RELEASE_PROPOSED_DISPOSITIONS001.json](evidence/ALL_SIX_EARLIEST_RELEASE_PROPOSED_DISPOSITIONS001.json) — Final pinned execution/configuration/audit record
+
+Pass/fail labels and unmatched values in the linked historical records describe this programme's checks under its recorded constraints; they are not judgments on paper validity. Missing or unattempted components were not tested.
 
 The full included-file index is [PROVENANCE.json](PROVENANCE.json). The [historical report](evidence/HISTORICAL_REPORT.txt) preserves the counted report's original qualifications; old warehouse paths there are historical references rather than public download links. Published copies normalize workstation paths and UTF-8 encoding. Their hashes are recorded separately from the original archive hashes.
