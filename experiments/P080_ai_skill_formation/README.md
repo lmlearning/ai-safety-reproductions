@@ -6,15 +6,15 @@
 
 ## Study in plain language
 
-### The question
+### What the original authors studied
 
-Getting a programming task finished and learning the underlying skill are different outcomes. The original trial asked how access to an AI assistant affected what experienced Python users learned while using the unfamiliar Trio asynchronous-programming library. Participants had 35 minutes to work on two tasks, followed by an unaided quiz.
+Getting a programming task finished and learning the underlying skill are different outcomes. The authors conducted a trial to examine how access to an AI assistant affected what experienced Python users learned while using the unfamiliar Trio asynchronous-programming library. Participants had 35 minutes to work on two tasks, followed by an unaided quiz.
 
-### What we actually did
+### What the reproduction programme checked
 
-We recomputed the quantitative analysis from the released records for all 52 participants: 26 with AI assistance and 26 without it. We used their recorded task times, original quiz grades, experience categories and self-reports to rebuild the group comparisons, adjusted analyses and uncertainty estimates. The adjusted analysis retained the original 50-person subset because two warm-up times were missing. We also checked the published breakdowns of quiz skills and the resampling calculations used for plotted intervals. We did not rerun the teaching session or ask an AI to grade new answers.
+The reproduction programme recomputed the quantitative analysis from the released records for all 52 participants: 26 with AI assistance and 26 without it. Its analysis used their recorded task times, original quiz grades, experience categories and self-reports to rebuild the group comparisons, adjusted analyses and uncertainty estimates. The adjusted analysis retained the original 50-person subset because two warm-up times were missing. The reproduction also checked the published breakdowns of quiz skills and the resampling calculations used for plotted intervals. The programme did not rerun the teaching session or ask an AI to grade new answers.
 
-### What the result tells us
+### What was reproduced and what it means
 
 The selected numerical results reproduced. Average quiz scores were 50.0% with AI and 65.4% without it: about a 15.4-percentage-point gap in this sample. This recovers the evidence for a learning difference in this particular task and population. It does not establish that AI always harms learning, and the reproduced task-time tests do not establish equal speed between groups. The separate qualitative analysis was not reproduced.
 

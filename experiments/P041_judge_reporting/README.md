@@ -6,15 +6,15 @@
 
 ## Study in plain language
 
-### The question
+### What the original authors studied
 
-An AI model is often evaluated by asking another model to mark its answers as correct or incorrect. That judge can make mistakes too. This paper studies how to estimate the first model's true accuracy, and the uncertainty around it, when the judge is imperfect. It also asks how a limited budget of trusted calibration labels should be allocated.
+An AI model is often evaluated by asking another model to mark its answers as correct or incorrect. That judge can make mistakes too. The authors studied how to estimate the first model's true accuracy, and the uncertainty around it, when the judge is imperfect. They also examined how a limited budget of trusted calibration labels should be allocated.
 
-### What we actually did
+### What the reproduction programme checked
 
-We generated artificial correct/incorrect answers and judge decisions with known error rates. Because the true accuracy is known in a simulation, we can check whether a reported uncertainty interval actually contains it across repeated trials. We varied true accuracy across all 21 published settings, recalculated the main figure's coverage and interval-width curves, and checked the authors' original-seed example. We compared the uncorrected judge estimate with the paper's corrections and calibration-allocation rules.
+The reproduction programme generated artificial correct/incorrect answers and judge decisions with known error rates. Because the true accuracy is known in a simulation, the programme can check whether a reported uncertainty interval actually contains it across repeated trials. The reproduction varied true accuracy across all 21 published settings, recalculated the main figure's coverage and interval-width curves, and checked the authors' original-seed example. The reproduction compared the uncorrected judge estimate with the paper's corrections and calibration-allocation rules.
 
-### What the result tells us
+### What was reproduced and what it means
 
 The main figure's numerical behaviour reproduced within the fixed error bounds. This supports the recoverability of that simulation, rather than demonstrating that a real language-model judge works reliably. The broader appendix did not fully reproduce: eight smaller-budget reference figures duplicate larger-budget figures. The central-only scope was adopted after that failure and then checked with new fixed random seeds. Those limitations remain in the detailed results below.
 

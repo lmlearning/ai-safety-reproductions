@@ -6,17 +6,17 @@
 
 ## Study in plain language
 
-### The question
+### What the original authors studied
 
-If an AI and a lecturer both grade an essay, how close are their actual marks? The original study compared ChatGPT-4o with two faculty graders on teacher-education essays about designing a preschool science activity with ScratchJr. Each essay received scores on nine criteria and a total mark.
+If an AI and a lecturer both grade an essay, how close are their actual marks? The authors compared ChatGPT-4o with two faculty graders on teacher-education essays about designing a preschool science activity with ScratchJr. Each essay received scores on nine criteria and a total mark.
 
-### What we actually did
+### What the reproduction programme checked
 
-We used the released 91 grading records from two campuses. For every criterion and the total, we compared all three grader pairs: the two humans with each other, and each human with the AI. We recalculated the paper's intraclass correlation coefficients, or ICCs, which assess agreement in the marks themselves. This is stronger than merely asking whether graders rank students in a similar order. We retained the original missing-score rule: one criterion uses 90 common records; the other criteria and totals use 91. We checked all 86 selected published agreement values, including duplicates reported in different places.
+The reproduction programme used the released 91 grading records from two campuses. For every criterion and the total, its analysis compared all three grader pairs: the two humans with each other, and each human with the AI. The analysis recalculated the paper's intraclass correlation coefficients, or ICCs, which assess agreement in the marks themselves. This is stronger than merely asking whether graders rank students in a similar order. The reproduction retained the original missing-score rule: one criterion uses 90 common records; the other criteria and totals use 91. It checked all 86 selected published agreement values, including duplicates reported in different places.
 
-### What the result tells us
+### What was reproduced and what it means
 
-Every selected value was within 0.010 of the publication, making this a near success; five values still fail the older, tighter criteria. The reported pattern of higher human–human than human–AI agreement also held. We did not have the AI or faculty grade new essays. These results do not show that AI marks are interchangeable with lecturers' marks or reproduce the paper's broader fairness claims.
+Every selected value was within 0.010 of the publication, making this a near success; five values still fail the older, tighter criteria. The reported pattern of higher human–human than human–AI agreement also held. The reproduction programme did not have the AI or faculty grade new essays. These results do not show that AI marks are interchangeable with lecturers' marks or reproduce the paper's broader fairness claims.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 

@@ -2,7 +2,7 @@
 
 This repository documents a local reproduction programme examining recent, well-cited papers in and around AI safety. It contains **21 counted central-result studies: 12 strict reproductions and 9 near successes**. Each paper has an individual report, the scientific code and audit tools used, selected recorded results, and input/provenance records.
 
-You do not need to have read the papers: each report opens with the original question, what we actually did, and what the result tells us. A short [reading guide](READING_GUIDE.md) explains common terms before you get into the numerical audit details.
+Each report distinguishes the original paper's authors and their research from this repository's reproduction programme. It opens with what the authors studied, what the reproduction programme checked, and what the numerical agreement establishes. No prior reading of the paper is assumed. A short [reading guide](READING_GUIDE.md) explains common terms before you get into the numerical audit details.
 
 The reproduced scopes concern AI evaluation, model reliability, emergent misalignment, human–AI interaction, persuasion, education, health and agent transparency. Most are reanalyses of released observations or published effect estimates. They test whether a paper's central analysis can be recovered; they do not independently repeat participant recruitment, original model training or every experiment in a paper.
 

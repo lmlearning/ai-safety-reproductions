@@ -6,17 +6,17 @@
 
 ## Study in plain language
 
-### The question
+### What the original authors studied
 
-Can simple measurements inside a language model distinguish responses labelled aligned from responses labelled misaligned? The paper studies a “probe”: a small classifier trained to recognize a pattern in a larger model’s internal measurements. Recognizing a pattern is different from showing that the pattern causes the model’s behaviour.
+Can simple measurements inside a language model distinguish responses labelled aligned from responses labelled misaligned? The authors studied a “probe”: a small classifier trained to recognize a pattern in a larger model’s internal measurements. Recognizing a pattern is different from showing that the pattern causes the model’s behaviour.
 
-### What we actually did
+### What the reproduction programme checked
 
-We downloaded the authors’ saved measurements and response provenance, covering 897 responses and 55,386 tokens, the pieces of text processed by the model. We fitted the original linear-probe procedure across all four comparisons and nine layers, preserving its labels, balancing, normalization, splits and seeds. We compared all 20 reported prediction metrics, 36 summaries of classifier weights and eight claims. A separately written auditor reconstructed the inputs and refitted the classifiers.
+The reproduction programme downloaded the authors’ saved measurements and response provenance, covering 897 responses and 55,386 tokens, the pieces of text processed by the model. The reproduction code fitted the authors’ linear-probe procedure across all four comparisons and nine layers, preserving its labels, balancing, normalization, splits and seeds. The analysis compared all 20 reported prediction metrics, 36 summaries of classifier weights and eight claims. A separately written reproduction auditor reconstructed the inputs and refitted the classifiers.
 
-### What the result tells us
+### What was reproduced and what it means
 
-This is a retrospective bounded near success. Prediction-metric errors were at most 0.007592 on a 0–1 scale; all graphical comparisons met the unchanged bound. All 6,083 independent checks passed. The original strict result remains 59/64, including documented corrections to two graph transcriptions. Tokens from one response can appear on both sides of the original split, limiting generalization claims. We did not repeat model training, generate new responses, perform causal steering or obtain fresh external model judgments.
+This is a retrospective bounded near success. Prediction-metric errors were at most 0.007592 on a 0–1 scale; all graphical comparisons met the unchanged bound. All 6,083 independent checks passed. The original strict reproduction result remains 59/64, including documented corrections to two graph transcriptions. Tokens from one response can appear on both sides of the authors’ split, limiting generalization claims. The reproduction programme did not repeat model training, generate new responses, perform causal steering or obtain fresh external model judgments.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
@@ -32,7 +32,7 @@ Maximum metric error is 0.007592365 on the 0–1 scale, within 0.010. All 36 gra
 
 ## Issues and omitted work
 
-Two of five old failures were our previously documented graph-transcription errors: medical-panel layers 27/28 are approximately -0.06/-0.03. Correction used the original page; graphical tolerance was not widened. Token-level leakage/dependence and missing response-level independence information remain limitations.
+Two of five old failures were the reproduction programme's previously documented graph-transcription errors: medical-panel layers 27/28 are approximately -0.06/-0.03. Correction used the original page; graphical tolerance was not widened. Token-level leakage/dependence and missing response-level independence information remain limitations.
 
 Base-model training, new generation, causal steering/interventions and fresh external model judging were not reproduced. Probe agreement is not proof of a causal misalignment mechanism.
 

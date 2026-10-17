@@ -6,17 +6,17 @@
 
 ## Study in plain language
 
-### The question
+### What the original authors studied
 
-Can a model solve harder reasoning problems by repeating its internal computation, and can extra repetition sometimes hurt? This paper studies recurrent-depth transformers. A recurrence is another pass through a repeated computation block; a checkpoint is a saved trained model. The reproduced benchmark tests reasoning that requires linking multiple facts.
+Can a model solve harder reasoning problems by repeating its internal computation, and can extra repetition sometimes hurt? The authors studied recurrent-depth transformers. A recurrence is another pass through a repeated computation block; a checkpoint is a saved trained model. The authors’ benchmark tests reasoning that requires linking multiple facts.
 
-### What we actually did
+### What the reproduction programme checked
 
-We evaluated the authors’ nine final checkpoints across all 29,250 held-out examples, up to 40 fixed recurrences, and both original adaptive stopping policies, rules that choose when to stop repeating. Verified completed CPU results for seven checkpoints were retained; the remaining models and adaptive evaluations were completed on GPU. We compared all 3,279 Figure 5 cells. Because a plotted curve does not always reveal an exact number, comparisons retained the ranges supported by the source figure. The whole audit checked predictions, counters, saved outputs and adaptive rules.
+The reproduction programme evaluated the authors’ nine final checkpoints across all 29,250 held-out examples, up to 40 fixed recurrences, and both original adaptive stopping policies, rules that choose when to stop repeating. Verified completed CPU reproduction results for seven checkpoints were retained; the remaining models and adaptive evaluations were completed on GPU. The reproduction analysis compared all 3,279 Figure 5 cells. Because a plotted curve does not always reveal an exact number, comparisons retained the ranges supported by the authors’ figure. The whole reproduction audit checked predictions, counters, saved outputs and adaptive rules.
 
-### What the result tells us
+### What was reproduced and what it means
 
-This is a bounded near success under limits fixed before the final outcome audit. The strict figure-interval rule remains 3,278/3,279: one cell lies 0.015625 percentage points outside its compatible range. All panel and cell near bounds pass, and the published claim interpretations remain compatible. The audit did not independently repeat every pass through the neural network. We did not retrain models or reproduce other seeds and figures; the result does not claim that more computation always helps or establish a universally optimal stopping depth.
+This is a bounded near success under limits fixed before the final outcome audit. The strict figure-interval rule remains 3,278/3,279: one cell lies 0.015625 percentage points outside its compatible range. All panel and cell near bounds pass, and the published claim interpretations remain compatible. The reproduction audit did not independently repeat every pass through the neural network. The reproduction programme did not retrain models or reproduce other seeds and figures; the result does not claim that more computation always helps or establish a universally optimal stopping depth.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 

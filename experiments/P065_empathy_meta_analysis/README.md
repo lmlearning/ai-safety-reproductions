@@ -6,17 +6,17 @@
 
 ## Study in plain language
 
-### The question
+### What the original authors studied
 
-The paper asks whether people rate chatbot responses as more empathetic than responses from healthcare professionals. It brings together results from earlier studies rather than running one new comparison. This is a meta-analysis: each study contributes an estimated difference and a measure of how precisely it was estimated. Combining them can reveal an overall pattern, while also showing how much the studies disagree.
+The original authors asked whether people rate chatbot responses as more empathetic than responses from healthcare professionals. The authors brought together results from earlier studies rather than running one new comparison. This is a meta-analysis: each study contributes an estimated difference and a measure of how precisely it was estimated. Combining them can reveal an overall pattern, while also showing how much the studies disagree.
 
-### What we actually did
+### What the reproduction programme checked
 
-We started with all 13 published effect estimates and standard errors behind Figure 2. Our code recomputed the weighted overall result, the GPT-3.5 and GPT-4 groups, confidence intervals, study weights, differences between groups and variation between studies. More precise results contribute more weight, while the model also allows studies to differ. We compared every planned value and claim with the publication: all 97 comparisons passed. A separately written calculation passed 189 checks. The overall difference was 0.872 standardized units, matching the reported 0.87.
+The reproduction programme started with all 13 published effect estimates and standard errors behind Figure 2. The reproduction code recomputed the weighted overall result, the GPT-3.5 and GPT-4 groups, confidence intervals, study weights, differences between groups and variation between studies. More precise results contribute more weight, while the model also allows studies to differ. The programme compared every planned value and claim with the publication: all 97 comparisons passed. A separately written reproduction calculation passed 189 checks. The reproduced overall difference was 0.872 standardized units, matching the reported 0.87.
 
-### What the result tells us
+### What was reproduced and what it means
 
-The published central calculation is recoverable from its public inputs. Its confidence interval, about 0.54 to 1.20 standardized units, remains positive, but results vary greatly between studies. This concerns perceived empathy in the studied responses, not better medical decisions or patient outcomes. We did not repeat the literature search, assess the trials afresh or collect new responses and ratings.
+The published central calculation is recoverable from its public inputs. Its confidence interval, about 0.54 to 1.20 standardized units, remains positive, but results vary greatly between studies. This concerns perceived empathy in the studied responses, not better medical decisions or patient outcomes. The reproduction programme did not repeat the literature search, assess the trials afresh or collect new responses and ratings.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 

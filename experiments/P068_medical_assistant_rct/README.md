@@ -6,17 +6,17 @@
 
 ## Study in plain language
 
-### The question
+### What the original authors studied
 
-A model can answer a medical exam question well without helping a person make a sound decision about symptoms. The original trial tested that distinction: people read fictional medical scenarios, suggested possible conditions and chose an urgency of care. They were assigned either one of three AI assistants or a control condition using their usual resources, mostly internet search or their own knowledge.
+A model can answer a medical exam question well without helping a person make a sound decision about symptoms. The authors tested that distinction in a randomized trial: people read fictional medical scenarios, suggested possible conditions and chose an urgency of care. They were assigned either one of three AI assistants or a control condition using their usual resources, mostly internet search or their own knowledge.
 
-### What we actually did
+### What the reproduction programme checked
 
-We analysed the released answers, rather than recruiting new people or holding new AI conversations. There were 2,400 responses from 1,298 participants across ten scenarios. We independently rescored each answer against the physicians' reference lists, using the original rule for recognising condition names, and checked whether the selected urgency matched the reference. We then rebuilt the comparisons between groups, including condition identification, serious conditions that should not be missed, and uncertainty around the estimates. Repeated responses from the same person were retained under the original response-level analysis.
+The reproduction programme analysed the released answers, rather than recruiting new people or holding new AI conversations. There were 2,400 responses from 1,298 participants across ten scenarios. Its code independently rescored each answer against the physicians' reference lists, using the original rule for recognising condition names, and checked whether the selected urgency matched the reference. The reproduction then rebuilt the comparisons between groups, including condition identification, serious conditions that should not be missed, and uncertainty around the estimates. Repeated responses from the same person were retained under the original response-level analysis.
 
-### What the result tells us
+### What was reproduced and what it means
 
-The selected scoring and statistical results reproduced. In these released data, relevant-condition identification was about 32–35% in the AI-assisted groups versus 47% in control. That is a finding about this experiment and its scoring rules, not a new clinical test or a measure of actual patient harm. We also retain the source-analysis problems described below; reproducing a calculation does not make its assumptions correct.
+The selected scoring and statistical results reproduced. In these released data, relevant-condition identification was about 32–35% in the AI-assisted groups versus 47% in control. That is a finding about this experiment and its scoring rules, not a new clinical test or a measure of actual patient harm. The report also retains the source-analysis problems described below; reproducing a calculation does not make its assumptions correct.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 

@@ -6,17 +6,17 @@
 
 ## Study in plain language
 
-### The question
+### What the original authors studied
 
-The paper asks how often answers to patient-written medical questions were judged problematic, and whether those judgments differed between four model groups. The evidence is a saved collection of responses and human ratings, not observations of what happened to patients. Its central analysis counts problematic answers, summarizes quality ratings and examines which kinds of problems and agreements occur across models.
+The original authors asked how often answers to patient-written medical questions were judged problematic, and whether those judgments differed between four model groups. Their evidence is a saved collection of responses and human ratings, not observations of what happened to patients. Their central analysis counts problematic answers, summarizes quality ratings and examines which kinds of problems and agreements occur across models.
 
-### What we actually did
+### What the reproduction programme checked
 
-We reanalysed all 888 responses to 222 questions. Our code read the original ratings, reproduced the authors’ label-processing rules, counted problems, calculated means and variation in quality scores, and recomputed every original overall and pairwise comparison. All 141 published comparisons passed, with 20,073 independent checks. Problematic-response rates ranged from about 21.6% for Claude to 43.2% for the pooled Llama group. We also retained all issue categories, correlations and questions that received unanimous judgments.
+The reproduction programme reanalysed all 888 responses to 222 questions. The reproduction code read the authors’ ratings, reproduced the authors’ label-processing rules, counted problems, calculated means and variation in quality scores, and recomputed every original overall and pairwise comparison. The reproduction passed all 141 published comparisons, with 20,073 independent checks. The reproduced problematic-response rates ranged from about 21.6% for Claude to 43.2% for the pooled Llama group. The programme also retained all issue categories, correlations and questions that received unanimous judgments.
 
-### What the result tells us
+### What was reproduced and what it means
 
-The reported comparison can be reconstructed, including its source quirks. Different parts of the original code handle capitalization and trailing spaces differently; we preserved those rules rather than silently cleaning the answers. The Llama group also mixes two versions. No new responses or physician judgments were obtained. These percentages describe the archived ratings, not current model performance, a probability of patient harm or an independent validation of the rating process.
+The reported comparison can be reconstructed, including its source quirks. Different parts of the authors’ code handle capitalization and trailing spaces differently; the reproduction code preserved those rules rather than silently cleaning the answers. The Llama group also mixes two versions. The reproduction programme obtained no new responses or physician judgments. These percentages describe the archived ratings, not current model performance, a probability of patient harm or an independent validation of the rating process.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 

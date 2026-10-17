@@ -63,7 +63,7 @@ Known constraints:
 
 - Independent auditor has explicit absolute ROOT constant; label any publication-copy root substitution.
 
-- The59-row CSV is our published-numeric transcription, not original trial participant data; include attribution and preserve DL/rounding/dependence assumptions.
+- The 59-row CSV is the reproduction programme's transcription of published numbers, not original trial participant data; include attribution and preserve DL/rounding/dependence assumptions.
 
 Original frozen guards, root authorizations and software/code hashes are retained as scientific provenance. They have not been disabled by the publication tools. Some legacy runs therefore need an explicitly documented new execution plan/environment and revised provenance bindings before a new run can start. Never report a hash-only verification, a staged workspace, a source inspection or a partial diagnostic as a fresh successful experiment. Use the original reported scope, retain every comparison and disclose any changes made for a new environment.
 

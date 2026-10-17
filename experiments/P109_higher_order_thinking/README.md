@@ -6,17 +6,17 @@
 
 ## Study in plain language
 
-### The question
+### What the original authors studied
 
-Does generative AI improve students’ higher-order thinking? The paper addresses this through a meta-analysis: combining effect estimates from several studies rather than running one new classroom experiment. Its overall synthesis contains 59 effects from 29 experiments and quasi-experiments. Multiple effects can come from the same study.
+Does generative AI improve students’ higher-order thinking? The authors addressed this through a meta-analysis: combining effect estimates from several studies rather than running one new classroom experiment. Their overall synthesis contains 59 effects from 29 experiments and quasi-experiments. Multiple effects can come from the same study.
 
-### What we actually did
+### What the reproduction programme checked
 
-We transcribed the published effect sizes and their reported precision, then reconstructed both fixed-effect and random-effects summaries. These approaches respectively assume a common effect or allow effects to vary between studies. We propagated uncertainty caused by rounded input numbers and compared all 16 overall effect, interval and heterogeneity targets. Heterogeneity describes variation between study effects. A separate implementation using 80-digit arithmetic checked the complete calculation; it did not repeat the constituent trials.
+The reproduction programme transcribed the authors’ published effect sizes and their reported precision, then reconstructed both fixed-effect and random-effects summaries. These approaches respectively assume a common effect or allow effects to vary between studies. The reproduction analysis propagated uncertainty caused by rounded input numbers and compared all 16 overall effect, interval and heterogeneity targets. Heterogeneity describes variation between study effects. A separate reproduction implementation using 80-digit arithmetic checked the complete calculation; it did not repeat the constituent trials.
 
-### What the result tells us
+### What was reproduced and what it means
 
-The positive pooled effect reproduces under the declared assumptions: our random-effects estimate is 0.608797 versus 0.609, with a closely matching uncertainty interval. This is a retrospective bounded near success, with all 607 independent checks passing. The original strict result remains 15/16: one rounding-uncertainty envelope was slightly wider than its unchanged limit, although it contains the published value. Original software settings and unrounded inputs are unavailable. Treating multiple effects as independent remains an assumption, and four sets of source-incomplete subgroup comparisons were omitted. This supports the reported overall synthesis, not every educational use of AI.
+The positive pooled effect reproduces under the declared assumptions: the reproduction analysis gives a random-effects estimate of 0.608797 versus the authors’ 0.609, with a closely matching uncertainty interval. This is a retrospective bounded near success, with all 607 independent checks passing. The original strict reproduction result remains 15/16: one rounding-uncertainty envelope was slightly wider than its unchanged limit, although it contains the published value. Original software settings and unrounded inputs are unavailable. Treating multiple effects as independent remains an assumption, and four sets of source-incomplete subgroup comparisons were omitted. This supports the authors’ reported overall synthesis, not every educational use of AI.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 

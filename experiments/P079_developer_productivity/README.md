@@ -6,17 +6,17 @@
 
 ## Study in plain language
 
-### The question
+### What the original authors studied
 
-Does access to an AI coding assistant make experienced developers faster on real work? The original trial followed 16 developers completing tasks in familiar open-source projects, with AI access allowed for some tasks and disallowed for others. Its finding concerns this particular trial, rather than every developer or coding tool.
+Does access to an AI coding assistant make experienced developers faster on real work? The authors’ trial followed 16 developers completing tasks in familiar open-source projects, with AI access allowed for some tasks and disallowed for others. Its finding concerns this particular trial, rather than every developer or coding tool.
 
-### What we actually did
+### What the reproduction programme checked
 
-We used all 246 completed tasks in the released dataset. Following the original code, we reconstructed completion times, handled missing review time and fitted the regressions that estimate the AI-access effect while accounting for specified differences between tasks and developers. We also repeated the alternative estimates, forecast comparisons, balance checks and fixed bootstrap calculations. A bootstrap repeatedly resamples observed tasks to describe uncertainty. The independent auditor checked all 150,000 saved draws and the full set of 65 targets.
+The reproduction programme used all 246 completed tasks in the authors’ released dataset. Following the authors’ code, the reproduction analysis reconstructed completion times, handled missing review time and fitted the regressions that estimate the AI-access effect while accounting for specified differences between tasks and developers. It also repeated the alternative estimates, forecast comparisons, balance checks and fixed bootstrap calculations. A bootstrap repeatedly resamples observed tasks to describe uncertainty. The independent reproduction auditor checked all 150,000 saved draws and the full set of 65 targets.
 
-### What the result tells us
+### What was reproduced and what it means
 
-Our estimated slowdown was 18.84%, matching the reported 18.8–19%. The result is a retrospective bounded near success: all 55 non-display targets retain their original passing limits, while all ten integer-displayed time summaries differ by less than one minute. Three still fail their old strict display checks, leaving 62/65 unchanged. All 1,782 independent checks pass. No new developer trial, current-assistant comparison or independent assessment of code quality was conducted; unreleased trial information and historical formatting choices remain unavailable.
+The reproduction analysis estimated a slowdown of 18.84%, matching the authors’ reported 18.8–19%. The result is a retrospective bounded near success: all 55 non-display targets retain their original passing limits, while all ten integer-displayed time summaries differ by less than one minute. Three still fail their old strict display checks, leaving 62/65 unchanged. All 1,782 independent checks pass. No new developer trial, current-assistant comparison or independent assessment of code quality was conducted; unreleased trial information and historical formatting choices remain unavailable.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 

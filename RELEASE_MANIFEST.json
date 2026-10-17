@@ -1,6 +1,6 @@
 {
   "schema": "ai-safety-reproductions-publication-v1",
-  "prepared_utc": "2026-10-17T16:13:18.746005+00:00",
+  "prepared_utc": "2026-10-17T16:32:49.864873+00:00",
   "study_count": 21,
   "strict_central": 12,
   "near_successes": 9,
@@ -68,8 +68,8 @@
     },
     {
       "path": "experiments/P028_convergent_em/README.md",
-      "bytes": 6001,
-      "sha256": "4cbfb97d3f63edee63eb378db531680fc9b0ffedd20f848102865f305b0b60f7"
+      "bytes": 6188,
+      "sha256": "8f90a7de3a3587811f0985f3ee7656f3dcc908ada2c27b5affdd4bad004643ff"
     },
     {
       "path": "experiments/P028_convergent_em/REPRODUCE.md",
@@ -163,8 +163,8 @@
     },
     {
       "path": "experiments/P041_judge_reporting/README.md",
-      "bytes": 7121,
-      "sha256": "a02ef209db5b5263fccbf547fad0c2eecda12d9bb34870aebc3a1bbc5e2582c3"
+      "bytes": 7244,
+      "sha256": "feac6349b41ce7170554c0dace996e874e3b343839a03ffc4ed49cf8860c3e31"
     },
     {
       "path": "experiments/P041_judge_reporting/REPRODUCE.md",
@@ -393,8 +393,8 @@
     },
     {
       "path": "experiments/P065_empathy_meta_analysis/README.md",
-      "bytes": 6758,
-      "sha256": "218f1f3269316e82df895f2344f69b74c23b4cdea108b12c9075b6ac22dd13f3"
+      "bytes": 6929,
+      "sha256": "d577249f35f95489845cee63afb9fea55348fd3716bea6a77ae17c2f35b4fba6"
     },
     {
       "path": "experiments/P065_empathy_meta_analysis/REPRODUCE.md",
@@ -528,8 +528,8 @@
     },
     {
       "path": "experiments/P066_clinical_collaboration_meta/README.md",
-      "bytes": 7390,
-      "sha256": "cf9d9cc9d0d95431dc2737a213844ede837a9f5240348d6a7986ff03bf6f019a"
+      "bytes": 7593,
+      "sha256": "59f27f9e81996898db4492605e284f1d26ed4e649ef9c6a9cbcc13b5a33305a5"
     },
     {
       "path": "experiments/P066_clinical_collaboration_meta/REPRODUCE.md",
@@ -658,8 +658,8 @@
     },
     {
       "path": "experiments/P068_medical_assistant_rct/README.md",
-      "bytes": 7414,
-      "sha256": "c07b9917b58db1bb8f9edffa8ec30a9a796b106c197503bd5aa2c74067686499"
+      "bytes": 7535,
+      "sha256": "eb4d542a68bde1d478a88c86a3060a904ed8cbbc87392b18e7453562e5ae6de2"
     },
     {
       "path": "experiments/P068_medical_assistant_rct/REPRODUCE.md",
@@ -803,8 +803,8 @@
     },
     {
       "path": "experiments/P069_ideation_execution/README.md",
-      "bytes": 6278,
-      "sha256": "5f1988165ba0c952d30cd157ff521c3d024b3c267efef8f6beb65d36c2d6c6f2"
+      "bytes": 6473,
+      "sha256": "c74dd0d1236f73c7a52cf506760a82c77b20dacf9b4c15ae1aeb71cd7291048f"
     },
     {
       "path": "experiments/P069_ideation_execution/REPRODUCE.md",
@@ -883,8 +883,8 @@
     },
     {
       "path": "experiments/P072_levers_persuasion/README.md",
-      "bytes": 7614,
-      "sha256": "20c6e8f36fa037646ba6d9ea83c071d15c542c9b4a583204f394882385ab8ffc"
+      "bytes": 7723,
+      "sha256": "d60619e30653f972b1e854129d2bc9cd510e9590218df561c1938027c13406c0"
     },
     {
       "path": "experiments/P072_levers_persuasion/REPRODUCE.md",
@@ -1023,8 +1023,8 @@
     },
     {
       "path": "experiments/P079_developer_productivity/README.md",
-      "bytes": 7492,
-      "sha256": "c1ec0e4e35c2492abf1bb3fa7ad8280a88be63a7392b2fc89544fd662be9257d"
+      "bytes": 7654,
+      "sha256": "d14f889ee40bd643b29d429109720726d403b30af3f2c903fc127494f1c3f237"
     },
     {
       "path": "experiments/P079_developer_productivity/REPRODUCE.md",
@@ -1183,8 +1183,8 @@
     },
     {
       "path": "experiments/P080_ai_skill_formation/README.md",
-      "bytes": 7068,
-      "sha256": "4e78d18bb12c5c34996592e5d9c445879067efc66a543bf23fde7adee0075ed9"
+      "bytes": 7196,
+      "sha256": "8c77be749bab0f649d9ff24eda28dc2685a5b37b3be692475ef495acb591f133"
     },
     {
       "path": "experiments/P080_ai_skill_formation/REPRODUCE.md",
@@ -1303,8 +1303,8 @@
     },
     {
       "path": "experiments/P103_social_evaluation/README.md",
-      "bytes": 7515,
-      "sha256": "85a9ff5fb3c2a645a4a34b59c816b8b0c55760716f8d75fadacc7d700dea508d"
+      "bytes": 7671,
+      "sha256": "ab13beac72e4db0835ec6ecbd0d886d2a822e0afeed227cc810a4efa020be92f"
     },
     {
       "path": "experiments/P103_social_evaluation/REPRODUCE.md",
@@ -1438,13 +1438,13 @@
     },
     {
       "path": "experiments/P109_higher_order_thinking/README.md",
-      "bytes": 7640,
-      "sha256": "43c7410a5505fc15356d8302cfcba292b57660d517e57a5acc36b01d6d431104"
+      "bytes": 7837,
+      "sha256": "e2754d1649e3a499c2aacf5a7a5e882149cb07c744e2dce0e9a122a83a5aacae"
     },
     {
       "path": "experiments/P109_higher_order_thinking/REPRODUCE.md",
-      "bytes": 5283,
-      "sha256": "57af95b23d48a5fcef2cc445805598e9d84d7814eb603bb8cfaa06b6f16b466e"
+      "bytes": 5312,
+      "sha256": "2083abd767a826d2648697915500cac923612c7273380cecab813447c78019f0"
     },
     {
       "path": "experiments/P109_higher_order_thinking/reproduce.py",
@@ -1578,8 +1578,8 @@
     },
     {
       "path": "experiments/P120_patient_question_safety/README.md",
-      "bytes": 7659,
-      "sha256": "b3488dc7e598463054691dd1a63e129d9b704f11f286eaa9cd9655e9be323da3"
+      "bytes": 7853,
+      "sha256": "3f6d8b97bcb64779696eecfa25cb2edf74a953c9cbea76ade23572e7f05979e4"
     },
     {
       "path": "experiments/P120_patient_question_safety/REPRODUCE.md",
@@ -1743,8 +1743,8 @@
     },
     {
       "path": "experiments/P132_medical_teaching_rct_meta/README.md",
-      "bytes": 8163,
-      "sha256": "cd850f11b891eb620c06f59cb91fe79aa616cf1ddb00e07d3962176a9366bf36"
+      "bytes": 8313,
+      "sha256": "77c5ef8a057141a1453ab93a42aaf58a8e4c95307cc90dd2d82fe42de67cd063"
     },
     {
       "path": "experiments/P132_medical_teaching_rct_meta/REPRODUCE.md",
@@ -2008,8 +2008,8 @@
     },
     {
       "path": "experiments/P133_nursing_ai_meta/README.md",
-      "bytes": 8744,
-      "sha256": "aef836b015597022804c0db9c461ba7b22fe32b61992af95ddeaec652fcafb8b"
+      "bytes": 8917,
+      "sha256": "0fe386afc99100cdf2d860c938986752ad23351adeb69d5c8775fe4aed0a13c7"
     },
     {
       "path": "experiments/P133_nursing_ai_meta/REPRODUCE.md",
@@ -2218,8 +2218,8 @@
     },
     {
       "path": "experiments/P134_young_adult_chatbot_meta/README.md",
-      "bytes": 7994,
-      "sha256": "59a1a263ddae101bf80a9e1c9d6c82419b4c4cc85e44d9eb9b1f8a97cd72d318"
+      "bytes": 8128,
+      "sha256": "6146b13fbf71e60a7b608214e07753167c931916ed934f536d7db2adcb1c7dda"
     },
     {
       "path": "experiments/P134_young_adult_chatbot_meta/REPRODUCE.md",
@@ -2393,8 +2393,8 @@
     },
     {
       "path": "experiments/P135_young_people_chatbot_meta/README.md",
-      "bytes": 7833,
-      "sha256": "5a38e90158f4ddd1fdb515ec3bd7a4ce36f6ae0492d17ce1e1dfbed9d3f2651a"
+      "bytes": 7975,
+      "sha256": "faa51d15a9c78cbcf4a8f06c706270c09f83accce9db4667891b4d7aadb987f6"
     },
     {
       "path": "experiments/P135_young_people_chatbot_meta/REPRODUCE.md",
@@ -2533,8 +2533,8 @@
     },
     {
       "path": "experiments/P150_psychiatric_bias/README.md",
-      "bytes": 6255,
-      "sha256": "b50054a7c48c9f15abfe6d625f27de0cc4b385f793f1f31792dd03124ee7a26a"
+      "bytes": 6352,
+      "sha256": "4096a825c7906425902130f87919f494189b179dc1e0129ceca1a34d20670204"
     },
     {
       "path": "experiments/P150_psychiatric_bias/REPRODUCE.md",
@@ -2643,8 +2643,8 @@
     },
     {
       "path": "experiments/P156_ai_agent_index/README.md",
-      "bytes": 6357,
-      "sha256": "4f1c236d0e1f62156f328609259aab7bee02b4c48138752a90bd629387578d24"
+      "bytes": 6542,
+      "sha256": "7cd1456b2df63695fca5c59b6a30d199510c04a71f9591be25e5d704213cf881"
     },
     {
       "path": "experiments/P156_ai_agent_index/REPRODUCE.md",
@@ -2838,8 +2838,8 @@
     },
     {
       "path": "experiments/P157_loop_think_generalize/README.md",
-      "bytes": 9167,
-      "sha256": "6c0be14d8ca115f09f47f6b730d5ace9846bb290269afdd5585264186fd65b47"
+      "bytes": 9335,
+      "sha256": "5efb6b29c6746367ec44d7e72bbf52c4d73035841ddacbb580c956c5fabb73ea"
     },
     {
       "path": "experiments/P157_loop_think_generalize/REPRODUCE.md",
@@ -2968,8 +2968,8 @@
     },
     {
       "path": "experiments/P161_ai_grading/README.md",
-      "bytes": 7388,
-      "sha256": "a2725b917062bea268ce3cbe91b460fe2d1784275a678c694ecc24202e9ecfa6"
+      "bytes": 7516,
+      "sha256": "a84c3de9da355bb8ae9bab44205ef4871987399221bec1c7df66478ece7d4d23"
     },
     {
       "path": "experiments/P161_ai_grading/REPRODUCE.md",
@@ -3103,8 +3103,8 @@
     },
     {
       "path": "experiments/P165_mentalbench/README.md",
-      "bytes": 8628,
-      "sha256": "d217961b19bfdfa470a37bdd045437dae3cad03325d69b3fae95fe7fda37dfb6"
+      "bytes": 8772,
+      "sha256": "3007d13d78635c85ccf8c41c42a235079d006e4b6dfd833a53e1d93a3c47f866"
     },
     {
       "path": "experiments/P165_mentalbench/REPRODUCE.md",
@@ -3164,17 +3164,17 @@
     {
       "path": "PUBLICATION_CHECKS.json",
       "bytes": 4357,
-      "sha256": "32b8ab4e11b2cde47d60a886ccfddd03a353a7c06cdbdcb50e10a242db706cc9"
+      "sha256": "f279bb2fc5e6e5c39e6a01618d2472145300ac665e4bd76777c27df5cb558e81"
     },
     {
       "path": "READING_GUIDE.md",
-      "bytes": 3335,
-      "sha256": "81f1061429ef1d86a9a93a2119b76972e5925aa86ef5bab5757f1a1c75dc9be7"
+      "bytes": 3551,
+      "sha256": "7447e3ca42169ef4ded3b15a95080cc04658b1f6f9820ada023a85ba50fa4716"
     },
     {
       "path": "README.md",
-      "bytes": 11568,
-      "sha256": "1fa7f5680e6670f00ab5418d3ec4fa5bef47bf412760d27e6daa97a132beb5f9"
+      "bytes": 11719,
+      "sha256": "6a5d2156a9a9c5eefa732b44cdaf5b68c5015e3914c6f206e02287af08e9b22b"
     },
     {
       "path": "REPRODUCING.md",

@@ -6,17 +6,17 @@
 
 ## Study in plain language
 
-### The question
+### What the original authors studied
 
-An appealing research idea may not lead to an equally strong finished project. This paper asks how ideas proposed by language models compare with human ideas once they have been developed into research projects. It uses blinded human reviews, meaning reviewers were not told which source produced an idea.
+An appealing research idea may not lead to an equally strong finished project. The authors asked how ideas proposed by language models compare with human ideas once they have been developed into research projects. Their study used blinded human reviews, meaning reviewers were not told which source produced an idea.
 
-### What we actually did
+### What the reproduction programme checked
 
-We reanalysed the released idea and execution reviews for all 43 completed projects and all 181 execution reviews. Both idea-source groups and all seven evaluation measures were retained. Our code reconstructed the original review-level and project-level summaries, differences between idea and execution scores, correlations and specified exclusion checks. We compared the entire set of 155 published targets. An independent implementation checked the data handling and arithmetic rather than simply importing our analysis.
+The reproduction programme reanalysed the authors’ released idea and execution reviews for all 43 completed projects and all 181 execution reviews. Both idea-source groups and all seven evaluation measures were retained. The reproduction code reconstructed the authors’ review-level and project-level summaries, differences between idea and execution scores, correlations and specified exclusion checks. The analysis compared the entire set of 155 published targets. An independent reproduction implementation checked the data handling and arithmetic rather than simply importing the primary reproduction analysis.
 
-### What the result tells us
+### What was reproduced and what it means
 
-The complete analysis is a retrospective bounded near success. All count and qualitative-claim targets agree; the largest error among 107 numerical summaries is 0.005, within the adopted 0.010 bound in the original score units. All 1,127 independent checks pass. Three mean-gap summaries still miss the original precision rule, so the strict result remains 152/155. We did not generate ideas, execute projects or recruit reviewers anew. Missing stable reviewer identifiers also limit analysis of dependence between reviews by the same person.
+The complete analysis is a retrospective bounded near success. All count and qualitative-claim targets agree; the largest error among 107 numerical summaries is 0.005, within the adopted 0.010 bound in the original score units. All 1,127 independent checks pass. Three mean-gap summaries still miss the original precision rule, so the strict reproduction result remains 152/155. The reproduction programme did not generate ideas, execute projects or recruit reviewers anew. Missing stable reviewer identifiers also limit analysis of dependence between reviews by the same person.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 

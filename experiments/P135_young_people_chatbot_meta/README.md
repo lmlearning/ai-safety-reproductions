@@ -6,17 +6,17 @@
 
 ## Study in plain language
 
-### The question
+### What the original authors studied
 
-The paper asks whether studies of chatbot-delivered interventions show changes in young people’s distress and wellbeing. It combines reported results rather than conducting one new trial. A pooled effect is a weighted summary of those results on a common scale. Its uncertainty interval is essential: an estimate above or below zero can still be compatible with no difference when the interval spans zero.
+The original authors asked whether studies of chatbot-delivered interventions show changes in young people’s distress and wellbeing. They combined reported results rather than conducting one new trial. A pooled effect is a weighted summary of those results on a common scale. Its uncertainty interval is essential: an estimate above or below zero can still be compatible with no difference when the interval spans zero.
 
-### What we actually did
+### What the reproduction programme checked
 
-We retained all 26 published effect summaries: 18 distress effects from 11 trials and eight wellbeing effects from seven trials. We independently recomputed both central statistical families, including their uncertainty, using the method fixed before outcomes. The work also retained all 410 planned original, rounding and leave-out fits. All 50 primary comparisons passed, alongside 26,724 independent comparisons. Distress reproduced as about −0.280, with an interval from −0.461 to −0.099. Wellbeing reproduced as 0.126, with an interval from −0.161 to 0.414.
+The reproduction programme retained all 26 published effect summaries: 18 distress effects from 11 trials and eight wellbeing effects from seven trials. The reproduction analysis independently recomputed both central statistical families, including their uncertainty, using the method fixed before outcomes. The programme also retained all 410 planned original, rounding and leave-out fits. All 50 primary comparisons passed, alongside 26,724 independent comparisons. Distress reproduced as about −0.280, with an interval from −0.461 to −0.099. Wellbeing reproduced as 0.126, with an interval from −0.161 to 0.414.
 
-### What the result tells us
+### What was reproduced and what it means
 
-The published distress reduction and inconclusive wellbeing estimate are recoverable from the released summaries. That success does not extend to every supporting result: 190 supporting displays agree, 109 disagree and 32 are unavailable. Private unrounded inputs, covariance information and parts of the historical analysis remain unknown. We did not rerun the trials or systematic-review process. This verifies the declared central calculation, not independent clinical effectiveness or suitability of chatbot care.
+The published distress reduction and inconclusive wellbeing estimate are recoverable from the released summaries. That success does not extend to every supporting result: 190 supporting displays agree, 109 disagree and 32 are unavailable. Private unrounded inputs, covariance information and parts of the historical analysis remain unknown. The programme did not rerun the trials or systematic-review process. The reproduction verifies the declared central calculation, not independent clinical effectiveness or suitability of chatbot care.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 

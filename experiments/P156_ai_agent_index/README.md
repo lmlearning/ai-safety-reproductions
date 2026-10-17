@@ -6,17 +6,17 @@
 
 ## Study in plain language
 
-### The question
+### What the original authors studied
 
-How much information do AI-agent developers disclose about their products and safety practices? The AI Agent Index organizes published information about 30 agents. Our reproduction concerns the authors’ released annotations: their recorded judgments about disclosure. It is not a fresh investigation of what every company publishes today or a direct test of agent safety.
+How much information do AI-agent developers disclose about their products and safety practices? The authors’ AI Agent Index organizes published information about 30 agents. The reproduction concerns the authors’ released annotations: their recorded judgments about disclosure. It is not a fresh investigation of what every company publishes today or a direct test of agent safety.
 
-### What we actually did
+### What the reproduction programme checked
 
-We independently read the original JSON and CSV releases, covering all 45 fields for each agent: 1,350 coded cells, including 240 safety-related cells. Both implementations applied the original qualified “None found” rule, preserving distinctions between that code, other missing-information markers and informative text. We rebuilt the full Enterprise, Browser and Chat category comparisons and assessed all eight central published proportions, using the original denominators.
+The reproduction programme independently read the authors’ original JSON and CSV releases, covering all 45 fields for each agent: 1,350 coded cells, including 240 safety-related cells. Both reproduction implementations applied the original qualified “None found” rule, preserving distinctions between that code, other missing-information markers and informative text. The reproduction analysis rebuilt the full Enterprise, Browser and Chat category comparisons and assessed all eight central published proportions, using the original denominators.
 
-### What the result tells us
+### What was reproduced and what it means
 
-This is a retrospective bounded near success. Every proportion is within three percentage points; the largest difference is 2.083333 points. The implementations agree across all 21 checked result and data-origin categories. Our totals differ from the paper by one overall field and two safety fields. The old 4/8 strict result and three caption failures, including the Browser/Enterprise reversal, remain recorded. We did not substitute a later website version or reannotate the agents. A “None found” annotation does not prove that no relevant information exists, and the unrecovered auxiliary mean remains unavailable.
+This is a retrospective bounded near success. Every proportion is within three percentage points; the largest difference is 2.083333 points. The reproduction implementations agree across all 21 checked result and data-origin categories. The reproduction totals differ from the paper by one overall field and two safety fields. The old 4/8 strict result and three caption failures, including the Browser/Enterprise reversal, remain recorded. The reproduction programme did not substitute a later website version or reannotate the agents. A “None found” annotation does not prove that no relevant information exists, and the unrecovered auxiliary mean remains unavailable.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 

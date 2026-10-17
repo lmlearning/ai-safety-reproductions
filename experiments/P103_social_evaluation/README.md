@@ -6,17 +6,17 @@
 
 ## Study in plain language
 
-### The question
+### What the original authors studied
 
-People may worry that using AI will make them seem lazy, less competent or replaceable. This paper examines that social-evaluation concern. The contribution reproduced here concerns people’s anticipated evaluations in AI-tool versus dashboard-tool situations, not a new experiment measuring how employers or colleagues actually judge AI users.
+People may worry that using AI will make them seem lazy, less competent or replaceable. The authors examined that social-evaluation concern. The contribution reproduced here concerns people’s anticipated evaluations in AI-tool versus dashboard-tool situations, not a new experiment measuring how employers or colleagues actually judge AI users.
 
-### What we actually did
+### What the reproduction programme checked
 
-We reanalysed the original 500 survey records, retaining the fixed 497-person rating cohort after the original three exclusions for giving the same answer throughout. The analysis combined 21 question items into six scales, reconstructed the group comparisons and correlations, and included the separate 201-person manipulation check—a check that participants understood the intended situation. We compared every one of the 108 targets. A separately written auditor independently reconstructed the calculations; missing demographic ages did not remove anyone from the rating analysis.
+The reproduction programme reanalysed the authors’ original 500 survey records, retaining the fixed 497-person rating cohort after the original three exclusions for giving the same answer throughout. The reproduction analysis combined 21 question items into six scales, reconstructed the group comparisons and correlations, and included the separate 201-person manipulation check—a check that participants understood the intended situation. It compared every one of the 108 targets. A separately written reproduction auditor independently reconstructed the calculations; missing demographic ages did not remove anyone from the rating analysis.
 
-### What the result tells us
+### What was reproduced and what it means
 
-This is a retrospective bounded near success. Both routes retain the original 107/108 result, and all 1,484 independent computational checks pass. The sole strict miss is 0.051949 in a Welch test’s degrees of freedom, a quantity used to calculate uncertainty when groups have unequal variation. The effect estimates, intervals and statistical conclusions remain compatible. A printing explanation is plausible but unproven. Later actual-perception, hiring, mediation and other study families were outside the frozen scope, so neither whole-paper reproduction nor a universal social penalty is claimed.
+This is a retrospective bounded near success. Both reproduction routes retain the original 107/108 result, and all 1,484 independent computational checks pass. The sole strict miss is 0.051949 in a Welch test’s degrees of freedom, a quantity used to calculate uncertainty when groups have unequal variation. The effect estimates, intervals and statistical conclusions remain compatible. A printing explanation is plausible but unproven. The authors’ later actual-perception, hiring, mediation and other study families were outside the frozen reproduction scope, so neither whole-paper reproduction nor a universal social penalty is claimed.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 

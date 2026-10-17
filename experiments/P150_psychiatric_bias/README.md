@@ -6,15 +6,15 @@
 
 ## Study in plain language
 
-### The question
+### What the original authors studied
 
-The paper asks whether psychiatric diagnosis and treatment responses change when a patient's racial cue changes while the rest of the case is held fixed. The original study presented ten case descriptions in three race-cue versions to four models. Human raters judged differences from the race-neutral baseline; those ratings measure potential bias, not whether a diagnosis was clinically correct.
+The authors investigated whether psychiatric diagnosis and treatment responses change when a patient's racial cue changes while the rest of the case is held fixed. They presented ten case descriptions in three race-cue versions to four models. Human raters judged differences from the race-neutral baseline; those ratings measure potential bias, not whether a diagnosis was clinically correct.
 
-### What we actually did
+### What the reproduction programme checked
 
-We started from the released ratings rather than generating or judging new responses. The selected analysis contains 160 bias scores: two non-neutral race comparisons, two outcome types and ten cases for each of four models. We recalculated the models' score rankings, an overall rank-based test of differences between models, all six pairwise comparisons and their multiple-comparison corrections. The 160 scores should not be confused with the 120 original model responses. We also analysed the conflicting second version of the published score data instead of quietly merging them.
+The reproduction programme started from the released ratings rather than generating or judging new responses. The selected analysis contains 160 bias scores: two non-neutral race comparisons, two outcome types and ten cases for each of four models. Its analysis recalculated the models' score rankings, an overall rank-based test of differences between models, all six pairwise comparisons and their multiple-comparison corrections. The 160 scores should not be confused with the 120 original model responses. The reproduction also analysed the conflicting second version of the published score data instead of quietly merging them.
 
-### What the result tells us
+### What was reproduced and what it means
 
 The designated Table 9 analysis reproduced all 25 central comparisons, including the model ordering and pairwise decisions. The alternative source version matched only 14 of them, and several descriptive results still disagree. This reproduces one complete statistical comparison of the recorded bias ratings. It does not validate all the paper's numbers, repeat human annotation, measure real patient outcomes or establish that any model is generally fair or safe for clinical use.
 

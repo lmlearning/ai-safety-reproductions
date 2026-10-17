@@ -6,15 +6,15 @@
 
 ## Study in plain language
 
-### The question
+### What the original authors studied
 
-What makes an AI conversation persuasive? The original experiments measured people's agreement with policy positions before and after exposure to persuasive material. They varied features such as having a dialogue instead of reading a static argument, personalisation, prompting and how the model had been trained.
+What makes an AI conversation persuasive? In their original experiments, the authors measured people's agreement with policy positions before and after exposure to persuasive material. They varied features such as having a dialogue instead of reading a static argument, personalisation, prompting and how the model had been trained.
 
-### What we actually did
+### What the reproduction programme checked
 
-We used the released participant records from all three studies to rebuild the complete selected policy-attitude analysis. For each comparison, the code recreated the original group assignments and exclusions, calculated the changes in reported attitudes, and fitted the same statistical designs used by the source scripts. We then checked the published estimates, uncertainty intervals, tests and participant counts across the selected 93 tables. This included follow-up and robustness analyses; it did not involve generating new persuasive messages or recruiting another sample.
+The reproduction programme used the released participant records from all three studies to rebuild the complete selected policy-attitude analysis. For each comparison, the code recreated the original group assignments and exclusions, calculated the changes in reported attitudes, and fitted the same statistical designs used by the source scripts. The reproduction then checked the published estimates, uncertainty intervals, tests and participant counts across the selected 93 tables. This included follow-up and robustness analyses; it did not involve generating new persuasive messages or recruiting another sample.
 
-### What the result tells us
+### What was reproduced and what it means
 
 All 2,470 selected comparisons reproduced after a documented correction to which source script defined two designs. For example, dialogue-versus-static differences reproduced at about 2.94 and 3.60 percentage points in studies 1 and 3. These are changes in the study's attitude measure, not evidence that the arguments were true, that people changed their real-world behaviour, or that every kind of AI persuasion has the same effect. The paper's separate factual-accuracy and scaling analyses were outside this reproduction.
 

@@ -6,15 +6,15 @@
 
 ## Study in plain language
 
-### The question
+### What the original authors studied
 
-A mental-health response can sound convincing while receiving very different quality ratings from different evaluators. MentalBench investigates how AI judges and a human reference rate responses, and how the choice of judge affects comparisons between responding models. The released material covers 1,000 one-turn contexts, responses from nine models plus a human source, seven rating attributes and four AI judges.
+A mental-health response can sound convincing while receiving very different quality ratings from different evaluators. The authors developed MentalBench to investigate how AI judges and a human reference rate responses, and how the choice of judge affects comparisons between responding models. The rated subset used for this reproduction covers 1,000 one-turn contexts, responses from nine models plus a human source, seven rating attributes and four AI judges.
 
-### What we actually did
+### What the reproduction programme checked
 
-We joined the released records by their explicit conversation IDs and rebuilt the central statistical analysis from the existing ratings. This included mean scores, agreement with the human reference, judge differences and the selected comparisons between models. The central agreement calculation uses model-level averages; its resampling is over models, not a fresh sample of 1,000 people. We preserved the original missing values and the released aggregated human reference. We did not recover the three experts' separate rating arrays or generate new responses.
+The reproduction programme joined the released records by their explicit conversation IDs and rebuilt the central statistical analysis from the existing ratings. This included mean scores, agreement with the human reference, judge differences and the selected comparisons between models. The central agreement calculation uses model-level averages; its resampling is over models, not a fresh sample of 1,000 people. Its analysis preserved the original missing values and the released aggregated human reference. The programme did not recover the three experts' separate rating arrays or generate new responses.
 
-### What the result tells us
+### What was reproduced and what it means
 
 Agreement estimates and all 23 selected central contrasts reproduced closely, but only 315 of the original 324 numerical targets passed. One guidance mean differs by 0.308 on a 1–5 scale, and eight interval quantities have material errors. This is therefore a qualified near success, with substantial exceptions, rather than a uniform small-error match. It does not establish reliable clinical treatment, validate every auxiliary table or show that all judges are interchangeable.
 

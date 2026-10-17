@@ -6,17 +6,17 @@
 
 ## Study in plain language
 
-### The question
+### What the original authors studied
 
-The paper combines randomized teaching studies to ask whether generative-AI approaches change medical learners’ knowledge, practical skills or satisfaction. Different studies use different tests, so their results are converted to a common standardized difference before combination. The pooled estimate summarizes the reported differences; its confidence interval expresses their statistical uncertainty. A wide interval can leave both improvement and no improvement compatible with the evidence.
+The original authors combined randomized teaching studies to ask whether generative-AI approaches change medical learners’ knowledge, practical skills or satisfaction. Different studies use different tests, so their results are converted to a common standardized difference before combination. The pooled estimate summarizes the reported differences; its confidence interval expresses their statistical uncertainty. A wide interval can leave both improvement and no improvement compatible with the evidence.
 
-### What we actually did
+### What the reproduction programme checked
 
-We started with every published mean, standard deviation and sample size in the 17 comparisons. We recalculated the standardized effects, eleven pooled summaries, uncertainty, variation between studies and four comparisons between subgroups. All 141 primary comparisons, 79 supporting comparisons and 141 stricter display-precision checks passed. The independent calculation passed 6,859,667 comparisons. The reproduced standardized differences were about 0.27 for knowledge, 0.63 for skills and 1.18 for satisfaction; the knowledge interval includes zero.
+The reproduction programme started with every published mean, standard deviation and sample size in the 17 comparisons. The reproduction analysis recalculated the standardized effects, eleven pooled summaries, uncertainty, variation between studies and four comparisons between subgroups. All 141 primary comparisons, 79 supporting comparisons and 141 stricter display-precision checks passed. A separate programme calculation passed 6,859,667 comparisons. The reproduced standardized differences were about 0.27 for knowledge, 0.63 for skills and 1.18 for satisfaction; the knowledge interval includes zero.
 
-### What the result tells us
+### What was reproduced and what it means
 
-The published central synthesis is recoverable, not independently confirmed by new teaching experiments. We retained source choices that complicate interpretation: analytic counts differ from initial allocations, some participants appear in both immediate and delayed analyses, and a figure’s direction labels are reversed. We did not reconstruct participant records, screening decisions or the original unrounded analysis project. Reproducing the arithmetic does not establish that AI improves every learning outcome or that overlapping comparisons are independent.
+The published central synthesis is recoverable, not independently confirmed by new teaching experiments. The reproduction analysis retained source choices that complicate interpretation: analytic counts differ from initial allocations, some participants appear in both immediate and delayed analyses, and a figure’s direction labels are reversed. The programme did not reconstruct participant records, screening decisions or the original unrounded analysis project. Reproducing the arithmetic does not establish that AI improves every learning outcome or that overlapping comparisons are independent.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 

@@ -1,6 +1,6 @@
 # Reading the reproduction reports
 
-Every study starts with the original question, what we actually did, and what the result tells us. The detailed sections then give the numerical comparisons, problems and audit records. You can understand the introduction without first reading the paper.
+Each report separates **what the original authors studied** from **what the reproduction programme checked** and explains **what was reproduced and what it means**. The authors designed the original studies and produced the source papers; the reproduction programme independently checked the stated calculations, simulations or model evaluations. The detailed sections give the numerical comparisons, problems and audit records. No prior reading of the paper is assumed.
 
 ## What kind of work was repeated?
 

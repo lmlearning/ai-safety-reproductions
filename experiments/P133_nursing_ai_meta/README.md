@@ -6,17 +6,17 @@
 
 ## Study in plain language
 
-### The question
+### What the original authors studied
 
-The paper brings together studies of AI awareness, attitudes and implementation in nursing education. Its central quantitative figures estimate proportions for these three outcomes. A pooled proportion combines study estimates while allowing for differences in their precision and substantial differences between studies. It is a summary of the reported measurements, not a direct test that a given nurse or student can use AI safely.
+The original authors brought together studies of AI awareness, attitudes and implementation in nursing education. Their central quantitative figures estimate proportions for these three outcomes. A pooled proportion combines study estimates while allowing for differences in their precision and substantial differences between studies. It is a summary of the reported measurements, not a direct test that a given nurse or student can use AI safely.
 
-### What we actually did
+### What the reproduction programme checked
 
-We retained all 43 reported rows from 18 studies: 15 for awareness, 16 for attitudes and 12 for implementation. Our code transformed the proportions for statistical calculation, combined them, calculated uncertainty and converted them back to percentages. It also reconstructed study intervals, weights and variation between studies. All 129 input comparisons, 263 central figure comparisons and three central claims passed; the independent implementation passed 312,782 checks. The main estimates reproduce as approximately 73%, 71% and 67%, with their published intervals.
+The reproduction programme retained all 43 reported rows from 18 studies: 15 for awareness, 16 for attitudes and 12 for implementation. The reproduction code transformed the proportions for statistical calculation, combined them, calculated uncertainty and converted them back to percentages. The reproduction code also reconstructed study intervals, weights and variation between studies. All 129 input comparisons, 263 central figure comparisons and three central claims passed; a separately written reproduction implementation passed 312,782 checks. The main estimates reproduce as approximately 73%, 71% and 67%, with their published intervals.
 
-### What the result tells us
+### What was reproduced and what it means
 
-The three declared central figures reproduce, but the wider analysis does not uniformly agree: only 19 of 114 supporting displays match. The authors’ exact software settings are unavailable, so our source-supported method was fixed before calculation rather than claimed as recovered history. We did not repeat the underlying studies, literature screening or qualitative synthesis. These results do not validate every subgroup conclusion, resolve source inconsistencies or establish clinical competence.
+The three declared central figures reproduce, but the wider analysis does not uniformly agree: only 19 of 114 supporting displays match. The authors’ exact software settings are unavailable, so the reproduction programme fixed its source-supported method before calculation rather than claiming recovered history. The programme did not repeat the underlying studies, literature screening or qualitative synthesis. These results do not validate every subgroup conclusion, resolve source inconsistencies or establish clinical competence.
 
 The sections below give the detailed comparisons and caveats. For common statistical and model terms, see the [reading guide](../../READING_GUIDE.md).
 
