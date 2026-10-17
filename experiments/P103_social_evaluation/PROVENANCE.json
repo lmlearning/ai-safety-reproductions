@@ -3,7 +3,7 @@
   "source_archive": "ai-safety-reproductions",
   "files": [
     {
-      "published_path": "results/P103_archived_complete_central_near_assessment_CPU051__ALL108_UNALTERED_TARGETS_AND_CLOSED_ERROR_ARITHMETIC_CPU051.json",
+      "published_path": "results/P103_archived_complete_central_near_assessment_CPU051__ALL108_UNA__d5650336.json",
       "original_relative_path": "operations/P103_archived_complete_central_near_assessment_CPU051/ALL108_UNALTERED_TARGETS_AND_CLOSED_ERROR_ARITHMETIC_CPU051.json",
       "role": "result",
       "purpose": "Complete aggregate target/error/audit ledger; exclude underlying participant rows, predictions, logits and bootstrap arrays",
@@ -15,7 +15,7 @@
       "changes": "UTF-8/BOM normalization and workstation-prefix replacement only"
     },
     {
-      "published_path": "evidence/ADDITIVE_P103_RETAINED_ELIGIBILITY_DISTINCTNESS_AND_FROZEN_CENTRAL_SCOPE_P092052.json",
+      "published_path": "evidence/ADDITIVE_P103_RETAINED_ELIGIBILITY_DISTINCTNESS_AND_FROZEN_CENTRA__b1fd21ec.json",
       "original_relative_path": "operations/P103_retained_identity_scope_P092052/ADDITIVE_P103_RETAINED_ELIGIBILITY_DISTINCTNESS_AND_FROZEN_CENTRAL_SCOPE_P092052.json",
       "role": "evidence",
       "purpose": "Counted-scope decision, complete vector or independent review",

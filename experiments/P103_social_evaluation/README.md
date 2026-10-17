@@ -59,7 +59,7 @@ The folder also provides [a local artifact tool](reproduce.py), [input acquisiti
 
 ## Results and audit trail
 
-- [P103_archived_complete_central_near_assessment_CPU051__ALL108_UNALTERED_TARGETS_AND_CLOSED_ERROR_ARITHMETIC_CPU051.json](results/P103_archived_complete_central_near_assessment_CPU051__ALL108_UNALTERED_TARGETS_AND_CLOSED_ERROR_ARITHMETIC_CPU051.json) — Complete aggregate target/error/audit ledger; exclude underlying participant rows, predictions, logits and bootstrap arrays
+- [P103_archived_complete_central_near_assessment_CPU051__ALL108_UNA__d5650336.json](results/P103_archived_complete_central_near_assessment_CPU051__ALL108_UNA__d5650336.json) — Complete aggregate target/error/audit ledger; exclude underlying participant rows, predictions, logits and bootstrap arrays
 - [P103_social_evaluation__REPORT_FINAL_AUDIT003_SUPPLEMENT_20261010.md.txt](results/P103_social_evaluation__REPORT_FINAL_AUDIT003_SUPPLEMENT_20261010.md.txt) — Complete aggregate target/error/audit ledger; exclude underlying participant rows, predictions, logits and bootstrap arrays
 - [audit003__AUDIT.json](results/audit003__AUDIT.json) — Complete aggregate target/error/audit ledger; exclude underlying participant rows, predictions, logits and bootstrap arrays
 - [audit003__AUDIT_MANIFEST.json](results/audit003__AUDIT_MANIFEST.json) — Archived numerical result, complete target comparison, audit or run metadata
@@ -68,6 +68,6 @@ The folder also provides [a local artifact tool](reproduce.py), [input acquisiti
 - [run001__RESULT_MANIFEST.json](results/run001__RESULT_MANIFEST.json) — Archived numerical result, complete target comparison, audit or run metadata
 - [run001__published_target_gates.json](results/run001__published_target_gates.json) — Complete aggregate target/error/audit ledger; exclude underlying participant rows, predictions, logits and bootstrap arrays
 
-- [ADDITIVE_P103_RETAINED_ELIGIBILITY_DISTINCTNESS_AND_FROZEN_CENTRAL_SCOPE_P092052.json](evidence/ADDITIVE_P103_RETAINED_ELIGIBILITY_DISTINCTNESS_AND_FROZEN_CENTRAL_SCOPE_P092052.json) — Counted-scope decision, complete vector or independent review
+- [ADDITIVE_P103_RETAINED_ELIGIBILITY_DISTINCTNESS_AND_FROZEN_CENTRA__b1fd21ec.json](evidence/ADDITIVE_P103_RETAINED_ELIGIBILITY_DISTINCTNESS_AND_FROZEN_CENTRA__b1fd21ec.json) — Counted-scope decision, complete vector or independent review
 
 The full included-file index is [PROVENANCE.json](PROVENANCE.json). The [historical report](evidence/HISTORICAL_REPORT.txt) preserves the counted report's original qualifications; old warehouse paths there are historical references rather than public download links. Published copies normalize workstation paths and UTF-8 encoding. Their hashes are recorded separately from the original archive hashes.

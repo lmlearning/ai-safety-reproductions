@@ -3,7 +3,7 @@
   "source_archive": "ai-safety-reproductions",
   "files": [
     {
-      "published_path": "results/P109_archived_complete_synthesis_near_assessment_CPU052__ALL16_ORIGINAL_SYNTHESIS_COMPARISONS_AND_UNCHANGED_ENVELOPES_CPU052.json",
+      "published_path": "results/P109_archived_complete_synthesis_near_assessment_CPU052__ALL16_OR__5d4d24a4.json",
       "original_relative_path": "operations/P109_archived_complete_synthesis_near_assessment_CPU052/ALL16_ORIGINAL_SYNTHESIS_COMPARISONS_AND_UNCHANGED_ENVELOPES_CPU052.json",
       "role": "result",
       "purpose": "Complete aggregate target/error/audit ledger; exclude underlying participant rows, predictions, logits and bootstrap arrays",

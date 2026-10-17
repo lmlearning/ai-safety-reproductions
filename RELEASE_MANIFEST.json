@@ -1,6 +1,6 @@
 {
   "schema": "ai-safety-reproductions-publication-v1",
-  "prepared_utc": "2026-10-17T15:50:51.872548+00:00",
+  "prepared_utc": "2026-10-17T15:54:03.475362+00:00",
   "study_count": 21,
   "strict_central": 12,
   "near_successes": 9,
@@ -1257,7 +1257,7 @@
       "sha256": "207542a5b760da321b667ab5d7f2eaaef6106a8200890b5cb72412a3391f5641"
     },
     {
-      "path": "experiments/P103_social_evaluation/evidence/ADDITIVE_P103_RETAINED_ELIGIBILITY_DISTINCTNESS_AND_FROZEN_CENTRAL_SCOPE_P092052.json",
+      "path": "experiments/P103_social_evaluation/evidence/ADDITIVE_P103_RETAINED_ELIGIBILITY_DISTINCTNESS_AND_FROZEN_CENTRA__b1fd21ec.json",
       "bytes": 15145,
       "sha256": "8d96c6ac4b7f7f77e9ed5cce81fbd11f255b80277fb5b4e83ea8241ad618db26"
     },
@@ -1298,13 +1298,13 @@
     },
     {
       "path": "experiments/P103_social_evaluation/PROVENANCE.json",
-      "bytes": 11895,
-      "sha256": "f521d24fbcbdbaf3598d4e523ebba03a278c2d1c308b983aa6561a31d49f88da"
+      "bytes": 11851,
+      "sha256": "f775f798b175a555823a4dfba88fc2ec1afc8775ea09d7efaff891e8c0ae425d"
     },
     {
       "path": "experiments/P103_social_evaluation/README.md",
-      "bytes": 6304,
-      "sha256": "e8429a99f3052e1d6db68fd54b629687df30f20b85e5d87e374a73df5e3d7625"
+      "bytes": 6216,
+      "sha256": "9833f2d96e3472a7c82dd6d35f2ddc635d288b367f3f87bd4563b8c790954db4"
     },
     {
       "path": "experiments/P103_social_evaluation/REPRODUCE.md",
@@ -1342,7 +1342,7 @@
       "sha256": "51b8b0b6b631f4937aa57d3fb79481c0124a5ef3db8b1f4f9c50860315bc7d46"
     },
     {
-      "path": "experiments/P103_social_evaluation/results/P103_archived_complete_central_near_assessment_CPU051__ALL108_UNALTERED_TARGETS_AND_CLOSED_ERROR_ARITHMETIC_CPU051.json",
+      "path": "experiments/P103_social_evaluation/results/P103_archived_complete_central_near_assessment_CPU051__ALL108_UNA__d5650336.json",
       "bytes": 68533,
       "sha256": "794793b51eb48ea7ab7c78beb30592d12ab222a575e902b50267cb9825dde080"
     },
@@ -1433,13 +1433,13 @@
     },
     {
       "path": "experiments/P109_higher_order_thinking/PROVENANCE.json",
-      "bytes": 12092,
-      "sha256": "afd85ffffe0951f09ba2c852533fe7604823b837b2acf875d159c5be7ab3f43d"
+      "bytes": 12043,
+      "sha256": "7c8d4d7d24b1e76dc51998c0cc86b4f90a74d28da33c34aac52e34fa223718a7"
     },
     {
       "path": "experiments/P109_higher_order_thinking/README.md",
-      "bytes": 6503,
-      "sha256": "3697b123b1c7d995a8f4c56af1930fedd7f78a7fac4713635a32e6ac66c1d9de"
+      "bytes": 6405,
+      "sha256": "d48e2ba5fdd249825276b7216afaf445a7bb2e7dc732a454ca9bd2fa22f07b95"
     },
     {
       "path": "experiments/P109_higher_order_thinking/REPRODUCE.md",
@@ -1487,7 +1487,7 @@
       "sha256": "16f7b20777c2df56c5edfbcb60949df2a254bc52a9e3bdb1abab65180e496bdd"
     },
     {
-      "path": "experiments/P109_higher_order_thinking/results/P109_archived_complete_synthesis_near_assessment_CPU052__ALL16_ORIGINAL_SYNTHESIS_COMPARISONS_AND_UNCHANGED_ENVELOPES_CPU052.json",
+      "path": "experiments/P109_higher_order_thinking/results/P109_archived_complete_synthesis_near_assessment_CPU052__ALL16_OR__5d4d24a4.json",
       "bytes": 16532,
       "sha256": "77f08fdbe577928801d035a66337cb85a668b807fdacba21c7eb5f15f0418555"
     },
@@ -1998,13 +1998,13 @@
     },
     {
       "path": "experiments/P133_nursing_ai_meta/PROVENANCE.json",
-      "bytes": 23897,
-      "sha256": "70e5f5c57a22f2a91a8fdd42f43b646575d5f478af445f9201dd8c56d1460fbb"
+      "bytes": 23857,
+      "sha256": "8f4d4dd93b0c9f151ce11dd3479ed79718f5006f747c4a22bfe37fdb0ed2205d"
     },
     {
       "path": "experiments/P133_nursing_ai_meta/README.md",
-      "bytes": 7440,
-      "sha256": "c84641b960bc7fa6c574232520da9e4f144285fe295cc7687336463acafb9cec"
+      "bytes": 7360,
+      "sha256": "fa95756d0e3cfdb59c958b0accba07dce306a6b4cb6426c159e47f37e3acd801"
     },
     {
       "path": "experiments/P133_nursing_ai_meta/REPRODUCE.md",
@@ -2067,12 +2067,12 @@
       "sha256": "50ac535bd37a70de2dcdf42ca3c4499119865f925adef4f2a34a6721f9f43c88"
     },
     {
-      "path": "experiments/P133_nursing_ai_meta/results/final_original029_closure001__COMPLETE_ORIGINAL029_NATIVE_OUTPUT_HASH_ABSENCE_AND_AUDIT_CLOSURE001.json",
+      "path": "experiments/P133_nursing_ai_meta/results/final_original029_closure001__COMPLETE_ORIGINAL029_NATIVE_OUTPUT___e3726583.json",
       "bytes": 13470,
       "sha256": "80200f1824a0440781ddacd335ade5e52c0425e20d82461bce9c39e78a005e4e"
     },
     {
-      "path": "experiments/P133_nursing_ai_meta/results/final_original029_closure001__FINAL_COMPLETE_ORIGINAL029_CLOSURE_AND_REPORT_REVIEW_PACKET001.json",
+      "path": "experiments/P133_nursing_ai_meta/results/final_original029_closure001__FINAL_COMPLETE_ORIGINAL029_CLOSURE___a3d68e42.json",
       "bytes": 3143,
       "sha256": "67a68ecaa36ce7938b834ff14112b99bf4e998a2dce41bf4010ab331a54fe612"
     },
@@ -3093,13 +3093,13 @@
     },
     {
       "path": "experiments/P165_mentalbench/PROVENANCE.json",
-      "bytes": 12714,
-      "sha256": "196d39e16066cc72aed17fddc8a5be0a9f8e85c3fc9df912020baa9cdd7366f0"
+      "bytes": 12700,
+      "sha256": "8afcc9e1e0bf74d9cbc568aeb352629f636c2a8791fc8e4a3bc2444aced7ff4d"
     },
     {
       "path": "experiments/P165_mentalbench/README.md",
-      "bytes": 7481,
-      "sha256": "172f5796e9c8d658d7c3de22d6b74b782bb3171d72246eab14aaa7ff66c801e9"
+      "bytes": 7453,
+      "sha256": "49843dcbde07dd18be7c03c486fd708eb6a19211e4f70e60c9b2673747af24b0"
     },
     {
       "path": "experiments/P165_mentalbench/REPRODUCE.md",
@@ -3122,7 +3122,7 @@
       "sha256": "c1485096d4df8511e837dae0ea3a2f8c4f5fb11b20eb24df76e29a19b3a9f793"
     },
     {
-      "path": "experiments/P165_mentalbench/results/P165_reviewed_source_ROOT929__ROOT_COMPLETE_CLOSED_P165_ANALYSIS_AND_INDEPENDENT_AUDIT957.json",
+      "path": "experiments/P165_mentalbench/results/P165_reviewed_source_ROOT929__ROOT_COMPLETE_CLOSED_P165_ANALYSIS___1d0cc830.json",
       "bytes": 3831,
       "sha256": "7ee233be8fc00fe4e4a45022b078e9ee404ef4fdfa136eaa7ad0d182cc8898b1"
     },
@@ -3144,7 +3144,7 @@
     {
       "path": "PUBLICATION_CHECKS.json",
       "bytes": 4282,
-      "sha256": "160de80e75b8c6c89945d64f390f36a6fb4bf7974283fa400fd954b2d00c6da6"
+      "sha256": "7e673c96792e5010a75f2f8b25872067d32600efa6ce01b550fa48040596034e"
     },
     {
       "path": "README.md",
@@ -3168,8 +3168,8 @@
     },
     {
       "path": "tools/validate_structure.py",
-      "bytes": 3772,
-      "sha256": "d1ccb0627809998c0c8c2ab13a089df412aa3bc560005cfb1ff705279f9ef6c8"
+      "bytes": 3946,
+      "sha256": "b91c40f2e35716d3cb0cf116a9610bf9b95fa75f46e3fb991c04755abd42d2b6"
     },
     {
       "path": "tools/verify_release.py",

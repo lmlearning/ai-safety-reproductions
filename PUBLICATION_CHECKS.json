@@ -1,6 +1,6 @@
 {
   "record_scope": "Local preparation validation before the initial upload; external-publication fields describe this timestamp only.",
-  "prepared_utc": "2026-10-17T15:50:51.872548+00:00",
+  "prepared_utc": "2026-10-17T15:54:03.475362+00:00",
   "status": "PASS",
   "structural_validation": {
     "ok": true,

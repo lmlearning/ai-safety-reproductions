@@ -57,7 +57,7 @@ The folder also provides [a local artifact tool](reproduce.py), [input acquisiti
 
 ## Results and audit trail
 
-- [P109_archived_complete_synthesis_near_assessment_CPU052__ALL16_ORIGINAL_SYNTHESIS_COMPARISONS_AND_UNCHANGED_ENVELOPES_CPU052.json](results/P109_archived_complete_synthesis_near_assessment_CPU052__ALL16_ORIGINAL_SYNTHESIS_COMPARISONS_AND_UNCHANGED_ENVELOPES_CPU052.json) — Complete aggregate target/error/audit ledger; exclude underlying participant rows, predictions, logits and bootstrap arrays
+- [P109_archived_complete_synthesis_near_assessment_CPU052__ALL16_OR__5d4d24a4.json](results/P109_archived_complete_synthesis_near_assessment_CPU052__ALL16_OR__5d4d24a4.json) — Complete aggregate target/error/audit ledger; exclude underlying participant rows, predictions, logits and bootstrap arrays
 - [P109-central-001__comparisons.json](results/P109-central-001__comparisons.json) — Complete aggregate target/error/audit ledger; exclude underlying participant rows, predictions, logits and bootstrap arrays
 - [independent_audit002__AUDIT_MANIFEST.json](results/independent_audit002__AUDIT_MANIFEST.json) — Archived numerical result, complete target comparison, audit or run metadata
 - [independent_audit002__AUDIT_STATUS.json](results/independent_audit002__AUDIT_STATUS.json) — Complete aggregate target/error/audit ledger; exclude underlying participant rows, predictions, logits and bootstrap arrays

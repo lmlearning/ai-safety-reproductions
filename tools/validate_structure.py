@@ -37,6 +37,8 @@ def validate(root: Path) -> dict:
             continue
         if path.stat().st_size >= 100_000_000:
             failures.append(str(path.relative_to(root)) + " exceeds this release's100MB per-file packaging bound")
+        if len(path.relative_to(root).as_posix()) > 160:
+            failures.append(str(path.relative_to(root)) + " exceeds the160-character relative path packaging bound")
         if path.suffix.lower() == ".py":
             try:
                 ast.parse(path.read_text(encoding="utf-8"), filename=str(path.relative_to(root)))
